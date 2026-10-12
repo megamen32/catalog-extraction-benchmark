@@ -12,7 +12,7 @@ See: .planning/PROJECT.md (updated 2026-10-12)
 Phase: 3 of 3 (Public release)
 Plan: 1 of 1 in current phase
 Status: Complete
-Last activity: 2026-10-12 — Published v0.1.0 and verified installation from the public tag.
+Last activity: 2026-10-12 — Fixed drawing token/view scoring in v0.2.1; frozen model executions remain unchanged.
 
 Progress: [██████████] 100%
 
@@ -39,3 +39,11 @@ Resume file: None
 ## Release verification
 
 v0.1.0 is public. Clean installation from the public tag, dataset verification, synthetic 4-arm execution/resume and grading of saved artifacts from both solutions succeeded. 37 tests passed. CI template is in examples because the publishing credential lacks workflow scope; local make check is available. Original documents and historical outputs remain excluded.
+
+### Quick Tasks Completed
+
+| # | Description | Date | Commit | Directory |
+|---|---|---|---|---|
+| 261012-9vv | Fix drawing token boundaries and reject swapped views | 2026-10-12 | Source commit for this task | [261012-9vv](./quick/261012-9vv-fix-drawing-token-boundaries-without-cha/) |
+
+Owner permission on 2026-10-12 explicitly allows publication of public catalogue JSON examples and compact benchmark outputs with actual program versions. Raw logs, transcripts, credentials and model weights remain excluded. Historical releases and frozen grader cohorts are preserved.

@@ -122,3 +122,46 @@ def test_pulse_duration_after_abbreviation_period_is_valid():
     from catalog_bench.profiles.opn_small import header_matches
     assert header_matches({'parameter':'остающееся при 5 кА 8/20'}, {'label':'Остающееся напряжение при грозовых импульсах тока длит. 8/20 величиной: 5 кА', 'unit':'кВ'})
     assert not header_matches({'parameter':'остающееся при 5 кА 8/20'}, {'label':'Остающееся напряжение при 5 кА 1.8/20', 'unit':'кВ'})
+
+
+def test_drawing_prose_punctuation_and_separate_labels_preserve_numeric_boundaries():
+    facts = json.loads(fixture_path('catalog-1-page-026').read_text())['selected_facts'][-4:]
+    figure = {'title': 'ОПН 35 кВ, заряд 1,1 Кл, исполнения III и IV',
+              'description': 'Главный вид: общая высота 476, высота между базами 465±1, далее. Вид А: φ13 2 отв. Вид Б: φ11 4 отв.',
+              'labels': ['476', '465±1', 'φ13', '2 отв.', 'φ11', '4 отв.']}
+    assert all(check('catalog-1-page-026', f, {'tables': [], 'figures': [figure]})['status'] == 'passed' for f in facts)
+    # Whitespace must not join independent dimensions into one longer number.
+    figure = {'title': '1,1 Кл, исполнения III и IV', 'description': '', 'labels': ['476', '465±1']}
+    assert all(check('catalog-1-page-026', f, {'tables': [], 'figures': [figure]})['status'] == 'passed' for f in facts[:2])
+
+
+def test_drawing_tokens_still_reject_longer_numbers_decimals_and_wrong_execution():
+    facts = json.loads(fixture_path('catalog-1-page-026').read_text())['selected_facts'][-4:]
+    for value in ['4760', '476,5', '476.5', '1476', '12,476', '12.476']:
+        figure = {'title': '1,1 Кл, исполнения III и IV', 'description': value, 'labels': []}
+        assert check('catalog-1-page-026', facts[0], {'tables': [], 'figures': [figure]})['status'] == 'missing'
+    figure = {'title': '1,1 Кл, исполнение III', 'description': '476, 465±1', 'labels': []}
+    assert check('catalog-1-page-026', facts[0], {'tables': [], 'figures': [figure]})['status'] == 'missing'
+    figure = {'title': '1,1 Кл', 'description': 'Вид А: φ130 2 отв.', 'labels': []}
+    assert check('catalog-1-page-026', facts[2], {'tables': [], 'figures': [figure]})['status'] == 'missing'
+
+
+def test_drawing_bottom_view_modifier_preserves_explicit_view_association():
+    fact = json.loads(fixture_path('catalog-1-page-026').read_text())['selected_facts'][-1]
+    for view, expected in [('вид снизу Б', 'passed'), ('вид снизу Г', 'missing')]:
+        figure = {'title': '1,1 Кл, III и IV', 'description': view + ': Ø11 (4 отв.).', 'labels': ['Б', 'Ø11', '4 отв.']}
+        assert check('catalog-1-page-026', fact, {'tables': [], 'figures': [figure]})['status'] == expected
+
+
+def test_swapped_drawing_views_cannot_share_dimension_tokens():
+    facts = json.loads(fixture_path('catalog-1-page-026').read_text())['selected_facts'][-2:]
+    figure = {'title': '1,1 Кл III IV', 'description': 'Вид А: φ11 4 отв.; Вид Б: φ13 2 отв.', 'labels': ['φ13', '2 отв.', 'φ11', '4 отв.']}
+    assert all(check('catalog-1-page-026', f, {'tables': [], 'figures': [figure]})['status'] == 'missing' for f in facts)
+    figure['description'] = 'Вид А: φ13 4 отв.; Вид Б: φ11 2 отв.'
+    assert all(check('catalog-1-page-026', f, {'tables': [], 'figures': [figure]})['status'] == 'missing' for f in facts)
+
+
+def test_single_view_figure_title_scopes_its_native_labels():
+    fact = json.loads(fixture_path('catalog-1-page-026').read_text())['selected_facts'][-1]
+    figure = {'title': '1,1 Кл, Вид Б', 'description': 'нижний фланец', 'labels': ['Ø11', '4 отв.']}
+    assert check('catalog-1-page-026', fact, {'tables': [], 'figures': [figure]})['status'] == 'passed'

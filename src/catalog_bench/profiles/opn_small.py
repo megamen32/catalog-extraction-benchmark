@@ -116,6 +116,37 @@ def eligible_table(cid, loc, d):
         return [(idx, d['tables'][idx])] if len(d['tables']) > idx else []
     return list(enumerate(d.get('tables', [])))
 
+def drawing_token_matches(token, source_text):
+    # Preserve label/prose boundaries. Only commas between digits are decimals;
+    # a punctuation comma after a dimension must not make the value disappear.
+    token = norm(token).replace('Ø', 'φ')
+    source_text = unicodedata.normalize('NFC', source_text).replace('Ø', 'φ').replace('–', '-').replace('−', '-')
+    pieces = re.findall(r'\d+(?:[.,]\d+)?|[^\d]+', token)
+    pattern = r'\s*'.join(re.escape(piece) for piece in pieces)
+    return re.search(r'(?<!\d)(?<!\d[.,])' + pattern + r'(?!\d)(?![.,]\d)', source_text) is not None
+
+def drawing_view_sections(fig, wanted_view):
+    marker = re.compile(r'\bвид(?:\s+(?:снизу|сверху|сбоку))?\s*([АБВГ])\b', re.I)
+    narrative = ' '.join([fig.get('title', ''), fig.get('description', '')])
+    matches = list(marker.finditer(narrative))
+    sections = []
+    for index, match in enumerate(matches):
+        if match.group(1).upper() == wanted_view:
+            end = matches[index + 1].start() if index + 1 < len(matches) else len(narrative)
+            sections.append(narrative[match.end():end])
+    # A separately titled single-view figure can scope its labels. In a
+    # multi-view figure, pooled labels cannot rescue values in the wrong view.
+    title_views = {m.group(1).upper() for m in marker.finditer(fig.get('title', ''))}
+    all_views = {m.group(1).upper() for m in matches}
+    if title_views == all_views == {wanted_view}:
+        sections.append(' '.join(fig.get('labels', [])))
+    for label in fig.get('labels', []):
+        match = marker.search(label)
+        if match and match.group(1).upper() == wanted_view:
+            next_view = marker.search(label, match.end())
+            sections.append(label[match.end():next_view.start() if next_view else len(label)])
+    return sections
+
 def check(cid, f, d):
     base = dict(expected=f, status='missing', reason='No matching model / parameter association.', candidate_evidence=[], literal_value_match=None, normalization=None)
     loc = f['location']
@@ -128,21 +159,13 @@ def check(cid, f, d):
         cand = []
         for (i, fig) in enumerate(figs):
             tx = ' '.join([fig.get('title', ''), fig.get('description', '')] + fig.get('labels', []))
-            nt = norm(tx)
             if 'lower' in loc and '1,1' not in tx and ('1.1' not in tx):
                 continue
             if 'IV' in ent and (not re.search('\\bIV\\b', tx)):
                 continue
-            if 'вид А' in loc and (not re.search('(?:вид|по)\\s*А\\b', tx, re.I)):
-                continue
-            if 'вид Б' in loc and (not re.search('(?:вид|фланца\\s*\\()\\s*Б\\b', tx, re.I)):
-                continue
-            for tok in tokens:
-                tok = tok.replace('Ø', 'φ')
-                nt = nt.replace('Ø', 'φ')
-                if not re.search(r'(?<![\d.,])' + re.escape(tok) + r'(?![\d.,])', nt):
-                    break
-            else:
+            view = 'А' if 'вид А' in loc else 'Б' if 'вид Б' in loc else None
+            sections = drawing_view_sections(fig, view) if view else [tx]
+            if any(all(drawing_token_matches(tok, section) for tok in tokens) for section in sections):
                 cand.append((i, fig))
         if not cand:
             return base

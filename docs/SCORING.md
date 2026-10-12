@@ -17,3 +17,7 @@ Reports retain failures, unavailable assertions, changed artifacts and malformed
 `all_verified_checks_passed` means only the frozen assertions passed. No score certifies full prose, every source note, all figure dimensions/tolerances, complete merge geometry, every invention, or a production-ready Excel catalogue. Full-page ground truth is explicitly false in each case and score.
 
 Historical evaluations used an earlier private grader. This public version adds stricter checks for collapsed headers, identity evidence, figure-token boundaries and label denials. Regrade the same immutable outputs before comparing numbers between versions.
+
+## Grader v0.2.1: drawing token boundaries
+
+Drawing matching keeps separators between independent labels and accepts ordinary punctuation after a dimension. It still rejects a longer number or a decimal continuation (for example `476` does not match `476,5`) and requires the original charge group, execution and view association. This fixes false misses in retained page-26 agent outputs; annotations and expected values are unchanged. Frozen v0.2.0 measurements remain historical results. Regrading saved output with v0.2.1 is a new grader cohort, not another model execution.
