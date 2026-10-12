@@ -33,3 +33,7 @@ Do not compare that single agent run to direct-parser totals, label it a reviewe
 - Unstructured Transform MCP, Mistral OCR annotations, Azure Layout, Google Document AI Layout: hosted processors, requiring their own accounts.
 
 Unmeasured tools have no engineering score in this report. Each new backend must be adapted without repairing against gold and evaluated under a separate versioned cohort.
+
+## Published-version GLM first pass
+
+GLM 5.3 Flash (zai.glm-5.3-flash?reasoning=low) with catalog-to-json 1.3.0, executed Git d3398f0668bbf5c5744a3237f53fca9d09087287, parser plugin 0.1.0: 128/140 engineering and literal table checks, 9/11 figure labels, 3/3 negative assertions; elapsed 107.150 s, timeout 900 s. Same original physical page 78, no reviewer or gold feedback. Missing shared-cell values remain failures. Original candidate, execution receipt and detailed score are retained. The MiniMax prototype trial used different source hashes, so these two first passes are not a matched model comparison.
