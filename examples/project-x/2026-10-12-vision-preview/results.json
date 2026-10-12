@@ -1,0 +1,341 @@
+{
+  "participant": "Project X",
+  "snapshot": "ProjectX-snapshot-20261012",
+  "evaluation_kind": "preliminary individual integration probes, not the three-round full benchmark",
+  "models_compared_on_same_accepted_page": [
+    "MiniMax-M3.1-Flash-Preview",
+    "glm-5.3-flash"
+  ],
+  "source_code_published": false,
+  "transcripts_published": false,
+  "native_artifacts_verified_by_independent_reviewer": true,
+  "configuration": {
+    "images": "whole page at144DPI plus two overlapping half-page crops at216DPI;24point overlap on each side of midpoint",
+    "canonical_context": "native default bounded context, linked first6 source blocks",
+    "output": "native VisualAnalysis v2; full catalogue task output in structured_data.metadata.catalogue_page",
+    "max_output_tokens": 32768,
+    "temperature": 1,
+    "provider_transport": "Coding endpoints; native schema also provided as text; provider-specific transport shim",
+    "native_json_syntax_repair_maximum": 1
+  },
+  "entries": [
+    {
+      "case_id": "catalog-4-page-078",
+      "participant": "Project X",
+      "variant": "modified native Vision integration v1",
+      "snapshot": "ProjectX-snapshot-20261012",
+      "integration_sha256": "f31b03eb2eb058a1c5f6237040f4eb152f3ce10472a9734558081e618498dfa3",
+      "model": "MiniMax-M3.1-Flash-Preview",
+      "status": "native-accepted",
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "original_physical_page": 78,
+      "canonical_table_count": 0,
+      "canonical_tables_mutated": false,
+      "native_schema_version": 2,
+      "native_elapsed_seconds": 50.755,
+      "subprocess_wall_seconds": 52.15,
+      "provider_calls": 1,
+      "provider_attempts": [
+        {
+          "attempt": 1,
+          "provider": "anthropic",
+          "requested_model": "MiniMax-M3.1-Flash-Preview",
+          "started_unix": 1791818068.3562868,
+          "status": "returned",
+          "endpoint": "https://api.minimax.io/anthropic/v1/messages",
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "medium",
+          "http_status": 200,
+          "finished_unix": 1791818119.0594962,
+          "elapsed_seconds": 50.703,
+          "returned_model": "MiniMax-M3.1-Flash-Preview",
+          "response_id": "071c2c5505209545fb992b88f0f5382a",
+          "usage": {
+            "input_tokens": 10682,
+            "output_tokens": 10742,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 189,
+            "output_tokens_details": {
+              "thinking_tokens": 2037
+            }
+          },
+          "finish_reason": "end_turn",
+          "content_characters": 38342,
+          "reasoning_characters": 7398
+        }
+      ],
+      "engineering_selected": {
+        "correct": 108,
+        "expected": 140,
+        "percent": 77.14,
+        "statuses": {
+          "passed": 108,
+          "wrong": 20,
+          "missing": 8,
+          "ambiguous": 4
+        }
+      },
+      "drawing_assertions": {
+        "correct": 0,
+        "expected": 0,
+        "full_drawing_accuracy_measured": false
+      },
+      "artifacts": {
+        "content": {
+          "path": "minimax-page-078.content.json",
+          "sha256": "afea57290150c2b242fa4cc1586715f1d1854ac94f940c32d4554fdd4dc7957d"
+        },
+        "native_analysis": {
+          "path": "minimax-page-078.native_analysis.json",
+          "sha256": "aabd3d6cd9dd077616b915162ead54c11d6620b85e74701d411a121a221fdae0"
+        },
+        "grade": {
+          "path": "minimax-page-078.grade.json",
+          "sha256": "9a09565e685ebfc63b8b7a01846b6c894582c5850c6158c2b589d5334a4087fe"
+        }
+      },
+      "repeats": 1
+    },
+    {
+      "case_id": "catalog-4-page-078",
+      "participant": "Project X",
+      "variant": "modified native Vision integration v1",
+      "snapshot": "ProjectX-snapshot-20261012",
+      "integration_sha256": "f31b03eb2eb058a1c5f6237040f4eb152f3ce10472a9734558081e618498dfa3",
+      "model": "glm-5.3-flash",
+      "status": "native-accepted",
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "original_physical_page": 78,
+      "canonical_table_count": 0,
+      "canonical_tables_mutated": false,
+      "native_schema_version": 2,
+      "native_elapsed_seconds": 106.563,
+      "subprocess_wall_seconds": 107.57,
+      "provider_calls": 1,
+      "provider_attempts": [
+        {
+          "attempt": 1,
+          "provider": "zai",
+          "requested_model": "glm-5.3-flash",
+          "started_unix": 1791818150.8004048,
+          "status": "returned",
+          "endpoint": "https://api.z.ai/api/coding/paas/v4/chat/completions",
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "low",
+          "http_status": 200,
+          "finished_unix": 1791818257.3066638,
+          "elapsed_seconds": 106.506,
+          "returned_model": "glm-5.3-flash",
+          "response_id": "20261012231551a68cf6e971dd4278",
+          "usage": {
+            "completion_tokens": 7872,
+            "completion_tokens_details": {
+              "reasoning_tokens": 267
+            },
+            "prompt_tokens": 10721,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 18593
+          },
+          "finish_reason": "stop",
+          "content_characters": 18387,
+          "reasoning_characters": 641
+        }
+      ],
+      "engineering_selected": {
+        "correct": 136,
+        "expected": 140,
+        "percent": 97.14,
+        "statuses": {
+          "passed": 136,
+          "missing": 4
+        }
+      },
+      "drawing_assertions": {
+        "correct": 0,
+        "expected": 0,
+        "full_drawing_accuracy_measured": false
+      },
+      "artifacts": {
+        "content": {
+          "path": "glm-page-078.content.json",
+          "sha256": "be065d79022103e9efc32198084b6a0ab19c022d98e92f3993ef4443464afee9"
+        },
+        "native_analysis": {
+          "path": "glm-page-078.native_analysis.json",
+          "sha256": "677047b5a1a32de4546ded69f0b48b202002b66f00eb58b155e04a9ab3a12a7c"
+        },
+        "grade": {
+          "path": "glm-page-078.grade.json",
+          "sha256": "08b585863a29787b6aa3c554d052d0b885eea7067eaab55cd8d6e4b2aa453a94"
+        }
+      },
+      "repeats": 1
+    },
+    {
+      "case_id": "catalog-1-page-027",
+      "participant": "Project X",
+      "variant": "modified native Vision integration v1",
+      "snapshot": "ProjectX-snapshot-20261012",
+      "integration_sha256": "f31b03eb2eb058a1c5f6237040f4eb152f3ce10472a9734558081e618498dfa3",
+      "model": "MiniMax-M3.1-Flash-Preview",
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "original_physical_page": 27,
+      "status": "failed",
+      "failure_stage": "native JSON parsing after one native model-assisted JSON syntax repair",
+      "canonical_tables_mutated": false,
+      "native_elapsed_seconds": null,
+      "subprocess_wall_seconds": 89.724,
+      "provider_calls": 2,
+      "provider_attempts": [
+        {
+          "attempt": 1,
+          "provider": "anthropic",
+          "requested_model": "MiniMax-M3.1-Flash-Preview",
+          "started_unix": 1791818351.761558,
+          "status": "returned",
+          "endpoint": "https://api.minimax.io/anthropic/v1/messages",
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "medium",
+          "http_status": 200,
+          "finished_unix": 1791818392.9122672,
+          "elapsed_seconds": 41.151,
+          "returned_model": "MiniMax-M3.1-Flash-Preview",
+          "response_id": "071c2d7045728444275717796739a7fb",
+          "usage": {
+            "input_tokens": 10564,
+            "output_tokens": 11473,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 189,
+            "output_tokens_details": {
+              "thinking_tokens": 1542
+            }
+          },
+          "finish_reason": "end_turn",
+          "content_characters": 28986,
+          "reasoning_characters": 5678
+        },
+        {
+          "attempt": 2,
+          "provider": "anthropic",
+          "requested_model": "MiniMax-M3.1-Flash-Preview",
+          "started_unix": 1791818392.922224,
+          "status": "returned",
+          "endpoint": "https://api.minimax.io/anthropic/v1/messages",
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "medium",
+          "http_status": 200,
+          "finished_unix": 1791818438.9476485,
+          "elapsed_seconds": 46.025,
+          "returned_model": "MiniMax-M3.1-Flash-Preview",
+          "response_id": "071c2d999e21f7c025abd2f21cef764c",
+          "usage": {
+            "input_tokens": 10021,
+            "output_tokens": 12273,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 189,
+            "output_tokens_details": {
+              "thinking_tokens": 2343
+            }
+          },
+          "finish_reason": "end_turn",
+          "content_characters": 28985,
+          "reasoning_characters": 10794
+        }
+      ],
+      "scorable_native_visual_artifact": false,
+      "raw_responses_retained_privately": true,
+      "repeats": 1
+    },
+    {
+      "case_id": "catalog-1-page-039",
+      "participant": "Project X",
+      "variant": "modified native Vision integration v1",
+      "snapshot": "ProjectX-snapshot-20261012",
+      "integration_sha256": "f31b03eb2eb058a1c5f6237040f4eb152f3ce10472a9734558081e618498dfa3",
+      "model": "MiniMax-M3.1-Flash-Preview",
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "original_physical_page": 39,
+      "status": "failed",
+      "failure_stage": "native JSON parsing after one native model-assisted JSON syntax repair",
+      "canonical_tables_mutated": false,
+      "native_elapsed_seconds": null,
+      "subprocess_wall_seconds": 62.215,
+      "provider_calls": 2,
+      "provider_attempts": [
+        {
+          "attempt": 1,
+          "provider": "anthropic",
+          "requested_model": "MiniMax-M3.1-Flash-Preview",
+          "started_unix": 1791818704.5138528,
+          "status": "returned",
+          "endpoint": "https://api.minimax.io/anthropic/v1/messages",
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "medium",
+          "http_status": 200,
+          "finished_unix": 1791818744.815128,
+          "elapsed_seconds": 40.301,
+          "returned_model": "MiniMax-M3.1-Flash-Preview",
+          "response_id": "071c2ed15660e288fb00d43643443266",
+          "usage": {
+            "input_tokens": 10641,
+            "output_tokens": 9195,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 189,
+            "output_tokens_details": {
+              "thinking_tokens": 2191
+            }
+          },
+          "finish_reason": "end_turn",
+          "content_characters": 22548,
+          "reasoning_characters": 8861
+        },
+        {
+          "attempt": 2,
+          "provider": "anthropic",
+          "requested_model": "MiniMax-M3.1-Flash-Preview",
+          "started_unix": 1791818744.8248093,
+          "status": "returned",
+          "endpoint": "https://api.minimax.io/anthropic/v1/messages",
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "medium",
+          "http_status": 200,
+          "finished_unix": 1791818765.1873052,
+          "elapsed_seconds": 20.362,
+          "returned_model": "MiniMax-M3.1-Flash-Preview",
+          "response_id": "071c2ef9581175aaff47b61fd904bdd4",
+          "usage": {
+            "input_tokens": 7095,
+            "output_tokens": 7349,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 189,
+            "output_tokens_details": {
+              "thinking_tokens": 345
+            }
+          },
+          "finish_reason": "end_turn",
+          "content_characters": 22548,
+          "reasoning_characters": 1644
+        }
+      ],
+      "scorable_native_visual_artifact": false,
+      "raw_responses_retained_privately": true,
+      "repeats": 1
+    }
+  ],
+  "limitations": [
+    "Only one accepted page78 attempt per model; not a stable model ranking.",
+    "Canonical ParsedDocument tables are not rewritten; catalogue output is retained in the visual sidecar metadata.",
+    "The selected140 engineering checks are not full-page or full-drawing accuracy.",
+    "Eight MiniMax wrong literal checks are Cyrillic М vs Latin M in4М16, visually equivalent; original strict scores are retained.",
+    "The source drawing tolerance H±2 is mistranscribed by both models; it is not part of the140 scored facts.",
+    "Failed attempts and model-assisted JSON repair usage are retained; no whole-program score is inferred from these probes."
+  ]
+}

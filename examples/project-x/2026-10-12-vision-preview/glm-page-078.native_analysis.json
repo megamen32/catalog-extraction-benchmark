@@ -1,0 +1,1160 @@
+{
+  "schema_version": 2,
+  "analysis_id": "projectx-native-analysis",
+  "package_id": "projectx-native-package",
+  "source_file_id": "projectx-source",
+  "document_id": "input",
+  "visual_asset_ids": [
+    "projectx-page-region-1",
+    "projectx-page-region-2",
+    "projectx-page-region-3"
+  ],
+  "task": "Extract this entire public engineering catalogue page faithfully. This is transcription, not a summary of selected numbers. Keep every table in printed order, every printed product row and column, all hierarchical and rotated headers, literal units and qualifiers, blanks and printed dashes. Repeat a merged cell value only across the rows/columns it visibly spans. Do not invent missing values, materials, purposes or drawing labels.\nReturn the native VisualAnalysis response schema. Put the full page transcription in extracted_text. In structured_data use schema_version=1, content_type=other, chart=null. In structured_data.metadata put catalogue_page with this exact shape:\n{title:string,printed_page:string|null,text_blocks:[{kind:heading|paragraph|branding|footer,text:string}],tables:[{id:string,title:string,columns:[{id:string,label:string,unit:string|null,group:string|null,qualifier:string|null}],rows:[{cells:[{column_id:string,value:string|number|null,state:value|blank|unknown}]}]}],figures:[{title:string,description:string,labels:[string]}],source_notes:[string],uncertainties:[string]}.\nEvery table row must contain one cell per column. Preserve visible numeric punctuation and symbols literally; unit contains only the source unit symbol. Actual empty cells use null/blank; unreadable cells use null/unknown. Drawing descriptions must associate each visible dimension with the actual feature or endpoints it measures, distinguish views, and state ambiguity rather than guessing. Keep catalogue_page data separate from the native deterministic ParsedDocument: this visual analysis is an independent artifact. At most eight findings as required by the native prompt; complete tables belong in metadata, not abbreviated findings. No external knowledge or unseen source pages.",
+  "provider": "zai-coding",
+  "model": "glm-5.3-flash",
+  "prompt_version": "ProjectX-native-vision-integration-v1",
+  "status": "complete_with_warnings",
+  "summary": "Catalogue page (printed page 78) for polymer post rod insulators ОСК 8-150 and ОСК 10-150 at 150 kV, with purpose text, a dimensioned line drawing (elevation plus two flange plan views A and Б), a technical parameters table with rotated headers, and a connecting dimensions table.",
+  "extracted_text": "ИЗОЛЯТОРЫ ОПОРНЫЕ СТЕРЖНЕВЫЕ ПОЛИМЕРНЫЕ\nФОЭНЕРГО / FORENERGO — производственное объединение / manufacturing association\nИЗОЛЯТОРЫ ОПОРНЫЕ ПОЛИМЕРНЫЕ НА НАПРЯЖЕНИЕ 150 кВ ТИПА ОСК 8-150, ОСК 10-150\nНАЗНАЧЕНИЕ:\nПредназначены для изоляции и крепления токоведущих частей в электрических аппаратах и в распределительных устройствах электростанций и подстанций переменного тока напряжением 150 кВ частотой до 100 Гц при температуре окружающего воздуха от - 60 до + 50 °С. Климатическое исполнение и категория размещения УХЛ 1 по ГОСТ 15150.\nИзготавливаются по ТУ 3494-024-82442590-2015 (ТУ 3494-017-82442590-2011)\nСоответствуют ГОСТ Р 52082.\n\nТАБЛИЦА 1 (заголовки повернуты): Наименование | Номинальное напряжение, кВ | Нормированная механическая разрушающая сила при изгибе, кН | Нормированный разрушающий крутящий момент, кН·м | Строительная высота Н, мм, не более | Диаметр ребер, D, мм | Изоляционная высота L, мм, не менее | Длина пути тока утечки, мм, не менее | Выдерживаемое напряжение, кВ: полного грозового импульса / 50 Гц в сухом состоянии / 50 Гц под дождем | Разрядное напряжение 50 Гц в загрязненном и увлажненном состоянии, кВ, не менее | Нормированная удельная поверхностная проводимость слоя загрязнения, мкСм | Допустимая степень загрязнения (С3) по ГОСТ 9920 | Масса, кг, не более\nОСК 8-150-А-2 | 150 | 8 | 2,0 | 1600 | 170 | 1360 | 4100 | 650 | 300 | 300 | 150 | 10 | II | 80\nОСК 8-150-Б-3 | (то же) | | | 1700 | | 1460 | 4400 | | | | | 20 | III |\nОСК 10-150-А-2 | (то же) | 10 | | 1600 | | 1360 | 4100 | | | | | 10 | II |\nОСК 10-150-Б-3 | (то же) | | | 1700 | | 1460 | 4400 | | | | | 20 | III |\n\nПРИСОЕДИНИТЕЛЬНЫЕ РАЗМЕРЫ ИЗОЛЯТОРОВ\nТАБЛИЦА 2: Наименование | Н, мм | Верхний фланец: D1, мм / B1, мм / d1, мм | Нижний фланец: D2, мм / B2, м / d2, мм\nОСК 8-150-А-2 | 1600 | Ø127 | | 4М16 | Ø200 | | 4Ø18\nОСК 8-150-А01-2 | | Ø127 | | 4М16 | | □160 | 4Ø18\nОСК 8-150-А02-2 | | | □160 | 4Ø18 | | □180 | 4Ø18\nОСК 8-150-Б-3 | 1700 | Ø127 | | 4М16 | Ø200 | | 4Ø18\nОСК 8-150-Б01-3 | | Ø127 | | 4М16 | | □160 | 4Ø18\nОСК 10-150-А-2 | 1600 | Ø127 | | 4М16 | Ø200 | | 4Ø18\nОСК 10-150-А01-2 | | Ø127 | | 4М16 | | □160 | 4Ø18\nОСК 10-150-А02-2 | | | □160 | 4Ø18 | | □180 | 4Ø18\nОСК 10-150-Б-3 | 1700 | Ø127 | | 4М16 | Ø200 | | 4Ø18\nОСК 10-150-Б01-3 | | Ø127 | | 4М16 | | □160 | 4Ø18\n\n78 | ООО «ИНСТА» | Тел./ факс: +7 (495) 780-51-65, e-mail: sales@zaoinsta.ru | www.zaoinsta.ru",
+  "findings": [
+    {
+      "finding_id": "f1",
+      "kind": "heading",
+      "text": "Заголовок страницы: ИЗОЛЯТОРЫ ОПОРНЫЕ СТЕРЖНЕВЫЕ ПОЛИМЕРНЫЕ; брендинг ФОЭНЕРГО / FORENERGO.",
+      "evidence_visual_asset_ids": [
+        "projectx-page-region-1"
+      ],
+      "evidence_source": "visual",
+      "approximate": false,
+      "confidence": 0.95,
+      "metadata": {
+        "provider_confidence": 0.98,
+        "confidence_cap": 0.95
+      }
+    },
+    {
+      "finding_id": "f2",
+      "kind": "paragraph",
+      "text": "Назначение: изоляция и крепление токоведущих частей при 150 кВ, до 100 Гц, от -60 до +50 °С, УХЛ 1 по ГОСТ 15150; изготавливаются по ТУ 3494-024-82442590-2015 (ТУ 3494-017-82442590-2011); соответствуют ГОСТ Р 52082.",
+      "evidence_visual_asset_ids": [
+        "projectx-page-region-1",
+        "projectx-page-region-2"
+      ],
+      "evidence_source": "combined",
+      "approximate": false,
+      "confidence": 0.75,
+      "metadata": {
+        "provider_confidence": 0.97,
+        "confidence_cap": 0.75
+      }
+    },
+    {
+      "finding_id": "f3",
+      "kind": "table",
+      "text": "Таблица технических параметров: 4 типоразмера (ОСК 8-150-А-2, ОСК 8-150-Б-3, ОСК 10-150-А-2, ОСК 10-150-Б-3) с повернутыми заголовками; полная расшифровка в metadata.catalogue_page.tables[t1].",
+      "evidence_visual_asset_ids": [
+        "projectx-page-region-1",
+        "projectx-page-region-3"
+      ],
+      "evidence_source": "visual",
+      "approximate": false,
+      "confidence": 0.9,
+      "metadata": {}
+    },
+    {
+      "finding_id": "f4",
+      "kind": "table",
+      "text": "Таблица присоединительных размеров: 10 строк типоразмеров, колонки Н, мм и фланцы (Верхний: D1, B1, d1; Нижний: D2, B2, d2); полная расшифровка в metadata.catalogue_page.tables[t2].",
+      "evidence_visual_asset_ids": [
+        "projectx-page-region-1",
+        "projectx-page-region-3"
+      ],
+      "evidence_source": "visual",
+      "approximate": false,
+      "confidence": 0.9,
+      "metadata": {}
+    },
+    {
+      "finding_id": "f5",
+      "kind": "figure",
+      "text": "Чертеж изолятора: главный вид с размерными линиями H=2 и L, обозначением D на ребре; вид сверху A (верхний фланец: B1, D1, d1 4 отв.) и вид Б (нижний фланец: B2, D2, d2 4 отв.). Числовые значения размеров на чертеже не проставлены.",
+      "evidence_visual_asset_ids": [
+        "projectx-page-region-1",
+        "projectx-page-region-2"
+      ],
+      "evidence_source": "visual",
+      "approximate": false,
+      "confidence": 0.85,
+      "metadata": {}
+    },
+    {
+      "finding_id": "f6",
+      "kind": "footer",
+      "text": "Низ страницы: 78 | ООО «ИНСТА» | Тел./ факс: +7 (495) 780-51-65, e-mail: sales@zaoinsta.ru | www.zaoinsta.ru",
+      "evidence_visual_asset_ids": [
+        "projectx-page-region-1",
+        "projectx-page-region-3"
+      ],
+      "evidence_source": "visual",
+      "approximate": false,
+      "confidence": 0.95,
+      "metadata": {}
+    },
+    {
+      "finding_id": "f7",
+      "kind": "structure",
+      "text": "В таблице 1 значения «150», «2,0», «170», «650», «300», «300», «150», «80» напечатаны как объединенные (охватывают несколько строк); «8» охватывает две строки ОСК 8, «10» — две строки ОСК 10.",
+      "evidence_visual_asset_ids": [
+        "projectx-page-region-3"
+      ],
+      "evidence_source": "visual",
+      "approximate": false,
+      "confidence": 0.85,
+      "metadata": {}
+    }
+  ],
+  "structured_data": {
+    "schema_version": 1,
+    "content_type": "other",
+    "chart": null,
+    "metadata": {
+      "catalogue_page": {
+        "title": "Изоляторы опорные стержневые полимерные. Изоляторы опорные полимерные на напряжение 150 кВ типа ОСК 8-150, ОСК 10-150",
+        "printed_page": "78",
+        "text_blocks": [
+          {
+            "kind": "heading",
+            "text": "ИЗОЛЯТОРЫ ОПОРНЫЕ СТЕРЖНЕВЫЕ ПОЛИМЕРНЫЕ"
+          },
+          {
+            "kind": "branding",
+            "text": "ФОЭНЕРГО — производственное объединение; FORENERGO — manufacturing association"
+          },
+          {
+            "kind": "heading",
+            "text": "ИЗОЛЯТОРЫ ОПОРНЫЕ ПОЛИМЕРНЫЕ НА НАПРЯЖЕНИЕ 150 кВ ТИПА ОСК 8-150, ОСК 10-150"
+          },
+          {
+            "kind": "heading",
+            "text": "НАЗНАЧЕНИЕ:"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Предназначены для изоляции и крепления токоведущих частей в электрических аппаратах и в распределительных устройствах электростанций и подстанций переменного тока напряжением 150 кВ частотой до 100 Гц при температуре окружающего воздуха от - 60 до + 50 °С. Климатическое исполнение и категория размещения УХЛ 1 по ГОСТ 15150. Изготавливаются по ТУ 3494-024-82442590-2015 (ТУ 3494-017-82442590-2011). Соответствуют ГОСТ Р 52082."
+          },
+          {
+            "kind": "heading",
+            "text": "ПРИСОЕДИНИТЕЛЬНЫЕ РАЗМЕРЫ ИЗОЛЯТОРОВ"
+          },
+          {
+            "kind": "footer",
+            "text": "78   ООО «ИНСТА»   Тел./ факс: +7 (495) 780-51-65, e-mail: sales@zaoinsta.ru   www.zaoinsta.ru"
+          }
+        ],
+        "tables": [
+          {
+            "id": "t1",
+            "title": "Технические параметры изоляторов (заголовки повернуты на 90°)",
+            "columns": [
+              {
+                "id": "c1",
+                "label": "Наименование",
+                "unit": null,
+                "group": null,
+                "qualifier": null
+              },
+              {
+                "id": "c2",
+                "label": "Номинальное напряжение",
+                "unit": "кВ",
+                "group": null,
+                "qualifier": null
+              },
+              {
+                "id": "c3",
+                "label": "Нормированная механическая разрушающая сила при изгибе",
+                "unit": "кН",
+                "group": null,
+                "qualifier": null
+              },
+              {
+                "id": "c4",
+                "label": "Нормированный разрушающий крутящий момент",
+                "unit": "кН·м",
+                "group": null,
+                "qualifier": null
+              },
+              {
+                "id": "c5",
+                "label": "Строительная высота Н",
+                "unit": "мм",
+                "group": null,
+                "qualifier": "не более"
+              },
+              {
+                "id": "c6",
+                "label": "Диаметр ребер, D",
+                "unit": "мм",
+                "group": null,
+                "qualifier": null
+              },
+              {
+                "id": "c7",
+                "label": "Изоляционная высота L",
+                "unit": "мм",
+                "group": null,
+                "qualifier": "не менее"
+              },
+              {
+                "id": "c8",
+                "label": "Длина пути тока утечки",
+                "unit": "мм",
+                "group": null,
+                "qualifier": "не менее"
+              },
+              {
+                "id": "c9",
+                "label": "полного грозового импульса",
+                "unit": "кВ",
+                "group": "Выдерживаемое напряжение, кВ",
+                "qualifier": null
+              },
+              {
+                "id": "c10",
+                "label": "50 Гц в сухом состоянии",
+                "unit": "кВ",
+                "group": "Выдерживаемое напряжение, кВ",
+                "qualifier": null
+              },
+              {
+                "id": "c11",
+                "label": "50 Гц под дождем",
+                "unit": "кВ",
+                "group": "Выдерживаемое напряжение, кВ",
+                "qualifier": null
+              },
+              {
+                "id": "c12",
+                "label": "Разрядное напряжение 50 Гц в загрязненном и увлажненном состоянии",
+                "unit": "кВ",
+                "group": null,
+                "qualifier": "не менее"
+              },
+              {
+                "id": "c13",
+                "label": "Нормированная удельная поверхностная проводимость слоя загрязнения",
+                "unit": "мкСм",
+                "group": null,
+                "qualifier": null
+              },
+              {
+                "id": "c14",
+                "label": "Допустимая степень загрязнения (С3) по ГОСТ 9920",
+                "unit": null,
+                "group": null,
+                "qualifier": null
+              },
+              {
+                "id": "c15",
+                "label": "Масса",
+                "unit": "кг",
+                "group": null,
+                "qualifier": "не более"
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  {
+                    "column_id": "c1",
+                    "value": "ОСК 8-150-А-2",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c2",
+                    "value": "150",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c3",
+                    "value": "8",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c4",
+                    "value": "2,0",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c5",
+                    "value": "1600",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c6",
+                    "value": "170",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c7",
+                    "value": "1360",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c8",
+                    "value": "4100",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c9",
+                    "value": "650",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c10",
+                    "value": "300",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c11",
+                    "value": "300",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c12",
+                    "value": "150",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c13",
+                    "value": "10",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c14",
+                    "value": "II",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c15",
+                    "value": "80",
+                    "state": "value"
+                  }
+                ]
+              },
+              {
+                "cells": [
+                  {
+                    "column_id": "c1",
+                    "value": "ОСК 8-150-Б-3",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c2",
+                    "value": "150",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c3",
+                    "value": "8",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c4",
+                    "value": "2,0",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c5",
+                    "value": "1700",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c6",
+                    "value": "170",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c7",
+                    "value": "1460",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c8",
+                    "value": "4400",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c9",
+                    "value": "650",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c10",
+                    "value": "300",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c11",
+                    "value": "300",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c12",
+                    "value": "150",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c13",
+                    "value": "20",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c14",
+                    "value": "III",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c15",
+                    "value": "80",
+                    "state": "value"
+                  }
+                ]
+              },
+              {
+                "cells": [
+                  {
+                    "column_id": "c1",
+                    "value": "ОСК 10-150-А-2",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c2",
+                    "value": "150",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c3",
+                    "value": "10",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c4",
+                    "value": "2,0",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c5",
+                    "value": "1600",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c6",
+                    "value": "170",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c7",
+                    "value": "1360",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c8",
+                    "value": "4100",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c9",
+                    "value": "650",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c10",
+                    "value": "300",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c11",
+                    "value": "300",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c12",
+                    "value": "150",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c13",
+                    "value": "10",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c14",
+                    "value": "II",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c15",
+                    "value": "80",
+                    "state": "value"
+                  }
+                ]
+              },
+              {
+                "cells": [
+                  {
+                    "column_id": "c1",
+                    "value": "ОСК 10-150-Б-3",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c2",
+                    "value": "150",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c3",
+                    "value": "10",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c4",
+                    "value": "2,0",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c5",
+                    "value": "1700",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c6",
+                    "value": "170",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c7",
+                    "value": "1460",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c8",
+                    "value": "4400",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c9",
+                    "value": "650",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c10",
+                    "value": "300",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c11",
+                    "value": "300",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c12",
+                    "value": "150",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c13",
+                    "value": "20",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c14",
+                    "value": "III",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c15",
+                    "value": "80",
+                    "state": "value"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "t2",
+            "title": "Присоединительные размеры изоляторов",
+            "columns": [
+              {
+                "id": "c1",
+                "label": "Наименование",
+                "unit": null,
+                "group": null,
+                "qualifier": null
+              },
+              {
+                "id": "c2",
+                "label": "Н",
+                "unit": "мм",
+                "group": null,
+                "qualifier": null
+              },
+              {
+                "id": "c3",
+                "label": "D1",
+                "unit": "мм",
+                "group": "Верхний фланец",
+                "qualifier": null
+              },
+              {
+                "id": "c4",
+                "label": "B1",
+                "unit": "мм",
+                "group": "Верхний фланец",
+                "qualifier": null
+              },
+              {
+                "id": "c5",
+                "label": "d1",
+                "unit": "мм",
+                "group": "Верхний фланец",
+                "qualifier": null
+              },
+              {
+                "id": "c6",
+                "label": "D2",
+                "unit": "мм",
+                "group": "Нижний фланец",
+                "qualifier": null
+              },
+              {
+                "id": "c7",
+                "label": "B2",
+                "unit": "м",
+                "group": "Нижний фланец",
+                "qualifier": null
+              },
+              {
+                "id": "c8",
+                "label": "d2",
+                "unit": "мм",
+                "group": "Нижний фланец",
+                "qualifier": null
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  {
+                    "column_id": "c1",
+                    "value": "ОСК 8-150-А-2",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c2",
+                    "value": "1600",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c3",
+                    "value": "Ø127",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c4",
+                    "value": null,
+                    "state": "blank"
+                  },
+                  {
+                    "column_id": "c5",
+                    "value": "4М16",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c6",
+                    "value": "Ø200",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c7",
+                    "value": null,
+                    "state": "blank"
+                  },
+                  {
+                    "column_id": "c8",
+                    "value": "4Ø18",
+                    "state": "value"
+                  }
+                ]
+              },
+              {
+                "cells": [
+                  {
+                    "column_id": "c1",
+                    "value": "ОСК 8-150-А01-2",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c2",
+                    "value": "1600",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c3",
+                    "value": "Ø127",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c4",
+                    "value": null,
+                    "state": "blank"
+                  },
+                  {
+                    "column_id": "c5",
+                    "value": "4М16",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c6",
+                    "value": null,
+                    "state": "blank"
+                  },
+                  {
+                    "column_id": "c7",
+                    "value": "□160",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c8",
+                    "value": "4Ø18",
+                    "state": "value"
+                  }
+                ]
+              },
+              {
+                "cells": [
+                  {
+                    "column_id": "c1",
+                    "value": "ОСК 8-150-А02-2",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c2",
+                    "value": "1600",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c3",
+                    "value": null,
+                    "state": "blank"
+                  },
+                  {
+                    "column_id": "c4",
+                    "value": "□160",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c5",
+                    "value": "4Ø18",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c6",
+                    "value": null,
+                    "state": "blank"
+                  },
+                  {
+                    "column_id": "c7",
+                    "value": "□180",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c8",
+                    "value": "4Ø18",
+                    "state": "value"
+                  }
+                ]
+              },
+              {
+                "cells": [
+                  {
+                    "column_id": "c1",
+                    "value": "ОСК 8-150-Б-3",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c2",
+                    "value": "1700",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c3",
+                    "value": "Ø127",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c4",
+                    "value": null,
+                    "state": "blank"
+                  },
+                  {
+                    "column_id": "c5",
+                    "value": "4М16",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c6",
+                    "value": "Ø200",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c7",
+                    "value": null,
+                    "state": "blank"
+                  },
+                  {
+                    "column_id": "c8",
+                    "value": "4Ø18",
+                    "state": "value"
+                  }
+                ]
+              },
+              {
+                "cells": [
+                  {
+                    "column_id": "c1",
+                    "value": "ОСК 8-150-Б01-3",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c2",
+                    "value": "1700",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c3",
+                    "value": "Ø127",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c4",
+                    "value": null,
+                    "state": "blank"
+                  },
+                  {
+                    "column_id": "c5",
+                    "value": "4М16",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c6",
+                    "value": null,
+                    "state": "blank"
+                  },
+                  {
+                    "column_id": "c7",
+                    "value": "□160",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c8",
+                    "value": "4Ø18",
+                    "state": "value"
+                  }
+                ]
+              },
+              {
+                "cells": [
+                  {
+                    "column_id": "c1",
+                    "value": "ОСК 10-150-А-2",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c2",
+                    "value": "1600",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c3",
+                    "value": "Ø127",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c4",
+                    "value": null,
+                    "state": "blank"
+                  },
+                  {
+                    "column_id": "c5",
+                    "value": "4М16",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c6",
+                    "value": "Ø200",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c7",
+                    "value": null,
+                    "state": "blank"
+                  },
+                  {
+                    "column_id": "c8",
+                    "value": "4Ø18",
+                    "state": "value"
+                  }
+                ]
+              },
+              {
+                "cells": [
+                  {
+                    "column_id": "c1",
+                    "value": "ОСК 10-150-А01-2",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c2",
+                    "value": "1600",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c3",
+                    "value": "Ø127",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c4",
+                    "value": null,
+                    "state": "blank"
+                  },
+                  {
+                    "column_id": "c5",
+                    "value": "4М16",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c6",
+                    "value": null,
+                    "state": "blank"
+                  },
+                  {
+                    "column_id": "c7",
+                    "value": "□160",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c8",
+                    "value": "4Ø18",
+                    "state": "value"
+                  }
+                ]
+              },
+              {
+                "cells": [
+                  {
+                    "column_id": "c1",
+                    "value": "ОСК 10-150-А02-2",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c2",
+                    "value": "1600",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c3",
+                    "value": null,
+                    "state": "blank"
+                  },
+                  {
+                    "column_id": "c4",
+                    "value": "□160",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c5",
+                    "value": "4Ø18",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c6",
+                    "value": null,
+                    "state": "blank"
+                  },
+                  {
+                    "column_id": "c7",
+                    "value": "□180",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c8",
+                    "value": "4Ø18",
+                    "state": "value"
+                  }
+                ]
+              },
+              {
+                "cells": [
+                  {
+                    "column_id": "c1",
+                    "value": "ОСК 10-150-Б-3",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c2",
+                    "value": "1700",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c3",
+                    "value": "Ø127",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c4",
+                    "value": null,
+                    "state": "blank"
+                  },
+                  {
+                    "column_id": "c5",
+                    "value": "4М16",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c6",
+                    "value": "Ø200",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c7",
+                    "value": null,
+                    "state": "blank"
+                  },
+                  {
+                    "column_id": "c8",
+                    "value": "4Ø18",
+                    "state": "value"
+                  }
+                ]
+              },
+              {
+                "cells": [
+                  {
+                    "column_id": "c1",
+                    "value": "ОСК 10-150-Б01-3",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c2",
+                    "value": "1700",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c3",
+                    "value": "Ø127",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c4",
+                    "value": null,
+                    "state": "blank"
+                  },
+                  {
+                    "column_id": "c5",
+                    "value": "4М16",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c6",
+                    "value": null,
+                    "state": "blank"
+                  },
+                  {
+                    "column_id": "c7",
+                    "value": "□160",
+                    "state": "value"
+                  },
+                  {
+                    "column_id": "c8",
+                    "value": "4Ø18",
+                    "state": "value"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "figures": [
+          {
+            "title": "Чертеж изолятора",
+            "description": "Главный вид (спереди) стержневого полимерного изолятора с ребристой покрышкой. Размерная линия «Н=2» охватывает полную высоту от верхнего до нижнего фланца; размерная линия «L» — изоляционную высоту между фланцами; буква «D» указывает диаметр по ребру (стрелка на ребре покрышки). Осевая штрихпунктирная линия и стрелка «А» сверху обозначают направление взгляда разреза/вида А; стрелка «Б» снизу — вида Б. Числовые значения размеров на чертеже не проставлены.",
+            "labels": [
+              "А",
+              "Б",
+              "Н=2",
+              "L",
+              "D"
+            ]
+          },
+          {
+            "title": "Вид А (верхний фланец)",
+            "description": "План верхнего фланца: квадратный фланец с скругленными углами и четырьмя отверстиями; B1 — размер между отверстиями по горизонтали, D1 — диаметр центрирования (диагональная выноска), d1 4 отв. — четыре крепежных отверстия. Без числовых значений.",
+            "labels": [
+              "А",
+              "B1",
+              "D1",
+              "d1 4 отв."
+            ]
+          },
+          {
+            "title": "Вид Б (нижний фланец)",
+            "description": "План нижнего фланца: аналогичный фланец с четырьмя отверстиями; B2 — размер между отверстиями, D2 — диаметр центрирования (диагональная выноска), d2 4 отв. — четыре крепежных отверстия. Без числовых значений.",
+            "labels": [
+              "Б",
+              "B2",
+              "D2",
+              "d2 4 отв."
+            ]
+          }
+        ],
+        "source_notes": [
+          "Изготавливаются по ТУ 3494-024-82442590-2015 (ТУ 3494-017-82442590-2011)",
+          "Соответствуют ГОСТ Р 52082",
+          "Климатическое исполнение УХЛ 1 по ГОСТ 15150"
+        ],
+        "uncertainties": [
+          "Объединение ячеек в таблице 1 (150, 2,0, 170, 650, 300, 150, 80) определено по отсутствию повторных значений и охвату выносных линий; возможна неоднозначность точных границ объединения.",
+          "Чертеж содержит только буквенные обозначения размеров; числовые значения отсутствуют на изображении.",
+          "Колонка «B2, м» — единица напечатана как «м» (вероятно опечатка источника), воспроизведена буквально.",
+          "Не все границы строк/объединений (например, Ø200 для строк А01/А02) различимы однозначно; такие ячейки помечены как blank."
+        ]
+      }
+    }
+  },
+  "warnings": [
+    "Точные границы объединенных ячеек в таблице 1 оценены визуально.",
+    "Некоторые пустые ячейки таблицы 2 (например, D2 для вариантов А01/А02) могут быть частью объединения или фактическими пробелами; обозначены как blank."
+  ],
+  "selected_block_ids": [
+    "b_00001",
+    "b_00002",
+    "b_00003",
+    "b_00004",
+    "b_00005",
+    "b_00006"
+  ],
+  "context_truncated": false,
+  "created_at": "2026-10-12T15:17:37.322706Z",
+  "metadata": {
+    "provider_metadata": {
+      "assets_used": [
+        "projectx-page-region-1",
+        "projectx-page-region-2",
+        "projectx-page-region-3"
+      ]
+    },
+    "artifact_scope": "published"
+  }
+}
