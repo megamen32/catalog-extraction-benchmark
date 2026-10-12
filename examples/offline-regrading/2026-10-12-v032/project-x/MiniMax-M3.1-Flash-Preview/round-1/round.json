@@ -1,0 +1,139 @@
+{
+  "profile": "project-x/MiniMax-M3.1-Flash-Preview",
+  "round": "round-1",
+  "stage": "native_vision_integration_saved_output",
+  "valid_candidates": 4,
+  "expected_pages": 17,
+  "missing_outputs_zero": 13,
+  "engineering_correct": 222,
+  "engineering_expected": 520,
+  "drawing_correct": 3,
+  "drawing_expected": 21,
+  "correct": 225,
+  "expected": 541,
+  "percent": 41.59,
+  "retained_v030_engineering_correct": 210,
+  "retained_v030_drawing_correct": 3,
+  "source_files": [
+    {
+      "case_id": "catalog-1-page-039",
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "physical_page": 39,
+      "candidate_file": "examples/project-x/2026-10-12-native-vision-v1-full/MiniMax-M3.1-Flash-Preview/round-1/catalog-1-page-039/catalogue-page.json",
+      "candidate_sha256": "5a3fcf24587ca8680d3a698a54e6ca15c8970b924b941a0ed1a0343308ba2466",
+      "candidate_bytes": 15565,
+      "retained_score_v030_file": "examples/project-x/2026-10-12-native-vision-v1-full/MiniMax-M3.1-Flash-Preview/round-1/catalog-1-page-039/score-v0.3.0.json",
+      "retained_score_v030_sha256": "530f664b4ea6f8b864326da40661aa8535248089005d4af2c9300264600ae198",
+      "score_v032_file": "project-x/MiniMax-M3.1-Flash-Preview/round-1/catalog-1-page-039/score-v0.3.2.json",
+      "score_v032_sha256": "75dc031e8aed614b0aa770780cc7fde3a403c2f2ace35150dc55665d5c59563b",
+      "fixture_sha256": "ea7e1bfaad49b9b8f331fc9fddce2142cc780bb0d35fc35b6610bd07b3dd7cb3",
+      "engineering_correct": 10,
+      "drawing_correct": 3,
+      "literal_format_differences": []
+    },
+    {
+      "case_id": "catalog-4-page-038",
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 38,
+      "candidate_file": "examples/project-x/2026-10-12-native-vision-v1-full/MiniMax-M3.1-Flash-Preview/round-1/catalog-4-page-038/catalogue-page.json",
+      "candidate_sha256": "f793113b43ad9727ea05d69b112ddb9e8f7da2dbd84e8e009c6d73c72945b053",
+      "candidate_bytes": 20499,
+      "retained_score_v030_file": "examples/project-x/2026-10-12-native-vision-v1-full/MiniMax-M3.1-Flash-Preview/round-1/catalog-4-page-038/score-v0.3.0.json",
+      "retained_score_v030_sha256": "1db18e9d77798f01e207b9b006789770deb2aaec25527a4be07df915e8e39fea",
+      "score_v032_file": "project-x/MiniMax-M3.1-Flash-Preview/round-1/catalog-4-page-038/score-v0.3.2.json",
+      "score_v032_sha256": "a6652304f288596e31d8d9aee53126b46fb9e5c786d3514939e7438fb7d0dc72",
+      "fixture_sha256": "51edf1540e5eaa22f66844b6259ebe661885f7d583f0596b567b9ed7a9713589",
+      "engineering_correct": 72,
+      "drawing_correct": 0,
+      "literal_format_differences": []
+    },
+    {
+      "case_id": "catalog-4-page-078",
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 78,
+      "candidate_file": "examples/project-x/2026-10-12-native-vision-v1-full/MiniMax-M3.1-Flash-Preview/round-1/catalog-4-page-078/catalogue-page.json",
+      "candidate_sha256": "a216bf77847ae354ddf8b09c07538f5c0001e290699c3534721a1470bc57c4bb",
+      "candidate_bytes": 29243,
+      "retained_score_v030_file": "examples/project-x/2026-10-12-native-vision-v1-full/MiniMax-M3.1-Flash-Preview/round-1/catalog-4-page-078/score-v0.3.0.json",
+      "retained_score_v030_sha256": "c1cdc5d6044d10a1ebfeaafde0d9ee9060eb5ba145d6e2bc7c25c1f8f41294d9",
+      "score_v032_file": "project-x/MiniMax-M3.1-Flash-Preview/round-1/catalog-4-page-078/score-v0.3.2.json",
+      "score_v032_sha256": "34e08f218b1ffd90018cd67650a0417834e745e773db50e9fd618549cdc1ef0a",
+      "fixture_sha256": "86e767f7af5fdbc24d208112c9c1b6c2b1a3771e3348a130f179db4e7d4ac8b6",
+      "engineering_correct": 140,
+      "drawing_correct": 0,
+      "literal_format_differences": [
+        {
+          "location": "tables[0].columns[13].label",
+          "raw": "Допустимая степень загрязнения (С3) по ГОСТ 9920",
+          "matching_only": "Допустимая степень загрязнения (СЗ) по ГОСТ 9920",
+          "classification": "contextual_header_abbreviation_typo"
+        },
+        {
+          "check_id": "t1-r0-c4",
+          "raw": "4M16",
+          "source_literal": "4М16",
+          "classification": "literal_script_only_physical_thread_equivalent"
+        },
+        {
+          "check_id": "t1-r1-c4",
+          "raw": "4M16",
+          "source_literal": "4М16",
+          "classification": "literal_script_only_physical_thread_equivalent"
+        },
+        {
+          "check_id": "t1-r3-c4",
+          "raw": "4M16",
+          "source_literal": "4М16",
+          "classification": "literal_script_only_physical_thread_equivalent"
+        },
+        {
+          "check_id": "t1-r4-c4",
+          "raw": "4M16",
+          "source_literal": "4М16",
+          "classification": "literal_script_only_physical_thread_equivalent"
+        },
+        {
+          "check_id": "t1-r5-c4",
+          "raw": "4M16",
+          "source_literal": "4М16",
+          "classification": "literal_script_only_physical_thread_equivalent"
+        },
+        {
+          "check_id": "t1-r6-c4",
+          "raw": "4M16",
+          "source_literal": "4М16",
+          "classification": "literal_script_only_physical_thread_equivalent"
+        },
+        {
+          "check_id": "t1-r8-c4",
+          "raw": "4M16",
+          "source_literal": "4М16",
+          "classification": "literal_script_only_physical_thread_equivalent"
+        },
+        {
+          "check_id": "t1-r9-c4",
+          "raw": "4M16",
+          "source_literal": "4М16",
+          "classification": "literal_script_only_physical_thread_equivalent"
+        }
+      ]
+    },
+    {
+      "case_id": "catalog-5-page-035",
+      "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+      "physical_page": 35,
+      "candidate_file": "examples/project-x/2026-10-12-native-vision-v1-full/MiniMax-M3.1-Flash-Preview/round-1/catalog-5-page-035/catalogue-page.json",
+      "candidate_sha256": "30e555668fbf4227ed8596858c180f54bca0c03c0db6f7971fee761db431e302",
+      "candidate_bytes": 25658,
+      "retained_score_v030_file": "examples/project-x/2026-10-12-native-vision-v1-full/MiniMax-M3.1-Flash-Preview/round-1/catalog-5-page-035/score-v0.3.0.json",
+      "retained_score_v030_sha256": "c885256be61fd070431ad1f1aaa48ded14788040f5ecf2410eecf8cc93daa17d",
+      "score_v032_file": "project-x/MiniMax-M3.1-Flash-Preview/round-1/catalog-5-page-035/score-v0.3.2.json",
+      "score_v032_sha256": "ab1a3662d238d4421c1776d160cd8e3fe26bb6fe074a8ff0628b0e3a76370fa3",
+      "fixture_sha256": "d260784f7d7f58b7ca010d0299c35804f34ec21e47702c70dbdad09bd6b9ae61",
+      "engineering_correct": 0,
+      "drawing_correct": 0,
+      "literal_format_differences": []
+    }
+  ],
+  "full_page_accuracy": false
+}

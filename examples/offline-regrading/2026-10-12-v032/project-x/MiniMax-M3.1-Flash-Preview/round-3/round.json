@@ -1,0 +1,133 @@
+{
+  "profile": "project-x/MiniMax-M3.1-Flash-Preview",
+  "round": "round-3",
+  "stage": "native_vision_integration_saved_output",
+  "valid_candidates": 4,
+  "expected_pages": 17,
+  "missing_outputs_zero": 13,
+  "engineering_correct": 247,
+  "engineering_expected": 520,
+  "drawing_correct": 2,
+  "drawing_expected": 21,
+  "correct": 249,
+  "expected": 541,
+  "percent": 46.03,
+  "retained_v030_engineering_correct": 239,
+  "retained_v030_drawing_correct": 2,
+  "source_files": [
+    {
+      "case_id": "catalog-1-page-027",
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "physical_page": 27,
+      "candidate_file": "examples/project-x/2026-10-12-native-vision-v1-full/MiniMax-M3.1-Flash-Preview/round-3/catalog-1-page-027/catalogue-page.json",
+      "candidate_sha256": "a75c44c4ab3b0be0fe667fc994a0297ef8edd3077a91d7a1201cd7199cb57384",
+      "candidate_bytes": 41271,
+      "retained_score_v030_file": "examples/project-x/2026-10-12-native-vision-v1-full/MiniMax-M3.1-Flash-Preview/round-3/catalog-1-page-027/score-v0.3.0.json",
+      "retained_score_v030_sha256": "10d7b8d698c96b02bc1451380ed39c090cbec63469787d075b4067c158e2090b",
+      "score_v032_file": "project-x/MiniMax-M3.1-Flash-Preview/round-3/catalog-1-page-027/score-v0.3.2.json",
+      "score_v032_sha256": "493ba27ad1d185b41857d8662428b41cd7d781e9139921aec69aef46f3981cab",
+      "fixture_sha256": "77094a2eda355eb504370827d8c0fb11b1439ee8d3a0d8cdd962cd1ecc48c29f",
+      "engineering_correct": 3,
+      "drawing_correct": 2,
+      "literal_format_differences": []
+    },
+    {
+      "case_id": "catalog-3-page-108",
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 108,
+      "candidate_file": "examples/project-x/2026-10-12-native-vision-v1-full/MiniMax-M3.1-Flash-Preview/round-3/catalog-3-page-108/catalogue-page.json",
+      "candidate_sha256": "61a67433f0d5cadbbcd10ef59c257a250aa29ea6f314e80ee2e8a5fdd24e85f2",
+      "candidate_bytes": 47692,
+      "retained_score_v030_file": "examples/project-x/2026-10-12-native-vision-v1-full/MiniMax-M3.1-Flash-Preview/round-3/catalog-3-page-108/score-v0.3.0.json",
+      "retained_score_v030_sha256": "c65e319b62716acd5e6f8eaf51aeb269cb7311da14543d5ef747fb245294ae1f",
+      "score_v032_file": "project-x/MiniMax-M3.1-Flash-Preview/round-3/catalog-3-page-108/score-v0.3.2.json",
+      "score_v032_sha256": "ab64903c392b4eae7d821763d02d4747a6a660e7f90599b5a0837dfb7fc6b548",
+      "fixture_sha256": "82e19efe34b7ca874e3e463e551ebb0eaef8006b5a7f725eca883c4ac1f35597",
+      "engineering_correct": 15,
+      "drawing_correct": 0,
+      "literal_format_differences": []
+    },
+    {
+      "case_id": "catalog-4-page-033",
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 33,
+      "candidate_file": "examples/project-x/2026-10-12-native-vision-v1-full/MiniMax-M3.1-Flash-Preview/round-3/catalog-4-page-033/catalogue-page.json",
+      "candidate_sha256": "cd954c7ea073f8a4e16a10446aa2a06ff44cc5576385fce1aba9be7011465a34",
+      "candidate_bytes": 25226,
+      "retained_score_v030_file": "examples/project-x/2026-10-12-native-vision-v1-full/MiniMax-M3.1-Flash-Preview/round-3/catalog-4-page-033/score-v0.3.0.json",
+      "retained_score_v030_sha256": "206ca8b2e74509a29c1b91303082d3cc71bf7213b835adb5a76f7640630fc5a0",
+      "score_v032_file": "project-x/MiniMax-M3.1-Flash-Preview/round-3/catalog-4-page-033/score-v0.3.2.json",
+      "score_v032_sha256": "47a6371c01da67373f2dba3b2be7d32d5be9c2fb89f34a0c8b82d5eeaddc95cd",
+      "fixture_sha256": "ea8408c3e91fc2b5f66964af2f0912bddaae85595fdac3947186708ba5aaf7bb",
+      "engineering_correct": 99,
+      "drawing_correct": 0,
+      "literal_format_differences": []
+    },
+    {
+      "case_id": "catalog-4-page-078",
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 78,
+      "candidate_file": "examples/project-x/2026-10-12-native-vision-v1-full/MiniMax-M3.1-Flash-Preview/round-3/catalog-4-page-078/catalogue-page.json",
+      "candidate_sha256": "c155a0e4e8cd86300457e3b0e3dfc5d11be7841b6744be5d62514852fa7fe89b",
+      "candidate_bytes": 30924,
+      "retained_score_v030_file": "examples/project-x/2026-10-12-native-vision-v1-full/MiniMax-M3.1-Flash-Preview/round-3/catalog-4-page-078/score-v0.3.0.json",
+      "retained_score_v030_sha256": "113ec956803aec5e7629993f21e507b2615b4f3695a018a8a423f17a72c71395",
+      "score_v032_file": "project-x/MiniMax-M3.1-Flash-Preview/round-3/catalog-4-page-078/score-v0.3.2.json",
+      "score_v032_sha256": "f11b8c77094ad84f811fa2badf47a5a6dedd91a732f7b4b407ed110e3a95a8a3",
+      "fixture_sha256": "86e767f7af5fdbc24d208112c9c1b6c2b1a3771e3348a130f179db4e7d4ac8b6",
+      "engineering_correct": 130,
+      "drawing_correct": 0,
+      "literal_format_differences": [
+        {
+          "check_id": "t1-r0-c4",
+          "raw": "4M16",
+          "source_literal": "4М16",
+          "classification": "literal_script_only_physical_thread_equivalent"
+        },
+        {
+          "check_id": "t1-r1-c4",
+          "raw": "4M16",
+          "source_literal": "4М16",
+          "classification": "literal_script_only_physical_thread_equivalent"
+        },
+        {
+          "check_id": "t1-r3-c4",
+          "raw": "4M16",
+          "source_literal": "4М16",
+          "classification": "literal_script_only_physical_thread_equivalent"
+        },
+        {
+          "check_id": "t1-r4-c4",
+          "raw": "4M16",
+          "source_literal": "4М16",
+          "classification": "literal_script_only_physical_thread_equivalent"
+        },
+        {
+          "check_id": "t1-r5-c4",
+          "raw": "4M16",
+          "source_literal": "4М16",
+          "classification": "literal_script_only_physical_thread_equivalent"
+        },
+        {
+          "check_id": "t1-r6-c4",
+          "raw": "4M16",
+          "source_literal": "4М16",
+          "classification": "literal_script_only_physical_thread_equivalent"
+        },
+        {
+          "check_id": "t1-r8-c4",
+          "raw": "4M16",
+          "source_literal": "4М16",
+          "classification": "literal_script_only_physical_thread_equivalent"
+        },
+        {
+          "check_id": "t1-r9-c4",
+          "raw": "4M16",
+          "source_literal": "4М16",
+          "classification": "literal_script_only_physical_thread_equivalent"
+        }
+      ]
+    }
+  ],
+  "full_page_accuracy": false
+}

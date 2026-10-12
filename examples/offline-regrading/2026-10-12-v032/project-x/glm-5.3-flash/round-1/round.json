@@ -1,0 +1,417 @@
+{
+  "profile": "project-x/glm-5.3-flash",
+  "round": "round-1",
+  "stage": "native_vision_integration_saved_output",
+  "valid_candidates": 14,
+  "expected_pages": 17,
+  "missing_outputs_zero": 3,
+  "engineering_correct": 411,
+  "engineering_expected": 520,
+  "drawing_correct": 6,
+  "drawing_expected": 21,
+  "correct": 417,
+  "expected": 541,
+  "percent": 77.08,
+  "retained_v030_engineering_correct": 380,
+  "retained_v030_drawing_correct": 4,
+  "source_files": [
+    {
+      "case_id": "catalog-1-page-017",
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "physical_page": 17,
+      "candidate_file": "examples/project-x/2026-10-12-native-vision-v1-full/glm-5.3-flash/round-1/catalog-1-page-017/catalogue-page.json",
+      "candidate_sha256": "b0c5ef70b7390e2131c52b9450457b3ccbda2bc5c9fb73bc76235f1d41da60a9",
+      "candidate_bytes": 43378,
+      "retained_score_v030_file": "examples/project-x/2026-10-12-native-vision-v1-full/glm-5.3-flash/round-1/catalog-1-page-017/score-v0.3.0.json",
+      "retained_score_v030_sha256": "92044e3048569babc0c8c508b01f546814703786c216f1ec08fda66b026d3bf8",
+      "score_v032_file": "project-x/glm-5.3-flash/round-1/catalog-1-page-017/score-v0.3.2.json",
+      "score_v032_sha256": "2983f88aa6e5600f0d9a7df0f4da9a491c29d55f48c385b2815c54cab9de7ca6",
+      "fixture_sha256": "5147637fe66b27a76079c3ee59c948d4f30963f40ec03649d9ac0ee3c57ccec4",
+      "engineering_correct": 15,
+      "drawing_correct": 0,
+      "literal_format_differences": [
+        {
+          "location": "tables[0].columns[6].label",
+          "raw": "125 A",
+          "matching_only": "125 А",
+          "classification": "physical_unit_symbol_alias"
+        },
+        {
+          "location": "tables[0].columns[7].label",
+          "raw": "250 A",
+          "matching_only": "250 А",
+          "classification": "physical_unit_symbol_alias"
+        },
+        {
+          "location": "tables[0].columns[8].label",
+          "raw": "500 A",
+          "matching_only": "500 А",
+          "classification": "physical_unit_symbol_alias"
+        },
+        {
+          "location": "tables[0].columns[9].label",
+          "raw": "1000 A",
+          "matching_only": "1000 А",
+          "classification": "physical_unit_symbol_alias"
+        },
+        {
+          "location": "tables[1].columns[6].label",
+          "raw": "250 A",
+          "matching_only": "250 А",
+          "classification": "physical_unit_symbol_alias"
+        },
+        {
+          "location": "tables[1].columns[7].label",
+          "raw": "500 A",
+          "matching_only": "500 А",
+          "classification": "physical_unit_symbol_alias"
+        },
+        {
+          "location": "tables[1].columns[8].label",
+          "raw": "1000 A",
+          "matching_only": "1000 А",
+          "classification": "physical_unit_symbol_alias"
+        }
+      ]
+    },
+    {
+      "case_id": "catalog-1-page-022",
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "physical_page": 22,
+      "candidate_file": "examples/project-x/2026-10-12-native-vision-v1-full/glm-5.3-flash/round-1/catalog-1-page-022/catalogue-page.json",
+      "candidate_sha256": "eb954bf9ac03ad799619e7f057c59cdeed1ea8a9a7eed7dcd3519510296f85ee",
+      "candidate_bytes": 40428,
+      "retained_score_v030_file": "examples/project-x/2026-10-12-native-vision-v1-full/glm-5.3-flash/round-1/catalog-1-page-022/score-v0.3.0.json",
+      "retained_score_v030_sha256": "96df07960e5982572b0649b0daaa97bf353fe026d9d7edf543b6f747ea8b4309",
+      "score_v032_file": "project-x/glm-5.3-flash/round-1/catalog-1-page-022/score-v0.3.2.json",
+      "score_v032_sha256": "cda912a24c91c0e33a140a18c1d33ddb318b9e62e9f9eea9fb2145430ab9cae6",
+      "fixture_sha256": "a1187e1a23848883bfb7d776a1289e3ccc09f9675493c1e5b4def85be8589654",
+      "engineering_correct": 15,
+      "drawing_correct": 0,
+      "literal_format_differences": []
+    },
+    {
+      "case_id": "catalog-1-page-026",
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "physical_page": 26,
+      "candidate_file": "examples/project-x/2026-10-12-native-vision-v1-full/glm-5.3-flash/round-1/catalog-1-page-026/catalogue-page.json",
+      "candidate_sha256": "1fbfd7f144f82026b41c56431ed6b2325920c9f5669830442a48249c1501cfb9",
+      "candidate_bytes": 39729,
+      "retained_score_v030_file": "examples/project-x/2026-10-12-native-vision-v1-full/glm-5.3-flash/round-1/catalog-1-page-026/score-v0.3.0.json",
+      "retained_score_v030_sha256": "9f1780f9e7883d46ee54d8b3f995c31ee04580a1bd34ae57ff62da296db19ab6",
+      "score_v032_file": "project-x/glm-5.3-flash/round-1/catalog-1-page-026/score-v0.3.2.json",
+      "score_v032_sha256": "b0a3b937e326d95364f461e2c5c864b9339f5941aeaf17af757979af61bb0071",
+      "fixture_sha256": "f1defb41f76e7a075e441132a7d6c01200a1aff344064786b8e07cd64d7416b1",
+      "engineering_correct": 12,
+      "drawing_correct": 0,
+      "literal_format_differences": [
+        {
+          "location": "tables[0].columns[6].label",
+          "raw": "125 A",
+          "matching_only": "125 А",
+          "classification": "physical_unit_symbol_alias"
+        },
+        {
+          "location": "tables[0].columns[7].label",
+          "raw": "250 A",
+          "matching_only": "250 А",
+          "classification": "physical_unit_symbol_alias"
+        },
+        {
+          "location": "tables[0].columns[8].label",
+          "raw": "500 A",
+          "matching_only": "500 А",
+          "classification": "physical_unit_symbol_alias"
+        },
+        {
+          "location": "tables[0].columns[9].label",
+          "raw": "1000 A",
+          "matching_only": "1000 А",
+          "classification": "physical_unit_symbol_alias"
+        },
+        {
+          "location": "tables[1].columns[6].label",
+          "raw": "125 A",
+          "matching_only": "125 А",
+          "classification": "physical_unit_symbol_alias"
+        },
+        {
+          "location": "tables[1].columns[7].label",
+          "raw": "250 A",
+          "matching_only": "250 А",
+          "classification": "physical_unit_symbol_alias"
+        },
+        {
+          "location": "tables[1].columns[8].label",
+          "raw": "500 A",
+          "matching_only": "500 А",
+          "classification": "physical_unit_symbol_alias"
+        },
+        {
+          "location": "tables[1].columns[9].label",
+          "raw": "1000 A",
+          "matching_only": "1000 А",
+          "classification": "physical_unit_symbol_alias"
+        }
+      ]
+    },
+    {
+      "case_id": "catalog-1-page-027",
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "physical_page": 27,
+      "candidate_file": "examples/project-x/2026-10-12-native-vision-v1-full/glm-5.3-flash/round-1/catalog-1-page-027/catalogue-page.json",
+      "candidate_sha256": "33a67aef6e9a5bf1a85286879030b1543f51410d25b89ef96f7a49de79dd5c42",
+      "candidate_bytes": 39138,
+      "retained_score_v030_file": "examples/project-x/2026-10-12-native-vision-v1-full/glm-5.3-flash/round-1/catalog-1-page-027/score-v0.3.0.json",
+      "retained_score_v030_sha256": "77d27681d57067b6946a420e8e8095792054c1a9c75dbbf5025d9ee4050a1446",
+      "score_v032_file": "project-x/glm-5.3-flash/round-1/catalog-1-page-027/score-v0.3.2.json",
+      "score_v032_sha256": "d6717068b370341a18f53cf30985b2483fde923c6dba3f2dd248cc8445b931eb",
+      "fixture_sha256": "77094a2eda355eb504370827d8c0fb11b1439ee8d3a0d8cdd962cd1ecc48c29f",
+      "engineering_correct": 7,
+      "drawing_correct": 1,
+      "literal_format_differences": []
+    },
+    {
+      "case_id": "catalog-1-page-039",
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "physical_page": 39,
+      "candidate_file": "examples/project-x/2026-10-12-native-vision-v1-full/glm-5.3-flash/round-1/catalog-1-page-039/catalogue-page.json",
+      "candidate_sha256": "0b01d07ed7819a1608387dbd5704ed2b73a3d58c2d47f4e22bd54026d086ae84",
+      "candidate_bytes": 15336,
+      "retained_score_v030_file": "examples/project-x/2026-10-12-native-vision-v1-full/glm-5.3-flash/round-1/catalog-1-page-039/score-v0.3.0.json",
+      "retained_score_v030_sha256": "7168e6de4da8c72c0d850cd40d989a75402bb47002faf0d038fb4140b2fffebb",
+      "score_v032_file": "project-x/glm-5.3-flash/round-1/catalog-1-page-039/score-v0.3.2.json",
+      "score_v032_sha256": "ea6da828d732b916933330b24cdfa3666ff5ca2067f041b2e09cde6c66db0ac5",
+      "fixture_sha256": "ea7e1bfaad49b9b8f331fc9fddce2142cc780bb0d35fc35b6610bd07b3dd7cb3",
+      "engineering_correct": 10,
+      "drawing_correct": 5,
+      "literal_format_differences": [
+        {
+          "location": "tables[0].columns[6].label",
+          "raw": "Остающееся напряжение при коммутационном токе 250 A",
+          "matching_only": "Остающееся напряжение при коммутационном токе 250 А",
+          "classification": "physical_unit_symbol_alias"
+        },
+        {
+          "location": "tables[0].columns[7].label",
+          "raw": "Остающееся напряжение при коммутационном токе 500 A",
+          "matching_only": "Остающееся напряжение при коммутационном токе 500 А",
+          "classification": "physical_unit_symbol_alias"
+        },
+        {
+          "location": "tables[0].columns[8].label",
+          "raw": "Остающееся напряжение при коммутационном токе 1000 A",
+          "matching_only": "Остающееся напряжение при коммутационном токе 1000 А",
+          "classification": "physical_unit_symbol_alias"
+        }
+      ]
+    },
+    {
+      "case_id": "catalog-2-page-149",
+      "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+      "physical_page": 149,
+      "candidate_file": "examples/project-x/2026-10-12-native-vision-v1-full/glm-5.3-flash/round-1/catalog-2-page-149/catalogue-page.json",
+      "candidate_sha256": "24666d9e59b8002d3b6bbc574fa7a6e1decd3c75d854fdd8fecb756cf510a444",
+      "candidate_bytes": 20505,
+      "retained_score_v030_file": "examples/project-x/2026-10-12-native-vision-v1-full/glm-5.3-flash/round-1/catalog-2-page-149/score-v0.3.0.json",
+      "retained_score_v030_sha256": "b7a0dd5fe6090353a18607854eae0cc52c138205d44f8142115f386f49e7ab7b",
+      "score_v032_file": "project-x/glm-5.3-flash/round-1/catalog-2-page-149/score-v0.3.2.json",
+      "score_v032_sha256": "335fe97c550f5343f1657cdb2a982e0e5cb9ebebf99020f5457f5b540bd0c6c5",
+      "fixture_sha256": "626e9f586350ffcc8b7eb947fa91e1b98c2434558ffe8454c4a35492d02848da",
+      "engineering_correct": 13,
+      "drawing_correct": 0,
+      "literal_format_differences": []
+    },
+    {
+      "case_id": "catalog-2-page-185",
+      "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+      "physical_page": 185,
+      "candidate_file": "examples/project-x/2026-10-12-native-vision-v1-full/glm-5.3-flash/round-1/catalog-2-page-185/catalogue-page.json",
+      "candidate_sha256": "326fe39049c9878c4d9b9e1f59622de8bb114df6f6d4c60a13989898c45958c6",
+      "candidate_bytes": 52187,
+      "retained_score_v030_file": "examples/project-x/2026-10-12-native-vision-v1-full/glm-5.3-flash/round-1/catalog-2-page-185/score-v0.3.0.json",
+      "retained_score_v030_sha256": "04c8b8412bab547ccffacee0eaa269d241c9c05e3943c1aaae0c671b56dca94a",
+      "score_v032_file": "project-x/glm-5.3-flash/round-1/catalog-2-page-185/score-v0.3.2.json",
+      "score_v032_sha256": "f62c9e5e08835fdc24806b621f68d3e4dd4de80ec6987a49fb0811b22a3a4a5c",
+      "fixture_sha256": "4b12ce1f6ace967f9b3339ee129ff14b8928454f53cd069001800a7317d28d4a",
+      "engineering_correct": 14,
+      "drawing_correct": 0,
+      "literal_format_differences": []
+    },
+    {
+      "case_id": "catalog-3-page-111",
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 111,
+      "candidate_file": "examples/project-x/2026-10-12-native-vision-v1-full/glm-5.3-flash/round-1/catalog-3-page-111/catalogue-page.json",
+      "candidate_sha256": "08546f0fc281a2c48ffbaa7c68f820c5664e15e553b9fdf1f1c595061a12d683",
+      "candidate_bytes": 71724,
+      "retained_score_v030_file": "examples/project-x/2026-10-12-native-vision-v1-full/glm-5.3-flash/round-1/catalog-3-page-111/score-v0.3.0.json",
+      "retained_score_v030_sha256": "878d9fae7388b8743b8f60487756122a9aa3c29989fe9a4261848fe3c88675f7",
+      "score_v032_file": "project-x/glm-5.3-flash/round-1/catalog-3-page-111/score-v0.3.2.json",
+      "score_v032_sha256": "7d002d928e21ab7be940ae8dda1f91a4eb627370cfebe46203dc7ab2c0b9eba4",
+      "fixture_sha256": "928708a691d82dd302c54ad59a195c20a5864659f0d788aa4a50a4f5359640ea",
+      "engineering_correct": 7,
+      "drawing_correct": 0,
+      "literal_format_differences": []
+    },
+    {
+      "case_id": "catalog-4-page-033",
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 33,
+      "candidate_file": "examples/project-x/2026-10-12-native-vision-v1-full/glm-5.3-flash/round-1/catalog-4-page-033/catalogue-page.json",
+      "candidate_sha256": "8563529d2a843df4ca3ee3f99d55ca2b7edb8e09a57c920475d56634837a9d4c",
+      "candidate_bytes": 23539,
+      "retained_score_v030_file": "examples/project-x/2026-10-12-native-vision-v1-full/glm-5.3-flash/round-1/catalog-4-page-033/score-v0.3.0.json",
+      "retained_score_v030_sha256": "6290234ad16db636d1b7c9c17c138ff57d0487f9c59e4f5e51ee4c26eea3e023",
+      "score_v032_file": "project-x/glm-5.3-flash/round-1/catalog-4-page-033/score-v0.3.2.json",
+      "score_v032_sha256": "a1b329ec670096b2d84b1f6c41dba416dd2ef633b7552bb7b331cdd1a06fce91",
+      "fixture_sha256": "ea8408c3e91fc2b5f66964af2f0912bddaae85595fdac3947186708ba5aaf7bb",
+      "engineering_correct": 71,
+      "drawing_correct": 0,
+      "literal_format_differences": [
+        {
+          "location": "tables[0].columns[10].label",
+          "raw": "Допустимая степень загрязнения (С3) по ГОСТ 9920",
+          "matching_only": "Допустимая степень загрязнения (СЗ) по ГОСТ 9920",
+          "classification": "contextual_header_abbreviation_typo"
+        }
+      ]
+    },
+    {
+      "case_id": "catalog-4-page-038",
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 38,
+      "candidate_file": "examples/project-x/2026-10-12-native-vision-v1-full/glm-5.3-flash/round-1/catalog-4-page-038/catalogue-page.json",
+      "candidate_sha256": "68b4bc024e4ae15311b39f4fbe809460b9d311606294ba9811f87093a7514555",
+      "candidate_bytes": 18990,
+      "retained_score_v030_file": "examples/project-x/2026-10-12-native-vision-v1-full/glm-5.3-flash/round-1/catalog-4-page-038/score-v0.3.0.json",
+      "retained_score_v030_sha256": "000cdc5fe7c2597e6bc02016ef31e1c2496a79fe8fb24d4cff7826421faeda13",
+      "score_v032_file": "project-x/glm-5.3-flash/round-1/catalog-4-page-038/score-v0.3.2.json",
+      "score_v032_sha256": "ac908481f49e38ebb6d3cba180ea6d7f484ec07b8ccd9ea12737d01886df8f17",
+      "fixture_sha256": "51edf1540e5eaa22f66844b6259ebe661885f7d583f0596b567b9ed7a9713589",
+      "engineering_correct": 72,
+      "drawing_correct": 0,
+      "literal_format_differences": []
+    },
+    {
+      "case_id": "catalog-4-page-078",
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 78,
+      "candidate_file": "examples/project-x/2026-10-12-native-vision-v1-full/glm-5.3-flash/round-1/catalog-4-page-078/catalogue-page.json",
+      "candidate_sha256": "00283a89292f961be8f4e1eb52d254149fa1a1b561a0c17453c446a1a5f1e83f",
+      "candidate_bytes": 27721,
+      "retained_score_v030_file": "examples/project-x/2026-10-12-native-vision-v1-full/glm-5.3-flash/round-1/catalog-4-page-078/score-v0.3.0.json",
+      "retained_score_v030_sha256": "64fa4f668a4f86a5a7f8db2e7cd3867a34156065343b782c21f8c7d29df9475d",
+      "score_v032_file": "project-x/glm-5.3-flash/round-1/catalog-4-page-078/score-v0.3.2.json",
+      "score_v032_sha256": "5c738ccc053ab6f2638265b6a7769183420beaeaea51f0722925672d2993f3e4",
+      "fixture_sha256": "86e767f7af5fdbc24d208112c9c1b6c2b1a3771e3348a130f179db4e7d4ac8b6",
+      "engineering_correct": 132,
+      "drawing_correct": 0,
+      "literal_format_differences": [
+        {
+          "location": "tables[0].columns[12].label",
+          "raw": "Допустимая степень загрязнения (С3) по ГОСТ 9920",
+          "matching_only": "Допустимая степень загрязнения (СЗ) по ГОСТ 9920",
+          "classification": "contextual_header_abbreviation_typo"
+        },
+        {
+          "check_id": "t1-r0-c4",
+          "raw": "4M16",
+          "source_literal": "4М16",
+          "classification": "literal_script_only_physical_thread_equivalent"
+        },
+        {
+          "check_id": "t1-r1-c4",
+          "raw": "4M16",
+          "source_literal": "4М16",
+          "classification": "literal_script_only_physical_thread_equivalent"
+        },
+        {
+          "check_id": "t1-r3-c4",
+          "raw": "4M16",
+          "source_literal": "4М16",
+          "classification": "literal_script_only_physical_thread_equivalent"
+        },
+        {
+          "check_id": "t1-r4-c4",
+          "raw": "4M16",
+          "source_literal": "4М16",
+          "classification": "literal_script_only_physical_thread_equivalent"
+        },
+        {
+          "check_id": "t1-r5-c4",
+          "raw": "4M16",
+          "source_literal": "4М16",
+          "classification": "literal_script_only_physical_thread_equivalent"
+        },
+        {
+          "check_id": "t1-r6-c4",
+          "raw": "4M16",
+          "source_literal": "4М16",
+          "classification": "literal_script_only_physical_thread_equivalent"
+        },
+        {
+          "check_id": "t1-r8-c4",
+          "raw": "4M16",
+          "source_literal": "4М16",
+          "classification": "literal_script_only_physical_thread_equivalent"
+        },
+        {
+          "check_id": "t1-r9-c4",
+          "raw": "4M16",
+          "source_literal": "4М16",
+          "classification": "literal_script_only_physical_thread_equivalent"
+        }
+      ]
+    },
+    {
+      "case_id": "catalog-5-page-030",
+      "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+      "physical_page": 30,
+      "candidate_file": "examples/project-x/2026-10-12-native-vision-v1-full/glm-5.3-flash/round-1/catalog-5-page-030/catalogue-page.json",
+      "candidate_sha256": "4496e323c5ac1ac79c60c4b22af897b594589810964d6bec921ec566186b849a",
+      "candidate_bytes": 31710,
+      "retained_score_v030_file": "examples/project-x/2026-10-12-native-vision-v1-full/glm-5.3-flash/round-1/catalog-5-page-030/score-v0.3.0.json",
+      "retained_score_v030_sha256": "359a4c4adfd2b22e7c854b5e68817bb7ecf1506412eb80bc67ce77fa06e8da4a",
+      "score_v032_file": "project-x/glm-5.3-flash/round-1/catalog-5-page-030/score-v0.3.2.json",
+      "score_v032_sha256": "872eff8c6d8afbc0695eb187bc53376300409b252142e85574b2ed4f5e312019",
+      "fixture_sha256": "504a0a03fecef9240051ae24d714941ff0c8632667b60a3a83ce4e6bc2e15eed",
+      "engineering_correct": 15,
+      "drawing_correct": 0,
+      "literal_format_differences": []
+    },
+    {
+      "case_id": "catalog-5-page-035",
+      "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+      "physical_page": 35,
+      "candidate_file": "examples/project-x/2026-10-12-native-vision-v1-full/glm-5.3-flash/round-1/catalog-5-page-035/catalogue-page.json",
+      "candidate_sha256": "5b9f120a33cce1a314177fad6916f729814cb020d31f3d1a2d4777900a301cb3",
+      "candidate_bytes": 24080,
+      "retained_score_v030_file": "examples/project-x/2026-10-12-native-vision-v1-full/glm-5.3-flash/round-1/catalog-5-page-035/score-v0.3.0.json",
+      "retained_score_v030_sha256": "2266df4431fca6bf7ccd0b3cdf2fc14a19e0e295e50c9d9d5866243ce5a9322b",
+      "score_v032_file": "project-x/glm-5.3-flash/round-1/catalog-5-page-035/score-v0.3.2.json",
+      "score_v032_sha256": "73c1f07267a041d684c02857a3437a8c21d5af335a6e1148062b507c2bf06e7d",
+      "fixture_sha256": "d260784f7d7f58b7ca010d0299c35804f34ec21e47702c70dbdad09bd6b9ae61",
+      "engineering_correct": 13,
+      "drawing_correct": 0,
+      "literal_format_differences": []
+    },
+    {
+      "case_id": "catalog-5-page-126",
+      "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+      "physical_page": 126,
+      "candidate_file": "examples/project-x/2026-10-12-native-vision-v1-full/glm-5.3-flash/round-1/catalog-5-page-126/catalogue-page.json",
+      "candidate_sha256": "526c90ebd5fcd9a49db2e01de59b3382118b37e73df503aca444c8fe548b193f",
+      "candidate_bytes": 42435,
+      "retained_score_v030_file": "examples/project-x/2026-10-12-native-vision-v1-full/glm-5.3-flash/round-1/catalog-5-page-126/score-v0.3.0.json",
+      "retained_score_v030_sha256": "dfb392eb168d0575e029491f00295d89af536758848ed91a19e924b12c637923",
+      "score_v032_file": "project-x/glm-5.3-flash/round-1/catalog-5-page-126/score-v0.3.2.json",
+      "score_v032_sha256": "fab7749b632e51e5a2b37bc3a7ea71477747d69b16c67a79ae38db033c30b384",
+      "fixture_sha256": "a2123b1f211f87319036dd97bcc5ad09efa5e7c120ca936cc8ff2da771703a4c",
+      "engineering_correct": 15,
+      "drawing_correct": 0,
+      "literal_format_differences": []
+    }
+  ],
+  "full_page_accuracy": false
+}
