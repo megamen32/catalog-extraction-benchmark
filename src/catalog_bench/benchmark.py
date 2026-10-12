@@ -52,10 +52,11 @@ class BenchmarkCase(Model):
     headers: list[HeaderAssertion] = Field(default_factory=list)
     figure_labels: list[list[str]] = Field(default_factory=list)
     forbidden_figure_labels: list[list[str]] = Field(default_factory=list)
+    drawing_assertions: list[dict] = Field(default_factory=list)
 
     @model_validator(mode='after')
     def valid_assertions(self):
-        if not self.tables and not self.selected_facts: raise ValueError('Independently checked tables or facts are required')
+        if not self.tables and not self.selected_facts and not self.drawing_assertions: raise ValueError('Independently checked tables or facts are required')
         if self.selected_profile not in (None, 'opn-small', 'arm-iz'): raise ValueError('Unknown selected-fact profile')
         if self.selected_facts and not self.selected_profile: raise ValueError('Facts require a grader profile')
         if self.semantic_columns and (len(self.semantic_columns) != len(self.tables) or any(len(cs) != len(t.rows[0]) for cs,t in zip(self.semantic_columns,self.tables))): raise ValueError('Semantic column annotations must match golden table dimensions')
@@ -160,10 +161,14 @@ def score_content(case, content):
                'figure_labels': metric(figure_correct, len(case.figure_labels)),
                'forbidden_label_absence': metric(forbidden_absent, len(case.forbidden_figure_labels))}
     shape_ok = structure['expected_tables'] == structure['observed_tables'] and all(t['expected_rows'] == t['observed_rows'] and t['expected_columns'] == t['observed_columns'] for t in structure['tables'])
-    return {'schema_version': '1.0', 'case_id': case.id, 'metrics': metrics, 'structure': structure,
-            'all_verified_checks_passed': shape_ok and not differences,
+    from .drawing import score_drawing_assertions
+    drawings = score_drawing_assertions(case.drawing_assertions, content.model_dump())
+    return {'schema_version': '1.0', 'case_id': case.id, 'metrics': metrics, 'structure': structure, 'drawing_assertions': drawings,
+            'all_verified_checks_passed': shape_ok and not differences and drawings['correct'] == drawings['expected'],
             'coverage': {'full_page_ground_truth': False, 'text_blocks_scored': False,
-                         'diagram_relationships_scored': False,
+                         'diagram_relationships_scored': bool(case.drawing_assertions),
+                         'selected_drawing_assertions': len(case.drawing_assertions),
+                         'full_drawing_ground_truth': False,
                          'header_assertions': len(case.headers), 'figure_label_assertions': len(case.figure_labels),
                          'forbidden_declared_label_assertions': len(case.forbidden_figure_labels),
                          'all_invented_labels_scored': False},
@@ -188,7 +193,7 @@ def score_file(fixture, candidate):
         result['all_verified_checks_passed'] = result['all_verified_checks_passed'] and result['engineering_facts']['correct'] == result['engineering_facts']['expected']
     if not case.tables:
         result['structure']['table_shape_scored'] = False
-        result['all_verified_checks_passed'] = result['engineering_facts']['correct'] == result['engineering_facts']['expected']
+        result['all_verified_checks_passed'] = result['engineering_facts']['correct'] == result['engineering_facts']['expected'] and result['drawing_assertions']['correct'] == result['drawing_assertions']['expected']
     result.update(fixture_sha256=hashlib.sha256(fixture.read_bytes()).hexdigest(),
                   candidate_sha256=hashlib.sha256(candidate.read_bytes()).hexdigest(),
                   source_binding=binding,grader_sha256=grader_digest())
@@ -196,5 +201,5 @@ def score_file(fixture, candidate):
 
 
 def grader_digest():
-    files = [Path(__file__), Path(__file__).with_name("semantic.py"), Path(__file__).with_name("schema.py"), *sorted(Path(__file__).with_name("profiles").glob("*.py"))]
+    files = [Path(__file__), Path(__file__).with_name("semantic.py"), Path(__file__).with_name("schema.py"), Path(__file__).with_name("drawing.py"), *sorted(Path(__file__).with_name("profiles").glob("*.py"))]
     return hashlib.sha256(b"".join(p.name.encode()+b"\0"+p.read_bytes() for p in files)).hexdigest()

@@ -1,0 +1,15 @@
+# Source-grounded drawing checks, dataset v2
+
+`engineering-catalogs-v2` adds physical OPN pages27 and39 to the immutable original15 cases. All original fixtures remain byte-identical. There are520 engineering assertions (the previous500 plus20 selected table facts) and21 separate drawing assertions. This is selected-fact accuracy, not full-page ground truth.
+
+Original whole-page images and high-resolution PDF crops were independently viewed before model runs. The two added pages share source SHA256 `300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2`. The new table facts include source-literal95,5 for1,6Кл III versus90,5 for IV, so propagation between variants is detected.
+
+On page27 four charge/execution groups have independent checks: А is directed from above; Б diameter140 belongs to the outer contour, while116 marks the dashed circle through the four mounting holes. Neither page names porcelain/ceramic material. On page39 checks also reject invented Б-Б, electrode coatings and a support-flat-bar function for the rounded500-diameter profile;50 spans the plate faces, and274 ends at the lower edge of the rounded profile.
+
+The deterministic checker requires scoped affirmative text for relation coverage. A list of correct numbers cannot establish dimension ownership. Unsupported material/function claims are checked separately. Local negations such as “фарфор не указан” are allowed; a disclaimer does not excuse another positive unsupported claim in the same sentence. Number boundaries distinguish dimensions50/140 from150/2140 and decimal continuations. Linear50/274 cannot acquire an invented diameter symbol.
+
+The supported phrase patterns are conservative, frozen before inference, and printed with matched evidence in every score. Valid wording outside those patterns is reported missing; the checker is not a universal natural-language judge. Independent visual adjudication can be published separately without changing frozen automated scores. Empty or omitted figures do not pass even the absence-only checks. Full diagram semantics, all invented details and all table cells on these two pages are not covered.
+
+The mixed-pipeline experiment runs three completely fresh sequential17-page rounds. Actual native extractor1.4.2/parser0.2.1 and native reviewer1.4.8 use their pinned original tools/skills/contracts; scheduler1.4.11 supplies delivery guards. Candidate JSON, review JSON, native producer receipts, timing, acceptance coverage and score evidence are retained. No fixture, historical output or independent audit lead is provided to either tested role. No repair-count limit is added; calls and rounds have finite deadlines.
+
+The full catalogue queue continues independently. This experiment adds at most one call per provider and honors its observed cooldown; a known subscription quota hold is recorded before round work starts. Three-round summary separates selected engineering accuracy, drawing accuracy, acceptance coverage and combined weighted assertions. Failed/nonaccepted deliveries contribute zero; available drafts are separately scored and never presented as accepted deliveries.

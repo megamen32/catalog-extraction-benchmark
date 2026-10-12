@@ -1,0 +1,279 @@
+{
+  "schema_version": "1.0",
+  "id": "catalog-5-page-035",
+  "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+  "page": 35,
+  "provenance": "Source-only visual audit with repeated original-page inspection and independent reviewers. See docs/ANNOTATIONS.md for coverage and errata.",
+  "tables": [],
+  "selected_profile": "arm-iz",
+  "selected_facts": [
+    {
+      "table_index": 0,
+      "row_key": "ОЛСК 12,5-10-РО-2",
+      "column": "Рис.",
+      "expected": "1",
+      "unit": null,
+      "kind": "literal",
+      "scope": {
+        "products": [
+          "ОЛСК 12,5-10-PО-2"
+        ],
+        "conductor": null,
+        "part": null
+      }
+    },
+    {
+      "table_index": 0,
+      "row_key": "ОЛСК 12,5-10-РОК-2",
+      "column": "Рис.",
+      "expected": "3",
+      "unit": null,
+      "kind": "literal",
+      "scope": {
+        "products": [
+          "ОЛСК 12,5-10-PОК-2"
+        ],
+        "conductor": null,
+        "part": null
+      }
+    },
+    {
+      "table_index": 0,
+      "row_key": "ОЛСК 12,5-10-РО-4",
+      "column": "Рис.",
+      "expected": "2",
+      "unit": null,
+      "kind": "literal",
+      "scope": {
+        "products": [
+          "ОЛСК 12,5-10-PО-4"
+        ],
+        "conductor": null,
+        "part": null
+      }
+    },
+    {
+      "table_index": 0,
+      "row_key": "ОЛСК 12,5-10-РОК-4",
+      "column": "Рис.",
+      "expected": "4",
+      "unit": null,
+      "kind": "literal",
+      "scope": {
+        "products": [
+          "ОЛСК 12,5-10-PОК-4"
+        ],
+        "conductor": null,
+        "part": null
+      }
+    },
+    {
+      "table_index": 0,
+      "row_key": "все8строк",
+      "column": "Номинальное напряжение",
+      "expected": "10",
+      "unit": "кВ",
+      "kind": "merged",
+      "scope": {
+        "products": [
+          "ОЛСК 12,5-10-PО-2",
+          "ОЛСК 12,5-10-PОК-2",
+          "ОЛСК 12,5-10-PО-4",
+          "ОЛСК 12,5-10-PОК-4",
+          "ОЛСК 12,5-10-PО-2-h Исп.1",
+          "ОЛСК 12,5-10-PОК-2-h Исп.1",
+          "ОЛСК 12,5-10-PО-4-h Исп.1",
+          "ОЛСК 12,5-10-PОК-4-h Исп.1"
+        ],
+        "conductor": null,
+        "part": null
+      }
+    },
+    {
+      "table_index": 0,
+      "row_key": "все8строк",
+      "column": "Нормированная разрушающая сила на изгиб",
+      "expected": "12,5",
+      "unit": "кН",
+      "kind": "merged",
+      "scope": {
+        "products": [
+          "ОЛСК 12,5-10-PО-2",
+          "ОЛСК 12,5-10-PОК-2",
+          "ОЛСК 12,5-10-PО-4",
+          "ОЛСК 12,5-10-PОК-4",
+          "ОЛСК 12,5-10-PО-2-h Исп.1",
+          "ОЛСК 12,5-10-PОК-2-h Исп.1",
+          "ОЛСК 12,5-10-PО-4-h Исп.1",
+          "ОЛСК 12,5-10-PОК-4-h Исп.1"
+        ],
+        "conductor": null,
+        "part": null
+      }
+    },
+    {
+      "table_index": 0,
+      "row_key": "все8строк",
+      "column": "Строительная высота H, не более",
+      "expected": "240",
+      "unit": "мм",
+      "kind": "merged",
+      "scope": {
+        "products": [
+          "ОЛСК 12,5-10-PО-2",
+          "ОЛСК 12,5-10-PОК-2",
+          "ОЛСК 12,5-10-PО-4",
+          "ОЛСК 12,5-10-PОК-4",
+          "ОЛСК 12,5-10-PО-2-h Исп.1",
+          "ОЛСК 12,5-10-PОК-2-h Исп.1",
+          "ОЛСК 12,5-10-PО-4-h Исп.1",
+          "ОЛСК 12,5-10-PОК-4-h Исп.1"
+        ],
+        "conductor": null,
+        "part": null
+      }
+    },
+    {
+      "table_index": 0,
+      "row_key": "первые4строки",
+      "column": "Высота шпильки h",
+      "expected": "45",
+      "unit": "мм",
+      "kind": "merged",
+      "scope": {
+        "products": [
+          "ОЛСК 12,5-10-PО-2",
+          "ОЛСК 12,5-10-PОК-2",
+          "ОЛСК 12,5-10-PО-4",
+          "ОЛСК 12,5-10-PОК-4"
+        ],
+        "conductor": null,
+        "part": null
+      }
+    },
+    {
+      "table_index": 0,
+      "row_key": "последние4строки h Исп.1",
+      "column": "Высота шпильки h",
+      "expected": "*",
+      "unit": "мм",
+      "kind": "merged",
+      "scope": {
+        "products": [
+          "ОЛСК 12,5-10-PО-2-h Исп.1",
+          "ОЛСК 12,5-10-PОК-2-h Исп.1",
+          "ОЛСК 12,5-10-PО-4-h Исп.1",
+          "ОЛСК 12,5-10-PОК-4-h Исп.1"
+        ],
+        "conductor": null,
+        "part": null
+      }
+    },
+    {
+      "table_index": 0,
+      "row_key": "все8строк",
+      "column": "Изоляционная высота L, не менее",
+      "expected": "165",
+      "unit": "мм",
+      "kind": "merged",
+      "scope": {
+        "products": [
+          "ОЛСК 12,5-10-PО-2",
+          "ОЛСК 12,5-10-PОК-2",
+          "ОЛСК 12,5-10-PО-4",
+          "ОЛСК 12,5-10-PОК-4",
+          "ОЛСК 12,5-10-PО-2-h Исп.1",
+          "ОЛСК 12,5-10-PОК-2-h Исп.1",
+          "ОЛСК 12,5-10-PО-4-h Исп.1",
+          "ОЛСК 12,5-10-PОК-4-h Исп.1"
+        ],
+        "conductor": null,
+        "part": null
+      }
+    },
+    {
+      "table_index": 0,
+      "row_key": "ОЛСК 12,5-10-РО-2 и РОК-2",
+      "column": "Длина пути утечки, не менее",
+      "expected": "300",
+      "unit": "мм",
+      "kind": "merged",
+      "scope": {
+        "products": [
+          "ОЛСК 12,5-10-PО-2",
+          "ОЛСК 12,5-10-PОК-2"
+        ],
+        "conductor": null,
+        "part": null
+      }
+    },
+    {
+      "table_index": 0,
+      "row_key": "ОЛСК 12,5-10-РО-4 и РОК-4",
+      "column": "Длина пути утечки, не менее",
+      "expected": "420",
+      "unit": "мм",
+      "kind": "merged",
+      "scope": {
+        "products": [
+          "ОЛСК 12,5-10-PО-4",
+          "ОЛСК 12,5-10-PОК-4"
+        ],
+        "conductor": null,
+        "part": null
+      }
+    },
+    {
+      "table_index": 0,
+      "row_key": "все8строк",
+      "column": "50Гц под дождем",
+      "expected": "45",
+      "unit": "кВ",
+      "kind": "merged",
+      "scope": {
+        "products": [
+          "ОЛСК 12,5-10-PО-2",
+          "ОЛСК 12,5-10-PОК-2",
+          "ОЛСК 12,5-10-PО-4",
+          "ОЛСК 12,5-10-PОК-4",
+          "ОЛСК 12,5-10-PО-2-h Исп.1",
+          "ОЛСК 12,5-10-PОК-2-h Исп.1",
+          "ОЛСК 12,5-10-PО-4-h Исп.1",
+          "ОЛСК 12,5-10-PОК-4-h Исп.1"
+        ],
+        "conductor": null,
+        "part": null
+      }
+    },
+    {
+      "table_index": 0,
+      "row_key": "ОЛСК 12,5-10-РО-2",
+      "column": "Допустимая степень загрязнения",
+      "expected": "II",
+      "unit": null,
+      "kind": "literal",
+      "scope": {
+        "products": [
+          "ОЛСК 12,5-10-PО-2"
+        ],
+        "conductor": null,
+        "part": null
+      }
+    },
+    {
+      "table_index": 0,
+      "row_key": "ОЛСК 12,5-10-РО-4",
+      "column": "Допустимая степень загрязнения",
+      "expected": "IV",
+      "unit": null,
+      "kind": "literal",
+      "scope": {
+        "products": [
+          "ОЛСК 12,5-10-PО-4"
+        ],
+        "conductor": null,
+        "part": null
+      }
+    }
+  ]
+}

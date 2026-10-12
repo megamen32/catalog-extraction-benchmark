@@ -1,0 +1,242 @@
+{
+  "schema_version": "1.0",
+  "id": "catalog-3-page-103",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "page": 103,
+  "provenance": "Source-only visual audit with repeated original-page inspection and independent reviewers. See docs/ANNOTATIONS.md for coverage and errata.",
+  "tables": [],
+  "selected_profile": "arm-iz",
+  "selected_facts": [
+    {
+      "table_index": 0,
+      "row_key": "НАС-50-1Б / АС 35/6,2 / корпус",
+      "column": "d",
+      "expected": "11",
+      "unit": "мм",
+      "kind": "literal",
+      "scope": {
+        "products": [
+          "НАС-50-1Б"
+        ],
+        "conductor": "АС 35/6,2",
+        "part": "корпус"
+      }
+    },
+    {
+      "table_index": 0,
+      "row_key": "НАС-50-1Б / АС 35/6,2 / анкер",
+      "column": "d",
+      "expected": "-",
+      "unit": "мм",
+      "kind": "dash",
+      "scope": {
+        "products": [
+          "НАС-50-1Б"
+        ],
+        "conductor": "АС 35/6,2",
+        "part": "анкер"
+      }
+    },
+    {
+      "table_index": 0,
+      "row_key": "НАС-50-1Б / АС 35/6,2 / анкер",
+      "column": "d1",
+      "expected": "15",
+      "unit": "мм",
+      "kind": "literal",
+      "scope": {
+        "products": [
+          "НАС-50-1Б"
+        ],
+        "conductor": "АС 35/6,2",
+        "part": "анкер"
+      }
+    },
+    {
+      "table_index": 0,
+      "row_key": "НАС-50-1Б",
+      "column": "L",
+      "expected": "205",
+      "unit": "мм",
+      "kind": "literal",
+      "scope": {
+        "products": [
+          "НАС-50-1Б"
+        ],
+        "conductor": null,
+        "part": null
+      }
+    },
+    {
+      "table_index": 0,
+      "row_key": "НАС-50-1Б",
+      "column": "Масса",
+      "expected": "0,53",
+      "unit": "кг",
+      "kind": "literal",
+      "scope": {
+        "products": [
+          "НАС-50-1Б"
+        ],
+        "conductor": null,
+        "part": null
+      }
+    },
+    {
+      "table_index": 0,
+      "row_key": "НАС-95-1Б",
+      "column": "H",
+      "expected": "118,5",
+      "unit": "мм",
+      "kind": "literal",
+      "scope": {
+        "products": [
+          "НАС-95-1Б"
+        ],
+        "conductor": null,
+        "part": null
+      }
+    },
+    {
+      "table_index": 0,
+      "row_key": "НАС-95-1Б",
+      "column": "Разрушающая нагрузка, не менее",
+      "expected": "37,54",
+      "unit": "кН",
+      "kind": "literal",
+      "scope": {
+        "products": [
+          "НАС-95-1Б"
+        ],
+        "conductor": null,
+        "part": null
+      }
+    },
+    {
+      "table_index": 0,
+      "row_key": "НАС-50-1Б и НАС-95-1Б",
+      "column": "b",
+      "expected": "14",
+      "unit": "мм",
+      "kind": "merged",
+      "scope": {
+        "products": [
+          "НАС-50-1Б",
+          "НАС-95-1Б"
+        ],
+        "conductor": null,
+        "part": null
+      }
+    },
+    {
+      "table_index": 0,
+      "row_key": "НАС-150-1Б",
+      "column": "L",
+      "expected": "315",
+      "unit": "мм",
+      "kind": "literal",
+      "scope": {
+        "products": [
+          "НАС-150-1Б"
+        ],
+        "conductor": null,
+        "part": null
+      }
+    },
+    {
+      "table_index": 0,
+      "row_key": "НАС-150-2Б",
+      "column": "L",
+      "expected": "330",
+      "unit": "мм",
+      "kind": "literal",
+      "scope": {
+        "products": [
+          "НАС-150-2Б"
+        ],
+        "conductor": null,
+        "part": null
+      }
+    },
+    {
+      "table_index": 0,
+      "row_key": "НАС-150-1Б и НАС-150-2Б",
+      "column": "L2",
+      "expected": "165",
+      "unit": "мм",
+      "kind": "merged",
+      "scope": {
+        "products": [
+          "НАС-150-1Б",
+          "НАС-150-2Б"
+        ],
+        "conductor": null,
+        "part": null
+      }
+    },
+    {
+      "table_index": 0,
+      "row_key": "НАС-240-1Б / АС185/24",
+      "column": "Разрушающая нагрузка, не менее",
+      "expected": "65,33",
+      "unit": "кН",
+      "kind": "literal",
+      "scope": {
+        "products": [
+          "НАС-240-1Б"
+        ],
+        "conductor": "АС185/24",
+        "part": null
+      }
+    },
+    {
+      "table_index": 0,
+      "row_key": "НАС-240-1Б / АС185/29,АС205/27,АС240/32",
+      "column": "Разрушающая нагрузка, не менее",
+      "expected": "84,43",
+      "unit": "кН",
+      "kind": "merged",
+      "scope": {
+        "products": [
+          "НАС-240-1Б"
+        ],
+        "conductor": [
+          "АС185/29",
+          "АС205/27",
+          "АС240/32"
+        ],
+        "part": null
+      }
+    },
+    {
+      "table_index": 0,
+      "row_key": "НАС-300-1Б",
+      "column": "L",
+      "expected": "397,5",
+      "unit": "мм",
+      "kind": "literal",
+      "scope": {
+        "products": [
+          "НАС-300-1Б"
+        ],
+        "conductor": null,
+        "part": null
+      }
+    },
+    {
+      "table_index": 0,
+      "row_key": "НАС-600-1Б",
+      "column": "Масса",
+      "expected": "4,65",
+      "unit": "кг",
+      "kind": "literal",
+      "scope": {
+        "products": [
+          "НАС-600-1Б"
+        ],
+        "conductor": null,
+        "part": null
+      }
+    }
+  ]
+}

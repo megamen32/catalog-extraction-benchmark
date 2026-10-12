@@ -2,8 +2,8 @@
 
 Compare PDF catalogue parsers against independently reviewed engineering facts.
 
-- **15 difficult pages** from five catalogues, including the rotated tables on page 78.
-- **500 source-reviewed facts**: product identity, parameter, unit, condition and value.
+- **17 difficult pages** from five catalogues, including the rotated tables on page 78.
+- **520 source-reviewed engineering facts +21 drawing checks** in dataset v2; the original15-page/500-fact dataset v1 is retained.
 - Compare canonical page JSON and externally supplied products/characteristics/families JSONL.
 - Run explicit **project × model** matrices with bounded execution and reusable artifacts.
 - Keep literal transcription, engineering correctness and annotation coverage separate.
@@ -13,13 +13,13 @@ Compare PDF catalogue parsers against independently reviewed engineering facts.
 Requires Python 3.11+ and [uv](https://docs.astral.sh/uv/).
 
 ```bash
-uv tool install git+https://github.com/megamen32/catalog-extraction-benchmark@v0.2.4
+uv tool install git+https://github.com/megamen32/catalog-extraction-benchmark@v0.3.0
 ```
 
 ## Try it
 
 ```bash
-catalog-bench dataset
+catalog-bench dataset --dataset engineering-catalogs-v2
 catalog-bench demo --output results/demo
 catalog-bench score --case catalog-4-page-078 page-78.json --output results/score.json
 ```
@@ -45,3 +45,5 @@ Export annotations with `catalog-bench dataset --export annotations`, then follo
 [Три полных раунда обеих версий: 90 попыток и 84 точных JSON](examples/agent-routing/2026-10-12-repeated-runs/README.md). После полной переоценки grader 0.2.4 среднее выбранных фактов: 94,13% у 1.4.2 и 70,27% у 1.4.4; разброс, неудачи и различия по каталогам сохранены отдельно.
 
 [Три свежих раунда исправленной 1.4.6: 45 новых попыток](examples/agent-routing/2026-10-12-fresh-v1.4.6/README.md): 450/469/471 из 500, среднее 92,67%, диапазон 90–94,2%. Сравниваются полные профили с разными версиями parser plugin; новые смешанные профили не наследуют эти оценки.
+
+[Source-grounded drawing checks for OPN27/39 and the mixed native pipeline](docs/DRAWING-ASSERTIONS.md). Dataset v2 is a new denominator; prior three-round percentages remain bound to immutable dataset v1.

@@ -14,10 +14,12 @@ def main():
     parser.add_argument('--version', action='version', version=__version__)
     subs = parser.add_subparsers(dest='command', required=True)
     data = subs.add_parser('dataset', help='Inspect, verify or export the frozen 15-case dataset')
+    data.add_argument('--dataset', default='engineering-catalogs-v1', choices=['engineering-catalogs-v1','engineering-catalogs-v2'])
     data.add_argument('--export', type=Path); data.add_argument('--list', action='store_true')
     score = subs.add_parser('score', help='Grade a page without calling an extraction model')
     selectors = score.add_mutually_exclusive_group(required=True)
     selectors.add_argument('--case'); selectors.add_argument('--fixture', type=Path)
+    score.add_argument('--dataset', default='engineering-catalogs-v1', choices=['engineering-catalogs-v1','engineering-catalogs-v2'])
     score.add_argument('candidate', type=Path); score.add_argument('--output', type=Path)
     imp = subs.add_parser('import-jsonl', help='Import a supplied saved-result baseline without inference')
     for flag in ['products', 'characteristics', 'families']:
@@ -36,11 +38,11 @@ def main():
     args = parser.parse_args()
     try:
         if args.command == 'dataset':
-            result = validate_dataset()
-            if args.list: result['cases'] = load_dataset()['cases']
-            if args.export: result['exported_to'] = str(export_dataset(args.export))
+            result = validate_dataset(args.dataset)
+            if args.list: result['cases'] = load_dataset(args.dataset)['cases']
+            if args.export: result['exported_to'] = str(export_dataset(args.export,args.dataset))
         elif args.command == 'score':
-            result = score_file(fixture_path(args.case) if args.case else args.fixture, args.candidate)
+            result = score_file(fixture_path(args.case,args.dataset) if args.case else args.fixture, args.candidate)
             if args.output: write_json(args.output, result)
         elif args.command == 'import-jsonl':
             from .saved_results import import_jsonl

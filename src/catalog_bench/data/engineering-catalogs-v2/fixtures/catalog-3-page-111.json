@@ -1,0 +1,292 @@
+{
+  "schema_version": "1.0",
+  "id": "catalog-3-page-111",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "page": 111,
+  "provenance": "Source-only visual audit with repeated original-page inspection and independent reviewers. See docs/ANNOTATIONS.md for coverage and errata.",
+  "tables": [],
+  "selected_profile": "arm-iz",
+  "selected_facts": [
+    {
+      "table_index": 0,
+      "row_key": "НМЗ-45-1",
+      "column": "L",
+      "expected": "193",
+      "unit": null,
+      "kind": "literal",
+      "scope": {
+        "products": [
+          "НМЗ-45-1"
+        ],
+        "conductor": null,
+        "part": null
+      }
+    },
+    {
+      "table_index": 0,
+      "row_key": "НМЗ-45-1",
+      "column": "B",
+      "expected": "-",
+      "unit": null,
+      "kind": "dash",
+      "scope": {
+        "products": [
+          "НМЗ-45-1"
+        ],
+        "conductor": null,
+        "part": null
+      }
+    },
+    {
+      "table_index": 0,
+      "row_key": "НМЗ-45-1,НМЗ-45-2,НМЗ-45-3",
+      "column": "Масса",
+      "expected": "1,33",
+      "unit": "кг",
+      "kind": "merged",
+      "scope": {
+        "products": [
+          "НМЗ-45-1",
+          "НМЗ-45-2",
+          "НМЗ-45-3"
+        ],
+        "conductor": null,
+        "part": null
+      }
+    },
+    {
+      "table_index": 0,
+      "row_key": "НМЗ-45-1..НМЗ-160-3",
+      "column": "Исполнение",
+      "expected": "1",
+      "unit": null,
+      "kind": "merged",
+      "scope": {
+        "products": [
+          "НМЗ-45-1",
+          "НМЗ-45-2",
+          "НМЗ-45-3",
+          "НМЗ-60-1",
+          "НМЗ-60-2",
+          "НМЗ-60-3",
+          "НМЗ-70-1",
+          "НМЗ-70-2",
+          "НМЗ-70-3",
+          "НМЗ-85-1",
+          "НМЗ-85-2",
+          "НМЗ-85-3",
+          "НМЗ-110-1",
+          "НМЗ-110-2",
+          "НМЗ-110-3",
+          "НМЗ-120-1",
+          "НМЗ-120-2",
+          "НМЗ-120-3",
+          "НМЗ-135-1",
+          "НМЗ-135-2",
+          "НМЗ-135-3",
+          "НМЗ-160-1",
+          "НМЗ-160-2",
+          "НМЗ-160-3"
+        ],
+        "conductor": null,
+        "part": null
+      }
+    },
+    {
+      "table_index": 0,
+      "row_key": "НМЗ-60-1..НМЗ-70-3",
+      "column": "D",
+      "expected": "28",
+      "unit": null,
+      "kind": "merged",
+      "scope": {
+        "products": [
+          "НМЗ-60-1",
+          "НМЗ-60-2",
+          "НМЗ-60-3",
+          "НМЗ-70-1",
+          "НМЗ-70-2",
+          "НМЗ-70-3"
+        ],
+        "conductor": null,
+        "part": null
+      }
+    },
+    {
+      "table_index": 0,
+      "row_key": "НМЗ-85-2",
+      "column": "L1",
+      "expected": "137",
+      "unit": null,
+      "kind": "literal",
+      "scope": {
+        "products": [
+          "НМЗ-85-2"
+        ],
+        "conductor": null,
+        "part": null
+      }
+    },
+    {
+      "table_index": 0,
+      "row_key": "НМЗ-110-1..НМЗ-120-3",
+      "column": "Разрушающая нагрузка, не менее",
+      "expected": "250",
+      "unit": "кН",
+      "kind": "merged",
+      "scope": {
+        "products": [
+          "НМЗ-110-1",
+          "НМЗ-110-2",
+          "НМЗ-110-3",
+          "НМЗ-120-1",
+          "НМЗ-120-2",
+          "НМЗ-120-3"
+        ],
+        "conductor": null,
+        "part": null
+      }
+    },
+    {
+      "table_index": 0,
+      "row_key": "НМЗ-135-1..НМЗ-160-3",
+      "column": "L2",
+      "expected": "111",
+      "unit": null,
+      "kind": "merged",
+      "scope": {
+        "products": [
+          "НМЗ-135-1",
+          "НМЗ-135-2",
+          "НМЗ-135-3",
+          "НМЗ-160-1",
+          "НМЗ-160-2",
+          "НМЗ-160-3"
+        ],
+        "conductor": null,
+        "part": null
+      }
+    },
+    {
+      "table_index": 0,
+      "row_key": "НМЗ-180-2",
+      "column": "Марка троса",
+      "expected": "16,0-Г(МЗ)-В-ОЖ-МК-Н-Р-170",
+      "unit": null,
+      "kind": "literal",
+      "note": "Именно -170 в источнике; подозрение на опечатку, не исправлять без source_note",
+      "scope": {
+        "products": [
+          "НМЗ-180-2"
+        ],
+        "conductor": null,
+        "part": null
+      }
+    },
+    {
+      "table_index": 0,
+      "row_key": "НМЗ-240-1",
+      "column": "L",
+      "expected": "50",
+      "unit": null,
+      "kind": "literal",
+      "note": "Именно50, не500; подозрение на опечатку",
+      "scope": {
+        "products": [
+          "НМЗ-240-1"
+        ],
+        "conductor": null,
+        "part": null
+      }
+    },
+    {
+      "table_index": 0,
+      "row_key": "НМЗ-240-3",
+      "column": "L1",
+      "expected": "23",
+      "unit": null,
+      "kind": "literal",
+      "note": "Именно23, не230; подозрение на опечатку",
+      "scope": {
+        "products": [
+          "НМЗ-240-3"
+        ],
+        "conductor": null,
+        "part": null
+      }
+    },
+    {
+      "table_index": 0,
+      "row_key": "НМЗ-350-3",
+      "column": "L1",
+      "expected": "29",
+      "unit": null,
+      "kind": "literal",
+      "note": "Именно29, не290; подозрение на опечатку",
+      "scope": {
+        "products": [
+          "НМЗ-350-3"
+        ],
+        "conductor": null,
+        "part": null
+      }
+    },
+    {
+      "table_index": 0,
+      "row_key": "НМЗ-240-1..НМЗ-350-3",
+      "column": "Исполнение",
+      "expected": "2",
+      "unit": null,
+      "kind": "merged",
+      "scope": {
+        "products": [
+          "НМЗ-240-1",
+          "НМЗ-240-2",
+          "НМЗ-240-3",
+          "НМЗ-310-1",
+          "НМЗ-310-2",
+          "НМЗ-310-3",
+          "НМЗ-350-1",
+          "НМЗ-350-2",
+          "НМЗ-350-3"
+        ],
+        "conductor": null,
+        "part": null
+      }
+    },
+    {
+      "table_index": 0,
+      "row_key": "НМЗ-310-1..НМЗ-310-3",
+      "column": "Разрушающая нагрузка, не менее",
+      "expected": "750",
+      "unit": "кН",
+      "kind": "merged",
+      "scope": {
+        "products": [
+          "НМЗ-310-1",
+          "НМЗ-310-2",
+          "НМЗ-310-3"
+        ],
+        "conductor": null,
+        "part": null
+      }
+    },
+    {
+      "table_index": 0,
+      "row_key": "НМЗ-350-1..НМЗ-350-3",
+      "column": "Масса",
+      "expected": "25,29",
+      "unit": "кг",
+      "kind": "merged",
+      "scope": {
+        "products": [
+          "НМЗ-350-1",
+          "НМЗ-350-2",
+          "НМЗ-350-3"
+        ],
+        "conductor": null,
+        "part": null
+      }
+    }
+  ]
+}

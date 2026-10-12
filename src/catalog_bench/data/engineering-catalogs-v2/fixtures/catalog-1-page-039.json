@@ -1,0 +1,188 @@
+{
+  "schema_version": "1.0",
+  "id": "catalog-1-page-039",
+  "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+  "page": 39,
+  "provenance": "Original PDF whole-page repeated visual inspection and independent root confirmation,12Oct2026; table facts transcribed from original, drawing assertions from visible arrows/contours, not extraction outputs. See docs/DRAWING-ASSERTIONS.md.",
+  "tables": [],
+  "selected_profile": "opn-small",
+  "selected_facts": [
+    {
+      "location": "top table",
+      "entity": "ОПН-П-150/110/10/1,6-III УХЛ1",
+      "parameter": "наибольшее длительно допустимое рабочее напряжение",
+      "value": "110,0",
+      "unit": "кВ"
+    },
+    {
+      "location": "top table",
+      "entity": "ОПН-П-150/110/10/1,6-III УХЛ1",
+      "parameter": "номинальное напряжение, не менее",
+      "value": "138,0",
+      "unit": "кВ"
+    },
+    {
+      "location": "top table",
+      "entity": "ОПН-П-150/110/10/1,6-III УХЛ1",
+      "parameter": "остающееся при 5 кА 8/20",
+      "value": "322,0",
+      "unit": "кВ"
+    },
+    {
+      "location": "top table",
+      "entity": "ОПН-П-150/110/10/1,6-III УХЛ1",
+      "parameter": "остающееся при 250 А 30/60",
+      "value": "260,0",
+      "unit": "кВ"
+    },
+    {
+      "location": "top table",
+      "entity": "ОПН-П-150/110/10/1,6-III УХЛ1",
+      "parameter": "тепловая энергия, не менее",
+      "value": "7,0",
+      "unit": "кДж/кВ"
+    },
+    {
+      "location": "top table",
+      "entity": "ОПН-П-150/120/10/1,6-III УХЛ1",
+      "parameter": "наибольшее длительно допустимое рабочее напряжение",
+      "value": "120,0",
+      "unit": "кВ"
+    },
+    {
+      "location": "top table",
+      "entity": "ОПН-П-150/120/10/1,6-III УХЛ1",
+      "parameter": "номинальное напряжение, не менее",
+      "value": "150,0",
+      "unit": "кВ"
+    },
+    {
+      "location": "top table",
+      "entity": "ОПН-П-150/120/10/1,6-III УХЛ1",
+      "parameter": "остающееся при 5 кА 8/20",
+      "value": "351,0",
+      "unit": "кВ"
+    },
+    {
+      "location": "top table",
+      "entity": "ОПН-П-150/120/10/1,6-III УХЛ1",
+      "parameter": "остающееся при 250 А 30/60",
+      "value": "284,0",
+      "unit": "кВ"
+    },
+    {
+      "location": "top table",
+      "entity": "ОПН-П-150/120/10/1,6-III УХЛ1",
+      "parameter": "тепловая энергия, не менее",
+      "value": "7,0",
+      "unit": "кДж/кВ"
+    }
+  ],
+  "drawing_assertions": [
+    {
+      "id": "material-source-absence",
+      "source_fact": "The page does not print porcelain/ceramic material; visible ribs alone do not establish it.",
+      "category": "unsupported_claim",
+      "scope_patterns": [],
+      "positive_patterns": [],
+      "forbidden_patterns": [
+        "фарфор\\w*",
+        "керамич\\w*"
+      ]
+    },
+    {
+      "id": "unprinted-section-absence",
+      "source_fact": "Only А and Б are printed, no Б-Б cutting plane.",
+      "category": "unsupported_claim",
+      "scope_patterns": [],
+      "positive_patterns": [],
+      "forbidden_patterns": [
+        "сечени\\w*[^.;]{0,20}Б\\s*[-–]\\s*Б",
+        "Б\\s*[-–]\\s*Б"
+      ]
+    },
+    {
+      "id": "outer140",
+      "source_fact": "ViewБ φ140 is the outer solid contour.",
+      "category": "dimension_owner",
+      "scope_patterns": [],
+      "positive_patterns": [
+        "(?<![\\d.,φ])φ?\\s*140(?!\\d)(?![.,]\\d)[^.;\\d]{0,90}(?P<claim>наружн\\w*|внешн\\w*)",
+        "(?P<claim>наружн\\w*|внешн\\w*)[^.;\\d]{0,90}(?<![\\d.,φ])φ?\\s*140(?!\\d)(?![.,]\\d)"
+      ],
+      "forbidden_patterns": [
+        "(?<![\\d.,φ])φ?\\s*140(?!\\d)(?![.,]\\d)[^.;\\d]{0,90}(?P<claim>внутренн\\w*|центральн\\w*)",
+        "(?P<claim>внутренн\\w*|центральн\\w*)[^.;\\d]{0,90}(?<![\\d.,φ])φ?\\s*140(?!\\d)(?![.,]\\d)"
+      ],
+      "view": "Б"
+    },
+    {
+      "id": "pitch116",
+      "source_fact": "ViewБ φ116 is the dashed hole pitch circle.",
+      "category": "dimension_owner",
+      "scope_patterns": [],
+      "positive_patterns": [
+        "(?<![\\d.,φ])φ?\\s*116(?!\\d)(?![.,]\\d)[^.;\\d]{0,90}(?P<claim>пунктир\\w*|штрих\\w*|окружност\\w*\\s+(?:расположени\\w*|центров|отверсти\\w*))",
+        "(?P<claim>пунктир\\w*|штрих\\w*|окружност\\w*\\s+(?:расположени\\w*|центров|отверсти\\w*))[^.;\\d]{0,90}(?<![\\d.,φ])φ?\\s*116(?!\\d)(?![.,]\\d)"
+      ],
+      "forbidden_patterns": [
+        "(?<![\\d.,φ])φ?\\s*116(?!\\d)(?![.,]\\d)[^.;\\d]{0,90}(?P<claim>наружн\\w*|внешн\\w*)",
+        "(?P<claim>наружн\\w*|внешн\\w*)[^.;\\d]{0,90}(?<![\\d.,φ])φ?\\s*116(?!\\d)(?![.,]\\d)"
+      ],
+      "view": "Б"
+    },
+    {
+      "id": "ring500",
+      "source_fact": "φ500 marks a rounded/ring profile, not an identified support flat bar.",
+      "category": "shape_and_unsupported_function",
+      "scope_patterns": [],
+      "positive_patterns": [
+        "(?<![\\d.,φ])φ?\\s*500(?!\\d)(?![.,]\\d)[^.;\\d]{0,90}(?P<claim>кольц\\w*|закруглен\\w*|скруглен\\w*|округл\\w*)",
+        "(?P<claim>кольц\\w*|закруглен\\w*|скруглен\\w*|округл\\w*)[^.;\\d]{0,90}(?<![\\d.,φ])φ?\\s*500(?!\\d)(?![.,]\\d)"
+      ],
+      "forbidden_patterns": [
+        "опорн\\w*\\s+планк\\w*"
+      ]
+    },
+    {
+      "id": "rib-function-absence",
+      "source_fact": "Visible ribs are not identified as electrode coatings.",
+      "category": "unsupported_claim",
+      "scope_patterns": [],
+      "positive_patterns": [],
+      "forbidden_patterns": [
+        "электродн\\w*[^.;]{0,30}покрыти\\w*",
+        "электродн\\w*\\s+ребр\\w*"
+      ]
+    },
+    {
+      "id": "dimension50-faces",
+      "source_fact": "ViewА dimension50 spans upper/lower plate faces; hole centers share a horizontal axis.",
+      "category": "dimension_endpoint",
+      "scope_patterns": [],
+      "positive_patterns": [
+        "(?<![\\d.,φ])50(?!\\d)(?![.,]\\d)[^.;\\d]{0,90}(?P<claim>высот\\w*\\s+(?:пластины|плиты)|ширин\\w*\\s+(?:пластины|плиты)|верхн\\w*[^.;]{0,35}нижн\\w*[^.;]{0,20}(?:гран\\w*|кра\\w*))",
+        "(?P<claim>высот\\w*\\s+(?:пластины|плиты)|ширин\\w*\\s+(?:пластины|плиты)|верхн\\w*[^.;]{0,35}нижн\\w*[^.;]{0,20}(?:гран\\w*|кра\\w*))[^.;\\d]{0,90}(?<![\\d.,φ])50(?!\\d)(?![.,]\\d)"
+      ],
+      "forbidden_patterns": [
+        "(?<![\\d.,φ])50(?!\\d)(?![.,]\\d)[^.;\\d]{0,90}(?P<claim>между\\s+(?:осями|центрами)\\s+отверсти\\w*)",
+        "(?P<claim>между\\s+(?:осями|центрами)\\s+отверсти\\w*)[^.;\\d]{0,90}(?<![\\d.,φ])50(?!\\d)(?![.,]\\d)"
+      ],
+      "view": "А"
+    },
+    {
+      "id": "dimension274-loweredge",
+      "source_fact": "274 spans the common upper dimension plane to the LOWER edge of roundedφ500 profile.",
+      "category": "dimension_endpoint",
+      "scope_patterns": [],
+      "positive_patterns": [
+        "(?<![\\d.,φ])274(?!\\d)(?![.,]\\d)[^.;\\d]{0,90}(?P<claim>нижн\\w*\\s+(?:кра\\w*|гран\\w*|границ\\w*)[^.;]{0,45}(?:500|кольц\\w*|профил\\w*|элемент\\w*))",
+        "(?P<claim>нижн\\w*\\s+(?:кра\\w*|гран\\w*|границ\\w*)[^.;]{0,45}(?:500|кольц\\w*|профил\\w*|элемент\\w*))[^.;\\d]{0,90}(?<![\\d.,φ])274(?!\\d)(?![.,]\\d)"
+      ],
+      "forbidden_patterns": [
+        "(?<![\\d.,φ])274(?!\\d)(?![.,]\\d)[^.;\\d]{0,90}(?P<claim>верхн\\w*\\s+(?:кра\\w*|гран\\w*)\\s+(?:элемент\\w*|кольц\\w*|профил\\w*))",
+        "(?P<claim>верхн\\w*\\s+(?:кра\\w*|гран\\w*)\\s+(?:элемент\\w*|кольц\\w*|профил\\w*))[^.;\\d]{0,90}(?<![\\d.,φ])274(?!\\d)(?![.,]\\d)"
+      ]
+    }
+  ]
+}

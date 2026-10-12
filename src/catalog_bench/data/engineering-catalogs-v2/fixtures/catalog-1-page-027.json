@@ -1,0 +1,302 @@
+{
+  "schema_version": "1.0",
+  "id": "catalog-1-page-027",
+  "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+  "page": 27,
+  "provenance": "Original PDF whole-page repeated visual inspection and independent root confirmation,12Oct2026; table facts transcribed from original, drawing assertions from visible arrows/contours, not extraction outputs. See docs/DRAWING-ASSERTIONS.md.",
+  "tables": [],
+  "selected_profile": "opn-small",
+  "selected_facts": [
+    {
+      "location": "top table",
+      "entity": "ОПН-П-35/38/10/1,2-III",
+      "parameter": "наибольшее длительно допустимое рабочее напряжение",
+      "value": "38",
+      "unit": "кВ"
+    },
+    {
+      "location": "top table",
+      "entity": "ОПН-П-35/38/10/1,2-III",
+      "parameter": "остающееся при 125 А 30/60",
+      "value": "-",
+      "unit": "кВ"
+    },
+    {
+      "location": "top table",
+      "entity": "ОПН-П-35/38/10/1,2-III",
+      "parameter": "остающееся при 250 А 30/60",
+      "value": "87,3",
+      "unit": "кВ"
+    },
+    {
+      "location": "top table",
+      "entity": "ОПН-П-35/38/10/1,2-IV",
+      "parameter": "наибольшее длительно допустимое рабочее напряжение",
+      "value": "38",
+      "unit": "кВ"
+    },
+    {
+      "location": "top table",
+      "entity": "ОПН-П-35/38/10/1,2-IV",
+      "parameter": "остающееся при 125 А 30/60",
+      "value": "-",
+      "unit": "кВ"
+    },
+    {
+      "location": "top table",
+      "entity": "ОПН-П-35/38/10/1,2-IV",
+      "parameter": "остающееся при 250 А 30/60",
+      "value": "87,3",
+      "unit": "кВ"
+    },
+    {
+      "location": "lower table",
+      "entity": "ОПН-П-35/37/10/1,6-III УХЛ1",
+      "parameter": "остающееся при 500 А 30/60",
+      "value": "95,5",
+      "unit": "кВ"
+    },
+    {
+      "location": "lower table",
+      "entity": "ОПН-П-35/37/10/1,6-III УХЛ1",
+      "parameter": "тепловая энергия, не менее",
+      "value": "7,0",
+      "unit": "кДж/кВ"
+    },
+    {
+      "location": "lower table",
+      "entity": "ОПН-П-35/37/10/1,6-IV УХЛ1",
+      "parameter": "остающееся при 500 А 30/60",
+      "value": "90,5",
+      "unit": "кВ"
+    },
+    {
+      "location": "lower table",
+      "entity": "ОПН-П-35/37/10/1,6-IV УХЛ1",
+      "parameter": "тепловая энергия, не менее",
+      "value": "7,0",
+      "unit": "кДж/кВ"
+    }
+  ],
+  "drawing_assertions": [
+    {
+      "id": "material-source-absence",
+      "source_fact": "The page does not print porcelain/ceramic material; visible ribs alone do not establish it.",
+      "category": "unsupported_claim",
+      "scope_patterns": [],
+      "positive_patterns": [],
+      "forbidden_patterns": [
+        "фарфор\\w*",
+        "керамич\\w*"
+      ]
+    },
+    {
+      "id": "12-III-view-a",
+      "source_fact": "ViewА is top-directed, not a side view.",
+      "category": "view_direction",
+      "scope_patterns": [
+        "1[,.]2",
+        "(?<!I)III(?!I)"
+      ],
+      "positive_patterns": [
+        "\\b(?:сверху|верхн\\w*\\s+(?:вид|план)|план\\s+(?:пластины|плиты))\\b"
+      ],
+      "forbidden_patterns": [
+        "\\bсбоку\\b"
+      ],
+      "view": "А"
+    },
+    {
+      "id": "12-III-outer140",
+      "source_fact": "ViewБ φ140 labels the outer solid contour.",
+      "category": "dimension_owner",
+      "scope_patterns": [
+        "1[,.]2",
+        "(?<!I)III(?!I)"
+      ],
+      "positive_patterns": [
+        "(?<![\\d.,φ])φ?\\s*140(?!\\d)(?![.,]\\d)[^.;\\d]{0,90}(?P<claim>наружн\\w*|внешн\\w*)",
+        "(?P<claim>наружн\\w*|внешн\\w*)[^.;\\d]{0,90}(?<![\\d.,φ])φ?\\s*140(?!\\d)(?![.,]\\d)"
+      ],
+      "forbidden_patterns": [
+        "(?<![\\d.,φ])φ?\\s*140(?!\\d)(?![.,]\\d)[^.;\\d]{0,90}(?P<claim>внутренн\\w*|центральн\\w*)",
+        "(?P<claim>внутренн\\w*|центральн\\w*)[^.;\\d]{0,90}(?<![\\d.,φ])φ?\\s*140(?!\\d)(?![.,]\\d)"
+      ],
+      "view": "Б"
+    },
+    {
+      "id": "12-III-pitch116",
+      "source_fact": "ViewБ φ116 labels the dashed circle through four mounting-hole centers.",
+      "category": "dimension_owner",
+      "scope_patterns": [
+        "1[,.]2",
+        "(?<!I)III(?!I)"
+      ],
+      "positive_patterns": [
+        "(?<![\\d.,φ])φ?\\s*116(?!\\d)(?![.,]\\d)[^.;\\d]{0,90}(?P<claim>пунктир\\w*|штрих\\w*|окружност\\w*\\s+(?:расположени\\w*|центров|отверсти\\w*))",
+        "(?P<claim>пунктир\\w*|штрих\\w*|окружност\\w*\\s+(?:расположени\\w*|центров|отверсти\\w*))[^.;\\d]{0,90}(?<![\\d.,φ])φ?\\s*116(?!\\d)(?![.,]\\d)"
+      ],
+      "forbidden_patterns": [
+        "(?<![\\d.,φ])φ?\\s*116(?!\\d)(?![.,]\\d)[^.;\\d]{0,90}(?P<claim>наружн\\w*|внешн\\w*)",
+        "(?P<claim>наружн\\w*|внешн\\w*)[^.;\\d]{0,90}(?<![\\d.,φ])φ?\\s*116(?!\\d)(?![.,]\\d)"
+      ],
+      "view": "Б"
+    },
+    {
+      "id": "12-IV-view-a",
+      "source_fact": "ViewА is top-directed, not a side view.",
+      "category": "view_direction",
+      "scope_patterns": [
+        "1[,.]2",
+        "(?<!I)IV(?!I)"
+      ],
+      "positive_patterns": [
+        "\\b(?:сверху|верхн\\w*\\s+(?:вид|план)|план\\s+(?:пластины|плиты))\\b"
+      ],
+      "forbidden_patterns": [
+        "\\bсбоку\\b"
+      ],
+      "view": "А"
+    },
+    {
+      "id": "12-IV-outer140",
+      "source_fact": "ViewБ φ140 labels the outer solid contour.",
+      "category": "dimension_owner",
+      "scope_patterns": [
+        "1[,.]2",
+        "(?<!I)IV(?!I)"
+      ],
+      "positive_patterns": [
+        "(?<![\\d.,φ])φ?\\s*140(?!\\d)(?![.,]\\d)[^.;\\d]{0,90}(?P<claim>наружн\\w*|внешн\\w*)",
+        "(?P<claim>наружн\\w*|внешн\\w*)[^.;\\d]{0,90}(?<![\\d.,φ])φ?\\s*140(?!\\d)(?![.,]\\d)"
+      ],
+      "forbidden_patterns": [
+        "(?<![\\d.,φ])φ?\\s*140(?!\\d)(?![.,]\\d)[^.;\\d]{0,90}(?P<claim>внутренн\\w*|центральн\\w*)",
+        "(?P<claim>внутренн\\w*|центральн\\w*)[^.;\\d]{0,90}(?<![\\d.,φ])φ?\\s*140(?!\\d)(?![.,]\\d)"
+      ],
+      "view": "Б"
+    },
+    {
+      "id": "12-IV-pitch116",
+      "source_fact": "ViewБ φ116 labels the dashed circle through four mounting-hole centers.",
+      "category": "dimension_owner",
+      "scope_patterns": [
+        "1[,.]2",
+        "(?<!I)IV(?!I)"
+      ],
+      "positive_patterns": [
+        "(?<![\\d.,φ])φ?\\s*116(?!\\d)(?![.,]\\d)[^.;\\d]{0,90}(?P<claim>пунктир\\w*|штрих\\w*|окружност\\w*\\s+(?:расположени\\w*|центров|отверсти\\w*))",
+        "(?P<claim>пунктир\\w*|штрих\\w*|окружност\\w*\\s+(?:расположени\\w*|центров|отверсти\\w*))[^.;\\d]{0,90}(?<![\\d.,φ])φ?\\s*116(?!\\d)(?![.,]\\d)"
+      ],
+      "forbidden_patterns": [
+        "(?<![\\d.,φ])φ?\\s*116(?!\\d)(?![.,]\\d)[^.;\\d]{0,90}(?P<claim>наружн\\w*|внешн\\w*)",
+        "(?P<claim>наружн\\w*|внешн\\w*)[^.;\\d]{0,90}(?<![\\d.,φ])φ?\\s*116(?!\\d)(?![.,]\\d)"
+      ],
+      "view": "Б"
+    },
+    {
+      "id": "16-III-view-a",
+      "source_fact": "ViewА is top-directed, not a side view.",
+      "category": "view_direction",
+      "scope_patterns": [
+        "1[,.]6",
+        "(?<!I)III(?!I)"
+      ],
+      "positive_patterns": [
+        "\\b(?:сверху|верхн\\w*\\s+(?:вид|план)|план\\s+(?:пластины|плиты))\\b"
+      ],
+      "forbidden_patterns": [
+        "\\bсбоку\\b"
+      ],
+      "view": "А"
+    },
+    {
+      "id": "16-III-outer140",
+      "source_fact": "ViewБ φ140 labels the outer solid contour.",
+      "category": "dimension_owner",
+      "scope_patterns": [
+        "1[,.]6",
+        "(?<!I)III(?!I)"
+      ],
+      "positive_patterns": [
+        "(?<![\\d.,φ])φ?\\s*140(?!\\d)(?![.,]\\d)[^.;\\d]{0,90}(?P<claim>наружн\\w*|внешн\\w*)",
+        "(?P<claim>наружн\\w*|внешн\\w*)[^.;\\d]{0,90}(?<![\\d.,φ])φ?\\s*140(?!\\d)(?![.,]\\d)"
+      ],
+      "forbidden_patterns": [
+        "(?<![\\d.,φ])φ?\\s*140(?!\\d)(?![.,]\\d)[^.;\\d]{0,90}(?P<claim>внутренн\\w*|центральн\\w*)",
+        "(?P<claim>внутренн\\w*|центральн\\w*)[^.;\\d]{0,90}(?<![\\d.,φ])φ?\\s*140(?!\\d)(?![.,]\\d)"
+      ],
+      "view": "Б"
+    },
+    {
+      "id": "16-III-pitch116",
+      "source_fact": "ViewБ φ116 labels the dashed circle through four mounting-hole centers.",
+      "category": "dimension_owner",
+      "scope_patterns": [
+        "1[,.]6",
+        "(?<!I)III(?!I)"
+      ],
+      "positive_patterns": [
+        "(?<![\\d.,φ])φ?\\s*116(?!\\d)(?![.,]\\d)[^.;\\d]{0,90}(?P<claim>пунктир\\w*|штрих\\w*|окружност\\w*\\s+(?:расположени\\w*|центров|отверсти\\w*))",
+        "(?P<claim>пунктир\\w*|штрих\\w*|окружност\\w*\\s+(?:расположени\\w*|центров|отверсти\\w*))[^.;\\d]{0,90}(?<![\\d.,φ])φ?\\s*116(?!\\d)(?![.,]\\d)"
+      ],
+      "forbidden_patterns": [
+        "(?<![\\d.,φ])φ?\\s*116(?!\\d)(?![.,]\\d)[^.;\\d]{0,90}(?P<claim>наружн\\w*|внешн\\w*)",
+        "(?P<claim>наружн\\w*|внешн\\w*)[^.;\\d]{0,90}(?<![\\d.,φ])φ?\\s*116(?!\\d)(?![.,]\\d)"
+      ],
+      "view": "Б"
+    },
+    {
+      "id": "16-IV-view-a",
+      "source_fact": "ViewА is top-directed, not a side view.",
+      "category": "view_direction",
+      "scope_patterns": [
+        "1[,.]6",
+        "(?<!I)IV(?!I)"
+      ],
+      "positive_patterns": [
+        "\\b(?:сверху|верхн\\w*\\s+(?:вид|план)|план\\s+(?:пластины|плиты))\\b"
+      ],
+      "forbidden_patterns": [
+        "\\bсбоку\\b"
+      ],
+      "view": "А"
+    },
+    {
+      "id": "16-IV-outer140",
+      "source_fact": "ViewБ φ140 labels the outer solid contour.",
+      "category": "dimension_owner",
+      "scope_patterns": [
+        "1[,.]6",
+        "(?<!I)IV(?!I)"
+      ],
+      "positive_patterns": [
+        "(?<![\\d.,φ])φ?\\s*140(?!\\d)(?![.,]\\d)[^.;\\d]{0,90}(?P<claim>наружн\\w*|внешн\\w*)",
+        "(?P<claim>наружн\\w*|внешн\\w*)[^.;\\d]{0,90}(?<![\\d.,φ])φ?\\s*140(?!\\d)(?![.,]\\d)"
+      ],
+      "forbidden_patterns": [
+        "(?<![\\d.,φ])φ?\\s*140(?!\\d)(?![.,]\\d)[^.;\\d]{0,90}(?P<claim>внутренн\\w*|центральн\\w*)",
+        "(?P<claim>внутренн\\w*|центральн\\w*)[^.;\\d]{0,90}(?<![\\d.,φ])φ?\\s*140(?!\\d)(?![.,]\\d)"
+      ],
+      "view": "Б"
+    },
+    {
+      "id": "16-IV-pitch116",
+      "source_fact": "ViewБ φ116 labels the dashed circle through four mounting-hole centers.",
+      "category": "dimension_owner",
+      "scope_patterns": [
+        "1[,.]6",
+        "(?<!I)IV(?!I)"
+      ],
+      "positive_patterns": [
+        "(?<![\\d.,φ])φ?\\s*116(?!\\d)(?![.,]\\d)[^.;\\d]{0,90}(?P<claim>пунктир\\w*|штрих\\w*|окружност\\w*\\s+(?:расположени\\w*|центров|отверсти\\w*))",
+        "(?P<claim>пунктир\\w*|штрих\\w*|окружност\\w*\\s+(?:расположени\\w*|центров|отверсти\\w*))[^.;\\d]{0,90}(?<![\\d.,φ])φ?\\s*116(?!\\d)(?![.,]\\d)"
+      ],
+      "forbidden_patterns": [
+        "(?<![\\d.,φ])φ?\\s*116(?!\\d)(?![.,]\\d)[^.;\\d]{0,90}(?P<claim>наружн\\w*|внешн\\w*)",
+        "(?P<claim>наружн\\w*|внешн\\w*)[^.;\\d]{0,90}(?<![\\d.,φ])φ?\\s*116(?!\\d)(?![.,]\\d)"
+      ],
+      "view": "Б"
+    }
+  ]
+}
