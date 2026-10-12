@@ -1,0 +1,989 @@
+{
+  "participant": "Project X",
+  "snapshot": "ProjectX-snapshot-20261012",
+  "integration": "native Vision v1",
+  "integration_sha256": "f31b03eb2eb058a1c5f6237040f4eb152f3ce10472a9734558081e618498dfa3",
+  "model": "glm-5.3-flash",
+  "round": 1,
+  "complete": true,
+  "dataset": "engineering-catalogs-v2",
+  "cases_expected": 17,
+  "cases_recorded": 17,
+  "fixed_denominators": {
+    "engineering": 520,
+    "drawing": 21
+  },
+  "cases": [
+    {
+      "case_id": "catalog-1-page-027",
+      "page": 27,
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 134.85,
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "round": 1,
+      "model": "glm-5.3-flash",
+      "native_status": "native-accepted",
+      "native_elapsed_seconds": 131.345,
+      "admission_wait_seconds": 0.0,
+      "failure_category": null,
+      "provider_attempts": [
+        {
+          "attempt": 1,
+          "provider": "zai",
+          "requested_model": "glm-5.3-flash",
+          "returned_model": "glm-5.3-flash",
+          "endpoint": "https://api.z.ai/api/coding/paas/v4/chat/completions",
+          "http_status": 200,
+          "elapsed_seconds": 131.29,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "low",
+          "finish_reason": "stop",
+          "usage": {
+            "completion_tokens": 10829,
+            "completion_tokens_details": {
+              "reasoning_tokens": 24
+            },
+            "prompt_tokens": 10610,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 21439
+          }
+        }
+      ],
+      "selected_correct": {
+        "0.3.0": {
+          "engineering": 7,
+          "drawing": 1
+        },
+        "0.3.1": {
+          "engineering": 7,
+          "drawing": 1
+        }
+      },
+      "candidate": "glm-5.3-flash/round-1/catalog-1-page-027/catalogue-page.json",
+      "candidate_sha256": "33a67aef6e9a5bf1a85286879030b1543f51410d25b89ef96f7a49de79dd5c42",
+      "score_files": {
+        "0.3.0": "glm-5.3-flash/round-1/catalog-1-page-027/score-v0.3.0.json",
+        "0.3.1": "glm-5.3-flash/round-1/catalog-1-page-027/score-v0.3.1.json"
+      }
+    },
+    {
+      "case_id": "catalog-1-page-039",
+      "page": 39,
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 71.319,
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "round": 1,
+      "model": "glm-5.3-flash",
+      "native_status": "native-accepted",
+      "native_elapsed_seconds": 68.875,
+      "admission_wait_seconds": 0.0,
+      "failure_category": null,
+      "provider_attempts": [
+        {
+          "attempt": 1,
+          "provider": "zai",
+          "requested_model": "glm-5.3-flash",
+          "returned_model": "glm-5.3-flash",
+          "endpoint": "https://api.z.ai/api/coding/paas/v4/chat/completions",
+          "http_status": 200,
+          "elapsed_seconds": 68.83,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "low",
+          "finish_reason": "stop",
+          "usage": {
+            "completion_tokens": 5267,
+            "completion_tokens_details": {
+              "reasoning_tokens": 21
+            },
+            "prompt_tokens": 10684,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 15951
+          }
+        }
+      ],
+      "selected_correct": {
+        "0.3.0": {
+          "engineering": 8,
+          "drawing": 3
+        },
+        "0.3.1": {
+          "engineering": 8,
+          "drawing": 3
+        }
+      },
+      "candidate": "glm-5.3-flash/round-1/catalog-1-page-039/catalogue-page.json",
+      "candidate_sha256": "0b01d07ed7819a1608387dbd5704ed2b73a3d58c2d47f4e22bd54026d086ae84",
+      "score_files": {
+        "0.3.0": "glm-5.3-flash/round-1/catalog-1-page-039/score-v0.3.0.json",
+        "0.3.1": "glm-5.3-flash/round-1/catalog-1-page-039/score-v0.3.1.json"
+      }
+    },
+    {
+      "case_id": "catalog-1-page-017",
+      "page": 17,
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 145.931,
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "round": 1,
+      "model": "glm-5.3-flash",
+      "native_status": "native-accepted",
+      "native_elapsed_seconds": 143.205,
+      "admission_wait_seconds": 0.0,
+      "failure_category": null,
+      "provider_attempts": [
+        {
+          "attempt": 1,
+          "provider": "zai",
+          "requested_model": "glm-5.3-flash",
+          "returned_model": "glm-5.3-flash",
+          "endpoint": "https://api.z.ai/api/coding/paas/v4/chat/completions",
+          "http_status": 200,
+          "elapsed_seconds": 143.144,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "low",
+          "finish_reason": "stop",
+          "usage": {
+            "completion_tokens": 12418,
+            "completion_tokens_details": {
+              "reasoning_tokens": 670
+            },
+            "prompt_tokens": 10651,
+            "prompt_tokens_details": {
+              "cached_tokens": 64
+            },
+            "total_tokens": 23069
+          }
+        }
+      ],
+      "selected_correct": {
+        "0.3.0": {
+          "engineering": 11,
+          "drawing": 0
+        },
+        "0.3.1": {
+          "engineering": 11,
+          "drawing": 0
+        }
+      },
+      "candidate": "glm-5.3-flash/round-1/catalog-1-page-017/catalogue-page.json",
+      "candidate_sha256": "b0c5ef70b7390e2131c52b9450457b3ccbda2bc5c9fb73bc76235f1d41da60a9",
+      "score_files": {
+        "0.3.0": "glm-5.3-flash/round-1/catalog-1-page-017/score-v0.3.0.json",
+        "0.3.1": "glm-5.3-flash/round-1/catalog-1-page-017/score-v0.3.1.json"
+      }
+    },
+    {
+      "case_id": "catalog-1-page-022",
+      "page": 22,
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 120.715,
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "round": 1,
+      "model": "glm-5.3-flash",
+      "native_status": "native-accepted",
+      "native_elapsed_seconds": 117.842,
+      "admission_wait_seconds": 0.0,
+      "failure_category": null,
+      "provider_attempts": [
+        {
+          "attempt": 1,
+          "provider": "zai",
+          "requested_model": "glm-5.3-flash",
+          "returned_model": "glm-5.3-flash",
+          "endpoint": "https://api.z.ai/api/coding/paas/v4/chat/completions",
+          "http_status": 200,
+          "elapsed_seconds": 117.785,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "low",
+          "finish_reason": "stop",
+          "usage": {
+            "completion_tokens": 10922,
+            "completion_tokens_details": {
+              "reasoning_tokens": 484
+            },
+            "prompt_tokens": 10808,
+            "prompt_tokens_details": {
+              "cached_tokens": 64
+            },
+            "total_tokens": 21730
+          }
+        }
+      ],
+      "selected_correct": {
+        "0.3.0": {
+          "engineering": 15,
+          "drawing": 0
+        },
+        "0.3.1": {
+          "engineering": 15,
+          "drawing": 0
+        }
+      },
+      "candidate": "glm-5.3-flash/round-1/catalog-1-page-022/catalogue-page.json",
+      "candidate_sha256": "eb954bf9ac03ad799619e7f057c59cdeed1ea8a9a7eed7dcd3519510296f85ee",
+      "score_files": {
+        "0.3.0": "glm-5.3-flash/round-1/catalog-1-page-022/score-v0.3.0.json",
+        "0.3.1": "glm-5.3-flash/round-1/catalog-1-page-022/score-v0.3.1.json"
+      }
+    },
+    {
+      "case_id": "catalog-1-page-026",
+      "page": 26,
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 128.579,
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "round": 1,
+      "model": "glm-5.3-flash",
+      "native_status": "native-accepted",
+      "native_elapsed_seconds": 124.717,
+      "admission_wait_seconds": 0.0,
+      "failure_category": null,
+      "provider_attempts": [
+        {
+          "attempt": 1,
+          "provider": "zai",
+          "requested_model": "glm-5.3-flash",
+          "returned_model": "glm-5.3-flash",
+          "endpoint": "https://api.z.ai/api/coding/paas/v4/chat/completions",
+          "http_status": 200,
+          "elapsed_seconds": 124.655,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "low",
+          "finish_reason": "stop",
+          "usage": {
+            "completion_tokens": 11229,
+            "completion_tokens_details": {
+              "reasoning_tokens": 443
+            },
+            "prompt_tokens": 10850,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 22079
+          }
+        }
+      ],
+      "selected_correct": {
+        "0.3.0": {
+          "engineering": 8,
+          "drawing": 0
+        },
+        "0.3.1": {
+          "engineering": 8,
+          "drawing": 0
+        }
+      },
+      "candidate": "glm-5.3-flash/round-1/catalog-1-page-026/catalogue-page.json",
+      "candidate_sha256": "1fbfd7f144f82026b41c56431ed6b2325920c9f5669830442a48249c1501cfb9",
+      "score_files": {
+        "0.3.0": "glm-5.3-flash/round-1/catalog-1-page-026/score-v0.3.0.json",
+        "0.3.1": "glm-5.3-flash/round-1/catalog-1-page-026/score-v0.3.1.json"
+      }
+    },
+    {
+      "case_id": "catalog-2-page-060",
+      "page": 60,
+      "status": "failed",
+      "exit_code": 1,
+      "elapsed_seconds": 3.675,
+      "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+      "round": 1,
+      "model": "glm-5.3-flash",
+      "native_status": "failed",
+      "native_elapsed_seconds": null,
+      "admission_wait_seconds": 0.0,
+      "failure_category": "provider_rate_limit",
+      "provider_attempts": [
+        {
+          "attempt": 1,
+          "provider": "zai",
+          "requested_model": "glm-5.3-flash",
+          "returned_model": null,
+          "endpoint": "https://api.z.ai/api/coding/paas/v4/chat/completions",
+          "http_status": 429,
+          "elapsed_seconds": 1.513,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "low",
+          "finish_reason": null,
+          "usage": null
+        }
+      ],
+      "selected_correct": {
+        "0.3.0": {
+          "engineering": 0,
+          "drawing": 0
+        },
+        "0.3.1": {
+          "engineering": 0,
+          "drawing": 0
+        }
+      }
+    },
+    {
+      "case_id": "catalog-2-page-149",
+      "page": 149,
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 83.595,
+      "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+      "round": 1,
+      "model": "glm-5.3-flash",
+      "native_status": "native-accepted",
+      "native_elapsed_seconds": 79.937,
+      "admission_wait_seconds": 0.0,
+      "failure_category": null,
+      "provider_attempts": [
+        {
+          "attempt": 1,
+          "provider": "zai",
+          "requested_model": "glm-5.3-flash",
+          "returned_model": "glm-5.3-flash",
+          "endpoint": "https://api.z.ai/api/coding/paas/v4/chat/completions",
+          "http_status": 200,
+          "elapsed_seconds": 79.89,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "low",
+          "finish_reason": "stop",
+          "usage": {
+            "completion_tokens": 6524,
+            "completion_tokens_details": {
+              "reasoning_tokens": 10
+            },
+            "prompt_tokens": 10476,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 17000
+          }
+        }
+      ],
+      "selected_correct": {
+        "0.3.0": {
+          "engineering": 13,
+          "drawing": 0
+        },
+        "0.3.1": {
+          "engineering": 13,
+          "drawing": 0
+        }
+      },
+      "candidate": "glm-5.3-flash/round-1/catalog-2-page-149/catalogue-page.json",
+      "candidate_sha256": "24666d9e59b8002d3b6bbc574fa7a6e1decd3c75d854fdd8fecb756cf510a444",
+      "score_files": {
+        "0.3.0": "glm-5.3-flash/round-1/catalog-2-page-149/score-v0.3.0.json",
+        "0.3.1": "glm-5.3-flash/round-1/catalog-2-page-149/score-v0.3.1.json"
+      }
+    },
+    {
+      "case_id": "catalog-2-page-185",
+      "page": 185,
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 141.917,
+      "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+      "round": 1,
+      "model": "glm-5.3-flash",
+      "native_status": "native-accepted",
+      "native_elapsed_seconds": 139.136,
+      "admission_wait_seconds": 0.0,
+      "failure_category": null,
+      "provider_attempts": [
+        {
+          "attempt": 1,
+          "provider": "zai",
+          "requested_model": "glm-5.3-flash",
+          "returned_model": "glm-5.3-flash",
+          "endpoint": "https://api.z.ai/api/coding/paas/v4/chat/completions",
+          "http_status": 200,
+          "elapsed_seconds": 139.078,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "low",
+          "finish_reason": "stop",
+          "usage": {
+            "completion_tokens": 12875,
+            "completion_tokens_details": {
+              "reasoning_tokens": 53
+            },
+            "prompt_tokens": 11447,
+            "prompt_tokens_details": {
+              "cached_tokens": 64
+            },
+            "total_tokens": 24322
+          }
+        }
+      ],
+      "selected_correct": {
+        "0.3.0": {
+          "engineering": 14,
+          "drawing": 0
+        },
+        "0.3.1": {
+          "engineering": 14,
+          "drawing": 0
+        }
+      },
+      "candidate": "glm-5.3-flash/round-1/catalog-2-page-185/catalogue-page.json",
+      "candidate_sha256": "326fe39049c9878c4d9b9e1f59622de8bb114df6f6d4c60a13989898c45958c6",
+      "score_files": {
+        "0.3.0": "glm-5.3-flash/round-1/catalog-2-page-185/score-v0.3.0.json",
+        "0.3.1": "glm-5.3-flash/round-1/catalog-2-page-185/score-v0.3.1.json"
+      }
+    },
+    {
+      "case_id": "catalog-3-page-103",
+      "page": 103,
+      "status": "failed",
+      "exit_code": 1,
+      "elapsed_seconds": 244.019,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "round": 1,
+      "model": "glm-5.3-flash",
+      "native_status": "failed",
+      "native_elapsed_seconds": null,
+      "admission_wait_seconds": 0.0,
+      "failure_category": "provider_read_timeout",
+      "provider_attempts": [
+        {
+          "attempt": 1,
+          "provider": "zai",
+          "requested_model": "glm-5.3-flash",
+          "returned_model": null,
+          "endpoint": "https://api.z.ai/api/coding/paas/v4/chat/completions",
+          "http_status": null,
+          "elapsed_seconds": 241.301,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "low",
+          "finish_reason": null,
+          "usage": null
+        }
+      ],
+      "selected_correct": {
+        "0.3.0": {
+          "engineering": 0,
+          "drawing": 0
+        },
+        "0.3.1": {
+          "engineering": 0,
+          "drawing": 0
+        }
+      }
+    },
+    {
+      "case_id": "catalog-3-page-108",
+      "page": 108,
+      "status": "invalid_output",
+      "exit_code": 0,
+      "elapsed_seconds": 121.264,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "round": 1,
+      "model": "glm-5.3-flash",
+      "native_status": "native-accepted",
+      "native_elapsed_seconds": 119.033,
+      "admission_wait_seconds": 0.0,
+      "failure_category": "catalogue_page_contract_validation",
+      "provider_attempts": [
+        {
+          "attempt": 1,
+          "provider": "zai",
+          "requested_model": "glm-5.3-flash",
+          "returned_model": "glm-5.3-flash",
+          "endpoint": "https://api.z.ai/api/coding/paas/v4/chat/completions",
+          "http_status": 200,
+          "elapsed_seconds": 118.986,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "low",
+          "finish_reason": "stop",
+          "usage": {
+            "completion_tokens": 9902,
+            "completion_tokens_details": {
+              "reasoning_tokens": 47
+            },
+            "prompt_tokens": 11057,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 20959
+          }
+        }
+      ],
+      "selected_correct": {
+        "0.3.0": {
+          "engineering": 0,
+          "drawing": 0
+        },
+        "0.3.1": {
+          "engineering": 0,
+          "drawing": 0
+        }
+      },
+      "candidate": "glm-5.3-flash/round-1/catalog-3-page-108/catalogue-page-invalid.json",
+      "candidate_sha256": "fcb5c1685fb952b5463bc9321e1ebbdab6a97f31ab83c9c67e1755ef04079213",
+      "output_preserved_without_manual_repair": true
+    },
+    {
+      "case_id": "catalog-3-page-111",
+      "page": 111,
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 167.848,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "round": 1,
+      "model": "glm-5.3-flash",
+      "native_status": "native-accepted",
+      "native_elapsed_seconds": 165.37,
+      "admission_wait_seconds": 0.0,
+      "failure_category": null,
+      "provider_attempts": [
+        {
+          "attempt": 1,
+          "provider": "zai",
+          "requested_model": "glm-5.3-flash",
+          "returned_model": "glm-5.3-flash",
+          "endpoint": "https://api.z.ai/api/coding/paas/v4/chat/completions",
+          "http_status": 200,
+          "elapsed_seconds": 165.313,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "low",
+          "finish_reason": "stop",
+          "usage": {
+            "completion_tokens": 13785,
+            "completion_tokens_details": {
+              "reasoning_tokens": 972
+            },
+            "prompt_tokens": 12244,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 26029
+          }
+        }
+      ],
+      "selected_correct": {
+        "0.3.0": {
+          "engineering": 7,
+          "drawing": 0
+        },
+        "0.3.1": {
+          "engineering": 7,
+          "drawing": 0
+        }
+      },
+      "candidate": "glm-5.3-flash/round-1/catalog-3-page-111/catalogue-page.json",
+      "candidate_sha256": "08546f0fc281a2c48ffbaa7c68f820c5664e15e553b9fdf1f1c595061a12d683",
+      "score_files": {
+        "0.3.0": "glm-5.3-flash/round-1/catalog-3-page-111/score-v0.3.0.json",
+        "0.3.1": "glm-5.3-flash/round-1/catalog-3-page-111/score-v0.3.1.json"
+      }
+    },
+    {
+      "case_id": "catalog-4-page-033",
+      "page": 33,
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 96.687,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "round": 1,
+      "model": "glm-5.3-flash",
+      "native_status": "native-accepted",
+      "native_elapsed_seconds": 94.473,
+      "admission_wait_seconds": 0.0,
+      "failure_category": null,
+      "provider_attempts": [
+        {
+          "attempt": 1,
+          "provider": "zai",
+          "requested_model": "glm-5.3-flash",
+          "returned_model": "glm-5.3-flash",
+          "endpoint": "https://api.z.ai/api/coding/paas/v4/chat/completions",
+          "http_status": 200,
+          "elapsed_seconds": 94.421,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "low",
+          "finish_reason": "stop",
+          "usage": {
+            "completion_tokens": 7056,
+            "completion_tokens_details": {
+              "reasoning_tokens": 9
+            },
+            "prompt_tokens": 10799,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 17855
+          }
+        }
+      ],
+      "selected_correct": {
+        "0.3.0": {
+          "engineering": 62,
+          "drawing": 0
+        },
+        "0.3.1": {
+          "engineering": 62,
+          "drawing": 0
+        }
+      },
+      "candidate": "glm-5.3-flash/round-1/catalog-4-page-033/catalogue-page.json",
+      "candidate_sha256": "8563529d2a843df4ca3ee3f99d55ca2b7edb8e09a57c920475d56634837a9d4c",
+      "score_files": {
+        "0.3.0": "glm-5.3-flash/round-1/catalog-4-page-033/score-v0.3.0.json",
+        "0.3.1": "glm-5.3-flash/round-1/catalog-4-page-033/score-v0.3.1.json"
+      }
+    },
+    {
+      "case_id": "catalog-4-page-038",
+      "page": 38,
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 102.06,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "round": 1,
+      "model": "glm-5.3-flash",
+      "native_status": "native-accepted",
+      "native_elapsed_seconds": 99.811,
+      "admission_wait_seconds": 0.0,
+      "failure_category": null,
+      "provider_attempts": [
+        {
+          "attempt": 1,
+          "provider": "zai",
+          "requested_model": "glm-5.3-flash",
+          "returned_model": "glm-5.3-flash",
+          "endpoint": "https://api.z.ai/api/coding/paas/v4/chat/completions",
+          "http_status": 200,
+          "elapsed_seconds": 99.765,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "low",
+          "finish_reason": "stop",
+          "usage": {
+            "completion_tokens": 6516,
+            "completion_tokens_details": {
+              "reasoning_tokens": 13
+            },
+            "prompt_tokens": 10794,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 17310
+          }
+        }
+      ],
+      "selected_correct": {
+        "0.3.0": {
+          "engineering": 72,
+          "drawing": 0
+        },
+        "0.3.1": {
+          "engineering": 72,
+          "drawing": 0
+        }
+      },
+      "candidate": "glm-5.3-flash/round-1/catalog-4-page-038/catalogue-page.json",
+      "candidate_sha256": "68b4bc024e4ae15311b39f4fbe809460b9d311606294ba9811f87093a7514555",
+      "score_files": {
+        "0.3.0": "glm-5.3-flash/round-1/catalog-4-page-038/score-v0.3.0.json",
+        "0.3.1": "glm-5.3-flash/round-1/catalog-4-page-038/score-v0.3.1.json"
+      }
+    },
+    {
+      "case_id": "catalog-4-page-078",
+      "page": 78,
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 100.913,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "round": 1,
+      "model": "glm-5.3-flash",
+      "native_status": "native-accepted",
+      "native_elapsed_seconds": 98.857,
+      "admission_wait_seconds": 0.0,
+      "failure_category": null,
+      "provider_attempts": [
+        {
+          "attempt": 1,
+          "provider": "zai",
+          "requested_model": "glm-5.3-flash",
+          "returned_model": "glm-5.3-flash",
+          "endpoint": "https://api.z.ai/api/coding/paas/v4/chat/completions",
+          "http_status": 200,
+          "elapsed_seconds": 98.805,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "low",
+          "finish_reason": "stop",
+          "usage": {
+            "completion_tokens": 7914,
+            "completion_tokens_details": {
+              "reasoning_tokens": 445
+            },
+            "prompt_tokens": 10721,
+            "prompt_tokens_details": {
+              "cached_tokens": 64
+            },
+            "total_tokens": 18635
+          }
+        }
+      ],
+      "selected_correct": {
+        "0.3.0": {
+          "engineering": 120,
+          "drawing": 0
+        },
+        "0.3.1": {
+          "engineering": 120,
+          "drawing": 0
+        }
+      },
+      "candidate": "glm-5.3-flash/round-1/catalog-4-page-078/catalogue-page.json",
+      "candidate_sha256": "00283a89292f961be8f4e1eb52d254149fa1a1b561a0c17453c446a1a5f1e83f",
+      "score_files": {
+        "0.3.0": "glm-5.3-flash/round-1/catalog-4-page-078/score-v0.3.0.json",
+        "0.3.1": "glm-5.3-flash/round-1/catalog-4-page-078/score-v0.3.1.json"
+      }
+    },
+    {
+      "case_id": "catalog-5-page-030",
+      "page": 30,
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 103.905,
+      "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+      "round": 1,
+      "model": "glm-5.3-flash",
+      "native_status": "native-accepted",
+      "native_elapsed_seconds": 101.359,
+      "admission_wait_seconds": 0.0,
+      "failure_category": null,
+      "provider_attempts": [
+        {
+          "attempt": 1,
+          "provider": "zai",
+          "requested_model": "glm-5.3-flash",
+          "returned_model": "glm-5.3-flash",
+          "endpoint": "https://api.z.ai/api/coding/paas/v4/chat/completions",
+          "http_status": 200,
+          "elapsed_seconds": 101.3,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "low",
+          "finish_reason": "stop",
+          "usage": {
+            "completion_tokens": 8516,
+            "completion_tokens_details": {
+              "reasoning_tokens": 11
+            },
+            "prompt_tokens": 10556,
+            "prompt_tokens_details": {
+              "cached_tokens": 64
+            },
+            "total_tokens": 19072
+          }
+        }
+      ],
+      "selected_correct": {
+        "0.3.0": {
+          "engineering": 15,
+          "drawing": 0
+        },
+        "0.3.1": {
+          "engineering": 15,
+          "drawing": 0
+        }
+      },
+      "candidate": "glm-5.3-flash/round-1/catalog-5-page-030/catalogue-page.json",
+      "candidate_sha256": "4496e323c5ac1ac79c60c4b22af897b594589810964d6bec921ec566186b849a",
+      "score_files": {
+        "0.3.0": "glm-5.3-flash/round-1/catalog-5-page-030/score-v0.3.0.json",
+        "0.3.1": "glm-5.3-flash/round-1/catalog-5-page-030/score-v0.3.1.json"
+      }
+    },
+    {
+      "case_id": "catalog-5-page-035",
+      "page": 35,
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 87.476,
+      "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+      "round": 1,
+      "model": "glm-5.3-flash",
+      "native_status": "native-accepted",
+      "native_elapsed_seconds": 85.183,
+      "admission_wait_seconds": 0.0,
+      "failure_category": null,
+      "provider_attempts": [
+        {
+          "attempt": 1,
+          "provider": "zai",
+          "requested_model": "glm-5.3-flash",
+          "returned_model": "glm-5.3-flash",
+          "endpoint": "https://api.z.ai/api/coding/paas/v4/chat/completions",
+          "http_status": 200,
+          "elapsed_seconds": 85.138,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "low",
+          "finish_reason": "stop",
+          "usage": {
+            "completion_tokens": 6901,
+            "completion_tokens_details": {
+              "reasoning_tokens": 154
+            },
+            "prompt_tokens": 10685,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 17586
+          }
+        }
+      ],
+      "selected_correct": {
+        "0.3.0": {
+          "engineering": 13,
+          "drawing": 0
+        },
+        "0.3.1": {
+          "engineering": 13,
+          "drawing": 0
+        }
+      },
+      "candidate": "glm-5.3-flash/round-1/catalog-5-page-035/catalogue-page.json",
+      "candidate_sha256": "5b9f120a33cce1a314177fad6916f729814cb020d31f3d1a2d4777900a301cb3",
+      "score_files": {
+        "0.3.0": "glm-5.3-flash/round-1/catalog-5-page-035/score-v0.3.0.json",
+        "0.3.1": "glm-5.3-flash/round-1/catalog-5-page-035/score-v0.3.1.json"
+      }
+    },
+    {
+      "case_id": "catalog-5-page-126",
+      "page": 126,
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 135.557,
+      "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+      "round": 1,
+      "model": "glm-5.3-flash",
+      "native_status": "native-accepted",
+      "native_elapsed_seconds": 132.83,
+      "admission_wait_seconds": 0.0,
+      "failure_category": null,
+      "provider_attempts": [
+        {
+          "attempt": 1,
+          "provider": "zai",
+          "requested_model": "glm-5.3-flash",
+          "returned_model": "glm-5.3-flash",
+          "endpoint": "https://api.z.ai/api/coding/paas/v4/chat/completions",
+          "http_status": 200,
+          "elapsed_seconds": 132.77,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "low",
+          "finish_reason": "stop",
+          "usage": {
+            "completion_tokens": 11697,
+            "completion_tokens_details": {
+              "reasoning_tokens": 1093
+            },
+            "prompt_tokens": 10875,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 22572
+          }
+        }
+      ],
+      "selected_correct": {
+        "0.3.0": {
+          "engineering": 15,
+          "drawing": 0
+        },
+        "0.3.1": {
+          "engineering": 15,
+          "drawing": 0
+        }
+      },
+      "candidate": "glm-5.3-flash/round-1/catalog-5-page-126/catalogue-page.json",
+      "candidate_sha256": "526c90ebd5fcd9a49db2e01de59b3382118b37e73df503aca444c8fe548b193f",
+      "score_files": {
+        "0.3.0": "glm-5.3-flash/round-1/catalog-5-page-126/score-v0.3.0.json",
+        "0.3.1": "glm-5.3-flash/round-1/catalog-5-page-126/score-v0.3.1.json"
+      }
+    }
+  ],
+  "valid_json_cases": 14,
+  "failure_counts": {
+    "provider_rate_limit": 1,
+    "provider_read_timeout": 1,
+    "catalogue_page_contract_validation": 1
+  },
+  "scores": {
+    "0.3.0": {
+      "engineering": {
+        "correct": 380,
+        "expected": 520,
+        "percent": 73.0769
+      },
+      "drawing": {
+        "correct": 4,
+        "expected": 21,
+        "percent": 19.0476
+      }
+    },
+    "0.3.1": {
+      "engineering": {
+        "correct": 380,
+        "expected": 520,
+        "percent": 73.0769
+      },
+      "drawing": {
+        "correct": 4,
+        "expected": 21,
+        "percent": 19.0476
+      }
+    }
+  },
+  "timing": {
+    "subprocess_seconds_sum": 1990.31,
+    "subprocess_seconds_per_attempt_mean": 117.077,
+    "native_seconds_sum_known": 1701.973,
+    "provider_seconds_sum_known": 1943.984,
+    "case_wall_includes_admission_and_imports": true,
+    "parallel_other_model_not_added_to_model_wall": true
+  },
+  "usage": {
+    "provider_attempts": 17,
+    "responses_with_usage": 15,
+    "responses_without_usage": 2,
+    "reported_token_totals": {
+      "input_prompt": 163257,
+      "output_including_reasoning": 142351,
+      "cache_read_subset_of_prompt": 320,
+      "reasoning_subset_of_output": 4449
+    },
+    "includes_failed_attempts_and_native_json_repairs": true,
+    "monetary_cost": null,
+    "unknown_usage_is_not_zero": true
+  }
+}

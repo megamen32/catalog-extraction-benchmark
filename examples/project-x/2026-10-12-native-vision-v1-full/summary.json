@@ -1,0 +1,81 @@
+{
+  "participant": "Project X",
+  "dataset": "engineering-catalogs-v2",
+  "updated_utc": "2026-10-12T16:18:20Z",
+  "complete": false,
+  "rounds_finished": 2,
+  "rounds_expected": 6,
+  "expected_attempts": 102,
+  "selected_accuracy_not_full_page_accuracy": true,
+  "models": {
+    "glm-5.3-flash": {
+      "rounds_finished": 1,
+      "rounds_expected": 3,
+      "status": "running",
+      "rounds": [
+        {
+          "round": 1,
+          "valid_json_cases": 14,
+          "engineering_correct": 380,
+          "drawing_correct": 4,
+          "elapsed_seconds_sum": 1990.31,
+          "failure_counts": {
+            "provider_rate_limit": 1,
+            "provider_read_timeout": 1,
+            "catalogue_page_contract_validation": 1
+          }
+        }
+      ],
+      "engineering": {
+        "denominator_per_round": 520,
+        "mean_percent": 73.0769,
+        "sample_sd_percentage_points": null,
+        "minimum_percent": 73.0769,
+        "maximum_percent": 73.0769,
+        "final_three_round_statistic": false
+      },
+      "drawing": {
+        "denominator_per_round": 21,
+        "mean_percent": 19.0476,
+        "sample_sd_percentage_points": null,
+        "minimum_percent": 19.0476,
+        "maximum_percent": 19.0476,
+        "final_three_round_statistic": false
+      }
+    },
+    "MiniMax-M3.1-Flash-Preview": {
+      "rounds_finished": 1,
+      "rounds_expected": 3,
+      "status": "running",
+      "rounds": [
+        {
+          "round": 1,
+          "valid_json_cases": 4,
+          "engineering_correct": 210,
+          "drawing_correct": 3,
+          "elapsed_seconds_sum": 1158.802,
+          "failure_counts": {
+            "invalid_json_after_native_repair": 11,
+            "native_output_contract_validation": 2
+          }
+        }
+      ],
+      "engineering": {
+        "denominator_per_round": 520,
+        "mean_percent": 40.3846,
+        "sample_sd_percentage_points": null,
+        "minimum_percent": 40.3846,
+        "maximum_percent": 40.3846,
+        "final_three_round_statistic": false
+      },
+      "drawing": {
+        "denominator_per_round": 21,
+        "mean_percent": 14.2857,
+        "sample_sd_percentage_points": null,
+        "minimum_percent": 14.2857,
+        "maximum_percent": 14.2857,
+        "final_three_round_statistic": false
+      }
+    }
+  }
+}
