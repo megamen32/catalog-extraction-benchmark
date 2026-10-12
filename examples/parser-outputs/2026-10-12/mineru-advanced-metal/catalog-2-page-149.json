@@ -1,0 +1,626 @@
+{
+  "title": "MinerU native middle JSON",
+  "printed_page": null,
+  "text_blocks": [],
+  "tables": [
+    {
+      "id": "t0",
+      "title": "t0",
+      "columns": [
+        {
+          "id": "c0",
+          "label": "Наименование",
+          "group": null,
+          "unit": null,
+          "qualifier": null
+        },
+        {
+          "id": "c1",
+          "label": "Рис.",
+          "group": null,
+          "unit": null,
+          "qualifier": null
+        },
+        {
+          "id": "c2",
+          "label": "Класс напряжения сети, кВ",
+          "group": null,
+          "unit": null,
+          "qualifier": null
+        },
+        {
+          "id": "c3",
+          "label": "Строительная высота, Нстр., мм",
+          "group": null,
+          "unit": null,
+          "qualifier": null
+        },
+        {
+          "id": "c4",
+          "label": "Изоляционная высота, Низ., мм",
+          "group": null,
+          "unit": null,
+          "qualifier": null
+        },
+        {
+          "id": "c5",
+          "label": "Длина пути утечки тока, см, не менее",
+          "group": null,
+          "unit": null,
+          "qualifier": null
+        },
+        {
+          "id": "c6",
+          "label": "Масса, кг",
+          "group": null,
+          "unit": null,
+          "qualifier": null
+        },
+        {
+          "id": "c7",
+          "label": "Степень затрязнения атмосферы по ГОСТ 9920",
+          "group": null,
+          "unit": null,
+          "qualifier": null
+        },
+        {
+          "id": "c8",
+          "label": "Нормированная разрушающая сила на изгиб, кН, не менее",
+          "group": null,
+          "unit": null,
+          "qualifier": null
+        },
+        {
+          "id": "c9",
+          "label": "Интервал диаметров проводов, ØD, мм",
+          "group": null,
+          "unit": null,
+          "qualifier": null
+        },
+        {
+          "id": "c10",
+          "label": "Номинальное напряжение изолятора, Un, кВ",
+          "group": null,
+          "unit": null,
+          "qualifier": null
+        },
+        {
+          "id": "c11",
+          "label": "Класс по пропускной способности",
+          "group": null,
+          "unit": null,
+          "qualifier": null
+        },
+        {
+          "id": "c12",
+          "label": "Номинальный разрядный ток, кА",
+          "group": null,
+          "unit": null,
+          "qualifier": null
+        },
+        {
+          "id": "c13",
+          "label": "Остающееся напряжение при грозовых импульсах тока, кВ с амплитудой:",
+          "group": null,
+          "unit": null,
+          "qualifier": null
+        },
+        {
+          "id": "c14",
+          "label": "Остающееся напряжение при грозовых импульсах тока, кВ с амплитудой:",
+          "group": null,
+          "unit": null,
+          "qualifier": null
+        },
+        {
+          "id": "c15",
+          "label": "Остающееся напряжение при грозовых импульсах тока, кВ с амплитудой:",
+          "group": null,
+          "unit": null,
+          "qualifier": null
+        },
+        {
+          "id": "c16",
+          "label": "Остающееся напряжение при кругом импульсе тока с амплитудой 5 кА, кВ",
+          "group": null,
+          "unit": null,
+          "qualifier": null
+        },
+        {
+          "id": "c17",
+          "label": "Количество воздействий импульсов тока:",
+          "group": null,
+          "unit": null,
+          "qualifier": null
+        },
+        {
+          "id": "c18",
+          "label": "Количество воздействий импульсов тока:",
+          "group": null,
+          "unit": null,
+          "qualifier": null
+        },
+        {
+          "id": "c19",
+          "label": "Количество воздействий импульсов тока:",
+          "group": null,
+          "unit": null,
+          "qualifier": null
+        },
+        {
+          "id": "c20",
+          "label": "Классификационный ток Iкп, мА",
+          "group": null,
+          "unit": null,
+          "qualifier": null
+        },
+        {
+          "id": "c21",
+          "label": "Классификационное напряжение Uкп, не менее",
+          "group": null,
+          "unit": null,
+          "qualifier": null
+        },
+        {
+          "id": "c22",
+          "label": "Классификационное напряжение Uкп, не менее",
+          "group": null,
+          "unit": null,
+          "qualifier": null
+        },
+        {
+          "id": "c23",
+          "label": "Ток взрывобезопасности, кА, не менее",
+          "group": null,
+          "unit": null,
+          "qualifier": null
+        },
+        {
+          "id": "c24",
+          "label": "Тепловой заряд, Кл, не менее",
+          "group": null,
+          "unit": null,
+          "qualifier": null
+        },
+        {
+          "id": "c25",
+          "label": "Испытательное кратковременное переменное напряжение искрового промежутка под дождем, кВ, не менее",
+          "group": null,
+          "unit": null,
+          "qualifier": null
+        },
+        {
+          "id": "c26",
+          "label": "50-% разрядное напряжение грозового импульса, кВ, не более",
+          "group": null,
+          "unit": null,
+          "qualifier": null
+        }
+      ],
+      "rows": [
+        {
+          "cells": [
+            {
+              "column_id": "c0",
+              "value": "Наименование",
+              "state": "value"
+            },
+            {
+              "column_id": "c1",
+              "value": "Рис.",
+              "state": "value"
+            },
+            {
+              "column_id": "c2",
+              "value": "Класс напряжения сети, кВ",
+              "state": "value"
+            },
+            {
+              "column_id": "c3",
+              "value": "Строительная высота, Нстр., мм",
+              "state": "value"
+            },
+            {
+              "column_id": "c4",
+              "value": "Изоляционная высота, Низ., мм",
+              "state": "value"
+            },
+            {
+              "column_id": "c5",
+              "value": "Длина пути утечки тока, см, не менее",
+              "state": "value"
+            },
+            {
+              "column_id": "c6",
+              "value": "Масса, кг",
+              "state": "value"
+            },
+            {
+              "column_id": "c7",
+              "value": "Степень затрязнения атмосферы по ГОСТ 9920",
+              "state": "value"
+            },
+            {
+              "column_id": "c8",
+              "value": "Нормированная разрушающая сила на изгиб, кН, не менее",
+              "state": "value"
+            },
+            {
+              "column_id": "c9",
+              "value": "Интервал диаметров проводов, ØD, мм",
+              "state": "value"
+            },
+            {
+              "column_id": "c10",
+              "value": "Номинальное напряжение изолятора, Un, кВ",
+              "state": "value"
+            },
+            {
+              "column_id": "c11",
+              "value": "Класс по пропускной способности",
+              "state": "value"
+            },
+            {
+              "column_id": "c12",
+              "value": "Номинальный разрядный ток, кА",
+              "state": "value"
+            },
+            {
+              "column_id": "c13",
+              "value": "Остающееся напряжение при грозовых импульсах тока, кВ с амплитудой:",
+              "state": "value"
+            },
+            {
+              "column_id": "c14",
+              "value": "Остающееся напряжение при грозовых импульсах тока, кВ с амплитудой:",
+              "state": "value"
+            },
+            {
+              "column_id": "c15",
+              "value": "Остающееся напряжение при грозовых импульсах тока, кВ с амплитудой:",
+              "state": "value"
+            },
+            {
+              "column_id": "c16",
+              "value": "Остающееся напряжение при кругом импульсе тока с амплитудой 5 кА, кВ",
+              "state": "value"
+            },
+            {
+              "column_id": "c17",
+              "value": "2,5 кА",
+              "state": "value"
+            },
+            {
+              "column_id": "c18",
+              "value": "5 кА",
+              "state": "value"
+            },
+            {
+              "column_id": "c19",
+              "value": "10 кА",
+              "state": "value"
+            },
+            {
+              "column_id": "c20",
+              "value": "Классификационный ток Iкп, мА",
+              "state": "value"
+            },
+            {
+              "column_id": "c21",
+              "value": "в течении не менее 2 с",
+              "state": "value"
+            },
+            {
+              "column_id": "c22",
+              "value": "в течении не менее 0,2 с",
+              "state": "value"
+            },
+            {
+              "column_id": "c23",
+              "value": "Ток взрывобезопасности, кА, не менее",
+              "state": "value"
+            },
+            {
+              "column_id": "c24",
+              "value": "Тепловой заряд, Кл, не менее",
+              "state": "value"
+            },
+            {
+              "column_id": "c25",
+              "value": "Испытательное кратковременное переменное напряжение искрового промежутка под дождем, кВ, не менее",
+              "state": "value"
+            },
+            {
+              "column_id": "c26",
+              "value": "50-% разрядное напряжение грозового импульса, кВ, не более",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "c0",
+              "value": "ОЛСКИР-12,5-10-4",
+              "state": "value"
+            },
+            {
+              "column_id": "c1",
+              "value": "1",
+              "state": "value"
+            },
+            {
+              "column_id": "c2",
+              "value": "10",
+              "state": "value"
+            },
+            {
+              "column_id": "c3",
+              "value": "333",
+              "state": "value"
+            },
+            {
+              "column_id": "c4",
+              "value": "262",
+              "state": "value"
+            },
+            {
+              "column_id": "c5",
+              "value": "60",
+              "state": "value"
+            },
+            {
+              "column_id": "c6",
+              "value": "4,7",
+              "state": "value"
+            },
+            {
+              "column_id": "c7",
+              "value": "IV",
+              "state": "value"
+            },
+            {
+              "column_id": "c8",
+              "value": "12,5",
+              "state": "value"
+            },
+            {
+              "column_id": "c9",
+              "value": "13,5÷19,6",
+              "state": "value"
+            },
+            {
+              "column_id": "c10",
+              "value": "13,1",
+              "state": "value"
+            },
+            {
+              "column_id": "c11",
+              "value": "1",
+              "state": "value"
+            },
+            {
+              "column_id": "c12",
+              "value": "5",
+              "state": "value"
+            },
+            {
+              "column_id": "c13",
+              "value": "31,2",
+              "state": "value"
+            },
+            {
+              "column_id": "c14",
+              "value": "33,6",
+              "state": "value"
+            },
+            {
+              "column_id": "c15",
+              "value": "37,6",
+              "state": "value"
+            },
+            {
+              "column_id": "c16",
+              "value": "35,2",
+              "state": "value"
+            },
+            {
+              "column_id": "c17",
+              "value": "20",
+              "state": "value"
+            },
+            {
+              "column_id": "c18",
+              "value": "20",
+              "state": "value"
+            },
+            {
+              "column_id": "c19",
+              "value": "2",
+              "state": "value"
+            },
+            {
+              "column_id": "c20",
+              "value": "1",
+              "state": "value"
+            },
+            {
+              "column_id": "c21",
+              "value": "14",
+              "state": "value"
+            },
+            {
+              "column_id": "c22",
+              "value": "0,6",
+              "state": "value"
+            },
+            {
+              "column_id": "c23",
+              "value": "40",
+              "state": "value"
+            },
+            {
+              "column_id": "c24",
+              "value": "0,7",
+              "state": "value"
+            },
+            {
+              "column_id": "c25",
+              "value": "28",
+              "state": "value"
+            },
+            {
+              "column_id": "c26",
+              "value": "70",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "c0",
+              "value": "ОЛСКИР-12,5-10-4-К",
+              "state": "value"
+            },
+            {
+              "column_id": "c1",
+              "value": "2",
+              "state": "value"
+            },
+            {
+              "column_id": "c2",
+              "value": "10",
+              "state": "value"
+            },
+            {
+              "column_id": "c3",
+              "value": "333",
+              "state": "value"
+            },
+            {
+              "column_id": "c4",
+              "value": "262",
+              "state": "value"
+            },
+            {
+              "column_id": "c5",
+              "value": "60",
+              "state": "value"
+            },
+            {
+              "column_id": "c6",
+              "value": "4,7",
+              "state": "value"
+            },
+            {
+              "column_id": "c7",
+              "value": "IV",
+              "state": "value"
+            },
+            {
+              "column_id": "c8",
+              "value": "12,5",
+              "state": "value"
+            },
+            {
+              "column_id": "c9",
+              "value": "13,5÷19,6",
+              "state": "value"
+            },
+            {
+              "column_id": "c10",
+              "value": "13,1",
+              "state": "value"
+            },
+            {
+              "column_id": "c11",
+              "value": "1",
+              "state": "value"
+            },
+            {
+              "column_id": "c12",
+              "value": "5",
+              "state": "value"
+            },
+            {
+              "column_id": "c13",
+              "value": "31,2",
+              "state": "value"
+            },
+            {
+              "column_id": "c14",
+              "value": "33,6",
+              "state": "value"
+            },
+            {
+              "column_id": "c15",
+              "value": "37,6",
+              "state": "value"
+            },
+            {
+              "column_id": "c16",
+              "value": "35,2",
+              "state": "value"
+            },
+            {
+              "column_id": "c17",
+              "value": "20",
+              "state": "value"
+            },
+            {
+              "column_id": "c18",
+              "value": "20",
+              "state": "value"
+            },
+            {
+              "column_id": "c19",
+              "value": "2",
+              "state": "value"
+            },
+            {
+              "column_id": "c20",
+              "value": "1",
+              "state": "value"
+            },
+            {
+              "column_id": "c21",
+              "value": "14",
+              "state": "value"
+            },
+            {
+              "column_id": "c22",
+              "value": "0,6",
+              "state": "value"
+            },
+            {
+              "column_id": "c23",
+              "value": "40",
+              "state": "value"
+            },
+            {
+              "column_id": "c24",
+              "value": "0,7",
+              "state": "value"
+            },
+            {
+              "column_id": "c25",
+              "value": "28",
+              "state": "value"
+            },
+            {
+              "column_id": "c26",
+              "value": "70",
+              "state": "value"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "figures": [],
+  "source_notes": [
+    "Only parser-emitted HTML table geometry is expanded; absent cells are unknown. No benchmark/source-derived repairs. Caption and figure evidence remains in raw JSON."
+  ],
+  "uncertainties": []
+}

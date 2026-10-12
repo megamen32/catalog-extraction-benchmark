@@ -1,0 +1,940 @@
+{
+  "title": "Camelot lattice native tables",
+  "printed_page": null,
+  "text_blocks": [],
+  "tables": [
+    {
+      "id": "t0",
+      "title": "t0",
+      "columns": [
+        {
+          "id": "c0",
+          "label": "Наименование",
+          "group": null,
+          "unit": null,
+          "qualifier": null
+        },
+        {
+          "id": "c1",
+          "label": "Рис.",
+          "group": null,
+          "unit": null,
+          "qualifier": null
+        },
+        {
+          "id": "c2",
+          "label": "Номинальное напряжение, кВ",
+          "group": null,
+          "unit": null,
+          "qualifier": null
+        },
+        {
+          "id": "c3",
+          "label": "сила на изгиб, кН\nНормированная разрушающая",
+          "group": null,
+          "unit": null,
+          "qualifier": null
+        },
+        {
+          "id": "c4",
+          "label": "мм, не более\nСтроительная  высота Н,",
+          "group": null,
+          "unit": null,
+          "qualifier": null
+        },
+        {
+          "id": "c5",
+          "label": "Высота шпильки h, мм",
+          "group": null,
+          "unit": null,
+          "qualifier": null
+        },
+        {
+          "id": "c6",
+          "label": "",
+          "group": null,
+          "unit": null,
+          "qualifier": null
+        },
+        {
+          "id": "c7",
+          "label": "мм, не менее\nИзоляционная высота L,",
+          "group": null,
+          "unit": null,
+          "qualifier": null
+        },
+        {
+          "id": "c8",
+          "label": "мм, не менее\nДлина пути утечки,",
+          "group": null,
+          "unit": null,
+          "qualifier": null
+        },
+        {
+          "id": "c9",
+          "label": "Выдерживаемое \nнапряжение, кВ",
+          "group": null,
+          "unit": null,
+          "qualifier": null
+        },
+        {
+          "id": "c10",
+          "label": "",
+          "group": null,
+          "unit": null,
+          "qualifier": null
+        },
+        {
+          "id": "c11",
+          "label": "",
+          "group": null,
+          "unit": null,
+          "qualifier": null
+        },
+        {
+          "id": "c12",
+          "label": "",
+          "group": null,
+          "unit": null,
+          "qualifier": null
+        },
+        {
+          "id": "c13",
+          "label": "",
+          "group": null,
+          "unit": null,
+          "qualifier": null
+        },
+        {
+          "id": "c14",
+          "label": "состоянии, кВ, не менее\nзагрязненном и увлажненном \nРазрядное напряжение 50 Гц в",
+          "group": null,
+          "unit": null,
+          "qualifier": null
+        },
+        {
+          "id": "c15",
+          "label": "загрязнения, мкСм\nНормированная удельная \nповерхностная проводимость слоя",
+          "group": null,
+          "unit": null,
+          "qualifier": null
+        },
+        {
+          "id": "c16",
+          "label": "по ГОСТ 9920\nДопустимая степень загрязнения (СЗ)",
+          "group": null,
+          "unit": null,
+          "qualifier": null
+        }
+      ],
+      "rows": [
+        {
+          "cells": [
+            {
+              "column_id": "c0",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c1",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c2",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c3",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c4",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c5",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c6",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c7",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c8",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c9",
+              "value": "полного грозового импульса",
+              "state": "value"
+            },
+            {
+              "column_id": "c10",
+              "value": "50 Гц в сухом состоянии",
+              "state": "value"
+            },
+            {
+              "column_id": "c11",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c12",
+              "value": "50 Гц под  дождем",
+              "state": "value"
+            },
+            {
+              "column_id": "c13",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c14",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c15",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c16",
+              "value": null,
+              "state": "blank"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "c0",
+              "value": "ОЛСК 12,5-10-PО-2",
+              "state": "value"
+            },
+            {
+              "column_id": "c1",
+              "value": "1",
+              "state": "value"
+            },
+            {
+              "column_id": "c2",
+              "value": "10",
+              "state": "value"
+            },
+            {
+              "column_id": "c3",
+              "value": "12,5",
+              "state": "value"
+            },
+            {
+              "column_id": "c4",
+              "value": "240",
+              "state": "value"
+            },
+            {
+              "column_id": "c5",
+              "value": "45",
+              "state": "value"
+            },
+            {
+              "column_id": "c6",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c7",
+              "value": "165",
+              "state": "value"
+            },
+            {
+              "column_id": "c8",
+              "value": "300",
+              "state": "value"
+            },
+            {
+              "column_id": "c9",
+              "value": "120",
+              "state": "value"
+            },
+            {
+              "column_id": "c10",
+              "value": "80",
+              "state": "value"
+            },
+            {
+              "column_id": "c11",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c12",
+              "value": "45",
+              "state": "value"
+            },
+            {
+              "column_id": "c13",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c14",
+              "value": "13",
+              "state": "value"
+            },
+            {
+              "column_id": "c15",
+              "value": "10",
+              "state": "value"
+            },
+            {
+              "column_id": "c16",
+              "value": "II",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "c0",
+              "value": "ОЛСК 12,5-10-PОК-2",
+              "state": "value"
+            },
+            {
+              "column_id": "c1",
+              "value": "3",
+              "state": "value"
+            },
+            {
+              "column_id": "c2",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c3",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c4",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c5",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c6",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c7",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c8",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c9",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c10",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c11",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c12",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c13",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c14",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c15",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c16",
+              "value": null,
+              "state": "blank"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "c0",
+              "value": "ОЛСК 12,5-10-PО-4",
+              "state": "value"
+            },
+            {
+              "column_id": "c1",
+              "value": "2",
+              "state": "value"
+            },
+            {
+              "column_id": "c2",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c3",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c4",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c5",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c6",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c7",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c8",
+              "value": "420",
+              "state": "value"
+            },
+            {
+              "column_id": "c9",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c10",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c11",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c12",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c13",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c14",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c15",
+              "value": "30",
+              "state": "value"
+            },
+            {
+              "column_id": "c16",
+              "value": "IV",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "c0",
+              "value": "ОЛСК 12,5-10-PОК-4",
+              "state": "value"
+            },
+            {
+              "column_id": "c1",
+              "value": "4",
+              "state": "value"
+            },
+            {
+              "column_id": "c2",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c3",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c4",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c5",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c6",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c7",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c8",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c9",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c10",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c11",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c12",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c13",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c14",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c15",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c16",
+              "value": null,
+              "state": "blank"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "c0",
+              "value": "ОЛСК 12,5-10-PО-2-h Исп.1",
+              "state": "value"
+            },
+            {
+              "column_id": "c1",
+              "value": "1",
+              "state": "value"
+            },
+            {
+              "column_id": "c2",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c3",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c4",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c5",
+              "value": "*",
+              "state": "value"
+            },
+            {
+              "column_id": "c6",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c7",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c8",
+              "value": "300",
+              "state": "value"
+            },
+            {
+              "column_id": "c9",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c10",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c11",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c12",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c13",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c14",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c15",
+              "value": "10",
+              "state": "value"
+            },
+            {
+              "column_id": "c16",
+              "value": "II",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "c0",
+              "value": "ОЛСК 12,5-10-PОК-2-h Исп.1",
+              "state": "value"
+            },
+            {
+              "column_id": "c1",
+              "value": "3",
+              "state": "value"
+            },
+            {
+              "column_id": "c2",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c3",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c4",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c5",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c6",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c7",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c8",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c9",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c10",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c11",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c12",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c13",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c14",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c15",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c16",
+              "value": null,
+              "state": "blank"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "c0",
+              "value": "ОЛСК 12,5-10-PО-4-h Исп.1",
+              "state": "value"
+            },
+            {
+              "column_id": "c1",
+              "value": "2",
+              "state": "value"
+            },
+            {
+              "column_id": "c2",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c3",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c4",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c5",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c6",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c7",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c8",
+              "value": "420",
+              "state": "value"
+            },
+            {
+              "column_id": "c9",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c10",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c11",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c12",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c13",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c14",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c15",
+              "value": "30",
+              "state": "value"
+            },
+            {
+              "column_id": "c16",
+              "value": "IV",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "c0",
+              "value": "ОЛСК 12,5-10-PОК-4-h Исп.1",
+              "state": "value"
+            },
+            {
+              "column_id": "c1",
+              "value": "4",
+              "state": "value"
+            },
+            {
+              "column_id": "c2",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c3",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c4",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c5",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c6",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c7",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c8",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c9",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c10",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c11",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c12",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c13",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c14",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c15",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c16",
+              "value": null,
+              "state": "blank"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "figures": [],
+  "source_notes": [
+    "Native matrix output; first row is an explicit header convention when roles are absent. Missing cells stay unknown. Geometry, spans and formatter transformations remain in raw JSON."
+  ],
+  "uncertainties": []
+}

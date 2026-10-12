@@ -24,7 +24,7 @@ catalog-bench demo --output results/demo
 catalog-bench score --case catalog-4-page-078 page-78.json --output results/score.json
 ```
 
-The demo is synthetic and needs no model credentials. The reviewed dataset ships with the package; original PDFs and extraction outputs are supplied locally and are **not distributed**. A perfect selected-fact score does not establish full-page correctness.
+The demo is synthetic and needs no model credentials. The reviewed dataset ships with the package; original PDFs are supplied locally. [Retained public catalogue parser outputs](examples/parser-outputs/2026-10-12/README.md) include JSON, versions, timing and historical scores for 21 configurations. A perfect selected-fact score does not establish full-page correctness.
 
 ## Compare your solutions
 

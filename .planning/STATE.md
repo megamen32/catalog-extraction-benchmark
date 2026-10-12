@@ -44,6 +44,6 @@ v0.1.0 is public. Clean installation from the public tag, dataset verification, 
 
 | # | Description | Date | Commit | Directory |
 |---|---|---|---|---|
-| 261012-9vv | Fix drawing token boundaries and reject swapped views | 2026-10-12 | Source commit for this task | [261012-9vv](./quick/261012-9vv-fix-drawing-token-boundaries-without-cha/) |
+| 261012-9vv | Fix drawing token boundaries and reject swapped views | 2026-10-12 | 437b5ba | [261012-9vv](./quick/261012-9vv-fix-drawing-token-boundaries-without-cha/) |
 
 Owner permission on 2026-10-12 explicitly allows publication of public catalogue JSON examples and compact benchmark outputs with actual program versions. Raw logs, transcripts, credentials and model weights remain excluded. Historical releases and frozen grader cohorts are preserved.
