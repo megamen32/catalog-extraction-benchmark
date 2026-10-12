@@ -1,0 +1,406 @@
+{
+  "schema_version": "1.0",
+  "case_id": "catalog-5-page-126",
+  "metrics": {
+    "cells_literal": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "cells_numeric_equivalent": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "blank_cells": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "merged_cells": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "header_assertions": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "figure_labels": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "forbidden_label_absence": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    }
+  },
+  "structure": {
+    "expected_tables": 0,
+    "observed_tables": 1,
+    "extra_tables": null,
+    "tables": [],
+    "table_shape_scored": false
+  },
+  "drawing_assertions": {
+    "correct": 0,
+    "expected": 0,
+    "percent": null,
+    "checks": [],
+    "full_drawing_accuracy": false,
+    "method": "frozen scoped deterministic relation/claim assertions; unsupported wording is missing, never inferred"
+  },
+  "all_verified_checks_passed": false,
+  "coverage": {
+    "full_page_ground_truth": false,
+    "text_blocks_scored": false,
+    "diagram_relationships_scored": false,
+    "selected_drawing_assertions": 0,
+    "full_drawing_ground_truth": false,
+    "header_assertions": 0,
+    "figure_label_assertions": 0,
+    "forbidden_declared_label_assertions": 0,
+    "all_invented_labels_scored": false
+  },
+  "differences": [],
+  "engineering_facts": {
+    "correct": 0,
+    "expected": 15,
+    "percent": 0.0,
+    "statuses": {
+      "missing": 15
+    },
+    "checks": [
+      {
+        "id": "selected-01",
+        "expected": {
+          "table_index": 0,
+          "row_key": "все22строки",
+          "column": "Длина пути тока утечки",
+          "expected": "183",
+          "unit": "мм",
+          "kind": "merged",
+          "scope": {
+            "products": [
+              "ИОРП-10-00",
+              "ИОРП-10-00А",
+              "ИОРП-10-01",
+              "ИОРП-10-01А",
+              "ИОРП-10-02",
+              "ИОРП-10-02А",
+              "ИОРП-10-03",
+              "ИОРП-10-03А",
+              "ИОРП-10-04",
+              "ИОРП-10-04А",
+              "ИОРП-10-05",
+              "ИОРП-10-05А",
+              "ИОРП-10-06",
+              "ИОРП-10-06А",
+              "ИОРП-10-07",
+              "ИОРП-10-07/1",
+              "ИОРП-10-08",
+              "ИОРП-10-08А",
+              "ИОРП-10-09",
+              "ИОРП-10-09А",
+              "ИОРП-10-09С",
+              "ИОРП-10-09АС"
+            ],
+            "conductor": null,
+            "part": null
+          }
+        },
+        "status": "missing",
+        "evidence": []
+      },
+      {
+        "id": "selected-02",
+        "expected": {
+          "table_index": 0,
+          "row_key": "ИОРП-10-00",
+          "column": "d1",
+          "expected": "2*М8",
+          "unit": "мм",
+          "kind": "literal",
+          "scope": {
+            "products": [
+              "ИОРП-10-00"
+            ],
+            "conductor": null,
+            "part": null
+          }
+        },
+        "status": "missing",
+        "evidence": []
+      },
+      {
+        "id": "selected-03",
+        "expected": {
+          "table_index": 0,
+          "row_key": "ИОРП-10-00",
+          "column": "d3",
+          "expected": "",
+          "unit": "мм",
+          "kind": "blank",
+          "scope": {
+            "products": [
+              "ИОРП-10-00"
+            ],
+            "conductor": null,
+            "part": null
+          }
+        },
+        "status": "missing",
+        "evidence": []
+      },
+      {
+        "id": "selected-04",
+        "expected": {
+          "table_index": 0,
+          "row_key": "ИОРП-10-00А",
+          "column": "L1",
+          "expected": "12",
+          "unit": "мм",
+          "kind": "literal",
+          "scope": {
+            "products": [
+              "ИОРП-10-00А"
+            ],
+            "conductor": null,
+            "part": null
+          }
+        },
+        "status": "missing",
+        "evidence": []
+      },
+      {
+        "id": "selected-05",
+        "expected": {
+          "table_index": 0,
+          "row_key": "ИОРП-10-01",
+          "column": "Масса, не более",
+          "expected": "0,32",
+          "unit": "кг",
+          "kind": "literal",
+          "scope": {
+            "products": [
+              "ИОРП-10-01"
+            ],
+            "conductor": null,
+            "part": null
+          }
+        },
+        "status": "missing",
+        "evidence": []
+      },
+      {
+        "id": "selected-06",
+        "expected": {
+          "table_index": 0,
+          "row_key": "ИОРП-10-02",
+          "column": "Фарфоровый аналог",
+          "expected": "",
+          "unit": null,
+          "kind": "blank",
+          "scope": {
+            "products": [
+              "ИОРП-10-02"
+            ],
+            "conductor": null,
+            "part": null
+          }
+        },
+        "status": "missing",
+        "evidence": []
+      },
+      {
+        "id": "selected-07",
+        "expected": {
+          "table_index": 0,
+          "row_key": "ИОРП-10-03",
+          "column": "B1",
+          "expected": "-",
+          "unit": "мм",
+          "kind": "dash",
+          "scope": {
+            "products": [
+              "ИОРП-10-03"
+            ],
+            "conductor": null,
+            "part": null
+          }
+        },
+        "status": "missing",
+        "evidence": []
+      },
+      {
+        "id": "selected-08",
+        "expected": {
+          "table_index": 0,
+          "row_key": "ИОРП-10-03",
+          "column": "L1",
+          "expected": "20",
+          "unit": "мм",
+          "kind": "literal",
+          "scope": {
+            "products": [
+              "ИОРП-10-03"
+            ],
+            "conductor": null,
+            "part": null
+          }
+        },
+        "status": "missing",
+        "evidence": []
+      },
+      {
+        "id": "selected-09",
+        "expected": {
+          "table_index": 0,
+          "row_key": "ИОРП-10-07",
+          "column": "d1",
+          "expected": "-",
+          "unit": "мм",
+          "kind": "dash",
+          "scope": {
+            "products": [
+              "ИОРП-10-07"
+            ],
+            "conductor": null,
+            "part": null
+          }
+        },
+        "status": "missing",
+        "evidence": []
+      },
+      {
+        "id": "selected-10",
+        "expected": {
+          "table_index": 0,
+          "row_key": "ИОРП-10-07",
+          "column": "d3",
+          "expected": "М8",
+          "unit": "мм",
+          "kind": "literal",
+          "scope": {
+            "products": [
+              "ИОРП-10-07"
+            ],
+            "conductor": null,
+            "part": null
+          }
+        },
+        "status": "missing",
+        "evidence": []
+      },
+      {
+        "id": "selected-11",
+        "expected": {
+          "table_index": 0,
+          "row_key": "ИОРП-10-07",
+          "column": "L1",
+          "expected": "-",
+          "unit": "мм",
+          "kind": "dash",
+          "scope": {
+            "products": [
+              "ИОРП-10-07"
+            ],
+            "conductor": null,
+            "part": null
+          }
+        },
+        "status": "missing",
+        "evidence": []
+      },
+      {
+        "id": "selected-12",
+        "expected": {
+          "table_index": 0,
+          "row_key": "ИОРП-10-07",
+          "column": "L3",
+          "expected": "15",
+          "unit": "мм",
+          "kind": "literal",
+          "scope": {
+            "products": [
+              "ИОРП-10-07"
+            ],
+            "conductor": null,
+            "part": null
+          }
+        },
+        "status": "missing",
+        "evidence": []
+      },
+      {
+        "id": "selected-13",
+        "expected": {
+          "table_index": 0,
+          "row_key": "ИОРП-10-08",
+          "column": "d3",
+          "expected": "-",
+          "unit": "мм",
+          "kind": "dash",
+          "scope": {
+            "products": [
+              "ИОРП-10-08"
+            ],
+            "conductor": null,
+            "part": null
+          }
+        },
+        "status": "missing",
+        "evidence": []
+      },
+      {
+        "id": "selected-14",
+        "expected": {
+          "table_index": 0,
+          "row_key": "ИОРП-10-09С и ИОРП-10-09АС",
+          "column": "L2",
+          "expected": "56",
+          "unit": "мм",
+          "kind": "merged",
+          "scope": {
+            "products": [
+              "ИОРП-10-09С",
+              "ИОРП-10-09АС"
+            ],
+            "conductor": null,
+            "part": null
+          }
+        },
+        "status": "missing",
+        "evidence": []
+      },
+      {
+        "id": "selected-15",
+        "expected": {
+          "table_index": 0,
+          "row_key": "ИОРП-10-09АС",
+          "column": "Рис.",
+          "expected": "3",
+          "unit": null,
+          "kind": "literal",
+          "scope": {
+            "products": [
+              "ИОРП-10-09АС"
+            ],
+            "conductor": null,
+            "part": null
+          }
+        },
+        "status": "missing",
+        "evidence": []
+      }
+    ],
+    "full_page_accuracy": false
+  },
+  "fixture_sha256": "a2123b1f211f87319036dd97bcc5ad09efa5e7c120ca936cc8ff2da771703a4c",
+  "candidate_sha256": "c4103ac86474d4a33dcc36eb53daf802d87ca8fd3f79b93f46a59319e3d57f09",
+  "source_binding": "caller-selected plain page artifact",
+  "grader_sha256": "24b64859fd690d11afd8477c69a0f84336a28338ac0b49981e5300055364d57a"
+}

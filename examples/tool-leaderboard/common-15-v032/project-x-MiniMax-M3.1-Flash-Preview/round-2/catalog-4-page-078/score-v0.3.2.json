@@ -1,0 +1,3108 @@
+{
+  "schema_version": "1.0",
+  "case_id": "catalog-4-page-078",
+  "metrics": {
+    "cells_literal": {
+      "correct": 110,
+      "expected": 140,
+      "percent": 78.57
+    },
+    "cells_numeric_equivalent": {
+      "correct": 110,
+      "expected": 140,
+      "percent": 78.57
+    },
+    "blank_cells": {
+      "correct": 20,
+      "expected": 20,
+      "percent": 100.0
+    },
+    "merged_cells": {
+      "correct": 34,
+      "expected": 46,
+      "percent": 73.91
+    },
+    "header_assertions": {
+      "correct": 29,
+      "expected": 34,
+      "percent": 85.29
+    },
+    "figure_labels": {
+      "correct": 9,
+      "expected": 11,
+      "percent": 81.82
+    },
+    "forbidden_label_absence": {
+      "correct": 3,
+      "expected": 3,
+      "percent": 100.0
+    }
+  },
+  "structure": {
+    "expected_tables": 2,
+    "observed_tables": 2,
+    "extra_tables": 0,
+    "tables": [
+      {
+        "expected_rows": 4,
+        "expected_columns": 15,
+        "observed_rows": 4,
+        "observed_columns": 14
+      },
+      {
+        "expected_rows": 10,
+        "expected_columns": 8,
+        "observed_rows": 10,
+        "observed_columns": 8
+      }
+    ]
+  },
+  "drawing_assertions": {
+    "correct": 0,
+    "expected": 0,
+    "percent": null,
+    "checks": [],
+    "full_drawing_accuracy": false,
+    "method": "frozen scoped deterministic relation/claim assertions; unsupported wording is missing, never inferred"
+  },
+  "all_verified_checks_passed": false,
+  "coverage": {
+    "full_page_ground_truth": false,
+    "text_blocks_scored": false,
+    "diagram_relationships_scored": false,
+    "selected_drawing_assertions": 0,
+    "full_drawing_ground_truth": false,
+    "header_assertions": 34,
+    "figure_label_assertions": 11,
+    "forbidden_declared_label_assertions": 3,
+    "all_invented_labels_scored": false
+  },
+  "differences": [
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 0,
+      "column": 6,
+      "expected": "1360",
+      "expected_state": "value",
+      "observed": "1360 4100",
+      "observed_state": "value",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 0,
+      "column": 7,
+      "expected": "4100",
+      "expected_state": "value",
+      "observed": 650,
+      "observed_state": "value",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 0,
+      "column": 8,
+      "expected": "650",
+      "expected_state": "value",
+      "observed": 300,
+      "observed_state": "value",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 0,
+      "column": 10,
+      "expected": "300",
+      "expected_state": "value",
+      "observed": 150,
+      "observed_state": "value",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 0,
+      "column": 12,
+      "expected": "10",
+      "expected_state": "value",
+      "observed": "10 II",
+      "observed_state": "value",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 0,
+      "column": 13,
+      "expected": "II",
+      "expected_state": "value",
+      "observed": 80,
+      "observed_state": "value",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 0,
+      "column": 14,
+      "expected": "80",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 1,
+      "column": 4,
+      "expected": "1700",
+      "expected_state": "value",
+      "observed": 1600,
+      "observed_state": "value",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 1,
+      "column": 6,
+      "expected": "1460",
+      "expected_state": "value",
+      "observed": "1460 4400",
+      "observed_state": "value",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 1,
+      "column": 7,
+      "expected": "4400",
+      "expected_state": "value",
+      "observed": 650,
+      "observed_state": "value",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 1,
+      "column": 8,
+      "expected": "650",
+      "expected_state": "value",
+      "observed": 300,
+      "observed_state": "value",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 1,
+      "column": 10,
+      "expected": "300",
+      "expected_state": "value",
+      "observed": 150,
+      "observed_state": "value",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 1,
+      "column": 12,
+      "expected": "20",
+      "expected_state": "value",
+      "observed": "20 III",
+      "observed_state": "value",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 1,
+      "column": 13,
+      "expected": "III",
+      "expected_state": "value",
+      "observed": 80,
+      "observed_state": "value",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 1,
+      "column": 14,
+      "expected": "80",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 2,
+      "column": 4,
+      "expected": "1600",
+      "expected_state": "value",
+      "observed": 1700,
+      "observed_state": "value",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 2,
+      "column": 6,
+      "expected": "1360",
+      "expected_state": "value",
+      "observed": "1360 4100",
+      "observed_state": "value",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 2,
+      "column": 7,
+      "expected": "4100",
+      "expected_state": "value",
+      "observed": 650,
+      "observed_state": "value",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 2,
+      "column": 8,
+      "expected": "650",
+      "expected_state": "value",
+      "observed": 300,
+      "observed_state": "value",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 2,
+      "column": 10,
+      "expected": "300",
+      "expected_state": "value",
+      "observed": 150,
+      "observed_state": "value",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 2,
+      "column": 12,
+      "expected": "10",
+      "expected_state": "value",
+      "observed": "10 II",
+      "observed_state": "value",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 2,
+      "column": 13,
+      "expected": "II",
+      "expected_state": "value",
+      "observed": 80,
+      "observed_state": "value",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 2,
+      "column": 14,
+      "expected": "80",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 3,
+      "column": 6,
+      "expected": "1460",
+      "expected_state": "value",
+      "observed": "1460 4400",
+      "observed_state": "value",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 3,
+      "column": 7,
+      "expected": "4400",
+      "expected_state": "value",
+      "observed": 650,
+      "observed_state": "value",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 3,
+      "column": 8,
+      "expected": "650",
+      "expected_state": "value",
+      "observed": 300,
+      "observed_state": "value",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 3,
+      "column": 10,
+      "expected": "300",
+      "expected_state": "value",
+      "observed": 150,
+      "observed_state": "value",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 3,
+      "column": 12,
+      "expected": "20",
+      "expected_state": "value",
+      "observed": "20 III",
+      "observed_state": "value",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 3,
+      "column": 13,
+      "expected": "III",
+      "expected_state": "value",
+      "observed": 80,
+      "observed_state": "value",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 3,
+      "column": 14,
+      "expected": "80",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "header",
+      "table": 0,
+      "column": 12,
+      "field": "unit",
+      "expected": "мкСм",
+      "mode": "unit",
+      "observed": null
+    },
+    {
+      "category": "header",
+      "table": 0,
+      "column": 14,
+      "field": "unit",
+      "expected": "кг",
+      "mode": "unit",
+      "observed": null
+    },
+    {
+      "category": "header",
+      "table": 0,
+      "column": 4,
+      "field": "label",
+      "expected": "высота Н",
+      "mode": "contains",
+      "observed": "Строительная высота H"
+    },
+    {
+      "category": "header",
+      "table": 0,
+      "column": 14,
+      "field": "qualifier",
+      "expected": "не более",
+      "mode": "contains",
+      "observed": null
+    },
+    {
+      "category": "header",
+      "table": 0,
+      "column": 13,
+      "field": "label",
+      "expected": "СЗ",
+      "mode": "contains",
+      "observed": "Масса"
+    },
+    {
+      "category": "figure_label",
+      "expected_alternatives": [
+        "H±2",
+        "Н±2"
+      ]
+    },
+    {
+      "category": "figure_label",
+      "expected_alternatives": [
+        "d1 4 отв",
+        "d₁ 4 отв"
+      ]
+    }
+  ],
+  "engineering_facts": {
+    "correct": 114,
+    "expected": 140,
+    "percent": 81.43,
+    "statuses": {
+      "passed": 114,
+      "wrong": 22,
+      "missing": 4
+    },
+    "checks": [
+      {
+        "id": "t0-r0-c0",
+        "identity": "ОСК 8-150-А-2",
+        "field": "Наименование",
+        "expected": "ОСК 8-150-А-2",
+        "status": "passed",
+        "observed": "ОСК 8-150-А-2",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c1_name",
+        "row_index": 0
+      },
+      {
+        "id": "t0-r0-c1",
+        "identity": "ОСК 8-150-А-2",
+        "field": "Номинальное напряжение",
+        "expected": "150",
+        "status": "passed",
+        "observed": 150,
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c2_voltage",
+        "row_index": 0
+      },
+      {
+        "id": "t0-r0-c2",
+        "identity": "ОСК 8-150-А-2",
+        "field": "Нормированная механическая разрушающая сила при изгибе",
+        "expected": "8",
+        "status": "passed",
+        "observed": 8,
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c3_mechanical",
+        "row_index": 0
+      },
+      {
+        "id": "t0-r0-c3",
+        "identity": "ОСК 8-150-А-2",
+        "field": "Нормированный разрушающий крутящий момент",
+        "expected": "2,0",
+        "status": "passed",
+        "observed": "2,0",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c4_torque",
+        "row_index": 0
+      },
+      {
+        "id": "t0-r0-c4",
+        "identity": "ОСК 8-150-А-2",
+        "field": "Строительная высота Н",
+        "expected": "1600",
+        "status": "passed",
+        "observed": 1600,
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c5_h",
+        "row_index": 0
+      },
+      {
+        "id": "t0-r0-c5",
+        "identity": "ОСК 8-150-А-2",
+        "field": "Диаметр ребер D",
+        "expected": "170",
+        "status": "passed",
+        "observed": 170,
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c6_d",
+        "row_index": 0
+      },
+      {
+        "id": "t0-r0-c6",
+        "identity": "ОСК 8-150-А-2",
+        "field": "Изоляционная высота L",
+        "expected": "1360",
+        "status": "wrong",
+        "observed": "1360 4100",
+        "observed_state": "value",
+        "value_and_state": false,
+        "literal_match": false,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c7_l",
+        "row_index": 0
+      },
+      {
+        "id": "t0-r0-c7",
+        "identity": "ОСК 8-150-А-2",
+        "field": "Длина пути тока утечки",
+        "expected": "4100",
+        "status": "wrong",
+        "observed": 650,
+        "observed_state": "value",
+        "value_and_state": false,
+        "literal_match": false,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c8_creepage",
+        "row_index": 0
+      },
+      {
+        "id": "t0-r0-c8",
+        "identity": "ОСК 8-150-А-2",
+        "field": "Выдерживаемое напряжение полного грозового импульса",
+        "expected": "650",
+        "status": "wrong",
+        "observed": 300,
+        "observed_state": "value",
+        "value_and_state": false,
+        "literal_match": false,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c9_lightning",
+        "row_index": 0
+      },
+      {
+        "id": "t0-r0-c9",
+        "identity": "ОСК 8-150-А-2",
+        "field": "Выдерживаемое напряжение 50 Гц в сухом состоянии",
+        "expected": "300",
+        "status": "passed",
+        "observed": 300,
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c10_dry",
+        "row_index": 0
+      },
+      {
+        "id": "t0-r0-c10",
+        "identity": "ОСК 8-150-А-2",
+        "field": "Выдерживаемое напряжение 50 Гц под дождем",
+        "expected": "300",
+        "status": "wrong",
+        "observed": 150,
+        "observed_state": "value",
+        "value_and_state": false,
+        "literal_match": false,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c11_wet",
+        "row_index": 0
+      },
+      {
+        "id": "t0-r0-c11",
+        "identity": "ОСК 8-150-А-2",
+        "field": "Разрядное напряжение 50 Гц в загрязненном и увлажненном состоянии",
+        "expected": "150",
+        "status": "passed",
+        "observed": 150,
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c12_polluted",
+        "row_index": 0
+      },
+      {
+        "id": "t0-r0-c12",
+        "identity": "ОСК 8-150-А-2",
+        "field": "Нормированная удельная поверхностная проводимость слоя загрязнения",
+        "expected": "10",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r0-c13",
+        "identity": "ОСК 8-150-А-2",
+        "field": "Допустимая степень загрязнения СЗ",
+        "expected": "II",
+        "status": "wrong",
+        "observed": "10 II",
+        "observed_state": "value",
+        "value_and_state": false,
+        "literal_match": false,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c13_pollution",
+        "row_index": 0
+      },
+      {
+        "id": "t0-r0-c14",
+        "identity": "ОСК 8-150-А-2",
+        "field": "Масса",
+        "expected": "80",
+        "status": "passed",
+        "observed": 80,
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c14_mass",
+        "row_index": 0
+      },
+      {
+        "id": "t0-r1-c0",
+        "identity": "ОСК 8-150-Б-3",
+        "field": "Наименование",
+        "expected": "ОСК 8-150-Б-3",
+        "status": "passed",
+        "observed": "ОСК 8-150-Б-3",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c1_name",
+        "row_index": 1
+      },
+      {
+        "id": "t0-r1-c1",
+        "identity": "ОСК 8-150-Б-3",
+        "field": "Номинальное напряжение",
+        "expected": "150",
+        "status": "passed",
+        "observed": 150,
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c2_voltage",
+        "row_index": 1
+      },
+      {
+        "id": "t0-r1-c2",
+        "identity": "ОСК 8-150-Б-3",
+        "field": "Нормированная механическая разрушающая сила при изгибе",
+        "expected": "8",
+        "status": "passed",
+        "observed": 8,
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c3_mechanical",
+        "row_index": 1
+      },
+      {
+        "id": "t0-r1-c3",
+        "identity": "ОСК 8-150-Б-3",
+        "field": "Нормированный разрушающий крутящий момент",
+        "expected": "2,0",
+        "status": "passed",
+        "observed": "2,0",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c4_torque",
+        "row_index": 1
+      },
+      {
+        "id": "t0-r1-c4",
+        "identity": "ОСК 8-150-Б-3",
+        "field": "Строительная высота Н",
+        "expected": "1700",
+        "status": "wrong",
+        "observed": 1600,
+        "observed_state": "value",
+        "value_and_state": false,
+        "literal_match": false,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c5_h",
+        "row_index": 1
+      },
+      {
+        "id": "t0-r1-c5",
+        "identity": "ОСК 8-150-Б-3",
+        "field": "Диаметр ребер D",
+        "expected": "170",
+        "status": "passed",
+        "observed": 170,
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c6_d",
+        "row_index": 1
+      },
+      {
+        "id": "t0-r1-c6",
+        "identity": "ОСК 8-150-Б-3",
+        "field": "Изоляционная высота L",
+        "expected": "1460",
+        "status": "wrong",
+        "observed": "1460 4400",
+        "observed_state": "value",
+        "value_and_state": false,
+        "literal_match": false,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c7_l",
+        "row_index": 1
+      },
+      {
+        "id": "t0-r1-c7",
+        "identity": "ОСК 8-150-Б-3",
+        "field": "Длина пути тока утечки",
+        "expected": "4400",
+        "status": "wrong",
+        "observed": 650,
+        "observed_state": "value",
+        "value_and_state": false,
+        "literal_match": false,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c8_creepage",
+        "row_index": 1
+      },
+      {
+        "id": "t0-r1-c8",
+        "identity": "ОСК 8-150-Б-3",
+        "field": "Выдерживаемое напряжение полного грозового импульса",
+        "expected": "650",
+        "status": "wrong",
+        "observed": 300,
+        "observed_state": "value",
+        "value_and_state": false,
+        "literal_match": false,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c9_lightning",
+        "row_index": 1
+      },
+      {
+        "id": "t0-r1-c9",
+        "identity": "ОСК 8-150-Б-3",
+        "field": "Выдерживаемое напряжение 50 Гц в сухом состоянии",
+        "expected": "300",
+        "status": "passed",
+        "observed": 300,
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c10_dry",
+        "row_index": 1
+      },
+      {
+        "id": "t0-r1-c10",
+        "identity": "ОСК 8-150-Б-3",
+        "field": "Выдерживаемое напряжение 50 Гц под дождем",
+        "expected": "300",
+        "status": "wrong",
+        "observed": 150,
+        "observed_state": "value",
+        "value_and_state": false,
+        "literal_match": false,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c11_wet",
+        "row_index": 1
+      },
+      {
+        "id": "t0-r1-c11",
+        "identity": "ОСК 8-150-Б-3",
+        "field": "Разрядное напряжение 50 Гц в загрязненном и увлажненном состоянии",
+        "expected": "150",
+        "status": "passed",
+        "observed": 150,
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c12_polluted",
+        "row_index": 1
+      },
+      {
+        "id": "t0-r1-c12",
+        "identity": "ОСК 8-150-Б-3",
+        "field": "Нормированная удельная поверхностная проводимость слоя загрязнения",
+        "expected": "20",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r1-c13",
+        "identity": "ОСК 8-150-Б-3",
+        "field": "Допустимая степень загрязнения СЗ",
+        "expected": "III",
+        "status": "wrong",
+        "observed": "20 III",
+        "observed_state": "value",
+        "value_and_state": false,
+        "literal_match": false,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c13_pollution",
+        "row_index": 1
+      },
+      {
+        "id": "t0-r1-c14",
+        "identity": "ОСК 8-150-Б-3",
+        "field": "Масса",
+        "expected": "80",
+        "status": "passed",
+        "observed": 80,
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c14_mass",
+        "row_index": 1
+      },
+      {
+        "id": "t0-r2-c0",
+        "identity": "ОСК 10-150-А-2",
+        "field": "Наименование",
+        "expected": "ОСК 10-150-А-2",
+        "status": "passed",
+        "observed": "ОСК 10-150-А-2",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c1_name",
+        "row_index": 2
+      },
+      {
+        "id": "t0-r2-c1",
+        "identity": "ОСК 10-150-А-2",
+        "field": "Номинальное напряжение",
+        "expected": "150",
+        "status": "passed",
+        "observed": 150,
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c2_voltage",
+        "row_index": 2
+      },
+      {
+        "id": "t0-r2-c2",
+        "identity": "ОСК 10-150-А-2",
+        "field": "Нормированная механическая разрушающая сила при изгибе",
+        "expected": "10",
+        "status": "passed",
+        "observed": 10,
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c3_mechanical",
+        "row_index": 2
+      },
+      {
+        "id": "t0-r2-c3",
+        "identity": "ОСК 10-150-А-2",
+        "field": "Нормированный разрушающий крутящий момент",
+        "expected": "2,0",
+        "status": "passed",
+        "observed": "2,0",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c4_torque",
+        "row_index": 2
+      },
+      {
+        "id": "t0-r2-c4",
+        "identity": "ОСК 10-150-А-2",
+        "field": "Строительная высота Н",
+        "expected": "1600",
+        "status": "wrong",
+        "observed": 1700,
+        "observed_state": "value",
+        "value_and_state": false,
+        "literal_match": false,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c5_h",
+        "row_index": 2
+      },
+      {
+        "id": "t0-r2-c5",
+        "identity": "ОСК 10-150-А-2",
+        "field": "Диаметр ребер D",
+        "expected": "170",
+        "status": "passed",
+        "observed": 170,
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c6_d",
+        "row_index": 2
+      },
+      {
+        "id": "t0-r2-c6",
+        "identity": "ОСК 10-150-А-2",
+        "field": "Изоляционная высота L",
+        "expected": "1360",
+        "status": "wrong",
+        "observed": "1360 4100",
+        "observed_state": "value",
+        "value_and_state": false,
+        "literal_match": false,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c7_l",
+        "row_index": 2
+      },
+      {
+        "id": "t0-r2-c7",
+        "identity": "ОСК 10-150-А-2",
+        "field": "Длина пути тока утечки",
+        "expected": "4100",
+        "status": "wrong",
+        "observed": 650,
+        "observed_state": "value",
+        "value_and_state": false,
+        "literal_match": false,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c8_creepage",
+        "row_index": 2
+      },
+      {
+        "id": "t0-r2-c8",
+        "identity": "ОСК 10-150-А-2",
+        "field": "Выдерживаемое напряжение полного грозового импульса",
+        "expected": "650",
+        "status": "wrong",
+        "observed": 300,
+        "observed_state": "value",
+        "value_and_state": false,
+        "literal_match": false,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c9_lightning",
+        "row_index": 2
+      },
+      {
+        "id": "t0-r2-c9",
+        "identity": "ОСК 10-150-А-2",
+        "field": "Выдерживаемое напряжение 50 Гц в сухом состоянии",
+        "expected": "300",
+        "status": "passed",
+        "observed": 300,
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c10_dry",
+        "row_index": 2
+      },
+      {
+        "id": "t0-r2-c10",
+        "identity": "ОСК 10-150-А-2",
+        "field": "Выдерживаемое напряжение 50 Гц под дождем",
+        "expected": "300",
+        "status": "wrong",
+        "observed": 150,
+        "observed_state": "value",
+        "value_and_state": false,
+        "literal_match": false,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c11_wet",
+        "row_index": 2
+      },
+      {
+        "id": "t0-r2-c11",
+        "identity": "ОСК 10-150-А-2",
+        "field": "Разрядное напряжение 50 Гц в загрязненном и увлажненном состоянии",
+        "expected": "150",
+        "status": "passed",
+        "observed": 150,
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c12_polluted",
+        "row_index": 2
+      },
+      {
+        "id": "t0-r2-c12",
+        "identity": "ОСК 10-150-А-2",
+        "field": "Нормированная удельная поверхностная проводимость слоя загрязнения",
+        "expected": "10",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r2-c13",
+        "identity": "ОСК 10-150-А-2",
+        "field": "Допустимая степень загрязнения СЗ",
+        "expected": "II",
+        "status": "wrong",
+        "observed": "10 II",
+        "observed_state": "value",
+        "value_and_state": false,
+        "literal_match": false,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c13_pollution",
+        "row_index": 2
+      },
+      {
+        "id": "t0-r2-c14",
+        "identity": "ОСК 10-150-А-2",
+        "field": "Масса",
+        "expected": "80",
+        "status": "passed",
+        "observed": 80,
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c14_mass",
+        "row_index": 2
+      },
+      {
+        "id": "t0-r3-c0",
+        "identity": "ОСК 10-150-Б-3",
+        "field": "Наименование",
+        "expected": "ОСК 10-150-Б-3",
+        "status": "passed",
+        "observed": "ОСК 10-150-Б-3",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c1_name",
+        "row_index": 3
+      },
+      {
+        "id": "t0-r3-c1",
+        "identity": "ОСК 10-150-Б-3",
+        "field": "Номинальное напряжение",
+        "expected": "150",
+        "status": "passed",
+        "observed": 150,
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c2_voltage",
+        "row_index": 3
+      },
+      {
+        "id": "t0-r3-c2",
+        "identity": "ОСК 10-150-Б-3",
+        "field": "Нормированная механическая разрушающая сила при изгибе",
+        "expected": "10",
+        "status": "passed",
+        "observed": 10,
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c3_mechanical",
+        "row_index": 3
+      },
+      {
+        "id": "t0-r3-c3",
+        "identity": "ОСК 10-150-Б-3",
+        "field": "Нормированный разрушающий крутящий момент",
+        "expected": "2,0",
+        "status": "passed",
+        "observed": "2,0",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c4_torque",
+        "row_index": 3
+      },
+      {
+        "id": "t0-r3-c4",
+        "identity": "ОСК 10-150-Б-3",
+        "field": "Строительная высота Н",
+        "expected": "1700",
+        "status": "passed",
+        "observed": 1700,
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c5_h",
+        "row_index": 3
+      },
+      {
+        "id": "t0-r3-c5",
+        "identity": "ОСК 10-150-Б-3",
+        "field": "Диаметр ребер D",
+        "expected": "170",
+        "status": "passed",
+        "observed": 170,
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c6_d",
+        "row_index": 3
+      },
+      {
+        "id": "t0-r3-c6",
+        "identity": "ОСК 10-150-Б-3",
+        "field": "Изоляционная высота L",
+        "expected": "1460",
+        "status": "wrong",
+        "observed": "1460 4400",
+        "observed_state": "value",
+        "value_and_state": false,
+        "literal_match": false,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c7_l",
+        "row_index": 3
+      },
+      {
+        "id": "t0-r3-c7",
+        "identity": "ОСК 10-150-Б-3",
+        "field": "Длина пути тока утечки",
+        "expected": "4400",
+        "status": "wrong",
+        "observed": 650,
+        "observed_state": "value",
+        "value_and_state": false,
+        "literal_match": false,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c8_creepage",
+        "row_index": 3
+      },
+      {
+        "id": "t0-r3-c8",
+        "identity": "ОСК 10-150-Б-3",
+        "field": "Выдерживаемое напряжение полного грозового импульса",
+        "expected": "650",
+        "status": "wrong",
+        "observed": 300,
+        "observed_state": "value",
+        "value_and_state": false,
+        "literal_match": false,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c9_lightning",
+        "row_index": 3
+      },
+      {
+        "id": "t0-r3-c9",
+        "identity": "ОСК 10-150-Б-3",
+        "field": "Выдерживаемое напряжение 50 Гц в сухом состоянии",
+        "expected": "300",
+        "status": "passed",
+        "observed": 300,
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c10_dry",
+        "row_index": 3
+      },
+      {
+        "id": "t0-r3-c10",
+        "identity": "ОСК 10-150-Б-3",
+        "field": "Выдерживаемое напряжение 50 Гц под дождем",
+        "expected": "300",
+        "status": "wrong",
+        "observed": 150,
+        "observed_state": "value",
+        "value_and_state": false,
+        "literal_match": false,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c11_wet",
+        "row_index": 3
+      },
+      {
+        "id": "t0-r3-c11",
+        "identity": "ОСК 10-150-Б-3",
+        "field": "Разрядное напряжение 50 Гц в загрязненном и увлажненном состоянии",
+        "expected": "150",
+        "status": "passed",
+        "observed": 150,
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c12_polluted",
+        "row_index": 3
+      },
+      {
+        "id": "t0-r3-c12",
+        "identity": "ОСК 10-150-Б-3",
+        "field": "Нормированная удельная поверхностная проводимость слоя загрязнения",
+        "expected": "20",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r3-c13",
+        "identity": "ОСК 10-150-Б-3",
+        "field": "Допустимая степень загрязнения СЗ",
+        "expected": "III",
+        "status": "wrong",
+        "observed": "20 III",
+        "observed_state": "value",
+        "value_and_state": false,
+        "literal_match": false,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c13_pollution",
+        "row_index": 3
+      },
+      {
+        "id": "t0-r3-c14",
+        "identity": "ОСК 10-150-Б-3",
+        "field": "Масса",
+        "expected": "80",
+        "status": "passed",
+        "observed": 80,
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "c14_mass",
+        "row_index": 3
+      },
+      {
+        "id": "t1-r0-c0",
+        "identity": "ОСК 8-150-А-2",
+        "field": "Наименование",
+        "expected": "ОСК 8-150-А-2",
+        "status": "passed",
+        "observed": "ОСК 8-150-А-2",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d1_name",
+        "row_index": 0
+      },
+      {
+        "id": "t1-r0-c1",
+        "identity": "ОСК 8-150-А-2",
+        "field": "H",
+        "expected": "1600",
+        "status": "passed",
+        "observed": 1600,
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d2_h",
+        "row_index": 0
+      },
+      {
+        "id": "t1-r0-c2",
+        "identity": "ОСК 8-150-А-2",
+        "field": "D1",
+        "expected": "Ø127",
+        "status": "passed",
+        "observed": "Ø127",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d3_upper_d1",
+        "row_index": 0
+      },
+      {
+        "id": "t1-r0-c3",
+        "identity": "ОСК 8-150-А-2",
+        "field": "B1",
+        "expected": null,
+        "status": "passed",
+        "observed": null,
+        "observed_state": "blank",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d4_upper_b1",
+        "row_index": 0
+      },
+      {
+        "id": "t1-r0-c4",
+        "identity": "ОСК 8-150-А-2",
+        "field": "d1",
+        "expected": "4М16",
+        "status": "passed",
+        "observed": "4М16",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d5_upper_d",
+        "row_index": 0
+      },
+      {
+        "id": "t1-r0-c5",
+        "identity": "ОСК 8-150-А-2",
+        "field": "D2",
+        "expected": "Ø200",
+        "status": "passed",
+        "observed": "Ø200",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d6_lower_d2",
+        "row_index": 0
+      },
+      {
+        "id": "t1-r0-c6",
+        "identity": "ОСК 8-150-А-2",
+        "field": "B2",
+        "expected": null,
+        "status": "passed",
+        "observed": null,
+        "observed_state": "blank",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d7_lower_b2",
+        "row_index": 0
+      },
+      {
+        "id": "t1-r0-c7",
+        "identity": "ОСК 8-150-А-2",
+        "field": "d2",
+        "expected": "4Ø18",
+        "status": "passed",
+        "observed": "4Ø18",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d8_lower_d",
+        "row_index": 0
+      },
+      {
+        "id": "t1-r1-c0",
+        "identity": "ОСК 8-150-А01-2",
+        "field": "Наименование",
+        "expected": "ОСК 8-150-А01-2",
+        "status": "passed",
+        "observed": "ОСК 8-150-А01-2",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d1_name",
+        "row_index": 1
+      },
+      {
+        "id": "t1-r1-c1",
+        "identity": "ОСК 8-150-А01-2",
+        "field": "H",
+        "expected": "1600",
+        "status": "passed",
+        "observed": 1600,
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d2_h",
+        "row_index": 1
+      },
+      {
+        "id": "t1-r1-c2",
+        "identity": "ОСК 8-150-А01-2",
+        "field": "D1",
+        "expected": "Ø127",
+        "status": "passed",
+        "observed": "Ø127",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d3_upper_d1",
+        "row_index": 1
+      },
+      {
+        "id": "t1-r1-c3",
+        "identity": "ОСК 8-150-А01-2",
+        "field": "B1",
+        "expected": null,
+        "status": "passed",
+        "observed": null,
+        "observed_state": "blank",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d4_upper_b1",
+        "row_index": 1
+      },
+      {
+        "id": "t1-r1-c4",
+        "identity": "ОСК 8-150-А01-2",
+        "field": "d1",
+        "expected": "4М16",
+        "status": "passed",
+        "observed": "4М16",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d5_upper_d",
+        "row_index": 1
+      },
+      {
+        "id": "t1-r1-c5",
+        "identity": "ОСК 8-150-А01-2",
+        "field": "D2",
+        "expected": null,
+        "status": "passed",
+        "observed": null,
+        "observed_state": "blank",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d6_lower_d2",
+        "row_index": 1
+      },
+      {
+        "id": "t1-r1-c6",
+        "identity": "ОСК 8-150-А01-2",
+        "field": "B2",
+        "expected": "□160",
+        "status": "passed",
+        "observed": "□160",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d7_lower_b2",
+        "row_index": 1
+      },
+      {
+        "id": "t1-r1-c7",
+        "identity": "ОСК 8-150-А01-2",
+        "field": "d2",
+        "expected": "4Ø18",
+        "status": "passed",
+        "observed": "4Ø18",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d8_lower_d",
+        "row_index": 1
+      },
+      {
+        "id": "t1-r2-c0",
+        "identity": "ОСК 8-150-А02-2",
+        "field": "Наименование",
+        "expected": "ОСК 8-150-А02-2",
+        "status": "passed",
+        "observed": "ОСК 8-150-А02-2",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d1_name",
+        "row_index": 2
+      },
+      {
+        "id": "t1-r2-c1",
+        "identity": "ОСК 8-150-А02-2",
+        "field": "H",
+        "expected": "1600",
+        "status": "passed",
+        "observed": 1600,
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d2_h",
+        "row_index": 2
+      },
+      {
+        "id": "t1-r2-c2",
+        "identity": "ОСК 8-150-А02-2",
+        "field": "D1",
+        "expected": null,
+        "status": "passed",
+        "observed": null,
+        "observed_state": "blank",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d3_upper_d1",
+        "row_index": 2
+      },
+      {
+        "id": "t1-r2-c3",
+        "identity": "ОСК 8-150-А02-2",
+        "field": "B1",
+        "expected": "□160",
+        "status": "passed",
+        "observed": "□160",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d4_upper_b1",
+        "row_index": 2
+      },
+      {
+        "id": "t1-r2-c4",
+        "identity": "ОСК 8-150-А02-2",
+        "field": "d1",
+        "expected": "4Ø18",
+        "status": "passed",
+        "observed": "4Ø18",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d5_upper_d",
+        "row_index": 2
+      },
+      {
+        "id": "t1-r2-c5",
+        "identity": "ОСК 8-150-А02-2",
+        "field": "D2",
+        "expected": null,
+        "status": "passed",
+        "observed": null,
+        "observed_state": "blank",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d6_lower_d2",
+        "row_index": 2
+      },
+      {
+        "id": "t1-r2-c6",
+        "identity": "ОСК 8-150-А02-2",
+        "field": "B2",
+        "expected": "□180",
+        "status": "passed",
+        "observed": "□180",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d7_lower_b2",
+        "row_index": 2
+      },
+      {
+        "id": "t1-r2-c7",
+        "identity": "ОСК 8-150-А02-2",
+        "field": "d2",
+        "expected": "4Ø18",
+        "status": "passed",
+        "observed": "4Ø18",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d8_lower_d",
+        "row_index": 2
+      },
+      {
+        "id": "t1-r3-c0",
+        "identity": "ОСК 8-150-Б-3",
+        "field": "Наименование",
+        "expected": "ОСК 8-150-Б-3",
+        "status": "passed",
+        "observed": "ОСК 8-150-Б-3",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d1_name",
+        "row_index": 3
+      },
+      {
+        "id": "t1-r3-c1",
+        "identity": "ОСК 8-150-Б-3",
+        "field": "H",
+        "expected": "1700",
+        "status": "passed",
+        "observed": 1700,
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d2_h",
+        "row_index": 3
+      },
+      {
+        "id": "t1-r3-c2",
+        "identity": "ОСК 8-150-Б-3",
+        "field": "D1",
+        "expected": "Ø127",
+        "status": "passed",
+        "observed": "Ø127",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d3_upper_d1",
+        "row_index": 3
+      },
+      {
+        "id": "t1-r3-c3",
+        "identity": "ОСК 8-150-Б-3",
+        "field": "B1",
+        "expected": null,
+        "status": "passed",
+        "observed": null,
+        "observed_state": "blank",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d4_upper_b1",
+        "row_index": 3
+      },
+      {
+        "id": "t1-r3-c4",
+        "identity": "ОСК 8-150-Б-3",
+        "field": "d1",
+        "expected": "4М16",
+        "status": "passed",
+        "observed": "4М16",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d5_upper_d",
+        "row_index": 3
+      },
+      {
+        "id": "t1-r3-c5",
+        "identity": "ОСК 8-150-Б-3",
+        "field": "D2",
+        "expected": "Ø200",
+        "status": "passed",
+        "observed": "Ø200",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d6_lower_d2",
+        "row_index": 3
+      },
+      {
+        "id": "t1-r3-c6",
+        "identity": "ОСК 8-150-Б-3",
+        "field": "B2",
+        "expected": null,
+        "status": "passed",
+        "observed": null,
+        "observed_state": "blank",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d7_lower_b2",
+        "row_index": 3
+      },
+      {
+        "id": "t1-r3-c7",
+        "identity": "ОСК 8-150-Б-3",
+        "field": "d2",
+        "expected": "4Ø18",
+        "status": "passed",
+        "observed": "4Ø18",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d8_lower_d",
+        "row_index": 3
+      },
+      {
+        "id": "t1-r4-c0",
+        "identity": "ОСК 8-150-Б01-3",
+        "field": "Наименование",
+        "expected": "ОСК 8-150-Б01-3",
+        "status": "passed",
+        "observed": "ОСК 8-150-Б01-3",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d1_name",
+        "row_index": 4
+      },
+      {
+        "id": "t1-r4-c1",
+        "identity": "ОСК 8-150-Б01-3",
+        "field": "H",
+        "expected": "1700",
+        "status": "passed",
+        "observed": 1700,
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d2_h",
+        "row_index": 4
+      },
+      {
+        "id": "t1-r4-c2",
+        "identity": "ОСК 8-150-Б01-3",
+        "field": "D1",
+        "expected": "Ø127",
+        "status": "passed",
+        "observed": "Ø127",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d3_upper_d1",
+        "row_index": 4
+      },
+      {
+        "id": "t1-r4-c3",
+        "identity": "ОСК 8-150-Б01-3",
+        "field": "B1",
+        "expected": null,
+        "status": "passed",
+        "observed": null,
+        "observed_state": "blank",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d4_upper_b1",
+        "row_index": 4
+      },
+      {
+        "id": "t1-r4-c4",
+        "identity": "ОСК 8-150-Б01-3",
+        "field": "d1",
+        "expected": "4М16",
+        "status": "passed",
+        "observed": "4М16",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d5_upper_d",
+        "row_index": 4
+      },
+      {
+        "id": "t1-r4-c5",
+        "identity": "ОСК 8-150-Б01-3",
+        "field": "D2",
+        "expected": null,
+        "status": "passed",
+        "observed": null,
+        "observed_state": "blank",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d6_lower_d2",
+        "row_index": 4
+      },
+      {
+        "id": "t1-r4-c6",
+        "identity": "ОСК 8-150-Б01-3",
+        "field": "B2",
+        "expected": "□160",
+        "status": "passed",
+        "observed": "□160",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d7_lower_b2",
+        "row_index": 4
+      },
+      {
+        "id": "t1-r4-c7",
+        "identity": "ОСК 8-150-Б01-3",
+        "field": "d2",
+        "expected": "4Ø18",
+        "status": "passed",
+        "observed": "4Ø18",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d8_lower_d",
+        "row_index": 4
+      },
+      {
+        "id": "t1-r5-c0",
+        "identity": "ОСК 10-150-А-2",
+        "field": "Наименование",
+        "expected": "ОСК 10-150-А-2",
+        "status": "passed",
+        "observed": "ОСК 10-150-А-2",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d1_name",
+        "row_index": 5
+      },
+      {
+        "id": "t1-r5-c1",
+        "identity": "ОСК 10-150-А-2",
+        "field": "H",
+        "expected": "1600",
+        "status": "passed",
+        "observed": 1600,
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d2_h",
+        "row_index": 5
+      },
+      {
+        "id": "t1-r5-c2",
+        "identity": "ОСК 10-150-А-2",
+        "field": "D1",
+        "expected": "Ø127",
+        "status": "passed",
+        "observed": "Ø127",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d3_upper_d1",
+        "row_index": 5
+      },
+      {
+        "id": "t1-r5-c3",
+        "identity": "ОСК 10-150-А-2",
+        "field": "B1",
+        "expected": null,
+        "status": "passed",
+        "observed": null,
+        "observed_state": "blank",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d4_upper_b1",
+        "row_index": 5
+      },
+      {
+        "id": "t1-r5-c4",
+        "identity": "ОСК 10-150-А-2",
+        "field": "d1",
+        "expected": "4М16",
+        "status": "passed",
+        "observed": "4М16",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d5_upper_d",
+        "row_index": 5
+      },
+      {
+        "id": "t1-r5-c5",
+        "identity": "ОСК 10-150-А-2",
+        "field": "D2",
+        "expected": "Ø200",
+        "status": "passed",
+        "observed": "Ø200",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d6_lower_d2",
+        "row_index": 5
+      },
+      {
+        "id": "t1-r5-c6",
+        "identity": "ОСК 10-150-А-2",
+        "field": "B2",
+        "expected": null,
+        "status": "passed",
+        "observed": null,
+        "observed_state": "blank",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d7_lower_b2",
+        "row_index": 5
+      },
+      {
+        "id": "t1-r5-c7",
+        "identity": "ОСК 10-150-А-2",
+        "field": "d2",
+        "expected": "4Ø18",
+        "status": "passed",
+        "observed": "4Ø18",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d8_lower_d",
+        "row_index": 5
+      },
+      {
+        "id": "t1-r6-c0",
+        "identity": "ОСК 10-150-А01-2",
+        "field": "Наименование",
+        "expected": "ОСК 10-150-А01-2",
+        "status": "passed",
+        "observed": "ОСК 10-150-А01-2",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d1_name",
+        "row_index": 6
+      },
+      {
+        "id": "t1-r6-c1",
+        "identity": "ОСК 10-150-А01-2",
+        "field": "H",
+        "expected": "1600",
+        "status": "passed",
+        "observed": 1600,
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d2_h",
+        "row_index": 6
+      },
+      {
+        "id": "t1-r6-c2",
+        "identity": "ОСК 10-150-А01-2",
+        "field": "D1",
+        "expected": "Ø127",
+        "status": "passed",
+        "observed": "Ø127",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d3_upper_d1",
+        "row_index": 6
+      },
+      {
+        "id": "t1-r6-c3",
+        "identity": "ОСК 10-150-А01-2",
+        "field": "B1",
+        "expected": null,
+        "status": "passed",
+        "observed": null,
+        "observed_state": "blank",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d4_upper_b1",
+        "row_index": 6
+      },
+      {
+        "id": "t1-r6-c4",
+        "identity": "ОСК 10-150-А01-2",
+        "field": "d1",
+        "expected": "4М16",
+        "status": "passed",
+        "observed": "4М16",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d5_upper_d",
+        "row_index": 6
+      },
+      {
+        "id": "t1-r6-c5",
+        "identity": "ОСК 10-150-А01-2",
+        "field": "D2",
+        "expected": null,
+        "status": "passed",
+        "observed": null,
+        "observed_state": "blank",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d6_lower_d2",
+        "row_index": 6
+      },
+      {
+        "id": "t1-r6-c6",
+        "identity": "ОСК 10-150-А01-2",
+        "field": "B2",
+        "expected": "□160",
+        "status": "passed",
+        "observed": "□160",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d7_lower_b2",
+        "row_index": 6
+      },
+      {
+        "id": "t1-r6-c7",
+        "identity": "ОСК 10-150-А01-2",
+        "field": "d2",
+        "expected": "4Ø18",
+        "status": "passed",
+        "observed": "4Ø18",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d8_lower_d",
+        "row_index": 6
+      },
+      {
+        "id": "t1-r7-c0",
+        "identity": "ОСК 10-150-А02-2",
+        "field": "Наименование",
+        "expected": "ОСК 10-150-А02-2",
+        "status": "passed",
+        "observed": "ОСК 10-150-А02-2",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d1_name",
+        "row_index": 7
+      },
+      {
+        "id": "t1-r7-c1",
+        "identity": "ОСК 10-150-А02-2",
+        "field": "H",
+        "expected": "1600",
+        "status": "passed",
+        "observed": 1600,
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d2_h",
+        "row_index": 7
+      },
+      {
+        "id": "t1-r7-c2",
+        "identity": "ОСК 10-150-А02-2",
+        "field": "D1",
+        "expected": null,
+        "status": "passed",
+        "observed": null,
+        "observed_state": "blank",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d3_upper_d1",
+        "row_index": 7
+      },
+      {
+        "id": "t1-r7-c3",
+        "identity": "ОСК 10-150-А02-2",
+        "field": "B1",
+        "expected": "□160",
+        "status": "passed",
+        "observed": "□160",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d4_upper_b1",
+        "row_index": 7
+      },
+      {
+        "id": "t1-r7-c4",
+        "identity": "ОСК 10-150-А02-2",
+        "field": "d1",
+        "expected": "4Ø18",
+        "status": "passed",
+        "observed": "4Ø18",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d5_upper_d",
+        "row_index": 7
+      },
+      {
+        "id": "t1-r7-c5",
+        "identity": "ОСК 10-150-А02-2",
+        "field": "D2",
+        "expected": null,
+        "status": "passed",
+        "observed": null,
+        "observed_state": "blank",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d6_lower_d2",
+        "row_index": 7
+      },
+      {
+        "id": "t1-r7-c6",
+        "identity": "ОСК 10-150-А02-2",
+        "field": "B2",
+        "expected": "□180",
+        "status": "passed",
+        "observed": "□180",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d7_lower_b2",
+        "row_index": 7
+      },
+      {
+        "id": "t1-r7-c7",
+        "identity": "ОСК 10-150-А02-2",
+        "field": "d2",
+        "expected": "4Ø18",
+        "status": "passed",
+        "observed": "4Ø18",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d8_lower_d",
+        "row_index": 7
+      },
+      {
+        "id": "t1-r8-c0",
+        "identity": "ОСК 10-150-Б-3",
+        "field": "Наименование",
+        "expected": "ОСК 10-150-Б-3",
+        "status": "passed",
+        "observed": "ОСК 10-150-Б-3",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d1_name",
+        "row_index": 8
+      },
+      {
+        "id": "t1-r8-c1",
+        "identity": "ОСК 10-150-Б-3",
+        "field": "H",
+        "expected": "1700",
+        "status": "passed",
+        "observed": 1700,
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d2_h",
+        "row_index": 8
+      },
+      {
+        "id": "t1-r8-c2",
+        "identity": "ОСК 10-150-Б-3",
+        "field": "D1",
+        "expected": "Ø127",
+        "status": "passed",
+        "observed": "Ø127",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d3_upper_d1",
+        "row_index": 8
+      },
+      {
+        "id": "t1-r8-c3",
+        "identity": "ОСК 10-150-Б-3",
+        "field": "B1",
+        "expected": null,
+        "status": "passed",
+        "observed": null,
+        "observed_state": "blank",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d4_upper_b1",
+        "row_index": 8
+      },
+      {
+        "id": "t1-r8-c4",
+        "identity": "ОСК 10-150-Б-3",
+        "field": "d1",
+        "expected": "4М16",
+        "status": "passed",
+        "observed": "4М16",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d5_upper_d",
+        "row_index": 8
+      },
+      {
+        "id": "t1-r8-c5",
+        "identity": "ОСК 10-150-Б-3",
+        "field": "D2",
+        "expected": "Ø200",
+        "status": "passed",
+        "observed": "Ø200",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d6_lower_d2",
+        "row_index": 8
+      },
+      {
+        "id": "t1-r8-c6",
+        "identity": "ОСК 10-150-Б-3",
+        "field": "B2",
+        "expected": null,
+        "status": "passed",
+        "observed": null,
+        "observed_state": "blank",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d7_lower_b2",
+        "row_index": 8
+      },
+      {
+        "id": "t1-r8-c7",
+        "identity": "ОСК 10-150-Б-3",
+        "field": "d2",
+        "expected": "4Ø18",
+        "status": "passed",
+        "observed": "4Ø18",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d8_lower_d",
+        "row_index": 8
+      },
+      {
+        "id": "t1-r9-c0",
+        "identity": "ОСК 10-150-Б01-3",
+        "field": "Наименование",
+        "expected": "ОСК 10-150-Б01-3",
+        "status": "passed",
+        "observed": "ОСК 10-150-Б01-3",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d1_name",
+        "row_index": 9
+      },
+      {
+        "id": "t1-r9-c1",
+        "identity": "ОСК 10-150-Б01-3",
+        "field": "H",
+        "expected": "1700",
+        "status": "passed",
+        "observed": 1700,
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d2_h",
+        "row_index": 9
+      },
+      {
+        "id": "t1-r9-c2",
+        "identity": "ОСК 10-150-Б01-3",
+        "field": "D1",
+        "expected": "Ø127",
+        "status": "passed",
+        "observed": "Ø127",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d3_upper_d1",
+        "row_index": 9
+      },
+      {
+        "id": "t1-r9-c3",
+        "identity": "ОСК 10-150-Б01-3",
+        "field": "B1",
+        "expected": null,
+        "status": "passed",
+        "observed": null,
+        "observed_state": "blank",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d4_upper_b1",
+        "row_index": 9
+      },
+      {
+        "id": "t1-r9-c4",
+        "identity": "ОСК 10-150-Б01-3",
+        "field": "d1",
+        "expected": "4М16",
+        "status": "passed",
+        "observed": "4М16",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d5_upper_d",
+        "row_index": 9
+      },
+      {
+        "id": "t1-r9-c5",
+        "identity": "ОСК 10-150-Б01-3",
+        "field": "D2",
+        "expected": null,
+        "status": "passed",
+        "observed": null,
+        "observed_state": "blank",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d6_lower_d2",
+        "row_index": 9
+      },
+      {
+        "id": "t1-r9-c6",
+        "identity": "ОСК 10-150-Б01-3",
+        "field": "B2",
+        "expected": "□160",
+        "status": "passed",
+        "observed": "□160",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d7_lower_b2",
+        "row_index": 9
+      },
+      {
+        "id": "t1-r9-c7",
+        "identity": "ОСК 10-150-Б01-3",
+        "field": "d2",
+        "expected": "4Ø18",
+        "status": "passed",
+        "observed": "4Ø18",
+        "observed_state": "value",
+        "value_and_state": true,
+        "literal_match": true,
+        "conditions": {
+          "field": true,
+          "unit": true,
+          "bounds": true,
+          "frequency": true
+        },
+        "column_id": "d8_lower_d",
+        "row_index": 9
+      }
+    ],
+    "full_page_accuracy": false
+  },
+  "fixture_sha256": "86e767f7af5fdbc24d208112c9c1b6c2b1a3771e3348a130f179db4e7d4ac8b6",
+  "candidate_sha256": "53ee44d9e14c852d22d1f69dfcd506c0d7ab3a3563f788091ffc7580907d4730",
+  "source_binding": "caller-selected plain page artifact",
+  "grader_sha256": "f091872c67af7e410490df6b590cb8ac03a05eb6e615351ed281c4ae1687e21d",
+  "grader_release": "0.3.2",
+  "retained_original_grader_sha256": "24b64859fd690d11afd8477c69a0f84336a28338ac0b49981e5300055364d57a",
+  "literal_format_differences": [],
+  "unsupported_material_reference_policy": "Strict source-absence proxy for material mentions including appearance analogies; not an assertion that the candidate claims manufacture from that material",
+  "raw_literal_metrics_unchanged": true,
+  "source_fixture_bytes_unchanged": true,
+  "identifiers_are_not_globally_normalized": true,
+  "correction": "Matching-only physical A/А aliases, supported English geometry, contextual pollution abbreviation and dimensional metric-thread script difference; numeric/scoped/negation guards retained"
+}

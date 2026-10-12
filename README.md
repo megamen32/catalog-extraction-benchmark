@@ -10,6 +10,8 @@ Compare PDF catalogue parsers against independently reviewed engineering facts.
 
 **[Единая история всех испытаний: версии, три раунда, разброс, время и параллельные оценки](docs/EXPERIMENT-HISTORY-RU.md)** · [JSON-сводка](examples/experiment-history.json)
 
+**[Общий рейтинг инструментов, включая Project X с GLM и MiniMax](docs/TOOL-LEADERBOARD-RU.md)** — одинаковые 15 страниц и один оценщик для всех; наш агент в этом рейтинге не участвует.
+
 ## Install
 
 Requires Python 3.11+ and [uv](https://docs.astral.sh/uv/).

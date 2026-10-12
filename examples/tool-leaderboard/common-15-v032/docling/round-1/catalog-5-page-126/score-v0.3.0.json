@@ -1,0 +1,1259 @@
+{
+  "schema_version": "1.0",
+  "case_id": "catalog-5-page-126",
+  "metrics": {
+    "cells_literal": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "cells_numeric_equivalent": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "blank_cells": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "merged_cells": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "header_assertions": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "figure_labels": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "forbidden_label_absence": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    }
+  },
+  "structure": {
+    "expected_tables": 0,
+    "observed_tables": 1,
+    "extra_tables": null,
+    "tables": [],
+    "table_shape_scored": false
+  },
+  "drawing_assertions": {
+    "correct": 0,
+    "expected": 0,
+    "percent": null,
+    "checks": [],
+    "full_drawing_accuracy": false,
+    "method": "frozen scoped deterministic relation/claim assertions; unsupported wording is missing, never inferred"
+  },
+  "all_verified_checks_passed": false,
+  "coverage": {
+    "full_page_ground_truth": false,
+    "text_blocks_scored": false,
+    "diagram_relationships_scored": false,
+    "selected_drawing_assertions": 0,
+    "full_drawing_ground_truth": false,
+    "header_assertions": 0,
+    "figure_label_assertions": 0,
+    "forbidden_declared_label_assertions": 0,
+    "all_invented_labels_scored": false
+  },
+  "differences": [],
+  "engineering_facts": {
+    "correct": 11,
+    "expected": 15,
+    "percent": 73.33,
+    "statuses": {
+      "wrong": 4,
+      "passed": 11
+    },
+    "checks": [
+      {
+        "id": "selected-01",
+        "expected": {
+          "table_index": 0,
+          "row_key": "все22строки",
+          "column": "Длина пути тока утечки",
+          "expected": "183",
+          "unit": "мм",
+          "kind": "merged",
+          "scope": {
+            "products": [
+              "ИОРП-10-00",
+              "ИОРП-10-00А",
+              "ИОРП-10-01",
+              "ИОРП-10-01А",
+              "ИОРП-10-02",
+              "ИОРП-10-02А",
+              "ИОРП-10-03",
+              "ИОРП-10-03А",
+              "ИОРП-10-04",
+              "ИОРП-10-04А",
+              "ИОРП-10-05",
+              "ИОРП-10-05А",
+              "ИОРП-10-06",
+              "ИОРП-10-06А",
+              "ИОРП-10-07",
+              "ИОРП-10-07/1",
+              "ИОРП-10-08",
+              "ИОРП-10-08А",
+              "ИОРП-10-09",
+              "ИОРП-10-09А",
+              "ИОРП-10-09С",
+              "ИОРП-10-09АС"
+            ],
+            "conductor": null,
+            "part": null
+          }
+        },
+        "status": "wrong",
+        "evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t0",
+            "row_index": 0,
+            "column_id": "c2",
+            "column": {
+              "id": "c2",
+              "label": "Длина пути тока утечки, мм",
+              "unit": null,
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c2",
+              "value": "183",
+              "state": "value"
+            },
+            "product_names": [
+              "ИОРП-10-00"
+            ],
+            "path": "tables[0].rows[0].cells[2]"
+          },
+          {
+            "table_index": 0,
+            "table_id": "t0",
+            "row_index": 1,
+            "column_id": "c2",
+            "column": {
+              "id": "c2",
+              "label": "Длина пути тока утечки, мм",
+              "unit": null,
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c2",
+              "value": null,
+              "state": "unknown"
+            },
+            "product_names": [
+              "ИОРП-10-00А"
+            ],
+            "path": "tables[0].rows[1].cells[2]"
+          },
+          {
+            "table_index": 0,
+            "table_id": "t0",
+            "row_index": 2,
+            "column_id": "c2",
+            "column": {
+              "id": "c2",
+              "label": "Длина пути тока утечки, мм",
+              "unit": null,
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c2",
+              "value": null,
+              "state": "unknown"
+            },
+            "product_names": [
+              "ИОРП-10-01"
+            ],
+            "path": "tables[0].rows[2].cells[2]"
+          },
+          {
+            "table_index": 0,
+            "table_id": "t0",
+            "row_index": 3,
+            "column_id": "c2",
+            "column": {
+              "id": "c2",
+              "label": "Длина пути тока утечки, мм",
+              "unit": null,
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c2",
+              "value": null,
+              "state": "unknown"
+            },
+            "product_names": [
+              "ИОРП-10-01А"
+            ],
+            "path": "tables[0].rows[3].cells[2]"
+          },
+          {
+            "table_index": 0,
+            "table_id": "t0",
+            "row_index": 4,
+            "column_id": "c2",
+            "column": {
+              "id": "c2",
+              "label": "Длина пути тока утечки, мм",
+              "unit": null,
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c2",
+              "value": null,
+              "state": "unknown"
+            },
+            "product_names": [
+              "ИОРП-10-02"
+            ],
+            "path": "tables[0].rows[4].cells[2]"
+          },
+          {
+            "table_index": 0,
+            "table_id": "t0",
+            "row_index": 5,
+            "column_id": "c2",
+            "column": {
+              "id": "c2",
+              "label": "Длина пути тока утечки, мм",
+              "unit": null,
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c2",
+              "value": null,
+              "state": "unknown"
+            },
+            "product_names": [
+              "ИОРП-10-02А"
+            ],
+            "path": "tables[0].rows[5].cells[2]"
+          },
+          {
+            "table_index": 0,
+            "table_id": "t0",
+            "row_index": 6,
+            "column_id": "c2",
+            "column": {
+              "id": "c2",
+              "label": "Длина пути тока утечки, мм",
+              "unit": null,
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c2",
+              "value": null,
+              "state": "unknown"
+            },
+            "product_names": [
+              "ИОРП-10-03"
+            ],
+            "path": "tables[0].rows[6].cells[2]"
+          },
+          {
+            "table_index": 0,
+            "table_id": "t0",
+            "row_index": 7,
+            "column_id": "c2",
+            "column": {
+              "id": "c2",
+              "label": "Длина пути тока утечки, мм",
+              "unit": null,
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c2",
+              "value": null,
+              "state": "unknown"
+            },
+            "product_names": [
+              "ИОРП-10-03А"
+            ],
+            "path": "tables[0].rows[7].cells[2]"
+          },
+          {
+            "table_index": 0,
+            "table_id": "t0",
+            "row_index": 8,
+            "column_id": "c2",
+            "column": {
+              "id": "c2",
+              "label": "Длина пути тока утечки, мм",
+              "unit": null,
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c2",
+              "value": null,
+              "state": "unknown"
+            },
+            "product_names": [
+              "ИОРП-10-04"
+            ],
+            "path": "tables[0].rows[8].cells[2]"
+          },
+          {
+            "table_index": 0,
+            "table_id": "t0",
+            "row_index": 9,
+            "column_id": "c2",
+            "column": {
+              "id": "c2",
+              "label": "Длина пути тока утечки, мм",
+              "unit": null,
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c2",
+              "value": null,
+              "state": "unknown"
+            },
+            "product_names": [
+              "ИОРП-10-04А"
+            ],
+            "path": "tables[0].rows[9].cells[2]"
+          },
+          {
+            "table_index": 0,
+            "table_id": "t0",
+            "row_index": 10,
+            "column_id": "c2",
+            "column": {
+              "id": "c2",
+              "label": "Длина пути тока утечки, мм",
+              "unit": null,
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c2",
+              "value": null,
+              "state": "unknown"
+            },
+            "product_names": [
+              "ИОРП-10-05"
+            ],
+            "path": "tables[0].rows[10].cells[2]"
+          },
+          {
+            "table_index": 0,
+            "table_id": "t0",
+            "row_index": 11,
+            "column_id": "c2",
+            "column": {
+              "id": "c2",
+              "label": "Длина пути тока утечки, мм",
+              "unit": null,
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c2",
+              "value": null,
+              "state": "unknown"
+            },
+            "product_names": [
+              "ИОРП-10-05А"
+            ],
+            "path": "tables[0].rows[11].cells[2]"
+          },
+          {
+            "table_index": 0,
+            "table_id": "t0",
+            "row_index": 12,
+            "column_id": "c2",
+            "column": {
+              "id": "c2",
+              "label": "Длина пути тока утечки, мм",
+              "unit": null,
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c2",
+              "value": null,
+              "state": "unknown"
+            },
+            "product_names": [
+              "ИОРП-10-06"
+            ],
+            "path": "tables[0].rows[12].cells[2]"
+          },
+          {
+            "table_index": 0,
+            "table_id": "t0",
+            "row_index": 13,
+            "column_id": "c2",
+            "column": {
+              "id": "c2",
+              "label": "Длина пути тока утечки, мм",
+              "unit": null,
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c2",
+              "value": null,
+              "state": "unknown"
+            },
+            "product_names": [
+              "ИОРП-10-06А"
+            ],
+            "path": "tables[0].rows[13].cells[2]"
+          },
+          {
+            "table_index": 0,
+            "table_id": "t0",
+            "row_index": 14,
+            "column_id": "c2",
+            "column": {
+              "id": "c2",
+              "label": "Длина пути тока утечки, мм",
+              "unit": null,
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c2",
+              "value": null,
+              "state": "unknown"
+            },
+            "product_names": [
+              "ИОРП-10-07"
+            ],
+            "path": "tables[0].rows[14].cells[2]"
+          },
+          {
+            "table_index": 0,
+            "table_id": "t0",
+            "row_index": 15,
+            "column_id": "c2",
+            "column": {
+              "id": "c2",
+              "label": "Длина пути тока утечки, мм",
+              "unit": null,
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c2",
+              "value": null,
+              "state": "unknown"
+            },
+            "product_names": [
+              "ИОРП-10-07/1"
+            ],
+            "path": "tables[0].rows[15].cells[2]"
+          },
+          {
+            "table_index": 0,
+            "table_id": "t0",
+            "row_index": 16,
+            "column_id": "c2",
+            "column": {
+              "id": "c2",
+              "label": "Длина пути тока утечки, мм",
+              "unit": null,
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c2",
+              "value": null,
+              "state": "unknown"
+            },
+            "product_names": [
+              "ИОРП-10-08"
+            ],
+            "path": "tables[0].rows[16].cells[2]"
+          },
+          {
+            "table_index": 0,
+            "table_id": "t0",
+            "row_index": 17,
+            "column_id": "c2",
+            "column": {
+              "id": "c2",
+              "label": "Длина пути тока утечки, мм",
+              "unit": null,
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c2",
+              "value": null,
+              "state": "unknown"
+            },
+            "product_names": [
+              "ИОРП-10-08А"
+            ],
+            "path": "tables[0].rows[17].cells[2]"
+          },
+          {
+            "table_index": 0,
+            "table_id": "t0",
+            "row_index": 18,
+            "column_id": "c2",
+            "column": {
+              "id": "c2",
+              "label": "Длина пути тока утечки, мм",
+              "unit": null,
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c2",
+              "value": null,
+              "state": "unknown"
+            },
+            "product_names": [
+              "ИОРП-10-09"
+            ],
+            "path": "tables[0].rows[18].cells[2]"
+          },
+          {
+            "table_index": 0,
+            "table_id": "t0",
+            "row_index": 19,
+            "column_id": "c2",
+            "column": {
+              "id": "c2",
+              "label": "Длина пути тока утечки, мм",
+              "unit": null,
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c2",
+              "value": null,
+              "state": "unknown"
+            },
+            "product_names": [
+              "ИОРП-10-09А"
+            ],
+            "path": "tables[0].rows[19].cells[2]"
+          },
+          {
+            "table_index": 0,
+            "table_id": "t0",
+            "row_index": 20,
+            "column_id": "c2",
+            "column": {
+              "id": "c2",
+              "label": "Длина пути тока утечки, мм",
+              "unit": null,
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c2",
+              "value": null,
+              "state": "unknown"
+            },
+            "product_names": [
+              "ИОРП-10-09С"
+            ],
+            "path": "tables[0].rows[20].cells[2]"
+          },
+          {
+            "table_index": 0,
+            "table_id": "t0",
+            "row_index": 21,
+            "column_id": "c2",
+            "column": {
+              "id": "c2",
+              "label": "Длина пути тока утечки, мм",
+              "unit": null,
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c2",
+              "value": null,
+              "state": "unknown"
+            },
+            "product_names": [
+              "ИОРП-10-09АС"
+            ],
+            "path": "tables[0].rows[21].cells[2]"
+          }
+        ],
+        "issues": [
+          "value_or_state"
+        ]
+      },
+      {
+        "id": "selected-02",
+        "expected": {
+          "table_index": 0,
+          "row_key": "ИОРП-10-00",
+          "column": "d1",
+          "expected": "2*М8",
+          "unit": "мм",
+          "kind": "literal",
+          "scope": {
+            "products": [
+              "ИОРП-10-00"
+            ],
+            "conductor": null,
+            "part": null
+          }
+        },
+        "status": "passed",
+        "evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t0",
+            "row_index": 0,
+            "column_id": "c3",
+            "column": {
+              "id": "c3",
+              "label": "d1, мм",
+              "unit": null,
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c3",
+              "value": "2*М8",
+              "state": "value"
+            },
+            "product_names": [
+              "ИОРП-10-00"
+            ],
+            "path": "tables[0].rows[0].cells[3]"
+          }
+        ],
+        "issues": []
+      },
+      {
+        "id": "selected-03",
+        "expected": {
+          "table_index": 0,
+          "row_key": "ИОРП-10-00",
+          "column": "d3",
+          "expected": "",
+          "unit": "мм",
+          "kind": "blank",
+          "scope": {
+            "products": [
+              "ИОРП-10-00"
+            ],
+            "conductor": null,
+            "part": null
+          }
+        },
+        "status": "wrong",
+        "evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t0",
+            "row_index": 0,
+            "column_id": "c5",
+            "column": {
+              "id": "c5",
+              "label": "d3, мм",
+              "unit": null,
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c5",
+              "value": null,
+              "state": "unknown"
+            },
+            "product_names": [
+              "ИОРП-10-00"
+            ],
+            "path": "tables[0].rows[0].cells[5]"
+          }
+        ],
+        "issues": [
+          "value_or_state"
+        ]
+      },
+      {
+        "id": "selected-04",
+        "expected": {
+          "table_index": 0,
+          "row_key": "ИОРП-10-00А",
+          "column": "L1",
+          "expected": "12",
+          "unit": "мм",
+          "kind": "literal",
+          "scope": {
+            "products": [
+              "ИОРП-10-00А"
+            ],
+            "conductor": null,
+            "part": null
+          }
+        },
+        "status": "passed",
+        "evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t0",
+            "row_index": 1,
+            "column_id": "c6",
+            "column": {
+              "id": "c6",
+              "label": "L1, мм",
+              "unit": null,
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c6",
+              "value": "12",
+              "state": "value"
+            },
+            "product_names": [
+              "ИОРП-10-00А"
+            ],
+            "path": "tables[0].rows[1].cells[6]"
+          }
+        ],
+        "issues": []
+      },
+      {
+        "id": "selected-05",
+        "expected": {
+          "table_index": 0,
+          "row_key": "ИОРП-10-01",
+          "column": "Масса, не более",
+          "expected": "0,32",
+          "unit": "кг",
+          "kind": "literal",
+          "scope": {
+            "products": [
+              "ИОРП-10-01"
+            ],
+            "conductor": null,
+            "part": null
+          }
+        },
+        "status": "passed",
+        "evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t0",
+            "row_index": 2,
+            "column_id": "c10",
+            "column": {
+              "id": "c10",
+              "label": "Масса, кг, не более",
+              "unit": null,
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c10",
+              "value": "0,32",
+              "state": "value"
+            },
+            "product_names": [
+              "ИОРП-10-01"
+            ],
+            "path": "tables[0].rows[2].cells[10]"
+          }
+        ],
+        "issues": []
+      },
+      {
+        "id": "selected-06",
+        "expected": {
+          "table_index": 0,
+          "row_key": "ИОРП-10-02",
+          "column": "Фарфоровый аналог",
+          "expected": "",
+          "unit": null,
+          "kind": "blank",
+          "scope": {
+            "products": [
+              "ИОРП-10-02"
+            ],
+            "conductor": null,
+            "part": null
+          }
+        },
+        "status": "wrong",
+        "evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t0",
+            "row_index": 4,
+            "column_id": "c11",
+            "column": {
+              "id": "c11",
+              "label": "Фарфоровый аналог",
+              "unit": null,
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c11",
+              "value": null,
+              "state": "unknown"
+            },
+            "product_names": [
+              "ИОРП-10-02"
+            ],
+            "path": "tables[0].rows[4].cells[11]"
+          }
+        ],
+        "issues": [
+          "value_or_state"
+        ]
+      },
+      {
+        "id": "selected-07",
+        "expected": {
+          "table_index": 0,
+          "row_key": "ИОРП-10-03",
+          "column": "B1",
+          "expected": "-",
+          "unit": "мм",
+          "kind": "dash",
+          "scope": {
+            "products": [
+              "ИОРП-10-03"
+            ],
+            "conductor": null,
+            "part": null
+          }
+        },
+        "status": "passed",
+        "evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t0",
+            "row_index": 6,
+            "column_id": "c9",
+            "column": {
+              "id": "c9",
+              "label": "B1, мм",
+              "unit": null,
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c9",
+              "value": "-",
+              "state": "value"
+            },
+            "product_names": [
+              "ИОРП-10-03"
+            ],
+            "path": "tables[0].rows[6].cells[9]"
+          }
+        ],
+        "issues": []
+      },
+      {
+        "id": "selected-08",
+        "expected": {
+          "table_index": 0,
+          "row_key": "ИОРП-10-03",
+          "column": "L1",
+          "expected": "20",
+          "unit": "мм",
+          "kind": "literal",
+          "scope": {
+            "products": [
+              "ИОРП-10-03"
+            ],
+            "conductor": null,
+            "part": null
+          }
+        },
+        "status": "passed",
+        "evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t0",
+            "row_index": 6,
+            "column_id": "c6",
+            "column": {
+              "id": "c6",
+              "label": "L1, мм",
+              "unit": null,
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c6",
+              "value": "20",
+              "state": "value"
+            },
+            "product_names": [
+              "ИОРП-10-03"
+            ],
+            "path": "tables[0].rows[6].cells[6]"
+          }
+        ],
+        "issues": []
+      },
+      {
+        "id": "selected-09",
+        "expected": {
+          "table_index": 0,
+          "row_key": "ИОРП-10-07",
+          "column": "d1",
+          "expected": "-",
+          "unit": "мм",
+          "kind": "dash",
+          "scope": {
+            "products": [
+              "ИОРП-10-07"
+            ],
+            "conductor": null,
+            "part": null
+          }
+        },
+        "status": "passed",
+        "evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t0",
+            "row_index": 14,
+            "column_id": "c3",
+            "column": {
+              "id": "c3",
+              "label": "d1, мм",
+              "unit": null,
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c3",
+              "value": "-",
+              "state": "value"
+            },
+            "product_names": [
+              "ИОРП-10-07"
+            ],
+            "path": "tables[0].rows[14].cells[3]"
+          }
+        ],
+        "issues": []
+      },
+      {
+        "id": "selected-10",
+        "expected": {
+          "table_index": 0,
+          "row_key": "ИОРП-10-07",
+          "column": "d3",
+          "expected": "М8",
+          "unit": "мм",
+          "kind": "literal",
+          "scope": {
+            "products": [
+              "ИОРП-10-07"
+            ],
+            "conductor": null,
+            "part": null
+          }
+        },
+        "status": "passed",
+        "evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t0",
+            "row_index": 14,
+            "column_id": "c5",
+            "column": {
+              "id": "c5",
+              "label": "d3, мм",
+              "unit": null,
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c5",
+              "value": "М8",
+              "state": "value"
+            },
+            "product_names": [
+              "ИОРП-10-07"
+            ],
+            "path": "tables[0].rows[14].cells[5]"
+          }
+        ],
+        "issues": []
+      },
+      {
+        "id": "selected-11",
+        "expected": {
+          "table_index": 0,
+          "row_key": "ИОРП-10-07",
+          "column": "L1",
+          "expected": "-",
+          "unit": "мм",
+          "kind": "dash",
+          "scope": {
+            "products": [
+              "ИОРП-10-07"
+            ],
+            "conductor": null,
+            "part": null
+          }
+        },
+        "status": "passed",
+        "evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t0",
+            "row_index": 14,
+            "column_id": "c6",
+            "column": {
+              "id": "c6",
+              "label": "L1, мм",
+              "unit": null,
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c6",
+              "value": "-",
+              "state": "value"
+            },
+            "product_names": [
+              "ИОРП-10-07"
+            ],
+            "path": "tables[0].rows[14].cells[6]"
+          }
+        ],
+        "issues": []
+      },
+      {
+        "id": "selected-12",
+        "expected": {
+          "table_index": 0,
+          "row_key": "ИОРП-10-07",
+          "column": "L3",
+          "expected": "15",
+          "unit": "мм",
+          "kind": "literal",
+          "scope": {
+            "products": [
+              "ИОРП-10-07"
+            ],
+            "conductor": null,
+            "part": null
+          }
+        },
+        "status": "passed",
+        "evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t0",
+            "row_index": 14,
+            "column_id": "c8",
+            "column": {
+              "id": "c8",
+              "label": "L3, мм",
+              "unit": null,
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c8",
+              "value": "15",
+              "state": "value"
+            },
+            "product_names": [
+              "ИОРП-10-07"
+            ],
+            "path": "tables[0].rows[14].cells[8]"
+          }
+        ],
+        "issues": []
+      },
+      {
+        "id": "selected-13",
+        "expected": {
+          "table_index": 0,
+          "row_key": "ИОРП-10-08",
+          "column": "d3",
+          "expected": "-",
+          "unit": "мм",
+          "kind": "dash",
+          "scope": {
+            "products": [
+              "ИОРП-10-08"
+            ],
+            "conductor": null,
+            "part": null
+          }
+        },
+        "status": "passed",
+        "evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t0",
+            "row_index": 16,
+            "column_id": "c5",
+            "column": {
+              "id": "c5",
+              "label": "d3, мм",
+              "unit": null,
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c5",
+              "value": "-",
+              "state": "value"
+            },
+            "product_names": [
+              "ИОРП-10-08"
+            ],
+            "path": "tables[0].rows[16].cells[5]"
+          }
+        ],
+        "issues": []
+      },
+      {
+        "id": "selected-14",
+        "expected": {
+          "table_index": 0,
+          "row_key": "ИОРП-10-09С и ИОРП-10-09АС",
+          "column": "L2",
+          "expected": "56",
+          "unit": "мм",
+          "kind": "merged",
+          "scope": {
+            "products": [
+              "ИОРП-10-09С",
+              "ИОРП-10-09АС"
+            ],
+            "conductor": null,
+            "part": null
+          }
+        },
+        "status": "wrong",
+        "evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t0",
+            "row_index": 20,
+            "column_id": "c7",
+            "column": {
+              "id": "c7",
+              "label": "L2, мм",
+              "unit": null,
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c7",
+              "value": null,
+              "state": "unknown"
+            },
+            "product_names": [
+              "ИОРП-10-09С"
+            ],
+            "path": "tables[0].rows[20].cells[7]"
+          },
+          {
+            "table_index": 0,
+            "table_id": "t0",
+            "row_index": 21,
+            "column_id": "c7",
+            "column": {
+              "id": "c7",
+              "label": "L2, мм",
+              "unit": null,
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c7",
+              "value": "56",
+              "state": "value"
+            },
+            "product_names": [
+              "ИОРП-10-09АС"
+            ],
+            "path": "tables[0].rows[21].cells[7]"
+          }
+        ],
+        "issues": [
+          "value_or_state"
+        ]
+      },
+      {
+        "id": "selected-15",
+        "expected": {
+          "table_index": 0,
+          "row_key": "ИОРП-10-09АС",
+          "column": "Рис.",
+          "expected": "3",
+          "unit": null,
+          "kind": "literal",
+          "scope": {
+            "products": [
+              "ИОРП-10-09АС"
+            ],
+            "conductor": null,
+            "part": null
+          }
+        },
+        "status": "passed",
+        "evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t0",
+            "row_index": 21,
+            "column_id": "c1",
+            "column": {
+              "id": "c1",
+              "label": "Рис.",
+              "unit": null,
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c1",
+              "value": "3",
+              "state": "value"
+            },
+            "product_names": [
+              "ИОРП-10-09АС"
+            ],
+            "path": "tables[0].rows[21].cells[1]"
+          }
+        ],
+        "issues": []
+      }
+    ],
+    "full_page_accuracy": false
+  },
+  "fixture_sha256": "a2123b1f211f87319036dd97bcc5ad09efa5e7c120ca936cc8ff2da771703a4c",
+  "candidate_sha256": "d2dd68137c438783ea54a7f150d227ea1f8a055d032a9cbfcf6535aa40286ff2",
+  "source_binding": "caller-selected plain page artifact",
+  "grader_sha256": "24b64859fd690d11afd8477c69a0f84336a28338ac0b49981e5300055364d57a"
+}

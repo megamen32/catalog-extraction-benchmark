@@ -1,0 +1,310 @@
+{
+  "schema_version": "1.0",
+  "case_id": "catalog-2-page-185",
+  "metrics": {
+    "cells_literal": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "cells_numeric_equivalent": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "blank_cells": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "merged_cells": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "header_assertions": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "figure_labels": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "forbidden_label_absence": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    }
+  },
+  "structure": {
+    "expected_tables": 0,
+    "observed_tables": 14,
+    "extra_tables": null,
+    "tables": [],
+    "table_shape_scored": false
+  },
+  "drawing_assertions": {
+    "correct": 0,
+    "expected": 0,
+    "percent": null,
+    "checks": [],
+    "full_drawing_accuracy": false,
+    "method": "frozen scoped deterministic relation/claim assertions; unsupported wording is missing, never inferred"
+  },
+  "all_verified_checks_passed": false,
+  "coverage": {
+    "full_page_ground_truth": false,
+    "text_blocks_scored": false,
+    "diagram_relationships_scored": false,
+    "selected_drawing_assertions": 0,
+    "full_drawing_ground_truth": false,
+    "header_assertions": 0,
+    "figure_label_assertions": 0,
+    "forbidden_declared_label_assertions": 0,
+    "all_invented_labels_scored": false
+  },
+  "differences": [],
+  "engineering_facts": {
+    "correct": 0,
+    "expected": 15,
+    "percent": 0.0,
+    "statuses": {
+      "missing": 14,
+      "wrong": 1
+    },
+    "checks": [
+      {
+        "id": "selected-01",
+        "expected": {
+          "location": "top table",
+          "entity": "ОПН-П-6/6,0/10/1,1-III УХЛ1",
+          "parameter": "наибольшее длительно допустимое рабочее напряжение",
+          "value": "6,0",
+          "unit": "кВ"
+        },
+        "status": "missing",
+        "reason": "No matching model / parameter association.",
+        "candidate_evidence": [],
+        "literal_value_match": null,
+        "normalization": null
+      },
+      {
+        "id": "selected-02",
+        "expected": {
+          "location": "top table",
+          "entity": "ОПН-П-6/6,0/10/1,1-III УХЛ1",
+          "parameter": "номинальное напряжение, не менее",
+          "value": "7,5",
+          "unit": "кВ"
+        },
+        "status": "missing",
+        "reason": "No matching model / parameter association.",
+        "candidate_evidence": [],
+        "literal_value_match": null,
+        "normalization": null
+      },
+      {
+        "id": "selected-03",
+        "expected": {
+          "location": "top table",
+          "entity": "ОПН-П-6/6,0/10/1,1-III УХЛ1",
+          "parameter": "остающееся при 5 кА 8/20",
+          "value": "17,1",
+          "unit": "кВ"
+        },
+        "status": "missing",
+        "reason": "No matching model / parameter association.",
+        "candidate_evidence": [],
+        "literal_value_match": null,
+        "normalization": null
+      },
+      {
+        "id": "selected-04",
+        "expected": {
+          "location": "top table",
+          "entity": "ОПН-П-6/6,0/10/1,1-III УХЛ1",
+          "parameter": "остающееся при 125 А 30/60",
+          "value": "-",
+          "unit": "кВ"
+        },
+        "status": "missing",
+        "reason": "No matching model / parameter association.",
+        "candidate_evidence": [],
+        "literal_value_match": null,
+        "normalization": null
+      },
+      {
+        "id": "selected-05",
+        "expected": {
+          "location": "top table",
+          "entity": "ОПН-П-6/6,0/10/1,1-III УХЛ1",
+          "parameter": "остающееся при 250 А 30/60",
+          "value": "14,1",
+          "unit": "кВ"
+        },
+        "status": "missing",
+        "reason": "No matching model / parameter association.",
+        "candidate_evidence": [],
+        "literal_value_match": null,
+        "normalization": null
+      },
+      {
+        "id": "selected-06",
+        "expected": {
+          "location": "top table",
+          "entity": "ОПН-П-6/7,6/10/1,1-IV УХЛ1",
+          "parameter": "остающееся при 20 кА 8/20",
+          "value": "26,4",
+          "unit": "кВ"
+        },
+        "status": "missing",
+        "reason": "No matching model / parameter association.",
+        "candidate_evidence": [],
+        "literal_value_match": null,
+        "normalization": null
+      },
+      {
+        "id": "selected-07",
+        "expected": {
+          "location": "top table",
+          "entity": "все 10 обозначений",
+          "parameter": "заряд пропускной способности",
+          "value": "1,1",
+          "unit": "Кл"
+        },
+        "status": "missing",
+        "reason": "No matching model / parameter association.",
+        "candidate_evidence": [],
+        "literal_value_match": null,
+        "normalization": null
+      },
+      {
+        "id": "selected-08",
+        "expected": {
+          "location": "top table",
+          "entity": "все 10 обозначений",
+          "parameter": "тепловой заряд, не менее",
+          "value": "-",
+          "unit": "Кл"
+        },
+        "status": "missing",
+        "reason": "No matching model / parameter association.",
+        "candidate_evidence": [],
+        "literal_value_match": null,
+        "normalization": null
+      },
+      {
+        "id": "selected-09",
+        "expected": {
+          "location": "top table",
+          "entity": "все 10 обозначений",
+          "parameter": "тепловая энергия, не менее",
+          "value": "4,0",
+          "unit": "кДж/кВ"
+        },
+        "status": "missing",
+        "reason": "No matching model / parameter association.",
+        "candidate_evidence": [],
+        "literal_value_match": null,
+        "normalization": null
+      },
+      {
+        "id": "selected-10",
+        "expected": {
+          "location": "lower table",
+          "entity": "ОПН-П-6/6,0/10/1,2-III УХЛ1",
+          "parameter": "остающееся при 5 кА 8/20",
+          "value": "17,5",
+          "unit": "кВ"
+        },
+        "status": "missing",
+        "reason": "No matching model / parameter association.",
+        "candidate_evidence": [],
+        "literal_value_match": null,
+        "normalization": null
+      },
+      {
+        "id": "selected-11",
+        "expected": {
+          "location": "lower table",
+          "entity": "ОПН-П-6/6,0/10/1,2-III УХЛ1",
+          "parameter": "остающееся при 250 А 30/60",
+          "value": "14,2",
+          "unit": "кВ"
+        },
+        "status": "missing",
+        "reason": "No matching model / parameter association.",
+        "candidate_evidence": [],
+        "literal_value_match": null,
+        "normalization": null
+      },
+      {
+        "id": "selected-12",
+        "expected": {
+          "location": "lower table",
+          "entity": "ОПН-П-6/6,9/10/1,2-IV УХЛ1",
+          "parameter": "номинальное напряжение, не менее",
+          "value": "8,7",
+          "unit": "кВ"
+        },
+        "status": "missing",
+        "reason": "No matching model / parameter association.",
+        "candidate_evidence": [],
+        "literal_value_match": null,
+        "normalization": null
+      },
+      {
+        "id": "selected-13",
+        "expected": {
+          "location": "lower table",
+          "entity": "ОПН-П-6/7,6/10/1,2-IV УХЛ1",
+          "parameter": "остающееся при 20 кА 8/20",
+          "value": "27,3",
+          "unit": "кВ"
+        },
+        "status": "missing",
+        "reason": "No matching model / parameter association.",
+        "candidate_evidence": [],
+        "literal_value_match": null,
+        "normalization": null
+      },
+      {
+        "id": "selected-14",
+        "expected": {
+          "location": "lower table",
+          "entity": "все 10 обозначений",
+          "parameter": "заряд пропускной способности",
+          "value": "1,2",
+          "unit": "Кл"
+        },
+        "status": "missing",
+        "reason": "No matching model / parameter association.",
+        "candidate_evidence": [],
+        "literal_value_match": null,
+        "normalization": null
+      },
+      {
+        "id": "selected-15",
+        "expected": {
+          "location": "lower table header",
+          "entity": "коммутационные токи 30/60",
+          "parameter": "subcolumn list",
+          "value": "250 А; 500 А; 1000 А",
+          "unit": "А"
+        },
+        "status": "wrong",
+        "reason": "Communutation subcolumn conditions expected ['1000А', '250А', '500А'], observed []; no search in row values.",
+        "candidate_evidence": [],
+        "literal_value_match": false,
+        "normalization": "condition_list"
+      }
+    ],
+    "full_page_accuracy": false
+  },
+  "fixture_sha256": "4b12ce1f6ace967f9b3339ee129ff14b8928454f53cd069001800a7317d28d4a",
+  "candidate_sha256": "6d727b9f5b60a21d6f45138722f59e0251e10b411810b22cd40f5f1b7378c799",
+  "source_binding": "caller-selected plain page artifact",
+  "grader_sha256": "24b64859fd690d11afd8477c69a0f84336a28338ac0b49981e5300055364d57a"
+}

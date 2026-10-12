@@ -1,0 +1,926 @@
+{
+  "schema_version": "1.0",
+  "case_id": "catalog-2-page-149",
+  "metrics": {
+    "cells_literal": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "cells_numeric_equivalent": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "blank_cells": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "merged_cells": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "header_assertions": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "figure_labels": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "forbidden_label_absence": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    }
+  },
+  "structure": {
+    "expected_tables": 0,
+    "observed_tables": 1,
+    "extra_tables": null,
+    "tables": [],
+    "table_shape_scored": false
+  },
+  "drawing_assertions": {
+    "correct": 0,
+    "expected": 0,
+    "percent": null,
+    "checks": [],
+    "full_drawing_accuracy": false,
+    "method": "frozen scoped deterministic relation/claim assertions; unsupported wording is missing, never inferred"
+  },
+  "all_verified_checks_passed": false,
+  "coverage": {
+    "full_page_ground_truth": false,
+    "text_blocks_scored": false,
+    "diagram_relationships_scored": false,
+    "selected_drawing_assertions": 0,
+    "full_drawing_ground_truth": false,
+    "header_assertions": 0,
+    "figure_label_assertions": 0,
+    "forbidden_declared_label_assertions": 0,
+    "all_invented_labels_scored": false
+  },
+  "differences": [],
+  "engineering_facts": {
+    "correct": 13,
+    "expected": 15,
+    "percent": 86.67,
+    "statuses": {
+      "passed": 13,
+      "missing": 2
+    },
+    "checks": [
+      {
+        "id": "selected-01",
+        "expected": {
+          "location": "table",
+          "entity": "ОЛСКИР-12,5-10-4",
+          "parameter": "Рис.",
+          "value": "1",
+          "unit": null
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t1",
+            "row_index": 0,
+            "column_index": 1,
+            "column": {
+              "id": "c2",
+              "label": "Рис.",
+              "unit": null,
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c2",
+              "value": "1",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОЛСКИР-12,5-10-4"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": true
+        }
+      },
+      {
+        "id": "selected-02",
+        "expected": {
+          "location": "table",
+          "entity": "ОЛСКИР-12,5-10-4-К",
+          "parameter": "Рис.",
+          "value": "2",
+          "unit": null
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t1",
+            "row_index": 1,
+            "column_index": 1,
+            "column": {
+              "id": "c2",
+              "label": "Рис.",
+              "unit": null,
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c2",
+              "value": "2",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОЛСКИР-12,5-10-4-К"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": true
+        }
+      },
+      {
+        "id": "selected-03",
+        "expected": {
+          "location": "table",
+          "entity": "обе модели (vertical merge)",
+          "parameter": "класс напряжения сети",
+          "value": "10",
+          "unit": "кВ"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t1",
+            "row_index": 0,
+            "column_index": 2,
+            "column": {
+              "id": "c3",
+              "label": "Класс напряжения сети, кВ",
+              "unit": "кВ",
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c3",
+              "value": "10",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОЛСКИР-12,5-10-4"
+            ]
+          },
+          {
+            "table_index": 0,
+            "table_id": "t1",
+            "row_index": 1,
+            "column_index": 2,
+            "column": {
+              "id": "c3",
+              "label": "Класс напряжения сети, кВ",
+              "unit": "кВ",
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c3",
+              "value": "10",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОЛСКИР-12,5-10-4-К"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": true
+        }
+      },
+      {
+        "id": "selected-04",
+        "expected": {
+          "location": "table",
+          "entity": "обе модели (vertical merge)",
+          "parameter": "строительная высота",
+          "value": "333",
+          "unit": "мм"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t1",
+            "row_index": 0,
+            "column_index": 3,
+            "column": {
+              "id": "c4",
+              "label": "Строительная высота, Нстр., мм",
+              "unit": "мм",
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c4",
+              "value": "333",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОЛСКИР-12,5-10-4"
+            ]
+          },
+          {
+            "table_index": 0,
+            "table_id": "t1",
+            "row_index": 1,
+            "column_index": 3,
+            "column": {
+              "id": "c4",
+              "label": "Строительная высота, Нстр., мм",
+              "unit": "мм",
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c4",
+              "value": "333",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОЛСКИР-12,5-10-4-К"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": true
+        }
+      },
+      {
+        "id": "selected-05",
+        "expected": {
+          "location": "table",
+          "entity": "обе модели (vertical merge)",
+          "parameter": "изоляционная высота",
+          "value": "262",
+          "unit": "мм"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t1",
+            "row_index": 0,
+            "column_index": 4,
+            "column": {
+              "id": "c5",
+              "label": "Изоляционная высота, Низ., мм",
+              "unit": "мм",
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c5",
+              "value": "262",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОЛСКИР-12,5-10-4"
+            ]
+          },
+          {
+            "table_index": 0,
+            "table_id": "t1",
+            "row_index": 1,
+            "column_index": 4,
+            "column": {
+              "id": "c5",
+              "label": "Изоляционная высота, Низ., мм",
+              "unit": "мм",
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c5",
+              "value": "262",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОЛСКИР-12,5-10-4-К"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": true
+        }
+      },
+      {
+        "id": "selected-06",
+        "expected": {
+          "location": "table",
+          "entity": "обе модели (vertical merge)",
+          "parameter": "длина пути утечки тока, не менее",
+          "value": "60",
+          "unit": "см"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t1",
+            "row_index": 0,
+            "column_index": 5,
+            "column": {
+              "id": "c6",
+              "label": "Длина пути утечки, см",
+              "unit": "см",
+              "group": null,
+              "qualifier": "не менее"
+            },
+            "cell": {
+              "column_id": "c6",
+              "value": "60",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОЛСКИР-12,5-10-4"
+            ]
+          },
+          {
+            "table_index": 0,
+            "table_id": "t1",
+            "row_index": 1,
+            "column_index": 5,
+            "column": {
+              "id": "c6",
+              "label": "Длина пути утечки, см",
+              "unit": "см",
+              "group": null,
+              "qualifier": "не менее"
+            },
+            "cell": {
+              "column_id": "c6",
+              "value": "60",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОЛСКИР-12,5-10-4-К"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": true
+        }
+      },
+      {
+        "id": "selected-07",
+        "expected": {
+          "location": "table",
+          "entity": "обе модели (vertical merge)",
+          "parameter": "масса",
+          "value": "4,7",
+          "unit": "кг"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t1",
+            "row_index": 0,
+            "column_index": 6,
+            "column": {
+              "id": "c7",
+              "label": "Масса, кг",
+              "unit": "кг",
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c7",
+              "value": "4,7",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОЛСКИР-12,5-10-4"
+            ]
+          },
+          {
+            "table_index": 0,
+            "table_id": "t1",
+            "row_index": 1,
+            "column_index": 6,
+            "column": {
+              "id": "c7",
+              "label": "Масса, кг",
+              "unit": "кг",
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c7",
+              "value": "4,7",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОЛСКИР-12,5-10-4-К"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": true
+        }
+      },
+      {
+        "id": "selected-08",
+        "expected": {
+          "location": "table",
+          "entity": "обе модели (vertical merge)",
+          "parameter": "степень загрязнения атмосферы",
+          "value": "IV",
+          "unit": null
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t1",
+            "row_index": 0,
+            "column_index": 7,
+            "column": {
+              "id": "c8",
+              "label": "Степень загрязнения атмосферы по ГОСТ 9920",
+              "unit": null,
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c8",
+              "value": "IV",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОЛСКИР-12,5-10-4"
+            ]
+          },
+          {
+            "table_index": 0,
+            "table_id": "t1",
+            "row_index": 1,
+            "column_index": 7,
+            "column": {
+              "id": "c8",
+              "label": "Степень загрязнения атмосферы по ГОСТ 9920",
+              "unit": null,
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c8",
+              "value": "IV",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОЛСКИР-12,5-10-4-К"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": true
+        }
+      },
+      {
+        "id": "selected-09",
+        "expected": {
+          "location": "table",
+          "entity": "обе модели (vertical merge)",
+          "parameter": "нормированная разрушающая сила на изгиб, не менее",
+          "value": "12,5",
+          "unit": "кН"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t1",
+            "row_index": 0,
+            "column_index": 8,
+            "column": {
+              "id": "c9",
+              "label": "Нормированная разрушающая сила на изгиб, кН",
+              "unit": "кН",
+              "group": null,
+              "qualifier": "не менее"
+            },
+            "cell": {
+              "column_id": "c9",
+              "value": "12,5",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОЛСКИР-12,5-10-4"
+            ]
+          },
+          {
+            "table_index": 0,
+            "table_id": "t1",
+            "row_index": 1,
+            "column_index": 8,
+            "column": {
+              "id": "c9",
+              "label": "Нормированная разрушающая сила на изгиб, кН",
+              "unit": "кН",
+              "group": null,
+              "qualifier": "не менее"
+            },
+            "cell": {
+              "column_id": "c9",
+              "value": "12,5",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОЛСКИР-12,5-10-4-К"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": true
+        }
+      },
+      {
+        "id": "selected-10",
+        "expected": {
+          "location": "table",
+          "entity": "обе модели (vertical merge)",
+          "parameter": "интервал диаметров проводов",
+          "value": "13,5÷19,6",
+          "unit": "мм"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t1",
+            "row_index": 0,
+            "column_index": 9,
+            "column": {
+              "id": "c10",
+              "label": "Интервал диаметров проводов, ØD, мм",
+              "unit": "мм",
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c10",
+              "value": "13,5÷19,6",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОЛСКИР-12,5-10-4"
+            ]
+          },
+          {
+            "table_index": 0,
+            "table_id": "t1",
+            "row_index": 1,
+            "column_index": 9,
+            "column": {
+              "id": "c10",
+              "label": "Интервал диаметров проводов, ØD, мм",
+              "unit": "мм",
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c10",
+              "value": "13,5÷19,6",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОЛСКИР-12,5-10-4-К"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": true
+        }
+      },
+      {
+        "id": "selected-11",
+        "expected": {
+          "location": "table",
+          "entity": "обе модели (vertical merge)",
+          "parameter": "номинальное напряжение изолятора",
+          "value": "13,1",
+          "unit": "кВ"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t1",
+            "row_index": 0,
+            "column_index": 10,
+            "column": {
+              "id": "c11",
+              "label": "Номинальное напряжение изолятора, Uн, кВ",
+              "unit": "кВ",
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c11",
+              "value": "13,1",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОЛСКИР-12,5-10-4"
+            ]
+          },
+          {
+            "table_index": 0,
+            "table_id": "t1",
+            "row_index": 1,
+            "column_index": 10,
+            "column": {
+              "id": "c11",
+              "label": "Номинальное напряжение изолятора, Uн, кВ",
+              "unit": "кВ",
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c11",
+              "value": "13,1",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОЛСКИР-12,5-10-4-К"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": true
+        }
+      },
+      {
+        "id": "selected-12",
+        "expected": {
+          "location": "table",
+          "entity": "обе модели (vertical merge)",
+          "parameter": "остающееся при грозовых импульсах 2,5 кА",
+          "value": "31,2",
+          "unit": "кВ"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t1",
+            "row_index": 0,
+            "column_index": 13,
+            "column": {
+              "id": "c14",
+              "label": "Остающееся напряжение при грозовых импульсах тока, кВ с амплитудой: 2,5 кА",
+              "unit": "кВ",
+              "group": "Остающееся напряжение при грозовых импульсах тока, кВ с амплитудой:",
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c14",
+              "value": "31,2",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОЛСКИР-12,5-10-4"
+            ]
+          },
+          {
+            "table_index": 0,
+            "table_id": "t1",
+            "row_index": 1,
+            "column_index": 13,
+            "column": {
+              "id": "c14",
+              "label": "Остающееся напряжение при грозовых импульсах тока, кВ с амплитудой: 2,5 кА",
+              "unit": "кВ",
+              "group": "Остающееся напряжение при грозовых импульсах тока, кВ с амплитудой:",
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c14",
+              "value": "31,2",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОЛСКИР-12,5-10-4-К"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": true
+        }
+      },
+      {
+        "id": "selected-13",
+        "expected": {
+          "location": "table",
+          "entity": "обе модели (vertical merge)",
+          "parameter": "остающееся при грозовых импульсах 5 кА",
+          "value": "33,6",
+          "unit": "кВ"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t1",
+            "row_index": 0,
+            "column_index": 14,
+            "column": {
+              "id": "c15",
+              "label": "Остающееся напряжение при грозовых импульсах тока, кВ с амплитудой: 5 кА",
+              "unit": "кВ",
+              "group": "Остающееся напряжение при грозовых импульсах тока, кВ с амплитудой:",
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c15",
+              "value": "33,6",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОЛСКИР-12,5-10-4"
+            ]
+          },
+          {
+            "table_index": 0,
+            "table_id": "t1",
+            "row_index": 1,
+            "column_index": 14,
+            "column": {
+              "id": "c15",
+              "label": "Остающееся напряжение при грозовых импульсах тока, кВ с амплитудой: 5 кА",
+              "unit": "кВ",
+              "group": "Остающееся напряжение при грозовых импульсах тока, кВ с амплитудой:",
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c15",
+              "value": "33,6",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОЛСКИР-12,5-10-4-К"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": true
+        }
+      },
+      {
+        "id": "selected-14",
+        "expected": {
+          "location": "table",
+          "entity": "обе модели (vertical merge)",
+          "parameter": "ток взрывобезопасности в течение не менее 2 с",
+          "value": "0,6",
+          "unit": "кА"
+        },
+        "status": "missing",
+        "reason": "No matching model / parameter association.",
+        "candidate_evidence": [],
+        "literal_value_match": null,
+        "normalization": null
+      },
+      {
+        "id": "selected-15",
+        "expected": {
+          "location": "table",
+          "entity": "обе модели (vertical merge)",
+          "parameter": "ток взрывобезопасности в течение не менее 0,2 с",
+          "value": "40",
+          "unit": "кА"
+        },
+        "status": "missing",
+        "reason": "No matching model / parameter association.",
+        "candidate_evidence": [],
+        "literal_value_match": null,
+        "normalization": null
+      }
+    ],
+    "full_page_accuracy": false
+  },
+  "fixture_sha256": "626e9f586350ffcc8b7eb947fa91e1b98c2434558ffe8454c4a35492d02848da",
+  "candidate_sha256": "1cb98d2575368c1238645ad11fd52f3c5c4cade63cd26788f0ea1f5bf01fc9fd",
+  "source_binding": "caller-selected plain page artifact",
+  "grader_sha256": "f091872c67af7e410490df6b590cb8ac03a05eb6e615351ed281c4ae1687e21d",
+  "grader_release": "0.3.2",
+  "retained_original_grader_sha256": "24b64859fd690d11afd8477c69a0f84336a28338ac0b49981e5300055364d57a",
+  "literal_format_differences": [],
+  "unsupported_material_reference_policy": "Strict source-absence proxy for material mentions including appearance analogies; not an assertion that the candidate claims manufacture from that material",
+  "raw_literal_metrics_unchanged": true,
+  "source_fixture_bytes_unchanged": true,
+  "identifiers_are_not_globally_normalized": true,
+  "correction": "Matching-only physical A/А aliases, supported English geometry, contextual pollution abbreviation and dimensional metric-thread script difference; numeric/scoped/negation guards retained"
+}

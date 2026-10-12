@@ -1,0 +1,435 @@
+{
+  "schema_version": "1.0",
+  "case_id": "catalog-5-page-035",
+  "metrics": {
+    "cells_literal": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "cells_numeric_equivalent": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "blank_cells": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "merged_cells": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "header_assertions": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "figure_labels": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "forbidden_label_absence": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    }
+  },
+  "structure": {
+    "expected_tables": 0,
+    "observed_tables": 1,
+    "extra_tables": null,
+    "tables": [],
+    "table_shape_scored": false
+  },
+  "drawing_assertions": {
+    "correct": 0,
+    "expected": 0,
+    "percent": null,
+    "checks": [],
+    "full_drawing_accuracy": false,
+    "method": "frozen scoped deterministic relation/claim assertions; unsupported wording is missing, never inferred"
+  },
+  "all_verified_checks_passed": false,
+  "coverage": {
+    "full_page_ground_truth": false,
+    "text_blocks_scored": false,
+    "diagram_relationships_scored": false,
+    "selected_drawing_assertions": 0,
+    "full_drawing_ground_truth": false,
+    "header_assertions": 0,
+    "figure_label_assertions": 0,
+    "forbidden_declared_label_assertions": 0,
+    "all_invented_labels_scored": false
+  },
+  "differences": [],
+  "engineering_facts": {
+    "correct": 0,
+    "expected": 15,
+    "percent": 0.0,
+    "statuses": {
+      "missing": 15
+    },
+    "checks": [
+      {
+        "id": "selected-01",
+        "expected": {
+          "table_index": 0,
+          "row_key": "ОЛСК 12,5-10-РО-2",
+          "column": "Рис.",
+          "expected": "1",
+          "unit": null,
+          "kind": "literal",
+          "scope": {
+            "products": [
+              "ОЛСК 12,5-10-PО-2"
+            ],
+            "conductor": null,
+            "part": null
+          }
+        },
+        "status": "missing",
+        "evidence": []
+      },
+      {
+        "id": "selected-02",
+        "expected": {
+          "table_index": 0,
+          "row_key": "ОЛСК 12,5-10-РОК-2",
+          "column": "Рис.",
+          "expected": "3",
+          "unit": null,
+          "kind": "literal",
+          "scope": {
+            "products": [
+              "ОЛСК 12,5-10-PОК-2"
+            ],
+            "conductor": null,
+            "part": null
+          }
+        },
+        "status": "missing",
+        "evidence": []
+      },
+      {
+        "id": "selected-03",
+        "expected": {
+          "table_index": 0,
+          "row_key": "ОЛСК 12,5-10-РО-4",
+          "column": "Рис.",
+          "expected": "2",
+          "unit": null,
+          "kind": "literal",
+          "scope": {
+            "products": [
+              "ОЛСК 12,5-10-PО-4"
+            ],
+            "conductor": null,
+            "part": null
+          }
+        },
+        "status": "missing",
+        "evidence": []
+      },
+      {
+        "id": "selected-04",
+        "expected": {
+          "table_index": 0,
+          "row_key": "ОЛСК 12,5-10-РОК-4",
+          "column": "Рис.",
+          "expected": "4",
+          "unit": null,
+          "kind": "literal",
+          "scope": {
+            "products": [
+              "ОЛСК 12,5-10-PОК-4"
+            ],
+            "conductor": null,
+            "part": null
+          }
+        },
+        "status": "missing",
+        "evidence": []
+      },
+      {
+        "id": "selected-05",
+        "expected": {
+          "table_index": 0,
+          "row_key": "все8строк",
+          "column": "Номинальное напряжение",
+          "expected": "10",
+          "unit": "кВ",
+          "kind": "merged",
+          "scope": {
+            "products": [
+              "ОЛСК 12,5-10-PО-2",
+              "ОЛСК 12,5-10-PОК-2",
+              "ОЛСК 12,5-10-PО-4",
+              "ОЛСК 12,5-10-PОК-4",
+              "ОЛСК 12,5-10-PО-2-h Исп.1",
+              "ОЛСК 12,5-10-PОК-2-h Исп.1",
+              "ОЛСК 12,5-10-PО-4-h Исп.1",
+              "ОЛСК 12,5-10-PОК-4-h Исп.1"
+            ],
+            "conductor": null,
+            "part": null
+          }
+        },
+        "status": "missing",
+        "evidence": []
+      },
+      {
+        "id": "selected-06",
+        "expected": {
+          "table_index": 0,
+          "row_key": "все8строк",
+          "column": "Нормированная разрушающая сила на изгиб",
+          "expected": "12,5",
+          "unit": "кН",
+          "kind": "merged",
+          "scope": {
+            "products": [
+              "ОЛСК 12,5-10-PО-2",
+              "ОЛСК 12,5-10-PОК-2",
+              "ОЛСК 12,5-10-PО-4",
+              "ОЛСК 12,5-10-PОК-4",
+              "ОЛСК 12,5-10-PО-2-h Исп.1",
+              "ОЛСК 12,5-10-PОК-2-h Исп.1",
+              "ОЛСК 12,5-10-PО-4-h Исп.1",
+              "ОЛСК 12,5-10-PОК-4-h Исп.1"
+            ],
+            "conductor": null,
+            "part": null
+          }
+        },
+        "status": "missing",
+        "evidence": []
+      },
+      {
+        "id": "selected-07",
+        "expected": {
+          "table_index": 0,
+          "row_key": "все8строк",
+          "column": "Строительная высота H, не более",
+          "expected": "240",
+          "unit": "мм",
+          "kind": "merged",
+          "scope": {
+            "products": [
+              "ОЛСК 12,5-10-PО-2",
+              "ОЛСК 12,5-10-PОК-2",
+              "ОЛСК 12,5-10-PО-4",
+              "ОЛСК 12,5-10-PОК-4",
+              "ОЛСК 12,5-10-PО-2-h Исп.1",
+              "ОЛСК 12,5-10-PОК-2-h Исп.1",
+              "ОЛСК 12,5-10-PО-4-h Исп.1",
+              "ОЛСК 12,5-10-PОК-4-h Исп.1"
+            ],
+            "conductor": null,
+            "part": null
+          }
+        },
+        "status": "missing",
+        "evidence": []
+      },
+      {
+        "id": "selected-08",
+        "expected": {
+          "table_index": 0,
+          "row_key": "первые4строки",
+          "column": "Высота шпильки h",
+          "expected": "45",
+          "unit": "мм",
+          "kind": "merged",
+          "scope": {
+            "products": [
+              "ОЛСК 12,5-10-PО-2",
+              "ОЛСК 12,5-10-PОК-2",
+              "ОЛСК 12,5-10-PО-4",
+              "ОЛСК 12,5-10-PОК-4"
+            ],
+            "conductor": null,
+            "part": null
+          }
+        },
+        "status": "missing",
+        "evidence": []
+      },
+      {
+        "id": "selected-09",
+        "expected": {
+          "table_index": 0,
+          "row_key": "последние4строки h Исп.1",
+          "column": "Высота шпильки h",
+          "expected": "*",
+          "unit": "мм",
+          "kind": "merged",
+          "scope": {
+            "products": [
+              "ОЛСК 12,5-10-PО-2-h Исп.1",
+              "ОЛСК 12,5-10-PОК-2-h Исп.1",
+              "ОЛСК 12,5-10-PО-4-h Исп.1",
+              "ОЛСК 12,5-10-PОК-4-h Исп.1"
+            ],
+            "conductor": null,
+            "part": null
+          }
+        },
+        "status": "missing",
+        "evidence": []
+      },
+      {
+        "id": "selected-10",
+        "expected": {
+          "table_index": 0,
+          "row_key": "все8строк",
+          "column": "Изоляционная высота L, не менее",
+          "expected": "165",
+          "unit": "мм",
+          "kind": "merged",
+          "scope": {
+            "products": [
+              "ОЛСК 12,5-10-PО-2",
+              "ОЛСК 12,5-10-PОК-2",
+              "ОЛСК 12,5-10-PО-4",
+              "ОЛСК 12,5-10-PОК-4",
+              "ОЛСК 12,5-10-PО-2-h Исп.1",
+              "ОЛСК 12,5-10-PОК-2-h Исп.1",
+              "ОЛСК 12,5-10-PО-4-h Исп.1",
+              "ОЛСК 12,5-10-PОК-4-h Исп.1"
+            ],
+            "conductor": null,
+            "part": null
+          }
+        },
+        "status": "missing",
+        "evidence": []
+      },
+      {
+        "id": "selected-11",
+        "expected": {
+          "table_index": 0,
+          "row_key": "ОЛСК 12,5-10-РО-2 и РОК-2",
+          "column": "Длина пути утечки, не менее",
+          "expected": "300",
+          "unit": "мм",
+          "kind": "merged",
+          "scope": {
+            "products": [
+              "ОЛСК 12,5-10-PО-2",
+              "ОЛСК 12,5-10-PОК-2"
+            ],
+            "conductor": null,
+            "part": null
+          }
+        },
+        "status": "missing",
+        "evidence": []
+      },
+      {
+        "id": "selected-12",
+        "expected": {
+          "table_index": 0,
+          "row_key": "ОЛСК 12,5-10-РО-4 и РОК-4",
+          "column": "Длина пути утечки, не менее",
+          "expected": "420",
+          "unit": "мм",
+          "kind": "merged",
+          "scope": {
+            "products": [
+              "ОЛСК 12,5-10-PО-4",
+              "ОЛСК 12,5-10-PОК-4"
+            ],
+            "conductor": null,
+            "part": null
+          }
+        },
+        "status": "missing",
+        "evidence": []
+      },
+      {
+        "id": "selected-13",
+        "expected": {
+          "table_index": 0,
+          "row_key": "все8строк",
+          "column": "50Гц под дождем",
+          "expected": "45",
+          "unit": "кВ",
+          "kind": "merged",
+          "scope": {
+            "products": [
+              "ОЛСК 12,5-10-PО-2",
+              "ОЛСК 12,5-10-PОК-2",
+              "ОЛСК 12,5-10-PО-4",
+              "ОЛСК 12,5-10-PОК-4",
+              "ОЛСК 12,5-10-PО-2-h Исп.1",
+              "ОЛСК 12,5-10-PОК-2-h Исп.1",
+              "ОЛСК 12,5-10-PО-4-h Исп.1",
+              "ОЛСК 12,5-10-PОК-4-h Исп.1"
+            ],
+            "conductor": null,
+            "part": null
+          }
+        },
+        "status": "missing",
+        "evidence": []
+      },
+      {
+        "id": "selected-14",
+        "expected": {
+          "table_index": 0,
+          "row_key": "ОЛСК 12,5-10-РО-2",
+          "column": "Допустимая степень загрязнения",
+          "expected": "II",
+          "unit": null,
+          "kind": "literal",
+          "scope": {
+            "products": [
+              "ОЛСК 12,5-10-PО-2"
+            ],
+            "conductor": null,
+            "part": null
+          }
+        },
+        "status": "missing",
+        "evidence": []
+      },
+      {
+        "id": "selected-15",
+        "expected": {
+          "table_index": 0,
+          "row_key": "ОЛСК 12,5-10-РО-4",
+          "column": "Допустимая степень загрязнения",
+          "expected": "IV",
+          "unit": null,
+          "kind": "literal",
+          "scope": {
+            "products": [
+              "ОЛСК 12,5-10-PО-4"
+            ],
+            "conductor": null,
+            "part": null
+          }
+        },
+        "status": "missing",
+        "evidence": []
+      }
+    ],
+    "full_page_accuracy": false
+  },
+  "fixture_sha256": "d260784f7d7f58b7ca010d0299c35804f34ec21e47702c70dbdad09bd6b9ae61",
+  "candidate_sha256": "886a9bbcd7e217693a09de7354b8c2d0bc3b0f8bda70171c9161647f204b8817",
+  "source_binding": "caller-selected plain page artifact",
+  "grader_sha256": "f091872c67af7e410490df6b590cb8ac03a05eb6e615351ed281c4ae1687e21d",
+  "grader_release": "0.3.2",
+  "retained_original_grader_sha256": "24b64859fd690d11afd8477c69a0f84336a28338ac0b49981e5300055364d57a",
+  "literal_format_differences": [],
+  "unsupported_material_reference_policy": "Strict source-absence proxy for material mentions including appearance analogies; not an assertion that the candidate claims manufacture from that material",
+  "raw_literal_metrics_unchanged": true,
+  "source_fixture_bytes_unchanged": true,
+  "identifiers_are_not_globally_normalized": true,
+  "correction": "Matching-only physical A/А aliases, supported English geometry, contextual pollution abbreviation and dimensional metric-thread script difference; numeric/scoped/negation guards retained"
+}

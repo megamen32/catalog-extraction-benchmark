@@ -1,0 +1,320 @@
+{
+  "schema_version": "1.0",
+  "case_id": "catalog-2-page-060",
+  "metrics": {
+    "cells_literal": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "cells_numeric_equivalent": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "blank_cells": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "merged_cells": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "header_assertions": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "figure_labels": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "forbidden_label_absence": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    }
+  },
+  "structure": {
+    "expected_tables": 0,
+    "observed_tables": 1,
+    "extra_tables": null,
+    "tables": [],
+    "table_shape_scored": false
+  },
+  "drawing_assertions": {
+    "correct": 0,
+    "expected": 0,
+    "percent": null,
+    "checks": [],
+    "full_drawing_accuracy": false,
+    "method": "frozen scoped deterministic relation/claim assertions; unsupported wording is missing, never inferred"
+  },
+  "all_verified_checks_passed": false,
+  "coverage": {
+    "full_page_ground_truth": false,
+    "text_blocks_scored": false,
+    "diagram_relationships_scored": false,
+    "selected_drawing_assertions": 0,
+    "full_drawing_ground_truth": false,
+    "header_assertions": 0,
+    "figure_label_assertions": 0,
+    "forbidden_declared_label_assertions": 0,
+    "all_invented_labels_scored": false
+  },
+  "differences": [],
+  "engineering_facts": {
+    "correct": 0,
+    "expected": 15,
+    "percent": 0.0,
+    "statuses": {
+      "missing": 15
+    },
+    "checks": [
+      {
+        "id": "selected-01",
+        "expected": {
+          "location": "upper manufacturer АРМАТЕХ НИЛЕД",
+          "entity": "ES1500C",
+          "parameter": "разрушающая нагрузка",
+          "value": "8,0",
+          "unit": "кН"
+        },
+        "status": "missing",
+        "reason": "No matching model / parameter association.",
+        "candidate_evidence": [],
+        "literal_value_match": null,
+        "normalization": null
+      },
+      {
+        "id": "selected-02",
+        "expected": {
+          "location": "upper manufacturer АРМАТЕХ НИЛЕД",
+          "entity": "ES 1500",
+          "parameter": "разрушающая нагрузка",
+          "value": "12,0",
+          "unit": "кН"
+        },
+        "status": "missing",
+        "reason": "No matching model / parameter association.",
+        "candidate_evidence": [],
+        "literal_value_match": null,
+        "normalization": null
+      },
+      {
+        "id": "selected-03",
+        "expected": {
+          "location": "upper manufacturer ЭНЕРВИК (ENSTO)",
+          "entity": "SO260",
+          "parameter": "сечение / диаметр (исходный смешанный столбец)",
+          "value": "25-95",
+          "unit": "мм² / мм",
+          "unit_policy": "faithful_original_combination"
+        },
+        "status": "missing",
+        "reason": "No matching model / parameter association.",
+        "candidate_evidence": [],
+        "literal_value_match": null,
+        "normalization": null
+      },
+      {
+        "id": "selected-04",
+        "expected": {
+          "location": "upper manufacturer МЗВА-ЧЭМЗ",
+          "entity": "ES 1500.1",
+          "parameter": "сечение / диаметр (исходный смешанный столбец)",
+          "value": "16-120",
+          "unit": "мм² / мм",
+          "unit_policy": "faithful_original_combination"
+        },
+        "status": "missing",
+        "reason": "No matching model / parameter association.",
+        "candidate_evidence": [],
+        "literal_value_match": null,
+        "normalization": null
+      },
+      {
+        "id": "selected-05",
+        "expected": {
+          "location": "upper manufacturer МЗВА-ЧЭМЗ",
+          "entity": "PS 4x35",
+          "parameter": "сечение / диаметр (исходный смешанный столбец)",
+          "value": "4x35(2x50)",
+          "unit": "мм² / мм",
+          "unit_policy": "faithful_original_combination"
+        },
+        "status": "missing",
+        "reason": "No matching model / parameter association.",
+        "candidate_evidence": [],
+        "literal_value_match": null,
+        "normalization": null
+      },
+      {
+        "id": "selected-06",
+        "expected": {
+          "location": "upper manufacturer ЭНЕРВИК (ENSTO)",
+          "entity": "SO 270",
+          "parameter": "разрушающая нагрузка",
+          "value": "7,0",
+          "unit": "кН"
+        },
+        "status": "missing",
+        "reason": "No matching model / parameter association.",
+        "candidate_evidence": [],
+        "literal_value_match": null,
+        "normalization": null
+      },
+      {
+        "id": "selected-07",
+        "expected": {
+          "location": "upper manufacturer МЗВА-ЧЭМЗ",
+          "entity": "PS 4x16-120",
+          "parameter": "разрушающая нагрузка",
+          "value": "10,0",
+          "unit": "кН"
+        },
+        "status": "missing",
+        "reason": "No matching model / parameter association.",
+        "candidate_evidence": [],
+        "literal_value_match": null,
+        "normalization": null
+      },
+      {
+        "id": "selected-08",
+        "expected": {
+          "location": "upper manufacturer АРМАТЕХ НИЛЕД",
+          "entity": "CB 600",
+          "parameter": "разрушающая нагрузка",
+          "value": "3,75",
+          "unit": "кН"
+        },
+        "status": "missing",
+        "reason": "No matching model / parameter association.",
+        "candidate_evidence": [],
+        "literal_value_match": null,
+        "normalization": null
+      },
+      {
+        "id": "selected-09",
+        "expected": {
+          "location": "lower manufacturer ЭНЕРВИК (ENSTO)",
+          "entity": "SOT29.10",
+          "parameter": "разрушающая нагрузка",
+          "value": "17,8/12,5",
+          "unit": "кН"
+        },
+        "status": "missing",
+        "reason": "No matching model / parameter association.",
+        "candidate_evidence": [],
+        "literal_value_match": null,
+        "normalization": null
+      },
+      {
+        "id": "selected-10",
+        "expected": {
+          "location": "lower manufacturer МЗВА-ЧЭМЗ",
+          "entity": "SOT 29.10",
+          "parameter": "разрушающая нагрузка",
+          "value": "12,5/17,8",
+          "unit": "кН"
+        },
+        "status": "missing",
+        "reason": "No matching model / parameter association.",
+        "candidate_evidence": [],
+        "literal_value_match": null,
+        "normalization": null
+      },
+      {
+        "id": "selected-11",
+        "expected": {
+          "location": "lower manufacturer ЭНЕРВИК (ENSTO)",
+          "entity": "PD2.3",
+          "parameter": "разрушающая нагрузка",
+          "value": "15,4/2,0",
+          "unit": "кН"
+        },
+        "status": "missing",
+        "reason": "No matching model / parameter association.",
+        "candidate_evidence": [],
+        "literal_value_match": null,
+        "normalization": null
+      },
+      {
+        "id": "selected-12",
+        "expected": {
+          "location": "lower manufacturer МЗВА-ЧЭМЗ",
+          "entity": "GK 16",
+          "parameter": "разрушающая нагрузка",
+          "value": "15,0/2,4",
+          "unit": "кН"
+        },
+        "status": "missing",
+        "reason": "No matching model / parameter association.",
+        "candidate_evidence": [],
+        "literal_value_match": null,
+        "normalization": null
+      },
+      {
+        "id": "selected-13",
+        "expected": {
+          "location": "lower manufacturer ЭНЕРВИК (ENSTO)",
+          "entity": "SOT4.8;SOT4.9;SOT4.10;SOT4.5;SOT4.6;SOT4.7;SOT78",
+          "parameter": "разрушающая нагрузка (vertical shared cell)",
+          "value": "Н/Д",
+          "unit": "кН"
+        },
+        "status": "missing",
+        "reason": "No matching model / parameter association.",
+        "candidate_evidence": [],
+        "literal_value_match": null,
+        "normalization": null
+      },
+      {
+        "id": "selected-14",
+        "expected": {
+          "location": "lower manufacturer МЗВА-ЧЭМЗ",
+          "entity": "MSH 20.240;MSH 20.280;MSH 20.360",
+          "parameter": "разрушающая нагрузка (vertical shared cell)",
+          "value": "55,0",
+          "unit": "кН"
+        },
+        "status": "missing",
+        "reason": "No matching model / parameter association.",
+        "candidate_evidence": [],
+        "literal_value_match": null,
+        "normalization": null
+      },
+      {
+        "id": "selected-15",
+        "expected": {
+          "location": "lower manufacturer МЗВА-ЧЭМЗ",
+          "entity": "RAS 16.234",
+          "parameter": "разрушающая нагрузка",
+          "value": "50,0",
+          "unit": "кН"
+        },
+        "status": "missing",
+        "reason": "No matching model / parameter association.",
+        "candidate_evidence": [],
+        "literal_value_match": null,
+        "normalization": null
+      }
+    ],
+    "full_page_accuracy": false
+  },
+  "fixture_sha256": "93cf32c6d3a26326831fb0bb6152f3bf62ffd6897c1a1af554a91a97e0a64c3a",
+  "candidate_sha256": "a82afd6535bc311ca3724c0bf80071b81605212e44a79ff447abf3099c67f7a1",
+  "source_binding": "caller-selected plain page artifact",
+  "grader_sha256": "f091872c67af7e410490df6b590cb8ac03a05eb6e615351ed281c4ae1687e21d",
+  "grader_release": "0.3.2",
+  "retained_original_grader_sha256": "24b64859fd690d11afd8477c69a0f84336a28338ac0b49981e5300055364d57a",
+  "literal_format_differences": [],
+  "unsupported_material_reference_policy": "Strict source-absence proxy for material mentions including appearance analogies; not an assertion that the candidate claims manufacture from that material",
+  "raw_literal_metrics_unchanged": true,
+  "source_fixture_bytes_unchanged": true,
+  "identifiers_are_not_globally_normalized": true,
+  "correction": "Matching-only physical A/А aliases, supported English geometry, contextual pollution abbreviation and dimensional metric-thread script difference; numeric/scoped/negation guards retained"
+}

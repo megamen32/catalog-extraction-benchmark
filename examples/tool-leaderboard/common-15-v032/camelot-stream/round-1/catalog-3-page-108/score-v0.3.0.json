@@ -1,0 +1,384 @@
+{
+  "schema_version": "1.0",
+  "case_id": "catalog-3-page-108",
+  "metrics": {
+    "cells_literal": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "cells_numeric_equivalent": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "blank_cells": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "merged_cells": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "header_assertions": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "figure_labels": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "forbidden_label_absence": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    }
+  },
+  "structure": {
+    "expected_tables": 0,
+    "observed_tables": 2,
+    "extra_tables": null,
+    "tables": [],
+    "table_shape_scored": false
+  },
+  "drawing_assertions": {
+    "correct": 0,
+    "expected": 0,
+    "percent": null,
+    "checks": [],
+    "full_drawing_accuracy": false,
+    "method": "frozen scoped deterministic relation/claim assertions; unsupported wording is missing, never inferred"
+  },
+  "all_verified_checks_passed": false,
+  "coverage": {
+    "full_page_ground_truth": false,
+    "text_blocks_scored": false,
+    "diagram_relationships_scored": false,
+    "selected_drawing_assertions": 0,
+    "full_drawing_ground_truth": false,
+    "header_assertions": 0,
+    "figure_label_assertions": 0,
+    "forbidden_declared_label_assertions": 0,
+    "all_invented_labels_scored": false
+  },
+  "differences": [],
+  "engineering_facts": {
+    "correct": 0,
+    "expected": 15,
+    "percent": 0.0,
+    "statuses": {
+      "missing": 15
+    },
+    "checks": [
+      {
+        "id": "selected-01",
+        "expected": {
+          "table_index": 0,
+          "row_key": "НАСУС-70-1 / корп.",
+          "column": "B",
+          "expected": "35",
+          "unit": "мм",
+          "kind": "literal",
+          "scope": {
+            "products": [
+              "НАСУС-70-1"
+            ],
+            "conductor": null,
+            "part": "корп."
+          }
+        },
+        "status": "missing",
+        "evidence": []
+      },
+      {
+        "id": "selected-02",
+        "expected": {
+          "table_index": 0,
+          "row_key": "НАСУС-70-1 / корп.",
+          "column": "b",
+          "expected": "-",
+          "unit": "мм",
+          "kind": "dash",
+          "scope": {
+            "products": [
+              "НАСУС-70-1"
+            ],
+            "conductor": null,
+            "part": "корп."
+          }
+        },
+        "status": "missing",
+        "evidence": []
+      },
+      {
+        "id": "selected-03",
+        "expected": {
+          "table_index": 0,
+          "row_key": "НАСУС-70-1 / корп.",
+          "column": "d",
+          "expected": "16,5",
+          "unit": "мм",
+          "kind": "literal",
+          "scope": {
+            "products": [
+              "НАСУС-70-1"
+            ],
+            "conductor": null,
+            "part": "корп."
+          }
+        },
+        "status": "missing",
+        "evidence": []
+      },
+      {
+        "id": "selected-04",
+        "expected": {
+          "table_index": 0,
+          "row_key": "НАСУС-70-1 / корп.",
+          "column": "d1",
+          "expected": "-",
+          "unit": "мм",
+          "kind": "dash",
+          "scope": {
+            "products": [
+              "НАСУС-70-1"
+            ],
+            "conductor": null,
+            "part": "корп."
+          }
+        },
+        "status": "missing",
+        "evidence": []
+      },
+      {
+        "id": "selected-05",
+        "expected": {
+          "table_index": 0,
+          "row_key": "НАСУС-70-1 / анкер",
+          "column": "B",
+          "expected": "22",
+          "unit": "мм",
+          "kind": "literal",
+          "scope": {
+            "products": [
+              "НАСУС-70-1"
+            ],
+            "conductor": null,
+            "part": "анкер"
+          }
+        },
+        "status": "missing",
+        "evidence": []
+      },
+      {
+        "id": "selected-06",
+        "expected": {
+          "table_index": 0,
+          "row_key": "НАСУС-70-1 / анкер",
+          "column": "b",
+          "expected": "22",
+          "unit": "мм",
+          "kind": "literal",
+          "scope": {
+            "products": [
+              "НАСУС-70-1"
+            ],
+            "conductor": null,
+            "part": "анкер"
+          }
+        },
+        "status": "missing",
+        "evidence": []
+      },
+      {
+        "id": "selected-07",
+        "expected": {
+          "table_index": 0,
+          "row_key": "НАСУС-70-1 / анкер",
+          "column": "d",
+          "expected": "12",
+          "unit": "мм",
+          "kind": "literal",
+          "scope": {
+            "products": [
+              "НАСУС-70-1"
+            ],
+            "conductor": null,
+            "part": "анкер"
+          }
+        },
+        "status": "missing",
+        "evidence": []
+      },
+      {
+        "id": "selected-08",
+        "expected": {
+          "table_index": 0,
+          "row_key": "НАСУС-70-1 / анкер",
+          "column": "d1",
+          "expected": "23",
+          "unit": "мм",
+          "kind": "literal",
+          "scope": {
+            "products": [
+              "НАСУС-70-1"
+            ],
+            "conductor": null,
+            "part": "анкер"
+          }
+        },
+        "status": "missing",
+        "evidence": []
+      },
+      {
+        "id": "selected-09",
+        "expected": {
+          "table_index": 0,
+          "row_key": "НАСУС-70-1",
+          "column": "L",
+          "expected": "300",
+          "unit": "мм",
+          "kind": "merged",
+          "scope": {
+            "products": [
+              "НАСУС-70-1"
+            ],
+            "conductor": null,
+            "part": null
+          }
+        },
+        "status": "missing",
+        "evidence": []
+      },
+      {
+        "id": "selected-10",
+        "expected": {
+          "table_index": 0,
+          "row_key": "НАСУС-70-1",
+          "column": "L1",
+          "expected": "-",
+          "unit": "мм",
+          "kind": "merged_dash",
+          "scope": {
+            "products": [
+              "НАСУС-70-1"
+            ],
+            "conductor": null,
+            "part": null
+          }
+        },
+        "status": "missing",
+        "evidence": []
+      },
+      {
+        "id": "selected-11",
+        "expected": {
+          "table_index": 0,
+          "row_key": "НАСУС-70-1",
+          "column": "Масса",
+          "expected": "1,52",
+          "unit": "кг",
+          "kind": "literal",
+          "scope": {
+            "products": [
+              "НАСУС-70-1"
+            ],
+            "conductor": null,
+            "part": null
+          }
+        },
+        "status": "missing",
+        "evidence": []
+      },
+      {
+        "id": "selected-12",
+        "expected": {
+          "table_index": 0,
+          "row_key": "НАСУС-70-1",
+          "column": "Разрушающая нагрузка, не менее",
+          "expected": "96,826",
+          "unit": "кН",
+          "kind": "literal",
+          "scope": {
+            "products": [
+              "НАСУС-70-1"
+            ],
+            "conductor": null,
+            "part": null
+          }
+        },
+        "status": "missing",
+        "evidence": []
+      },
+      {
+        "id": "selected-13",
+        "expected": {
+          "table_index": 0,
+          "row_key": "НАСУС-185-1",
+          "column": "Рис.",
+          "expected": "2",
+          "unit": null,
+          "kind": "literal",
+          "scope": {
+            "products": [
+              "НАСУС-185-1"
+            ],
+            "conductor": null,
+            "part": null
+          }
+        },
+        "status": "missing",
+        "evidence": []
+      },
+      {
+        "id": "selected-14",
+        "expected": {
+          "table_index": 0,
+          "row_key": "НАСУС-500ЖС-1",
+          "column": "L",
+          "expected": "940",
+          "unit": "мм",
+          "kind": "literal",
+          "scope": {
+            "products": [
+              "НАСУС-500ЖС-1"
+            ],
+            "conductor": null,
+            "part": null
+          }
+        },
+        "status": "missing",
+        "evidence": []
+      },
+      {
+        "id": "selected-15",
+        "expected": {
+          "table_index": 0,
+          "row_key": "НАСУС-500ЖС-1",
+          "column": "Масса",
+          "expected": "18,4",
+          "unit": "кг",
+          "kind": "literal",
+          "scope": {
+            "products": [
+              "НАСУС-500ЖС-1"
+            ],
+            "conductor": null,
+            "part": null
+          }
+        },
+        "status": "missing",
+        "evidence": []
+      }
+    ],
+    "full_page_accuracy": false
+  },
+  "fixture_sha256": "82e19efe34b7ca874e3e463e551ebb0eaef8006b5a7f725eca883c4ac1f35597",
+  "candidate_sha256": "d74ec05211e3eb036d75554cd58f0521cf41fa652c07d7b8d36fa5f0d938a68f",
+  "source_binding": "caller-selected plain page artifact",
+  "grader_sha256": "24b64859fd690d11afd8477c69a0f84336a28338ac0b49981e5300055364d57a"
+}

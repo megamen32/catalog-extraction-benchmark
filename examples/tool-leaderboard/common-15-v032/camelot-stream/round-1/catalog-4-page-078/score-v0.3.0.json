@@ -1,0 +1,2924 @@
+{
+  "schema_version": "1.0",
+  "case_id": "catalog-4-page-078",
+  "metrics": {
+    "cells_literal": {
+      "correct": 7,
+      "expected": 140,
+      "percent": 5.0
+    },
+    "cells_numeric_equivalent": {
+      "correct": 7,
+      "expected": 140,
+      "percent": 5.0
+    },
+    "blank_cells": {
+      "correct": 7,
+      "expected": 20,
+      "percent": 35.0
+    },
+    "merged_cells": {
+      "correct": 0,
+      "expected": 46,
+      "percent": 0.0
+    },
+    "header_assertions": {
+      "correct": 0,
+      "expected": 34,
+      "percent": 0.0
+    },
+    "figure_labels": {
+      "correct": 0,
+      "expected": 11,
+      "percent": 0.0
+    },
+    "forbidden_label_absence": {
+      "correct": 3,
+      "expected": 3,
+      "percent": 100.0
+    }
+  },
+  "structure": {
+    "expected_tables": 2,
+    "observed_tables": 3,
+    "extra_tables": 1,
+    "tables": [
+      {
+        "expected_rows": 4,
+        "expected_columns": 15,
+        "observed_rows": 18,
+        "observed_columns": 1
+      },
+      {
+        "expected_rows": 10,
+        "expected_columns": 8,
+        "observed_rows": 6,
+        "observed_columns": 13
+      }
+    ]
+  },
+  "drawing_assertions": {
+    "correct": 0,
+    "expected": 0,
+    "percent": null,
+    "checks": [],
+    "full_drawing_accuracy": false,
+    "method": "frozen scoped deterministic relation/claim assertions; unsupported wording is missing, never inferred"
+  },
+  "all_verified_checks_passed": false,
+  "coverage": {
+    "full_page_ground_truth": false,
+    "text_blocks_scored": false,
+    "diagram_relationships_scored": false,
+    "selected_drawing_assertions": 0,
+    "full_drawing_ground_truth": false,
+    "header_assertions": 34,
+    "figure_label_assertions": 11,
+    "forbidden_declared_label_assertions": 3,
+    "all_invented_labels_scored": false
+  },
+  "differences": [
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 0,
+      "column": 0,
+      "expected": "ОСК 8-150-А-2",
+      "expected_state": "value",
+      "observed": "изОЛяТОры\tОПОрные",
+      "observed_state": "value",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 0,
+      "column": 1,
+      "expected": "150",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 0,
+      "column": 2,
+      "expected": "8",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 0,
+      "column": 3,
+      "expected": "2,0",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 0,
+      "column": 4,
+      "expected": "1600",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 0,
+      "column": 5,
+      "expected": "170",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 0,
+      "column": 6,
+      "expected": "1360",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 0,
+      "column": 7,
+      "expected": "4100",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 0,
+      "column": 8,
+      "expected": "650",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 0,
+      "column": 9,
+      "expected": "300",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 0,
+      "column": 10,
+      "expected": "300",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 0,
+      "column": 11,
+      "expected": "150",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 0,
+      "column": 12,
+      "expected": "10",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 0,
+      "column": 13,
+      "expected": "II",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 0,
+      "column": 14,
+      "expected": "80",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 1,
+      "column": 0,
+      "expected": "ОСК 8-150-Б-3",
+      "expected_state": "value",
+      "observed": "ПОЛиМерные\tна\tнаПряжение",
+      "observed_state": "value",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 1,
+      "column": 1,
+      "expected": "150",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 1,
+      "column": 2,
+      "expected": "8",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 1,
+      "column": 3,
+      "expected": "2,0",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 1,
+      "column": 4,
+      "expected": "1700",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 1,
+      "column": 5,
+      "expected": "170",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 1,
+      "column": 6,
+      "expected": "1460",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 1,
+      "column": 7,
+      "expected": "4400",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 1,
+      "column": 8,
+      "expected": "650",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 1,
+      "column": 9,
+      "expected": "300",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 1,
+      "column": 10,
+      "expected": "300",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 1,
+      "column": 11,
+      "expected": "150",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 1,
+      "column": 12,
+      "expected": "20",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 1,
+      "column": 13,
+      "expected": "III",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 1,
+      "column": 14,
+      "expected": "80",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 2,
+      "column": 0,
+      "expected": "ОСК 10-150-А-2",
+      "expected_state": "value",
+      "observed": "150\tкВ\tТиПа\tОСк\t8-150,\tОСк\t10-150",
+      "observed_state": "value",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 2,
+      "column": 1,
+      "expected": "150",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 2,
+      "column": 2,
+      "expected": "10",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 2,
+      "column": 3,
+      "expected": "2,0",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 2,
+      "column": 4,
+      "expected": "1600",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 2,
+      "column": 5,
+      "expected": "170",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 2,
+      "column": 6,
+      "expected": "1360",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 2,
+      "column": 7,
+      "expected": "4100",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 2,
+      "column": 8,
+      "expected": "650",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 2,
+      "column": 9,
+      "expected": "300",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 2,
+      "column": 10,
+      "expected": "300",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 2,
+      "column": 11,
+      "expected": "150",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 2,
+      "column": 12,
+      "expected": "10",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 2,
+      "column": 13,
+      "expected": "II",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 2,
+      "column": 14,
+      "expected": "80",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 3,
+      "column": 0,
+      "expected": "ОСК 10-150-Б-3",
+      "expected_state": "value",
+      "observed": "назначение:",
+      "observed_state": "value",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 3,
+      "column": 1,
+      "expected": "150",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 3,
+      "column": 2,
+      "expected": "10",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 3,
+      "column": 3,
+      "expected": "2,0",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 3,
+      "column": 4,
+      "expected": "1700",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 3,
+      "column": 5,
+      "expected": "170",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 3,
+      "column": 6,
+      "expected": "1460",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 3,
+      "column": 7,
+      "expected": "4400",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 3,
+      "column": 8,
+      "expected": "650",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 3,
+      "column": 9,
+      "expected": "300",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 3,
+      "column": 10,
+      "expected": "300",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 3,
+      "column": 11,
+      "expected": "150",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 3,
+      "column": 12,
+      "expected": "20",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 3,
+      "column": 13,
+      "expected": "III",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 0,
+      "row": 3,
+      "column": 14,
+      "expected": "80",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 0,
+      "column": 0,
+      "expected": "ОСК 8-150-А-2",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "blank",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 0,
+      "column": 1,
+      "expected": "1600",
+      "expected_state": "value",
+      "observed": "8",
+      "observed_state": "value",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 0,
+      "column": 2,
+      "expected": "Ø127",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "blank",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 0,
+      "column": 4,
+      "expected": "4М16",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "blank",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 0,
+      "column": 5,
+      "expected": "Ø200",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "blank",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 0,
+      "column": 7,
+      "expected": "4Ø18",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "blank",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 1,
+      "column": 0,
+      "expected": "ОСК 8-150-А01-2",
+      "expected_state": "value",
+      "observed": "ОСК 8-150-Б-3",
+      "observed_state": "value",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 1,
+      "column": 1,
+      "expected": "1600",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "blank",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 1,
+      "column": 2,
+      "expected": "Ø127",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "blank",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 1,
+      "column": 3,
+      "expected": null,
+      "expected_state": "blank",
+      "observed": "1700",
+      "observed_state": "value",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 1,
+      "column": 4,
+      "expected": "4М16",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "blank",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 1,
+      "column": 5,
+      "expected": null,
+      "expected_state": "blank",
+      "observed": "1460 4400",
+      "observed_state": "value",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 1,
+      "column": 6,
+      "expected": "□160",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "blank",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 1,
+      "column": 7,
+      "expected": "4Ø18",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "blank",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 2,
+      "column": 0,
+      "expected": "ОСК 8-150-А02-2",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "blank",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 2,
+      "column": 1,
+      "expected": "1600",
+      "expected_state": "value",
+      "observed": "150",
+      "observed_state": "value",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 2,
+      "column": 2,
+      "expected": null,
+      "expected_state": "blank",
+      "observed": "2,0",
+      "observed_state": "value",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 2,
+      "column": 3,
+      "expected": "□160",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "blank",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 2,
+      "column": 4,
+      "expected": "4Ø18",
+      "expected_state": "value",
+      "observed": "170",
+      "observed_state": "value",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 2,
+      "column": 6,
+      "expected": "□180",
+      "expected_state": "value",
+      "observed": "650",
+      "observed_state": "value",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 2,
+      "column": 7,
+      "expected": "4Ø18",
+      "expected_state": "value",
+      "observed": "300",
+      "observed_state": "value",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 3,
+      "column": 0,
+      "expected": "ОСК 8-150-Б-3",
+      "expected_state": "value",
+      "observed": "ОСК 10-150-А-2",
+      "observed_state": "value",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 3,
+      "column": 1,
+      "expected": "1700",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "blank",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 3,
+      "column": 2,
+      "expected": "Ø127",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "blank",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 3,
+      "column": 3,
+      "expected": null,
+      "expected_state": "blank",
+      "observed": "1600",
+      "observed_state": "value",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 3,
+      "column": 4,
+      "expected": "4М16",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "blank",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 3,
+      "column": 5,
+      "expected": "Ø200",
+      "expected_state": "value",
+      "observed": "1360 4100",
+      "observed_state": "value",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 3,
+      "column": 7,
+      "expected": "4Ø18",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "blank",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 4,
+      "column": 0,
+      "expected": "ОСК 8-150-Б01-3",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "blank",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 4,
+      "column": 1,
+      "expected": "1700",
+      "expected_state": "value",
+      "observed": "10",
+      "observed_state": "value",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 4,
+      "column": 2,
+      "expected": "Ø127",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "blank",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 4,
+      "column": 4,
+      "expected": "4М16",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "blank",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 4,
+      "column": 6,
+      "expected": "□160",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "blank",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 4,
+      "column": 7,
+      "expected": "4Ø18",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "blank",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 5,
+      "column": 0,
+      "expected": "ОСК 10-150-А-2",
+      "expected_state": "value",
+      "observed": "ОСК 10-150-Б-3",
+      "observed_state": "value",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 5,
+      "column": 1,
+      "expected": "1600",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "blank",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 5,
+      "column": 2,
+      "expected": "Ø127",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "blank",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 5,
+      "column": 3,
+      "expected": null,
+      "expected_state": "blank",
+      "observed": "1700",
+      "observed_state": "value",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 5,
+      "column": 4,
+      "expected": "4М16",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "blank",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 5,
+      "column": 5,
+      "expected": "Ø200",
+      "expected_state": "value",
+      "observed": "1460 4400",
+      "observed_state": "value",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 5,
+      "column": 7,
+      "expected": "4Ø18",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "blank",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 6,
+      "column": 0,
+      "expected": "ОСК 10-150-А01-2",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 6,
+      "column": 1,
+      "expected": "1600",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 6,
+      "column": 2,
+      "expected": "Ø127",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 6,
+      "column": 3,
+      "expected": null,
+      "expected_state": "blank",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 6,
+      "column": 4,
+      "expected": "4М16",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 6,
+      "column": 5,
+      "expected": null,
+      "expected_state": "blank",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 6,
+      "column": 6,
+      "expected": "□160",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 6,
+      "column": 7,
+      "expected": "4Ø18",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 7,
+      "column": 0,
+      "expected": "ОСК 10-150-А02-2",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 7,
+      "column": 1,
+      "expected": "1600",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 7,
+      "column": 2,
+      "expected": null,
+      "expected_state": "blank",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 7,
+      "column": 3,
+      "expected": "□160",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 7,
+      "column": 4,
+      "expected": "4Ø18",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 7,
+      "column": 5,
+      "expected": null,
+      "expected_state": "blank",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 7,
+      "column": 6,
+      "expected": "□180",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 7,
+      "column": 7,
+      "expected": "4Ø18",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 8,
+      "column": 0,
+      "expected": "ОСК 10-150-Б-3",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 8,
+      "column": 1,
+      "expected": "1700",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 8,
+      "column": 2,
+      "expected": "Ø127",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 8,
+      "column": 3,
+      "expected": null,
+      "expected_state": "blank",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 8,
+      "column": 4,
+      "expected": "4М16",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 8,
+      "column": 5,
+      "expected": "Ø200",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 8,
+      "column": 6,
+      "expected": null,
+      "expected_state": "blank",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 8,
+      "column": 7,
+      "expected": "4Ø18",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 9,
+      "column": 0,
+      "expected": "ОСК 10-150-Б01-3",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 9,
+      "column": 1,
+      "expected": "1700",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 9,
+      "column": 2,
+      "expected": "Ø127",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 9,
+      "column": 3,
+      "expected": null,
+      "expected_state": "blank",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 9,
+      "column": 4,
+      "expected": "4М16",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 9,
+      "column": 5,
+      "expected": null,
+      "expected_state": "blank",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 9,
+      "column": 6,
+      "expected": "□160",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "cell",
+      "table": 1,
+      "row": 9,
+      "column": 7,
+      "expected": "4Ø18",
+      "expected_state": "value",
+      "observed": null,
+      "observed_state": "missing",
+      "numeric_equivalent": false
+    },
+    {
+      "category": "header",
+      "table": 0,
+      "column": 1,
+      "field": "unit",
+      "expected": "кВ",
+      "mode": "unit",
+      "observed": null
+    },
+    {
+      "category": "header",
+      "table": 0,
+      "column": 2,
+      "field": "unit",
+      "expected": "кН",
+      "mode": "unit",
+      "observed": null
+    },
+    {
+      "category": "header",
+      "table": 0,
+      "column": 3,
+      "field": "unit",
+      "expected": "кН·м",
+      "mode": "unit",
+      "observed": null
+    },
+    {
+      "category": "header",
+      "table": 0,
+      "column": 4,
+      "field": "unit",
+      "expected": "мм",
+      "mode": "unit",
+      "observed": null
+    },
+    {
+      "category": "header",
+      "table": 0,
+      "column": 5,
+      "field": "unit",
+      "expected": "мм",
+      "mode": "unit",
+      "observed": null
+    },
+    {
+      "category": "header",
+      "table": 0,
+      "column": 6,
+      "field": "unit",
+      "expected": "мм",
+      "mode": "unit",
+      "observed": null
+    },
+    {
+      "category": "header",
+      "table": 0,
+      "column": 7,
+      "field": "unit",
+      "expected": "мм",
+      "mode": "unit",
+      "observed": null
+    },
+    {
+      "category": "header",
+      "table": 0,
+      "column": 8,
+      "field": "unit",
+      "expected": "кВ",
+      "mode": "unit",
+      "observed": null
+    },
+    {
+      "category": "header",
+      "table": 0,
+      "column": 9,
+      "field": "unit",
+      "expected": "кВ",
+      "mode": "unit",
+      "observed": null
+    },
+    {
+      "category": "header",
+      "table": 0,
+      "column": 10,
+      "field": "unit",
+      "expected": "кВ",
+      "mode": "unit",
+      "observed": null
+    },
+    {
+      "category": "header",
+      "table": 0,
+      "column": 11,
+      "field": "unit",
+      "expected": "кВ",
+      "mode": "unit",
+      "observed": null
+    },
+    {
+      "category": "header",
+      "table": 0,
+      "column": 12,
+      "field": "unit",
+      "expected": "мкСм",
+      "mode": "unit",
+      "observed": null
+    },
+    {
+      "category": "header",
+      "table": 0,
+      "column": 14,
+      "field": "unit",
+      "expected": "кг",
+      "mode": "unit",
+      "observed": null
+    },
+    {
+      "category": "header",
+      "table": 1,
+      "column": 1,
+      "field": "unit",
+      "expected": "мм",
+      "mode": "unit",
+      "observed": null
+    },
+    {
+      "category": "header",
+      "table": 1,
+      "column": 2,
+      "field": "unit",
+      "expected": "мм",
+      "mode": "unit",
+      "observed": null
+    },
+    {
+      "category": "header",
+      "table": 1,
+      "column": 3,
+      "field": "unit",
+      "expected": "мм",
+      "mode": "unit",
+      "observed": null
+    },
+    {
+      "category": "header",
+      "table": 1,
+      "column": 4,
+      "field": "unit",
+      "expected": "мм",
+      "mode": "unit",
+      "observed": null
+    },
+    {
+      "category": "header",
+      "table": 1,
+      "column": 5,
+      "field": "unit",
+      "expected": "мм",
+      "mode": "unit",
+      "observed": null
+    },
+    {
+      "category": "header",
+      "table": 1,
+      "column": 6,
+      "field": "unit",
+      "expected": "м",
+      "mode": "unit",
+      "observed": null
+    },
+    {
+      "category": "header",
+      "table": 1,
+      "column": 7,
+      "field": "unit",
+      "expected": "мм",
+      "mode": "unit",
+      "observed": null
+    },
+    {
+      "category": "header",
+      "table": 0,
+      "column": 2,
+      "field": "label",
+      "expected": "Нормированная механическая разрушающая сила при изгибе",
+      "mode": "contains",
+      "observed": null
+    },
+    {
+      "category": "header",
+      "table": 0,
+      "column": 3,
+      "field": "label",
+      "expected": "Нормированный разрушающий крутящий момент",
+      "mode": "contains",
+      "observed": null
+    },
+    {
+      "category": "header",
+      "table": 0,
+      "column": 4,
+      "field": "label",
+      "expected": "высота Н",
+      "mode": "contains",
+      "observed": null
+    },
+    {
+      "category": "header",
+      "table": 0,
+      "column": 4,
+      "field": "qualifier",
+      "expected": "не более",
+      "mode": "contains",
+      "observed": null
+    },
+    {
+      "category": "header",
+      "table": 0,
+      "column": 6,
+      "field": "qualifier",
+      "expected": "не менее",
+      "mode": "contains",
+      "observed": null
+    },
+    {
+      "category": "header",
+      "table": 0,
+      "column": 7,
+      "field": "qualifier",
+      "expected": "не менее",
+      "mode": "contains",
+      "observed": null
+    },
+    {
+      "category": "header",
+      "table": 0,
+      "column": 11,
+      "field": "qualifier",
+      "expected": "не менее",
+      "mode": "contains",
+      "observed": null
+    },
+    {
+      "category": "header",
+      "table": 0,
+      "column": 14,
+      "field": "qualifier",
+      "expected": "не более",
+      "mode": "contains",
+      "observed": null
+    },
+    {
+      "category": "header",
+      "table": 0,
+      "column": 13,
+      "field": "label",
+      "expected": "СЗ",
+      "mode": "contains",
+      "observed": null
+    },
+    {
+      "category": "header",
+      "table": 1,
+      "column": 1,
+      "field": "label",
+      "expected": "H",
+      "mode": "exact",
+      "observed": ""
+    },
+    {
+      "category": "header",
+      "table": 1,
+      "column": 3,
+      "field": "label",
+      "expected": "B1",
+      "mode": "exact",
+      "observed": "1600"
+    },
+    {
+      "category": "header",
+      "table": 1,
+      "column": 6,
+      "field": "label",
+      "expected": "B2",
+      "mode": "exact",
+      "observed": ""
+    },
+    {
+      "category": "header",
+      "table": 0,
+      "column": 3,
+      "field": "qualifier",
+      "expected": null,
+      "mode": "exact",
+      "observed": null
+    },
+    {
+      "category": "header",
+      "table": 0,
+      "column": 11,
+      "field": "label",
+      "expected": "50 Гц",
+      "mode": "contains",
+      "observed": null
+    },
+    {
+      "category": "figure_label",
+      "expected_alternatives": [
+        "H±2",
+        "Н±2"
+      ]
+    },
+    {
+      "category": "figure_label",
+      "expected_alternatives": [
+        "L"
+      ]
+    },
+    {
+      "category": "figure_label",
+      "expected_alternatives": [
+        "D"
+      ]
+    },
+    {
+      "category": "figure_label",
+      "expected_alternatives": [
+        "А",
+        "A"
+      ]
+    },
+    {
+      "category": "figure_label",
+      "expected_alternatives": [
+        "Б"
+      ]
+    },
+    {
+      "category": "figure_label",
+      "expected_alternatives": [
+        "B1",
+        "В1",
+        "B₁",
+        "В₁"
+      ]
+    },
+    {
+      "category": "figure_label",
+      "expected_alternatives": [
+        "D1",
+        "D₁"
+      ]
+    },
+    {
+      "category": "figure_label",
+      "expected_alternatives": [
+        "d1 4 отв",
+        "d₁ 4 отв"
+      ]
+    },
+    {
+      "category": "figure_label",
+      "expected_alternatives": [
+        "B2",
+        "В2",
+        "B₂",
+        "В₂"
+      ]
+    },
+    {
+      "category": "figure_label",
+      "expected_alternatives": [
+        "D2",
+        "D₂"
+      ]
+    },
+    {
+      "category": "figure_label",
+      "expected_alternatives": [
+        "d2 4 отв",
+        "d₂ 4 отв"
+      ]
+    }
+  ],
+  "engineering_facts": {
+    "correct": 0,
+    "expected": 140,
+    "percent": 0.0,
+    "statuses": {
+      "missing": 140
+    },
+    "checks": [
+      {
+        "id": "t0-r0-c0",
+        "identity": "ОСК 8-150-А-2",
+        "field": "Наименование",
+        "expected": "ОСК 8-150-А-2",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r0-c1",
+        "identity": "ОСК 8-150-А-2",
+        "field": "Номинальное напряжение",
+        "expected": "150",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r0-c2",
+        "identity": "ОСК 8-150-А-2",
+        "field": "Нормированная механическая разрушающая сила при изгибе",
+        "expected": "8",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r0-c3",
+        "identity": "ОСК 8-150-А-2",
+        "field": "Нормированный разрушающий крутящий момент",
+        "expected": "2,0",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r0-c4",
+        "identity": "ОСК 8-150-А-2",
+        "field": "Строительная высота Н",
+        "expected": "1600",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r0-c5",
+        "identity": "ОСК 8-150-А-2",
+        "field": "Диаметр ребер D",
+        "expected": "170",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r0-c6",
+        "identity": "ОСК 8-150-А-2",
+        "field": "Изоляционная высота L",
+        "expected": "1360",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r0-c7",
+        "identity": "ОСК 8-150-А-2",
+        "field": "Длина пути тока утечки",
+        "expected": "4100",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r0-c8",
+        "identity": "ОСК 8-150-А-2",
+        "field": "Выдерживаемое напряжение полного грозового импульса",
+        "expected": "650",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r0-c9",
+        "identity": "ОСК 8-150-А-2",
+        "field": "Выдерживаемое напряжение 50 Гц в сухом состоянии",
+        "expected": "300",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r0-c10",
+        "identity": "ОСК 8-150-А-2",
+        "field": "Выдерживаемое напряжение 50 Гц под дождем",
+        "expected": "300",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r0-c11",
+        "identity": "ОСК 8-150-А-2",
+        "field": "Разрядное напряжение 50 Гц в загрязненном и увлажненном состоянии",
+        "expected": "150",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r0-c12",
+        "identity": "ОСК 8-150-А-2",
+        "field": "Нормированная удельная поверхностная проводимость слоя загрязнения",
+        "expected": "10",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r0-c13",
+        "identity": "ОСК 8-150-А-2",
+        "field": "Допустимая степень загрязнения СЗ",
+        "expected": "II",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r0-c14",
+        "identity": "ОСК 8-150-А-2",
+        "field": "Масса",
+        "expected": "80",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r1-c0",
+        "identity": "ОСК 8-150-Б-3",
+        "field": "Наименование",
+        "expected": "ОСК 8-150-Б-3",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r1-c1",
+        "identity": "ОСК 8-150-Б-3",
+        "field": "Номинальное напряжение",
+        "expected": "150",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r1-c2",
+        "identity": "ОСК 8-150-Б-3",
+        "field": "Нормированная механическая разрушающая сила при изгибе",
+        "expected": "8",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r1-c3",
+        "identity": "ОСК 8-150-Б-3",
+        "field": "Нормированный разрушающий крутящий момент",
+        "expected": "2,0",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r1-c4",
+        "identity": "ОСК 8-150-Б-3",
+        "field": "Строительная высота Н",
+        "expected": "1700",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r1-c5",
+        "identity": "ОСК 8-150-Б-3",
+        "field": "Диаметр ребер D",
+        "expected": "170",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r1-c6",
+        "identity": "ОСК 8-150-Б-3",
+        "field": "Изоляционная высота L",
+        "expected": "1460",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r1-c7",
+        "identity": "ОСК 8-150-Б-3",
+        "field": "Длина пути тока утечки",
+        "expected": "4400",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r1-c8",
+        "identity": "ОСК 8-150-Б-3",
+        "field": "Выдерживаемое напряжение полного грозового импульса",
+        "expected": "650",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r1-c9",
+        "identity": "ОСК 8-150-Б-3",
+        "field": "Выдерживаемое напряжение 50 Гц в сухом состоянии",
+        "expected": "300",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r1-c10",
+        "identity": "ОСК 8-150-Б-3",
+        "field": "Выдерживаемое напряжение 50 Гц под дождем",
+        "expected": "300",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r1-c11",
+        "identity": "ОСК 8-150-Б-3",
+        "field": "Разрядное напряжение 50 Гц в загрязненном и увлажненном состоянии",
+        "expected": "150",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r1-c12",
+        "identity": "ОСК 8-150-Б-3",
+        "field": "Нормированная удельная поверхностная проводимость слоя загрязнения",
+        "expected": "20",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r1-c13",
+        "identity": "ОСК 8-150-Б-3",
+        "field": "Допустимая степень загрязнения СЗ",
+        "expected": "III",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r1-c14",
+        "identity": "ОСК 8-150-Б-3",
+        "field": "Масса",
+        "expected": "80",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r2-c0",
+        "identity": "ОСК 10-150-А-2",
+        "field": "Наименование",
+        "expected": "ОСК 10-150-А-2",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r2-c1",
+        "identity": "ОСК 10-150-А-2",
+        "field": "Номинальное напряжение",
+        "expected": "150",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r2-c2",
+        "identity": "ОСК 10-150-А-2",
+        "field": "Нормированная механическая разрушающая сила при изгибе",
+        "expected": "10",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r2-c3",
+        "identity": "ОСК 10-150-А-2",
+        "field": "Нормированный разрушающий крутящий момент",
+        "expected": "2,0",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r2-c4",
+        "identity": "ОСК 10-150-А-2",
+        "field": "Строительная высота Н",
+        "expected": "1600",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r2-c5",
+        "identity": "ОСК 10-150-А-2",
+        "field": "Диаметр ребер D",
+        "expected": "170",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r2-c6",
+        "identity": "ОСК 10-150-А-2",
+        "field": "Изоляционная высота L",
+        "expected": "1360",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r2-c7",
+        "identity": "ОСК 10-150-А-2",
+        "field": "Длина пути тока утечки",
+        "expected": "4100",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r2-c8",
+        "identity": "ОСК 10-150-А-2",
+        "field": "Выдерживаемое напряжение полного грозового импульса",
+        "expected": "650",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r2-c9",
+        "identity": "ОСК 10-150-А-2",
+        "field": "Выдерживаемое напряжение 50 Гц в сухом состоянии",
+        "expected": "300",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r2-c10",
+        "identity": "ОСК 10-150-А-2",
+        "field": "Выдерживаемое напряжение 50 Гц под дождем",
+        "expected": "300",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r2-c11",
+        "identity": "ОСК 10-150-А-2",
+        "field": "Разрядное напряжение 50 Гц в загрязненном и увлажненном состоянии",
+        "expected": "150",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r2-c12",
+        "identity": "ОСК 10-150-А-2",
+        "field": "Нормированная удельная поверхностная проводимость слоя загрязнения",
+        "expected": "10",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r2-c13",
+        "identity": "ОСК 10-150-А-2",
+        "field": "Допустимая степень загрязнения СЗ",
+        "expected": "II",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r2-c14",
+        "identity": "ОСК 10-150-А-2",
+        "field": "Масса",
+        "expected": "80",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r3-c0",
+        "identity": "ОСК 10-150-Б-3",
+        "field": "Наименование",
+        "expected": "ОСК 10-150-Б-3",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r3-c1",
+        "identity": "ОСК 10-150-Б-3",
+        "field": "Номинальное напряжение",
+        "expected": "150",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r3-c2",
+        "identity": "ОСК 10-150-Б-3",
+        "field": "Нормированная механическая разрушающая сила при изгибе",
+        "expected": "10",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r3-c3",
+        "identity": "ОСК 10-150-Б-3",
+        "field": "Нормированный разрушающий крутящий момент",
+        "expected": "2,0",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r3-c4",
+        "identity": "ОСК 10-150-Б-3",
+        "field": "Строительная высота Н",
+        "expected": "1700",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r3-c5",
+        "identity": "ОСК 10-150-Б-3",
+        "field": "Диаметр ребер D",
+        "expected": "170",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r3-c6",
+        "identity": "ОСК 10-150-Б-3",
+        "field": "Изоляционная высота L",
+        "expected": "1460",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r3-c7",
+        "identity": "ОСК 10-150-Б-3",
+        "field": "Длина пути тока утечки",
+        "expected": "4400",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r3-c8",
+        "identity": "ОСК 10-150-Б-3",
+        "field": "Выдерживаемое напряжение полного грозового импульса",
+        "expected": "650",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r3-c9",
+        "identity": "ОСК 10-150-Б-3",
+        "field": "Выдерживаемое напряжение 50 Гц в сухом состоянии",
+        "expected": "300",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r3-c10",
+        "identity": "ОСК 10-150-Б-3",
+        "field": "Выдерживаемое напряжение 50 Гц под дождем",
+        "expected": "300",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r3-c11",
+        "identity": "ОСК 10-150-Б-3",
+        "field": "Разрядное напряжение 50 Гц в загрязненном и увлажненном состоянии",
+        "expected": "150",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r3-c12",
+        "identity": "ОСК 10-150-Б-3",
+        "field": "Нормированная удельная поверхностная проводимость слоя загрязнения",
+        "expected": "20",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r3-c13",
+        "identity": "ОСК 10-150-Б-3",
+        "field": "Допустимая степень загрязнения СЗ",
+        "expected": "III",
+        "status": "missing"
+      },
+      {
+        "id": "t0-r3-c14",
+        "identity": "ОСК 10-150-Б-3",
+        "field": "Масса",
+        "expected": "80",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r0-c0",
+        "identity": "ОСК 8-150-А-2",
+        "field": "Наименование",
+        "expected": "ОСК 8-150-А-2",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r0-c1",
+        "identity": "ОСК 8-150-А-2",
+        "field": "H",
+        "expected": "1600",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r0-c2",
+        "identity": "ОСК 8-150-А-2",
+        "field": "D1",
+        "expected": "Ø127",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r0-c3",
+        "identity": "ОСК 8-150-А-2",
+        "field": "B1",
+        "expected": null,
+        "status": "missing"
+      },
+      {
+        "id": "t1-r0-c4",
+        "identity": "ОСК 8-150-А-2",
+        "field": "d1",
+        "expected": "4М16",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r0-c5",
+        "identity": "ОСК 8-150-А-2",
+        "field": "D2",
+        "expected": "Ø200",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r0-c6",
+        "identity": "ОСК 8-150-А-2",
+        "field": "B2",
+        "expected": null,
+        "status": "missing"
+      },
+      {
+        "id": "t1-r0-c7",
+        "identity": "ОСК 8-150-А-2",
+        "field": "d2",
+        "expected": "4Ø18",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r1-c0",
+        "identity": "ОСК 8-150-А01-2",
+        "field": "Наименование",
+        "expected": "ОСК 8-150-А01-2",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r1-c1",
+        "identity": "ОСК 8-150-А01-2",
+        "field": "H",
+        "expected": "1600",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r1-c2",
+        "identity": "ОСК 8-150-А01-2",
+        "field": "D1",
+        "expected": "Ø127",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r1-c3",
+        "identity": "ОСК 8-150-А01-2",
+        "field": "B1",
+        "expected": null,
+        "status": "missing"
+      },
+      {
+        "id": "t1-r1-c4",
+        "identity": "ОСК 8-150-А01-2",
+        "field": "d1",
+        "expected": "4М16",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r1-c5",
+        "identity": "ОСК 8-150-А01-2",
+        "field": "D2",
+        "expected": null,
+        "status": "missing"
+      },
+      {
+        "id": "t1-r1-c6",
+        "identity": "ОСК 8-150-А01-2",
+        "field": "B2",
+        "expected": "□160",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r1-c7",
+        "identity": "ОСК 8-150-А01-2",
+        "field": "d2",
+        "expected": "4Ø18",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r2-c0",
+        "identity": "ОСК 8-150-А02-2",
+        "field": "Наименование",
+        "expected": "ОСК 8-150-А02-2",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r2-c1",
+        "identity": "ОСК 8-150-А02-2",
+        "field": "H",
+        "expected": "1600",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r2-c2",
+        "identity": "ОСК 8-150-А02-2",
+        "field": "D1",
+        "expected": null,
+        "status": "missing"
+      },
+      {
+        "id": "t1-r2-c3",
+        "identity": "ОСК 8-150-А02-2",
+        "field": "B1",
+        "expected": "□160",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r2-c4",
+        "identity": "ОСК 8-150-А02-2",
+        "field": "d1",
+        "expected": "4Ø18",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r2-c5",
+        "identity": "ОСК 8-150-А02-2",
+        "field": "D2",
+        "expected": null,
+        "status": "missing"
+      },
+      {
+        "id": "t1-r2-c6",
+        "identity": "ОСК 8-150-А02-2",
+        "field": "B2",
+        "expected": "□180",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r2-c7",
+        "identity": "ОСК 8-150-А02-2",
+        "field": "d2",
+        "expected": "4Ø18",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r3-c0",
+        "identity": "ОСК 8-150-Б-3",
+        "field": "Наименование",
+        "expected": "ОСК 8-150-Б-3",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r3-c1",
+        "identity": "ОСК 8-150-Б-3",
+        "field": "H",
+        "expected": "1700",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r3-c2",
+        "identity": "ОСК 8-150-Б-3",
+        "field": "D1",
+        "expected": "Ø127",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r3-c3",
+        "identity": "ОСК 8-150-Б-3",
+        "field": "B1",
+        "expected": null,
+        "status": "missing"
+      },
+      {
+        "id": "t1-r3-c4",
+        "identity": "ОСК 8-150-Б-3",
+        "field": "d1",
+        "expected": "4М16",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r3-c5",
+        "identity": "ОСК 8-150-Б-3",
+        "field": "D2",
+        "expected": "Ø200",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r3-c6",
+        "identity": "ОСК 8-150-Б-3",
+        "field": "B2",
+        "expected": null,
+        "status": "missing"
+      },
+      {
+        "id": "t1-r3-c7",
+        "identity": "ОСК 8-150-Б-3",
+        "field": "d2",
+        "expected": "4Ø18",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r4-c0",
+        "identity": "ОСК 8-150-Б01-3",
+        "field": "Наименование",
+        "expected": "ОСК 8-150-Б01-3",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r4-c1",
+        "identity": "ОСК 8-150-Б01-3",
+        "field": "H",
+        "expected": "1700",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r4-c2",
+        "identity": "ОСК 8-150-Б01-3",
+        "field": "D1",
+        "expected": "Ø127",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r4-c3",
+        "identity": "ОСК 8-150-Б01-3",
+        "field": "B1",
+        "expected": null,
+        "status": "missing"
+      },
+      {
+        "id": "t1-r4-c4",
+        "identity": "ОСК 8-150-Б01-3",
+        "field": "d1",
+        "expected": "4М16",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r4-c5",
+        "identity": "ОСК 8-150-Б01-3",
+        "field": "D2",
+        "expected": null,
+        "status": "missing"
+      },
+      {
+        "id": "t1-r4-c6",
+        "identity": "ОСК 8-150-Б01-3",
+        "field": "B2",
+        "expected": "□160",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r4-c7",
+        "identity": "ОСК 8-150-Б01-3",
+        "field": "d2",
+        "expected": "4Ø18",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r5-c0",
+        "identity": "ОСК 10-150-А-2",
+        "field": "Наименование",
+        "expected": "ОСК 10-150-А-2",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r5-c1",
+        "identity": "ОСК 10-150-А-2",
+        "field": "H",
+        "expected": "1600",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r5-c2",
+        "identity": "ОСК 10-150-А-2",
+        "field": "D1",
+        "expected": "Ø127",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r5-c3",
+        "identity": "ОСК 10-150-А-2",
+        "field": "B1",
+        "expected": null,
+        "status": "missing"
+      },
+      {
+        "id": "t1-r5-c4",
+        "identity": "ОСК 10-150-А-2",
+        "field": "d1",
+        "expected": "4М16",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r5-c5",
+        "identity": "ОСК 10-150-А-2",
+        "field": "D2",
+        "expected": "Ø200",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r5-c6",
+        "identity": "ОСК 10-150-А-2",
+        "field": "B2",
+        "expected": null,
+        "status": "missing"
+      },
+      {
+        "id": "t1-r5-c7",
+        "identity": "ОСК 10-150-А-2",
+        "field": "d2",
+        "expected": "4Ø18",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r6-c0",
+        "identity": "ОСК 10-150-А01-2",
+        "field": "Наименование",
+        "expected": "ОСК 10-150-А01-2",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r6-c1",
+        "identity": "ОСК 10-150-А01-2",
+        "field": "H",
+        "expected": "1600",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r6-c2",
+        "identity": "ОСК 10-150-А01-2",
+        "field": "D1",
+        "expected": "Ø127",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r6-c3",
+        "identity": "ОСК 10-150-А01-2",
+        "field": "B1",
+        "expected": null,
+        "status": "missing"
+      },
+      {
+        "id": "t1-r6-c4",
+        "identity": "ОСК 10-150-А01-2",
+        "field": "d1",
+        "expected": "4М16",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r6-c5",
+        "identity": "ОСК 10-150-А01-2",
+        "field": "D2",
+        "expected": null,
+        "status": "missing"
+      },
+      {
+        "id": "t1-r6-c6",
+        "identity": "ОСК 10-150-А01-2",
+        "field": "B2",
+        "expected": "□160",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r6-c7",
+        "identity": "ОСК 10-150-А01-2",
+        "field": "d2",
+        "expected": "4Ø18",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r7-c0",
+        "identity": "ОСК 10-150-А02-2",
+        "field": "Наименование",
+        "expected": "ОСК 10-150-А02-2",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r7-c1",
+        "identity": "ОСК 10-150-А02-2",
+        "field": "H",
+        "expected": "1600",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r7-c2",
+        "identity": "ОСК 10-150-А02-2",
+        "field": "D1",
+        "expected": null,
+        "status": "missing"
+      },
+      {
+        "id": "t1-r7-c3",
+        "identity": "ОСК 10-150-А02-2",
+        "field": "B1",
+        "expected": "□160",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r7-c4",
+        "identity": "ОСК 10-150-А02-2",
+        "field": "d1",
+        "expected": "4Ø18",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r7-c5",
+        "identity": "ОСК 10-150-А02-2",
+        "field": "D2",
+        "expected": null,
+        "status": "missing"
+      },
+      {
+        "id": "t1-r7-c6",
+        "identity": "ОСК 10-150-А02-2",
+        "field": "B2",
+        "expected": "□180",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r7-c7",
+        "identity": "ОСК 10-150-А02-2",
+        "field": "d2",
+        "expected": "4Ø18",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r8-c0",
+        "identity": "ОСК 10-150-Б-3",
+        "field": "Наименование",
+        "expected": "ОСК 10-150-Б-3",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r8-c1",
+        "identity": "ОСК 10-150-Б-3",
+        "field": "H",
+        "expected": "1700",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r8-c2",
+        "identity": "ОСК 10-150-Б-3",
+        "field": "D1",
+        "expected": "Ø127",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r8-c3",
+        "identity": "ОСК 10-150-Б-3",
+        "field": "B1",
+        "expected": null,
+        "status": "missing"
+      },
+      {
+        "id": "t1-r8-c4",
+        "identity": "ОСК 10-150-Б-3",
+        "field": "d1",
+        "expected": "4М16",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r8-c5",
+        "identity": "ОСК 10-150-Б-3",
+        "field": "D2",
+        "expected": "Ø200",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r8-c6",
+        "identity": "ОСК 10-150-Б-3",
+        "field": "B2",
+        "expected": null,
+        "status": "missing"
+      },
+      {
+        "id": "t1-r8-c7",
+        "identity": "ОСК 10-150-Б-3",
+        "field": "d2",
+        "expected": "4Ø18",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r9-c0",
+        "identity": "ОСК 10-150-Б01-3",
+        "field": "Наименование",
+        "expected": "ОСК 10-150-Б01-3",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r9-c1",
+        "identity": "ОСК 10-150-Б01-3",
+        "field": "H",
+        "expected": "1700",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r9-c2",
+        "identity": "ОСК 10-150-Б01-3",
+        "field": "D1",
+        "expected": "Ø127",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r9-c3",
+        "identity": "ОСК 10-150-Б01-3",
+        "field": "B1",
+        "expected": null,
+        "status": "missing"
+      },
+      {
+        "id": "t1-r9-c4",
+        "identity": "ОСК 10-150-Б01-3",
+        "field": "d1",
+        "expected": "4М16",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r9-c5",
+        "identity": "ОСК 10-150-Б01-3",
+        "field": "D2",
+        "expected": null,
+        "status": "missing"
+      },
+      {
+        "id": "t1-r9-c6",
+        "identity": "ОСК 10-150-Б01-3",
+        "field": "B2",
+        "expected": "□160",
+        "status": "missing"
+      },
+      {
+        "id": "t1-r9-c7",
+        "identity": "ОСК 10-150-Б01-3",
+        "field": "d2",
+        "expected": "4Ø18",
+        "status": "missing"
+      }
+    ],
+    "full_page_accuracy": false
+  },
+  "fixture_sha256": "86e767f7af5fdbc24d208112c9c1b6c2b1a3771e3348a130f179db4e7d4ac8b6",
+  "candidate_sha256": "41c0a28ebf0fb1ee9db2f56d815b64c38edcad0ed6bbab8400c783f890330468",
+  "source_binding": "caller-selected plain page artifact",
+  "grader_sha256": "24b64859fd690d11afd8477c69a0f84336a28338ac0b49981e5300055364d57a"
+}
