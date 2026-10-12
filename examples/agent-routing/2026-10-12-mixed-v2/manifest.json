@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "status": "provider_quota_hold",
+  "status": "running",
   "dataset_id": "engineering-catalogs-v2",
   "dataset_version": "2.0.0",
   "grader_release": "0.3.0",
@@ -199,5 +199,8 @@
     "package_version": "1.4.11",
     "source_code_sha256": "a62de4071a7f9f3a2408143dc746df79ed0cf44ea56bac7b786fb7c76c43a81b",
     "python_version": "3.12.13"
-  }
+  },
+  "rounds_finished": false,
+  "all_pages_accepted": false,
+  "initial_quota_hold_expired": true
 }
