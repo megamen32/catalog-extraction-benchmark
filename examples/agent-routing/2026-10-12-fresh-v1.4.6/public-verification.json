@@ -1,0 +1,40 @@
+{
+  "public_revision": "e3f70b869a34f1e594c60d754bcc607521ebf1cd",
+  "public_files_verified": 41,
+  "public_attempts_verified": 45,
+  "downloaded_sha_matches": true,
+  "all_outputs_regraded": true,
+  "grader_distribution_version": "0.2.4",
+  "grader_module_version": "0.2.4",
+  "grader_algorithm_sha256": "ec83ce4c6596596dc55c1ec2203b6facdc407839ca4d2d2e24d6b0755731f31a",
+  "round_correct": [
+    450,
+    469,
+    471
+  ],
+  "failed_attempts": [
+    [
+      "catalog-2-page-149",
+      "catalog-5-page-126"
+    ],
+    [
+      "catalog-1-page-022",
+      "catalog-3-page-108"
+    ],
+    []
+  ],
+  "failed_attempts_in_fixed_denominator": true,
+  "elapsed_seconds": 17.94367086503189,
+  "public_verifier_sha256": "38152233a0910fa2d63eda5a1fce0a18d2e4402b0870ca15d1b88d8d92545cb2",
+  "released_grader_installation": {
+    "source_revision": "836708a",
+    "distribution_version": "0.2.4",
+    "module_version": "0.2.4",
+    "grader_algorithm_sha256": "ec83ce4c6596596dc55c1ec2203b6facdc407839ca4d2d2e24d6b0755731f31a",
+    "wheel_sha256": "246c03e1f83a694d1febf72f6755ed5760e4b1196cfb602de21e6e00fe0a9d01",
+    "runtime_versions": {
+      "pydantic": "2.14.1",
+      "pymupdf": "1.28.2"
+    }
+  }
+}
