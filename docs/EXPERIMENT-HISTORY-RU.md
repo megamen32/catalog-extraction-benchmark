@@ -142,7 +142,6 @@ Vision-пробы страницы 78 показывают старую стро
 
 | Последняя публикация, UTC | Доказательство |
 |---|---|
-| ещё не закоммичен | [examples/agent-routing/2026-10-12-corrected-v032/first-pass-round-1/round.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-12-corrected-v032/first-pass-round-1/round.json) |
 | 2026-10-12T07:19:05+03:00 | [examples/parser-outputs/2026-10-12/manifest.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/parser-outputs/2026-10-12/manifest.json) |
 | 2026-10-12T08:25:09+03:00 | [examples/parser-outputs/2026-10-12/regrade-v0.2.2.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/parser-outputs/2026-10-12/regrade-v0.2.2.json) |
 | 2026-10-12T08:28:57+03:00 | [examples/agent-routing/2026-10-12-v1.4.1/manifest.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-12-v1.4.1/manifest.json) |
@@ -164,5 +163,6 @@ Vision-пробы страницы 78 показывают старую стро
 | 2026-10-12T21:09:17+03:00 | [examples/agent-routing/2026-10-12-mixed-v2/first-pass-round-2/summary.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-12-mixed-v2/first-pass-round-2/summary.json) |
 | 2026-10-12T21:11:57+03:00 | [examples/offline-regrading/2026-10-12-v032/summary.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/offline-regrading/2026-10-12-v032/summary.json) |
 | 2026-10-13T00:00:19+03:00 | [examples/agent-routing/2026-10-12-corrected-v032/manifest.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-12-corrected-v032/manifest.json) |
+| 2026-10-13T00:34:22+03:00 | [examples/agent-routing/2026-10-12-corrected-v032/first-pass-round-1/round.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-12-corrected-v032/first-pass-round-1/round.json) |
 
 Воспроизвести индекс: `python3 ops/render-experiment-history.py`. Команда только читает опубликованные результаты и создаёт эту страницу и JSON-сводку; парсеры и модели не запускаются.
