@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "status": "running",
+  "status": "stopped_after_user_requested_corrected_profile",
   "dataset_id": "engineering-catalogs-v2",
   "dataset_version": "2.0.0",
   "grader_release": "0.3.0",
@@ -202,5 +202,8 @@
   },
   "rounds_finished": false,
   "all_pages_accepted": false,
-  "initial_quota_hold_expired": true
+  "initial_quota_hold_expired": true,
+  "legacy_round3_not_started": true,
+  "retained_initial_rounds": 2,
+  "stop_method": "scheduler admission stopped; existing native call naturally completed and receipt verified before empty owned unit stopped"
 }

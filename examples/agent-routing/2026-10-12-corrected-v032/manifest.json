@@ -1,0 +1,261 @@
+{
+  "schema_version": "2.0",
+  "status": "prepared",
+  "dataset_id": "engineering-catalogs-v2",
+  "dataset_version": "2.0.0",
+  "primary_grader_release": "0.3.2",
+  "primary_grader_sha256": "f091872c67af7e410490df6b590cb8ac03a05eb6e615351ed281c4ae1687e21d",
+  "runner_component_version": "0.1.0",
+  "rounds_planned": 3,
+  "selected_pages_per_round": 17,
+  "engineering_assertions_per_round": 520,
+  "drawing_assertions_per_round": 21,
+  "native_roles": {
+    "extractor": {
+      "program": {
+        "package_version": "1.4.15",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+        "python_version": "3.12.13",
+        "components": {
+          "agent_logic": {
+            "package_version": "1.4.2",
+            "git_revision": null,
+            "dirty": null,
+            "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+            "python_version": "3.12.13"
+          },
+          "catalog_tools": {
+            "package_version": "1.4.8",
+            "git_revision": null,
+            "dirty": null,
+            "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+            "python_version": "3.12.13"
+          },
+          "legacy_skills": {
+            "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+            "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+          },
+          "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+          "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+          "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+          "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+        }
+      },
+      "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium"
+    },
+    "reviewer": {
+      "program": {
+        "package_version": "1.4.17",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "fff9569e21c4b5fcc401ede854f652c8cfeff4aa46611ef1f4bc6c34788ed021",
+        "python_version": "3.12.13"
+      },
+      "contract_sha256": "c73c47d085f908594ae59f64f00db5708525a6d8807c0d541c029f7f212872e2",
+      "model": "zai.glm-5.3-flash?reasoning=low"
+    }
+  },
+  "observed_sdk_versions": {
+    "extractor": {
+      "fast_agent_version": "0.10.43",
+      "mcp_version": "2.3.0"
+    },
+    "reviewer": {
+      "fast_agent_version": "0.10.43",
+      "mcp_version": "2.3.0"
+    }
+  },
+  "extractor_parser_plugin": {
+    "name": "catalog-parsers",
+    "version": "0.2.1",
+    "sha256": "7037438d73a283093f30196f6b9977767f944552878b688ce0f3d544847972e8"
+  },
+  "reviewer_endpoint": "https://api.z.ai/api/coding/paas/v4/",
+  "method": {
+    "fresh_sequential_rounds": true,
+    "fresh_native_contexts": true,
+    "primary_scoring": "supported aliases offline scorer0.3.2, same fixed520+21 source assertions",
+    "gold_and_external_audit_leads_given_to_models": false,
+    "maximum_extra_calls_per_provider": 1,
+    "max_repairs": null,
+    "extractor_call_timeout_seconds": 900,
+    "reviewer_call_timeout_seconds": 1200,
+    "round_active_budget_seconds": 10800,
+    "round_wall_maximum_seconds": 28800,
+    "quota_wait_excluded_from_active_budget": true,
+    "post_gate_neighbor_quota_recheck": true,
+    "native_calls_naturally_drained_on_admission_stop_or_window_expiry": true,
+    "failed_nonaccepted_delivery_facts_zero": true,
+    "first_pass_draft_and_accepted_stages_separate": true,
+    "historical_500_facts_not_in_expanded_percentages": true,
+    "project_x_existing_six_rounds_reused_no_new_calls": true,
+    "first_pass_comparison_stage": "initial native extractor saved output versus Project X saved native Vision integration output; reviewed accepted delivery separate",
+    "percentages_reported_separately": {
+      "engineering": 520,
+      "drawing": 21,
+      "combined": 541
+    },
+    "distributions_from_unrounded_counts": true,
+    "outer_runtime_maximum_seconds": 100800
+  },
+  "cases": [
+    {
+      "id": "catalog-1-page-027",
+      "physical_page": 27,
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "engineering_expected": 10,
+      "drawing_expected": 13,
+      "fixture_sha256": "77094a2eda355eb504370827d8c0fb11b1439ee8d3a0d8cdd962cd1ecc48c29f"
+    },
+    {
+      "id": "catalog-1-page-039",
+      "physical_page": 39,
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "engineering_expected": 10,
+      "drawing_expected": 8,
+      "fixture_sha256": "ea7e1bfaad49b9b8f331fc9fddce2142cc780bb0d35fc35b6610bd07b3dd7cb3"
+    },
+    {
+      "id": "catalog-1-page-017",
+      "physical_page": 17,
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "engineering_expected": 15,
+      "drawing_expected": 0,
+      "fixture_sha256": "5147637fe66b27a76079c3ee59c948d4f30963f40ec03649d9ac0ee3c57ccec4"
+    },
+    {
+      "id": "catalog-1-page-022",
+      "physical_page": 22,
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "engineering_expected": 15,
+      "drawing_expected": 0,
+      "fixture_sha256": "a1187e1a23848883bfb7d776a1289e3ccc09f9675493c1e5b4def85be8589654"
+    },
+    {
+      "id": "catalog-1-page-026",
+      "physical_page": 26,
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "engineering_expected": 15,
+      "drawing_expected": 0,
+      "fixture_sha256": "f1defb41f76e7a075e441132a7d6c01200a1aff344064786b8e07cd64d7416b1"
+    },
+    {
+      "id": "catalog-2-page-060",
+      "physical_page": 60,
+      "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+      "engineering_expected": 15,
+      "drawing_expected": 0,
+      "fixture_sha256": "93cf32c6d3a26326831fb0bb6152f3bf62ffd6897c1a1af554a91a97e0a64c3a"
+    },
+    {
+      "id": "catalog-2-page-149",
+      "physical_page": 149,
+      "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+      "engineering_expected": 15,
+      "drawing_expected": 0,
+      "fixture_sha256": "626e9f586350ffcc8b7eb947fa91e1b98c2434558ffe8454c4a35492d02848da"
+    },
+    {
+      "id": "catalog-2-page-185",
+      "physical_page": 185,
+      "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+      "engineering_expected": 15,
+      "drawing_expected": 0,
+      "fixture_sha256": "4b12ce1f6ace967f9b3339ee129ff14b8928454f53cd069001800a7317d28d4a"
+    },
+    {
+      "id": "catalog-3-page-103",
+      "physical_page": 103,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "engineering_expected": 15,
+      "drawing_expected": 0,
+      "fixture_sha256": "9b905e94740f8ee8fc715e93b4b5d57d1177d58d0450becf8107380347a260d9"
+    },
+    {
+      "id": "catalog-3-page-108",
+      "physical_page": 108,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "engineering_expected": 15,
+      "drawing_expected": 0,
+      "fixture_sha256": "82e19efe34b7ca874e3e463e551ebb0eaef8006b5a7f725eca883c4ac1f35597"
+    },
+    {
+      "id": "catalog-3-page-111",
+      "physical_page": 111,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "engineering_expected": 15,
+      "drawing_expected": 0,
+      "fixture_sha256": "928708a691d82dd302c54ad59a195c20a5864659f0d788aa4a50a4f5359640ea"
+    },
+    {
+      "id": "catalog-4-page-033",
+      "physical_page": 33,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "engineering_expected": 108,
+      "drawing_expected": 0,
+      "fixture_sha256": "ea8408c3e91fc2b5f66964af2f0912bddaae85595fdac3947186708ba5aaf7bb"
+    },
+    {
+      "id": "catalog-4-page-038",
+      "physical_page": 38,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "engineering_expected": 72,
+      "drawing_expected": 0,
+      "fixture_sha256": "51edf1540e5eaa22f66844b6259ebe661885f7d583f0596b567b9ed7a9713589"
+    },
+    {
+      "id": "catalog-4-page-078",
+      "physical_page": 78,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "engineering_expected": 140,
+      "drawing_expected": 0,
+      "fixture_sha256": "86e767f7af5fdbc24d208112c9c1b6c2b1a3771e3348a130f179db4e7d4ac8b6"
+    },
+    {
+      "id": "catalog-5-page-030",
+      "physical_page": 30,
+      "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+      "engineering_expected": 15,
+      "drawing_expected": 0,
+      "fixture_sha256": "504a0a03fecef9240051ae24d714941ff0c8632667b60a3a83ce4e6bc2e15eed"
+    },
+    {
+      "id": "catalog-5-page-035",
+      "physical_page": 35,
+      "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+      "engineering_expected": 15,
+      "drawing_expected": 0,
+      "fixture_sha256": "d260784f7d7f58b7ca010d0299c35804f34ec21e47702c70dbdad09bd6b9ae61"
+    },
+    {
+      "id": "catalog-5-page-126",
+      "physical_page": 126,
+      "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+      "engineering_expected": 15,
+      "drawing_expected": 0,
+      "fixture_sha256": "a2123b1f211f87319036dd97bcc5ad09efa5e7c120ca936cc8ff2da771703a4c"
+    }
+  ],
+  "source_pdfs_included": false,
+  "full_page_accuracy": false,
+  "inherited_accuracy": false,
+  "experimental_profile": "composition15 (native logic142/tools148) → literal quotation reviewer17; separate from FULL20 composition15→148",
+  "initial_source_inputs_count": 147,
+  "legacy_profile_status": "stopped naturally after two initial rounds; original scores unchanged",
+  "public_outputs_exclude_transcripts": true,
+  "public_version_tags": [
+    {
+      "version": "1.4.15",
+      "tag_revision": "0ee0966",
+      "release": "https://github.com/megamen32/catalog-to-json/releases/tag/v1.4.15"
+    },
+    {
+      "version": "1.4.17",
+      "tag_revision": "8766bd5",
+      "release": "https://github.com/megamen32/catalog-to-json/releases/tag/v1.4.17"
+    }
+  ]
+}
