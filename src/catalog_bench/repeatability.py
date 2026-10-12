@@ -32,14 +32,16 @@ def distribution(values):
             'range':max(values)-min(values),'sample_standard_deviation':statistics.stdev(values) if len(values)>1 else None}
 
 
-def validate_variant(variant,suite,initial):
+def validate_variant(variant,suite,initial=None):
     if sha(variant['suite'])!=variant['suite_sha256']:raise ValueError('Frozen suite changed')
     for filename,digest in variant['file_sha256'].items():
         if sha(filename)!=digest:raise ValueError('Frozen executable/config input changed')
     project=suite['projects'][0]
     if project['version']!=variant['declared_version'] or suite['models']!=[variant['model']]:raise ValueError('Frozen model/program selection changed')
     cases={c['id']:c for c in suite['cases']}
-    if len(cases)!=len(suite['cases']) or len({r['case_id'] for r in initial['runs']})!=len(initial['runs']) or {r['case_id'] for r in initial['runs']}!=set(cases):raise ValueError('Initial cohort case IDs must match exactly once')
+    if len(cases)!=len(suite['cases']):raise ValueError('Initial cohort case IDs must match exactly once')
+    if initial is None:return
+    if len({r['case_id'] for r in initial['runs']})!=len(initial['runs']) or {r['case_id'] for r in initial['runs']}!=set(cases):raise ValueError('Initial cohort case IDs must match exactly once')
     for record in initial['runs']:
         case=cases[record['case_id']]
         if record['source_sha256']!=sha(case['source']) or record['page']!=case['page'] or record['model']!=variant['model'] or record['project']!=project['id'] or record['stage']!=project['stage']:raise ValueError('Retained initial source/model/stage binding changed')
@@ -54,26 +56,34 @@ def run(plan_file,output):
     plan=json.loads(plan_file.read_text());started=time.monotonic();maximum=plan['max_concurrency']
     if not 1<=plan['initial_concurrency']<=maximum<=4:raise ValueError('Concurrency must stay in the measured finite budget, maximum4')
     if plan['rounds']<3:raise ValueError('At least3 complete rounds required')
+    mode=plan.get('initial_mode','retained')
+    if mode not in ('fresh','retained'):raise ValueError('Initial mode must be fresh or retained')
+    fresh=mode=='fresh'
+    if fresh and any('initial_results' in v or 'initial_sha256' in v for v in plan['variants']):raise ValueError('Fresh rounds cannot retain a historical initial cohort')
     ids=[v['id'] for v in plan['variants']]
     if len(ids)!=len(set(ids)) or set(ids)!=set(plan['expected_bindings']):raise ValueError('Unique variants and independent expected bindings are required')
     variants={};bindings={};expected={};rounds={};limit=plan['initial_concurrency'];history=[];good=0;cooldown=0
     for variant in plan['variants']:
-        suite=json.loads(Path(variant['suite']).read_text());initial=json.loads(Path(variant['initial_results']).read_text())
-        if sha(variant['initial_results'])!=variant['initial_sha256']:raise ValueError('Retained first round changed')
-        if not initial['complete'] or len(initial['runs'])!=len(suite['cases']):raise ValueError('Initial round lacks a complete attempted cohort')
+        suite=json.loads(Path(variant['suite']).read_text());initial=None
+        if not fresh:
+            initial=json.loads(Path(variant['initial_results']).read_text())
+            if sha(variant['initial_results'])!=variant['initial_sha256']:raise ValueError('Retained first round changed')
+            if not initial['complete'] or len(initial['runs'])!=len(suite['cases']):raise ValueError('Initial round lacks a complete attempted cohort')
         if len(suite['projects'])!=1 or len(suite['models'])!=1 or suite['repeats']!=1:raise ValueError('Each frozen variant requires one project/model per round')
         if any(variant.get(k)!=v for k,v in plan['expected_bindings'][variant['id']].items()):raise ValueError('Variant contradicts independently recorded expected bindings')
         validate_variant(variant,suite,initial)
         bindings[variant['id']]=variant
-        variants[variant['id']]=suite;rounds[variant['id']]=[initial['runs']]
-        for record in initial['runs']:
-            fixture=next(c['fixture'] for c in suite['cases'] if c['id']==record['case_id'])
+        variants[variant['id']]=suite;rounds[variant['id']]=[] if fresh else [initial['runs']]
+        records=suite['cases'] if fresh else initial['runs']
+        for record in records:
+            case_id=record['id'] if fresh else record['case_id']
+            fixture=next(c['fixture'] for c in suite['cases'] if c['id']==case_id)
             golden=json.loads(Path(fixture).read_text())
-            # The initial grader receipt fixes the denominator, including its unavailable cases.
-            count=record.get('score',{}).get('engineering_facts',{}).get('expected')
-            if count is None:count=plan['expected_by_case'][record['case_id']]
-            if record['case_id'] in expected and expected[record['case_id']]!=count:raise ValueError('Different fixed denominators')
-            expected[record['case_id']]=count
+            # A fresh series derives its denominator from the frozen independent annotations.
+            count=sum(sum(len(row) for row in table['rows']) for table,_ in zip(golden.get('tables',[]),golden.get('semantic_columns',[])))+len(golden.get('selected_facts',[])) if fresh else record.get('score',{}).get('engineering_facts',{}).get('expected')
+            if count is None:count=plan['expected_by_case'][case_id]
+            if case_id in expected and expected[case_id]!=count:raise ValueError('Different fixed denominators')
+            expected[case_id]=count
     if set(expected)!=set(plan['expected_by_case']) or expected!=plan['expected_by_case']:raise ValueError('Fixed denominator contradicts first round')
     def attempt(variant,case,round_number):
         work=output/f'round-{round_number}'/variant/case['id'];work.mkdir(parents=True,exist_ok=True)
@@ -96,7 +106,7 @@ def run(plan_file,output):
         limited=bool(RATE_LIMIT.search(logs));record['rate_limit_observed']=limited
         return record,limited
     def snapshot(status):
-        result={'status':status,'rounds_required':plan['rounds'],'initial_rounds_retained':True,
+        result={'status':status,'rounds_required':plan['rounds'],'initial_rounds_retained':not fresh,
                 'concurrency_history':history,'variants':{},'whole_page_accuracy':False,'failed_attempts_in_denominator':True}
         for variant,cohorts in rounds.items():
             summaries=[round_summary(records,expected) for records in cohorts]
@@ -107,7 +117,7 @@ def run(plan_file,output):
         write_json(output/'results.json',result)
     snapshot('running')
     with concurrent.futures.ThreadPoolExecutor(max_workers=maximum) as pool:
-        for number in range(2,plan['rounds']+1):
+        for number in range(1 if fresh else 2,plan['rounds']+1):
             cases=list(next(iter(variants.values()))['cases']);random.Random(plan['random_seed']+number).shuffle(cases)
             pending=[(v,next(c for c in variants[v]['cases'] if c['id']==case['id'])) for case in cases for v in variants]
             for v in variants:rounds[v].append([])
