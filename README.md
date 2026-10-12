@@ -8,6 +8,8 @@ Compare PDF catalogue parsers against independently reviewed engineering facts.
 - Run explicit **project × model** matrices with bounded execution and reusable artifacts.
 - Keep literal transcription, engineering correctness and annotation coverage separate.
 
+**[Единая история всех испытаний: версии, три раунда, разброс, время и параллельные оценки](docs/EXPERIMENT-HISTORY-RU.md)** · [JSON-сводка](examples/experiment-history.json)
+
 ## Install
 
 Requires Python 3.11+ and [uv](https://docs.astral.sh/uv/).

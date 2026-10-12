@@ -1,0 +1,2983 @@
+{
+  "schema_version": "1.0",
+  "accuracy_scope": "selected source-reviewed facts, not full pages",
+  "datasets": {
+    "v1": {
+      "pages": 15,
+      "engineering": 500,
+      "drawing": 0
+    },
+    "v2": {
+      "pages": 17,
+      "engineering": 520,
+      "drawing": 21
+    }
+  },
+  "additional_model_or_parser_calls": 0,
+  "source_receipts": {
+    "examples/agent-routing/2026-10-12-v1.4.1/manifest.json": {
+      "sha256": "4243f08156c8e5486bbc0f5ad47298d61c416735cd099252aed285d4338527a9",
+      "last_commit_time": "2026-10-12T08:28:57+03:00"
+    },
+    "examples/agent-routing/2026-10-12-repeated-runs/manifest.json": {
+      "sha256": "ed73615fb66f690baf9fa67e44484a74e8e32ba07ecd4e9443d74e4b8cf637f7",
+      "last_commit_time": "2026-10-12T13:43:51+03:00"
+    },
+    "examples/agent-routing/2026-10-12-repeated-runs/regrade-v0.2.4.json": {
+      "sha256": "9a1a7f013d28ea33fa369016ab4f411fd0a86ae4bc5ac0c10ba9af9023db1871",
+      "last_commit_time": "2026-10-12T13:43:51+03:00"
+    },
+    "examples/agent-routing/2026-10-12-fresh-v1.4.6/manifest.json": {
+      "sha256": "64cbf6df5877839bda1fc7f64f75f3b0ec5ac1239de8ada1ed6d1abfd4413c39",
+      "last_commit_time": "2026-10-12T15:36:21+03:00"
+    },
+    "examples/offline-regrading/2026-10-12-v032/summary.json": {
+      "sha256": "c4e1c7fe98c4ce6c8ebf76a363510296ee1671f342a5d27be97b468a2f9d493a",
+      "last_commit_time": "2026-10-12T21:11:57+03:00"
+    },
+    "examples/agent-routing/2026-10-12-mixed-v2/first-pass-round-1/summary.json": {
+      "sha256": "f257d86a241c8fe2c4ffcc440ccfd8fefdfb1c0f1caeec97ce1457452831d0a0",
+      "last_commit_time": "2026-10-12T19:28:20+03:00"
+    },
+    "examples/agent-routing/2026-10-12-mixed-v2/first-pass-round-2/summary.json": {
+      "sha256": "eaf6a52e0d06f37f374450948cebf8fb34ab85a806ef55c9c177360c624197ea",
+      "last_commit_time": "2026-10-12T21:09:17+03:00"
+    },
+    "examples/project-x/2026-10-12-native-vision-v1-full/manifest.json": {
+      "sha256": "ce329103fb7642ffbe253c6ecd7e96273bd49baddab6b1a2ea0aaf8954adedfd",
+      "last_commit_time": "2026-10-12T21:00:29+03:00"
+    },
+    "examples/project-x/2026-10-12-native-vision-v1-full/summary.json": {
+      "sha256": "952c57442fc606a31b9b7b43ea8f0e81f642b069221129435ac8d021f86cb818",
+      "last_commit_time": "2026-10-12T21:00:29+03:00"
+    },
+    "examples/project-x/2026-10-12-native-vision-v1-full/glm-5.3-flash/round-1/results.json": {
+      "sha256": "1a21ac70c3b330f3cb3d129d80624b92386b7dd9153a62ab7de05ba2f5c1adfb",
+      "last_commit_time": "2026-10-12T21:00:29+03:00"
+    },
+    "examples/project-x/2026-10-12-native-vision-v1-full/glm-5.3-flash/round-2/results.json": {
+      "sha256": "c47a9ffc0c08e9f40827cc9170885073a4188fb858727d0b9b946d43c461b389",
+      "last_commit_time": "2026-10-12T21:00:29+03:00"
+    },
+    "examples/project-x/2026-10-12-native-vision-v1-full/glm-5.3-flash/round-3/results.json": {
+      "sha256": "4874bcf6258c7040d7729f471ca51efeeb9ab78cf8279f3bd1d14982dbbbb8ba",
+      "last_commit_time": "2026-10-12T21:00:29+03:00"
+    },
+    "examples/project-x/2026-10-12-native-vision-v1-full/MiniMax-M3.1-Flash-Preview/round-1/results.json": {
+      "sha256": "93ffcddc9d1dd478662c5b9858c032c58af7430c35a61792cdf655e7b2512090",
+      "last_commit_time": "2026-10-12T21:00:29+03:00"
+    },
+    "examples/project-x/2026-10-12-native-vision-v1-full/MiniMax-M3.1-Flash-Preview/round-2/results.json": {
+      "sha256": "4b67f9e6f63b03ad944060cb3b99784cb4ed7b4fe3501b127de1036714cb1e49",
+      "last_commit_time": "2026-10-12T21:00:29+03:00"
+    },
+    "examples/project-x/2026-10-12-native-vision-v1-full/MiniMax-M3.1-Flash-Preview/round-3/results.json": {
+      "sha256": "fcb3ea977ef156c07b60bb345128dfb79966a00c405b0aef94ca9e0351825286",
+      "last_commit_time": "2026-10-12T21:00:29+03:00"
+    },
+    "examples/project-x/2026-10-12/manifest.json": {
+      "sha256": "b2074fbf53cc108d97152bc25693b66c8cae5dfffe6f71a0423a73c18d53484c",
+      "last_commit_time": "2026-10-12T17:46:17+03:00"
+    },
+    "examples/agent-routing/2026-10-12-corrected-v032/manifest.json": {
+      "sha256": "8785843e42db519adc2fa06664bd8fc6e0816c392e6e396bf18bc8e94fe34a1d",
+      "last_commit_time": "2026-10-13T00:00:19+03:00"
+    },
+    "examples/parser-outputs/2026-10-12/manifest.json": {
+      "sha256": "0748d06ed14efe5c88e2335b7d7e1e0ae4ec0869e50e6b35d47076e6d38ba0ce",
+      "last_commit_time": "2026-10-12T07:19:05+03:00"
+    },
+    "examples/parser-outputs/2026-10-12/regrade-v0.2.2.json": {
+      "sha256": "38cbc8652d8b4ccfd429dd624faeed630d60fcbf2565fae5a5c1f82596ca978b",
+      "last_commit_time": "2026-10-12T08:25:09+03:00"
+    }
+  },
+  "experiments": [
+    {
+      "id": "v141-baseline",
+      "label": "1.4.1 / baseline",
+      "dataset": "v1",
+      "stage": "first_pass",
+      "primary_grader": "0.2.2",
+      "rounds": [
+        {
+          "round": 1,
+          "evaluations": {
+            "0.2.2": {
+              "engineering_correct": 479,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            }
+          },
+          "valid_pages": 14,
+          "expected_pages": 15,
+          "elapsed_seconds": 2774.459,
+          "elapsed_definition": "sum of native attempt durations"
+        }
+      ],
+      "receipts": [
+        "examples/agent-routing/2026-10-12-v1.4.1/manifest.json"
+      ],
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "protocol": {
+        "program_revision": "ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "contract_sha256": "1e7ab4a211aeddfbeb683b5e4c50c8ea93012f644a38d2b9e058ddbf6c873850",
+        "max_tokens": 16384,
+        "runtime_versions": {
+          "catalog-to-json": "1.4.1",
+          "fast-agent-mcp": "0.10.43",
+          "pymupdf": "1.28.2",
+          "pydantic": "2.13.5",
+          "anthropic": "1.11.0"
+        }
+      },
+      "complete": true,
+      "planned_rounds": 1,
+      "engineering_distribution": null,
+      "drawing_distribution": null
+    },
+    {
+      "id": "v141-extended",
+      "label": "1.4.1 / extended",
+      "dataset": "v1",
+      "stage": "first_pass",
+      "primary_grader": "0.2.2",
+      "rounds": [
+        {
+          "round": 1,
+          "evaluations": {
+            "0.2.2": {
+              "engineering_correct": 467,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            }
+          },
+          "valid_pages": 15,
+          "expected_pages": 15,
+          "elapsed_seconds": 2022.972,
+          "elapsed_definition": "sum of native attempt durations"
+        }
+      ],
+      "receipts": [
+        "examples/agent-routing/2026-10-12-v1.4.1/manifest.json"
+      ],
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "protocol": {
+        "program_revision": "ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "contract_sha256": "1e7ab4a211aeddfbeb683b5e4c50c8ea93012f644a38d2b9e058ddbf6c873850",
+        "max_tokens": 16384,
+        "runtime_versions": {
+          "catalog-to-json": "1.4.1",
+          "fast-agent-mcp": "0.10.43",
+          "pymupdf": "1.28.2",
+          "pydantic": "2.13.5",
+          "anthropic": "1.11.0"
+        }
+      },
+      "complete": true,
+      "planned_rounds": 1,
+      "engineering_distribution": null,
+      "drawing_distribution": null
+    },
+    {
+      "id": "v142",
+      "label": "1.4.2",
+      "dataset": "v1",
+      "stage": "first_pass",
+      "primary_grader": "0.2.4",
+      "rounds": [
+        {
+          "round": 1,
+          "evaluations": {
+            "0.2.2": {
+              "engineering_correct": 483,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            },
+            "0.2.4": {
+              "engineering_correct": 483,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            }
+          },
+          "valid_pages": 14,
+          "expected_pages": 15,
+          "elapsed_seconds": 2624.5009999999997,
+          "elapsed_definition": "sum of attempt durations, overlapping when concurrent",
+          "retained_first_round": true
+        },
+        {
+          "round": 2,
+          "evaluations": {
+            "0.2.2": {
+              "engineering_correct": 463,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            },
+            "0.2.4": {
+              "engineering_correct": 463,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            }
+          },
+          "valid_pages": 14,
+          "expected_pages": 15,
+          "elapsed_seconds": 2853.076,
+          "elapsed_definition": "sum of attempt durations, overlapping when concurrent",
+          "retained_first_round": false
+        },
+        {
+          "round": 3,
+          "evaluations": {
+            "0.2.2": {
+              "engineering_correct": 406,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            },
+            "0.2.4": {
+              "engineering_correct": 466,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            }
+          },
+          "valid_pages": 13,
+          "expected_pages": 15,
+          "elapsed_seconds": 3450.265,
+          "elapsed_definition": "sum of attempt durations, overlapping when concurrent",
+          "retained_first_round": false
+        }
+      ],
+      "receipts": [
+        "examples/agent-routing/2026-10-12-repeated-runs/manifest.json",
+        "examples/agent-routing/2026-10-12-repeated-runs/regrade-v0.2.4.json"
+      ],
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "protocol": {
+        "program_version": "1.4.2",
+        "program_revision": "3823111b737afb706f4a0a6ec08353d9561ceea3",
+        "wheel_sha256": "326a19e5c0a6980d758ceb05231583ab74101ab78c22b399cd051442c96e09e1",
+        "contract_sha256": "aa97a446c59b5a207fd1ab84542de68a56c8d05e595fabde973e24da9ccc405d",
+        "agent_plugins": [
+          {
+            "name": "catalog-parsers",
+            "version": "0.2.1",
+            "sha256": "7037438d73a283093f30196f6b9977767f944552878b688ce0f3d544847972e8"
+          }
+        ],
+        "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+        "runtime_versions": {
+          "catalog-to-json": "1.4.2",
+          "fast-agent-mcp": "0.10.43",
+          "pymupdf": "1.28.2",
+          "pydantic": "2.13.5",
+          "anthropic": "1.11.0"
+        },
+        "max_tokens": 16384,
+        "call_timeout_seconds": 900,
+        "adapter_timeout_seconds": 930,
+        "retained_first_cohort": "../2026-10-12-body-routing-v1.4.2/manifest.json",
+        "frozen_runtime_input_sha256": [
+          {
+            "file": "$BENCHMARK/.tmp/body-routing-v142/suite.json",
+            "sha256": "1bd3969d0717fa573a148b117639b1e9833a8e7fcad2ee780f261e285a3e1425"
+          },
+          {
+            "file": "$BENCHMARK/.tmp/body-routing-v142/matrix/results.json",
+            "sha256": "c9d395c30c2511e19c21bc13adf8e1ef45760a31ddfbe020b8ca9f66cc37864c"
+          },
+          {
+            "file": "$BENCHMARK/examples/agent-routing/2026-10-12-body-routing-v1.4.2/manifest.json",
+            "sha256": "fe9a9f836e89b343f32ddbc60432a3de51f989891adf19e1481bb2ca2bcf3818"
+          },
+          {
+            "file": "$PROGRAM/.tmp/routing-policy-vnext/env/bin/python",
+            "sha256": "9ed008e5a8685235361f0c53771b520ab082dd99a877ad2fd796a93fa4c0b488"
+          },
+          {
+            "file": "$PROGRAM/.tmp/routing-policy-vnext/extract.py",
+            "sha256": "23bad5bb640e08e05a53254df2c7bc95a92256f0ff04ef15c80c76e74b441d52"
+          },
+          {
+            "file": "$PROGRAM/.tmp/routing-policy-vnext/freeze.json",
+            "sha256": "3cd6155caa265abc4e5ac3f95d045e8392e05b5aaa51d37b7c124309dd929771"
+          },
+          {
+            "file": "$PROGRAM/.tmp/routing-policy-vnext/protected-call.py",
+            "sha256": "2877da126e9b8dd6e68e3be9ab1ef5cdebdc62cfa94f307d9d230ec208d347ac"
+          },
+          {
+            "file": "$PROGRAM/.tmp/routing-policy-vnext/fast-agent.config.yaml",
+            "sha256": "1cacc0bef3d2c2161d0d9f42e364d40bfa1d7e4d60e7e0d5daafaff72dfce7b5"
+          },
+          {
+            "file": "$PROGRAM/.tmp/routing-policy-vnext/plugin-artifact.tar",
+            "sha256": "09535b0468734e59621ced0ee2ec91d4ce2475fc79c5ba96fe2030f95668f8df"
+          },
+          {
+            "file": "$PROGRAM/.tmp/expanded-parsers/executors.json",
+            "sha256": "a66af3699632e7f503c5ad6f6c76a19d98563e5729ccd1c12457aa2a0bb61811"
+          },
+          {
+            "file": "$PROGRAM/.tmp/routing-policy-vnext/env/lib/python3.12/site-packages/catalog_json/schema.py",
+            "sha256": "abdb48cdd1e23c71cb4d8a5362cbfdcc50726c8de1d12231b3b4265d176aa044"
+          },
+          {
+            "file": "$PROGRAM/.tmp/routing-policy-vnext/env/lib/python3.12/site-packages/catalog_json/tools.py",
+            "sha256": "b8cd6a0c10fa3a7ee5f8a4ee744e91186c70a61b88ef5c31b5ba81f757cdfa3d"
+          },
+          {
+            "file": "$PROGRAM/.tmp/routing-policy-vnext/env/lib/python3.12/site-packages/catalog_json/benchmark.py",
+            "sha256": "8fd72c57c19e6e60ba38adde8a7e55089fdea5f7825415a3cd79ef8186d9f24b"
+          },
+          {
+            "file": "$PROGRAM/.tmp/routing-policy-vnext/env/lib/python3.12/site-packages/catalog_json/__init__.py",
+            "sha256": "b90dbe54aebbf878f1ec7f50a6836bb5c595a4d991e003fc4732795258b6933d"
+          },
+          {
+            "file": "$PROGRAM/.tmp/routing-policy-vnext/env/lib/python3.12/site-packages/catalog_json/provenance.py",
+            "sha256": "b4dde23701e285e278386e0d1007a47391633ccbf78b39cf378b36370f1cf247"
+          },
+          {
+            "file": "$PROGRAM/.tmp/routing-policy-vnext/env/lib/python3.12/site-packages/catalog_json/cli.py",
+            "sha256": "3ce9a233229e949a4c7b228d4a7d6bfc7f167d1c2153871328e418c5e7967976"
+          },
+          {
+            "file": "$PROGRAM/.tmp/routing-policy-vnext/env/lib/python3.12/site-packages/catalog_json/native_batch.py",
+            "sha256": "8e76d01cc1c538345a14f10ec5353122dff2c6da21c65711e640c055102b637e"
+          },
+          {
+            "file": "$PROGRAM/.tmp/routing-policy-vnext/env/lib/python3.12/site-packages/catalog_json/batch.py",
+            "sha256": "e82d26234821aa14c69640021aa232088f54059058c02cf99f81b9968b844d38"
+          },
+          {
+            "file": "$PROGRAM/.tmp/routing-policy-vnext/env/lib/python3.12/site-packages/catalog_json/agents.py",
+            "sha256": "fe61783580eed4d3cf370420b70154d59df14b9b184988c4efdce17e200e5a4f"
+          },
+          {
+            "file": "$PROGRAM/.tmp/routing-policy-vnext/env/lib/python3.12/site-packages/catalog_json/plugin_inputs.py",
+            "sha256": "8113df2cdaf64bd8497bfeafb8479f26a56e62925d209501857364e113182bbd"
+          },
+          {
+            "file": "$PROGRAM/.tmp/routing-policy-vnext/env/lib/python3.12/site-packages/catalog_json/export.py",
+            "sha256": "cbe5c2f8653f5abe364dbb237f43b19eb5674537abc4da06402e0551253b2b44"
+          },
+          {
+            "file": "$PROGRAM/.tmp/routing-policy-vnext/env/lib/python3.12/site-packages/catalog_json/stage_worker.py",
+            "sha256": "aafab0061475536408128a94cfcbb57079dcc6a9f224dc9c72f81e283cca05db"
+          },
+          {
+            "file": "$PROGRAM/.tmp/routing-policy-vnext/env/lib/python3.12/site-packages/catalog_json/processes.py",
+            "sha256": "35258250bd30ff76cccedd7b45d4c2fbb158e001e04053cce43f837a7895abe5"
+          },
+          {
+            "file": "$PROGRAM/.tmp/routing-policy-vnext/env/lib/python3.12/site-packages/catalog_json/supervise.py",
+            "sha256": "e4a1275820a36c0864c9c212097480594589d039391de4e90ba0e425ccbf2972"
+          },
+          {
+            "file": "$PROGRAM/.tmp/routing-policy-vnext/env/lib/python3.12/site-packages/catalog_json/grid.py",
+            "sha256": "d9dc7551e9d152368801199570faa6e9696b5b200ec3613fbe5c038495f5f59a"
+          },
+          {
+            "file": "$PROGRAM/.tmp/routing-policy-vnext/env/lib/python3.12/site-packages/catalog_json/models.py",
+            "sha256": "7c95a9859f85357938ded5cd5a929b73e7d0cd5326dbd558ab545e923b144fda"
+          },
+          {
+            "file": "$PROGRAM/.tmp/routing-policy-vnext/env/lib/python3.12/site-packages/catalog_json/audit.py",
+            "sha256": "40b28491c44b255a416de7d4146c2272569ecd2713e607d1667b5768ee07b78e"
+          },
+          {
+            "file": "$PROGRAM/.tmp/routing-policy-vnext/env/lib/python3.12/site-packages/catalog_json/difficulty.py",
+            "sha256": "60a2189da420b101f8bd62b990762336e36460fd5744e1d0573c5e5c444684f9"
+          },
+          {
+            "file": "$PROGRAM/.tmp/routing-policy-vnext/env/lib/python3.12/site-packages/catalog_json/direct.py",
+            "sha256": "441002ec5dd76aa3e42fb88de7c47f76cc0e3bbed5638d8887657e7ada4955af"
+          },
+          {
+            "file": "$PROGRAM/.tmp/routing-policy-vnext/env/lib/python3.12/site-packages/catalog_json/staged.py",
+            "sha256": "0761c615699c540388d2c7f22789bdb02dd34e5a53788aa282afc17387356a62"
+          },
+          {
+            "file": "$PROGRAM/.tmp/routing-policy-vnext/env/lib/python3.12/site-packages/catalog_json/pipeline.py",
+            "sha256": "c89c107160bc096a60bab533a11fdcf995501d07fb2caec06911ed8e5e4eef07"
+          },
+          {
+            "file": "$PROGRAM/.tmp/routing-policy-vnext/env/lib/python3.12/site-packages/catalog_json/bench_runner.py",
+            "sha256": "e859370e352f81f46547b387d36fb56d279315dc3262be9eb8c403cea9005e54"
+          },
+          {
+            "file": "$PROGRAM/.tmp/routing-policy-vnext/env/lib/python3.12/site-packages/catalog_json/saved_results.py",
+            "sha256": "8c442d521905c9fd47f6d1a8ada6e1f3b9a9af0557eb8a5f117247c40cfe9d17"
+          },
+          {
+            "file": "$PROGRAM/.tmp/routing-policy-vnext/env/lib/python3.12/site-packages/catalog_json/skills/catalog-extract/SKILL.md",
+            "sha256": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0"
+          },
+          {
+            "file": "$PROGRAM/.tmp/routing-policy-vnext/env/lib/python3.12/site-packages/catalog_json/skills/catalog-review/SKILL.md",
+            "sha256": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+          }
+        ]
+      },
+      "complete": true,
+      "planned_rounds": 3,
+      "offline_regrade_model_calls": 0,
+      "engineering_distribution": {
+        "mean_percent": 94.13333333333333,
+        "sample_sd_pp": 2.15715862498179,
+        "minimum_percent": 92.6,
+        "maximum_percent": 96.6
+      },
+      "drawing_distribution": null
+    },
+    {
+      "id": "v144",
+      "label": "1.4.4",
+      "dataset": "v1",
+      "stage": "first_pass",
+      "primary_grader": "0.2.4",
+      "rounds": [
+        {
+          "round": 1,
+          "evaluations": {
+            "0.2.2": {
+              "engineering_correct": 368,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            },
+            "0.2.4": {
+              "engineering_correct": 368,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            }
+          },
+          "valid_pages": 14,
+          "expected_pages": 15,
+          "elapsed_seconds": 3759.147,
+          "elapsed_definition": "sum of attempt durations, overlapping when concurrent",
+          "retained_first_round": true
+        },
+        {
+          "round": 2,
+          "evaluations": {
+            "0.2.2": {
+              "engineering_correct": 341,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            },
+            "0.2.4": {
+              "engineering_correct": 341,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            }
+          },
+          "valid_pages": 14,
+          "expected_pages": 15,
+          "elapsed_seconds": 3059.0389999999993,
+          "elapsed_definition": "sum of attempt durations, overlapping when concurrent",
+          "retained_first_round": false
+        },
+        {
+          "round": 3,
+          "evaluations": {
+            "0.2.2": {
+              "engineering_correct": 345,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            },
+            "0.2.4": {
+              "engineering_correct": 345,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            }
+          },
+          "valid_pages": 15,
+          "expected_pages": 15,
+          "elapsed_seconds": 2544.1189999999997,
+          "elapsed_definition": "sum of attempt durations, overlapping when concurrent",
+          "retained_first_round": false
+        }
+      ],
+      "receipts": [
+        "examples/agent-routing/2026-10-12-repeated-runs/manifest.json",
+        "examples/agent-routing/2026-10-12-repeated-runs/regrade-v0.2.4.json"
+      ],
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "protocol": {
+        "program_version": "1.4.4",
+        "program_revision": "b147447f8f45d639cec63ad3a0e6f3a5f0dff9f8",
+        "wheel_sha256": "631afd83704f315ec3711d5a949ab66553c5f241ec9bea4784587f0345ba5b18",
+        "contract_sha256": "b4957f6b62988cbeee5ace046243f0a5f3dbd087e6f101f4377b57ed6687c50d",
+        "agent_plugins": [
+          {
+            "name": "catalog-parsers",
+            "version": "0.2.2",
+            "sha256": "5d5b5b3915d829106a2d261b091243bb90e241577a4f04d3708363877632dc0e"
+          }
+        ],
+        "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+        "runtime_versions": {
+          "catalog-to-json": "1.4.4",
+          "fast-agent-mcp": "0.10.43",
+          "pymupdf": "1.28.2",
+          "pydantic": "2.13.5",
+          "anthropic": "1.11.0"
+        },
+        "max_tokens": 16384,
+        "call_timeout_seconds": 900,
+        "adapter_timeout_seconds": 930,
+        "retained_first_cohort": "../2026-10-12-byte-routing-v1.4.4/manifest.json",
+        "frozen_runtime_input_sha256": [
+          {
+            "file": "$BENCHMARK/.tmp/quality-v144/suite.json",
+            "sha256": "b2ed90e3eb4cde644ba24f7f68a13777e764bc77d7c0bf1127c617b3974bf51b"
+          },
+          {
+            "file": "$BENCHMARK/.tmp/quality-v144/matrix/results.json",
+            "sha256": "845267e69aa404b0b5093a33378a517e1416fb91bffd03c46cac171417be8753"
+          },
+          {
+            "file": "$BENCHMARK/examples/agent-routing/2026-10-12-byte-routing-v1.4.4/manifest.json",
+            "sha256": "fefb0c1806e26d76707857b13dab489449cd6f047316160b6bc95c77a389f2d4"
+          },
+          {
+            "file": "$PROGRAM/.tmp/reader-public-consumer/env/bin/python",
+            "sha256": "9ed008e5a8685235361f0c53771b520ab082dd99a877ad2fd796a93fa4c0b488"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v144/extract.py",
+            "sha256": "23ad18b4b74a8c57e57e2d7ec80bd3417237588328ba5333a45df009f36ecd51"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v144/freeze.json",
+            "sha256": "e4685e2c7e618bd96578fe93ef30fccb233076eafc290e878cccabc5a2965693"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v144/protected-call.py",
+            "sha256": "611688f46e41c7242b3af1595c6e2e30c15fb2c8cb44467210f62af63f9803f2"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v144/fast-agent.config.yaml",
+            "sha256": "376f5162be284a6a626448eca390f026007f092fe85a54c3e9ddbcc90f6deef1"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v144/plugin-artifact.tar.gz",
+            "sha256": "299d902087c72e52ea83d05130d4c907c0768a3284a9d36a16b57cb9c72d2415"
+          },
+          {
+            "file": "$PROGRAM/.tmp/expanded-parsers/executors.json",
+            "sha256": "a66af3699632e7f503c5ad6f6c76a19d98563e5729ccd1c12457aa2a0bb61811"
+          },
+          {
+            "file": "$PROGRAM/.tmp/reader-public-consumer/env/lib/python3.12/site-packages/catalog_json/schema.py",
+            "sha256": "abdb48cdd1e23c71cb4d8a5362cbfdcc50726c8de1d12231b3b4265d176aa044"
+          },
+          {
+            "file": "$PROGRAM/.tmp/reader-public-consumer/env/lib/python3.12/site-packages/catalog_json/tools.py",
+            "sha256": "b8cd6a0c10fa3a7ee5f8a4ee744e91186c70a61b88ef5c31b5ba81f757cdfa3d"
+          },
+          {
+            "file": "$PROGRAM/.tmp/reader-public-consumer/env/lib/python3.12/site-packages/catalog_json/benchmark.py",
+            "sha256": "8fd72c57c19e6e60ba38adde8a7e55089fdea5f7825415a3cd79ef8186d9f24b"
+          },
+          {
+            "file": "$PROGRAM/.tmp/reader-public-consumer/env/lib/python3.12/site-packages/catalog_json/__init__.py",
+            "sha256": "b90dbe54aebbf878f1ec7f50a6836bb5c595a4d991e003fc4732795258b6933d"
+          },
+          {
+            "file": "$PROGRAM/.tmp/reader-public-consumer/env/lib/python3.12/site-packages/catalog_json/provenance.py",
+            "sha256": "b4dde23701e285e278386e0d1007a47391633ccbf78b39cf378b36370f1cf247"
+          },
+          {
+            "file": "$PROGRAM/.tmp/reader-public-consumer/env/lib/python3.12/site-packages/catalog_json/cli.py",
+            "sha256": "3ce9a233229e949a4c7b228d4a7d6bfc7f167d1c2153871328e418c5e7967976"
+          },
+          {
+            "file": "$PROGRAM/.tmp/reader-public-consumer/env/lib/python3.12/site-packages/catalog_json/native_batch.py",
+            "sha256": "8e76d01cc1c538345a14f10ec5353122dff2c6da21c65711e640c055102b637e"
+          },
+          {
+            "file": "$PROGRAM/.tmp/reader-public-consumer/env/lib/python3.12/site-packages/catalog_json/batch.py",
+            "sha256": "e82d26234821aa14c69640021aa232088f54059058c02cf99f81b9968b844d38"
+          },
+          {
+            "file": "$PROGRAM/.tmp/reader-public-consumer/env/lib/python3.12/site-packages/catalog_json/agents.py",
+            "sha256": "cf0a1df1456bebfda4ae47a5857ae90dd62074639507b02aea74d5528b4f208c"
+          },
+          {
+            "file": "$PROGRAM/.tmp/reader-public-consumer/env/lib/python3.12/site-packages/catalog_json/plugin_inputs.py",
+            "sha256": "8113df2cdaf64bd8497bfeafb8479f26a56e62925d209501857364e113182bbd"
+          },
+          {
+            "file": "$PROGRAM/.tmp/reader-public-consumer/env/lib/python3.12/site-packages/catalog_json/export.py",
+            "sha256": "cbe5c2f8653f5abe364dbb237f43b19eb5674537abc4da06402e0551253b2b44"
+          },
+          {
+            "file": "$PROGRAM/.tmp/reader-public-consumer/env/lib/python3.12/site-packages/catalog_json/stage_worker.py",
+            "sha256": "aafab0061475536408128a94cfcbb57079dcc6a9f224dc9c72f81e283cca05db"
+          },
+          {
+            "file": "$PROGRAM/.tmp/reader-public-consumer/env/lib/python3.12/site-packages/catalog_json/processes.py",
+            "sha256": "35258250bd30ff76cccedd7b45d4c2fbb158e001e04053cce43f837a7895abe5"
+          },
+          {
+            "file": "$PROGRAM/.tmp/reader-public-consumer/env/lib/python3.12/site-packages/catalog_json/supervise.py",
+            "sha256": "e4a1275820a36c0864c9c212097480594589d039391de4e90ba0e425ccbf2972"
+          },
+          {
+            "file": "$PROGRAM/.tmp/reader-public-consumer/env/lib/python3.12/site-packages/catalog_json/grid.py",
+            "sha256": "d9dc7551e9d152368801199570faa6e9696b5b200ec3613fbe5c038495f5f59a"
+          },
+          {
+            "file": "$PROGRAM/.tmp/reader-public-consumer/env/lib/python3.12/site-packages/catalog_json/models.py",
+            "sha256": "7c95a9859f85357938ded5cd5a929b73e7d0cd5326dbd558ab545e923b144fda"
+          },
+          {
+            "file": "$PROGRAM/.tmp/reader-public-consumer/env/lib/python3.12/site-packages/catalog_json/audit.py",
+            "sha256": "40b28491c44b255a416de7d4146c2272569ecd2713e607d1667b5768ee07b78e"
+          },
+          {
+            "file": "$PROGRAM/.tmp/reader-public-consumer/env/lib/python3.12/site-packages/catalog_json/difficulty.py",
+            "sha256": "60a2189da420b101f8bd62b990762336e36460fd5744e1d0573c5e5c444684f9"
+          },
+          {
+            "file": "$PROGRAM/.tmp/reader-public-consumer/env/lib/python3.12/site-packages/catalog_json/direct.py",
+            "sha256": "441002ec5dd76aa3e42fb88de7c47f76cc0e3bbed5638d8887657e7ada4955af"
+          },
+          {
+            "file": "$PROGRAM/.tmp/reader-public-consumer/env/lib/python3.12/site-packages/catalog_json/staged.py",
+            "sha256": "0761c615699c540388d2c7f22789bdb02dd34e5a53788aa282afc17387356a62"
+          },
+          {
+            "file": "$PROGRAM/.tmp/reader-public-consumer/env/lib/python3.12/site-packages/catalog_json/pipeline.py",
+            "sha256": "c89c107160bc096a60bab533a11fdcf995501d07fb2caec06911ed8e5e4eef07"
+          },
+          {
+            "file": "$PROGRAM/.tmp/reader-public-consumer/env/lib/python3.12/site-packages/catalog_json/bench_runner.py",
+            "sha256": "e859370e352f81f46547b387d36fb56d279315dc3262be9eb8c403cea9005e54"
+          },
+          {
+            "file": "$PROGRAM/.tmp/reader-public-consumer/env/lib/python3.12/site-packages/catalog_json/saved_results.py",
+            "sha256": "8c442d521905c9fd47f6d1a8ada6e1f3b9a9af0557eb8a5f117247c40cfe9d17"
+          },
+          {
+            "file": "$PROGRAM/.tmp/reader-public-consumer/env/lib/python3.12/site-packages/catalog_json/skills/catalog-extract/SKILL.md",
+            "sha256": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0"
+          },
+          {
+            "file": "$PROGRAM/.tmp/reader-public-consumer/env/lib/python3.12/site-packages/catalog_json/skills/catalog-review/SKILL.md",
+            "sha256": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+          }
+        ]
+      },
+      "complete": true,
+      "planned_rounds": 3,
+      "offline_regrade_model_calls": 0,
+      "engineering_distribution": {
+        "mean_percent": 70.26666666666667,
+        "sample_sd_pp": 2.9143323992525816,
+        "minimum_percent": 68.2,
+        "maximum_percent": 73.6
+      },
+      "drawing_distribution": null
+    },
+    {
+      "id": "v146",
+      "label": "1.4.6",
+      "dataset": "v1",
+      "stage": "first_pass",
+      "primary_grader": "0.2.4",
+      "rounds": [
+        {
+          "round": 1,
+          "evaluations": {
+            "0.2.4": {
+              "engineering_correct": 450,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            }
+          },
+          "valid_pages": 13,
+          "expected_pages": 15,
+          "elapsed_seconds": 4180.33,
+          "elapsed_definition": "sum of attempt durations, overlapping when concurrent"
+        },
+        {
+          "round": 2,
+          "evaluations": {
+            "0.2.4": {
+              "engineering_correct": 469,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            }
+          },
+          "valid_pages": 13,
+          "expected_pages": 15,
+          "elapsed_seconds": 3949.889,
+          "elapsed_definition": "sum of attempt durations, overlapping when concurrent"
+        },
+        {
+          "round": 3,
+          "evaluations": {
+            "0.2.4": {
+              "engineering_correct": 471,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            }
+          },
+          "valid_pages": 15,
+          "expected_pages": 15,
+          "elapsed_seconds": 2029.309,
+          "elapsed_definition": "sum of attempt durations, overlapping when concurrent"
+        }
+      ],
+      "receipts": [
+        "examples/agent-routing/2026-10-12-fresh-v1.4.6/manifest.json"
+      ],
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "protocol": {
+        "published_revision": "89fbc374d2a8e216ea2a5a22ada30d8c87f7cf66",
+        "package_version": "1.4.6",
+        "wheel_sha256": "254b0af1c00ab6ca1959eb8ac0f344f948f4b07a88f7ff1c06a0a7549fb76c2a",
+        "contract_sha256": "f9ef0ff3c6668aabb1db0faa531862d4e22a638a88796f009ce6bf5ac50653a4",
+        "plugin_provenance": [
+          {
+            "name": "catalog-parsers",
+            "version": "0.2.2",
+            "sha256": "5d5b5b3915d829106a2d261b091243bb90e241577a4f04d3708363877632dc0e"
+          }
+        ],
+        "plugin_artifact_sha256": "c703af364f0a29623962abdf192325b8d190207e3df421fd1f6aac1207ed9c50",
+        "config_sha256": "a21ed4ce840c78c6ca5b7aeefe33df7473c0f0756a5c623e68c4c52c07684e59",
+        "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+        "max_tokens": 16384,
+        "call_timeout_seconds": 900,
+        "program": {
+          "package_version": "1.4.6",
+          "git_revision": null,
+          "dirty": null,
+          "source_code_sha256": "27e5a23c9c15a65f39e8450f9cece7414f9b08d2aa1176331d7e0ed01e180163",
+          "python_version": "3.12.13"
+        },
+        "runtime_versions": {
+          "opentelemetry-exporter-otlp-proto-http": "1.45.0",
+          "beartype": "0.23.1",
+          "ruamel.yaml": "0.19.1",
+          "opentelemetry-instrumentation-google-genai": "1.2b0",
+          "keyring": "25.7.0",
+          "Authlib": "1.8.0",
+          "h11": "0.16.0",
+          "jsonschema": "4.26.0",
+          "requests": "2.34.2",
+          "wrapt": "2.5.0",
+          "typing-inspection": "0.4.4",
+          "a2a-sdk": "1.2.2",
+          "jiter": "0.17.0",
+          "frozenlist": "1.8.0",
+          "openai": "3.24.0",
+          "urllib3": "2.8.0",
+          "griffelib": "2.3.2",
+          "jaraco.context": "6.1.2",
+          "googleapis-common-protos": "1.75.5",
+          "propcache": "0.5.4",
+          "openpyxl": "3.1.5",
+          "tqdm": "4.70.1",
+          "mcp": "2.3.0",
+          "jeepney": "0.9.0",
+          "opentelemetry-instrumentation-anthropic": "0.62.4",
+          "textual-image": "0.14.1",
+          "idna": "3.20",
+          "opentelemetry-semantic-conventions-ai": "0.5.1",
+          "firecrawl-anydoc": "0.2.4",
+          "watchfiles": "1.3.0",
+          "email-validator": "2.3.0",
+          "packaging": "26.3",
+          "httpx2": "2.13.1",
+          "opentelemetry-instrumentation-openai": "0.62.4",
+          "certifi": "2026.7.22",
+          "pydantic_core": "2.46.5",
+          "more-itertools": "11.1.0",
+          "tenacity": "9.1.4",
+          "cryptography": "50.0.2",
+          "tiktoken": "0.14.0",
+          "huggingface_hub": "1.33.0",
+          "SecretStorage": "3.5.0",
+          "jaraco.classes": "3.4.0",
+          "pathable": "0.6.0",
+          "aiofile": "3.12.3",
+          "catalog-to-json": "1.4.6",
+          "google-api-core": "2.42.0",
+          "python-frontmatter": "1.3.0",
+          "markdown-it-py": "4.2.0",
+          "culsans": "0.11.0",
+          "multidict": "6.9.1",
+          "filelock": "4.0.12",
+          "dnspython": "2.9.0",
+          "opentelemetry-exporter-otlp-common": "0.66b0",
+          "opentelemetry-exporter-http-transport": "0.66b0",
+          "pycparser": "3.11",
+          "pydantic": "2.13.5",
+          "PyYAML": "6.0.3",
+          "annotated-types": "0.8.0",
+          "wcwidth": "0.9.2",
+          "json-rpc": "1.15.0",
+          "pyasn1_modules": "0.4.2",
+          "opentelemetry-api": "1.45.1",
+          "cyclopts": "5.2.0",
+          "aiologic": "0.17.1",
+          "fast-agent-mcp": "0.10.43",
+          "pymupdf": "1.28.2",
+          "opentelemetry-proto": "1.45.0",
+          "pydantic-settings": "2.15.0",
+          "opentelemetry-instrumentation": "0.66b1",
+          "python-multipart": "0.0.32",
+          "google-genai": "2.28.0",
+          "jaraco.functools": "4.6.0",
+          "joserfc": "1.7.5",
+          "rich-rst": "2.2.0",
+          "mslex": "1.3.0",
+          "sniffio": "1.3.1",
+          "protobuf": "7.36.2",
+          "agent-client-protocol": "0.12.1",
+          "caio": "0.12.9",
+          "google-auth": "2.61.0",
+          "aiohttp": "3.14.4",
+          "uvloop": "0.23.0",
+          "anyio": "4.15.1",
+          "regex": "2026.9.29",
+          "fastmcp-slim": "4.0.11",
+          "psutil": "7.2.2",
+          "attrs": "26.1.0",
+          "openapi-pydantic": "0.6.0",
+          "fsspec": "2026.9.0",
+          "shellingham": "1.5.4",
+          "jsonschema-specifications": "2025.9.1",
+          "typer": "0.27.2",
+          "opentelemetry-semantic-conventions": "0.66b1",
+          "opentelemetry-util-genai": "1.2b0",
+          "uritemplate": "4.2.0",
+          "docstring_parser": "0.18.0",
+          "click": "8.5.0",
+          "hf-xet": "1.7.0",
+          "sse-starlette": "3.5.0",
+          "exceptiongroup": "1.3.1",
+          "truststore": "0.10.4",
+          "cffi": "2.1.1",
+          "yarl": "1.25.1",
+          "proto-plus": "1.29.0",
+          "websockets": "15.0.1",
+          "aiohappyeyeballs": "2.7.1",
+          "uvicorn": "0.54.0",
+          "httpx": "0.28.1",
+          "httpcore": "1.0.9",
+          "pyperclip": "1.11.0",
+          "rpds-py": "2026.9.1",
+          "referencing": "0.37.0",
+          "rich": "15.0.0",
+          "mdurl": "0.1.2",
+          "jsonschema-path": "0.5.0",
+          "cachetools": "7.2.1",
+          "Pygments": "2.21.0",
+          "distro": "1.9.0",
+          "uncalled-for": "0.4.1",
+          "typing_extensions": "4.16.0",
+          "pillow": "12.3.0",
+          "opentelemetry-exporter-otlp-proto-common": "1.45.0",
+          "pyasn1": "0.6.4",
+          "platformdirs": "4.13.0",
+          "starlette": "1.7.0",
+          "et_xmlfile": "2.0.0",
+          "annotated-doc": "0.0.5",
+          "charset-normalizer": "3.5.2",
+          "python-dotenv": "1.2.4",
+          "py-key-value-aio": "0.4.6",
+          "PyJWT": "2.15.1",
+          "anthropic": "1.11.0",
+          "opentelemetry-sdk": "1.45.1",
+          "httpcore2": "2.13.1",
+          "aiosignal": "1.4.0",
+          "mcp-types": "2.3.0",
+          "prompt_toolkit": "3.0.53",
+          "jsonref": "1.1.0"
+        },
+        "frozen_runtime_input_sha256": [
+          {
+            "file": "$BENCHMARK/.tmp/repeated-v146/suite.json",
+            "sha256": "733393a7a5acc94f2ab1b698f5221651c635af3208e5964778d4a09645b8bdc5"
+          },
+          {
+            "file": "$BENCHMARK/.tmp/repeated-v146/repeatability.py",
+            "sha256": "7004fb0f23e7f254abf5886f5bb99422311acc8033dc2af9519373dbf562d76e"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v146/extract.py",
+            "sha256": "7a8a7271ba035375bbd4f61c570b671a18a8746c7c85f2306832c5b6c890afff"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v146/freeze.json",
+            "sha256": "7a97aa60602d3427f0343bec5d62392c80692578dd78944d07c7178d7db5bf96"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v146/protected-call.py",
+            "sha256": "b641364678f7d1df9575463866e76bce17a44ccc6ce3d456549731f9ecfb853c"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v146/fast-agent.config.yaml",
+            "sha256": "a21ed4ce840c78c6ca5b7aeefe33df7473c0f0756a5c623e68c4c52c07684e59"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v146/plugin-artifact.tar.gz",
+            "sha256": "c703af364f0a29623962abdf192325b8d190207e3df421fd1f6aac1207ed9c50"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v146/runtime-requirements.txt",
+            "sha256": "f92a72182eca8e113f99bb2cea09592b3a8da5519b612f8c266131acb85cc885"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v146/env/bin/python",
+            "sha256": "9ed008e5a8685235361f0c53771b520ab082dd99a877ad2fd796a93fa4c0b488"
+          },
+          {
+            "file": "$PROGRAM/.tmp/expanded-parsers/executors.json",
+            "sha256": "a66af3699632e7f503c5ad6f6c76a19d98563e5729ccd1c12457aa2a0bb61811"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v146/env/lib/python3.12/site-packages/catalog_json/schema.py",
+            "sha256": "abdb48cdd1e23c71cb4d8a5362cbfdcc50726c8de1d12231b3b4265d176aa044"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v146/env/lib/python3.12/site-packages/catalog_json/tools.py",
+            "sha256": "4a98f4248c9a2046321ea356557ebc5539bb9f37a89edb7e8423f2ce29f6a466"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v146/env/lib/python3.12/site-packages/catalog_json/benchmark.py",
+            "sha256": "8fd72c57c19e6e60ba38adde8a7e55089fdea5f7825415a3cd79ef8186d9f24b"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v146/env/lib/python3.12/site-packages/catalog_json/__init__.py",
+            "sha256": "b90dbe54aebbf878f1ec7f50a6836bb5c595a4d991e003fc4732795258b6933d"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v146/env/lib/python3.12/site-packages/catalog_json/provenance.py",
+            "sha256": "b4dde23701e285e278386e0d1007a47391633ccbf78b39cf378b36370f1cf247"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v146/env/lib/python3.12/site-packages/catalog_json/cli.py",
+            "sha256": "3ce9a233229e949a4c7b228d4a7d6bfc7f167d1c2153871328e418c5e7967976"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v146/env/lib/python3.12/site-packages/catalog_json/native_batch.py",
+            "sha256": "8e76d01cc1c538345a14f10ec5353122dff2c6da21c65711e640c055102b637e"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v146/env/lib/python3.12/site-packages/catalog_json/batch.py",
+            "sha256": "e82d26234821aa14c69640021aa232088f54059058c02cf99f81b9968b844d38"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v146/env/lib/python3.12/site-packages/catalog_json/agents.py",
+            "sha256": "cf0a1df1456bebfda4ae47a5857ae90dd62074639507b02aea74d5528b4f208c"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v146/env/lib/python3.12/site-packages/catalog_json/plugin_inputs.py",
+            "sha256": "8113df2cdaf64bd8497bfeafb8479f26a56e62925d209501857364e113182bbd"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v146/env/lib/python3.12/site-packages/catalog_json/export.py",
+            "sha256": "cbe5c2f8653f5abe364dbb237f43b19eb5674537abc4da06402e0551253b2b44"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v146/env/lib/python3.12/site-packages/catalog_json/stage_worker.py",
+            "sha256": "aafab0061475536408128a94cfcbb57079dcc6a9f224dc9c72f81e283cca05db"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v146/env/lib/python3.12/site-packages/catalog_json/processes.py",
+            "sha256": "35258250bd30ff76cccedd7b45d4c2fbb158e001e04053cce43f837a7895abe5"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v146/env/lib/python3.12/site-packages/catalog_json/supervise.py",
+            "sha256": "e4a1275820a36c0864c9c212097480594589d039391de4e90ba0e425ccbf2972"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v146/env/lib/python3.12/site-packages/catalog_json/grid.py",
+            "sha256": "d9dc7551e9d152368801199570faa6e9696b5b200ec3613fbe5c038495f5f59a"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v146/env/lib/python3.12/site-packages/catalog_json/models.py",
+            "sha256": "7c95a9859f85357938ded5cd5a929b73e7d0cd5326dbd558ab545e923b144fda"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v146/env/lib/python3.12/site-packages/catalog_json/audit.py",
+            "sha256": "2fdf7064522a56185e2172f3eb6286d9a72a0d2a64f320d80c660cc3d67610e3"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v146/env/lib/python3.12/site-packages/catalog_json/difficulty.py",
+            "sha256": "60a2189da420b101f8bd62b990762336e36460fd5744e1d0573c5e5c444684f9"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v146/env/lib/python3.12/site-packages/catalog_json/direct.py",
+            "sha256": "441002ec5dd76aa3e42fb88de7c47f76cc0e3bbed5638d8887657e7ada4955af"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v146/env/lib/python3.12/site-packages/catalog_json/staged.py",
+            "sha256": "0761c615699c540388d2c7f22789bdb02dd34e5a53788aa282afc17387356a62"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v146/env/lib/python3.12/site-packages/catalog_json/pipeline.py",
+            "sha256": "c89c107160bc096a60bab533a11fdcf995501d07fb2caec06911ed8e5e4eef07"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v146/env/lib/python3.12/site-packages/catalog_json/bench_runner.py",
+            "sha256": "e859370e352f81f46547b387d36fb56d279315dc3262be9eb8c403cea9005e54"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v146/env/lib/python3.12/site-packages/catalog_json/saved_results.py",
+            "sha256": "8c442d521905c9fd47f6d1a8ada6e1f3b9a9af0557eb8a5f117247c40cfe9d17"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v146/env/lib/python3.12/site-packages/catalog_json/skills/catalog-extract/SKILL.md",
+            "sha256": "f8dab24c47857106dd6d1c873de66c5b4086c6d1eaa2bc30433aad73e899fcd3"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v146/env/lib/python3.12/site-packages/catalog_json/skills/catalog-review/SKILL.md",
+            "sha256": "1a567f43780bada89698b4b3601c35ec1b18b7453ea2964b45340acf8da9a405"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v146/plugin-artifact/plugins/catalog-parsers/README.md",
+            "sha256": "44dff5c7effdd77e877641ba6e24de71b07459c392a8c4fe818603961f6283a7"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v146/plugin-artifact/plugins/catalog-parsers/plugin.json",
+            "sha256": "42a484fbd244d75d96dff8a601ac313bdf8e816fe1cfb07984d604e2de39fa39"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v146/plugin-artifact/plugins/catalog-parsers/.mcp.json",
+            "sha256": "eedbe5328152ce196105e29f93abcb63db565112068b2508126018970617242d"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v146/plugin-artifact/plugins/catalog-parsers/pyproject.toml",
+            "sha256": "d8b912955de2496636427d0b4341efcda943627a152fe41b8a6dbe96ec5fd3b4"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v146/plugin-artifact/plugins/catalog-parsers/uv.lock",
+            "sha256": "8bf1462e5ce5959bc1a82cd091757d8e61695099a61fe79370dd49cf936576fe"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v146/plugin-artifact/plugins/catalog-parsers/mcp.json",
+            "sha256": "eedbe5328152ce196105e29f93abcb63db565112068b2508126018970617242d"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v146/plugin-artifact/plugins/catalog-parsers/src/catalog_parsers/structured.py",
+            "sha256": "a75c976e0ce5282eeca69644fa522bc0495d282910796d7a128164ca79f9ec0e"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v146/plugin-artifact/plugins/catalog-parsers/src/catalog_parsers/parser.py",
+            "sha256": "a1e9e49f5965dc35773b003f030a80b33ed821c20acaa7eeeda73eb0da7e0bc0"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v146/plugin-artifact/plugins/catalog-parsers/src/catalog_parsers/dispatch.py",
+            "sha256": "062624c905913801e2228b8798a61b2b5bb8e17fc7c9d4a7e6bcb56f171201ec"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v146/plugin-artifact/plugins/catalog-parsers/src/catalog_parsers/__init__.py",
+            "sha256": "667d4a15b970b851e20d17510224670c14646cfb6d5a1e388ca6b9cc6da8bf41"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v146/plugin-artifact/plugins/catalog-parsers/src/catalog_parsers/cli.py",
+            "sha256": "93a8314dfca9d0b985a585336cd04ef671decfa5ea554631b23078bb3cb34863"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v146/plugin-artifact/plugins/catalog-parsers/src/catalog_parsers/native.py",
+            "sha256": "9dc9bef8c58cc9cdc2690a73b537a1bbf57a9faba8db02194dcaf6c0b94b260a"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v146/plugin-artifact/plugins/catalog-parsers/src/catalog_parsers/adapter.py",
+            "sha256": "913a4b09aa90654ad51f6bc85384586bbc6f9c35a745f605c436b957ea2be291"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v146/plugin-artifact/plugins/catalog-parsers/src/catalog_parsers/experiment.py",
+            "sha256": "b0c52527b5c6f1149410cb86e9fb4d686ac7aac56060d3e062c2e32de27dfbbf"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v146/plugin-artifact/plugins/catalog-parsers/src/catalog_parsers/remote.py",
+            "sha256": "55a096e827397f3371e34e1307fec7ee0ab70af795f18280ff959e842250a54b"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v146/plugin-artifact/plugins/catalog-parsers/src/catalog_parsers/server.py",
+            "sha256": "7974e596f578850c281e6f8aecfe10d8022bef6b2c7418d72345ea608c7620f4"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v146/plugin-artifact/plugins/catalog-parsers/skills/catalog-parser-selection/SKILL.md",
+            "sha256": "28fc35be044683e3a2423e49f4fc5d6c8c5d3afd037d709a85d4b5eb743151c2"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v146/plugin-artifact/plugins/catalog-parsers/tests/test_dispatch.py",
+            "sha256": "eaa8752c9f6dda393697d8fb2707c9ab5ec5309afe5d46ccafa91a215e8d4b9b"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v146/plugin-artifact/plugins/catalog-parsers/tests/test_server.py",
+            "sha256": "34061599dea7f68b69b2678c3db7edc997e4a56140533bb881b719d9f38a0802"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v146/plugin-artifact/plugins/catalog-parsers/tests/test_structured.py",
+            "sha256": "398a83462519cc14494993dee3ffcca710c11747a91017a58bf410c442c2a09f"
+          },
+          {
+            "file": "$PROGRAM/.tmp/quality-v146/plugin-artifact/plugins/catalog-parsers/tests/test_adapter.py",
+            "sha256": "fadc67f7d87d6c691a2c2987cade4b70e09d4c5ee1ea0174d017534f71e368f2"
+          },
+          {
+            "file": "$INPUTS/dca95479-edc6-4db0-a6e9-ea7a5f708955/Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+            "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee"
+          },
+          {
+            "file": "$BENCHMARK/.tmp/repeated-v024/env/lib/python3.12/site-packages/catalog_bench/data/engineering-catalogs-v1/fixtures/catalog-4-page-078.json",
+            "sha256": "86e767f7af5fdbc24d208112c9c1b6c2b1a3771e3348a130f179db4e7d4ac8b6"
+          },
+          {
+            "file": "$INPUTS/f5b59865-3849-470f-b727-9b89e03fdfe5/opn.pdf",
+            "sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2"
+          },
+          {
+            "file": "$BENCHMARK/.tmp/repeated-v024/env/lib/python3.12/site-packages/catalog_bench/data/engineering-catalogs-v1/fixtures/catalog-1-page-017.json",
+            "sha256": "5147637fe66b27a76079c3ee59c948d4f30963f40ec03649d9ac0ee3c57ccec4"
+          },
+          {
+            "file": "$BENCHMARK/.tmp/repeated-v024/env/lib/python3.12/site-packages/catalog_bench/data/engineering-catalogs-v1/fixtures/catalog-1-page-022.json",
+            "sha256": "a1187e1a23848883bfb7d776a1289e3ccc09f9675493c1e5b4def85be8589654"
+          },
+          {
+            "file": "$BENCHMARK/.tmp/repeated-v024/env/lib/python3.12/site-packages/catalog_bench/data/engineering-catalogs-v1/fixtures/catalog-1-page-026.json",
+            "sha256": "f1defb41f76e7a075e441132a7d6c01200a1aff344064786b8e07cd64d7416b1"
+          },
+          {
+            "file": "$INPUTS/5b86f6dc-918a-47f3-958d-bdf666bb6aff/Malyj-katalog.pdf",
+            "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49"
+          },
+          {
+            "file": "$BENCHMARK/.tmp/repeated-v024/env/lib/python3.12/site-packages/catalog_bench/data/engineering-catalogs-v1/fixtures/catalog-2-page-060.json",
+            "sha256": "93cf32c6d3a26326831fb0bb6152f3bf62ffd6897c1a1af554a91a97e0a64c3a"
+          },
+          {
+            "file": "$BENCHMARK/.tmp/repeated-v024/env/lib/python3.12/site-packages/catalog_bench/data/engineering-catalogs-v1/fixtures/catalog-2-page-149.json",
+            "sha256": "626e9f586350ffcc8b7eb947fa91e1b98c2434558ffe8454c4a35492d02848da"
+          },
+          {
+            "file": "$BENCHMARK/.tmp/repeated-v024/env/lib/python3.12/site-packages/catalog_bench/data/engineering-catalogs-v1/fixtures/catalog-2-page-185.json",
+            "sha256": "4b12ce1f6ace967f9b3339ee129ff14b8928454f53cd069001800a7317d28d4a"
+          },
+          {
+            "file": "$INPUTS/bfdf19c7-5403-4bbf-a27a-603838153c54/Katalog-ARMATURA.pdf",
+            "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e"
+          },
+          {
+            "file": "$BENCHMARK/.tmp/repeated-v024/env/lib/python3.12/site-packages/catalog_bench/data/engineering-catalogs-v1/fixtures/catalog-3-page-103.json",
+            "sha256": "9b905e94740f8ee8fc715e93b4b5d57d1177d58d0450becf8107380347a260d9"
+          },
+          {
+            "file": "$BENCHMARK/.tmp/repeated-v024/env/lib/python3.12/site-packages/catalog_bench/data/engineering-catalogs-v1/fixtures/catalog-3-page-108.json",
+            "sha256": "82e19efe34b7ca874e3e463e551ebb0eaef8006b5a7f725eca883c4ac1f35597"
+          },
+          {
+            "file": "$BENCHMARK/.tmp/repeated-v024/env/lib/python3.12/site-packages/catalog_bench/data/engineering-catalogs-v1/fixtures/catalog-3-page-111.json",
+            "sha256": "928708a691d82dd302c54ad59a195c20a5864659f0d788aa4a50a4f5359640ea"
+          },
+          {
+            "file": "$BENCHMARK/.tmp/repeated-v024/env/lib/python3.12/site-packages/catalog_bench/data/engineering-catalogs-v1/fixtures/catalog-4-page-033.json",
+            "sha256": "ea8408c3e91fc2b5f66964af2f0912bddaae85595fdac3947186708ba5aaf7bb"
+          },
+          {
+            "file": "$BENCHMARK/.tmp/repeated-v024/env/lib/python3.12/site-packages/catalog_bench/data/engineering-catalogs-v1/fixtures/catalog-4-page-038.json",
+            "sha256": "51edf1540e5eaa22f66844b6259ebe661885f7d583f0596b567b9ed7a9713589"
+          },
+          {
+            "file": "$INPUTS/ef62a307-7c0d-421c-9a9b-35383ae8a028/Katalog-IZOLJaTORY.pdf",
+            "sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35"
+          },
+          {
+            "file": "$BENCHMARK/.tmp/repeated-v024/env/lib/python3.12/site-packages/catalog_bench/data/engineering-catalogs-v1/fixtures/catalog-5-page-030.json",
+            "sha256": "504a0a03fecef9240051ae24d714941ff0c8632667b60a3a83ce4e6bc2e15eed"
+          },
+          {
+            "file": "$BENCHMARK/.tmp/repeated-v024/env/lib/python3.12/site-packages/catalog_bench/data/engineering-catalogs-v1/fixtures/catalog-5-page-035.json",
+            "sha256": "d260784f7d7f58b7ca010d0299c35804f34ec21e47702c70dbdad09bd6b9ae61"
+          },
+          {
+            "file": "$BENCHMARK/.tmp/repeated-v024/env/lib/python3.12/site-packages/catalog_bench/data/engineering-catalogs-v1/fixtures/catalog-5-page-126.json",
+            "sha256": "a2123b1f211f87319036dd97bcc5ad09efa5e7c120ca936cc8ff2da771703a4c"
+          }
+        ]
+      },
+      "complete": true,
+      "planned_rounds": 3,
+      "all_rounds_fresh": true,
+      "engineering_distribution": {
+        "mean_percent": 92.66666666666667,
+        "sample_sd_pp": 2.318045153428495,
+        "minimum_percent": 90.0,
+        "maximum_percent": 94.2
+      },
+      "drawing_distribution": null
+    },
+    {
+      "id": "legacy-mixed",
+      "label": "1.4.2 → 1.4.8 / первая выгрузка",
+      "dataset": "v2",
+      "stage": "first_pass",
+      "primary_grader": "0.3.2",
+      "rounds": [
+        {
+          "round": 1,
+          "evaluations": {
+            "0.3.0": {
+              "engineering_correct": 399,
+              "engineering_expected": 520,
+              "drawing_correct": 5,
+              "drawing_expected": 21
+            },
+            "0.3.1": {
+              "engineering_correct": 399,
+              "engineering_expected": 520,
+              "drawing_correct": 5,
+              "drawing_expected": 21
+            },
+            "0.3.2": {
+              "engineering_correct": 399,
+              "engineering_expected": 520,
+              "drawing_correct": 5,
+              "drawing_expected": 21
+            }
+          },
+          "valid_pages": 15,
+          "expected_pages": 17,
+          "elapsed_seconds": 5245.368,
+          "elapsed_definition": "pipeline round wall at snapshot; includes review/repair/admission; not extractor sum"
+        },
+        {
+          "round": 2,
+          "evaluations": {
+            "0.3.0": {
+              "engineering_correct": 479,
+              "engineering_expected": 520,
+              "drawing_correct": 6,
+              "drawing_expected": 21
+            },
+            "0.3.1": {
+              "engineering_correct": 479,
+              "engineering_expected": 520,
+              "drawing_correct": 6,
+              "drawing_expected": 21
+            },
+            "0.3.2": {
+              "engineering_correct": 479,
+              "engineering_expected": 520,
+              "drawing_correct": 6,
+              "drawing_expected": 21
+            }
+          },
+          "valid_pages": 16,
+          "expected_pages": 17,
+          "elapsed_seconds": 3590.356,
+          "elapsed_definition": "pipeline round wall at snapshot; includes review/repair/admission; not extractor sum"
+        }
+      ],
+      "receipts": [
+        "examples/offline-regrading/2026-10-12-v032/summary.json",
+        "examples/agent-routing/2026-10-12-mixed-v2/first-pass-round-1/summary.json",
+        "examples/agent-routing/2026-10-12-mixed-v2/first-pass-round-2/summary.json"
+      ],
+      "model": "MiniMax-M3.1-Flash-Preview → glm-5.3-flash Coding Endpoint",
+      "protocol": {
+        "extractor": {
+          "program": {
+            "package_version": "1.4.2",
+            "git_revision": null,
+            "dirty": null,
+            "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+            "python_version": "3.12.13"
+          },
+          "contract_sha256": "aa97a446c59b5a207fd1ab84542de68a56c8d05e595fabde973e24da9ccc405d"
+        },
+        "reviewer": {
+          "program": {
+            "package_version": "1.4.8",
+            "git_revision": null,
+            "dirty": null,
+            "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+            "python_version": "3.12.13"
+          },
+          "contract_sha256": "f9ef0ff3c6668aabb1db0faa531862d4e22a638a88796f009ce6bf5ac50653a4"
+        }
+      },
+      "complete": false,
+      "planned_rounds": 3,
+      "status": "checkpointed; third round not started; replaced by a fresh corrected cohort",
+      "engineering_distribution": null,
+      "drawing_distribution": null
+    },
+    {
+      "id": "project-x-glm-5.3-flash",
+      "label": "Project X / glm-5.3-flash",
+      "dataset": "v2",
+      "stage": "first_pass",
+      "primary_grader": "0.3.2",
+      "rounds": [
+        {
+          "round": 1,
+          "evaluations": {
+            "0.3.0": {
+              "engineering_correct": 380,
+              "engineering_expected": 520,
+              "drawing_correct": 4,
+              "drawing_expected": 21
+            },
+            "0.3.1": {
+              "engineering_correct": 380,
+              "engineering_expected": 520,
+              "drawing_correct": 4,
+              "drawing_expected": 21
+            },
+            "0.3.2": {
+              "engineering_correct": 411,
+              "engineering_expected": 520,
+              "drawing_correct": 6,
+              "drawing_expected": 21
+            }
+          },
+          "valid_pages": 14,
+          "expected_pages": 17,
+          "elapsed_seconds": 1990.31,
+          "elapsed_definition": "sum of full per-case subprocess wall durations"
+        },
+        {
+          "round": 2,
+          "evaluations": {
+            "0.3.0": {
+              "engineering_correct": 452,
+              "engineering_expected": 520,
+              "drawing_correct": 6,
+              "drawing_expected": 21
+            },
+            "0.3.1": {
+              "engineering_correct": 452,
+              "engineering_expected": 520,
+              "drawing_correct": 6,
+              "drawing_expected": 21
+            },
+            "0.3.2": {
+              "engineering_correct": 456,
+              "engineering_expected": 520,
+              "drawing_correct": 6,
+              "drawing_expected": 21
+            }
+          },
+          "valid_pages": 17,
+          "expected_pages": 17,
+          "elapsed_seconds": 2874.598,
+          "elapsed_definition": "sum of full per-case subprocess wall durations"
+        },
+        {
+          "round": 3,
+          "evaluations": {
+            "0.3.0": {
+              "engineering_correct": 304,
+              "engineering_expected": 520,
+              "drawing_correct": 4,
+              "drawing_expected": 21
+            },
+            "0.3.1": {
+              "engineering_correct": 304,
+              "engineering_expected": 520,
+              "drawing_correct": 4,
+              "drawing_expected": 21
+            },
+            "0.3.2": {
+              "engineering_correct": 313,
+              "engineering_expected": 520,
+              "drawing_correct": 7,
+              "drawing_expected": 21
+            }
+          },
+          "valid_pages": 16,
+          "expected_pages": 17,
+          "elapsed_seconds": 2460.509,
+          "elapsed_definition": "sum of full per-case subprocess wall durations"
+        }
+      ],
+      "receipts": [
+        "examples/project-x/2026-10-12-native-vision-v1-full/manifest.json",
+        "examples/project-x/2026-10-12-native-vision-v1-full/summary.json",
+        "examples/project-x/2026-10-12-native-vision-v1-full/glm-5.3-flash/round-1/results.json",
+        "examples/project-x/2026-10-12-native-vision-v1-full/glm-5.3-flash/round-2/results.json",
+        "examples/project-x/2026-10-12-native-vision-v1-full/glm-5.3-flash/round-3/results.json"
+      ],
+      "model": "glm-5.3-flash",
+      "complete": true,
+      "planned_rounds": 3,
+      "protocol": {
+        "snapshot": "ProjectX-snapshot-20261012",
+        "integration": "modified native Vision integration v1",
+        "integration_sha256": "f31b03eb2eb058a1c5f6237040f4eb152f3ce10472a9734558081e618498dfa3",
+        "image_preparation": "whole-page144DPI plus two216DPI overlapping half-page crops",
+        "max_output_tokens": 32768,
+        "temperature": 1,
+        "native_json_syntax_repair_maximum": 1,
+        "response_format_policy": {
+          "glm-5.3-flash": "initial json_object API parameter; actual per-attempt format recorded",
+          "MiniMax-M3.1-Flash-Preview": "JSON-only prompt; Anthropic adapter sends no response_format parameter"
+        }
+      },
+      "offline_regrade_model_calls": 0,
+      "engineering_distribution": {
+        "mean_percent": 75.64102564102564,
+        "sample_sd_pp": 14.061274053509146,
+        "minimum_percent": 60.19230769230769,
+        "maximum_percent": 87.6923076923077
+      },
+      "drawing_distribution": {
+        "mean_percent": 30.15873015873016,
+        "sample_sd_pp": 2.7492869961410755,
+        "minimum_percent": 28.571428571428573,
+        "maximum_percent": 33.333333333333336
+      }
+    },
+    {
+      "id": "project-x-MiniMax-M3.1-Flash-Preview",
+      "label": "Project X / MiniMax-M3.1-Flash-Preview",
+      "dataset": "v2",
+      "stage": "first_pass",
+      "primary_grader": "0.3.2",
+      "rounds": [
+        {
+          "round": 1,
+          "evaluations": {
+            "0.3.0": {
+              "engineering_correct": 210,
+              "engineering_expected": 520,
+              "drawing_correct": 3,
+              "drawing_expected": 21
+            },
+            "0.3.1": {
+              "engineering_correct": 210,
+              "engineering_expected": 520,
+              "drawing_correct": 3,
+              "drawing_expected": 21
+            },
+            "0.3.2": {
+              "engineering_correct": 222,
+              "engineering_expected": 520,
+              "drawing_correct": 3,
+              "drawing_expected": 21
+            }
+          },
+          "valid_pages": 4,
+          "expected_pages": 17,
+          "elapsed_seconds": 1158.802,
+          "elapsed_definition": "sum of full per-case subprocess wall durations"
+        },
+        {
+          "round": 2,
+          "evaluations": {
+            "0.3.0": {
+              "engineering_correct": 160,
+              "engineering_expected": 520,
+              "drawing_correct": 0,
+              "drawing_expected": 21
+            },
+            "0.3.1": {
+              "engineering_correct": 160,
+              "engineering_expected": 520,
+              "drawing_correct": 0,
+              "drawing_expected": 21
+            },
+            "0.3.2": {
+              "engineering_correct": 160,
+              "engineering_expected": 520,
+              "drawing_correct": 0,
+              "drawing_expected": 21
+            }
+          },
+          "valid_pages": 5,
+          "expected_pages": 17,
+          "elapsed_seconds": 1482.897,
+          "elapsed_definition": "sum of full per-case subprocess wall durations"
+        },
+        {
+          "round": 3,
+          "evaluations": {
+            "0.3.0": {
+              "engineering_correct": 239,
+              "engineering_expected": 520,
+              "drawing_correct": 2,
+              "drawing_expected": 21
+            },
+            "0.3.1": {
+              "engineering_correct": 239,
+              "engineering_expected": 520,
+              "drawing_correct": 2,
+              "drawing_expected": 21
+            },
+            "0.3.2": {
+              "engineering_correct": 247,
+              "engineering_expected": 520,
+              "drawing_correct": 2,
+              "drawing_expected": 21
+            }
+          },
+          "valid_pages": 4,
+          "expected_pages": 17,
+          "elapsed_seconds": 1084.316,
+          "elapsed_definition": "sum of full per-case subprocess wall durations"
+        }
+      ],
+      "receipts": [
+        "examples/project-x/2026-10-12-native-vision-v1-full/manifest.json",
+        "examples/project-x/2026-10-12-native-vision-v1-full/summary.json",
+        "examples/project-x/2026-10-12-native-vision-v1-full/MiniMax-M3.1-Flash-Preview/round-1/results.json",
+        "examples/project-x/2026-10-12-native-vision-v1-full/MiniMax-M3.1-Flash-Preview/round-2/results.json",
+        "examples/project-x/2026-10-12-native-vision-v1-full/MiniMax-M3.1-Flash-Preview/round-3/results.json"
+      ],
+      "model": "MiniMax-M3.1-Flash-Preview",
+      "complete": true,
+      "planned_rounds": 3,
+      "protocol": {
+        "snapshot": "ProjectX-snapshot-20261012",
+        "integration": "modified native Vision integration v1",
+        "integration_sha256": "f31b03eb2eb058a1c5f6237040f4eb152f3ce10472a9734558081e618498dfa3",
+        "image_preparation": "whole-page144DPI plus two216DPI overlapping half-page crops",
+        "max_output_tokens": 32768,
+        "temperature": 1,
+        "native_json_syntax_repair_maximum": 1,
+        "response_format_policy": {
+          "glm-5.3-flash": "initial json_object API parameter; actual per-attempt format recorded",
+          "MiniMax-M3.1-Flash-Preview": "JSON-only prompt; Anthropic adapter sends no response_format parameter"
+        }
+      },
+      "offline_regrade_model_calls": 0,
+      "engineering_distribution": {
+        "mean_percent": 40.32051282051282,
+        "sample_sd_pp": 8.613867769400569,
+        "minimum_percent": 30.76923076923077,
+        "maximum_percent": 47.5
+      },
+      "drawing_distribution": {
+        "mean_percent": 7.936507936507937,
+        "sample_sd_pp": 7.273929674533079,
+        "minimum_percent": 0.0,
+        "maximum_percent": 14.285714285714286
+      }
+    },
+    {
+      "id": "project-x-direct",
+      "label": "Project X / PDF без Vision",
+      "dataset": "v2",
+      "stage": "direct_parser",
+      "primary_grader": "0.3.0",
+      "rounds": [
+        {
+          "round": 1,
+          "evaluations": {
+            "0.3.0": {
+              "engineering_correct": 21,
+              "engineering_expected": 520,
+              "drawing_correct": 0,
+              "drawing_expected": 21
+            }
+          },
+          "valid_pages": 17,
+          "expected_pages": 17,
+          "elapsed_seconds": 36.37799999999999,
+          "elapsed_definition": "sum of full per-case subprocess wall durations"
+        },
+        {
+          "round": 2,
+          "evaluations": {
+            "0.3.0": {
+              "engineering_correct": 21,
+              "engineering_expected": 520,
+              "drawing_correct": 0,
+              "drawing_expected": 21
+            }
+          },
+          "valid_pages": 17,
+          "expected_pages": 17,
+          "elapsed_seconds": 37.50900000000001,
+          "elapsed_definition": "sum of full per-case subprocess wall durations"
+        },
+        {
+          "round": 3,
+          "evaluations": {
+            "0.3.0": {
+              "engineering_correct": 21,
+              "engineering_expected": 520,
+              "drawing_correct": 0,
+              "drawing_expected": 21
+            }
+          },
+          "valid_pages": 17,
+          "expected_pages": 17,
+          "elapsed_seconds": 38.523,
+          "elapsed_definition": "sum of full per-case subprocess wall durations"
+        }
+      ],
+      "receipts": [
+        "examples/project-x/2026-10-12/manifest.json"
+      ],
+      "model": null,
+      "complete": true,
+      "planned_rounds": 3,
+      "provider_calls": 0,
+      "engineering_distribution": {
+        "mean_percent": 4.038461538461538,
+        "sample_sd_pp": 0.0,
+        "minimum_percent": 4.038461538461538,
+        "maximum_percent": 4.038461538461538
+      },
+      "drawing_distribution": {
+        "mean_percent": 0.0,
+        "sample_sd_pp": 0.0,
+        "minimum_percent": 0.0,
+        "maximum_percent": 0.0
+      }
+    },
+    {
+      "id": "corrected-mixed-first_pass",
+      "label": "1.4.15 → 1.4.17 / первая выгрузка",
+      "dataset": "v2",
+      "stage": "first_pass",
+      "primary_grader": "0.3.2",
+      "rounds": [],
+      "receipts": [
+        "examples/agent-routing/2026-10-12-corrected-v032/manifest.json"
+      ],
+      "model": "MiniMax-M3.1-Flash-Preview → glm-5.3-flash Coding Endpoint",
+      "protocol": {
+        "native_roles": {
+          "extractor": {
+            "program": {
+              "package_version": "1.4.15",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+              "python_version": "3.12.13",
+              "components": {
+                "agent_logic": {
+                  "package_version": "1.4.2",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+                  "python_version": "3.12.13"
+                },
+                "catalog_tools": {
+                  "package_version": "1.4.8",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+                  "python_version": "3.12.13"
+                },
+                "legacy_skills": {
+                  "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+                  "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+                },
+                "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+                "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+              }
+            },
+            "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf",
+            "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium"
+          },
+          "reviewer": {
+            "program": {
+              "package_version": "1.4.17",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "fff9569e21c4b5fcc401ede854f652c8cfeff4aa46611ef1f4bc6c34788ed021",
+              "python_version": "3.12.13"
+            },
+            "contract_sha256": "c73c47d085f908594ae59f64f00db5708525a6d8807c0d541c029f7f212872e2",
+            "model": "zai.glm-5.3-flash?reasoning=low"
+          }
+        },
+        "method": {
+          "fresh_sequential_rounds": true,
+          "fresh_native_contexts": true,
+          "primary_scoring": "supported aliases offline scorer0.3.2, same fixed520+21 source assertions",
+          "gold_and_external_audit_leads_given_to_models": false,
+          "maximum_extra_calls_per_provider": 1,
+          "max_repairs": null,
+          "extractor_call_timeout_seconds": 900,
+          "reviewer_call_timeout_seconds": 1200,
+          "round_active_budget_seconds": 10800,
+          "round_wall_maximum_seconds": 28800,
+          "quota_wait_excluded_from_active_budget": true,
+          "post_gate_neighbor_quota_recheck": true,
+          "native_calls_naturally_drained_on_admission_stop_or_window_expiry": true,
+          "failed_nonaccepted_delivery_facts_zero": true,
+          "first_pass_draft_and_accepted_stages_separate": true,
+          "historical_500_facts_not_in_expanded_percentages": true,
+          "project_x_existing_six_rounds_reused_no_new_calls": true,
+          "first_pass_comparison_stage": "initial native extractor saved output versus Project X saved native Vision integration output; reviewed accepted delivery separate",
+          "percentages_reported_separately": {
+            "engineering": 520,
+            "drawing": 21,
+            "combined": 541
+          },
+          "distributions_from_unrounded_counts": true,
+          "outer_runtime_maximum_seconds": 100800
+        },
+        "plan_sha256": "3184e08c2f916cb350e966b424a0b1f9b783f57631c63707fe88e9a240d96df3",
+        "observed_sdk_versions": {
+          "extractor": {
+            "fast_agent_version": "0.10.43",
+            "mcp_version": "2.3.0"
+          },
+          "reviewer": {
+            "fast_agent_version": "0.10.43",
+            "mcp_version": "2.3.0"
+          }
+        }
+      },
+      "complete": false,
+      "planned_rounds": 3,
+      "status": "running",
+      "engineering_distribution": null,
+      "drawing_distribution": null
+    },
+    {
+      "id": "corrected-mixed-available_draft",
+      "label": "1.4.15 → 1.4.17 / последний черновик",
+      "dataset": "v2",
+      "stage": "available_draft",
+      "primary_grader": "0.3.2",
+      "rounds": [],
+      "receipts": [
+        "examples/agent-routing/2026-10-12-corrected-v032/manifest.json"
+      ],
+      "model": "MiniMax-M3.1-Flash-Preview → glm-5.3-flash Coding Endpoint",
+      "protocol": {
+        "native_roles": {
+          "extractor": {
+            "program": {
+              "package_version": "1.4.15",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+              "python_version": "3.12.13",
+              "components": {
+                "agent_logic": {
+                  "package_version": "1.4.2",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+                  "python_version": "3.12.13"
+                },
+                "catalog_tools": {
+                  "package_version": "1.4.8",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+                  "python_version": "3.12.13"
+                },
+                "legacy_skills": {
+                  "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+                  "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+                },
+                "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+                "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+              }
+            },
+            "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf",
+            "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium"
+          },
+          "reviewer": {
+            "program": {
+              "package_version": "1.4.17",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "fff9569e21c4b5fcc401ede854f652c8cfeff4aa46611ef1f4bc6c34788ed021",
+              "python_version": "3.12.13"
+            },
+            "contract_sha256": "c73c47d085f908594ae59f64f00db5708525a6d8807c0d541c029f7f212872e2",
+            "model": "zai.glm-5.3-flash?reasoning=low"
+          }
+        },
+        "method": {
+          "fresh_sequential_rounds": true,
+          "fresh_native_contexts": true,
+          "primary_scoring": "supported aliases offline scorer0.3.2, same fixed520+21 source assertions",
+          "gold_and_external_audit_leads_given_to_models": false,
+          "maximum_extra_calls_per_provider": 1,
+          "max_repairs": null,
+          "extractor_call_timeout_seconds": 900,
+          "reviewer_call_timeout_seconds": 1200,
+          "round_active_budget_seconds": 10800,
+          "round_wall_maximum_seconds": 28800,
+          "quota_wait_excluded_from_active_budget": true,
+          "post_gate_neighbor_quota_recheck": true,
+          "native_calls_naturally_drained_on_admission_stop_or_window_expiry": true,
+          "failed_nonaccepted_delivery_facts_zero": true,
+          "first_pass_draft_and_accepted_stages_separate": true,
+          "historical_500_facts_not_in_expanded_percentages": true,
+          "project_x_existing_six_rounds_reused_no_new_calls": true,
+          "first_pass_comparison_stage": "initial native extractor saved output versus Project X saved native Vision integration output; reviewed accepted delivery separate",
+          "percentages_reported_separately": {
+            "engineering": 520,
+            "drawing": 21,
+            "combined": 541
+          },
+          "distributions_from_unrounded_counts": true,
+          "outer_runtime_maximum_seconds": 100800
+        },
+        "plan_sha256": "3184e08c2f916cb350e966b424a0b1f9b783f57631c63707fe88e9a240d96df3",
+        "observed_sdk_versions": {
+          "extractor": {
+            "fast_agent_version": "0.10.43",
+            "mcp_version": "2.3.0"
+          },
+          "reviewer": {
+            "fast_agent_version": "0.10.43",
+            "mcp_version": "2.3.0"
+          }
+        }
+      },
+      "complete": false,
+      "planned_rounds": 3,
+      "status": "running",
+      "engineering_distribution": null,
+      "drawing_distribution": null
+    },
+    {
+      "id": "corrected-mixed-accepted_delivery",
+      "label": "1.4.15 → 1.4.17 / принятый результат",
+      "dataset": "v2",
+      "stage": "accepted_delivery",
+      "primary_grader": "0.3.2",
+      "rounds": [],
+      "receipts": [
+        "examples/agent-routing/2026-10-12-corrected-v032/manifest.json"
+      ],
+      "model": "MiniMax-M3.1-Flash-Preview → glm-5.3-flash Coding Endpoint",
+      "protocol": {
+        "native_roles": {
+          "extractor": {
+            "program": {
+              "package_version": "1.4.15",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+              "python_version": "3.12.13",
+              "components": {
+                "agent_logic": {
+                  "package_version": "1.4.2",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+                  "python_version": "3.12.13"
+                },
+                "catalog_tools": {
+                  "package_version": "1.4.8",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+                  "python_version": "3.12.13"
+                },
+                "legacy_skills": {
+                  "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+                  "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+                },
+                "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+                "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+              }
+            },
+            "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf",
+            "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium"
+          },
+          "reviewer": {
+            "program": {
+              "package_version": "1.4.17",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "fff9569e21c4b5fcc401ede854f652c8cfeff4aa46611ef1f4bc6c34788ed021",
+              "python_version": "3.12.13"
+            },
+            "contract_sha256": "c73c47d085f908594ae59f64f00db5708525a6d8807c0d541c029f7f212872e2",
+            "model": "zai.glm-5.3-flash?reasoning=low"
+          }
+        },
+        "method": {
+          "fresh_sequential_rounds": true,
+          "fresh_native_contexts": true,
+          "primary_scoring": "supported aliases offline scorer0.3.2, same fixed520+21 source assertions",
+          "gold_and_external_audit_leads_given_to_models": false,
+          "maximum_extra_calls_per_provider": 1,
+          "max_repairs": null,
+          "extractor_call_timeout_seconds": 900,
+          "reviewer_call_timeout_seconds": 1200,
+          "round_active_budget_seconds": 10800,
+          "round_wall_maximum_seconds": 28800,
+          "quota_wait_excluded_from_active_budget": true,
+          "post_gate_neighbor_quota_recheck": true,
+          "native_calls_naturally_drained_on_admission_stop_or_window_expiry": true,
+          "failed_nonaccepted_delivery_facts_zero": true,
+          "first_pass_draft_and_accepted_stages_separate": true,
+          "historical_500_facts_not_in_expanded_percentages": true,
+          "project_x_existing_six_rounds_reused_no_new_calls": true,
+          "first_pass_comparison_stage": "initial native extractor saved output versus Project X saved native Vision integration output; reviewed accepted delivery separate",
+          "percentages_reported_separately": {
+            "engineering": 520,
+            "drawing": 21,
+            "combined": 541
+          },
+          "distributions_from_unrounded_counts": true,
+          "outer_runtime_maximum_seconds": 100800
+        },
+        "plan_sha256": "3184e08c2f916cb350e966b424a0b1f9b783f57631c63707fe88e9a240d96df3",
+        "observed_sdk_versions": {
+          "extractor": {
+            "fast_agent_version": "0.10.43",
+            "mcp_version": "2.3.0"
+          },
+          "reviewer": {
+            "fast_agent_version": "0.10.43",
+            "mcp_version": "2.3.0"
+          }
+        }
+      },
+      "complete": false,
+      "planned_rounds": 3,
+      "status": "running",
+      "engineering_distribution": null,
+      "drawing_distribution": null
+    },
+    {
+      "id": "parser-docling",
+      "label": "docling",
+      "dataset": "v1",
+      "stage": "direct_parser",
+      "primary_grader": "0.2.2",
+      "rounds": [
+        {
+          "round": 1,
+          "evaluations": {
+            "0.2.0": {
+              "engineering_correct": 266,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            },
+            "0.2.2": {
+              "engineering_correct": 266,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            }
+          },
+          "valid_pages": 15,
+          "expected_pages": 15,
+          "elapsed_seconds": 480.07,
+          "elapsed_definition": "sum of per-case monitored durations"
+        }
+      ],
+      "receipts": [
+        "examples/parser-outputs/2026-10-12/manifest.json",
+        "examples/parser-outputs/2026-10-12/regrade-v0.2.2.json"
+      ],
+      "model": null,
+      "complete": true,
+      "planned_rounds": 1,
+      "versions": [
+        {
+          "git_revision": "2eed0ad623df7c308f67f65f4bd2a418865aaa8d",
+          "package_version": "2.137.0",
+          "declared_version": "2.137.0; plugin0.1.0",
+          "contract_sha256": "8e4837a35478a5ce08e78717cf1a7e1b26d6b2255b6b845070a23ce0d62d2ef6",
+          "dirty": true,
+          "tracked_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "version_evidence": "execution_receipt"
+        }
+      ],
+      "backend_version": null,
+      "offline_regrade_model_calls": 0,
+      "engineering_distribution": null,
+      "drawing_distribution": null
+    },
+    {
+      "id": "parser-pymupdf4llm",
+      "label": "pymupdf4llm",
+      "dataset": "v1",
+      "stage": "direct_parser",
+      "primary_grader": "0.2.2",
+      "rounds": [
+        {
+          "round": 1,
+          "evaluations": {
+            "0.2.0": {
+              "engineering_correct": 13,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            },
+            "0.2.2": {
+              "engineering_correct": 13,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            }
+          },
+          "valid_pages": 15,
+          "expected_pages": 15,
+          "elapsed_seconds": 419.758,
+          "elapsed_definition": "sum of per-case monitored durations"
+        }
+      ],
+      "receipts": [
+        "examples/parser-outputs/2026-10-12/manifest.json",
+        "examples/parser-outputs/2026-10-12/regrade-v0.2.2.json"
+      ],
+      "model": null,
+      "complete": true,
+      "planned_rounds": 1,
+      "versions": [
+        {
+          "git_revision": "2eed0ad623df7c308f67f65f4bd2a418865aaa8d",
+          "package_version": "1.28.2",
+          "declared_version": "1.28.2; plugin0.1.0",
+          "contract_sha256": "8e4837a35478a5ce08e78717cf1a7e1b26d6b2255b6b845070a23ce0d62d2ef6",
+          "dirty": true,
+          "tracked_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "version_evidence": "execution_receipt"
+        }
+      ],
+      "backend_version": null,
+      "offline_regrade_model_calls": 0,
+      "engineering_distribution": null,
+      "drawing_distribution": null
+    },
+    {
+      "id": "parser-camelot-lattice",
+      "label": "camelot-lattice",
+      "dataset": "v1",
+      "stage": "direct_parser",
+      "primary_grader": "0.2.2",
+      "rounds": [
+        {
+          "round": 1,
+          "evaluations": {
+            "0.2.0": {
+              "engineering_correct": 39,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            },
+            "0.2.2": {
+              "engineering_correct": 39,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            }
+          },
+          "valid_pages": 15,
+          "expected_pages": 15,
+          "elapsed_seconds": 30.359,
+          "elapsed_definition": "sum of per-case monitored durations"
+        }
+      ],
+      "receipts": [
+        "examples/parser-outputs/2026-10-12/manifest.json",
+        "examples/parser-outputs/2026-10-12/regrade-v0.2.2.json"
+      ],
+      "model": null,
+      "complete": true,
+      "planned_rounds": 1,
+      "versions": [
+        {
+          "git_revision": "470614c9d7b3afbbafd890b823304e7a06de2bc6",
+          "package_version": "2.0.0",
+          "declared_version": "2.0.0",
+          "contract_sha256": "ee86c1952cabaaaf02292b65b3079f0395af33a977eec32d58239b139725e5f7",
+          "dirty": false,
+          "tracked_diff_sha256": null,
+          "version_evidence": "execution_receipt"
+        }
+      ],
+      "backend_version": null,
+      "offline_regrade_model_calls": 0,
+      "engineering_distribution": null,
+      "drawing_distribution": null
+    },
+    {
+      "id": "parser-camelot-stream",
+      "label": "camelot-stream",
+      "dataset": "v1",
+      "stage": "direct_parser",
+      "primary_grader": "0.2.2",
+      "rounds": [
+        {
+          "round": 1,
+          "evaluations": {
+            "0.2.0": {
+              "engineering_correct": 0,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            },
+            "0.2.2": {
+              "engineering_correct": 0,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            }
+          },
+          "valid_pages": 15,
+          "expected_pages": 15,
+          "elapsed_seconds": 20.279,
+          "elapsed_definition": "sum of per-case monitored durations"
+        }
+      ],
+      "receipts": [
+        "examples/parser-outputs/2026-10-12/manifest.json",
+        "examples/parser-outputs/2026-10-12/regrade-v0.2.2.json"
+      ],
+      "model": null,
+      "complete": true,
+      "planned_rounds": 1,
+      "versions": [
+        {
+          "git_revision": "470614c9d7b3afbbafd890b823304e7a06de2bc6",
+          "package_version": "2.0.0",
+          "declared_version": "2.0.0",
+          "contract_sha256": "ee86c1952cabaaaf02292b65b3079f0395af33a977eec32d58239b139725e5f7",
+          "dirty": false,
+          "tracked_diff_sha256": null,
+          "version_evidence": "execution_receipt"
+        }
+      ],
+      "backend_version": null,
+      "offline_regrade_model_calls": 0,
+      "engineering_distribution": null,
+      "drawing_distribution": null
+    },
+    {
+      "id": "parser-gmft",
+      "label": "gmft",
+      "dataset": "v1",
+      "stage": "direct_parser",
+      "primary_grader": "0.2.2",
+      "rounds": [
+        {
+          "round": 1,
+          "evaluations": {
+            "0.2.0": {
+              "engineering_correct": 141,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            },
+            "0.2.2": {
+              "engineering_correct": 141,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            }
+          },
+          "valid_pages": 15,
+          "expected_pages": 15,
+          "elapsed_seconds": 181.453,
+          "elapsed_definition": "sum of per-case monitored durations"
+        }
+      ],
+      "receipts": [
+        "examples/parser-outputs/2026-10-12/manifest.json",
+        "examples/parser-outputs/2026-10-12/regrade-v0.2.2.json"
+      ],
+      "model": null,
+      "complete": true,
+      "planned_rounds": 1,
+      "versions": [
+        {
+          "git_revision": "470614c9d7b3afbbafd890b823304e7a06de2bc6",
+          "package_version": "0.4.4",
+          "declared_version": "0.4.4",
+          "contract_sha256": "ee86c1952cabaaaf02292b65b3079f0395af33a977eec32d58239b139725e5f7",
+          "dirty": false,
+          "tracked_diff_sha256": null,
+          "version_evidence": "execution_receipt"
+        }
+      ],
+      "backend_version": null,
+      "offline_regrade_model_calls": 0,
+      "engineering_distribution": null,
+      "drawing_distribution": null
+    },
+    {
+      "id": "parser-img2table",
+      "label": "img2table",
+      "dataset": "v1",
+      "stage": "direct_parser",
+      "primary_grader": "0.2.2",
+      "rounds": [
+        {
+          "round": 1,
+          "evaluations": {
+            "0.2.0": {
+              "engineering_correct": 91,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            },
+            "0.2.2": {
+              "engineering_correct": 91,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            }
+          },
+          "valid_pages": 15,
+          "expected_pages": 15,
+          "elapsed_seconds": 19.43,
+          "elapsed_definition": "sum of per-case monitored durations"
+        }
+      ],
+      "receipts": [
+        "examples/parser-outputs/2026-10-12/manifest.json",
+        "examples/parser-outputs/2026-10-12/regrade-v0.2.2.json"
+      ],
+      "model": null,
+      "complete": true,
+      "planned_rounds": 1,
+      "versions": [
+        {
+          "git_revision": "470614c9d7b3afbbafd890b823304e7a06de2bc6",
+          "package_version": "2.0.0",
+          "declared_version": "2.0.0",
+          "contract_sha256": "ee86c1952cabaaaf02292b65b3079f0395af33a977eec32d58239b139725e5f7",
+          "dirty": false,
+          "tracked_diff_sha256": null,
+          "version_evidence": "execution_receipt"
+        }
+      ],
+      "backend_version": null,
+      "offline_regrade_model_calls": 0,
+      "engineering_distribution": null,
+      "drawing_distribution": null
+    },
+    {
+      "id": "parser-liteparse",
+      "label": "liteparse",
+      "dataset": "v1",
+      "stage": "direct_parser",
+      "primary_grader": "0.2.2",
+      "rounds": [
+        {
+          "round": 1,
+          "evaluations": {
+            "0.2.0": {
+              "engineering_correct": 1,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            },
+            "0.2.2": {
+              "engineering_correct": 1,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            }
+          },
+          "valid_pages": 15,
+          "expected_pages": 15,
+          "elapsed_seconds": 8.042,
+          "elapsed_definition": "sum of per-case monitored durations"
+        }
+      ],
+      "receipts": [
+        "examples/parser-outputs/2026-10-12/manifest.json",
+        "examples/parser-outputs/2026-10-12/regrade-v0.2.2.json"
+      ],
+      "model": null,
+      "complete": true,
+      "planned_rounds": 1,
+      "versions": [
+        {
+          "git_revision": "470614c9d7b3afbbafd890b823304e7a06de2bc6",
+          "package_version": "2.15.1",
+          "declared_version": "2.15.1",
+          "contract_sha256": "ee86c1952cabaaaf02292b65b3079f0395af33a977eec32d58239b139725e5f7",
+          "dirty": false,
+          "tracked_diff_sha256": null,
+          "version_evidence": "execution_receipt"
+        }
+      ],
+      "backend_version": null,
+      "offline_regrade_model_calls": 0,
+      "engineering_distribution": null,
+      "drawing_distribution": null
+    },
+    {
+      "id": "parser-mineru-basic",
+      "label": "mineru-basic",
+      "dataset": "v1",
+      "stage": "direct_parser",
+      "primary_grader": "0.2.2",
+      "rounds": [
+        {
+          "round": 1,
+          "evaluations": {
+            "0.2.0": {
+              "engineering_correct": 22,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            },
+            "0.2.2": {
+              "engineering_correct": 22,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            }
+          },
+          "valid_pages": 14,
+          "expected_pages": 15,
+          "elapsed_seconds": 306.909,
+          "elapsed_definition": "sum of per-case monitored durations"
+        }
+      ],
+      "receipts": [
+        "examples/parser-outputs/2026-10-12/manifest.json",
+        "examples/parser-outputs/2026-10-12/regrade-v0.2.2.json"
+      ],
+      "model": null,
+      "complete": true,
+      "planned_rounds": 1,
+      "versions": [
+        {
+          "git_revision": "470614c9d7b3afbbafd890b823304e7a06de2bc6",
+          "package_version": "4.0.12",
+          "declared_version": "4.0.12",
+          "contract_sha256": "ee86c1952cabaaaf02292b65b3079f0395af33a977eec32d58239b139725e5f7",
+          "dirty": false,
+          "tracked_diff_sha256": null,
+          "version_evidence": "execution_receipt"
+        },
+        {
+          "git_revision": "470614c9d7b3afbbafd890b823304e7a06de2bc6",
+          "package_version": null,
+          "declared_version": "4.0.12",
+          "contract_sha256": null,
+          "dirty": false,
+          "tracked_diff_sha256": null,
+          "version_evidence": "execution_receipt"
+        }
+      ],
+      "backend_version": null,
+      "offline_regrade_model_calls": 0,
+      "engineering_distribution": null,
+      "drawing_distribution": null
+    },
+    {
+      "id": "parser-paddle-cuda-gpu44",
+      "label": "paddle-cuda-gpu44",
+      "dataset": "v1",
+      "stage": "direct_parser",
+      "primary_grader": "0.2.2",
+      "rounds": [
+        {
+          "round": 1,
+          "evaluations": {
+            "0.2.0": {
+              "engineering_correct": 0,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            },
+            "0.2.2": {
+              "engineering_correct": 0,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            }
+          },
+          "valid_pages": 2,
+          "expected_pages": 15,
+          "elapsed_seconds": 385.447,
+          "elapsed_definition": "sum of per-case monitored durations; separate supervisor total and transport durations are reported below"
+        }
+      ],
+      "receipts": [
+        "examples/parser-outputs/2026-10-12/manifest.json",
+        "examples/parser-outputs/2026-10-12/regrade-v0.2.2.json"
+      ],
+      "model": null,
+      "complete": true,
+      "planned_rounds": 1,
+      "versions": [
+        {
+          "package": "paddleocr",
+          "version": "3.7.0",
+          "paddlepaddle-gpu": "3.3.1",
+          "catalog-parser-tools": "0.2.0"
+        }
+      ],
+      "backend_version": null,
+      "offline_regrade_model_calls": 0,
+      "engineering_distribution": null,
+      "drawing_distribution": null
+    },
+    {
+      "id": "parser-mineru-vulkan-gpu44",
+      "label": "mineru-vulkan-gpu44",
+      "dataset": "v1",
+      "stage": "direct_parser",
+      "primary_grader": "0.2.2",
+      "rounds": [
+        {
+          "round": 1,
+          "evaluations": {
+            "0.2.0": {
+              "engineering_correct": 52,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            },
+            "0.2.2": {
+              "engineering_correct": 52,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            }
+          },
+          "valid_pages": 15,
+          "expected_pages": 15,
+          "elapsed_seconds": 321.522,
+          "elapsed_definition": "sum of per-case monitored durations; separate supervisor total and transport durations are reported below"
+        }
+      ],
+      "receipts": [
+        "examples/parser-outputs/2026-10-12/manifest.json",
+        "examples/parser-outputs/2026-10-12/regrade-v0.2.2.json"
+      ],
+      "model": null,
+      "complete": true,
+      "planned_rounds": 1,
+      "versions": [
+        {
+          "package": "mineru",
+          "version": "4.0.12",
+          "mineru-llama-cpp": "0.1.3",
+          "catalog-parser-tools": "0.2.0"
+        }
+      ],
+      "backend_version": null,
+      "offline_regrade_model_calls": 0,
+      "engineering_distribution": null,
+      "drawing_distribution": null
+    },
+    {
+      "id": "parser-mineru-standard-metal",
+      "label": "mineru-standard-metal",
+      "dataset": "v1",
+      "stage": "direct_parser",
+      "primary_grader": "0.2.2",
+      "rounds": [
+        {
+          "round": 1,
+          "evaluations": {
+            "0.2.0": {
+              "engineering_correct": 52,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            },
+            "0.2.2": {
+              "engineering_correct": 52,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            }
+          },
+          "valid_pages": 15,
+          "expected_pages": 15,
+          "elapsed_seconds": 272.314,
+          "elapsed_definition": "sum of per-case monitored durations"
+        }
+      ],
+      "receipts": [
+        "examples/parser-outputs/2026-10-12/manifest.json",
+        "examples/parser-outputs/2026-10-12/regrade-v0.2.2.json"
+      ],
+      "model": null,
+      "complete": true,
+      "planned_rounds": 1,
+      "versions": null,
+      "backend_version": "4.0.12",
+      "offline_regrade_model_calls": 0,
+      "engineering_distribution": null,
+      "drawing_distribution": null
+    },
+    {
+      "id": "parser-mineru-advanced-metal",
+      "label": "mineru-advanced-metal",
+      "dataset": "v1",
+      "stage": "direct_parser",
+      "primary_grader": "0.2.2",
+      "rounds": [
+        {
+          "round": 1,
+          "evaluations": {
+            "0.2.0": {
+              "engineering_correct": 201,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            },
+            "0.2.2": {
+              "engineering_correct": 201,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            }
+          },
+          "valid_pages": 14,
+          "expected_pages": 15,
+          "elapsed_seconds": 1152.612,
+          "elapsed_definition": "sum of per-case monitored durations"
+        }
+      ],
+      "receipts": [
+        "examples/parser-outputs/2026-10-12/manifest.json",
+        "examples/parser-outputs/2026-10-12/regrade-v0.2.2.json"
+      ],
+      "model": null,
+      "complete": true,
+      "planned_rounds": 1,
+      "versions": null,
+      "backend_version": "4.0.12",
+      "offline_regrade_model_calls": 0,
+      "engineering_distribution": null,
+      "drawing_distribution": null
+    },
+    {
+      "id": "parser-pdfplumber",
+      "label": "pdfplumber",
+      "dataset": "v1",
+      "stage": "direct_parser",
+      "primary_grader": "0.2.2",
+      "rounds": [
+        {
+          "round": 1,
+          "evaluations": {
+            "0.2.0": {
+              "engineering_correct": 5,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            },
+            "0.2.2": {
+              "engineering_correct": 5,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            }
+          },
+          "valid_pages": 15,
+          "expected_pages": 15,
+          "elapsed_seconds": 26.867,
+          "elapsed_definition": "sum of per-case monitored durations"
+        }
+      ],
+      "receipts": [
+        "examples/parser-outputs/2026-10-12/manifest.json",
+        "examples/parser-outputs/2026-10-12/regrade-v0.2.2.json"
+      ],
+      "model": null,
+      "complete": true,
+      "planned_rounds": 1,
+      "versions": {
+        "pdfplumber": "0.11.10",
+        "tabula-java": "1.0.5",
+        "tabula-py": "2.10.0"
+      },
+      "backend_version": null,
+      "offline_regrade_model_calls": 0,
+      "engineering_distribution": null,
+      "drawing_distribution": null
+    },
+    {
+      "id": "parser-tabula-lattice",
+      "label": "tabula-lattice",
+      "dataset": "v1",
+      "stage": "direct_parser",
+      "primary_grader": "0.2.2",
+      "rounds": [
+        {
+          "round": 1,
+          "evaluations": {
+            "0.2.0": {
+              "engineering_correct": 39,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            },
+            "0.2.2": {
+              "engineering_correct": 39,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            }
+          },
+          "valid_pages": 14,
+          "expected_pages": 15,
+          "elapsed_seconds": 66.083,
+          "elapsed_definition": "sum of per-case monitored durations"
+        }
+      ],
+      "receipts": [
+        "examples/parser-outputs/2026-10-12/manifest.json",
+        "examples/parser-outputs/2026-10-12/regrade-v0.2.2.json"
+      ],
+      "model": null,
+      "complete": true,
+      "planned_rounds": 1,
+      "versions": {
+        "pdfplumber": "0.11.10",
+        "tabula-java": "1.0.5",
+        "tabula-py": "2.10.0"
+      },
+      "backend_version": null,
+      "offline_regrade_model_calls": 0,
+      "engineering_distribution": null,
+      "drawing_distribution": null
+    },
+    {
+      "id": "parser-tabula-stream",
+      "label": "tabula-stream",
+      "dataset": "v1",
+      "stage": "direct_parser",
+      "primary_grader": "0.2.2",
+      "rounds": [
+        {
+          "round": 1,
+          "evaluations": {
+            "0.2.0": {
+              "engineering_correct": 0,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            },
+            "0.2.2": {
+              "engineering_correct": 0,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            }
+          },
+          "valid_pages": 15,
+          "expected_pages": 15,
+          "elapsed_seconds": 62.178,
+          "elapsed_definition": "sum of per-case monitored durations"
+        }
+      ],
+      "receipts": [
+        "examples/parser-outputs/2026-10-12/manifest.json",
+        "examples/parser-outputs/2026-10-12/regrade-v0.2.2.json"
+      ],
+      "model": null,
+      "complete": true,
+      "planned_rounds": 1,
+      "versions": {
+        "pdfplumber": "0.11.10",
+        "tabula-java": "1.0.5",
+        "tabula-py": "2.10.0"
+      },
+      "backend_version": null,
+      "offline_regrade_model_calls": 0,
+      "engineering_distribution": null,
+      "drawing_distribution": null
+    },
+    {
+      "id": "parser-xberg",
+      "label": "xberg",
+      "dataset": "v1",
+      "stage": "direct_parser",
+      "primary_grader": "0.2.2",
+      "rounds": [
+        {
+          "round": 1,
+          "evaluations": {
+            "0.2.0": {
+              "engineering_correct": 0,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            },
+            "0.2.2": {
+              "engineering_correct": 0,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            }
+          },
+          "valid_pages": 15,
+          "expected_pages": 15,
+          "elapsed_seconds": 3.28,
+          "elapsed_definition": "sum of per-case monitored durations"
+        }
+      ],
+      "receipts": [
+        "examples/parser-outputs/2026-10-12/manifest.json",
+        "examples/parser-outputs/2026-10-12/regrade-v0.2.2.json"
+      ],
+      "model": null,
+      "complete": true,
+      "planned_rounds": 1,
+      "versions": null,
+      "backend_version": null,
+      "offline_regrade_model_calls": 0,
+      "engineering_distribution": null,
+      "drawing_distribution": null
+    },
+    {
+      "id": "parser-pdf-mcp",
+      "label": "pdf-mcp",
+      "dataset": "v1",
+      "stage": "direct_parser",
+      "primary_grader": "0.2.2",
+      "rounds": [
+        {
+          "round": 1,
+          "evaluations": {
+            "0.2.0": {
+              "engineering_correct": 1,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            },
+            "0.2.2": {
+              "engineering_correct": 1,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            }
+          },
+          "valid_pages": 15,
+          "expected_pages": 15,
+          "elapsed_seconds": 36.922,
+          "elapsed_definition": "sum of per-case monitored durations"
+        }
+      ],
+      "receipts": [
+        "examples/parser-outputs/2026-10-12/manifest.json",
+        "examples/parser-outputs/2026-10-12/regrade-v0.2.2.json"
+      ],
+      "model": null,
+      "complete": true,
+      "planned_rounds": 1,
+      "versions": null,
+      "backend_version": null,
+      "offline_regrade_model_calls": 0,
+      "engineering_distribution": null,
+      "drawing_distribution": null
+    },
+    {
+      "id": "parser-pdf-capture-mcp-patched",
+      "label": "pdf-capture-mcp-patched",
+      "dataset": "v1",
+      "stage": "direct_parser",
+      "primary_grader": "0.2.2",
+      "rounds": [
+        {
+          "round": 1,
+          "evaluations": {
+            "0.2.0": {
+              "engineering_correct": 1,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            },
+            "0.2.2": {
+              "engineering_correct": 1,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            }
+          },
+          "valid_pages": 15,
+          "expected_pages": 15,
+          "elapsed_seconds": 15.061,
+          "elapsed_definition": "sum of per-case monitored durations"
+        }
+      ],
+      "receipts": [
+        "examples/parser-outputs/2026-10-12/manifest.json",
+        "examples/parser-outputs/2026-10-12/regrade-v0.2.2.json"
+      ],
+      "model": null,
+      "complete": true,
+      "planned_rounds": 1,
+      "versions": null,
+      "backend_version": null,
+      "offline_regrade_model_calls": 0,
+      "engineering_distribution": null,
+      "drawing_distribution": null
+    },
+    {
+      "id": "parser-tableshot",
+      "label": "tableshot",
+      "dataset": "v1",
+      "stage": "direct_parser",
+      "primary_grader": "0.2.2",
+      "rounds": [
+        {
+          "round": 1,
+          "evaluations": {
+            "0.2.0": {
+              "engineering_correct": 1,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            },
+            "0.2.2": {
+              "engineering_correct": 1,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            }
+          },
+          "valid_pages": 15,
+          "expected_pages": 15,
+          "elapsed_seconds": 17.335,
+          "elapsed_definition": "sum of per-case monitored durations"
+        }
+      ],
+      "receipts": [
+        "examples/parser-outputs/2026-10-12/manifest.json",
+        "examples/parser-outputs/2026-10-12/regrade-v0.2.2.json"
+      ],
+      "model": null,
+      "complete": true,
+      "planned_rounds": 1,
+      "versions": null,
+      "backend_version": null,
+      "offline_regrade_model_calls": 0,
+      "engineering_distribution": null,
+      "drawing_distribution": null
+    },
+    {
+      "id": "parser-unstructured-hi-res",
+      "label": "unstructured-hi-res",
+      "dataset": "v1",
+      "stage": "direct_parser",
+      "primary_grader": "0.2.2",
+      "rounds": [
+        {
+          "round": 1,
+          "evaluations": {
+            "0.2.0": {
+              "engineering_correct": 6,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            },
+            "0.2.2": {
+              "engineering_correct": 6,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            }
+          },
+          "valid_pages": 13,
+          "expected_pages": 15,
+          "elapsed_seconds": 668.773,
+          "elapsed_definition": "sum of per-case monitored durations"
+        }
+      ],
+      "receipts": [
+        "examples/parser-outputs/2026-10-12/manifest.json",
+        "examples/parser-outputs/2026-10-12/regrade-v0.2.2.json"
+      ],
+      "model": null,
+      "complete": true,
+      "planned_rounds": 1,
+      "versions": {
+        "unstructured": "0.27.25",
+        "unstructured-inference": "1.6.13",
+        "torch": "2.14.1+cpu"
+      },
+      "backend_version": null,
+      "offline_regrade_model_calls": 0,
+      "engineering_distribution": null,
+      "drawing_distribution": null
+    },
+    {
+      "id": "parser-marker-balanced-mac-metal",
+      "label": "marker-balanced-mac-metal",
+      "dataset": "v1",
+      "stage": "direct_parser",
+      "primary_grader": "0.2.2",
+      "rounds": [
+        {
+          "round": 1,
+          "evaluations": {
+            "0.2.0": {
+              "engineering_correct": 88,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            },
+            "0.2.2": {
+              "engineering_correct": 88,
+              "engineering_expected": 500,
+              "drawing_correct": 0,
+              "drawing_expected": 0
+            }
+          },
+          "valid_pages": 15,
+          "expected_pages": 15,
+          "elapsed_seconds": 428.77,
+          "elapsed_definition": "sum of per-case monitored durations; shared server startup and input/output transport reported separately"
+        }
+      ],
+      "receipts": [
+        "examples/parser-outputs/2026-10-12/manifest.json",
+        "examples/parser-outputs/2026-10-12/regrade-v0.2.2.json"
+      ],
+      "model": null,
+      "complete": true,
+      "planned_rounds": 1,
+      "versions": {
+        "marker-pdf": "2.0.0",
+        "surya-ocr": "0.22.1",
+        "torch": "2.14.1",
+        "torchvision": "0.29.1",
+        "transformers": "5.19.0",
+        "pdftext": "0.7.1"
+      },
+      "backend_version": null,
+      "offline_regrade_model_calls": 0,
+      "engineering_distribution": null,
+      "drawing_distribution": null
+    }
+  ]
+}
