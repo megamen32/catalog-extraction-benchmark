@@ -41,3 +41,5 @@ Export annotations with `catalog-bench dataset --export annotations`, then follo
 [Новая инструкция выбора/чтения:483/500 в полном15-страничном прогоне1.4.2](examples/agent-routing/2026-10-12-body-routing-v1.4.2/README.md). [Отдельный реальный15/15 canary1.4.3 на26](examples/agent-routing/2026-10-12-delivery-v1.4.3/README.md). Это отдельные версии и попытки.
 
 [Повторные замороженные прогоны и разброс](docs/REPEATABILITY.md). [Сохранённая первая попытка1.4.4:368/500](examples/agent-routing/2026-10-12-byte-routing-v1.4.4/README.md); для выбора версии требуется минимум три полных раунда.
+
+[Три полных раунда обеих версий: 90 попыток и 84 точных JSON](examples/agent-routing/2026-10-12-repeated-runs/README.md). После полной переоценки grader 0.2.4 среднее выбранных фактов: 94,13% у 1.4.2 и 70,27% у 1.4.4; разброс, неудачи и различия по каталогам сохранены отдельно.
