@@ -37,3 +37,27 @@ The modified route additionally exposes provider/contract integration weaknesses
 5. Add provider-specific admission/backoff and resumable receipts. Preserve failed rate-limited calls in a completed cohort; evaluate scheduling changes in a separately versioned cohort.
 
 The user's public [catalog-to-json](https://github.com/megamen32/catalog-to-json) demonstrates page-bound tools, separate extraction/review roles and resumable source-linked artifacts. This [benchmark](https://github.com/megamen32/catalog-extraction-benchmark) retains source cases, version/settings, outputs, timing, usage and grader versions. These patterns can be reused without treating either project as universally best. Existing historical version results used the earlier500-check subset; they are not expanded520+21 scores and must not be ranked as if their denominators were identical.
+
+
+## Concrete first-round cases
+
+With GLM, [page27](../examples/project-x/2026-10-12-native-vision-v1-full/glm-5.3-flash/round-1/catalog-1-page-027/score-v0.3.1.json) turns source values38 and87,3 and a printed dash into empty cells in the IV execution row. A catalogue-specific merged-cell/row ownership pass should preserve the source distinction between an actual blank, a printed dash and a repeated shared value.
+
+On [page39](../examples/project-x/2026-10-12-native-vision-v1-full/glm-5.3-flash/round-1/catalog-1-page-039/score-v0.3.1.json), values260,0 and284,0 cannot be recovered under the required250А/30–60 condition by the conservative engineering grader. Several drawing dimensions also lack the required feature/endpoints association. Labels alone are insufficient to establish what a dimension measures.
+
+Some [page78](../examples/project-x/2026-10-12-native-vision-v1-full/glm-5.3-flash/round-1/catalog-4-page-078/score-v0.3.1.json) penalties are strict literal-script differences:4M16 uses LatinM while the annotated source has CyrillicМ. These should be distinguished from a wrong engineering number. The benchmark retains its exact-literal scores; it does not silently normalize them or certify every drawing label. Real missing header conditions and unscoped geometry remain separate problems.
+
+These are observed first-round examples. The three-round summary is required before claiming a stable mean or recommending a model configuration as the winner.
+
+
+## Same expanded set: first-round comparison
+
+| Tested initial stage | Valid catalogue JSON | Engineering checks | Drawing checks | Completed fresh rounds shown |
+|---|---:|---:|---:|---:|
+| Our native extractor1.4.2/plugin0.2.1 | 15/17 | 399/520 (76.73%) | 5/21 (23.81%) | 1 |
+| Project X + GLM5.3Flash, modified native Visionv1 | 14/17 | 380/520 (73.08%) | 4/21 (19.05%) | 1 |
+| Project X + MiniMaxM3.1FlashPreview, modified native Visionv1 | 4/17 | 210/520 (40.38%) | 3/21 (14.29%) | 1 |
+
+The [our first-pass snapshot](../examples/agent-routing/2026-10-12-mixed-v2/first-pass-round-1/README.md) precedes GLM reviewer1.4.8 and normal repairs. It is not an accepted two-role pipeline score: accepted pages at that snapshot are0/17. Project X is a separate native visual stage with its explicit catalogue adapter and native syntax repair. These rows compare delivered initial-stage outputs on exactly the same17-page corpus and fixed denominators; they do not isolate the causal effect of one model or certify a final reviewed catalogue. Both public grader versions reproduce these first-round numbers.
+
+The Project X experiment has **three rounds for each of two model configurations**, six model-rounds total. Our already-running native extractor→reviewer experiment has its own three rounds. Publishing a first-round snapshot does not start another run. Current scheduler releases1.4.14/1.4.15 retain the same142→148 extraction/review roles; scheduler changes are not new extraction accuracy profiles. Historical144/146 version results on15 pages/500 checks remain historical; they have no expanded17/520+21 result here. No stable winner is declared from this table.
