@@ -23,6 +23,38 @@ def test_composite_fields_do_not_rescue_matching_number_and_unit():
     assert not column_match(anchor().semantic_columns[1][2], c)['field']
 
 
+def test_dimension_parent_can_move_into_the_same_complete_label():
+    annotation=anchor().semantic_columns[1][2]
+    for label in ['Верхний фланец D1','Верхний фланец D1, мм','Верхний фланец / D1','Размеры / Верхний фланец / D1']:
+        result=column_match(annotation,Column(id='c',label=label,unit='мм'))
+        assert all(result.values()), (label,result)
+
+
+def test_relocated_dimension_parent_does_not_hide_conflicts_or_other_fields():
+    annotation=anchor().semantic_columns[1][2]
+    for label,group in [('Нижний фланец D1',None),('Верхний фланец D10',None),
+                        ('Верхний фланец d1',None),('Верхний фланец D1 / B1',None),
+                        ('Верхний фланец D1','Нижний фланец'),
+                        ('Верхний фланец / D1 / B1','Верхний фланец'),
+                        ('Масса / Верхний фланец / D1',None),
+                        ('Верхний фланец D1 при 50 Гц',None),
+                        ('Верхний фланец D1, B1',None),
+                        ('Верхний фланец / D1, B1',None),
+                        ('Верхний фланец D1, м',None),
+                        ('Верхний фланец D1, мм, при 50 Гц',None)]:
+        assert not column_match(annotation,Column(id='c',label=label,group=group,unit='мм'))['field']
+    assert not column_match(annotation,Column(id='c',label='Верхний фланец D1',unit='м'))['unit']
+    assert not column_match(annotation,Column(id='c',label='Верхний фланец D1',unit='мм',qualifier='не менее'))['bounds']
+
+
+def test_module_reports_the_declared_release_version():
+    from pathlib import Path
+    import tomllib
+    import catalog_bench
+    declared=tomllib.loads((Path(__file__).parents[1]/'pyproject.toml').read_text())['project']['version']
+    assert catalog_bench.__version__==declared
+
+
 def test_empty_unit_can_inherit_but_explicit_conflicting_unit_cannot():
     ann=anchor().semantic_columns[0][1]
     assert column_match(ann,Column(id='c',label='Номинальное напряжение, кВ',unit=''))['unit']

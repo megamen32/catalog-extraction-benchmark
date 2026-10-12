@@ -31,15 +31,31 @@ def column_match(annotation, column):
     raw = normalized(' '.join(filter(None, [column.group, column.label])))
     folded = semantic_header_text(raw + ' ' + (normalized(column.qualifier) or ''))
     field = all(bool(re.search(r'(?<![\d.,])' + re.escape(token), folded)) if token[:1].isdigit() else token in folded for token in annotation.get('tokens', []))
+    inline_group = None
     if annotation.get('symbol'):
         # Scoped aliases for dimension fields only; product names and grade СЗ stay literal.
         symbol = normalized(column.label).split('/')[-1].split(',')[0].strip()
-        field = arm_iz.fieldglyph(symbol) == arm_iz.fieldglyph(annotation['symbol'])
         prefix = column.label.split('/')[:-1]
+        wanted_group = annotation.get('group')
+        if wanted_group:
+            # One complete parent/leaf path may be represented in label instead of group.
+            # An explicit conflicting group still takes precedence below.
+            match = re.fullmatch(re.escape(wanted_group) + r'\s+([^/]+)', symbol)
+            if match:
+                symbol = match.group(1).strip()
+                inline_group = wanted_group
+            elif any(normalized(p) == wanted_group for p in prefix):
+                inline_group = wanted_group
+        field = arm_iz.fieldglyph(symbol) == arm_iz.fieldglyph(annotation['symbol'])
+        if inline_group:
+            leaf = normalized(column.label).split('/')[-1]
+            suffix = leaf.partition(',')[2].strip()
+            if suffix and suffix != annotation.get('unit'):
+                field = False
         if any(not re.fullmatch(r'(?:основные\s+|присоединительные\s+)?размеры(?:,?\s*мм)?|(?:верхний|нижний)\s+фланец', p.strip(), re.I) for p in prefix):
             field = False
     if annotation.get('group'):
-        field = field and normalized(column.group) == annotation['group']
+        field = field and (normalized(column.group) or inline_group) == annotation['group']
     # Several voltage conditions or leaf dimensions collapsed into a header are ambiguous.
     conditions = [r'полн.*грозов.*импульс', r'50.*гц.*сухом', r'50.*гц.*дождем', r'разрядн.*загрязн']
     if sum(bool(re.search(p, folded)) for p in conditions) > 1:

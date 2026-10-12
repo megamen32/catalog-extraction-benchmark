@@ -52,3 +52,9 @@ Owner permission on 2026-10-12 explicitly allows publication of public catalogue
 ## Repeated frozen cohorts,2026-10-12
 
 One fresh1.4.4 cohort saved14/15 pages and368/500 chosen facts; failed33 remains0/108. Its parent interruption17 recovered only a completed source-bound adapter artifact, with native duration explicitly separated. Outputs/metadata public; no transcripts. Added independently reviewed repeatability runner: mandatory frozen bindings, at least3 rounds, adaptive bounded concurrency and retained429/failure cases. Fresh rounds2/3 for1.4.2 and1.4.4 pending; single-trial results do not choose a winner.
+
+## Grader 0.2.4, 2026-10-12
+
+Confirmed false-negative: an unambiguous source parent dimension group moved into the same label was rejected despite all 140 literal cells matching. The grader now recognizes the complete parent/leaf path while rejecting conflicting parents, longer or composite symbols, conflicting units and added conditions. The frozen 500-fact dataset and model outputs are unchanged. Historical 0.2.3 scores remain retained; all 90 attempts will be regraded separately with released 0.2.4 after the running third round completes.
+
+The 0.2.3 distribution had a stale 0.2.2 module/CLI version. Release 0.2.4 synchronizes package and module versions. Focused RED regressions and 52 passing tests, plus independent adversarial review, verified this source slice. Public release installation and complete repeated-cohort acceptance are pending.
