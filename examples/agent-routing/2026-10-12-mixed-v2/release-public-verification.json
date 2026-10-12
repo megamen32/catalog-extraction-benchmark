@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "consumer": "fresh isolated installation from publicly downloaded GitHub release asset",
+  "release_url": "https://github.com/megamen32/catalog-extraction-benchmark/releases/tag/v0.3.0",
+  "wheel_sha256": "d64fb2d9655bf486d83433aefcc00f5e517cd51b821bb0c10c15d1fb0c0e6811",
+  "package_version": "0.3.0",
+  "python_version": "3.14.3",
+  "grader_sha256": "24b64859fd690d11afd8477c69a0f84336a28338ac0b49981e5300055364d57a",
+  "dataset": {
+    "dataset": "engineering-catalogs-v2",
+    "version": "2.0.0",
+    "cases": 17,
+    "engineering_facts": 520,
+    "drawing_assertions": 21,
+    "full_page_ground_truth": false,
+    "checksums_verified": true
+  },
+  "synthetic_demo_four_arms_and_idempotent_resume": true,
+  "model_calls_performed": 0,
+  "mixed_cohort_complete": false
+}
