@@ -1,0 +1,118 @@
+{
+  "participant": "Project X",
+  "snapshot": "ProjectX-snapshot-20261012",
+  "integration": "modified native Vision integration v1",
+  "integration_sha256": "f31b03eb2eb058a1c5f6237040f4eb152f3ce10472a9734558081e618498dfa3",
+  "status": "running",
+  "complete": false,
+  "dataset": "engineering-catalogs-v2",
+  "cases_per_round": 17,
+  "engineering_checks_per_round": 520,
+  "drawing_checks_per_round": 21,
+  "sequential_full_rounds_per_model": 3,
+  "models": [
+    "glm-5.3-flash",
+    "MiniMax-M3.1-Flash-Preview"
+  ],
+  "expected_attempts": 102,
+  "model_parallelism": "one GLM and one MiniMax case at a time; full rounds sequential within each model",
+  "image_preparation": "whole-page144DPI plus two216DPI overlapping half-page crops",
+  "max_output_tokens": 32768,
+  "temperature": 1,
+  "native_json_syntax_repair_maximum": 1,
+  "native_canonical_tables_mutated": false,
+  "test_stage": "native visual catalogue extraction; exact metadata page exported for grading",
+  "grading": "released0.3.0 retained, correctedoffline0.3.1 reported separately",
+  "prior_probes_reused": false,
+  "gold_and_prior_outputs_given_to_models": false,
+  "raw_transcripts_published": false,
+  "source_code_published": false,
+  "failed_or_invalid_attempts": "retained and counted with zero delivered correct checks on the fixed full-round denominator",
+  "cases": [
+    {
+      "case_id": "catalog-1-page-027",
+      "original_physical_page": 27,
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2"
+    },
+    {
+      "case_id": "catalog-1-page-039",
+      "original_physical_page": 39,
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2"
+    },
+    {
+      "case_id": "catalog-1-page-017",
+      "original_physical_page": 17,
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2"
+    },
+    {
+      "case_id": "catalog-1-page-022",
+      "original_physical_page": 22,
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2"
+    },
+    {
+      "case_id": "catalog-1-page-026",
+      "original_physical_page": 26,
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2"
+    },
+    {
+      "case_id": "catalog-2-page-060",
+      "original_physical_page": 60,
+      "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49"
+    },
+    {
+      "case_id": "catalog-2-page-149",
+      "original_physical_page": 149,
+      "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49"
+    },
+    {
+      "case_id": "catalog-2-page-185",
+      "original_physical_page": 185,
+      "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49"
+    },
+    {
+      "case_id": "catalog-3-page-103",
+      "original_physical_page": 103,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e"
+    },
+    {
+      "case_id": "catalog-3-page-108",
+      "original_physical_page": 108,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e"
+    },
+    {
+      "case_id": "catalog-3-page-111",
+      "original_physical_page": 111,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e"
+    },
+    {
+      "case_id": "catalog-4-page-033",
+      "original_physical_page": 33,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee"
+    },
+    {
+      "case_id": "catalog-4-page-038",
+      "original_physical_page": 38,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee"
+    },
+    {
+      "case_id": "catalog-4-page-078",
+      "original_physical_page": 78,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee"
+    },
+    {
+      "case_id": "catalog-5-page-030",
+      "original_physical_page": 30,
+      "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35"
+    },
+    {
+      "case_id": "catalog-5-page-035",
+      "original_physical_page": 35,
+      "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35"
+    },
+    {
+      "case_id": "catalog-5-page-126",
+      "original_physical_page": 126,
+      "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35"
+    }
+  ]
+}
