@@ -1,0 +1,470 @@
+{
+  "project": "Project X",
+  "snapshot": "ProjectX-snapshot-20261012",
+  "tested_route": "deterministic PDF ingestion stage; optional provider-based analyses not executed",
+  "dataset": "engineering-catalogs-v2",
+  "grader_version": "0.3.0",
+  "cases": 17,
+  "rounds_required": 3,
+  "attempts": 51,
+  "all_attempts_completed": true,
+  "rounds": [
+    {
+      "round": "j",
+      "engineering_correct": 21,
+      "engineering_expected": 520,
+      "drawing_correct": 0,
+      "drawing_expected": 21,
+      "combined_percent": 3.88,
+      "common500_correct": 15,
+      "common500_expected": 500,
+      "elapsed_seconds_sum": 36.378,
+      "elapsed_per_page_mean": 2.14,
+      "cases": [
+        {
+          "case_id": "catalog-1-page-027",
+          "engineering_correct": 1,
+          "engineering_expected": 10,
+          "drawing_correct": 0,
+          "drawing_expected": 13
+        },
+        {
+          "case_id": "catalog-1-page-039",
+          "engineering_correct": 5,
+          "engineering_expected": 10,
+          "drawing_correct": 0,
+          "drawing_expected": 8
+        },
+        {
+          "case_id": "catalog-1-page-017",
+          "engineering_correct": 0,
+          "engineering_expected": 15,
+          "drawing_correct": 0,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-1-page-022",
+          "engineering_correct": 0,
+          "engineering_expected": 15,
+          "drawing_correct": 0,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-1-page-026",
+          "engineering_correct": 0,
+          "engineering_expected": 15,
+          "drawing_correct": 0,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-2-page-060",
+          "engineering_correct": 0,
+          "engineering_expected": 15,
+          "drawing_correct": 0,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-2-page-149",
+          "engineering_correct": 2,
+          "engineering_expected": 15,
+          "drawing_correct": 0,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-2-page-185",
+          "engineering_correct": 0,
+          "engineering_expected": 15,
+          "drawing_correct": 0,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-3-page-103",
+          "engineering_correct": 0,
+          "engineering_expected": 15,
+          "drawing_correct": 0,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-3-page-108",
+          "engineering_correct": 1,
+          "engineering_expected": 15,
+          "drawing_correct": 0,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-3-page-111",
+          "engineering_correct": 7,
+          "engineering_expected": 15,
+          "drawing_correct": 0,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-4-page-033",
+          "engineering_correct": 0,
+          "engineering_expected": 108,
+          "drawing_correct": 0,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-4-page-038",
+          "engineering_correct": 0,
+          "engineering_expected": 72,
+          "drawing_correct": 0,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-4-page-078",
+          "engineering_correct": 0,
+          "engineering_expected": 140,
+          "drawing_correct": 0,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-5-page-030",
+          "engineering_correct": 1,
+          "engineering_expected": 15,
+          "drawing_correct": 0,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-5-page-035",
+          "engineering_correct": 4,
+          "engineering_expected": 15,
+          "drawing_correct": 0,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-5-page-126",
+          "engineering_correct": 0,
+          "engineering_expected": 15,
+          "drawing_correct": 0,
+          "drawing_expected": 0
+        }
+      ]
+    },
+    {
+      "round": "k",
+      "engineering_correct": 21,
+      "engineering_expected": 520,
+      "drawing_correct": 0,
+      "drawing_expected": 21,
+      "combined_percent": 3.88,
+      "common500_correct": 15,
+      "common500_expected": 500,
+      "elapsed_seconds_sum": 37.509,
+      "elapsed_per_page_mean": 2.206,
+      "cases": [
+        {
+          "case_id": "catalog-1-page-027",
+          "engineering_correct": 1,
+          "engineering_expected": 10,
+          "drawing_correct": 0,
+          "drawing_expected": 13
+        },
+        {
+          "case_id": "catalog-1-page-039",
+          "engineering_correct": 5,
+          "engineering_expected": 10,
+          "drawing_correct": 0,
+          "drawing_expected": 8
+        },
+        {
+          "case_id": "catalog-1-page-017",
+          "engineering_correct": 0,
+          "engineering_expected": 15,
+          "drawing_correct": 0,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-1-page-022",
+          "engineering_correct": 0,
+          "engineering_expected": 15,
+          "drawing_correct": 0,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-1-page-026",
+          "engineering_correct": 0,
+          "engineering_expected": 15,
+          "drawing_correct": 0,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-2-page-060",
+          "engineering_correct": 0,
+          "engineering_expected": 15,
+          "drawing_correct": 0,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-2-page-149",
+          "engineering_correct": 2,
+          "engineering_expected": 15,
+          "drawing_correct": 0,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-2-page-185",
+          "engineering_correct": 0,
+          "engineering_expected": 15,
+          "drawing_correct": 0,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-3-page-103",
+          "engineering_correct": 0,
+          "engineering_expected": 15,
+          "drawing_correct": 0,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-3-page-108",
+          "engineering_correct": 1,
+          "engineering_expected": 15,
+          "drawing_correct": 0,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-3-page-111",
+          "engineering_correct": 7,
+          "engineering_expected": 15,
+          "drawing_correct": 0,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-4-page-033",
+          "engineering_correct": 0,
+          "engineering_expected": 108,
+          "drawing_correct": 0,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-4-page-038",
+          "engineering_correct": 0,
+          "engineering_expected": 72,
+          "drawing_correct": 0,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-4-page-078",
+          "engineering_correct": 0,
+          "engineering_expected": 140,
+          "drawing_correct": 0,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-5-page-030",
+          "engineering_correct": 1,
+          "engineering_expected": 15,
+          "drawing_correct": 0,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-5-page-035",
+          "engineering_correct": 4,
+          "engineering_expected": 15,
+          "drawing_correct": 0,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-5-page-126",
+          "engineering_correct": 0,
+          "engineering_expected": 15,
+          "drawing_correct": 0,
+          "drawing_expected": 0
+        }
+      ]
+    },
+    {
+      "round": "l",
+      "engineering_correct": 21,
+      "engineering_expected": 520,
+      "drawing_correct": 0,
+      "drawing_expected": 21,
+      "combined_percent": 3.88,
+      "common500_correct": 15,
+      "common500_expected": 500,
+      "elapsed_seconds_sum": 38.523,
+      "elapsed_per_page_mean": 2.266,
+      "cases": [
+        {
+          "case_id": "catalog-1-page-027",
+          "engineering_correct": 1,
+          "engineering_expected": 10,
+          "drawing_correct": 0,
+          "drawing_expected": 13
+        },
+        {
+          "case_id": "catalog-1-page-039",
+          "engineering_correct": 5,
+          "engineering_expected": 10,
+          "drawing_correct": 0,
+          "drawing_expected": 8
+        },
+        {
+          "case_id": "catalog-1-page-017",
+          "engineering_correct": 0,
+          "engineering_expected": 15,
+          "drawing_correct": 0,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-1-page-022",
+          "engineering_correct": 0,
+          "engineering_expected": 15,
+          "drawing_correct": 0,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-1-page-026",
+          "engineering_correct": 0,
+          "engineering_expected": 15,
+          "drawing_correct": 0,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-2-page-060",
+          "engineering_correct": 0,
+          "engineering_expected": 15,
+          "drawing_correct": 0,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-2-page-149",
+          "engineering_correct": 2,
+          "engineering_expected": 15,
+          "drawing_correct": 0,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-2-page-185",
+          "engineering_correct": 0,
+          "engineering_expected": 15,
+          "drawing_correct": 0,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-3-page-103",
+          "engineering_correct": 0,
+          "engineering_expected": 15,
+          "drawing_correct": 0,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-3-page-108",
+          "engineering_correct": 1,
+          "engineering_expected": 15,
+          "drawing_correct": 0,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-3-page-111",
+          "engineering_correct": 7,
+          "engineering_expected": 15,
+          "drawing_correct": 0,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-4-page-033",
+          "engineering_correct": 0,
+          "engineering_expected": 108,
+          "drawing_correct": 0,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-4-page-038",
+          "engineering_correct": 0,
+          "engineering_expected": 72,
+          "drawing_correct": 0,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-4-page-078",
+          "engineering_correct": 0,
+          "engineering_expected": 140,
+          "drawing_correct": 0,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-5-page-030",
+          "engineering_correct": 1,
+          "engineering_expected": 15,
+          "drawing_correct": 0,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-5-page-035",
+          "engineering_correct": 4,
+          "engineering_expected": 15,
+          "drawing_correct": 0,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-5-page-126",
+          "engineering_correct": 0,
+          "engineering_expected": 15,
+          "drawing_correct": 0,
+          "drawing_expected": 0
+        }
+      ]
+    }
+  ],
+  "distribution": {
+    "engineering_percent": {
+      "mean": 4.0385,
+      "minimum": 4.0385,
+      "maximum": 4.0385,
+      "sample_standard_deviation_pp": 0
+    },
+    "drawing_percent": {
+      "mean": 0,
+      "minimum": 0,
+      "maximum": 0,
+      "sample_standard_deviation_pp": 0
+    },
+    "combined_percent": {
+      "mean": 3.8817,
+      "minimum": 3.8817,
+      "maximum": 3.8817,
+      "sample_standard_deviation_pp": 0
+    }
+  },
+  "historical_common_subset": {
+    "cases": 15,
+    "facts": 500,
+    "correct_each_round": 15,
+    "percent_each_round": 3.0,
+    "our_historical_extractor_profile": {
+      "program_version": "1.4.2",
+      "parser_plugin_version": "0.2.1",
+      "mean_percent": 94.13,
+      "minimum_percent": 92.6,
+      "maximum_percent": 96.6,
+      "stage": "first pass; historical runs, not the ongoing mixed pipeline",
+      "report": "../../agent-routing/2026-10-12-repeated-runs/README.md"
+    }
+  },
+  "usage": {
+    "model_calls": 0,
+    "model_tokens": 0,
+    "cost_usd": null
+  },
+  "time_measurement": "sum of complete adapter subprocess wall durations, including native imports/parsing/export; excludes parent grading and setup",
+  "metadata_redactions": [
+    "source identity",
+    "URLs",
+    "author",
+    "private paths",
+    "commands",
+    "commit/source fingerprints"
+  ],
+  "full_page_accuracy": false,
+  "model_vision_accuracy_measured": false,
+  "source_code_published": false,
+  "privacy_identity": "Project X only; exact private snapshot correspondence is retained privately",
+  "artifact_inventory": {
+    "normalized_json": 51,
+    "native_json": 51,
+    "all102_public_hashes_locally_verified": true
+  }
+}

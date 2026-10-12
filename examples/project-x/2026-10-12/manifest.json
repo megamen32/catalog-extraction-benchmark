@@ -1,0 +1,567 @@
+{
+  "project": "Project X",
+  "snapshot": "ProjectX-snapshot-20261012",
+  "rounds": [
+    {
+      "id": "j",
+      "attempts": 17,
+      "entries": [
+        {
+          "case_id": "catalog-1-page-027",
+          "normalized": "j/catalog-1-page-027.json",
+          "native": "j/catalog-1-page-027.native.json",
+          "normalized_sha256": "073d590b1319b86d6c13422eb7277cc51e4441ed0e6e2a047002ee421ce97532",
+          "native_sha256": "afaabaa4339c206eb6ce11ba0fbafae5d5372b2e5e9ab17b0c54910f0f71968b",
+          "elapsed_seconds": 2.975,
+          "engineering_expected": 10,
+          "drawing_expected": 13
+        },
+        {
+          "case_id": "catalog-1-page-039",
+          "normalized": "j/catalog-1-page-039.json",
+          "native": "j/catalog-1-page-039.native.json",
+          "normalized_sha256": "69b6f140584f75a520c4317daa1c601c920cf1982051a6153f903ac4182e3f32",
+          "native_sha256": "55b3bcea3c995caaa4b62aa7d34120cd7e6624db92f785ce81ff6393a6533fa3",
+          "elapsed_seconds": 1.798,
+          "engineering_expected": 10,
+          "drawing_expected": 8
+        },
+        {
+          "case_id": "catalog-1-page-017",
+          "normalized": "j/catalog-1-page-017.json",
+          "native": "j/catalog-1-page-017.native.json",
+          "normalized_sha256": "b1a526164ad4419086de7ba8a35ff58efc4f70fb20a5d3d306faf5fbc4689980",
+          "native_sha256": "fd7de9cbce13ba39bccdf4df545fb18d0edc09325145df1527b9d99503c49e4c",
+          "elapsed_seconds": 2.306,
+          "engineering_expected": 15,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-1-page-022",
+          "normalized": "j/catalog-1-page-022.json",
+          "native": "j/catalog-1-page-022.native.json",
+          "normalized_sha256": "099125eee265b259ecf4b5363f1734794c08e5a892e805a4c707df837545bba3",
+          "native_sha256": "535c4ad9ad6c8d83667a498cfd369ffe364df56439bfcd5ab7a4d74753e6782c",
+          "elapsed_seconds": 2.473,
+          "engineering_expected": 15,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-1-page-026",
+          "normalized": "j/catalog-1-page-026.json",
+          "native": "j/catalog-1-page-026.native.json",
+          "normalized_sha256": "7039a2fc731f511af04417c578fc73660414f8ef90953b432318064918090cc2",
+          "native_sha256": "12f6233d350394995f1736ae117593703e783215f1bc4c7ee28979101482cee8",
+          "elapsed_seconds": 3.189,
+          "engineering_expected": 15,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-2-page-060",
+          "normalized": "j/catalog-2-page-060.json",
+          "native": "j/catalog-2-page-060.native.json",
+          "normalized_sha256": "ba3e515fa6367799899fb86401389aa46f783f616fbb07fe1b3007318e7cd1de",
+          "native_sha256": "fcdd9fe4c1e2e2c04f6fe86293161c74e834142036ed93b10585418a679ee529",
+          "elapsed_seconds": 1.66,
+          "engineering_expected": 15,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-2-page-149",
+          "normalized": "j/catalog-2-page-149.json",
+          "native": "j/catalog-2-page-149.native.json",
+          "normalized_sha256": "0630d21b97888b460da48f77817821ee7f569195cef5589ab6f0c67c5f474cb1",
+          "native_sha256": "eb03970d596d71e9b9c7bb862bb79191a78bdcc4551e0b3a3d02e1ae28ec031f",
+          "elapsed_seconds": 3.045,
+          "engineering_expected": 15,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-2-page-185",
+          "normalized": "j/catalog-2-page-185.json",
+          "native": "j/catalog-2-page-185.native.json",
+          "normalized_sha256": "67f0669420d2c8632d0734e86fff6ff7c5f7c48051bf23902122dbe018e85fb7",
+          "native_sha256": "302f7396831c8f90f99d867a3b958c7ff7e483b79a3ca84da0885022bd3c3368",
+          "elapsed_seconds": 2.519,
+          "engineering_expected": 15,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-3-page-103",
+          "normalized": "j/catalog-3-page-103.json",
+          "native": "j/catalog-3-page-103.native.json",
+          "normalized_sha256": "15194c913ec12e85f892b28a7e1bb95970514f8c14b6219d0761593b930c45a5",
+          "native_sha256": "a92e528273a824b87f9d615dd28f1415ca53a7fdd68085380ebb07031cde23b7",
+          "elapsed_seconds": 1.993,
+          "engineering_expected": 15,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-3-page-108",
+          "normalized": "j/catalog-3-page-108.json",
+          "native": "j/catalog-3-page-108.native.json",
+          "normalized_sha256": "1bbfd584adc67f6eca6b89be3411dae3580e723af14b4390c74563478a3c477d",
+          "native_sha256": "14513f7b9e1bcea811915527fd57b5fc91861dbc1a46ae2c267aafdfdf5fc0b7",
+          "elapsed_seconds": 1.646,
+          "engineering_expected": 15,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-3-page-111",
+          "normalized": "j/catalog-3-page-111.json",
+          "native": "j/catalog-3-page-111.native.json",
+          "normalized_sha256": "eec8a5c7a593b9dd4b94e4ed74a7da9f98ea80fe13f0bdfc927a803c637b7333",
+          "native_sha256": "3a4d3ffed30627e2c239f7db4937d41b3f51886862b1ff015c2c16e9bc14f8c3",
+          "elapsed_seconds": 1.972,
+          "engineering_expected": 15,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-4-page-033",
+          "normalized": "j/catalog-4-page-033.json",
+          "native": "j/catalog-4-page-033.native.json",
+          "normalized_sha256": "e3f228197551e45dfd684fd7249b13a5a8658903e9e7b7466416aa228aa190c6",
+          "native_sha256": "873212ef690ab0a5286b2e779eaf585d9221f870e9ae90364d52c642e11ebff0",
+          "elapsed_seconds": 1.616,
+          "engineering_expected": 108,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-4-page-038",
+          "normalized": "j/catalog-4-page-038.json",
+          "native": "j/catalog-4-page-038.native.json",
+          "normalized_sha256": "df73c97a9458c99488657a81bfd22493f3b42a6906990bea4a4b2e4fc53c1380",
+          "native_sha256": "db1fbd8b38cc17a506114c79fabf1e293f7d0f8f4402713a80a99c9875d9e5d1",
+          "elapsed_seconds": 1.743,
+          "engineering_expected": 72,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-4-page-078",
+          "normalized": "j/catalog-4-page-078.json",
+          "native": "j/catalog-4-page-078.native.json",
+          "normalized_sha256": "8f4897b5108630f4a34f0205d8df984c9d7360f4d78e9bcced9006c3b0a50fa2",
+          "native_sha256": "19277199d2d6befc8973e94db2c04186c90a255b21001b6f2e4bd7a17a9c2a75",
+          "elapsed_seconds": 1.609,
+          "engineering_expected": 140,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-5-page-030",
+          "normalized": "j/catalog-5-page-030.json",
+          "native": "j/catalog-5-page-030.native.json",
+          "normalized_sha256": "97f95aae53e2965016215cefed78a36f4ca571a3647a1ecf72059d443868fd51",
+          "native_sha256": "3b5e9b71c3091ce0477f1fd9a27500921787519369b67f1014e7ca47f43a3de4",
+          "elapsed_seconds": 1.873,
+          "engineering_expected": 15,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-5-page-035",
+          "normalized": "j/catalog-5-page-035.json",
+          "native": "j/catalog-5-page-035.native.json",
+          "normalized_sha256": "f8a6480846eba0f06e7d4f87268fa46ea7bff03779cbe18b549220770945f1e6",
+          "native_sha256": "d18200c21b3853b13b2d332ca492faf408d7404ea398c7cc51f9b736e6d62c67",
+          "elapsed_seconds": 1.699,
+          "engineering_expected": 15,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-5-page-126",
+          "normalized": "j/catalog-5-page-126.json",
+          "native": "j/catalog-5-page-126.native.json",
+          "normalized_sha256": "c4103ac86474d4a33dcc36eb53daf802d87ca8fd3f79b93f46a59319e3d57f09",
+          "native_sha256": "851f107c6301ae9ee49f5cc542849d3c0292506776b791d991643d7aa5ab086f",
+          "elapsed_seconds": 2.262,
+          "engineering_expected": 15,
+          "drawing_expected": 0
+        }
+      ],
+      "engineering_correct": 21,
+      "drawing_correct": 0,
+      "elapsed_seconds_sum": 36.37799999999999
+    },
+    {
+      "id": "k",
+      "attempts": 17,
+      "entries": [
+        {
+          "case_id": "catalog-1-page-027",
+          "normalized": "k/catalog-1-page-027.json",
+          "native": "k/catalog-1-page-027.native.json",
+          "normalized_sha256": "073d590b1319b86d6c13422eb7277cc51e4441ed0e6e2a047002ee421ce97532",
+          "native_sha256": "afaabaa4339c206eb6ce11ba0fbafae5d5372b2e5e9ab17b0c54910f0f71968b",
+          "elapsed_seconds": 3.274,
+          "engineering_expected": 10,
+          "drawing_expected": 13
+        },
+        {
+          "case_id": "catalog-1-page-039",
+          "normalized": "k/catalog-1-page-039.json",
+          "native": "k/catalog-1-page-039.native.json",
+          "normalized_sha256": "69b6f140584f75a520c4317daa1c601c920cf1982051a6153f903ac4182e3f32",
+          "native_sha256": "55b3bcea3c995caaa4b62aa7d34120cd7e6624db92f785ce81ff6393a6533fa3",
+          "elapsed_seconds": 2.043,
+          "engineering_expected": 10,
+          "drawing_expected": 8
+        },
+        {
+          "case_id": "catalog-1-page-017",
+          "normalized": "k/catalog-1-page-017.json",
+          "native": "k/catalog-1-page-017.native.json",
+          "normalized_sha256": "b1a526164ad4419086de7ba8a35ff58efc4f70fb20a5d3d306faf5fbc4689980",
+          "native_sha256": "fd7de9cbce13ba39bccdf4df545fb18d0edc09325145df1527b9d99503c49e4c",
+          "elapsed_seconds": 2.31,
+          "engineering_expected": 15,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-1-page-022",
+          "normalized": "k/catalog-1-page-022.json",
+          "native": "k/catalog-1-page-022.native.json",
+          "normalized_sha256": "099125eee265b259ecf4b5363f1734794c08e5a892e805a4c707df837545bba3",
+          "native_sha256": "535c4ad9ad6c8d83667a498cfd369ffe364df56439bfcd5ab7a4d74753e6782c",
+          "elapsed_seconds": 2.697,
+          "engineering_expected": 15,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-1-page-026",
+          "normalized": "k/catalog-1-page-026.json",
+          "native": "k/catalog-1-page-026.native.json",
+          "normalized_sha256": "7039a2fc731f511af04417c578fc73660414f8ef90953b432318064918090cc2",
+          "native_sha256": "12f6233d350394995f1736ae117593703e783215f1bc4c7ee28979101482cee8",
+          "elapsed_seconds": 3.063,
+          "engineering_expected": 15,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-2-page-060",
+          "normalized": "k/catalog-2-page-060.json",
+          "native": "k/catalog-2-page-060.native.json",
+          "normalized_sha256": "ba3e515fa6367799899fb86401389aa46f783f616fbb07fe1b3007318e7cd1de",
+          "native_sha256": "fcdd9fe4c1e2e2c04f6fe86293161c74e834142036ed93b10585418a679ee529",
+          "elapsed_seconds": 1.748,
+          "engineering_expected": 15,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-2-page-149",
+          "normalized": "k/catalog-2-page-149.json",
+          "native": "k/catalog-2-page-149.native.json",
+          "normalized_sha256": "0630d21b97888b460da48f77817821ee7f569195cef5589ab6f0c67c5f474cb1",
+          "native_sha256": "eb03970d596d71e9b9c7bb862bb79191a78bdcc4551e0b3a3d02e1ae28ec031f",
+          "elapsed_seconds": 3.174,
+          "engineering_expected": 15,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-2-page-185",
+          "normalized": "k/catalog-2-page-185.json",
+          "native": "k/catalog-2-page-185.native.json",
+          "normalized_sha256": "67f0669420d2c8632d0734e86fff6ff7c5f7c48051bf23902122dbe018e85fb7",
+          "native_sha256": "302f7396831c8f90f99d867a3b958c7ff7e483b79a3ca84da0885022bd3c3368",
+          "elapsed_seconds": 2.556,
+          "engineering_expected": 15,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-3-page-103",
+          "normalized": "k/catalog-3-page-103.json",
+          "native": "k/catalog-3-page-103.native.json",
+          "normalized_sha256": "15194c913ec12e85f892b28a7e1bb95970514f8c14b6219d0761593b930c45a5",
+          "native_sha256": "a92e528273a824b87f9d615dd28f1415ca53a7fdd68085380ebb07031cde23b7",
+          "elapsed_seconds": 2.171,
+          "engineering_expected": 15,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-3-page-108",
+          "normalized": "k/catalog-3-page-108.json",
+          "native": "k/catalog-3-page-108.native.json",
+          "normalized_sha256": "1bbfd584adc67f6eca6b89be3411dae3580e723af14b4390c74563478a3c477d",
+          "native_sha256": "14513f7b9e1bcea811915527fd57b5fc91861dbc1a46ae2c267aafdfdf5fc0b7",
+          "elapsed_seconds": 1.67,
+          "engineering_expected": 15,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-3-page-111",
+          "normalized": "k/catalog-3-page-111.json",
+          "native": "k/catalog-3-page-111.native.json",
+          "normalized_sha256": "eec8a5c7a593b9dd4b94e4ed74a7da9f98ea80fe13f0bdfc927a803c637b7333",
+          "native_sha256": "3a4d3ffed30627e2c239f7db4937d41b3f51886862b1ff015c2c16e9bc14f8c3",
+          "elapsed_seconds": 2.011,
+          "engineering_expected": 15,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-4-page-033",
+          "normalized": "k/catalog-4-page-033.json",
+          "native": "k/catalog-4-page-033.native.json",
+          "normalized_sha256": "e3f228197551e45dfd684fd7249b13a5a8658903e9e7b7466416aa228aa190c6",
+          "native_sha256": "873212ef690ab0a5286b2e779eaf585d9221f870e9ae90364d52c642e11ebff0",
+          "elapsed_seconds": 1.68,
+          "engineering_expected": 108,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-4-page-038",
+          "normalized": "k/catalog-4-page-038.json",
+          "native": "k/catalog-4-page-038.native.json",
+          "normalized_sha256": "df73c97a9458c99488657a81bfd22493f3b42a6906990bea4a4b2e4fc53c1380",
+          "native_sha256": "db1fbd8b38cc17a506114c79fabf1e293f7d0f8f4402713a80a99c9875d9e5d1",
+          "elapsed_seconds": 1.694,
+          "engineering_expected": 72,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-4-page-078",
+          "normalized": "k/catalog-4-page-078.json",
+          "native": "k/catalog-4-page-078.native.json",
+          "normalized_sha256": "8f4897b5108630f4a34f0205d8df984c9d7360f4d78e9bcced9006c3b0a50fa2",
+          "native_sha256": "19277199d2d6befc8973e94db2c04186c90a255b21001b6f2e4bd7a17a9c2a75",
+          "elapsed_seconds": 1.606,
+          "engineering_expected": 140,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-5-page-030",
+          "normalized": "k/catalog-5-page-030.json",
+          "native": "k/catalog-5-page-030.native.json",
+          "normalized_sha256": "97f95aae53e2965016215cefed78a36f4ca571a3647a1ecf72059d443868fd51",
+          "native_sha256": "3b5e9b71c3091ce0477f1fd9a27500921787519369b67f1014e7ca47f43a3de4",
+          "elapsed_seconds": 1.991,
+          "engineering_expected": 15,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-5-page-035",
+          "normalized": "k/catalog-5-page-035.json",
+          "native": "k/catalog-5-page-035.native.json",
+          "normalized_sha256": "f8a6480846eba0f06e7d4f87268fa46ea7bff03779cbe18b549220770945f1e6",
+          "native_sha256": "d18200c21b3853b13b2d332ca492faf408d7404ea398c7cc51f9b736e6d62c67",
+          "elapsed_seconds": 1.706,
+          "engineering_expected": 15,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-5-page-126",
+          "normalized": "k/catalog-5-page-126.json",
+          "native": "k/catalog-5-page-126.native.json",
+          "normalized_sha256": "c4103ac86474d4a33dcc36eb53daf802d87ca8fd3f79b93f46a59319e3d57f09",
+          "native_sha256": "851f107c6301ae9ee49f5cc542849d3c0292506776b791d991643d7aa5ab086f",
+          "elapsed_seconds": 2.115,
+          "engineering_expected": 15,
+          "drawing_expected": 0
+        }
+      ],
+      "engineering_correct": 21,
+      "drawing_correct": 0,
+      "elapsed_seconds_sum": 37.50900000000001
+    },
+    {
+      "id": "l",
+      "attempts": 17,
+      "entries": [
+        {
+          "case_id": "catalog-1-page-027",
+          "normalized": "l/catalog-1-page-027.json",
+          "native": "l/catalog-1-page-027.native.json",
+          "normalized_sha256": "073d590b1319b86d6c13422eb7277cc51e4441ed0e6e2a047002ee421ce97532",
+          "native_sha256": "afaabaa4339c206eb6ce11ba0fbafae5d5372b2e5e9ab17b0c54910f0f71968b",
+          "elapsed_seconds": 3.281,
+          "engineering_expected": 10,
+          "drawing_expected": 13
+        },
+        {
+          "case_id": "catalog-1-page-039",
+          "normalized": "l/catalog-1-page-039.json",
+          "native": "l/catalog-1-page-039.native.json",
+          "normalized_sha256": "69b6f140584f75a520c4317daa1c601c920cf1982051a6153f903ac4182e3f32",
+          "native_sha256": "55b3bcea3c995caaa4b62aa7d34120cd7e6624db92f785ce81ff6393a6533fa3",
+          "elapsed_seconds": 1.921,
+          "engineering_expected": 10,
+          "drawing_expected": 8
+        },
+        {
+          "case_id": "catalog-1-page-017",
+          "normalized": "l/catalog-1-page-017.json",
+          "native": "l/catalog-1-page-017.native.json",
+          "normalized_sha256": "b1a526164ad4419086de7ba8a35ff58efc4f70fb20a5d3d306faf5fbc4689980",
+          "native_sha256": "fd7de9cbce13ba39bccdf4df545fb18d0edc09325145df1527b9d99503c49e4c",
+          "elapsed_seconds": 2.3,
+          "engineering_expected": 15,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-1-page-022",
+          "normalized": "l/catalog-1-page-022.json",
+          "native": "l/catalog-1-page-022.native.json",
+          "normalized_sha256": "099125eee265b259ecf4b5363f1734794c08e5a892e805a4c707df837545bba3",
+          "native_sha256": "535c4ad9ad6c8d83667a498cfd369ffe364df56439bfcd5ab7a4d74753e6782c",
+          "elapsed_seconds": 2.654,
+          "engineering_expected": 15,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-1-page-026",
+          "normalized": "l/catalog-1-page-026.json",
+          "native": "l/catalog-1-page-026.native.json",
+          "normalized_sha256": "7039a2fc731f511af04417c578fc73660414f8ef90953b432318064918090cc2",
+          "native_sha256": "12f6233d350394995f1736ae117593703e783215f1bc4c7ee28979101482cee8",
+          "elapsed_seconds": 2.861,
+          "engineering_expected": 15,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-2-page-060",
+          "normalized": "l/catalog-2-page-060.json",
+          "native": "l/catalog-2-page-060.native.json",
+          "normalized_sha256": "ba3e515fa6367799899fb86401389aa46f783f616fbb07fe1b3007318e7cd1de",
+          "native_sha256": "fcdd9fe4c1e2e2c04f6fe86293161c74e834142036ed93b10585418a679ee529",
+          "elapsed_seconds": 1.551,
+          "engineering_expected": 15,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-2-page-149",
+          "normalized": "l/catalog-2-page-149.json",
+          "native": "l/catalog-2-page-149.native.json",
+          "normalized_sha256": "0630d21b97888b460da48f77817821ee7f569195cef5589ab6f0c67c5f474cb1",
+          "native_sha256": "eb03970d596d71e9b9c7bb862bb79191a78bdcc4551e0b3a3d02e1ae28ec031f",
+          "elapsed_seconds": 4.102,
+          "engineering_expected": 15,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-2-page-185",
+          "normalized": "l/catalog-2-page-185.json",
+          "native": "l/catalog-2-page-185.native.json",
+          "normalized_sha256": "67f0669420d2c8632d0734e86fff6ff7c5f7c48051bf23902122dbe018e85fb7",
+          "native_sha256": "302f7396831c8f90f99d867a3b958c7ff7e483b79a3ca84da0885022bd3c3368",
+          "elapsed_seconds": 2.938,
+          "engineering_expected": 15,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-3-page-103",
+          "normalized": "l/catalog-3-page-103.json",
+          "native": "l/catalog-3-page-103.native.json",
+          "normalized_sha256": "15194c913ec12e85f892b28a7e1bb95970514f8c14b6219d0761593b930c45a5",
+          "native_sha256": "a92e528273a824b87f9d615dd28f1415ca53a7fdd68085380ebb07031cde23b7",
+          "elapsed_seconds": 1.992,
+          "engineering_expected": 15,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-3-page-108",
+          "normalized": "l/catalog-3-page-108.json",
+          "native": "l/catalog-3-page-108.native.json",
+          "normalized_sha256": "1bbfd584adc67f6eca6b89be3411dae3580e723af14b4390c74563478a3c477d",
+          "native_sha256": "14513f7b9e1bcea811915527fd57b5fc91861dbc1a46ae2c267aafdfdf5fc0b7",
+          "elapsed_seconds": 1.549,
+          "engineering_expected": 15,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-3-page-111",
+          "normalized": "l/catalog-3-page-111.json",
+          "native": "l/catalog-3-page-111.native.json",
+          "normalized_sha256": "eec8a5c7a593b9dd4b94e4ed74a7da9f98ea80fe13f0bdfc927a803c637b7333",
+          "native_sha256": "3a4d3ffed30627e2c239f7db4937d41b3f51886862b1ff015c2c16e9bc14f8c3",
+          "elapsed_seconds": 1.69,
+          "engineering_expected": 15,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-4-page-033",
+          "normalized": "l/catalog-4-page-033.json",
+          "native": "l/catalog-4-page-033.native.json",
+          "normalized_sha256": "e3f228197551e45dfd684fd7249b13a5a8658903e9e7b7466416aa228aa190c6",
+          "native_sha256": "873212ef690ab0a5286b2e779eaf585d9221f870e9ae90364d52c642e11ebff0",
+          "elapsed_seconds": 1.64,
+          "engineering_expected": 108,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-4-page-038",
+          "normalized": "l/catalog-4-page-038.json",
+          "native": "l/catalog-4-page-038.native.json",
+          "normalized_sha256": "df73c97a9458c99488657a81bfd22493f3b42a6906990bea4a4b2e4fc53c1380",
+          "native_sha256": "db1fbd8b38cc17a506114c79fabf1e293f7d0f8f4402713a80a99c9875d9e5d1",
+          "elapsed_seconds": 1.857,
+          "engineering_expected": 72,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-4-page-078",
+          "normalized": "l/catalog-4-page-078.json",
+          "native": "l/catalog-4-page-078.native.json",
+          "normalized_sha256": "8f4897b5108630f4a34f0205d8df984c9d7360f4d78e9bcced9006c3b0a50fa2",
+          "native_sha256": "19277199d2d6befc8973e94db2c04186c90a255b21001b6f2e4bd7a17a9c2a75",
+          "elapsed_seconds": 1.555,
+          "engineering_expected": 140,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-5-page-030",
+          "normalized": "l/catalog-5-page-030.json",
+          "native": "l/catalog-5-page-030.native.json",
+          "normalized_sha256": "97f95aae53e2965016215cefed78a36f4ca571a3647a1ecf72059d443868fd51",
+          "native_sha256": "3b5e9b71c3091ce0477f1fd9a27500921787519369b67f1014e7ca47f43a3de4",
+          "elapsed_seconds": 2.522,
+          "engineering_expected": 15,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-5-page-035",
+          "normalized": "l/catalog-5-page-035.json",
+          "native": "l/catalog-5-page-035.native.json",
+          "normalized_sha256": "f8a6480846eba0f06e7d4f87268fa46ea7bff03779cbe18b549220770945f1e6",
+          "native_sha256": "d18200c21b3853b13b2d332ca492faf408d7404ea398c7cc51f9b736e6d62c67",
+          "elapsed_seconds": 1.921,
+          "engineering_expected": 15,
+          "drawing_expected": 0
+        },
+        {
+          "case_id": "catalog-5-page-126",
+          "normalized": "l/catalog-5-page-126.json",
+          "native": "l/catalog-5-page-126.native.json",
+          "normalized_sha256": "c4103ac86474d4a33dcc36eb53daf802d87ca8fd3f79b93f46a59319e3d57f09",
+          "native_sha256": "851f107c6301ae9ee49f5cc542849d3c0292506776b791d991643d7aa5ab086f",
+          "elapsed_seconds": 2.189,
+          "engineering_expected": 15,
+          "drawing_expected": 0
+        }
+      ],
+      "engineering_correct": 21,
+      "drawing_correct": 0,
+      "elapsed_seconds_sum": 38.523
+    }
+  ],
+  "denominators": {
+    "engineering": 520,
+    "drawing": 21
+  },
+  "provider_calls": 0,
+  "tokens": 0,
+  "metadata_redactions": [
+    "source identity",
+    "URLs",
+    "author",
+    "private paths",
+    "commands",
+    "commit/source fingerprints"
+  ],
+  "usage": {
+    "model_calls": 0,
+    "model_tokens": 0,
+    "cost_usd": null
+  },
+  "time_measurement": "sum of complete adapter subprocess wall durations, including native imports/parsing/export; excludes parent grading and setup",
+  "grader": {
+    "version": "0.3.0",
+    "dataset": "engineering-catalogs-v2"
+  }
+}
