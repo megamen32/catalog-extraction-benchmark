@@ -1,0 +1,108 @@
+{
+  "final_grader": {
+    "public_revision": "8d0ff191a037b5466105840cd7ae4a1207272766",
+    "public_files_verified": 84,
+    "public_attempts_verified": 90,
+    "downloaded_sha_matches": true,
+    "all_outputs_regraded": true,
+    "grader_distribution_version": "0.2.4",
+    "grader_module_version": "0.2.4",
+    "grader_algorithm_sha256": "ec83ce4c6596596dc55c1ec2203b6facdc407839ca4d2d2e24d6b0755731f31a",
+    "round_correct": {
+      "v142": [
+        483,
+        463,
+        466
+      ],
+      "v144": [
+        368,
+        341,
+        345
+      ]
+    },
+    "failed_attempts": {
+      "v142": [
+        [
+          "catalog-1-page-026"
+        ],
+        [
+          "catalog-5-page-126"
+        ],
+        [
+          "catalog-3-page-108",
+          "catalog-3-page-111"
+        ]
+      ],
+      "v144": [
+        [
+          "catalog-4-page-033"
+        ],
+        [
+          "catalog-4-page-078"
+        ],
+        []
+      ]
+    },
+    "failed_attempts_in_fixed_denominator": true,
+    "elapsed_seconds": 37.67695356591139
+  },
+  "historical_grader": {
+    "public_revision": "8d0ff191a037b5466105840cd7ae4a1207272766",
+    "public_files_verified": 84,
+    "public_attempts_verified": 90,
+    "downloaded_sha_matches": true,
+    "all_outputs_regraded": true,
+    "installed_grader_distribution_version": "0.2.3",
+    "grader_module_version": "0.2.2",
+    "grader_algorithm_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c",
+    "round_correct": {
+      "v142": [
+        483,
+        463,
+        406
+      ],
+      "v144": [
+        368,
+        341,
+        345
+      ]
+    },
+    "failed_attempts": {
+      "v142": [
+        [
+          "catalog-1-page-026"
+        ],
+        [
+          "catalog-5-page-126"
+        ],
+        [
+          "catalog-3-page-108",
+          "catalog-3-page-111"
+        ]
+      ],
+      "v144": [
+        [
+          "catalog-4-page-033"
+        ],
+        [
+          "catalog-4-page-078"
+        ],
+        []
+      ]
+    },
+    "failed_attempts_in_fixed_denominator": true,
+    "elapsed_seconds": 37.635188373038545
+  },
+  "public_release": {
+    "source_revision": "836708a",
+    "distribution_version": "0.2.4",
+    "module_version": "0.2.4",
+    "grader_algorithm_sha256": "ec83ce4c6596596dc55c1ec2203b6facdc407839ca4d2d2e24d6b0755731f31a",
+    "wheel_sha256": "246c03e1f83a694d1febf72f6755ed5760e4b1196cfb602de21e6e00fe0a9d01",
+    "runtime_versions": {
+      "pydantic": "2.14.1",
+      "pymupdf": "1.28.2"
+    }
+  },
+  "public_verifier_sha256": "9da949ebfea6efaf49951cbb6a6f3c5a6d8fc9787c6876c0eb2fed63715d89be"
+}

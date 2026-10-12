@@ -1,0 +1,39 @@
+{
+  "entries": {
+    "dimension-parent-label-relocation": {
+      "confidence": "verified",
+      "evidence": [
+        "Released grader0.2.4 downloaded and all84 public candidates/90attempts regraded; third v142 page78 semantic80 becomes140 with unchanged source and artifact hashes."
+      ],
+      "git_head": "8d0ff191a037b5466105840cd7ae4a1207272766",
+      "key": "dimension-parent-label-relocation",
+      "kind": "failure-shield",
+      "locations": [
+        {
+          "exists_at_verification": true,
+          "observed_kind": "file",
+          "observed_sha256": "652dd0a22716f5701d69a1454ea635e873f2f7ddd423afe5b5bab548041214a9",
+          "path": "src/catalog_bench/semantic.py",
+          "symbol": "column_match"
+        },
+        {
+          "exists_at_verification": true,
+          "observed_kind": "file",
+          "observed_sha256": "d0307625a40f424832962f94aa181285bec3e6aeaea8af38f373a23fce57af42",
+          "path": "tests/test_semantic.py",
+          "symbol": "test_relocated_dimension_parent_does_not_hide_conflicts_or_other_fields"
+        },
+        {
+          "exists_at_verification": true,
+          "observed_kind": "file",
+          "observed_sha256": "9a1a7f013d28ea33fa369016ab4f411fd0a86ae4bc5ac0c10ba9af9023db1871",
+          "path": "examples/agent-routing/2026-10-12-repeated-runs/regrade-v0.2.4.json",
+          "symbol": ""
+        }
+      ],
+      "summary": "Dimension matching accepts the same complete source parent plus single leaf in label or group. Conflicting parents, composite or longer symbols, conflicting units and invented conditions remain rejected. Historical grading stays separate from corrected grading of unchanged outputs.",
+      "verified_at": "2026-10-12T13:47:12.454256+03:00"
+    }
+  },
+  "schema_version": 1
+}
