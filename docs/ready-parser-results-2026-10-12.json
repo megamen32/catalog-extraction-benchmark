@@ -220,7 +220,14 @@
           "catalog-parser-tools": "0.2.0"
         }
       ],
-      "retained_cohort": "gpu44-parser-tests"
+      "retained_cohort": "gpu44-parser-tests",
+      "native_elapsed_seconds_total": null,
+      "known_native_elapsed_seconds_total": 307.902,
+      "native_runs_with_known_time": 13,
+      "supervisor_elapsed_seconds": 385.599,
+      "input_transport_seconds": 4.259,
+      "return_transport_seconds": 1.831,
+      "elapsed_seconds_definition": "sum of per-case monitored durations; separate supervisor total and transport durations are reported below"
     },
     {
       "engine": "mineru-vulkan-gpu44",
@@ -240,7 +247,14 @@
           "catalog-parser-tools": "0.2.0"
         }
       ],
-      "retained_cohort": "gpu44-parser-tests"
+      "retained_cohort": "gpu44-parser-tests",
+      "native_elapsed_seconds_total": 292.804,
+      "known_native_elapsed_seconds_total": 292.804,
+      "native_runs_with_known_time": 15,
+      "supervisor_elapsed_seconds": 321.651,
+      "input_transport_seconds": 4.259,
+      "return_transport_seconds": 0.781,
+      "elapsed_seconds_definition": "sum of per-case monitored durations; separate supervisor total and transport durations are reported below"
     },
     {
       "engine": "mineru-standard-metal",
@@ -417,6 +431,53 @@
         "threads": 2
       },
       "retained_cohort": "extra-parser-tests/unstructured-summary.json"
+    },
+    {
+      "engine": "marker-balanced-mac-metal",
+      "stage": "direct_parser",
+      "model": "not-applicable",
+      "cases_attempted": 15,
+      "completed_cases": 15,
+      "correct_facts": 88,
+      "expected_facts": 500,
+      "unavailable_facts": 0,
+      "elapsed_seconds": 428.77,
+      "elapsed_seconds_definition": "sum of per-case monitored durations; shared server startup and input/output transport reported separately",
+      "family_macro_percent": 16.41,
+      "versions": {
+        "marker-pdf": "2.0.0",
+        "surya-ocr": "0.22.1",
+        "torch": "2.14.1",
+        "torchvision": "0.29.1",
+        "transformers": "5.19.0",
+        "pdftext": "0.7.1"
+      },
+      "options": {
+        "mode": "balanced",
+        "disable_ocr": false,
+        "use_llm": false,
+        "device": "MPS+nativeMetal",
+        "native_vlm": "Surya2",
+        "guided_layout": false,
+        "reason": "Stock llama9430 incompatible with JSONschema regex digit shortcut; official Surya guided setting disabled; sameMetal/model",
+        "native_layers_offloaded": 25,
+        "shared_owned_server": true,
+        "server_startup_seconds_counted_separately": 2.109,
+        "source_selector": "CLI zero-based physical_page-1"
+      },
+      "helper_sha256": "6dfcc03ca8a5885d854fb8ba519901440d1d0ba6fef8fd5c1a388e92127abe72",
+      "adapter_sha256": {
+        "adapter.py": "913a4b09aa90654ad51f6bc85384586bbc6f9c35a745f605c436b957ea2be291",
+        "structured.py": "a75c976e0ce5282eeca69644fa522bc0495d282910796d7a128164ca79f9ec0e",
+        "marker_json.py": "8452eb0111a98a92c628e43302d66239d0b0f923b6dbc49cc8d6e4c6bbe7ad81"
+      },
+      "retained_cohort": "gpu44-parser-tests/marker-metal",
+      "native_elapsed_seconds_total": 402.443,
+      "known_native_elapsed_seconds_total": 402.443,
+      "native_runs_with_known_time": 15,
+      "supervisor_elapsed_seconds": 432.023,
+      "input_transport_seconds": 173.806,
+      "return_transport_seconds": 25.452
     }
   ]
 }

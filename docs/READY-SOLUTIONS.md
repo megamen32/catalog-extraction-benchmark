@@ -48,6 +48,7 @@ All arms attempted the same 15 physical pages and 500 selected engineering facts
 | mineru-advanced-metal | 201 | 14 | 1152.612 |
 | gmft | 141 | 15 | 181.453 |
 | img2table | 91 | 15 | 19.430 |
+| marker-balanced-mac-metal | 88 | 15 | 428.770 |
 | mineru-vulkan-gpu44 | 52 | 15 | 321.522 |
 | mineru-standard-metal | 52 | 15 | 272.314 |
 | camelot-lattice | 39 | 15 | 30.359 |
@@ -67,10 +68,14 @@ All arms attempted the same 15 physical pages and 500 selected engineering facts
 
 The CPU expansion used clean catalog-to-json parent `470614c` and adapter contract `ee86c195…e5f7`. Mac runs used a retained prototype wheel SHA `881726c7…0256`, contract `dc453c18…f04`, not the later release. Both Metal modes use MinerU 4.0.12 with mineru-llama-cpp 0.1.3; no hidden CPU fallback. Advanced includes a 600-second loader timeout in its total and denominator. Its full native duration is unknown for that case; completed-case native time is 525.790 seconds, while total monitored execution is 1152.612 seconds.
 
-Paddle CUDA on the tested GPU had only two complete outputs; memory/reserve failures and malformed native HTML remain failures. Its 0/500 is a measured configuration under competing GPU load, not a claim about every Paddle deployment. The GPU standard MinerU arm completed 15/15 and scored 52/500.
+Marker 2.0.0 / Surya 0.22.1 completed all 15 pages on the Mac using native Metal/MPS, OCR enabled and cloud LLM disabled. Its 88/500 score includes 20/140 on page 78; family-macro accuracy is 16.41%. Native inference took 402.443 seconds, the sum of per-case monitored durations 428.770 seconds, and the full supervisor loop 432.023 seconds. Input/output transfer took 173.806/25.452 seconds separately. Guided layout was explicitly disabled through the native Surya setting after the stock llama.cpp JSON-schema grammar rejected a digit regex; prior failed probes are retained. This is a measured configuration, not an unmodified default run. Peak combined owned RSS was 2793.297 MiB; all 25 VLM layers were observed on Metal. Helper and adapter hashes are retained in the machine-readable measurements.
+
+Paddle CUDA on the tested GPU had only two complete outputs; memory/reserve failures and malformed native HTML remain failures. Its 0/500 is a measured configuration under competing GPU load, not a claim about every Paddle deployment. The GPU standard MinerU arm completed 15/15 and scored 52/500. Paddle has only 13 known native durations totaling 307.902 seconds; the complete native total is unknown after two watchdog terminations. Its 385.447-second table entry is the sum of monitored case durations, not native inference time. The full supervisor took 385.599 seconds. GPU MinerU native inference took 292.804 seconds; its monitored cases sum to 321.522 seconds and full supervisor to 321.651 seconds.
 
 Xberg and pdf-mcp are real installed plugin/MCP packages with successful initialize/tools-list. TableShot and PDF Capture also executed real MCP calls. PDF Capture scores refer to a separately retained private patch; upstream 0.12.0 swallowed invalid pdfplumber strategies and emitted no tables on page 78. Original and patched outputs are not conflated.
 
 Useful complementary cases: gmft scored 62/108 and 58/72 on innovation pages 33/38, versus Docling 60/108 and 36/72. MinerU advanced Metal scored 72/108 on page 33. img2table scored 11/15 on small page 149 and 15/15 on armature page 111, versus Docling 2/15 and 8/15. These examples motivate source-property routing; selecting the best score after seeing gold is not an evaluated router.
 
-The next controlled comparison fixes program version, model, cases and grading, and changes only available tool evidence: baseline Docling/PyMuPDF4LLM versus adding img2table/gmft. Agent accuracy improvement is pending; standalone parser scores do not prove it.
+The running controlled comparison fixes catalog-to-json 1.4.1 (`ecf9ced`), MiniMax model/settings, cases and grading, and changes only available tools: baseline Docling/PyMuPDF4LLM versus adding img2table/gmft. Agent accuracy improvement is pending; standalone parser scores do not prove it.
+
+Availability and use are separate: each agent arm records the tools actually called and successful parser conversions. On the first page-78 pair the baseline called Docling and scored 140/140 selected engineering facts; the extended arm called no page parser and scored 120/140 despite 140/140 literal cell values. Its errors were column units and header conditions. This single first-pass pair does not establish a winner or a causal parser regression; the full 15-page comparison and reviewer stage remain separate.
