@@ -37,3 +37,40 @@ Unmeasured tools have no engineering score in this report. Each new backend must
 ## Published-version GLM first pass
 
 GLM 5.3 Flash (zai.glm-5.3-flash?reasoning=low) with catalog-to-json 1.3.0, executed Git d3398f0668bbf5c5744a3237f53fca9d09087287, parser plugin 0.1.0: 128/140 engineering and literal table checks, 9/11 figure labels, 3/3 negative assertions; elapsed 107.150 s, timeout 900 s. Same original physical page 78, no reviewer or gold feedback. Missing shared-cell values remain failures. Original candidate, execution receipt and detailed score are retained. The MiniMax prototype trial used different source hashes, so these two first passes are not a matched model comparison.
+
+## Expanded measured parser configurations (2026-10-12)
+
+All arms attempted the same 15 physical pages and 500 selected engineering facts. Failed outputs remain in the denominator. These are direct parsers, not complete agent conversions. Different adapter contracts/prototypes are listed separately in the [machine-readable measurements](ready-parser-results-2026-10-12.json).
+
+| Backend | Correct /500 | Completed /15 | Total execution seconds |
+|---|---:|---:|---:|
+| docling | 266 | 15 | 480.070 |
+| mineru-advanced-metal | 201 | 14 | 1152.612 |
+| gmft | 141 | 15 | 181.453 |
+| img2table | 91 | 15 | 19.430 |
+| mineru-vulkan-gpu44 | 52 | 15 | 321.522 |
+| mineru-standard-metal | 52 | 15 | 272.314 |
+| camelot-lattice | 39 | 15 | 30.359 |
+| tabula-lattice | 39 | 14 | 66.083 |
+| mineru-basic | 22 | 14 | 306.909 |
+| pymupdf4llm | 13 | 15 | 419.758 |
+| unstructured-hi-res | 6 | 13 | 668.773 |
+| pdfplumber | 5 | 15 | 26.867 |
+| liteparse | 1 | 15 | 8.042 |
+| pdf-mcp | 1 | 15 | 36.922 |
+| pdf-capture-mcp-patched | 1 | 15 | 15.061 |
+| tableshot | 1 | 15 | 17.335 |
+| camelot-stream | 0 | 15 | 20.279 |
+| paddle-cuda-gpu44 | 0 | 2 | 385.447 |
+| tabula-stream | 0 | 15 | 62.178 |
+| xberg | 0 | 15 | 3.280 |
+
+The CPU expansion used clean catalog-to-json parent `470614c` and adapter contract `ee86c195…e5f7`. Mac runs used a retained prototype wheel SHA `881726c7…0256`, contract `dc453c18…f04`, not the later release. Both Metal modes use MinerU 4.0.12 with mineru-llama-cpp 0.1.3; no hidden CPU fallback. Advanced includes a 600-second loader timeout in its total and denominator. Its full native duration is unknown for that case; completed-case native time is 525.790 seconds, while total monitored execution is 1152.612 seconds.
+
+Paddle CUDA on the tested GPU had only two complete outputs; memory/reserve failures and malformed native HTML remain failures. Its 0/500 is a measured configuration under competing GPU load, not a claim about every Paddle deployment. The GPU standard MinerU arm completed 15/15 and scored 52/500.
+
+Xberg and pdf-mcp are real installed plugin/MCP packages with successful initialize/tools-list. TableShot and PDF Capture also executed real MCP calls. PDF Capture scores refer to a separately retained private patch; upstream 0.12.0 swallowed invalid pdfplumber strategies and emitted no tables on page 78. Original and patched outputs are not conflated.
+
+Useful complementary cases: gmft scored 62/108 and 58/72 on innovation pages 33/38, versus Docling 60/108 and 36/72. MinerU advanced Metal scored 72/108 on page 33. img2table scored 11/15 on small page 149 and 15/15 on armature page 111, versus Docling 2/15 and 8/15. These examples motivate source-property routing; selecting the best score after seeing gold is not an evaluated router.
+
+The next controlled comparison fixes program version, model, cases and grading, and changes only available tool evidence: baseline Docling/PyMuPDF4LLM versus adding img2table/gmft. Agent accuracy improvement is pending; standalone parser scores do not prove it.
