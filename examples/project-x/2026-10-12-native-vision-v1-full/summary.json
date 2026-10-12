@@ -1,15 +1,15 @@
 {
   "participant": "Project X",
   "dataset": "engineering-catalogs-v2",
-  "updated_utc": "2026-10-12T16:18:20Z",
+  "updated_utc": "2026-10-12T17:08:17Z",
   "complete": false,
-  "rounds_finished": 2,
+  "rounds_finished": 5,
   "rounds_expected": 6,
   "expected_attempts": 102,
   "selected_accuracy_not_full_page_accuracy": true,
   "models": {
     "glm-5.3-flash": {
-      "rounds_finished": 1,
+      "rounds_finished": 2,
       "rounds_expected": 3,
       "status": "running",
       "rounds": [
@@ -24,29 +24,37 @@
             "provider_read_timeout": 1,
             "catalogue_page_contract_validation": 1
           }
+        },
+        {
+          "round": 2,
+          "valid_json_cases": 17,
+          "engineering_correct": 452,
+          "drawing_correct": 6,
+          "elapsed_seconds_sum": 2874.598,
+          "failure_counts": {}
         }
       ],
       "engineering": {
         "denominator_per_round": 520,
-        "mean_percent": 73.0769,
-        "sample_sd_percentage_points": null,
+        "mean_percent": 80.0,
+        "sample_sd_percentage_points": 9.7907,
         "minimum_percent": 73.0769,
-        "maximum_percent": 73.0769,
+        "maximum_percent": 86.9231,
         "final_three_round_statistic": false
       },
       "drawing": {
         "denominator_per_round": 21,
-        "mean_percent": 19.0476,
-        "sample_sd_percentage_points": null,
+        "mean_percent": 23.8095,
+        "sample_sd_percentage_points": 6.7343,
         "minimum_percent": 19.0476,
-        "maximum_percent": 19.0476,
+        "maximum_percent": 28.5714,
         "final_three_round_statistic": false
       }
     },
     "MiniMax-M3.1-Flash-Preview": {
-      "rounds_finished": 1,
+      "rounds_finished": 3,
       "rounds_expected": 3,
-      "status": "running",
+      "status": "complete",
       "rounds": [
         {
           "round": 1,
@@ -58,23 +66,46 @@
             "invalid_json_after_native_repair": 11,
             "native_output_contract_validation": 2
           }
+        },
+        {
+          "round": 2,
+          "valid_json_cases": 5,
+          "engineering_correct": 160,
+          "drawing_correct": 0,
+          "elapsed_seconds_sum": 1482.897,
+          "failure_counts": {
+            "invalid_json_after_native_repair": 11,
+            "native_output_contract_validation": 1
+          }
+        },
+        {
+          "round": 3,
+          "valid_json_cases": 4,
+          "engineering_correct": 239,
+          "drawing_correct": 2,
+          "elapsed_seconds_sum": 1084.316,
+          "failure_counts": {
+            "invalid_json_after_native_repair": 9,
+            "native_output_contract_validation": 3,
+            "catalogue_page_contract_validation": 1
+          }
         }
       ],
       "engineering": {
         "denominator_per_round": 520,
-        "mean_percent": 40.3846,
-        "sample_sd_percentage_points": null,
-        "minimum_percent": 40.3846,
-        "maximum_percent": 40.3846,
-        "final_three_round_statistic": false
+        "mean_percent": 39.0384,
+        "sample_sd_percentage_points": 7.6851,
+        "minimum_percent": 30.7692,
+        "maximum_percent": 45.9615,
+        "final_three_round_statistic": true
       },
       "drawing": {
         "denominator_per_round": 21,
-        "mean_percent": 14.2857,
-        "sample_sd_percentage_points": null,
-        "minimum_percent": 14.2857,
+        "mean_percent": 7.9365,
+        "sample_sd_percentage_points": 7.2739,
+        "minimum_percent": 0.0,
         "maximum_percent": 14.2857,
-        "final_three_round_statistic": false
+        "final_three_round_statistic": true
       }
     }
   }

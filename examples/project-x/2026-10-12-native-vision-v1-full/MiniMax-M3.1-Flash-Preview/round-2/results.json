@@ -1,0 +1,1297 @@
+{
+  "participant": "Project X",
+  "snapshot": "ProjectX-snapshot-20261012",
+  "integration": "native Vision v1",
+  "integration_sha256": "f31b03eb2eb058a1c5f6237040f4eb152f3ce10472a9734558081e618498dfa3",
+  "model": "MiniMax-M3.1-Flash-Preview",
+  "round": 2,
+  "complete": true,
+  "dataset": "engineering-catalogs-v2",
+  "cases_expected": 17,
+  "cases_recorded": 17,
+  "fixed_denominators": {
+    "engineering": 520,
+    "drawing": 21
+  },
+  "cases": [
+    {
+      "case_id": "catalog-1-page-027",
+      "page": 27,
+      "status": "failed",
+      "exit_code": 1,
+      "elapsed_seconds": 74.081,
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "round": 2,
+      "model": "MiniMax-M3.1-Flash-Preview",
+      "native_status": "failed",
+      "native_elapsed_seconds": null,
+      "admission_wait_seconds": 0.0,
+      "failure_category": "invalid_json_after_native_repair",
+      "provider_attempts": [
+        {
+          "attempt": 1,
+          "provider": "anthropic",
+          "requested_model": "MiniMax-M3.1-Flash-Preview",
+          "returned_model": "MiniMax-M3.1-Flash-Preview",
+          "endpoint": "https://api.minimax.io/anthropic/v1/messages",
+          "http_status": 200,
+          "elapsed_seconds": 44.635,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "medium",
+          "finish_reason": "end_turn",
+          "usage": {
+            "input_tokens": 1,
+            "output_tokens": 11809,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 10752,
+            "output_tokens_details": {
+              "thinking_tokens": 1602
+            }
+          },
+          "declared_client_format": "json-object",
+          "provider_response_format_parameter_sent": false,
+          "actual_provider_response_format": null,
+          "provider_json_policy": "JSON_only_prompt_without_response_format_parameter"
+        },
+        {
+          "attempt": 2,
+          "provider": "anthropic",
+          "requested_model": "MiniMax-M3.1-Flash-Preview",
+          "returned_model": "MiniMax-M3.1-Flash-Preview",
+          "endpoint": "https://api.minimax.io/anthropic/v1/messages",
+          "http_status": 200,
+          "elapsed_seconds": 25.946,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "medium",
+          "finish_reason": "end_turn",
+          "usage": {
+            "input_tokens": 10298,
+            "output_tokens": 10562,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 189,
+            "output_tokens_details": {
+              "thinking_tokens": 355
+            }
+          },
+          "declared_client_format": "json-object",
+          "provider_response_format_parameter_sent": false,
+          "actual_provider_response_format": null,
+          "provider_json_policy": "JSON_only_prompt_without_response_format_parameter"
+        }
+      ],
+      "selected_correct": {
+        "0.3.0": {
+          "engineering": 0,
+          "drawing": 0
+        },
+        "0.3.1": {
+          "engineering": 0,
+          "drawing": 0
+        }
+      }
+    },
+    {
+      "case_id": "catalog-1-page-039",
+      "page": 39,
+      "status": "failed",
+      "exit_code": 1,
+      "elapsed_seconds": 42.592,
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "round": 2,
+      "model": "MiniMax-M3.1-Flash-Preview",
+      "native_status": "failed",
+      "native_elapsed_seconds": null,
+      "admission_wait_seconds": 0.0,
+      "failure_category": "invalid_json_after_native_repair",
+      "provider_attempts": [
+        {
+          "attempt": 1,
+          "provider": "anthropic",
+          "requested_model": "MiniMax-M3.1-Flash-Preview",
+          "returned_model": "MiniMax-M3.1-Flash-Preview",
+          "endpoint": "https://api.minimax.io/anthropic/v1/messages",
+          "http_status": 200,
+          "elapsed_seconds": 23.024,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "medium",
+          "finish_reason": "end_turn",
+          "usage": {
+            "input_tokens": 1,
+            "output_tokens": 5533,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 10829,
+            "output_tokens_details": {
+              "thinking_tokens": 1524
+            }
+          },
+          "declared_client_format": "json-object",
+          "provider_response_format_parameter_sent": false,
+          "actual_provider_response_format": null,
+          "provider_json_policy": "JSON_only_prompt_without_response_format_parameter"
+        },
+        {
+          "attempt": 2,
+          "provider": "anthropic",
+          "requested_model": "MiniMax-M3.1-Flash-Preview",
+          "returned_model": "MiniMax-M3.1-Flash-Preview",
+          "endpoint": "https://api.minimax.io/anthropic/v1/messages",
+          "http_status": 200,
+          "elapsed_seconds": 17.029,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "medium",
+          "finish_reason": "end_turn",
+          "usage": {
+            "input_tokens": 4101,
+            "output_tokens": 4803,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 189,
+            "output_tokens_details": {
+              "thinking_tokens": 794
+            }
+          },
+          "declared_client_format": "json-object",
+          "provider_response_format_parameter_sent": false,
+          "actual_provider_response_format": null,
+          "provider_json_policy": "JSON_only_prompt_without_response_format_parameter"
+        }
+      ],
+      "selected_correct": {
+        "0.3.0": {
+          "engineering": 0,
+          "drawing": 0
+        },
+        "0.3.1": {
+          "engineering": 0,
+          "drawing": 0
+        }
+      }
+    },
+    {
+      "case_id": "catalog-1-page-017",
+      "page": 17,
+      "status": "failed",
+      "exit_code": 1,
+      "elapsed_seconds": 57.636,
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "round": 2,
+      "model": "MiniMax-M3.1-Flash-Preview",
+      "native_status": "failed",
+      "native_elapsed_seconds": null,
+      "admission_wait_seconds": 0.0,
+      "failure_category": "native_output_contract_validation",
+      "provider_attempts": [
+        {
+          "attempt": 1,
+          "provider": "anthropic",
+          "requested_model": "MiniMax-M3.1-Flash-Preview",
+          "returned_model": "MiniMax-M3.1-Flash-Preview",
+          "endpoint": "https://api.minimax.io/anthropic/v1/messages",
+          "http_status": 200,
+          "elapsed_seconds": 28.496,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "medium",
+          "finish_reason": "end_turn",
+          "usage": {
+            "input_tokens": 1,
+            "output_tokens": 11974,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 10791,
+            "output_tokens_details": {
+              "thinking_tokens": 1298
+            }
+          },
+          "declared_client_format": "json-object",
+          "provider_response_format_parameter_sent": false,
+          "actual_provider_response_format": null,
+          "provider_json_policy": "JSON_only_prompt_without_response_format_parameter"
+        },
+        {
+          "attempt": 2,
+          "provider": "anthropic",
+          "requested_model": "MiniMax-M3.1-Flash-Preview",
+          "returned_model": "MiniMax-M3.1-Flash-Preview",
+          "endpoint": "https://api.minimax.io/anthropic/v1/messages",
+          "http_status": 200,
+          "elapsed_seconds": 26.301,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "medium",
+          "finish_reason": "end_turn",
+          "usage": {
+            "input_tokens": 10767,
+            "output_tokens": 10984,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 189,
+            "output_tokens_details": {
+              "thinking_tokens": 308
+            }
+          },
+          "declared_client_format": "json-object",
+          "provider_response_format_parameter_sent": false,
+          "actual_provider_response_format": null,
+          "provider_json_policy": "JSON_only_prompt_without_response_format_parameter"
+        }
+      ],
+      "selected_correct": {
+        "0.3.0": {
+          "engineering": 0,
+          "drawing": 0
+        },
+        "0.3.1": {
+          "engineering": 0,
+          "drawing": 0
+        }
+      }
+    },
+    {
+      "case_id": "catalog-1-page-022",
+      "page": 22,
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 49.065,
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "round": 2,
+      "model": "MiniMax-M3.1-Flash-Preview",
+      "native_status": "native-accepted",
+      "native_elapsed_seconds": 46.319,
+      "admission_wait_seconds": 0.0,
+      "failure_category": null,
+      "provider_attempts": [
+        {
+          "attempt": 1,
+          "provider": "anthropic",
+          "requested_model": "MiniMax-M3.1-Flash-Preview",
+          "returned_model": "MiniMax-M3.1-Flash-Preview",
+          "endpoint": "https://api.minimax.io/anthropic/v1/messages",
+          "http_status": 200,
+          "elapsed_seconds": 46.257,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "medium",
+          "finish_reason": "end_turn",
+          "usage": {
+            "input_tokens": 1,
+            "output_tokens": 14121,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 10959,
+            "output_tokens_details": {
+              "thinking_tokens": 758
+            }
+          },
+          "declared_client_format": "json-object",
+          "provider_response_format_parameter_sent": false,
+          "actual_provider_response_format": null,
+          "provider_json_policy": "JSON_only_prompt_without_response_format_parameter"
+        }
+      ],
+      "selected_correct": {
+        "0.3.0": {
+          "engineering": 8,
+          "drawing": 0
+        },
+        "0.3.1": {
+          "engineering": 8,
+          "drawing": 0
+        }
+      },
+      "candidate": "MiniMax-M3.1-Flash-Preview/round-2/catalog-1-page-022/catalogue-page.json",
+      "candidate_sha256": "3c378280d6d867e0d7ec07d09f03253f207c2eedfad2c0baf16918b5654bdd12",
+      "score_files": {
+        "0.3.0": "MiniMax-M3.1-Flash-Preview/round-2/catalog-1-page-022/score-v0.3.0.json",
+        "0.3.1": "MiniMax-M3.1-Flash-Preview/round-2/catalog-1-page-022/score-v0.3.1.json"
+      }
+    },
+    {
+      "case_id": "catalog-1-page-026",
+      "page": 26,
+      "status": "failed",
+      "exit_code": 1,
+      "elapsed_seconds": 70.921,
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "round": 2,
+      "model": "MiniMax-M3.1-Flash-Preview",
+      "native_status": "failed",
+      "native_elapsed_seconds": null,
+      "admission_wait_seconds": 0.0,
+      "failure_category": "invalid_json_after_native_repair",
+      "provider_attempts": [
+        {
+          "attempt": 1,
+          "provider": "anthropic",
+          "requested_model": "MiniMax-M3.1-Flash-Preview",
+          "returned_model": "MiniMax-M3.1-Flash-Preview",
+          "endpoint": "https://api.minimax.io/anthropic/v1/messages",
+          "http_status": 200,
+          "elapsed_seconds": 38.602,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "medium",
+          "finish_reason": "end_turn",
+          "usage": {
+            "input_tokens": 1,
+            "output_tokens": 12232,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 11001,
+            "output_tokens_details": {
+              "thinking_tokens": 1677
+            }
+          },
+          "declared_client_format": "json-object",
+          "provider_response_format_parameter_sent": false,
+          "actual_provider_response_format": null,
+          "provider_json_policy": "JSON_only_prompt_without_response_format_parameter"
+        },
+        {
+          "attempt": 2,
+          "provider": "anthropic",
+          "requested_model": "MiniMax-M3.1-Flash-Preview",
+          "returned_model": "MiniMax-M3.1-Flash-Preview",
+          "endpoint": "https://api.minimax.io/anthropic/v1/messages",
+          "http_status": 200,
+          "elapsed_seconds": 28.607,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "medium",
+          "finish_reason": "end_turn",
+          "usage": {
+            "input_tokens": 10646,
+            "output_tokens": 10888,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 189,
+            "output_tokens_details": {
+              "thinking_tokens": 334
+            }
+          },
+          "declared_client_format": "json-object",
+          "provider_response_format_parameter_sent": false,
+          "actual_provider_response_format": null,
+          "provider_json_policy": "JSON_only_prompt_without_response_format_parameter"
+        }
+      ],
+      "selected_correct": {
+        "0.3.0": {
+          "engineering": 0,
+          "drawing": 0
+        },
+        "0.3.1": {
+          "engineering": 0,
+          "drawing": 0
+        }
+      }
+    },
+    {
+      "case_id": "catalog-2-page-060",
+      "page": 60,
+      "status": "failed",
+      "exit_code": 1,
+      "elapsed_seconds": 73.972,
+      "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+      "round": 2,
+      "model": "MiniMax-M3.1-Flash-Preview",
+      "native_status": "failed",
+      "native_elapsed_seconds": null,
+      "admission_wait_seconds": 0.0,
+      "failure_category": "invalid_json_after_native_repair",
+      "provider_attempts": [
+        {
+          "attempt": 1,
+          "provider": "anthropic",
+          "requested_model": "MiniMax-M3.1-Flash-Preview",
+          "returned_model": "MiniMax-M3.1-Flash-Preview",
+          "endpoint": "https://api.minimax.io/anthropic/v1/messages",
+          "http_status": 200,
+          "elapsed_seconds": 41.386,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "medium",
+          "finish_reason": "end_turn",
+          "usage": {
+            "input_tokens": 1,
+            "output_tokens": 13541,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 11602,
+            "output_tokens_details": {
+              "thinking_tokens": 2945
+            }
+          },
+          "declared_client_format": "json-object",
+          "provider_response_format_parameter_sent": false,
+          "actual_provider_response_format": null,
+          "provider_json_policy": "JSON_only_prompt_without_response_format_parameter"
+        },
+        {
+          "attempt": 2,
+          "provider": "anthropic",
+          "requested_model": "MiniMax-M3.1-Flash-Preview",
+          "returned_model": "MiniMax-M3.1-Flash-Preview",
+          "endpoint": "https://api.minimax.io/anthropic/v1/messages",
+          "http_status": 200,
+          "elapsed_seconds": 30.318,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "medium",
+          "finish_reason": "end_turn",
+          "usage": {
+            "input_tokens": 10749,
+            "output_tokens": 10882,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 128,
+            "output_tokens_details": {
+              "thinking_tokens": 286
+            }
+          },
+          "declared_client_format": "json-object",
+          "provider_response_format_parameter_sent": false,
+          "actual_provider_response_format": null,
+          "provider_json_policy": "JSON_only_prompt_without_response_format_parameter"
+        }
+      ],
+      "selected_correct": {
+        "0.3.0": {
+          "engineering": 0,
+          "drawing": 0
+        },
+        "0.3.1": {
+          "engineering": 0,
+          "drawing": 0
+        }
+      }
+    },
+    {
+      "case_id": "catalog-2-page-149",
+      "page": 149,
+      "status": "failed",
+      "exit_code": 1,
+      "elapsed_seconds": 74.327,
+      "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+      "round": 2,
+      "model": "MiniMax-M3.1-Flash-Preview",
+      "native_status": "failed",
+      "native_elapsed_seconds": null,
+      "admission_wait_seconds": 0.0,
+      "failure_category": "invalid_json_after_native_repair",
+      "provider_attempts": [
+        {
+          "attempt": 1,
+          "provider": "anthropic",
+          "requested_model": "MiniMax-M3.1-Flash-Preview",
+          "returned_model": "MiniMax-M3.1-Flash-Preview",
+          "endpoint": "https://api.minimax.io/anthropic/v1/messages",
+          "http_status": 200,
+          "elapsed_seconds": 53.248,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "medium",
+          "finish_reason": "end_turn",
+          "usage": {
+            "input_tokens": 1,
+            "output_tokens": 10766,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 10672,
+            "output_tokens_details": {
+              "thinking_tokens": 4527
+            }
+          },
+          "declared_client_format": "json-object",
+          "provider_response_format_parameter_sent": false,
+          "actual_provider_response_format": null,
+          "provider_json_policy": "JSON_only_prompt_without_response_format_parameter"
+        },
+        {
+          "attempt": 2,
+          "provider": "anthropic",
+          "requested_model": "MiniMax-M3.1-Flash-Preview",
+          "returned_model": "MiniMax-M3.1-Flash-Preview",
+          "endpoint": "https://api.minimax.io/anthropic/v1/messages",
+          "http_status": 200,
+          "elapsed_seconds": 17.384,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "medium",
+          "finish_reason": "end_turn",
+          "usage": {
+            "input_tokens": 6329,
+            "output_tokens": 6665,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 189,
+            "output_tokens_details": {
+              "thinking_tokens": 427
+            }
+          },
+          "declared_client_format": "json-object",
+          "provider_response_format_parameter_sent": false,
+          "actual_provider_response_format": null,
+          "provider_json_policy": "JSON_only_prompt_without_response_format_parameter"
+        }
+      ],
+      "selected_correct": {
+        "0.3.0": {
+          "engineering": 0,
+          "drawing": 0
+        },
+        "0.3.1": {
+          "engineering": 0,
+          "drawing": 0
+        }
+      }
+    },
+    {
+      "case_id": "catalog-2-page-185",
+      "page": 185,
+      "status": "failed",
+      "exit_code": 1,
+      "elapsed_seconds": 83.324,
+      "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+      "round": 2,
+      "model": "MiniMax-M3.1-Flash-Preview",
+      "native_status": "failed",
+      "native_elapsed_seconds": null,
+      "admission_wait_seconds": 0.0,
+      "failure_category": "invalid_json_after_native_repair",
+      "provider_attempts": [
+        {
+          "attempt": 1,
+          "provider": "anthropic",
+          "requested_model": "MiniMax-M3.1-Flash-Preview",
+          "returned_model": "MiniMax-M3.1-Flash-Preview",
+          "endpoint": "https://api.minimax.io/anthropic/v1/messages",
+          "http_status": 200,
+          "elapsed_seconds": 47.844,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "medium",
+          "finish_reason": "end_turn",
+          "usage": {
+            "input_tokens": 1,
+            "output_tokens": 13260,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 11585,
+            "output_tokens_details": {
+              "thinking_tokens": 1616
+            }
+          },
+          "declared_client_format": "json-object",
+          "provider_response_format_parameter_sent": false,
+          "actual_provider_response_format": null,
+          "provider_json_policy": "JSON_only_prompt_without_response_format_parameter"
+        },
+        {
+          "attempt": 2,
+          "provider": "anthropic",
+          "requested_model": "MiniMax-M3.1-Flash-Preview",
+          "returned_model": "MiniMax-M3.1-Flash-Preview",
+          "endpoint": "https://api.minimax.io/anthropic/v1/messages",
+          "http_status": 200,
+          "elapsed_seconds": 32.586,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "medium",
+          "finish_reason": "end_turn",
+          "usage": {
+            "input_tokens": 11736,
+            "output_tokens": 12236,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 189,
+            "output_tokens_details": {
+              "thinking_tokens": 592
+            }
+          },
+          "declared_client_format": "json-object",
+          "provider_response_format_parameter_sent": false,
+          "actual_provider_response_format": null,
+          "provider_json_policy": "JSON_only_prompt_without_response_format_parameter"
+        }
+      ],
+      "selected_correct": {
+        "0.3.0": {
+          "engineering": 0,
+          "drawing": 0
+        },
+        "0.3.1": {
+          "engineering": 0,
+          "drawing": 0
+        }
+      }
+    },
+    {
+      "case_id": "catalog-3-page-103",
+      "page": 103,
+      "status": "failed",
+      "exit_code": 1,
+      "elapsed_seconds": 114.966,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "round": 2,
+      "model": "MiniMax-M3.1-Flash-Preview",
+      "native_status": "failed",
+      "native_elapsed_seconds": null,
+      "admission_wait_seconds": 0.0,
+      "failure_category": "invalid_json_after_native_repair",
+      "provider_attempts": [
+        {
+          "attempt": 1,
+          "provider": "anthropic",
+          "requested_model": "MiniMax-M3.1-Flash-Preview",
+          "returned_model": "MiniMax-M3.1-Flash-Preview",
+          "endpoint": "https://api.minimax.io/anthropic/v1/messages",
+          "http_status": 200,
+          "elapsed_seconds": 61.363,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "medium",
+          "finish_reason": "end_turn",
+          "usage": {
+            "input_tokens": 1,
+            "output_tokens": 24751,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 11184,
+            "output_tokens_details": {
+              "thinking_tokens": 2449
+            }
+          },
+          "declared_client_format": "json-object",
+          "provider_response_format_parameter_sent": false,
+          "actual_provider_response_format": null,
+          "provider_json_policy": "JSON_only_prompt_without_response_format_parameter"
+        },
+        {
+          "attempt": 2,
+          "provider": "anthropic",
+          "requested_model": "MiniMax-M3.1-Flash-Preview",
+          "returned_model": "MiniMax-M3.1-Flash-Preview",
+          "endpoint": "https://api.minimax.io/anthropic/v1/messages",
+          "http_status": 200,
+          "elapsed_seconds": 50.884,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "medium",
+          "finish_reason": "end_turn",
+          "usage": {
+            "input_tokens": 22392,
+            "output_tokens": 23561,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 189,
+            "output_tokens_details": {
+              "thinking_tokens": 1260
+            }
+          },
+          "declared_client_format": "json-object",
+          "provider_response_format_parameter_sent": false,
+          "actual_provider_response_format": null,
+          "provider_json_policy": "JSON_only_prompt_without_response_format_parameter"
+        }
+      ],
+      "selected_correct": {
+        "0.3.0": {
+          "engineering": 0,
+          "drawing": 0
+        },
+        "0.3.1": {
+          "engineering": 0,
+          "drawing": 0
+        }
+      }
+    },
+    {
+      "case_id": "catalog-3-page-108",
+      "page": 108,
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 48.252,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "round": 2,
+      "model": "MiniMax-M3.1-Flash-Preview",
+      "native_status": "native-accepted",
+      "native_elapsed_seconds": 46.148,
+      "admission_wait_seconds": 0.0,
+      "failure_category": null,
+      "provider_attempts": [
+        {
+          "attempt": 1,
+          "provider": "anthropic",
+          "requested_model": "MiniMax-M3.1-Flash-Preview",
+          "returned_model": "MiniMax-M3.1-Flash-Preview",
+          "endpoint": "https://api.minimax.io/anthropic/v1/messages",
+          "http_status": 200,
+          "elapsed_seconds": 46.097,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "medium",
+          "finish_reason": "end_turn",
+          "usage": {
+            "input_tokens": 1,
+            "output_tokens": 14001,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 11200,
+            "output_tokens_details": {
+              "thinking_tokens": 1468
+            }
+          },
+          "declared_client_format": "json-object",
+          "provider_response_format_parameter_sent": false,
+          "actual_provider_response_format": null,
+          "provider_json_policy": "JSON_only_prompt_without_response_format_parameter"
+        }
+      ],
+      "selected_correct": {
+        "0.3.0": {
+          "engineering": 15,
+          "drawing": 0
+        },
+        "0.3.1": {
+          "engineering": 15,
+          "drawing": 0
+        }
+      },
+      "candidate": "MiniMax-M3.1-Flash-Preview/round-2/catalog-3-page-108/catalogue-page.json",
+      "candidate_sha256": "bb891037d2be254d3dadbcea89bf730a0adf8eb8cabfe1d5d26b367aeac939fd",
+      "score_files": {
+        "0.3.0": "MiniMax-M3.1-Flash-Preview/round-2/catalog-3-page-108/score-v0.3.0.json",
+        "0.3.1": "MiniMax-M3.1-Flash-Preview/round-2/catalog-3-page-108/score-v0.3.1.json"
+      }
+    },
+    {
+      "case_id": "catalog-3-page-111",
+      "page": 111,
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 67.863,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "round": 2,
+      "model": "MiniMax-M3.1-Flash-Preview",
+      "native_status": "native-accepted",
+      "native_elapsed_seconds": 65.498,
+      "admission_wait_seconds": 0.0,
+      "failure_category": null,
+      "provider_attempts": [
+        {
+          "attempt": 1,
+          "provider": "anthropic",
+          "requested_model": "MiniMax-M3.1-Flash-Preview",
+          "returned_model": "MiniMax-M3.1-Flash-Preview",
+          "endpoint": "https://api.minimax.io/anthropic/v1/messages",
+          "http_status": 200,
+          "elapsed_seconds": 65.438,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "medium",
+          "finish_reason": "end_turn",
+          "usage": {
+            "input_tokens": 1,
+            "output_tokens": 19984,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 12350,
+            "output_tokens_details": {
+              "thinking_tokens": 2494
+            }
+          },
+          "declared_client_format": "json-object",
+          "provider_response_format_parameter_sent": false,
+          "actual_provider_response_format": null,
+          "provider_json_policy": "JSON_only_prompt_without_response_format_parameter"
+        }
+      ],
+      "selected_correct": {
+        "0.3.0": {
+          "engineering": 8,
+          "drawing": 0
+        },
+        "0.3.1": {
+          "engineering": 8,
+          "drawing": 0
+        }
+      },
+      "candidate": "MiniMax-M3.1-Flash-Preview/round-2/catalog-3-page-111/catalogue-page.json",
+      "candidate_sha256": "151425f9e8aff98c4eac420d8f307be5498e886802e5eee95d695712d872d53a",
+      "score_files": {
+        "0.3.0": "MiniMax-M3.1-Flash-Preview/round-2/catalog-3-page-111/score-v0.3.0.json",
+        "0.3.1": "MiniMax-M3.1-Flash-Preview/round-2/catalog-3-page-111/score-v0.3.1.json"
+      }
+    },
+    {
+      "case_id": "catalog-4-page-033",
+      "page": 33,
+      "status": "failed",
+      "exit_code": 1,
+      "elapsed_seconds": 76.64,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "round": 2,
+      "model": "MiniMax-M3.1-Flash-Preview",
+      "native_status": "failed",
+      "native_elapsed_seconds": null,
+      "admission_wait_seconds": 0.0,
+      "failure_category": "invalid_json_after_native_repair",
+      "provider_attempts": [
+        {
+          "attempt": 1,
+          "provider": "anthropic",
+          "requested_model": "MiniMax-M3.1-Flash-Preview",
+          "returned_model": "MiniMax-M3.1-Flash-Preview",
+          "endpoint": "https://api.minimax.io/anthropic/v1/messages",
+          "http_status": 200,
+          "elapsed_seconds": 46.512,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "medium",
+          "finish_reason": "end_turn",
+          "usage": {
+            "input_tokens": 1,
+            "output_tokens": 8978,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 10940,
+            "output_tokens_details": {
+              "thinking_tokens": 2314
+            }
+          },
+          "declared_client_format": "json-object",
+          "provider_response_format_parameter_sent": false,
+          "actual_provider_response_format": null,
+          "provider_json_policy": "JSON_only_prompt_without_response_format_parameter"
+        },
+        {
+          "attempt": 2,
+          "provider": "anthropic",
+          "requested_model": "MiniMax-M3.1-Flash-Preview",
+          "returned_model": "MiniMax-M3.1-Flash-Preview",
+          "endpoint": "https://api.minimax.io/anthropic/v1/messages",
+          "http_status": 200,
+          "elapsed_seconds": 27.794,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "medium",
+          "finish_reason": "end_turn",
+          "usage": {
+            "input_tokens": 6754,
+            "output_tokens": 7593,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 189,
+            "output_tokens_details": {
+              "thinking_tokens": 931
+            }
+          },
+          "declared_client_format": "json-object",
+          "provider_response_format_parameter_sent": false,
+          "actual_provider_response_format": null,
+          "provider_json_policy": "JSON_only_prompt_without_response_format_parameter"
+        }
+      ],
+      "selected_correct": {
+        "0.3.0": {
+          "engineering": 0,
+          "drawing": 0
+        },
+        "0.3.1": {
+          "engineering": 0,
+          "drawing": 0
+        }
+      }
+    },
+    {
+      "case_id": "catalog-4-page-038",
+      "page": 38,
+      "status": "failed",
+      "exit_code": 1,
+      "elapsed_seconds": 60.544,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "round": 2,
+      "model": "MiniMax-M3.1-Flash-Preview",
+      "native_status": "failed",
+      "native_elapsed_seconds": null,
+      "admission_wait_seconds": 0.0,
+      "failure_category": "invalid_json_after_native_repair",
+      "provider_attempts": [
+        {
+          "attempt": 1,
+          "provider": "anthropic",
+          "requested_model": "MiniMax-M3.1-Flash-Preview",
+          "returned_model": "MiniMax-M3.1-Flash-Preview",
+          "endpoint": "https://api.minimax.io/anthropic/v1/messages",
+          "http_status": 200,
+          "elapsed_seconds": 42.413,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "medium",
+          "finish_reason": "end_turn",
+          "usage": {
+            "input_tokens": 1,
+            "output_tokens": 9042,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 10941,
+            "output_tokens_details": {
+              "thinking_tokens": 2223
+            }
+          },
+          "declared_client_format": "json-object",
+          "provider_response_format_parameter_sent": false,
+          "actual_provider_response_format": null,
+          "provider_json_policy": "JSON_only_prompt_without_response_format_parameter"
+        },
+        {
+          "attempt": 2,
+          "provider": "anthropic",
+          "requested_model": "MiniMax-M3.1-Flash-Preview",
+          "returned_model": "MiniMax-M3.1-Flash-Preview",
+          "endpoint": "https://api.minimax.io/anthropic/v1/messages",
+          "http_status": 200,
+          "elapsed_seconds": 16.074,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "medium",
+          "finish_reason": "end_turn",
+          "usage": {
+            "input_tokens": 6919,
+            "output_tokens": 7156,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 178,
+            "output_tokens_details": {
+              "thinking_tokens": 339
+            }
+          },
+          "declared_client_format": "json-object",
+          "provider_response_format_parameter_sent": false,
+          "actual_provider_response_format": null,
+          "provider_json_policy": "JSON_only_prompt_without_response_format_parameter"
+        }
+      ],
+      "selected_correct": {
+        "0.3.0": {
+          "engineering": 0,
+          "drawing": 0
+        },
+        "0.3.1": {
+          "engineering": 0,
+          "drawing": 0
+        }
+      }
+    },
+    {
+      "case_id": "catalog-4-page-078",
+      "page": 78,
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 35.778,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "round": 2,
+      "model": "MiniMax-M3.1-Flash-Preview",
+      "native_status": "native-accepted",
+      "native_elapsed_seconds": 33.741,
+      "admission_wait_seconds": 0.0,
+      "failure_category": null,
+      "provider_attempts": [
+        {
+          "attempt": 1,
+          "provider": "anthropic",
+          "requested_model": "MiniMax-M3.1-Flash-Preview",
+          "returned_model": "MiniMax-M3.1-Flash-Preview",
+          "endpoint": "https://api.minimax.io/anthropic/v1/messages",
+          "http_status": 200,
+          "elapsed_seconds": 33.691,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "medium",
+          "finish_reason": "end_turn",
+          "usage": {
+            "input_tokens": 1,
+            "output_tokens": 10707,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 10870,
+            "output_tokens_details": {
+              "thinking_tokens": 1971
+            }
+          },
+          "declared_client_format": "json-object",
+          "provider_response_format_parameter_sent": false,
+          "actual_provider_response_format": null,
+          "provider_json_policy": "JSON_only_prompt_without_response_format_parameter"
+        }
+      ],
+      "selected_correct": {
+        "0.3.0": {
+          "engineering": 114,
+          "drawing": 0
+        },
+        "0.3.1": {
+          "engineering": 114,
+          "drawing": 0
+        }
+      },
+      "candidate": "MiniMax-M3.1-Flash-Preview/round-2/catalog-4-page-078/catalogue-page.json",
+      "candidate_sha256": "53ee44d9e14c852d22d1f69dfcd506c0d7ab3a3563f788091ffc7580907d4730",
+      "score_files": {
+        "0.3.0": "MiniMax-M3.1-Flash-Preview/round-2/catalog-4-page-078/score-v0.3.0.json",
+        "0.3.1": "MiniMax-M3.1-Flash-Preview/round-2/catalog-4-page-078/score-v0.3.1.json"
+      }
+    },
+    {
+      "case_id": "catalog-5-page-030",
+      "page": 30,
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 44.435,
+      "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+      "round": 2,
+      "model": "MiniMax-M3.1-Flash-Preview",
+      "native_status": "native-accepted",
+      "native_elapsed_seconds": 41.853,
+      "admission_wait_seconds": 0.0,
+      "failure_category": null,
+      "provider_attempts": [
+        {
+          "attempt": 1,
+          "provider": "anthropic",
+          "requested_model": "MiniMax-M3.1-Flash-Preview",
+          "returned_model": "MiniMax-M3.1-Flash-Preview",
+          "endpoint": "https://api.minimax.io/anthropic/v1/messages",
+          "http_status": 200,
+          "elapsed_seconds": 41.8,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "medium",
+          "finish_reason": "end_turn",
+          "usage": {
+            "input_tokens": 1,
+            "output_tokens": 11463,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 10689,
+            "output_tokens_details": {
+              "thinking_tokens": 1311
+            }
+          },
+          "declared_client_format": "json-object",
+          "provider_response_format_parameter_sent": false,
+          "actual_provider_response_format": null,
+          "provider_json_policy": "JSON_only_prompt_without_response_format_parameter"
+        }
+      ],
+      "selected_correct": {
+        "0.3.0": {
+          "engineering": 15,
+          "drawing": 0
+        },
+        "0.3.1": {
+          "engineering": 15,
+          "drawing": 0
+        }
+      },
+      "candidate": "MiniMax-M3.1-Flash-Preview/round-2/catalog-5-page-030/catalogue-page.json",
+      "candidate_sha256": "e0674b86c77ffa250d2d70834d82fd1047287065778c0e6116c4e838cb461f8b",
+      "score_files": {
+        "0.3.0": "MiniMax-M3.1-Flash-Preview/round-2/catalog-5-page-030/score-v0.3.0.json",
+        "0.3.1": "MiniMax-M3.1-Flash-Preview/round-2/catalog-5-page-030/score-v0.3.1.json"
+      }
+    },
+    {
+      "case_id": "catalog-5-page-035",
+      "page": 35,
+      "status": "failed",
+      "exit_code": 1,
+      "elapsed_seconds": 51.314,
+      "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+      "round": 2,
+      "model": "MiniMax-M3.1-Flash-Preview",
+      "native_status": "failed",
+      "native_elapsed_seconds": null,
+      "admission_wait_seconds": 0.0,
+      "failure_category": "invalid_json_after_native_repair",
+      "provider_attempts": [
+        {
+          "attempt": 1,
+          "provider": "anthropic",
+          "requested_model": "MiniMax-M3.1-Flash-Preview",
+          "returned_model": "MiniMax-M3.1-Flash-Preview",
+          "endpoint": "https://api.minimax.io/anthropic/v1/messages",
+          "http_status": 200,
+          "elapsed_seconds": 35.413,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "medium",
+          "finish_reason": "end_turn",
+          "usage": {
+            "input_tokens": 1,
+            "output_tokens": 7709,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 10828,
+            "output_tokens_details": {
+              "thinking_tokens": 2028
+            }
+          },
+          "declared_client_format": "json-object",
+          "provider_response_format_parameter_sent": false,
+          "actual_provider_response_format": null,
+          "provider_json_policy": "JSON_only_prompt_without_response_format_parameter"
+        },
+        {
+          "attempt": 2,
+          "provider": "anthropic",
+          "requested_model": "MiniMax-M3.1-Flash-Preview",
+          "returned_model": "MiniMax-M3.1-Flash-Preview",
+          "endpoint": "https://api.minimax.io/anthropic/v1/messages",
+          "http_status": 200,
+          "elapsed_seconds": 13.356,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "medium",
+          "finish_reason": "end_turn",
+          "usage": {
+            "input_tokens": 5773,
+            "output_tokens": 5845,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 189,
+            "output_tokens_details": {
+              "thinking_tokens": 164
+            }
+          },
+          "declared_client_format": "json-object",
+          "provider_response_format_parameter_sent": false,
+          "actual_provider_response_format": null,
+          "provider_json_policy": "JSON_only_prompt_without_response_format_parameter"
+        }
+      ],
+      "selected_correct": {
+        "0.3.0": {
+          "engineering": 0,
+          "drawing": 0
+        },
+        "0.3.1": {
+          "engineering": 0,
+          "drawing": 0
+        }
+      }
+    },
+    {
+      "case_id": "catalog-5-page-126",
+      "page": 126,
+      "status": "failed",
+      "exit_code": 1,
+      "elapsed_seconds": 457.187,
+      "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+      "round": 2,
+      "model": "MiniMax-M3.1-Flash-Preview",
+      "native_status": "failed",
+      "native_elapsed_seconds": null,
+      "admission_wait_seconds": 397.774,
+      "failure_category": "invalid_json_after_native_repair",
+      "provider_attempts": [
+        {
+          "attempt": 1,
+          "provider": "anthropic",
+          "requested_model": "MiniMax-M3.1-Flash-Preview",
+          "returned_model": "MiniMax-M3.1-Flash-Preview",
+          "endpoint": "https://api.minimax.io/anthropic/v1/messages",
+          "http_status": 200,
+          "elapsed_seconds": 35.267,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "medium",
+          "finish_reason": "end_turn",
+          "usage": {
+            "input_tokens": 10911,
+            "output_tokens": 11112,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 128,
+            "output_tokens_details": {
+              "thinking_tokens": 1889
+            }
+          },
+          "declared_client_format": "json-object",
+          "provider_response_format_parameter_sent": false,
+          "actual_provider_response_format": null,
+          "provider_json_policy": "JSON_only_prompt_without_response_format_parameter"
+        },
+        {
+          "attempt": 2,
+          "provider": "anthropic",
+          "requested_model": "MiniMax-M3.1-Flash-Preview",
+          "returned_model": "MiniMax-M3.1-Flash-Preview",
+          "endpoint": "https://api.minimax.io/anthropic/v1/messages",
+          "http_status": 200,
+          "elapsed_seconds": 21.447,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "medium",
+          "finish_reason": "end_turn",
+          "usage": {
+            "input_tokens": 9315,
+            "output_tokens": 9684,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 189,
+            "output_tokens_details": {
+              "thinking_tokens": 461
+            }
+          },
+          "declared_client_format": "json-object",
+          "provider_response_format_parameter_sent": false,
+          "actual_provider_response_format": null,
+          "provider_json_policy": "JSON_only_prompt_without_response_format_parameter"
+        }
+      ],
+      "selected_correct": {
+        "0.3.0": {
+          "engineering": 0,
+          "drawing": 0
+        },
+        "0.3.1": {
+          "engineering": 0,
+          "drawing": 0
+        }
+      }
+    }
+  ],
+  "valid_json_cases": 5,
+  "failure_counts": {
+    "invalid_json_after_native_repair": 11,
+    "native_output_contract_validation": 1
+  },
+  "scores": {
+    "0.3.0": {
+      "engineering": {
+        "correct": 160,
+        "expected": 520,
+        "percent": 30.7692
+      },
+      "drawing": {
+        "correct": 0,
+        "expected": 21,
+        "percent": 0.0
+      }
+    },
+    "0.3.1": {
+      "engineering": {
+        "correct": 160,
+        "expected": 520,
+        "percent": 30.7692
+      },
+      "drawing": {
+        "correct": 0,
+        "expected": 21,
+        "percent": 0.0
+      }
+    }
+  },
+  "timing": {
+    "subprocess_seconds_sum": 1482.897,
+    "subprocess_seconds_per_attempt_mean": 87.229,
+    "native_seconds_sum_known": 233.559,
+    "provider_seconds_sum_known": 1039.212,
+    "case_wall_includes_admission_and_imports": true,
+    "parallel_other_model_not_added_to_model_wall": true
+  },
+  "usage": {
+    "provider_attempts": 29,
+    "responses_with_usage": 29,
+    "responses_without_usage": 0,
+    "reported_token_totals": {
+      "input_reported": 126706,
+      "output_including_reasoning": 331842,
+      "cache_read_reported_separately": 179517,
+      "cache_creation_reported_separately": 0
+    },
+    "includes_failed_attempts_and_native_json_repairs": true,
+    "monetary_cost": null,
+    "unknown_usage_is_not_zero": true
+  }
+}

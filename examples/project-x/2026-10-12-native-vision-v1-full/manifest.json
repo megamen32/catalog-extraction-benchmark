@@ -114,5 +114,15 @@
       "original_physical_page": 126,
       "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35"
     }
-  ]
+  ],
+  "finished_model_rounds": 5,
+  "finished_rounds_by_model": {
+    "glm-5.3-flash": 2,
+    "MiniMax-M3.1-Flash-Preview": 3
+  },
+  "response_format_policy": {
+    "glm-5.3-flash": "initial json_object API parameter; actual per-attempt format recorded",
+    "MiniMax-M3.1-Flash-Preview": "JSON-only prompt; Anthropic adapter sends no response_format parameter"
+  },
+  "original_grader_limitations": "Scoped Latin/Cyrillic physical symbols and English geometry aliases corrected separately in0.3.2; original scores retained"
 }

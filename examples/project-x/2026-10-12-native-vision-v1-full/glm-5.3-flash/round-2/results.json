@@ -1,0 +1,1172 @@
+{
+  "participant": "Project X",
+  "snapshot": "ProjectX-snapshot-20261012",
+  "integration": "native Vision v1",
+  "integration_sha256": "f31b03eb2eb058a1c5f6237040f4eb152f3ce10472a9734558081e618498dfa3",
+  "model": "glm-5.3-flash",
+  "round": 2,
+  "complete": true,
+  "dataset": "engineering-catalogs-v2",
+  "cases_expected": 17,
+  "cases_recorded": 17,
+  "fixed_denominators": {
+    "engineering": 520,
+    "drawing": 21
+  },
+  "cases": [
+    {
+      "case_id": "catalog-1-page-027",
+      "page": 27,
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 309.694,
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "round": 2,
+      "model": "glm-5.3-flash",
+      "native_status": "native-accepted",
+      "native_elapsed_seconds": 306.239,
+      "admission_wait_seconds": 0.0,
+      "failure_category": null,
+      "provider_attempts": [
+        {
+          "attempt": 1,
+          "provider": "zai",
+          "requested_model": "glm-5.3-flash",
+          "returned_model": "glm-5.3-flash",
+          "endpoint": "https://api.z.ai/api/coding/paas/v4/chat/completions",
+          "http_status": 200,
+          "elapsed_seconds": 124.43,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "low",
+          "finish_reason": "stop",
+          "usage": {
+            "completion_tokens": 10841,
+            "completion_tokens_details": {
+              "reasoning_tokens": 452
+            },
+            "prompt_tokens": 10610,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 21451
+          },
+          "declared_client_format": "json-object",
+          "provider_response_format_parameter_sent": true,
+          "actual_provider_response_format": "json_object",
+          "provider_json_policy": "json_object_parameter"
+        },
+        {
+          "attempt": 2,
+          "provider": "zai",
+          "requested_model": "glm-5.3-flash",
+          "returned_model": "glm-5.3-flash",
+          "endpoint": "https://api.z.ai/api/coding/paas/v4/chat/completions",
+          "http_status": 200,
+          "elapsed_seconds": 181.746,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "low",
+          "finish_reason": "stop",
+          "usage": {
+            "completion_tokens": 15200,
+            "completion_tokens_details": {
+              "reasoning_tokens": 4864
+            },
+            "prompt_tokens": 10480,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 25680
+          },
+          "declared_client_format": "json-object",
+          "provider_response_format_parameter_sent": true,
+          "actual_provider_response_format": "json_schema",
+          "provider_json_policy": "json_schema_parameter"
+        }
+      ],
+      "selected_correct": {
+        "0.3.0": {
+          "engineering": 8,
+          "drawing": 3
+        },
+        "0.3.1": {
+          "engineering": 8,
+          "drawing": 3
+        }
+      },
+      "candidate": "glm-5.3-flash/round-2/catalog-1-page-027/catalogue-page.json",
+      "candidate_sha256": "7e9783384dba1874bb509c48c22fb75769350162739d3e05595a1691de440b78",
+      "score_files": {
+        "0.3.0": "glm-5.3-flash/round-2/catalog-1-page-027/score-v0.3.0.json",
+        "0.3.1": "glm-5.3-flash/round-2/catalog-1-page-027/score-v0.3.1.json"
+      }
+    },
+    {
+      "case_id": "catalog-1-page-039",
+      "page": 39,
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 356.312,
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "round": 2,
+      "model": "glm-5.3-flash",
+      "native_status": "native-accepted",
+      "native_elapsed_seconds": 70.725,
+      "admission_wait_seconds": 283.293,
+      "failure_category": null,
+      "provider_attempts": [
+        {
+          "attempt": 1,
+          "provider": "zai",
+          "requested_model": "glm-5.3-flash",
+          "returned_model": "glm-5.3-flash",
+          "endpoint": "https://api.z.ai/api/coding/paas/v4/chat/completions",
+          "http_status": 200,
+          "elapsed_seconds": 70.682,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "low",
+          "finish_reason": "stop",
+          "usage": {
+            "completion_tokens": 5232,
+            "completion_tokens_details": {
+              "reasoning_tokens": 12
+            },
+            "prompt_tokens": 10684,
+            "prompt_tokens_details": {
+              "cached_tokens": 64
+            },
+            "total_tokens": 15916
+          },
+          "declared_client_format": "json-object",
+          "provider_response_format_parameter_sent": true,
+          "actual_provider_response_format": "json_object",
+          "provider_json_policy": "json_object_parameter"
+        }
+      ],
+      "selected_correct": {
+        "0.3.0": {
+          "engineering": 10,
+          "drawing": 3
+        },
+        "0.3.1": {
+          "engineering": 10,
+          "drawing": 3
+        }
+      },
+      "candidate": "glm-5.3-flash/round-2/catalog-1-page-039/catalogue-page.json",
+      "candidate_sha256": "38ddbcfd77e012ec7f6613d6a3a07892c6408a5705c9f03f66feb5f463186ab9",
+      "score_files": {
+        "0.3.0": "glm-5.3-flash/round-2/catalog-1-page-039/score-v0.3.0.json",
+        "0.3.1": "glm-5.3-flash/round-2/catalog-1-page-039/score-v0.3.1.json"
+      }
+    },
+    {
+      "case_id": "catalog-1-page-017",
+      "page": 17,
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 133.514,
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "round": 2,
+      "model": "glm-5.3-flash",
+      "native_status": "native-accepted",
+      "native_elapsed_seconds": 131.02,
+      "admission_wait_seconds": 0.0,
+      "failure_category": null,
+      "provider_attempts": [
+        {
+          "attempt": 1,
+          "provider": "zai",
+          "requested_model": "glm-5.3-flash",
+          "returned_model": "glm-5.3-flash",
+          "endpoint": "https://api.z.ai/api/coding/paas/v4/chat/completions",
+          "http_status": 200,
+          "elapsed_seconds": 130.964,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "low",
+          "finish_reason": "stop",
+          "usage": {
+            "completion_tokens": 11921,
+            "completion_tokens_details": {
+              "reasoning_tokens": 58
+            },
+            "prompt_tokens": 10651,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 22572
+          },
+          "declared_client_format": "json-object",
+          "provider_response_format_parameter_sent": true,
+          "actual_provider_response_format": "json_object",
+          "provider_json_policy": "json_object_parameter"
+        }
+      ],
+      "selected_correct": {
+        "0.3.0": {
+          "engineering": 15,
+          "drawing": 0
+        },
+        "0.3.1": {
+          "engineering": 15,
+          "drawing": 0
+        }
+      },
+      "candidate": "glm-5.3-flash/round-2/catalog-1-page-017/catalogue-page.json",
+      "candidate_sha256": "1b595ac4bc7d6ede322a61a1a74447078c2ffb8303e9198f9678f4be5be440ee",
+      "score_files": {
+        "0.3.0": "glm-5.3-flash/round-2/catalog-1-page-017/score-v0.3.0.json",
+        "0.3.1": "glm-5.3-flash/round-2/catalog-1-page-017/score-v0.3.1.json"
+      }
+    },
+    {
+      "case_id": "catalog-1-page-022",
+      "page": 22,
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 125.573,
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "round": 2,
+      "model": "glm-5.3-flash",
+      "native_status": "native-accepted",
+      "native_elapsed_seconds": 122.722,
+      "admission_wait_seconds": 0.0,
+      "failure_category": null,
+      "provider_attempts": [
+        {
+          "attempt": 1,
+          "provider": "zai",
+          "requested_model": "glm-5.3-flash",
+          "returned_model": "glm-5.3-flash",
+          "endpoint": "https://api.z.ai/api/coding/paas/v4/chat/completions",
+          "http_status": 200,
+          "elapsed_seconds": 122.672,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "low",
+          "finish_reason": "stop",
+          "usage": {
+            "completion_tokens": 11111,
+            "completion_tokens_details": {
+              "reasoning_tokens": 15
+            },
+            "prompt_tokens": 10808,
+            "prompt_tokens_details": {
+              "cached_tokens": 64
+            },
+            "total_tokens": 21919
+          },
+          "declared_client_format": "json-object",
+          "provider_response_format_parameter_sent": true,
+          "actual_provider_response_format": "json_object",
+          "provider_json_policy": "json_object_parameter"
+        }
+      ],
+      "selected_correct": {
+        "0.3.0": {
+          "engineering": 13,
+          "drawing": 0
+        },
+        "0.3.1": {
+          "engineering": 13,
+          "drawing": 0
+        }
+      },
+      "candidate": "glm-5.3-flash/round-2/catalog-1-page-022/catalogue-page.json",
+      "candidate_sha256": "5277f5b5e3ebe56edf09e74caeba3f4b8828a1bdb0a2ba4d6fa73b8008d5ee33",
+      "score_files": {
+        "0.3.0": "glm-5.3-flash/round-2/catalog-1-page-022/score-v0.3.0.json",
+        "0.3.1": "glm-5.3-flash/round-2/catalog-1-page-022/score-v0.3.1.json"
+      }
+    },
+    {
+      "case_id": "catalog-1-page-026",
+      "page": 26,
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 299.873,
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "round": 2,
+      "model": "glm-5.3-flash",
+      "native_status": "native-accepted",
+      "native_elapsed_seconds": 296.731,
+      "admission_wait_seconds": 0.0,
+      "failure_category": null,
+      "provider_attempts": [
+        {
+          "attempt": 1,
+          "provider": "zai",
+          "requested_model": "glm-5.3-flash",
+          "returned_model": "glm-5.3-flash",
+          "endpoint": "https://api.z.ai/api/coding/paas/v4/chat/completions",
+          "http_status": 200,
+          "elapsed_seconds": 114.181,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "low",
+          "finish_reason": "stop",
+          "usage": {
+            "completion_tokens": 10640,
+            "completion_tokens_details": {
+              "reasoning_tokens": 30
+            },
+            "prompt_tokens": 10850,
+            "prompt_tokens_details": {
+              "cached_tokens": 64
+            },
+            "total_tokens": 21490
+          },
+          "declared_client_format": "json-object",
+          "provider_response_format_parameter_sent": true,
+          "actual_provider_response_format": "json_object",
+          "provider_json_policy": "json_object_parameter"
+        },
+        {
+          "attempt": 2,
+          "provider": "zai",
+          "requested_model": "glm-5.3-flash",
+          "returned_model": "glm-5.3-flash",
+          "endpoint": "https://api.z.ai/api/coding/paas/v4/chat/completions",
+          "http_status": 200,
+          "elapsed_seconds": 182.483,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "low",
+          "finish_reason": "stop",
+          "usage": {
+            "completion_tokens": 15464,
+            "completion_tokens_details": {
+              "reasoning_tokens": 4947
+            },
+            "prompt_tokens": 10701,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 26165
+          },
+          "declared_client_format": "json-object",
+          "provider_response_format_parameter_sent": true,
+          "actual_provider_response_format": "json_schema",
+          "provider_json_policy": "json_schema_parameter"
+        }
+      ],
+      "selected_correct": {
+        "0.3.0": {
+          "engineering": 13,
+          "drawing": 0
+        },
+        "0.3.1": {
+          "engineering": 13,
+          "drawing": 0
+        }
+      },
+      "candidate": "glm-5.3-flash/round-2/catalog-1-page-026/catalogue-page.json",
+      "candidate_sha256": "09dcac3c55cc8f348d65813ce1c688475ee475d56bd4554601ad18668537ad45",
+      "score_files": {
+        "0.3.0": "glm-5.3-flash/round-2/catalog-1-page-026/score-v0.3.0.json",
+        "0.3.1": "glm-5.3-flash/round-2/catalog-1-page-026/score-v0.3.1.json"
+      }
+    },
+    {
+      "case_id": "catalog-2-page-060",
+      "page": 60,
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 127.174,
+      "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+      "round": 2,
+      "model": "glm-5.3-flash",
+      "native_status": "native-accepted",
+      "native_elapsed_seconds": 125.174,
+      "admission_wait_seconds": 0.0,
+      "failure_category": null,
+      "provider_attempts": [
+        {
+          "attempt": 1,
+          "provider": "zai",
+          "requested_model": "glm-5.3-flash",
+          "returned_model": "glm-5.3-flash",
+          "endpoint": "https://api.z.ai/api/coding/paas/v4/chat/completions",
+          "http_status": 200,
+          "elapsed_seconds": 125.124,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "low",
+          "finish_reason": "stop",
+          "usage": {
+            "completion_tokens": 11541,
+            "completion_tokens_details": {
+              "reasoning_tokens": 24
+            },
+            "prompt_tokens": 11465,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 23006
+          },
+          "declared_client_format": "json-object",
+          "provider_response_format_parameter_sent": true,
+          "actual_provider_response_format": "json_object",
+          "provider_json_policy": "json_object_parameter"
+        }
+      ],
+      "selected_correct": {
+        "0.3.0": {
+          "engineering": 11,
+          "drawing": 0
+        },
+        "0.3.1": {
+          "engineering": 11,
+          "drawing": 0
+        }
+      },
+      "candidate": "glm-5.3-flash/round-2/catalog-2-page-060/catalogue-page.json",
+      "candidate_sha256": "5e47ead44fd219c3c29084fa47b2f2bf3bc8b33b34a5c5ed1650487e7f0d4298",
+      "score_files": {
+        "0.3.0": "glm-5.3-flash/round-2/catalog-2-page-060/score-v0.3.0.json",
+        "0.3.1": "glm-5.3-flash/round-2/catalog-2-page-060/score-v0.3.1.json"
+      }
+    },
+    {
+      "case_id": "catalog-2-page-149",
+      "page": 149,
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 102.516,
+      "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+      "round": 2,
+      "model": "glm-5.3-flash",
+      "native_status": "native-accepted",
+      "native_elapsed_seconds": 98.714,
+      "admission_wait_seconds": 0.0,
+      "failure_category": null,
+      "provider_attempts": [
+        {
+          "attempt": 1,
+          "provider": "zai",
+          "requested_model": "glm-5.3-flash",
+          "returned_model": "glm-5.3-flash",
+          "endpoint": "https://api.z.ai/api/coding/paas/v4/chat/completions",
+          "http_status": 200,
+          "elapsed_seconds": 98.669,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "low",
+          "finish_reason": "stop",
+          "usage": {
+            "completion_tokens": 7442,
+            "completion_tokens_details": {
+              "reasoning_tokens": 527
+            },
+            "prompt_tokens": 10537,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 17979
+          },
+          "declared_client_format": "json-object",
+          "provider_response_format_parameter_sent": true,
+          "actual_provider_response_format": "json_object",
+          "provider_json_policy": "json_object_parameter"
+        }
+      ],
+      "selected_correct": {
+        "0.3.0": {
+          "engineering": 13,
+          "drawing": 0
+        },
+        "0.3.1": {
+          "engineering": 13,
+          "drawing": 0
+        }
+      },
+      "candidate": "glm-5.3-flash/round-2/catalog-2-page-149/catalogue-page.json",
+      "candidate_sha256": "1cb98d2575368c1238645ad11fd52f3c5c4cade63cd26788f0ea1f5bf01fc9fd",
+      "score_files": {
+        "0.3.0": "glm-5.3-flash/round-2/catalog-2-page-149/score-v0.3.0.json",
+        "0.3.1": "glm-5.3-flash/round-2/catalog-2-page-149/score-v0.3.1.json"
+      }
+    },
+    {
+      "case_id": "catalog-2-page-185",
+      "page": 185,
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 165.286,
+      "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+      "round": 2,
+      "model": "glm-5.3-flash",
+      "native_status": "native-accepted",
+      "native_elapsed_seconds": 162.772,
+      "admission_wait_seconds": 0.0,
+      "failure_category": null,
+      "provider_attempts": [
+        {
+          "attempt": 1,
+          "provider": "zai",
+          "requested_model": "glm-5.3-flash",
+          "returned_model": "glm-5.3-flash",
+          "endpoint": "https://api.z.ai/api/coding/paas/v4/chat/completions",
+          "http_status": 200,
+          "elapsed_seconds": 162.713,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "low",
+          "finish_reason": "stop",
+          "usage": {
+            "completion_tokens": 14570,
+            "completion_tokens_details": {
+              "reasoning_tokens": 787
+            },
+            "prompt_tokens": 11447,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 26017
+          },
+          "declared_client_format": "json-object",
+          "provider_response_format_parameter_sent": true,
+          "actual_provider_response_format": "json_object",
+          "provider_json_policy": "json_object_parameter"
+        }
+      ],
+      "selected_correct": {
+        "0.3.0": {
+          "engineering": 11,
+          "drawing": 0
+        },
+        "0.3.1": {
+          "engineering": 11,
+          "drawing": 0
+        }
+      },
+      "candidate": "glm-5.3-flash/round-2/catalog-2-page-185/catalogue-page.json",
+      "candidate_sha256": "e58a1d3ef5945d5beaf27d2639c07e94cdb0d04d36936c5c1baf9980ca5d13f9",
+      "score_files": {
+        "0.3.0": "glm-5.3-flash/round-2/catalog-2-page-185/score-v0.3.0.json",
+        "0.3.1": "glm-5.3-flash/round-2/catalog-2-page-185/score-v0.3.1.json"
+      }
+    },
+    {
+      "case_id": "catalog-3-page-103",
+      "page": 103,
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 237.736,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "round": 2,
+      "model": "glm-5.3-flash",
+      "native_status": "native-accepted",
+      "native_elapsed_seconds": 235.295,
+      "admission_wait_seconds": 0.0,
+      "failure_category": null,
+      "provider_attempts": [
+        {
+          "attempt": 1,
+          "provider": "zai",
+          "requested_model": "glm-5.3-flash",
+          "returned_model": "glm-5.3-flash",
+          "endpoint": "https://api.z.ai/api/coding/paas/v4/chat/completions",
+          "http_status": 200,
+          "elapsed_seconds": 235.213,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "low",
+          "finish_reason": "stop",
+          "usage": {
+            "completion_tokens": 21376,
+            "completion_tokens_details": {
+              "reasoning_tokens": 2248
+            },
+            "prompt_tokens": 11042,
+            "prompt_tokens_details": {
+              "cached_tokens": 64
+            },
+            "total_tokens": 32418
+          },
+          "declared_client_format": "json-object",
+          "provider_response_format_parameter_sent": true,
+          "actual_provider_response_format": "json_object",
+          "provider_json_policy": "json_object_parameter"
+        }
+      ],
+      "selected_correct": {
+        "0.3.0": {
+          "engineering": 11,
+          "drawing": 0
+        },
+        "0.3.1": {
+          "engineering": 11,
+          "drawing": 0
+        }
+      },
+      "candidate": "glm-5.3-flash/round-2/catalog-3-page-103/catalogue-page.json",
+      "candidate_sha256": "0480734ad3cbeae13fda03892eb9b06a2a39f44f02cf15022444e501d48e70f2",
+      "score_files": {
+        "0.3.0": "glm-5.3-flash/round-2/catalog-3-page-103/score-v0.3.0.json",
+        "0.3.1": "glm-5.3-flash/round-2/catalog-3-page-103/score-v0.3.1.json"
+      }
+    },
+    {
+      "case_id": "catalog-3-page-108",
+      "page": 108,
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 115.907,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "round": 2,
+      "model": "glm-5.3-flash",
+      "native_status": "native-accepted",
+      "native_elapsed_seconds": 113.899,
+      "admission_wait_seconds": 0.0,
+      "failure_category": null,
+      "provider_attempts": [
+        {
+          "attempt": 1,
+          "provider": "zai",
+          "requested_model": "glm-5.3-flash",
+          "returned_model": "glm-5.3-flash",
+          "endpoint": "https://api.z.ai/api/coding/paas/v4/chat/completions",
+          "http_status": 200,
+          "elapsed_seconds": 113.853,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "low",
+          "finish_reason": "stop",
+          "usage": {
+            "completion_tokens": 10017,
+            "completion_tokens_details": {
+              "reasoning_tokens": 61
+            },
+            "prompt_tokens": 11057,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 21074
+          },
+          "declared_client_format": "json-object",
+          "provider_response_format_parameter_sent": true,
+          "actual_provider_response_format": "json_object",
+          "provider_json_policy": "json_object_parameter"
+        }
+      ],
+      "selected_correct": {
+        "0.3.0": {
+          "engineering": 15,
+          "drawing": 0
+        },
+        "0.3.1": {
+          "engineering": 15,
+          "drawing": 0
+        }
+      },
+      "candidate": "glm-5.3-flash/round-2/catalog-3-page-108/catalogue-page.json",
+      "candidate_sha256": "844c7abc1f4a2b8d32a34b25c337da89acb25a895e36b744f34ad6db1247a353",
+      "score_files": {
+        "0.3.0": "glm-5.3-flash/round-2/catalog-3-page-108/score-v0.3.0.json",
+        "0.3.1": "glm-5.3-flash/round-2/catalog-3-page-108/score-v0.3.1.json"
+      }
+    },
+    {
+      "case_id": "catalog-3-page-111",
+      "page": 111,
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 212.322,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "round": 2,
+      "model": "glm-5.3-flash",
+      "native_status": "native-accepted",
+      "native_elapsed_seconds": 209.99,
+      "admission_wait_seconds": 0.0,
+      "failure_category": null,
+      "provider_attempts": [
+        {
+          "attempt": 1,
+          "provider": "zai",
+          "requested_model": "glm-5.3-flash",
+          "returned_model": "glm-5.3-flash",
+          "endpoint": "https://api.z.ai/api/coding/paas/v4/chat/completions",
+          "http_status": 200,
+          "elapsed_seconds": 209.932,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "low",
+          "finish_reason": "stop",
+          "usage": {
+            "completion_tokens": 18577,
+            "completion_tokens_details": {
+              "reasoning_tokens": 1631
+            },
+            "prompt_tokens": 12244,
+            "prompt_tokens_details": {
+              "cached_tokens": 64
+            },
+            "total_tokens": 30821
+          },
+          "declared_client_format": "json-object",
+          "provider_response_format_parameter_sent": true,
+          "actual_provider_response_format": "json_object",
+          "provider_json_policy": "json_object_parameter"
+        }
+      ],
+      "selected_correct": {
+        "0.3.0": {
+          "engineering": 15,
+          "drawing": 0
+        },
+        "0.3.1": {
+          "engineering": 15,
+          "drawing": 0
+        }
+      },
+      "candidate": "glm-5.3-flash/round-2/catalog-3-page-111/catalogue-page.json",
+      "candidate_sha256": "02310b5e84f5289db1f308a06f6dba1e77e1befb6852e882b3ecc21f21be1339",
+      "score_files": {
+        "0.3.0": "glm-5.3-flash/round-2/catalog-3-page-111/score-v0.3.0.json",
+        "0.3.1": "glm-5.3-flash/round-2/catalog-3-page-111/score-v0.3.1.json"
+      }
+    },
+    {
+      "case_id": "catalog-4-page-033",
+      "page": 33,
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 101.108,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "round": 2,
+      "model": "glm-5.3-flash",
+      "native_status": "native-accepted",
+      "native_elapsed_seconds": 99.005,
+      "admission_wait_seconds": 0.0,
+      "failure_category": null,
+      "provider_attempts": [
+        {
+          "attempt": 1,
+          "provider": "zai",
+          "requested_model": "glm-5.3-flash",
+          "returned_model": "glm-5.3-flash",
+          "endpoint": "https://api.z.ai/api/coding/paas/v4/chat/completions",
+          "http_status": 200,
+          "elapsed_seconds": 98.959,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "low",
+          "finish_reason": "stop",
+          "usage": {
+            "completion_tokens": 8126,
+            "completion_tokens_details": {
+              "reasoning_tokens": 125
+            },
+            "prompt_tokens": 10799,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 18925
+          },
+          "declared_client_format": "json-object",
+          "provider_response_format_parameter_sent": true,
+          "actual_provider_response_format": "json_object",
+          "provider_json_policy": "json_object_parameter"
+        }
+      ],
+      "selected_correct": {
+        "0.3.0": {
+          "engineering": 90,
+          "drawing": 0
+        },
+        "0.3.1": {
+          "engineering": 90,
+          "drawing": 0
+        }
+      },
+      "candidate": "glm-5.3-flash/round-2/catalog-4-page-033/catalogue-page.json",
+      "candidate_sha256": "7f804deafc68a2acc93ff3a455c86d73e2f3bcc1eca035720324e29ffd5bdc1e",
+      "score_files": {
+        "0.3.0": "glm-5.3-flash/round-2/catalog-4-page-033/score-v0.3.0.json",
+        "0.3.1": "glm-5.3-flash/round-2/catalog-4-page-033/score-v0.3.1.json"
+      }
+    },
+    {
+      "case_id": "catalog-4-page-038",
+      "page": 38,
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 86.618,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "round": 2,
+      "model": "glm-5.3-flash",
+      "native_status": "native-accepted",
+      "native_elapsed_seconds": 84.613,
+      "admission_wait_seconds": 0.0,
+      "failure_category": null,
+      "provider_attempts": [
+        {
+          "attempt": 1,
+          "provider": "zai",
+          "requested_model": "glm-5.3-flash",
+          "returned_model": "glm-5.3-flash",
+          "endpoint": "https://api.z.ai/api/coding/paas/v4/chat/completions",
+          "http_status": 200,
+          "elapsed_seconds": 84.567,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "low",
+          "finish_reason": "stop",
+          "usage": {
+            "completion_tokens": 6756,
+            "completion_tokens_details": {
+              "reasoning_tokens": 12
+            },
+            "prompt_tokens": 10794,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 17550
+          },
+          "declared_client_format": "json-object",
+          "provider_response_format_parameter_sent": true,
+          "actual_provider_response_format": "json_object",
+          "provider_json_policy": "json_object_parameter"
+        }
+      ],
+      "selected_correct": {
+        "0.3.0": {
+          "engineering": 72,
+          "drawing": 0
+        },
+        "0.3.1": {
+          "engineering": 72,
+          "drawing": 0
+        }
+      },
+      "candidate": "glm-5.3-flash/round-2/catalog-4-page-038/catalogue-page.json",
+      "candidate_sha256": "2873866bc3b9e2d62729a0a47209d9b90f16143ce6054df9077c081464029c41",
+      "score_files": {
+        "0.3.0": "glm-5.3-flash/round-2/catalog-4-page-038/score-v0.3.0.json",
+        "0.3.1": "glm-5.3-flash/round-2/catalog-4-page-038/score-v0.3.1.json"
+      }
+    },
+    {
+      "case_id": "catalog-4-page-078",
+      "page": 78,
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 98.706,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "round": 2,
+      "model": "glm-5.3-flash",
+      "native_status": "native-accepted",
+      "native_elapsed_seconds": 96.665,
+      "admission_wait_seconds": 0.0,
+      "failure_category": null,
+      "provider_attempts": [
+        {
+          "attempt": 1,
+          "provider": "zai",
+          "requested_model": "glm-5.3-flash",
+          "returned_model": "glm-5.3-flash",
+          "endpoint": "https://api.z.ai/api/coding/paas/v4/chat/completions",
+          "http_status": 200,
+          "elapsed_seconds": 96.617,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "low",
+          "finish_reason": "stop",
+          "usage": {
+            "completion_tokens": 7980,
+            "completion_tokens_details": {
+              "reasoning_tokens": 14
+            },
+            "prompt_tokens": 10721,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 18701
+          },
+          "declared_client_format": "json-object",
+          "provider_response_format_parameter_sent": true,
+          "actual_provider_response_format": "json_object",
+          "provider_json_policy": "json_object_parameter"
+        }
+      ],
+      "selected_correct": {
+        "0.3.0": {
+          "engineering": 112,
+          "drawing": 0
+        },
+        "0.3.1": {
+          "engineering": 112,
+          "drawing": 0
+        }
+      },
+      "candidate": "glm-5.3-flash/round-2/catalog-4-page-078/catalogue-page.json",
+      "candidate_sha256": "dfcb8678f98f090e8cf51f675d0f1c1670b38cb0815b684dba2835d684b4c329",
+      "score_files": {
+        "0.3.0": "glm-5.3-flash/round-2/catalog-4-page-078/score-v0.3.0.json",
+        "0.3.1": "glm-5.3-flash/round-2/catalog-4-page-078/score-v0.3.1.json"
+      }
+    },
+    {
+      "case_id": "catalog-5-page-030",
+      "page": 30,
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 103.054,
+      "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+      "round": 2,
+      "model": "glm-5.3-flash",
+      "native_status": "native-accepted",
+      "native_elapsed_seconds": 100.434,
+      "admission_wait_seconds": 0.0,
+      "failure_category": null,
+      "provider_attempts": [
+        {
+          "attempt": 1,
+          "provider": "zai",
+          "requested_model": "glm-5.3-flash",
+          "returned_model": "glm-5.3-flash",
+          "endpoint": "https://api.z.ai/api/coding/paas/v4/chat/completions",
+          "http_status": 200,
+          "elapsed_seconds": 100.38,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "low",
+          "finish_reason": "stop",
+          "usage": {
+            "completion_tokens": 8751,
+            "completion_tokens_details": {
+              "reasoning_tokens": 89
+            },
+            "prompt_tokens": 10556,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 19307
+          },
+          "declared_client_format": "json-object",
+          "provider_response_format_parameter_sent": true,
+          "actual_provider_response_format": "json_object",
+          "provider_json_policy": "json_object_parameter"
+        }
+      ],
+      "selected_correct": {
+        "0.3.0": {
+          "engineering": 15,
+          "drawing": 0
+        },
+        "0.3.1": {
+          "engineering": 15,
+          "drawing": 0
+        }
+      },
+      "candidate": "glm-5.3-flash/round-2/catalog-5-page-030/catalogue-page.json",
+      "candidate_sha256": "2bc61689dc1b65cf642f16465fee936dd4bd8c886670a54992e3513aa79d1b8c",
+      "score_files": {
+        "0.3.0": "glm-5.3-flash/round-2/catalog-5-page-030/score-v0.3.0.json",
+        "0.3.1": "glm-5.3-flash/round-2/catalog-5-page-030/score-v0.3.1.json"
+      }
+    },
+    {
+      "case_id": "catalog-5-page-035",
+      "page": 35,
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 165.455,
+      "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+      "round": 2,
+      "model": "glm-5.3-flash",
+      "native_status": "native-accepted",
+      "native_elapsed_seconds": 163.013,
+      "admission_wait_seconds": 0.0,
+      "failure_category": null,
+      "provider_attempts": [
+        {
+          "attempt": 1,
+          "provider": "zai",
+          "requested_model": "glm-5.3-flash",
+          "returned_model": "glm-5.3-flash",
+          "endpoint": "https://api.z.ai/api/coding/paas/v4/chat/completions",
+          "http_status": 200,
+          "elapsed_seconds": 82.359,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "low",
+          "finish_reason": "stop",
+          "usage": {
+            "completion_tokens": 6860,
+            "completion_tokens_details": {
+              "reasoning_tokens": 6
+            },
+            "prompt_tokens": 10685,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 17545
+          },
+          "declared_client_format": "json-object",
+          "provider_response_format_parameter_sent": true,
+          "actual_provider_response_format": "json_object",
+          "provider_json_policy": "json_object_parameter"
+        },
+        {
+          "attempt": 2,
+          "provider": "zai",
+          "requested_model": "glm-5.3-flash",
+          "returned_model": "glm-5.3-flash",
+          "endpoint": "https://api.z.ai/api/coding/paas/v4/chat/completions",
+          "http_status": 200,
+          "elapsed_seconds": 80.599,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "low",
+          "finish_reason": "stop",
+          "usage": {
+            "completion_tokens": 7277,
+            "completion_tokens_details": {
+              "reasoning_tokens": 427
+            },
+            "prompt_tokens": 6946,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 14223
+          },
+          "declared_client_format": "json-object",
+          "provider_response_format_parameter_sent": true,
+          "actual_provider_response_format": "json_schema",
+          "provider_json_policy": "json_schema_parameter"
+        }
+      ],
+      "selected_correct": {
+        "0.3.0": {
+          "engineering": 13,
+          "drawing": 0
+        },
+        "0.3.1": {
+          "engineering": 13,
+          "drawing": 0
+        }
+      },
+      "candidate": "glm-5.3-flash/round-2/catalog-5-page-035/catalogue-page.json",
+      "candidate_sha256": "cb53cf9c792760c8fa5d40ea3f8e54d6998d5c6e7dc9de708f9a9799256585d9",
+      "score_files": {
+        "0.3.0": "glm-5.3-flash/round-2/catalog-5-page-035/score-v0.3.0.json",
+        "0.3.1": "glm-5.3-flash/round-2/catalog-5-page-035/score-v0.3.1.json"
+      }
+    },
+    {
+      "case_id": "catalog-5-page-126",
+      "page": 126,
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 133.75,
+      "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+      "round": 2,
+      "model": "glm-5.3-flash",
+      "native_status": "native-accepted",
+      "native_elapsed_seconds": 131.143,
+      "admission_wait_seconds": 0.0,
+      "failure_category": null,
+      "provider_attempts": [
+        {
+          "attempt": 1,
+          "provider": "zai",
+          "requested_model": "glm-5.3-flash",
+          "returned_model": "glm-5.3-flash",
+          "endpoint": "https://api.z.ai/api/coding/paas/v4/chat/completions",
+          "http_status": 200,
+          "elapsed_seconds": 131.081,
+          "max_output_tokens": 32768,
+          "response_format": "json-object",
+          "reasoning_effort": "low",
+          "finish_reason": "stop",
+          "usage": {
+            "completion_tokens": 11551,
+            "completion_tokens_details": {
+              "reasoning_tokens": 912
+            },
+            "prompt_tokens": 10875,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 22426
+          },
+          "declared_client_format": "json-object",
+          "provider_response_format_parameter_sent": true,
+          "actual_provider_response_format": "json_object",
+          "provider_json_policy": "json_object_parameter"
+        }
+      ],
+      "selected_correct": {
+        "0.3.0": {
+          "engineering": 15,
+          "drawing": 0
+        },
+        "0.3.1": {
+          "engineering": 15,
+          "drawing": 0
+        }
+      },
+      "candidate": "glm-5.3-flash/round-2/catalog-5-page-126/catalogue-page.json",
+      "candidate_sha256": "800f746fc429976f1ae1500f6dee966ea93ad68915b644ecfe2bb693b16ea67d",
+      "score_files": {
+        "0.3.0": "glm-5.3-flash/round-2/catalog-5-page-126/score-v0.3.0.json",
+        "0.3.1": "glm-5.3-flash/round-2/catalog-5-page-126/score-v0.3.1.json"
+      }
+    }
+  ],
+  "valid_json_cases": 17,
+  "failure_counts": {},
+  "scores": {
+    "0.3.0": {
+      "engineering": {
+        "correct": 452,
+        "expected": 520,
+        "percent": 86.9231
+      },
+      "drawing": {
+        "correct": 6,
+        "expected": 21,
+        "percent": 28.5714
+      }
+    },
+    "0.3.1": {
+      "engineering": {
+        "correct": 452,
+        "expected": 520,
+        "percent": 86.9231
+      },
+      "drawing": {
+        "correct": 6,
+        "expected": 21,
+        "percent": 28.5714
+      }
+    }
+  },
+  "timing": {
+    "subprocess_seconds_sum": 2874.598,
+    "subprocess_seconds_per_attempt_mean": 169.094,
+    "native_seconds_sum_known": 2548.154,
+    "provider_seconds_sum_known": 2547.224,
+    "case_wall_includes_admission_and_imports": true,
+    "parallel_other_model_not_added_to_model_wall": true
+  },
+  "usage": {
+    "provider_attempts": 20,
+    "responses_with_usage": 20,
+    "responses_without_usage": 0,
+    "reported_token_totals": {
+      "input_prompt": 213952,
+      "output_including_reasoning": 221233,
+      "cache_read_subset_of_prompt": 320,
+      "reasoning_subset_of_output": 17241
+    },
+    "includes_failed_attempts_and_native_json_repairs": true,
+    "monetary_cost": null,
+    "unknown_usage_is_not_zero": true
+  }
+}

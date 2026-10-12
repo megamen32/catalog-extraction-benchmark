@@ -1,0 +1,1893 @@
+{
+  "title": "ОГРАНИЧИТЕЛИ ПЕРЕНАПРЯЖЕНИЯ НЕЛИНЕЙНЫЕ — ОПН 6 кВ с зарядами пропускной способности 1,1 Кл и 1,2 Кл",
+  "printed_page": "184",
+  "text_blocks": [
+    {
+      "kind": "branding",
+      "text": "ОГРАНИЧИТЕЛИ ПЕРЕНАПРЯЖЕНИЯ НЕЛИНЕЙНЫЕ — ФОРЭНЕРГО (производственное объединение) / FORENERGO (manufacturing association)"
+    },
+    {
+      "kind": "heading",
+      "text": "ОПН 6 кВ с зарядами пропускной способности 1,1 Кл"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Изготавливаются по ТУ 27.12.10–041–21639232-2020. Номинальный разрядный ток — 10 кА. Ток взрывобезопасности: длительностью не менее 1 секунды — не менее 0,6 кА; длительностью не менее 0,2 секунд — не менее 65 кА. Соответствуют требованиям ГОСТ Р 52725-2021."
+    },
+    {
+      "kind": "heading",
+      "text": "ОПН 6 кВ с зарядом пропускной способности 1,2 Кл"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Изготавливаются по ТУ 27.12.10–041–21639232-2020. Номинальный разрядный ток — 10 кА. Ток взрывобезопасности: длительностью не менее 1 секунды — не менее 0,6 кА; длительностью не менее 0,2 секунд — не менее 65 кА. Соответствуют требованиям ГОСТ Р 52725-2021."
+    },
+    {
+      "kind": "footer",
+      "text": "184 | АО «Энергия+21» | Тел./ факс: +7 (351) 211-60-20, e-mail: sales@energy-21.ru | www.energy-21.ru"
+    }
+  ],
+  "tables": [
+    {
+      "id": "t1",
+      "title": "ОПН 6 кВ с зарядами пропускной способности 1,1 Кл",
+      "columns": [
+        {
+          "id": "name",
+          "label": "Наименование",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "u_rab",
+          "label": "Наибольшее длительно допустимое рабочее напряжение ограничителя",
+          "unit": "кВ",
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "u_nom",
+          "label": "Номинальное напряжение ограничителя, не менее",
+          "unit": "кВ",
+          "group": null,
+          "qualifier": "не менее"
+        },
+        {
+          "id": "res_5ka",
+          "label": "Остающееся напряжение (кВ), при грозовых импульсах тока длит. 8/20 величиной: 5 кА",
+          "unit": "кВ",
+          "group": "грозовые импульсы 8/20",
+          "qualifier": null
+        },
+        {
+          "id": "res_10ka",
+          "label": "… 10 кА",
+          "unit": "кВ",
+          "group": "грозовые импульсы 8/20",
+          "qualifier": null
+        },
+        {
+          "id": "res_20ka",
+          "label": "… 20 кА",
+          "unit": "кВ",
+          "group": "грозовые импульсы 8/20",
+          "qualifier": null
+        },
+        {
+          "id": "res_125a",
+          "label": "Остающееся напряжение (кВ), при коммутационных токах длительностью 30/60 мкс: 125 А",
+          "unit": "кВ",
+          "group": "коммутационные токи 30/60 мкс",
+          "qualifier": null
+        },
+        {
+          "id": "res_250a",
+          "label": "… 250 А",
+          "unit": "кВ",
+          "group": "коммутационные токи 30/60 мкс",
+          "qualifier": null
+        },
+        {
+          "id": "res_500a",
+          "label": "… 500 А",
+          "unit": "кВ",
+          "group": "коммутационные токи 30/60 мкс",
+          "qualifier": null
+        },
+        {
+          "id": "res_1000a",
+          "label": "… 1000 А",
+          "unit": "кВ",
+          "group": "коммутационные токи 30/60 мкс",
+          "qualifier": null
+        },
+        {
+          "id": "res_steep",
+          "label": "Остающееся напряжение (кВ) при крутом импульсе тока величиной 10 кА и длительностью 1/10 мкс",
+          "unit": "кВ",
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "q_ls",
+          "label": "Заряд пропускной способности",
+          "unit": "Кл",
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "i_4_10",
+          "label": "Ток импульса 4/10",
+          "unit": "кА",
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "u_class",
+          "label": "Классификационное напряжение, кВ, при классификационном токе 2 мА",
+          "unit": "кВ",
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "q_thermal",
+          "label": "Тепловой заряд, не менее",
+          "unit": "Кл",
+          "group": null,
+          "qualifier": "не менее"
+        },
+        {
+          "id": "e_thermal",
+          "label": "Тепловая энергия, кДж/кВ, не менее",
+          "unit": "кДж/кВ",
+          "group": null,
+          "qualifier": "не менее"
+        }
+      ],
+      "rows": [
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ОПН-П-6/6,0/10/1,1-III УХЛ1",
+              "state": "value"
+            },
+            {
+              "column_id": "u_rab",
+              "value": "6,0",
+              "state": "value"
+            },
+            {
+              "column_id": "u_nom",
+              "value": "7,5",
+              "state": "value"
+            },
+            {
+              "column_id": "res_5ka",
+              "value": "17,1",
+              "state": "value"
+            },
+            {
+              "column_id": "res_10ka",
+              "value": "17,9",
+              "state": "value"
+            },
+            {
+              "column_id": "res_20ka",
+              "value": "20,8",
+              "state": "value"
+            },
+            {
+              "column_id": "res_125a",
+              "value": "-",
+              "state": "value"
+            },
+            {
+              "column_id": "res_250a",
+              "value": "14,1",
+              "state": "value"
+            },
+            {
+              "column_id": "res_500a",
+              "value": "14,6",
+              "state": "value"
+            },
+            {
+              "column_id": "res_1000a",
+              "value": "15,5",
+              "state": "value"
+            },
+            {
+              "column_id": "res_steep",
+              "value": "19,8",
+              "state": "value"
+            },
+            {
+              "column_id": "q_ls",
+              "value": "1,1",
+              "state": "value"
+            },
+            {
+              "column_id": "i_4_10",
+              "value": "100,0",
+              "state": "value"
+            },
+            {
+              "column_id": "u_class",
+              "value": "7,5",
+              "state": "value"
+            },
+            {
+              "column_id": "q_thermal",
+              "value": "-",
+              "state": "value"
+            },
+            {
+              "column_id": "e_thermal",
+              "value": "4,0",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ОПН-П-6/6,0/10/1,1-IV УХЛ1",
+              "state": "value"
+            },
+            {
+              "column_id": "u_rab",
+              "value": "6,0",
+              "state": "value"
+            },
+            {
+              "column_id": "u_nom",
+              "value": "7,5",
+              "state": "value"
+            },
+            {
+              "column_id": "res_5ka",
+              "value": "17,1",
+              "state": "value"
+            },
+            {
+              "column_id": "res_10ka",
+              "value": "17,9",
+              "state": "value"
+            },
+            {
+              "column_id": "res_20ka",
+              "value": "20,8",
+              "state": "value"
+            },
+            {
+              "column_id": "res_125a",
+              "value": "-",
+              "state": "value"
+            },
+            {
+              "column_id": "res_250a",
+              "value": "14,1",
+              "state": "value"
+            },
+            {
+              "column_id": "res_500a",
+              "value": "14,6",
+              "state": "value"
+            },
+            {
+              "column_id": "res_1000a",
+              "value": "15,5",
+              "state": "value"
+            },
+            {
+              "column_id": "res_steep",
+              "value": "19,8",
+              "state": "value"
+            },
+            {
+              "column_id": "q_ls",
+              "value": "1,1",
+              "state": "value"
+            },
+            {
+              "column_id": "i_4_10",
+              "value": "100,0",
+              "state": "value"
+            },
+            {
+              "column_id": "u_class",
+              "value": "7,5",
+              "state": "value"
+            },
+            {
+              "column_id": "q_thermal",
+              "value": "-",
+              "state": "value"
+            },
+            {
+              "column_id": "e_thermal",
+              "value": "4,0",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ОПН-П-6/6,6/10/1,1-III УХЛ1",
+              "state": "value"
+            },
+            {
+              "column_id": "u_rab",
+              "value": "6,6",
+              "state": "value"
+            },
+            {
+              "column_id": "u_nom",
+              "value": "8,3",
+              "state": "value"
+            },
+            {
+              "column_id": "res_5ka",
+              "value": "18,8",
+              "state": "value"
+            },
+            {
+              "column_id": "res_10ka",
+              "value": "19,7",
+              "state": "value"
+            },
+            {
+              "column_id": "res_20ka",
+              "value": "23,4",
+              "state": "value"
+            },
+            {
+              "column_id": "res_125a",
+              "value": "-",
+              "state": "value"
+            },
+            {
+              "column_id": "res_250a",
+              "value": "15,5",
+              "state": "value"
+            },
+            {
+              "column_id": "res_500a",
+              "value": "16,0",
+              "state": "value"
+            },
+            {
+              "column_id": "res_1000a",
+              "value": "17,1",
+              "state": "value"
+            },
+            {
+              "column_id": "res_steep",
+              "value": "21,7",
+              "state": "value"
+            },
+            {
+              "column_id": "q_ls",
+              "value": "1,1",
+              "state": "value"
+            },
+            {
+              "column_id": "i_4_10",
+              "value": "100,0",
+              "state": "value"
+            },
+            {
+              "column_id": "u_class",
+              "value": "8,3",
+              "state": "value"
+            },
+            {
+              "column_id": "q_thermal",
+              "value": "-",
+              "state": "value"
+            },
+            {
+              "column_id": "e_thermal",
+              "value": "4,0",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ОПН-П-6/6,6/10/1,1-IV УХЛ1",
+              "state": "value"
+            },
+            {
+              "column_id": "u_rab",
+              "value": "6,6",
+              "state": "value"
+            },
+            {
+              "column_id": "u_nom",
+              "value": "8,3",
+              "state": "value"
+            },
+            {
+              "column_id": "res_5ka",
+              "value": "18,8",
+              "state": "value"
+            },
+            {
+              "column_id": "res_10ka",
+              "value": "19,7",
+              "state": "value"
+            },
+            {
+              "column_id": "res_20ka",
+              "value": "23,4",
+              "state": "value"
+            },
+            {
+              "column_id": "res_125a",
+              "value": "-",
+              "state": "value"
+            },
+            {
+              "column_id": "res_250a",
+              "value": "15,5",
+              "state": "value"
+            },
+            {
+              "column_id": "res_500a",
+              "value": "16,0",
+              "state": "value"
+            },
+            {
+              "column_id": "res_1000a",
+              "value": "17,1",
+              "state": "value"
+            },
+            {
+              "column_id": "res_steep",
+              "value": "21,7",
+              "state": "value"
+            },
+            {
+              "column_id": "q_ls",
+              "value": "1,1",
+              "state": "value"
+            },
+            {
+              "column_id": "i_4_10",
+              "value": "100,0",
+              "state": "value"
+            },
+            {
+              "column_id": "u_class",
+              "value": "8,3",
+              "state": "value"
+            },
+            {
+              "column_id": "q_thermal",
+              "value": "-",
+              "state": "value"
+            },
+            {
+              "column_id": "e_thermal",
+              "value": "4,0",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ОПН-П-6/6,9/10/1,1-III УХЛ1",
+              "state": "value"
+            },
+            {
+              "column_id": "u_rab",
+              "value": "6,9",
+              "state": "value"
+            },
+            {
+              "column_id": "u_nom",
+              "value": "8,6",
+              "state": "value"
+            },
+            {
+              "column_id": "res_5ka",
+              "value": "19,6",
+              "state": "value"
+            },
+            {
+              "column_id": "res_10ka",
+              "value": "20,6",
+              "state": "value"
+            },
+            {
+              "column_id": "res_20ka",
+              "value": "24,0",
+              "state": "value"
+            },
+            {
+              "column_id": "res_125a",
+              "value": "-",
+              "state": "value"
+            },
+            {
+              "column_id": "res_250a",
+              "value": "16,2",
+              "state": "value"
+            },
+            {
+              "column_id": "res_500a",
+              "value": "16,8",
+              "state": "value"
+            },
+            {
+              "column_id": "res_1000a",
+              "value": "17,8",
+              "state": "value"
+            },
+            {
+              "column_id": "res_steep",
+              "value": "22,7",
+              "state": "value"
+            },
+            {
+              "column_id": "q_ls",
+              "value": "1,1",
+              "state": "value"
+            },
+            {
+              "column_id": "i_4_10",
+              "value": "100,0",
+              "state": "value"
+            },
+            {
+              "column_id": "u_class",
+              "value": "8,6",
+              "state": "value"
+            },
+            {
+              "column_id": "q_thermal",
+              "value": "-",
+              "state": "value"
+            },
+            {
+              "column_id": "e_thermal",
+              "value": "4,0",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ОПН-П-6/6,9/10/1,1-IV УХЛ1",
+              "state": "value"
+            },
+            {
+              "column_id": "u_rab",
+              "value": "6,9",
+              "state": "value"
+            },
+            {
+              "column_id": "u_nom",
+              "value": "8,6",
+              "state": "value"
+            },
+            {
+              "column_id": "res_5ka",
+              "value": "19,6",
+              "state": "value"
+            },
+            {
+              "column_id": "res_10ka",
+              "value": "20,6",
+              "state": "value"
+            },
+            {
+              "column_id": "res_20ka",
+              "value": "24,0",
+              "state": "value"
+            },
+            {
+              "column_id": "res_125a",
+              "value": "-",
+              "state": "value"
+            },
+            {
+              "column_id": "res_250a",
+              "value": "16,2",
+              "state": "value"
+            },
+            {
+              "column_id": "res_500a",
+              "value": "16,8",
+              "state": "value"
+            },
+            {
+              "column_id": "res_1000a",
+              "value": "17,8",
+              "state": "value"
+            },
+            {
+              "column_id": "res_steep",
+              "value": "22,7",
+              "state": "value"
+            },
+            {
+              "column_id": "q_ls",
+              "value": "1,1",
+              "state": "value"
+            },
+            {
+              "column_id": "i_4_10",
+              "value": "100,0",
+              "state": "value"
+            },
+            {
+              "column_id": "u_class",
+              "value": "8,6",
+              "state": "value"
+            },
+            {
+              "column_id": "q_thermal",
+              "value": "-",
+              "state": "value"
+            },
+            {
+              "column_id": "e_thermal",
+              "value": "4,0",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ОПН-П-6/7,2/10/1,1-III УХЛ1",
+              "state": "value"
+            },
+            {
+              "column_id": "u_rab",
+              "value": "7,2",
+              "state": "value"
+            },
+            {
+              "column_id": "u_nom",
+              "value": "9,0",
+              "state": "value"
+            },
+            {
+              "column_id": "res_5ka",
+              "value": "20,5",
+              "state": "value"
+            },
+            {
+              "column_id": "res_10ka",
+              "value": "21,5",
+              "state": "value"
+            },
+            {
+              "column_id": "res_20ka",
+              "value": "25,0",
+              "state": "value"
+            },
+            {
+              "column_id": "res_125a",
+              "value": "-",
+              "state": "value"
+            },
+            {
+              "column_id": "res_250a",
+              "value": "16,9",
+              "state": "value"
+            },
+            {
+              "column_id": "res_500a",
+              "value": "17,5",
+              "state": "value"
+            },
+            {
+              "column_id": "res_1000a",
+              "value": "18,6",
+              "state": "value"
+            },
+            {
+              "column_id": "res_steep",
+              "value": "23,7",
+              "state": "value"
+            },
+            {
+              "column_id": "q_ls",
+              "value": "1,1",
+              "state": "value"
+            },
+            {
+              "column_id": "i_4_10",
+              "value": "100,0",
+              "state": "value"
+            },
+            {
+              "column_id": "u_class",
+              "value": "9,0",
+              "state": "value"
+            },
+            {
+              "column_id": "q_thermal",
+              "value": "-",
+              "state": "value"
+            },
+            {
+              "column_id": "e_thermal",
+              "value": "4,0",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ОПН-П-6/7,2/10/1,1-IV УХЛ1",
+              "state": "value"
+            },
+            {
+              "column_id": "u_rab",
+              "value": "7,2",
+              "state": "value"
+            },
+            {
+              "column_id": "u_nom",
+              "value": "9,0",
+              "state": "value"
+            },
+            {
+              "column_id": "res_5ka",
+              "value": "20,5",
+              "state": "value"
+            },
+            {
+              "column_id": "res_10ka",
+              "value": "21,5",
+              "state": "value"
+            },
+            {
+              "column_id": "res_20ka",
+              "value": "25,0",
+              "state": "value"
+            },
+            {
+              "column_id": "res_125a",
+              "value": "-",
+              "state": "value"
+            },
+            {
+              "column_id": "res_250a",
+              "value": "16,9",
+              "state": "value"
+            },
+            {
+              "column_id": "res_500a",
+              "value": "17,5",
+              "state": "value"
+            },
+            {
+              "column_id": "res_1000a",
+              "value": "18,6",
+              "state": "value"
+            },
+            {
+              "column_id": "res_steep",
+              "value": "23,7",
+              "state": "value"
+            },
+            {
+              "column_id": "q_ls",
+              "value": "1,1",
+              "state": "value"
+            },
+            {
+              "column_id": "i_4_10",
+              "value": "100,0",
+              "state": "value"
+            },
+            {
+              "column_id": "u_class",
+              "value": "9,0",
+              "state": "value"
+            },
+            {
+              "column_id": "q_thermal",
+              "value": "-",
+              "state": "value"
+            },
+            {
+              "column_id": "e_thermal",
+              "value": "4,0",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ОПН-П-6/7,6/10/1,1-III УХЛ1",
+              "state": "value"
+            },
+            {
+              "column_id": "u_rab",
+              "value": "7,6",
+              "state": "value"
+            },
+            {
+              "column_id": "u_nom",
+              "value": "9,5",
+              "state": "value"
+            },
+            {
+              "column_id": "res_5ka",
+              "value": "21,6",
+              "state": "value"
+            },
+            {
+              "column_id": "res_10ka",
+              "value": "22,7",
+              "state": "value"
+            },
+            {
+              "column_id": "res_20ka",
+              "value": "26,4",
+              "state": "value"
+            },
+            {
+              "column_id": "res_125a",
+              "value": "-",
+              "state": "value"
+            },
+            {
+              "column_id": "res_250a",
+              "value": "17,8",
+              "state": "value"
+            },
+            {
+              "column_id": "res_500a",
+              "value": "18,5",
+              "state": "value"
+            },
+            {
+              "column_id": "res_1000a",
+              "value": "19,6",
+              "state": "value"
+            },
+            {
+              "column_id": "res_steep",
+              "value": "25,0",
+              "state": "value"
+            },
+            {
+              "column_id": "q_ls",
+              "value": "1,1",
+              "state": "value"
+            },
+            {
+              "column_id": "i_4_10",
+              "value": "100,0",
+              "state": "value"
+            },
+            {
+              "column_id": "u_class",
+              "value": "9,5",
+              "state": "value"
+            },
+            {
+              "column_id": "q_thermal",
+              "value": "-",
+              "state": "value"
+            },
+            {
+              "column_id": "e_thermal",
+              "value": "4,0",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ОПН-П-6/7,6/10/1,1-IV УХЛ1",
+              "state": "value"
+            },
+            {
+              "column_id": "u_rab",
+              "value": "7,6",
+              "state": "value"
+            },
+            {
+              "column_id": "u_nom",
+              "value": "9,5",
+              "state": "value"
+            },
+            {
+              "column_id": "res_5ka",
+              "value": "21,6",
+              "state": "value"
+            },
+            {
+              "column_id": "res_10ka",
+              "value": "22,7",
+              "state": "value"
+            },
+            {
+              "column_id": "res_20ka",
+              "value": "26,4",
+              "state": "value"
+            },
+            {
+              "column_id": "res_125a",
+              "value": "-",
+              "state": "value"
+            },
+            {
+              "column_id": "res_250a",
+              "value": "17,8",
+              "state": "value"
+            },
+            {
+              "column_id": "res_500a",
+              "value": "18,5",
+              "state": "value"
+            },
+            {
+              "column_id": "res_1000a",
+              "value": "19,6",
+              "state": "value"
+            },
+            {
+              "column_id": "res_steep",
+              "value": "25,0",
+              "state": "value"
+            },
+            {
+              "column_id": "q_ls",
+              "value": "1,1",
+              "state": "value"
+            },
+            {
+              "column_id": "i_4_10",
+              "value": "100,0",
+              "state": "value"
+            },
+            {
+              "column_id": "u_class",
+              "value": "9,5",
+              "state": "value"
+            },
+            {
+              "column_id": "q_thermal",
+              "value": "-",
+              "state": "value"
+            },
+            {
+              "column_id": "e_thermal",
+              "value": "4,0",
+              "state": "value"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": "ОПН 6 кВ с зарядом пропускной способности 1,2 Кл",
+      "columns": [
+        {
+          "id": "name",
+          "label": "Наименование",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "u_rab",
+          "label": "Наибольшее длительно допустимое рабочее напряжение ограничителя",
+          "unit": "кВ",
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "u_nom",
+          "label": "Номинальное напряжение ограничителя, не менее",
+          "unit": "кВ",
+          "group": null,
+          "qualifier": "не менее"
+        },
+        {
+          "id": "res_5ka",
+          "label": "Остающееся напряжение (кВ), при грозовых импульсах тока длит. 8/20 величиной: 5 кА",
+          "unit": "кВ",
+          "group": "грозовые импульсы 8/20",
+          "qualifier": null
+        },
+        {
+          "id": "res_10ka",
+          "label": "… 10 кА",
+          "unit": "кВ",
+          "group": "грозовые импульсы 8/20",
+          "qualifier": null
+        },
+        {
+          "id": "res_20ka",
+          "label": "… 20 кА",
+          "unit": "кВ",
+          "group": "грозовые импульсы 8/20",
+          "qualifier": null
+        },
+        {
+          "id": "res_250a",
+          "label": "Остающееся напряжение (кВ), при коммутационных токах длительностью 30/60 мкс: 250 А",
+          "unit": "кВ",
+          "group": "коммутационные токи 30/60 мкс",
+          "qualifier": null
+        },
+        {
+          "id": "res_500a",
+          "label": "… 500 А",
+          "unit": "кВ",
+          "group": "коммутационные токи 30/60 мкс",
+          "qualifier": null
+        },
+        {
+          "id": "res_1000a",
+          "label": "… 1000 А",
+          "unit": "кВ",
+          "group": "коммутационные токи 30/60 мкс",
+          "qualifier": null
+        },
+        {
+          "id": "res_steep",
+          "label": "Остающееся напряжение (кВ) при крутом импульсе тока величиной 10 кА и длительностью 1/10 мкс",
+          "unit": "кВ",
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "q_ls",
+          "label": "Заряд пропускной способности",
+          "unit": "Кл",
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "i_4_10",
+          "label": "Ток импульса 4/10",
+          "unit": "кА",
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "u_class",
+          "label": "Классификационное напряжение, кВ, при классификационном токе 2 мА",
+          "unit": "кВ",
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "e_thermal",
+          "label": "Тепловая энергия, кДж/кВ, не менее",
+          "unit": "кДж/кВ",
+          "group": null,
+          "qualifier": "не менее"
+        }
+      ],
+      "rows": [
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ОПН-П-6/6,0/10/1,2-III УХЛ1",
+              "state": "value"
+            },
+            {
+              "column_id": "u_rab",
+              "value": "6,0",
+              "state": "value"
+            },
+            {
+              "column_id": "u_nom",
+              "value": "7,5",
+              "state": "value"
+            },
+            {
+              "column_id": "res_5ka",
+              "value": "17,5",
+              "state": "value"
+            },
+            {
+              "column_id": "res_10ka",
+              "value": "19,2",
+              "state": "value"
+            },
+            {
+              "column_id": "res_20ka",
+              "value": "21,5",
+              "state": "value"
+            },
+            {
+              "column_id": "res_250a",
+              "value": "14,2",
+              "state": "value"
+            },
+            {
+              "column_id": "res_500a",
+              "value": "14,7",
+              "state": "value"
+            },
+            {
+              "column_id": "res_1000a",
+              "value": "15,4",
+              "state": "value"
+            },
+            {
+              "column_id": "res_steep",
+              "value": "20,9",
+              "state": "value"
+            },
+            {
+              "column_id": "q_ls",
+              "value": "1,2",
+              "state": "value"
+            },
+            {
+              "column_id": "i_4_10",
+              "value": "100,0",
+              "state": "value"
+            },
+            {
+              "column_id": "u_class",
+              "value": "7,5",
+              "state": "value"
+            },
+            {
+              "column_id": "e_thermal",
+              "value": "4,0",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ОПН-П-6/6,0/10/1,2-IV УХЛ1",
+              "state": "value"
+            },
+            {
+              "column_id": "u_rab",
+              "value": "6,0",
+              "state": "value"
+            },
+            {
+              "column_id": "u_nom",
+              "value": "7,5",
+              "state": "value"
+            },
+            {
+              "column_id": "res_5ka",
+              "value": "17,5",
+              "state": "value"
+            },
+            {
+              "column_id": "res_10ka",
+              "value": "19,2",
+              "state": "value"
+            },
+            {
+              "column_id": "res_20ka",
+              "value": "21,5",
+              "state": "value"
+            },
+            {
+              "column_id": "res_250a",
+              "value": "14,2",
+              "state": "value"
+            },
+            {
+              "column_id": "res_500a",
+              "value": "14,7",
+              "state": "value"
+            },
+            {
+              "column_id": "res_1000a",
+              "value": "15,4",
+              "state": "value"
+            },
+            {
+              "column_id": "res_steep",
+              "value": "20,9",
+              "state": "value"
+            },
+            {
+              "column_id": "q_ls",
+              "value": "1,2",
+              "state": "value"
+            },
+            {
+              "column_id": "i_4_10",
+              "value": "100,0",
+              "state": "value"
+            },
+            {
+              "column_id": "u_class",
+              "value": "7,5",
+              "state": "value"
+            },
+            {
+              "column_id": "e_thermal",
+              "value": "4,0",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ОПН-П-6/6,6/10/1,2-III УХЛ1",
+              "state": "value"
+            },
+            {
+              "column_id": "u_rab",
+              "value": "6,6",
+              "state": "value"
+            },
+            {
+              "column_id": "u_nom",
+              "value": "8,3",
+              "state": "value"
+            },
+            {
+              "column_id": "res_5ka",
+              "value": "19,3",
+              "state": "value"
+            },
+            {
+              "column_id": "res_10ka",
+              "value": "21,1",
+              "state": "value"
+            },
+            {
+              "column_id": "res_20ka",
+              "value": "23,7",
+              "state": "value"
+            },
+            {
+              "column_id": "res_250a",
+              "value": "15,6",
+              "state": "value"
+            },
+            {
+              "column_id": "res_500a",
+              "value": "16,1",
+              "state": "value"
+            },
+            {
+              "column_id": "res_1000a",
+              "value": "17,0",
+              "state": "value"
+            },
+            {
+              "column_id": "res_steep",
+              "value": "23,0",
+              "state": "value"
+            },
+            {
+              "column_id": "q_ls",
+              "value": "1,2",
+              "state": "value"
+            },
+            {
+              "column_id": "i_4_10",
+              "value": "100,0",
+              "state": "value"
+            },
+            {
+              "column_id": "u_class",
+              "value": "8,3",
+              "state": "value"
+            },
+            {
+              "column_id": "e_thermal",
+              "value": "4,0",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ОПН-П-6/6,6/10/1,2-IV УХЛ1",
+              "state": "value"
+            },
+            {
+              "column_id": "u_rab",
+              "value": "6,6",
+              "state": "value"
+            },
+            {
+              "column_id": "u_nom",
+              "value": "8,3",
+              "state": "value"
+            },
+            {
+              "column_id": "res_5ka",
+              "value": "19,3",
+              "state": "value"
+            },
+            {
+              "column_id": "res_10ka",
+              "value": "21,1",
+              "state": "value"
+            },
+            {
+              "column_id": "res_20ka",
+              "value": "23,7",
+              "state": "value"
+            },
+            {
+              "column_id": "res_250a",
+              "value": "15,6",
+              "state": "value"
+            },
+            {
+              "column_id": "res_500a",
+              "value": "16,1",
+              "state": "value"
+            },
+            {
+              "column_id": "res_1000a",
+              "value": "17,0",
+              "state": "value"
+            },
+            {
+              "column_id": "res_steep",
+              "value": "23,0",
+              "state": "value"
+            },
+            {
+              "column_id": "q_ls",
+              "value": "1,2",
+              "state": "value"
+            },
+            {
+              "column_id": "i_4_10",
+              "value": "100,0",
+              "state": "value"
+            },
+            {
+              "column_id": "u_class",
+              "value": "8,3",
+              "state": "value"
+            },
+            {
+              "column_id": "e_thermal",
+              "value": "4,0",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ОПН-П-6/6,9/10/1,2-III УХЛ1",
+              "state": "value"
+            },
+            {
+              "column_id": "u_rab",
+              "value": "6,9",
+              "state": "value"
+            },
+            {
+              "column_id": "u_nom",
+              "value": "8,7",
+              "state": "value"
+            },
+            {
+              "column_id": "res_5ka",
+              "value": "20,2",
+              "state": "value"
+            },
+            {
+              "column_id": "res_10ka",
+              "value": "22,0",
+              "state": "value"
+            },
+            {
+              "column_id": "res_20ka",
+              "value": "24,8",
+              "state": "value"
+            },
+            {
+              "column_id": "res_250a",
+              "value": "16,3",
+              "state": "value"
+            },
+            {
+              "column_id": "res_500a",
+              "value": "16,9",
+              "state": "value"
+            },
+            {
+              "column_id": "res_1000a",
+              "value": "17,7",
+              "state": "value"
+            },
+            {
+              "column_id": "res_steep",
+              "value": "24,1",
+              "state": "value"
+            },
+            {
+              "column_id": "q_ls",
+              "value": "1,2",
+              "state": "value"
+            },
+            {
+              "column_id": "i_4_10",
+              "value": "100,0",
+              "state": "value"
+            },
+            {
+              "column_id": "u_class",
+              "value": "8,7",
+              "state": "value"
+            },
+            {
+              "column_id": "e_thermal",
+              "value": "4,0",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ОПН-П-6/6,9/10/1,2- IV УХЛ1",
+              "state": "value"
+            },
+            {
+              "column_id": "u_rab",
+              "value": "6,9",
+              "state": "value"
+            },
+            {
+              "column_id": "u_nom",
+              "value": "8,7",
+              "state": "value"
+            },
+            {
+              "column_id": "res_5ka",
+              "value": "20,2",
+              "state": "value"
+            },
+            {
+              "column_id": "res_10ka",
+              "value": "22,0",
+              "state": "value"
+            },
+            {
+              "column_id": "res_20ka",
+              "value": "24,8",
+              "state": "value"
+            },
+            {
+              "column_id": "res_250a",
+              "value": "16,3",
+              "state": "value"
+            },
+            {
+              "column_id": "res_500a",
+              "value": "16,9",
+              "state": "value"
+            },
+            {
+              "column_id": "res_1000a",
+              "value": "17,7",
+              "state": "value"
+            },
+            {
+              "column_id": "res_steep",
+              "value": "24,1",
+              "state": "value"
+            },
+            {
+              "column_id": "q_ls",
+              "value": "1,2",
+              "state": "value"
+            },
+            {
+              "column_id": "i_4_10",
+              "value": "100,0",
+              "state": "value"
+            },
+            {
+              "column_id": "u_class",
+              "value": "8,7",
+              "state": "value"
+            },
+            {
+              "column_id": "e_thermal",
+              "value": "4,0",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ОПН-П-6/7,2/10/1,2- III УХЛ1",
+              "state": "value"
+            },
+            {
+              "column_id": "u_rab",
+              "value": "7,2",
+              "state": "value"
+            },
+            {
+              "column_id": "u_nom",
+              "value": "9,1",
+              "state": "value"
+            },
+            {
+              "column_id": "res_5ka",
+              "value": "21,1",
+              "state": "value"
+            },
+            {
+              "column_id": "res_10ka",
+              "value": "23,0",
+              "state": "value"
+            },
+            {
+              "column_id": "res_20ka",
+              "value": "25,9",
+              "state": "value"
+            },
+            {
+              "column_id": "res_250a",
+              "value": "17,0",
+              "state": "value"
+            },
+            {
+              "column_id": "res_500a",
+              "value": "17,6",
+              "state": "value"
+            },
+            {
+              "column_id": "res_1000a",
+              "value": "18,5",
+              "state": "value"
+            },
+            {
+              "column_id": "res_steep",
+              "value": "25,1",
+              "state": "value"
+            },
+            {
+              "column_id": "q_ls",
+              "value": "1,2",
+              "state": "value"
+            },
+            {
+              "column_id": "i_4_10",
+              "value": "100,0",
+              "state": "value"
+            },
+            {
+              "column_id": "u_class",
+              "value": "9,1",
+              "state": "value"
+            },
+            {
+              "column_id": "e_thermal",
+              "value": "4,0",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ОПН-П-6/7,2/10/1,2-IV УХЛ1",
+              "state": "value"
+            },
+            {
+              "column_id": "u_rab",
+              "value": "7,2",
+              "state": "value"
+            },
+            {
+              "column_id": "u_nom",
+              "value": "9,1",
+              "state": "value"
+            },
+            {
+              "column_id": "res_5ka",
+              "value": "21,1",
+              "state": "value"
+            },
+            {
+              "column_id": "res_10ka",
+              "value": "23,0",
+              "state": "value"
+            },
+            {
+              "column_id": "res_20ka",
+              "value": "25,9",
+              "state": "value"
+            },
+            {
+              "column_id": "res_250a",
+              "value": "17,0",
+              "state": "value"
+            },
+            {
+              "column_id": "res_500a",
+              "value": "17,6",
+              "state": "value"
+            },
+            {
+              "column_id": "res_1000a",
+              "value": "18,5",
+              "state": "value"
+            },
+            {
+              "column_id": "res_steep",
+              "value": "25,1",
+              "state": "value"
+            },
+            {
+              "column_id": "q_ls",
+              "value": "1,2",
+              "state": "value"
+            },
+            {
+              "column_id": "i_4_10",
+              "value": "100,0",
+              "state": "value"
+            },
+            {
+              "column_id": "u_class",
+              "value": "9,1",
+              "state": "value"
+            },
+            {
+              "column_id": "e_thermal",
+              "value": "4,0",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ОПН-П-6/7,6/10/1,2-III УХЛ1",
+              "state": "value"
+            },
+            {
+              "column_id": "u_rab",
+              "value": "7,6",
+              "state": "value"
+            },
+            {
+              "column_id": "u_nom",
+              "value": "9,6",
+              "state": "value"
+            },
+            {
+              "column_id": "res_5ka",
+              "value": "22,2",
+              "state": "value"
+            },
+            {
+              "column_id": "res_10ka",
+              "value": "24,3",
+              "state": "value"
+            },
+            {
+              "column_id": "res_20ka",
+              "value": "27,3",
+              "state": "value"
+            },
+            {
+              "column_id": "res_250a",
+              "value": "18,0",
+              "state": "value"
+            },
+            {
+              "column_id": "res_500a",
+              "value": "18,6",
+              "state": "value"
+            },
+            {
+              "column_id": "res_1000a",
+              "value": "19,6",
+              "state": "value"
+            },
+            {
+              "column_id": "res_steep",
+              "value": "26,5",
+              "state": "value"
+            },
+            {
+              "column_id": "q_ls",
+              "value": "1,2",
+              "state": "value"
+            },
+            {
+              "column_id": "i_4_10",
+              "value": "100,0",
+              "state": "value"
+            },
+            {
+              "column_id": "u_class",
+              "value": "9,6",
+              "state": "value"
+            },
+            {
+              "column_id": "e_thermal",
+              "value": "4,0",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ОПН-П-6/7,6/10/1,2-IV УХЛ1",
+              "state": "value"
+            },
+            {
+              "column_id": "u_rab",
+              "value": "7,6",
+              "state": "value"
+            },
+            {
+              "column_id": "u_nom",
+              "value": "9,6",
+              "state": "value"
+            },
+            {
+              "column_id": "res_5ka",
+              "value": "22,2",
+              "state": "value"
+            },
+            {
+              "column_id": "res_10ka",
+              "value": "24,3",
+              "state": "value"
+            },
+            {
+              "column_id": "res_20ka",
+              "value": "27,3",
+              "state": "value"
+            },
+            {
+              "column_id": "res_250a",
+              "value": "18,0",
+              "state": "value"
+            },
+            {
+              "column_id": "res_500a",
+              "value": "18,6",
+              "state": "value"
+            },
+            {
+              "column_id": "res_1000a",
+              "value": "19,6",
+              "state": "value"
+            },
+            {
+              "column_id": "res_steep",
+              "value": "26,5",
+              "state": "value"
+            },
+            {
+              "column_id": "q_ls",
+              "value": "1,2",
+              "state": "value"
+            },
+            {
+              "column_id": "i_4_10",
+              "value": "100,0",
+              "state": "value"
+            },
+            {
+              "column_id": "u_class",
+              "value": "9,6",
+              "state": "value"
+            },
+            {
+              "column_id": "e_thermal",
+              "value": "4,0",
+              "state": "value"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "figures": [
+    {
+      "title": "Габаритный чертёж ОПН 6 кВ (заряд 1,1 Кл), исполнение III СЗ",
+      "description": "Вертикальный разрез/вид сбоку полимерного ОПН с одним ребром в средней части; размер M10 относится к резьбовому отверстию на верхнем и нижнем фланцах, Ø98 — к диаметру корпуса, 141±1 — к общей высоте, размер 10 указан у верхнего и нижнего фланцевых выступов; точная привязка размера 10 неоднозначна",
+      "labels": [
+        "M10",
+        "Ø98",
+        "141±1",
+        "10",
+        "10"
+      ]
+    },
+    {
+      "title": "Габаритный чертёж ОПН 6 кВ (заряд 1,1 Кл), исполнение IV СЗ",
+      "description": "Аналогичный вид с двумя рёбрами на корпусе; те же обозначения размеров M10 (фланцы), Ø98 (корпус), 141±1 (высота), 10 (фланцевые выступы)",
+      "labels": [
+        "M10",
+        "Ø98",
+        "141±1",
+        "10",
+        "10"
+      ]
+    },
+    {
+      "title": "Габаритный чертёж ОПН 6 кВ (заряд 1,2 Кл), исполнение III СЗ",
+      "description": "Тот же тип чертежа, размеры M10 (верхний и нижний фланцы), Ø98 (диаметр корпуса), 141±1 (высота), 10 (фланцевые выступы)",
+      "labels": [
+        "M10",
+        "Ø98",
+        "141±1",
+        "10",
+        "10"
+      ]
+    },
+    {
+      "title": "Габаритный чертёж ОПН 6 кВ (заряд 1,2 Кл), исполнение IV СЗ",
+      "description": "Вид с двумя рёбрами корпуса; размеры M10, Ø98, 141±1, 10",
+      "labels": [
+        "M10",
+        "Ø98",
+        "141±1",
+        "10",
+        "10"
+      ]
+    }
+  ],
+  "source_notes": [
+    "Изготавливаются по ТУ 27.12.10–041–21639232-2020",
+    "Соответствуют требованиям ГОСТ Р 52725-2021"
+  ],
+  "uncertainties": [
+    "Точная геометрическая привязка размера «10» на чертежах (к какому именно выступу/ребру) по изображению неоднозначна",
+    "В таблице 2 в написании наименований встречаются пробелы после дефисов (например «1,2- IV УХЛ1») — воспроизведены как напечатано",
+    "Значения объединённых ячеек (1,1/1,2; 100,0; 4,0) охватывают все строки соответствующей таблицы"
+  ]
+}
