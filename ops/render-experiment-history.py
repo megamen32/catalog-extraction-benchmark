@@ -165,8 +165,11 @@ def collect() -> list[dict]:
             stages[stage].append(round_entry(number, {
                 "0.3.0": evaluation(old["engineering_correct"], 520, old["drawing_correct"], 21),
                 "0.3.2": evaluation(values["engineering_correct"], 520, values["drawing_correct"], 21)},
-                values["valid_pages"], 17, snapshot.get("report", {}).get("wall_seconds"),
-                "round wall when retained in public report; unknown otherwise"))
+                values["valid_pages"], 17, snapshot["elapsed_seconds"],
+                "round wall at snapshot/closure; includes concurrent review and admission",
+                timing_details={key: snapshot.get(key) for key in [
+                    "active_budget_seconds", "quota_hold_seconds", "first_pass_worker_span_seconds",
+                    "first_pass_completed_native_seconds_sum"]}))
             stage_receipts[stage].append(receipt)
     for stage, rounds in stages.items():
         add("corrected-mixed-" + stage, "1.4.15 → 1.4.17 / " + {
