@@ -1,0 +1,5 @@
+# Catalogue conversion checkpoints
+
+The [catalog-to-json 1.4.1 OPN snapshot](2026-10-12-v1.4.1-opn.json) is an incomplete live conversion checkpoint. It records the actual program revision/source checksum, per-page models, candidate/review hashes, states and content. Accepted means the independent source reviewer passed that page; it is not a benchmark accuracy percentage. Drafts and pending review remain visible. Historical internal execution chains are omitted for publication; catalogue values are unchanged. The original snapshot checksum is recorded.
+
+All five catalogues (980 pages) also have [native-text preliminary JSON](https://github.com/megamen32/catalog-to-json/tree/main/examples/catalogs/2026-10-12-native-prototype). Those drafts do not constitute finished reviewed digitization. Catalogue examples are public with the owner’s explicit permission. Small JSON files are in Git; this checkpoint is under 10 MiB.
