@@ -1,0 +1,56 @@
+{
+  "stage": "first_pass_focused_canary",
+  "full15page_cohort": false,
+  "reviewer_run": false,
+  "gold_feedback": false,
+  "candidate_bytes_changed": false,
+  "case_id": "catalog-1-page-026",
+  "physical_page": 26,
+  "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+  "fixture_sha256": "f1defb41f76e7a075e441132a7d6c01200a1aff344064786b8e07cd64d7416b1",
+  "tested_program": {
+    "published_revision": "b2acebf7cf3208c530fc344ad97eecee72717dff",
+    "package_version": "1.4.3",
+    "wheel_sha256": "69de2f76cfe41a1086d70238bb964c1332df1bd13ab0322fded4d7a534906dcc",
+    "contract_sha256": "340974b3454a00e08a2be02c3163f0b266750fb2cf44fa18caa9dfb5af938bd7",
+    "plugin_provenance": [
+      {
+        "name": "catalog-parsers",
+        "version": "0.2.1",
+        "sha256": "7037438d73a283093f30196f6b9977767f944552878b688ce0f3d544847972e8"
+      }
+    ],
+    "program": {
+      "package_version": "1.4.3",
+      "git_revision": null,
+      "dirty": null,
+      "source_code_sha256": "f2ab16630a2945e40b276ffb9113d4d6fa63f128ed513dde60037ad58fa50290",
+      "python_version": "3.12.13"
+    }
+  },
+  "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+  "max_tokens": 16384,
+  "call_timeout_seconds": 900,
+  "native_elapsed_seconds": 99.455,
+  "output": {
+    "file": "catalog-1-page-026.json",
+    "sha256": "a89efac9091d15382b91bc5f484158a965831ab292cecac471aedcfd4c8831cf",
+    "bytes": 41060
+  },
+  "engineering_facts": {
+    "correct": 15,
+    "expected": 15,
+    "percent": 100.0,
+    "statuses": {
+      "passed": 15
+    }
+  },
+  "grader_version": "0.2.2",
+  "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c",
+  "whole_page_accuracy": false,
+  "continuation_prompts_in_this_canary": 0,
+  "continuation_path_verification": "independent unit adversarial scenarios only; the model saved in its first native generation in this live canary",
+  "frozen1.4.2_failure_replaced": false,
+  "provider_replays_of_prior_attempt": false,
+  "transcripts_public": false
+}
