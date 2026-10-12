@@ -28,7 +28,7 @@
     "extended": "Sameplugin/core/skills + img2table/gmft via originalExecutorJSON"
   },
   "timing_limitation": "Sequential fixed order; shared model download cache; cold/warm runtime not controlled. Sum includes timeouts. No controlled speed winner.",
-  "interpretation": "Additional img2table/gmft availability was not exercised; both arms used Docling only and never read parser body artifacts. Scores do not establish causality for those backends.",
+  "interpretation": "Additional img2table/gmft availability was not exercised; both arms used Docling only; baseline never read parser artifacts, extended read one artifact once on page33. Scores do not establish causality for those backends.",
   "arms": {
     "baseline": {
       "correct": 479,
@@ -76,7 +76,7 @@
       "actual_parser_conversion_counts": {
         "docling": 3
       },
-      "parser_body_read_calls": 0,
+      "parser_body_read_calls": 1,
       "catalogue_counts": {
         "4": [
           300,
@@ -143,6 +143,10 @@
         "catalog__view_region": 3,
         "catalog__save_page_json": 1,
         "catalog__read_external_audit": 1
+      },
+      "parser_tool_counts": {
+        "catalog-parsers__parser_capabilities": 1,
+        "catalog-parsers__inspect_pdf_page": 1
       },
       "parser_capability_calls": 1,
       "attempted_backends": [
@@ -539,6 +543,9 @@
         "catalog__read_external_audit": 1,
         "catalog__save_page_json": 1
       },
+      "parser_tool_counts": {
+        "catalog-parsers__parser_capabilities": 1
+      },
       "parser_capability_calls": 1,
       "attempted_backends": [],
       "actual_conversions": [],
@@ -589,6 +596,10 @@
         "catalog__read_external_audit": 1,
         "catalog__get_json_schema": 1,
         "catalog__save_page_json": 2
+      },
+      "parser_tool_counts": {
+        "catalog-parsers__parser_capabilities": 1,
+        "catalog-parsers__inspect_pdf_page": 1
       },
       "parser_capability_calls": 1,
       "attempted_backends": [
@@ -926,6 +937,9 @@
         "catalog__view_region": 8,
         "catalog__read_external_audit": 1,
         "catalog__save_page_json": 1
+      },
+      "parser_tool_counts": {
+        "catalog-parsers__parser_capabilities": 1
       },
       "parser_capability_calls": 1,
       "attempted_backends": [],
@@ -1874,6 +1888,10 @@
         "catalog__read_external_audit": 2,
         "catalog__save_page_json": 1
       },
+      "parser_tool_counts": {
+        "catalog-parsers__parser_capabilities": 1,
+        "catalog-parsers__inspect_pdf_page": 1
+      },
       "parser_capability_calls": 1,
       "attempted_backends": [
         "docling"
@@ -1934,6 +1952,9 @@
         "catalog__read_external_audit": 1,
         "catalog__save_page_json": 1
       },
+      "parser_tool_counts": {
+        "catalog-parsers__parser_capabilities": 1
+      },
       "parser_capability_calls": 1,
       "attempted_backends": [],
       "actual_conversions": [],
@@ -1984,6 +2005,10 @@
         "catalog__read_external_audit": 1,
         "catalog__read_source_layout": 4,
         "catalog__save_page_json": 1
+      },
+      "parser_tool_counts": {
+        "catalog-parsers__parser_capabilities": 1,
+        "catalog-parsers__inspect_pdf_page": 1
       },
       "parser_capability_calls": 1,
       "attempted_backends": [
@@ -2043,6 +2068,10 @@
         "catalog__get_json_schema": 1,
         "catalog__read_external_audit": 1,
         "catalog__save_page_json": 1
+      },
+      "parser_tool_counts": {
+        "catalog-parsers__parser_capabilities": 1,
+        "catalog-parsers__inspect_pdf_page": 1
       },
       "parser_capability_calls": 1,
       "attempted_backends": [
@@ -2106,6 +2135,10 @@
         "catalog__finalize_page": 2,
         "catalog__read_page_json": 1
       },
+      "parser_tool_counts": {
+        "catalog-parsers__parser_capabilities": 1,
+        "catalog-parsers__inspect_pdf_page": 1
+      },
       "parser_capability_calls": 1,
       "attempted_backends": [
         "docling"
@@ -2166,6 +2199,9 @@
         "catalog__get_json_schema": 1,
         "catalog__save_page_json": 1
       },
+      "parser_tool_counts": {
+        "catalog-parsers__parser_capabilities": 1
+      },
       "parser_capability_calls": 1,
       "attempted_backends": [],
       "actual_conversions": [],
@@ -2210,6 +2246,10 @@
         "catalog__read_external_audit": 1,
         "catalog__read_source_table": 1,
         "catalog__view_region": 62
+      },
+      "parser_tool_counts": {
+        "catalog-parsers__parser_capabilities": 1,
+        "catalog-parsers__inspect_pdf_page": 1
       },
       "parser_capability_calls": 1,
       "attempted_backends": [
@@ -2303,6 +2343,9 @@
         "catalog__read_external_audit": 1,
         "catalog__save_page_json": 2
       },
+      "parser_tool_counts": {
+        "catalog-parsers__parser_capabilities": 1
+      },
       "parser_capability_calls": 1,
       "attempted_backends": [],
       "actual_conversions": [],
@@ -2352,6 +2395,10 @@
         "catalog__get_json_schema": 1,
         "catalog__read_external_audit": 1,
         "catalog__save_page_json": 2
+      },
+      "parser_tool_counts": {
+        "catalog-parsers__parser_capabilities": 1,
+        "catalog-parsers__inspect_pdf_page": 1
       },
       "parser_capability_calls": 1,
       "attempted_backends": [
@@ -2489,6 +2536,9 @@
         "catalog__read_external_audit": 1,
         "catalog__save_page_json": 1
       },
+      "parser_tool_counts": {
+        "catalog-parsers__parser_capabilities": 1
+      },
       "parser_capability_calls": 1,
       "attempted_backends": [],
       "actual_conversions": [],
@@ -2540,6 +2590,10 @@
         "catalog__get_json_schema": 1,
         "catalog__save_section": 10,
         "catalog__finalize_page": 1
+      },
+      "parser_tool_counts": {
+        "catalog-parsers__parser_capabilities": 1,
+        "catalog-parsers__inspect_pdf_page": 1
       },
       "parser_capability_calls": 1,
       "attempted_backends": [
@@ -2601,6 +2655,9 @@
         "catalog__read_source_layout": 1,
         "catalog__save_page_json": 1
       },
+      "parser_tool_counts": {
+        "catalog-parsers__parser_capabilities": 1
+      },
       "parser_capability_calls": 1,
       "attempted_backends": [],
       "actual_conversions": [],
@@ -2651,6 +2708,9 @@
         "catalog__view_region": 4,
         "catalog__read_external_audit": 1,
         "catalog__save_page_json": 1
+      },
+      "parser_tool_counts": {
+        "catalog-parsers__parser_capabilities": 1
       },
       "parser_capability_calls": 1,
       "attempted_backends": [],
@@ -2703,6 +2763,9 @@
         "catalog__read_external_audit": 1,
         "catalog__save_page_json": 1
       },
+      "parser_tool_counts": {
+        "catalog-parsers__parser_capabilities": 1
+      },
       "parser_capability_calls": 1,
       "attempted_backends": [],
       "actual_conversions": [],
@@ -2753,6 +2816,9 @@
         "catalog__read_external_audit": 1,
         "catalog__get_json_schema": 1,
         "catalog__save_page_json": 1
+      },
+      "parser_tool_counts": {
+        "catalog-parsers__parser_capabilities": 1
       },
       "parser_capability_calls": 1,
       "attempted_backends": [],
@@ -2806,6 +2872,9 @@
         "catalog__save_section": 7,
         "catalog__finalize_page": 1
       },
+      "parser_tool_counts": {
+        "catalog-parsers__parser_capabilities": 1
+      },
       "parser_capability_calls": 1,
       "attempted_backends": [],
       "actual_conversions": [],
@@ -2856,6 +2925,10 @@
         "catalog__view_region": 3,
         "catalog__read_external_audit": 1,
         "catalog__save_page_json": 1
+      },
+      "parser_tool_counts": {
+        "catalog-parsers__parser_capabilities": 1,
+        "catalog-parsers__inspect_pdf_page": 1
       },
       "parser_capability_calls": 1,
       "attempted_backends": [
@@ -2917,6 +2990,11 @@
         "catalog__save_page_json": 1,
         "catalog__read_external_audit": 1
       },
+      "parser_tool_counts": {
+        "catalog-parsers__parser_capabilities": 1,
+        "catalog-parsers__inspect_pdf_page": 1,
+        "catalog-parsers__read_parser_artifact": 1
+      },
       "parser_capability_calls": 1,
       "attempted_backends": [
         "docling"
@@ -2975,6 +3053,10 @@
         "catalog__view_region": 4,
         "catalog__save_page_json": 2,
         "catalog__read_external_audit": 1
+      },
+      "parser_tool_counts": {
+        "catalog-parsers__parser_capabilities": 1,
+        "catalog-parsers__inspect_pdf_page": 1
       },
       "parser_capability_calls": 1,
       "attempted_backends": [
@@ -3036,6 +3118,10 @@
         "catalog__read_external_audit": 1,
         "catalog__save_page_json": 1
       },
+      "parser_tool_counts": {
+        "catalog-parsers__parser_capabilities": 1,
+        "catalog-parsers__inspect_pdf_page": 1
+      },
       "parser_capability_calls": 1,
       "attempted_backends": [
         "docling"
@@ -3095,6 +3181,9 @@
         "catalog__save_page_json": 1,
         "catalog__read_external_audit": 1
       },
+      "parser_tool_counts": {
+        "catalog-parsers__parser_capabilities": 1
+      },
       "parser_capability_calls": 1,
       "attempted_backends": [],
       "actual_conversions": [],
@@ -3146,6 +3235,9 @@
         "catalog__read_external_audit": 1,
         "catalog__save_page_json": 1
       },
+      "parser_tool_counts": {
+        "catalog-parsers__parser_capabilities": 1
+      },
       "parser_capability_calls": 1,
       "attempted_backends": [],
       "actual_conversions": [],
@@ -3196,6 +3288,10 @@
         "catalog__read_source_layout": 1,
         "catalog__save_page_json": 1,
         "catalog__read_external_audit": 1
+      },
+      "parser_tool_counts": {
+        "catalog-parsers__parser_capabilities": 1,
+        "catalog-parsers__inspect_pdf_page": 1
       },
       "parser_capability_calls": 1,
       "attempted_backends": [
@@ -3465,6 +3561,9 @@
         "catalog__save_page_json": 2,
         "catalog__read_external_audit": 1
       },
+      "parser_tool_counts": {
+        "catalog-parsers__parser_capabilities": 1
+      },
       "parser_capability_calls": 1,
       "attempted_backends": [],
       "actual_conversions": [],
@@ -3517,6 +3616,9 @@
         "catalog__save_section": 15,
         "catalog__finalize_page": 1
       },
+      "parser_tool_counts": {
+        "catalog-parsers__parser_capabilities": 1
+      },
       "parser_capability_calls": 1,
       "attempted_backends": [],
       "actual_conversions": [],
@@ -3567,6 +3669,9 @@
         "catalog__read_source_layout": 6,
         "catalog__save_page_json": 1,
         "catalog__read_external_audit": 1
+      },
+      "parser_tool_counts": {
+        "catalog-parsers__parser_capabilities": 1
       },
       "parser_capability_calls": 1,
       "attempted_backends": [],
