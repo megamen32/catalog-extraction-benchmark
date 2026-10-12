@@ -31,3 +31,5 @@ The demo is synthetic and needs no model credentials. The reviewed dataset ships
 Export annotations with `catalog-bench dataset --export annotations`, then follow the [adapter guide](docs/ADAPTERS.md) to run an executable parser or import saved JSONL results. The benchmark does not require either competing parser to be installed for grading.
 
 [Dataset and annotation coverage](docs/DATASET.md) · [Scoring rules](docs/SCORING.md) · [Source audit and errata](docs/ANNOTATIONS.md) · [Contributing](CONTRIBUTING.md)
+
+[Ready-made solutions and measured parser results](docs/READY-SOLUTIONS.md)
