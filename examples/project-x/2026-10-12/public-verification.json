@@ -1,0 +1,15 @@
+{
+  "participant": "Project X",
+  "tested_route": "deterministic PDF parsing only; no Vision calls",
+  "published_artifact_commit": "e37ad33",
+  "consumer_check": "Downloaded outputs from the public immutable GitHub commit; independently regraded using the installed released 0.3.0 package in an isolated interpreter.",
+  "public_output_hashes_verified": 102,
+  "public_attempts_regraded": 51,
+  "rounds": [
+    {"round": "j", "engineering_correct": 21, "engineering_expected": 520, "drawing_correct": 0, "drawing_expected": 21},
+    {"round": "k", "engineering_correct": 21, "engineering_expected": 520, "drawing_correct": 0, "drawing_expected": 21},
+    {"round": "l", "engineering_correct": 21, "engineering_expected": 520, "drawing_correct": 0, "drawing_expected": 21}
+  ],
+  "all_published_scores_reproduced": true,
+  "source_code_published": false
+}

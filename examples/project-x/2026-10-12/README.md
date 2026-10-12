@@ -17,3 +17,5 @@ Project X produces structured document blocks and canonical table grids. On page
 The normalization preserves native header labels/paths and native data-start metadata. It does not infer units, repair table values or substitute benchmark facts. All 51 native JSON outputs were captured inside their actual parsing calls, alongside 51 normalized outputs. Publication removes identifying metadata only; catalogue values remain unchanged. [Manifest and output hashes](manifest.json) and [per-case scores, timing and limitations](results.json) are available for independent regrading.
 
 The participant is identified publicly only as **Project X**. Its source code, actual repository identity, adapter implementation and private snapshot correspondence are not published. The opaque tested snapshot is `ProjectX-snapshot-20261012`.
+
+The [public consumer verification](public-verification.json) downloaded all 102 output files from the immutable public commit, checked their manifest hashes, and reproduced all 51 scores with the installed released grader in an isolated interpreter.
