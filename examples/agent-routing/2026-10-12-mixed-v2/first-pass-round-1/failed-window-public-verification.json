@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "consumer": "publicly downloaded standalone scripts, no provider calls",
+  "partial_component_version": "0.1.0",
+  "successful_receipt_component_version": "1.0.0",
+  "asset_sha256": {
+    "partial_usage_collector.py": "7afc0e8cea8f6d49567db080cd39c261abbfedb0c0ffe45e3a85d29d440a093a",
+    "usage_collector.py": "37b6e5f41fb9bd386b63349142bb85354e1eea0bb419d45a5d4e51af637cd36d"
+  },
+  "failed_calls": 2,
+  "failed_calls_with_observed_usage": 2,
+  "reported_response_records": 119,
+  "coverage_remains_partial": true,
+  "source_bound_success_receipts_not_invented": true,
+  "model_calls_performed": 0
+}
