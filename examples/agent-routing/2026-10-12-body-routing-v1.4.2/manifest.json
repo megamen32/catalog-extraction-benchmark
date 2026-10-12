@@ -1,0 +1,1576 @@
+{
+  "complete": true,
+  "stage": "first_pass",
+  "program_version": "1.4.2",
+  "program_revision": "3823111b737afb706f4a0a6ec08353d9561ceea3",
+  "installed_program": {
+    "package_version": "1.4.2",
+    "git_revision": null,
+    "dirty": null,
+    "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+    "python_version": "3.12.13"
+  },
+  "wheel_sha256": "326a19e5c0a6980d758ceb05231583ab74101ab78c22b399cd051442c96e09e1",
+  "contract_sha256": "aa97a446c59b5a207fd1ab84542de68a56c8d05e595fabde973e24da9ccc405d",
+  "agent_plugins": [
+    {
+      "name": "catalog-parsers",
+      "version": "0.2.1",
+      "sha256": "7037438d73a283093f30196f6b9977767f944552878b688ce0f3d544847972e8"
+    }
+  ],
+  "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+  "max_tokens": 16384,
+  "call_timeout_seconds": 900,
+  "adapter_timeout_seconds": 930,
+  "runtime_versions": {
+    "catalog-to-json": "1.4.2",
+    "fast-agent-mcp": "0.10.43",
+    "pymupdf": "1.28.2",
+    "pydantic": "2.13.5",
+    "anthropic": "1.11.0"
+  },
+  "reviewer_run": false,
+  "gold_feedback": false,
+  "dataset_version": "1.0.0",
+  "grader_version": "0.2.2",
+  "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c",
+  "correct": 483,
+  "expected": 500,
+  "weighted_percent": 96.6,
+  "catalogue_macro_percent": 92.44,
+  "catalogue_counts": {
+    "4": [
+      320,
+      320
+    ],
+    "1": [
+      28,
+      45
+    ],
+    "2": [
+      45,
+      45
+    ],
+    "3": [
+      45,
+      45
+    ],
+    "5": [
+      45,
+      45
+    ]
+  },
+  "completed_pages": 14,
+  "expected_pages": 15,
+  "elapsed_seconds_sum": 2624.501,
+  "actual_parser_conversion_counts": {
+    "img2table": 1,
+    "docling": 9,
+    "pymupdf4llm": 1,
+    "gmft": 1
+  },
+  "artifact_read_calls": 12,
+  "raw_read_calls": 0,
+  "comparison": "sequential single trial versus retained frozen1.4.1 arms; runtime/model cache and provider load not randomized",
+  "whole_page_accuracy": false,
+  "failed_attempts_in_denominator": true,
+  "missing_deliverable_1.4.3_canary_spliced": false,
+  "transcripts_public": false,
+  "cases": [
+    {
+      "case_id": "catalog-4-page-078",
+      "physical_page": 78,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "status": "completed",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "tested_program": {
+        "git_revision": "3823111b737afb706f4a0a6ec08353d9561ceea3",
+        "package_version": "1.4.2",
+        "declared_version": "1.4.2-source-3823111b737afb706f4a0a6ec08353d9561ceea3",
+        "contract_sha256": "aa97a446c59b5a207fd1ab84542de68a56c8d05e595fabde973e24da9ccc405d",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "output": {
+        "file": "catalog-4-page-078.json",
+        "sha256": "5cfd0b4a3e982791a53d107d56658b263515c8ff106640e042a6fdfec9fd5906",
+        "bytes": 28087
+      },
+      "elapsed_seconds": 70.385,
+      "native_error": null,
+      "correct": 140,
+      "expected": 140,
+      "retained1.4.1_extended_correct": 120,
+      "delta_correct": 20,
+      "fact_statuses": {
+        "passed": 140
+      },
+      "failed_checks": [],
+      "tool_usage": {
+        "case_id": "catalog-4-page-078",
+        "status": "completed",
+        "tool_counts": {
+          "catalog__load_skill": 1,
+          "read_text_file": 1,
+          "catalog-parsers__parser_capabilities": 1,
+          "catalog__extract_direct": 1,
+          "catalog__view_page": 1,
+          "catalog__get_json_schema": 1,
+          "catalog__read_source_table": 2,
+          "catalog__view_region": 4,
+          "catalog__read_external_audit": 2,
+          "catalog__save_page_json": 1
+        },
+        "parser_backends": [],
+        "artifact_reads": [],
+        "regions": {
+          "total": 4,
+          "unique": 4,
+          "exact_repeats": 0
+        }
+      },
+      "fixture_sha256": "86e767f7af5fdbc24d208112c9c1b6c2b1a3771e3348a130f179db4e7d4ac8b6"
+    },
+    {
+      "case_id": "catalog-1-page-017",
+      "physical_page": 17,
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "status": "completed",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "tested_program": {
+        "git_revision": "3823111b737afb706f4a0a6ec08353d9561ceea3",
+        "package_version": "1.4.2",
+        "declared_version": "1.4.2-source-3823111b737afb706f4a0a6ec08353d9561ceea3",
+        "contract_sha256": "aa97a446c59b5a207fd1ab84542de68a56c8d05e595fabde973e24da9ccc405d",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "output": {
+        "file": "catalog-1-page-017.json",
+        "sha256": "c56a38fce70d9333c6f662e5de77ce92aeaa7a319a3cd25cde90c04640056c3b",
+        "bytes": 46126
+      },
+      "elapsed_seconds": 136.085,
+      "native_error": null,
+      "correct": 15,
+      "expected": 15,
+      "retained1.4.1_extended_correct": 9,
+      "delta_correct": 6,
+      "fact_statuses": {
+        "passed": 15
+      },
+      "failed_checks": [],
+      "tool_usage": {
+        "case_id": "catalog-1-page-017",
+        "status": "completed",
+        "tool_counts": {
+          "catalog__load_skill": 1,
+          "read_text_file": 1,
+          "catalog-parsers__parser_capabilities": 1,
+          "catalog__extract_direct": 1,
+          "catalog__view_page": 1,
+          "catalog__get_json_schema": 1,
+          "catalog__read_source_table": 2,
+          "catalog-parsers__inspect_pdf_page": 1,
+          "catalog__view_region": 10,
+          "catalog-parsers__read_parser_artifact": 1,
+          "catalog__read_source_layout": 3,
+          "catalog__read_external_audit": 1,
+          "catalog__save_page_json": 2
+        },
+        "parser_backends": [
+          "img2table"
+        ],
+        "artifact_reads": [
+          {
+            "kind": "canonical",
+            "offset": 0,
+            "length_requested": 16000,
+            "success": true,
+            "returned_characters": 16000,
+            "total_characters": 42420,
+            "next_offset": 16000,
+            "reached_end": false,
+            "metadata_source": "successful tool-result display metadata"
+          }
+        ],
+        "regions": {
+          "total": 10,
+          "unique": 10,
+          "exact_repeats": 0
+        }
+      },
+      "fixture_sha256": "5147637fe66b27a76079c3ee59c948d4f30963f40ec03649d9ac0ee3c57ccec4"
+    },
+    {
+      "case_id": "catalog-1-page-022",
+      "physical_page": 22,
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "status": "completed",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "tested_program": {
+        "git_revision": "3823111b737afb706f4a0a6ec08353d9561ceea3",
+        "package_version": "1.4.2",
+        "declared_version": "1.4.2-source-3823111b737afb706f4a0a6ec08353d9561ceea3",
+        "contract_sha256": "aa97a446c59b5a207fd1ab84542de68a56c8d05e595fabde973e24da9ccc405d",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "output": {
+        "file": "catalog-1-page-022.json",
+        "sha256": "143c5f1830fcb87fe764cd12608efbdde2bf235f0cae216b82014fce8487c354",
+        "bytes": 40546
+      },
+      "elapsed_seconds": 133.609,
+      "native_error": null,
+      "correct": 13,
+      "expected": 15,
+      "retained1.4.1_extended_correct": 15,
+      "delta_correct": -2,
+      "fact_statuses": {
+        "passed": 13,
+        "wrong": 2
+      },
+      "failed_checks": [
+        {
+          "id": "selected-06",
+          "expected": {
+            "location": "top table",
+            "entity": "все 6 обозначений",
+            "parameter": "заряд пропускной способности",
+            "value": "0,8",
+            "unit": "Кл"
+          },
+          "status": "wrong",
+          "reason": "Value row0: expected'0,8', actualNone.; Cell row0 stateblank cannot stand for printed literal'0,8'.; Value row1: expected'0,8', actualNone.; Cell row1 stateblank cannot stand for printed literal'0,8'.",
+          "candidate_evidence": [
+            {
+              "table_index": 0,
+              "table_id": "t0",
+              "row_index": 0,
+              "column_index": 11,
+              "column": {
+                "id": "c11",
+                "label": "Заряд пропускной способности",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c11",
+                "value": null,
+                "state": "blank"
+              },
+              "row_identity_values": [
+                "ОПН-П-15/17,5/10/0,8-III УХЛ1"
+              ]
+            },
+            {
+              "table_index": 0,
+              "table_id": "t0",
+              "row_index": 1,
+              "column_index": 11,
+              "column": {
+                "id": "c11",
+                "label": "Заряд пропускной способности",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c11",
+                "value": null,
+                "state": "blank"
+              },
+              "row_identity_values": [
+                "ОПН-П-15/17,5/10/0,8-IV УХЛ1"
+              ]
+            },
+            {
+              "table_index": 0,
+              "table_id": "t0",
+              "row_index": 2,
+              "column_index": 11,
+              "column": {
+                "id": "c11",
+                "label": "Заряд пропускной способности",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c11",
+                "value": "0,8",
+                "state": "value"
+              },
+              "row_identity_values": [
+                "ОПН-П-15/18/10/0,8-III УХЛ1"
+              ]
+            },
+            {
+              "table_index": 0,
+              "table_id": "t0",
+              "row_index": 3,
+              "column_index": 11,
+              "column": {
+                "id": "c11",
+                "label": "Заряд пропускной способности",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c11",
+                "value": "0,8",
+                "state": "value"
+              },
+              "row_identity_values": [
+                "ОПН-П-15/18/10/0,8-IV УХЛ1"
+              ]
+            },
+            {
+              "table_index": 0,
+              "table_id": "t0",
+              "row_index": 4,
+              "column_index": 11,
+              "column": {
+                "id": "c11",
+                "label": "Заряд пропускной способности",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c11",
+                "value": "0,8",
+                "state": "value"
+              },
+              "row_identity_values": [
+                "ОПН-П-15/19/10/0,8-III УХЛ1"
+              ]
+            },
+            {
+              "table_index": 0,
+              "table_id": "t0",
+              "row_index": 5,
+              "column_index": 11,
+              "column": {
+                "id": "c11",
+                "label": "Заряд пропускной способности",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c11",
+                "value": "0,8",
+                "state": "value"
+              },
+              "row_identity_values": [
+                "ОПН-П-15/19/10/0,8-IV УХЛ1"
+              ]
+            }
+          ],
+          "literal_value_match": false,
+          "normalization": [
+            "literal"
+          ],
+          "schema_warnings": [],
+          "raw_semantic_recoverability": {
+            "value_and_identity": false,
+            "unit_in_header": false
+          }
+        },
+        {
+          "id": "selected-12",
+          "expected": {
+            "location": "lower table",
+            "entity": "все 6 обозначений",
+            "parameter": "заряд пропускной способности",
+            "value": "1,1",
+            "unit": "Кл"
+          },
+          "status": "wrong",
+          "reason": "Value row0: expected'1,1', actualNone.; Cell row0 stateblank cannot stand for printed literal'1,1'.; Value row1: expected'1,1', actualNone.; Cell row1 stateblank cannot stand for printed literal'1,1'.",
+          "candidate_evidence": [
+            {
+              "table_index": 1,
+              "table_id": "t1",
+              "row_index": 0,
+              "column_index": 11,
+              "column": {
+                "id": "c11",
+                "label": "Заряд пропускной способности",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c11",
+                "value": null,
+                "state": "blank"
+              },
+              "row_identity_values": [
+                "ОПН-П-15/17,5/10/1,1-III УХЛ1"
+              ]
+            },
+            {
+              "table_index": 1,
+              "table_id": "t1",
+              "row_index": 1,
+              "column_index": 11,
+              "column": {
+                "id": "c11",
+                "label": "Заряд пропускной способности",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c11",
+                "value": null,
+                "state": "blank"
+              },
+              "row_identity_values": [
+                "ОПН-П-15/17,5/10/1,1-IV УХЛ1"
+              ]
+            },
+            {
+              "table_index": 1,
+              "table_id": "t1",
+              "row_index": 2,
+              "column_index": 11,
+              "column": {
+                "id": "c11",
+                "label": "Заряд пропускной способности",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c11",
+                "value": "1,1",
+                "state": "value"
+              },
+              "row_identity_values": [
+                "ОПН-П-15/18/10/1,1-III УХЛ1"
+              ]
+            },
+            {
+              "table_index": 1,
+              "table_id": "t1",
+              "row_index": 3,
+              "column_index": 11,
+              "column": {
+                "id": "c11",
+                "label": "Заряд пропускной способности",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c11",
+                "value": "1,1",
+                "state": "value"
+              },
+              "row_identity_values": [
+                "ОПН-П-15/18/10/1,1-IV УХЛ1"
+              ]
+            },
+            {
+              "table_index": 1,
+              "table_id": "t1",
+              "row_index": 4,
+              "column_index": 11,
+              "column": {
+                "id": "c11",
+                "label": "Заряд пропускной способности",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c11",
+                "value": "1,1",
+                "state": "value"
+              },
+              "row_identity_values": [
+                "ОПН-П-15/19/10/1,1-III УХЛ1"
+              ]
+            },
+            {
+              "table_index": 1,
+              "table_id": "t1",
+              "row_index": 5,
+              "column_index": 11,
+              "column": {
+                "id": "c11",
+                "label": "Заряд пропускной способности",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c11",
+                "value": "1,1",
+                "state": "value"
+              },
+              "row_identity_values": [
+                "ОПН-П-15/19/10/1,1-IV УХЛ1"
+              ]
+            }
+          ],
+          "literal_value_match": false,
+          "normalization": [
+            "literal"
+          ],
+          "schema_warnings": [],
+          "raw_semantic_recoverability": {
+            "value_and_identity": false,
+            "unit_in_header": false
+          }
+        }
+      ],
+      "tool_usage": {
+        "case_id": "catalog-1-page-022",
+        "status": "completed",
+        "tool_counts": {
+          "catalog__load_skill": 1,
+          "read_text_file": 1,
+          "catalog-parsers__parser_capabilities": 1,
+          "catalog__extract_direct": 1,
+          "catalog__view_page": 1,
+          "catalog-parsers__inspect_pdf_page": 1,
+          "catalog-parsers__read_parser_artifact": 1,
+          "catalog__read_source_table": 1,
+          "catalog__view_region": 6,
+          "catalog__read_source_layout": 1,
+          "catalog__get_json_schema": 1,
+          "catalog__read_external_audit": 1,
+          "catalog__save_section": 3,
+          "catalog__save_page_json": 1
+        },
+        "parser_backends": [
+          "docling"
+        ],
+        "artifact_reads": [
+          {
+            "kind": "canonical",
+            "offset": 0,
+            "length_requested": 16000,
+            "success": true,
+            "returned_characters": 16000,
+            "total_characters": 35841,
+            "next_offset": 16000,
+            "reached_end": false,
+            "metadata_source": "successful tool-result display metadata"
+          }
+        ],
+        "regions": {
+          "total": 6,
+          "unique": 6,
+          "exact_repeats": 0
+        }
+      },
+      "fixture_sha256": "a1187e1a23848883bfb7d776a1289e3ccc09f9675493c1e5b4def85be8589654"
+    },
+    {
+      "case_id": "catalog-1-page-026",
+      "physical_page": 26,
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "status": "failed",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "tested_program": {
+        "git_revision": "3823111b737afb706f4a0a6ec08353d9561ceea3",
+        "package_version": null,
+        "declared_version": "1.4.2-source-3823111b737afb706f4a0a6ec08353d9561ceea3",
+        "contract_sha256": null,
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "output": null,
+      "elapsed_seconds": 43.13,
+      "native_error": "RuntimeError: extractor ended (LlmStopReason.END_TURN) without saving candidate-0.json through catalog tools",
+      "correct": 0,
+      "expected": 15,
+      "retained1.4.1_extended_correct": 15,
+      "delta_correct": -15,
+      "fact_statuses": {
+        "unavailable": 15
+      },
+      "failed_checks": [],
+      "tool_usage": {
+        "case_id": "catalog-1-page-026",
+        "status": "failed",
+        "tool_counts": {
+          "catalog__load_skill": 1,
+          "read_text_file": 1,
+          "catalog-parsers__parser_capabilities": 1,
+          "catalog__extract_direct": 1,
+          "catalog__view_page": 1,
+          "catalog__read_external_audit": 1,
+          "catalog__get_json_schema": 1,
+          "catalog__read_source_table": 2,
+          "catalog__view_region": 3
+        },
+        "parser_backends": [],
+        "artifact_reads": [],
+        "regions": {
+          "total": 3,
+          "unique": 3,
+          "exact_repeats": 0
+        }
+      },
+      "fixture_sha256": "f1defb41f76e7a075e441132a7d6c01200a1aff344064786b8e07cd64d7416b1"
+    },
+    {
+      "case_id": "catalog-2-page-060",
+      "physical_page": 60,
+      "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+      "status": "completed",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "tested_program": {
+        "git_revision": "3823111b737afb706f4a0a6ec08353d9561ceea3",
+        "package_version": "1.4.2",
+        "declared_version": "1.4.2-source-3823111b737afb706f4a0a6ec08353d9561ceea3",
+        "contract_sha256": "aa97a446c59b5a207fd1ab84542de68a56c8d05e595fabde973e24da9ccc405d",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "output": {
+        "file": "catalog-2-page-060.json",
+        "sha256": "43831d350b37ce0d760ef953b2d335892a398158fe60c908aca146649b212cdc",
+        "bytes": 61545
+      },
+      "elapsed_seconds": 95.159,
+      "native_error": null,
+      "correct": 15,
+      "expected": 15,
+      "retained1.4.1_extended_correct": 15,
+      "delta_correct": 0,
+      "fact_statuses": {
+        "passed": 15
+      },
+      "failed_checks": [],
+      "tool_usage": {
+        "case_id": "catalog-2-page-060",
+        "status": "completed",
+        "tool_counts": {
+          "catalog__load_skill": 1,
+          "read_text_file": 2,
+          "catalog-parsers__parser_capabilities": 1,
+          "catalog__extract_direct": 1,
+          "catalog__view_page": 1,
+          "catalog__read_source_table": 1,
+          "bash": 3,
+          "catalog__view_region": 4,
+          "catalog__read_source_layout": 8,
+          "catalog__get_json_schema": 1,
+          "catalog__read_external_audit": 1,
+          "catalog__save_page_json": 1
+        },
+        "parser_backends": [],
+        "artifact_reads": [],
+        "regions": {
+          "total": 4,
+          "unique": 4,
+          "exact_repeats": 0
+        }
+      },
+      "fixture_sha256": "93cf32c6d3a26326831fb0bb6152f3bf62ffd6897c1a1af554a91a97e0a64c3a"
+    },
+    {
+      "case_id": "catalog-2-page-149",
+      "physical_page": 149,
+      "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+      "status": "completed",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "tested_program": {
+        "git_revision": "3823111b737afb706f4a0a6ec08353d9561ceea3",
+        "package_version": "1.4.2",
+        "declared_version": "1.4.2-source-3823111b737afb706f4a0a6ec08353d9561ceea3",
+        "contract_sha256": "aa97a446c59b5a207fd1ab84542de68a56c8d05e595fabde973e24da9ccc405d",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "output": {
+        "file": "catalog-2-page-149.json",
+        "sha256": "ce5dcfb5ae97727ff2e710207705cf13a442ea578dcb0b3363efeb1dc1525581",
+        "bytes": 21603
+      },
+      "elapsed_seconds": 76.863,
+      "native_error": null,
+      "correct": 15,
+      "expected": 15,
+      "retained1.4.1_extended_correct": 13,
+      "delta_correct": 2,
+      "fact_statuses": {
+        "passed": 15
+      },
+      "failed_checks": [],
+      "tool_usage": {
+        "case_id": "catalog-2-page-149",
+        "status": "completed",
+        "tool_counts": {
+          "catalog__load_skill": 1,
+          "read_text_file": 1,
+          "catalog-parsers__parser_capabilities": 1,
+          "catalog__extract_direct": 1,
+          "catalog__view_page": 1,
+          "catalog__read_external_audit": 1,
+          "catalog__read_source_table": 1,
+          "catalog-parsers__inspect_pdf_page": 1,
+          "catalog__view_region": 5,
+          "catalog__get_json_schema": 1,
+          "catalog__save_page_json": 1
+        },
+        "parser_backends": [
+          "docling"
+        ],
+        "artifact_reads": [],
+        "regions": {
+          "total": 5,
+          "unique": 5,
+          "exact_repeats": 0
+        }
+      },
+      "fixture_sha256": "626e9f586350ffcc8b7eb947fa91e1b98c2434558ffe8454c4a35492d02848da"
+    },
+    {
+      "case_id": "catalog-2-page-185",
+      "physical_page": 185,
+      "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+      "status": "completed",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "tested_program": {
+        "git_revision": "3823111b737afb706f4a0a6ec08353d9561ceea3",
+        "package_version": "1.4.2",
+        "declared_version": "1.4.2-source-3823111b737afb706f4a0a6ec08353d9561ceea3",
+        "contract_sha256": "aa97a446c59b5a207fd1ab84542de68a56c8d05e595fabde973e24da9ccc405d",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "output": {
+        "file": "catalog-2-page-185.json",
+        "sha256": "e7fbab2abab0e9a840a4a3b3ed3440abf9b3f9e7dbe9e9af8e40b1f8cef1b20a",
+        "bytes": 53867
+      },
+      "elapsed_seconds": 177.106,
+      "native_error": null,
+      "correct": 15,
+      "expected": 15,
+      "retained1.4.1_extended_correct": 11,
+      "delta_correct": 4,
+      "fact_statuses": {
+        "passed": 15
+      },
+      "failed_checks": [],
+      "tool_usage": {
+        "case_id": "catalog-2-page-185",
+        "status": "completed",
+        "tool_counts": {
+          "catalog__load_skill": 1,
+          "read_text_file": 1,
+          "catalog-parsers__parser_capabilities": 1,
+          "catalog__extract_direct": 1,
+          "catalog__view_page": 1,
+          "catalog__read_source_table": 2,
+          "bash": 2,
+          "catalog__view_region": 2,
+          "catalog-parsers__inspect_pdf_page": 1,
+          "catalog__get_json_schema": 1,
+          "catalog-parsers__read_parser_artifact": 1,
+          "catalog__read_external_audit": 1,
+          "catalog__save_page_json": 1
+        },
+        "parser_backends": [
+          "docling"
+        ],
+        "artifact_reads": [
+          {
+            "kind": "canonical",
+            "offset": 0,
+            "length_requested": 9000,
+            "success": true,
+            "returned_characters": 9000,
+            "total_characters": 37322,
+            "next_offset": 9000,
+            "reached_end": false,
+            "metadata_source": "successful tool-result display metadata"
+          }
+        ],
+        "regions": {
+          "total": 2,
+          "unique": 2,
+          "exact_repeats": 0
+        }
+      },
+      "fixture_sha256": "4b12ce1f6ace967f9b3339ee129ff14b8928454f53cd069001800a7317d28d4a"
+    },
+    {
+      "case_id": "catalog-3-page-103",
+      "physical_page": 103,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "status": "completed",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "tested_program": {
+        "git_revision": "3823111b737afb706f4a0a6ec08353d9561ceea3",
+        "package_version": "1.4.2",
+        "declared_version": "1.4.2-source-3823111b737afb706f4a0a6ec08353d9561ceea3",
+        "contract_sha256": "aa97a446c59b5a207fd1ab84542de68a56c8d05e595fabde973e24da9ccc405d",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "output": {
+        "file": "catalog-3-page-103.json",
+        "sha256": "37d9166785c352f274525d4e8997adc357833fb31ec553de5142a384e7172f45",
+        "bytes": 136083
+      },
+      "elapsed_seconds": 449.973,
+      "native_error": null,
+      "correct": 15,
+      "expected": 15,
+      "retained1.4.1_extended_correct": 15,
+      "delta_correct": 0,
+      "fact_statuses": {
+        "passed": 15
+      },
+      "failed_checks": [],
+      "tool_usage": {
+        "case_id": "catalog-3-page-103",
+        "status": "completed",
+        "tool_counts": {
+          "catalog__load_skill": 1,
+          "read_text_file": 1,
+          "catalog-parsers__parser_capabilities": 1,
+          "catalog__extract_direct": 1,
+          "catalog__view_page": 1,
+          "catalog-parsers__inspect_pdf_page": 1,
+          "catalog-parsers__read_parser_artifact": 1,
+          "catalog__read_source_table": 1,
+          "bash": 11,
+          "catalog__view_region": 16,
+          "catalog__read_source_layout": 8,
+          "catalog__read_external_audit": 1,
+          "catalog__get_json_schema": 1,
+          "catalog__save_page_json": 2
+        },
+        "parser_backends": [
+          "docling"
+        ],
+        "artifact_reads": [
+          {
+            "kind": "canonical",
+            "offset": 0,
+            "length_requested": 16000,
+            "success": true,
+            "returned_characters": 16000,
+            "total_characters": 70829,
+            "next_offset": 16000,
+            "reached_end": false,
+            "metadata_source": "successful tool-result display metadata"
+          }
+        ],
+        "regions": {
+          "total": 16,
+          "unique": 16,
+          "exact_repeats": 0
+        }
+      },
+      "fixture_sha256": "9b905e94740f8ee8fc715e93b4b5d57d1177d58d0450becf8107380347a260d9"
+    },
+    {
+      "case_id": "catalog-3-page-108",
+      "physical_page": 108,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "status": "completed",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "tested_program": {
+        "git_revision": "3823111b737afb706f4a0a6ec08353d9561ceea3",
+        "package_version": "1.4.2",
+        "declared_version": "1.4.2-source-3823111b737afb706f4a0a6ec08353d9561ceea3",
+        "contract_sha256": "aa97a446c59b5a207fd1ab84542de68a56c8d05e595fabde973e24da9ccc405d",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "output": {
+        "file": "catalog-3-page-108.json",
+        "sha256": "b01b6cd10ac97f9a6bfdf9715839a930927c2e6b161ace430cc4a77c901bd88c",
+        "bytes": 44677
+      },
+      "elapsed_seconds": 655.472,
+      "native_error": null,
+      "correct": 15,
+      "expected": 15,
+      "retained1.4.1_extended_correct": 15,
+      "delta_correct": 0,
+      "fact_statuses": {
+        "passed": 15
+      },
+      "failed_checks": [],
+      "tool_usage": {
+        "case_id": "catalog-3-page-108",
+        "status": "completed",
+        "tool_counts": {
+          "catalog__load_skill": 1,
+          "read_text_file": 1,
+          "catalog-parsers__parser_capabilities": 1,
+          "catalog__extract_direct": 1,
+          "catalog__view_page": 1,
+          "catalog__read_external_audit": 1,
+          "catalog__read_source_table": 1,
+          "catalog-parsers__inspect_pdf_page": 1,
+          "catalog-parsers__read_parser_artifact": 1,
+          "catalog__view_region": 54,
+          "catalog__get_json_schema": 1,
+          "catalog__read_source_layout": 4,
+          "catalog__save_page_json": 2,
+          "bash": 1
+        },
+        "parser_backends": [
+          "docling"
+        ],
+        "artifact_reads": [
+          {
+            "kind": "canonical",
+            "offset": 0,
+            "length_requested": 16000,
+            "success": true,
+            "returned_characters": 16000,
+            "total_characters": 22572,
+            "next_offset": 16000,
+            "reached_end": false,
+            "metadata_source": "successful tool-result display metadata"
+          }
+        ],
+        "regions": {
+          "total": 54,
+          "unique": 43,
+          "exact_repeats": 11
+        }
+      },
+      "fixture_sha256": "82e19efe34b7ca874e3e463e551ebb0eaef8006b5a7f725eca883c4ac1f35597"
+    },
+    {
+      "case_id": "catalog-3-page-111",
+      "physical_page": 111,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "status": "completed",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "tested_program": {
+        "git_revision": "3823111b737afb706f4a0a6ec08353d9561ceea3",
+        "package_version": "1.4.2",
+        "declared_version": "1.4.2-source-3823111b737afb706f4a0a6ec08353d9561ceea3",
+        "contract_sha256": "aa97a446c59b5a207fd1ab84542de68a56c8d05e595fabde973e24da9ccc405d",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "output": {
+        "file": "catalog-3-page-111.json",
+        "sha256": "f94da6572fa651f7471dc8182b7d1387d81e2d22c7e2fc28a78345a1efeff105",
+        "bytes": 72655
+      },
+      "elapsed_seconds": 193.553,
+      "native_error": null,
+      "correct": 15,
+      "expected": 15,
+      "retained1.4.1_extended_correct": 15,
+      "delta_correct": 0,
+      "fact_statuses": {
+        "passed": 15
+      },
+      "failed_checks": [],
+      "tool_usage": {
+        "case_id": "catalog-3-page-111",
+        "status": "completed",
+        "tool_counts": {
+          "catalog__load_skill": 1,
+          "catalog-parsers__parser_capabilities": 1,
+          "catalog__extract_direct": 1,
+          "catalog__view_page": 1,
+          "catalog-parsers__inspect_pdf_page": 2,
+          "catalog-parsers__read_parser_artifact": 1,
+          "catalog__read_source_table": 1,
+          "bash": 7,
+          "catalog__view_region": 3,
+          "catalog__read_source_layout": 8,
+          "catalog__read_external_audit": 1,
+          "catalog__get_json_schema": 1,
+          "catalog__save_page_json": 1
+        },
+        "parser_backends": [
+          "pymupdf4llm",
+          "docling"
+        ],
+        "artifact_reads": [
+          {
+            "kind": "canonical",
+            "offset": 0,
+            "length_requested": 16000,
+            "success": true,
+            "returned_characters": 16000,
+            "total_characters": 86347,
+            "next_offset": 16000,
+            "reached_end": false,
+            "metadata_source": "successful tool-result display metadata"
+          }
+        ],
+        "regions": {
+          "total": 3,
+          "unique": 3,
+          "exact_repeats": 0
+        }
+      },
+      "fixture_sha256": "928708a691d82dd302c54ad59a195c20a5864659f0d788aa4a50a4f5359640ea"
+    },
+    {
+      "case_id": "catalog-4-page-033",
+      "physical_page": 33,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "status": "completed",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "tested_program": {
+        "git_revision": "3823111b737afb706f4a0a6ec08353d9561ceea3",
+        "package_version": "1.4.2",
+        "declared_version": "1.4.2-source-3823111b737afb706f4a0a6ec08353d9561ceea3",
+        "contract_sha256": "aa97a446c59b5a207fd1ab84542de68a56c8d05e595fabde973e24da9ccc405d",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "output": {
+        "file": "catalog-4-page-033.json",
+        "sha256": "dcbb17cd2a5b5760c56b98826776acf48b27ee5bd24d41572bec8f45ef2fc2a4",
+        "bytes": 23226
+      },
+      "elapsed_seconds": 104.56,
+      "native_error": null,
+      "correct": 108,
+      "expected": 108,
+      "retained1.4.1_extended_correct": 108,
+      "delta_correct": 0,
+      "fact_statuses": {
+        "passed": 108
+      },
+      "failed_checks": [],
+      "tool_usage": {
+        "case_id": "catalog-4-page-033",
+        "status": "completed",
+        "tool_counts": {
+          "catalog__load_skill": 1,
+          "read_text_file": 1,
+          "catalog-parsers__parser_capabilities": 1,
+          "catalog__extract_direct": 1,
+          "catalog__view_page": 1,
+          "catalog-parsers__inspect_pdf_page": 1,
+          "catalog-parsers__read_parser_artifact": 1,
+          "catalog__read_source_table": 1,
+          "catalog__view_region": 3,
+          "catalog__read_external_audit": 1,
+          "catalog__get_json_schema": 1,
+          "catalog__save_page_json": 1
+        },
+        "parser_backends": [
+          "docling"
+        ],
+        "artifact_reads": [
+          {
+            "kind": "canonical",
+            "offset": 0,
+            "length_requested": 16000,
+            "success": true,
+            "returned_characters": 16000,
+            "total_characters": 26680,
+            "next_offset": 16000,
+            "reached_end": false,
+            "metadata_source": "successful tool-result display metadata"
+          }
+        ],
+        "regions": {
+          "total": 3,
+          "unique": 3,
+          "exact_repeats": 0
+        }
+      },
+      "fixture_sha256": "ea8408c3e91fc2b5f66964af2f0912bddaae85595fdac3947186708ba5aaf7bb"
+    },
+    {
+      "case_id": "catalog-4-page-038",
+      "physical_page": 38,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "status": "completed",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "tested_program": {
+        "git_revision": "3823111b737afb706f4a0a6ec08353d9561ceea3",
+        "package_version": "1.4.2",
+        "declared_version": "1.4.2-source-3823111b737afb706f4a0a6ec08353d9561ceea3",
+        "contract_sha256": "aa97a446c59b5a207fd1ab84542de68a56c8d05e595fabde973e24da9ccc405d",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "output": {
+        "file": "catalog-4-page-038.json",
+        "sha256": "148c6bdf0c872acdb180beb8d72d21d9994f5aa32f091d0416272ed3ec0b98de",
+        "bytes": 19161
+      },
+      "elapsed_seconds": 176.555,
+      "native_error": null,
+      "correct": 72,
+      "expected": 72,
+      "retained1.4.1_extended_correct": 72,
+      "delta_correct": 0,
+      "fact_statuses": {
+        "passed": 72
+      },
+      "failed_checks": [],
+      "tool_usage": {
+        "case_id": "catalog-4-page-038",
+        "status": "completed",
+        "tool_counts": {
+          "catalog__load_skill": 1,
+          "catalog-parsers__parser_capabilities": 1,
+          "catalog__extract_direct": 1,
+          "catalog__view_page": 1,
+          "catalog-parsers__inspect_pdf_page": 1,
+          "catalog__get_json_schema": 1,
+          "catalog-parsers__read_parser_artifact": 1,
+          "catalog__read_source_table": 1,
+          "catalog__view_region": 9,
+          "catalog__read_source_layout": 1,
+          "bash": 3,
+          "catalog__save_page_json": 2,
+          "catalog__read_external_audit": 1
+        },
+        "parser_backends": [
+          "gmft"
+        ],
+        "artifact_reads": [
+          {
+            "kind": "canonical",
+            "offset": 0,
+            "length_requested": 16000,
+            "success": true,
+            "returned_characters": 12912,
+            "total_characters": 12912,
+            "next_offset": 12912,
+            "reached_end": true,
+            "metadata_source": "successful tool-result display metadata"
+          }
+        ],
+        "regions": {
+          "total": 9,
+          "unique": 9,
+          "exact_repeats": 0
+        }
+      },
+      "fixture_sha256": "51edf1540e5eaa22f66844b6259ebe661885f7d583f0596b567b9ed7a9713589"
+    },
+    {
+      "case_id": "catalog-5-page-030",
+      "physical_page": 30,
+      "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+      "status": "completed",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "tested_program": {
+        "git_revision": "3823111b737afb706f4a0a6ec08353d9561ceea3",
+        "package_version": "1.4.2",
+        "declared_version": "1.4.2-source-3823111b737afb706f4a0a6ec08353d9561ceea3",
+        "contract_sha256": "aa97a446c59b5a207fd1ab84542de68a56c8d05e595fabde973e24da9ccc405d",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "output": {
+        "file": "catalog-5-page-030.json",
+        "sha256": "a039f104eddc76545edebc0eaed896b8783b3779bcda6d923f2d8ea9913c95d0",
+        "bytes": 34144
+      },
+      "elapsed_seconds": 96.227,
+      "native_error": null,
+      "correct": 15,
+      "expected": 15,
+      "retained1.4.1_extended_correct": 15,
+      "delta_correct": 0,
+      "fact_statuses": {
+        "passed": 15
+      },
+      "failed_checks": [],
+      "tool_usage": {
+        "case_id": "catalog-5-page-030",
+        "status": "completed",
+        "tool_counts": {
+          "catalog__load_skill": 1,
+          "read_text_file": 1,
+          "catalog-parsers__parser_capabilities": 1,
+          "catalog__extract_direct": 1,
+          "catalog__view_page": 1,
+          "catalog-parsers__inspect_pdf_page": 1,
+          "catalog-parsers__read_parser_artifact": 2,
+          "bash": 2,
+          "catalog__read_source_table": 2,
+          "catalog__view_region": 2,
+          "catalog__read_source_layout": 1,
+          "catalog__read_external_audit": 1,
+          "catalog__get_json_schema": 1,
+          "catalog__save_page_json": 1
+        },
+        "parser_backends": [
+          "docling"
+        ],
+        "artifact_reads": [
+          {
+            "kind": "canonical",
+            "offset": 0,
+            "length_requested": 12000,
+            "success": true,
+            "returned_characters": 12000,
+            "total_characters": 30529,
+            "next_offset": 12000,
+            "reached_end": false,
+            "metadata_source": "successful tool-result display metadata"
+          },
+          {
+            "kind": "canonical",
+            "offset": 12000,
+            "length_requested": 19000,
+            "success": true,
+            "returned_characters": 18529,
+            "total_characters": 30529,
+            "next_offset": 30529,
+            "reached_end": true,
+            "metadata_source": "successful tool-result display metadata"
+          }
+        ],
+        "regions": {
+          "total": 2,
+          "unique": 2,
+          "exact_repeats": 0
+        }
+      },
+      "fixture_sha256": "504a0a03fecef9240051ae24d714941ff0c8632667b60a3a83ce4e6bc2e15eed"
+    },
+    {
+      "case_id": "catalog-5-page-035",
+      "physical_page": 35,
+      "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+      "status": "completed",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "tested_program": {
+        "git_revision": "3823111b737afb706f4a0a6ec08353d9561ceea3",
+        "package_version": "1.4.2",
+        "declared_version": "1.4.2-source-3823111b737afb706f4a0a6ec08353d9561ceea3",
+        "contract_sha256": "aa97a446c59b5a207fd1ab84542de68a56c8d05e595fabde973e24da9ccc405d",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "output": {
+        "file": "catalog-5-page-035.json",
+        "sha256": "306e6cb00a443bef6083d297d0e198200262a21636b63ee9a15fa75bd44764fe",
+        "bytes": 24698
+      },
+      "elapsed_seconds": 46.966,
+      "native_error": null,
+      "correct": 15,
+      "expected": 15,
+      "retained1.4.1_extended_correct": 14,
+      "delta_correct": 1,
+      "fact_statuses": {
+        "passed": 15
+      },
+      "failed_checks": [],
+      "tool_usage": {
+        "case_id": "catalog-5-page-035",
+        "status": "completed",
+        "tool_counts": {
+          "catalog__load_skill": 1,
+          "read_text_file": 1,
+          "catalog-parsers__parser_capabilities": 1,
+          "catalog__extract_direct": 1,
+          "catalog__view_page": 1,
+          "catalog__read_source_table": 1,
+          "catalog__get_json_schema": 1,
+          "catalog__view_region": 3,
+          "catalog__read_source_layout": 1,
+          "catalog__read_external_audit": 1,
+          "catalog__save_page_json": 1
+        },
+        "parser_backends": [],
+        "artifact_reads": [],
+        "regions": {
+          "total": 3,
+          "unique": 3,
+          "exact_repeats": 0
+        }
+      },
+      "fixture_sha256": "d260784f7d7f58b7ca010d0299c35804f34ec21e47702c70dbdad09bd6b9ae61"
+    },
+    {
+      "case_id": "catalog-5-page-126",
+      "physical_page": 126,
+      "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+      "status": "completed",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "tested_program": {
+        "git_revision": "3823111b737afb706f4a0a6ec08353d9561ceea3",
+        "package_version": "1.4.2",
+        "declared_version": "1.4.2-source-3823111b737afb706f4a0a6ec08353d9561ceea3",
+        "contract_sha256": "aa97a446c59b5a207fd1ab84542de68a56c8d05e595fabde973e24da9ccc405d",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "output": {
+        "file": "catalog-5-page-126.json",
+        "sha256": "92edb48c972d7971dc4f050ca588f898c3ad5375f19c835aee2b1a57833913bd",
+        "bytes": 44698
+      },
+      "elapsed_seconds": 168.858,
+      "native_error": null,
+      "correct": 15,
+      "expected": 15,
+      "retained1.4.1_extended_correct": 15,
+      "delta_correct": 0,
+      "fact_statuses": {
+        "passed": 15
+      },
+      "failed_checks": [],
+      "tool_usage": {
+        "case_id": "catalog-5-page-126",
+        "status": "completed",
+        "tool_counts": {
+          "catalog__load_skill": 1,
+          "catalog-parsers__parser_capabilities": 1,
+          "read_text_file": 1,
+          "catalog__extract_direct": 1,
+          "catalog__view_page": 1,
+          "catalog-parsers__inspect_pdf_page": 1,
+          "catalog-parsers__read_parser_artifact": 2,
+          "catalog__read_source_table": 1,
+          "catalog__view_region": 6,
+          "bash": 4,
+          "catalog__read_source_layout": 1,
+          "catalog__get_json_schema": 1,
+          "catalog__save_page_json": 1,
+          "catalog__read_external_audit": 1
+        },
+        "parser_backends": [
+          "docling"
+        ],
+        "artifact_reads": [
+          {
+            "kind": "canonical",
+            "offset": 0,
+            "length_requested": 16000,
+            "success": true,
+            "returned_characters": 16000,
+            "total_characters": 41890,
+            "next_offset": 16000,
+            "reached_end": false,
+            "metadata_source": "successful tool-result display metadata"
+          },
+          {
+            "kind": "canonical",
+            "offset": 16000,
+            "length_requested": 16000,
+            "success": true,
+            "returned_characters": 16000,
+            "total_characters": 41890,
+            "next_offset": 32000,
+            "reached_end": false,
+            "metadata_source": "successful tool-result display metadata"
+          }
+        ],
+        "regions": {
+          "total": 6,
+          "unique": 6,
+          "exact_repeats": 0
+        }
+      },
+      "fixture_sha256": "a2123b1f211f87319036dd97bcc5ad09efa5e7c120ca936cc8ff2da771703a4c"
+    }
+  ],
+  "native_parser_status_counts": {
+    "img2table:completed": 1,
+    "docling:completed": 8,
+    "docling:failed": 1,
+    "pymupdf4llm:completed": 1,
+    "gmft:completed": 1
+  },
+  "native_parser_runs": [
+    {
+      "case_id": "catalog-1-page-017",
+      "backend": "img2table",
+      "package_version": "2.0.0",
+      "status": "completed",
+      "elapsed_seconds": 2.372,
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "physical_page": 17,
+      "receipt_sha256": "580263cee2b586821899978b155358a4da7f3b52b4569503ccfba8d26169ce52",
+      "error_classification": null
+    },
+    {
+      "case_id": "catalog-1-page-022",
+      "backend": "docling",
+      "package_version": "2.137.0",
+      "status": "completed",
+      "elapsed_seconds": 38.068,
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "physical_page": 22,
+      "receipt_sha256": "67d123b6fa757188a92ed4f8de4541bc763d9dee62d6e71d032e7bacbfdc6ac5",
+      "error_classification": null
+    },
+    {
+      "case_id": "catalog-2-page-149",
+      "backend": "docling",
+      "package_version": "2.137.0",
+      "status": "completed",
+      "elapsed_seconds": 19.183,
+      "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+      "physical_page": 149,
+      "receipt_sha256": "a9bc6dbd3e2093cce7bae553162e106b3918f06bed5dd8d08e55429f7f3e41b2",
+      "error_classification": null
+    },
+    {
+      "case_id": "catalog-2-page-185",
+      "backend": "docling",
+      "package_version": "2.137.0",
+      "status": "completed",
+      "elapsed_seconds": 33.442,
+      "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+      "physical_page": 185,
+      "receipt_sha256": "ffdaf5c7a8b489a47910f4097c0429015a7675ae274ad19ae94c6bcae4f853a1",
+      "error_classification": null
+    },
+    {
+      "case_id": "catalog-3-page-103",
+      "backend": "docling",
+      "package_version": "2.137.0",
+      "status": "completed",
+      "elapsed_seconds": 47.211,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 103,
+      "receipt_sha256": "a7da1b12c2e61135e671ce05b2f30d5725eaaf16798afc5f15cb5ac495ce33b6",
+      "error_classification": null
+    },
+    {
+      "case_id": "catalog-3-page-108",
+      "backend": "docling",
+      "package_version": "2.137.0",
+      "status": "completed",
+      "elapsed_seconds": 26.722,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 108,
+      "receipt_sha256": "afb5d20941020fe6be2b13312e61393c6ac15ce8a507cb668381ee9e2d71847b",
+      "error_classification": null
+    },
+    {
+      "case_id": "catalog-3-page-111",
+      "backend": "docling",
+      "package_version": "2.137.0",
+      "status": "failed",
+      "elapsed_seconds": 0.397,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 111,
+      "receipt_sha256": "ba6d328bc4ce8dadfc713070a5e54570015b117263ff5c2a6797538ed3f69b10",
+      "error_classification": "native shared-object mapping failed under finite virtual-memory cap; not a measured resident-memory OOM"
+    },
+    {
+      "case_id": "catalog-3-page-111",
+      "backend": "pymupdf4llm",
+      "package_version": "1.28.2",
+      "status": "completed",
+      "elapsed_seconds": 31.103,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 111,
+      "receipt_sha256": "868992a086e53285f77da2f933535d3aad1500ad364490b1870c0a5a47d670db",
+      "error_classification": null
+    },
+    {
+      "case_id": "catalog-4-page-033",
+      "backend": "docling",
+      "package_version": "2.137.0",
+      "status": "completed",
+      "elapsed_seconds": 22.13,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 33,
+      "receipt_sha256": "02a0613627ff269bca3df460b8c9a0f166ed5e552148e2f42deb9978aa1e01c8",
+      "error_classification": null
+    },
+    {
+      "case_id": "catalog-4-page-038",
+      "backend": "gmft",
+      "package_version": "0.4.4",
+      "status": "completed",
+      "elapsed_seconds": 18.616,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 38,
+      "receipt_sha256": "d36a58bd4cd096848e6a9ac47ef5458ad9f6fa6b84743e3e32584bcfe31beeae",
+      "error_classification": null
+    },
+    {
+      "case_id": "catalog-5-page-030",
+      "backend": "docling",
+      "package_version": "2.137.0",
+      "status": "completed",
+      "elapsed_seconds": 27.477,
+      "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+      "physical_page": 30,
+      "receipt_sha256": "d8e8c071ccdfa4a5434bb808143a1e534f1151f0ba70e19ed4427c405318476e",
+      "error_classification": null
+    },
+    {
+      "case_id": "catalog-5-page-126",
+      "backend": "docling",
+      "package_version": "2.137.0",
+      "status": "completed",
+      "elapsed_seconds": 24.885,
+      "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+      "physical_page": 126,
+      "receipt_sha256": "fc2049229f31004747e559710999064feb28c243019585a8abaa0219840d360d",
+      "error_classification": null
+    }
+  ],
+  "interpretation": "Best weighted selected-fact score in this single sequential experiment; one failed output remains included. Family-macro does not win. Two canonical files covered by API ranges, only gmft38 fully delivered without SDK truncation; others partial or shortened. No raw reads. No statistically established universal winner.",
+  "native_plugin_runtime_versions_verified_post_run": {
+    "frozen1.4.1": {
+      "python": "3.14.3",
+      "packages": {
+        "catalog-parser-tools": "0.2.0",
+        "docling": "2.137.0",
+        "pandas": "3.0.6",
+        "mcp": "1.30.0",
+        "torch": "2.14.1+cpu",
+        "pymupdf4llm": "1.28.2"
+      }
+    },
+    "body-routing1.4.2": {
+      "python": "3.14.3",
+      "packages": {
+        "catalog-parser-tools": "0.2.1",
+        "docling": "2.137.0",
+        "pandas": "3.0.6",
+        "mcp": "1.30.0",
+        "torch": "2.14.1+cpu",
+        "pymupdf4llm": "1.28.2"
+      }
+    }
+  },
+  "native_runtime_verification_scope": "Read package metadata from retained environments; no provider/parser execution. Exact package/lock fingerprints in immutable artifacts; no inference weights loaded.",
+  "canonical_files_api_ranges_cover_eof": 2,
+  "canonical_files_delivered_complete_without_sdk_truncation": 1,
+  "canonical_responses_sdk_truncated": 9,
+  "artifact_read_scope": "Successful API read ranges are not proof of complete delivery to the model; native FastAgent byte truncation omitted middle text in9 replies. gmft38 fully delivered; Docling30 API ranges covered EOF but SDK truncated and retained canonical grep was also shortened."
+}

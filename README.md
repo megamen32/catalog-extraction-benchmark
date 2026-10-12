@@ -37,3 +37,5 @@ Export annotations with `catalog-bench dataset --export annotations`, then follo
 [Как выбирать инструменты и проверить пользу для агента](docs/TOOL-ROUTING.md)
 
 [Реальные 30 запусков FastAgent: инструменты, точность, время и выходные JSON](examples/agent-routing/2026-10-12-v1.4.1/README.md). [Переоценка 21 конфигурации парсеров оценщиком 0.2.2](examples/parser-outputs/2026-10-12/regrade-v0.2.2.json).
+
+[Новая инструкция выбора/чтения:483/500 в полном15-страничном прогоне1.4.2](examples/agent-routing/2026-10-12-body-routing-v1.4.2/README.md). [Отдельный реальный15/15 canary1.4.3 на26](examples/agent-routing/2026-10-12-delivery-v1.4.3/README.md). Это отдельные версии и попытки.
