@@ -1,0 +1,2410 @@
+{
+  "complete": true,
+  "stage": "first_pass",
+  "program_version": "1.4.4",
+  "program_revision": "b147447f8f45d639cec63ad3a0e6f3a5f0dff9f8",
+  "wheel_sha256": "631afd83704f315ec3711d5a949ab66553c5f241ec9bea4784587f0345ba5b18",
+  "contract_sha256": "b4957f6b62988cbeee5ace046243f0a5f3dbd087e6f101f4377b57ed6687c50d",
+  "agent_plugins": [
+    {
+      "name": "catalog-parsers",
+      "version": "0.2.2",
+      "sha256": "5d5b5b3915d829106a2d261b091243bb90e241577a4f04d3708363877632dc0e"
+    }
+  ],
+  "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+  "max_tokens": 16384,
+  "call_timeout_seconds": 900,
+  "adapter_timeout_seconds": 930,
+  "runtime_versions": {
+    "catalog-to-json": "1.4.4",
+    "fast-agent-mcp": "0.10.43",
+    "pymupdf": "1.28.2",
+    "pydantic": "2.13.5",
+    "anthropic": "1.11.0"
+  },
+  "reviewer_run": false,
+  "gold_feedback": false,
+  "dataset_version": "1.0.0",
+  "grader_version": "0.2.2",
+  "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c",
+  "correct": 368,
+  "expected": 500,
+  "catalogue_counts": {
+    "4": [
+      212,
+      320
+    ],
+    "1": [
+      43,
+      45
+    ],
+    "2": [
+      26,
+      45
+    ],
+    "3": [
+      45,
+      45
+    ],
+    "5": [
+      42,
+      45
+    ]
+  },
+  "catalogue_macro_percent": 82.58333333333334,
+  "completed_pages": 14,
+  "expected_pages": 15,
+  "elapsed_seconds_sum": 3759.147,
+  "time_comparison_limit": "One recovered attempt uses native elapsed duration; remaining attempts use parent wall duration. No causal speed comparison.",
+  "whole_page_accuracy": false,
+  "failed_attempts_in_denominator": true,
+  "fresh_repeats": 1,
+  "comparison": "Single sequential nonrandomized trial; additional rounds required before choosing a winner.",
+  "transcripts_public": false,
+  "cases": [
+    {
+      "case_id": "catalog-4-page-078",
+      "physical_page": 78,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "status": "completed",
+      "output": {
+        "file": "catalog-4-page-078.json",
+        "sha256": "8f4f2574ad906fc9a37ba2295d59a20186b2ec4287ced9ed499be96b23edc93a",
+        "bytes": 29994
+      },
+      "elapsed_seconds": 210.251,
+      "elapsed_time_scope": "benchmark parent attempt wall duration",
+      "parent_interruption_detected": false,
+      "recovered_from_completed_adapter": false,
+      "tested_program": {
+        "git_revision": "b147447f8f45d639cec63ad3a0e6f3a5f0dff9f8",
+        "package_version": "1.4.4",
+        "declared_version": "1.4.4-source-b147447f8f45d639cec63ad3a0e6f3a5f0dff9f8",
+        "contract_sha256": "b4957f6b62988cbeee5ace046243f0a5f3dbd087e6f101f4377b57ed6687c50d",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "correct": 140,
+      "expected": 140,
+      "retained1.4.2_correct": 140,
+      "fixture_sha256": "86e767f7af5fdbc24d208112c9c1b6c2b1a3771e3348a130f179db4e7d4ac8b6",
+      "native_error_type": null,
+      "failed_checks": [],
+      "tool_usage": {
+        "case_id": "catalog-4-page-078",
+        "status": "completed",
+        "tool_counts": {
+          "catalog__load_skill": 1,
+          "read_text_file": 1,
+          "catalog-parsers__parser_capabilities": 1,
+          "catalog__extract_direct": 1,
+          "catalog__view_page": 1,
+          "catalog__read_source_table": 2,
+          "catalog-parsers__inspect_pdf_page": 1,
+          "catalog-parsers__read_parser_artifact": 2,
+          "catalog__view_region": 4,
+          "catalog__read_external_audit": 1,
+          "catalog__read_source_layout": 2,
+          "catalog__get_json_schema": 1,
+          "catalog__save_section": 10,
+          "catalog__finalize_page": 1
+        },
+        "parser_backends": [
+          "docling"
+        ],
+        "artifact_reads": [
+          {
+            "kind": "canonical",
+            "offset": 0,
+            "length_requested": 14000,
+            "success": true,
+            "returned_characters": 6496,
+            "total_characters": 23390,
+            "next_offset": 6496,
+            "reached_end": false,
+            "metadata_source": "successful tool-result display metadata"
+          },
+          {
+            "kind": "canonical",
+            "offset": 6496,
+            "length_requested": 17000,
+            "success": true,
+            "returned_characters": 9905,
+            "total_characters": 23390,
+            "next_offset": 16401,
+            "reached_end": false,
+            "metadata_source": "successful tool-result display metadata"
+          }
+        ],
+        "regions": {
+          "total": 4,
+          "unique": 4,
+          "exact_repeats": 0
+        }
+      }
+    },
+    {
+      "case_id": "catalog-1-page-017",
+      "physical_page": 17,
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "status": "completed",
+      "output": {
+        "file": "catalog-1-page-017.json",
+        "sha256": "92432ef81a618b5c1db4a8890b37524d6b10fed07207e406b4e0834f5b58e868",
+        "bytes": 46652
+      },
+      "elapsed_seconds": 253.109,
+      "elapsed_time_scope": "native adapter reported duration; interrupted parent wall duration unavailable",
+      "parent_interruption_detected": true,
+      "recovered_from_completed_adapter": true,
+      "tested_program": {
+        "git_revision": "b147447f8f45d639cec63ad3a0e6f3a5f0dff9f8",
+        "package_version": "1.4.4",
+        "declared_version": "1.4.4-source-b147447f8f45d639cec63ad3a0e6f3a5f0dff9f8",
+        "contract_sha256": "b4957f6b62988cbeee5ace046243f0a5f3dbd087e6f101f4377b57ed6687c50d",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "correct": 15,
+      "expected": 15,
+      "retained1.4.2_correct": 15,
+      "fixture_sha256": "5147637fe66b27a76079c3ee59c948d4f30963f40ec03649d9ac0ee3c57ccec4",
+      "native_error_type": null,
+      "failed_checks": [],
+      "tool_usage": {
+        "case_id": "catalog-1-page-017",
+        "status": "completed",
+        "tool_counts": {
+          "catalog__load_skill": 1,
+          "catalog__extract_direct": 1,
+          "catalog__view_page": 1,
+          "catalog__get_json_schema": 1,
+          "catalog__read_source_table": 1,
+          "catalog__view_region": 7,
+          "catalog__save_page_json": 2,
+          "catalog__read_external_audit": 1,
+          "read_text_file": 1,
+          "catalog-parsers__parser_capabilities": 1,
+          "catalog-parsers__inspect_pdf_page": 1,
+          "catalog-parsers__read_parser_artifact": 3
+        },
+        "parser_backends": [
+          "img2table"
+        ],
+        "artifact_reads": [
+          {
+            "kind": "canonical",
+            "offset": 0,
+            "length_requested": 9000,
+            "success": true,
+            "returned_characters": 5710,
+            "total_characters": 42420,
+            "next_offset": 5710,
+            "reached_end": false,
+            "metadata_source": "successful tool-result display metadata"
+          },
+          {
+            "kind": "canonical",
+            "offset": 5710,
+            "length_requested": 9000,
+            "success": true,
+            "returned_characters": 9000,
+            "total_characters": 42420,
+            "next_offset": 14710,
+            "reached_end": false,
+            "metadata_source": "successful tool-result display metadata"
+          },
+          {
+            "kind": "canonical",
+            "offset": 26200,
+            "length_requested": 9000,
+            "success": true,
+            "returned_characters": 9000,
+            "total_characters": 42420,
+            "next_offset": 35200,
+            "reached_end": false,
+            "metadata_source": "successful tool-result display metadata"
+          }
+        ],
+        "regions": {
+          "total": 7,
+          "unique": 7,
+          "exact_repeats": 0
+        }
+      }
+    },
+    {
+      "case_id": "catalog-1-page-022",
+      "physical_page": 22,
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "status": "completed",
+      "output": {
+        "file": "catalog-1-page-022.json",
+        "sha256": "2e4d4adc12550a40a00e925c06bb095b0521ee1c7873334f054ced27547fd58f",
+        "bytes": 42559
+      },
+      "elapsed_seconds": 177.736,
+      "elapsed_time_scope": "benchmark parent attempt wall duration",
+      "parent_interruption_detected": false,
+      "recovered_from_completed_adapter": false,
+      "tested_program": {
+        "git_revision": "b147447f8f45d639cec63ad3a0e6f3a5f0dff9f8",
+        "package_version": "1.4.4",
+        "declared_version": "1.4.4-source-b147447f8f45d639cec63ad3a0e6f3a5f0dff9f8",
+        "contract_sha256": "b4957f6b62988cbeee5ace046243f0a5f3dbd087e6f101f4377b57ed6687c50d",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "correct": 15,
+      "expected": 15,
+      "retained1.4.2_correct": 13,
+      "fixture_sha256": "a1187e1a23848883bfb7d776a1289e3ccc09f9675493c1e5b4def85be8589654",
+      "native_error_type": null,
+      "failed_checks": [],
+      "tool_usage": {
+        "case_id": "catalog-1-page-022",
+        "status": "completed",
+        "tool_counts": {
+          "catalog__load_skill": 1,
+          "read_text_file": 1,
+          "catalog-parsers__parser_capabilities": 1,
+          "catalog__extract_direct": 1,
+          "catalog__view_page": 1,
+          "catalog__get_json_schema": 1,
+          "catalog-parsers__inspect_pdf_page": 1,
+          "catalog-parsers__read_parser_artifact": 2,
+          "catalog__read_source_table": 1,
+          "catalog__view_region": 6,
+          "edit_file": 1,
+          "catalog__save_page_json": 1,
+          "catalog__read_external_audit": 1
+        },
+        "parser_backends": [
+          "docling"
+        ],
+        "artifact_reads": [
+          {
+            "kind": "canonical",
+            "offset": 0,
+            "length_requested": 16000,
+            "success": true,
+            "returned_characters": 5277,
+            "total_characters": 35841,
+            "next_offset": 5277,
+            "reached_end": false,
+            "metadata_source": "successful tool-result display metadata"
+          },
+          {
+            "kind": "canonical",
+            "offset": 5277,
+            "length_requested": 16000,
+            "success": true,
+            "returned_characters": 8135,
+            "total_characters": 35841,
+            "next_offset": 13412,
+            "reached_end": false,
+            "metadata_source": "successful tool-result display metadata"
+          }
+        ],
+        "regions": {
+          "total": 6,
+          "unique": 6,
+          "exact_repeats": 0
+        }
+      }
+    },
+    {
+      "case_id": "catalog-1-page-026",
+      "physical_page": 26,
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "status": "completed",
+      "output": {
+        "file": "catalog-1-page-026.json",
+        "sha256": "d709057c70cca8e1e0ab70e14fec6b1d4e873ee3e493db71e56dba7219db2912",
+        "bytes": 42693
+      },
+      "elapsed_seconds": 202.908,
+      "elapsed_time_scope": "benchmark parent attempt wall duration",
+      "parent_interruption_detected": false,
+      "recovered_from_completed_adapter": false,
+      "tested_program": {
+        "git_revision": "b147447f8f45d639cec63ad3a0e6f3a5f0dff9f8",
+        "package_version": "1.4.4",
+        "declared_version": "1.4.4-source-b147447f8f45d639cec63ad3a0e6f3a5f0dff9f8",
+        "contract_sha256": "b4957f6b62988cbeee5ace046243f0a5f3dbd087e6f101f4377b57ed6687c50d",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "correct": 13,
+      "expected": 15,
+      "retained1.4.2_correct": 0,
+      "fixture_sha256": "f1defb41f76e7a075e441132a7d6c01200a1aff344064786b8e07cd64d7416b1",
+      "native_error_type": null,
+      "failed_checks": [
+        {
+          "id": "selected-14",
+          "expected": {
+            "location": "lower drawings вид А",
+            "entity": "верхняя планка",
+            "parameter": "отверстия",
+            "value": "Ø13; 2 отв.",
+            "unit": null,
+            "unit_policy": "unscored_no_explicit_source_legend"
+          },
+          "status": "missing",
+          "reason": "No matching model / parameter association.",
+          "candidate_evidence": [],
+          "literal_value_match": null,
+          "normalization": null
+        },
+        {
+          "id": "selected-15",
+          "expected": {
+            "location": "lower drawings вид Б",
+            "entity": "нижний фланец",
+            "parameter": "отверстия",
+            "value": "Ø11; 4 отв.",
+            "unit": null,
+            "unit_policy": "unscored_no_explicit_source_legend"
+          },
+          "status": "missing",
+          "reason": "No matching model / parameter association.",
+          "candidate_evidence": [],
+          "literal_value_match": null,
+          "normalization": null
+        }
+      ],
+      "tool_usage": {
+        "case_id": "catalog-1-page-026",
+        "status": "completed",
+        "tool_counts": {
+          "catalog__load_skill": 1,
+          "catalog-parsers__parser_capabilities": 1,
+          "read_text_file": 2,
+          "catalog__extract_direct": 1,
+          "catalog__view_page": 1,
+          "catalog__read_source_layout": 1,
+          "catalog__read_source_table": 2,
+          "catalog-parsers__inspect_pdf_page": 1,
+          "catalog-parsers__read_parser_artifact": 1,
+          "catalog__view_region": 8,
+          "catalog__get_json_schema": 1,
+          "catalog__read_external_audit": 1,
+          "bash": 5,
+          "catalog__save_page_json": 1
+        },
+        "parser_backends": [
+          "docling"
+        ],
+        "artifact_reads": [
+          {
+            "kind": "canonical",
+            "offset": 0,
+            "length_requested": 12000,
+            "success": true,
+            "returned_characters": 6285,
+            "total_characters": 32757,
+            "next_offset": 6285,
+            "reached_end": false,
+            "metadata_source": "successful tool-result display metadata"
+          }
+        ],
+        "regions": {
+          "total": 8,
+          "unique": 8,
+          "exact_repeats": 0
+        }
+      }
+    },
+    {
+      "case_id": "catalog-2-page-060",
+      "physical_page": 60,
+      "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+      "status": "completed",
+      "output": {
+        "file": "catalog-2-page-060.json",
+        "sha256": "830b8709dce6680ba7d2fc08c4491454af15e37346583e8f0c45bbb9dc28b068",
+        "bytes": 62090
+      },
+      "elapsed_seconds": 216.621,
+      "elapsed_time_scope": "benchmark parent attempt wall duration",
+      "parent_interruption_detected": false,
+      "recovered_from_completed_adapter": false,
+      "tested_program": {
+        "git_revision": "b147447f8f45d639cec63ad3a0e6f3a5f0dff9f8",
+        "package_version": "1.4.4",
+        "declared_version": "1.4.4-source-b147447f8f45d639cec63ad3a0e6f3a5f0dff9f8",
+        "contract_sha256": "b4957f6b62988cbeee5ace046243f0a5f3dbd087e6f101f4377b57ed6687c50d",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "correct": 0,
+      "expected": 15,
+      "retained1.4.2_correct": 15,
+      "fixture_sha256": "93cf32c6d3a26326831fb0bb6152f3bf62ffd6897c1a1af554a91a97e0a64c3a",
+      "native_error_type": null,
+      "failed_checks": [
+        {
+          "id": "selected-01",
+          "expected": {
+            "location": "upper manufacturer АРМАТЕХ НИЛЕД",
+            "entity": "ES1500C",
+            "parameter": "разрушающая нагрузка",
+            "value": "8,0",
+            "unit": "кН"
+          },
+          "status": "missing",
+          "reason": "No matching model / parameter association.",
+          "candidate_evidence": [],
+          "literal_value_match": null,
+          "normalization": null
+        },
+        {
+          "id": "selected-02",
+          "expected": {
+            "location": "upper manufacturer АРМАТЕХ НИЛЕД",
+            "entity": "ES 1500",
+            "parameter": "разрушающая нагрузка",
+            "value": "12,0",
+            "unit": "кН"
+          },
+          "status": "missing",
+          "reason": "No matching model / parameter association.",
+          "candidate_evidence": [],
+          "literal_value_match": null,
+          "normalization": null
+        },
+        {
+          "id": "selected-03",
+          "expected": {
+            "location": "upper manufacturer ЭНЕРВИК (ENSTO)",
+            "entity": "SO260",
+            "parameter": "сечение / диаметр (исходный смешанный столбец)",
+            "value": "25-95",
+            "unit": "мм² / мм",
+            "unit_policy": "faithful_original_combination"
+          },
+          "status": "missing",
+          "reason": "No matching model / parameter association.",
+          "candidate_evidence": [],
+          "literal_value_match": null,
+          "normalization": null
+        },
+        {
+          "id": "selected-04",
+          "expected": {
+            "location": "upper manufacturer МЗВА-ЧЭМЗ",
+            "entity": "ES 1500.1",
+            "parameter": "сечение / диаметр (исходный смешанный столбец)",
+            "value": "16-120",
+            "unit": "мм² / мм",
+            "unit_policy": "faithful_original_combination"
+          },
+          "status": "missing",
+          "reason": "No matching model / parameter association.",
+          "candidate_evidence": [],
+          "literal_value_match": null,
+          "normalization": null
+        },
+        {
+          "id": "selected-05",
+          "expected": {
+            "location": "upper manufacturer МЗВА-ЧЭМЗ",
+            "entity": "PS 4x35",
+            "parameter": "сечение / диаметр (исходный смешанный столбец)",
+            "value": "4x35(2x50)",
+            "unit": "мм² / мм",
+            "unit_policy": "faithful_original_combination"
+          },
+          "status": "missing",
+          "reason": "No matching model / parameter association.",
+          "candidate_evidence": [],
+          "literal_value_match": null,
+          "normalization": null
+        },
+        {
+          "id": "selected-06",
+          "expected": {
+            "location": "upper manufacturer ЭНЕРВИК (ENSTO)",
+            "entity": "SO 270",
+            "parameter": "разрушающая нагрузка",
+            "value": "7,0",
+            "unit": "кН"
+          },
+          "status": "missing",
+          "reason": "No matching model / parameter association.",
+          "candidate_evidence": [],
+          "literal_value_match": null,
+          "normalization": null
+        },
+        {
+          "id": "selected-07",
+          "expected": {
+            "location": "upper manufacturer МЗВА-ЧЭМЗ",
+            "entity": "PS 4x16-120",
+            "parameter": "разрушающая нагрузка",
+            "value": "10,0",
+            "unit": "кН"
+          },
+          "status": "missing",
+          "reason": "No matching model / parameter association.",
+          "candidate_evidence": [],
+          "literal_value_match": null,
+          "normalization": null
+        },
+        {
+          "id": "selected-08",
+          "expected": {
+            "location": "upper manufacturer АРМАТЕХ НИЛЕД",
+            "entity": "CB 600",
+            "parameter": "разрушающая нагрузка",
+            "value": "3,75",
+            "unit": "кН"
+          },
+          "status": "missing",
+          "reason": "No matching model / parameter association.",
+          "candidate_evidence": [],
+          "literal_value_match": null,
+          "normalization": null
+        },
+        {
+          "id": "selected-09",
+          "expected": {
+            "location": "lower manufacturer ЭНЕРВИК (ENSTO)",
+            "entity": "SOT29.10",
+            "parameter": "разрушающая нагрузка",
+            "value": "17,8/12,5",
+            "unit": "кН"
+          },
+          "status": "missing",
+          "reason": "No matching model / parameter association.",
+          "candidate_evidence": [],
+          "literal_value_match": null,
+          "normalization": null
+        },
+        {
+          "id": "selected-10",
+          "expected": {
+            "location": "lower manufacturer МЗВА-ЧЭМЗ",
+            "entity": "SOT 29.10",
+            "parameter": "разрушающая нагрузка",
+            "value": "12,5/17,8",
+            "unit": "кН"
+          },
+          "status": "missing",
+          "reason": "No matching model / parameter association.",
+          "candidate_evidence": [],
+          "literal_value_match": null,
+          "normalization": null
+        },
+        {
+          "id": "selected-11",
+          "expected": {
+            "location": "lower manufacturer ЭНЕРВИК (ENSTO)",
+            "entity": "PD2.3",
+            "parameter": "разрушающая нагрузка",
+            "value": "15,4/2,0",
+            "unit": "кН"
+          },
+          "status": "missing",
+          "reason": "No matching model / parameter association.",
+          "candidate_evidence": [],
+          "literal_value_match": null,
+          "normalization": null
+        },
+        {
+          "id": "selected-12",
+          "expected": {
+            "location": "lower manufacturer МЗВА-ЧЭМЗ",
+            "entity": "GK 16",
+            "parameter": "разрушающая нагрузка",
+            "value": "15,0/2,4",
+            "unit": "кН"
+          },
+          "status": "missing",
+          "reason": "No matching model / parameter association.",
+          "candidate_evidence": [],
+          "literal_value_match": null,
+          "normalization": null
+        },
+        {
+          "id": "selected-13",
+          "expected": {
+            "location": "lower manufacturer ЭНЕРВИК (ENSTO)",
+            "entity": "SOT4.8;SOT4.9;SOT4.10;SOT4.5;SOT4.6;SOT4.7;SOT78",
+            "parameter": "разрушающая нагрузка (vertical shared cell)",
+            "value": "Н/Д",
+            "unit": "кН"
+          },
+          "status": "missing",
+          "reason": "No matching model / parameter association.",
+          "candidate_evidence": [],
+          "literal_value_match": null,
+          "normalization": null
+        },
+        {
+          "id": "selected-14",
+          "expected": {
+            "location": "lower manufacturer МЗВА-ЧЭМЗ",
+            "entity": "MSH 20.240;MSH 20.280;MSH 20.360",
+            "parameter": "разрушающая нагрузка (vertical shared cell)",
+            "value": "55,0",
+            "unit": "кН"
+          },
+          "status": "missing",
+          "reason": "No matching model / parameter association.",
+          "candidate_evidence": [],
+          "literal_value_match": null,
+          "normalization": null
+        },
+        {
+          "id": "selected-15",
+          "expected": {
+            "location": "lower manufacturer МЗВА-ЧЭМЗ",
+            "entity": "RAS 16.234",
+            "parameter": "разрушающая нагрузка",
+            "value": "50,0",
+            "unit": "кН"
+          },
+          "status": "missing",
+          "reason": "No matching model / parameter association.",
+          "candidate_evidence": [],
+          "literal_value_match": null,
+          "normalization": null
+        }
+      ],
+      "tool_usage": {
+        "case_id": "catalog-2-page-060",
+        "status": "completed",
+        "tool_counts": {
+          "catalog__load_skill": 1,
+          "catalog-parsers__parser_capabilities": 1,
+          "catalog__extract_direct": 1,
+          "catalog__view_page": 1,
+          "catalog-parsers__inspect_pdf_page": 1,
+          "catalog__read_source_table": 1,
+          "bash": 7,
+          "catalog-parsers__read_parser_artifact": 1,
+          "catalog__view_region": 8,
+          "catalog__read_source_layout": 3,
+          "catalog__get_json_schema": 1,
+          "catalog__save_page_json": 1,
+          "catalog__read_external_audit": 1,
+          "catalog__read_review": 1
+        },
+        "parser_backends": [
+          "docling"
+        ],
+        "artifact_reads": [
+          {
+            "kind": "canonical",
+            "offset": 0,
+            "length_requested": 16000,
+            "success": true,
+            "returned_characters": 9917,
+            "total_characters": 50509,
+            "next_offset": 9917,
+            "reached_end": false,
+            "metadata_source": "successful tool-result display metadata"
+          }
+        ],
+        "regions": {
+          "total": 8,
+          "unique": 7,
+          "exact_repeats": 1
+        }
+      }
+    },
+    {
+      "case_id": "catalog-2-page-149",
+      "physical_page": 149,
+      "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+      "status": "completed",
+      "output": {
+        "file": "catalog-2-page-149.json",
+        "sha256": "40c642d0196995d670121ed1ffb7fd69e623527c51bdb9a3507ae1b26a58ee61",
+        "bytes": 22668
+      },
+      "elapsed_seconds": 231.211,
+      "elapsed_time_scope": "benchmark parent attempt wall duration",
+      "parent_interruption_detected": false,
+      "recovered_from_completed_adapter": false,
+      "tested_program": {
+        "git_revision": "b147447f8f45d639cec63ad3a0e6f3a5f0dff9f8",
+        "package_version": "1.4.4",
+        "declared_version": "1.4.4-source-b147447f8f45d639cec63ad3a0e6f3a5f0dff9f8",
+        "contract_sha256": "b4957f6b62988cbeee5ace046243f0a5f3dbd087e6f101f4377b57ed6687c50d",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "correct": 15,
+      "expected": 15,
+      "retained1.4.2_correct": 15,
+      "fixture_sha256": "626e9f586350ffcc8b7eb947fa91e1b98c2434558ffe8454c4a35492d02848da",
+      "native_error_type": null,
+      "failed_checks": [],
+      "tool_usage": {
+        "case_id": "catalog-2-page-149",
+        "status": "completed",
+        "tool_counts": {
+          "catalog__load_skill": 1,
+          "catalog-parsers__parser_capabilities": 1,
+          "read_text_file": 1,
+          "catalog__extract_direct": 1,
+          "catalog__view_page": 1,
+          "catalog-parsers__inspect_pdf_page": 1,
+          "catalog__read_source_table": 1,
+          "catalog__view_region": 9,
+          "catalog-parsers__read_parser_artifact": 1,
+          "catalog__get_json_schema": 1,
+          "catalog__read_external_audit": 1,
+          "catalog__save_page_json": 2,
+          "catalog__read_page_json": 1,
+          "catalog__read_source_layout": 3
+        },
+        "parser_backends": [
+          "docling"
+        ],
+        "artifact_reads": [
+          {
+            "kind": "canonical",
+            "offset": 0,
+            "length_requested": 4000,
+            "success": true,
+            "returned_characters": 4000,
+            "total_characters": 13402,
+            "next_offset": 4000,
+            "reached_end": false,
+            "metadata_source": "successful tool-result display metadata"
+          }
+        ],
+        "regions": {
+          "total": 9,
+          "unique": 9,
+          "exact_repeats": 0
+        }
+      }
+    },
+    {
+      "case_id": "catalog-2-page-185",
+      "physical_page": 185,
+      "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+      "status": "completed",
+      "output": {
+        "file": "catalog-2-page-185.json",
+        "sha256": "c9b519772d6d6f18ff1f2d9b48b8742d1eed26a96e67383bb49242e47b77aa42",
+        "bytes": 52055
+      },
+      "elapsed_seconds": 418.044,
+      "elapsed_time_scope": "benchmark parent attempt wall duration",
+      "parent_interruption_detected": false,
+      "recovered_from_completed_adapter": false,
+      "tested_program": {
+        "git_revision": "b147447f8f45d639cec63ad3a0e6f3a5f0dff9f8",
+        "package_version": "1.4.4",
+        "declared_version": "1.4.4-source-b147447f8f45d639cec63ad3a0e6f3a5f0dff9f8",
+        "contract_sha256": "b4957f6b62988cbeee5ace046243f0a5f3dbd087e6f101f4377b57ed6687c50d",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "correct": 11,
+      "expected": 15,
+      "retained1.4.2_correct": 15,
+      "fixture_sha256": "4b12ce1f6ace967f9b3339ee129ff14b8928454f53cd069001800a7317d28d4a",
+      "native_error_type": null,
+      "failed_checks": [
+        {
+          "id": "selected-07",
+          "expected": {
+            "location": "top table",
+            "entity": "все 10 обозначений",
+            "parameter": "заряд пропускной способности",
+            "value": "1,1",
+            "unit": "Кл"
+          },
+          "status": "wrong",
+          "reason": "Value row0: expected'1,1', actualNone.; Cell row0 stateblank cannot stand for printed literal'1,1'.; Value row1: expected'1,1', actualNone.; Cell row1 stateblank cannot stand for printed literal'1,1'.; Value row2: expected'1,1', actualNone.; Cell row2 stateblank cannot stand for printed literal'1,1'.; Value row3: expected'1,1', actualNone.; Cell row3 stateblank cannot stand for printed literal'1,1'.; Value row6: expected'1,1', actualNone.; Cell row6 stateblank cannot stand for printed literal'1,1'.; Value row7: expected'1,1', actualNone.; Cell row7 stateblank cannot stand for printed literal'1,1'.; Value row8: expected'1,1', actualNone.; Cell row8 stateblank cannot stand for printed literal'1,1'.; Value row9: expected'1,1', actualNone.; Cell row9 stateblank cannot stand for printed literal'1,1'.",
+          "candidate_evidence": [
+            {
+              "table_index": 0,
+              "table_id": "t0",
+              "row_index": 0,
+              "column_index": 11,
+              "column": {
+                "id": "c11",
+                "label": "Заряд пропускной способности",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c11",
+                "value": null,
+                "state": "blank"
+              },
+              "row_identity_values": [
+                "ОПН-П-6/6,0/10/1,1-III УХЛ1"
+              ]
+            },
+            {
+              "table_index": 0,
+              "table_id": "t0",
+              "row_index": 1,
+              "column_index": 11,
+              "column": {
+                "id": "c11",
+                "label": "Заряд пропускной способности",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c11",
+                "value": null,
+                "state": "blank"
+              },
+              "row_identity_values": [
+                "ОПН-П-6/6,0/10/1,1-IV УХЛ1"
+              ]
+            },
+            {
+              "table_index": 0,
+              "table_id": "t0",
+              "row_index": 2,
+              "column_index": 11,
+              "column": {
+                "id": "c11",
+                "label": "Заряд пропускной способности",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c11",
+                "value": null,
+                "state": "blank"
+              },
+              "row_identity_values": [
+                "ОПН-П-6/6,6/10/1,1-III УХЛ1"
+              ]
+            },
+            {
+              "table_index": 0,
+              "table_id": "t0",
+              "row_index": 3,
+              "column_index": 11,
+              "column": {
+                "id": "c11",
+                "label": "Заряд пропускной способности",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c11",
+                "value": null,
+                "state": "blank"
+              },
+              "row_identity_values": [
+                "ОПН-П-6/6,6/10/1,1-IV УХЛ1"
+              ]
+            },
+            {
+              "table_index": 0,
+              "table_id": "t0",
+              "row_index": 4,
+              "column_index": 11,
+              "column": {
+                "id": "c11",
+                "label": "Заряд пропускной способности",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c11",
+                "value": "1,1",
+                "state": "value"
+              },
+              "row_identity_values": [
+                "ОПН-П-6/6,9/10/1,1-III УХЛ1"
+              ]
+            },
+            {
+              "table_index": 0,
+              "table_id": "t0",
+              "row_index": 5,
+              "column_index": 11,
+              "column": {
+                "id": "c11",
+                "label": "Заряд пропускной способности",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c11",
+                "value": "1,1",
+                "state": "value"
+              },
+              "row_identity_values": [
+                "ОПН-П-6/6,9/10/1,1-IV УХЛ1"
+              ]
+            },
+            {
+              "table_index": 0,
+              "table_id": "t0",
+              "row_index": 6,
+              "column_index": 11,
+              "column": {
+                "id": "c11",
+                "label": "Заряд пропускной способности",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c11",
+                "value": null,
+                "state": "blank"
+              },
+              "row_identity_values": [
+                "ОПН-П-6/7,2/10/1,1-III УХЛ1"
+              ]
+            },
+            {
+              "table_index": 0,
+              "table_id": "t0",
+              "row_index": 7,
+              "column_index": 11,
+              "column": {
+                "id": "c11",
+                "label": "Заряд пропускной способности",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c11",
+                "value": null,
+                "state": "blank"
+              },
+              "row_identity_values": [
+                "ОПН-П-6/7,2/10/1,1-IV УХЛ1"
+              ]
+            },
+            {
+              "table_index": 0,
+              "table_id": "t0",
+              "row_index": 8,
+              "column_index": 11,
+              "column": {
+                "id": "c11",
+                "label": "Заряд пропускной способности",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c11",
+                "value": null,
+                "state": "blank"
+              },
+              "row_identity_values": [
+                "ОПН-П-6/7,6/10/1,1-III УХЛ1"
+              ]
+            },
+            {
+              "table_index": 0,
+              "table_id": "t0",
+              "row_index": 9,
+              "column_index": 11,
+              "column": {
+                "id": "c11",
+                "label": "Заряд пропускной способности",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c11",
+                "value": null,
+                "state": "blank"
+              },
+              "row_identity_values": [
+                "ОПН-П-6/7,6/10/1,1-IV УХЛ1"
+              ]
+            }
+          ],
+          "literal_value_match": false,
+          "normalization": [
+            "literal"
+          ],
+          "schema_warnings": [],
+          "raw_semantic_recoverability": {
+            "value_and_identity": false,
+            "unit_in_header": false
+          }
+        },
+        {
+          "id": "selected-08",
+          "expected": {
+            "location": "top table",
+            "entity": "все 10 обозначений",
+            "parameter": "тепловой заряд, не менее",
+            "value": "-",
+            "unit": "Кл"
+          },
+          "status": "wrong",
+          "reason": "Value row0: expected'-', actualNone.; Cell row0 stateblank cannot stand for printed literal'-'.; Value row1: expected'-', actualNone.; Cell row1 stateblank cannot stand for printed literal'-'.; Value row2: expected'-', actualNone.; Cell row2 stateblank cannot stand for printed literal'-'.; Value row3: expected'-', actualNone.; Cell row3 stateblank cannot stand for printed literal'-'.; Value row6: expected'-', actualNone.; Cell row6 stateblank cannot stand for printed literal'-'.; Value row7: expected'-', actualNone.; Cell row7 stateblank cannot stand for printed literal'-'.; Value row8: expected'-', actualNone.; Cell row8 stateblank cannot stand for printed literal'-'.; Value row9: expected'-', actualNone.; Cell row9 stateblank cannot stand for printed literal'-'.",
+          "candidate_evidence": [
+            {
+              "table_index": 0,
+              "table_id": "t0",
+              "row_index": 0,
+              "column_index": 14,
+              "column": {
+                "id": "c14",
+                "label": "Тепловой заряд",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": "не менее"
+              },
+              "cell": {
+                "column_id": "c14",
+                "value": null,
+                "state": "blank"
+              },
+              "row_identity_values": [
+                "ОПН-П-6/6,0/10/1,1-III УХЛ1"
+              ]
+            },
+            {
+              "table_index": 0,
+              "table_id": "t0",
+              "row_index": 1,
+              "column_index": 14,
+              "column": {
+                "id": "c14",
+                "label": "Тепловой заряд",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": "не менее"
+              },
+              "cell": {
+                "column_id": "c14",
+                "value": null,
+                "state": "blank"
+              },
+              "row_identity_values": [
+                "ОПН-П-6/6,0/10/1,1-IV УХЛ1"
+              ]
+            },
+            {
+              "table_index": 0,
+              "table_id": "t0",
+              "row_index": 2,
+              "column_index": 14,
+              "column": {
+                "id": "c14",
+                "label": "Тепловой заряд",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": "не менее"
+              },
+              "cell": {
+                "column_id": "c14",
+                "value": null,
+                "state": "blank"
+              },
+              "row_identity_values": [
+                "ОПН-П-6/6,6/10/1,1-III УХЛ1"
+              ]
+            },
+            {
+              "table_index": 0,
+              "table_id": "t0",
+              "row_index": 3,
+              "column_index": 14,
+              "column": {
+                "id": "c14",
+                "label": "Тепловой заряд",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": "не менее"
+              },
+              "cell": {
+                "column_id": "c14",
+                "value": null,
+                "state": "blank"
+              },
+              "row_identity_values": [
+                "ОПН-П-6/6,6/10/1,1-IV УХЛ1"
+              ]
+            },
+            {
+              "table_index": 0,
+              "table_id": "t0",
+              "row_index": 4,
+              "column_index": 14,
+              "column": {
+                "id": "c14",
+                "label": "Тепловой заряд",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": "не менее"
+              },
+              "cell": {
+                "column_id": "c14",
+                "value": "-",
+                "state": "value"
+              },
+              "row_identity_values": [
+                "ОПН-П-6/6,9/10/1,1-III УХЛ1"
+              ]
+            },
+            {
+              "table_index": 0,
+              "table_id": "t0",
+              "row_index": 5,
+              "column_index": 14,
+              "column": {
+                "id": "c14",
+                "label": "Тепловой заряд",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": "не менее"
+              },
+              "cell": {
+                "column_id": "c14",
+                "value": "-",
+                "state": "value"
+              },
+              "row_identity_values": [
+                "ОПН-П-6/6,9/10/1,1-IV УХЛ1"
+              ]
+            },
+            {
+              "table_index": 0,
+              "table_id": "t0",
+              "row_index": 6,
+              "column_index": 14,
+              "column": {
+                "id": "c14",
+                "label": "Тепловой заряд",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": "не менее"
+              },
+              "cell": {
+                "column_id": "c14",
+                "value": null,
+                "state": "blank"
+              },
+              "row_identity_values": [
+                "ОПН-П-6/7,2/10/1,1-III УХЛ1"
+              ]
+            },
+            {
+              "table_index": 0,
+              "table_id": "t0",
+              "row_index": 7,
+              "column_index": 14,
+              "column": {
+                "id": "c14",
+                "label": "Тепловой заряд",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": "не менее"
+              },
+              "cell": {
+                "column_id": "c14",
+                "value": null,
+                "state": "blank"
+              },
+              "row_identity_values": [
+                "ОПН-П-6/7,2/10/1,1-IV УХЛ1"
+              ]
+            },
+            {
+              "table_index": 0,
+              "table_id": "t0",
+              "row_index": 8,
+              "column_index": 14,
+              "column": {
+                "id": "c14",
+                "label": "Тепловой заряд",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": "не менее"
+              },
+              "cell": {
+                "column_id": "c14",
+                "value": null,
+                "state": "blank"
+              },
+              "row_identity_values": [
+                "ОПН-П-6/7,6/10/1,1-III УХЛ1"
+              ]
+            },
+            {
+              "table_index": 0,
+              "table_id": "t0",
+              "row_index": 9,
+              "column_index": 14,
+              "column": {
+                "id": "c14",
+                "label": "Тепловой заряд",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": "не менее"
+              },
+              "cell": {
+                "column_id": "c14",
+                "value": null,
+                "state": "blank"
+              },
+              "row_identity_values": [
+                "ОПН-П-6/7,6/10/1,1-IV УХЛ1"
+              ]
+            }
+          ],
+          "literal_value_match": false,
+          "normalization": [
+            "literal"
+          ],
+          "schema_warnings": [],
+          "raw_semantic_recoverability": {
+            "value_and_identity": false,
+            "unit_in_header": false
+          }
+        },
+        {
+          "id": "selected-09",
+          "expected": {
+            "location": "top table",
+            "entity": "все 10 обозначений",
+            "parameter": "тепловая энергия, не менее",
+            "value": "4,0",
+            "unit": "кДж/кВ"
+          },
+          "status": "wrong",
+          "reason": "Value row0: expected'4,0', actualNone.; Cell row0 stateblank cannot stand for printed literal'4,0'.; Value row1: expected'4,0', actualNone.; Cell row1 stateblank cannot stand for printed literal'4,0'.; Value row2: expected'4,0', actualNone.; Cell row2 stateblank cannot stand for printed literal'4,0'.; Value row3: expected'4,0', actualNone.; Cell row3 stateblank cannot stand for printed literal'4,0'.; Value row6: expected'4,0', actualNone.; Cell row6 stateblank cannot stand for printed literal'4,0'.; Value row7: expected'4,0', actualNone.; Cell row7 stateblank cannot stand for printed literal'4,0'.; Value row8: expected'4,0', actualNone.; Cell row8 stateblank cannot stand for printed literal'4,0'.; Value row9: expected'4,0', actualNone.; Cell row9 stateblank cannot stand for printed literal'4,0'.",
+          "candidate_evidence": [
+            {
+              "table_index": 0,
+              "table_id": "t0",
+              "row_index": 0,
+              "column_index": 15,
+              "column": {
+                "id": "c15",
+                "label": "Тепловая энергия",
+                "unit": "кДж/кВ",
+                "group": null,
+                "qualifier": "не менее"
+              },
+              "cell": {
+                "column_id": "c15",
+                "value": null,
+                "state": "blank"
+              },
+              "row_identity_values": [
+                "ОПН-П-6/6,0/10/1,1-III УХЛ1"
+              ]
+            },
+            {
+              "table_index": 0,
+              "table_id": "t0",
+              "row_index": 1,
+              "column_index": 15,
+              "column": {
+                "id": "c15",
+                "label": "Тепловая энергия",
+                "unit": "кДж/кВ",
+                "group": null,
+                "qualifier": "не менее"
+              },
+              "cell": {
+                "column_id": "c15",
+                "value": null,
+                "state": "blank"
+              },
+              "row_identity_values": [
+                "ОПН-П-6/6,0/10/1,1-IV УХЛ1"
+              ]
+            },
+            {
+              "table_index": 0,
+              "table_id": "t0",
+              "row_index": 2,
+              "column_index": 15,
+              "column": {
+                "id": "c15",
+                "label": "Тепловая энергия",
+                "unit": "кДж/кВ",
+                "group": null,
+                "qualifier": "не менее"
+              },
+              "cell": {
+                "column_id": "c15",
+                "value": null,
+                "state": "blank"
+              },
+              "row_identity_values": [
+                "ОПН-П-6/6,6/10/1,1-III УХЛ1"
+              ]
+            },
+            {
+              "table_index": 0,
+              "table_id": "t0",
+              "row_index": 3,
+              "column_index": 15,
+              "column": {
+                "id": "c15",
+                "label": "Тепловая энергия",
+                "unit": "кДж/кВ",
+                "group": null,
+                "qualifier": "не менее"
+              },
+              "cell": {
+                "column_id": "c15",
+                "value": null,
+                "state": "blank"
+              },
+              "row_identity_values": [
+                "ОПН-П-6/6,6/10/1,1-IV УХЛ1"
+              ]
+            },
+            {
+              "table_index": 0,
+              "table_id": "t0",
+              "row_index": 4,
+              "column_index": 15,
+              "column": {
+                "id": "c15",
+                "label": "Тепловая энергия",
+                "unit": "кДж/кВ",
+                "group": null,
+                "qualifier": "не менее"
+              },
+              "cell": {
+                "column_id": "c15",
+                "value": "4,0",
+                "state": "value"
+              },
+              "row_identity_values": [
+                "ОПН-П-6/6,9/10/1,1-III УХЛ1"
+              ]
+            },
+            {
+              "table_index": 0,
+              "table_id": "t0",
+              "row_index": 5,
+              "column_index": 15,
+              "column": {
+                "id": "c15",
+                "label": "Тепловая энергия",
+                "unit": "кДж/кВ",
+                "group": null,
+                "qualifier": "не менее"
+              },
+              "cell": {
+                "column_id": "c15",
+                "value": "4,0",
+                "state": "value"
+              },
+              "row_identity_values": [
+                "ОПН-П-6/6,9/10/1,1-IV УХЛ1"
+              ]
+            },
+            {
+              "table_index": 0,
+              "table_id": "t0",
+              "row_index": 6,
+              "column_index": 15,
+              "column": {
+                "id": "c15",
+                "label": "Тепловая энергия",
+                "unit": "кДж/кВ",
+                "group": null,
+                "qualifier": "не менее"
+              },
+              "cell": {
+                "column_id": "c15",
+                "value": null,
+                "state": "blank"
+              },
+              "row_identity_values": [
+                "ОПН-П-6/7,2/10/1,1-III УХЛ1"
+              ]
+            },
+            {
+              "table_index": 0,
+              "table_id": "t0",
+              "row_index": 7,
+              "column_index": 15,
+              "column": {
+                "id": "c15",
+                "label": "Тепловая энергия",
+                "unit": "кДж/кВ",
+                "group": null,
+                "qualifier": "не менее"
+              },
+              "cell": {
+                "column_id": "c15",
+                "value": null,
+                "state": "blank"
+              },
+              "row_identity_values": [
+                "ОПН-П-6/7,2/10/1,1-IV УХЛ1"
+              ]
+            },
+            {
+              "table_index": 0,
+              "table_id": "t0",
+              "row_index": 8,
+              "column_index": 15,
+              "column": {
+                "id": "c15",
+                "label": "Тепловая энергия",
+                "unit": "кДж/кВ",
+                "group": null,
+                "qualifier": "не менее"
+              },
+              "cell": {
+                "column_id": "c15",
+                "value": null,
+                "state": "blank"
+              },
+              "row_identity_values": [
+                "ОПН-П-6/7,6/10/1,1-III УХЛ1"
+              ]
+            },
+            {
+              "table_index": 0,
+              "table_id": "t0",
+              "row_index": 9,
+              "column_index": 15,
+              "column": {
+                "id": "c15",
+                "label": "Тепловая энергия",
+                "unit": "кДж/кВ",
+                "group": null,
+                "qualifier": "не менее"
+              },
+              "cell": {
+                "column_id": "c15",
+                "value": null,
+                "state": "blank"
+              },
+              "row_identity_values": [
+                "ОПН-П-6/7,6/10/1,1-IV УХЛ1"
+              ]
+            }
+          ],
+          "literal_value_match": false,
+          "normalization": [
+            "literal"
+          ],
+          "schema_warnings": [],
+          "raw_semantic_recoverability": {
+            "value_and_identity": false,
+            "unit_in_header": false
+          }
+        },
+        {
+          "id": "selected-14",
+          "expected": {
+            "location": "lower table",
+            "entity": "все 10 обозначений",
+            "parameter": "заряд пропускной способности",
+            "value": "1,2",
+            "unit": "Кл"
+          },
+          "status": "wrong",
+          "reason": "Value row0: expected'1,2', actualNone.; Cell row0 stateblank cannot stand for printed literal'1,2'.; Value row1: expected'1,2', actualNone.; Cell row1 stateblank cannot stand for printed literal'1,2'.; Value row2: expected'1,2', actualNone.; Cell row2 stateblank cannot stand for printed literal'1,2'.; Value row3: expected'1,2', actualNone.; Cell row3 stateblank cannot stand for printed literal'1,2'.; Value row6: expected'1,2', actualNone.; Cell row6 stateblank cannot stand for printed literal'1,2'.; Value row7: expected'1,2', actualNone.; Cell row7 stateblank cannot stand for printed literal'1,2'.; Value row8: expected'1,2', actualNone.; Cell row8 stateblank cannot stand for printed literal'1,2'.; Value row9: expected'1,2', actualNone.; Cell row9 stateblank cannot stand for printed literal'1,2'.",
+          "candidate_evidence": [
+            {
+              "table_index": 1,
+              "table_id": "t1",
+              "row_index": 0,
+              "column_index": 10,
+              "column": {
+                "id": "c10",
+                "label": "Заряд пропускной способности",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c10",
+                "value": null,
+                "state": "blank"
+              },
+              "row_identity_values": [
+                "ОПН-П-6/6,0/10/1,2-III УХЛ1"
+              ]
+            },
+            {
+              "table_index": 1,
+              "table_id": "t1",
+              "row_index": 1,
+              "column_index": 10,
+              "column": {
+                "id": "c10",
+                "label": "Заряд пропускной способности",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c10",
+                "value": null,
+                "state": "blank"
+              },
+              "row_identity_values": [
+                "ОПН-П-6/6,0/10/1,2-IV УХЛ1"
+              ]
+            },
+            {
+              "table_index": 1,
+              "table_id": "t1",
+              "row_index": 2,
+              "column_index": 10,
+              "column": {
+                "id": "c10",
+                "label": "Заряд пропускной способности",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c10",
+                "value": null,
+                "state": "blank"
+              },
+              "row_identity_values": [
+                "ОПН-П-6/6,6/10/1,2-III УХЛ1"
+              ]
+            },
+            {
+              "table_index": 1,
+              "table_id": "t1",
+              "row_index": 3,
+              "column_index": 10,
+              "column": {
+                "id": "c10",
+                "label": "Заряд пропускной способности",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c10",
+                "value": null,
+                "state": "blank"
+              },
+              "row_identity_values": [
+                "ОПН-П-6/6,6/10/1,2-IV УХЛ1"
+              ]
+            },
+            {
+              "table_index": 1,
+              "table_id": "t1",
+              "row_index": 4,
+              "column_index": 10,
+              "column": {
+                "id": "c10",
+                "label": "Заряд пропускной способности",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c10",
+                "value": "1,2",
+                "state": "value"
+              },
+              "row_identity_values": [
+                "ОПН-П-6/6,9/10/1,2-III УХЛ1"
+              ]
+            },
+            {
+              "table_index": 1,
+              "table_id": "t1",
+              "row_index": 5,
+              "column_index": 10,
+              "column": {
+                "id": "c10",
+                "label": "Заряд пропускной способности",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c10",
+                "value": "1,2",
+                "state": "value"
+              },
+              "row_identity_values": [
+                "ОПН-П-6/6,9/10/1,2- IV УХЛ1"
+              ]
+            },
+            {
+              "table_index": 1,
+              "table_id": "t1",
+              "row_index": 6,
+              "column_index": 10,
+              "column": {
+                "id": "c10",
+                "label": "Заряд пропускной способности",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c10",
+                "value": null,
+                "state": "blank"
+              },
+              "row_identity_values": [
+                "ОПН-П-6/7,2/10/1,2- III УХЛ1"
+              ]
+            },
+            {
+              "table_index": 1,
+              "table_id": "t1",
+              "row_index": 7,
+              "column_index": 10,
+              "column": {
+                "id": "c10",
+                "label": "Заряд пропускной способности",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c10",
+                "value": null,
+                "state": "blank"
+              },
+              "row_identity_values": [
+                "ОПН-П-6/7,2/10/1,2-IV УХЛ1"
+              ]
+            },
+            {
+              "table_index": 1,
+              "table_id": "t1",
+              "row_index": 8,
+              "column_index": 10,
+              "column": {
+                "id": "c10",
+                "label": "Заряд пропускной способности",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c10",
+                "value": null,
+                "state": "blank"
+              },
+              "row_identity_values": [
+                "ОПН-П-6/7,6/10/1,2-III УХЛ1"
+              ]
+            },
+            {
+              "table_index": 1,
+              "table_id": "t1",
+              "row_index": 9,
+              "column_index": 10,
+              "column": {
+                "id": "c10",
+                "label": "Заряд пропускной способности",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c10",
+                "value": null,
+                "state": "blank"
+              },
+              "row_identity_values": [
+                "ОПН-П-6/7,6/10/1,2-IV УХЛ1"
+              ]
+            }
+          ],
+          "literal_value_match": false,
+          "normalization": [
+            "literal"
+          ],
+          "schema_warnings": [],
+          "raw_semantic_recoverability": {
+            "value_and_identity": false,
+            "unit_in_header": false
+          }
+        }
+      ],
+      "tool_usage": {
+        "case_id": "catalog-2-page-185",
+        "status": "completed",
+        "tool_counts": {
+          "catalog__load_skill": 1,
+          "read_text_file": 2,
+          "catalog-parsers__parser_capabilities": 1,
+          "catalog__extract_direct": 1,
+          "catalog__view_page": 1,
+          "catalog-parsers__inspect_pdf_page": 1,
+          "catalog-parsers__read_parser_artifact": 2,
+          "catalog__get_json_schema": 1,
+          "catalog__read_source_table": 1,
+          "catalog__view_region": 6,
+          "catalog__read_external_audit": 1,
+          "bash": 10,
+          "catalog__read_source_layout": 1,
+          "catalog__save_page_json": 1
+        },
+        "parser_backends": [
+          "docling"
+        ],
+        "artifact_reads": [
+          {
+            "kind": "canonical",
+            "offset": 0,
+            "length_requested": 12000,
+            "success": true,
+            "returned_characters": 5737,
+            "total_characters": 37322,
+            "next_offset": 5737,
+            "reached_end": false,
+            "metadata_source": "successful tool-result display metadata"
+          },
+          {
+            "kind": "canonical",
+            "offset": 5737,
+            "length_requested": 14000,
+            "success": true,
+            "returned_characters": 9367,
+            "total_characters": 37322,
+            "next_offset": 15104,
+            "reached_end": false,
+            "metadata_source": "successful tool-result display metadata"
+          }
+        ],
+        "regions": {
+          "total": 6,
+          "unique": 6,
+          "exact_repeats": 0
+        }
+      }
+    },
+    {
+      "case_id": "catalog-3-page-103",
+      "physical_page": 103,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "status": "completed",
+      "output": {
+        "file": "catalog-3-page-103.json",
+        "sha256": "04d6534d2b30aa358d7b56e4121236240f701f493d2d4733ed96e68b87be65bc",
+        "bytes": 137107
+      },
+      "elapsed_seconds": 273.741,
+      "elapsed_time_scope": "benchmark parent attempt wall duration",
+      "parent_interruption_detected": false,
+      "recovered_from_completed_adapter": false,
+      "tested_program": {
+        "git_revision": "b147447f8f45d639cec63ad3a0e6f3a5f0dff9f8",
+        "package_version": "1.4.4",
+        "declared_version": "1.4.4-source-b147447f8f45d639cec63ad3a0e6f3a5f0dff9f8",
+        "contract_sha256": "b4957f6b62988cbeee5ace046243f0a5f3dbd087e6f101f4377b57ed6687c50d",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "correct": 15,
+      "expected": 15,
+      "retained1.4.2_correct": 15,
+      "fixture_sha256": "9b905e94740f8ee8fc715e93b4b5d57d1177d58d0450becf8107380347a260d9",
+      "native_error_type": null,
+      "failed_checks": [],
+      "tool_usage": {
+        "case_id": "catalog-3-page-103",
+        "status": "completed",
+        "tool_counts": {
+          "catalog__load_skill": 1,
+          "read_text_file": 4,
+          "catalog-parsers__parser_capabilities": 1,
+          "catalog__extract_direct": 1,
+          "catalog__view_page": 1,
+          "catalog-parsers__inspect_pdf_page": 1,
+          "catalog__read_source_table": 1,
+          "bash": 1,
+          "catalog__view_region": 6,
+          "catalog__read_external_audit": 1,
+          "catalog__get_json_schema": 1,
+          "catalog__read_source_layout": 2,
+          "catalog__save_section": 11,
+          "catalog__finalize_page": 2
+        },
+        "parser_backends": [
+          "docling"
+        ],
+        "artifact_reads": [],
+        "regions": {
+          "total": 6,
+          "unique": 6,
+          "exact_repeats": 0
+        }
+      }
+    },
+    {
+      "case_id": "catalog-3-page-108",
+      "physical_page": 108,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "status": "completed",
+      "output": {
+        "file": "catalog-3-page-108.json",
+        "sha256": "72c30466a669f76b58d6a9751a798e03595fd25bcb170ff21753c164ebb07a38",
+        "bytes": 43723
+      },
+      "elapsed_seconds": 108.009,
+      "elapsed_time_scope": "benchmark parent attempt wall duration",
+      "parent_interruption_detected": false,
+      "recovered_from_completed_adapter": false,
+      "tested_program": {
+        "git_revision": "b147447f8f45d639cec63ad3a0e6f3a5f0dff9f8",
+        "package_version": "1.4.4",
+        "declared_version": "1.4.4-source-b147447f8f45d639cec63ad3a0e6f3a5f0dff9f8",
+        "contract_sha256": "b4957f6b62988cbeee5ace046243f0a5f3dbd087e6f101f4377b57ed6687c50d",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "correct": 15,
+      "expected": 15,
+      "retained1.4.2_correct": 15,
+      "fixture_sha256": "82e19efe34b7ca874e3e463e551ebb0eaef8006b5a7f725eca883c4ac1f35597",
+      "native_error_type": null,
+      "failed_checks": [],
+      "tool_usage": {
+        "case_id": "catalog-3-page-108",
+        "status": "completed",
+        "tool_counts": {
+          "catalog__load_skill": 1,
+          "read_text_file": 1,
+          "catalog-parsers__parser_capabilities": 1,
+          "catalog__extract_direct": 1,
+          "catalog__view_page": 1,
+          "catalog__get_json_schema": 1,
+          "catalog__read_source_table": 1,
+          "catalog__read_source_layout": 2,
+          "catalog__view_region": 3,
+          "catalog__save_page_json": 1,
+          "catalog__read_external_audit": 1
+        },
+        "parser_backends": [],
+        "artifact_reads": [],
+        "regions": {
+          "total": 3,
+          "unique": 3,
+          "exact_repeats": 0
+        }
+      }
+    },
+    {
+      "case_id": "catalog-3-page-111",
+      "physical_page": 111,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "status": "completed",
+      "output": {
+        "file": "catalog-3-page-111.json",
+        "sha256": "7ed5035b5c5438312d55f7d31c969b1187dcf160d9c93a220c700259985c596a",
+        "bytes": 72106
+      },
+      "elapsed_seconds": 208.513,
+      "elapsed_time_scope": "benchmark parent attempt wall duration",
+      "parent_interruption_detected": false,
+      "recovered_from_completed_adapter": false,
+      "tested_program": {
+        "git_revision": "b147447f8f45d639cec63ad3a0e6f3a5f0dff9f8",
+        "package_version": "1.4.4",
+        "declared_version": "1.4.4-source-b147447f8f45d639cec63ad3a0e6f3a5f0dff9f8",
+        "contract_sha256": "b4957f6b62988cbeee5ace046243f0a5f3dbd087e6f101f4377b57ed6687c50d",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "correct": 15,
+      "expected": 15,
+      "retained1.4.2_correct": 15,
+      "fixture_sha256": "928708a691d82dd302c54ad59a195c20a5864659f0d788aa4a50a4f5359640ea",
+      "native_error_type": null,
+      "failed_checks": [],
+      "tool_usage": {
+        "case_id": "catalog-3-page-111",
+        "status": "completed",
+        "tool_counts": {
+          "catalog__load_skill": 1,
+          "read_text_file": 1,
+          "catalog-parsers__parser_capabilities": 1,
+          "catalog__extract_direct": 1,
+          "catalog__view_page": 2,
+          "catalog__read_source_table": 1,
+          "bash": 5,
+          "catalog__view_region": 3,
+          "catalog__read_source_layout": 3,
+          "catalog-parsers__inspect_pdf_page": 1,
+          "catalog__get_json_schema": 1,
+          "catalog__read_external_audit": 1,
+          "catalog__save_section": 10,
+          "catalog__finalize_page": 1
+        },
+        "parser_backends": [
+          "docling"
+        ],
+        "artifact_reads": [],
+        "regions": {
+          "total": 3,
+          "unique": 3,
+          "exact_repeats": 0
+        }
+      }
+    },
+    {
+      "case_id": "catalog-4-page-033",
+      "physical_page": 33,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "status": "failed",
+      "output": null,
+      "elapsed_seconds": 905.14,
+      "elapsed_time_scope": "benchmark parent attempt wall duration",
+      "parent_interruption_detected": false,
+      "recovered_from_completed_adapter": false,
+      "tested_program": {
+        "git_revision": "b147447f8f45d639cec63ad3a0e6f3a5f0dff9f8",
+        "package_version": null,
+        "declared_version": "1.4.4-source-b147447f8f45d639cec63ad3a0e6f3a5f0dff9f8",
+        "contract_sha256": null,
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "correct": 0,
+      "expected": 108,
+      "retained1.4.2_correct": 108,
+      "fixture_sha256": "ea8408c3e91fc2b5f66964af2f0912bddaae85595fdac3947186708ba5aaf7bb",
+      "native_error_type": "TimeoutError: ",
+      "failed_checks": [],
+      "tool_usage": {
+        "case_id": "catalog-4-page-033",
+        "status": "failed",
+        "tool_counts": {
+          "catalog__load_skill": 1,
+          "catalog__view_page": 7,
+          "catalog__extract_direct": 1,
+          "catalog-parsers__parser_capabilities": 1,
+          "catalog__read_source_table": 1,
+          "catalog-parsers__inspect_pdf_page": 1,
+          "catalog-parsers__read_parser_artifact": 2,
+          "catalog__view_region": 82,
+          "bash": 1,
+          "catalog__get_json_schema": 1,
+          "catalog__read_external_audit": 1,
+          "catalog__read_source_layout": 2
+        },
+        "parser_backends": [
+          "gmft"
+        ],
+        "artifact_reads": [
+          {
+            "kind": "canonical",
+            "offset": 0,
+            "length_requested": 9000,
+            "success": true,
+            "returned_characters": 8514,
+            "total_characters": 17952,
+            "next_offset": 8514,
+            "reached_end": false,
+            "metadata_source": "successful tool-result display metadata"
+          },
+          {
+            "kind": "canonical",
+            "offset": 8514,
+            "length_requested": 9600,
+            "success": true,
+            "returned_characters": 9438,
+            "total_characters": 17952,
+            "next_offset": 17952,
+            "reached_end": true,
+            "metadata_source": "successful tool-result display metadata"
+          }
+        ],
+        "regions": {
+          "total": 82,
+          "unique": 50,
+          "exact_repeats": 32
+        }
+      }
+    },
+    {
+      "case_id": "catalog-4-page-038",
+      "physical_page": 38,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "status": "completed",
+      "output": {
+        "file": "catalog-4-page-038.json",
+        "sha256": "d1089a578638ebb74f4ac295cd3731de4087f26dd3aca6558eb4d32a3ef96990",
+        "bytes": 20575
+      },
+      "elapsed_seconds": 88.704,
+      "elapsed_time_scope": "benchmark parent attempt wall duration",
+      "parent_interruption_detected": false,
+      "recovered_from_completed_adapter": false,
+      "tested_program": {
+        "git_revision": "b147447f8f45d639cec63ad3a0e6f3a5f0dff9f8",
+        "package_version": "1.4.4",
+        "declared_version": "1.4.4-source-b147447f8f45d639cec63ad3a0e6f3a5f0dff9f8",
+        "contract_sha256": "b4957f6b62988cbeee5ace046243f0a5f3dbd087e6f101f4377b57ed6687c50d",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "correct": 72,
+      "expected": 72,
+      "retained1.4.2_correct": 72,
+      "fixture_sha256": "51edf1540e5eaa22f66844b6259ebe661885f7d583f0596b567b9ed7a9713589",
+      "native_error_type": null,
+      "failed_checks": [],
+      "tool_usage": {
+        "case_id": "catalog-4-page-038",
+        "status": "completed",
+        "tool_counts": {
+          "catalog__load_skill": 1,
+          "read_text_file": 1,
+          "catalog-parsers__parser_capabilities": 1,
+          "catalog__extract_direct": 1,
+          "catalog__view_page": 1,
+          "catalog-parsers__inspect_pdf_page": 1,
+          "catalog-parsers__read_parser_artifact": 2,
+          "catalog__read_source_table": 1,
+          "catalog__view_region": 5,
+          "catalog__get_json_schema": 1,
+          "catalog__save_page_json": 1,
+          "catalog__read_external_audit": 1
+        },
+        "parser_backends": [
+          "docling"
+        ],
+        "artifact_reads": [
+          {
+            "kind": "canonical",
+            "offset": 0,
+            "length_requested": 8000,
+            "success": true,
+            "returned_characters": 5359,
+            "total_characters": 16812,
+            "next_offset": 5359,
+            "reached_end": false,
+            "metadata_source": "successful tool-result display metadata"
+          },
+          {
+            "kind": "canonical",
+            "offset": 5359,
+            "length_requested": 8000,
+            "success": true,
+            "returned_characters": 8000,
+            "total_characters": 16812,
+            "next_offset": 13359,
+            "reached_end": false,
+            "metadata_source": "successful tool-result display metadata"
+          }
+        ],
+        "regions": {
+          "total": 5,
+          "unique": 5,
+          "exact_repeats": 0
+        }
+      }
+    },
+    {
+      "case_id": "catalog-5-page-030",
+      "physical_page": 30,
+      "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+      "status": "completed",
+      "output": {
+        "file": "catalog-5-page-030.json",
+        "sha256": "d15431d355e955984b9efef75e52fcc4be2d1143da1dc66c23950f249770ebba",
+        "bytes": 34063
+      },
+      "elapsed_seconds": 114.011,
+      "elapsed_time_scope": "benchmark parent attempt wall duration",
+      "parent_interruption_detected": false,
+      "recovered_from_completed_adapter": false,
+      "tested_program": {
+        "git_revision": "b147447f8f45d639cec63ad3a0e6f3a5f0dff9f8",
+        "package_version": "1.4.4",
+        "declared_version": "1.4.4-source-b147447f8f45d639cec63ad3a0e6f3a5f0dff9f8",
+        "contract_sha256": "b4957f6b62988cbeee5ace046243f0a5f3dbd087e6f101f4377b57ed6687c50d",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "correct": 13,
+      "expected": 15,
+      "retained1.4.2_correct": 15,
+      "fixture_sha256": "504a0a03fecef9240051ae24d714941ff0c8632667b60a3a83ce4e6bc2e15eed",
+      "native_error_type": null,
+      "failed_checks": [
+        {
+          "id": "selected-05",
+          "expected": {
+            "table_index": 0,
+            "row_key": "ОЛСК 6-10-2",
+            "column": "Удельная поверхностная проводимость слоя загрязнения",
+            "expected": "10",
+            "unit": "мкСм",
+            "kind": "literal",
+            "scope": {
+              "products": [
+                "ОЛСК 6-10-2"
+              ],
+              "conductor": null,
+              "part": null
+            }
+          },
+          "status": "missing",
+          "evidence": []
+        },
+        {
+          "id": "selected-06",
+          "expected": {
+            "table_index": 0,
+            "row_key": "ОЛСК 6-10-4",
+            "column": "Удельная поверхностная проводимость слоя загрязнения",
+            "expected": "30",
+            "unit": "мкСм",
+            "kind": "literal",
+            "scope": {
+              "products": [
+                "ОЛСК 6-10-4"
+              ],
+              "conductor": null,
+              "part": null
+            }
+          },
+          "status": "missing",
+          "evidence": []
+        }
+      ],
+      "tool_usage": {
+        "case_id": "catalog-5-page-030",
+        "status": "completed",
+        "tool_counts": {
+          "catalog__load_skill": 1,
+          "read_text_file": 1,
+          "catalog-parsers__parser_capabilities": 1,
+          "catalog__extract_direct": 1,
+          "catalog__view_page": 1,
+          "catalog__read_source_table": 2,
+          "catalog__get_json_schema": 1,
+          "catalog__read_external_audit": 1,
+          "catalog__view_region": 4,
+          "catalog__read_source_layout": 5,
+          "catalog__save_page_json": 1
+        },
+        "parser_backends": [],
+        "artifact_reads": [],
+        "regions": {
+          "total": 4,
+          "unique": 4,
+          "exact_repeats": 0
+        }
+      }
+    },
+    {
+      "case_id": "catalog-5-page-035",
+      "physical_page": 35,
+      "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+      "status": "completed",
+      "output": {
+        "file": "catalog-5-page-035.json",
+        "sha256": "1acdd4050587b65012013f47255016d4bbb0e7f8d04b6dcde8a9d6c8a4c83cb0",
+        "bytes": 24896
+      },
+      "elapsed_seconds": 145.112,
+      "elapsed_time_scope": "benchmark parent attempt wall duration",
+      "parent_interruption_detected": false,
+      "recovered_from_completed_adapter": false,
+      "tested_program": {
+        "git_revision": "b147447f8f45d639cec63ad3a0e6f3a5f0dff9f8",
+        "package_version": "1.4.4",
+        "declared_version": "1.4.4-source-b147447f8f45d639cec63ad3a0e6f3a5f0dff9f8",
+        "contract_sha256": "b4957f6b62988cbeee5ace046243f0a5f3dbd087e6f101f4377b57ed6687c50d",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "correct": 15,
+      "expected": 15,
+      "retained1.4.2_correct": 15,
+      "fixture_sha256": "d260784f7d7f58b7ca010d0299c35804f34ec21e47702c70dbdad09bd6b9ae61",
+      "native_error_type": null,
+      "failed_checks": [],
+      "tool_usage": {
+        "case_id": "catalog-5-page-035",
+        "status": "completed",
+        "tool_counts": {
+          "catalog__load_skill": 1,
+          "catalog-parsers__parser_capabilities": 1,
+          "read_text_file": 1,
+          "catalog__extract_direct": 1,
+          "catalog__view_page": 1,
+          "catalog-parsers__inspect_pdf_page": 1,
+          "catalog-parsers__read_parser_artifact": 1,
+          "catalog__read_source_table": 1,
+          "catalog__view_region": 6,
+          "catalog__read_source_layout": 4,
+          "catalog__get_json_schema": 1,
+          "catalog__save_page_json": 1,
+          "catalog__read_external_audit": 1
+        },
+        "parser_backends": [
+          "docling"
+        ],
+        "artifact_reads": [
+          {
+            "kind": "canonical",
+            "offset": 0,
+            "length_requested": 16000,
+            "success": true,
+            "returned_characters": 6023,
+            "total_characters": 23217,
+            "next_offset": 6023,
+            "reached_end": false,
+            "metadata_source": "successful tool-result display metadata"
+          }
+        ],
+        "regions": {
+          "total": 6,
+          "unique": 6,
+          "exact_repeats": 0
+        }
+      }
+    },
+    {
+      "case_id": "catalog-5-page-126",
+      "physical_page": 126,
+      "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+      "status": "completed",
+      "output": {
+        "file": "catalog-5-page-126.json",
+        "sha256": "2018b23fcbfc20608621cbd09ed013b13947a036d90157754fa23187093405f6",
+        "bytes": 44926
+      },
+      "elapsed_seconds": 206.037,
+      "elapsed_time_scope": "benchmark parent attempt wall duration",
+      "parent_interruption_detected": false,
+      "recovered_from_completed_adapter": false,
+      "tested_program": {
+        "git_revision": "b147447f8f45d639cec63ad3a0e6f3a5f0dff9f8",
+        "package_version": "1.4.4",
+        "declared_version": "1.4.4-source-b147447f8f45d639cec63ad3a0e6f3a5f0dff9f8",
+        "contract_sha256": "b4957f6b62988cbeee5ace046243f0a5f3dbd087e6f101f4377b57ed6687c50d",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "correct": 14,
+      "expected": 15,
+      "retained1.4.2_correct": 15,
+      "fixture_sha256": "a2123b1f211f87319036dd97bcc5ad09efa5e7c120ca936cc8ff2da771703a4c",
+      "native_error_type": null,
+      "failed_checks": [
+        {
+          "id": "selected-12",
+          "expected": {
+            "table_index": 0,
+            "row_key": "ИОРП-10-07",
+            "column": "L3",
+            "expected": "15",
+            "unit": "мм",
+            "kind": "literal",
+            "scope": {
+              "products": [
+                "ИОРП-10-07"
+              ],
+              "conductor": null,
+              "part": null
+            }
+          },
+          "status": "wrong",
+          "evidence": [
+            {
+              "table_index": 0,
+              "table_id": "t_p126_1",
+              "row_index": 14,
+              "column_id": "c8",
+              "column": {
+                "id": "c8",
+                "label": "L3",
+                "unit": "мм",
+                "group": null,
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c8",
+                "value": null,
+                "state": "blank"
+              },
+              "product_names": [
+                "ИОРП-10-07"
+              ],
+              "path": "tables[0].rows[14].cells[8]"
+            }
+          ],
+          "issues": [
+            "value_or_state"
+          ]
+        }
+      ],
+      "tool_usage": {
+        "case_id": "catalog-5-page-126",
+        "status": "completed",
+        "tool_counts": {
+          "catalog__load_skill": 1,
+          "read_text_file": 1,
+          "catalog-parsers__parser_capabilities": 1,
+          "catalog__extract_direct": 1,
+          "catalog__view_page": 1,
+          "catalog__read_source_table": 1,
+          "catalog-parsers__inspect_pdf_page": 1,
+          "catalog__view_region": 4,
+          "catalog__get_json_schema": 1,
+          "catalog__read_external_audit": 1,
+          "catalog__read_source_layout": 6,
+          "bash": 1,
+          "edit_file": 1,
+          "catalog__save_page_json": 1
+        },
+        "parser_backends": [
+          "docling"
+        ],
+        "artifact_reads": [],
+        "regions": {
+          "total": 4,
+          "unique": 4,
+          "exact_repeats": 0
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "verdict": "DIAGNOSIS_CONFIRMED_SAVE_REFUSAL_HYPOTHESIS_REFUTED",
+  "case_id": "catalog-4-page-033",
+  "reviewed_unix": 1791796625.9570408,
+  "scope": "Exact native SDK tool metadata; no cell contents/transcripts copied; no provider/parser calls or live/source/gold edits.",
+  "native_status": "failed",
+  "native_error_type": "TimeoutError",
+  "native_elapsed_seconds": 900.488,
+  "contract_sha256": "b4957f6b62988cbeee5ace046243f0a5f3dbd087e6f101f4377b57ed6687c50d",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 33,
+  "history_sha256": "ecb992b2fdeb98fd44a3a8bac0fdd50c310114bffc8de694cff4ed53343d9ae8",
+  "history_messages": 186,
+  "assistant_stop_reasons": {
+    "toolUse": 92,
+    "cancelled": 1
+  },
+  "tool_counts": {
+    "catalog__load_skill": 1,
+    "catalog__view_page": 7,
+    "catalog__extract_direct": 1,
+    "catalog-parsers__parser_capabilities": 1,
+    "catalog__read_source_table": 1,
+    "catalog-parsers__inspect_pdf_page": 1,
+    "catalog-parsers__read_parser_artifact": 2,
+    "catalog__view_region": 82,
+    "bash": 1,
+    "catalog__get_json_schema": 1,
+    "catalog__read_external_audit": 1,
+    "catalog__read_source_layout": 2
+  },
+  "source_tool_model_presentation": [
+    {
+      "message_index": 5,
+      "tool": "catalog__read_source_table",
+      "error": false,
+      "model_text_characters": 15306,
+      "model_text_utf8_bytes": 16426,
+      "model_payload_sha256": "8bd757679d0542b7c21fb238749a58946c10597189d9ff289c73f577048e2435",
+      "sdk_truncated": true,
+      "sdk_byte_window": {
+        "head": 8000,
+        "tail": 8000,
+        "original": 19217,
+        "omitted": 3217
+      },
+      "retained_output_link_present": true
+    },
+    {
+      "message_index": 7,
+      "tool": "catalog-parsers__read_parser_artifact",
+      "error": false,
+      "model_text_characters": 9659,
+      "model_text_utf8_bytes": 10127,
+      "model_payload_sha256": "eb43d38a83cab08ad2ab759ccf9e4bda29cf47cd7e0892e895c4df8fc7069259",
+      "sdk_truncated": false,
+      "kind": "canonical",
+      "offset": 0,
+      "next_offset": 8514,
+      "total_characters": 17952,
+      "returned_characters": 8514
+    },
+    {
+      "message_index": 9,
+      "tool": "catalog-parsers__read_parser_artifact",
+      "error": false,
+      "model_text_characters": 10723,
+      "model_text_utf8_bytes": 10753,
+      "model_payload_sha256": "4418e111d51dc22225ad04816af93e21c1dad5cc79cdaaddf1417cef2f54e3cd",
+      "sdk_truncated": false,
+      "kind": "canonical",
+      "offset": 8514,
+      "next_offset": 17952,
+      "total_characters": 17952,
+      "returned_characters": 9438
+    },
+    {
+      "message_index": 101,
+      "tool": "catalog__read_source_layout",
+      "error": false,
+      "model_text_characters": 14901,
+      "model_text_utf8_bytes": 15484,
+      "model_payload_sha256": "ad5f3f3d01c31d1d030bfb6261532606aded5b12acb57f610906cbe607bbfd94",
+      "sdk_truncated": false
+    },
+    {
+      "message_index": 103,
+      "tool": "catalog__read_source_layout",
+      "error": false,
+      "model_text_characters": 11465,
+      "model_text_utf8_bytes": 11855,
+      "model_payload_sha256": "dd877947cd8dc437fb10606ad40fd581a0fe7f933f7073c41d2fac58cc80523b",
+      "sdk_truncated": false
+    }
+  ],
+  "full_parser_canonical_presented": {
+    "verified": true,
+    "characters": 17952,
+    "reassembled_sha256": "dc7b6c31420d2581647de757e46fb3eaa31eb81d28add0cbaab2ce8d29efb448",
+    "retained_file_sha256": "dc7b6c31420d2581647de757e46fb3eaa31eb81d28add0cbaab2ce8d29efb448",
+    "backend": "gmft",
+    "source_page_receipt_matches": true,
+    "scope": "Unreviewed parsercanonical body, not agent output candidate."
+  },
+  "retained_output_retrieval": [
+    {
+      "message_index": 9,
+      "command_sha256": "da791f87dbd308a5a1e78754bfcf207a90cfb7ce5d5df14d15439851fabba6ed",
+      "command_characters": 123,
+      "reads_retained_hint": true,
+      "operations": [
+        "grep",
+        "head"
+      ],
+      "output_characters": 855,
+      "output_utf8_bytes": 963,
+      "output_truncated": false,
+      "full_grid_recovery_proven": false
+    }
+  ],
+  "view_region_repetition": {
+    "total": 82,
+    "unique_boxes": 50,
+    "maximum_identical_box_repeat": 9,
+    "top_repeated_boxes": [
+      {
+        "box": [
+          0.07,
+          0.635,
+          0.4,
+          0.8
+        ],
+        "calls": 9
+      },
+      {
+        "box": [
+          0.38,
+          0.635,
+          0.7,
+          0.8
+        ],
+        "calls": 9
+      },
+      {
+        "box": [
+          0.65,
+          0.635,
+          0.96,
+          0.8
+        ],
+        "calls": 8
+      },
+      {
+        "box": [
+          0.38,
+          0.14,
+          0.57,
+          0.49
+        ],
+        "calls": 2
+      },
+      {
+        "box": [
+          0.55,
+          0.14,
+          0.75,
+          0.49
+        ],
+        "calls": 2
+      }
+    ]
+  },
+  "image_metadata": {
+    "blocks": 89,
+    "unique_payloads": 51,
+    "maximum_identical_repeat": 9
+  },
+  "late_calls": [
+    {
+      "message_index": 145,
+      "tool": "catalog__view_region"
+    },
+    {
+      "message_index": 147,
+      "tool": "catalog__view_region"
+    },
+    {
+      "message_index": 149,
+      "tool": "catalog__view_region"
+    },
+    {
+      "message_index": 151,
+      "tool": "catalog__view_region"
+    },
+    {
+      "message_index": 153,
+      "tool": "catalog__view_region"
+    },
+    {
+      "message_index": 155,
+      "tool": "catalog__view_region"
+    },
+    {
+      "message_index": 157,
+      "tool": "catalog__view_region"
+    },
+    {
+      "message_index": 159,
+      "tool": "catalog__view_region"
+    },
+    {
+      "message_index": 161,
+      "tool": "catalog__view_region"
+    },
+    {
+      "message_index": 163,
+      "tool": "catalog__view_region"
+    },
+    {
+      "message_index": 165,
+      "tool": "catalog__view_region"
+    },
+    {
+      "message_index": 167,
+      "tool": "catalog__view_region"
+    },
+    {
+      "message_index": 169,
+      "tool": "catalog__view_region"
+    },
+    {
+      "message_index": 171,
+      "tool": "catalog__view_region"
+    },
+    {
+      "message_index": 173,
+      "tool": "catalog__view_region"
+    },
+    {
+      "message_index": 175,
+      "tool": "catalog__view_region"
+    },
+    {
+      "message_index": 177,
+      "tool": "catalog__view_region"
+    },
+    {
+      "message_index": 179,
+      "tool": "catalog__view_region"
+    },
+    {
+      "message_index": 181,
+      "tool": "catalog__view_region"
+    },
+    {
+      "message_index": 183,
+      "tool": "catalog__view_region"
+    }
+  ],
+  "save_attempts": 0,
+  "grid_save_refusals": 0,
+  "tool_errors": [],
+  "candidate_agent_deliverable_exists": false,
+  "conclusion": "read_source_table lost3217middlebytes, but no grid-save refusal occurred. Parsercanonical was fully delivered in2untruncatedchunks;layout2responses untruncated. Model performed92toolUse rounds,82crops including repeated identical regions, then outerTimeout900.488. NoEND_TURN, so generate_until_saved continuation was not trigger of loop. Causal role of directgridloss is not established.",
+  "safe_next_step": [
+    "Byte-bound/paginate native read_source_table and read_source_layout using source/page-bound range metadata, retaining spans and rawgrid; do not silently truncate native body.",
+    "Detect repeated unchanged crop/tool evidence and return source-bound no-progress guidance (use already-retained table/coordinates, identify unresolved fields, write candidate with honest uncertainty when source is ambiguous). Keep existing outerdeadline, no countcap and no provider fallback.",
+    "Retain failed33 in cohort score; do not declare recovered/improved until fresh complete15-case run."
+  ],
+  "provider_calls": 0,
+  "parser_calls": 0,
+  "changes_to_existing_artifacts": false
+}

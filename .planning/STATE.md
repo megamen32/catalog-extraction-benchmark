@@ -48,3 +48,7 @@ v0.1.0 is public. Clean installation from the public tag, dataset verification, 
 | 261012-b7d | Recognize equivalent conductivity headers; reject composite fields | 2026-10-12 | d2649e5 | [261012-b7d](./quick/261012-b7d-recognize-equivalent-conductivity-header/) |
 
 Owner permission on 2026-10-12 explicitly allows publication of public catalogue JSON examples and compact benchmark outputs with actual program versions. Raw logs, transcripts, credentials and model weights remain excluded. Historical releases and frozen grader cohorts are preserved.
+
+## Repeated frozen cohorts,2026-10-12
+
+One fresh1.4.4 cohort saved14/15 pages and368/500 chosen facts; failed33 remains0/108. Its parent interruption17 recovered only a completed source-bound adapter artifact, with native duration explicitly separated. Outputs/metadata public; no transcripts. Added independently reviewed repeatability runner: mandatory frozen bindings, at least3 rounds, adaptive bounded concurrency and retained429/failure cases. Fresh rounds2/3 for1.4.2 and1.4.4 pending; single-trial results do not choose a winner.
