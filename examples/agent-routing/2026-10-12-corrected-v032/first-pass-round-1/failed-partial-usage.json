@@ -1,0 +1,62 @@
+{
+  "partial_collector_version": "0.1.0",
+  "failed_calls": 0,
+  "calls_with_observed_usage": 0,
+  "known_failed_usage": {
+    "provider_response_records": 0,
+    "metrics": {
+      "input_total_reported": {
+        "sum": null,
+        "reported_records": 0,
+        "missing_records": 0
+      },
+      "input_uncached_reported": {
+        "sum": null,
+        "reported_records": 0,
+        "missing_records": 0
+      },
+      "input_cache_read": {
+        "sum": null,
+        "reported_records": 0,
+        "missing_records": 0
+      },
+      "input_cache_write": {
+        "sum": null,
+        "reported_records": 0,
+        "missing_records": 0
+      },
+      "output_total": {
+        "sum": null,
+        "reported_records": 0,
+        "missing_records": 0
+      },
+      "reasoning_subset": {
+        "sum": null,
+        "reported_records": 0,
+        "missing_records": 0
+      },
+      "tool_calls": {
+        "sum": null,
+        "reported_records": 0,
+        "missing_records": 0
+      },
+      "inference_duration_ms": {
+        "sum": null,
+        "reported_records": 0,
+        "missing_records": 0
+      }
+    },
+    "input_accounted": {
+      "sum": null,
+      "exact_records": 0,
+      "lower_bound_records": 0,
+      "missing_records": 0
+    }
+  },
+  "coverage_complete": false,
+  "successful_receipt_bound_usage_is_excluded": true,
+  "failed_sdk_attempts_may_omit_usage": true,
+  "declared_model_reasoning_comes_from_frozen_plan_not_usage_confirmation": true,
+  "model_calls_performed": 0,
+  "calls": []
+}

@@ -83,6 +83,10 @@
       "sha256": "8785843e42db519adc2fa06664bd8fc6e0816c392e6e396bf18bc8e94fe34a1d",
       "last_commit_time": "2026-10-13T00:00:19+03:00"
     },
+    "examples/agent-routing/2026-10-12-corrected-v032/first-pass-round-1/round.json": {
+      "sha256": "cabc95d9403c83177291fb8b0e1b58225fbcdd5e8562e6407b0749faf69a7417",
+      "last_commit_time": null
+    },
     "examples/parser-outputs/2026-10-12/manifest.json": {
       "sha256": "0748d06ed14efe5c88e2335b7d7e1e0ae4ec0869e50e6b35d47076e6d38ba0ce",
       "last_commit_time": "2026-10-12T07:19:05+03:00"
@@ -1670,9 +1674,38 @@
       "dataset": "v2",
       "stage": "first_pass",
       "primary_grader": "0.3.2",
-      "rounds": [],
+      "rounds": [
+        {
+          "round": 1,
+          "evaluations": {
+            "0.3.0": {
+              "engineering_correct": 490,
+              "engineering_expected": 520,
+              "drawing_correct": 4,
+              "drawing_expected": 21
+            },
+            "0.3.2": {
+              "engineering_correct": 492,
+              "engineering_expected": 520,
+              "drawing_correct": 4,
+              "drawing_expected": 21
+            }
+          },
+          "valid_pages": 17,
+          "expected_pages": 17,
+          "elapsed_seconds": 1987.169,
+          "elapsed_definition": "round wall at snapshot/closure; includes concurrent review and admission",
+          "timing_details": {
+            "active_budget_seconds": 1987.169,
+            "quota_hold_seconds": 0,
+            "first_pass_worker_span_seconds": 1968.427,
+            "first_pass_completed_native_seconds_sum": 1844.425
+          }
+        }
+      ],
       "receipts": [
-        "examples/agent-routing/2026-10-12-corrected-v032/manifest.json"
+        "examples/agent-routing/2026-10-12-corrected-v032/manifest.json",
+        "examples/agent-routing/2026-10-12-corrected-v032/first-pass-round-1/round.json"
       ],
       "model": "MiniMax-M3.1-Flash-Preview → glm-5.3-flash Coding Endpoint",
       "protocol": {
