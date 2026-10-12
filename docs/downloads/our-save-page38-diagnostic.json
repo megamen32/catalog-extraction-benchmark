@@ -1,0 +1,30 @@
+{
+  "status": "confirmed_native_consumer_destructive_finalize",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 38,
+  "extractor_program_source_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+  "contract_sha256": "aa97a446c59b5a207fd1ab84542de68a56c8d05e595fabde973e24da9ccc405d",
+  "root_cause": "save_page_json does not seed section storage; a later figures-only save_section plus finalize_page assembles only section files, replaces unstaged text_blocks/tables with empty lists, then overwrites the validated complete page",
+  "original_cohort_outputs_and_scores_unchanged": true,
+  "historical_prior_save_is_diagnostic_only_not_substituted_into_scores": true,
+  "model_calls_performed": 0,
+  "frozen_pins_changed": false,
+  "prior_validated_saved_candidate": {
+    "sha256": "736c188f8880134672d44a020cb2d5ff6039f3ad7366268ebe45ffe72ceabce3",
+    "text_blocks": 17,
+    "tables": 1,
+    "figures": 3,
+    "engineering_selected_correct": 72,
+    "engineering_selected_expected": 72
+  },
+  "final_native_candidate": {
+    "sha256": "94af7f463ce3f7902235d72ee867fce6d6ee1cdd753be3cfd8c0613a6fe59935",
+    "text_blocks": 0,
+    "tables": 0,
+    "figures": 1,
+    "engineering_selected_correct": 0,
+    "engineering_selected_expected": 72
+  },
+  "final_public_candidate": "examples/agent-routing/2026-10-12-mixed-v2/first-pass-round-1/catalog-4-page-038/candidate-0.json",
+  "raw_transcripts_published": false
+}

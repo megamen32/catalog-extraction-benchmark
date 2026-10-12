@@ -1,0 +1,315 @@
+{
+  "source": "byte-preserved public candidate files and immutable historical500-fact fixtures",
+  "new_model_calls": 0,
+  "candidates_modified": false,
+  "whole_page_accuracy": false,
+  "historical_profile142": {
+    "scores": [
+      483,
+      463,
+      466
+    ],
+    "expected": 500,
+    "mean_percent": 94.13333333333333,
+    "first_round_peak_percent": 96.6
+  },
+  "regrading_distribution_version": "0.2.4",
+  "historical_algorithm_sha256": "ec83ce4c6596596dc55c1ec2203b6facdc407839ca4d2d2e24d6b0755731f31a",
+  "current_initial_rounds": [
+    {
+      "round": 1,
+      "old500_correct_historical_grader024": 381,
+      "old500_percent_historical_grader024": 76.2,
+      "old500_correct_current_grader030": 381,
+      "expanded520_correct": 399,
+      "expanded520_percent": 76.7308,
+      "drawing_correct": 5,
+      "drawing_expected": 21,
+      "cases": [
+        {
+          "case_id": "catalog-1-page-017",
+          "correct_historical_grader024": 15,
+          "correct_current_grader030": 15,
+          "expected": 15,
+          "candidate": "examples/agent-routing/2026-10-12-mixed-v2/first-pass-round-1/catalog-1-page-017/candidate-0.json",
+          "sha256": "b2161d81e9c8c68e0264a93be78d91af1ecfb2724f528c6634c9689c17394d1d",
+          "status": "completed"
+        },
+        {
+          "case_id": "catalog-1-page-022",
+          "correct_historical_grader024": 15,
+          "correct_current_grader030": 15,
+          "expected": 15,
+          "candidate": "examples/agent-routing/2026-10-12-mixed-v2/first-pass-round-1/catalog-1-page-022/candidate-0.json",
+          "sha256": "f0052716749ff5ff5e839a7e63b8e85d7316369091411a05a6372d5cb7e057d2",
+          "status": "completed"
+        },
+        {
+          "case_id": "catalog-1-page-026",
+          "correct_historical_grader024": 7,
+          "correct_current_grader030": 7,
+          "expected": 15,
+          "candidate": "examples/agent-routing/2026-10-12-mixed-v2/first-pass-round-1/catalog-1-page-026/candidate-0.json",
+          "sha256": "575cf021ed349dcb9aa6c1b49c67be2dde348a772eaf4cdb97f8872eb7e4baf2",
+          "status": "completed"
+        },
+        {
+          "case_id": "catalog-2-page-060",
+          "correct_historical_grader024": 15,
+          "correct_current_grader030": 15,
+          "expected": 15,
+          "candidate": "examples/agent-routing/2026-10-12-mixed-v2/first-pass-round-1/catalog-2-page-060/candidate-0.json",
+          "sha256": "b1e84059f13cad7d68a1d61088486e28d231e1b845cd95f0436fe773cfd47a60",
+          "status": "completed"
+        },
+        {
+          "case_id": "catalog-2-page-149",
+          "correct_historical_grader024": 15,
+          "correct_current_grader030": 15,
+          "expected": 15,
+          "candidate": "examples/agent-routing/2026-10-12-mixed-v2/first-pass-round-1/catalog-2-page-149/candidate-0.json",
+          "sha256": "24e4e42e22978e5ef39635927d2059f5a5e0e37523673af39c78041a6612ed81",
+          "status": "completed"
+        },
+        {
+          "case_id": "catalog-2-page-185",
+          "correct_historical_grader024": 15,
+          "correct_current_grader030": 15,
+          "expected": 15,
+          "candidate": "examples/agent-routing/2026-10-12-mixed-v2/first-pass-round-1/catalog-2-page-185/candidate-0.json",
+          "sha256": "dcf8297c847a1d5071f0d38d56ad3504323dbde3cc8f90f9dacf43894c23f29a",
+          "status": "completed"
+        },
+        {
+          "case_id": "catalog-3-page-103",
+          "correct_historical_grader024": 0,
+          "correct_current_grader030": 0,
+          "expected": 15,
+          "candidate": null,
+          "sha256": null,
+          "status": "failed"
+        },
+        {
+          "case_id": "catalog-3-page-108",
+          "correct_historical_grader024": 15,
+          "correct_current_grader030": 15,
+          "expected": 15,
+          "candidate": "examples/agent-routing/2026-10-12-mixed-v2/first-pass-round-1/catalog-3-page-108/candidate-0.json",
+          "sha256": "9c9d09d042bf9da8dfb9c2592644c65f90429b393319c42e5f74c764206aa0bf",
+          "status": "completed"
+        },
+        {
+          "case_id": "catalog-3-page-111",
+          "correct_historical_grader024": 15,
+          "correct_current_grader030": 15,
+          "expected": 15,
+          "candidate": "examples/agent-routing/2026-10-12-mixed-v2/first-pass-round-1/catalog-3-page-111/candidate-0.json",
+          "sha256": "1a838bb25bf86331ac949af72be92cd47899992fcda48ed72ec6e745f0e6b2b0",
+          "status": "completed"
+        },
+        {
+          "case_id": "catalog-4-page-033",
+          "correct_historical_grader024": 99,
+          "correct_current_grader030": 99,
+          "expected": 108,
+          "candidate": "examples/agent-routing/2026-10-12-mixed-v2/first-pass-round-1/catalog-4-page-033/candidate-0.json",
+          "sha256": "ea2c010a1bf2995e620b395c36cb1abfa1db885bd5bb67d459f77b193aaa4fea",
+          "status": "completed"
+        },
+        {
+          "case_id": "catalog-4-page-038",
+          "correct_historical_grader024": 0,
+          "correct_current_grader030": 0,
+          "expected": 72,
+          "candidate": "examples/agent-routing/2026-10-12-mixed-v2/first-pass-round-1/catalog-4-page-038/candidate-0.json",
+          "sha256": "94af7f463ce3f7902235d72ee867fce6d6ee1cdd753be3cfd8c0613a6fe59935",
+          "status": "completed"
+        },
+        {
+          "case_id": "catalog-4-page-078",
+          "correct_historical_grader024": 140,
+          "correct_current_grader030": 140,
+          "expected": 140,
+          "candidate": "examples/agent-routing/2026-10-12-mixed-v2/first-pass-round-1/catalog-4-page-078/candidate-0.json",
+          "sha256": "c48a47bea315650a615feaed12d84c0179d092c4671e78a98837808b0ba68afa",
+          "status": "completed"
+        },
+        {
+          "case_id": "catalog-5-page-030",
+          "correct_historical_grader024": 15,
+          "correct_current_grader030": 15,
+          "expected": 15,
+          "candidate": "examples/agent-routing/2026-10-12-mixed-v2/first-pass-round-1/catalog-5-page-030/candidate-0.json",
+          "sha256": "8d2455ed14c70112d64ba054fa177585b68e5a294f90ed98f81635b4a9c7f952",
+          "status": "completed"
+        },
+        {
+          "case_id": "catalog-5-page-035",
+          "correct_historical_grader024": 15,
+          "correct_current_grader030": 15,
+          "expected": 15,
+          "candidate": "examples/agent-routing/2026-10-12-mixed-v2/first-pass-round-1/catalog-5-page-035/candidate-0.json",
+          "sha256": "a42944692f948b06cf95e42b1f5bc34ee6935d6855503df49e2646b3519b6200",
+          "status": "completed"
+        },
+        {
+          "case_id": "catalog-5-page-126",
+          "correct_historical_grader024": 0,
+          "correct_current_grader030": 0,
+          "expected": 15,
+          "candidate": null,
+          "sha256": null,
+          "status": "failed"
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "old500_correct_historical_grader024": 459,
+      "old500_percent_historical_grader024": 91.8,
+      "old500_correct_current_grader030": 459,
+      "expanded520_correct": 479,
+      "expanded520_percent": 92.1154,
+      "drawing_correct": 6,
+      "drawing_expected": 21,
+      "cases": [
+        {
+          "case_id": "catalog-1-page-017",
+          "correct_historical_grader024": 15,
+          "correct_current_grader030": 15,
+          "expected": 15,
+          "candidate": "examples/agent-routing/2026-10-12-mixed-v2/first-pass-round-2/catalog-1-page-017/candidate-0.json",
+          "sha256": "29234a62f0d307f294d0e3cd2bc7b77f2920703b1a66e716cf8424b65a64f0ac",
+          "status": "completed"
+        },
+        {
+          "case_id": "catalog-1-page-022",
+          "correct_historical_grader024": 15,
+          "correct_current_grader030": 15,
+          "expected": 15,
+          "candidate": "examples/agent-routing/2026-10-12-mixed-v2/first-pass-round-2/catalog-1-page-022/candidate-0.json",
+          "sha256": "80789a36d662f183fb7db1101655e523075410d0d587cd47578622d92cdc8e0f",
+          "status": "completed"
+        },
+        {
+          "case_id": "catalog-1-page-026",
+          "correct_historical_grader024": 14,
+          "correct_current_grader030": 14,
+          "expected": 15,
+          "candidate": "examples/agent-routing/2026-10-12-mixed-v2/first-pass-round-2/catalog-1-page-026/candidate-0.json",
+          "sha256": "078f989932eacf7a64c2c598985567f74ac971dce5ed4a46700b5d2b3c388cac",
+          "status": "completed"
+        },
+        {
+          "case_id": "catalog-2-page-060",
+          "correct_historical_grader024": 0,
+          "correct_current_grader030": 0,
+          "expected": 15,
+          "candidate": "examples/agent-routing/2026-10-12-mixed-v2/first-pass-round-2/catalog-2-page-060/candidate-0.json",
+          "sha256": "c5ca2475c1094717a2e590f8616a7f1be0478fa18b2bf6ba66ceb35dfcf71628",
+          "status": "completed"
+        },
+        {
+          "case_id": "catalog-2-page-149",
+          "correct_historical_grader024": 15,
+          "correct_current_grader030": 15,
+          "expected": 15,
+          "candidate": "examples/agent-routing/2026-10-12-mixed-v2/first-pass-round-2/catalog-2-page-149/candidate-0.json",
+          "sha256": "ff60d1744d91bf0bb5945a154756ba1606228975a43afd64bf17a240ee4b058b",
+          "status": "completed"
+        },
+        {
+          "case_id": "catalog-2-page-185",
+          "correct_historical_grader024": 15,
+          "correct_current_grader030": 15,
+          "expected": 15,
+          "candidate": "examples/agent-routing/2026-10-12-mixed-v2/first-pass-round-2/catalog-2-page-185/candidate-0.json",
+          "sha256": "74ccc83091460fe4f56efc55602cab14e7ae5cd2819e984755b02d9ceffc1f35",
+          "status": "completed"
+        },
+        {
+          "case_id": "catalog-3-page-103",
+          "correct_historical_grader024": 15,
+          "correct_current_grader030": 15,
+          "expected": 15,
+          "candidate": "examples/agent-routing/2026-10-12-mixed-v2/first-pass-round-2/catalog-3-page-103/candidate-0.json",
+          "sha256": "36d9a43eef4f33772f006a5f84e94135456b0c35c34b9d2ae7f995a2665b34ad",
+          "status": "completed"
+        },
+        {
+          "case_id": "catalog-3-page-108",
+          "correct_historical_grader024": 15,
+          "correct_current_grader030": 15,
+          "expected": 15,
+          "candidate": "examples/agent-routing/2026-10-12-mixed-v2/first-pass-round-2/catalog-3-page-108/candidate-0.json",
+          "sha256": "d750ef2544ff7ba80bbb3ac4481731c2f492a417ff509fe6e4bcd36efd2b2c25",
+          "status": "completed"
+        },
+        {
+          "case_id": "catalog-3-page-111",
+          "correct_historical_grader024": 15,
+          "correct_current_grader030": 15,
+          "expected": 15,
+          "candidate": "examples/agent-routing/2026-10-12-mixed-v2/first-pass-round-2/catalog-3-page-111/candidate-0.json",
+          "sha256": "31c9d6c724c0a49df7b0f5ad0d348e4795481f0bda0df098bc106c777290ebee",
+          "status": "completed"
+        },
+        {
+          "case_id": "catalog-4-page-033",
+          "correct_historical_grader024": 108,
+          "correct_current_grader030": 108,
+          "expected": 108,
+          "candidate": "examples/agent-routing/2026-10-12-mixed-v2/first-pass-round-2/catalog-4-page-033/candidate-0.json",
+          "sha256": "835f37e220039b5e4941d8a6bdee1c44698dc1a54d2e2560ff47ef0295e14f75",
+          "status": "completed"
+        },
+        {
+          "case_id": "catalog-4-page-038",
+          "correct_historical_grader024": 72,
+          "correct_current_grader030": 72,
+          "expected": 72,
+          "candidate": "examples/agent-routing/2026-10-12-mixed-v2/first-pass-round-2/catalog-4-page-038/candidate-0.json",
+          "sha256": "9d218e2e6b48ea5a211e3b6d7a207c3b7bd8ce3c704cd1099b01db7aaeb25076",
+          "status": "completed"
+        },
+        {
+          "case_id": "catalog-4-page-078",
+          "correct_historical_grader024": 132,
+          "correct_current_grader030": 132,
+          "expected": 140,
+          "candidate": "examples/agent-routing/2026-10-12-mixed-v2/first-pass-round-2/catalog-4-page-078/candidate-0.json",
+          "sha256": "3ef4e3f0c30dd07705838f6e542d81d1cae1cd1abd4c5c72263fcc1187ea78c0",
+          "status": "completed"
+        },
+        {
+          "case_id": "catalog-5-page-030",
+          "correct_historical_grader024": 13,
+          "correct_current_grader030": 13,
+          "expected": 15,
+          "candidate": "examples/agent-routing/2026-10-12-mixed-v2/first-pass-round-2/catalog-5-page-030/candidate-0.json",
+          "sha256": "2079e1ad1f803472d8f4d840785b5ab2267fac2e8c023fc3ac460f20ad23a3ea",
+          "status": "completed"
+        },
+        {
+          "case_id": "catalog-5-page-035",
+          "correct_historical_grader024": 15,
+          "correct_current_grader030": 15,
+          "expected": 15,
+          "candidate": "examples/agent-routing/2026-10-12-mixed-v2/first-pass-round-2/catalog-5-page-035/candidate-0.json",
+          "sha256": "7d94a790f0c0facbc00a31ddc2c0e1142981f21b60e0ccd4b0a9224b39d87d52",
+          "status": "completed"
+        },
+        {
+          "case_id": "catalog-5-page-126",
+          "correct_historical_grader024": 0,
+          "correct_current_grader030": 0,
+          "expected": 15,
+          "candidate": null,
+          "sha256": null,
+          "status": "failed"
+        }
+      ]
+    }
+  ],
+  "final_reviewed_three_round_pipeline_finished": false
+}
