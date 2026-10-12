@@ -1,0 +1,7 @@
+# Fresh first-pass snapshot: round 2, 17 pages
+
+The exact native MiniMax extractor 1.4.2/parser plugin0.2.1 produced 16/17 valid initial candidates. Missing/failed outputs score zero on the fixed 17-page denominator. First-pass selected engineering accuracy is 479/520; scoped drawing accuracy is 6/21; combined 485/541 (89.65%). Corrected offline grader0.3.1 gives 479/520 + 6/21. Supported language/symbol offline grader 0.3.2 gives 479/520 + 6/21. All three grader versions and exact candidate bytes are retained.
+
+This measures the first extractor pass before normal GLM reviewer 1.4.8 review/repair, not accepted catalogue delivery. At this snapshot, 4/17 pages were accepted: delivery selected accuracy 56/541. The independent, sequential three-round run continues; no repaired candidate is substituted into these first-pass outputs. No gold or previous output was supplied to the agents. The full-catalogue conversion continues separately.
+
+Selected assertions cover 520 engineering facts and 21 drawing checks, not every statement or whole-page correctness. Compare this stage only against another profile's initial valid candidates on the same 17-page dataset, counting failures zero; it is not the final two-agent result. Native durations and worker-cycle/admission waits are separate in summary.json. Raw transcripts remain private; observed token metrics are collected separately and failed SDK usage may be unknown.
