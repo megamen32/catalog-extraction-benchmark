@@ -1,0 +1,29 @@
+{
+  "cases": [
+    {
+      "id": "catalog-4-page-078",
+      "source": "inputs/Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+      "page": 78,
+      "fixture": "annotations/fixtures/catalog-4-page-078.json"
+    }
+  ],
+  "projects": [
+    {
+      "id": "catalog-to-json",
+      "version": "replace-with-your-pinned-parser-version",
+      "cwd": "../catalog-to-json",
+      "command": [
+        "uv", "run", "catalog-json", "benchmark", "extract", "{source}",
+        "--page", "{page}", "--model", "{model}", "--config", "fastagent.config.yaml",
+        "--output", "{run_dir}/extraction", "--call-timeout", "300"
+      ],
+      "artifact": "extraction/page-0078/candidate-0.json",
+      "model_receipt": "extraction/run.json",
+      "stage": "first_pass"
+    }
+  ],
+  "models": ["zai.glm-5.3-flash?reasoning=low", "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium"],
+  "repeats": 1,
+  "timeout_seconds": 330,
+  "deadline_seconds": 900
+}

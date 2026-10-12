@@ -1,0 +1,455 @@
+{
+  "schema_version": "1.0",
+  "id": "engineering-catalogs-v1",
+  "version": "1.0.0",
+  "scanned_source_pages": 980,
+  "selected_pages": 15,
+  "source_documents_included": false,
+  "cases": [
+    {
+      "id": "catalog-1-page-017",
+      "source_filename": "opn.pdf",
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "physical_page": 17,
+      "printed_page": 17,
+      "source_page_count": 60,
+      "product_family": "surge_arresters",
+      "selection_reason": "Две таблицы; повёрнутые многоуровневые заголовки, общие параметры в объединениях, десятичные запятые и размеры двух исполнений.",
+      "difficulty_tags": [
+        "rotated_text",
+        "ruled_tables",
+        "dense_text",
+        "small_text",
+        "dimensioned_diagrams"
+      ],
+      "difficulty_features": {
+        "rotated_lines": 45,
+        "tiny_spans": 151,
+        "horizontal_rules": 645,
+        "vertical_rules": 579,
+        "dimension_tokens": 63
+      },
+      "fixture": "fixtures/catalog-1-page-017.json",
+      "coverage": {
+        "complete_table_body": false,
+        "engineering_facts": 15,
+        "full_page_ground_truth": false
+      }
+    },
+    {
+      "id": "catalog-1-page-022",
+      "source_filename": "opn.pdf",
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "physical_page": 22,
+      "printed_page": 22,
+      "source_page_count": 60,
+      "product_family": "surge_arresters",
+      "selection_reason": "Два набора характеристик с одинаковыми заголовками: риск переноса общих значений между независимыми таблицами; очень мелкие параметры.",
+      "difficulty_tags": [
+        "rotated_text",
+        "ruled_tables",
+        "dense_text",
+        "small_text",
+        "dimensioned_diagrams"
+      ],
+      "difficulty_features": {
+        "rotated_lines": 54,
+        "tiny_spans": 151,
+        "horizontal_rules": 560,
+        "vertical_rules": 568,
+        "dimension_tokens": 75
+      },
+      "fixture": "fixtures/catalog-1-page-022.json",
+      "coverage": {
+        "complete_table_body": false,
+        "engineering_facts": 15,
+        "full_page_ground_truth": false
+      }
+    },
+    {
+      "id": "catalog-1-page-026",
+      "source_filename": "opn.pdf",
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "physical_page": 26,
+      "printed_page": 26,
+      "source_page_count": 60,
+      "product_family": "surge_arresters",
+      "selection_reason": "Мелкие разрезы и виды крепления рядом с двумя плотными таблицами; много размеров и общих ячеек.",
+      "difficulty_tags": [
+        "rotated_text",
+        "ruled_tables",
+        "dense_text",
+        "small_text",
+        "dimensioned_diagrams"
+      ],
+      "difficulty_features": {
+        "rotated_lines": 54,
+        "tiny_spans": 189,
+        "horizontal_rules": 785,
+        "vertical_rules": 611,
+        "dimension_tokens": 89
+      },
+      "fixture": "fixtures/catalog-1-page-026.json",
+      "coverage": {
+        "complete_table_body": false,
+        "engineering_facts": 15,
+        "full_page_ground_truth": false
+      }
+    },
+    {
+      "id": "catalog-2-page-060",
+      "source_filename": "Malyj-katalog.pdf",
+      "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+      "physical_page": 60,
+      "printed_page": null,
+      "source_page_count": 228,
+      "product_family": "manufacturer_cross_reference",
+      "selection_reason": "Сопоставление трёх производителей в одной большой таблице; разные разбиения строк, объединения, диапазоны, косые черты и прочерки.",
+      "difficulty_tags": [
+        "rotated_text",
+        "ruled_tables",
+        "dense_text",
+        "small_text",
+        "dimensioned_diagrams"
+      ],
+      "difficulty_features": {
+        "rotated_lines": 12,
+        "tiny_spans": 385,
+        "horizontal_rules": 491,
+        "vertical_rules": 940,
+        "dimension_tokens": 93
+      },
+      "fixture": "fixtures/catalog-2-page-060.json",
+      "coverage": {
+        "complete_table_body": false,
+        "engineering_facts": 15,
+        "full_page_ground_truth": false
+      }
+    },
+    {
+      "id": "catalog-2-page-149",
+      "source_filename": "Malyj-katalog.pdf",
+      "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+      "physical_page": 149,
+      "printed_page": 148,
+      "source_page_count": 228,
+      "product_family": "bird_safe_surge_insulators",
+      "selection_reason": "Многоуровневая очень широкая шапка, символы, вращение, два чертежа и условное обозначение с расшифровкой.",
+      "difficulty_tags": [
+        "rotated_text",
+        "ruled_tables",
+        "dense_text",
+        "small_text",
+        "dimensioned_diagrams"
+      ],
+      "difficulty_features": {
+        "rotated_lines": 41,
+        "tiny_spans": 57,
+        "horizontal_rules": 4729,
+        "vertical_rules": 641,
+        "dimension_tokens": 87
+      },
+      "fixture": "fixtures/catalog-2-page-149.json",
+      "coverage": {
+        "complete_table_body": false,
+        "engineering_facts": 15,
+        "full_page_ground_truth": false
+      }
+    },
+    {
+      "id": "catalog-2-page-185",
+      "source_filename": "Malyj-katalog.pdf",
+      "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+      "physical_page": 185,
+      "printed_page": 184,
+      "source_page_count": 228,
+      "product_family": "surge_arresters",
+      "selection_reason": "Две отдельные таблицы с повторяющимися заголовками, тонкие линии, очень мелкие размерные подписи, общие значения.",
+      "difficulty_tags": [
+        "rotated_text",
+        "ruled_tables",
+        "dense_text",
+        "small_text",
+        "dimensioned_diagrams"
+      ],
+      "difficulty_features": {
+        "rotated_lines": 52,
+        "tiny_spans": 171,
+        "horizontal_rules": 434,
+        "vertical_rules": 555,
+        "dimension_tokens": 66
+      },
+      "fixture": "fixtures/catalog-2-page-185.json",
+      "coverage": {
+        "complete_table_body": false,
+        "engineering_facts": 15,
+        "full_page_ground_truth": false
+      }
+    },
+    {
+      "id": "catalog-3-page-103",
+      "source_filename": "Katalog-ARMATURA.pdf",
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 103,
+      "printed_page": 102,
+      "source_page_count": 314,
+      "product_family": "tension_clamps",
+      "selection_reason": "Длинная таблица с вложенными объединениями разной высоты и многострочными названиями/деталями; несколько размерных групп.",
+      "difficulty_tags": [
+        "rotated_text",
+        "ruled_tables",
+        "dense_text",
+        "small_text",
+        "dimensioned_diagrams"
+      ],
+      "difficulty_features": {
+        "rotated_lines": 8,
+        "tiny_spans": 436,
+        "horizontal_rules": 569,
+        "vertical_rules": 1269,
+        "dimension_tokens": 31
+      },
+      "fixture": "fixtures/catalog-3-page-103.json",
+      "coverage": {
+        "complete_table_body": false,
+        "engineering_facts": 15,
+        "full_page_ground_truth": false
+      }
+    },
+    {
+      "id": "catalog-3-page-108",
+      "source_filename": "Katalog-ARMATURA.pdf",
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 108,
+      "printed_page": 107,
+      "source_page_count": 314,
+      "product_family": "tension_clamps",
+      "selection_reason": "Несколько разрезов и сечений над таблицей; мелкие допуски, марки, вложенные объединения и порядок чтения.",
+      "difficulty_tags": [
+        "rotated_text",
+        "ruled_tables",
+        "small_text",
+        "dimensioned_diagrams"
+      ],
+      "difficulty_features": {
+        "rotated_lines": 12,
+        "tiny_spans": 204,
+        "horizontal_rules": 403,
+        "vertical_rules": 470,
+        "dimension_tokens": 21
+      },
+      "fixture": "fixtures/catalog-3-page-108.json",
+      "coverage": {
+        "complete_table_body": false,
+        "engineering_facts": 15,
+        "full_page_ground_truth": false
+      }
+    },
+    {
+      "id": "catalog-3-page-111",
+      "source_filename": "Katalog-ARMATURA.pdf",
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 111,
+      "printed_page": 110,
+      "source_page_count": 314,
+      "product_family": "tension_clamps",
+      "selection_reason": "Много строк, связанные группы параметров и объединения на разных уровнях; символы диаметров и разрезы.",
+      "difficulty_tags": [
+        "rotated_text",
+        "ruled_tables",
+        "small_text",
+        "dimensioned_diagrams"
+      ],
+      "difficulty_features": {
+        "rotated_lines": 8,
+        "tiny_spans": 238,
+        "horizontal_rules": 346,
+        "vertical_rules": 595,
+        "dimension_tokens": 17
+      },
+      "fixture": "fixtures/catalog-3-page-111.json",
+      "coverage": {
+        "complete_table_body": false,
+        "engineering_facts": 15,
+        "full_page_ground_truth": false
+      }
+    },
+    {
+      "id": "catalog-4-page-033",
+      "source_filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 33,
+      "printed_page": 33,
+      "source_page_count": 216,
+      "product_family": "suspension_polymer_insulators",
+      "selection_reason": "Три подробных чертежа, сноски и примечания, многоуровневая шапка с повёрнутыми подзаголовками, связанные группы строк.",
+      "difficulty_tags": [
+        "rotated_text",
+        "ruled_tables",
+        "dense_text",
+        "small_text",
+        "dimensioned_diagrams"
+      ],
+      "difficulty_features": {
+        "rotated_lines": 34,
+        "tiny_spans": 61,
+        "horizontal_rules": 464,
+        "vertical_rules": 284,
+        "dimension_tokens": 96
+      },
+      "fixture": "fixtures/catalog-4-page-033.json",
+      "coverage": {
+        "complete_table_body": true,
+        "engineering_facts": 108,
+        "full_page_ground_truth": false
+      }
+    },
+    {
+      "id": "catalog-4-page-038",
+      "source_filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 38,
+      "printed_page": 38,
+      "source_page_count": 216,
+      "product_family": "suspension_polymer_insulators",
+      "selection_reason": "Три исполнения с мелкими размерами, длинные сноски, плотная шапка и общие значения в нескольких группах строк.",
+      "difficulty_tags": [
+        "rotated_text",
+        "ruled_tables",
+        "small_text",
+        "dimensioned_diagrams"
+      ],
+      "difficulty_features": {
+        "rotated_lines": 35,
+        "tiny_spans": 66,
+        "horizontal_rules": 436,
+        "vertical_rules": 289,
+        "dimension_tokens": 85
+      },
+      "fixture": "fixtures/catalog-4-page-038.json",
+      "coverage": {
+        "complete_table_body": true,
+        "engineering_facts": 72,
+        "full_page_ground_truth": false
+      }
+    },
+    {
+      "id": "catalog-4-page-078",
+      "source_filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 78,
+      "printed_page": 78,
+      "source_page_count": 216,
+      "product_family": "rod_support_polymer_insulators",
+      "selection_reason": "Проверенный стартовый кейс: две таблицы, объединения, пустые ячейки, повёрнутые заголовки, Н/H, B1/B2, СЗ и допуск ±2.",
+      "difficulty_tags": [
+        "rotated_text",
+        "ruled_tables",
+        "dimensioned_diagrams"
+      ],
+      "difficulty_features": {
+        "rotated_lines": 21,
+        "tiny_spans": 1,
+        "horizontal_rules": 236,
+        "vertical_rules": 75,
+        "dimension_tokens": 74
+      },
+      "fixture": "fixtures/catalog-4-page-078.json",
+      "coverage": {
+        "complete_table_body": true,
+        "engineering_facts": 140,
+        "full_page_ground_truth": false
+      }
+    },
+    {
+      "id": "catalog-5-page-030",
+      "source_filename": "Katalog-IZOLJaTORY.pdf",
+      "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+      "physical_page": 30,
+      "printed_page": 29,
+      "source_page_count": 162,
+      "product_family": "line_support_insulators",
+      "selection_reason": "Две таблицы в другом порядке, несколько модификаций и способов крепления, связанные размеры и общие параметры.",
+      "difficulty_tags": [
+        "rotated_text",
+        "ruled_tables",
+        "dense_text",
+        "small_text",
+        "dimensioned_diagrams"
+      ],
+      "difficulty_features": {
+        "rotated_lines": 42,
+        "tiny_spans": 140,
+        "horizontal_rules": 401,
+        "vertical_rules": 425,
+        "dimension_tokens": 94
+      },
+      "fixture": "fixtures/catalog-5-page-030.json",
+      "coverage": {
+        "complete_table_body": false,
+        "engineering_facts": 15,
+        "full_page_ground_truth": false
+      }
+    },
+    {
+      "id": "catalog-5-page-035",
+      "source_filename": "Katalog-IZOLJaTORY.pdf",
+      "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+      "physical_page": 35,
+      "printed_page": 34,
+      "source_page_count": 162,
+      "product_family": "bird_safe_surge_insulators",
+      "selection_reason": "Четыре рисунка с несколькими разрезами/размерами; номера рисунков связывают строки таблицы с исполнениями, есть сноска.",
+      "difficulty_tags": [
+        "rotated_text",
+        "ruled_tables",
+        "small_text",
+        "dimensioned_diagrams"
+      ],
+      "difficulty_features": {
+        "rotated_lines": 54,
+        "tiny_spans": 95,
+        "horizontal_rules": 581,
+        "vertical_rules": 571,
+        "dimension_tokens": 72
+      },
+      "fixture": "fixtures/catalog-5-page-035.json",
+      "coverage": {
+        "complete_table_body": false,
+        "engineering_facts": 15,
+        "full_page_ground_truth": false
+      }
+    },
+    {
+      "id": "catalog-5-page-126",
+      "source_filename": "Katalog-IZOLJaTORY.pdf",
+      "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+      "physical_page": 126,
+      "printed_page": 125,
+      "source_page_count": 162,
+      "product_family": "line_support_insulators",
+      "selection_reason": "Семь разрезов и план; длинная таблица с массами, обозначениями и мелкими размерами, переменные объединения.",
+      "difficulty_tags": [
+        "rotated_text",
+        "ruled_tables",
+        "dense_text",
+        "small_text",
+        "dimensioned_diagrams"
+      ],
+      "difficulty_features": {
+        "rotated_lines": 26,
+        "tiny_spans": 283,
+        "horizontal_rules": 663,
+        "vertical_rules": 711,
+        "dimension_tokens": 121
+      },
+      "fixture": "fixtures/catalog-5-page-126.json",
+      "coverage": {
+        "complete_table_body": false,
+        "engineering_facts": 15,
+        "full_page_ground_truth": false
+      }
+    }
+  ],
+  "annotation_policy": "Source-only visual inspection and independent review before candidate comparison; source errata are explicit, output artifacts never repair gold."
+}

@@ -1,0 +1,260 @@
+{
+  "schema_version": "1.0",
+  "id": "catalog-5-page-030",
+  "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+  "page": 30,
+  "provenance": "Source-only visual audit with repeated original-page inspection and independent reviewers. See docs/ANNOTATIONS.md for coverage and errata.",
+  "tables": [],
+  "selected_profile": "arm-iz",
+  "selected_facts": [
+    {
+      "table_index": 0,
+      "row_key": "ОЛСК 6-10-2..ОЛСК 12,5-10-4",
+      "column": "Номинальное напряжение",
+      "expected": "10",
+      "unit": "кВ",
+      "kind": "merged",
+      "scope": {
+        "products": [
+          "ОЛСК 6-10-2",
+          "ОЛСК 6-10-4",
+          "ОЛСК 12,5-10-2",
+          "ОЛСК 12,5-10-4"
+        ],
+        "conductor": null,
+        "part": null
+      }
+    },
+    {
+      "table_index": 0,
+      "row_key": "ОЛСК 6-10-2 и ОЛСК 6-10-4",
+      "column": "Нормированная разрушающая сила при изгибе",
+      "expected": "6,0",
+      "unit": "кН",
+      "kind": "merged",
+      "scope": {
+        "products": [
+          "ОЛСК 6-10-2",
+          "ОЛСК 6-10-4"
+        ],
+        "conductor": null,
+        "part": null
+      }
+    },
+    {
+      "table_index": 0,
+      "row_key": "ОЛСК 12,5-10-2 и ОЛСК 12,5-10-4",
+      "column": "Нормированная разрушающая сила при изгибе",
+      "expected": "12,5",
+      "unit": "кН",
+      "kind": "merged",
+      "scope": {
+        "products": [
+          "ОЛСК 12,5-10-2",
+          "ОЛСК 12,5-10-4"
+        ],
+        "conductor": null,
+        "part": null
+      }
+    },
+    {
+      "table_index": 0,
+      "row_key": "все4строки верхнейтаблицы",
+      "column": "Полный грозовой импульс",
+      "expected": "120",
+      "unit": "кВ",
+      "kind": "merged",
+      "scope": {
+        "products": [
+          "ОЛСК 6-10-2",
+          "ОЛСК 6-10-4",
+          "ОЛСК 12,5-10-2",
+          "ОЛСК 12,5-10-4"
+        ],
+        "conductor": null,
+        "part": null
+      }
+    },
+    {
+      "table_index": 0,
+      "row_key": "ОЛСК 6-10-2",
+      "column": "Удельная поверхностная проводимость слоя загрязнения",
+      "expected": "10",
+      "unit": "мкСм",
+      "kind": "literal",
+      "scope": {
+        "products": [
+          "ОЛСК 6-10-2"
+        ],
+        "conductor": null,
+        "part": null
+      }
+    },
+    {
+      "table_index": 0,
+      "row_key": "ОЛСК 6-10-4",
+      "column": "Удельная поверхностная проводимость слоя загрязнения",
+      "expected": "30",
+      "unit": "мкСм",
+      "kind": "literal",
+      "scope": {
+        "products": [
+          "ОЛСК 6-10-4"
+        ],
+        "conductor": null,
+        "part": null
+      }
+    },
+    {
+      "table_index": 0,
+      "row_key": "ОЛСК 6-10-4",
+      "column": "Допустимая степень загрязнения",
+      "expected": "IV",
+      "unit": null,
+      "kind": "literal",
+      "scope": {
+        "products": [
+          "ОЛСК 6-10-4"
+        ],
+        "conductor": null,
+        "part": null
+      }
+    },
+    {
+      "table_index": 1,
+      "row_key": "ОЛСК 6-10-А(Б)-2",
+      "column": "H",
+      "expected": "215",
+      "unit": "мм",
+      "kind": "literal",
+      "scope": {
+        "products": [
+          "ОЛСК 6-10-А(Б)-2"
+        ],
+        "conductor": null,
+        "part": null
+      }
+    },
+    {
+      "table_index": 1,
+      "row_key": "ОЛСК 6-10-В-2",
+      "column": "H",
+      "expected": "240",
+      "unit": "мм",
+      "kind": "literal",
+      "scope": {
+        "products": [
+          "ОЛСК 6-10-В-2"
+        ],
+        "conductor": null,
+        "part": null
+      }
+    },
+    {
+      "table_index": 1,
+      "row_key": "ОЛСК 6-10-В-4",
+      "column": "H",
+      "expected": "220",
+      "unit": "мм",
+      "kind": "literal",
+      "note": "220 в источнике, не240",
+      "scope": {
+        "products": [
+          "ОЛСК 6-10-В-4"
+        ],
+        "conductor": null,
+        "part": null
+      }
+    },
+    {
+      "table_index": 1,
+      "row_key": "ОЛСК 12,5-10-А(Б)-4 и ОЛСК 12,5-10-В-4",
+      "column": "d",
+      "expected": "115",
+      "unit": "мм",
+      "kind": "merged",
+      "scope": {
+        "products": [
+          "ОЛСК 12,5-10-А(Б)-4",
+          "ОЛСК 12,5-10-В-4"
+        ],
+        "conductor": null,
+        "part": null
+      }
+    },
+    {
+      "table_index": 1,
+      "row_key": "первые4строки нижнейтаблицы",
+      "column": "h*",
+      "expected": "40",
+      "unit": "мм",
+      "kind": "merged",
+      "scope": {
+        "products": [
+          "ОЛСК 6-10-А(Б)-2",
+          "ОЛСК 6-10-В-2",
+          "ОЛСК 6-10-А(Б)-4",
+          "ОЛСК 6-10-В-4"
+        ],
+        "conductor": null,
+        "part": null
+      }
+    },
+    {
+      "table_index": 1,
+      "row_key": "ОЛСК 6-10-В-2-h Исп.1",
+      "column": "H",
+      "expected": "255",
+      "unit": "мм",
+      "kind": "literal",
+      "scope": {
+        "products": [
+          "ОЛСК 6-10-В-2-h Исп.1"
+        ],
+        "conductor": null,
+        "part": null
+      }
+    },
+    {
+      "table_index": 1,
+      "row_key": "ОЛСК 12,5-10-А(Б)-2-h Исп.1..ОЛСК 12,5-10-В-4-h Исп.1",
+      "column": "D",
+      "expected": "М24**",
+      "unit": "мм",
+      "kind": "merged",
+      "scope": {
+        "products": [
+          "ОЛСК 12,5-10-А(Б)-2-h Исп.1",
+          "ОЛСК 12,5-10-В-2-h Исп.1",
+          "ОЛСК 12,5-10-А(Б)-4-h Исп.1",
+          "ОЛСК 12,5-10-В-4-h Исп.1"
+        ],
+        "conductor": null,
+        "part": null
+      }
+    },
+    {
+      "table_index": 1,
+      "row_key": "всеh Исп.1 в нижнейтаблице",
+      "column": "h*",
+      "expected": "*",
+      "unit": "мм",
+      "kind": "merged",
+      "note": "Звездочка имеет сноску Длина шпильки может быть определена заказом",
+      "scope": {
+        "products": [
+          "ОЛСК 6-10-А(Б)-2-h Исп.1",
+          "ОЛСК 6-10-В-2-h Исп.1",
+          "ОЛСК 6-10-А(Б)-4-h Исп.1",
+          "ОЛСК 6-10-В-4-h Исп.1",
+          "ОЛСК 12,5-10-А(Б)-2-h Исп.1",
+          "ОЛСК 12,5-10-В-2-h Исп.1",
+          "ОЛСК 12,5-10-А(Б)-4-h Исп.1",
+          "ОЛСК 12,5-10-В-4-h Исп.1"
+        ],
+        "conductor": null,
+        "part": null
+      }
+    }
+  ]
+}
