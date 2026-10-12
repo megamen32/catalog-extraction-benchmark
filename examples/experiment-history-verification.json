@@ -1,0 +1,127 @@
+{
+  "status": "PASS",
+  "public_revision": "5c2356e",
+  "public_files_downloaded_and_exact": 23,
+  "profiles": 33,
+  "same_output_old_and_new_grades_retained": true,
+  "source_receipt_hashes_verified": 19,
+  "additional_model_calls": 0,
+  "additional_parser_calls": 0,
+  "files": [
+    {
+      "file": "ops/render-experiment-history.py",
+      "sha256": "007e73b462b8bdcf8533e9777426fab942ae712cae0ea5de3aba2807158a9309",
+      "bytes": 29153
+    },
+    {
+      "file": "docs/EXPERIMENT-HISTORY-RU.md",
+      "sha256": "c3aec579a3adb3e0175fac3007f1c19412d1e131e97789b6a94df850bb8ab575",
+      "bytes": 27680
+    },
+    {
+      "file": "examples/experiment-history.json",
+      "sha256": "702d017a46c58e7c3d35f429d354d531cb8796f99a645048a7d98f1e9ae068f5",
+      "bytes": 115940
+    },
+    {
+      "file": "README.md",
+      "sha256": "164ce5278df825c1a914df3b5b9434f8b8c30f097970f5394db38d076f4270b9",
+      "bytes": 4374
+    },
+    {
+      "file": "examples/agent-routing/2026-10-12-v1.4.1/manifest.json",
+      "sha256": "4243f08156c8e5486bbc0f5ad47298d61c416735cd099252aed285d4338527a9",
+      "bytes": 125150
+    },
+    {
+      "file": "examples/agent-routing/2026-10-12-repeated-runs/manifest.json",
+      "sha256": "ed73615fb66f690baf9fa67e44484a74e8e32ba07ecd4e9443d74e4b8cf637f7",
+      "bytes": 465289
+    },
+    {
+      "file": "examples/agent-routing/2026-10-12-repeated-runs/regrade-v0.2.4.json",
+      "sha256": "9a1a7f013d28ea33fa369016ab4f411fd0a86ae4bc5ac0c10ba9af9023db1871",
+      "bytes": 242602
+    },
+    {
+      "file": "examples/agent-routing/2026-10-12-fresh-v1.4.6/manifest.json",
+      "sha256": "64cbf6df5877839bda1fc7f64f75f3b0ec5ac1239de8ada1ed6d1abfd4413c39",
+      "bytes": 244443
+    },
+    {
+      "file": "examples/offline-regrading/2026-10-12-v032/summary.json",
+      "sha256": "c4e1c7fe98c4ce6c8ebf76a363510296ee1671f342a5d27be97b468a2f9d493a",
+      "bytes": 5950
+    },
+    {
+      "file": "examples/agent-routing/2026-10-12-mixed-v2/first-pass-round-1/summary.json",
+      "sha256": "f257d86a241c8fe2c4ffcc440ccfd8fefdfb1c0f1caeec97ce1457452831d0a0",
+      "bytes": 29870
+    },
+    {
+      "file": "examples/agent-routing/2026-10-12-mixed-v2/first-pass-round-2/summary.json",
+      "sha256": "eaf6a52e0d06f37f374450948cebf8fb34ab85a806ef55c9c177360c624197ea",
+      "bytes": 32573
+    },
+    {
+      "file": "examples/project-x/2026-10-12-native-vision-v1-full/manifest.json",
+      "sha256": "ce329103fb7642ffbe253c6ecd7e96273bd49baddab6b1a2ea0aaf8954adedfd",
+      "bytes": 5052
+    },
+    {
+      "file": "examples/project-x/2026-10-12-native-vision-v1-full/summary.json",
+      "sha256": "952c57442fc606a31b9b7b43ea8f0e81f642b069221129435ac8d021f86cb818",
+      "bytes": 3669
+    },
+    {
+      "file": "examples/project-x/2026-10-12-native-vision-v1-full/glm-5.3-flash/round-1/results.json",
+      "sha256": "1a21ac70c3b330f3cb3d129d80624b92386b7dd9153a62ab7de05ba2f5c1adfb",
+      "bytes": 38249
+    },
+    {
+      "file": "examples/project-x/2026-10-12-native-vision-v1-full/glm-5.3-flash/round-2/results.json",
+      "sha256": "c47a9ffc0c08e9f40827cc9170885073a4188fb858727d0b9b946d43c461b389",
+      "bytes": 42915
+    },
+    {
+      "file": "examples/project-x/2026-10-12-native-vision-v1-full/glm-5.3-flash/round-3/results.json",
+      "sha256": "4874bcf6258c7040d7729f471ca51efeeb9ab78cf8279f3bd1d14982dbbbb8ba",
+      "bytes": 41755
+    },
+    {
+      "file": "examples/project-x/2026-10-12-native-vision-v1-full/MiniMax-M3.1-Flash-Preview/round-1/results.json",
+      "sha256": "93ffcddc9d1dd478662c5b9858c032c58af7430c35a61792cdf655e7b2512090",
+      "bytes": 46242
+    },
+    {
+      "file": "examples/project-x/2026-10-12-native-vision-v1-full/MiniMax-M3.1-Flash-Preview/round-2/results.json",
+      "sha256": "4b67f9e6f63b03ad944060cb3b99784cb4ed7b4fe3501b127de1036714cb1e49",
+      "bytes": 47715
+    },
+    {
+      "file": "examples/project-x/2026-10-12-native-vision-v1-full/MiniMax-M3.1-Flash-Preview/round-3/results.json",
+      "sha256": "fcb3ea977ef156c07b60bb345128dfb79966a00c405b0aef94ca9e0351825286",
+      "bytes": 46555
+    },
+    {
+      "file": "examples/project-x/2026-10-12/manifest.json",
+      "sha256": "b2074fbf53cc108d97152bc25693b66c8cae5dfffe6f71a0423a73c18d53484c",
+      "bytes": 25340
+    },
+    {
+      "file": "examples/agent-routing/2026-10-12-corrected-v032/manifest.json",
+      "sha256": "8785843e42db519adc2fa06664bd8fc6e0816c392e6e396bf18bc8e94fe34a1d",
+      "bytes": 10838
+    },
+    {
+      "file": "examples/parser-outputs/2026-10-12/manifest.json",
+      "sha256": "0748d06ed14efe5c88e2335b7d7e1e0ae4ec0869e50e6b35d47076e6d38ba0ce",
+      "bytes": 1068181
+    },
+    {
+      "file": "examples/parser-outputs/2026-10-12/regrade-v0.2.2.json",
+      "sha256": "38cbc8652d8b4ccfd429dd624faeed630d60fcbf2565fae5a5c1f82596ca978b",
+      "bytes": 175232
+    }
+  ]
+}
