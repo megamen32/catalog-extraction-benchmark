@@ -33,3 +33,5 @@ Export annotations with `catalog-bench dataset --export annotations`, then follo
 [Dataset and annotation coverage](docs/DATASET.md) · [Scoring rules](docs/SCORING.md) · [Source audit and errata](docs/ANNOTATIONS.md) · [Contributing](CONTRIBUTING.md)
 
 [Ready-made solutions and measured parser results](docs/READY-SOLUTIONS.md)
+
+[Как выбирать инструменты и проверить пользу для агента](docs/TOOL-ROUTING.md)
