@@ -46,7 +46,7 @@ def header_matches(f, c):
         if want and (not want.issubset(have) or len(have) > len(want)):
             return False
         for duration in ['8/20', '30/60']:
-            if duration in p and not re.search(r'(?<![\d.,])' + re.escape(duration) + r'(?![\d.,])', h):
+            if duration in p and not re.search(r'(?<!\d)(?<!\d[.,])' + duration.replace('/', r'\s*/\s*') + r'(?!\d)(?![.,]\d)', text(c)):
                 return False
         return True
     if 'наибольшее' in p:

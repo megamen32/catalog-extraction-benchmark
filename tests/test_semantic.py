@@ -116,3 +116,9 @@ def test_pulse_durations_are_not_substrings_of_larger_numbers():
     for expected,observed,current in [('8/20','18/20','5 кА'),('30/60','130/60','125 А')]:
         assert not header_matches({'parameter':f'остающееся при {current} {expected}'},{'label':f'Остающееся напряжение при {current} {observed}'})
         assert header_matches({'parameter':f'остающееся при {current} {expected}'},{'label':f'Остающееся напряжение при {current} {expected}'})
+
+
+def test_pulse_duration_after_abbreviation_period_is_valid():
+    from catalog_bench.profiles.opn_small import header_matches
+    assert header_matches({'parameter':'остающееся при 5 кА 8/20'}, {'label':'Остающееся напряжение при грозовых импульсах тока длит. 8/20 величиной: 5 кА', 'unit':'кВ'})
+    assert not header_matches({'parameter':'остающееся при 5 кА 8/20'}, {'label':'Остающееся напряжение при 5 кА 1.8/20', 'unit':'кВ'})
