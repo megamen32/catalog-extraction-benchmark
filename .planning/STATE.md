@@ -11,10 +11,10 @@ See: .planning/PROJECT.md (updated 2026-10-12)
 
 Phase: 3 of 3 (Public release)
 Plan: 1 of 1 in current phase
-Status: In progress
-Last activity: 2026-10-12 — Initialized from accepted user request and existing reviewed benchmark.
+Status: Complete
+Last activity: 2026-10-12 — Published v0.1.0 and verified installation from the public tag.
 
-Progress: [░░░░░░░░░░] 67%
+Progress: [██████████] 100%
 
 ## Accumulated Context
 
@@ -24,7 +24,7 @@ Keep raw documents, private chat and historical model outputs outside the public
 
 ### Pending Todos
 
-Package, verify and release the independent benchmark.
+None for this release.
 
 ### Blockers/Concerns
 
@@ -33,5 +33,9 @@ No source code is available for the external saved-results baseline. This does n
 ## Session Continuity
 
 Last session: 2026-10-12
-Stopped at: Dataset and evaluator checked; publishing and testing the installed public release.
+Stopped at: Public release installed, dataset/demo and real artifact grading verified; requested delivery complete.
 Resume file: None
+
+## Release verification
+
+v0.1.0 is public. Clean installation from the public tag, dataset verification, synthetic 4-arm execution/resume and grading of saved artifacts from both solutions succeeded. 37 tests passed. CI template is in examples because the publishing credential lacks workflow scope; local make check is available. Original documents and historical outputs remain excluded.

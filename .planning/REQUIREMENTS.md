@@ -18,8 +18,8 @@
 
 ### Release
 
-- [ ] **SHIP-01**: User can install a pinned public release and execute a complete synthetic demo without model credentials.
-- [ ] **SHIP-02**: Public files contain no supplied documents, screenshots, private chat or historical candidate outputs.
+- [x] **SHIP-01**: User can install a pinned public release and execute a complete synthetic demo without model credentials.
+- [x] **SHIP-02**: Public files contain no supplied documents, screenshots, private chat or historical candidate outputs.
 
 ## v2 Requirements
 
@@ -41,5 +41,5 @@ None assigned by this task.
 | EVAL-01 | Phase 2 | Complete |
 | EVAL-02 | Phase 2 | Complete |
 | EVAL-03 | Phase 2 | Complete |
-| SHIP-01 | Phase 3 | Pending |
-| SHIP-02 | Phase 3 | Pending |
+| SHIP-01 | Phase 3 | Complete |
+| SHIP-02 | Phase 3 | Complete |

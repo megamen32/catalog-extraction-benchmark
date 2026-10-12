@@ -12,14 +12,14 @@ Compare both solutions with the same frozen source-grounded rules, without repai
 
 ### Validated
 
-(None yet — ship to validate)
+Public release v0.1.0 installs from its GitHub tag; the standalone dataset, demo and real saved-artifact grading work.
 
 ### Active
 
-- [ ] Publish an independent installable benchmark with versioned annotations.
-- [ ] Score canonical JSON and imported saved JSONL results consistently.
-- [ ] Run arbitrary project × model matrices with immutable receipts.
-- [ ] Preserve partial coverage and unknown runtime information explicitly.
+- [x] Publish an independent installable benchmark with versioned annotations.
+- [x] Score canonical JSON and imported saved JSONL results consistently.
+- [x] Run arbitrary project × model matrices with immutable receipts.
+- [x] Preserve partial coverage and unknown runtime information explicitly.
 
 ### Out of Scope
 
@@ -41,9 +41,9 @@ The benchmark was developed alongside catalog-to-json. The difficult anchor is p
 
 | Decision | Rationale | Outcome |
 |----------|-----------|---------|
-| Independent benchmark package | Neither competing parser owns grading | Pending |
-| Publish source-reviewed facts, keep raw documents private | Reproducible grading without distributing user attachments | Pending |
-| Separate literal, engineering and coverage metrics | Equal numbers can belong to different fields or conditions | Pending |
+| Independent benchmark package | Neither competing parser owns grading | Verified |
+| Publish source-reviewed facts, keep raw documents private | Reproducible grading without distributing user attachments | Verified |
+| Separate literal, engineering and coverage metrics | Equal numbers can belong to different fields or conditions | Verified |
 
 ---
 *Last updated: 2026-10-12 after initialization*

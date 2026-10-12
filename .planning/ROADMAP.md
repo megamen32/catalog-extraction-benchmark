@@ -8,7 +8,7 @@ Package the reviewed difficult-page dataset, deliver independent grading and ada
 
 - [x] **Phase 1: Frozen dataset** - Publish reviewed source facts and explicit coverage.
 - [x] **Phase 2: Independent evaluator** - Deliver grading, saved-result import and project/model execution.
-- [ ] **Phase 3: Public release** - Verify real installation and publish versioned repository.
+- [x] **Phase 3: Public release** - Verify real installation and publish versioned repository.
 
 ## Phase Details
 
@@ -47,7 +47,7 @@ Plans:
 **Plans**: 1 plan
 
 Plans:
-- [ ] 03-01: Document, independently review, publish and verify installation.
+- [x] 03-01: Document, independently review, publish and verify installation.
 
 ## Progress
 
@@ -55,4 +55,4 @@ Plans:
 |-------|----------------|--------|-----------|
 | 1. Frozen dataset | 1/1 | Complete | 2026-10-12 |
 | 2. Independent evaluator | 1/1 | Complete | 2026-10-12 |
-| 3. Public release | 0/1 | In progress | - |
+| 3. Public release | 1/1 | Complete | 2026-10-12 |
