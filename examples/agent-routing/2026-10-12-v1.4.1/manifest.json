@@ -1,0 +1,3583 @@
+{
+  "stage": "first_pass",
+  "reviewer_run": false,
+  "gold_feedback": false,
+  "whole_page_accuracy": false,
+  "failed_attempts_in_denominator": true,
+  "grader_version": "0.2.2",
+  "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c",
+  "dataset_version": "1.0.0",
+  "program_revision": "ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+  "package_version": "1.4.1",
+  "source_archive_sha256": "7c3cbf591e62c73119008137706f02f0a5bb1c3eb4612fb056d5f80d5a94e778",
+  "contract_sha256": "1e7ab4a211aeddfbeb683b5e4c50c8ea93012f644a38d2b9e058ddbf6c873850",
+  "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+  "max_tokens": 16384,
+  "call_timeout_seconds": 900,
+  "adapter_timeout_seconds": 930,
+  "runtime_versions": {
+    "catalog-to-json": "1.4.1",
+    "fast-agent-mcp": "0.10.43",
+    "pymupdf": "1.28.2",
+    "pydantic": "2.13.5",
+    "anthropic": "1.11.0"
+  },
+  "order": "case78 first; fixed baseline then extended within eachcase; fresh perrun cache/output; shared preexistingHFmodeldownloadcache; no controlledinferencespeedclaim",
+  "arm_available_tools": {
+    "baseline": "Docling/PyMuPDF4LLM; CATALOG_PARSER_EXECUTORS absent",
+    "extended": "Sameplugin/core/skills + img2table/gmft via originalExecutorJSON"
+  },
+  "timing_limitation": "Sequential fixed order; shared model download cache; cold/warm runtime not controlled. Sum includes timeouts. No controlled speed winner.",
+  "interpretation": "Additional img2table/gmft availability was not exercised; both arms used Docling only and never read parser body artifacts. Scores do not establish causality for those backends.",
+  "arms": {
+    "baseline": {
+      "correct": 479,
+      "expected": 500,
+      "weighted_percent": 95.8,
+      "catalogue_macro_percent": 90.67,
+      "completed_pages": 14,
+      "expected_pages": 15,
+      "elapsed_seconds_sum": 2774.459,
+      "actual_parser_conversion_counts": {
+        "docling": 11
+      },
+      "parser_body_read_calls": 0,
+      "catalogue_counts": {
+        "4": [
+          320,
+          320
+        ],
+        "1": [
+          39,
+          45
+        ],
+        "2": [
+          30,
+          45
+        ],
+        "3": [
+          45,
+          45
+        ],
+        "5": [
+          45,
+          45
+        ]
+      }
+    },
+    "extended": {
+      "correct": 467,
+      "expected": 500,
+      "weighted_percent": 93.4,
+      "catalogue_macro_percent": 92.97,
+      "completed_pages": 15,
+      "expected_pages": 15,
+      "elapsed_seconds_sum": 2022.972,
+      "actual_parser_conversion_counts": {
+        "docling": 3
+      },
+      "parser_body_read_calls": 0,
+      "catalogue_counts": {
+        "4": [
+          300,
+          320
+        ],
+        "1": [
+          39,
+          45
+        ],
+        "2": [
+          39,
+          45
+        ],
+        "3": [
+          45,
+          45
+        ],
+        "5": [
+          44,
+          45
+        ]
+      }
+    }
+  },
+  "cases": [
+    {
+      "case_id": "catalog-4-page-078",
+      "arm": "baseline",
+      "status": "completed",
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 78,
+      "fixture_sha256": "86e767f7af5fdbc24d208112c9c1b6c2b1a3771e3348a130f179db4e7d4ac8b6",
+      "tested_program": {
+        "git_revision": "ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "package_version": "1.4.1",
+        "declared_version": "1.4.1-source-ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "contract_sha256": "1e7ab4a211aeddfbeb683b5e4c50c8ea93012f644a38d2b9e058ddbf6c873850",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "elapsed_seconds": 131.855,
+      "output": {
+        "file": "baseline/catalog-4-page-078.json",
+        "sha256": "b390ed1c542b6f1770fceab1ee64c38c2a2b8705e689015e720ca47b78ccb9fe",
+        "bytes": 27721
+      },
+      "historical_grader_version": "0.2.0",
+      "historical_correct": 140,
+      "correct": 140,
+      "expected": 140,
+      "fact_statuses": {
+        "passed": 140
+      },
+      "failed_checks": [],
+      "catalog_tool_counts": {
+        "catalog__load_skill": 1,
+        "catalog__extract_direct": 1,
+        "catalog__view_page": 1,
+        "catalog__read_source_layout": 1,
+        "catalog__get_json_schema": 1,
+        "catalog__read_source_table": 3,
+        "catalog__view_region": 3,
+        "catalog__save_page_json": 1,
+        "catalog__read_external_audit": 1
+      },
+      "parser_capability_calls": 1,
+      "attempted_backends": [
+        "docling"
+      ],
+      "actual_conversions": [
+        {
+          "backend": "docling",
+          "status": "completed",
+          "physical_page": 78,
+          "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee"
+        }
+      ],
+      "region_requests": {
+        "total": 3,
+        "unique": 3,
+        "exact_repeats": 0
+      }
+    },
+    {
+      "case_id": "catalog-4-page-078",
+      "arm": "extended",
+      "status": "completed",
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 78,
+      "fixture_sha256": "86e767f7af5fdbc24d208112c9c1b6c2b1a3771e3348a130f179db4e7d4ac8b6",
+      "tested_program": {
+        "git_revision": "ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "package_version": "1.4.1",
+        "declared_version": "1.4.1-source-ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "contract_sha256": "1e7ab4a211aeddfbeb683b5e4c50c8ea93012f644a38d2b9e058ddbf6c873850",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "elapsed_seconds": 84.949,
+      "output": {
+        "file": "extended/catalog-4-page-078.json",
+        "sha256": "8c8d8f4f1cdec61d678a73ad3dcf2d383573ce7434d174825c35b6bc5c93bd16",
+        "bytes": 27792
+      },
+      "historical_grader_version": "0.2.0",
+      "historical_correct": 120,
+      "correct": 120,
+      "expected": 140,
+      "fact_statuses": {
+        "passed": 120,
+        "wrong": 16,
+        "missing": 4
+      },
+      "failed_checks": [
+        {
+          "id": "t0-r0-c5",
+          "identity": "ОСК 8-150-А-2",
+          "field": "Диаметр ребер D",
+          "expected": "170",
+          "status": "wrong",
+          "observed": "1360",
+          "observed_state": "value",
+          "value_and_state": false,
+          "literal_match": false,
+          "conditions": {
+            "field": true,
+            "unit": true,
+            "bounds": true,
+            "frequency": true
+          },
+          "column_id": "c7",
+          "row_index": 0
+        },
+        {
+          "id": "t0-r0-c6",
+          "identity": "ОСК 8-150-А-2",
+          "field": "Изоляционная высота L",
+          "expected": "1360",
+          "status": "wrong",
+          "observed": "170",
+          "observed_state": "value",
+          "value_and_state": false,
+          "literal_match": false,
+          "conditions": {
+            "field": true,
+            "unit": true,
+            "bounds": true,
+            "frequency": true
+          },
+          "column_id": "c6",
+          "row_index": 0
+        },
+        {
+          "id": "t0-r0-c8",
+          "identity": "ОСК 8-150-А-2",
+          "field": "Выдерживаемое напряжение полного грозового импульса",
+          "expected": "650",
+          "status": "wrong",
+          "observed": "150",
+          "observed_state": "value",
+          "value_and_state": false,
+          "literal_match": false,
+          "conditions": {
+            "field": true,
+            "unit": true,
+            "bounds": true,
+            "frequency": true
+          },
+          "column_id": "c12",
+          "row_index": 0
+        },
+        {
+          "id": "t0-r0-c11",
+          "identity": "ОСК 8-150-А-2",
+          "field": "Разрядное напряжение 50 Гц в загрязненном и увлажненном состоянии",
+          "expected": "150",
+          "status": "missing"
+        },
+        {
+          "id": "t0-r0-c12",
+          "identity": "ОСК 8-150-А-2",
+          "field": "Нормированная удельная поверхностная проводимость слоя загрязнения",
+          "expected": "10",
+          "status": "wrong",
+          "observed": "650",
+          "observed_state": "value",
+          "value_and_state": false,
+          "literal_match": false,
+          "conditions": {
+            "field": true,
+            "unit": true,
+            "bounds": true,
+            "frequency": true
+          },
+          "column_id": "c9",
+          "row_index": 0
+        },
+        {
+          "id": "t0-r1-c5",
+          "identity": "ОСК 8-150-Б-3",
+          "field": "Диаметр ребер D",
+          "expected": "170",
+          "status": "wrong",
+          "observed": "1460",
+          "observed_state": "value",
+          "value_and_state": false,
+          "literal_match": false,
+          "conditions": {
+            "field": true,
+            "unit": true,
+            "bounds": true,
+            "frequency": true
+          },
+          "column_id": "c7",
+          "row_index": 1
+        },
+        {
+          "id": "t0-r1-c6",
+          "identity": "ОСК 8-150-Б-3",
+          "field": "Изоляционная высота L",
+          "expected": "1460",
+          "status": "wrong",
+          "observed": "170",
+          "observed_state": "value",
+          "value_and_state": false,
+          "literal_match": false,
+          "conditions": {
+            "field": true,
+            "unit": true,
+            "bounds": true,
+            "frequency": true
+          },
+          "column_id": "c6",
+          "row_index": 1
+        },
+        {
+          "id": "t0-r1-c8",
+          "identity": "ОСК 8-150-Б-3",
+          "field": "Выдерживаемое напряжение полного грозового импульса",
+          "expected": "650",
+          "status": "wrong",
+          "observed": "150",
+          "observed_state": "value",
+          "value_and_state": false,
+          "literal_match": false,
+          "conditions": {
+            "field": true,
+            "unit": true,
+            "bounds": true,
+            "frequency": true
+          },
+          "column_id": "c12",
+          "row_index": 1
+        },
+        {
+          "id": "t0-r1-c11",
+          "identity": "ОСК 8-150-Б-3",
+          "field": "Разрядное напряжение 50 Гц в загрязненном и увлажненном состоянии",
+          "expected": "150",
+          "status": "missing"
+        },
+        {
+          "id": "t0-r1-c12",
+          "identity": "ОСК 8-150-Б-3",
+          "field": "Нормированная удельная поверхностная проводимость слоя загрязнения",
+          "expected": "20",
+          "status": "wrong",
+          "observed": "650",
+          "observed_state": "value",
+          "value_and_state": false,
+          "literal_match": false,
+          "conditions": {
+            "field": true,
+            "unit": true,
+            "bounds": true,
+            "frequency": true
+          },
+          "column_id": "c9",
+          "row_index": 1
+        },
+        {
+          "id": "t0-r2-c5",
+          "identity": "ОСК 10-150-А-2",
+          "field": "Диаметр ребер D",
+          "expected": "170",
+          "status": "wrong",
+          "observed": "1360",
+          "observed_state": "value",
+          "value_and_state": false,
+          "literal_match": false,
+          "conditions": {
+            "field": true,
+            "unit": true,
+            "bounds": true,
+            "frequency": true
+          },
+          "column_id": "c7",
+          "row_index": 2
+        },
+        {
+          "id": "t0-r2-c6",
+          "identity": "ОСК 10-150-А-2",
+          "field": "Изоляционная высота L",
+          "expected": "1360",
+          "status": "wrong",
+          "observed": "170",
+          "observed_state": "value",
+          "value_and_state": false,
+          "literal_match": false,
+          "conditions": {
+            "field": true,
+            "unit": true,
+            "bounds": true,
+            "frequency": true
+          },
+          "column_id": "c6",
+          "row_index": 2
+        },
+        {
+          "id": "t0-r2-c8",
+          "identity": "ОСК 10-150-А-2",
+          "field": "Выдерживаемое напряжение полного грозового импульса",
+          "expected": "650",
+          "status": "wrong",
+          "observed": "150",
+          "observed_state": "value",
+          "value_and_state": false,
+          "literal_match": false,
+          "conditions": {
+            "field": true,
+            "unit": true,
+            "bounds": true,
+            "frequency": true
+          },
+          "column_id": "c12",
+          "row_index": 2
+        },
+        {
+          "id": "t0-r2-c11",
+          "identity": "ОСК 10-150-А-2",
+          "field": "Разрядное напряжение 50 Гц в загрязненном и увлажненном состоянии",
+          "expected": "150",
+          "status": "missing"
+        },
+        {
+          "id": "t0-r2-c12",
+          "identity": "ОСК 10-150-А-2",
+          "field": "Нормированная удельная поверхностная проводимость слоя загрязнения",
+          "expected": "10",
+          "status": "wrong",
+          "observed": "650",
+          "observed_state": "value",
+          "value_and_state": false,
+          "literal_match": false,
+          "conditions": {
+            "field": true,
+            "unit": true,
+            "bounds": true,
+            "frequency": true
+          },
+          "column_id": "c9",
+          "row_index": 2
+        },
+        {
+          "id": "t0-r3-c5",
+          "identity": "ОСК 10-150-Б-3",
+          "field": "Диаметр ребер D",
+          "expected": "170",
+          "status": "wrong",
+          "observed": "1460",
+          "observed_state": "value",
+          "value_and_state": false,
+          "literal_match": false,
+          "conditions": {
+            "field": true,
+            "unit": true,
+            "bounds": true,
+            "frequency": true
+          },
+          "column_id": "c7",
+          "row_index": 3
+        },
+        {
+          "id": "t0-r3-c6",
+          "identity": "ОСК 10-150-Б-3",
+          "field": "Изоляционная высота L",
+          "expected": "1460",
+          "status": "wrong",
+          "observed": "170",
+          "observed_state": "value",
+          "value_and_state": false,
+          "literal_match": false,
+          "conditions": {
+            "field": true,
+            "unit": true,
+            "bounds": true,
+            "frequency": true
+          },
+          "column_id": "c6",
+          "row_index": 3
+        },
+        {
+          "id": "t0-r3-c8",
+          "identity": "ОСК 10-150-Б-3",
+          "field": "Выдерживаемое напряжение полного грозового импульса",
+          "expected": "650",
+          "status": "wrong",
+          "observed": "150",
+          "observed_state": "value",
+          "value_and_state": false,
+          "literal_match": false,
+          "conditions": {
+            "field": true,
+            "unit": true,
+            "bounds": true,
+            "frequency": true
+          },
+          "column_id": "c12",
+          "row_index": 3
+        },
+        {
+          "id": "t0-r3-c11",
+          "identity": "ОСК 10-150-Б-3",
+          "field": "Разрядное напряжение 50 Гц в загрязненном и увлажненном состоянии",
+          "expected": "150",
+          "status": "missing"
+        },
+        {
+          "id": "t0-r3-c12",
+          "identity": "ОСК 10-150-Б-3",
+          "field": "Нормированная удельная поверхностная проводимость слоя загрязнения",
+          "expected": "20",
+          "status": "wrong",
+          "observed": "650",
+          "observed_state": "value",
+          "value_and_state": false,
+          "literal_match": false,
+          "conditions": {
+            "field": true,
+            "unit": true,
+            "bounds": true,
+            "frequency": true
+          },
+          "column_id": "c9",
+          "row_index": 3
+        }
+      ],
+      "catalog_tool_counts": {
+        "catalog__load_skill": 1,
+        "catalog__view_page": 1,
+        "catalog__extract_direct": 1,
+        "catalog__get_json_schema": 1,
+        "catalog__read_source_table": 2,
+        "catalog__view_region": 3,
+        "catalog__read_source_layout": 1,
+        "catalog__read_external_audit": 1,
+        "catalog__save_page_json": 1
+      },
+      "parser_capability_calls": 1,
+      "attempted_backends": [],
+      "actual_conversions": [],
+      "region_requests": {
+        "total": 3,
+        "unique": 3,
+        "exact_repeats": 0
+      }
+    },
+    {
+      "case_id": "catalog-1-page-017",
+      "arm": "baseline",
+      "status": "completed",
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "physical_page": 17,
+      "fixture_sha256": "5147637fe66b27a76079c3ee59c948d4f30963f40ec03649d9ac0ee3c57ccec4",
+      "tested_program": {
+        "git_revision": "ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "package_version": "1.4.1",
+        "declared_version": "1.4.1-source-ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "contract_sha256": "1e7ab4a211aeddfbeb683b5e4c50c8ea93012f644a38d2b9e058ddbf6c873850",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "elapsed_seconds": 242.393,
+      "output": {
+        "file": "baseline/catalog-1-page-017.json",
+        "sha256": "27691c85a26aad8bee60e5edf7ff6bcd9d7272bbb1b6a725f6f215a24648fbd2",
+        "bytes": 44786
+      },
+      "historical_grader_version": "0.2.0",
+      "historical_correct": 15,
+      "correct": 15,
+      "expected": 15,
+      "fact_statuses": {
+        "passed": 15
+      },
+      "failed_checks": [],
+      "catalog_tool_counts": {
+        "catalog__load_skill": 1,
+        "catalog__extract_direct": 1,
+        "catalog__view_page": 1,
+        "catalog__read_source_table": 4,
+        "catalog__view_region": 2,
+        "catalog__read_source_layout": 1,
+        "catalog__read_external_audit": 1,
+        "catalog__get_json_schema": 1,
+        "catalog__save_page_json": 2
+      },
+      "parser_capability_calls": 1,
+      "attempted_backends": [
+        "docling"
+      ],
+      "actual_conversions": [
+        {
+          "backend": "docling",
+          "status": "completed",
+          "physical_page": 17,
+          "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2"
+        }
+      ],
+      "region_requests": {
+        "total": 2,
+        "unique": 2,
+        "exact_repeats": 0
+      }
+    },
+    {
+      "case_id": "catalog-1-page-017",
+      "arm": "extended",
+      "status": "completed",
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "physical_page": 17,
+      "fixture_sha256": "5147637fe66b27a76079c3ee59c948d4f30963f40ec03649d9ac0ee3c57ccec4",
+      "tested_program": {
+        "git_revision": "ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "package_version": "1.4.1",
+        "declared_version": "1.4.1-source-ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "contract_sha256": "1e7ab4a211aeddfbeb683b5e4c50c8ea93012f644a38d2b9e058ddbf6c873850",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "elapsed_seconds": 83.841,
+      "output": {
+        "file": "extended/catalog-1-page-017.json",
+        "sha256": "aadc4cebb4d1c5c1076b98cfcb03d072f9db12f2b00d53a2cfa721fa07cbd972",
+        "bytes": 47679
+      },
+      "historical_grader_version": "0.2.0",
+      "historical_correct": 9,
+      "correct": 9,
+      "expected": 15,
+      "fact_statuses": {
+        "passed": 9,
+        "wrong": 6
+      },
+      "failed_checks": [
+        {
+          "id": "selected-03",
+          "expected": {
+            "location": "top table",
+            "entity": "ОПН-П-10/10,5/10/1,1-III УХЛ1",
+            "parameter": "остающееся при 5 кА 8/20",
+            "value": "31,5",
+            "unit": "кВ"
+          },
+          "status": "wrong",
+          "reason": "Physical unit'кВ' not explicit in column/unit/header/group.",
+          "candidate_evidence": [
+            {
+              "table_index": 0,
+              "table_id": "t1",
+              "row_index": 0,
+              "column_index": 3,
+              "column": {
+                "id": "c4",
+                "label": "5 кА",
+                "unit": "кА",
+                "group": "Остающееся напряжение (кВ), при грозовых импульсах тока длит. 8/20 величиной",
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c4",
+                "value": "31,5",
+                "state": "value"
+              },
+              "row_identity_values": [
+                "ОПН-П-10/10,5/10/1,1-III УХЛ1"
+              ]
+            }
+          ],
+          "literal_value_match": true,
+          "normalization": [
+            "literal"
+          ],
+          "schema_warnings": [
+            "Column.unit='кА' conflicts with expected physical unit 'кВ'; semantic unit may remain recoverable from header/group."
+          ],
+          "raw_semantic_recoverability": {
+            "value_and_identity": true,
+            "unit_in_header": true
+          }
+        },
+        {
+          "id": "selected-04",
+          "expected": {
+            "location": "top table",
+            "entity": "ОПН-П-10/10,5/10/1,1-III УХЛ1",
+            "parameter": "остающееся при 125 А 30/60",
+            "value": "-",
+            "unit": "кВ"
+          },
+          "status": "wrong",
+          "reason": "Physical unit'кВ' not explicit in column/unit/header/group.",
+          "candidate_evidence": [
+            {
+              "table_index": 0,
+              "table_id": "t1",
+              "row_index": 0,
+              "column_index": 6,
+              "column": {
+                "id": "c7",
+                "label": "125 А",
+                "unit": "А",
+                "group": "Остающееся напряжение (кВ), при следующих значениях коммутационных токов длительностью 30/60 мкс",
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c7",
+                "value": "-",
+                "state": "value"
+              },
+              "row_identity_values": [
+                "ОПН-П-10/10,5/10/1,1-III УХЛ1"
+              ]
+            }
+          ],
+          "literal_value_match": true,
+          "normalization": [
+            "literal"
+          ],
+          "schema_warnings": [
+            "Column.unit='А' conflicts with expected physical unit 'кВ'; semantic unit may remain recoverable from header/group."
+          ],
+          "raw_semantic_recoverability": {
+            "value_and_identity": true,
+            "unit_in_header": true
+          }
+        },
+        {
+          "id": "selected-05",
+          "expected": {
+            "location": "top table",
+            "entity": "ОПН-П-10/12,7/10/1,1-IV УХЛ1",
+            "parameter": "остающееся при 1000 А 30/60",
+            "value": "33,3",
+            "unit": "кВ"
+          },
+          "status": "wrong",
+          "reason": "Physical unit'кВ' not explicit in column/unit/header/group.",
+          "candidate_evidence": [
+            {
+              "table_index": 0,
+              "table_id": "t1",
+              "row_index": 7,
+              "column_index": 9,
+              "column": {
+                "id": "c10",
+                "label": "1000 А",
+                "unit": "А",
+                "group": "Остающееся напряжение (кВ), при следующих значениях коммутационных токов длительностью 30/60 мкс",
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c10",
+                "value": "33,3",
+                "state": "value"
+              },
+              "row_identity_values": [
+                "ОПН-П-10/12,7/10/1,1-IV УХЛ1"
+              ]
+            }
+          ],
+          "literal_value_match": true,
+          "normalization": [
+            "literal"
+          ],
+          "schema_warnings": [
+            "Column.unit='А' conflicts with expected physical unit 'кВ'; semantic unit may remain recoverable from header/group."
+          ],
+          "raw_semantic_recoverability": {
+            "value_and_identity": true,
+            "unit_in_header": true
+          }
+        },
+        {
+          "id": "selected-10",
+          "expected": {
+            "location": "lower table",
+            "entity": "ОПН-П-10/10,5/10/1,2-III УХЛ1",
+            "parameter": "остающееся при 5 кА 8/20",
+            "value": "30,7",
+            "unit": "кВ"
+          },
+          "status": "wrong",
+          "reason": "Physical unit'кВ' not explicit in column/unit/header/group.",
+          "candidate_evidence": [
+            {
+              "table_index": 1,
+              "table_id": "t2",
+              "row_index": 0,
+              "column_index": 3,
+              "column": {
+                "id": "c4",
+                "label": "5 кА",
+                "unit": "кА",
+                "group": "Остающееся напряжение (кВ), при грозовых импульсах тока длит. 8/20 величиной",
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c4",
+                "value": "30,7",
+                "state": "value"
+              },
+              "row_identity_values": [
+                "ОПН-П-10/10,5/10/1,2-III УХЛ1"
+              ]
+            }
+          ],
+          "literal_value_match": true,
+          "normalization": [
+            "literal"
+          ],
+          "schema_warnings": [
+            "Column.unit='кА' conflicts with expected physical unit 'кВ'; semantic unit may remain recoverable from header/group."
+          ],
+          "raw_semantic_recoverability": {
+            "value_and_identity": true,
+            "unit_in_header": true
+          }
+        },
+        {
+          "id": "selected-11",
+          "expected": {
+            "location": "lower table",
+            "entity": "ОПН-П-10/10,5/10/1,2-III УХЛ1",
+            "parameter": "остающееся при 250 А 30/60",
+            "value": "24,8",
+            "unit": "кВ"
+          },
+          "status": "wrong",
+          "reason": "Physical unit'кВ' not explicit in column/unit/header/group.",
+          "candidate_evidence": [
+            {
+              "table_index": 1,
+              "table_id": "t2",
+              "row_index": 0,
+              "column_index": 6,
+              "column": {
+                "id": "c7",
+                "label": "250 А",
+                "unit": "А",
+                "group": "Остающееся напряжение (кВ), при следующих значениях коммутационных токов длительностью 30/60 мкс",
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c7",
+                "value": "24,8",
+                "state": "value"
+              },
+              "row_identity_values": [
+                "ОПН-П-10/10,5/10/1,2-III УХЛ1"
+              ]
+            }
+          ],
+          "literal_value_match": true,
+          "normalization": [
+            "literal"
+          ],
+          "schema_warnings": [
+            "Column.unit='А' conflicts with expected physical unit 'кВ'; semantic unit may remain recoverable from header/group."
+          ],
+          "raw_semantic_recoverability": {
+            "value_and_identity": true,
+            "unit_in_header": true
+          }
+        },
+        {
+          "id": "selected-12",
+          "expected": {
+            "location": "lower table",
+            "entity": "ОПН-П-10/12,7/10/1,2-IV УХЛ1",
+            "parameter": "остающееся при 20 кА 8/20",
+            "value": "45,6",
+            "unit": "кВ"
+          },
+          "status": "wrong",
+          "reason": "Physical unit'кВ' not explicit in column/unit/header/group.",
+          "candidate_evidence": [
+            {
+              "table_index": 1,
+              "table_id": "t2",
+              "row_index": 7,
+              "column_index": 5,
+              "column": {
+                "id": "c6",
+                "label": "20 кА",
+                "unit": "кА",
+                "group": "Остающееся напряжение (кВ), при грозовых импульсах тока длит. 8/20 величиной",
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c6",
+                "value": "45,6",
+                "state": "value"
+              },
+              "row_identity_values": [
+                "ОПН-П-10/12,7/10/1,2-IV УХЛ1"
+              ]
+            }
+          ],
+          "literal_value_match": true,
+          "normalization": [
+            "literal"
+          ],
+          "schema_warnings": [
+            "Column.unit='кА' conflicts with expected physical unit 'кВ'; semantic unit may remain recoverable from header/group."
+          ],
+          "raw_semantic_recoverability": {
+            "value_and_identity": true,
+            "unit_in_header": true
+          }
+        }
+      ],
+      "catalog_tool_counts": {
+        "catalog__load_skill": 1,
+        "catalog__extract_direct": 1,
+        "catalog__view_page": 1,
+        "catalog__get_json_schema": 1,
+        "catalog__read_source_table": 2,
+        "catalog__view_region": 8,
+        "catalog__read_external_audit": 1,
+        "catalog__save_page_json": 1
+      },
+      "parser_capability_calls": 1,
+      "attempted_backends": [],
+      "actual_conversions": [],
+      "region_requests": {
+        "total": 8,
+        "unique": 8,
+        "exact_repeats": 0
+      }
+    },
+    {
+      "case_id": "catalog-1-page-022",
+      "arm": "baseline",
+      "status": "completed",
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "physical_page": 22,
+      "fixture_sha256": "a1187e1a23848883bfb7d776a1289e3ccc09f9675493c1e5b4def85be8589654",
+      "tested_program": {
+        "git_revision": "ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "package_version": "1.4.1",
+        "declared_version": "1.4.1-source-ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "contract_sha256": "1e7ab4a211aeddfbeb683b5e4c50c8ea93012f644a38d2b9e058ddbf6c873850",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "elapsed_seconds": 174.106,
+      "output": {
+        "file": "baseline/catalog-1-page-022.json",
+        "sha256": "dcdd91525800bf72e7a4ee9709209ca32d9f3f11654f1319a62de7a1a93169f3",
+        "bytes": 41999
+      },
+      "historical_grader_version": "0.2.0",
+      "historical_correct": 9,
+      "correct": 9,
+      "expected": 15,
+      "fact_statuses": {
+        "passed": 9,
+        "wrong": 6
+      },
+      "failed_checks": [
+        {
+          "id": "selected-06",
+          "expected": {
+            "location": "top table",
+            "entity": "все 6 обозначений",
+            "parameter": "заряд пропускной способности",
+            "value": "0,8",
+            "unit": "Кл"
+          },
+          "status": "wrong",
+          "reason": "Value row0: expected'0,8', actualNone.; Cell row0 stateblank cannot stand for printed literal'0,8'.; Value row1: expected'0,8', actualNone.; Cell row1 stateblank cannot stand for printed literal'0,8'.; Value row4: expected'0,8', actualNone.; Cell row4 stateblank cannot stand for printed literal'0,8'.; Value row5: expected'0,8', actualNone.; Cell row5 stateblank cannot stand for printed literal'0,8'.",
+          "candidate_evidence": [
+            {
+              "table_index": 0,
+              "table_id": "t22_1",
+              "row_index": 0,
+              "column_index": 11,
+              "column": {
+                "id": "c12",
+                "label": "Заряд пропускной способности",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c12",
+                "value": null,
+                "state": "blank"
+              },
+              "row_identity_values": [
+                "ОПН-П-15/17,5/10/0,8-III УХЛ1"
+              ]
+            },
+            {
+              "table_index": 0,
+              "table_id": "t22_1",
+              "row_index": 1,
+              "column_index": 11,
+              "column": {
+                "id": "c12",
+                "label": "Заряд пропускной способности",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c12",
+                "value": null,
+                "state": "blank"
+              },
+              "row_identity_values": [
+                "ОПН-П-15/17,5/10/0,8-IV УХЛ1"
+              ]
+            },
+            {
+              "table_index": 0,
+              "table_id": "t22_1",
+              "row_index": 2,
+              "column_index": 11,
+              "column": {
+                "id": "c12",
+                "label": "Заряд пропускной способности",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c12",
+                "value": "0,8",
+                "state": "value"
+              },
+              "row_identity_values": [
+                "ОПН-П-15/18/10/0,8-III УХЛ1"
+              ]
+            },
+            {
+              "table_index": 0,
+              "table_id": "t22_1",
+              "row_index": 3,
+              "column_index": 11,
+              "column": {
+                "id": "c12",
+                "label": "Заряд пропускной способности",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c12",
+                "value": "0,8",
+                "state": "value"
+              },
+              "row_identity_values": [
+                "ОПН-П-15/18/10/0,8-IV УХЛ1"
+              ]
+            },
+            {
+              "table_index": 0,
+              "table_id": "t22_1",
+              "row_index": 4,
+              "column_index": 11,
+              "column": {
+                "id": "c12",
+                "label": "Заряд пропускной способности",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c12",
+                "value": null,
+                "state": "blank"
+              },
+              "row_identity_values": [
+                "ОПН-П-15/19/10/0,8-III УХЛ1"
+              ]
+            },
+            {
+              "table_index": 0,
+              "table_id": "t22_1",
+              "row_index": 5,
+              "column_index": 11,
+              "column": {
+                "id": "c12",
+                "label": "Заряд пропускной способности",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c12",
+                "value": null,
+                "state": "blank"
+              },
+              "row_identity_values": [
+                "ОПН-П-15/19/10/0,8-IV УХЛ1"
+              ]
+            }
+          ],
+          "literal_value_match": false,
+          "normalization": [
+            "literal"
+          ],
+          "schema_warnings": [],
+          "raw_semantic_recoverability": {
+            "value_and_identity": false,
+            "unit_in_header": false
+          }
+        },
+        {
+          "id": "selected-07",
+          "expected": {
+            "location": "top table",
+            "entity": "все 6 обозначений",
+            "parameter": "тепловой заряд, не менее",
+            "value": "1,1",
+            "unit": "Кл"
+          },
+          "status": "wrong",
+          "reason": "Value row0: expected'1,1', actualNone.; Cell row0 stateblank cannot stand for printed literal'1,1'.; Source minimum qualifier omitted.; Value row1: expected'1,1', actualNone.; Cell row1 stateblank cannot stand for printed literal'1,1'.; Value row4: expected'1,1', actualNone.; Cell row4 stateblank cannot stand for printed literal'1,1'.; Value row5: expected'1,1', actualNone.; Cell row5 stateblank cannot stand for printed literal'1,1'.",
+          "candidate_evidence": [
+            {
+              "table_index": 0,
+              "table_id": "t22_1",
+              "row_index": 0,
+              "column_index": 14,
+              "column": {
+                "id": "c15",
+                "label": "Тепловой заряд",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": "менее"
+              },
+              "cell": {
+                "column_id": "c15",
+                "value": null,
+                "state": "blank"
+              },
+              "row_identity_values": [
+                "ОПН-П-15/17,5/10/0,8-III УХЛ1"
+              ]
+            },
+            {
+              "table_index": 0,
+              "table_id": "t22_1",
+              "row_index": 1,
+              "column_index": 14,
+              "column": {
+                "id": "c15",
+                "label": "Тепловой заряд",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": "менее"
+              },
+              "cell": {
+                "column_id": "c15",
+                "value": null,
+                "state": "blank"
+              },
+              "row_identity_values": [
+                "ОПН-П-15/17,5/10/0,8-IV УХЛ1"
+              ]
+            },
+            {
+              "table_index": 0,
+              "table_id": "t22_1",
+              "row_index": 2,
+              "column_index": 14,
+              "column": {
+                "id": "c15",
+                "label": "Тепловой заряд",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": "менее"
+              },
+              "cell": {
+                "column_id": "c15",
+                "value": "1,1",
+                "state": "value"
+              },
+              "row_identity_values": [
+                "ОПН-П-15/18/10/0,8-III УХЛ1"
+              ]
+            },
+            {
+              "table_index": 0,
+              "table_id": "t22_1",
+              "row_index": 3,
+              "column_index": 14,
+              "column": {
+                "id": "c15",
+                "label": "Тепловой заряд",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": "менее"
+              },
+              "cell": {
+                "column_id": "c15",
+                "value": "1,1",
+                "state": "value"
+              },
+              "row_identity_values": [
+                "ОПН-П-15/18/10/0,8-IV УХЛ1"
+              ]
+            },
+            {
+              "table_index": 0,
+              "table_id": "t22_1",
+              "row_index": 4,
+              "column_index": 14,
+              "column": {
+                "id": "c15",
+                "label": "Тепловой заряд",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": "менее"
+              },
+              "cell": {
+                "column_id": "c15",
+                "value": null,
+                "state": "blank"
+              },
+              "row_identity_values": [
+                "ОПН-П-15/19/10/0,8-III УХЛ1"
+              ]
+            },
+            {
+              "table_index": 0,
+              "table_id": "t22_1",
+              "row_index": 5,
+              "column_index": 14,
+              "column": {
+                "id": "c15",
+                "label": "Тепловой заряд",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": "менее"
+              },
+              "cell": {
+                "column_id": "c15",
+                "value": null,
+                "state": "blank"
+              },
+              "row_identity_values": [
+                "ОПН-П-15/19/10/0,8-IV УХЛ1"
+              ]
+            }
+          ],
+          "literal_value_match": false,
+          "normalization": [
+            "literal"
+          ],
+          "schema_warnings": [],
+          "raw_semantic_recoverability": {
+            "value_and_identity": false,
+            "unit_in_header": false
+          }
+        },
+        {
+          "id": "selected-08",
+          "expected": {
+            "location": "top table",
+            "entity": "все 6 обозначений",
+            "parameter": "тепловая энергия, не менее",
+            "value": "-",
+            "unit": "кДж/кВ"
+          },
+          "status": "wrong",
+          "reason": "Value row0: expected'-', actualNone.; Cell row0 stateblank cannot stand for printed literal'-'.; Value row1: expected'-', actualNone.; Cell row1 stateblank cannot stand for printed literal'-'.; Value row4: expected'-', actualNone.; Cell row4 stateblank cannot stand for printed literal'-'.; Value row5: expected'-', actualNone.; Cell row5 stateblank cannot stand for printed literal'-'.",
+          "candidate_evidence": [
+            {
+              "table_index": 0,
+              "table_id": "t22_1",
+              "row_index": 0,
+              "column_index": 15,
+              "column": {
+                "id": "c16",
+                "label": "Тепловая энергия",
+                "unit": "кДж/кВ",
+                "group": null,
+                "qualifier": "не менее"
+              },
+              "cell": {
+                "column_id": "c16",
+                "value": null,
+                "state": "blank"
+              },
+              "row_identity_values": [
+                "ОПН-П-15/17,5/10/0,8-III УХЛ1"
+              ]
+            },
+            {
+              "table_index": 0,
+              "table_id": "t22_1",
+              "row_index": 1,
+              "column_index": 15,
+              "column": {
+                "id": "c16",
+                "label": "Тепловая энергия",
+                "unit": "кДж/кВ",
+                "group": null,
+                "qualifier": "не менее"
+              },
+              "cell": {
+                "column_id": "c16",
+                "value": null,
+                "state": "blank"
+              },
+              "row_identity_values": [
+                "ОПН-П-15/17,5/10/0,8-IV УХЛ1"
+              ]
+            },
+            {
+              "table_index": 0,
+              "table_id": "t22_1",
+              "row_index": 2,
+              "column_index": 15,
+              "column": {
+                "id": "c16",
+                "label": "Тепловая энергия",
+                "unit": "кДж/кВ",
+                "group": null,
+                "qualifier": "не менее"
+              },
+              "cell": {
+                "column_id": "c16",
+                "value": "-",
+                "state": "value"
+              },
+              "row_identity_values": [
+                "ОПН-П-15/18/10/0,8-III УХЛ1"
+              ]
+            },
+            {
+              "table_index": 0,
+              "table_id": "t22_1",
+              "row_index": 3,
+              "column_index": 15,
+              "column": {
+                "id": "c16",
+                "label": "Тепловая энергия",
+                "unit": "кДж/кВ",
+                "group": null,
+                "qualifier": "не менее"
+              },
+              "cell": {
+                "column_id": "c16",
+                "value": "-",
+                "state": "value"
+              },
+              "row_identity_values": [
+                "ОПН-П-15/18/10/0,8-IV УХЛ1"
+              ]
+            },
+            {
+              "table_index": 0,
+              "table_id": "t22_1",
+              "row_index": 4,
+              "column_index": 15,
+              "column": {
+                "id": "c16",
+                "label": "Тепловая энергия",
+                "unit": "кДж/кВ",
+                "group": null,
+                "qualifier": "не менее"
+              },
+              "cell": {
+                "column_id": "c16",
+                "value": null,
+                "state": "blank"
+              },
+              "row_identity_values": [
+                "ОПН-П-15/19/10/0,8-III УХЛ1"
+              ]
+            },
+            {
+              "table_index": 0,
+              "table_id": "t22_1",
+              "row_index": 5,
+              "column_index": 15,
+              "column": {
+                "id": "c16",
+                "label": "Тепловая энергия",
+                "unit": "кДж/кВ",
+                "group": null,
+                "qualifier": "не менее"
+              },
+              "cell": {
+                "column_id": "c16",
+                "value": null,
+                "state": "blank"
+              },
+              "row_identity_values": [
+                "ОПН-П-15/19/10/0,8-IV УХЛ1"
+              ]
+            }
+          ],
+          "literal_value_match": false,
+          "normalization": [
+            "literal"
+          ],
+          "schema_warnings": [],
+          "raw_semantic_recoverability": {
+            "value_and_identity": false,
+            "unit_in_header": false
+          }
+        },
+        {
+          "id": "selected-12",
+          "expected": {
+            "location": "lower table",
+            "entity": "все 6 обозначений",
+            "parameter": "заряд пропускной способности",
+            "value": "1,1",
+            "unit": "Кл"
+          },
+          "status": "wrong",
+          "reason": "Value row0: expected'1,1', actualNone.; Cell row0 stateblank cannot stand for printed literal'1,1'.; Value row1: expected'1,1', actualNone.; Cell row1 stateblank cannot stand for printed literal'1,1'.",
+          "candidate_evidence": [
+            {
+              "table_index": 1,
+              "table_id": "t22_2",
+              "row_index": 0,
+              "column_index": 11,
+              "column": {
+                "id": "c12",
+                "label": "Заряд пропускной способности",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c12",
+                "value": null,
+                "state": "blank"
+              },
+              "row_identity_values": [
+                "ОПН-П-15/17,5/10/1,1-III УХЛ1"
+              ]
+            },
+            {
+              "table_index": 1,
+              "table_id": "t22_2",
+              "row_index": 1,
+              "column_index": 11,
+              "column": {
+                "id": "c12",
+                "label": "Заряд пропускной способности",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c12",
+                "value": null,
+                "state": "blank"
+              },
+              "row_identity_values": [
+                "ОПН-П-15/17,5/10/1,1-IV УХЛ1"
+              ]
+            },
+            {
+              "table_index": 1,
+              "table_id": "t22_2",
+              "row_index": 2,
+              "column_index": 11,
+              "column": {
+                "id": "c12",
+                "label": "Заряд пропускной способности",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c12",
+                "value": "1,1",
+                "state": "value"
+              },
+              "row_identity_values": [
+                "ОПН-П-15/18/10/1,1-III УХЛ1"
+              ]
+            },
+            {
+              "table_index": 1,
+              "table_id": "t22_2",
+              "row_index": 3,
+              "column_index": 11,
+              "column": {
+                "id": "c12",
+                "label": "Заряд пропускной способности",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c12",
+                "value": "1,1",
+                "state": "value"
+              },
+              "row_identity_values": [
+                "ОПН-П-15/18/10/1,1-IV УХЛ1"
+              ]
+            },
+            {
+              "table_index": 1,
+              "table_id": "t22_2",
+              "row_index": 4,
+              "column_index": 11,
+              "column": {
+                "id": "c12",
+                "label": "Заряд пропускной способности",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c12",
+                "value": "1,1",
+                "state": "value"
+              },
+              "row_identity_values": [
+                "ОПН-П-15/19/10/1,1-III УХЛ1"
+              ]
+            },
+            {
+              "table_index": 1,
+              "table_id": "t22_2",
+              "row_index": 5,
+              "column_index": 11,
+              "column": {
+                "id": "c12",
+                "label": "Заряд пропускной способности",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c12",
+                "value": "1,1",
+                "state": "value"
+              },
+              "row_identity_values": [
+                "ОПН-П-15/19/10/1,1-IV УХЛ1"
+              ]
+            }
+          ],
+          "literal_value_match": false,
+          "normalization": [
+            "literal"
+          ],
+          "schema_warnings": [],
+          "raw_semantic_recoverability": {
+            "value_and_identity": false,
+            "unit_in_header": false
+          }
+        },
+        {
+          "id": "selected-13",
+          "expected": {
+            "location": "lower table",
+            "entity": "все 6 обозначений",
+            "parameter": "тепловой заряд, не менее",
+            "value": "-",
+            "unit": "Кл"
+          },
+          "status": "wrong",
+          "reason": "Value row0: expected'-', actualNone.; Cell row0 stateblank cannot stand for printed literal'-'.; Source minimum qualifier omitted.; Value row1: expected'-', actualNone.; Cell row1 stateblank cannot stand for printed literal'-'.",
+          "candidate_evidence": [
+            {
+              "table_index": 1,
+              "table_id": "t22_2",
+              "row_index": 0,
+              "column_index": 14,
+              "column": {
+                "id": "c15",
+                "label": "Тепловой заряд",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": "менее"
+              },
+              "cell": {
+                "column_id": "c15",
+                "value": null,
+                "state": "blank"
+              },
+              "row_identity_values": [
+                "ОПН-П-15/17,5/10/1,1-III УХЛ1"
+              ]
+            },
+            {
+              "table_index": 1,
+              "table_id": "t22_2",
+              "row_index": 1,
+              "column_index": 14,
+              "column": {
+                "id": "c15",
+                "label": "Тепловой заряд",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": "менее"
+              },
+              "cell": {
+                "column_id": "c15",
+                "value": null,
+                "state": "blank"
+              },
+              "row_identity_values": [
+                "ОПН-П-15/17,5/10/1,1-IV УХЛ1"
+              ]
+            },
+            {
+              "table_index": 1,
+              "table_id": "t22_2",
+              "row_index": 2,
+              "column_index": 14,
+              "column": {
+                "id": "c15",
+                "label": "Тепловой заряд",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": "менее"
+              },
+              "cell": {
+                "column_id": "c15",
+                "value": "-",
+                "state": "value"
+              },
+              "row_identity_values": [
+                "ОПН-П-15/18/10/1,1-III УХЛ1"
+              ]
+            },
+            {
+              "table_index": 1,
+              "table_id": "t22_2",
+              "row_index": 3,
+              "column_index": 14,
+              "column": {
+                "id": "c15",
+                "label": "Тепловой заряд",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": "менее"
+              },
+              "cell": {
+                "column_id": "c15",
+                "value": "-",
+                "state": "value"
+              },
+              "row_identity_values": [
+                "ОПН-П-15/18/10/1,1-IV УХЛ1"
+              ]
+            },
+            {
+              "table_index": 1,
+              "table_id": "t22_2",
+              "row_index": 4,
+              "column_index": 14,
+              "column": {
+                "id": "c15",
+                "label": "Тепловой заряд",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": "менее"
+              },
+              "cell": {
+                "column_id": "c15",
+                "value": "-",
+                "state": "value"
+              },
+              "row_identity_values": [
+                "ОПН-П-15/19/10/1,1-III УХЛ1"
+              ]
+            },
+            {
+              "table_index": 1,
+              "table_id": "t22_2",
+              "row_index": 5,
+              "column_index": 14,
+              "column": {
+                "id": "c15",
+                "label": "Тепловой заряд",
+                "unit": "Кл",
+                "group": null,
+                "qualifier": "менее"
+              },
+              "cell": {
+                "column_id": "c15",
+                "value": "-",
+                "state": "value"
+              },
+              "row_identity_values": [
+                "ОПН-П-15/19/10/1,1-IV УХЛ1"
+              ]
+            }
+          ],
+          "literal_value_match": false,
+          "normalization": [
+            "literal"
+          ],
+          "schema_warnings": [],
+          "raw_semantic_recoverability": {
+            "value_and_identity": false,
+            "unit_in_header": false
+          }
+        },
+        {
+          "id": "selected-14",
+          "expected": {
+            "location": "lower table",
+            "entity": "все 6 обозначений",
+            "parameter": "тепловая энергия, не менее",
+            "value": "4,0",
+            "unit": "кДж/кВ"
+          },
+          "status": "wrong",
+          "reason": "Value row0: expected'4,0', actualNone.; Cell row0 stateblank cannot stand for printed literal'4,0'.; Value row1: expected'4,0', actualNone.; Cell row1 stateblank cannot stand for printed literal'4,0'.",
+          "candidate_evidence": [
+            {
+              "table_index": 1,
+              "table_id": "t22_2",
+              "row_index": 0,
+              "column_index": 15,
+              "column": {
+                "id": "c16",
+                "label": "Тепловая энергия",
+                "unit": "кДж/кВ",
+                "group": null,
+                "qualifier": "не менее"
+              },
+              "cell": {
+                "column_id": "c16",
+                "value": null,
+                "state": "blank"
+              },
+              "row_identity_values": [
+                "ОПН-П-15/17,5/10/1,1-III УХЛ1"
+              ]
+            },
+            {
+              "table_index": 1,
+              "table_id": "t22_2",
+              "row_index": 1,
+              "column_index": 15,
+              "column": {
+                "id": "c16",
+                "label": "Тепловая энергия",
+                "unit": "кДж/кВ",
+                "group": null,
+                "qualifier": "не менее"
+              },
+              "cell": {
+                "column_id": "c16",
+                "value": null,
+                "state": "blank"
+              },
+              "row_identity_values": [
+                "ОПН-П-15/17,5/10/1,1-IV УХЛ1"
+              ]
+            },
+            {
+              "table_index": 1,
+              "table_id": "t22_2",
+              "row_index": 2,
+              "column_index": 15,
+              "column": {
+                "id": "c16",
+                "label": "Тепловая энергия",
+                "unit": "кДж/кВ",
+                "group": null,
+                "qualifier": "не менее"
+              },
+              "cell": {
+                "column_id": "c16",
+                "value": "4,0",
+                "state": "value"
+              },
+              "row_identity_values": [
+                "ОПН-П-15/18/10/1,1-III УХЛ1"
+              ]
+            },
+            {
+              "table_index": 1,
+              "table_id": "t22_2",
+              "row_index": 3,
+              "column_index": 15,
+              "column": {
+                "id": "c16",
+                "label": "Тепловая энергия",
+                "unit": "кДж/кВ",
+                "group": null,
+                "qualifier": "не менее"
+              },
+              "cell": {
+                "column_id": "c16",
+                "value": "4,0",
+                "state": "value"
+              },
+              "row_identity_values": [
+                "ОПН-П-15/18/10/1,1-IV УХЛ1"
+              ]
+            },
+            {
+              "table_index": 1,
+              "table_id": "t22_2",
+              "row_index": 4,
+              "column_index": 15,
+              "column": {
+                "id": "c16",
+                "label": "Тепловая энергия",
+                "unit": "кДж/кВ",
+                "group": null,
+                "qualifier": "не менее"
+              },
+              "cell": {
+                "column_id": "c16",
+                "value": "4,0",
+                "state": "value"
+              },
+              "row_identity_values": [
+                "ОПН-П-15/19/10/1,1-III УХЛ1"
+              ]
+            },
+            {
+              "table_index": 1,
+              "table_id": "t22_2",
+              "row_index": 5,
+              "column_index": 15,
+              "column": {
+                "id": "c16",
+                "label": "Тепловая энергия",
+                "unit": "кДж/кВ",
+                "group": null,
+                "qualifier": "не менее"
+              },
+              "cell": {
+                "column_id": "c16",
+                "value": "4,0",
+                "state": "value"
+              },
+              "row_identity_values": [
+                "ОПН-П-15/19/10/1,1-IV УХЛ1"
+              ]
+            }
+          ],
+          "literal_value_match": false,
+          "normalization": [
+            "literal"
+          ],
+          "schema_warnings": [],
+          "raw_semantic_recoverability": {
+            "value_and_identity": false,
+            "unit_in_header": false
+          }
+        }
+      ],
+      "catalog_tool_counts": {
+        "catalog__load_skill": 1,
+        "catalog__view_page": 1,
+        "catalog__extract_direct": 1,
+        "catalog__read_source_table": 1,
+        "catalog__read_source_layout": 8,
+        "catalog__view_region": 11,
+        "catalog__get_json_schema": 1,
+        "catalog__read_external_audit": 2,
+        "catalog__save_page_json": 1
+      },
+      "parser_capability_calls": 1,
+      "attempted_backends": [
+        "docling"
+      ],
+      "actual_conversions": [
+        {
+          "backend": "docling",
+          "status": "completed",
+          "physical_page": 22,
+          "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2"
+        }
+      ],
+      "region_requests": {
+        "total": 11,
+        "unique": 11,
+        "exact_repeats": 0
+      }
+    },
+    {
+      "case_id": "catalog-1-page-022",
+      "arm": "extended",
+      "status": "completed",
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "physical_page": 22,
+      "fixture_sha256": "a1187e1a23848883bfb7d776a1289e3ccc09f9675493c1e5b4def85be8589654",
+      "tested_program": {
+        "git_revision": "ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "package_version": "1.4.1",
+        "declared_version": "1.4.1-source-ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "contract_sha256": "1e7ab4a211aeddfbeb683b5e4c50c8ea93012f644a38d2b9e058ddbf6c873850",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "elapsed_seconds": 72.802,
+      "output": {
+        "file": "extended/catalog-1-page-022.json",
+        "sha256": "b8438b9eed4f1ad9807ce38c5fdd02f5bdce327c3b720eae5e50e86ee9302a27",
+        "bytes": 42612
+      },
+      "historical_grader_version": "0.2.0",
+      "historical_correct": 15,
+      "correct": 15,
+      "expected": 15,
+      "fact_statuses": {
+        "passed": 15
+      },
+      "failed_checks": [],
+      "catalog_tool_counts": {
+        "catalog__load_skill": 1,
+        "catalog__extract_direct": 1,
+        "catalog__view_page": 1,
+        "catalog__read_source_table": 2,
+        "catalog__get_json_schema": 1,
+        "catalog__read_source_layout": 3,
+        "catalog__view_region": 4,
+        "catalog__read_external_audit": 1,
+        "catalog__save_page_json": 1
+      },
+      "parser_capability_calls": 1,
+      "attempted_backends": [],
+      "actual_conversions": [],
+      "region_requests": {
+        "total": 4,
+        "unique": 4,
+        "exact_repeats": 0
+      }
+    },
+    {
+      "case_id": "catalog-1-page-026",
+      "arm": "baseline",
+      "status": "completed",
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "physical_page": 26,
+      "fixture_sha256": "f1defb41f76e7a075e441132a7d6c01200a1aff344064786b8e07cd64d7416b1",
+      "tested_program": {
+        "git_revision": "ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "package_version": "1.4.1",
+        "declared_version": "1.4.1-source-ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "contract_sha256": "1e7ab4a211aeddfbeb683b5e4c50c8ea93012f644a38d2b9e058ddbf6c873850",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "elapsed_seconds": 142.689,
+      "output": {
+        "file": "baseline/catalog-1-page-026.json",
+        "sha256": "bf1060259b3f2ebb1094e32f75755be48c4150ef8b46995fd6a3bdd8ba9a4788",
+        "bytes": 42587
+      },
+      "historical_grader_version": "0.2.0",
+      "historical_correct": 13,
+      "correct": 15,
+      "expected": 15,
+      "fact_statuses": {
+        "passed": 15
+      },
+      "failed_checks": [],
+      "catalog_tool_counts": {
+        "catalog__load_skill": 1,
+        "catalog__extract_direct": 1,
+        "catalog__view_page": 1,
+        "catalog__read_source_table": 2,
+        "catalog__view_region": 7,
+        "catalog__get_json_schema": 1,
+        "catalog__read_external_audit": 1,
+        "catalog__read_source_layout": 4,
+        "catalog__save_page_json": 1
+      },
+      "parser_capability_calls": 1,
+      "attempted_backends": [
+        "docling"
+      ],
+      "actual_conversions": [
+        {
+          "backend": "docling",
+          "status": "completed",
+          "physical_page": 26,
+          "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2"
+        }
+      ],
+      "region_requests": {
+        "total": 7,
+        "unique": 7,
+        "exact_repeats": 0
+      }
+    },
+    {
+      "case_id": "catalog-1-page-026",
+      "arm": "extended",
+      "status": "completed",
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "physical_page": 26,
+      "fixture_sha256": "f1defb41f76e7a075e441132a7d6c01200a1aff344064786b8e07cd64d7416b1",
+      "tested_program": {
+        "git_revision": "ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "package_version": "1.4.1",
+        "declared_version": "1.4.1-source-ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "contract_sha256": "1e7ab4a211aeddfbeb683b5e4c50c8ea93012f644a38d2b9e058ddbf6c873850",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "elapsed_seconds": 106.659,
+      "output": {
+        "file": "extended/catalog-1-page-026.json",
+        "sha256": "58bd4c491413f65d151335bf4e185f30cc61088704815c034ad0652a34468e8d",
+        "bytes": 43108
+      },
+      "historical_grader_version": "0.2.0",
+      "historical_correct": 11,
+      "correct": 15,
+      "expected": 15,
+      "fact_statuses": {
+        "passed": 15
+      },
+      "failed_checks": [],
+      "catalog_tool_counts": {
+        "catalog__load_skill": 1,
+        "catalog__extract_direct": 1,
+        "catalog__view_page": 1,
+        "catalog__read_source_table": 3,
+        "catalog__view_region": 3,
+        "catalog__get_json_schema": 1,
+        "catalog__read_external_audit": 1,
+        "catalog__save_page_json": 1
+      },
+      "parser_capability_calls": 1,
+      "attempted_backends": [
+        "docling"
+      ],
+      "actual_conversions": [
+        {
+          "backend": "docling",
+          "status": "completed",
+          "physical_page": 26,
+          "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2"
+        }
+      ],
+      "region_requests": {
+        "total": 3,
+        "unique": 3,
+        "exact_repeats": 0
+      }
+    },
+    {
+      "case_id": "catalog-2-page-060",
+      "arm": "baseline",
+      "status": "completed",
+      "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+      "physical_page": 60,
+      "fixture_sha256": "93cf32c6d3a26326831fb0bb6152f3bf62ffd6897c1a1af554a91a97e0a64c3a",
+      "tested_program": {
+        "git_revision": "ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "package_version": "1.4.1",
+        "declared_version": "1.4.1-source-ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "contract_sha256": "1e7ab4a211aeddfbeb683b5e4c50c8ea93012f644a38d2b9e058ddbf6c873850",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "elapsed_seconds": 181.638,
+      "output": {
+        "file": "baseline/catalog-2-page-060.json",
+        "sha256": "2f3373b1560438740daa425155cd27780596550cdd0d26a17d939ad99fd76eb4",
+        "bytes": 61639
+      },
+      "historical_grader_version": "0.2.0",
+      "historical_correct": 15,
+      "correct": 15,
+      "expected": 15,
+      "fact_statuses": {
+        "passed": 15
+      },
+      "failed_checks": [],
+      "catalog_tool_counts": {
+        "catalog__load_skill": 1,
+        "catalog__extract_direct": 1,
+        "catalog__view_page": 1,
+        "catalog__get_json_schema": 1,
+        "catalog__read_source_table": 1,
+        "catalog__read_source_layout": 4,
+        "catalog__view_region": 4,
+        "catalog__read_external_audit": 1,
+        "catalog__save_section": 2,
+        "catalog__finalize_page": 2,
+        "catalog__read_page_json": 1
+      },
+      "parser_capability_calls": 1,
+      "attempted_backends": [
+        "docling"
+      ],
+      "actual_conversions": [
+        {
+          "backend": "docling",
+          "status": "completed",
+          "physical_page": 60,
+          "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49"
+        }
+      ],
+      "region_requests": {
+        "total": 4,
+        "unique": 4,
+        "exact_repeats": 0
+      }
+    },
+    {
+      "case_id": "catalog-2-page-060",
+      "arm": "extended",
+      "status": "completed",
+      "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+      "physical_page": 60,
+      "fixture_sha256": "93cf32c6d3a26326831fb0bb6152f3bf62ffd6897c1a1af554a91a97e0a64c3a",
+      "tested_program": {
+        "git_revision": "ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "package_version": "1.4.1",
+        "declared_version": "1.4.1-source-ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "contract_sha256": "1e7ab4a211aeddfbeb683b5e4c50c8ea93012f644a38d2b9e058ddbf6c873850",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "elapsed_seconds": 81.716,
+      "output": {
+        "file": "extended/catalog-2-page-060.json",
+        "sha256": "10779403e8dc1e44e7b89144de748a411194efc8a721debcd49f56fbfbbbcc01",
+        "bytes": 62743
+      },
+      "historical_grader_version": "0.2.0",
+      "historical_correct": 15,
+      "correct": 15,
+      "expected": 15,
+      "fact_statuses": {
+        "passed": 15
+      },
+      "failed_checks": [],
+      "catalog_tool_counts": {
+        "catalog__load_skill": 1,
+        "catalog__extract_direct": 1,
+        "catalog__view_page": 1,
+        "catalog__read_external_audit": 2,
+        "catalog__read_source_table": 1,
+        "catalog__view_region": 4,
+        "catalog__read_source_layout": 2,
+        "catalog__get_json_schema": 1,
+        "catalog__save_page_json": 1
+      },
+      "parser_capability_calls": 1,
+      "attempted_backends": [],
+      "actual_conversions": [],
+      "region_requests": {
+        "total": 4,
+        "unique": 4,
+        "exact_repeats": 0
+      }
+    },
+    {
+      "case_id": "catalog-2-page-149",
+      "arm": "baseline",
+      "status": "failed",
+      "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+      "physical_page": 149,
+      "fixture_sha256": "626e9f586350ffcc8b7eb947fa91e1b98c2434558ffe8454c4a35492d02848da",
+      "tested_program": {
+        "git_revision": "ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "package_version": null,
+        "declared_version": "1.4.1-source-ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "contract_sha256": null,
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "elapsed_seconds": 905.693,
+      "output": null,
+      "historical_grader_version": "0.2.0",
+      "historical_correct": 0,
+      "correct": 0,
+      "expected": 15,
+      "fact_statuses": {
+        "unavailable": 15
+      },
+      "failed_checks": [],
+      "catalog_tool_counts": {
+        "catalog__load_skill": 1,
+        "catalog__extract_direct": 1,
+        "catalog__view_page": 1,
+        "catalog__get_json_schema": 1,
+        "catalog__read_external_audit": 1,
+        "catalog__read_source_table": 1,
+        "catalog__view_region": 62
+      },
+      "parser_capability_calls": 1,
+      "attempted_backends": [
+        "docling"
+      ],
+      "actual_conversions": [
+        {
+          "backend": "docling",
+          "status": "completed",
+          "physical_page": 149,
+          "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49"
+        }
+      ],
+      "region_requests": {
+        "total": 62,
+        "unique": 22,
+        "exact_repeats": 40
+      }
+    },
+    {
+      "case_id": "catalog-2-page-149",
+      "arm": "extended",
+      "status": "completed",
+      "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+      "physical_page": 149,
+      "fixture_sha256": "626e9f586350ffcc8b7eb947fa91e1b98c2434558ffe8454c4a35492d02848da",
+      "tested_program": {
+        "git_revision": "ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "package_version": "1.4.1",
+        "declared_version": "1.4.1-source-ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "contract_sha256": "1e7ab4a211aeddfbeb683b5e4c50c8ea93012f644a38d2b9e058ddbf6c873850",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "elapsed_seconds": 118.709,
+      "output": {
+        "file": "extended/catalog-2-page-149.json",
+        "sha256": "db79098eae5f23c82342cbd29183fe0ae2d7487eb3abe455233c08f67e3fc20f",
+        "bytes": 22646
+      },
+      "historical_grader_version": "0.2.0",
+      "historical_correct": 13,
+      "correct": 13,
+      "expected": 15,
+      "fact_statuses": {
+        "passed": 13,
+        "missing": 2
+      },
+      "failed_checks": [
+        {
+          "id": "selected-12",
+          "expected": {
+            "location": "table",
+            "entity": "обе модели (vertical merge)",
+            "parameter": "остающееся при грозовых импульсах 2,5 кА",
+            "value": "31,2",
+            "unit": "кВ"
+          },
+          "status": "missing",
+          "reason": "No matching model / parameter association.",
+          "candidate_evidence": [],
+          "literal_value_match": null,
+          "normalization": null
+        },
+        {
+          "id": "selected-13",
+          "expected": {
+            "location": "table",
+            "entity": "обе модели (vertical merge)",
+            "parameter": "остающееся при грозовых импульсах 5 кА",
+            "value": "33,6",
+            "unit": "кВ"
+          },
+          "status": "missing",
+          "reason": "No matching model / parameter association.",
+          "candidate_evidence": [],
+          "literal_value_match": null,
+          "normalization": null
+        }
+      ],
+      "catalog_tool_counts": {
+        "catalog__load_skill": 1,
+        "catalog__extract_direct": 1,
+        "catalog__view_page": 1,
+        "catalog__get_json_schema": 1,
+        "catalog__read_source_table": 1,
+        "catalog__view_region": 6,
+        "catalog__read_source_layout": 8,
+        "catalog__read_external_audit": 1,
+        "catalog__save_page_json": 2
+      },
+      "parser_capability_calls": 1,
+      "attempted_backends": [],
+      "actual_conversions": [],
+      "region_requests": {
+        "total": 6,
+        "unique": 6,
+        "exact_repeats": 0
+      }
+    },
+    {
+      "case_id": "catalog-2-page-185",
+      "arm": "baseline",
+      "status": "completed",
+      "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+      "physical_page": 185,
+      "fixture_sha256": "4b12ce1f6ace967f9b3339ee129ff14b8928454f53cd069001800a7317d28d4a",
+      "tested_program": {
+        "git_revision": "ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "package_version": "1.4.1",
+        "declared_version": "1.4.1-source-ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "contract_sha256": "1e7ab4a211aeddfbeb683b5e4c50c8ea93012f644a38d2b9e058ddbf6c873850",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "elapsed_seconds": 122.601,
+      "output": {
+        "file": "baseline/catalog-2-page-185.json",
+        "sha256": "bbeec4d972bce456e74e079b1de261dd44278e8964aa6c85bff7a5c8dbde6a86",
+        "bytes": 54556
+      },
+      "historical_grader_version": "0.2.0",
+      "historical_correct": 15,
+      "correct": 15,
+      "expected": 15,
+      "fact_statuses": {
+        "passed": 15
+      },
+      "failed_checks": [],
+      "catalog_tool_counts": {
+        "catalog__load_skill": 1,
+        "catalog__extract_direct": 1,
+        "catalog__view_page": 1,
+        "catalog__read_source_table": 2,
+        "catalog__view_region": 6,
+        "catalog__get_json_schema": 1,
+        "catalog__read_external_audit": 1,
+        "catalog__save_page_json": 2
+      },
+      "parser_capability_calls": 1,
+      "attempted_backends": [
+        "docling"
+      ],
+      "actual_conversions": [
+        {
+          "backend": "docling",
+          "status": "completed",
+          "physical_page": 185,
+          "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49"
+        }
+      ],
+      "region_requests": {
+        "total": 6,
+        "unique": 6,
+        "exact_repeats": 0
+      }
+    },
+    {
+      "case_id": "catalog-2-page-185",
+      "arm": "extended",
+      "status": "completed",
+      "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+      "physical_page": 185,
+      "fixture_sha256": "4b12ce1f6ace967f9b3339ee129ff14b8928454f53cd069001800a7317d28d4a",
+      "tested_program": {
+        "git_revision": "ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "package_version": "1.4.1",
+        "declared_version": "1.4.1-source-ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "contract_sha256": "1e7ab4a211aeddfbeb683b5e4c50c8ea93012f644a38d2b9e058ddbf6c873850",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "elapsed_seconds": 72.044,
+      "output": {
+        "file": "extended/catalog-2-page-185.json",
+        "sha256": "f370742ef3480198b727f19b43b45035e94640480ad5bf2c1a68cc96ca7e216b",
+        "bytes": 55776
+      },
+      "historical_grader_version": "0.2.0",
+      "historical_correct": 11,
+      "correct": 11,
+      "expected": 15,
+      "fact_statuses": {
+        "passed": 11,
+        "missing": 3,
+        "wrong": 1
+      },
+      "failed_checks": [
+        {
+          "id": "selected-04",
+          "expected": {
+            "location": "top table",
+            "entity": "ОПН-П-6/6,0/10/1,1-III УХЛ1",
+            "parameter": "остающееся при 125 А 30/60",
+            "value": "-",
+            "unit": "кВ"
+          },
+          "status": "missing",
+          "reason": "No matching model / parameter association.",
+          "candidate_evidence": [],
+          "literal_value_match": null,
+          "normalization": null
+        },
+        {
+          "id": "selected-05",
+          "expected": {
+            "location": "top table",
+            "entity": "ОПН-П-6/6,0/10/1,1-III УХЛ1",
+            "parameter": "остающееся при 250 А 30/60",
+            "value": "14,1",
+            "unit": "кВ"
+          },
+          "status": "missing",
+          "reason": "No matching model / parameter association.",
+          "candidate_evidence": [],
+          "literal_value_match": null,
+          "normalization": null
+        },
+        {
+          "id": "selected-11",
+          "expected": {
+            "location": "lower table",
+            "entity": "ОПН-П-6/6,0/10/1,2-III УХЛ1",
+            "parameter": "остающееся при 250 А 30/60",
+            "value": "14,2",
+            "unit": "кВ"
+          },
+          "status": "missing",
+          "reason": "No matching model / parameter association.",
+          "candidate_evidence": [],
+          "literal_value_match": null,
+          "normalization": null
+        },
+        {
+          "id": "selected-15",
+          "expected": {
+            "location": "lower table header",
+            "entity": "коммутационные токи 30/60",
+            "parameter": "subcolumn list",
+            "value": "250 А; 500 А; 1000 А",
+            "unit": "А"
+          },
+          "status": "wrong",
+          "reason": "Communutation subcolumn conditions expected ['1000А', '250А', '500А'], observed ['10кА']; no search in row values.",
+          "candidate_evidence": [
+            {
+              "table_index": 1,
+              "table_id": "t2",
+              "column_index": 9,
+              "column": {
+                "id": "c10",
+                "label": "Остающееся напряжение при следующих значениях коммутационных токов длительностью 30/60 мкс",
+                "unit": "кВ",
+                "group": "Остающееся напряжение (кВ), при следующих значениях коммутационных токов длительностью 30/60 мкс:",
+                "qualifier": "при круговом импульсе тока величиной 10 кА и длительностью 1/10 мкс:"
+              }
+            }
+          ],
+          "literal_value_match": false,
+          "normalization": "condition_list"
+        }
+      ],
+      "catalog_tool_counts": {
+        "catalog__load_skill": 1,
+        "catalog__extract_direct": 1,
+        "catalog__view_page": 1,
+        "catalog__read_source_table": 2,
+        "catalog__read_source_layout": 1,
+        "catalog__get_json_schema": 1,
+        "catalog__view_region": 2,
+        "catalog__read_external_audit": 1,
+        "catalog__save_page_json": 1
+      },
+      "parser_capability_calls": 1,
+      "attempted_backends": [],
+      "actual_conversions": [],
+      "region_requests": {
+        "total": 2,
+        "unique": 2,
+        "exact_repeats": 0
+      }
+    },
+    {
+      "case_id": "catalog-3-page-103",
+      "arm": "baseline",
+      "status": "completed",
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 103,
+      "fixture_sha256": "9b905e94740f8ee8fc715e93b4b5d57d1177d58d0450becf8107380347a260d9",
+      "tested_program": {
+        "git_revision": "ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "package_version": "1.4.1",
+        "declared_version": "1.4.1-source-ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "contract_sha256": "1e7ab4a211aeddfbeb683b5e4c50c8ea93012f644a38d2b9e058ddbf6c873850",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "elapsed_seconds": 185.941,
+      "output": {
+        "file": "baseline/catalog-3-page-103.json",
+        "sha256": "e2cdbce335d3457c9a5b0abab2b4a2a4f3d1f7f9af58f03509aa263559ab5264",
+        "bytes": 135588
+      },
+      "historical_grader_version": "0.2.0",
+      "historical_correct": 15,
+      "correct": 15,
+      "expected": 15,
+      "fact_statuses": {
+        "passed": 15
+      },
+      "failed_checks": [],
+      "catalog_tool_counts": {
+        "catalog__load_skill": 1,
+        "catalog__extract_direct": 1,
+        "catalog__view_page": 1,
+        "catalog__read_source_table": 1,
+        "catalog__view_region": 6,
+        "catalog__read_source_layout": 4,
+        "catalog__read_external_audit": 1,
+        "catalog__get_json_schema": 1,
+        "catalog__save_section": 10,
+        "catalog__finalize_page": 1
+      },
+      "parser_capability_calls": 1,
+      "attempted_backends": [
+        "docling"
+      ],
+      "actual_conversions": [
+        {
+          "backend": "docling",
+          "status": "completed",
+          "physical_page": 103,
+          "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e"
+        }
+      ],
+      "region_requests": {
+        "total": 6,
+        "unique": 6,
+        "exact_repeats": 0
+      }
+    },
+    {
+      "case_id": "catalog-3-page-103",
+      "arm": "extended",
+      "status": "completed",
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 103,
+      "fixture_sha256": "9b905e94740f8ee8fc715e93b4b5d57d1177d58d0450becf8107380347a260d9",
+      "tested_program": {
+        "git_revision": "ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "package_version": "1.4.1",
+        "declared_version": "1.4.1-source-ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "contract_sha256": "1e7ab4a211aeddfbeb683b5e4c50c8ea93012f644a38d2b9e058ddbf6c873850",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "elapsed_seconds": 118.82,
+      "output": {
+        "file": "extended/catalog-3-page-103.json",
+        "sha256": "fc72f24f7b59fa46551726f4bbc589ace92182506bcd51ae1690fc7144ce2fdb",
+        "bytes": 151155
+      },
+      "historical_grader_version": "0.2.0",
+      "historical_correct": 15,
+      "correct": 15,
+      "expected": 15,
+      "fact_statuses": {
+        "passed": 15
+      },
+      "failed_checks": [],
+      "catalog_tool_counts": {
+        "catalog__load_skill": 1,
+        "catalog__extract_direct": 1,
+        "catalog__view_page": 1,
+        "catalog__read_external_audit": 1,
+        "catalog__read_source_table": 1,
+        "catalog__get_json_schema": 1,
+        "catalog__view_region": 5,
+        "catalog__read_source_layout": 1,
+        "catalog__save_page_json": 1
+      },
+      "parser_capability_calls": 1,
+      "attempted_backends": [],
+      "actual_conversions": [],
+      "region_requests": {
+        "total": 5,
+        "unique": 5,
+        "exact_repeats": 0
+      }
+    },
+    {
+      "case_id": "catalog-3-page-108",
+      "arm": "baseline",
+      "status": "completed",
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 108,
+      "fixture_sha256": "82e19efe34b7ca874e3e463e551ebb0eaef8006b5a7f725eca883c4ac1f35597",
+      "tested_program": {
+        "git_revision": "ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "package_version": "1.4.1",
+        "declared_version": "1.4.1-source-ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "contract_sha256": "1e7ab4a211aeddfbeb683b5e4c50c8ea93012f644a38d2b9e058ddbf6c873850",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "elapsed_seconds": 50.947,
+      "output": {
+        "file": "baseline/catalog-3-page-108.json",
+        "sha256": "835c429eaf8899b166ac5640ff8413deeddf0f608eeb957138fc9c18c102e82c",
+        "bytes": 44392
+      },
+      "historical_grader_version": "0.2.0",
+      "historical_correct": 15,
+      "correct": 15,
+      "expected": 15,
+      "fact_statuses": {
+        "passed": 15
+      },
+      "failed_checks": [],
+      "catalog_tool_counts": {
+        "catalog__load_skill": 1,
+        "catalog__extract_direct": 1,
+        "catalog__view_page": 1,
+        "catalog__get_json_schema": 1,
+        "catalog__read_source_table": 1,
+        "catalog__read_source_layout": 2,
+        "catalog__view_region": 4,
+        "catalog__read_external_audit": 1,
+        "catalog__save_page_json": 1
+      },
+      "parser_capability_calls": 1,
+      "attempted_backends": [],
+      "actual_conversions": [],
+      "region_requests": {
+        "total": 4,
+        "unique": 4,
+        "exact_repeats": 0
+      }
+    },
+    {
+      "case_id": "catalog-3-page-108",
+      "arm": "extended",
+      "status": "completed",
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 108,
+      "fixture_sha256": "82e19efe34b7ca874e3e463e551ebb0eaef8006b5a7f725eca883c4ac1f35597",
+      "tested_program": {
+        "git_revision": "ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "package_version": "1.4.1",
+        "declared_version": "1.4.1-source-ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "contract_sha256": "1e7ab4a211aeddfbeb683b5e4c50c8ea93012f644a38d2b9e058ddbf6c873850",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "elapsed_seconds": 796.139,
+      "output": {
+        "file": "extended/catalog-3-page-108.json",
+        "sha256": "6392976527f7b040e99921479644f6b7f071c2a74c5929c86079521794e7155e",
+        "bytes": 44131
+      },
+      "historical_grader_version": "0.2.0",
+      "historical_correct": 15,
+      "correct": 15,
+      "expected": 15,
+      "fact_statuses": {
+        "passed": 15
+      },
+      "failed_checks": [],
+      "catalog_tool_counts": {
+        "catalog__load_skill": 1,
+        "catalog__extract_direct": 1,
+        "catalog__view_page": 1,
+        "catalog__read_source_table": 1,
+        "catalog__get_json_schema": 1,
+        "catalog__view_region": 113,
+        "catalog__read_source_layout": 1,
+        "catalog__read_external_audit": 1,
+        "catalog__save_page_json": 1
+      },
+      "parser_capability_calls": 1,
+      "attempted_backends": [],
+      "actual_conversions": [],
+      "region_requests": {
+        "total": 113,
+        "unique": 23,
+        "exact_repeats": 90
+      }
+    },
+    {
+      "case_id": "catalog-3-page-111",
+      "arm": "baseline",
+      "status": "completed",
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 111,
+      "fixture_sha256": "928708a691d82dd302c54ad59a195c20a5864659f0d788aa4a50a4f5359640ea",
+      "tested_program": {
+        "git_revision": "ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "package_version": "1.4.1",
+        "declared_version": "1.4.1-source-ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "contract_sha256": "1e7ab4a211aeddfbeb683b5e4c50c8ea93012f644a38d2b9e058ddbf6c873850",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "elapsed_seconds": 72.819,
+      "output": {
+        "file": "baseline/catalog-3-page-111.json",
+        "sha256": "4e68ed462d188e37e47d00033a5010d75812b5e87891586d4905079cdd10974d",
+        "bytes": 73855
+      },
+      "historical_grader_version": "0.2.0",
+      "historical_correct": 15,
+      "correct": 15,
+      "expected": 15,
+      "fact_statuses": {
+        "passed": 15
+      },
+      "failed_checks": [],
+      "catalog_tool_counts": {
+        "catalog__load_skill": 1,
+        "catalog__view_page": 1,
+        "catalog__read_source_table": 1,
+        "catalog__extract_direct": 1,
+        "catalog__view_region": 3,
+        "catalog__read_source_layout": 4,
+        "catalog__read_external_audit": 1,
+        "catalog__get_json_schema": 1,
+        "catalog__save_page_json": 1
+      },
+      "parser_capability_calls": 1,
+      "attempted_backends": [],
+      "actual_conversions": [],
+      "region_requests": {
+        "total": 3,
+        "unique": 3,
+        "exact_repeats": 0
+      }
+    },
+    {
+      "case_id": "catalog-3-page-111",
+      "arm": "extended",
+      "status": "completed",
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 111,
+      "fixture_sha256": "928708a691d82dd302c54ad59a195c20a5864659f0d788aa4a50a4f5359640ea",
+      "tested_program": {
+        "git_revision": "ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "package_version": "1.4.1",
+        "declared_version": "1.4.1-source-ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "contract_sha256": "1e7ab4a211aeddfbeb683b5e4c50c8ea93012f644a38d2b9e058ddbf6c873850",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "elapsed_seconds": 90.635,
+      "output": {
+        "file": "extended/catalog-3-page-111.json",
+        "sha256": "774f88a802978e4af9a6741a2eb1e4548d8b8f4658211b841c6ad223b5e733e5",
+        "bytes": 73680
+      },
+      "historical_grader_version": "0.2.0",
+      "historical_correct": 15,
+      "correct": 15,
+      "expected": 15,
+      "fact_statuses": {
+        "passed": 15
+      },
+      "failed_checks": [],
+      "catalog_tool_counts": {
+        "catalog__load_skill": 1,
+        "catalog__extract_direct": 1,
+        "catalog__view_page": 1,
+        "catalog__read_source_layout": 1,
+        "catalog__read_source_table": 1,
+        "catalog__get_json_schema": 1,
+        "catalog__view_region": 5,
+        "catalog__read_external_audit": 1,
+        "catalog__save_section": 7,
+        "catalog__finalize_page": 1
+      },
+      "parser_capability_calls": 1,
+      "attempted_backends": [],
+      "actual_conversions": [],
+      "region_requests": {
+        "total": 5,
+        "unique": 5,
+        "exact_repeats": 0
+      }
+    },
+    {
+      "case_id": "catalog-4-page-033",
+      "arm": "baseline",
+      "status": "completed",
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 33,
+      "fixture_sha256": "ea8408c3e91fc2b5f66964af2f0912bddaae85595fdac3947186708ba5aaf7bb",
+      "tested_program": {
+        "git_revision": "ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "package_version": "1.4.1",
+        "declared_version": "1.4.1-source-ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "contract_sha256": "1e7ab4a211aeddfbeb683b5e4c50c8ea93012f644a38d2b9e058ddbf6c873850",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "elapsed_seconds": 79.208,
+      "output": {
+        "file": "baseline/catalog-4-page-033.json",
+        "sha256": "ef194e15bcf37c945c23673ab1655f1a454acd685838120ec0456b0b17882b5c",
+        "bytes": 25688
+      },
+      "historical_grader_version": "0.2.0",
+      "historical_correct": 108,
+      "correct": 108,
+      "expected": 108,
+      "fact_statuses": {
+        "passed": 108
+      },
+      "failed_checks": [],
+      "catalog_tool_counts": {
+        "catalog__load_skill": 1,
+        "catalog__extract_direct": 1,
+        "catalog__view_page": 1,
+        "catalog__get_json_schema": 1,
+        "catalog__read_source_table": 1,
+        "catalog__read_source_layout": 1,
+        "catalog__view_region": 3,
+        "catalog__read_external_audit": 1,
+        "catalog__save_page_json": 1
+      },
+      "parser_capability_calls": 1,
+      "attempted_backends": [
+        "docling"
+      ],
+      "actual_conversions": [
+        {
+          "backend": "docling",
+          "status": "completed",
+          "physical_page": 33,
+          "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee"
+        }
+      ],
+      "region_requests": {
+        "total": 3,
+        "unique": 3,
+        "exact_repeats": 0
+      }
+    },
+    {
+      "case_id": "catalog-4-page-033",
+      "arm": "extended",
+      "status": "completed",
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 33,
+      "fixture_sha256": "ea8408c3e91fc2b5f66964af2f0912bddaae85595fdac3947186708ba5aaf7bb",
+      "tested_program": {
+        "git_revision": "ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "package_version": "1.4.1",
+        "declared_version": "1.4.1-source-ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "contract_sha256": "1e7ab4a211aeddfbeb683b5e4c50c8ea93012f644a38d2b9e058ddbf6c873850",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "elapsed_seconds": 108.205,
+      "output": {
+        "file": "extended/catalog-4-page-033.json",
+        "sha256": "52f494f17bce1e7004a6c2d31aeda93eeb93c9ede090664a32dbf9bbc6c60ea5",
+        "bytes": 27376
+      },
+      "historical_grader_version": "0.2.0",
+      "historical_correct": 99,
+      "correct": 108,
+      "expected": 108,
+      "fact_statuses": {
+        "passed": 108
+      },
+      "failed_checks": [],
+      "catalog_tool_counts": {
+        "catalog__load_skill": 1,
+        "catalog__extract_direct": 1,
+        "catalog__view_page": 1,
+        "catalog__get_json_schema": 1,
+        "catalog__read_source_table": 1,
+        "catalog__view_region": 9,
+        "catalog__read_source_layout": 4,
+        "catalog__save_page_json": 1,
+        "catalog__read_external_audit": 1
+      },
+      "parser_capability_calls": 1,
+      "attempted_backends": [
+        "docling"
+      ],
+      "actual_conversions": [
+        {
+          "backend": "docling",
+          "status": "completed",
+          "physical_page": 33,
+          "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee"
+        }
+      ],
+      "region_requests": {
+        "total": 9,
+        "unique": 9,
+        "exact_repeats": 0
+      }
+    },
+    {
+      "case_id": "catalog-4-page-038",
+      "arm": "baseline",
+      "status": "completed",
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 38,
+      "fixture_sha256": "51edf1540e5eaa22f66844b6259ebe661885f7d583f0596b567b9ed7a9713589",
+      "tested_program": {
+        "git_revision": "ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "package_version": "1.4.1",
+        "declared_version": "1.4.1-source-ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "contract_sha256": "1e7ab4a211aeddfbeb683b5e4c50c8ea93012f644a38d2b9e058ddbf6c873850",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "elapsed_seconds": 94.756,
+      "output": {
+        "file": "baseline/catalog-4-page-038.json",
+        "sha256": "fb5e12707be4ef4ea71c3f44c425945fe985445d84785a5e7f7f5ec2106cfd5e",
+        "bytes": 20130
+      },
+      "historical_grader_version": "0.2.0",
+      "historical_correct": 72,
+      "correct": 72,
+      "expected": 72,
+      "fact_statuses": {
+        "passed": 72
+      },
+      "failed_checks": [],
+      "catalog_tool_counts": {
+        "catalog__load_skill": 1,
+        "catalog__extract_direct": 1,
+        "catalog__view_page": 1,
+        "catalog__read_source_table": 1,
+        "catalog__get_json_schema": 1,
+        "catalog__view_region": 4,
+        "catalog__save_page_json": 2,
+        "catalog__read_external_audit": 1
+      },
+      "parser_capability_calls": 1,
+      "attempted_backends": [
+        "docling"
+      ],
+      "actual_conversions": [
+        {
+          "backend": "docling",
+          "status": "completed",
+          "physical_page": 38,
+          "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee"
+        }
+      ],
+      "region_requests": {
+        "total": 4,
+        "unique": 4,
+        "exact_repeats": 0
+      }
+    },
+    {
+      "case_id": "catalog-4-page-038",
+      "arm": "extended",
+      "status": "completed",
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 38,
+      "fixture_sha256": "51edf1540e5eaa22f66844b6259ebe661885f7d583f0596b567b9ed7a9713589",
+      "tested_program": {
+        "git_revision": "ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "package_version": "1.4.1",
+        "declared_version": "1.4.1-source-ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "contract_sha256": "1e7ab4a211aeddfbeb683b5e4c50c8ea93012f644a38d2b9e058ddbf6c873850",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "elapsed_seconds": 77.602,
+      "output": {
+        "file": "extended/catalog-4-page-038.json",
+        "sha256": "2d2a415abc796f48c6ef7cc5206c34030de46419fe60fcbb23987f8c8f6b04c6",
+        "bytes": 22866
+      },
+      "historical_grader_version": "0.2.0",
+      "historical_correct": 72,
+      "correct": 72,
+      "expected": 72,
+      "fact_statuses": {
+        "passed": 72
+      },
+      "failed_checks": [],
+      "catalog_tool_counts": {
+        "catalog__load_skill": 1,
+        "catalog__extract_direct": 1,
+        "catalog__view_page": 1,
+        "catalog__read_source_table": 1,
+        "catalog__view_region": 3,
+        "catalog__get_json_schema": 1,
+        "catalog__read_source_layout": 1,
+        "catalog__read_external_audit": 1,
+        "catalog__save_page_json": 1
+      },
+      "parser_capability_calls": 1,
+      "attempted_backends": [
+        "docling"
+      ],
+      "actual_conversions": [
+        {
+          "backend": "docling",
+          "status": "completed",
+          "physical_page": 38,
+          "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee"
+        }
+      ],
+      "region_requests": {
+        "total": 3,
+        "unique": 3,
+        "exact_repeats": 0
+      }
+    },
+    {
+      "case_id": "catalog-5-page-030",
+      "arm": "baseline",
+      "status": "completed",
+      "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+      "physical_page": 30,
+      "fixture_sha256": "504a0a03fecef9240051ae24d714941ff0c8632667b60a3a83ce4e6bc2e15eed",
+      "tested_program": {
+        "git_revision": "ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "package_version": "1.4.1",
+        "declared_version": "1.4.1-source-ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "contract_sha256": "1e7ab4a211aeddfbeb683b5e4c50c8ea93012f644a38d2b9e058ddbf6c873850",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "elapsed_seconds": 48.37,
+      "output": {
+        "file": "baseline/catalog-5-page-030.json",
+        "sha256": "e315e5a50037e9d0a3cdd7dc56e57e53615894237d98a792b2024f18d439ed25",
+        "bytes": 33679
+      },
+      "historical_grader_version": "0.2.0",
+      "historical_correct": 15,
+      "correct": 15,
+      "expected": 15,
+      "fact_statuses": {
+        "passed": 15
+      },
+      "failed_checks": [],
+      "catalog_tool_counts": {
+        "catalog__load_skill": 1,
+        "catalog__extract_direct": 1,
+        "catalog__view_page": 1,
+        "catalog__read_source_table": 2,
+        "catalog__get_json_schema": 1,
+        "catalog__view_region": 2,
+        "catalog__save_page_json": 1,
+        "catalog__read_external_audit": 1
+      },
+      "parser_capability_calls": 1,
+      "attempted_backends": [],
+      "actual_conversions": [],
+      "region_requests": {
+        "total": 2,
+        "unique": 2,
+        "exact_repeats": 0
+      }
+    },
+    {
+      "case_id": "catalog-5-page-030",
+      "arm": "extended",
+      "status": "completed",
+      "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+      "physical_page": 30,
+      "fixture_sha256": "504a0a03fecef9240051ae24d714941ff0c8632667b60a3a83ce4e6bc2e15eed",
+      "tested_program": {
+        "git_revision": "ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "package_version": "1.4.1",
+        "declared_version": "1.4.1-source-ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "contract_sha256": "1e7ab4a211aeddfbeb683b5e4c50c8ea93012f644a38d2b9e058ddbf6c873850",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "elapsed_seconds": 43.79,
+      "output": {
+        "file": "extended/catalog-5-page-030.json",
+        "sha256": "253d18ff7dea22d947b0052a7afd59e86b731a2ed2a733d88515c4dacc4e989d",
+        "bytes": 33276
+      },
+      "historical_grader_version": "0.2.0",
+      "historical_correct": 15,
+      "correct": 15,
+      "expected": 15,
+      "fact_statuses": {
+        "passed": 15
+      },
+      "failed_checks": [],
+      "catalog_tool_counts": {
+        "catalog__load_skill": 1,
+        "catalog__extract_direct": 1,
+        "catalog__view_page": 1,
+        "catalog__get_json_schema": 1,
+        "catalog__read_source_table": 2,
+        "catalog__read_source_layout": 1,
+        "catalog__view_region": 1,
+        "catalog__read_external_audit": 1,
+        "catalog__save_page_json": 1
+      },
+      "parser_capability_calls": 1,
+      "attempted_backends": [],
+      "actual_conversions": [],
+      "region_requests": {
+        "total": 1,
+        "unique": 1,
+        "exact_repeats": 0
+      }
+    },
+    {
+      "case_id": "catalog-5-page-035",
+      "arm": "baseline",
+      "status": "completed",
+      "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+      "physical_page": 35,
+      "fixture_sha256": "d260784f7d7f58b7ca010d0299c35804f34ec21e47702c70dbdad09bd6b9ae61",
+      "tested_program": {
+        "git_revision": "ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "package_version": "1.4.1",
+        "declared_version": "1.4.1-source-ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "contract_sha256": "1e7ab4a211aeddfbeb683b5e4c50c8ea93012f644a38d2b9e058ddbf6c873850",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "elapsed_seconds": 106.939,
+      "output": {
+        "file": "baseline/catalog-5-page-035.json",
+        "sha256": "fed6504b665be9bcebe873376ac2e3f00cd0f238b1db014a1e90d237c895a66c",
+        "bytes": 25518
+      },
+      "historical_grader_version": "0.2.0",
+      "historical_correct": 15,
+      "correct": 15,
+      "expected": 15,
+      "fact_statuses": {
+        "passed": 15
+      },
+      "failed_checks": [],
+      "catalog_tool_counts": {
+        "catalog__load_skill": 1,
+        "catalog__extract_direct": 1,
+        "catalog__view_page": 2,
+        "catalog__read_source_table": 1,
+        "catalog__view_region": 12,
+        "catalog__get_json_schema": 1,
+        "catalog__read_source_layout": 1,
+        "catalog__save_page_json": 1,
+        "catalog__read_external_audit": 1
+      },
+      "parser_capability_calls": 1,
+      "attempted_backends": [
+        "docling"
+      ],
+      "actual_conversions": [
+        {
+          "backend": "docling",
+          "status": "completed",
+          "physical_page": 35,
+          "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35"
+        }
+      ],
+      "region_requests": {
+        "total": 12,
+        "unique": 12,
+        "exact_repeats": 0
+      }
+    },
+    {
+      "case_id": "catalog-5-page-035",
+      "arm": "extended",
+      "status": "completed",
+      "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+      "physical_page": 35,
+      "fixture_sha256": "d260784f7d7f58b7ca010d0299c35804f34ec21e47702c70dbdad09bd6b9ae61",
+      "tested_program": {
+        "git_revision": "ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "package_version": "1.4.1",
+        "declared_version": "1.4.1-source-ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "contract_sha256": "1e7ab4a211aeddfbeb683b5e4c50c8ea93012f644a38d2b9e058ddbf6c873850",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "elapsed_seconds": 69.968,
+      "output": {
+        "file": "extended/catalog-5-page-035.json",
+        "sha256": "2bbc17e52c9e348509418f6637400539d2992d04fe81dfb69e7f1f2ce1545e78",
+        "bytes": 23294
+      },
+      "historical_grader_version": "0.2.0",
+      "historical_correct": 14,
+      "correct": 14,
+      "expected": 15,
+      "fact_statuses": {
+        "passed": 14,
+        "wrong": 1
+      },
+      "failed_checks": [
+        {
+          "id": "selected-13",
+          "expected": {
+            "table_index": 0,
+            "row_key": "все8строк",
+            "column": "50Гц под дождем",
+            "expected": "45",
+            "unit": "кВ",
+            "kind": "merged",
+            "scope": {
+              "products": [
+                "ОЛСК 12,5-10-PО-2",
+                "ОЛСК 12,5-10-PОК-2",
+                "ОЛСК 12,5-10-PО-4",
+                "ОЛСК 12,5-10-PОК-4",
+                "ОЛСК 12,5-10-PО-2-h Исп.1",
+                "ОЛСК 12,5-10-PОК-2-h Исп.1",
+                "ОЛСК 12,5-10-PО-4-h Исп.1",
+                "ОЛСК 12,5-10-PОК-4-h Исп.1"
+              ],
+              "conductor": null,
+              "part": null
+            }
+          },
+          "status": "wrong",
+          "evidence": [
+            {
+              "table_index": 0,
+              "table_id": "t1",
+              "row_index": 0,
+              "column_id": "c11",
+              "column": {
+                "id": "c11",
+                "label": "50 Гц под дождем",
+                "unit": null,
+                "group": "Выдерживаемое напряжение, кВ",
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c11",
+                "value": "45",
+                "state": "value"
+              },
+              "product_names": [
+                "ОЛСК 12,5-10-PО-2"
+              ],
+              "path": "tables[0].rows[0].cells[10]"
+            },
+            {
+              "table_index": 0,
+              "table_id": "t1",
+              "row_index": 1,
+              "column_id": "c11",
+              "column": {
+                "id": "c11",
+                "label": "50 Гц под дождем",
+                "unit": null,
+                "group": "Выдерживаемое напряжение, кВ",
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c11",
+                "value": "45",
+                "state": "value"
+              },
+              "product_names": [
+                "ОЛСК 12,5-10-PОК-2"
+              ],
+              "path": "tables[0].rows[1].cells[10]"
+            },
+            {
+              "table_index": 0,
+              "table_id": "t1",
+              "row_index": 2,
+              "column_id": "c11",
+              "column": {
+                "id": "c11",
+                "label": "50 Гц под дождем",
+                "unit": null,
+                "group": "Выдерживаемое напряжение, кВ",
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c11",
+                "value": "45",
+                "state": "value"
+              },
+              "product_names": [
+                "ОЛСК 12,5-10-PО-4"
+              ],
+              "path": "tables[0].rows[2].cells[10]"
+            },
+            {
+              "table_index": 0,
+              "table_id": "t1",
+              "row_index": 3,
+              "column_id": "c11",
+              "column": {
+                "id": "c11",
+                "label": "50 Гц под дождем",
+                "unit": null,
+                "group": "Выдерживаемое напряжение, кВ",
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c11",
+                "value": "45",
+                "state": "value"
+              },
+              "product_names": [
+                "ОЛСК 12,5-10-PОК-4"
+              ],
+              "path": "tables[0].rows[3].cells[10]"
+            },
+            {
+              "table_index": 0,
+              "table_id": "t1",
+              "row_index": 4,
+              "column_id": "c11",
+              "column": {
+                "id": "c11",
+                "label": "50 Гц под дождем",
+                "unit": null,
+                "group": "Выдерживаемое напряжение, кВ",
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c11",
+                "value": "45",
+                "state": "value"
+              },
+              "product_names": [
+                "ОЛСК 12,5-10-PО-2-h Исп.1"
+              ],
+              "path": "tables[0].rows[4].cells[10]"
+            },
+            {
+              "table_index": 0,
+              "table_id": "t1",
+              "row_index": 5,
+              "column_id": "c11",
+              "column": {
+                "id": "c11",
+                "label": "50 Гц под дождем",
+                "unit": null,
+                "group": "Выдерживаемое напряжение, кВ",
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c11",
+                "value": "45",
+                "state": "value"
+              },
+              "product_names": [
+                "ОЛСК 12,5-10-PОК-2-h Исп.1"
+              ],
+              "path": "tables[0].rows[5].cells[10]"
+            },
+            {
+              "table_index": 0,
+              "table_id": "t1",
+              "row_index": 6,
+              "column_id": "c11",
+              "column": {
+                "id": "c11",
+                "label": "50 Гц под дождем",
+                "unit": null,
+                "group": "Выдерживаемое напряжение, кВ",
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c11",
+                "value": "45",
+                "state": "value"
+              },
+              "product_names": [
+                "ОЛСК 12,5-10-PО-4-h Исп.1"
+              ],
+              "path": "tables[0].rows[6].cells[10]"
+            },
+            {
+              "table_index": 0,
+              "table_id": "t1",
+              "row_index": 7,
+              "column_id": "c11",
+              "column": {
+                "id": "c11",
+                "label": "50 Гц под дождем",
+                "unit": null,
+                "group": "Выдерживаемое напряжение, кВ",
+                "qualifier": null
+              },
+              "cell": {
+                "column_id": "c11",
+                "value": "45",
+                "state": "value"
+              },
+              "product_names": [
+                "ОЛСК 12,5-10-PОК-4-h Исп.1"
+              ],
+              "path": "tables[0].rows[7].cells[10]"
+            }
+          ],
+          "issues": [
+            "unit"
+          ]
+        }
+      ],
+      "catalog_tool_counts": {
+        "catalog__load_skill": 1,
+        "catalog__extract_direct": 1,
+        "catalog__view_page": 1,
+        "catalog__get_json_schema": 1,
+        "catalog__read_source_table": 1,
+        "catalog__view_region": 4,
+        "catalog__save_page_json": 2,
+        "catalog__read_external_audit": 1
+      },
+      "parser_capability_calls": 1,
+      "attempted_backends": [],
+      "actual_conversions": [],
+      "region_requests": {
+        "total": 4,
+        "unique": 4,
+        "exact_repeats": 0
+      }
+    },
+    {
+      "case_id": "catalog-5-page-126",
+      "arm": "baseline",
+      "status": "completed",
+      "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+      "physical_page": 126,
+      "fixture_sha256": "a2123b1f211f87319036dd97bcc5ad09efa5e7c120ca936cc8ff2da771703a4c",
+      "tested_program": {
+        "git_revision": "ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "package_version": "1.4.1",
+        "declared_version": "1.4.1-source-ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "contract_sha256": "1e7ab4a211aeddfbeb683b5e4c50c8ea93012f644a38d2b9e058ddbf6c873850",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "elapsed_seconds": 234.504,
+      "output": {
+        "file": "baseline/catalog-5-page-126.json",
+        "sha256": "94a4970e3240ee0036f4a7516caf36052e0bb718575e2b5aeabfefce539db859",
+        "bytes": 43798
+      },
+      "historical_grader_version": "0.2.0",
+      "historical_correct": 15,
+      "correct": 15,
+      "expected": 15,
+      "fact_statuses": {
+        "passed": 15
+      },
+      "failed_checks": [],
+      "catalog_tool_counts": {
+        "catalog__load_skill": 1,
+        "catalog__extract_direct": 1,
+        "catalog__view_page": 1,
+        "catalog__read_source_table": 1,
+        "catalog__get_json_schema": 1,
+        "catalog__view_region": 10,
+        "catalog__read_external_audit": 1,
+        "catalog__read_source_layout": 1,
+        "catalog__save_section": 15,
+        "catalog__finalize_page": 1
+      },
+      "parser_capability_calls": 1,
+      "attempted_backends": [],
+      "actual_conversions": [],
+      "region_requests": {
+        "total": 10,
+        "unique": 10,
+        "exact_repeats": 0
+      }
+    },
+    {
+      "case_id": "catalog-5-page-126",
+      "arm": "extended",
+      "status": "completed",
+      "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+      "physical_page": 126,
+      "fixture_sha256": "a2123b1f211f87319036dd97bcc5ad09efa5e7c120ca936cc8ff2da771703a4c",
+      "tested_program": {
+        "git_revision": "ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "package_version": "1.4.1",
+        "declared_version": "1.4.1-source-ecf9ced09c8508e9383fe35ada563f0bfd59c970",
+        "contract_sha256": "1e7ab4a211aeddfbeb683b5e4c50c8ea93012f644a38d2b9e058ddbf6c873850",
+        "dirty": false,
+        "tracked_diff_sha256": null,
+        "version_evidence": "execution_receipt"
+      },
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "elapsed_seconds": 97.093,
+      "output": {
+        "file": "extended/catalog-5-page-126.json",
+        "sha256": "02a0c2cb952cd148741b5ed723648c386f75e4aa7e6e63b3d5e842224643fc25",
+        "bytes": 46908
+      },
+      "historical_grader_version": "0.2.0",
+      "historical_correct": 15,
+      "correct": 15,
+      "expected": 15,
+      "fact_statuses": {
+        "passed": 15
+      },
+      "failed_checks": [],
+      "catalog_tool_counts": {
+        "catalog__load_skill": 1,
+        "catalog__extract_direct": 1,
+        "catalog__view_page": 1,
+        "catalog__read_source_table": 1,
+        "catalog__get_json_schema": 1,
+        "catalog__view_region": 4,
+        "catalog__read_source_layout": 6,
+        "catalog__save_page_json": 1,
+        "catalog__read_external_audit": 1
+      },
+      "parser_capability_calls": 1,
+      "attempted_backends": [],
+      "actual_conversions": [],
+      "region_requests": {
+        "total": 4,
+        "unique": 4,
+        "exact_repeats": 0
+      }
+    }
+  ],
+  "transcripts_saved_publicly": false,
+  "provider_calls_for_regrade": 0
+}

@@ -45,6 +45,6 @@ v0.1.0 is public. Clean installation from the public tag, dataset verification, 
 | # | Description | Date | Commit | Directory |
 |---|---|---|---|---|
 | 261012-9vv | Fix drawing token boundaries and reject swapped views | 2026-10-12 | 437b5ba | [261012-9vv](./quick/261012-9vv-fix-drawing-token-boundaries-without-cha/) |
-| 261012-b7d | Recognize equivalent conductivity headers; reject composite fields | 2026-10-12 | pending | [261012-b7d](./quick/261012-b7d-recognize-equivalent-conductivity-header/) |
+| 261012-b7d | Recognize equivalent conductivity headers; reject composite fields | 2026-10-12 | d2649e5 | [261012-b7d](./quick/261012-b7d-recognize-equivalent-conductivity-header/) |
 
 Owner permission on 2026-10-12 explicitly allows publication of public catalogue JSON examples and compact benchmark outputs with actual program versions. Raw logs, transcripts, credentials and model weights remain excluded. Historical releases and frozen grader cohorts are preserved.

@@ -1,0 +1,4411 @@
+{
+  "grader_version": "0.2.2",
+  "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c",
+  "stage": "regrade_retained_direct_parser_output",
+  "original_execution_stage": "direct_parser",
+  "dataset_version": "1.0.0",
+  "fixture_count": 15,
+  "facts_per_configuration": 500,
+  "configurations": [
+    {
+      "engine": "docling",
+      "historical_grader_correct": 266,
+      "regraded_correct": 266,
+      "expected": 500,
+      "delta_correct": 0,
+      "completed_native_attempts": 15,
+      "cases": [
+        {
+          "case_id": "catalog-1-page-017",
+          "status": "completed",
+          "expected": 15,
+          "correct": 11,
+          "candidate_sha256": "3f3c9f700d69433c0602cf3489a815f6b2f32e96232eca0e7c09ea1220ea29e9",
+          "fixture_sha256": "5147637fe66b27a76079c3ee59c948d4f30963f40ec03649d9ac0ee3c57ccec4",
+          "available_for_scoring": true,
+          "statuses": {
+            "passed": 11,
+            "missing": 3,
+            "wrong": 1
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-1-page-022",
+          "status": "completed",
+          "expected": 15,
+          "correct": 7,
+          "candidate_sha256": "a0482362c816a33f54f668024ddb2960da877c1fda28ff039e97420c05e5f5f3",
+          "fixture_sha256": "a1187e1a23848883bfb7d776a1289e3ccc09f9675493c1e5b4def85be8589654",
+          "available_for_scoring": true,
+          "statuses": {
+            "passed": 7,
+            "wrong": 2,
+            "missing": 6
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-1-page-026",
+          "status": "completed",
+          "expected": 15,
+          "correct": 2,
+          "candidate_sha256": "ccbb4cad9cca74779d2310f69eff3214304be21151cd48bbe451220cb7316b0b",
+          "fixture_sha256": "f1defb41f76e7a075e441132a7d6c01200a1aff344064786b8e07cd64d7416b1",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 10,
+            "wrong": 3,
+            "passed": 2
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-060",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "530f5429c7afd6986bea3b58366bb6fde54b8567e5b4f6c15d3f3f4dc390c2a4",
+          "fixture_sha256": "93cf32c6d3a26326831fb0bb6152f3bf62ffd6897c1a1af554a91a97e0a64c3a",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-149",
+          "status": "completed",
+          "expected": 15,
+          "correct": 2,
+          "candidate_sha256": "75c6ffa4fca10153a21c3963cebbebf17944a0e8332001248a418a3e7441206e",
+          "fixture_sha256": "626e9f586350ffcc8b7eb947fa91e1b98c2434558ffe8454c4a35492d02848da",
+          "available_for_scoring": true,
+          "statuses": {
+            "passed": 2,
+            "wrong": 7,
+            "missing": 6
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-185",
+          "status": "completed",
+          "expected": 15,
+          "correct": 5,
+          "candidate_sha256": "8dbde5a5f667f2e77601d559a0a187441bb58966f67f20ff52317e73caa30b07",
+          "fixture_sha256": "4b12ce1f6ace967f9b3339ee129ff14b8928454f53cd069001800a7317d28d4a",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 6,
+            "wrong": 4,
+            "passed": 5
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-103",
+          "status": "completed",
+          "expected": 15,
+          "correct": 5,
+          "candidate_sha256": "2b0dd5102f722907b5e81707bfc82d3ba213c1493b66214b18e7eaa16e00443f",
+          "fixture_sha256": "9b905e94740f8ee8fc715e93b4b5d57d1177d58d0450becf8107380347a260d9",
+          "available_for_scoring": true,
+          "statuses": {
+            "wrong": 5,
+            "missing": 5,
+            "passed": 5
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-108",
+          "status": "completed",
+          "expected": 15,
+          "correct": 7,
+          "candidate_sha256": "105df3da4e06b5a4f419ba5e159d19bc7244691c78592f8b7d5153eaa25bb26e",
+          "fixture_sha256": "82e19efe34b7ca874e3e463e551ebb0eaef8006b5a7f725eca883c4ac1f35597",
+          "available_for_scoring": true,
+          "statuses": {
+            "wrong": 4,
+            "missing": 4,
+            "passed": 7
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-111",
+          "status": "completed",
+          "expected": 15,
+          "correct": 8,
+          "candidate_sha256": "196232651215ddaceed40e4c5a92ea8a0563aa47a26055944b96f704bc4d7973",
+          "fixture_sha256": "928708a691d82dd302c54ad59a195c20a5864659f0d788aa4a50a4f5359640ea",
+          "available_for_scoring": true,
+          "statuses": {
+            "passed": 8,
+            "wrong": 3,
+            "missing": 4
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-033",
+          "status": "completed",
+          "expected": 108,
+          "correct": 60,
+          "candidate_sha256": "4aa089896ee5d4737da8e426b6b9b006571e82743979dd48b65fa93f6ffc904a",
+          "fixture_sha256": "ea8408c3e91fc2b5f66964af2f0912bddaae85595fdac3947186708ba5aaf7bb",
+          "available_for_scoring": true,
+          "statuses": {
+            "passed": 60,
+            "wrong": 3,
+            "missing": 45
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-038",
+          "status": "completed",
+          "expected": 72,
+          "correct": 36,
+          "candidate_sha256": "232d5ba332b09eb0417a8842c89a496eaff7d735b2b23828496838b51f64fdda",
+          "fixture_sha256": "51edf1540e5eaa22f66844b6259ebe661885f7d583f0596b567b9ed7a9713589",
+          "available_for_scoring": true,
+          "statuses": {
+            "passed": 36,
+            "missing": 30,
+            "wrong": 6
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-078",
+          "status": "completed",
+          "expected": 140,
+          "correct": 86,
+          "candidate_sha256": "f469029cb68338cb70b0c77d48cfe2d78a26fe5d69c117470888cb88c2601f25",
+          "fixture_sha256": "86e767f7af5fdbc24d208112c9c1b6c2b1a3771e3348a130f179db4e7d4ac8b6",
+          "available_for_scoring": true,
+          "statuses": {
+            "passed": 86,
+            "wrong": 32,
+            "missing": 22
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-030",
+          "status": "completed",
+          "expected": 15,
+          "correct": 15,
+          "candidate_sha256": "745e359b6c6d905478ccf043dc69fca3c3e58b0ab2b55fb5c5701ebeac229496",
+          "fixture_sha256": "504a0a03fecef9240051ae24d714941ff0c8632667b60a3a83ce4e6bc2e15eed",
+          "available_for_scoring": true,
+          "statuses": {
+            "passed": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-035",
+          "status": "completed",
+          "expected": 15,
+          "correct": 11,
+          "candidate_sha256": "d30b4cc577460923a16660ddae756790fdfbc18f9802db79e0e06d71080de96f",
+          "fixture_sha256": "d260784f7d7f58b7ca010d0299c35804f34ec21e47702c70dbdad09bd6b9ae61",
+          "available_for_scoring": true,
+          "statuses": {
+            "passed": 11,
+            "wrong": 4
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-126",
+          "status": "completed",
+          "expected": 15,
+          "correct": 11,
+          "candidate_sha256": "d2dd68137c438783ea54a7f150d227ea1f8a055d032a9cbfcf6535aa40286ff2",
+          "fixture_sha256": "a2123b1f211f87319036dd97bcc5ad09efa5e7c120ca936cc8ff2da771703a4c",
+          "available_for_scoring": true,
+          "statuses": {
+            "wrong": 4,
+            "passed": 11
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        }
+      ]
+    },
+    {
+      "engine": "pymupdf4llm",
+      "historical_grader_correct": 13,
+      "regraded_correct": 13,
+      "expected": 500,
+      "delta_correct": 0,
+      "completed_native_attempts": 15,
+      "cases": [
+        {
+          "case_id": "catalog-1-page-017",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "5bd8d9d345fe05c0df6ed333c1f147f5411395e71593e0f9b1e1bc87befcdfc4",
+          "fixture_sha256": "5147637fe66b27a76079c3ee59c948d4f30963f40ec03649d9ac0ee3c57ccec4",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-1-page-022",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "c98dbda8177715406a7f7ee5a43f5882aea8dd40b0ccf81517aacb050495b8cb",
+          "fixture_sha256": "a1187e1a23848883bfb7d776a1289e3ccc09f9675493c1e5b4def85be8589654",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-1-page-026",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "45d0a743820d32bafa92056e01940b962e50a7243604b8ff64db4d7652147002",
+          "fixture_sha256": "f1defb41f76e7a075e441132a7d6c01200a1aff344064786b8e07cd64d7416b1",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-060",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "2dcb6aafcf4dbda4e13394c7f4857f5c780b765989c25ad80443822f2fd1b354",
+          "fixture_sha256": "93cf32c6d3a26326831fb0bb6152f3bf62ffd6897c1a1af554a91a97e0a64c3a",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-149",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "f044ea4e097bdc644ab0efce2f4013f9427cd257738d14e37b1e1e3b4150bb39",
+          "fixture_sha256": "626e9f586350ffcc8b7eb947fa91e1b98c2434558ffe8454c4a35492d02848da",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-185",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "c1075e67a98a2dbfdf1c9ebe1fbc8314740835682501dfb1c7ae270490f82d3e",
+          "fixture_sha256": "4b12ce1f6ace967f9b3339ee129ff14b8928454f53cd069001800a7317d28d4a",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-103",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "ebb3d99dbd3fc5e7705c3ff410e98a28c460be03e4f98b109064f6771a965e6a",
+          "fixture_sha256": "9b905e94740f8ee8fc715e93b4b5d57d1177d58d0450becf8107380347a260d9",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-108",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "647ed514196f5bdef271c335fd74ec39f475d58bc0443b6dc77c1dca5bd8d6be",
+          "fixture_sha256": "82e19efe34b7ca874e3e463e551ebb0eaef8006b5a7f725eca883c4ac1f35597",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-111",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "270ffc1bc11478b6f46de6681494e4a02fc4709d56dcc7cc9fa0b915930282c8",
+          "fixture_sha256": "928708a691d82dd302c54ad59a195c20a5864659f0d788aa4a50a4f5359640ea",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-033",
+          "status": "completed",
+          "expected": 108,
+          "correct": 0,
+          "candidate_sha256": "3c4d9cb3b55b568432e63cafef5cbb1598555c1c06d8fc21c820ef41fd34873f",
+          "fixture_sha256": "ea8408c3e91fc2b5f66964af2f0912bddaae85595fdac3947186708ba5aaf7bb",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 108
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-038",
+          "status": "completed",
+          "expected": 72,
+          "correct": 0,
+          "candidate_sha256": "478355a3b6ddc57576ef7a437980d2c0363467402d6d7f5f066da72d4d57bf05",
+          "fixture_sha256": "51edf1540e5eaa22f66844b6259ebe661885f7d583f0596b567b9ed7a9713589",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 72
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-078",
+          "status": "completed",
+          "expected": 140,
+          "correct": 0,
+          "candidate_sha256": "2b7707ce387e115b91885b058d56f9b480902b08398cfe92b0de25e89883b172",
+          "fixture_sha256": "86e767f7af5fdbc24d208112c9c1b6c2b1a3771e3348a130f179db4e7d4ac8b6",
+          "available_for_scoring": true,
+          "statuses": {
+            "ambiguous": 60,
+            "missing": 80
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-030",
+          "status": "completed",
+          "expected": 15,
+          "correct": 1,
+          "candidate_sha256": "3252c599bd3001effb288e0612c60099ca9aa5a5e33c9b411b692b64ec5a55a1",
+          "fixture_sha256": "504a0a03fecef9240051ae24d714941ff0c8632667b60a3a83ce4e6bc2e15eed",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 13,
+            "wrong": 1,
+            "passed": 1
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-035",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "77b9e96c54f16f93e0bd61e5658fd9f3febe5b47f5e06644464025d261383739",
+          "fixture_sha256": "d260784f7d7f58b7ca010d0299c35804f34ec21e47702c70dbdad09bd6b9ae61",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-126",
+          "status": "completed",
+          "expected": 15,
+          "correct": 12,
+          "candidate_sha256": "08f2c8a998c1bd133e9acfbe99b65768e947ff39facacecc8205e4796b01dd7b",
+          "fixture_sha256": "a2123b1f211f87319036dd97bcc5ad09efa5e7c120ca936cc8ff2da771703a4c",
+          "available_for_scoring": true,
+          "statuses": {
+            "wrong": 3,
+            "passed": 12
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        }
+      ]
+    },
+    {
+      "engine": "camelot-lattice",
+      "historical_grader_correct": 39,
+      "regraded_correct": 39,
+      "expected": 500,
+      "delta_correct": 0,
+      "completed_native_attempts": 15,
+      "cases": [
+        {
+          "case_id": "catalog-1-page-017",
+          "status": "completed",
+          "expected": 15,
+          "correct": 3,
+          "candidate_sha256": "c2b4e43d4868dd5f34d2907da5d00e252df18a1737c3cb5dc9ed187ef4ee027f",
+          "fixture_sha256": "5147637fe66b27a76079c3ee59c948d4f30963f40ec03649d9ac0ee3c57ccec4",
+          "available_for_scoring": true,
+          "statuses": {
+            "passed": 3,
+            "missing": 6,
+            "wrong": 6
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-1-page-022",
+          "status": "completed",
+          "expected": 15,
+          "correct": 1,
+          "candidate_sha256": "82ef315839a91c528204436400fc78e537e2ac652377e22a15c124d478e45d0a",
+          "fixture_sha256": "a1187e1a23848883bfb7d776a1289e3ccc09f9675493c1e5b4def85be8589654",
+          "available_for_scoring": true,
+          "statuses": {
+            "passed": 1,
+            "missing": 8,
+            "wrong": 6
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-1-page-026",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "fd1cfdbbb8a530488b5cfd6eb32c2051cc5cb15be8790d7eaee6b85d4d9393d6",
+          "fixture_sha256": "f1defb41f76e7a075e441132a7d6c01200a1aff344064786b8e07cd64d7416b1",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-060",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "4abf85a0b18a51885dff3336206824cd26bdeb70c83029226c283662e18995f6",
+          "fixture_sha256": "93cf32c6d3a26326831fb0bb6152f3bf62ffd6897c1a1af554a91a97e0a64c3a",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-149",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "724ef03b190f6dc4c236234dacc9199d1dce7b6e65f8be406edeb030be62a99a",
+          "fixture_sha256": "626e9f586350ffcc8b7eb947fa91e1b98c2434558ffe8454c4a35492d02848da",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-185",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "8ebf8728bb7d7032a1bae4555f2619fb79848a399d2ef98510d5fe145259c66d",
+          "fixture_sha256": "4b12ce1f6ace967f9b3339ee129ff14b8928454f53cd069001800a7317d28d4a",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-103",
+          "status": "completed",
+          "expected": 15,
+          "correct": 2,
+          "candidate_sha256": "6d3283512ec621c757844fdfdaca45599bdfa7698337a2ca1717c114c53a8706",
+          "fixture_sha256": "9b905e94740f8ee8fc715e93b4b5d57d1177d58d0450becf8107380347a260d9",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 13,
+            "passed": 2
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-108",
+          "status": "completed",
+          "expected": 15,
+          "correct": 4,
+          "candidate_sha256": "b6edac1c42b06fce986c855459c7dd1e63121d7bef09dcc973d620ae837bf656",
+          "fixture_sha256": "82e19efe34b7ca874e3e463e551ebb0eaef8006b5a7f725eca883c4ac1f35597",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 11,
+            "passed": 4
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-111",
+          "status": "completed",
+          "expected": 15,
+          "correct": 7,
+          "candidate_sha256": "6999fad6408b991907d5cd6d527bd9713c6f3229b511cf8c35177175811086c8",
+          "fixture_sha256": "928708a691d82dd302c54ad59a195c20a5864659f0d788aa4a50a4f5359640ea",
+          "available_for_scoring": true,
+          "statuses": {
+            "passed": 7,
+            "wrong": 6,
+            "missing": 2
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-033",
+          "status": "completed",
+          "expected": 108,
+          "correct": 0,
+          "candidate_sha256": "f6e50c3b44ff7f3a979d4273dc771bfcc5aa734876df1f832f153efd6b167474",
+          "fixture_sha256": "ea8408c3e91fc2b5f66964af2f0912bddaae85595fdac3947186708ba5aaf7bb",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 108
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-038",
+          "status": "completed",
+          "expected": 72,
+          "correct": 0,
+          "candidate_sha256": "f6e50c3b44ff7f3a979d4273dc771bfcc5aa734876df1f832f153efd6b167474",
+          "fixture_sha256": "51edf1540e5eaa22f66844b6259ebe661885f7d583f0596b567b9ed7a9713589",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 72
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-078",
+          "status": "completed",
+          "expected": 140,
+          "correct": 0,
+          "candidate_sha256": "f6e50c3b44ff7f3a979d4273dc771bfcc5aa734876df1f832f153efd6b167474",
+          "fixture_sha256": "86e767f7af5fdbc24d208112c9c1b6c2b1a3771e3348a130f179db4e7d4ac8b6",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 140
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-030",
+          "status": "completed",
+          "expected": 15,
+          "correct": 4,
+          "candidate_sha256": "7e08c585fe540f8cd8ebdf0c4446d1eb3cd07c12b31d74812b09b42a66579ef4",
+          "fixture_sha256": "504a0a03fecef9240051ae24d714941ff0c8632667b60a3a83ce4e6bc2e15eed",
+          "available_for_scoring": true,
+          "statuses": {
+            "wrong": 5,
+            "missing": 6,
+            "passed": 4
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-035",
+          "status": "completed",
+          "expected": 15,
+          "correct": 6,
+          "candidate_sha256": "159e5e3229698c790b3d6ca26ecc61b599788548921741f2b2748bb34d8f7659",
+          "fixture_sha256": "d260784f7d7f58b7ca010d0299c35804f34ec21e47702c70dbdad09bd6b9ae61",
+          "available_for_scoring": true,
+          "statuses": {
+            "passed": 6,
+            "wrong": 7,
+            "missing": 2
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-126",
+          "status": "completed",
+          "expected": 15,
+          "correct": 12,
+          "candidate_sha256": "378c27e2e341c883c1a0030784a1ca7d8f62d52fc6d2f6a1a3641c756aeb4088",
+          "fixture_sha256": "a2123b1f211f87319036dd97bcc5ad09efa5e7c120ca936cc8ff2da771703a4c",
+          "available_for_scoring": true,
+          "statuses": {
+            "wrong": 3,
+            "passed": 12
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        }
+      ]
+    },
+    {
+      "engine": "camelot-stream",
+      "historical_grader_correct": 0,
+      "regraded_correct": 0,
+      "expected": 500,
+      "delta_correct": 0,
+      "completed_native_attempts": 15,
+      "cases": [
+        {
+          "case_id": "catalog-1-page-017",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "ffebbdd0510b9c26f98329bd023ede772c9fa3a0619e96f5e59f397445a718da",
+          "fixture_sha256": "5147637fe66b27a76079c3ee59c948d4f30963f40ec03649d9ac0ee3c57ccec4",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 14,
+            "wrong": 1
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-1-page-022",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "6463a09ef5addc57731ab454bd1e67149c6478868075fcef353f0fa39a724f3b",
+          "fixture_sha256": "a1187e1a23848883bfb7d776a1289e3ccc09f9675493c1e5b4def85be8589654",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-1-page-026",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "9dbd7f8914bf8e8f7fed22b224a044deb984646ed34e183088ddea1758532755",
+          "fixture_sha256": "f1defb41f76e7a075e441132a7d6c01200a1aff344064786b8e07cd64d7416b1",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-060",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "9bd590a61acf26d4c4f678c9964e3778cef35cd14fe18690a3ad399deed06631",
+          "fixture_sha256": "93cf32c6d3a26326831fb0bb6152f3bf62ffd6897c1a1af554a91a97e0a64c3a",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-149",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "75e6a0722fcf05f011af31cd434c64c17eb57e0bd65c6bf911ee666ab57e5590",
+          "fixture_sha256": "626e9f586350ffcc8b7eb947fa91e1b98c2434558ffe8454c4a35492d02848da",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-185",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "35932e1d585250248948e8e3cea1b8d7832f7c8c9fa728d184462941c369d6ef",
+          "fixture_sha256": "4b12ce1f6ace967f9b3339ee129ff14b8928454f53cd069001800a7317d28d4a",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 14,
+            "wrong": 1
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-103",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "4e322bfa323d465f94a58ef5a1178ccbc7c09f0f403ff739f103650fe8602473",
+          "fixture_sha256": "9b905e94740f8ee8fc715e93b4b5d57d1177d58d0450becf8107380347a260d9",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-108",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "d74ec05211e3eb036d75554cd58f0521cf41fa652c07d7b8d36fa5f0d938a68f",
+          "fixture_sha256": "82e19efe34b7ca874e3e463e551ebb0eaef8006b5a7f725eca883c4ac1f35597",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-111",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "29deecd0da8fbaf1f55643b90732ea84d5d08fb201640773b1f26b4ee9345675",
+          "fixture_sha256": "928708a691d82dd302c54ad59a195c20a5864659f0d788aa4a50a4f5359640ea",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-033",
+          "status": "completed",
+          "expected": 108,
+          "correct": 0,
+          "candidate_sha256": "19b9811c3d882bed3cb976fc1195e1df65421707db57aaf1d585619faf0a04d0",
+          "fixture_sha256": "ea8408c3e91fc2b5f66964af2f0912bddaae85595fdac3947186708ba5aaf7bb",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 108
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-038",
+          "status": "completed",
+          "expected": 72,
+          "correct": 0,
+          "candidate_sha256": "93436cb795e9c8a222f50e57e93a350ad93d1e2294b032974c60edb9f20f64cf",
+          "fixture_sha256": "51edf1540e5eaa22f66844b6259ebe661885f7d583f0596b567b9ed7a9713589",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 72
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-078",
+          "status": "completed",
+          "expected": 140,
+          "correct": 0,
+          "candidate_sha256": "41c0a28ebf0fb1ee9db2f56d815b64c38edcad0ed6bbab8400c783f890330468",
+          "fixture_sha256": "86e767f7af5fdbc24d208112c9c1b6c2b1a3771e3348a130f179db4e7d4ac8b6",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 140
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-030",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "6ef97c57794191d8775d4346c8283f67130a4299fb0f7c7b6b09327c0d70e631",
+          "fixture_sha256": "504a0a03fecef9240051ae24d714941ff0c8632667b60a3a83ce4e6bc2e15eed",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-035",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "5c024a3b4d7c72328c301517f5fd3602e23e76faac9e35b820ca62139d96fda6",
+          "fixture_sha256": "d260784f7d7f58b7ca010d0299c35804f34ec21e47702c70dbdad09bd6b9ae61",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-126",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "6c64e981b21b3071c7d5ae0b8449c96819b96397eeb66a81df17dd603d9eef39",
+          "fixture_sha256": "a2123b1f211f87319036dd97bcc5ad09efa5e7c120ca936cc8ff2da771703a4c",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        }
+      ]
+    },
+    {
+      "engine": "gmft",
+      "historical_grader_correct": 141,
+      "regraded_correct": 141,
+      "expected": 500,
+      "delta_correct": 0,
+      "completed_native_attempts": 15,
+      "cases": [
+        {
+          "case_id": "catalog-1-page-017",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "2babe60692361d80bfd0abe50060fd9c160a04a7dbda888058b529fa358f1a33",
+          "fixture_sha256": "5147637fe66b27a76079c3ee59c948d4f30963f40ec03649d9ac0ee3c57ccec4",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-1-page-022",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "2babe60692361d80bfd0abe50060fd9c160a04a7dbda888058b529fa358f1a33",
+          "fixture_sha256": "a1187e1a23848883bfb7d776a1289e3ccc09f9675493c1e5b4def85be8589654",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-1-page-026",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "2babe60692361d80bfd0abe50060fd9c160a04a7dbda888058b529fa358f1a33",
+          "fixture_sha256": "f1defb41f76e7a075e441132a7d6c01200a1aff344064786b8e07cd64d7416b1",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-060",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "cef254511dc15f43340eb072d6de86c9193916150b09725932dfcbef028b9b9c",
+          "fixture_sha256": "93cf32c6d3a26326831fb0bb6152f3bf62ffd6897c1a1af554a91a97e0a64c3a",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-149",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "2babe60692361d80bfd0abe50060fd9c160a04a7dbda888058b529fa358f1a33",
+          "fixture_sha256": "626e9f586350ffcc8b7eb947fa91e1b98c2434558ffe8454c4a35492d02848da",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-185",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "2babe60692361d80bfd0abe50060fd9c160a04a7dbda888058b529fa358f1a33",
+          "fixture_sha256": "4b12ce1f6ace967f9b3339ee129ff14b8928454f53cd069001800a7317d28d4a",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-103",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "47f5daa2f06f4887db9f9349c7cdeb0369a7713c59f2c7c31f9a9cd4a980b223",
+          "fixture_sha256": "9b905e94740f8ee8fc715e93b4b5d57d1177d58d0450becf8107380347a260d9",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-108",
+          "status": "completed",
+          "expected": 15,
+          "correct": 3,
+          "candidate_sha256": "c358be52faf4e589d0165fbee50dc33af68a5e41107726622d46babc30de99e9",
+          "fixture_sha256": "82e19efe34b7ca874e3e463e551ebb0eaef8006b5a7f725eca883c4ac1f35597",
+          "available_for_scoring": true,
+          "statuses": {
+            "wrong": 8,
+            "missing": 4,
+            "passed": 3
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-111",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "5686316ac21b5b030e6bad933d194a1b6884943d5e7994db5c0389cc4c2608d4",
+          "fixture_sha256": "928708a691d82dd302c54ad59a195c20a5864659f0d788aa4a50a4f5359640ea",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-033",
+          "status": "completed",
+          "expected": 108,
+          "correct": 62,
+          "candidate_sha256": "dc7b6c31420d2581647de757e46fb3eaa31eb81d28add0cbaab2ce8d29efb448",
+          "fixture_sha256": "ea8408c3e91fc2b5f66964af2f0912bddaae85595fdac3947186708ba5aaf7bb",
+          "available_for_scoring": true,
+          "statuses": {
+            "passed": 62,
+            "wrong": 37,
+            "missing": 9
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-038",
+          "status": "completed",
+          "expected": 72,
+          "correct": 58,
+          "candidate_sha256": "b6bd8e3766f09a478c5ebbb8b27c3e27566c884ae2ccd9b2f11b3a4b06a24f38",
+          "fixture_sha256": "51edf1540e5eaa22f66844b6259ebe661885f7d583f0596b567b9ed7a9713589",
+          "available_for_scoring": true,
+          "statuses": {
+            "passed": 58,
+            "wrong": 8,
+            "missing": 6
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-078",
+          "status": "completed",
+          "expected": 140,
+          "correct": 4,
+          "candidate_sha256": "a25c78aa548106b5999032cda78d523793ac19ef8f0b3405acd4388da674d346",
+          "fixture_sha256": "86e767f7af5fdbc24d208112c9c1b6c2b1a3771e3348a130f179db4e7d4ac8b6",
+          "available_for_scoring": true,
+          "statuses": {
+            "passed": 4,
+            "missing": 136
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-030",
+          "status": "completed",
+          "expected": 15,
+          "correct": 3,
+          "candidate_sha256": "2bcc305170473096b39bbbc21e9c1d29cfcaac5100f4468edd7f9b455a4f29b7",
+          "fixture_sha256": "504a0a03fecef9240051ae24d714941ff0c8632667b60a3a83ce4e6bc2e15eed",
+          "available_for_scoring": true,
+          "statuses": {
+            "wrong": 4,
+            "passed": 3,
+            "missing": 8
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-035",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "5f92b3e6f6f010fb7037ce7d34cb9b78d239d2a242dbb27fd20e6dce51b9ddea",
+          "fixture_sha256": "d260784f7d7f58b7ca010d0299c35804f34ec21e47702c70dbdad09bd6b9ae61",
+          "available_for_scoring": true,
+          "statuses": {
+            "ambiguous": 5,
+            "wrong": 5,
+            "missing": 5
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-126",
+          "status": "completed",
+          "expected": 15,
+          "correct": 11,
+          "candidate_sha256": "92cfa7f5101ae718c2a8f08cb8800f545d1f5d649573e02bcfbf2764cce3d7b4",
+          "fixture_sha256": "a2123b1f211f87319036dd97bcc5ad09efa5e7c120ca936cc8ff2da771703a4c",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 1,
+            "passed": 11,
+            "wrong": 3
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        }
+      ]
+    },
+    {
+      "engine": "img2table",
+      "historical_grader_correct": 91,
+      "regraded_correct": 91,
+      "expected": 500,
+      "delta_correct": 0,
+      "completed_native_attempts": 15,
+      "cases": [
+        {
+          "case_id": "catalog-1-page-017",
+          "status": "completed",
+          "expected": 15,
+          "correct": 7,
+          "candidate_sha256": "54da039bc89039db9b56ba2db3329cd73b6922b42fd1e99c05e207f3db157e71",
+          "fixture_sha256": "5147637fe66b27a76079c3ee59c948d4f30963f40ec03649d9ac0ee3c57ccec4",
+          "available_for_scoring": true,
+          "statuses": {
+            "passed": 7,
+            "missing": 6,
+            "wrong": 2
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-1-page-022",
+          "status": "completed",
+          "expected": 15,
+          "correct": 7,
+          "candidate_sha256": "5cd08cc76e182361aac609dfadac65b293e764cb9328eb38121a76e988aaac1f",
+          "fixture_sha256": "a1187e1a23848883bfb7d776a1289e3ccc09f9675493c1e5b4def85be8589654",
+          "available_for_scoring": true,
+          "statuses": {
+            "passed": 7,
+            "missing": 8
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-1-page-026",
+          "status": "completed",
+          "expected": 15,
+          "correct": 4,
+          "candidate_sha256": "81322c51d353573a9934b23f309ea31d038010f4662b696dad855fd98b22551b",
+          "fixture_sha256": "f1defb41f76e7a075e441132a7d6c01200a1aff344064786b8e07cd64d7416b1",
+          "available_for_scoring": true,
+          "statuses": {
+            "passed": 4,
+            "missing": 10,
+            "wrong": 1
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-060",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "7ae44f779720e9d8dee72fb8924d43aaf9649f4380bcd0d9cc819c1188f54ca5",
+          "fixture_sha256": "93cf32c6d3a26326831fb0bb6152f3bf62ffd6897c1a1af554a91a97e0a64c3a",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-149",
+          "status": "completed",
+          "expected": 15,
+          "correct": 11,
+          "candidate_sha256": "db118cde936dc1288b9c94d80e8b4748c4f93dfd7a1dbdc3b23fad3758c707a1",
+          "fixture_sha256": "626e9f586350ffcc8b7eb947fa91e1b98c2434558ffe8454c4a35492d02848da",
+          "available_for_scoring": true,
+          "statuses": {
+            "passed": 11,
+            "missing": 4
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-185",
+          "status": "completed",
+          "expected": 15,
+          "correct": 5,
+          "candidate_sha256": "1eef77f8056f2039bfdab72078847655c5e4d6dc8ff8ee71ccce55e529a3f7ec",
+          "fixture_sha256": "4b12ce1f6ace967f9b3339ee129ff14b8928454f53cd069001800a7317d28d4a",
+          "available_for_scoring": true,
+          "statuses": {
+            "passed": 5,
+            "missing": 7,
+            "wrong": 3
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-103",
+          "status": "completed",
+          "expected": 15,
+          "correct": 5,
+          "candidate_sha256": "ce5054515af1356787e90860903f976071d10026f7fdaddf95ff8f0c72555327",
+          "fixture_sha256": "9b905e94740f8ee8fc715e93b4b5d57d1177d58d0450becf8107380347a260d9",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 10,
+            "passed": 5
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-108",
+          "status": "completed",
+          "expected": 15,
+          "correct": 3,
+          "candidate_sha256": "76198fff6cfc7cfbba5aef010f6bdd24f2e93debedbdede7d02a19c93c436cec",
+          "fixture_sha256": "82e19efe34b7ca874e3e463e551ebb0eaef8006b5a7f725eca883c4ac1f35597",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 12,
+            "passed": 3
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-111",
+          "status": "completed",
+          "expected": 15,
+          "correct": 15,
+          "candidate_sha256": "dc4b3dd31487440b38b9a6c211be6aa16d8d90fc08bce429dbd3582ef074a5f3",
+          "fixture_sha256": "928708a691d82dd302c54ad59a195c20a5864659f0d788aa4a50a4f5359640ea",
+          "available_for_scoring": true,
+          "statuses": {
+            "passed": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-033",
+          "status": "completed",
+          "expected": 108,
+          "correct": 0,
+          "candidate_sha256": "763cc1b322999110928ab993ce858077ee2376d041cce4f5b2e43f20465c2735",
+          "fixture_sha256": "ea8408c3e91fc2b5f66964af2f0912bddaae85595fdac3947186708ba5aaf7bb",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 108
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-038",
+          "status": "completed",
+          "expected": 72,
+          "correct": 0,
+          "candidate_sha256": "763cc1b322999110928ab993ce858077ee2376d041cce4f5b2e43f20465c2735",
+          "fixture_sha256": "51edf1540e5eaa22f66844b6259ebe661885f7d583f0596b567b9ed7a9713589",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 72
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-078",
+          "status": "completed",
+          "expected": 140,
+          "correct": 0,
+          "candidate_sha256": "763cc1b322999110928ab993ce858077ee2376d041cce4f5b2e43f20465c2735",
+          "fixture_sha256": "86e767f7af5fdbc24d208112c9c1b6c2b1a3771e3348a130f179db4e7d4ac8b6",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 140
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-030",
+          "status": "completed",
+          "expected": 15,
+          "correct": 13,
+          "candidate_sha256": "ec75465d892149ca5c08af959c1e8020b04ccb6d42cabfd9f23d73cb77c519fd",
+          "fixture_sha256": "504a0a03fecef9240051ae24d714941ff0c8632667b60a3a83ce4e6bc2e15eed",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 2,
+            "passed": 13
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-035",
+          "status": "completed",
+          "expected": 15,
+          "correct": 14,
+          "candidate_sha256": "b280e359c1c066d0b304b3e6359d7267069dcbf432d7a3405d2e911155ccec2d",
+          "fixture_sha256": "d260784f7d7f58b7ca010d0299c35804f34ec21e47702c70dbdad09bd6b9ae61",
+          "available_for_scoring": true,
+          "statuses": {
+            "passed": 14,
+            "missing": 1
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-126",
+          "status": "completed",
+          "expected": 15,
+          "correct": 7,
+          "candidate_sha256": "02607e8b249676f3a44874abff955f356c42a6485d6c4b243f7e8dc6b53c0335",
+          "fixture_sha256": "a2123b1f211f87319036dd97bcc5ad09efa5e7c120ca936cc8ff2da771703a4c",
+          "available_for_scoring": true,
+          "statuses": {
+            "passed": 7,
+            "wrong": 3,
+            "missing": 5
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        }
+      ]
+    },
+    {
+      "engine": "liteparse",
+      "historical_grader_correct": 1,
+      "regraded_correct": 1,
+      "expected": 500,
+      "delta_correct": 0,
+      "completed_native_attempts": 15,
+      "cases": [
+        {
+          "case_id": "catalog-1-page-017",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "8e1ef496b958995e9f76059a55d8cec7400bae7ea0b4a6d7aeb17286f3d3fc70",
+          "fixture_sha256": "5147637fe66b27a76079c3ee59c948d4f30963f40ec03649d9ac0ee3c57ccec4",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-1-page-022",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "d23cec7f66e16d4119550ec21aa4ddaf740c918b5808c557f97a7161be6eb57f",
+          "fixture_sha256": "a1187e1a23848883bfb7d776a1289e3ccc09f9675493c1e5b4def85be8589654",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-1-page-026",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "b1835751b236e4bea3b8980448d9fe74eb47bbc82109fbd381247e6a65fa579a",
+          "fixture_sha256": "f1defb41f76e7a075e441132a7d6c01200a1aff344064786b8e07cd64d7416b1",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-060",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "551f73aef20ebf58e540fbb71a3546bab49ef28d55ec56f33294001018965113",
+          "fixture_sha256": "93cf32c6d3a26326831fb0bb6152f3bf62ffd6897c1a1af554a91a97e0a64c3a",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-149",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "6f73bf23f5430fe62f2d07cab49b41daa5d33a7e28261f10439533fe1923893a",
+          "fixture_sha256": "626e9f586350ffcc8b7eb947fa91e1b98c2434558ffe8454c4a35492d02848da",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-185",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "6d3099496d6ebde9dd71baf964505f3b5c4deeaead26def20cf4112520932508",
+          "fixture_sha256": "4b12ce1f6ace967f9b3339ee129ff14b8928454f53cd069001800a7317d28d4a",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 14,
+            "wrong": 1
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-103",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "623165d42ccf89a779ead63d6b46a9b63d85e2d6ccd0c3f44685df71c854ed66",
+          "fixture_sha256": "9b905e94740f8ee8fc715e93b4b5d57d1177d58d0450becf8107380347a260d9",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-108",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "493d165b2b17683dc2d65631be940db9ac9dac39b3e1d10f3d0596391a5cd168",
+          "fixture_sha256": "82e19efe34b7ca874e3e463e551ebb0eaef8006b5a7f725eca883c4ac1f35597",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-111",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "51c358b4d8bed3f4d030e86cc11435dc4b715f1a7859eb254b6db5eb7d92754e",
+          "fixture_sha256": "928708a691d82dd302c54ad59a195c20a5864659f0d788aa4a50a4f5359640ea",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-033",
+          "status": "completed",
+          "expected": 108,
+          "correct": 0,
+          "candidate_sha256": "89ae4aef7bcca761e8c76c839439ae387e3eb96e335c016e6e360dd36f154d31",
+          "fixture_sha256": "ea8408c3e91fc2b5f66964af2f0912bddaae85595fdac3947186708ba5aaf7bb",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 108
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-038",
+          "status": "completed",
+          "expected": 72,
+          "correct": 0,
+          "candidate_sha256": "faa0c4e0ed537fb5cd54ddf799256bd7ebf2d96430b27e884edd9b79f923ac14",
+          "fixture_sha256": "51edf1540e5eaa22f66844b6259ebe661885f7d583f0596b567b9ed7a9713589",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 72
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-078",
+          "status": "completed",
+          "expected": 140,
+          "correct": 0,
+          "candidate_sha256": "a35586288bc3a4797fe720d973b451661de7e95df88ee16796a2fd4be8fff305",
+          "fixture_sha256": "86e767f7af5fdbc24d208112c9c1b6c2b1a3771e3348a130f179db4e7d4ac8b6",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 140
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-030",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "af2c32e590e6662681d03d40e936f56585130dceea6bf3656387614b0420aa6a",
+          "fixture_sha256": "504a0a03fecef9240051ae24d714941ff0c8632667b60a3a83ce4e6bc2e15eed",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-035",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "dc9eb9c8bdf42e82526406204746053f482ef63ab14eae193d5689c4f25cefcc",
+          "fixture_sha256": "d260784f7d7f58b7ca010d0299c35804f34ec21e47702c70dbdad09bd6b9ae61",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-126",
+          "status": "completed",
+          "expected": 15,
+          "correct": 1,
+          "candidate_sha256": "2c5d1df96c2de2580350eaac6f6acfcebe2237b9c3c36b4f8a8a06eb5efb4ef9",
+          "fixture_sha256": "a2123b1f211f87319036dd97bcc5ad09efa5e7c120ca936cc8ff2da771703a4c",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 13,
+            "passed": 1,
+            "wrong": 1
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        }
+      ]
+    },
+    {
+      "engine": "mineru-basic",
+      "historical_grader_correct": 22,
+      "regraded_correct": 22,
+      "expected": 500,
+      "delta_correct": 0,
+      "completed_native_attempts": 14,
+      "cases": [
+        {
+          "case_id": "catalog-1-page-017",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "7772f3be6a84b835a7e2baf78de47e5ed68078258119ceadd1ebf6f4a45a6e5f",
+          "fixture_sha256": "5147637fe66b27a76079c3ee59c948d4f30963f40ec03649d9ac0ee3c57ccec4",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 14,
+            "wrong": 1
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-1-page-022",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "2f3f15ec9e35d2babee395b2412c165f73e4bd1a3cc5126f06a02585c6c7aab0",
+          "fixture_sha256": "a1187e1a23848883bfb7d776a1289e3ccc09f9675493c1e5b4def85be8589654",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-1-page-026",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "1792ddea29cee7603b320e5f4ceb0f4a24c91ca128e3b97f5cad45faa3514c3e",
+          "fixture_sha256": "f1defb41f76e7a075e441132a7d6c01200a1aff344064786b8e07cd64d7416b1",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-060",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "a82afd6535bc311ca3724c0bf80071b81605212e44a79ff447abf3099c67f7a1",
+          "fixture_sha256": "93cf32c6d3a26326831fb0bb6152f3bf62ffd6897c1a1af554a91a97e0a64c3a",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-149",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "77f06005d9da4f989ab7d89baa3f7b5722ad62d709bc2ad5c235af8df97d9d28",
+          "fixture_sha256": "626e9f586350ffcc8b7eb947fa91e1b98c2434558ffe8454c4a35492d02848da",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-185",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "eb38f15501854c2c93ca9f9230fa081ec585e9f8018bd270f910ccce9b577b4a",
+          "fixture_sha256": "4b12ce1f6ace967f9b3339ee129ff14b8928454f53cd069001800a7317d28d4a",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 14,
+            "wrong": 1
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-103",
+          "status": "failed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": null,
+          "fixture_sha256": "9b905e94740f8ee8fc715e93b4b5d57d1177d58d0450becf8107380347a260d9",
+          "available_for_scoring": false
+        },
+        {
+          "case_id": "catalog-3-page-108",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "0c44f8b1d83e55b2e1a25e88f9d5cda32f11d41a55f1efcaf0249f4a9433b4b7",
+          "fixture_sha256": "82e19efe34b7ca874e3e463e551ebb0eaef8006b5a7f725eca883c4ac1f35597",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-111",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "5d84e5b1f5423fab86d3a829c18757b056994199fdd54b10dddd455f3f9b3f49",
+          "fixture_sha256": "928708a691d82dd302c54ad59a195c20a5864659f0d788aa4a50a4f5359640ea",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-033",
+          "status": "completed",
+          "expected": 108,
+          "correct": 0,
+          "candidate_sha256": "2db6800b9454aa13703120ece30239afc57c84e0f22111d3016afde3c2dd9d0f",
+          "fixture_sha256": "ea8408c3e91fc2b5f66964af2f0912bddaae85595fdac3947186708ba5aaf7bb",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 108
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-038",
+          "status": "completed",
+          "expected": 72,
+          "correct": 0,
+          "candidate_sha256": "72cc6951194886260b010cdc70dce6e8c07002565b6f5bee30355910407cedc4",
+          "fixture_sha256": "51edf1540e5eaa22f66844b6259ebe661885f7d583f0596b567b9ed7a9713589",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 72
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-078",
+          "status": "completed",
+          "expected": 140,
+          "correct": 0,
+          "candidate_sha256": "cd936e17cfd8ccbb510439ece89cb958de5ef40f11bc490ba0bb60811d39fa3e",
+          "fixture_sha256": "86e767f7af5fdbc24d208112c9c1b6c2b1a3771e3348a130f179db4e7d4ac8b6",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 140
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-030",
+          "status": "completed",
+          "expected": 15,
+          "correct": 8,
+          "candidate_sha256": "a0cfb40a5d46778a96a020c73867ef1febf3c7b76f8102b10e5e5b2a64b30e0f",
+          "fixture_sha256": "504a0a03fecef9240051ae24d714941ff0c8632667b60a3a83ce4e6bc2e15eed",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 7,
+            "passed": 8
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-035",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "886a9bbcd7e217693a09de7354b8c2d0bc3b0f8bda70171c9161647f204b8817",
+          "fixture_sha256": "d260784f7d7f58b7ca010d0299c35804f34ec21e47702c70dbdad09bd6b9ae61",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-126",
+          "status": "completed",
+          "expected": 15,
+          "correct": 14,
+          "candidate_sha256": "893bd64b72584f4e7c6ee284f42e68f9fed77919202e169a40f79cb337bbca99",
+          "fixture_sha256": "a2123b1f211f87319036dd97bcc5ad09efa5e7c120ca936cc8ff2da771703a4c",
+          "available_for_scoring": true,
+          "statuses": {
+            "passed": 14,
+            "wrong": 1
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        }
+      ]
+    },
+    {
+      "engine": "paddle-cuda-gpu44",
+      "historical_grader_correct": 0,
+      "regraded_correct": 0,
+      "expected": 500,
+      "delta_correct": 0,
+      "completed_native_attempts": 2,
+      "cases": [
+        {
+          "case_id": "catalog-1-page-017",
+          "status": "failed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": null,
+          "fixture_sha256": "5147637fe66b27a76079c3ee59c948d4f30963f40ec03649d9ac0ee3c57ccec4",
+          "available_for_scoring": false
+        },
+        {
+          "case_id": "catalog-1-page-022",
+          "status": "failed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": null,
+          "fixture_sha256": "a1187e1a23848883bfb7d776a1289e3ccc09f9675493c1e5b4def85be8589654",
+          "available_for_scoring": false
+        },
+        {
+          "case_id": "catalog-1-page-026",
+          "status": "failed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": null,
+          "fixture_sha256": "f1defb41f76e7a075e441132a7d6c01200a1aff344064786b8e07cd64d7416b1",
+          "available_for_scoring": false
+        },
+        {
+          "case_id": "catalog-2-page-060",
+          "status": "failed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": null,
+          "fixture_sha256": "93cf32c6d3a26326831fb0bb6152f3bf62ffd6897c1a1af554a91a97e0a64c3a",
+          "available_for_scoring": false
+        },
+        {
+          "case_id": "catalog-2-page-149",
+          "status": "failed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": null,
+          "fixture_sha256": "626e9f586350ffcc8b7eb947fa91e1b98c2434558ffe8454c4a35492d02848da",
+          "available_for_scoring": false
+        },
+        {
+          "case_id": "catalog-2-page-185",
+          "status": "failed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": null,
+          "fixture_sha256": "4b12ce1f6ace967f9b3339ee129ff14b8928454f53cd069001800a7317d28d4a",
+          "available_for_scoring": false
+        },
+        {
+          "case_id": "catalog-3-page-103",
+          "status": "failed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": null,
+          "fixture_sha256": "9b905e94740f8ee8fc715e93b4b5d57d1177d58d0450becf8107380347a260d9",
+          "available_for_scoring": false
+        },
+        {
+          "case_id": "catalog-3-page-108",
+          "status": "failed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": null,
+          "fixture_sha256": "82e19efe34b7ca874e3e463e551ebb0eaef8006b5a7f725eca883c4ac1f35597",
+          "available_for_scoring": false
+        },
+        {
+          "case_id": "catalog-3-page-111",
+          "status": "failed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": null,
+          "fixture_sha256": "928708a691d82dd302c54ad59a195c20a5864659f0d788aa4a50a4f5359640ea",
+          "available_for_scoring": false
+        },
+        {
+          "case_id": "catalog-4-page-033",
+          "status": "failed",
+          "expected": 108,
+          "correct": 0,
+          "candidate_sha256": null,
+          "fixture_sha256": "ea8408c3e91fc2b5f66964af2f0912bddaae85595fdac3947186708ba5aaf7bb",
+          "available_for_scoring": false
+        },
+        {
+          "case_id": "catalog-4-page-038",
+          "status": "completed",
+          "expected": 72,
+          "correct": 0,
+          "candidate_sha256": "3f82adee8e8c2f03c4b902f03be806add5edcb2d6e08650c8d4a1ea82aa01eb5",
+          "fixture_sha256": "51edf1540e5eaa22f66844b6259ebe661885f7d583f0596b567b9ed7a9713589",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 72
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-078",
+          "status": "failed",
+          "expected": 140,
+          "correct": 0,
+          "candidate_sha256": null,
+          "fixture_sha256": "86e767f7af5fdbc24d208112c9c1b6c2b1a3771e3348a130f179db4e7d4ac8b6",
+          "available_for_scoring": false
+        },
+        {
+          "case_id": "catalog-5-page-030",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "f30dca0eaf4cda0b694ccb710bd12a8806e223cffea01d2f471e96c9d28ea1cf",
+          "fixture_sha256": "504a0a03fecef9240051ae24d714941ff0c8632667b60a3a83ce4e6bc2e15eed",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-035",
+          "status": "failed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": null,
+          "fixture_sha256": "d260784f7d7f58b7ca010d0299c35804f34ec21e47702c70dbdad09bd6b9ae61",
+          "available_for_scoring": false
+        },
+        {
+          "case_id": "catalog-5-page-126",
+          "status": "failed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": null,
+          "fixture_sha256": "a2123b1f211f87319036dd97bcc5ad09efa5e7c120ca936cc8ff2da771703a4c",
+          "available_for_scoring": false
+        }
+      ]
+    },
+    {
+      "engine": "mineru-vulkan-gpu44",
+      "historical_grader_correct": 52,
+      "regraded_correct": 52,
+      "expected": 500,
+      "delta_correct": 0,
+      "completed_native_attempts": 15,
+      "cases": [
+        {
+          "case_id": "catalog-1-page-017",
+          "status": "completed",
+          "expected": 15,
+          "correct": 3,
+          "candidate_sha256": "7d131a863acbbaaaa83168a967930b1364e3940a90a7af96e862bfb1c31ad744",
+          "fixture_sha256": "5147637fe66b27a76079c3ee59c948d4f30963f40ec03649d9ac0ee3c57ccec4",
+          "available_for_scoring": true,
+          "statuses": {
+            "passed": 3,
+            "missing": 9,
+            "wrong": 3
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-1-page-022",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "2f3f15ec9e35d2babee395b2412c165f73e4bd1a3cc5126f06a02585c6c7aab0",
+          "fixture_sha256": "a1187e1a23848883bfb7d776a1289e3ccc09f9675493c1e5b4def85be8589654",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-1-page-026",
+          "status": "completed",
+          "expected": 15,
+          "correct": 3,
+          "candidate_sha256": "c936a194127ec480548ae3c1f9e8a765f5ffb5423ef9bbaefb8f87ef177134e0",
+          "fixture_sha256": "f1defb41f76e7a075e441132a7d6c01200a1aff344064786b8e07cd64d7416b1",
+          "available_for_scoring": true,
+          "statuses": {
+            "passed": 3,
+            "missing": 11,
+            "wrong": 1
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-060",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "a82afd6535bc311ca3724c0bf80071b81605212e44a79ff447abf3099c67f7a1",
+          "fixture_sha256": "93cf32c6d3a26326831fb0bb6152f3bf62ffd6897c1a1af554a91a97e0a64c3a",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-149",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "77f06005d9da4f989ab7d89baa3f7b5722ad62d709bc2ad5c235af8df97d9d28",
+          "fixture_sha256": "626e9f586350ffcc8b7eb947fa91e1b98c2434558ffe8454c4a35492d02848da",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-185",
+          "status": "completed",
+          "expected": 15,
+          "correct": 7,
+          "candidate_sha256": "ca3b73d5ad6fff98923cc4fde854034316c1fd369b75a2bd48613a2087ae6d68",
+          "fixture_sha256": "4b12ce1f6ace967f9b3339ee129ff14b8928454f53cd069001800a7317d28d4a",
+          "available_for_scoring": true,
+          "statuses": {
+            "passed": 7,
+            "missing": 7,
+            "wrong": 1
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-103",
+          "status": "completed",
+          "expected": 15,
+          "correct": 3,
+          "candidate_sha256": "8e683198fbc1b05a633799ac16e59c6504b9b8a55bbda226faddf7231275ee8a",
+          "fixture_sha256": "9b905e94740f8ee8fc715e93b4b5d57d1177d58d0450becf8107380347a260d9",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 12,
+            "passed": 3
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-108",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "0c44f8b1d83e55b2e1a25e88f9d5cda32f11d41a55f1efcaf0249f4a9433b4b7",
+          "fixture_sha256": "82e19efe34b7ca874e3e463e551ebb0eaef8006b5a7f725eca883c4ac1f35597",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-111",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "5d84e5b1f5423fab86d3a829c18757b056994199fdd54b10dddd455f3f9b3f49",
+          "fixture_sha256": "928708a691d82dd302c54ad59a195c20a5864659f0d788aa4a50a4f5359640ea",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-033",
+          "status": "completed",
+          "expected": 108,
+          "correct": 0,
+          "candidate_sha256": "86089e4bc77fb2f090046e40952c7434c9ade616a899d501c18a3f4a9bb8726d",
+          "fixture_sha256": "ea8408c3e91fc2b5f66964af2f0912bddaae85595fdac3947186708ba5aaf7bb",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 108
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-038",
+          "status": "completed",
+          "expected": 72,
+          "correct": 0,
+          "candidate_sha256": "72cc6951194886260b010cdc70dce6e8c07002565b6f5bee30355910407cedc4",
+          "fixture_sha256": "51edf1540e5eaa22f66844b6259ebe661885f7d583f0596b567b9ed7a9713589",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 72
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-078",
+          "status": "completed",
+          "expected": 140,
+          "correct": 0,
+          "candidate_sha256": "6d38155f00570250b2d798b061565dbc1f165ecc56c6fba445267bd7c3526b8f",
+          "fixture_sha256": "86e767f7af5fdbc24d208112c9c1b6c2b1a3771e3348a130f179db4e7d4ac8b6",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 140
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-030",
+          "status": "completed",
+          "expected": 15,
+          "correct": 8,
+          "candidate_sha256": "a0cfb40a5d46778a96a020c73867ef1febf3c7b76f8102b10e5e5b2a64b30e0f",
+          "fixture_sha256": "504a0a03fecef9240051ae24d714941ff0c8632667b60a3a83ce4e6bc2e15eed",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 7,
+            "passed": 8
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-035",
+          "status": "completed",
+          "expected": 15,
+          "correct": 14,
+          "candidate_sha256": "70652cccccb4761829614fb0e2652c4475838066f9d8716bc173c4636e34fb3f",
+          "fixture_sha256": "d260784f7d7f58b7ca010d0299c35804f34ec21e47702c70dbdad09bd6b9ae61",
+          "available_for_scoring": true,
+          "statuses": {
+            "passed": 14,
+            "missing": 1
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-126",
+          "status": "completed",
+          "expected": 15,
+          "correct": 14,
+          "candidate_sha256": "893bd64b72584f4e7c6ee284f42e68f9fed77919202e169a40f79cb337bbca99",
+          "fixture_sha256": "a2123b1f211f87319036dd97bcc5ad09efa5e7c120ca936cc8ff2da771703a4c",
+          "available_for_scoring": true,
+          "statuses": {
+            "passed": 14,
+            "wrong": 1
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        }
+      ]
+    },
+    {
+      "engine": "mineru-standard-metal",
+      "historical_grader_correct": 52,
+      "regraded_correct": 52,
+      "expected": 500,
+      "delta_correct": 0,
+      "completed_native_attempts": 15,
+      "cases": [
+        {
+          "case_id": "catalog-1-page-017",
+          "status": "completed",
+          "expected": 15,
+          "correct": 3,
+          "candidate_sha256": "7d131a863acbbaaaa83168a967930b1364e3940a90a7af96e862bfb1c31ad744",
+          "fixture_sha256": "5147637fe66b27a76079c3ee59c948d4f30963f40ec03649d9ac0ee3c57ccec4",
+          "available_for_scoring": true,
+          "statuses": {
+            "passed": 3,
+            "missing": 9,
+            "wrong": 3
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-1-page-022",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "2f3f15ec9e35d2babee395b2412c165f73e4bd1a3cc5126f06a02585c6c7aab0",
+          "fixture_sha256": "a1187e1a23848883bfb7d776a1289e3ccc09f9675493c1e5b4def85be8589654",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-1-page-026",
+          "status": "completed",
+          "expected": 15,
+          "correct": 3,
+          "candidate_sha256": "c936a194127ec480548ae3c1f9e8a765f5ffb5423ef9bbaefb8f87ef177134e0",
+          "fixture_sha256": "f1defb41f76e7a075e441132a7d6c01200a1aff344064786b8e07cd64d7416b1",
+          "available_for_scoring": true,
+          "statuses": {
+            "passed": 3,
+            "missing": 11,
+            "wrong": 1
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-060",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "a82afd6535bc311ca3724c0bf80071b81605212e44a79ff447abf3099c67f7a1",
+          "fixture_sha256": "93cf32c6d3a26326831fb0bb6152f3bf62ffd6897c1a1af554a91a97e0a64c3a",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-149",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "77f06005d9da4f989ab7d89baa3f7b5722ad62d709bc2ad5c235af8df97d9d28",
+          "fixture_sha256": "626e9f586350ffcc8b7eb947fa91e1b98c2434558ffe8454c4a35492d02848da",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-185",
+          "status": "completed",
+          "expected": 15,
+          "correct": 7,
+          "candidate_sha256": "ca3b73d5ad6fff98923cc4fde854034316c1fd369b75a2bd48613a2087ae6d68",
+          "fixture_sha256": "4b12ce1f6ace967f9b3339ee129ff14b8928454f53cd069001800a7317d28d4a",
+          "available_for_scoring": true,
+          "statuses": {
+            "passed": 7,
+            "missing": 7,
+            "wrong": 1
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-103",
+          "status": "completed",
+          "expected": 15,
+          "correct": 3,
+          "candidate_sha256": "8e683198fbc1b05a633799ac16e59c6504b9b8a55bbda226faddf7231275ee8a",
+          "fixture_sha256": "9b905e94740f8ee8fc715e93b4b5d57d1177d58d0450becf8107380347a260d9",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 12,
+            "passed": 3
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-108",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "0c44f8b1d83e55b2e1a25e88f9d5cda32f11d41a55f1efcaf0249f4a9433b4b7",
+          "fixture_sha256": "82e19efe34b7ca874e3e463e551ebb0eaef8006b5a7f725eca883c4ac1f35597",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-111",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "5d84e5b1f5423fab86d3a829c18757b056994199fdd54b10dddd455f3f9b3f49",
+          "fixture_sha256": "928708a691d82dd302c54ad59a195c20a5864659f0d788aa4a50a4f5359640ea",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-033",
+          "status": "completed",
+          "expected": 108,
+          "correct": 0,
+          "candidate_sha256": "86089e4bc77fb2f090046e40952c7434c9ade616a899d501c18a3f4a9bb8726d",
+          "fixture_sha256": "ea8408c3e91fc2b5f66964af2f0912bddaae85595fdac3947186708ba5aaf7bb",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 108
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-038",
+          "status": "completed",
+          "expected": 72,
+          "correct": 0,
+          "candidate_sha256": "72cc6951194886260b010cdc70dce6e8c07002565b6f5bee30355910407cedc4",
+          "fixture_sha256": "51edf1540e5eaa22f66844b6259ebe661885f7d583f0596b567b9ed7a9713589",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 72
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-078",
+          "status": "completed",
+          "expected": 140,
+          "correct": 0,
+          "candidate_sha256": "6d38155f00570250b2d798b061565dbc1f165ecc56c6fba445267bd7c3526b8f",
+          "fixture_sha256": "86e767f7af5fdbc24d208112c9c1b6c2b1a3771e3348a130f179db4e7d4ac8b6",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 140
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-030",
+          "status": "completed",
+          "expected": 15,
+          "correct": 8,
+          "candidate_sha256": "a0cfb40a5d46778a96a020c73867ef1febf3c7b76f8102b10e5e5b2a64b30e0f",
+          "fixture_sha256": "504a0a03fecef9240051ae24d714941ff0c8632667b60a3a83ce4e6bc2e15eed",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 7,
+            "passed": 8
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-035",
+          "status": "completed",
+          "expected": 15,
+          "correct": 14,
+          "candidate_sha256": "70652cccccb4761829614fb0e2652c4475838066f9d8716bc173c4636e34fb3f",
+          "fixture_sha256": "d260784f7d7f58b7ca010d0299c35804f34ec21e47702c70dbdad09bd6b9ae61",
+          "available_for_scoring": true,
+          "statuses": {
+            "passed": 14,
+            "missing": 1
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-126",
+          "status": "completed",
+          "expected": 15,
+          "correct": 14,
+          "candidate_sha256": "893bd64b72584f4e7c6ee284f42e68f9fed77919202e169a40f79cb337bbca99",
+          "fixture_sha256": "a2123b1f211f87319036dd97bcc5ad09efa5e7c120ca936cc8ff2da771703a4c",
+          "available_for_scoring": true,
+          "statuses": {
+            "passed": 14,
+            "wrong": 1
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        }
+      ]
+    },
+    {
+      "engine": "mineru-advanced-metal",
+      "historical_grader_correct": 201,
+      "regraded_correct": 201,
+      "expected": 500,
+      "delta_correct": 0,
+      "completed_native_attempts": 14,
+      "cases": [
+        {
+          "case_id": "catalog-1-page-017",
+          "status": "completed",
+          "expected": 15,
+          "correct": 6,
+          "candidate_sha256": "d31e98f06eef6619a5eb1e446bf3ee7b663dad33636b1377bd27e41a7430b833",
+          "fixture_sha256": "5147637fe66b27a76079c3ee59c948d4f30963f40ec03649d9ac0ee3c57ccec4",
+          "available_for_scoring": true,
+          "statuses": {
+            "passed": 6,
+            "missing": 6,
+            "wrong": 3
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-1-page-022",
+          "status": "completed",
+          "expected": 15,
+          "correct": 7,
+          "candidate_sha256": "49879796215f17f66ef1fcb1dcb99c777abffeff53131607af15454510075246",
+          "fixture_sha256": "a1187e1a23848883bfb7d776a1289e3ccc09f9675493c1e5b4def85be8589654",
+          "available_for_scoring": true,
+          "statuses": {
+            "passed": 7,
+            "missing": 8
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-1-page-026",
+          "status": "completed",
+          "expected": 15,
+          "correct": 4,
+          "candidate_sha256": "09860487b509e0fd6df35671004209c8ca10f940da0229e96bb6e5aa07477f5b",
+          "fixture_sha256": "f1defb41f76e7a075e441132a7d6c01200a1aff344064786b8e07cd64d7416b1",
+          "available_for_scoring": true,
+          "statuses": {
+            "passed": 4,
+            "missing": 10,
+            "wrong": 1
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-060",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "e0ddeade0d5d10c95153f196d06c4eaaffba0d9501c885b77e0319dea0a28344",
+          "fixture_sha256": "93cf32c6d3a26326831fb0bb6152f3bf62ffd6897c1a1af554a91a97e0a64c3a",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-149",
+          "status": "completed",
+          "expected": 15,
+          "correct": 10,
+          "candidate_sha256": "932fd7d480237eaaa4bf1f143dfc7c586a46f79ab3a958e50ad690b2e6d7ba32",
+          "fixture_sha256": "626e9f586350ffcc8b7eb947fa91e1b98c2434558ffe8454c4a35492d02848da",
+          "available_for_scoring": true,
+          "statuses": {
+            "passed": 10,
+            "missing": 5
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-185",
+          "status": "completed",
+          "expected": 15,
+          "correct": 7,
+          "candidate_sha256": "84e38b5d4b862f34ec5ae2a408ff3108f448af2ec5c5213bc18f5d7285fe3e11",
+          "fixture_sha256": "4b12ce1f6ace967f9b3339ee129ff14b8928454f53cd069001800a7317d28d4a",
+          "available_for_scoring": true,
+          "statuses": {
+            "passed": 7,
+            "missing": 7,
+            "wrong": 1
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-103",
+          "status": "timeout",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": null,
+          "fixture_sha256": "9b905e94740f8ee8fc715e93b4b5d57d1177d58d0450becf8107380347a260d9",
+          "available_for_scoring": false
+        },
+        {
+          "case_id": "catalog-3-page-108",
+          "status": "completed",
+          "expected": 15,
+          "correct": 4,
+          "candidate_sha256": "967c54260791c29ce7e346ecb557ba4b2e93742da79a848612674750fc78d427",
+          "fixture_sha256": "82e19efe34b7ca874e3e463e551ebb0eaef8006b5a7f725eca883c4ac1f35597",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 11,
+            "passed": 4
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-111",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "93c5763e2ba9fa53b4316c9d48944520ff7bb29654924992a2a9f8a607d16256",
+          "fixture_sha256": "928708a691d82dd302c54ad59a195c20a5864659f0d788aa4a50a4f5359640ea",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-033",
+          "status": "completed",
+          "expected": 108,
+          "correct": 72,
+          "candidate_sha256": "4dbbc8cf3a1068116a04fcd11c2a9cfb6e9ea5ff119ea31401bb2d3a27b2e417",
+          "fixture_sha256": "ea8408c3e91fc2b5f66964af2f0912bddaae85595fdac3947186708ba5aaf7bb",
+          "available_for_scoring": true,
+          "statuses": {
+            "passed": 72,
+            "missing": 27,
+            "wrong": 9
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-038",
+          "status": "completed",
+          "expected": 72,
+          "correct": 48,
+          "candidate_sha256": "6c7a598b503fa8e1144c510888817fd549314eb50ba691fabb405ec7232e628c",
+          "fixture_sha256": "51edf1540e5eaa22f66844b6259ebe661885f7d583f0596b567b9ed7a9713589",
+          "available_for_scoring": true,
+          "statuses": {
+            "passed": 48,
+            "missing": 24
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-078",
+          "status": "completed",
+          "expected": 140,
+          "correct": 0,
+          "candidate_sha256": "d76679a96d3e38e7a5e9b6b20edce7f5543e263a0c82716ba83d8923160ffd38",
+          "fixture_sha256": "86e767f7af5fdbc24d208112c9c1b6c2b1a3771e3348a130f179db4e7d4ac8b6",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 140
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-030",
+          "status": "completed",
+          "expected": 15,
+          "correct": 14,
+          "candidate_sha256": "216be5cdef2674f0a1b74eb4e136773e76788305f051b2c9a7eae5e6c06fd6b4",
+          "fixture_sha256": "504a0a03fecef9240051ae24d714941ff0c8632667b60a3a83ce4e6bc2e15eed",
+          "available_for_scoring": true,
+          "statuses": {
+            "passed": 14,
+            "missing": 1
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-035",
+          "status": "completed",
+          "expected": 15,
+          "correct": 14,
+          "candidate_sha256": "70652cccccb4761829614fb0e2652c4475838066f9d8716bc173c4636e34fb3f",
+          "fixture_sha256": "d260784f7d7f58b7ca010d0299c35804f34ec21e47702c70dbdad09bd6b9ae61",
+          "available_for_scoring": true,
+          "statuses": {
+            "passed": 14,
+            "missing": 1
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-126",
+          "status": "completed",
+          "expected": 15,
+          "correct": 15,
+          "candidate_sha256": "d89214e2ed3acb620291966f8f8b0c791d051131550f68f61b25d0a4e3e66248",
+          "fixture_sha256": "a2123b1f211f87319036dd97bcc5ad09efa5e7c120ca936cc8ff2da771703a4c",
+          "available_for_scoring": true,
+          "statuses": {
+            "passed": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        }
+      ]
+    },
+    {
+      "engine": "pdfplumber",
+      "historical_grader_correct": 5,
+      "regraded_correct": 5,
+      "expected": 500,
+      "delta_correct": 0,
+      "completed_native_attempts": 15,
+      "cases": [
+        {
+          "case_id": "catalog-1-page-017",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "b041643f88c86443328747402d7940df6b7f0d725410e460dd9819b209e49a83",
+          "fixture_sha256": "5147637fe66b27a76079c3ee59c948d4f30963f40ec03649d9ac0ee3c57ccec4",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 14,
+            "wrong": 1
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-1-page-022",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "25d26424fce11c8e2db669e18d36030cc0bca1da3ad0db8217a4e26cd3f1e4ab",
+          "fixture_sha256": "a1187e1a23848883bfb7d776a1289e3ccc09f9675493c1e5b4def85be8589654",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-1-page-026",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "f6e3719e88ccb7e7f635b77ee1974e9bd21a887f23b9d0eb1fcc6a2a5b990829",
+          "fixture_sha256": "f1defb41f76e7a075e441132a7d6c01200a1aff344064786b8e07cd64d7416b1",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-060",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "0e937bbaac957849bad72a33d5761cb6dbd77eaca5b4a93a07b300424260ffac",
+          "fixture_sha256": "93cf32c6d3a26326831fb0bb6152f3bf62ffd6897c1a1af554a91a97e0a64c3a",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-149",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "cb4fb6e550bc87487509b6c48134283ce0ed25a3eca838ee9e8ae9f2bb9959b1",
+          "fixture_sha256": "626e9f586350ffcc8b7eb947fa91e1b98c2434558ffe8454c4a35492d02848da",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-185",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "1abb7407aecc14b03f7fad408a9b059a40a8ea1d3b17af5587a49d6e03b70252",
+          "fixture_sha256": "4b12ce1f6ace967f9b3339ee129ff14b8928454f53cd069001800a7317d28d4a",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 14,
+            "wrong": 1
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-103",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "36ef3130bc39229904c8183dbd20e1754074f5c6bf797ed9590d8f301b7b692b",
+          "fixture_sha256": "9b905e94740f8ee8fc715e93b4b5d57d1177d58d0450becf8107380347a260d9",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-108",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "436841e7094b49baa316a74dc74895c085c5e5b950a624a4f6882d4969e6aceb",
+          "fixture_sha256": "82e19efe34b7ca874e3e463e551ebb0eaef8006b5a7f725eca883c4ac1f35597",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-111",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "aba431b213e18ce09a7bad60bab8f46856f8124a970cde68804a4c355cba2cf7",
+          "fixture_sha256": "928708a691d82dd302c54ad59a195c20a5864659f0d788aa4a50a4f5359640ea",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-033",
+          "status": "completed",
+          "expected": 108,
+          "correct": 0,
+          "candidate_sha256": "6f952898e1e537879f67cf8c21a2ceb474db876d53e163b78685a450379d21ad",
+          "fixture_sha256": "ea8408c3e91fc2b5f66964af2f0912bddaae85595fdac3947186708ba5aaf7bb",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 108
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-038",
+          "status": "completed",
+          "expected": 72,
+          "correct": 0,
+          "candidate_sha256": "fa49d7564c0412a95e131eaed06c7ad710543cac6a820b51f27cd708b36ed5f4",
+          "fixture_sha256": "51edf1540e5eaa22f66844b6259ebe661885f7d583f0596b567b9ed7a9713589",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 72
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-078",
+          "status": "completed",
+          "expected": 140,
+          "correct": 0,
+          "candidate_sha256": "95395d9cc34c52bd6ede6930922a01af916d56e25585837d37fbd0ffe82db724",
+          "fixture_sha256": "86e767f7af5fdbc24d208112c9c1b6c2b1a3771e3348a130f179db4e7d4ac8b6",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 140
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-030",
+          "status": "completed",
+          "expected": 15,
+          "correct": 4,
+          "candidate_sha256": "0cd88834973fba54cadf5e65cc309a911e84feb1bea6f823cc07abe3f0c57f1c",
+          "fixture_sha256": "504a0a03fecef9240051ae24d714941ff0c8632667b60a3a83ce4e6bc2e15eed",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 7,
+            "wrong": 4,
+            "passed": 4
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-035",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "13d44ce52b430e8bcd80522005a1a7940f63ed001b5dfb29f020b1badef55a09",
+          "fixture_sha256": "d260784f7d7f58b7ca010d0299c35804f34ec21e47702c70dbdad09bd6b9ae61",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-126",
+          "status": "completed",
+          "expected": 15,
+          "correct": 1,
+          "candidate_sha256": "1053314ddfc7e729bc92032e024622da4817c95f961bdf5320a115f7eef50eec",
+          "fixture_sha256": "a2123b1f211f87319036dd97bcc5ad09efa5e7c120ca936cc8ff2da771703a4c",
+          "available_for_scoring": true,
+          "statuses": {
+            "wrong": 4,
+            "missing": 10,
+            "passed": 1
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        }
+      ]
+    },
+    {
+      "engine": "tabula-lattice",
+      "historical_grader_correct": 39,
+      "regraded_correct": 39,
+      "expected": 500,
+      "delta_correct": 0,
+      "completed_native_attempts": 14,
+      "cases": [
+        {
+          "case_id": "catalog-1-page-017",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "4cc5ecf5e64d097df0bd95ede52278a983e20fb7f253e861b5458d49129cdb55",
+          "fixture_sha256": "5147637fe66b27a76079c3ee59c948d4f30963f40ec03649d9ac0ee3c57ccec4",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 14,
+            "wrong": 1
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-1-page-022",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "b6159f2843467f5589ea9e8dfa83664ac8763b35615a75774703bd4f51146cde",
+          "fixture_sha256": "a1187e1a23848883bfb7d776a1289e3ccc09f9675493c1e5b4def85be8589654",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-1-page-026",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "b191dc1b1c80a130eb7d1955d1e2fe3207b1a78e82f611fe712d2920344abf80",
+          "fixture_sha256": "f1defb41f76e7a075e441132a7d6c01200a1aff344064786b8e07cd64d7416b1",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-060",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "b52bca5f2443cb5dd1027f70bc30481ed48b25e0fcd6cca87d41fb66b3281a7f",
+          "fixture_sha256": "93cf32c6d3a26326831fb0bb6152f3bf62ffd6897c1a1af554a91a97e0a64c3a",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-149",
+          "status": "completed",
+          "expected": 15,
+          "correct": 2,
+          "candidate_sha256": "8d6e218f932fd2b41c26dc95980fce8719136fa9bd3261707207133d3d0d81e4",
+          "fixture_sha256": "626e9f586350ffcc8b7eb947fa91e1b98c2434558ffe8454c4a35492d02848da",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 13,
+            "passed": 2
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-185",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "6d727b9f5b60a21d6f45138722f59e0251e10b411810b22cd40f5f1b7378c799",
+          "fixture_sha256": "4b12ce1f6ace967f9b3339ee129ff14b8928454f53cd069001800a7317d28d4a",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 14,
+            "wrong": 1
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-103",
+          "status": "completed",
+          "expected": 15,
+          "correct": 12,
+          "candidate_sha256": "e8cb776e598d7d04aac128537c880497cc77c6d7fe252648fadfa3303ca838c8",
+          "fixture_sha256": "9b905e94740f8ee8fc715e93b4b5d57d1177d58d0450becf8107380347a260d9",
+          "available_for_scoring": true,
+          "statuses": {
+            "passed": 12,
+            "missing": 3
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-108",
+          "status": "completed",
+          "expected": 15,
+          "correct": 3,
+          "candidate_sha256": "6441718ba8e8fd8302ee4ffd7c8afd691d59d3e1aeeb7f03f5ebf8f67f93bd1e",
+          "fixture_sha256": "82e19efe34b7ca874e3e463e551ebb0eaef8006b5a7f725eca883c4ac1f35597",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 12,
+            "passed": 3
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-111",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "bcd5a3cb57dd178d31fab895851180fb5e1775bee76d4133f6ccc3ea0181210a",
+          "fixture_sha256": "928708a691d82dd302c54ad59a195c20a5864659f0d788aa4a50a4f5359640ea",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-033",
+          "status": "completed",
+          "expected": 108,
+          "correct": 0,
+          "candidate_sha256": "b76eb5e5e410753b3f4e7fe80910008c05c9fadbd52ed9c8db18da22bc6b92a9",
+          "fixture_sha256": "ea8408c3e91fc2b5f66964af2f0912bddaae85595fdac3947186708ba5aaf7bb",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 108
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-038",
+          "status": "completed",
+          "expected": 72,
+          "correct": 0,
+          "candidate_sha256": "cb8cbcd406fb2a83ffb132884203b86ea8c1303250bf01bf5ce4c3336dc0cc2d",
+          "fixture_sha256": "51edf1540e5eaa22f66844b6259ebe661885f7d583f0596b567b9ed7a9713589",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 72
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-078",
+          "status": "completed",
+          "expected": 140,
+          "correct": 0,
+          "candidate_sha256": "181ce5de978a379c814379361652cc9d0bd7f9ef911ccf144b0c3e4cca619a14",
+          "fixture_sha256": "86e767f7af5fdbc24d208112c9c1b6c2b1a3771e3348a130f179db4e7d4ac8b6",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 140
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-030",
+          "status": "completed",
+          "expected": 15,
+          "correct": 8,
+          "candidate_sha256": "b73edbdfb108571492580e860b5e1b436e47db5a354b6d1eb6f86b8613e6f7f4",
+          "fixture_sha256": "504a0a03fecef9240051ae24d714941ff0c8632667b60a3a83ce4e6bc2e15eed",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 7,
+            "passed": 8
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-035",
+          "status": "failed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": null,
+          "fixture_sha256": "d260784f7d7f58b7ca010d0299c35804f34ec21e47702c70dbdad09bd6b9ae61",
+          "available_for_scoring": false
+        },
+        {
+          "case_id": "catalog-5-page-126",
+          "status": "completed",
+          "expected": 15,
+          "correct": 14,
+          "candidate_sha256": "891dc196062c33400a22405b247a58e1d1da1feb4272804281a36113ad0f6efd",
+          "fixture_sha256": "a2123b1f211f87319036dd97bcc5ad09efa5e7c120ca936cc8ff2da771703a4c",
+          "available_for_scoring": true,
+          "statuses": {
+            "passed": 14,
+            "wrong": 1
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        }
+      ]
+    },
+    {
+      "engine": "tabula-stream",
+      "historical_grader_correct": 0,
+      "regraded_correct": 0,
+      "expected": 500,
+      "delta_correct": 0,
+      "completed_native_attempts": 15,
+      "cases": [
+        {
+          "case_id": "catalog-1-page-017",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "e3aedb57ddd3ea23c22ca2ef35646dc24849c6297c2aecb41b26499a261e520d",
+          "fixture_sha256": "5147637fe66b27a76079c3ee59c948d4f30963f40ec03649d9ac0ee3c57ccec4",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-1-page-022",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "207848bb351d59b28d16b272da6babd3abcbc20ac1e3ae3dbe63e88c9f4bfb8e",
+          "fixture_sha256": "a1187e1a23848883bfb7d776a1289e3ccc09f9675493c1e5b4def85be8589654",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-1-page-026",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "b7f4b85e62a0130049937ea09443aa277daad543f6b2d8e01b937da58c263715",
+          "fixture_sha256": "f1defb41f76e7a075e441132a7d6c01200a1aff344064786b8e07cd64d7416b1",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-060",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "e3aedb57ddd3ea23c22ca2ef35646dc24849c6297c2aecb41b26499a261e520d",
+          "fixture_sha256": "93cf32c6d3a26326831fb0bb6152f3bf62ffd6897c1a1af554a91a97e0a64c3a",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-149",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "bb23aee9e46649f2c6c604d0a567ff1df78b7eab86b7b5088638d6d4977e3bfc",
+          "fixture_sha256": "626e9f586350ffcc8b7eb947fa91e1b98c2434558ffe8454c4a35492d02848da",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-185",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "e3aedb57ddd3ea23c22ca2ef35646dc24849c6297c2aecb41b26499a261e520d",
+          "fixture_sha256": "4b12ce1f6ace967f9b3339ee129ff14b8928454f53cd069001800a7317d28d4a",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-103",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "2bbced5a58aba6b3449a50563dea5eb210b70444822c8f8f6da735d5c67f347c",
+          "fixture_sha256": "9b905e94740f8ee8fc715e93b4b5d57d1177d58d0450becf8107380347a260d9",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-108",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "1b8f7b1e21de36099288f798abf0ba1b2d16a78e6256276f4cc5e5032b208a64",
+          "fixture_sha256": "82e19efe34b7ca874e3e463e551ebb0eaef8006b5a7f725eca883c4ac1f35597",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-111",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "69f99211a3064aff12a6b6d5259f3a7b8e29d032b11a44195985476b768b63b9",
+          "fixture_sha256": "928708a691d82dd302c54ad59a195c20a5864659f0d788aa4a50a4f5359640ea",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-033",
+          "status": "completed",
+          "expected": 108,
+          "correct": 0,
+          "candidate_sha256": "9e2ddbb6380cfe6c84104ef8caf7f0919c9d69b8c37c1c19f0aed07f749f25ad",
+          "fixture_sha256": "ea8408c3e91fc2b5f66964af2f0912bddaae85595fdac3947186708ba5aaf7bb",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 108
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-038",
+          "status": "completed",
+          "expected": 72,
+          "correct": 0,
+          "candidate_sha256": "58f6f93751ad6d4715846e205da4687a915ba29097f805ff499d9c1b42ccc012",
+          "fixture_sha256": "51edf1540e5eaa22f66844b6259ebe661885f7d583f0596b567b9ed7a9713589",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 72
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-078",
+          "status": "completed",
+          "expected": 140,
+          "correct": 0,
+          "candidate_sha256": "fe06e90da2566d93029d103b97c85542f1ee66aa519cb8ada8f4bc7d59c9a2d7",
+          "fixture_sha256": "86e767f7af5fdbc24d208112c9c1b6c2b1a3771e3348a130f179db4e7d4ac8b6",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 140
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-030",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "e3aedb57ddd3ea23c22ca2ef35646dc24849c6297c2aecb41b26499a261e520d",
+          "fixture_sha256": "504a0a03fecef9240051ae24d714941ff0c8632667b60a3a83ce4e6bc2e15eed",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-035",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "5fbb254fe54bad9d17de2f6ea557a30da933eef5a9aafa8eb10d1226d870fa12",
+          "fixture_sha256": "d260784f7d7f58b7ca010d0299c35804f34ec21e47702c70dbdad09bd6b9ae61",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-126",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "8d9bca0944797e66c04334b78dd8422c6409b8c048864a23e8533361d9d9c22e",
+          "fixture_sha256": "a2123b1f211f87319036dd97bcc5ad09efa5e7c120ca936cc8ff2da771703a4c",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        }
+      ]
+    },
+    {
+      "engine": "xberg",
+      "historical_grader_correct": 0,
+      "regraded_correct": 0,
+      "expected": 500,
+      "delta_correct": 0,
+      "completed_native_attempts": 15,
+      "cases": [
+        {
+          "case_id": "catalog-1-page-017",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "9abf52e2c86f66ab670446744e826b1eb0c33569ff887e4924df228b610de2d1",
+          "fixture_sha256": "5147637fe66b27a76079c3ee59c948d4f30963f40ec03649d9ac0ee3c57ccec4",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 14,
+            "wrong": 1
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-1-page-022",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "c88e7acd9ac3d3a96c3b541d2882f0b360881af2d64b99a8b52f61b7c05fce3c",
+          "fixture_sha256": "a1187e1a23848883bfb7d776a1289e3ccc09f9675493c1e5b4def85be8589654",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-1-page-026",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "07b3af74647b01019a5efed65390fddf2c6beb64b7481d2c9f08a37357e75652",
+          "fixture_sha256": "f1defb41f76e7a075e441132a7d6c01200a1aff344064786b8e07cd64d7416b1",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-060",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "a57343d72a15ff1008e6ffd57130f13421f459a4cd801912d0d6b95ea23f614f",
+          "fixture_sha256": "93cf32c6d3a26326831fb0bb6152f3bf62ffd6897c1a1af554a91a97e0a64c3a",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-149",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "69808acb8aa72143cf8ab5bc908ec1a28738babdcd1188fd43d8f7d7fcded79c",
+          "fixture_sha256": "626e9f586350ffcc8b7eb947fa91e1b98c2434558ffe8454c4a35492d02848da",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-185",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "8f6f6000d88a261e06b851b90a8e0a5d59e262c670d7127bf3d23f6d30693d1a",
+          "fixture_sha256": "4b12ce1f6ace967f9b3339ee129ff14b8928454f53cd069001800a7317d28d4a",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-103",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "cd780a9625e82ed6f041ce6cb1e7d6083a0807a2afb26472db7cb97a069fcf76",
+          "fixture_sha256": "9b905e94740f8ee8fc715e93b4b5d57d1177d58d0450becf8107380347a260d9",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-108",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "5f13a5700eeeae060c60dde682e7e653ef0e97b721ecf0acee94203c958ec22c",
+          "fixture_sha256": "82e19efe34b7ca874e3e463e551ebb0eaef8006b5a7f725eca883c4ac1f35597",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-111",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "47cc75a6fd1c8284ed78e1a954eeceed109999e0f679c413c28896d69068c28e",
+          "fixture_sha256": "928708a691d82dd302c54ad59a195c20a5864659f0d788aa4a50a4f5359640ea",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-033",
+          "status": "completed",
+          "expected": 108,
+          "correct": 0,
+          "candidate_sha256": "ef3e4a3f8ceb04ecabecd915c8cc576ead551570e69f5dea4bf90c7a0302c865",
+          "fixture_sha256": "ea8408c3e91fc2b5f66964af2f0912bddaae85595fdac3947186708ba5aaf7bb",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 108
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-038",
+          "status": "completed",
+          "expected": 72,
+          "correct": 0,
+          "candidate_sha256": "68367be864cf99bc66012dc7b499f70e7a2e9a7a994a4033527259c386b8efe4",
+          "fixture_sha256": "51edf1540e5eaa22f66844b6259ebe661885f7d583f0596b567b9ed7a9713589",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 72
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-078",
+          "status": "completed",
+          "expected": 140,
+          "correct": 0,
+          "candidate_sha256": "76097b7dea481531915967785fab118a33d1638b3c299bbf8929cbba47b6e7d3",
+          "fixture_sha256": "86e767f7af5fdbc24d208112c9c1b6c2b1a3771e3348a130f179db4e7d4ac8b6",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 140
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-030",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "035d8d762a4f18e2e35c2e6e153f36f6df1e57e5657cb566dbcda59fbbec9011",
+          "fixture_sha256": "504a0a03fecef9240051ae24d714941ff0c8632667b60a3a83ce4e6bc2e15eed",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-035",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "9685240f4892929ed4e3b1cd2ba02e41242519b99304ed83657e90237b80b448",
+          "fixture_sha256": "d260784f7d7f58b7ca010d0299c35804f34ec21e47702c70dbdad09bd6b9ae61",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-126",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "74cbd4f0ab355943a3e4570af631754980fc723a9fbad1bf4ee9085ca754e337",
+          "fixture_sha256": "a2123b1f211f87319036dd97bcc5ad09efa5e7c120ca936cc8ff2da771703a4c",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        }
+      ]
+    },
+    {
+      "engine": "pdf-mcp",
+      "historical_grader_correct": 1,
+      "regraded_correct": 1,
+      "expected": 500,
+      "delta_correct": 0,
+      "completed_native_attempts": 15,
+      "cases": [
+        {
+          "case_id": "catalog-1-page-017",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "b630748c6643630afc5bb1dcea8a47617bf1cd98e0b65ca99346d61ab8ab988e",
+          "fixture_sha256": "5147637fe66b27a76079c3ee59c948d4f30963f40ec03649d9ac0ee3c57ccec4",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 14,
+            "wrong": 1
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-1-page-022",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "6620a9cd9b981fcb1c61f433a1cd644900a7dd37742d5cb0d168882befbead0e",
+          "fixture_sha256": "a1187e1a23848883bfb7d776a1289e3ccc09f9675493c1e5b4def85be8589654",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-1-page-026",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "546feeadf415af455658bd65adb61025cb2a3b355e484ba88ee297d621caf79d",
+          "fixture_sha256": "f1defb41f76e7a075e441132a7d6c01200a1aff344064786b8e07cd64d7416b1",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-060",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "9dcb4af85cb846c3ca390a715a974c8f6606043ceeba1a97882229a7bb1ce70f",
+          "fixture_sha256": "93cf32c6d3a26326831fb0bb6152f3bf62ffd6897c1a1af554a91a97e0a64c3a",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-149",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "95680130ab633207f65647ddb0efb26e0f59a59d6eced58a6daf306c839d2ebd",
+          "fixture_sha256": "626e9f586350ffcc8b7eb947fa91e1b98c2434558ffe8454c4a35492d02848da",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-185",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "ce92c7ff5f632a9602384464ed2d4abea0b89a16fd92fbb68241098caa7c79bc",
+          "fixture_sha256": "4b12ce1f6ace967f9b3339ee129ff14b8928454f53cd069001800a7317d28d4a",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 14,
+            "wrong": 1
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-103",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "981351ae381ca8612d6e49f68cbafc73d6d7d47026965084c5da0e3aa4a557fb",
+          "fixture_sha256": "9b905e94740f8ee8fc715e93b4b5d57d1177d58d0450becf8107380347a260d9",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-108",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "f7fd1a0ba10ce3ddfa39665e046fcb1fa5865c106d8060c148dd826e961a7209",
+          "fixture_sha256": "82e19efe34b7ca874e3e463e551ebb0eaef8006b5a7f725eca883c4ac1f35597",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-111",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "54d67b57811e2b654732dfea5d8cd54f0e6ff1dab1dc92928e999d63a8f09c02",
+          "fixture_sha256": "928708a691d82dd302c54ad59a195c20a5864659f0d788aa4a50a4f5359640ea",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-033",
+          "status": "completed",
+          "expected": 108,
+          "correct": 0,
+          "candidate_sha256": "4f901844531558738ce517ae9bbe535e8cf4f3caf882e59b46a473b356a3cbf0",
+          "fixture_sha256": "ea8408c3e91fc2b5f66964af2f0912bddaae85595fdac3947186708ba5aaf7bb",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 108
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-038",
+          "status": "completed",
+          "expected": 72,
+          "correct": 0,
+          "candidate_sha256": "62b1c2d07e3e47775e4616bd530f35a9804d1c4aaaccb80b62742d0785440c4d",
+          "fixture_sha256": "51edf1540e5eaa22f66844b6259ebe661885f7d583f0596b567b9ed7a9713589",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 72
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-078",
+          "status": "completed",
+          "expected": 140,
+          "correct": 0,
+          "candidate_sha256": "f1255e28c0dc429331feec50d1b450854f9f49390c75a2b18b6155d176a6c89b",
+          "fixture_sha256": "86e767f7af5fdbc24d208112c9c1b6c2b1a3771e3348a130f179db4e7d4ac8b6",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 140
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-030",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "711f9a6fb7cb3770b7c618bae91b15d50cfd84e3bafee3a8573d79068818823b",
+          "fixture_sha256": "504a0a03fecef9240051ae24d714941ff0c8632667b60a3a83ce4e6bc2e15eed",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-035",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "d520535bd096caa2b716ab4c01e399c5d3c07c2e8e13a86263fd864b5cb9149f",
+          "fixture_sha256": "d260784f7d7f58b7ca010d0299c35804f34ec21e47702c70dbdad09bd6b9ae61",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-126",
+          "status": "completed",
+          "expected": 15,
+          "correct": 1,
+          "candidate_sha256": "901d79ab33fcf5830e0f63affbef5bb831a3f5620239cf7e6196ee33d47f5ae0",
+          "fixture_sha256": "a2123b1f211f87319036dd97bcc5ad09efa5e7c120ca936cc8ff2da771703a4c",
+          "available_for_scoring": true,
+          "statuses": {
+            "wrong": 4,
+            "missing": 10,
+            "passed": 1
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        }
+      ]
+    },
+    {
+      "engine": "pdf-capture-mcp-patched",
+      "historical_grader_correct": 1,
+      "regraded_correct": 1,
+      "expected": 500,
+      "delta_correct": 0,
+      "completed_native_attempts": 15,
+      "cases": [
+        {
+          "case_id": "catalog-4-page-078",
+          "status": "completed",
+          "expected": 140,
+          "correct": 0,
+          "candidate_sha256": "6238d9211e1ac5c08ca1dd7d256d9ab7d135ce3a2845847fbb5b8a7a2061308c",
+          "fixture_sha256": "86e767f7af5fdbc24d208112c9c1b6c2b1a3771e3348a130f179db4e7d4ac8b6",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 140
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-1-page-017",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "ade40e19df3c40a6217c159a4b381247b341ffeff37deb729ff30cbaffec4172",
+          "fixture_sha256": "5147637fe66b27a76079c3ee59c948d4f30963f40ec03649d9ac0ee3c57ccec4",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 14,
+            "wrong": 1
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-1-page-022",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "06cb9a2813a69a3a73ee468c7abc1f43f278a9e96a68611d0e8abcdfddd8ec93",
+          "fixture_sha256": "a1187e1a23848883bfb7d776a1289e3ccc09f9675493c1e5b4def85be8589654",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-1-page-026",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "a7293ae438baeb665fd076a40c7f7057854e4fa2cbab7abbf23501f6d439e931",
+          "fixture_sha256": "f1defb41f76e7a075e441132a7d6c01200a1aff344064786b8e07cd64d7416b1",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-060",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "bf2e54aceb915b541599807aebfe73eb4fb294b1aed0ecb0fa89906cd9bd6294",
+          "fixture_sha256": "93cf32c6d3a26326831fb0bb6152f3bf62ffd6897c1a1af554a91a97e0a64c3a",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-149",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "71a45b1cb26ceb4a3c008b0bdbca6d362e98b66fcbc1013b2d93b3eeffada444",
+          "fixture_sha256": "626e9f586350ffcc8b7eb947fa91e1b98c2434558ffe8454c4a35492d02848da",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-185",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "b8610832b43cdd0d885c20b5aec0563fae0d995641fad3c0c32bfffb28ca3372",
+          "fixture_sha256": "4b12ce1f6ace967f9b3339ee129ff14b8928454f53cd069001800a7317d28d4a",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 14,
+            "wrong": 1
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-103",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "2dcd9b95d5ecd176acf389eb8fb3003e22ef98c172b800a78d30470a28a2e46d",
+          "fixture_sha256": "9b905e94740f8ee8fc715e93b4b5d57d1177d58d0450becf8107380347a260d9",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-108",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "e7bbc497fd9b6580a782a960289709197fddad30effac4a6c4157cfae3529f31",
+          "fixture_sha256": "82e19efe34b7ca874e3e463e551ebb0eaef8006b5a7f725eca883c4ac1f35597",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-111",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "d511a740a9f1ad722fc618bdcce27cb5e1c3ef3e539ea70d0d4c4cd3a76e89a3",
+          "fixture_sha256": "928708a691d82dd302c54ad59a195c20a5864659f0d788aa4a50a4f5359640ea",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-033",
+          "status": "completed",
+          "expected": 108,
+          "correct": 0,
+          "candidate_sha256": "850ed22e2a1fd09108fa9c83df97d3fe8337fc5a099015c5d0388ce14196ef20",
+          "fixture_sha256": "ea8408c3e91fc2b5f66964af2f0912bddaae85595fdac3947186708ba5aaf7bb",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 108
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-038",
+          "status": "completed",
+          "expected": 72,
+          "correct": 0,
+          "candidate_sha256": "9611f4f1326e92cf8f218f0ba2a99888985eac73fc25c321660acbdffdb8c51c",
+          "fixture_sha256": "51edf1540e5eaa22f66844b6259ebe661885f7d583f0596b567b9ed7a9713589",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 72
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-030",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "2728bd11b3d407e6b375208605e947cc52b96465048db64d72fb18950a471714",
+          "fixture_sha256": "504a0a03fecef9240051ae24d714941ff0c8632667b60a3a83ce4e6bc2e15eed",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 7,
+            "wrong": 8
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-035",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "bed5679c29fcf7dc621080d63b6b2314a4c1198eca967340842dffef507eee85",
+          "fixture_sha256": "d260784f7d7f58b7ca010d0299c35804f34ec21e47702c70dbdad09bd6b9ae61",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-126",
+          "status": "completed",
+          "expected": 15,
+          "correct": 1,
+          "candidate_sha256": "48c4f740a0a2719855d99614d5ce5ab5ea3d7eede5fa9530eaa533ca0690ba0b",
+          "fixture_sha256": "a2123b1f211f87319036dd97bcc5ad09efa5e7c120ca936cc8ff2da771703a4c",
+          "available_for_scoring": true,
+          "statuses": {
+            "wrong": 4,
+            "missing": 10,
+            "passed": 1
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        }
+      ]
+    },
+    {
+      "engine": "tableshot",
+      "historical_grader_correct": 1,
+      "regraded_correct": 1,
+      "expected": 500,
+      "delta_correct": 0,
+      "completed_native_attempts": 15,
+      "cases": [
+        {
+          "case_id": "catalog-4-page-078",
+          "status": "completed",
+          "expected": 140,
+          "correct": 0,
+          "candidate_sha256": "29ea28f3449580a4c549b7eaa656d054aedb2c0a21e22ae5ff27f61a239ae264",
+          "fixture_sha256": "86e767f7af5fdbc24d208112c9c1b6c2b1a3771e3348a130f179db4e7d4ac8b6",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 140
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-1-page-017",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "dd0f2f303dbd4197a246a2608854faac3e7bc594b57ef5b556170e5e1b42a6b7",
+          "fixture_sha256": "5147637fe66b27a76079c3ee59c948d4f30963f40ec03649d9ac0ee3c57ccec4",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 14,
+            "wrong": 1
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-1-page-022",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "a43c44bac74a3479a9b39d280720b0da89bfc120e8dfc9f2bd21378547e2dfbc",
+          "fixture_sha256": "a1187e1a23848883bfb7d776a1289e3ccc09f9675493c1e5b4def85be8589654",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-1-page-026",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "22c19e2d40dd79f875ee355ed08c1e25437d82c60e34344a323379857b8cb422",
+          "fixture_sha256": "f1defb41f76e7a075e441132a7d6c01200a1aff344064786b8e07cd64d7416b1",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-060",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "a47c6527828b51901a468f3880aa9d44abc229cd6a4b1ae4c70bec37012a7c6e",
+          "fixture_sha256": "93cf32c6d3a26326831fb0bb6152f3bf62ffd6897c1a1af554a91a97e0a64c3a",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-149",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "027a9cfc73ecd7f6938fd9410a14b9f316e5c5704b7d8251a91519d6db3e4e1a",
+          "fixture_sha256": "626e9f586350ffcc8b7eb947fa91e1b98c2434558ffe8454c4a35492d02848da",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-185",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "f22a9df372c42d1950b3f4dc3157d15f3bfcf5fa09204c05f357d0d8c2dc46e8",
+          "fixture_sha256": "4b12ce1f6ace967f9b3339ee129ff14b8928454f53cd069001800a7317d28d4a",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 14,
+            "wrong": 1
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-103",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "c29fa97ed0cc1a8f633c842f5df1dc4041e0812032c40b0fb07e9000f63d279e",
+          "fixture_sha256": "9b905e94740f8ee8fc715e93b4b5d57d1177d58d0450becf8107380347a260d9",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-108",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "468cee07cf05bbd48020d9e662426a0ec2f550417b1e951512310fd3f3a56fd5",
+          "fixture_sha256": "82e19efe34b7ca874e3e463e551ebb0eaef8006b5a7f725eca883c4ac1f35597",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-111",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "56d7fd222add864124de95c5a5584820a020347f18f6a811b0429555f3171157",
+          "fixture_sha256": "928708a691d82dd302c54ad59a195c20a5864659f0d788aa4a50a4f5359640ea",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-033",
+          "status": "completed",
+          "expected": 108,
+          "correct": 0,
+          "candidate_sha256": "6cabaed06d2a95aaaaeb415d37032e94ac70ff67341ce1194fc32a3a3251c55a",
+          "fixture_sha256": "ea8408c3e91fc2b5f66964af2f0912bddaae85595fdac3947186708ba5aaf7bb",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 108
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-038",
+          "status": "completed",
+          "expected": 72,
+          "correct": 0,
+          "candidate_sha256": "a7e346b586d70f22e248ef962cc54171ad0e08dc0959ed06eb09d437a09621a6",
+          "fixture_sha256": "51edf1540e5eaa22f66844b6259ebe661885f7d583f0596b567b9ed7a9713589",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 72
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-030",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "9a920f47748870456301861fc2e73d75bc499418f67483d53a5a171564a29b95",
+          "fixture_sha256": "504a0a03fecef9240051ae24d714941ff0c8632667b60a3a83ce4e6bc2e15eed",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 7,
+            "wrong": 8
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-035",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "a4e70855517c59f86d0b9bdbd23110c92d0dfab9d41bd1a7da1626a79a0a2896",
+          "fixture_sha256": "d260784f7d7f58b7ca010d0299c35804f34ec21e47702c70dbdad09bd6b9ae61",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-126",
+          "status": "completed",
+          "expected": 15,
+          "correct": 1,
+          "candidate_sha256": "5404e8bc2f58bb2ba40fa7572edebbb9455fc826f7ae5416a80d629e2124c744",
+          "fixture_sha256": "a2123b1f211f87319036dd97bcc5ad09efa5e7c120ca936cc8ff2da771703a4c",
+          "available_for_scoring": true,
+          "statuses": {
+            "wrong": 4,
+            "missing": 10,
+            "passed": 1
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        }
+      ]
+    },
+    {
+      "engine": "unstructured-hi-res",
+      "historical_grader_correct": 6,
+      "regraded_correct": 6,
+      "expected": 500,
+      "delta_correct": 0,
+      "completed_native_attempts": 13,
+      "cases": [
+        {
+          "case_id": "catalog-4-page-078",
+          "status": "completed",
+          "expected": 140,
+          "correct": 3,
+          "candidate_sha256": "2db2740f716e0b953e0cd318112732aa19affadb594b3adf04b67bf1848265bc",
+          "fixture_sha256": "86e767f7af5fdbc24d208112c9c1b6c2b1a3771e3348a130f179db4e7d4ac8b6",
+          "available_for_scoring": true,
+          "statuses": {
+            "passed": 3,
+            "missing": 137
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-1-page-017",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "68c0b55f72c6d02c1b0abe041dd9f10ee14acd3b5e9058edd55cee67413c67a7",
+          "fixture_sha256": "5147637fe66b27a76079c3ee59c948d4f30963f40ec03649d9ac0ee3c57ccec4",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-1-page-022",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "85339cef5015733c8ad1b54768f2fad1676cf33528ad0818e188c6317a0b88f5",
+          "fixture_sha256": "a1187e1a23848883bfb7d776a1289e3ccc09f9675493c1e5b4def85be8589654",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-1-page-026",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "fa92cf4857630bc72e5e4677c207f61827857b5a010d1bd17d765fb12c16c6c1",
+          "fixture_sha256": "f1defb41f76e7a075e441132a7d6c01200a1aff344064786b8e07cd64d7416b1",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-060",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "6c380f11ab546cdd59c949ae8a5497e120ae231af9ad3988eb9b398b5cf9a0eb",
+          "fixture_sha256": "93cf32c6d3a26326831fb0bb6152f3bf62ffd6897c1a1af554a91a97e0a64c3a",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-149",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "cfab5d3702369393a81b463cea7345b05806b0eaaad11765594bfba69591b380",
+          "fixture_sha256": "626e9f586350ffcc8b7eb947fa91e1b98c2434558ffe8454c4a35492d02848da",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-185",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "c76258d69899becde0f366c4797e7f11bcdcdb56a28f0dede6d21f82a11dfd63",
+          "fixture_sha256": "4b12ce1f6ace967f9b3339ee129ff14b8928454f53cd069001800a7317d28d4a",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-103",
+          "status": "failed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": null,
+          "fixture_sha256": "9b905e94740f8ee8fc715e93b4b5d57d1177d58d0450becf8107380347a260d9",
+          "available_for_scoring": false
+        },
+        {
+          "case_id": "catalog-3-page-108",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "92288b5620e3fb6826e567b73448add8d98ce85abe7419ec6ee114e5028e7f94",
+          "fixture_sha256": "82e19efe34b7ca874e3e463e551ebb0eaef8006b5a7f725eca883c4ac1f35597",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-111",
+          "status": "failed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": null,
+          "fixture_sha256": "928708a691d82dd302c54ad59a195c20a5864659f0d788aa4a50a4f5359640ea",
+          "available_for_scoring": false
+        },
+        {
+          "case_id": "catalog-4-page-033",
+          "status": "completed",
+          "expected": 108,
+          "correct": 0,
+          "candidate_sha256": "e168c9e1cbb42276041500540123fda5fb848d3876d00eeeec388faf80c4860f",
+          "fixture_sha256": "ea8408c3e91fc2b5f66964af2f0912bddaae85595fdac3947186708ba5aaf7bb",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 108
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-038",
+          "status": "completed",
+          "expected": 72,
+          "correct": 0,
+          "candidate_sha256": "d5558c5f22e8da4daea732ea3f2d94bbc6c89e042f897e6d9f53f3747303079d",
+          "fixture_sha256": "51edf1540e5eaa22f66844b6259ebe661885f7d583f0596b567b9ed7a9713589",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 72
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-030",
+          "status": "completed",
+          "expected": 15,
+          "correct": 3,
+          "candidate_sha256": "83ef1178d941c51cd46ccfaf6552b20d0fd1e3328d7a29eb04bfa1c8d19b90da",
+          "fixture_sha256": "504a0a03fecef9240051ae24d714941ff0c8632667b60a3a83ce4e6bc2e15eed",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 12,
+            "passed": 3
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-035",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "0d784aba50bac1209b0f506e2fafeb5792709e780e3a2f2f8c1e215a6b2b4323",
+          "fixture_sha256": "d260784f7d7f58b7ca010d0299c35804f34ec21e47702c70dbdad09bd6b9ae61",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-126",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "6f2f49bff1f0562fd0374cd0a712641553b91cbe5a2b6d9b8167e993ab766f9d",
+          "fixture_sha256": "a2123b1f211f87319036dd97bcc5ad09efa5e7c120ca936cc8ff2da771703a4c",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        }
+      ]
+    },
+    {
+      "engine": "marker-balanced-mac-metal",
+      "historical_grader_correct": 88,
+      "regraded_correct": 88,
+      "expected": 500,
+      "delta_correct": 0,
+      "completed_native_attempts": 15,
+      "cases": [
+        {
+          "case_id": "catalog-1-page-017",
+          "status": "completed",
+          "expected": 15,
+          "correct": 2,
+          "candidate_sha256": "caba7a394ede394682869da326db9176f9975e5cdb8051555e3d2a19a389e5ba",
+          "fixture_sha256": "5147637fe66b27a76079c3ee59c948d4f30963f40ec03649d9ac0ee3c57ccec4",
+          "available_for_scoring": true,
+          "statuses": {
+            "wrong": 3,
+            "passed": 2,
+            "missing": 10
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-1-page-022",
+          "status": "completed",
+          "expected": 15,
+          "correct": 1,
+          "candidate_sha256": "766b261a7e9824f2158eaff00324c6341d6a7a5bf080772baf3ca16c1d4b7289",
+          "fixture_sha256": "a1187e1a23848883bfb7d776a1289e3ccc09f9675493c1e5b4def85be8589654",
+          "available_for_scoring": true,
+          "statuses": {
+            "passed": 1,
+            "missing": 12,
+            "wrong": 2
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-1-page-026",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "e850e463bd5608565e76bbc3de376cbb6bbbfcf0ce994589fb6055e178f2c872",
+          "fixture_sha256": "f1defb41f76e7a075e441132a7d6c01200a1aff344064786b8e07cd64d7416b1",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-060",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "454084263ee863bc3f095969957c095684cfe52696098f672a171374b3e9d91f",
+          "fixture_sha256": "93cf32c6d3a26326831fb0bb6152f3bf62ffd6897c1a1af554a91a97e0a64c3a",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-149",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "23e08e8d2f36c5a6013243249e4561e81df6f0071b720d6a223eff43f0b06512",
+          "fixture_sha256": "626e9f586350ffcc8b7eb947fa91e1b98c2434558ffe8454c4a35492d02848da",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-2-page-185",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "fd67a0f8e7fcb43144bbbfd6c6dc965708ff11350cac1ee7eb98283824bd39ce",
+          "fixture_sha256": "4b12ce1f6ace967f9b3339ee129ff14b8928454f53cd069001800a7317d28d4a",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 14,
+            "wrong": 1
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-103",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "e040a8d0a7e7ae8f2642db0761d4144e0032905c989565a6427c695b34bf09ef",
+          "fixture_sha256": "9b905e94740f8ee8fc715e93b4b5d57d1177d58d0450becf8107380347a260d9",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-108",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "996e6e13d6353ef3409fcbfb2d4cfe065a64e34eda0dd7c34b34472ac61431a1",
+          "fixture_sha256": "82e19efe34b7ca874e3e463e551ebb0eaef8006b5a7f725eca883c4ac1f35597",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-3-page-111",
+          "status": "completed",
+          "expected": 15,
+          "correct": 4,
+          "candidate_sha256": "c1a85a3f3882c408fb0401e0ae21947070a86aa662c4180edb33af81bb69c918",
+          "fixture_sha256": "928708a691d82dd302c54ad59a195c20a5864659f0d788aa4a50a4f5359640ea",
+          "available_for_scoring": true,
+          "statuses": {
+            "wrong": 11,
+            "passed": 4
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-033",
+          "status": "completed",
+          "expected": 108,
+          "correct": 36,
+          "candidate_sha256": "2dd3487adaf8b7c7395baa9c4884ddfd96fd6945cf463627140e66d56c5da6c7",
+          "fixture_sha256": "ea8408c3e91fc2b5f66964af2f0912bddaae85595fdac3947186708ba5aaf7bb",
+          "available_for_scoring": true,
+          "statuses": {
+            "passed": 36,
+            "wrong": 54,
+            "missing": 18
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-038",
+          "status": "completed",
+          "expected": 72,
+          "correct": 6,
+          "candidate_sha256": "2e3960dbbb4fdce9c5557085b46604aaa33681a05b81098138448ad287174fe6",
+          "fixture_sha256": "51edf1540e5eaa22f66844b6259ebe661885f7d583f0596b567b9ed7a9713589",
+          "available_for_scoring": true,
+          "statuses": {
+            "passed": 6,
+            "missing": 60,
+            "wrong": 6
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-4-page-078",
+          "status": "completed",
+          "expected": 140,
+          "correct": 20,
+          "candidate_sha256": "6e481f46212dd1a2000aa3970cb3aa0193a46d1d296c1d56efb0c9dbea4e1c04",
+          "fixture_sha256": "86e767f7af5fdbc24d208112c9c1b6c2b1a3771e3348a130f179db4e7d4ac8b6",
+          "available_for_scoring": true,
+          "statuses": {
+            "passed": 20,
+            "wrong": 40,
+            "missing": 80
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-030",
+          "status": "completed",
+          "expected": 15,
+          "correct": 7,
+          "candidate_sha256": "3d33550309890dfc3e1322794c020bd8a5aea7dbd4d1102cb252b7874448afd1",
+          "fixture_sha256": "504a0a03fecef9240051ae24d714941ff0c8632667b60a3a83ce4e6bc2e15eed",
+          "available_for_scoring": true,
+          "statuses": {
+            "wrong": 6,
+            "passed": 7,
+            "missing": 2
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-035",
+          "status": "completed",
+          "expected": 15,
+          "correct": 0,
+          "candidate_sha256": "c5af6e7f25976ef4dc267cb096c4e4cd57451d646f58a98ab3c8c999c073f6e0",
+          "fixture_sha256": "d260784f7d7f58b7ca010d0299c35804f34ec21e47702c70dbdad09bd6b9ae61",
+          "available_for_scoring": true,
+          "statuses": {
+            "missing": 15
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        },
+        {
+          "case_id": "catalog-5-page-126",
+          "status": "completed",
+          "expected": 15,
+          "correct": 12,
+          "candidate_sha256": "e798c83681074d818254895980e447010c45843dc7abb249c2ca3c404958841d",
+          "fixture_sha256": "a2123b1f211f87319036dd97bcc5ad09efa5e7c120ca936cc8ff2da771703a4c",
+          "available_for_scoring": true,
+          "statuses": {
+            "wrong": 3,
+            "passed": 12
+          },
+          "grader_sha256": "618f0e772e0af41a84a70b3e75a8bf2347db2e67bb24bb28f1f49fcab7680b2c"
+        }
+      ]
+    }
+  ],
+  "whole_page_accuracy": false,
+  "failed_outputs_remain_in_denominator": true,
+  "provider_or_parser_executions": 0,
+  "candidate_bytes_changed": false,
+  "test_category": "focused integration",
+  "purpose": "compare all retained parser configurations with fixed grader; retain historical scores",
+  "expected_seconds": 30,
+  "maximum_seconds": 180,
+  "cpu_affinity_cpus": 2,
+  "virtual_memory_cap_bytes": 2147483648,
+  "elapsed_seconds": 3.631
+}
