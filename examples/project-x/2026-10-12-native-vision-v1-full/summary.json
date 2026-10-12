@@ -1,23 +1,25 @@
 {
   "participant": "Project X",
   "dataset": "engineering-catalogs-v2",
-  "updated_utc": "2026-10-12T17:08:17Z",
-  "complete": false,
-  "rounds_finished": 5,
+  "primary_grader_release": "0.3.2",
+  "primary_grader_sha256": "f091872c67af7e410490df6b590cb8ac03a05eb6e615351ed281c4ae1687e21d",
+  "updated_utc": "2026-10-12T17:45:08Z",
+  "complete": true,
+  "rounds_finished": 6,
   "rounds_expected": 6,
   "expected_attempts": 102,
   "selected_accuracy_not_full_page_accuracy": true,
   "models": {
     "glm-5.3-flash": {
-      "rounds_finished": 2,
+      "rounds_finished": 3,
       "rounds_expected": 3,
-      "status": "running",
+      "status": "complete",
       "rounds": [
         {
           "round": 1,
           "valid_json_cases": 14,
-          "engineering_correct": 380,
-          "drawing_correct": 4,
+          "engineering_correct": 411,
+          "drawing_correct": 6,
           "elapsed_seconds_sum": 1990.31,
           "failure_counts": {
             "provider_rate_limit": 1,
@@ -28,27 +30,37 @@
         {
           "round": 2,
           "valid_json_cases": 17,
-          "engineering_correct": 452,
+          "engineering_correct": 456,
           "drawing_correct": 6,
           "elapsed_seconds_sum": 2874.598,
           "failure_counts": {}
+        },
+        {
+          "round": 3,
+          "valid_json_cases": 16,
+          "engineering_correct": 313,
+          "drawing_correct": 7,
+          "elapsed_seconds_sum": 2460.509,
+          "failure_counts": {
+            "catalogue_page_contract_validation": 1
+          }
         }
       ],
       "engineering": {
         "denominator_per_round": 520,
-        "mean_percent": 80.0,
-        "sample_sd_percentage_points": 9.7907,
-        "minimum_percent": 73.0769,
-        "maximum_percent": 86.9231,
-        "final_three_round_statistic": false
+        "mean_percent": 75.641,
+        "sample_sd_percentage_points": 14.0613,
+        "minimum_percent": 60.1923,
+        "maximum_percent": 87.6923,
+        "final_three_round_statistic": true
       },
       "drawing": {
         "denominator_per_round": 21,
-        "mean_percent": 23.8095,
-        "sample_sd_percentage_points": 6.7343,
-        "minimum_percent": 19.0476,
-        "maximum_percent": 28.5714,
-        "final_three_round_statistic": false
+        "mean_percent": 30.1587,
+        "sample_sd_percentage_points": 2.7493,
+        "minimum_percent": 28.5714,
+        "maximum_percent": 33.3333,
+        "final_three_round_statistic": true
       }
     },
     "MiniMax-M3.1-Flash-Preview": {
@@ -59,7 +71,7 @@
         {
           "round": 1,
           "valid_json_cases": 4,
-          "engineering_correct": 210,
+          "engineering_correct": 222,
           "drawing_correct": 3,
           "elapsed_seconds_sum": 1158.802,
           "failure_counts": {
@@ -81,7 +93,7 @@
         {
           "round": 3,
           "valid_json_cases": 4,
-          "engineering_correct": 239,
+          "engineering_correct": 247,
           "drawing_correct": 2,
           "elapsed_seconds_sum": 1084.316,
           "failure_counts": {
@@ -93,10 +105,10 @@
       ],
       "engineering": {
         "denominator_per_round": 520,
-        "mean_percent": 39.0384,
-        "sample_sd_percentage_points": 7.6851,
+        "mean_percent": 40.3205,
+        "sample_sd_percentage_points": 8.6139,
         "minimum_percent": 30.7692,
-        "maximum_percent": 45.9615,
+        "maximum_percent": 47.5,
         "final_three_round_statistic": true
       },
       "drawing": {

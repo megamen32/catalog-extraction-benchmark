@@ -3,8 +3,8 @@
   "snapshot": "ProjectX-snapshot-20261012",
   "integration": "modified native Vision integration v1",
   "integration_sha256": "f31b03eb2eb058a1c5f6237040f4eb152f3ce10472a9734558081e618498dfa3",
-  "status": "running",
-  "complete": false,
+  "status": "complete",
+  "complete": true,
   "dataset": "engineering-catalogs-v2",
   "cases_per_round": 17,
   "engineering_checks_per_round": 520,
@@ -22,7 +22,7 @@
   "native_json_syntax_repair_maximum": 1,
   "native_canonical_tables_mutated": false,
   "test_stage": "native visual catalogue extraction; exact metadata page exported for grading",
-  "grading": "released0.3.0 retained, correctedoffline0.3.1 reported separately",
+  "grading": "primary offline0.3.2; original0.3.0 and corrected0.3.1 retained separately",
   "prior_probes_reused": false,
   "gold_and_prior_outputs_given_to_models": false,
   "raw_transcripts_published": false,
@@ -115,14 +115,16 @@
       "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35"
     }
   ],
-  "finished_model_rounds": 5,
+  "finished_model_rounds": 6,
   "finished_rounds_by_model": {
-    "glm-5.3-flash": 2,
+    "glm-5.3-flash": 3,
     "MiniMax-M3.1-Flash-Preview": 3
   },
   "response_format_policy": {
     "glm-5.3-flash": "initial json_object API parameter; actual per-attempt format recorded",
     "MiniMax-M3.1-Flash-Preview": "JSON-only prompt; Anthropic adapter sends no response_format parameter"
   },
-  "original_grader_limitations": "Scoped Latin/Cyrillic physical symbols and English geometry aliases corrected separately in0.3.2; original scores retained"
+  "original_grader_limitations": "Scoped Latin/Cyrillic physical symbols and English geometry aliases corrected separately in0.3.2; original scores retained",
+  "primary_grader_release": "0.3.2",
+  "primary_grader_sha256": "f091872c67af7e410490df6b590cb8ac03a05eb6e615351ed281c4ae1687e21d"
 }

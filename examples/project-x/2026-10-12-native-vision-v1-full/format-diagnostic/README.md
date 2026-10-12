@@ -1,0 +1,3 @@
+# Offline format diagnostic — not a benchmark run
+
+GLM round3 page78 was native-accepted but catalogue-rejected for two extra merged_cell_notes keys. The original cohort retains zero delivered correct checks. This diagnostic made zero model calls: a separate projection removes only those keys for schema matching, preserves their full contents in extension-notes.json, and leaves cells, columns and figures unchanged. Corrected0.3.2 gives98/140 selected engineering checks; it does not certify the whole page. Original and projection hashes are recorded in proof.json. No original candidate or cohort score was replaced.
