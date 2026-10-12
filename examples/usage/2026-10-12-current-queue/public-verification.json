@@ -1,0 +1,175 @@
+{
+  "status": "passed",
+  "consumer": "publicly downloaded standalone script executed with system Python, no model calls",
+  "collector_version": "1.0.0",
+  "collector_release": "https://github.com/megamen32/catalog-extraction-benchmark/releases/tag/usage-collector-v1.0.0",
+  "collector_sha256": "37b6e5f41fb9bd386b63349142bb85354e1eea0bb419d45a5d4e51af637cd36d",
+  "native_benchmark_pins_unchanged": 112,
+  "source_sample": {
+    "sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+    "physical_page": 60
+  },
+  "latest_accepted_roles": {
+    "extractor": {
+      "role": "extractor",
+      "producer": {
+        "status": "receipt_verified",
+        "program": {
+          "package_version": "1.4.2",
+          "git_revision": null,
+          "dirty": null,
+          "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+          "python_version": "3.12.13"
+        },
+        "artifact_sha256": "627ed3b35ed50ea07a069a6cc97b807ca3c4cb596e9efb33261e280f533cf939",
+        "source_bound_save": true,
+        "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+        "physical_page": 60,
+        "attempt": 1,
+        "role": "extractor",
+        "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+        "contract_sha256": "aa97a446c59b5a207fd1ab84542de68a56c8d05e595fabde973e24da9ccc405d",
+        "started_at": 1791809739.425438,
+        "finished_at": 1791809808.2897406
+      },
+      "usage": {
+        "input_accounted": {
+          "sum": 128891,
+          "exact_records": 0,
+          "lower_bound_records": 9,
+          "missing_records": 0,
+          "definition": "reported prompt total, else sum of known uncached/cache_read/cache_write components; unreported components remain unknown"
+        },
+        "provider_response_records": 9,
+        "metrics": {
+          "input_total_reported": {
+            "sum": null,
+            "reported_records": 0,
+            "missing_records": 9
+          },
+          "input_uncached_reported": {
+            "sum": 17761,
+            "reported_records": 9,
+            "missing_records": 0
+          },
+          "input_cache_read": {
+            "sum": 111130,
+            "reported_records": 9,
+            "missing_records": 0
+          },
+          "input_cache_write": {
+            "sum": null,
+            "reported_records": 0,
+            "missing_records": 9
+          },
+          "output_total": {
+            "sum": 2141,
+            "reported_records": 9,
+            "missing_records": 0
+          },
+          "reasoning_subset": {
+            "sum": 618,
+            "reported_records": 5,
+            "missing_records": 4
+          },
+          "tool_calls": {
+            "sum": 13,
+            "reported_records": 9,
+            "missing_records": 0
+          },
+          "inference_duration_ms": {
+            "sum": 36312.130000000005,
+            "reported_records": 9,
+            "missing_records": 0
+          }
+        },
+        "reasoning_tokens_are_subset_of_output_total": true,
+        "cache_read_is_subset_of_reported_prompt_total_when_provider_reports_total": true,
+        "unknown_fields_are_null_not_zero": true
+      },
+      "native_receipt_wall_seconds": 68.864
+    },
+    "reviewer": {
+      "role": "reviewer",
+      "producer": {
+        "status": "receipt_verified",
+        "program": {
+          "package_version": "1.4.8",
+          "git_revision": null,
+          "dirty": null,
+          "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+          "python_version": "3.12.13"
+        },
+        "artifact_sha256": "9f294fa52dbf3d5b217c70eb34855c4362505b99530a240d62aa2869fefdace0",
+        "source_bound_save": true,
+        "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+        "physical_page": 60,
+        "attempt": 1,
+        "role": "reviewer",
+        "model": "zai.glm-5.3-flash?reasoning=low",
+        "contract_sha256": "f9ef0ff3c6668aabb1db0faa531862d4e22a638a88796f009ce6bf5ac50653a4",
+        "started_at": 1791812934.2567527,
+        "finished_at": 1791813038.9383905
+      },
+      "usage": {
+        "input_accounted": {
+          "sum": 172601,
+          "exact_records": 12,
+          "lower_bound_records": 0,
+          "missing_records": 0,
+          "definition": "reported prompt total, else sum of known uncached/cache_read/cache_write components; unreported components remain unknown"
+        },
+        "provider_response_records": 12,
+        "metrics": {
+          "input_total_reported": {
+            "sum": 172601,
+            "reported_records": 12,
+            "missing_records": 0
+          },
+          "input_uncached_reported": {
+            "sum": null,
+            "reported_records": 0,
+            "missing_records": 12
+          },
+          "input_cache_read": {
+            "sum": 154944,
+            "reported_records": 12,
+            "missing_records": 0
+          },
+          "input_cache_write": {
+            "sum": null,
+            "reported_records": 0,
+            "missing_records": 12
+          },
+          "output_total": {
+            "sum": 4040,
+            "reported_records": 12,
+            "missing_records": 0
+          },
+          "reasoning_subset": {
+            "sum": 381,
+            "reported_records": 12,
+            "missing_records": 0
+          },
+          "tool_calls": {
+            "sum": 13,
+            "reported_records": 12,
+            "missing_records": 0
+          },
+          "inference_duration_ms": {
+            "sum": 98064.54000000001,
+            "reported_records": 12,
+            "missing_records": 0
+          }
+        },
+        "reasoning_tokens_are_subset_of_output_total": true,
+        "cache_read_is_subset_of_reported_prompt_total_when_provider_reports_total": true,
+        "unknown_fields_are_null_not_zero": true
+      },
+      "native_receipt_wall_seconds": 104.682
+    }
+  },
+  "all_epoch_coverage_complete": false,
+  "model_calls_performed": 0,
+  "private_transcripts_published": false
+}
