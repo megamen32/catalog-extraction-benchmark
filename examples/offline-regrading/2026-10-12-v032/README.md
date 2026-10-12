@@ -5,6 +5,7 @@ The exact published model outputs were regraded without model calls. Source fixt
 | Integration | Round | Valid outputs | Engineering | Drawing | Combined selected accuracy |
 |---|---|---:|---:|---:|---:|
 | our-initial | round-1 | 15/17 | 399/520 | 5/21 | 74.68% |
+| our-initial | round-2 | 16/17 | 479/520 | 6/21 | 89.65% |
 | project-x/glm-5.3-flash | round-1 | 14/17 | 411/520 | 6/21 | 77.08% |
 | project-x/glm-5.3-flash | round-2 | 17/17 | 456/520 | 6/21 | 85.4% |
 | project-x/glm-5.3-flash | round-3 | 16/17 | 313/520 | 7/21 | 59.15% |
