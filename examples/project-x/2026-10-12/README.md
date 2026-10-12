@@ -19,3 +19,5 @@ The normalization preserves native header labels/paths and native data-start met
 The participant is identified publicly only as **Project X**. Its source code, actual repository identity, adapter implementation and private snapshot correspondence are not published. The opaque tested snapshot is `ProjectX-snapshot-20261012`.
 
 The [public consumer verification](public-verification.json) downloaded all 102 output files from the immutable public commit, checked their manifest hashes, and reproduced all 51 scores with the installed released grader in an isolated interpreter.
+
+The separate [corrected offline grader 0.3.1 regrade](corrected-grader-v0.3.1.json) reproduces the same 21/520 engineering and 0/21 drawing scores in each round. It fixes a numeric scope boundary in drawing assertions; the original scores, outputs and tested grader remain retained.
