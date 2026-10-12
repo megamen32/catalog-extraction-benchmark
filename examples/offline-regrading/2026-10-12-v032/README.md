@@ -7,6 +7,7 @@ The exact published model outputs were regraded without model calls. Source fixt
 | our-initial | round-1 | 15/17 | 399/520 | 5/21 | 74.68% |
 | project-x/glm-5.3-flash | round-1 | 14/17 | 411/520 | 6/21 | 77.08% |
 | project-x/glm-5.3-flash | round-2 | 17/17 | 456/520 | 6/21 | 85.4% |
+| project-x/glm-5.3-flash | round-3 | 16/17 | 313/520 | 7/21 | 59.15% |
 | project-x/MiniMax-M3.1-Flash-Preview | round-1 | 4/17 | 222/520 | 3/21 | 41.59% |
 | project-x/MiniMax-M3.1-Flash-Preview | round-2 | 5/17 | 160/520 | 0/21 | 29.57% |
 | project-x/MiniMax-M3.1-Flash-Preview | round-3 | 4/17 | 247/520 | 2/21 | 46.03% |

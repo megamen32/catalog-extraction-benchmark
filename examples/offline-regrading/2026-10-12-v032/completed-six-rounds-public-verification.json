@@ -1,0 +1,80 @@
+{
+  "status": "passed",
+  "input_public_commit": "8097ebe",
+  "public_downloaded_input_and_prior_score_files": 150,
+  "exact_candidate_and_fixture_bindings": 75,
+  "independent_public_grader_asset_sha256": "e268c25f302e051d6b34295298eac6603dba8ff9f108003bb9bd3f3a2685972d",
+  "grader_version": "0.3.2",
+  "grader_sha256": "f091872c67af7e410490df6b590cb8ac03a05eb6e615351ed281c4ae1687e21d",
+  "public_installed_base_package": "0.3.0",
+  "dataset": {
+    "dataset": "engineering-catalogs-v2",
+    "version": "2.0.0",
+    "cases": 17,
+    "engineering_facts": 520,
+    "drawing_assertions": 21,
+    "full_page_ground_truth": false,
+    "checksums_verified": true
+  },
+  "replicated_rounds": [
+    {
+      "profile": "our-initial",
+      "round": "round-1",
+      "valid": 15,
+      "engineering": 399,
+      "drawing": 5,
+      "failed_or_absent_zero": 2
+    },
+    {
+      "profile": "project-x/glm-5.3-flash",
+      "round": "round-1",
+      "valid": 14,
+      "engineering": 411,
+      "drawing": 6,
+      "failed_or_absent_zero": 3
+    },
+    {
+      "profile": "project-x/glm-5.3-flash",
+      "round": "round-2",
+      "valid": 17,
+      "engineering": 456,
+      "drawing": 6,
+      "failed_or_absent_zero": 0
+    },
+    {
+      "profile": "project-x/glm-5.3-flash",
+      "round": "round-3",
+      "valid": 16,
+      "engineering": 313,
+      "drawing": 7,
+      "failed_or_absent_zero": 1
+    },
+    {
+      "profile": "project-x/MiniMax-M3.1-Flash-Preview",
+      "round": "round-1",
+      "valid": 4,
+      "engineering": 222,
+      "drawing": 3,
+      "failed_or_absent_zero": 13
+    },
+    {
+      "profile": "project-x/MiniMax-M3.1-Flash-Preview",
+      "round": "round-2",
+      "valid": 5,
+      "engineering": 160,
+      "drawing": 0,
+      "failed_or_absent_zero": 12
+    },
+    {
+      "profile": "project-x/MiniMax-M3.1-Flash-Preview",
+      "round": "round-3",
+      "valid": 4,
+      "engineering": 247,
+      "drawing": 2,
+      "failed_or_absent_zero": 13
+    }
+  ],
+  "model_calls_performed": 0,
+  "raw_sources_and_outputs_unchanged": true,
+  "elapsed_seconds": 21.966
+}

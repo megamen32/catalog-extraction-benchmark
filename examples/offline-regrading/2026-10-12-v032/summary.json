@@ -15,7 +15,7 @@
   "integrations_not_pure_model_ab": true,
   "selected_not_full_page_accuracy": true,
   "raw_literal_metrics_unchanged": true,
-  "corrected_score_files": 59,
+  "corrected_score_files": 75,
   "rounds": [
     {
       "profile": "our-initial",
@@ -69,6 +69,24 @@
       "percent": 85.4,
       "retained_v030_engineering_correct": 452,
       "retained_v030_drawing_correct": 6,
+      "full_page_accuracy": false
+    },
+    {
+      "profile": "project-x/glm-5.3-flash",
+      "round": "round-3",
+      "stage": "native_vision_integration_saved_output",
+      "valid_candidates": 16,
+      "expected_pages": 17,
+      "missing_outputs_zero": 1,
+      "engineering_correct": 313,
+      "engineering_expected": 520,
+      "drawing_correct": 7,
+      "drawing_expected": 21,
+      "correct": 320,
+      "expected": 541,
+      "percent": 59.15,
+      "retained_v030_engineering_correct": 304,
+      "retained_v030_drawing_correct": 4,
       "full_page_accuracy": false
     },
     {
@@ -147,12 +165,12 @@
     },
     {
       "profile": "project-x/glm-5.3-flash",
-      "rounds": 2,
-      "mean_percent": 81.24000000000001,
-      "minimum_percent": 77.08,
+      "rounds": 3,
+      "mean_percent": 73.87666666666667,
+      "minimum_percent": 59.15,
       "maximum_percent": 85.4,
-      "sample_sd_pp": 5.88312841947208,
-      "three_round_spread_available": false
+      "sample_sd_pp": 13.414977947553004,
+      "three_round_spread_available": true
     }
   ],
   "historical_144_146_expanded_dataset_status": "not_tested; historical15/500 are separate and not recomputed into expanded accuracy"
