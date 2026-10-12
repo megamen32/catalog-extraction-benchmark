@@ -1,0 +1,713 @@
+{
+  "schema_version": "1.0",
+  "stage": "first_extractor_pass_only",
+  "round": 1,
+  "snapshot_unix": 1791822448.6956198,
+  "dataset": "engineering-catalogs-v2",
+  "selected_pages": 17,
+  "initial_pages_attempted": 17,
+  "valid_first_pass_candidates": 15,
+  "missing_or_failed_first_pass_candidates": 2,
+  "engineering_correct": 399,
+  "engineering_expected": 520,
+  "drawing_correct": 5,
+  "drawing_expected": 21,
+  "combined_correct": 404,
+  "combined_expected": 541,
+  "percent_with_missing_zero": 74.68,
+  "grader_release": "0.3.0",
+  "grader_sha256": "24b64859fd690d11afd8477c69a0f84336a28338ac0b49981e5300055364d57a",
+  "corrected_grader_release": "0.3.1",
+  "corrected_grader_sha256": "a8ac0d64a4b93b13f34d29ceff4c89f6a05af430980d5706f69b45c4a99a142e",
+  "corrected_engineering_correct": 399,
+  "corrected_drawing_correct": 5,
+  "corrected_percent_with_missing_zero": 74.68,
+  "accepted_pages_at_snapshot": 0,
+  "accepted_delivery_correct_at_snapshot": 0,
+  "accepted_delivery_expected": 541,
+  "native_roles": {
+    "extractor": {
+      "program": {
+        "package_version": "1.4.2",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+        "python_version": "3.12.13"
+      },
+      "contract_sha256": "aa97a446c59b5a207fd1ab84542de68a56c8d05e595fabde973e24da9ccc405d"
+    },
+    "reviewer": {
+      "program": {
+        "package_version": "1.4.8",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+        "python_version": "3.12.13"
+      },
+      "contract_sha256": "f9ef0ff3c6668aabb1db0faa531862d4e22a638a88796f009ce6bf5ac50653a4"
+    }
+  },
+  "scheduler_program": {
+    "package_version": "1.4.11",
+    "git_revision": null,
+    "dirty": null,
+    "source_code_sha256": "a62de4071a7f9f3a2408143dc746df79ed0cf44ea56bac7b786fb7c76c43a81b",
+    "python_version": "3.12.13"
+  },
+  "round_wall_elapsed_seconds": 5245.368,
+  "round_active_elapsed_seconds": 4776.636,
+  "shared_admission_hold_seconds": 468.733,
+  "full_three_round_evaluation_finished": false,
+  "full_page_accuracy": false,
+  "cases": [
+    {
+      "case_id": "catalog-1-page-027",
+      "physical_page": 27,
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "initial_extractor_status": "completed",
+      "current_pipeline_status_at_snapshot": "extracting",
+      "engineering_expected": 10,
+      "drawing_expected": 13,
+      "engineering_correct": 10,
+      "drawing_correct": 1,
+      "started_unix": 1791817201.7335465,
+      "worker_cycle_elapsed_seconds": 109.452,
+      "candidate": {
+        "file": "catalog-1-page-027/candidate-0.json",
+        "sha256": "7cb5cccdfcdaa4b0c091b378e6636047c5ed6fe54ee1dc8c0115de3466d1e1f0",
+        "bytes": 39679
+      },
+      "score_file": "catalog-1-page-027/score-v0.3.0.json",
+      "corrected_score_file": "catalog-1-page-027/score-corrected-v0.3.1.json",
+      "producer": {
+        "status": "receipt_verified",
+        "program": {
+          "package_version": "1.4.2",
+          "git_revision": null,
+          "dirty": null,
+          "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+          "python_version": "3.12.13"
+        },
+        "artifact_sha256": "7cb5cccdfcdaa4b0c091b378e6636047c5ed6fe54ee1dc8c0115de3466d1e1f0",
+        "source_bound_save": true,
+        "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+        "physical_page": 27,
+        "attempt": 0,
+        "role": "extractor",
+        "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+        "contract_sha256": "aa97a446c59b5a207fd1ab84542de68a56c8d05e595fabde973e24da9ccc405d",
+        "started_at": 1791817204.2839873,
+        "finished_at": 1791817308.059509
+      },
+      "native_elapsed_seconds": 103.776
+    },
+    {
+      "case_id": "catalog-1-page-039",
+      "physical_page": 39,
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "initial_extractor_status": "completed",
+      "current_pipeline_status_at_snapshot": "needs_review",
+      "engineering_expected": 10,
+      "drawing_expected": 8,
+      "engineering_correct": 8,
+      "drawing_correct": 4,
+      "started_unix": 1791817311.2263923,
+      "worker_cycle_elapsed_seconds": 100.175,
+      "candidate": {
+        "file": "catalog-1-page-039/candidate-0.json",
+        "sha256": "cc1095a8cb70b88c0e9dc117c198f7a844f473c68f982a9f027799f692385f9f",
+        "bytes": 17001
+      },
+      "score_file": "catalog-1-page-039/score-v0.3.0.json",
+      "corrected_score_file": "catalog-1-page-039/score-corrected-v0.3.1.json",
+      "producer": {
+        "status": "receipt_verified",
+        "program": {
+          "package_version": "1.4.2",
+          "git_revision": null,
+          "dirty": null,
+          "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+          "python_version": "3.12.13"
+        },
+        "artifact_sha256": "cc1095a8cb70b88c0e9dc117c198f7a844f473c68f982a9f027799f692385f9f",
+        "source_bound_save": true,
+        "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+        "physical_page": 39,
+        "attempt": 0,
+        "role": "extractor",
+        "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+        "contract_sha256": "aa97a446c59b5a207fd1ab84542de68a56c8d05e595fabde973e24da9ccc405d",
+        "started_at": 1791817313.2073953,
+        "finished_at": 1791817408.5401495
+      },
+      "native_elapsed_seconds": 95.333
+    },
+    {
+      "case_id": "catalog-1-page-017",
+      "physical_page": 17,
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "initial_extractor_status": "completed",
+      "current_pipeline_status_at_snapshot": "needs_review",
+      "engineering_expected": 15,
+      "drawing_expected": 0,
+      "engineering_correct": 15,
+      "drawing_correct": 0,
+      "started_unix": 1791817411.3688722,
+      "worker_cycle_elapsed_seconds": 130.315,
+      "candidate": {
+        "file": "catalog-1-page-017/candidate-0.json",
+        "sha256": "b2161d81e9c8c68e0264a93be78d91af1ecfb2724f528c6634c9689c17394d1d",
+        "bytes": 45763
+      },
+      "score_file": "catalog-1-page-017/score-v0.3.0.json",
+      "corrected_score_file": "catalog-1-page-017/score-corrected-v0.3.1.json",
+      "producer": {
+        "status": "receipt_verified",
+        "program": {
+          "package_version": "1.4.2",
+          "git_revision": null,
+          "dirty": null,
+          "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+          "python_version": "3.12.13"
+        },
+        "artifact_sha256": "b2161d81e9c8c68e0264a93be78d91af1ecfb2724f528c6634c9689c17394d1d",
+        "source_bound_save": true,
+        "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+        "physical_page": 17,
+        "attempt": 0,
+        "role": "extractor",
+        "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+        "contract_sha256": "aa97a446c59b5a207fd1ab84542de68a56c8d05e595fabde973e24da9ccc405d",
+        "started_at": 1791817413.4114873,
+        "finished_at": 1791817538.9075682
+      },
+      "native_elapsed_seconds": 125.496
+    },
+    {
+      "case_id": "catalog-1-page-022",
+      "physical_page": 22,
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "initial_extractor_status": "completed",
+      "current_pipeline_status_at_snapshot": "needs_review",
+      "engineering_expected": 15,
+      "drawing_expected": 0,
+      "engineering_correct": 15,
+      "drawing_correct": 0,
+      "started_unix": 1791817991.7373078,
+      "worker_cycle_elapsed_seconds": 585.668,
+      "candidate": {
+        "file": "catalog-1-page-022/candidate-0.json",
+        "sha256": "f0052716749ff5ff5e839a7e63b8e85d7316369091411a05a6372d5cb7e057d2",
+        "bytes": 40656
+      },
+      "score_file": "catalog-1-page-022/score-v0.3.0.json",
+      "corrected_score_file": "catalog-1-page-022/score-corrected-v0.3.1.json",
+      "producer": {
+        "status": "receipt_verified",
+        "program": {
+          "package_version": "1.4.2",
+          "git_revision": null,
+          "dirty": null,
+          "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+          "python_version": "3.12.13"
+        },
+        "artifact_sha256": "f0052716749ff5ff5e839a7e63b8e85d7316369091411a05a6372d5cb7e057d2",
+        "source_bound_save": true,
+        "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+        "physical_page": 22,
+        "attempt": 0,
+        "role": "extractor",
+        "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+        "contract_sha256": "aa97a446c59b5a207fd1ab84542de68a56c8d05e595fabde973e24da9ccc405d",
+        "started_at": 1791817993.8219662,
+        "finished_at": 1791818122.572828
+      },
+      "native_elapsed_seconds": 128.751
+    },
+    {
+      "case_id": "catalog-1-page-026",
+      "physical_page": 26,
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "initial_extractor_status": "completed",
+      "current_pipeline_status_at_snapshot": "needs_review",
+      "engineering_expected": 15,
+      "drawing_expected": 0,
+      "engineering_correct": 7,
+      "drawing_correct": 0,
+      "started_unix": 1791818127.3576362,
+      "worker_cycle_elapsed_seconds": 129.639,
+      "candidate": {
+        "file": "catalog-1-page-026/candidate-0.json",
+        "sha256": "575cf021ed349dcb9aa6c1b49c67be2dde348a772eaf4cdb97f8872eb7e4baf2",
+        "bytes": 44608
+      },
+      "score_file": "catalog-1-page-026/score-v0.3.0.json",
+      "corrected_score_file": "catalog-1-page-026/score-corrected-v0.3.1.json",
+      "producer": {
+        "status": "receipt_verified",
+        "program": {
+          "package_version": "1.4.2",
+          "git_revision": null,
+          "dirty": null,
+          "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+          "python_version": "3.12.13"
+        },
+        "artifact_sha256": "575cf021ed349dcb9aa6c1b49c67be2dde348a772eaf4cdb97f8872eb7e4baf2",
+        "source_bound_save": true,
+        "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+        "physical_page": 26,
+        "attempt": 0,
+        "role": "extractor",
+        "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+        "contract_sha256": "aa97a446c59b5a207fd1ab84542de68a56c8d05e595fabde973e24da9ccc405d",
+        "started_at": 1791818129.453168,
+        "finished_at": 1791818252.6364782
+      },
+      "native_elapsed_seconds": 123.183
+    },
+    {
+      "case_id": "catalog-2-page-060",
+      "physical_page": 60,
+      "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+      "initial_extractor_status": "completed",
+      "current_pipeline_status_at_snapshot": "needs_review",
+      "engineering_expected": 15,
+      "drawing_expected": 0,
+      "engineering_correct": 15,
+      "drawing_correct": 0,
+      "started_unix": 1791818257.0015068,
+      "worker_cycle_elapsed_seconds": 278.713,
+      "candidate": {
+        "file": "catalog-2-page-060/candidate-0.json",
+        "sha256": "b1e84059f13cad7d68a1d61088486e28d231e1b845cd95f0436fe773cfd47a60",
+        "bytes": 61010
+      },
+      "score_file": "catalog-2-page-060/score-v0.3.0.json",
+      "corrected_score_file": "catalog-2-page-060/score-corrected-v0.3.1.json",
+      "producer": {
+        "status": "receipt_verified",
+        "program": {
+          "package_version": "1.4.2",
+          "git_revision": null,
+          "dirty": null,
+          "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+          "python_version": "3.12.13"
+        },
+        "artifact_sha256": "b1e84059f13cad7d68a1d61088486e28d231e1b845cd95f0436fe773cfd47a60",
+        "source_bound_save": true,
+        "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+        "physical_page": 60,
+        "attempt": 0,
+        "role": "extractor",
+        "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+        "contract_sha256": "aa97a446c59b5a207fd1ab84542de68a56c8d05e595fabde973e24da9ccc405d",
+        "started_at": 1791818259.0881095,
+        "finished_at": 1791818531.1287858
+      },
+      "native_elapsed_seconds": 272.041
+    },
+    {
+      "case_id": "catalog-2-page-149",
+      "physical_page": 149,
+      "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+      "initial_extractor_status": "completed",
+      "current_pipeline_status_at_snapshot": "needs_review",
+      "engineering_expected": 15,
+      "drawing_expected": 0,
+      "engineering_correct": 15,
+      "drawing_correct": 0,
+      "started_unix": 1791818535.7320805,
+      "worker_cycle_elapsed_seconds": 120.895,
+      "candidate": {
+        "file": "catalog-2-page-149/candidate-0.json",
+        "sha256": "24e4e42e22978e5ef39635927d2059f5a5e0e37523673af39c78041a6612ed81",
+        "bytes": 21902
+      },
+      "score_file": "catalog-2-page-149/score-v0.3.0.json",
+      "corrected_score_file": "catalog-2-page-149/score-corrected-v0.3.1.json",
+      "producer": {
+        "status": "receipt_verified",
+        "program": {
+          "package_version": "1.4.2",
+          "git_revision": null,
+          "dirty": null,
+          "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+          "python_version": "3.12.13"
+        },
+        "artifact_sha256": "24e4e42e22978e5ef39635927d2059f5a5e0e37523673af39c78041a6612ed81",
+        "source_bound_save": true,
+        "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+        "physical_page": 149,
+        "attempt": 0,
+        "role": "extractor",
+        "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+        "contract_sha256": "aa97a446c59b5a207fd1ab84542de68a56c8d05e595fabde973e24da9ccc405d",
+        "started_at": 1791818537.7854683,
+        "finished_at": 1791818652.0045023
+      },
+      "native_elapsed_seconds": 114.219
+    },
+    {
+      "case_id": "catalog-2-page-185",
+      "physical_page": 185,
+      "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+      "initial_extractor_status": "completed",
+      "current_pipeline_status_at_snapshot": "reviewing",
+      "engineering_expected": 15,
+      "drawing_expected": 0,
+      "engineering_correct": 15,
+      "drawing_correct": 0,
+      "started_unix": 1791818656.611284,
+      "worker_cycle_elapsed_seconds": 150.302,
+      "candidate": {
+        "file": "catalog-2-page-185/candidate-0.json",
+        "sha256": "dcf8297c847a1d5071f0d38d56ad3504323dbde3cc8f90f9dacf43894c23f29a",
+        "bytes": 51863
+      },
+      "score_file": "catalog-2-page-185/score-v0.3.0.json",
+      "corrected_score_file": "catalog-2-page-185/score-corrected-v0.3.1.json",
+      "producer": {
+        "status": "receipt_verified",
+        "program": {
+          "package_version": "1.4.2",
+          "git_revision": null,
+          "dirty": null,
+          "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+          "python_version": "3.12.13"
+        },
+        "artifact_sha256": "dcf8297c847a1d5071f0d38d56ad3504323dbde3cc8f90f9dacf43894c23f29a",
+        "source_bound_save": true,
+        "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+        "physical_page": 185,
+        "attempt": 0,
+        "role": "extractor",
+        "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+        "contract_sha256": "aa97a446c59b5a207fd1ab84542de68a56c8d05e595fabde973e24da9ccc405d",
+        "started_at": 1791818658.6929812,
+        "finished_at": 1791818802.1148496
+      },
+      "native_elapsed_seconds": 143.422
+    },
+    {
+      "case_id": "catalog-3-page-103",
+      "physical_page": 103,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "initial_extractor_status": "failed",
+      "current_pipeline_status_at_snapshot": "failed",
+      "engineering_expected": 15,
+      "drawing_expected": 0,
+      "engineering_correct": 0,
+      "drawing_correct": 0,
+      "started_unix": 1791818806.913068,
+      "worker_cycle_elapsed_seconds": 182.414,
+      "failure_class": "native_extractor_without_valid_saved_candidate",
+      "failed_usage_may_be_unknown": true,
+      "native_stop_reason": "MAX_TOKENS",
+      "candidate_saved": false
+    },
+    {
+      "case_id": "catalog-3-page-108",
+      "physical_page": 108,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "initial_extractor_status": "completed",
+      "current_pipeline_status_at_snapshot": "awaiting_review",
+      "engineering_expected": 15,
+      "drawing_expected": 0,
+      "engineering_correct": 15,
+      "drawing_correct": 0,
+      "started_unix": 1791818989.3419533,
+      "worker_cycle_elapsed_seconds": 95.299,
+      "candidate": {
+        "file": "catalog-3-page-108/candidate-0.json",
+        "sha256": "9c9d09d042bf9da8dfb9c2592644c65f90429b393319c42e5f74c764206aa0bf",
+        "bytes": 44286
+      },
+      "score_file": "catalog-3-page-108/score-v0.3.0.json",
+      "corrected_score_file": "catalog-3-page-108/score-corrected-v0.3.1.json",
+      "producer": {
+        "status": "receipt_verified",
+        "program": {
+          "package_version": "1.4.2",
+          "git_revision": null,
+          "dirty": null,
+          "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+          "python_version": "3.12.13"
+        },
+        "artifact_sha256": "9c9d09d042bf9da8dfb9c2592644c65f90429b393319c42e5f74c764206aa0bf",
+        "source_bound_save": true,
+        "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+        "physical_page": 108,
+        "attempt": 0,
+        "role": "extractor",
+        "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+        "contract_sha256": "aa97a446c59b5a207fd1ab84542de68a56c8d05e595fabde973e24da9ccc405d",
+        "started_at": 1791818991.4219322,
+        "finished_at": 1791819080.1685443
+      },
+      "native_elapsed_seconds": 88.747
+    },
+    {
+      "case_id": "catalog-3-page-111",
+      "physical_page": 111,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "initial_extractor_status": "completed",
+      "current_pipeline_status_at_snapshot": "awaiting_review",
+      "engineering_expected": 15,
+      "drawing_expected": 0,
+      "engineering_correct": 15,
+      "drawing_correct": 0,
+      "started_unix": 1791819084.619694,
+      "worker_cycle_elapsed_seconds": 191.424,
+      "candidate": {
+        "file": "catalog-3-page-111/candidate-0.json",
+        "sha256": "1a838bb25bf86331ac949af72be92cd47899992fcda48ed72ec6e745f0e6b2b0",
+        "bytes": 75536
+      },
+      "score_file": "catalog-3-page-111/score-v0.3.0.json",
+      "corrected_score_file": "catalog-3-page-111/score-corrected-v0.3.1.json",
+      "producer": {
+        "status": "receipt_verified",
+        "program": {
+          "package_version": "1.4.2",
+          "git_revision": null,
+          "dirty": null,
+          "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+          "python_version": "3.12.13"
+        },
+        "artifact_sha256": "1a838bb25bf86331ac949af72be92cd47899992fcda48ed72ec6e745f0e6b2b0",
+        "source_bound_save": true,
+        "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+        "physical_page": 111,
+        "attempt": 0,
+        "role": "extractor",
+        "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+        "contract_sha256": "aa97a446c59b5a207fd1ab84542de68a56c8d05e595fabde973e24da9ccc405d",
+        "started_at": 1791819086.5085704,
+        "finished_at": 1791819271.3014312
+      },
+      "native_elapsed_seconds": 184.793
+    },
+    {
+      "case_id": "catalog-4-page-033",
+      "physical_page": 33,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "initial_extractor_status": "completed",
+      "current_pipeline_status_at_snapshot": "awaiting_review",
+      "engineering_expected": 108,
+      "drawing_expected": 0,
+      "engineering_correct": 99,
+      "drawing_correct": 0,
+      "started_unix": 1791819276.0718749,
+      "worker_cycle_elapsed_seconds": 143.225,
+      "candidate": {
+        "file": "catalog-4-page-033/candidate-0.json",
+        "sha256": "ea2c010a1bf2995e620b395c36cb1abfa1db885bd5bb67d459f77b193aaa4fea",
+        "bytes": 26279
+      },
+      "score_file": "catalog-4-page-033/score-v0.3.0.json",
+      "corrected_score_file": "catalog-4-page-033/score-corrected-v0.3.1.json",
+      "producer": {
+        "status": "receipt_verified",
+        "program": {
+          "package_version": "1.4.2",
+          "git_revision": null,
+          "dirty": null,
+          "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+          "python_version": "3.12.13"
+        },
+        "artifact_sha256": "ea2c010a1bf2995e620b395c36cb1abfa1db885bd5bb67d459f77b193aaa4fea",
+        "source_bound_save": true,
+        "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+        "physical_page": 33,
+        "attempt": 0,
+        "role": "extractor",
+        "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+        "contract_sha256": "aa97a446c59b5a207fd1ab84542de68a56c8d05e595fabde973e24da9ccc405d",
+        "started_at": 1791819278.0513158,
+        "finished_at": 1791819414.6848445
+      },
+      "native_elapsed_seconds": 136.634
+    },
+    {
+      "case_id": "catalog-4-page-038",
+      "physical_page": 38,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "initial_extractor_status": "completed",
+      "current_pipeline_status_at_snapshot": "awaiting_review",
+      "engineering_expected": 72,
+      "drawing_expected": 0,
+      "engineering_correct": 0,
+      "drawing_correct": 0,
+      "started_unix": 1791820201.154673,
+      "worker_cycle_elapsed_seconds": 872.774,
+      "candidate": {
+        "file": "catalog-4-page-038/candidate-0.json",
+        "sha256": "94af7f463ce3f7902235d72ee867fce6d6ee1cdd753be3cfd8c0613a6fe59935",
+        "bytes": 3465
+      },
+      "score_file": "catalog-4-page-038/score-v0.3.0.json",
+      "corrected_score_file": "catalog-4-page-038/score-corrected-v0.3.1.json",
+      "producer": {
+        "status": "receipt_verified",
+        "program": {
+          "package_version": "1.4.2",
+          "git_revision": null,
+          "dirty": null,
+          "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+          "python_version": "3.12.13"
+        },
+        "artifact_sha256": "94af7f463ce3f7902235d72ee867fce6d6ee1cdd753be3cfd8c0613a6fe59935",
+        "source_bound_save": true,
+        "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+        "physical_page": 38,
+        "attempt": 0,
+        "role": "extractor",
+        "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+        "contract_sha256": "aa97a446c59b5a207fd1ab84542de68a56c8d05e595fabde973e24da9ccc405d",
+        "started_at": 1791820203.3997622,
+        "finished_at": 1791820287.3750136
+      },
+      "native_elapsed_seconds": 83.975
+    },
+    {
+      "case_id": "catalog-4-page-078",
+      "physical_page": 78,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "initial_extractor_status": "completed",
+      "current_pipeline_status_at_snapshot": "awaiting_review",
+      "engineering_expected": 140,
+      "drawing_expected": 0,
+      "engineering_correct": 140,
+      "drawing_correct": 0,
+      "started_unix": 1791820292.0778081,
+      "worker_cycle_elapsed_seconds": 143.848,
+      "candidate": {
+        "file": "catalog-4-page-078/candidate-0.json",
+        "sha256": "c48a47bea315650a615feaed12d84c0179d092c4671e78a98837808b0ba68afa",
+        "bytes": 28697
+      },
+      "score_file": "catalog-4-page-078/score-v0.3.0.json",
+      "corrected_score_file": "catalog-4-page-078/score-corrected-v0.3.1.json",
+      "producer": {
+        "status": "receipt_verified",
+        "program": {
+          "package_version": "1.4.2",
+          "git_revision": null,
+          "dirty": null,
+          "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+          "python_version": "3.12.13"
+        },
+        "artifact_sha256": "c48a47bea315650a615feaed12d84c0179d092c4671e78a98837808b0ba68afa",
+        "source_bound_save": true,
+        "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+        "physical_page": 78,
+        "attempt": 0,
+        "role": "extractor",
+        "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+        "contract_sha256": "aa97a446c59b5a207fd1ab84542de68a56c8d05e595fabde973e24da9ccc405d",
+        "started_at": 1791820294.1764934,
+        "finished_at": 1791820433.0467029
+      },
+      "native_elapsed_seconds": 138.87
+    },
+    {
+      "case_id": "catalog-5-page-030",
+      "physical_page": 30,
+      "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+      "initial_extractor_status": "completed",
+      "current_pipeline_status_at_snapshot": "awaiting_review",
+      "engineering_expected": 15,
+      "drawing_expected": 0,
+      "engineering_correct": 15,
+      "drawing_correct": 0,
+      "started_unix": 1791820435.9886124,
+      "worker_cycle_elapsed_seconds": 66.679,
+      "candidate": {
+        "file": "catalog-5-page-030/candidate-0.json",
+        "sha256": "8d2455ed14c70112d64ba054fa177585b68e5a294f90ed98f81635b4a9c7f952",
+        "bytes": 34420
+      },
+      "score_file": "catalog-5-page-030/score-v0.3.0.json",
+      "corrected_score_file": "catalog-5-page-030/score-corrected-v0.3.1.json",
+      "producer": {
+        "status": "receipt_verified",
+        "program": {
+          "package_version": "1.4.2",
+          "git_revision": null,
+          "dirty": null,
+          "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+          "python_version": "3.12.13"
+        },
+        "artifact_sha256": "8d2455ed14c70112d64ba054fa177585b68e5a294f90ed98f81635b4a9c7f952",
+        "source_bound_save": true,
+        "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+        "physical_page": 30,
+        "attempt": 0,
+        "role": "extractor",
+        "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+        "contract_sha256": "aa97a446c59b5a207fd1ab84542de68a56c8d05e595fabde973e24da9ccc405d",
+        "started_at": 1791820438.2447476,
+        "finished_at": 1791820500.0174866
+      },
+      "native_elapsed_seconds": 61.773
+    },
+    {
+      "case_id": "catalog-5-page-035",
+      "physical_page": 35,
+      "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+      "initial_extractor_status": "completed",
+      "current_pipeline_status_at_snapshot": "awaiting_review",
+      "engineering_expected": 15,
+      "drawing_expected": 0,
+      "engineering_correct": 15,
+      "drawing_correct": 0,
+      "started_unix": 1791820502.6151555,
+      "worker_cycle_elapsed_seconds": 205.152,
+      "candidate": {
+        "file": "catalog-5-page-035/candidate-0.json",
+        "sha256": "a42944692f948b06cf95e42b1f5bc34ee6935d6855503df49e2646b3519b6200",
+        "bytes": 25983
+      },
+      "score_file": "catalog-5-page-035/score-v0.3.0.json",
+      "corrected_score_file": "catalog-5-page-035/score-corrected-v0.3.1.json",
+      "producer": {
+        "status": "receipt_verified",
+        "program": {
+          "package_version": "1.4.2",
+          "git_revision": null,
+          "dirty": null,
+          "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+          "python_version": "3.12.13"
+        },
+        "artifact_sha256": "a42944692f948b06cf95e42b1f5bc34ee6935d6855503df49e2646b3519b6200",
+        "source_bound_save": true,
+        "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+        "physical_page": 35,
+        "attempt": 0,
+        "role": "extractor",
+        "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+        "contract_sha256": "aa97a446c59b5a207fd1ab84542de68a56c8d05e595fabde973e24da9ccc405d",
+        "started_at": 1791820504.7532961,
+        "finished_at": 1791820704.7702892
+      },
+      "native_elapsed_seconds": 200.017
+    },
+    {
+      "case_id": "catalog-5-page-126",
+      "physical_page": 126,
+      "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+      "initial_extractor_status": "failed",
+      "current_pipeline_status_at_snapshot": "failed",
+      "engineering_expected": 15,
+      "drawing_expected": 0,
+      "engineering_correct": 0,
+      "drawing_correct": 0,
+      "started_unix": 1791821505.2542045,
+      "worker_cycle_elapsed_seconds": 1707.763,
+      "failure_class": "native_extractor_without_valid_saved_candidate",
+      "failed_usage_may_be_unknown": true,
+      "native_stop_reason": "CANCELLED",
+      "candidate_saved": false
+    }
+  ]
+}
