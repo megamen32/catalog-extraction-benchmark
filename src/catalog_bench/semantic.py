@@ -5,7 +5,7 @@ import re
 import unicodedata
 
 from .profiles import arm_iz, opn_small
-from .profiles.header_rules import clean_header
+from .profiles.header_rules import clean_header, semantic_header_text
 
 
 def normalized(value):
@@ -29,7 +29,7 @@ def equivalent(actual, expected):
 
 def column_match(annotation, column):
     raw = normalized(' '.join(filter(None, [column.group, column.label])))
-    folded = re.sub(r'\s+', '', raw + ' ' + (normalized(column.qualifier) or '')).casefold().replace('ё', 'е')
+    folded = semantic_header_text(raw + ' ' + (normalized(column.qualifier) or ''))
     field = all(bool(re.search(r'(?<![\d.,])' + re.escape(token), folded)) if token[:1].isdigit() else token in folded for token in annotation.get('tokens', []))
     if annotation.get('symbol'):
         # Scoped aliases for dimension fields only; product names and grade СЗ stay literal.

@@ -21,3 +21,7 @@ Historical evaluations used an earlier private grader. This public version adds 
 ## Grader v0.2.1: drawing token boundaries
 
 Drawing matching keeps separators between independent labels and accepts ordinary punctuation after a dimension. It still rejects a longer number or a decimal continuation (for example `476` does not match `476,5`) and requires the original charge group, execution and view association. This fixes false misses in retained page-26 agent outputs; annotations and expected values are unchanged. Frozen v0.2.0 measurements remain historical results. Regrading saved output with v0.2.1 is a new grader cohort, not another model execution.
+
+## Grader v0.2.2: equivalent conductivity header
+
+The specific phrase «удельная проводимость поверхностного слоя загрязнения» denotes the same quantity as «удельная поверхностная проводимость слоя загрязнения». Matching recognizes this phrase order only; raw labels and literal values are not rewritten. Units, qualifiers, product identity and rejection of combined unrelated fields remain required. This corrects nine false missing semantic facts in a retained page-33 output. Annotations and historical scores are unchanged; corrected scores use a new grader cohort.

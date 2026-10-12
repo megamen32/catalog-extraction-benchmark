@@ -165,3 +165,20 @@ def test_single_view_figure_title_scopes_its_native_labels():
     fact = json.loads(fixture_path('catalog-1-page-026').read_text())['selected_facts'][-1]
     figure = {'title': '1,1 Кл, Вид Б', 'description': 'нижний фланец', 'labels': ['Ø11', '4 отв.']}
     assert check('catalog-1-page-026', fact, {'tables': [], 'figures': [figure]})['status'] == 'passed'
+
+
+def test_surface_conductivity_header_word_order_is_semantic_not_literal():
+    ann=BenchmarkCase.model_validate_json(fixture_path('catalog-4-page-033').read_text()).semantic_columns[0][9]
+    label='Нормированная удельная проводимость поверхностного слоя загрязнения'
+    c=Column(id='c',label=label,unit='мкСм')
+    assert all(column_match(ann,c).values())
+    assert c.label == label  # Matching must not rewrite delivered source text.
+    for wrong in ['Нормированная удельная объемная проводимость слоя загрязнения',
+                  'Нормированная проводимость поверхностного слоя загрязнения',
+                  label + ' / Масса',
+                  label + ' / Удельная объемная проводимость',
+                  'Удельная объемная проводимость / ' + label,
+                  'Нормированная удельная поверхностная проводимость слоя загрязнения / Удельная объемная проводимость']:
+        assert not column_match(ann,Column(id='c',label=wrong,unit='мкСм'))['field']
+    assert not column_match(ann,Column(id='c',label=label,unit='кВ'))['unit']
+    assert not column_match(ann,Column(id='c',label=label,unit='мкСм',qualifier='не менее'))['bounds']

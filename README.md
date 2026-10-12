@@ -13,7 +13,7 @@ Compare PDF catalogue parsers against independently reviewed engineering facts.
 Requires Python 3.11+ and [uv](https://docs.astral.sh/uv/).
 
 ```bash
-uv tool install git+https://github.com/megamen32/catalog-extraction-benchmark@v0.2.1
+uv tool install git+https://github.com/megamen32/catalog-extraction-benchmark@v0.2.2
 ```
 
 ## Try it

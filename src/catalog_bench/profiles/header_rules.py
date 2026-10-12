@@ -7,16 +7,23 @@ FIELD_PATTERNS = [
     r'механич.*разруш.*сил', r'разруш.*крутящ.*момент',
     r'строитель.*высот', r'диаметр.*ребер', r'изоляцион.*высот',
     r'длина.*пути.*утечки', r'разрядн.*напряж', r'выдержив.*напряж',
-    r'поверхностн.*провод', r'степень.*загряз', r'масса', r'классизолятора',
+    r'поверхностн.*провод', r'(?:объемн.*провод|проводимостьобъемн)', r'степень.*загряз', r'масса', r'классизолятора',
     r'заряд.*пропуск', r'теплов.*заряд', r'теплов.*энерги',
     r'разруш.*нагруз', r'ток.*взрывобезопас', r'остающееся',
 ]
+
+def semantic_header_text(raw):
+    folded = re.sub(r'\s+', '', raw).casefold().replace('ё', 'е')
+    # Equivalent noun/adjective order for this one unambiguous quantity.
+    # This is matching-only; delivered labels, units and values stay literal.
+    return folded.replace('удельнаяпроводимостьповерхностногослоязагрязнения',
+                          'удельнаяповерхностнаяпроводимостьслоязагрязнения')
 
 
 def clean_header(column):
     get = column.get if isinstance(column, dict) else lambda k, default=None: getattr(column, k, default)
     raw = ' '.join(str(get(k) or '') for k in ['label', 'group', 'qualifier'])
-    folded = re.sub(r'\s+', '', raw).casefold().replace('ё', 'е')
+    folded = semantic_header_text(raw)
     if sum(bool(re.search(p, folded)) for p in FIELD_PATTERNS) > 1:
         return False
     voltage_conditions = [r'полн.*грозов.*импульс', r'50.*гц.*сухом', r'50.*гц.*дождем']
