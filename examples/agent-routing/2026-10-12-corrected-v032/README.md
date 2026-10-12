@@ -8,4 +8,4 @@ Three sequential fresh runs are planned. One extra call per provider honors the 
 
 Exact native program/component/contract/model/plugin/SDK/source hashes and output/time/token records are retained. Gold, older outputs and external audit leads are excluded from both model contexts. Agent histories stay private; public token metrics distinguish unreported/partial usage from zero. The six existing [Project X native Vision rounds](../../project-x/2026-10-12-native-vision-v1-full/README.md) will be compared without rerunning them.
 
-This manifest is preparation, not completed benchmark accuracy. Public consumer download/hash/regrading proof will accompany the actual three-round results. Selected-fact accuracy does not certify every statement or whole-page visual correctness.
+The frozen corrected cohort is running. The first native calls have source-bound receipts; three-round accuracy is still pending. Public consumer download/hash/regrading proof will accompany the actual three-round results. Selected-fact accuracy does not certify every statement or whole-page visual correctness.

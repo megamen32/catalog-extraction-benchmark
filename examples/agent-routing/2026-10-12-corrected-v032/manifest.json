@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "status": "prepared",
+  "status": "running",
   "dataset_id": "engineering-catalogs-v2",
   "dataset_version": "2.0.0",
   "primary_grader_release": "0.3.2",
@@ -243,7 +243,7 @@
   "full_page_accuracy": false,
   "inherited_accuracy": false,
   "experimental_profile": "composition15 (native logic142/tools148) → literal quotation reviewer17; separate from FULL20 composition15→148",
-  "initial_source_inputs_count": 147,
+  "initial_source_inputs_count": 148,
   "legacy_profile_status": "stopped naturally after two initial rounds; original scores unchanged",
   "public_outputs_exclude_transcripts": true,
   "public_version_tags": [
@@ -257,5 +257,10 @@
       "tag_revision": "8766bd5",
       "release": "https://github.com/megamen32/catalog-to-json/releases/tag/v1.4.17"
     }
-  ]
+  ],
+  "source_revision": "897fdf570eadc9f6228a5fc9f6280096d1dce3e5",
+  "plan_sha256": "3184e08c2f916cb350e966b424a0b1f9b783f57631c63707fe88e9a240d96df3",
+  "published_observation_utc": "2026-10-12T21:00:17.831474+00:00",
+  "actual_native_start_unix": 1791838529.580281,
+  "rounds_finished": false
 }
