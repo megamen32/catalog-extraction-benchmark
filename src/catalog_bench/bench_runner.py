@@ -11,6 +11,7 @@ from pydantic import Field
 from .schema import Model
 from .benchmark import BenchmarkCase, score_file
 from .io import write_json
+from .provenance import tested_program
 
 
 class CaseSpec(Model):
@@ -112,6 +113,9 @@ def run_suite(manifest, output, resume=False):
                         saved = {'execution_key': key, 'case_id': case.id, 'project': project.id,
                                  'project_state': states[project.id], 'model': model, 'repeat': repeat,
                                  'stage': project.stage, 'source_sha256': identity['source_sha256'],
+                                 'tested_program': tested_program({'project_state':states[project.id]}),
+                                 'test_method':{'stage':project.stage,'command':command,'timeout_seconds':suite.timeout_seconds, 'deadline_seconds':suite.deadline_seconds, 'repeats':suite.repeats,'model':model},
+                                 'artifact_path':str(artifact),
                                  'page': case.page, 'status': 'running', 'tokens': None, 'cost': None}
                         write_json(receipt, saved); arm_started = time.monotonic()
                         with (work / 'process.log').open('wb') as log:
@@ -143,6 +147,7 @@ def run_suite(manifest, output, resume=False):
                                 actual=json.loads((work/project.model_receipt).read_text())
                                 if actual.get('model')!=model or actual.get('source_sha256')!=identity['source_sha256'] or actual.get('physical_page')!=case.page or actual.get('status')!='completed' or actual.get('candidate_sha256')!=sha(artifact):
                                     raise ValueError('Adapter runtime receipt contradicts selected model/source/page')
+                                entry['tested_program']=tested_program({**actual,'project_state':states[project.id]})
                             entry['adapter_model_receipt_verified'] = bool(project.model_receipt)
                             entry['score'] = score_file(case.fixture, artifact)
                             score_path = work / ('score-' + entry['score']['grader_sha256'][:12] + '-' + entry['score']['fixture_sha256'][:12] + '.json')

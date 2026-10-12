@@ -31,7 +31,15 @@ def summarize(results):
                 unavailable += expected
             families[family][1] += expected
         denominator = scored + unavailable
-        rows.append({'project': project, 'model': model, 'stage': stage, 'repeat': repeat,
+        times=[r.get('elapsed_seconds') for r in runs]
+        known_times=[t for t in times if isinstance(t,(int,float)) and not isinstance(t,bool)]
+        versions=[r.get('tested_program') for r in runs if r.get('tested_program')]
+        methods=[r.get('test_method') for r in runs if r.get('test_method')]
+        rows.append({'tested_program_versions':versions,'test_methods':methods,
+                     'elapsed_seconds_total':round(sum(known_times),3) if len(known_times)==len(runs) else None,
+                     'known_elapsed_seconds_total':round(sum(known_times),3) if known_times else None,
+                     'runs_with_known_time':len(known_times),
+                     'project': project, 'model': model, 'stage': stage, 'repeat': repeat,
                      'cases_attempted': len(runs), 'case_ids': sorted(seen),
                      'completed_cases': sum(r['status'] == 'completed' for r in runs),
                      'correct': correct, 'scored_facts': scored, 'unavailable_facts': unavailable,

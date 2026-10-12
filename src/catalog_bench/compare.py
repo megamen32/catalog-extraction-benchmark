@@ -5,9 +5,10 @@ from .benchmark import score_file
 from .dataset import fixture_path, validate_dataset, load_dataset
 from .bench_runner import sha
 from .report import summarize
+from .provenance import tested_program, archive_artifact, elapsed
 
 
-def compare_saved(manifest):
+def compare_saved(manifest, output=None):
     manifest=Path(manifest).resolve()
     entries=json.loads(manifest.read_text())['artifacts']
     runs=[]; identities=set()
@@ -18,6 +19,8 @@ def compare_saved(manifest):
         identities.add(key)
         candidate=(manifest.parent/entry['candidate']).resolve()
         run={'project':project,'case_id':cid,'model':model,'stage':stage,'repeat':entry.get('repeat',1),
+             'tested_program':tested_program(declared_version=entry.get('version')),
+             'test_method':{'stage':stage,'source':'saved_artifact','command':entry.get('command'), 'timeout_seconds':None,'repair_policy':'not inferred'},
              'runtime_verified':False,'status':'completed','tokens':None,'cost':None,'elapsed_seconds':None}
         try:
             if entry.get('receipt'):
@@ -34,9 +37,15 @@ def compare_saved(manifest):
                         raise ValueError('Receipt contradicts declared source/page/model')
                     run['adapter_receipt']=receipt
                     run['receipt_binding_verified']=True
+                    run['tested_program']=tested_program(receipt,entry.get('version'))
+                    run['elapsed_seconds']=elapsed(receipt.get('elapsed_seconds'))
+                    run['test_method'].update(timeout_seconds=receipt.get('timeout_seconds'),stage=receipt.get('stage',stage), repair_policy='no reviewer or repair' if stage=='first_pass' else 'see supplied receipt')
                 else:raise ValueError('Unsuccessful runtime receipt cannot prove a saved candidate')
             run['artifact_sha256']=sha(candidate)
             run['score']=score_file(fixture_path(cid),candidate)
+            if output is not None:
+                run['archived_artifact'], digest=archive_artifact(candidate,output)
+                if digest!=run['score']['candidate_sha256']:raise ValueError('Scored and archived artifacts differ')
         except (ValueError,OSError,KeyError) as exc:
             run.update(status='invalid_output',error=f'{type(exc).__name__}: {exc}')
         runs.append(run)

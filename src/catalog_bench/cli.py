@@ -52,7 +52,7 @@ def main():
             return 0 if result['complete'] and all(r['status']=='completed' for r in result['runs']) else 2
         elif args.command == 'compare':
             from .compare import compare_saved
-            result = compare_saved(args.manifest)
+            result = compare_saved(args.manifest, args.output.parent / (args.output.stem + '-files'))
             write_json(args.output, result)
             print(json.dumps(result['summary'], ensure_ascii=False, indent=2))
             return 0 if all(r['status']=='completed' for r in result['runs']) else 2
