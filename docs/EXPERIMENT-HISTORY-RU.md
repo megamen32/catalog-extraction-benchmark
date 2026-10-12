@@ -93,9 +93,17 @@ Project X здесь означает адаптированную Vision-инт
 
 ## Отдельные пробы, которые не заменяют полный раунд
 
-- [1.4.3, страница 26: 15/15](../examples/agent-routing/2026-10-12-delivery-v1.4.3/manifest.json), 99,455 с. Этот ответ не подменяет неудачную попытку 1.4.2.
-- [Первичная Vision-проба Project X](../examples/project-x/2026-10-12-vision-preview/results.json): по старой строгой оценке страницы 78 MiniMax дал 108/140, GLM — 136/140. По одному ответу нельзя делать вывод о стабильности модели. Позднейшие полные раунды — отдельные свежие попытки.
-- Ранние 98,57% относились к 138/140 буквально прочитанным ячейкам одной страницы 78; это другой показатель, не точность всех каталогов.
+Результаты отдельных попыток также сохранены в JSON-сводке; они не входят в среднее полного раунда и не заменяют неудачные ответы старой версии.
+
+| Проба | Страница | Модель | Сохранённая оценка | Время, с |
+|---|---|---|---|---|
+| [1.4.3 / page26](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-12-delivery-v1.4.3/manifest.json) | 026 | anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium | 15/15 | 99.455 |
+| [Project X / focused Vision probe](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/project-x/2026-10-12-vision-preview/results.json) | 078 | MiniMax-M3.1-Flash-Preview | 108/140 | 50.755 |
+| [Project X / focused Vision probe](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/project-x/2026-10-12-vision-preview/results.json) | 078 | glm-5.3-flash | 136/140 | 106.563 |
+| [Project X / focused Vision probe](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/project-x/2026-10-12-vision-preview/results.json) | 027 | MiniMax-M3.1-Flash-Preview | нет валидного ответа | не записано |
+| [Project X / focused Vision probe](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/project-x/2026-10-12-vision-preview/results.json) | 039 | MiniMax-M3.1-Flash-Preview | нет валидного ответа | не записано |
+
+Vision-пробы страницы 78 показывают старую строгую оценку: 108/140 и 136/140. Это отдельные ответы, а не первые раунды позднейшего полного испытания. Ранние 98,57% в переписке относились к 138/140 буквально прочитанным ячейкам одной страницы 78; это другой показатель, не точность всех каталогов.
 
 ## Прямые парсеры: 21 конфигурация на v1
 
@@ -134,10 +142,12 @@ Project X здесь означает адаптированную Vision-инт
 | 2026-10-12T07:19:05+03:00 | [examples/parser-outputs/2026-10-12/manifest.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/parser-outputs/2026-10-12/manifest.json) |
 | 2026-10-12T08:25:09+03:00 | [examples/parser-outputs/2026-10-12/regrade-v0.2.2.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/parser-outputs/2026-10-12/regrade-v0.2.2.json) |
 | 2026-10-12T08:28:57+03:00 | [examples/agent-routing/2026-10-12-v1.4.1/manifest.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-12-v1.4.1/manifest.json) |
+| 2026-10-12T09:13:00+03:00 | [examples/agent-routing/2026-10-12-delivery-v1.4.3/manifest.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-12-delivery-v1.4.3/manifest.json) |
 | 2026-10-12T13:43:51+03:00 | [examples/agent-routing/2026-10-12-repeated-runs/manifest.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-12-repeated-runs/manifest.json) |
 | 2026-10-12T13:43:51+03:00 | [examples/agent-routing/2026-10-12-repeated-runs/regrade-v0.2.4.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-12-repeated-runs/regrade-v0.2.4.json) |
 | 2026-10-12T15:36:21+03:00 | [examples/agent-routing/2026-10-12-fresh-v1.4.6/manifest.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-12-fresh-v1.4.6/manifest.json) |
 | 2026-10-12T17:46:17+03:00 | [examples/project-x/2026-10-12/manifest.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/project-x/2026-10-12/manifest.json) |
+| 2026-10-12T18:42:02+03:00 | [examples/project-x/2026-10-12-vision-preview/results.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/project-x/2026-10-12-vision-preview/results.json) |
 | 2026-10-12T19:28:20+03:00 | [examples/agent-routing/2026-10-12-mixed-v2/first-pass-round-1/summary.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-12-mixed-v2/first-pass-round-1/summary.json) |
 | 2026-10-12T21:00:29+03:00 | [examples/project-x/2026-10-12-native-vision-v1-full/manifest.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/project-x/2026-10-12-native-vision-v1-full/manifest.json) |
 | 2026-10-12T21:00:29+03:00 | [examples/project-x/2026-10-12-native-vision-v1-full/summary.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/project-x/2026-10-12-native-vision-v1-full/summary.json) |

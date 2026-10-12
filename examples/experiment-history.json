@@ -90,6 +90,14 @@
     "examples/parser-outputs/2026-10-12/regrade-v0.2.2.json": {
       "sha256": "38cbc8652d8b4ccfd429dd624faeed630d60fcbf2565fae5a5c1f82596ca978b",
       "last_commit_time": "2026-10-12T08:25:09+03:00"
+    },
+    "examples/agent-routing/2026-10-12-delivery-v1.4.3/manifest.json": {
+      "sha256": "13f4b2e0f1c9e9d31ab4f2fd536d8c3552726be1fb32282c1c66d0887d1d8f7d",
+      "last_commit_time": "2026-10-12T09:13:00+03:00"
+    },
+    "examples/project-x/2026-10-12-vision-preview/results.json": {
+      "sha256": "f87d4cd35cb0510618aa02f5c6ada4c7d1d7749e489d30db62e27eb90071e19d",
+      "last_commit_time": "2026-10-12T18:42:02+03:00"
     }
   },
   "experiments": [
@@ -2978,6 +2986,162 @@
       "offline_regrade_model_calls": 0,
       "engineering_distribution": null,
       "drawing_distribution": null
+    }
+  ],
+  "focused_probes": [
+    {
+      "label": "1.4.3 / page26",
+      "receipt": "examples/agent-routing/2026-10-12-delivery-v1.4.3/manifest.json",
+      "case_id": "catalog-1-page-026",
+      "program": {
+        "published_revision": "b2acebf7cf3208c530fc344ad97eecee72717dff",
+        "package_version": "1.4.3",
+        "wheel_sha256": "69de2f76cfe41a1086d70238bb964c1332df1bd13ab0322fded4d7a534906dcc",
+        "contract_sha256": "340974b3454a00e08a2be02c3163f0b266750fb2cf44fa18caa9dfb5af938bd7",
+        "plugin_provenance": [
+          {
+            "name": "catalog-parsers",
+            "version": "0.2.1",
+            "sha256": "7037438d73a283093f30196f6b9977767f944552878b688ce0f3d544847972e8"
+          }
+        ],
+        "program": {
+          "package_version": "1.4.3",
+          "git_revision": null,
+          "dirty": null,
+          "source_code_sha256": "f2ab16630a2945e40b276ffb9113d4d6fa63f128ed513dde60037ad58fa50290",
+          "python_version": "3.12.13"
+        }
+      },
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "grader": "0.2.2",
+      "engineering": {
+        "correct": 15,
+        "expected": 15,
+        "percent": 100.0,
+        "statuses": {
+          "passed": 15
+        }
+      },
+      "elapsed_seconds": 99.455,
+      "output": {
+        "file": "catalog-1-page-026.json",
+        "sha256": "a89efac9091d15382b91bc5f484158a965831ab292cecac471aedcfd4c8831cf",
+        "bytes": 41060
+      },
+      "full_round": false
+    },
+    {
+      "label": "Project X / focused Vision probe",
+      "receipt": "examples/project-x/2026-10-12-vision-preview/results.json",
+      "case_id": "catalog-4-page-078",
+      "snapshot": "ProjectX-snapshot-20261012",
+      "integration_sha256": "f31b03eb2eb058a1c5f6237040f4eb152f3ce10472a9734558081e618498dfa3",
+      "model": "MiniMax-M3.1-Flash-Preview",
+      "status": "native-accepted",
+      "engineering_selected": {
+        "correct": 108,
+        "expected": 140,
+        "percent": 77.14,
+        "statuses": {
+          "passed": 108,
+          "wrong": 20,
+          "missing": 8,
+          "ambiguous": 4
+        }
+      },
+      "drawing_assertions": {
+        "correct": 0,
+        "expected": 0,
+        "full_drawing_accuracy_measured": false
+      },
+      "artifacts": {
+        "content": {
+          "path": "minimax-page-078.content.json",
+          "sha256": "afea57290150c2b242fa4cc1586715f1d1854ac94f940c32d4554fdd4dc7957d"
+        },
+        "native_analysis": {
+          "path": "minimax-page-078.native_analysis.json",
+          "sha256": "aabd3d6cd9dd077616b915162ead54c11d6620b85e74701d411a121a221fdae0"
+        },
+        "grade": {
+          "path": "minimax-page-078.grade.json",
+          "sha256": "9a09565e685ebfc63b8b7a01846b6c894582c5850c6158c2b589d5334a4087fe"
+        }
+      },
+      "grader": "historical strict evaluation; see retained grade artifact",
+      "elapsed_seconds": 50.755,
+      "full_round": false
+    },
+    {
+      "label": "Project X / focused Vision probe",
+      "receipt": "examples/project-x/2026-10-12-vision-preview/results.json",
+      "case_id": "catalog-4-page-078",
+      "snapshot": "ProjectX-snapshot-20261012",
+      "integration_sha256": "f31b03eb2eb058a1c5f6237040f4eb152f3ce10472a9734558081e618498dfa3",
+      "model": "glm-5.3-flash",
+      "status": "native-accepted",
+      "engineering_selected": {
+        "correct": 136,
+        "expected": 140,
+        "percent": 97.14,
+        "statuses": {
+          "passed": 136,
+          "missing": 4
+        }
+      },
+      "drawing_assertions": {
+        "correct": 0,
+        "expected": 0,
+        "full_drawing_accuracy_measured": false
+      },
+      "artifacts": {
+        "content": {
+          "path": "glm-page-078.content.json",
+          "sha256": "be065d79022103e9efc32198084b6a0ab19c022d98e92f3993ef4443464afee9"
+        },
+        "native_analysis": {
+          "path": "glm-page-078.native_analysis.json",
+          "sha256": "677047b5a1a32de4546ded69f0b48b202002b66f00eb58b155e04a9ab3a12a7c"
+        },
+        "grade": {
+          "path": "glm-page-078.grade.json",
+          "sha256": "08b585863a29787b6aa3c554d052d0b885eea7067eaab55cd8d6e4b2aa453a94"
+        }
+      },
+      "grader": "historical strict evaluation; see retained grade artifact",
+      "elapsed_seconds": 106.563,
+      "full_round": false
+    },
+    {
+      "label": "Project X / focused Vision probe",
+      "receipt": "examples/project-x/2026-10-12-vision-preview/results.json",
+      "case_id": "catalog-1-page-027",
+      "snapshot": "ProjectX-snapshot-20261012",
+      "integration_sha256": "f31b03eb2eb058a1c5f6237040f4eb152f3ce10472a9734558081e618498dfa3",
+      "model": "MiniMax-M3.1-Flash-Preview",
+      "status": "failed",
+      "engineering_selected": null,
+      "drawing_assertions": null,
+      "artifacts": null,
+      "grader": "historical strict evaluation; see retained grade artifact",
+      "elapsed_seconds": null,
+      "full_round": false
+    },
+    {
+      "label": "Project X / focused Vision probe",
+      "receipt": "examples/project-x/2026-10-12-vision-preview/results.json",
+      "case_id": "catalog-1-page-039",
+      "snapshot": "ProjectX-snapshot-20261012",
+      "integration_sha256": "f31b03eb2eb058a1c5f6237040f4eb152f3ce10472a9734558081e618498dfa3",
+      "model": "MiniMax-M3.1-Flash-Preview",
+      "status": "failed",
+      "engineering_selected": null,
+      "drawing_assertions": null,
+      "artifacts": null,
+      "grader": "historical strict evaluation; see retained grade artifact",
+      "elapsed_seconds": null,
+      "full_round": false
     }
   ]
 }

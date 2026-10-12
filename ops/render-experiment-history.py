@@ -15,6 +15,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 BASE = "https://github.com/megamen32/catalog-extraction-benchmark/blob/main/"
 SOURCES: dict[str, dict] = {}
+PROBES: list[dict] = []
 
 
 def read(relative: str) -> dict:
@@ -195,6 +196,22 @@ def collect() -> list[dict]:
             [parsers, parser_regrade], model=None, complete=True, planned_rounds=1,
             versions=configuration["versions"], backend_version=metrics.get("backend_version"),
             offline_regrade_model_calls=0)
+    focused = "examples/agent-routing/2026-10-12-delivery-v1.4.3/manifest.json"
+    data = read(focused)
+    PROBES.append({"label": "1.4.3 / page26", "receipt": focused,
+                   "case_id": data["case_id"], "program": data["tested_program"],
+                   "model": data["model"], "grader": data["grader_version"],
+                   "engineering": data["engineering_facts"],
+                   "elapsed_seconds": data["native_elapsed_seconds"],
+                   "output": data["output"], "full_round": False})
+    vision = "examples/project-x/2026-10-12-vision-preview/results.json"
+    data = read(vision)
+    for entry in data["entries"]:
+        PROBES.append({"label": "Project X / focused Vision probe", "receipt": vision,
+                       **{key: entry.get(key) for key in ["case_id", "snapshot", "integration_sha256", "model",
+                           "status", "engineering_selected", "drawing_assertions", "artifacts"]},
+                       "grader": "historical strict evaluation; see retained grade artifact",
+                       "elapsed_seconds": entry["native_elapsed_seconds"], "full_round": False})
     return experiments
 
 
@@ -283,9 +300,14 @@ def render(experiments: list[dict]) -> str:
         "4. Исправленное сохранение проверено через настоящий MCP на выходе рабочей оцифровки: таблица, 64 ячейки и текст сохранились после обновления рисунков и финализации. Это проверка конкретного бага, а не подтверждение 96% для новой версии.", "",
         "Сейчас исправленная связка проходит три раунда на замороженных v2/0.3.2. Оцифровка всех каталогов идёт отдельно. Следующий выбор программы будет опираться на эти новые три измерения; ошибки размеров, объединённых ячеек и слишком строгой буквальной проверки исправляются с отдельной версией и отдельным испытанием.", "",
         "## Отдельные пробы, которые не заменяют полный раунд", "",
-        "- [1.4.3, страница 26: 15/15](../examples/agent-routing/2026-10-12-delivery-v1.4.3/manifest.json), 99,455 с. Этот ответ не подменяет неудачную попытку 1.4.2.",
-        "- [Первичная Vision-проба Project X](../examples/project-x/2026-10-12-vision-preview/results.json): по старой строгой оценке страницы 78 MiniMax дал 108/140, GLM — 136/140. По одному ответу нельзя делать вывод о стабильности модели. Позднейшие полные раунды — отдельные свежие попытки.",
-        "- Ранние 98,57% относились к 138/140 буквально прочитанным ячейкам одной страницы 78; это другой показатель, не точность всех каталогов.", "",
+        "Результаты отдельных попыток также сохранены в JSON-сводке; они не входят в среднее полного раунда и не заменяют неудачные ответы старой версии.", "",
+        "| Проба | Страница | Модель | Сохранённая оценка | Время, с |", "|---|---|---|---|---|"]
+    for probe in PROBES:
+        grade = probe.get("engineering") or probe.get("engineering_selected")
+        score = f"{grade['correct']}/{grade['expected']}" if grade else "нет валидного ответа"
+        elapsed = f"{probe['elapsed_seconds']:.3f}" if probe["elapsed_seconds"] is not None else "не записано"
+        lines.append(f"| [{probe['label']}]({BASE}{probe['receipt']}) | {probe['case_id'].rsplit('-', 1)[1]} | {probe['model']} | {score} | {elapsed} |")
+    lines += ["", "Vision-пробы страницы 78 показывают старую строгую оценку: 108/140 и 136/140. Это отдельные ответы, а не первые раунды позднейшего полного испытания. Ранние 98,57% в переписке относились к 138/140 буквально прочитанным ячейкам одной страницы 78; это другой показатель, не точность всех каталогов.", "",
         "## Прямые парсеры: 21 конфигурация на v1", "",
         "315 попыток, 297 сохранённых выходных файлов; без дополнительных вызовов агентских моделей при переоценке. Некоторые парсеры используют собственные OCR/VLM-компоненты. Это первая обработка без агентского проверяющего, на прежнем наборе. Полные версии и определения времени находятся в сводке и [оригинальном манифесте](../examples/parser-outputs/2026-10-12/manifest.json).", "",
         "| Конфигурация | Оценщик 0.2.0 | Оценщик 0.2.2 | Валидных страниц | Время, с |",
@@ -316,7 +338,7 @@ def main() -> None:
              "datasets": {"v1": {"pages": 15, "engineering": 500, "drawing": 0},
                           "v2": {"pages": 17, "engineering": 520, "drawing": 21}},
              "additional_model_or_parser_calls": 0, "source_receipts": SOURCES,
-             "experiments": experiments}
+             "experiments": experiments, "focused_probes": PROBES}
     (ROOT / "docs/EXPERIMENT-HISTORY-RU.md").write_text(document, encoding="utf-8")
     (ROOT / "examples/experiment-history.json").write_text(
         json.dumps(index, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
