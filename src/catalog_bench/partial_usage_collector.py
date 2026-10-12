@@ -9,9 +9,9 @@ from collections import Counter
 import json
 from pathlib import Path
 try:
-    from .usage_collector import usage_records,model_name,summarize,aggregate
+    from .usage_collector import usage_records,model_name,summarize,aggregate,metric,FIELDS
 except ImportError:
-    from usage_collector import usage_records,model_name,summarize,aggregate
+    from usage_collector import usage_records,model_name,summarize,aggregate,metric,FIELDS
 
 PARTIAL_COLLECTOR_VERSION='0.1.0'
 
@@ -43,7 +43,7 @@ def collect_failed_round(root,plan):
                         if type(stamp) not in (int,float) or not start<=stamp<=end or model_name(record.get('model',''))!=model_name(model):continue
                         if any(r['role']==role and r['attempt']==attempt and model_name(r['model'])==model_name(model) and r['started_at']<=stamp<=r['finished_at'] for r in completed):continue
                         identity=(record.get('provider'),record.get('model'),stamp)
-                        if identity not in seen:seen[identity]=record
+                        if identity not in seen or sum(metric([record],path)['reported_records'] for path in FIELDS.values())>sum(metric([seen[identity]],path)['reported_records'] for path in FIELDS.values()):seen[identity]=record
                 response=work/f'agent-{role}-{attempt}/response.json'
                 if response.exists():
                     try:

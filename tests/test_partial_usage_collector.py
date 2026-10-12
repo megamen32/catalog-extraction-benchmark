@@ -31,3 +31,6 @@ def test_ambiguous_replayed_window_and_source_mismatch_stay_unknown(tmp_path):
 
 def test_unrelated_model_or_outside_window_is_not_assigned(tmp_path):
  root,work,h,state,record,plan=make(tmp_path);record.update(model='unrelated',timestamp=300);h.write_text(json.dumps({'messages':[{'channels':{'fast-agent-usage':[{'type':'text','text':json.dumps({'schema':'fast-agent.usage/v2','provider_attempts':[record]})}]}}]}));d=collect_failed_round(root,plan);assert d['calls_with_observed_usage']==0;assert d['known_failed_usage']['metrics']['output_total']['sum'] is None
+
+def test_richer_snapshot_keeps_reported_values_without_double_counting(tmp_path):
+ root,work,h,state,record,plan=make(tmp_path);first=dict(record,completion={});h.write_text(json.dumps({'messages':[{'channels':{'fast-agent-usage':[{'type':'text','text':json.dumps({'schema':'fast-agent.usage/v2','provider_attempts':[first,record]})}]}}]}));d=collect_failed_round(root,plan);assert d['known_failed_usage']['provider_response_records']==1;assert d['known_failed_usage']['metrics']['output_total']['sum']==3
