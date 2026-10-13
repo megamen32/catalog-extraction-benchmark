@@ -1,0 +1,169 @@
+{
+  "partial_collector_version": "0.1.0",
+  "failed_calls": 1,
+  "calls_with_observed_usage": 1,
+  "known_failed_usage": {
+    "provider_response_records": 121,
+    "metrics": {
+      "input_total_reported": {
+        "sum": null,
+        "reported_records": 0,
+        "missing_records": 121
+      },
+      "input_uncached_reported": {
+        "sum": 283338,
+        "reported_records": 121,
+        "missing_records": 0
+      },
+      "input_cache_read": {
+        "sum": 18787955,
+        "reported_records": 121,
+        "missing_records": 0
+      },
+      "input_cache_write": {
+        "sum": null,
+        "reported_records": 0,
+        "missing_records": 121
+      },
+      "output_total": {
+        "sum": 18768,
+        "reported_records": 121,
+        "missing_records": 0
+      },
+      "reasoning_subset": {
+        "sum": 7714,
+        "reported_records": 114,
+        "missing_records": 7
+      },
+      "tool_calls": {
+        "sum": 126,
+        "reported_records": 121,
+        "missing_records": 0
+      },
+      "inference_duration_ms": {
+        "sum": 822532.35,
+        "reported_records": 121,
+        "missing_records": 0
+      }
+    },
+    "input_accounted": {
+      "sum": 19071293,
+      "exact_records": 0,
+      "lower_bound_records": 121,
+      "missing_records": 0
+    }
+  },
+  "coverage_complete": false,
+  "successful_receipt_bound_usage_is_excluded": true,
+  "failed_sdk_attempts_may_omit_usage": true,
+  "declared_model_reasoning_comes_from_frozen_plan_not_usage_confirmation": true,
+  "model_calls_performed": 0,
+  "calls": [
+    {
+      "case_id": "catalog-5-page-035",
+      "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+      "physical_page": 35,
+      "role": "extractor",
+      "attempt": 0,
+      "status": "failed",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "declared_native_runtime": {
+        "program": {
+          "package_version": "1.4.15",
+          "git_revision": null,
+          "dirty": null,
+          "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+          "python_version": "3.12.13",
+          "components": {
+            "agent_logic": {
+              "package_version": "1.4.2",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+              "python_version": "3.12.13"
+            },
+            "catalog_tools": {
+              "package_version": "1.4.8",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+              "python_version": "3.12.13"
+            },
+            "legacy_skills": {
+              "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+              "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+            },
+            "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+            "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+            "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+            "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+          }
+        },
+        "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf"
+      },
+      "source_binding": "frozen_plan_and_failed_call_window_not_successful_receipt",
+      "started_unix": 1791857466.1824338,
+      "finished_window_unix": 1791858378.158434,
+      "coverage_complete": false,
+      "missing_usage_is_unknown_not_zero": true,
+      "native_reported_elapsed_seconds": 900.158,
+      "native_stop_reason": "LlmStopReason.CANCELLED",
+      "canonical_histories_observed": 1,
+      "usage": {
+        "input_accounted": {
+          "sum": 19071293,
+          "exact_records": 0,
+          "lower_bound_records": 121,
+          "missing_records": 0,
+          "definition": "reported prompt total, else sum of known uncached/cache_read/cache_write components; unreported components remain unknown"
+        },
+        "provider_response_records": 121,
+        "metrics": {
+          "input_total_reported": {
+            "sum": null,
+            "reported_records": 0,
+            "missing_records": 121
+          },
+          "input_uncached_reported": {
+            "sum": 283338,
+            "reported_records": 121,
+            "missing_records": 0
+          },
+          "input_cache_read": {
+            "sum": 18787955,
+            "reported_records": 121,
+            "missing_records": 0
+          },
+          "input_cache_write": {
+            "sum": null,
+            "reported_records": 0,
+            "missing_records": 121
+          },
+          "output_total": {
+            "sum": 18768,
+            "reported_records": 121,
+            "missing_records": 0
+          },
+          "reasoning_subset": {
+            "sum": 7714,
+            "reported_records": 114,
+            "missing_records": 7
+          },
+          "tool_calls": {
+            "sum": 126,
+            "reported_records": 121,
+            "missing_records": 0
+          },
+          "inference_duration_ms": {
+            "sum": 822532.35,
+            "reported_records": 121,
+            "missing_records": 0
+          }
+        },
+        "reasoning_tokens_are_subset_of_output_total": true,
+        "cache_read_is_subset_of_reported_prompt_total_when_provider_reports_total": true,
+        "unknown_fields_are_null_not_zero": true
+      }
+    }
+  ]
+}

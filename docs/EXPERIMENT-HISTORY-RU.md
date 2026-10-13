@@ -36,7 +36,7 @@ Project X здесь означает адаптированную Vision-инт
 | [Project X / glm-5.3-flash](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/project-x/2026-10-12-native-vision-v1-full/manifest.json) | 0.3.2 | 411/520 (79.04%) | 456/520 (87.69%) | 313/520 (60.19%) | 75.64% ± 14.06 | 14/17; 17/17; 16/17 | 1990.3; 2874.6; 2460.5 |
 | [Project X / MiniMax-M3.1-Flash-Preview](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/project-x/2026-10-12-native-vision-v1-full/manifest.json) | 0.3.2 | 222/520 (42.69%) | 160/520 (30.77%) | 247/520 (47.50%) | 40.32% ± 8.61 | 4/17; 5/17; 4/17 | 1158.8; 1482.9; 1084.3 |
 | [Project X / PDF без Vision](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/project-x/2026-10-12/manifest.json) | 0.3.0 | 21/520 (4.04%) | 21/520 (4.04%) | 21/520 (4.04%) | 4.04% ± 0.00 | 17/17; 17/17; 17/17 | 36.4; 37.5; 38.5 |
-| [1.4.15 → 1.4.17 / первая выгрузка](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-12-corrected-v032/manifest.json) | 0.3.2 | 492/520 (94.62%) | ожидается | ожидается | нет трёх завершённых раундов | 17/17 | 1987.2 |
+| [1.4.15 → 1.4.17 / первая выгрузка](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-12-corrected-v032/manifest.json) | 0.3.2 | 492/520 (94.62%) | 490/520 (94.23%) | ожидается | нет трёх завершённых раундов | 17/17; 16/17 | 1987.2; 3515.8 |
 
 ## Черновик и принятый результат новой связки
 
@@ -57,7 +57,7 @@ Project X здесь означает адаптированную Vision-инт
 | [Project X / glm-5.3-flash](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/project-x/2026-10-12-native-vision-v1-full/manifest.json) | 0.3.2 | 6/21 (28.57%) | 6/21 (28.57%) | 7/21 (33.33%) | 30.16% ± 2.75 | 14/17; 17/17; 16/17 | 1990.3; 2874.6; 2460.5 |
 | [Project X / MiniMax-M3.1-Flash-Preview](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/project-x/2026-10-12-native-vision-v1-full/manifest.json) | 0.3.2 | 3/21 (14.29%) | 0/21 (0.00%) | 2/21 (9.52%) | 7.94% ± 7.27 | 4/17; 5/17; 4/17 | 1158.8; 1482.9; 1084.3 |
 | [Project X / PDF без Vision](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/project-x/2026-10-12/manifest.json) | 0.3.0 | 0/21 (0.00%) | 0/21 (0.00%) | 0/21 (0.00%) | 0.00% ± 0.00 | 17/17; 17/17; 17/17 | 36.4; 37.5; 38.5 |
-| [1.4.15 → 1.4.17 / первая выгрузка](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-12-corrected-v032/manifest.json) | 0.3.2 | 4/21 (19.05%) | ожидается | ожидается | нет трёх завершённых раундов | 17/17 | 1987.2 |
+| [1.4.15 → 1.4.17 / первая выгрузка](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-12-corrected-v032/manifest.json) | 0.3.2 | 4/21 (19.05%) | 9/21 (42.86%) | ожидается | нет трёх завершённых раундов | 17/17; 16/17 | 1987.2; 3515.8 |
 
 ## Два оценщика одновременно, без повторного вызова моделей
 
@@ -80,6 +80,7 @@ Project X здесь означает адаптированную Vision-инт
 | [Project X / MiniMax-M3.1-Flash-Preview](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/project-x/2026-10-12-native-vision-v1-full/manifest.json) | 2 | 0.3.0: 160/520 (30.77%) / 0/21 (0.00%) | 0.3.2: 160/520 (30.77%) / 0/21 (0.00%) | 0 |
 | [Project X / MiniMax-M3.1-Flash-Preview](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/project-x/2026-10-12-native-vision-v1-full/manifest.json) | 3 | 0.3.0: 239/520 (45.96%) / 2/21 (9.52%) | 0.3.2: 247/520 (47.50%) / 2/21 (9.52%) | 0 |
 | [1.4.15 → 1.4.17 / первая выгрузка](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-12-corrected-v032/manifest.json) | 1 | 0.3.0: 490/520 (94.23%) / 4/21 (19.05%) | 0.3.2: 492/520 (94.62%) / 4/21 (19.05%) | 0 |
+| [1.4.15 → 1.4.17 / первая выгрузка](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-12-corrected-v032/manifest.json) | 2 | 0.3.0: 490/520 (94.23%) / 9/21 (42.86%) | 0.3.2: 490/520 (94.23%) / 9/21 (42.86%) | 0 |
 | [1.4.15 → 1.4.17 / последний черновик](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-12-corrected-v032/manifest.json) | 1 | 0.3.0: 508/520 (97.69%) / 6/21 (28.57%) | 0.3.2: 508/520 (97.69%) / 6/21 (28.57%) | 0 |
 | [1.4.15 → 1.4.17 / принятый результат](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-12-corrected-v032/manifest.json) | 1 | 0.3.0: 15/520 (2.88%) / 0/21 (0.00%) | 0.3.2: 15/520 (2.88%) / 0/21 (0.00%) | 0 |
 
@@ -178,6 +179,7 @@ Vision-пробы страницы 78 показывают старую стро
 
 | Последняя публикация, UTC | Доказательство |
 |---|---|
+| ещё не закоммичен | [examples/agent-routing/2026-10-12-corrected-v032/first-pass-round-2/round.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-12-corrected-v032/first-pass-round-2/round.json) |
 | 2026-10-12T07:19:05+03:00 | [examples/parser-outputs/2026-10-12/manifest.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/parser-outputs/2026-10-12/manifest.json) |
 | 2026-10-12T08:25:09+03:00 | [examples/parser-outputs/2026-10-12/regrade-v0.2.2.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/parser-outputs/2026-10-12/regrade-v0.2.2.json) |
 | 2026-10-12T08:28:57+03:00 | [examples/agent-routing/2026-10-12-v1.4.1/manifest.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-12-v1.4.1/manifest.json) |

@@ -91,6 +91,10 @@
       "sha256": "87e33c82989b291f8dd7b5d438d929218287085bb0bc4de51e811f2f6b06dc5d",
       "last_commit_time": "2026-10-13T04:40:33+03:00"
     },
+    "examples/agent-routing/2026-10-12-corrected-v032/first-pass-round-2/round.json": {
+      "sha256": "8f529fec85d346aac3df5c3132ee0e4665b3f0a2e374dc3dbad7359344d1e84a",
+      "last_commit_time": null
+    },
     "examples/parser-outputs/2026-10-12/manifest.json": {
       "sha256": "0748d06ed14efe5c88e2335b7d7e1e0ae4ec0869e50e6b35d47076e6d38ba0ce",
       "last_commit_time": "2026-10-12T07:19:05+03:00"
@@ -1713,11 +1717,39 @@
             "first_pass_worker_span_seconds": 1968.427,
             "first_pass_completed_native_seconds_sum": 1844.425
           }
+        },
+        {
+          "round": 2,
+          "evaluations": {
+            "0.3.0": {
+              "engineering_correct": 490,
+              "engineering_expected": 520,
+              "drawing_correct": 9,
+              "drawing_expected": 21
+            },
+            "0.3.2": {
+              "engineering_correct": 490,
+              "engineering_expected": 520,
+              "drawing_correct": 9,
+              "drawing_expected": 21
+            }
+          },
+          "valid_pages": 16,
+          "expected_pages": 17,
+          "elapsed_seconds": 3515.81,
+          "elapsed_definition": "round wall at snapshot/closure; includes concurrent review and admission",
+          "timing_details": {
+            "active_budget_seconds": 3515.81,
+            "quota_hold_seconds": 0,
+            "first_pass_worker_span_seconds": 3513.465,
+            "first_pass_completed_native_seconds_sum": 2475.117
+          }
         }
       ],
       "receipts": [
         "examples/agent-routing/2026-10-12-corrected-v032/manifest.json",
-        "examples/agent-routing/2026-10-12-corrected-v032/first-pass-round-1/round.json"
+        "examples/agent-routing/2026-10-12-corrected-v032/first-pass-round-1/round.json",
+        "examples/agent-routing/2026-10-12-corrected-v032/first-pass-round-2/round.json"
       ],
       "model": "MiniMax-M3.1-Flash-Preview → glm-5.3-flash Coding Endpoint",
       "protocol": {
