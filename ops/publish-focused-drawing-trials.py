@@ -79,10 +79,12 @@ def collect(state_path,output):
 def main():
     a=argparse.ArgumentParser();a.add_argument('--state',type=Path,required=True);a.add_argument('--output',type=Path,default=ROOT/'examples/agent-routing/2026-10-13-drawing-v126');a.add_argument('--watch-seconds',type=float,default=0);args=a.parse_args();output=args.output.resolve();assert output.is_relative_to(ROOT);deadline=time.monotonic()+min(100800,max(0,args.watch_seconds));previous=None
     while True:
-        digest=sha(args.state)
+        digest=sha(args.state)+''.join(sha(p) for p in sorted(args.state.parent.glob('round-*/page-*/external-audit.json')))
         if digest!=previous:
             result=collect(args.state,output);previous=digest;print(json.dumps({'snapshot_rounds':len(result['rounds']),'completed_native_calls':sum(len(p['calls']) for r in result['rounds'] for p in r['pages']),'native_complete':result['native_state_complete'],'model_calls':0}),flush=True)
-            if result['native_state_complete']:break
+            # Source audits can arrive after native acceptance; keep the finite
+            # observer alive to capture those changes without any model call.
+            if result['native_state_complete'] and args.watch_seconds<=0:break
         if time.monotonic()>=deadline:break
         time.sleep(min(15,max(0,deadline-time.monotonic())))
 
