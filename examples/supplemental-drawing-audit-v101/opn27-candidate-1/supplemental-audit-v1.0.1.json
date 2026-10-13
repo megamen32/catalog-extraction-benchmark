@@ -1,0 +1,126 @@
+{
+  "supplemental_audit_version": "1.0.1",
+  "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+  "physical_page": 27,
+  "source_binding": "bare content; exact source/page require external native producer",
+  "fixture_sha256": "54a30024079fdc1f72b1ca7d0a252ca59a4db05e405d9e507e5b094088e4a675",
+  "candidate_sha256": "587f77be6b856cb74fdf34428160e7fcade031517e36e9c500921b33c5d2e019",
+  "algorithm_sha256": "156156b8acbe6ff0ccd16baadc30f4fa46025b7fdc39f9c888006953fa74f80d",
+  "checks": [
+    {
+      "id": "1.2-III-45",
+      "expected": "between centres of the first two holes in view A",
+      "status": "missing",
+      "evidence": [],
+      "contradictions": []
+    },
+    {
+      "id": "1.2-III-67.5",
+      "expected": "between the second hole centre and body central axis in view A",
+      "status": "missing",
+      "evidence": [],
+      "contradictions": []
+    },
+    {
+      "id": "1.2-III-135",
+      "expected": "between left plate edge and body central axis, not full plate length in view A",
+      "status": "missing",
+      "evidence": [],
+      "contradictions": []
+    },
+    {
+      "id": "1.2-IV-45",
+      "expected": "between centres of the first two holes in view A",
+      "status": "missing",
+      "evidence": [],
+      "contradictions": []
+    },
+    {
+      "id": "1.2-IV-67.5",
+      "expected": "between the second hole centre and body central axis in view A",
+      "status": "missing",
+      "evidence": [],
+      "contradictions": []
+    },
+    {
+      "id": "1.2-IV-135",
+      "expected": "between left plate edge and body central axis, not full plate length in view A",
+      "status": "missing",
+      "evidence": [],
+      "contradictions": []
+    },
+    {
+      "id": "1.6-III-45",
+      "expected": "between centres of the first two holes in view A",
+      "status": "missing",
+      "evidence": [],
+      "contradictions": []
+    },
+    {
+      "id": "1.6-III-67.5",
+      "expected": "between the second hole centre and body central axis in view A",
+      "status": "missing",
+      "evidence": [],
+      "contradictions": []
+    },
+    {
+      "id": "1.6-III-135",
+      "expected": "between left plate edge and body central axis, not full plate length in view A",
+      "status": "missing",
+      "evidence": [],
+      "contradictions": []
+    },
+    {
+      "id": "1.6-IV-45",
+      "expected": "between centres of the first two holes in view A",
+      "status": "missing",
+      "evidence": [],
+      "contradictions": []
+    },
+    {
+      "id": "1.6-IV-67.5",
+      "expected": "between the second hole centre and body central axis in view A",
+      "status": "missing",
+      "evidence": [],
+      "contradictions": []
+    },
+    {
+      "id": "1.6-IV-135",
+      "expected": "between left plate edge and body central axis, not full plate length in view A",
+      "status": "missing",
+      "evidence": [],
+      "contradictions": []
+    },
+    {
+      "id": "lower-creepage-no-minimum",
+      "expected": "Lower-table creepage length, cm has no minimum condition; neighbouring thermal energy does have that condition",
+      "status": "passed",
+      "evidence": [
+        {
+          "table_index": 1,
+          "column_id": "d14",
+          "own_label": "Длина пути утечки тока",
+          "own_group": null,
+          "own_qualifier": null,
+          "unit": "см"
+        }
+      ],
+      "recognized_unprinted_bound_fields": [],
+      "unknown_condition_fields": []
+    }
+  ],
+  "passed": 1,
+  "wrong": 0,
+  "missing": 12,
+  "expected_checks": 13,
+  "new_overall_benchmark_percent": false,
+  "original_primary_scores_unchanged": true,
+  "full_page_accuracy": false,
+  "method": "Immutable supplemental1.0.0 endpoint checks; own-column condition1.0.1 supports empty or explicit absent conditions and selected bound phrases. Unknown own conditions are missing; no model calls.",
+  "base_supplemental_source_sha256": "23f14700ff03e08f0090b8509ca418f30bf1de09a68926a903948a2517c6092d",
+  "base_supplemental_v1_counts": {
+    "passed": 1,
+    "wrong": 0,
+    "missing": 12
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "supplemental_audit_version": "1.0.1",
+  "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+  "physical_page": 27,
+  "fixture_file": "fixtures/supplemental/opn27-drawing-v1.json",
+  "fixture_sha256": "54a30024079fdc1f72b1ca7d0a252ca59a4db05e405d9e507e5b094088e4a675",
+  "algorithm_sha256": "156156b8acbe6ff0ccd16baadc30f4fa46025b7fdc39f9c888006953fa74f80d",
+  "base_source_sha256": "23f14700ff03e08f0090b8509ca418f30bf1de09a68926a903948a2517c6092d",
+  "expected_checks": 13,
+  "separate_from_primary_520_plus_21": true,
+  "new_overall_benchmark_percent": false,
+  "model_calls": 0,
+  "unchanged_original_json_and_scores": true,
+  "candidates": [
+    {
+      "candidate_file": "examples/supplemental-drawing-audit-v1/opn27-candidate-1/candidate.json",
+      "candidate_sha256": "587f77be6b856cb74fdf34428160e7fcade031517e36e9c500921b33c5d2e019",
+      "sidecar_file": "examples/supplemental-drawing-audit-v101/opn27-candidate-1/supplemental-audit-v1.0.1.json",
+      "sidecar_sha256": "9319706475dac7b9025a9b9b4bc78019f94cfef7a7d32d716c468bd91e9cf50a",
+      "old_v1_counts": {
+        "passed": 1,
+        "wrong": 0,
+        "missing": 12
+      },
+      "new_counts": {
+        "passed": 1,
+        "wrong": 0,
+        "missing": 12
+      }
+    },
+    {
+      "candidate_file": "examples/supplemental-drawing-audit-v1/opn27-candidate-2/candidate.json",
+      "candidate_sha256": "3e280c8bcc23411736c586117dc10a6e62edaf917905de8e6d0d9084043c3cd9",
+      "sidecar_file": "examples/supplemental-drawing-audit-v101/opn27-candidate-2/supplemental-audit-v1.0.1.json",
+      "sidecar_sha256": "9dc7e30353b2f69c1181334d536064c62d1f72c53e3afd29c48f8e2bf3f8e544",
+      "old_v1_counts": {
+        "passed": 1,
+        "wrong": 12,
+        "missing": 0
+      },
+      "new_counts": {
+        "passed": 1,
+        "wrong": 12,
+        "missing": 0
+      }
+    }
+  ],
+  "regression_proof": {
+    "category": "fast unit",
+    "six_pre_fix_failures": true,
+    "expected_seconds": 2,
+    "maximum_seconds": 15,
+    "targeted_cases": 44,
+    "passed": true
+  }
+}
