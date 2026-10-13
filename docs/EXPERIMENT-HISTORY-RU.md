@@ -189,7 +189,6 @@ Vision-пробы страницы 78 показывают старую стро
 
 | Последняя публикация, UTC | Доказательство |
 |---|---|
-| ещё не закоммичен | [examples/agent-routing/2026-10-12-corrected-v032/round-2/round.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-12-corrected-v032/round-2/round.json) |
 | 2026-10-12T07:19:05+03:00 | [examples/parser-outputs/2026-10-12/manifest.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/parser-outputs/2026-10-12/manifest.json) |
 | 2026-10-12T08:25:09+03:00 | [examples/parser-outputs/2026-10-12/regrade-v0.2.2.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/parser-outputs/2026-10-12/regrade-v0.2.2.json) |
 | 2026-10-12T08:28:57+03:00 | [examples/agent-routing/2026-10-12-v1.4.1/manifest.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-12-v1.4.1/manifest.json) |
@@ -218,5 +217,6 @@ Vision-пробы страницы 78 показывают старую стро
 | 2026-10-13T05:30:31+03:00 | [examples/agent-routing/2026-10-12-corrected-v032/first-pass-round-2/round.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-12-corrected-v032/first-pass-round-2/round.json) |
 | 2026-10-13T05:52:52+03:00 | [examples/supplemental-drawing-audit-v1/manifest.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/supplemental-drawing-audit-v1/manifest.json) |
 | 2026-10-13T06:06:02+03:00 | [examples/agent-routing/2026-10-13-drawing-v126/manifest.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-13-drawing-v126/manifest.json) |
+| 2026-10-13T09:19:05+03:00 | [examples/agent-routing/2026-10-12-corrected-v032/round-2/round.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-12-corrected-v032/round-2/round.json) |
 
 Воспроизвести индекс: `python3 ops/render-experiment-history.py`. Команда только читает опубликованные результаты и создаёт эту страницу и JSON-сводку; парсеры и модели не запускаются.
