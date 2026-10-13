@@ -1,0 +1,263 @@
+{
+  "schema_version": "1.0",
+  "collector_version": "0.1.0",
+  "scope": "three sequential focused drawing repair trials,2pages, retained candidate/review feedback; not fresh full benchmark",
+  "profile": "1.4.26 focused drawing repairs",
+  "is_fresh_17_page_benchmark": false,
+  "not_comparable_to_17_page_cohort_mean": true,
+  "program": {
+    "package_version": "1.4.26",
+    "git_revision": null,
+    "dirty": null,
+    "source_code_sha256": "624fb1c0512d5a89e8a15b91dddfaa45fdca22524e84a81d66e28d86ee357a95",
+    "python_version": "3.12.13"
+  },
+  "models": {
+    "extractor": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+    "reviewer": "zai.glm-5.3-flash?reasoning=low"
+  },
+  "graders": {
+    "0.3.2": "f091872c67af7e410490df6b590cb8ac03a05eb6e615351ed281c4ae1687e21d",
+    "0.3.3": "6df48353cac09b55dee5d3157e6dd93517a214ad4e2cdd9d259a76fd88550d80"
+  },
+  "state_sha256": "9546b3976c0cf74bf3af9d6f53653116b8e234eef3a54c32dcd325083f2a2322",
+  "native_state_complete": false,
+  "rounds": [
+    {
+      "round": 1,
+      "status": "active",
+      "started_at": 1791855408.2590222,
+      "finished_at": null,
+      "wall_seconds": 731.9300787448883,
+      "pages": [
+        {
+          "case_id": "catalog-1-page-027",
+          "physical_page": 27,
+          "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+          "baseline_candidate_sha256": "0d0d78831dc3fd2b4070436597a6c93ad6b63269451a9be220a3f6d67c514df7",
+          "status": "extractor",
+          "latest_attempt": 2,
+          "calls": [
+            {
+              "role": "extractor",
+              "attempt": 1,
+              "producer": {
+                "status": "receipt_verified",
+                "program": {
+                  "package_version": "1.4.26",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "624fb1c0512d5a89e8a15b91dddfaa45fdca22524e84a81d66e28d86ee357a95",
+                  "python_version": "3.12.13"
+                },
+                "artifact_sha256": "587f77be6b856cb74fdf34428160e7fcade031517e36e9c500921b33c5d2e019",
+                "source_bound_save": true,
+                "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+                "physical_page": 27,
+                "attempt": 1,
+                "role": "extractor",
+                "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+                "contract_sha256": "bd213a42bd97c2d3e7c1e1ee6e5e792d6f4ca427c54b1b8ca3524b6d6b008713",
+                "started_at": 1791855410.2847536,
+                "finished_at": 1791855610.9611373
+              },
+              "artifact": "examples/agent-routing/2026-10-13-drawing-v126/round-1/catalog-1-page-027/candidate-1.json",
+              "artifact_sha256": "587f77be6b856cb74fdf34428160e7fcade031517e36e9c500921b33c5d2e019",
+              "receipt_sha256": "f371a8bc0d471a7675a7571543626c089f8240a6f8e68aff8e8b16170e74d279",
+              "receipt_native_seconds": 200.676,
+              "worker_elapsed_seconds": 204.9528431892395,
+              "tool_usage": {
+                "coverage": "receipt_window_bound_log",
+                "count": 23,
+                "by_tool": {
+                  "load_skill": 1,
+                  "read_page_json": 1,
+                  "view_page": 1,
+                  "read_source_table": 2,
+                  "source_artifact_created": 2,
+                  "read_source_artifact": 5,
+                  "view_region": 3,
+                  "read_source_layout": 2,
+                  "save_section": 4,
+                  "extract_direct": 1,
+                  "save_page_json": 1
+                },
+                "geometry_calls": 0,
+                "unparsed_lines": 0,
+                "raw_transcripts_not_published": true
+              },
+              "scores": {
+                "0.3.2": {
+                  "engineering_correct": 10,
+                  "engineering_expected": 10,
+                  "drawing_correct": 1,
+                  "drawing_expected": 13,
+                  "score_file": "examples/agent-routing/2026-10-13-drawing-v126/round-1/catalog-1-page-027/score-v0.3.2-candidate-1.json",
+                  "grader_sha256": "f091872c67af7e410490df6b590cb8ac03a05eb6e615351ed281c4ae1687e21d"
+                },
+                "0.3.3": {
+                  "engineering_correct": 10,
+                  "engineering_expected": 10,
+                  "drawing_correct": 1,
+                  "drawing_expected": 13,
+                  "score_file": "examples/agent-routing/2026-10-13-drawing-v126/round-1/catalog-1-page-027/score-v0.3.3-candidate-1.json",
+                  "grader_sha256": "6df48353cac09b55dee5d3157e6dd93517a214ad4e2cdd9d259a76fd88550d80"
+                }
+              },
+              "tables_unchanged_from_seed": true,
+              "independent_source_audit": {
+                "status": "rejected",
+                "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+                "candidate_sha256": "587f77be6b856cb74fdf34428160e7fcade031517e36e9c500921b33c5d2e019",
+                "audit_observed_at": 1791855879.7610993,
+                "source_audit_scope": "Two independent original-image inspections; semantic drawing leads, not prepared replacement values or benchmark fixtures",
+                "audit_findings_count": 2,
+                "model_acceptance_is_not_independent_source_acceptance": true
+              }
+            },
+            {
+              "role": "reviewer",
+              "attempt": 1,
+              "producer": {
+                "status": "receipt_verified",
+                "program": {
+                  "package_version": "1.4.26",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "624fb1c0512d5a89e8a15b91dddfaa45fdca22524e84a81d66e28d86ee357a95",
+                  "python_version": "3.12.13"
+                },
+                "artifact_sha256": "c580c9a1a787ffad2d2d56ab19fa58e645db02addf86c7fe57d4acf472846844",
+                "source_bound_save": true,
+                "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+                "physical_page": 27,
+                "attempt": 1,
+                "role": "reviewer",
+                "model": "zai.glm-5.3-flash?reasoning=low",
+                "contract_sha256": "bd213a42bd97c2d3e7c1e1ee6e5e792d6f4ca427c54b1b8ca3524b6d6b008713",
+                "started_at": 1791855617.0641243,
+                "finished_at": 1791856011.8907158
+              },
+              "artifact": "examples/agent-routing/2026-10-13-drawing-v126/round-1/catalog-1-page-027/review-1.json",
+              "artifact_sha256": "c580c9a1a787ffad2d2d56ab19fa58e645db02addf86c7fe57d4acf472846844",
+              "receipt_sha256": "bad524bbe24aa35dfcd62458e9bff0d5203903b6a8aa33b7e15de3c8bf470071",
+              "receipt_native_seconds": 394.827,
+              "worker_elapsed_seconds": 400.9513883590698,
+              "tool_usage": {
+                "coverage": "receipt_window_bound_log",
+                "count": 21,
+                "by_tool": {
+                  "load_skill": 1,
+                  "view_page": 1,
+                  "read_source_layout": 9,
+                  "view_region": 4,
+                  "save_source_observation": 1,
+                  "read_page_json": 2,
+                  "correct_source_observation": 1,
+                  "read_external_audit": 1,
+                  "save_review": 1
+                },
+                "geometry_calls": 0,
+                "unparsed_lines": 0,
+                "raw_transcripts_not_published": true
+              },
+              "model_review_verdict": "revise"
+            }
+          ],
+          "failed_error_type": null,
+          "independent_source_acceptance": "pending unless matching independent proof; never inherited from model review"
+        },
+        {
+          "case_id": "catalog-1-page-039",
+          "physical_page": 39,
+          "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+          "baseline_candidate_sha256": "33f827d12b237e7795d2bf53d0ea44ebf6f3cfa56dd718c76ed24cf9b14dee4e",
+          "status": "reviewer",
+          "latest_attempt": 1,
+          "calls": [
+            {
+              "role": "extractor",
+              "attempt": 1,
+              "producer": {
+                "status": "receipt_verified",
+                "program": {
+                  "package_version": "1.4.26",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "624fb1c0512d5a89e8a15b91dddfaa45fdca22524e84a81d66e28d86ee357a95",
+                  "python_version": "3.12.13"
+                },
+                "artifact_sha256": "a31dfcff463a0e3e5ef74a58bac1d80e827bc3f6114efb3da23d118813e81daf",
+                "source_bound_save": true,
+                "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+                "physical_page": 39,
+                "attempt": 1,
+                "role": "extractor",
+                "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+                "contract_sha256": "bd213a42bd97c2d3e7c1e1ee6e5e792d6f4ca427c54b1b8ca3524b6d6b008713",
+                "started_at": 1791855617.064039,
+                "finished_at": 1791855683.0041778
+              },
+              "artifact": "examples/agent-routing/2026-10-13-drawing-v126/round-1/catalog-1-page-039/candidate-1.json",
+              "artifact_sha256": "a31dfcff463a0e3e5ef74a58bac1d80e827bc3f6114efb3da23d118813e81daf",
+              "receipt_sha256": "d9da74f6c93375271f46c1406bd30d42402ee1ee3a9e0458a3308b771e63e727",
+              "receipt_native_seconds": 65.94,
+              "worker_elapsed_seconds": 72.72529101371765,
+              "tool_usage": {
+                "coverage": "receipt_window_bound_log",
+                "count": 13,
+                "by_tool": {
+                  "load_skill": 1,
+                  "read_page_json": 1,
+                  "view_page": 1,
+                  "extract_direct": 1,
+                  "read_source_table": 2,
+                  "read_source_layout": 3,
+                  "view_region": 3,
+                  "save_page_json": 1
+                },
+                "geometry_calls": 0,
+                "unparsed_lines": 0,
+                "raw_transcripts_not_published": true
+              },
+              "scores": {
+                "0.3.2": {
+                  "engineering_correct": 10,
+                  "engineering_expected": 10,
+                  "drawing_correct": 4,
+                  "drawing_expected": 8,
+                  "score_file": "examples/agent-routing/2026-10-13-drawing-v126/round-1/catalog-1-page-039/score-v0.3.2-candidate-1.json",
+                  "grader_sha256": "f091872c67af7e410490df6b590cb8ac03a05eb6e615351ed281c4ae1687e21d"
+                },
+                "0.3.3": {
+                  "engineering_correct": 10,
+                  "engineering_expected": 10,
+                  "drawing_correct": 5,
+                  "drawing_expected": 8,
+                  "score_file": "examples/agent-routing/2026-10-13-drawing-v126/round-1/catalog-1-page-039/score-v0.3.3-candidate-1.json",
+                  "grader_sha256": "6df48353cac09b55dee5d3157e6dd93517a214ad4e2cdd9d259a76fd88550d80"
+                }
+              },
+              "tables_unchanged_from_seed": true,
+              "independent_source_audit": {
+                "status": "rejected",
+                "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+                "candidate_sha256": "a31dfcff463a0e3e5ef74a58bac1d80e827bc3f6114efb3da23d118813e81daf",
+                "audit_observed_at": 1791855879.7881844,
+                "source_audit_scope": "Two independent original-image inspections; semantic drawing leads, not prepared replacement values or benchmark fixtures",
+                "audit_findings_count": 2,
+                "model_acceptance_is_not_independent_source_acceptance": true
+              }
+            }
+          ],
+          "failed_error_type": null,
+          "independent_source_acceptance": "pending unless matching independent proof; never inherited from model review"
+        }
+      ]
+    }
+  ],
+  "model_calls_by_collector": 0,
+  "original_candidates_reviews_and_receipts_unchanged": true,
+  "full_page_accuracy": false,
+  "snapshot_unix": 1791856140.1903214
+}
