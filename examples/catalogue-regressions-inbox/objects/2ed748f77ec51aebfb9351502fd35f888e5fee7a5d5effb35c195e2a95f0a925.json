@@ -1,0 +1,31 @@
+{
+  "program_version": "1.5.1",
+  "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+  "physical_page": 4,
+  "status": "failed",
+  "accepted": false,
+  "extractor": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+  "reviewer_started": false,
+  "source_code_sha256": "1d701bd78e0173a8be9d7d6c5b49398e488af862bf60d8e05d4c180c0e56f789",
+  "tool_counts": {
+    "load_skill": 1,
+    "view_page": 1,
+    "extract_direct": 1,
+    "read_source_table": 1,
+    "view_region": 54,
+    "read_source_layout": 1,
+    "repeat_region": 9
+  },
+  "usage_sum_of_completed_responses": {
+    "completed_provider_responses": 56,
+    "prompt_cache_read": 3087232,
+    "prompt_uncached": 124761,
+    "completion_total": 7703,
+    "completion_reasoning": 3074
+  },
+  "usage_limit": "Token totals cover recorded completed responses only; an interrupted provider response may be unreported. Prompt total includes cached tokens. No accuracy claim.",
+  "started_at": "2026-10-13T23:47:49.993209Z",
+  "last_recorded_at": "2026-10-13T23:57:45.120955Z",
+  "failure": "Before detailed cell OCR, extractor classified generated sample report as independent real specification; repeated crops exhausted the600s role deadline without a saved candidate.",
+  "review_basis": "Original manually rendered and inspected; surrounding feature text and report-introduction caption establish software example, not independent real project."
+}

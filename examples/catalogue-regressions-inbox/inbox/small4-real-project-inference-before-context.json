@@ -1,0 +1,25 @@
+{
+  "id": "small4-real-project-inference-before-context",
+  "status": "pending_adjudication",
+  "priority": "high",
+  "category": "catalogue_meaning",
+  "title": "A generated sample report is not an independent real project merely because it has a specification layout",
+  "source": {
+    "filename": "Malyj-katalog.pdf",
+    "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_page": 4
+  },
+  "review_basis": "Original manually rendered and inspected2026-10-14. Source explanation introduces generated software reports. Native1.5.1 failed after600.581s with no candidate; exact native transcripts retained privately, only diagnostic counts/token sums published.",
+  "artifacts": [
+    {
+      "path": "objects/2ed748f77ec51aebfb9351502fd35f888e5fee7a5d5effb35c195e2a95f0a925.json",
+      "sha256": "2ed748f77ec51aebfb9351502fd35f888e5fee7a5d5effb35c195e2a95f0a925",
+      "bytes": 1440,
+      "role": "root_diagnostic_from_retained_native_history",
+      "program_version": "1.5.1",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium"
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "Read contextual explanation/captions before choosing literal cell extraction. Product codes, quantities and a title block in a generated software example do not prove real independent project data. Avoid54 crops of example rows; no completed result means no PASS."
+}
