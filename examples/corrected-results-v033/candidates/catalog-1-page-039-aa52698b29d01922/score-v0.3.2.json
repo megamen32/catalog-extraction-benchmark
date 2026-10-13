@@ -1,0 +1,615 @@
+{
+  "schema_version": "1.0",
+  "case_id": "catalog-1-page-039",
+  "metrics": {
+    "cells_literal": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "cells_numeric_equivalent": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "blank_cells": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "merged_cells": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "header_assertions": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "figure_labels": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "forbidden_label_absence": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    }
+  },
+  "structure": {
+    "expected_tables": 0,
+    "observed_tables": 1,
+    "extra_tables": null,
+    "tables": [],
+    "table_shape_scored": false
+  },
+  "drawing_assertions": {
+    "correct": 4,
+    "expected": 8,
+    "percent": 50.0,
+    "checks": [
+      {
+        "id": "material-source-absence",
+        "expected": "The page does not print porcelain/ceramic material; visible ribs alone do not establish it.",
+        "category": "unsupported_material_reference",
+        "status": "passed",
+        "evidence": [],
+        "contradictions": []
+      },
+      {
+        "id": "unprinted-section-absence",
+        "expected": "Only А and Б are printed, no Б-Б cutting plane.",
+        "category": "unsupported_claim",
+        "status": "passed",
+        "evidence": [],
+        "contradictions": []
+      },
+      {
+        "id": "outer140",
+        "expected": "ViewБ φ140 is the outer solid contour.",
+        "category": "dimension_owner",
+        "status": "passed",
+        "evidence": [
+          {
+            "figure_index": 0,
+            "text": "ава внизу — вид Б: круглая плита с внешним контуром ø140, штрихпунктирной окружностью ø116 с четырьмя отверстиями ø11 по вертикальной и горизонтальной осям, обозначение «ø11 4 отв.», одним дополнительным малым отверстием между ø116 и внешним контуром (слева сверху, под 45°), а также отверстием и изображением граненой (шестигранной) гайки внутри центральной втулки по горизонтальной оси. ",
+            "pattern": "(?P<claim>наружн\\w*|внешн\\w*)[^.;\\d]{0,90}(?<![\\d.,φ])φ?\\s*140(?!\\d)(?![.,]\\d)"
+          }
+        ],
+        "contradictions": []
+      },
+      {
+        "id": "pitch116",
+        "expected": "ViewБ φ116 is the dashed hole pitch circle.",
+        "category": "dimension_owner",
+        "status": "wrong",
+        "evidence": [
+          {
+            "figure_index": 0,
+            "text": "ава внизу — вид Б: круглая плита с внешним контуром ø140, штрихпунктирной окружностью ø116 с четырьмя отверстиями ø11 по вертикальной и горизонтальной осям, обозначение «ø11 4 отв.», одним дополнительным малым отверстием между ø116 и внешним контуром (слева сверху, под 45°), а также отверстием и изображением граненой (шестигранной) гайки внутри центральной втулки по горизонтальной оси. ",
+            "pattern": "(?P<claim>пунктир\\w*|штрих\\w*|окружност\\w*\\s+(?:расположени\\w*|центров|отверсти\\w*))[^.;\\d]{0,90}(?<![\\d.,φ])φ?\\s*116(?!\\d)(?![.,]\\d)"
+          }
+        ],
+        "contradictions": [
+          {
+            "figure_index": 0,
+            "text": "ава внизу — вид Б: круглая плита с внешним контуром ø140, штрихпунктирной окружностью ø116 с четырьмя отверстиями ø11 по вертикальной и горизонтальной осям, обозначение «ø11 4 отв.», одним дополнительным малым отверстием между ø116 и внешним контуром (слева сверху, под 45°), а также отверстием и изображением граненой (шестигранной) гайки внутри центральной втулки по горизонтальной оси. ",
+            "pattern": "(?<![\\d.,φ])φ?\\s*116(?!\\d)(?![.,]\\d)[^.;\\d]{0,90}(?P<claim>наружн\\w*|внешн\\w*)"
+          }
+        ]
+      },
+      {
+        "id": "ring500",
+        "expected": "φ500 marks a rounded/ring profile, not an identified support flat bar.",
+        "category": "shape_and_unsupported_function",
+        "status": "missing",
+        "evidence": [],
+        "contradictions": []
+      },
+      {
+        "id": "rib-function-absence",
+        "expected": "Visible ribs are not identified as electrode coatings.",
+        "category": "unsupported_claim",
+        "status": "passed",
+        "evidence": [],
+        "contradictions": []
+      },
+      {
+        "id": "dimension50-faces",
+        "expected": "ViewА dimension50 spans upper/lower plate faces; hole centers share a horizontal axis.",
+        "category": "dimension_endpoint",
+        "status": "missing",
+        "evidence": [],
+        "contradictions": []
+      },
+      {
+        "id": "dimension274-loweredge",
+        "expected": "274 spans the common upper dimension plane to the LOWER edge of roundedφ500 profile.",
+        "category": "dimension_endpoint",
+        "status": "missing",
+        "evidence": [],
+        "contradictions": []
+      }
+    ],
+    "full_drawing_accuracy": false,
+    "method": "frozen scoped deterministic relation/claim assertions; unsupported wording is missing, never inferred"
+  },
+  "all_verified_checks_passed": false,
+  "coverage": {
+    "full_page_ground_truth": false,
+    "text_blocks_scored": false,
+    "diagram_relationships_scored": true,
+    "selected_drawing_assertions": 8,
+    "full_drawing_ground_truth": false,
+    "header_assertions": 0,
+    "figure_label_assertions": 0,
+    "forbidden_declared_label_assertions": 0,
+    "all_invented_labels_scored": false
+  },
+  "differences": [],
+  "engineering_facts": {
+    "correct": 10,
+    "expected": 10,
+    "percent": 100.0,
+    "statuses": {
+      "passed": 10
+    },
+    "checks": [
+      {
+        "id": "selected-01",
+        "expected": {
+          "location": "top table",
+          "entity": "ОПН-П-150/110/10/1,6-III УХЛ1",
+          "parameter": "наибольшее длительно допустимое рабочее напряжение",
+          "value": "110,0",
+          "unit": "кВ"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t1",
+            "row_index": 0,
+            "column_index": 1,
+            "column": {
+              "id": "c2",
+              "label": "Наибольшее длительно допустимое рабочее напряжение ограничителя",
+              "unit": "кВ",
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c2",
+              "value": "110,0",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОПН-П-150/110/10/1,6-III УХЛ1"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": false
+        }
+      },
+      {
+        "id": "selected-02",
+        "expected": {
+          "location": "top table",
+          "entity": "ОПН-П-150/110/10/1,6-III УХЛ1",
+          "parameter": "номинальное напряжение, не менее",
+          "value": "138,0",
+          "unit": "кВ"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t1",
+            "row_index": 0,
+            "column_index": 2,
+            "column": {
+              "id": "c3",
+              "label": "Номинальное напряжение ограничителя, кВ, не менее",
+              "unit": "кВ",
+              "group": null,
+              "qualifier": "не менее"
+            },
+            "cell": {
+              "column_id": "c3",
+              "value": "138,0",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОПН-П-150/110/10/1,6-III УХЛ1"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": true
+        }
+      },
+      {
+        "id": "selected-03",
+        "expected": {
+          "location": "top table",
+          "entity": "ОПН-П-150/110/10/1,6-III УХЛ1",
+          "parameter": "остающееся при 5 кА 8/20",
+          "value": "322,0",
+          "unit": "кВ"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t1",
+            "row_index": 0,
+            "column_index": 3,
+            "column": {
+              "id": "c4",
+              "label": "5 кА",
+              "unit": "кВ",
+              "group": "Остающееся напряжение (кВ), при грозовых импульсах тока длит. 8/20 величиной:",
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c4",
+              "value": "322,0",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОПН-П-150/110/10/1,6-III УХЛ1"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": true
+        }
+      },
+      {
+        "id": "selected-04",
+        "expected": {
+          "location": "top table",
+          "entity": "ОПН-П-150/110/10/1,6-III УХЛ1",
+          "parameter": "остающееся при 250 А 30/60",
+          "value": "260,0",
+          "unit": "кВ"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t1",
+            "row_index": 0,
+            "column_index": 6,
+            "column": {
+              "id": "c7",
+              "label": "250 А",
+              "unit": "кВ",
+              "group": "Остающееся напряжение (кВ), при следующих значениях коммутационных токов длительностью 30/60 мкс:",
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c7",
+              "value": "260,0",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОПН-П-150/110/10/1,6-III УХЛ1"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": true
+        }
+      },
+      {
+        "id": "selected-05",
+        "expected": {
+          "location": "top table",
+          "entity": "ОПН-П-150/110/10/1,6-III УХЛ1",
+          "parameter": "тепловая энергия, не менее",
+          "value": "7,0",
+          "unit": "кДж/кВ"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t1",
+            "row_index": 0,
+            "column_index": 13,
+            "column": {
+              "id": "c14",
+              "label": "Тепловая энергия, кДж/кВ, не менее",
+              "unit": "кДж/кВ",
+              "group": null,
+              "qualifier": "не менее"
+            },
+            "cell": {
+              "column_id": "c14",
+              "value": "7,0",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОПН-П-150/110/10/1,6-III УХЛ1"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": true
+        }
+      },
+      {
+        "id": "selected-06",
+        "expected": {
+          "location": "top table",
+          "entity": "ОПН-П-150/120/10/1,6-III УХЛ1",
+          "parameter": "наибольшее длительно допустимое рабочее напряжение",
+          "value": "120,0",
+          "unit": "кВ"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t1",
+            "row_index": 2,
+            "column_index": 1,
+            "column": {
+              "id": "c2",
+              "label": "Наибольшее длительно допустимое рабочее напряжение ограничителя",
+              "unit": "кВ",
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c2",
+              "value": "120,0",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОПН-П-150/120/10/1,6-III УХЛ1"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": false
+        }
+      },
+      {
+        "id": "selected-07",
+        "expected": {
+          "location": "top table",
+          "entity": "ОПН-П-150/120/10/1,6-III УХЛ1",
+          "parameter": "номинальное напряжение, не менее",
+          "value": "150,0",
+          "unit": "кВ"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t1",
+            "row_index": 2,
+            "column_index": 2,
+            "column": {
+              "id": "c3",
+              "label": "Номинальное напряжение ограничителя, кВ, не менее",
+              "unit": "кВ",
+              "group": null,
+              "qualifier": "не менее"
+            },
+            "cell": {
+              "column_id": "c3",
+              "value": "150,0",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОПН-П-150/120/10/1,6-III УХЛ1"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": true
+        }
+      },
+      {
+        "id": "selected-08",
+        "expected": {
+          "location": "top table",
+          "entity": "ОПН-П-150/120/10/1,6-III УХЛ1",
+          "parameter": "остающееся при 5 кА 8/20",
+          "value": "351,0",
+          "unit": "кВ"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t1",
+            "row_index": 2,
+            "column_index": 3,
+            "column": {
+              "id": "c4",
+              "label": "5 кА",
+              "unit": "кВ",
+              "group": "Остающееся напряжение (кВ), при грозовых импульсах тока длит. 8/20 величиной:",
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c4",
+              "value": "351,0",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОПН-П-150/120/10/1,6-III УХЛ1"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": true
+        }
+      },
+      {
+        "id": "selected-09",
+        "expected": {
+          "location": "top table",
+          "entity": "ОПН-П-150/120/10/1,6-III УХЛ1",
+          "parameter": "остающееся при 250 А 30/60",
+          "value": "284,0",
+          "unit": "кВ"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t1",
+            "row_index": 2,
+            "column_index": 6,
+            "column": {
+              "id": "c7",
+              "label": "250 А",
+              "unit": "кВ",
+              "group": "Остающееся напряжение (кВ), при следующих значениях коммутационных токов длительностью 30/60 мкс:",
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c7",
+              "value": "284,0",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОПН-П-150/120/10/1,6-III УХЛ1"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": true
+        }
+      },
+      {
+        "id": "selected-10",
+        "expected": {
+          "location": "top table",
+          "entity": "ОПН-П-150/120/10/1,6-III УХЛ1",
+          "parameter": "тепловая энергия, не менее",
+          "value": "7,0",
+          "unit": "кДж/кВ"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t1",
+            "row_index": 2,
+            "column_index": 13,
+            "column": {
+              "id": "c14",
+              "label": "Тепловая энергия, кДж/кВ, не менее",
+              "unit": "кДж/кВ",
+              "group": null,
+              "qualifier": "не менее"
+            },
+            "cell": {
+              "column_id": "c14",
+              "value": "7,0",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОПН-П-150/120/10/1,6-III УХЛ1"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": true
+        }
+      }
+    ],
+    "full_page_accuracy": false
+  },
+  "fixture_sha256": "ea7e1bfaad49b9b8f331fc9fddce2142cc780bb0d35fc35b6610bd07b3dd7cb3",
+  "candidate_sha256": "aa52698b29d01922d5b47874e7638fec18075af546cd81f40a869e642d269c1b",
+  "source_binding": "caller-selected plain page artifact",
+  "grader_sha256": "f091872c67af7e410490df6b590cb8ac03a05eb6e615351ed281c4ae1687e21d",
+  "grader_release": "0.3.2",
+  "retained_original_grader_sha256": "24b64859fd690d11afd8477c69a0f84336a28338ac0b49981e5300055364d57a",
+  "literal_format_differences": [],
+  "unsupported_material_reference_policy": "Strict source-absence proxy for material mentions including appearance analogies; not an assertion that the candidate claims manufacture from that material",
+  "raw_literal_metrics_unchanged": true,
+  "source_fixture_bytes_unchanged": true,
+  "identifiers_are_not_globally_normalized": true,
+  "correction": "Matching-only physical A/А aliases, supported English geometry, contextual pollution abbreviation and dimensional metric-thread script difference; numeric/scoped/negation guards retained"
+}

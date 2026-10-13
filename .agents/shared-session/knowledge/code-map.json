@@ -33,6 +33,33 @@
       ],
       "summary": "Dimension matching accepts the same complete source parent plus single leaf in label or group. Conflicting parents, composite or longer symbols, conflicting units and invented conditions remain rejected. Historical grading stays separate from corrected grading of unchanged outputs.",
       "verified_at": "2026-10-12T13:47:12.454256+03:00"
+    },
+    "drawing-cross-object-ownership": {
+      "confidence": "verified",
+      "evidence": [
+        "Real retained39candidate2 33f827d1:032pitchwrong/033passed; true116outer and comparison-only guards21focusedtests pass"
+      ],
+      "git_head": "c65afecf20107f03cc33089f33ea888d25589f80",
+      "key": "drawing-cross-object-ownership",
+      "kind": "failure-shield",
+      "locations": [
+        {
+          "exists_at_verification": true,
+          "observed_kind": "file",
+          "observed_sha256": "c3de6caf11a0c55369a779dc472bb23d5faf0a237a33d35be17dbda5c2f9b4e1",
+          "path": "src/catalog_bench/ownership_corrected_grader.py",
+          "symbol": ""
+        },
+        {
+          "exists_at_verification": true,
+          "observed_kind": "file",
+          "observed_sha256": "578b29141e3bf6a5198e24b7096a7674245f04b590a85c4166d3936c0966c040",
+          "path": "tests/test_ownership_corrected_grader.py",
+          "symbol": ""
+        }
+      ],
+      "summary": "Grader033 rejects diameter ownership borrowed across two compared objects; frozen032/fixtures/native cohort untouched.",
+      "verified_at": "2026-10-13T04:30:35.926375+03:00"
     }
   },
   "schema_version": 1
