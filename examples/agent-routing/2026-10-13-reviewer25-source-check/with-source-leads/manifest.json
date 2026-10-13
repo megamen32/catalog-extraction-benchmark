@@ -1,0 +1,77 @@
+{
+  "case_id": "catalog-1-page-035",
+  "physical_page": 35,
+  "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+  "candidate_sha256": "22ab054e276ba9805bdd6c72689e596e3e864232a673d57252afe9502f5b9fd3",
+  "stage": "focused_native_review_with_independent_partial_source_leads",
+  "full_round": false,
+  "model": "zai.glm-5.3-flash?reasoning=low",
+  "reviewer_endpoint": "https://api.z.ai/api/coding/paas/v4/",
+  "program": {
+    "package_version": "1.4.25",
+    "git_revision": null,
+    "dirty": null,
+    "source_code_sha256": "373c903d4622be8fc18e0fcfac899d31d72000c9857403e84ea5aa226c34f818",
+    "python_version": "3.12.13"
+  },
+  "contract_sha256": "b3dc17a2236faf818e779b773e4ecc1c02ae5abcc1729a6ecebc8d739a843289",
+  "review_producer": {
+    "status": "receipt_verified",
+    "program": {
+      "package_version": "1.4.25",
+      "git_revision": null,
+      "dirty": null,
+      "source_code_sha256": "373c903d4622be8fc18e0fcfac899d31d72000c9857403e84ea5aa226c34f818",
+      "python_version": "3.12.13"
+    },
+    "artifact_sha256": "efc17766b9a49b20aadbd04d7d1d703116e615b6548d651f6706c00b3a93c8d4",
+    "source_bound_save": true,
+    "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+    "physical_page": 35,
+    "attempt": 0,
+    "role": "reviewer",
+    "model": "zai.glm-5.3-flash?reasoning=low",
+    "contract_sha256": "b3dc17a2236faf818e779b773e4ecc1c02ae5abcc1729a6ecebc8d739a843289",
+    "started_at": 1791852103.8378215,
+    "finished_at": 1791852519.0396342
+  },
+  "external_source_leads_supplied": true,
+  "old_observation_or_benchmark_gold_supplied": false,
+  "fresh_blind_model_accuracy_trial": false,
+  "review_verdict": "revise",
+  "independent_source_verdict": "revise",
+  "source_error_found": "Ø500 belongs to upper wide ring/plate, not ribs",
+  "wall_elapsed_seconds": 419.120578289032,
+  "native_elapsed_seconds": 415.2018127441406,
+  "accuracy_percent": null,
+  "outputs": [
+    {
+      "file": "candidate-0.json",
+      "sha256": "22ab054e276ba9805bdd6c72689e596e3e864232a673d57252afe9502f5b9fd3",
+      "bytes": 21829
+    },
+    {
+      "file": "source-observation-0.json",
+      "sha256": "752db353c23bebed0b2ebb9437b36afc52a9b068edd4c80075a6a3965e712fda",
+      "bytes": 17088
+    },
+    {
+      "file": "verified-source-observation-0.json",
+      "sha256": "98883025da679982e94b2e4caa3a5ab224759b5f16a3104de69366ef95105092",
+      "bytes": 17829
+    },
+    {
+      "file": "review-0.json",
+      "sha256": "efc17766b9a49b20aadbd04d7d1d703116e615b6548d651f6706c00b3a93c8d4",
+      "bytes": 6307
+    },
+    {
+      "file": "external-audit.json",
+      "sha256": "7cfdbc0534f5c7a62a62b467ded37fee594f4a37362729ebd5df77ae8e1cc06e",
+      "bytes": 2783
+    }
+  ],
+  "status": "PASS_SOURCE_LEAD_ERROR_REJECTION",
+  "production_promoted": false,
+  "scope": "Same candidate as the retained blind false-pass, now with production-style independent partial leads; this changed input is not an accuracy A/B trial or a new full benchmark round."
+}

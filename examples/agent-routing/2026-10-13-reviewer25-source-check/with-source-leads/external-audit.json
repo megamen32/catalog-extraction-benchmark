@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+  "pdf_page": 35,
+  "findings": [
+    {
+      "path": "figures[0].description",
+      "bbox": [
+        0.48,
+        0.25,
+        0.93,
+        0.65
+      ],
+      "source_fact": "The page drawing shows ribbed geometry but does not print porcelain/material; appearance cannot establish it.",
+      "problem": "фарфоровый корпус — Reinspect the exact visible source. Preserve the true dimension, endpoints and measured-object association; do not assert unprinted materials/functions. Separate native text-layer content if it conflicts with the visible original."
+    },
+    {
+      "path": "figures[1].description; figures[1].labels",
+      "bbox": [
+        0.82,
+        0.425,
+        0.9,
+        0.467
+      ],
+      "source_fact": "Original View A visibly prints147,5, not14,75. The native source text word also reads147,5 at full-page bbox[0.8385667,0.4412259,0.8783718,0.4555610]. An independent400dpi original crop confirms digit/comma order; neither a model observation nor the old candidate is authoritative.",
+      "problem": "Current nativecandidate5 still contains14,75 in figures[1].description and labels. Reinspect the narrow source region with view_region and read_source_layout, preserve the exact visible numeral and dimension association. If genuinely uncertain, record uncertainty instead of asserting the wrong numeral."
+    },
+    {
+      "path": "figures[0].description",
+      "bbox": [
+        0.42,
+        0.17,
+        0.7,
+        0.3
+      ],
+      "source_fact": "The source Ø500 dimension line spans the outside edges of the large upper rounded ring; the ribbed/skirt body is visibly narrower. This is outer-ring/plate ownership, not skirt diameter.",
+      "problem": "диаметр юбочной части ⌀500 — Reinspect the exact visible source. Preserve the true dimension, endpoints and measured-object association; do not assert unprinted materials/functions. Separate native text-layer content if it conflicts with the visible original."
+    }
+  ],
+  "rejected_candidate_sha256": [
+    "71ed8540983cb5e9ebf34e6b8a3c9169c4b938bd8f339b5ef57c4879ebab670d",
+    "7c3578bbc13b33d77601f1267ebcb685358e4c15e662d85c482fd13d5f514989",
+    "22ab054e276ba9805bdd6c72689e596e3e864232a673d57252afe9502f5b9fd3"
+  ],
+  "independent_audit_candidate_sha256": "22ab054e276ba9805bdd6c72689e596e3e864232a673d57252afe9502f5b9fd3",
+  "independent_audit_observed_unix": 1791851198.6832867,
+  "independent_audit_verification": "Two independent agents inspected original drawing: Ø500 extension lines terminate at outer upper ring, ribbed body narrower;147,5 corrected but wrong dimension/object association remains."
+}
