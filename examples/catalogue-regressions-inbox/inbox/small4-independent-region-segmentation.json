@@ -1,0 +1,33 @@
+{
+  "status": "pending_adjudication",
+  "priority": "high",
+  "category": "catalogue_meaning",
+  "source": {
+    "filename": "Malyj-katalog.pdf",
+    "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_page": 4
+  },
+  "review_basis": "Original page rendered and inspected manually2026-10-14. Native1.5.0 candidate and blind source observation retained exactly. Failed focused canary; never accepted. No new percentage assigned.",
+  "artifacts": [
+    {
+      "path": "objects/1aa39650f36915eaa567201272b6eb0b925e746155cc2f9238f2aba6f1cf720b.json",
+      "sha256": "1aa39650f36915eaa567201272b6eb0b925e746155cc2f9238f2aba6f1cf720b",
+      "bytes": 12257,
+      "role": "extractor",
+      "program_version": "1.5.0",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium"
+    },
+    {
+      "path": "objects/02cc19f7e5bc13a49e8047fac896c2775e45b03cc3dd070d54b42993909565d6.json",
+      "sha256": "02cc19f7e5bc13a49e8047fac896c2775e45b03cc3dd070d54b42993909565d6",
+      "bytes": 6977,
+      "role": "independent_source_observation",
+      "program_version": "1.5.0",
+      "model": "zai.glm-5.3-flash?reasoning=low"
+    }
+  ],
+  "assertions": [],
+  "id": "small4-independent-region-segmentation",
+  "title": "Independent semantic witnesses can use different region partitions",
+  "failure_oracle": "Two blind readers agree software_demonstration. Their two vs four evidence regions do not constitute an extraction defect or warrant literal narrative fallback. Kind/scope disagreements and genuine technical facts still require independent review."
+}
