@@ -20,7 +20,7 @@
     "0.3.2": "f091872c67af7e410490df6b590cb8ac03a05eb6e615351ed281c4ae1687e21d",
     "0.3.3": "6df48353cac09b55dee5d3157e6dd93517a214ad4e2cdd9d259a76fd88550d80"
   },
-  "state_sha256": "bb84c27b5ea84e10ea5fceafa79f971ebefd9a318248296a58c7e7c62d8a6d40",
+  "state_sha256": "1cdb9203e6ee24f6c8a7fbaa261ab695e0abebe0f40d9b23a5b9aedd2191ab66",
   "native_state_complete": false,
   "rounds": [
     {
@@ -951,14 +951,14 @@
       "status": "active",
       "started_at": 1791856557.470065,
       "finished_at": null,
-      "wall_seconds": 3866.4368596076965,
+      "wall_seconds": 4204.830374240875,
       "pages": [
         {
           "case_id": "catalog-1-page-027",
           "physical_page": 27,
           "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
           "baseline_candidate_sha256": "0d0d78831dc3fd2b4070436597a6c93ad6b63269451a9be220a3f6d67c514df7",
-          "status": "reviewer",
+          "status": "model_accepted_awaiting_independent_source_audit",
           "latest_attempt": 1,
           "calls": [
             {
@@ -1036,6 +1036,57 @@
                 "audit_findings_count": null,
                 "model_acceptance_is_not_independent_source_acceptance": true
               }
+            },
+            {
+              "role": "reviewer",
+              "attempt": 1,
+              "producer": {
+                "status": "receipt_verified",
+                "program": {
+                  "package_version": "1.4.26",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "624fb1c0512d5a89e8a15b91dddfaa45fdca22524e84a81d66e28d86ee357a95",
+                  "python_version": "3.12.13"
+                },
+                "artifact_sha256": "48600b33c78f265a31eb96424d1003baf565226edc4d13602b250c8297a38abe",
+                "source_bound_save": true,
+                "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+                "physical_page": 27,
+                "attempt": 1,
+                "role": "reviewer",
+                "model": "zai.glm-5.3-flash?reasoning=low",
+                "contract_sha256": "bd213a42bd97c2d3e7c1e1ee6e5e792d6f4ca427c54b1b8ca3524b6d6b008713",
+                "started_at": 1791859815.2455692,
+                "finished_at": 1791860476.209925
+              },
+              "artifact": "examples/agent-routing/2026-10-13-drawing-v126/round-2/catalog-1-page-027/review-1.json",
+              "artifact_sha256": "48600b33c78f265a31eb96424d1003baf565226edc4d13602b250c8297a38abe",
+              "receipt_sha256": "449f463d0696d28f9e0603e09dc786407b701f64f9794fec920dc35ba7b7fbd0",
+              "receipt_native_seconds": 660.964,
+              "worker_elapsed_seconds": 667.1996970176697,
+              "tool_usage": {
+                "coverage": "receipt_window_bound_log",
+                "count": 28,
+                "by_tool": {
+                  "load_skill": 1,
+                  "view_page": 1,
+                  "read_source_layout": 3,
+                  "source_artifact_created": 3,
+                  "read_source_artifact": 5,
+                  "read_source_table": 2,
+                  "view_region": 7,
+                  "save_source_observation": 1,
+                  "read_page_json": 2,
+                  "repeat_region": 1,
+                  "correct_source_observation": 1,
+                  "save_review": 1
+                },
+                "geometry_calls": 0,
+                "unparsed_lines": 0,
+                "raw_transcripts_not_published": true
+              },
+              "model_review_verdict": "pass"
             }
           ],
           "failed_error_type": null,
@@ -1058,7 +1109,7 @@
   "model_calls_by_collector": 0,
   "original_candidates_reviews_and_receipts_unchanged": true,
   "full_page_accuracy": false,
-  "snapshot_unix": 1791860423.9096363,
+  "snapshot_unix": 1791860762.3013527,
   "orchestration_recovery": {
     "drawing-trials.py": "RED awaited None from synchronous observer",
     "drawing-trials-fixed.py": "PASS async observer",

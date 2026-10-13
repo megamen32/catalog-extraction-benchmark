@@ -88,7 +88,7 @@ def collect(state_path,output):
     write(output/'manifest.json',result);return result
 
 def main():
-    a=argparse.ArgumentParser();a.add_argument('--state',type=Path,required=True);a.add_argument('--output',type=Path,default=ROOT/'examples/agent-routing/2026-10-13-drawing-v126');a.add_argument('--watch-seconds',type=float,default=0);args=a.parse_args();output=args.output.resolve();assert output.is_relative_to(ROOT);deadline=time.monotonic()+min(100800,max(0,args.watch_seconds));previous=None
+    a=argparse.ArgumentParser();a.add_argument('--state',type=Path,required=True);a.add_argument('--output',type=Path);a.add_argument('--watch-seconds',type=float,default=0);args=a.parse_args();output=(args.output or (ROOT/'.tmp/drawing-v126/staged-output' if args.watch_seconds>0 else ROOT/'examples/agent-routing/2026-10-13-drawing-v126')).resolve();assert output.is_relative_to(ROOT);deadline=time.monotonic()+min(100800,max(0,args.watch_seconds));previous=None
     while True:
         digest=sha(args.state)+''.join(sha(p) for p in sorted(args.state.parent.glob('round-*/page-*/external-audit.json')))+''.join(sha(p) for p in (args.state.parent/'orchestration-recovery-proof.json',args.state.parent/'drawing-trials-fixed.py') if p.exists())
         if digest!=previous:
