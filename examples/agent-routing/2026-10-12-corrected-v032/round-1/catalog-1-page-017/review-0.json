@@ -1,0 +1,201 @@
+{
+  "verdict": "revise",
+  "checks": [
+    {
+      "category": "text_completeness",
+      "passed": true,
+      "evidence": "Оба заголовка («…1,1 Кл»/«…1,2 Кл»), оба абзаца (включая различие «ТУ27.12.10» vs «ТУ 27.12.10» и точку с запятой vs точку в пунктах «Ток взрывобезопасности»), брендинг «АО «Энергия+21», 457000 Челябинская область, п. Увельский ул. Сафонова, д. 10, +7 (351) 211-60-10, www.energy-21.ru» и номер страницы 17 полностью присутствуют; candidate разбивает абзацы на больше блоков, что не является утратой текста."
+    },
+    {
+      "category": "table_count",
+      "passed": true,
+      "evidence": "На оригинале ровно 2 таблицы; candidate содержит t1 и t2."
+    },
+    {
+      "category": "row_coverage",
+      "passed": true,
+      "evidence": "По 8 строк данных в каждой таблице; все 16 обозначений (III/IV УХЛ1, 10,5–12,7) сверены с изображением в физическом порядке."
+    },
+    {
+      "category": "column_coverage",
+      "passed": true,
+      "evidence": "t1 — 16 физических столбцов, t2 — 14 (в источнике действительно нет «125 А» и «Тепловой заряд», подтверждено zoom шапки). Родительские группы «Остающееся напряжение… грозовых импульсов… 8/20» и «…коммутационных токов… 30/60 мкс» записаны в group каждого дочернего столбца; условие «при классификационном токе 2 мА» сохранено в label t1.columns[13]/t2.columns[12]; «не менее» сохранено в qualifier."
+    },
+    {
+      "category": "values",
+      "passed": true,
+      "evidence": "Все 128 (t1) + 112 (t2) значений ячеек сверены полностью, не spot-проверкой: t1 строка 1: 10,5/13,1/31,5/33,3/36,8/-/24,9/26,3/27,6/39,4/1,1/100,0/13,1/-/4,0; t2 строка 7: 12,7/16,0/37,1/40,6/45,6/30,0/31,0/32,7/44,3/1,2/100,0/16,0/4,0; запятая как десятичный разделитель сохранена; несоответствий нет."
+    },
+    {
+      "category": "units",
+      "passed": true,
+      "evidence": "По read_source_layout кодпоинты «Кл» = К U+041A + л U+043B («Заряд пропускной способности, Кл», «Тепловой заряд, Кл, не менее») — candidate unit «Кл» верен; моя первоначальная слепая транскрипция «кЛ»/«Разряд» была ошибочной и исправлена через correct_source_observation с сохранением оригинала. «кВ», «кА», «кДж/кВ» совпадают; подзаголовки 5/10/20 кА и 125/250/500/1000 А — условия, не единицы столбца, единица кВ не подменена."
+    },
+    {
+      "category": "merged_cells",
+      "passed": true,
+      "evidence": "Вертикальные объединения источника (пары III/IV строк, заряд 1,1/1,2, ток 100,0, тепловая энергия 4,0, прочерк теплового заряда t1 на все 8 строк) корректно расширены повторением значения на весь исходный span; наследования между разными span'ами нет (в t2 столбец «Тепловой заряд» отсутствует, ложного «-» не внесено)."
+    },
+    {
+      "category": "blank_cells",
+      "passed": true,
+      "evidence": "Единственные незаполненные позиции — печатные прочерки «-»: t1 «125 А» (8) и t1 «Тепловой заряд» (8); candidate сохранил их как напечатанные значения «-», не превратив в blank/unknown; иных пустых ячеек в источнике и candidate нет."
+    },
+    {
+      "category": "rotated_labels",
+      "passed": true,
+      "evidence": "Все повернутые заголовки прочитаны view_region + read_source_layout: «Наибольшее длительно допустимое рабочее напряжение ограничителя, кВ», «Номинальное напряжение ограничителя, кВ, не менее», «Остающееся напряжение (кВ) при крутом импульсе тока величиной 10 кА и длительностью 1/10 мкс», «Заряд пропускной способности, Кл», «Ток импульса 4/10, кА», «Классификационное напряжение, кВ, при классификационном токе 2 мА», «Тепловой заряд, Кл, не менее», «Тепловая энергия, кДж/кВ, не менее» — все присутствуют в candidate без сдвига колонок."
+    },
+    {
+      "category": "figures",
+      "passed": false,
+      "evidence": "Все размерные метки и виды присутствуют (III СЗ, IV СЗ, 191±1, Ø98, 10, 10, M10, M10 для каждого из 4 видов), НО descriptions неверно указывают число ребер: figures[0] и figures[2] (III СЗ) — «с тремя полимерными юбками», figures[1] и figures[3] (IV СЗ) — «с четырьмя полимерными юбками». На исходных чертежах (view_region [0.5,0.03,0.72,0.25] и [0.72,0.03,1.0,0.25] стр. 17) вид III СЗ имеет 4 ребра-тарелки, вид IV СЗ — 6 ребер."
+    },
+    {
+      "category": "provenance",
+      "passed": true,
+      "evidence": "Слепая транскрипция сохранена до чтения candidate (source-observation-0.json, revision 1: «Разряд→Заряд», «кЛ→Кл» по кодпоинтам текстового слоя, оригинал сохранен). read_page_json прочитан; различия independent_comparison проверены по источнику: label/unit — ошибка моего наблюдения (подтверждено), qualifier присутствует в label candidate, различие figures[].labels — артефакт группировки моего наблюдения (2 объединенные фигуры vs 4 отдельных вида), все метки в candidate поименно присутствуют. read_external_audit: внешних лидов нет (present=false)."
+    }
+  ],
+  "issues": [
+    {
+      "severity": "error",
+      "path": "figures[0].description, figures[2].description",
+      "message": "Указано «тремя полимерными юбками», на чертеже III СЗ — 4 ребра-тарелки (проверено zoom стр. 17)."
+    },
+    {
+      "severity": "error",
+      "path": "figures[1].description, figures[3].description",
+      "message": "Указано «четырьмя полимерными юбками», на чертеже IV СЗ — 6 ребер (проверено zoom стр. 17)."
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].columns[13].qualifier",
+      "message": "Независимая запись оригинала: \"при классификационном токе 2 мА\"; в кандидате: null"
+    },
+    {
+      "severity": "error",
+      "path": "tables[1].columns[12].qualifier",
+      "message": "Независимая запись оригинала: \"при классификационном токе 2 мА\"; в кандидате: null"
+    },
+    {
+      "severity": "error",
+      "path": "text_blocks[source=1]",
+      "message": "Независимая запись оригинала: \"Изготавливаются по ТУ27.12.10–041–21639232-2020.\\nНоминальный разрядный ток — 10 кА.\\nТок взрывобезопасности:\\n• длительностью не менее 1 секунды — не менее 0,6 кА;\\n• длительностью не менее 0,2 секунд — не менее 65 кА.\\nСоответствуют требованиям ГОСТ Р 52725-2021.\"; в кандидате: \"missing or changed wording\""
+    },
+    {
+      "severity": "error",
+      "path": "text_blocks[source=3]",
+      "message": "Независимая запись оригинала: \"Изготавливаются по ТУ 27.12.10–041–21639232-2020.\\nНоминальный разрядный ток — 10 кА.\\nТок взрывобезопасности:\\n• длительностью не менее 1 секунды — не менее 0,6 кА.\\n• длительностью не менее 0,2 секунд — не менее 65 кА.\\nСоответствуют требованиям ГОСТ Р 52725-2021.\"; в кандидате: \"missing or changed wording\""
+    },
+    {
+      "severity": "error",
+      "path": "figures[0].labels",
+      "message": "Независимая запись оригинала: \"М10 (верх)\"; в кандидате: \"missing or changed label/tolerance\""
+    },
+    {
+      "severity": "error",
+      "path": "figures[0].labels",
+      "message": "Независимая запись оригинала: \"М10 (низ)\"; в кандидате: \"missing or changed label/tolerance\""
+    },
+    {
+      "severity": "error",
+      "path": "figures[0].labels",
+      "message": "Независимая запись оригинала: \"Ø98 (III СЗ)\"; в кандидате: \"missing or changed label/tolerance\""
+    },
+    {
+      "severity": "error",
+      "path": "figures[0].labels",
+      "message": "Независимая запись оригинала: \"Ø98 (IV СЗ)\"; в кандидате: \"missing or changed label/tolerance\""
+    },
+    {
+      "severity": "error",
+      "path": "figures[0].labels",
+      "message": "Независимая запись оригинала: \"10 (верх, III СЗ)\"; в кандидате: \"missing or changed label/tolerance\""
+    },
+    {
+      "severity": "error",
+      "path": "figures[0].labels",
+      "message": "Независимая запись оригинала: \"10 (низ, III СЗ)\"; в кандидате: \"missing or changed label/tolerance\""
+    },
+    {
+      "severity": "error",
+      "path": "figures[0].labels",
+      "message": "Независимая запись оригинала: \"10 (верх, IV СЗ)\"; в кандидате: \"missing or changed label/tolerance\""
+    },
+    {
+      "severity": "error",
+      "path": "figures[0].labels",
+      "message": "Независимая запись оригинала: \"10 (низ, IV СЗ)\"; в кандидате: \"missing or changed label/tolerance\""
+    },
+    {
+      "severity": "error",
+      "path": "figures[0].labels",
+      "message": "Независимая запись оригинала: \"191±1 (III СЗ)\"; в кандидате: \"missing or changed label/tolerance\""
+    },
+    {
+      "severity": "error",
+      "path": "figures[0].labels",
+      "message": "Независимая запись оригинала: \"191±1 (IV СЗ)\"; в кандидате: \"missing or changed label/tolerance\""
+    },
+    {
+      "severity": "error",
+      "path": "figures[1].labels",
+      "message": "Независимая запись оригинала: \"М10 (верх)\"; в кандидате: \"missing or changed label/tolerance\""
+    },
+    {
+      "severity": "error",
+      "path": "figures[1].labels",
+      "message": "Независимая запись оригинала: \"М10 (низ)\"; в кандидате: \"missing or changed label/tolerance\""
+    },
+    {
+      "severity": "error",
+      "path": "figures[1].labels",
+      "message": "Независимая запись оригинала: \"Ø98 (III СЗ)\"; в кандидате: \"missing or changed label/tolerance\""
+    },
+    {
+      "severity": "error",
+      "path": "figures[1].labels",
+      "message": "Независимая запись оригинала: \"Ø98 (IV СЗ)\"; в кандидате: \"missing or changed label/tolerance\""
+    },
+    {
+      "severity": "error",
+      "path": "figures[1].labels",
+      "message": "Независимая запись оригинала: \"10 (верх, III СЗ)\"; в кандидате: \"missing or changed label/tolerance\""
+    },
+    {
+      "severity": "error",
+      "path": "figures[1].labels",
+      "message": "Независимая запись оригинала: \"10 (низ, III СЗ)\"; в кандидате: \"missing or changed label/tolerance\""
+    },
+    {
+      "severity": "error",
+      "path": "figures[1].labels",
+      "message": "Независимая запись оригинала: \"10 (верх, IV СЗ)\"; в кандидате: \"missing or changed label/tolerance\""
+    },
+    {
+      "severity": "error",
+      "path": "figures[1].labels",
+      "message": "Независимая запись оригинала: \"10 (низ, IV СЗ)\"; в кандидате: \"missing or changed label/tolerance\""
+    },
+    {
+      "severity": "error",
+      "path": "figures[1].labels",
+      "message": "Независимая запись оригинала: \"191±1 (III СЗ)\"; в кандидате: \"missing or changed label/tolerance\""
+    },
+    {
+      "severity": "error",
+      "path": "figures[1].labels",
+      "message": "Независимая запись оригинала: \"191±1 (IV СЗ)\"; в кандидате: \"missing or changed label/tolerance\""
+    }
+  ],
+  "observed_table_count": 2,
+  "observed_row_counts": [
+    8,
+    8
+  ],
+  "observed_column_counts": [
+    16,
+    14
+  ]
+}

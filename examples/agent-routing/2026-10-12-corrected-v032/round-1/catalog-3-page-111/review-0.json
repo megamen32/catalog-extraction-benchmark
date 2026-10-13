@@ -1,0 +1,2754 @@
+{
+  "verdict": "revise",
+  "checks": [
+    {
+      "category": "text_completeness",
+      "passed": false,
+      "evidence": "view_region + read_source_layout (страница 111, бокс 0.0–0.35/0.12–0.26, слово «молниезащитных» box 0.1656/0.1751/0.2824/0.1889) подтверждают, что в источнике напечатано «…в качестве молниезащитных тросов», а в кандидате в text_blocks[5] записано «молницезащитных» — вставлена лишняя «ц», изменённое слово источника. Остальные блоки (заголовок раздела, «Зажимы натяжные прессуемые типа НМЗ», «НАЗНАЧЕНИЕ:», ТУ 3449-001-52819896-2010, футер 110 / ООО «МЗВА-ЧЭМЗ» / тел. +7 (495) 780-51-65 / zakaz@mzva.ru / www.mzva.ru, брендинг ФОРЭНЕРГО/FORENERGO industrial group) присутствуют полностью."
+    },
+    {
+      "category": "table_count",
+      "passed": true,
+      "evidence": "На изображении одна физическая таблица; в кандидате tables[] содержит ровно 1 таблицу (id t111_1) с 13 столбцами и 39 строками данных — совпадает с независимым подсчётом строк НМЗ-45-1…НМЗ-350-3."
+    },
+    {
+      "category": "row_coverage",
+      "passed": true,
+      "evidence": "Независимо от изображения насчитано 39 строк (13 групп × 3 исполнения: 45, 60, 70, 85, 110, 120, 135, 160, 180, 200, 240, 310, 350). Кандидат содержит 39 строк; наименования всех строк совпали при поячеечном сравнении, детерминированный diff не показал пропущенных или лишних строк."
+    },
+    {
+      "category": "column_coverage",
+      "passed": true,
+      "evidence": "Все 13 физических столбцов присутствуют: Наименование, Марка троса, B, D, d, d1, L, L1, L2, Матрица для опрессования, Исполнение, Разрушающая нагрузка (не менее, кН), Масса (кг). Повёрнутые заголовки сверены зумом бокса 0.6–0.85/0.24–0.32."
+    },
+    {
+      "category": "values",
+      "passed": true,
+      "evidence": "Поячеечная сверка 39×13 значений против изображения и read_source_layout (включая строки НМЗ-240-1 L=50, НМЗ-240-3 L1=23, НМЗ-350-3 L1=29, НМЗ-180-2 «…-Р-170», НМЗ-70-1 «…-Р1770» — подтверждено зумом бокса 0.14–0.42/0.415–0.465 и текстовым слоем) расхождений значений не выявила; источники опечаток зафиксированы в source_notes."
+    },
+    {
+      "category": "units",
+      "passed": true,
+      "evidence": "Единицы напечатаны только в заголовках последних двух столбцов: «Разрушающая нагрузка, не менее, кН» → unit кН, qualifier «не менее»; «Масса, кг» → unit кг. Кандидат воспроизводит это наследование; размерным столбцам B/D/d/d1/L/L1/L2 исходник единиц не печатает — в кандидате unit null, что корректно."
+    },
+    {
+      "category": "merged_cells",
+      "passed": true,
+      "evidence": "В источнике значения B/D/d/d1 (первая строка группы), L2, Матрица, Исполнение, Разрушающая нагрузка, Масса объединены по трём строкам каждой группы. Кандидат корректно расширил эти объединения повтором значения по всему физическому объединению (например, «МШ-18,5», «1», «120», «1,33» во всех трёх строках НМЗ-45), при этом собственные значения L/L1 каждой строки (193/90, 198/95, 203/100 и т.д.) не перезаписаны; детерминированный diff показал только ожидаемые расширения объединений, ложных повторов L/L1 нет."
+    },
+    {
+      "category": "blank_cells",
+      "passed": true,
+      "evidence": "В физических объединённых ячейках печатается одно значение (центрировано), а в строках 2–3 групп исходных печатных ячеек пусты; кандидат корректно моделирует это расширением объединённых значений, а не пустотой. Прочерков «-» в столбце B для исполнений 1 групп 45–160 кандидат сохранил как value «-», что подтверждено изображением и source_notes."
+    },
+    {
+      "category": "rotated_labels",
+      "passed": true,
+      "evidence": "Заголовки «Наименование», «Матрица для опрессования», «Исполнение», «Разрушающая нагрузка, не менее, кН», «Масса, кг» повёрнуты на 90°; проверены зумом view_region (бокс 0.6–0.85/0.24–0.32) и кодепоинтами текстового слоя: «Матрица для опрессования» (не «опрессовки»), «С» заголовков — кириллица. Кандидат воспроизводит их без искажений."
+    },
+    {
+      "category": "figures",
+      "passed": true,
+      "evidence": "Чертёж из трёх видов проверен зумом бокса 0.35–0.9/0.06–0.26: основной вид с L, L1, L2, d, d1, метрами сечения A (дважды); сечение «ИСПОЛНЕНИЕ 1» (d, D, круглое) и «ИСПОЛНЕНИЕ 2» (d, D, B, овальное). Все обозначения присутствуют в labels обоих figure-объектов кандидата; допуски/отверстия на чертеже не нанесены, дополнительных размеров нет."
+    },
+    {
+      "category": "provenance",
+      "passed": true,
+      "evidence": "Вердикт основан на независимом source-observation (сохранена до чтения кандидата, 2 ревизии с Reasons по свежим зумам), полном read_page_json кандидата, детерминированном diff (541 позиция), read_source_layout для спорных глифов (кириллическая С-44 U+0421 в группе НМЗ-180 против латинской C-44/C-52/C-58 U+0043 в группах 240/310/350 — оба варианта верно скопированы кандидатом) и view_region зумах спорных ячеек. Внешний аудит (read_external_audit) отсутствует."
+    }
+  ],
+  "issues": [
+    {
+      "severity": "error",
+      "path": "text_blocks[5].text",
+      "message": "В тексте назначения кандидат пишет «молницезащитных», тогда как источник печатает «молниезащитных» (подтверждено зумом и текстовым слоем). Исправить формулировку."
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[1].cells[column=2].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[1].cells[column=2].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"-\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[1].cells[column=3].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[1].cells[column=3].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"22\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[1].cells[column=4].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[1].cells[column=4].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"9\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[1].cells[column=5].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[1].cells[column=5].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"18\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[1].cells[column=8].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[1].cells[column=8].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"65\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[1].cells[column=9].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[1].cells[column=9].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"МШ-18,5\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[1].cells[column=10].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[1].cells[column=10].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"1\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[1].cells[column=11].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[1].cells[column=11].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"120\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[1].cells[column=12].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[1].cells[column=12].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"1,33\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[2].cells[column=2].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[2].cells[column=2].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"-\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[2].cells[column=3].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[2].cells[column=3].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"22\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[2].cells[column=4].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[2].cells[column=4].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"9\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[2].cells[column=5].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[2].cells[column=5].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"18\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[2].cells[column=8].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[2].cells[column=8].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"65\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[2].cells[column=9].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[2].cells[column=9].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"МШ-18,5\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[2].cells[column=10].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[2].cells[column=10].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"1\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[2].cells[column=11].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[2].cells[column=11].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"120\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[2].cells[column=12].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[2].cells[column=12].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"1,33\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[4].cells[column=2].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[4].cells[column=2].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"-\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[4].cells[column=3].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[4].cells[column=3].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"28\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[4].cells[column=4].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[4].cells[column=4].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"10,5\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[4].cells[column=5].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[4].cells[column=5].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"20\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[4].cells[column=8].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[4].cells[column=8].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"80\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[4].cells[column=9].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[4].cells[column=9].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"МШ-23,4\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[4].cells[column=10].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[4].cells[column=10].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"1\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[4].cells[column=11].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[4].cells[column=11].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"160\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[4].cells[column=12].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[4].cells[column=12].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"1,57\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[5].cells[column=2].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[5].cells[column=2].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"-\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[5].cells[column=3].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[5].cells[column=3].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"28\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[5].cells[column=4].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[5].cells[column=4].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"10,5\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[5].cells[column=5].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[5].cells[column=5].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"20\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[5].cells[column=8].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[5].cells[column=8].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"80\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[5].cells[column=9].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[5].cells[column=9].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"МШ-23,4\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[5].cells[column=10].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[5].cells[column=10].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"1\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[5].cells[column=11].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[5].cells[column=11].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"160\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[5].cells[column=12].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[5].cells[column=12].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"1,57\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[6].cells[column=2].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[6].cells[column=2].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"-\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[6].cells[column=3].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[6].cells[column=3].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"28\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[6].cells[column=4].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[6].cells[column=4].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"10,5\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[6].cells[column=5].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[6].cells[column=5].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"20\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[6].cells[column=8].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[6].cells[column=8].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"80\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[6].cells[column=9].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[6].cells[column=9].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"МШ-23,4\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[6].cells[column=10].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[6].cells[column=10].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"1\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[6].cells[column=11].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[6].cells[column=11].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"160\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[7].cells[column=2].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[7].cells[column=2].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"-\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[7].cells[column=3].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[7].cells[column=3].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"28\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[7].cells[column=4].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[7].cells[column=4].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"10,5\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[7].cells[column=5].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[7].cells[column=5].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"20\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[7].cells[column=8].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[7].cells[column=8].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"80\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[7].cells[column=9].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[7].cells[column=9].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"МШ-23,4\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[7].cells[column=10].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[7].cells[column=10].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"1\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[7].cells[column=11].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[7].cells[column=11].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"160\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[7].cells[column=12].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[7].cells[column=12].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"2,33\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[8].cells[column=2].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[8].cells[column=2].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"-\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[8].cells[column=3].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[8].cells[column=3].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"28\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[8].cells[column=4].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[8].cells[column=4].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"10,5\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[8].cells[column=5].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[8].cells[column=5].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"20\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[8].cells[column=8].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[8].cells[column=8].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"80\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[8].cells[column=9].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[8].cells[column=9].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"МШ-23,4\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[8].cells[column=10].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[8].cells[column=10].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"1\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[8].cells[column=11].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[8].cells[column=11].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"160\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[8].cells[column=12].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[8].cells[column=12].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"2,33\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[10].cells[column=2].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[10].cells[column=2].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"-\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[10].cells[column=3].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[10].cells[column=3].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"30\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[10].cells[column=4].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[10].cells[column=4].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"12\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[10].cells[column=5].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[10].cells[column=5].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"24\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[10].cells[column=8].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[10].cells[column=8].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"86\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[10].cells[column=9].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[10].cells[column=9].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"МШ-25\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[10].cells[column=10].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[10].cells[column=10].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"1\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[10].cells[column=11].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[10].cells[column=11].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"210\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[10].cells[column=12].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[10].cells[column=12].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"2,67\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[11].cells[column=2].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[11].cells[column=2].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"-\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[11].cells[column=3].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[11].cells[column=3].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"30\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[11].cells[column=4].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[11].cells[column=4].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"12\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[11].cells[column=5].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[11].cells[column=5].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"24\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[11].cells[column=8].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[11].cells[column=8].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"86\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[11].cells[column=9].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[11].cells[column=9].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"МШ-25\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[11].cells[column=10].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[11].cells[column=10].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"1\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[11].cells[column=11].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[11].cells[column=11].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"210\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[11].cells[column=12].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[11].cells[column=12].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"2,67\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[13].cells[column=2].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[13].cells[column=2].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"-\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[13].cells[column=3].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[13].cells[column=3].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"34\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[13].cells[column=4].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[13].cells[column=4].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"13,5\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[13].cells[column=5].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[13].cells[column=5].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"28\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[13].cells[column=8].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[13].cells[column=8].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"92\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[13].cells[column=9].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[13].cells[column=9].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"МШ-28,6\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[13].cells[column=10].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[13].cells[column=10].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"1\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[13].cells[column=11].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[13].cells[column=11].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"250\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[13].cells[column=12].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[13].cells[column=12].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"4,52\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[14].cells[column=2].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[14].cells[column=2].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"-\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[14].cells[column=3].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[14].cells[column=3].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"34\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[14].cells[column=4].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[14].cells[column=4].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"13,5\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[14].cells[column=5].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[14].cells[column=5].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"28\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[14].cells[column=8].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[14].cells[column=8].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"92\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[14].cells[column=9].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[14].cells[column=9].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"МШ-28,6\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[14].cells[column=10].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[14].cells[column=10].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"1\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[14].cells[column=11].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[14].cells[column=11].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"250\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[14].cells[column=12].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[14].cells[column=12].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"4,52\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[15].cells[column=2].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[15].cells[column=2].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"-\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[15].cells[column=3].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[15].cells[column=3].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"34\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[15].cells[column=4].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[15].cells[column=4].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"13,5\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[15].cells[column=5].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[15].cells[column=5].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"28\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[15].cells[column=8].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[15].cells[column=8].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"92\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[15].cells[column=9].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[15].cells[column=9].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"МШ-28,6\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[15].cells[column=10].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[15].cells[column=10].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"1\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[15].cells[column=11].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[15].cells[column=11].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"250\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[15].cells[column=12].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[15].cells[column=12].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"4,52\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[16].cells[column=2].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[16].cells[column=2].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"-\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[16].cells[column=3].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[16].cells[column=3].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"34\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[16].cells[column=4].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[16].cells[column=4].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"13,5\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[16].cells[column=5].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[16].cells[column=5].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"28\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[16].cells[column=8].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[16].cells[column=8].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"92\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[16].cells[column=9].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[16].cells[column=9].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"МШ-28,6\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[16].cells[column=10].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[16].cells[column=10].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"1\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[16].cells[column=11].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[16].cells[column=11].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"250\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[16].cells[column=12].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[16].cells[column=12].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"4,52\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[17].cells[column=2].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[17].cells[column=2].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"-\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[17].cells[column=3].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[17].cells[column=3].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"34\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[17].cells[column=4].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[17].cells[column=4].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"13,5\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[17].cells[column=5].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[17].cells[column=5].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"28\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[17].cells[column=8].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[17].cells[column=8].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"92\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[17].cells[column=9].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[17].cells[column=9].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"МШ-28,6\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[17].cells[column=10].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[17].cells[column=10].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"1\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[17].cells[column=11].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[17].cells[column=11].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"250\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[17].cells[column=12].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[17].cells[column=12].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"4,52\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[19].cells[column=2].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[19].cells[column=2].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"-\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[19].cells[column=3].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[19].cells[column=3].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"40\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[19].cells[column=4].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[19].cells[column=4].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"15,5\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[19].cells[column=5].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[19].cells[column=5].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"34\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[19].cells[column=8].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[19].cells[column=8].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"111\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[19].cells[column=9].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[19].cells[column=9].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"МШ-33,8\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[19].cells[column=10].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[19].cells[column=10].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"1\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[19].cells[column=11].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[19].cells[column=11].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"300\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[19].cells[column=12].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[19].cells[column=12].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"5,80\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[20].cells[column=2].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[20].cells[column=2].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"-\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[20].cells[column=3].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[20].cells[column=3].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"40\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[20].cells[column=4].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[20].cells[column=4].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"15,5\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[20].cells[column=5].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[20].cells[column=5].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"34\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[20].cells[column=8].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[20].cells[column=8].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"111\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[20].cells[column=9].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[20].cells[column=9].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"МШ-33,8\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[20].cells[column=10].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[20].cells[column=10].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"1\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[20].cells[column=11].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[20].cells[column=11].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"300\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[20].cells[column=12].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[20].cells[column=12].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"5,80\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[21].cells[column=2].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[21].cells[column=2].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"-\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[21].cells[column=3].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[21].cells[column=3].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"40\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[21].cells[column=4].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[21].cells[column=4].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"15,5\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[21].cells[column=5].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[21].cells[column=5].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"34\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[21].cells[column=8].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[21].cells[column=8].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"111\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[21].cells[column=9].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[21].cells[column=9].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"МШ-33,8\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[21].cells[column=10].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[21].cells[column=10].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"1\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[21].cells[column=11].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[21].cells[column=11].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"350\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[21].cells[column=12].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[21].cells[column=12].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"7,55\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[22].cells[column=2].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[22].cells[column=2].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"-\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[22].cells[column=3].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[22].cells[column=3].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"40\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[22].cells[column=4].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[22].cells[column=4].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"15,5\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[22].cells[column=5].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[22].cells[column=5].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"34\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[22].cells[column=8].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[22].cells[column=8].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"111\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[22].cells[column=9].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[22].cells[column=9].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"МШ-33,8\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[22].cells[column=10].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[22].cells[column=10].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"1\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[22].cells[column=11].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[22].cells[column=11].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"350\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[23].cells[column=2].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[23].cells[column=2].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"-\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[23].cells[column=3].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[23].cells[column=3].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"40\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[23].cells[column=4].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[23].cells[column=4].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"15,5\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[23].cells[column=5].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[23].cells[column=5].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"34\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[23].cells[column=8].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[23].cells[column=8].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"111\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[23].cells[column=9].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[23].cells[column=9].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"МШ-33,8\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[23].cells[column=10].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[23].cells[column=10].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"1\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[23].cells[column=11].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[23].cells[column=11].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"350\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[23].cells[column=12].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[23].cells[column=12].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"7,55\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[24].cells[column=10].value",
+      "message": "Независимая запись оригинала: \"1\"; в кандидате: \"2\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[25].cells[column=2].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[25].cells[column=2].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"43\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[25].cells[column=3].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[25].cells[column=3].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"53\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[25].cells[column=4].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[25].cells[column=4].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"17,5\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[25].cells[column=5].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[25].cells[column=5].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"36\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[25].cells[column=8].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[25].cells[column=8].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"119\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[25].cells[column=9].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[25].cells[column=9].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"С-44\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[25].cells[column=10].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[25].cells[column=10].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"2\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[25].cells[column=11].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[25].cells[column=11].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"400\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[25].cells[column=12].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[25].cells[column=12].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"7,55\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[26].cells[column=2].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[26].cells[column=2].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"43\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[26].cells[column=3].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[26].cells[column=3].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"53\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[26].cells[column=4].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[26].cells[column=4].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"17,5\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[26].cells[column=5].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[26].cells[column=5].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"36\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[26].cells[column=8].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[26].cells[column=8].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"119\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[26].cells[column=9].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[26].cells[column=9].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"С-44\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[26].cells[column=10].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[26].cells[column=10].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"2\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[26].cells[column=11].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[26].cells[column=11].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"400\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[26].cells[column=12].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[26].cells[column=12].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"7,55\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[27].cells[column=2].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[27].cells[column=2].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"43\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[27].cells[column=3].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[27].cells[column=3].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"53\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[27].cells[column=4].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[27].cells[column=4].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"17,5\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[27].cells[column=5].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[27].cells[column=5].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"36\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[27].cells[column=8].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[27].cells[column=8].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"119\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[27].cells[column=9].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[27].cells[column=9].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"С-44\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[27].cells[column=10].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[27].cells[column=10].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"2\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[27].cells[column=11].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[27].cells[column=11].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"450\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[27].cells[column=12].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[27].cells[column=12].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"11,30\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[28].cells[column=2].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[28].cells[column=2].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"43\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[28].cells[column=3].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[28].cells[column=3].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"53\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[28].cells[column=4].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[28].cells[column=4].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"17,5\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[28].cells[column=5].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[28].cells[column=5].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"36\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[28].cells[column=8].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[28].cells[column=8].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"119\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[28].cells[column=9].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[28].cells[column=9].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"С-44\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[28].cells[column=10].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[28].cells[column=10].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"2\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[28].cells[column=11].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[28].cells[column=11].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"450\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[29].cells[column=2].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[29].cells[column=2].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"43\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[29].cells[column=3].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[29].cells[column=3].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"53\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[29].cells[column=4].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[29].cells[column=4].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"17,5\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[29].cells[column=5].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[29].cells[column=5].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"36\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[29].cells[column=8].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[29].cells[column=8].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"119\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[29].cells[column=9].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[29].cells[column=9].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"С-44\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[29].cells[column=10].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[29].cells[column=10].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"2\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[29].cells[column=11].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[29].cells[column=11].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"450\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[29].cells[column=12].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[29].cells[column=12].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"11,30\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[31].cells[column=2].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[31].cells[column=2].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"43\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[31].cells[column=3].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[31].cells[column=3].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"53\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[31].cells[column=4].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[31].cells[column=4].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"19,5\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[31].cells[column=5].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[31].cells[column=5].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"38\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[31].cells[column=8].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[31].cells[column=8].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"140\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[31].cells[column=9].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[31].cells[column=9].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"C-44\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[31].cells[column=10].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[31].cells[column=10].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"2\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[31].cells[column=11].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[31].cells[column=11].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"530\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[31].cells[column=12].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[31].cells[column=12].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"13,16\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[32].cells[column=2].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[32].cells[column=2].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"43\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[32].cells[column=3].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[32].cells[column=3].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"53\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[32].cells[column=4].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[32].cells[column=4].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"19,5\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[32].cells[column=5].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[32].cells[column=5].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"38\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[32].cells[column=8].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[32].cells[column=8].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"140\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[32].cells[column=9].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[32].cells[column=9].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"C-44\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[32].cells[column=10].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[32].cells[column=10].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"2\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[32].cells[column=11].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[32].cells[column=11].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"530\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[32].cells[column=12].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[32].cells[column=12].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"13,16\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[34].cells[column=2].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[34].cells[column=2].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"51\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[34].cells[column=3].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[34].cells[column=3].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"63\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[34].cells[column=4].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[34].cells[column=4].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"22\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[34].cells[column=5].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[34].cells[column=5].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"40\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[34].cells[column=8].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[34].cells[column=8].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"145\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[34].cells[column=9].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[34].cells[column=9].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"C-52\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[34].cells[column=10].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[34].cells[column=10].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"2\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[34].cells[column=11].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[34].cells[column=11].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"750\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[34].cells[column=12].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[34].cells[column=12].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"18,74\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[35].cells[column=2].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[35].cells[column=2].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"51\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[35].cells[column=3].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[35].cells[column=3].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"63\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[35].cells[column=4].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[35].cells[column=4].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"22\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[35].cells[column=5].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[35].cells[column=5].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"40\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[35].cells[column=8].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[35].cells[column=8].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"145\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[35].cells[column=9].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[35].cells[column=9].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"C-52\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[35].cells[column=10].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[35].cells[column=10].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"2\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[35].cells[column=11].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[35].cells[column=11].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"750\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[35].cells[column=12].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[35].cells[column=12].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"18,74\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[37].cells[column=2].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[37].cells[column=2].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"57\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[37].cells[column=3].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[37].cells[column=3].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"70\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[37].cells[column=4].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[37].cells[column=4].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"24\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[37].cells[column=5].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[37].cells[column=5].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"48\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[37].cells[column=8].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[37].cells[column=8].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"152\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[37].cells[column=9].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[37].cells[column=9].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"C-58\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[37].cells[column=10].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[37].cells[column=10].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"2\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[37].cells[column=11].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[37].cells[column=11].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"900\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[37].cells[column=12].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[37].cells[column=12].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"25,29\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[38].cells[column=2].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[38].cells[column=2].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"57\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[38].cells[column=3].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[38].cells[column=3].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"70\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[38].cells[column=4].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[38].cells[column=4].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"24\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[38].cells[column=5].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[38].cells[column=5].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"48\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[38].cells[column=8].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[38].cells[column=8].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"152\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[38].cells[column=9].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[38].cells[column=9].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"C-58\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[38].cells[column=10].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[38].cells[column=10].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"2\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[38].cells[column=11].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[38].cells[column=11].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"900\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[38].cells[column=12].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[38].cells[column=12].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"25,29\""
+    },
+    {
+      "severity": "error",
+      "path": "text_blocks[source=3]",
+      "message": "Независимая запись оригинала: \"НАЗНАЧЕНИЕ: Предназначены для монтажа стальных канатов, применяемых на ЛЭП в качестве молниезащитных тросов. Изготавливаются по ТУ 3449-001-52819896-2010.\"; в кандидате: \"missing or changed wording\""
+    }
+  ],
+  "observed_table_count": 1,
+  "observed_row_counts": [
+    39
+  ],
+  "observed_column_counts": [
+    13
+  ]
+}

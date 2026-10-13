@@ -1,0 +1,4190 @@
+{
+  "round": 1,
+  "stage": "completed round with separate stages",
+  "primary_grader_release": "0.3.2",
+  "primary_grader_sha256": "f091872c67af7e410490df6b590cb8ac03a05eb6e615351ed281c4ae1687e21d",
+  "snapshot_unix": 1791855106.584658,
+  "runner_component_version": "0.2.0-checkpoint",
+  "elapsed_seconds": 16543.229,
+  "active_budget_seconds": 10880.774,
+  "quota_hold_seconds": 2704.882,
+  "first_pass": {
+    "engineering_correct": 492,
+    "engineering_expected": 520,
+    "engineering_percent": 94.62,
+    "drawing_correct": 4,
+    "drawing_expected": 21,
+    "drawing_percent": 19.05,
+    "correct": 496,
+    "expected": 541,
+    "percent": 91.68,
+    "valid_pages": 17,
+    "selected_pages": 17,
+    "missing_or_failed_pages_count_zero": true
+  },
+  "execution_cases": [
+    {
+      "case_id": "catalog-1-page-027",
+      "physical_page": 27,
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "status": "awaiting_review",
+      "attempt": 2,
+      "elapsed_seconds": 1809.641,
+      "calls": [
+        {
+          "role": "extractor",
+          "attempt": 0,
+          "status": "completed",
+          "started_unix": 1791838529.580281,
+          "elapsed_seconds": 118.639,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "producer": {
+            "status": "receipt_verified",
+            "program": {
+              "package_version": "1.4.15",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+              "python_version": "3.12.13",
+              "components": {
+                "agent_logic": {
+                  "package_version": "1.4.2",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+                  "python_version": "3.12.13"
+                },
+                "catalog_tools": {
+                  "package_version": "1.4.8",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+                  "python_version": "3.12.13"
+                },
+                "legacy_skills": {
+                  "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+                  "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+                },
+                "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+                "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+              }
+            },
+            "artifact_sha256": "89149cf4d4a8ea39fba9da4a13096e4dc9a548edb1cdd3eb723eca32d39cab38",
+            "source_bound_save": true,
+            "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+            "physical_page": 27,
+            "attempt": 0,
+            "role": "extractor",
+            "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+            "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf",
+            "started_at": 1791838532.1264548,
+            "finished_at": 1791838644.508533
+          },
+          "native_elapsed_seconds": 112.382,
+          "artifact": {
+            "file": "round-1/catalog-1-page-027/candidate-0.json",
+            "sha256": "89149cf4d4a8ea39fba9da4a13096e4dc9a548edb1cdd3eb723eca32d39cab38",
+            "bytes": 38863
+          },
+          "reconciled_completed_receipt": false
+        },
+        {
+          "role": "reviewer",
+          "attempt": 0,
+          "status": "completed",
+          "started_unix": 1791838649.01133,
+          "elapsed_seconds": 746.539,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "producer": {
+            "status": "receipt_verified",
+            "program": {
+              "package_version": "1.4.17",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "fff9569e21c4b5fcc401ede854f652c8cfeff4aa46611ef1f4bc6c34788ed021",
+              "python_version": "3.12.13"
+            },
+            "artifact_sha256": "d6fafdf53675fc7492a59abd34af72d7b429e3e13f9961e854efc5871c91efd9",
+            "source_bound_save": true,
+            "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+            "physical_page": 27,
+            "attempt": 0,
+            "role": "reviewer",
+            "model": "zai.glm-5.3-flash?reasoning=low",
+            "contract_sha256": "c73c47d085f908594ae59f64f00db5708525a6d8807c0d541c029f7f212872e2",
+            "started_at": 1791838652.6799626,
+            "finished_at": 1791839390.7668402
+          },
+          "native_elapsed_seconds": 738.087,
+          "artifact": {
+            "file": "round-1/catalog-1-page-027/review-0.json",
+            "sha256": "d6fafdf53675fc7492a59abd34af72d7b429e3e13f9961e854efc5871c91efd9",
+            "bytes": 10194
+          },
+          "reconciled_completed_receipt": false
+        },
+        {
+          "role": "extractor",
+          "attempt": 1,
+          "status": "completed",
+          "started_unix": 1791840498.0231793,
+          "elapsed_seconds": 118.772,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "producer": {
+            "status": "receipt_verified",
+            "program": {
+              "package_version": "1.4.15",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+              "python_version": "3.12.13",
+              "components": {
+                "agent_logic": {
+                  "package_version": "1.4.2",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+                  "python_version": "3.12.13"
+                },
+                "catalog_tools": {
+                  "package_version": "1.4.8",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+                  "python_version": "3.12.13"
+                },
+                "legacy_skills": {
+                  "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+                  "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+                },
+                "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+                "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+              }
+            },
+            "artifact_sha256": "1da5d062eafefc8cff459e39d7af012fd62784d375d695a67180e811476cf25d",
+            "source_bound_save": true,
+            "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+            "physical_page": 27,
+            "attempt": 1,
+            "role": "extractor",
+            "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+            "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf",
+            "started_at": 1791840500.3416507,
+            "finished_at": 1791840611.4555013
+          },
+          "native_elapsed_seconds": 111.114,
+          "artifact": {
+            "file": "round-1/catalog-1-page-027/candidate-1.json",
+            "sha256": "1da5d062eafefc8cff459e39d7af012fd62784d375d695a67180e811476cf25d",
+            "bytes": 39246
+          },
+          "reconciled_completed_receipt": false
+        },
+        {
+          "role": "reviewer",
+          "attempt": 1,
+          "status": "completed",
+          "started_unix": 1791850003.8003948,
+          "elapsed_seconds": 408.01,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "producer": {
+            "status": "receipt_verified",
+            "program": {
+              "package_version": "1.4.17",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "fff9569e21c4b5fcc401ede854f652c8cfeff4aa46611ef1f4bc6c34788ed021",
+              "python_version": "3.12.13"
+            },
+            "artifact_sha256": "dc29fecc36953c0ddd7df37e98351bd1a8341a386f4c152047aeaac228cdb18e",
+            "source_bound_save": true,
+            "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+            "physical_page": 27,
+            "attempt": 1,
+            "role": "reviewer",
+            "model": "zai.glm-5.3-flash?reasoning=low",
+            "contract_sha256": "c73c47d085f908594ae59f64f00db5708525a6d8807c0d541c029f7f212872e2",
+            "started_at": 1791850006.8908856,
+            "finished_at": 1791850409.5157056
+          },
+          "native_elapsed_seconds": 402.625,
+          "artifact": {
+            "file": "round-1/catalog-1-page-027/review-1.json",
+            "sha256": "dc29fecc36953c0ddd7df37e98351bd1a8341a386f4c152047aeaac228cdb18e",
+            "bytes": 11257
+          },
+          "reconciled_completed_receipt": false
+        },
+        {
+          "role": "extractor",
+          "attempt": 2,
+          "status": "completed",
+          "started_unix": 1791850412.4191203,
+          "elapsed_seconds": 417.681,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "producer": {
+            "status": "receipt_verified",
+            "program": {
+              "package_version": "1.4.15",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+              "python_version": "3.12.13",
+              "components": {
+                "agent_logic": {
+                  "package_version": "1.4.2",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+                  "python_version": "3.12.13"
+                },
+                "catalog_tools": {
+                  "package_version": "1.4.8",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+                  "python_version": "3.12.13"
+                },
+                "legacy_skills": {
+                  "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+                  "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+                },
+                "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+                "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+              }
+            },
+            "artifact_sha256": "0d0d78831dc3fd2b4070436597a6c93ad6b63269451a9be220a3f6d67c514df7",
+            "source_bound_save": true,
+            "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+            "physical_page": 27,
+            "attempt": 2,
+            "role": "extractor",
+            "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+            "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf",
+            "started_at": 1791850416.6868577,
+            "finished_at": 1791850825.9710145
+          },
+          "native_elapsed_seconds": 409.284,
+          "artifact": {
+            "file": "round-1/catalog-1-page-027/candidate-2.json",
+            "sha256": "0d0d78831dc3fd2b4070436597a6c93ad6b63269451a9be220a3f6d67c514df7",
+            "bytes": 40988
+          },
+          "reconciled_completed_receipt": false
+        }
+      ],
+      "first_pass_score": "round-1/catalog-1-page-027/first-pass-score-v0.3.2.json",
+      "first_pass_dual_grading": {
+        "baseline_release": "0.3.0",
+        "baseline_grader_sha256": "24b64859fd690d11afd8477c69a0f84336a28338ac0b49981e5300055364d57a",
+        "baseline_score": "round-1/catalog-1-page-027/first-pass-score-v0.3.0.json",
+        "primary_release": "0.3.2",
+        "primary_score": "round-1/catalog-1-page-027/first-pass-score-v0.3.2.json",
+        "baseline_correct": {
+          "engineering": 8,
+          "drawing": 1
+        },
+        "primary_correct": {
+          "engineering": 10,
+          "drawing": 1
+        },
+        "primary_minus_baseline": {
+          "engineering": 2,
+          "drawing": 0
+        },
+        "same_candidate_sha256": "89149cf4d4a8ea39fba9da4a13096e4dc9a548edb1cdd3eb723eca32d39cab38",
+        "candidate_bytes_unchanged": true,
+        "model_calls_performed": 0
+      },
+      "final_score": "round-1/catalog-1-page-027/final-score-v0.3.2.json",
+      "final_dual_grading": {
+        "baseline_release": "0.3.0",
+        "baseline_grader_sha256": "24b64859fd690d11afd8477c69a0f84336a28338ac0b49981e5300055364d57a",
+        "baseline_score": "round-1/catalog-1-page-027/final-score-v0.3.0.json",
+        "primary_release": "0.3.2",
+        "primary_score": "round-1/catalog-1-page-027/final-score-v0.3.2.json",
+        "baseline_correct": {
+          "engineering": 10,
+          "drawing": 2
+        },
+        "primary_correct": {
+          "engineering": 10,
+          "drawing": 2
+        },
+        "primary_minus_baseline": {
+          "engineering": 0,
+          "drawing": 0
+        },
+        "same_candidate_sha256": "0d0d78831dc3fd2b4070436597a6c93ad6b63269451a9be220a3f6d67c514df7",
+        "candidate_bytes_unchanged": true,
+        "model_calls_performed": 0
+      },
+      "engineering_expected": 10,
+      "drawing_expected": 13
+    },
+    {
+      "case_id": "catalog-1-page-039",
+      "physical_page": 39,
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "status": "awaiting_review",
+      "attempt": 2,
+      "elapsed_seconds": 887.5579999999999,
+      "calls": [
+        {
+          "role": "extractor",
+          "attempt": 0,
+          "status": "completed",
+          "started_unix": 1791838648.275787,
+          "elapsed_seconds": 75.718,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "producer": {
+            "status": "receipt_verified",
+            "program": {
+              "package_version": "1.4.15",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+              "python_version": "3.12.13",
+              "components": {
+                "agent_logic": {
+                  "package_version": "1.4.2",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+                  "python_version": "3.12.13"
+                },
+                "catalog_tools": {
+                  "package_version": "1.4.8",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+                  "python_version": "3.12.13"
+                },
+                "legacy_skills": {
+                  "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+                  "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+                },
+                "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+                "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+              }
+            },
+            "artifact_sha256": "29739580488119acd9e82eb6913c18de1561f2bec7e776a049640ce4b0c85970",
+            "source_bound_save": true,
+            "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+            "physical_page": 39,
+            "attempt": 0,
+            "role": "extractor",
+            "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+            "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf",
+            "started_at": 1791838652.041088,
+            "finished_at": 1791838718.222805
+          },
+          "native_elapsed_seconds": 66.182,
+          "artifact": {
+            "file": "round-1/catalog-1-page-039/candidate-0.json",
+            "sha256": "29739580488119acd9e82eb6913c18de1561f2bec7e776a049640ce4b0c85970",
+            "bytes": 16411
+          },
+          "reconciled_completed_receipt": false
+        },
+        {
+          "role": "reviewer",
+          "attempt": 0,
+          "status": "completed",
+          "started_unix": 1791839395.5176551,
+          "elapsed_seconds": 461.048,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "producer": {
+            "status": "receipt_verified",
+            "program": {
+              "package_version": "1.4.17",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "fff9569e21c4b5fcc401ede854f652c8cfeff4aa46611ef1f4bc6c34788ed021",
+              "python_version": "3.12.13"
+            },
+            "artifact_sha256": "24ceabdbcce1e39f469e3ea0d0bc35ad905f6e15c4f8bf83a65ec6d49d3d645d",
+            "source_bound_save": true,
+            "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+            "physical_page": 39,
+            "attempt": 0,
+            "role": "reviewer",
+            "model": "zai.glm-5.3-flash?reasoning=low",
+            "contract_sha256": "c73c47d085f908594ae59f64f00db5708525a6d8807c0d541c029f7f212872e2",
+            "started_at": 1791839398.5747256,
+            "finished_at": 1791839852.5962903
+          },
+          "native_elapsed_seconds": 454.022,
+          "artifact": {
+            "file": "round-1/catalog-1-page-039/review-0.json",
+            "sha256": "24ceabdbcce1e39f469e3ea0d0bc35ad905f6e15c4f8bf83a65ec6d49d3d645d",
+            "bytes": 7462
+          },
+          "reconciled_completed_receipt": false
+        },
+        {
+          "role": "extractor",
+          "attempt": 1,
+          "status": "completed",
+          "started_unix": 1791840616.8348265,
+          "elapsed_seconds": 48.36,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "producer": {
+            "status": "receipt_verified",
+            "program": {
+              "package_version": "1.4.15",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+              "python_version": "3.12.13",
+              "components": {
+                "agent_logic": {
+                  "package_version": "1.4.2",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+                  "python_version": "3.12.13"
+                },
+                "catalog_tools": {
+                  "package_version": "1.4.8",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+                  "python_version": "3.12.13"
+                },
+                "legacy_skills": {
+                  "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+                  "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+                },
+                "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+                "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+              }
+            },
+            "artifact_sha256": "aa52698b29d01922d5b47874e7638fec18075af546cd81f40a869e642d269c1b",
+            "source_bound_save": true,
+            "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+            "physical_page": 39,
+            "attempt": 1,
+            "role": "extractor",
+            "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+            "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf",
+            "started_at": 1791840619.4538805,
+            "finished_at": 1791840660.017935
+          },
+          "native_elapsed_seconds": 40.564,
+          "artifact": {
+            "file": "round-1/catalog-1-page-039/candidate-1.json",
+            "sha256": "aa52698b29d01922d5b47874e7638fec18075af546cd81f40a869e642d269c1b",
+            "bytes": 17471
+          },
+          "reconciled_completed_receipt": false
+        },
+        {
+          "role": "reviewer",
+          "attempt": 1,
+          "status": "completed",
+          "started_unix": 1791850411.84732,
+          "elapsed_seconds": 233.906,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "producer": {
+            "status": "receipt_verified",
+            "program": {
+              "package_version": "1.4.17",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "fff9569e21c4b5fcc401ede854f652c8cfeff4aa46611ef1f4bc6c34788ed021",
+              "python_version": "3.12.13"
+            },
+            "artifact_sha256": "56848c5444f1a99c87f54c572dfcf626499e596909d20a090a8db995616d727d",
+            "source_bound_save": true,
+            "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+            "physical_page": 39,
+            "attempt": 1,
+            "role": "reviewer",
+            "model": "zai.glm-5.3-flash?reasoning=low",
+            "contract_sha256": "c73c47d085f908594ae59f64f00db5708525a6d8807c0d541c029f7f212872e2",
+            "started_at": 1791850414.7841115,
+            "finished_at": 1791850641.5977883
+          },
+          "native_elapsed_seconds": 226.814,
+          "artifact": {
+            "file": "round-1/catalog-1-page-039/review-1.json",
+            "sha256": "56848c5444f1a99c87f54c572dfcf626499e596909d20a090a8db995616d727d",
+            "bytes": 7941
+          },
+          "reconciled_completed_receipt": false
+        },
+        {
+          "role": "extractor",
+          "attempt": 2,
+          "status": "completed",
+          "started_unix": 1791850830.109786,
+          "elapsed_seconds": 68.526,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "producer": {
+            "status": "receipt_verified",
+            "program": {
+              "package_version": "1.4.15",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+              "python_version": "3.12.13",
+              "components": {
+                "agent_logic": {
+                  "package_version": "1.4.2",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+                  "python_version": "3.12.13"
+                },
+                "catalog_tools": {
+                  "package_version": "1.4.8",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+                  "python_version": "3.12.13"
+                },
+                "legacy_skills": {
+                  "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+                  "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+                },
+                "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+                "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+              }
+            },
+            "artifact_sha256": "33f827d12b237e7795d2bf53d0ea44ebf6f3cfa56dd718c76ed24cf9b14dee4e",
+            "source_bound_save": true,
+            "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+            "physical_page": 39,
+            "attempt": 2,
+            "role": "extractor",
+            "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+            "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf",
+            "started_at": 1791850832.55064,
+            "finished_at": 1791850894.9102237
+          },
+          "native_elapsed_seconds": 62.36,
+          "artifact": {
+            "file": "round-1/catalog-1-page-039/candidate-2.json",
+            "sha256": "33f827d12b237e7795d2bf53d0ea44ebf6f3cfa56dd718c76ed24cf9b14dee4e",
+            "bytes": 18304
+          },
+          "reconciled_completed_receipt": false
+        }
+      ],
+      "first_pass_score": "round-1/catalog-1-page-039/first-pass-score-v0.3.2.json",
+      "first_pass_dual_grading": {
+        "baseline_release": "0.3.0",
+        "baseline_grader_sha256": "24b64859fd690d11afd8477c69a0f84336a28338ac0b49981e5300055364d57a",
+        "baseline_score": "round-1/catalog-1-page-039/first-pass-score-v0.3.0.json",
+        "primary_release": "0.3.2",
+        "primary_score": "round-1/catalog-1-page-039/first-pass-score-v0.3.2.json",
+        "baseline_correct": {
+          "engineering": 10,
+          "drawing": 3
+        },
+        "primary_correct": {
+          "engineering": 10,
+          "drawing": 3
+        },
+        "primary_minus_baseline": {
+          "engineering": 0,
+          "drawing": 0
+        },
+        "same_candidate_sha256": "29739580488119acd9e82eb6913c18de1561f2bec7e776a049640ce4b0c85970",
+        "candidate_bytes_unchanged": true,
+        "model_calls_performed": 0
+      },
+      "final_score": "round-1/catalog-1-page-039/final-score-v0.3.2.json",
+      "final_dual_grading": {
+        "baseline_release": "0.3.0",
+        "baseline_grader_sha256": "24b64859fd690d11afd8477c69a0f84336a28338ac0b49981e5300055364d57a",
+        "baseline_score": "round-1/catalog-1-page-039/final-score-v0.3.0.json",
+        "primary_release": "0.3.2",
+        "primary_score": "round-1/catalog-1-page-039/final-score-v0.3.2.json",
+        "baseline_correct": {
+          "engineering": 10,
+          "drawing": 4
+        },
+        "primary_correct": {
+          "engineering": 10,
+          "drawing": 4
+        },
+        "primary_minus_baseline": {
+          "engineering": 0,
+          "drawing": 0
+        },
+        "same_candidate_sha256": "33f827d12b237e7795d2bf53d0ea44ebf6f3cfa56dd718c76ed24cf9b14dee4e",
+        "candidate_bytes_unchanged": true,
+        "model_calls_performed": 0
+      },
+      "engineering_expected": 10,
+      "drawing_expected": 8
+    },
+    {
+      "case_id": "catalog-1-page-017",
+      "physical_page": 17,
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "status": "failed",
+      "attempt": 1,
+      "elapsed_seconds": 1237.093,
+      "calls": [
+        {
+          "role": "extractor",
+          "attempt": 0,
+          "status": "completed",
+          "started_unix": 1791838723.9554179,
+          "elapsed_seconds": 132.739,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "producer": {
+            "status": "receipt_verified",
+            "program": {
+              "package_version": "1.4.15",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+              "python_version": "3.12.13",
+              "components": {
+                "agent_logic": {
+                  "package_version": "1.4.2",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+                  "python_version": "3.12.13"
+                },
+                "catalog_tools": {
+                  "package_version": "1.4.8",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+                  "python_version": "3.12.13"
+                },
+                "legacy_skills": {
+                  "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+                  "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+                },
+                "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+                "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+              }
+            },
+            "artifact_sha256": "a26b0d80574b4b8c2d44106dc8c38d8c3207f186d60732f03a86de3fce9c920f",
+            "source_bound_save": true,
+            "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+            "physical_page": 17,
+            "attempt": 0,
+            "role": "extractor",
+            "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+            "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf",
+            "started_at": 1791838726.5424216,
+            "finished_at": 1791838852.195468
+          },
+          "native_elapsed_seconds": 125.653,
+          "artifact": {
+            "file": "round-1/catalog-1-page-017/candidate-0.json",
+            "sha256": "a26b0d80574b4b8c2d44106dc8c38d8c3207f186d60732f03a86de3fce9c920f",
+            "bytes": 45390
+          },
+          "reconciled_completed_receipt": false
+        },
+        {
+          "role": "reviewer",
+          "attempt": 0,
+          "status": "completed",
+          "started_unix": 1791839856.5533996,
+          "elapsed_seconds": 607.331,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "producer": {
+            "status": "receipt_verified",
+            "program": {
+              "package_version": "1.4.17",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "fff9569e21c4b5fcc401ede854f652c8cfeff4aa46611ef1f4bc6c34788ed021",
+              "python_version": "3.12.13"
+            },
+            "artifact_sha256": "6649a55634ad804564b577f0c57746fc10f846be6931207f5b64791230cc5bd9",
+            "source_bound_save": true,
+            "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+            "physical_page": 17,
+            "attempt": 0,
+            "role": "reviewer",
+            "model": "zai.glm-5.3-flash?reasoning=low",
+            "contract_sha256": "c73c47d085f908594ae59f64f00db5708525a6d8807c0d541c029f7f212872e2",
+            "started_at": 1791839858.4944832,
+            "finished_at": 1791840459.5317671
+          },
+          "native_elapsed_seconds": 601.037,
+          "artifact": {
+            "file": "round-1/catalog-1-page-017/review-0.json",
+            "sha256": "6649a55634ad804564b577f0c57746fc10f846be6931207f5b64791230cc5bd9",
+            "bytes": 14367
+          },
+          "reconciled_completed_receipt": false
+        },
+        {
+          "role": "extractor",
+          "attempt": 1,
+          "status": "failed",
+          "started_unix": 1791840665.1837614,
+          "elapsed_seconds": 497.023,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "native_stop_reason": "END_TURN",
+          "failure_class": "native_agent_without_source_bound_saved_deliverable",
+          "failed_native_log_observations": [
+            {
+              "worker_log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "token_plan_usage_limit_phrase_observed": false,
+              "rate_limit_signal_observed": false,
+              "raw_log_not_published": true
+            }
+          ],
+          "native_response_summary": {
+            "role": "extractor",
+            "stop_reason": "LlmStopReason.END_TURN",
+            "elapsed_seconds": 487.744
+          },
+          "native_response_sidecar_sha256": "a6d594a0bb71ed1e92628e8804a5c2da81d749ab784ec734497ff5b5a846b7cf",
+          "reconciled_completed_receipt": false
+        }
+      ],
+      "first_pass_score": "round-1/catalog-1-page-017/first-pass-score-v0.3.2.json",
+      "first_pass_dual_grading": {
+        "baseline_release": "0.3.0",
+        "baseline_grader_sha256": "24b64859fd690d11afd8477c69a0f84336a28338ac0b49981e5300055364d57a",
+        "baseline_score": "round-1/catalog-1-page-017/first-pass-score-v0.3.0.json",
+        "primary_release": "0.3.2",
+        "primary_score": "round-1/catalog-1-page-017/first-pass-score-v0.3.2.json",
+        "baseline_correct": {
+          "engineering": 15,
+          "drawing": 0
+        },
+        "primary_correct": {
+          "engineering": 15,
+          "drawing": 0
+        },
+        "primary_minus_baseline": {
+          "engineering": 0,
+          "drawing": 0
+        },
+        "same_candidate_sha256": "a26b0d80574b4b8c2d44106dc8c38d8c3207f186d60732f03a86de3fce9c920f",
+        "candidate_bytes_unchanged": true,
+        "model_calls_performed": 0
+      },
+      "final_score": "round-1/catalog-1-page-017/final-score-v0.3.2.json",
+      "final_dual_grading": {
+        "baseline_release": "0.3.0",
+        "baseline_grader_sha256": "24b64859fd690d11afd8477c69a0f84336a28338ac0b49981e5300055364d57a",
+        "baseline_score": "round-1/catalog-1-page-017/final-score-v0.3.0.json",
+        "primary_release": "0.3.2",
+        "primary_score": "round-1/catalog-1-page-017/final-score-v0.3.2.json",
+        "baseline_correct": {
+          "engineering": 15,
+          "drawing": 0
+        },
+        "primary_correct": {
+          "engineering": 15,
+          "drawing": 0
+        },
+        "primary_minus_baseline": {
+          "engineering": 0,
+          "drawing": 0
+        },
+        "same_candidate_sha256": "a26b0d80574b4b8c2d44106dc8c38d8c3207f186d60732f03a86de3fce9c920f",
+        "candidate_bytes_unchanged": true,
+        "model_calls_performed": 0
+      },
+      "engineering_expected": 15,
+      "drawing_expected": 0
+    },
+    {
+      "case_id": "catalog-1-page-022",
+      "physical_page": 22,
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "status": "failed",
+      "attempt": 1,
+      "elapsed_seconds": 1436.4940000000001,
+      "calls": [
+        {
+          "role": "extractor",
+          "attempt": 0,
+          "status": "completed",
+          "started_unix": 1791838856.7231245,
+          "elapsed_seconds": 115.436,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "producer": {
+            "status": "receipt_verified",
+            "program": {
+              "package_version": "1.4.15",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+              "python_version": "3.12.13",
+              "components": {
+                "agent_logic": {
+                  "package_version": "1.4.2",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+                  "python_version": "3.12.13"
+                },
+                "catalog_tools": {
+                  "package_version": "1.4.8",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+                  "python_version": "3.12.13"
+                },
+                "legacy_skills": {
+                  "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+                  "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+                },
+                "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+                "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+              }
+            },
+            "artifact_sha256": "05ecea78443087038b8dc486bd4830deb48f07ea54a9e29201471cbca80f2c09",
+            "source_bound_save": true,
+            "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+            "physical_page": 22,
+            "attempt": 0,
+            "role": "extractor",
+            "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+            "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf",
+            "started_at": 1791838859.2041855,
+            "finished_at": 1791838966.700133
+          },
+          "native_elapsed_seconds": 107.496,
+          "artifact": {
+            "file": "round-1/catalog-1-page-022/candidate-0.json",
+            "sha256": "05ecea78443087038b8dc486bd4830deb48f07ea54a9e29201471cbca80f2c09",
+            "bytes": 41529
+          },
+          "reconciled_completed_receipt": false
+        },
+        {
+          "role": "reviewer",
+          "attempt": 0,
+          "status": "completed",
+          "started_unix": 1791840463.9009874,
+          "elapsed_seconds": 411.669,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "producer": {
+            "status": "receipt_verified",
+            "program": {
+              "package_version": "1.4.17",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "fff9569e21c4b5fcc401ede854f652c8cfeff4aa46611ef1f4bc6c34788ed021",
+              "python_version": "3.12.13"
+            },
+            "artifact_sha256": "9901b9fe0db64d7811e32885d391c37b390ceb75174cae56c0914a835c12d58d",
+            "source_bound_save": true,
+            "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+            "physical_page": 22,
+            "attempt": 0,
+            "role": "reviewer",
+            "model": "zai.glm-5.3-flash?reasoning=low",
+            "contract_sha256": "c73c47d085f908594ae59f64f00db5708525a6d8807c0d541c029f7f212872e2",
+            "started_at": 1791840466.144882,
+            "finished_at": 1791840871.0383797
+          },
+          "native_elapsed_seconds": 404.893,
+          "artifact": {
+            "file": "round-1/catalog-1-page-022/review-0.json",
+            "sha256": "9901b9fe0db64d7811e32885d391c37b390ceb75174cae56c0914a835c12d58d",
+            "bytes": 8144
+          },
+          "reconciled_completed_receipt": false
+        },
+        {
+          "role": "extractor",
+          "attempt": 1,
+          "status": "failed",
+          "started_unix": 1791841162.1890645,
+          "elapsed_seconds": 909.389,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "native_stop_reason": "CANCELLED",
+          "failure_class": "native_agent_without_source_bound_saved_deliverable",
+          "failed_native_log_observations": [
+            {
+              "worker_log_sha256": "8debd8cc6845c809b0a594a48db35bbeaf6a614e28eae9f73fb190dd99d219f2",
+              "token_plan_usage_limit_phrase_observed": false,
+              "rate_limit_signal_observed": false,
+              "raw_log_not_published": true
+            }
+          ],
+          "native_response_summary": {
+            "role": "extractor",
+            "stop_reason": "LlmStopReason.CANCELLED",
+            "elapsed_seconds": 900.127
+          },
+          "native_response_sidecar_sha256": "83c0fb3db978cb79c6c3728c8553e8f6612231d13db3071601b0bfeccbe9f8bb",
+          "reconciled_completed_receipt": false
+        }
+      ],
+      "first_pass_score": "round-1/catalog-1-page-022/first-pass-score-v0.3.2.json",
+      "first_pass_dual_grading": {
+        "baseline_release": "0.3.0",
+        "baseline_grader_sha256": "24b64859fd690d11afd8477c69a0f84336a28338ac0b49981e5300055364d57a",
+        "baseline_score": "round-1/catalog-1-page-022/first-pass-score-v0.3.0.json",
+        "primary_release": "0.3.2",
+        "primary_score": "round-1/catalog-1-page-022/first-pass-score-v0.3.2.json",
+        "baseline_correct": {
+          "engineering": 13,
+          "drawing": 0
+        },
+        "primary_correct": {
+          "engineering": 13,
+          "drawing": 0
+        },
+        "primary_minus_baseline": {
+          "engineering": 0,
+          "drawing": 0
+        },
+        "same_candidate_sha256": "05ecea78443087038b8dc486bd4830deb48f07ea54a9e29201471cbca80f2c09",
+        "candidate_bytes_unchanged": true,
+        "model_calls_performed": 0
+      },
+      "final_score": "round-1/catalog-1-page-022/final-score-v0.3.2.json",
+      "final_dual_grading": {
+        "baseline_release": "0.3.0",
+        "baseline_grader_sha256": "24b64859fd690d11afd8477c69a0f84336a28338ac0b49981e5300055364d57a",
+        "baseline_score": "round-1/catalog-1-page-022/final-score-v0.3.0.json",
+        "primary_release": "0.3.2",
+        "primary_score": "round-1/catalog-1-page-022/final-score-v0.3.2.json",
+        "baseline_correct": {
+          "engineering": 13,
+          "drawing": 0
+        },
+        "primary_correct": {
+          "engineering": 13,
+          "drawing": 0
+        },
+        "primary_minus_baseline": {
+          "engineering": 0,
+          "drawing": 0
+        },
+        "same_candidate_sha256": "05ecea78443087038b8dc486bd4830deb48f07ea54a9e29201471cbca80f2c09",
+        "candidate_bytes_unchanged": true,
+        "model_calls_performed": 0
+      },
+      "engineering_expected": 15,
+      "drawing_expected": 0
+    },
+    {
+      "case_id": "catalog-1-page-026",
+      "physical_page": 26,
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "status": "accepted",
+      "attempt": 0,
+      "elapsed_seconds": 753.7420000000001,
+      "calls": [
+        {
+          "role": "extractor",
+          "attempt": 0,
+          "status": "completed",
+          "started_unix": 1791838972.167503,
+          "elapsed_seconds": 157.734,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "producer": {
+            "status": "receipt_verified",
+            "program": {
+              "package_version": "1.4.15",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+              "python_version": "3.12.13",
+              "components": {
+                "agent_logic": {
+                  "package_version": "1.4.2",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+                  "python_version": "3.12.13"
+                },
+                "catalog_tools": {
+                  "package_version": "1.4.8",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+                  "python_version": "3.12.13"
+                },
+                "legacy_skills": {
+                  "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+                  "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+                },
+                "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+                "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+              }
+            },
+            "artifact_sha256": "42158d485429e73dc32dab49eb5cf1cc865fbff6007170609a60b06bfc83d5b0",
+            "source_bound_save": true,
+            "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+            "physical_page": 26,
+            "attempt": 0,
+            "role": "extractor",
+            "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+            "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf",
+            "started_at": 1791838974.686598,
+            "finished_at": 1791839124.885702
+          },
+          "native_elapsed_seconds": 150.199,
+          "artifact": {
+            "file": "round-1/catalog-1-page-026/candidate-0.json",
+            "sha256": "42158d485429e73dc32dab49eb5cf1cc865fbff6007170609a60b06bfc83d5b0",
+            "bytes": 43112
+          },
+          "reconciled_completed_receipt": false
+        },
+        {
+          "role": "reviewer",
+          "attempt": 0,
+          "status": "completed",
+          "started_unix": 1791840875.606391,
+          "elapsed_seconds": 596.008,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "producer": {
+            "status": "receipt_verified",
+            "program": {
+              "package_version": "1.4.17",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "fff9569e21c4b5fcc401ede854f652c8cfeff4aa46611ef1f4bc6c34788ed021",
+              "python_version": "3.12.13"
+            },
+            "artifact_sha256": "de6bedad102d1b645aa9117f0df3d50433df452cec656215b1afbd56b6b7f465",
+            "source_bound_save": true,
+            "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+            "physical_page": 26,
+            "attempt": 0,
+            "role": "reviewer",
+            "model": "zai.glm-5.3-flash?reasoning=low",
+            "contract_sha256": "c73c47d085f908594ae59f64f00db5708525a6d8807c0d541c029f7f212872e2",
+            "started_at": 1791840878.0155048,
+            "finished_at": 1791841467.5098789
+          },
+          "native_elapsed_seconds": 589.494,
+          "artifact": {
+            "file": "round-1/catalog-1-page-026/review-0.json",
+            "sha256": "de6bedad102d1b645aa9117f0df3d50433df452cec656215b1afbd56b6b7f465",
+            "bytes": 7181
+          },
+          "reconciled_completed_receipt": false
+        }
+      ],
+      "first_pass_score": "round-1/catalog-1-page-026/first-pass-score-v0.3.2.json",
+      "first_pass_dual_grading": {
+        "baseline_release": "0.3.0",
+        "baseline_grader_sha256": "24b64859fd690d11afd8477c69a0f84336a28338ac0b49981e5300055364d57a",
+        "baseline_score": "round-1/catalog-1-page-026/first-pass-score-v0.3.0.json",
+        "primary_release": "0.3.2",
+        "primary_score": "round-1/catalog-1-page-026/first-pass-score-v0.3.2.json",
+        "baseline_correct": {
+          "engineering": 15,
+          "drawing": 0
+        },
+        "primary_correct": {
+          "engineering": 15,
+          "drawing": 0
+        },
+        "primary_minus_baseline": {
+          "engineering": 0,
+          "drawing": 0
+        },
+        "same_candidate_sha256": "42158d485429e73dc32dab49eb5cf1cc865fbff6007170609a60b06bfc83d5b0",
+        "candidate_bytes_unchanged": true,
+        "model_calls_performed": 0
+      },
+      "final_score": "round-1/catalog-1-page-026/final-score-v0.3.2.json",
+      "final_dual_grading": {
+        "baseline_release": "0.3.0",
+        "baseline_grader_sha256": "24b64859fd690d11afd8477c69a0f84336a28338ac0b49981e5300055364d57a",
+        "baseline_score": "round-1/catalog-1-page-026/final-score-v0.3.0.json",
+        "primary_release": "0.3.2",
+        "primary_score": "round-1/catalog-1-page-026/final-score-v0.3.2.json",
+        "baseline_correct": {
+          "engineering": 15,
+          "drawing": 0
+        },
+        "primary_correct": {
+          "engineering": 15,
+          "drawing": 0
+        },
+        "primary_minus_baseline": {
+          "engineering": 0,
+          "drawing": 0
+        },
+        "same_candidate_sha256": "42158d485429e73dc32dab49eb5cf1cc865fbff6007170609a60b06bfc83d5b0",
+        "candidate_bytes_unchanged": true,
+        "model_calls_performed": 0
+      },
+      "engineering_expected": 15,
+      "drawing_expected": 0
+    },
+    {
+      "case_id": "catalog-2-page-060",
+      "physical_page": 60,
+      "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+      "status": "awaiting_review",
+      "attempt": 2,
+      "elapsed_seconds": 1657.5739999999998,
+      "calls": [
+        {
+          "role": "extractor",
+          "attempt": 0,
+          "status": "completed",
+          "started_unix": 1791839129.8812916,
+          "elapsed_seconds": 137.743,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "producer": {
+            "status": "receipt_verified",
+            "program": {
+              "package_version": "1.4.15",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+              "python_version": "3.12.13",
+              "components": {
+                "agent_logic": {
+                  "package_version": "1.4.2",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+                  "python_version": "3.12.13"
+                },
+                "catalog_tools": {
+                  "package_version": "1.4.8",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+                  "python_version": "3.12.13"
+                },
+                "legacy_skills": {
+                  "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+                  "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+                },
+                "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+                "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+              }
+            },
+            "artifact_sha256": "ea3c036cc2674eb9ede2a62493b5742de883e58446575bfb7c074c3b3ac06f66",
+            "source_bound_save": true,
+            "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+            "physical_page": 60,
+            "attempt": 0,
+            "role": "extractor",
+            "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+            "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf",
+            "started_at": 1791839132.371282,
+            "finished_at": 1791839262.300427
+          },
+          "native_elapsed_seconds": 129.929,
+          "artifact": {
+            "file": "round-1/catalog-2-page-060/candidate-0.json",
+            "sha256": "ea3c036cc2674eb9ede2a62493b5742de883e58446575bfb7c074c3b3ac06f66",
+            "bytes": 61259
+          },
+          "reconciled_completed_receipt": false
+        },
+        {
+          "role": "reviewer",
+          "attempt": 0,
+          "status": "completed",
+          "started_unix": 1791841806.462532,
+          "elapsed_seconds": 640.01,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "producer": {
+            "status": "receipt_verified",
+            "program": {
+              "package_version": "1.4.17",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "fff9569e21c4b5fcc401ede854f652c8cfeff4aa46611ef1f4bc6c34788ed021",
+              "python_version": "3.12.13"
+            },
+            "artifact_sha256": "308123f1391b9a55a2883a2ac305afe3fca75088520da403fb8b1b00592f2ca2",
+            "source_bound_save": true,
+            "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+            "physical_page": 60,
+            "attempt": 0,
+            "role": "reviewer",
+            "model": "zai.glm-5.3-flash?reasoning=low",
+            "contract_sha256": "c73c47d085f908594ae59f64f00db5708525a6d8807c0d541c029f7f212872e2",
+            "started_at": 1791841808.496085,
+            "finished_at": 1791842109.0920386
+          },
+          "native_elapsed_seconds": 300.596,
+          "artifact": {
+            "file": "round-1/catalog-2-page-060/review-0.json",
+            "sha256": "308123f1391b9a55a2883a2ac305afe3fca75088520da403fb8b1b00592f2ca2",
+            "bytes": 37857
+          },
+          "reconciled_completed_receipt": false
+        },
+        {
+          "role": "extractor",
+          "attempt": 1,
+          "status": "completed",
+          "started_unix": 1791842112.1937473,
+          "elapsed_seconds": 100.067,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "producer": {
+            "status": "receipt_verified",
+            "program": {
+              "package_version": "1.4.15",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+              "python_version": "3.12.13",
+              "components": {
+                "agent_logic": {
+                  "package_version": "1.4.2",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+                  "python_version": "3.12.13"
+                },
+                "catalog_tools": {
+                  "package_version": "1.4.8",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+                  "python_version": "3.12.13"
+                },
+                "legacy_skills": {
+                  "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+                  "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+                },
+                "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+                "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+              }
+            },
+            "artifact_sha256": "4551eddfd67996c1152ff56abd0f544b80a969c5540ded840956eab0f2ae307f",
+            "source_bound_save": true,
+            "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+            "physical_page": 60,
+            "attempt": 1,
+            "role": "extractor",
+            "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+            "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf",
+            "started_at": 1791842116.8283935,
+            "finished_at": 1791842206.4604914
+          },
+          "native_elapsed_seconds": 89.632,
+          "artifact": {
+            "file": "round-1/catalog-2-page-060/candidate-1.json",
+            "sha256": "4551eddfd67996c1152ff56abd0f544b80a969c5540ded840956eab0f2ae307f",
+            "bytes": 61628
+          },
+          "reconciled_completed_receipt": false
+        },
+        {
+          "role": "reviewer",
+          "attempt": 1,
+          "status": "completed",
+          "started_unix": 1791850645.74672,
+          "elapsed_seconds": 719.664,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "producer": {
+            "status": "receipt_verified",
+            "program": {
+              "package_version": "1.4.17",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "fff9569e21c4b5fcc401ede854f652c8cfeff4aa46611ef1f4bc6c34788ed021",
+              "python_version": "3.12.13"
+            },
+            "artifact_sha256": "ba9feb5da03e42486bed36a3cac44f393855daedf41062092cc36a34783dde7e",
+            "source_bound_save": true,
+            "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+            "physical_page": 60,
+            "attempt": 1,
+            "role": "reviewer",
+            "model": "zai.glm-5.3-flash?reasoning=low",
+            "contract_sha256": "c73c47d085f908594ae59f64f00db5708525a6d8807c0d541c029f7f212872e2",
+            "started_at": 1791850647.8577127,
+            "finished_at": 1791851363.1049898
+          },
+          "native_elapsed_seconds": 715.247,
+          "artifact": {
+            "file": "round-1/catalog-2-page-060/review-1.json",
+            "sha256": "ba9feb5da03e42486bed36a3cac44f393855daedf41062092cc36a34783dde7e",
+            "bytes": 17762
+          },
+          "reconciled_completed_receipt": false
+        },
+        {
+          "role": "extractor",
+          "attempt": 2,
+          "status": "completed",
+          "started_unix": 1791851365.9506302,
+          "elapsed_seconds": 60.09,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "producer": {
+            "status": "receipt_verified",
+            "program": {
+              "package_version": "1.4.15",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+              "python_version": "3.12.13",
+              "components": {
+                "agent_logic": {
+                  "package_version": "1.4.2",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+                  "python_version": "3.12.13"
+                },
+                "catalog_tools": {
+                  "package_version": "1.4.8",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+                  "python_version": "3.12.13"
+                },
+                "legacy_skills": {
+                  "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+                  "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+                },
+                "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+                "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+              }
+            },
+            "artifact_sha256": "113ec8639398b866cb622c1ee45f2520d2be4bc95c759e84848330bd8d5ee588",
+            "source_bound_save": true,
+            "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+            "physical_page": 60,
+            "attempt": 2,
+            "role": "extractor",
+            "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+            "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf",
+            "started_at": 1791851369.9510262,
+            "finished_at": 1791851421.5140293
+          },
+          "native_elapsed_seconds": 51.563,
+          "artifact": {
+            "file": "round-1/catalog-2-page-060/candidate-2.json",
+            "sha256": "113ec8639398b866cb622c1ee45f2520d2be4bc95c759e84848330bd8d5ee588",
+            "bytes": 62048
+          },
+          "reconciled_completed_receipt": false
+        }
+      ],
+      "first_pass_score": "round-1/catalog-2-page-060/first-pass-score-v0.3.2.json",
+      "first_pass_dual_grading": {
+        "baseline_release": "0.3.0",
+        "baseline_grader_sha256": "24b64859fd690d11afd8477c69a0f84336a28338ac0b49981e5300055364d57a",
+        "baseline_score": "round-1/catalog-2-page-060/first-pass-score-v0.3.0.json",
+        "primary_release": "0.3.2",
+        "primary_score": "round-1/catalog-2-page-060/first-pass-score-v0.3.2.json",
+        "baseline_correct": {
+          "engineering": 12,
+          "drawing": 0
+        },
+        "primary_correct": {
+          "engineering": 12,
+          "drawing": 0
+        },
+        "primary_minus_baseline": {
+          "engineering": 0,
+          "drawing": 0
+        },
+        "same_candidate_sha256": "ea3c036cc2674eb9ede2a62493b5742de883e58446575bfb7c074c3b3ac06f66",
+        "candidate_bytes_unchanged": true,
+        "model_calls_performed": 0
+      },
+      "final_score": "round-1/catalog-2-page-060/final-score-v0.3.2.json",
+      "final_dual_grading": {
+        "baseline_release": "0.3.0",
+        "baseline_grader_sha256": "24b64859fd690d11afd8477c69a0f84336a28338ac0b49981e5300055364d57a",
+        "baseline_score": "round-1/catalog-2-page-060/final-score-v0.3.0.json",
+        "primary_release": "0.3.2",
+        "primary_score": "round-1/catalog-2-page-060/final-score-v0.3.2.json",
+        "baseline_correct": {
+          "engineering": 12,
+          "drawing": 0
+        },
+        "primary_correct": {
+          "engineering": 12,
+          "drawing": 0
+        },
+        "primary_minus_baseline": {
+          "engineering": 0,
+          "drawing": 0
+        },
+        "same_candidate_sha256": "113ec8639398b866cb622c1ee45f2520d2be4bc95c759e84848330bd8d5ee588",
+        "candidate_bytes_unchanged": true,
+        "model_calls_performed": 0
+      },
+      "engineering_expected": 15,
+      "drawing_expected": 0
+    },
+    {
+      "case_id": "catalog-2-page-149",
+      "physical_page": 149,
+      "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+      "status": "failed",
+      "attempt": 1,
+      "elapsed_seconds": 1187.995,
+      "calls": [
+        {
+          "role": "extractor",
+          "attempt": 0,
+          "status": "completed",
+          "started_unix": 1791839267.6464295,
+          "elapsed_seconds": 115.551,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "producer": {
+            "status": "receipt_verified",
+            "program": {
+              "package_version": "1.4.15",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+              "python_version": "3.12.13",
+              "components": {
+                "agent_logic": {
+                  "package_version": "1.4.2",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+                  "python_version": "3.12.13"
+                },
+                "catalog_tools": {
+                  "package_version": "1.4.8",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+                  "python_version": "3.12.13"
+                },
+                "legacy_skills": {
+                  "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+                  "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+                },
+                "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+                "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+              }
+            },
+            "artifact_sha256": "911ed8d7890eab23363251ca31d78de1e58c63468794f85fafb0a4694112ae58",
+            "source_bound_save": true,
+            "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+            "physical_page": 149,
+            "attempt": 0,
+            "role": "extractor",
+            "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+            "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf",
+            "started_at": 1791839270.0950918,
+            "finished_at": 1791839378.0697854
+          },
+          "native_elapsed_seconds": 107.975,
+          "artifact": {
+            "file": "round-1/catalog-2-page-149/candidate-0.json",
+            "sha256": "911ed8d7890eab23363251ca31d78de1e58c63468794f85fafb0a4694112ae58",
+            "bytes": 22326
+          },
+          "reconciled_completed_receipt": false
+        },
+        {
+          "role": "reviewer",
+          "attempt": 0,
+          "status": "completed",
+          "started_unix": 1791842111.6140902,
+          "elapsed_seconds": 396.51,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "producer": {
+            "status": "receipt_verified",
+            "program": {
+              "package_version": "1.4.17",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "fff9569e21c4b5fcc401ede854f652c8cfeff4aa46611ef1f4bc6c34788ed021",
+              "python_version": "3.12.13"
+            },
+            "artifact_sha256": "9801ef4f1fad613a3c921dd2fa3b7fcdaa875ca4b74b973d4b05c3f311ca77a4",
+            "source_bound_save": true,
+            "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+            "physical_page": 149,
+            "attempt": 0,
+            "role": "reviewer",
+            "model": "zai.glm-5.3-flash?reasoning=low",
+            "contract_sha256": "c73c47d085f908594ae59f64f00db5708525a6d8807c0d541c029f7f212872e2",
+            "started_at": 1791842114.7872264,
+            "finished_at": 1791842505.3729415
+          },
+          "native_elapsed_seconds": 390.586,
+          "artifact": {
+            "file": "round-1/catalog-2-page-149/review-0.json",
+            "sha256": "9801ef4f1fad613a3c921dd2fa3b7fcdaa875ca4b74b973d4b05c3f311ca77a4",
+            "bytes": 19591
+          },
+          "reconciled_completed_receipt": false
+        },
+        {
+          "role": "extractor",
+          "attempt": 1,
+          "status": "failed",
+          "started_unix": 1791842508.7602038,
+          "elapsed_seconds": 675.934,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "native_stop_reason": null,
+          "failure_class": "subscription_token_plan_limit_observed",
+          "failed_native_log_observations": [
+            {
+              "worker_log_sha256": "d57f8e3b3de07be1c8493feb6ff5680d736a8346104d0c6b4e72e72071e6378e",
+              "token_plan_usage_limit_phrase_observed": true,
+              "rate_limit_signal_observed": true,
+              "raw_log_not_published": true
+            }
+          ],
+          "native_response_summary": {
+            "role": "extractor",
+            "stop_reason": "LlmStopReason.ERROR",
+            "elapsed_seconds": 661.571
+          },
+          "native_response_sidecar_sha256": "7c179b5048ff444e3aabc712df918b10bdf307d5b18ba1ad5f41df8752761159",
+          "reconciled_completed_receipt": false
+        }
+      ],
+      "first_pass_score": "round-1/catalog-2-page-149/first-pass-score-v0.3.2.json",
+      "first_pass_dual_grading": {
+        "baseline_release": "0.3.0",
+        "baseline_grader_sha256": "24b64859fd690d11afd8477c69a0f84336a28338ac0b49981e5300055364d57a",
+        "baseline_score": "round-1/catalog-2-page-149/first-pass-score-v0.3.0.json",
+        "primary_release": "0.3.2",
+        "primary_score": "round-1/catalog-2-page-149/first-pass-score-v0.3.2.json",
+        "baseline_correct": {
+          "engineering": 15,
+          "drawing": 0
+        },
+        "primary_correct": {
+          "engineering": 15,
+          "drawing": 0
+        },
+        "primary_minus_baseline": {
+          "engineering": 0,
+          "drawing": 0
+        },
+        "same_candidate_sha256": "911ed8d7890eab23363251ca31d78de1e58c63468794f85fafb0a4694112ae58",
+        "candidate_bytes_unchanged": true,
+        "model_calls_performed": 0
+      },
+      "final_score": "round-1/catalog-2-page-149/final-score-v0.3.2.json",
+      "final_dual_grading": {
+        "baseline_release": "0.3.0",
+        "baseline_grader_sha256": "24b64859fd690d11afd8477c69a0f84336a28338ac0b49981e5300055364d57a",
+        "baseline_score": "round-1/catalog-2-page-149/final-score-v0.3.0.json",
+        "primary_release": "0.3.2",
+        "primary_score": "round-1/catalog-2-page-149/final-score-v0.3.2.json",
+        "baseline_correct": {
+          "engineering": 15,
+          "drawing": 0
+        },
+        "primary_correct": {
+          "engineering": 15,
+          "drawing": 0
+        },
+        "primary_minus_baseline": {
+          "engineering": 0,
+          "drawing": 0
+        },
+        "same_candidate_sha256": "911ed8d7890eab23363251ca31d78de1e58c63468794f85fafb0a4694112ae58",
+        "candidate_bytes_unchanged": true,
+        "model_calls_performed": 0
+      },
+      "engineering_expected": 15,
+      "drawing_expected": 0
+    },
+    {
+      "case_id": "catalog-2-page-185",
+      "physical_page": 185,
+      "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+      "status": "failed",
+      "attempt": 1,
+      "elapsed_seconds": 844.335,
+      "calls": [
+        {
+          "role": "extractor",
+          "attempt": 0,
+          "status": "completed",
+          "started_unix": 1791839383.169072,
+          "elapsed_seconds": 89.303,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "producer": {
+            "status": "receipt_verified",
+            "program": {
+              "package_version": "1.4.15",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+              "python_version": "3.12.13",
+              "components": {
+                "agent_logic": {
+                  "package_version": "1.4.2",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+                  "python_version": "3.12.13"
+                },
+                "catalog_tools": {
+                  "package_version": "1.4.8",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+                  "python_version": "3.12.13"
+                },
+                "legacy_skills": {
+                  "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+                  "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+                },
+                "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+                "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+              }
+            },
+            "artifact_sha256": "f4714c70587d9cc4419360df1a0b47c6d6a4ede9d2e85d25bda9ddc6c7dc09b4",
+            "source_bound_save": true,
+            "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+            "physical_page": 185,
+            "attempt": 0,
+            "role": "extractor",
+            "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+            "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf",
+            "started_at": 1791839385.880416,
+            "finished_at": 1791839468.302134
+          },
+          "native_elapsed_seconds": 82.422,
+          "artifact": {
+            "file": "round-1/catalog-2-page-185/candidate-0.json",
+            "sha256": "f4714c70587d9cc4419360df1a0b47c6d6a4ede9d2e85d25bda9ddc6c7dc09b4",
+            "bytes": 57304
+          },
+          "reconciled_completed_receipt": false
+        },
+        {
+          "role": "reviewer",
+          "attempt": 0,
+          "status": "completed",
+          "started_unix": 1791842508.1446261,
+          "elapsed_seconds": 666.668,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "producer": {
+            "status": "receipt_verified",
+            "program": {
+              "package_version": "1.4.17",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "fff9569e21c4b5fcc401ede854f652c8cfeff4aa46611ef1f4bc6c34788ed021",
+              "python_version": "3.12.13"
+            },
+            "artifact_sha256": "d39ffd651687aaad601f05dc195cf12ab864fa70d006b1fe58868c96e414c153",
+            "source_bound_save": true,
+            "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+            "physical_page": 185,
+            "attempt": 0,
+            "role": "reviewer",
+            "model": "zai.glm-5.3-flash?reasoning=low",
+            "contract_sha256": "c73c47d085f908594ae59f64f00db5708525a6d8807c0d541c029f7f212872e2",
+            "started_at": 1791842511.1885316,
+            "finished_at": 1791843169.664985
+          },
+          "native_elapsed_seconds": 658.476,
+          "artifact": {
+            "file": "round-1/catalog-2-page-185/review-0.json",
+            "sha256": "d39ffd651687aaad601f05dc195cf12ab864fa70d006b1fe58868c96e414c153",
+            "bytes": 20880
+          },
+          "reconciled_completed_receipt": false
+        },
+        {
+          "role": "extractor",
+          "attempt": 1,
+          "status": "failed",
+          "started_unix": 1791843220.3983502,
+          "elapsed_seconds": 88.364,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "native_stop_reason": null,
+          "failure_class": "subscription_token_plan_limit_observed",
+          "failed_native_log_observations": [
+            {
+              "worker_log_sha256": "746d66ce2c69838986b2de0221793f3a8b36d31cd43f2b74ab000c0432185de0",
+              "token_plan_usage_limit_phrase_observed": true,
+              "rate_limit_signal_observed": true,
+              "raw_log_not_published": true
+            }
+          ],
+          "native_response_summary": {
+            "role": "extractor",
+            "stop_reason": "LlmStopReason.ERROR",
+            "elapsed_seconds": 43.786
+          },
+          "native_response_sidecar_sha256": "f7f79671e4a9c68ade2af3097e129754b3223247479811eef53cd759cfd85b3c",
+          "reconciled_completed_receipt": false
+        }
+      ],
+      "first_pass_score": "round-1/catalog-2-page-185/first-pass-score-v0.3.2.json",
+      "first_pass_dual_grading": {
+        "baseline_release": "0.3.0",
+        "baseline_grader_sha256": "24b64859fd690d11afd8477c69a0f84336a28338ac0b49981e5300055364d57a",
+        "baseline_score": "round-1/catalog-2-page-185/first-pass-score-v0.3.0.json",
+        "primary_release": "0.3.2",
+        "primary_score": "round-1/catalog-2-page-185/first-pass-score-v0.3.2.json",
+        "baseline_correct": {
+          "engineering": 8,
+          "drawing": 0
+        },
+        "primary_correct": {
+          "engineering": 8,
+          "drawing": 0
+        },
+        "primary_minus_baseline": {
+          "engineering": 0,
+          "drawing": 0
+        },
+        "same_candidate_sha256": "f4714c70587d9cc4419360df1a0b47c6d6a4ede9d2e85d25bda9ddc6c7dc09b4",
+        "candidate_bytes_unchanged": true,
+        "model_calls_performed": 0
+      },
+      "final_score": "round-1/catalog-2-page-185/final-score-v0.3.2.json",
+      "final_dual_grading": {
+        "baseline_release": "0.3.0",
+        "baseline_grader_sha256": "24b64859fd690d11afd8477c69a0f84336a28338ac0b49981e5300055364d57a",
+        "baseline_score": "round-1/catalog-2-page-185/final-score-v0.3.0.json",
+        "primary_release": "0.3.2",
+        "primary_score": "round-1/catalog-2-page-185/final-score-v0.3.2.json",
+        "baseline_correct": {
+          "engineering": 8,
+          "drawing": 0
+        },
+        "primary_correct": {
+          "engineering": 8,
+          "drawing": 0
+        },
+        "primary_minus_baseline": {
+          "engineering": 0,
+          "drawing": 0
+        },
+        "same_candidate_sha256": "f4714c70587d9cc4419360df1a0b47c6d6a4ede9d2e85d25bda9ddc6c7dc09b4",
+        "candidate_bytes_unchanged": true,
+        "model_calls_performed": 0
+      },
+      "engineering_expected": 15,
+      "drawing_expected": 0
+    },
+    {
+      "case_id": "catalog-3-page-103",
+      "physical_page": 103,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "status": "awaiting_review",
+      "attempt": 2,
+      "elapsed_seconds": 2631.865,
+      "calls": [
+        {
+          "role": "extractor",
+          "attempt": 0,
+          "status": "completed",
+          "started_unix": 1791839472.5070615,
+          "elapsed_seconds": 218.667,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "producer": {
+            "status": "receipt_verified",
+            "program": {
+              "package_version": "1.4.15",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+              "python_version": "3.12.13",
+              "components": {
+                "agent_logic": {
+                  "package_version": "1.4.2",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+                  "python_version": "3.12.13"
+                },
+                "catalog_tools": {
+                  "package_version": "1.4.8",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+                  "python_version": "3.12.13"
+                },
+                "legacy_skills": {
+                  "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+                  "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+                },
+                "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+                "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+              }
+            },
+            "artifact_sha256": "3cec8eaffa2123c98a250eaeb396a3504f6a3b76fb09c36c8d34be92dd61440b",
+            "source_bound_save": true,
+            "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+            "physical_page": 103,
+            "attempt": 0,
+            "role": "extractor",
+            "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+            "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf",
+            "started_at": 1791839474.966316,
+            "finished_at": 1791839686.2949646
+          },
+          "native_elapsed_seconds": 211.329,
+          "artifact": {
+            "file": "round-1/catalog-3-page-103/candidate-0.json",
+            "sha256": "3cec8eaffa2123c98a250eaeb396a3504f6a3b76fb09c36c8d34be92dd61440b",
+            "bytes": 135398
+          },
+          "reconciled_completed_receipt": false
+        },
+        {
+          "role": "reviewer",
+          "attempt": 0,
+          "status": "completed",
+          "started_unix": 1791843174.7883632,
+          "elapsed_seconds": 1165.211,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "producer": {
+            "status": "receipt_verified",
+            "program": {
+              "package_version": "1.4.17",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "fff9569e21c4b5fcc401ede854f652c8cfeff4aa46611ef1f4bc6c34788ed021",
+              "python_version": "3.12.13"
+            },
+            "artifact_sha256": "e95b1c3d5886371dbaffeb6579fb88411b39b75bad004a42619d11a68345e4bc",
+            "source_bound_save": true,
+            "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+            "physical_page": 103,
+            "attempt": 0,
+            "role": "reviewer",
+            "model": "zai.glm-5.3-flash?reasoning=low",
+            "contract_sha256": "c73c47d085f908594ae59f64f00db5708525a6d8807c0d541c029f7f212872e2",
+            "started_at": 1791843177.3546128,
+            "finished_at": 1791844337.2451336
+          },
+          "native_elapsed_seconds": 1159.891,
+          "artifact": {
+            "file": "round-1/catalog-3-page-103/review-0.json",
+            "sha256": "e95b1c3d5886371dbaffeb6579fb88411b39b75bad004a42619d11a68345e4bc",
+            "bytes": 7278
+          },
+          "reconciled_completed_receipt": false
+        },
+        {
+          "role": "extractor",
+          "attempt": 1,
+          "status": "completed",
+          "started_unix": 1791850003.1845279,
+          "elapsed_seconds": 43.774,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "producer": {
+            "status": "receipt_verified",
+            "program": {
+              "package_version": "1.4.15",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+              "python_version": "3.12.13",
+              "components": {
+                "agent_logic": {
+                  "package_version": "1.4.2",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+                  "python_version": "3.12.13"
+                },
+                "catalog_tools": {
+                  "package_version": "1.4.8",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+                  "python_version": "3.12.13"
+                },
+                "legacy_skills": {
+                  "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+                  "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+                },
+                "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+                "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+              }
+            },
+            "artifact_sha256": "ee3a6bccbe32b9cf77d176aa6aef2594d036548fd18189a0aa1efdae253e281c",
+            "source_bound_save": true,
+            "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+            "physical_page": 103,
+            "attempt": 1,
+            "role": "extractor",
+            "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+            "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf",
+            "started_at": 1791850006.5638342,
+            "finished_at": 1791850043.0365188
+          },
+          "native_elapsed_seconds": 36.473,
+          "artifact": {
+            "file": "round-1/catalog-3-page-103/candidate-1.json",
+            "sha256": "ee3a6bccbe32b9cf77d176aa6aef2594d036548fd18189a0aa1efdae253e281c",
+            "bytes": 135386
+          },
+          "reconciled_completed_receipt": false
+        },
+        {
+          "role": "reviewer",
+          "attempt": 1,
+          "status": "completed",
+          "started_unix": 1791853195.7600052,
+          "elapsed_seconds": 1016.539,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "producer": {
+            "status": "receipt_verified",
+            "program": {
+              "package_version": "1.4.17",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "fff9569e21c4b5fcc401ede854f652c8cfeff4aa46611ef1f4bc6c34788ed021",
+              "python_version": "3.12.13"
+            },
+            "artifact_sha256": "6b5bee0bb538c5419ad9195fa7b68194d48f6cbb7313728e3a7232a381db4428",
+            "source_bound_save": true,
+            "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+            "physical_page": 103,
+            "attempt": 1,
+            "role": "reviewer",
+            "model": "zai.glm-5.3-flash?reasoning=low",
+            "contract_sha256": "c73c47d085f908594ae59f64f00db5708525a6d8807c0d541c029f7f212872e2",
+            "started_at": 1791853198.7506022,
+            "finished_at": 1791854209.9689386
+          },
+          "native_elapsed_seconds": 1011.218,
+          "artifact": {
+            "file": "round-1/catalog-3-page-103/review-1.json",
+            "sha256": "6b5bee0bb538c5419ad9195fa7b68194d48f6cbb7313728e3a7232a381db4428",
+            "bytes": 9978
+          },
+          "reconciled_completed_receipt": false
+        },
+        {
+          "role": "extractor",
+          "attempt": 2,
+          "status": "completed",
+          "started_unix": 1791854212.9127433,
+          "elapsed_seconds": 187.674,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "producer": {
+            "status": "receipt_verified",
+            "program": {
+              "package_version": "1.4.15",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+              "python_version": "3.12.13",
+              "components": {
+                "agent_logic": {
+                  "package_version": "1.4.2",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+                  "python_version": "3.12.13"
+                },
+                "catalog_tools": {
+                  "package_version": "1.4.8",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+                  "python_version": "3.12.13"
+                },
+                "legacy_skills": {
+                  "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+                  "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+                },
+                "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+                "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+              }
+            },
+            "artifact_sha256": "d4e68c466edd6139c28b13d1f077bfe1bfe6088ab26d9f49752a3c8d5337c418",
+            "source_bound_save": true,
+            "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+            "physical_page": 103,
+            "attempt": 2,
+            "role": "extractor",
+            "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+            "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf",
+            "started_at": 1791854217.0680795,
+            "finished_at": 1791854396.515415
+          },
+          "native_elapsed_seconds": 179.447,
+          "artifact": {
+            "file": "round-1/catalog-3-page-103/candidate-2.json",
+            "sha256": "d4e68c466edd6139c28b13d1f077bfe1bfe6088ab26d9f49752a3c8d5337c418",
+            "bytes": 136476
+          },
+          "reconciled_completed_receipt": false
+        }
+      ],
+      "first_pass_score": "round-1/catalog-3-page-103/first-pass-score-v0.3.2.json",
+      "first_pass_dual_grading": {
+        "baseline_release": "0.3.0",
+        "baseline_grader_sha256": "24b64859fd690d11afd8477c69a0f84336a28338ac0b49981e5300055364d57a",
+        "baseline_score": "round-1/catalog-3-page-103/first-pass-score-v0.3.0.json",
+        "primary_release": "0.3.2",
+        "primary_score": "round-1/catalog-3-page-103/first-pass-score-v0.3.2.json",
+        "baseline_correct": {
+          "engineering": 15,
+          "drawing": 0
+        },
+        "primary_correct": {
+          "engineering": 15,
+          "drawing": 0
+        },
+        "primary_minus_baseline": {
+          "engineering": 0,
+          "drawing": 0
+        },
+        "same_candidate_sha256": "3cec8eaffa2123c98a250eaeb396a3504f6a3b76fb09c36c8d34be92dd61440b",
+        "candidate_bytes_unchanged": true,
+        "model_calls_performed": 0
+      },
+      "final_score": "round-1/catalog-3-page-103/final-score-v0.3.2.json",
+      "final_dual_grading": {
+        "baseline_release": "0.3.0",
+        "baseline_grader_sha256": "24b64859fd690d11afd8477c69a0f84336a28338ac0b49981e5300055364d57a",
+        "baseline_score": "round-1/catalog-3-page-103/final-score-v0.3.0.json",
+        "primary_release": "0.3.2",
+        "primary_score": "round-1/catalog-3-page-103/final-score-v0.3.2.json",
+        "baseline_correct": {
+          "engineering": 15,
+          "drawing": 0
+        },
+        "primary_correct": {
+          "engineering": 15,
+          "drawing": 0
+        },
+        "primary_minus_baseline": {
+          "engineering": 0,
+          "drawing": 0
+        },
+        "same_candidate_sha256": "d4e68c466edd6139c28b13d1f077bfe1bfe6088ab26d9f49752a3c8d5337c418",
+        "candidate_bytes_unchanged": true,
+        "model_calls_performed": 0
+      },
+      "engineering_expected": 15,
+      "drawing_expected": 0
+    },
+    {
+      "case_id": "catalog-3-page-108",
+      "physical_page": 108,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "status": "deferred_without_new_call",
+      "attempt": 2,
+      "elapsed_seconds": 1914.498,
+      "calls": [
+        {
+          "role": "extractor",
+          "attempt": 0,
+          "status": "completed",
+          "started_unix": 1791839691.1342435,
+          "elapsed_seconds": 87.669,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "producer": {
+            "status": "receipt_verified",
+            "program": {
+              "package_version": "1.4.15",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+              "python_version": "3.12.13",
+              "components": {
+                "agent_logic": {
+                  "package_version": "1.4.2",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+                  "python_version": "3.12.13"
+                },
+                "catalog_tools": {
+                  "package_version": "1.4.8",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+                  "python_version": "3.12.13"
+                },
+                "legacy_skills": {
+                  "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+                  "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+                },
+                "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+                "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+              }
+            },
+            "artifact_sha256": "524f10a95d3478945ff92cf942328e132b51fc3618832d041aa34f9957fe8488",
+            "source_bound_save": true,
+            "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+            "physical_page": 108,
+            "attempt": 0,
+            "role": "extractor",
+            "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+            "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf",
+            "started_at": 1791839693.4386601,
+            "finished_at": 1791839774.1324267
+          },
+          "native_elapsed_seconds": 80.694,
+          "artifact": {
+            "file": "round-1/catalog-3-page-108/candidate-0.json",
+            "sha256": "524f10a95d3478945ff92cf942328e132b51fc3618832d041aa34f9957fe8488",
+            "bytes": 43721
+          },
+          "reconciled_completed_receipt": false
+        },
+        {
+          "role": "reviewer",
+          "attempt": 0,
+          "status": "completed",
+          "started_unix": 1791844340.0090582,
+          "elapsed_seconds": 914.893,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "producer": {
+            "status": "receipt_verified",
+            "program": {
+              "package_version": "1.4.17",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "fff9569e21c4b5fcc401ede854f652c8cfeff4aa46611ef1f4bc6c34788ed021",
+              "python_version": "3.12.13"
+            },
+            "artifact_sha256": "375390ccbb6f5c63a53273eb3c7fab0594e9fe3ecaa0917dced2864967984072",
+            "source_bound_save": true,
+            "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+            "physical_page": 108,
+            "attempt": 0,
+            "role": "reviewer",
+            "model": "zai.glm-5.3-flash?reasoning=low",
+            "contract_sha256": "c73c47d085f908594ae59f64f00db5708525a6d8807c0d541c029f7f212872e2",
+            "started_at": 1791844341.9446151,
+            "finished_at": 1791845252.1789794
+          },
+          "native_elapsed_seconds": 910.234,
+          "artifact": {
+            "file": "round-1/catalog-3-page-108/review-0.json",
+            "sha256": "375390ccbb6f5c63a53273eb3c7fab0594e9fe3ecaa0917dced2864967984072",
+            "bytes": 11496
+          },
+          "reconciled_completed_receipt": false
+        },
+        {
+          "role": "extractor",
+          "attempt": 1,
+          "status": "completed",
+          "started_unix": 1791850046.9532888,
+          "elapsed_seconds": 52.396,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "producer": {
+            "status": "receipt_verified",
+            "program": {
+              "package_version": "1.4.15",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+              "python_version": "3.12.13",
+              "components": {
+                "agent_logic": {
+                  "package_version": "1.4.2",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+                  "python_version": "3.12.13"
+                },
+                "catalog_tools": {
+                  "package_version": "1.4.8",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+                  "python_version": "3.12.13"
+                },
+                "legacy_skills": {
+                  "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+                  "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+                },
+                "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+                "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+              }
+            },
+            "artifact_sha256": "9be4e88c63ab9d246d95d71e4968ba10fd083ffa5721adb1fb31ee931ff72ba9",
+            "source_bound_save": true,
+            "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+            "physical_page": 108,
+            "attempt": 1,
+            "role": "extractor",
+            "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+            "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf",
+            "started_at": 1791850049.1587381,
+            "finished_at": 1791850095.3040206
+          },
+          "native_elapsed_seconds": 46.145,
+          "artifact": {
+            "file": "round-1/catalog-3-page-108/candidate-1.json",
+            "sha256": "9be4e88c63ab9d246d95d71e4968ba10fd083ffa5721adb1fb31ee931ff72ba9",
+            "bytes": 44552
+          },
+          "reconciled_completed_receipt": false
+        },
+        {
+          "role": "reviewer",
+          "attempt": 1,
+          "status": "completed",
+          "started_unix": 1791854212.3196633,
+          "elapsed_seconds": 859.54,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "producer": {
+            "status": "receipt_verified",
+            "program": {
+              "package_version": "1.4.17",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "fff9569e21c4b5fcc401ede854f652c8cfeff4aa46611ef1f4bc6c34788ed021",
+              "python_version": "3.12.13"
+            },
+            "artifact_sha256": "5641b2ae4627576f47c6c52fb03172b8cfbc636d0fcc6a5dc5c65ddb576de9c5",
+            "source_bound_save": true,
+            "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+            "physical_page": 108,
+            "attempt": 1,
+            "role": "reviewer",
+            "model": "zai.glm-5.3-flash?reasoning=low",
+            "contract_sha256": "c73c47d085f908594ae59f64f00db5708525a6d8807c0d541c029f7f212872e2",
+            "started_at": 1791854215.3444202,
+            "finished_at": 1791855069.4862819
+          },
+          "native_elapsed_seconds": 854.142,
+          "artifact": {
+            "file": "round-1/catalog-3-page-108/review-1.json",
+            "sha256": "5641b2ae4627576f47c6c52fb03172b8cfbc636d0fcc6a5dc5c65ddb576de9c5",
+            "bytes": 7211
+          },
+          "reconciled_completed_receipt": false
+        }
+      ],
+      "first_pass_score": "round-1/catalog-3-page-108/first-pass-score-v0.3.2.json",
+      "first_pass_dual_grading": {
+        "baseline_release": "0.3.0",
+        "baseline_grader_sha256": "24b64859fd690d11afd8477c69a0f84336a28338ac0b49981e5300055364d57a",
+        "baseline_score": "round-1/catalog-3-page-108/first-pass-score-v0.3.0.json",
+        "primary_release": "0.3.2",
+        "primary_score": "round-1/catalog-3-page-108/first-pass-score-v0.3.2.json",
+        "baseline_correct": {
+          "engineering": 15,
+          "drawing": 0
+        },
+        "primary_correct": {
+          "engineering": 15,
+          "drawing": 0
+        },
+        "primary_minus_baseline": {
+          "engineering": 0,
+          "drawing": 0
+        },
+        "same_candidate_sha256": "524f10a95d3478945ff92cf942328e132b51fc3618832d041aa34f9957fe8488",
+        "candidate_bytes_unchanged": true,
+        "model_calls_performed": 0
+      },
+      "final_score": "round-1/catalog-3-page-108/final-score-v0.3.2.json",
+      "final_dual_grading": {
+        "baseline_release": "0.3.0",
+        "baseline_grader_sha256": "24b64859fd690d11afd8477c69a0f84336a28338ac0b49981e5300055364d57a",
+        "baseline_score": "round-1/catalog-3-page-108/final-score-v0.3.0.json",
+        "primary_release": "0.3.2",
+        "primary_score": "round-1/catalog-3-page-108/final-score-v0.3.2.json",
+        "baseline_correct": {
+          "engineering": 15,
+          "drawing": 0
+        },
+        "primary_correct": {
+          "engineering": 15,
+          "drawing": 0
+        },
+        "primary_minus_baseline": {
+          "engineering": 0,
+          "drawing": 0
+        },
+        "same_candidate_sha256": "9be4e88c63ab9d246d95d71e4968ba10fd083ffa5721adb1fb31ee931ff72ba9",
+        "candidate_bytes_unchanged": true,
+        "model_calls_performed": 0
+      },
+      "engineering_expected": 15,
+      "drawing_expected": 0
+    },
+    {
+      "case_id": "catalog-3-page-111",
+      "physical_page": 111,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "status": "deferred_without_new_call",
+      "attempt": 1,
+      "elapsed_seconds": 1021.484,
+      "calls": [
+        {
+          "role": "extractor",
+          "attempt": 0,
+          "status": "completed",
+          "started_unix": 1791839778.7865987,
+          "elapsed_seconds": 91.489,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "producer": {
+            "status": "receipt_verified",
+            "program": {
+              "package_version": "1.4.15",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+              "python_version": "3.12.13",
+              "components": {
+                "agent_logic": {
+                  "package_version": "1.4.2",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+                  "python_version": "3.12.13"
+                },
+                "catalog_tools": {
+                  "package_version": "1.4.8",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+                  "python_version": "3.12.13"
+                },
+                "legacy_skills": {
+                  "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+                  "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+                },
+                "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+                "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+              }
+            },
+            "artifact_sha256": "e62d8edc76426e810607cef81b14ef8b3fc80da22fb6eb6a3befc590fd151b5e",
+            "source_bound_save": true,
+            "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+            "physical_page": 111,
+            "attempt": 0,
+            "role": "extractor",
+            "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+            "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf",
+            "started_at": 1791839781.0405037,
+            "finished_at": 1791839865.803323
+          },
+          "native_elapsed_seconds": 84.763,
+          "artifact": {
+            "file": "round-1/catalog-3-page-111/candidate-0.json",
+            "sha256": "e62d8edc76426e810607cef81b14ef8b3fc80da22fb6eb6a3befc590fd151b5e",
+            "bytes": 74892
+          },
+          "reconciled_completed_receipt": false
+        },
+        {
+          "role": "reviewer",
+          "attempt": 0,
+          "status": "completed",
+          "started_unix": 1791845254.9298916,
+          "elapsed_seconds": 845.718,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "producer": {
+            "status": "receipt_verified",
+            "program": {
+              "package_version": "1.4.17",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "fff9569e21c4b5fcc401ede854f652c8cfeff4aa46611ef1f4bc6c34788ed021",
+              "python_version": "3.12.13"
+            },
+            "artifact_sha256": "7f615ad7398f25c593160a977e5d94ab58f70eb59fc5c91edde455c323c032ae",
+            "source_bound_save": true,
+            "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+            "physical_page": 111,
+            "attempt": 0,
+            "role": "reviewer",
+            "model": "zai.glm-5.3-flash?reasoning=low",
+            "contract_sha256": "c73c47d085f908594ae59f64f00db5708525a6d8807c0d541c029f7f212872e2",
+            "started_at": 1791845256.9954214,
+            "finished_at": 1791846097.837168
+          },
+          "native_elapsed_seconds": 840.842,
+          "artifact": {
+            "file": "round-1/catalog-3-page-111/review-0.json",
+            "sha256": "7f615ad7398f25c593160a977e5d94ab58f70eb59fc5c91edde455c323c032ae",
+            "bytes": 122778
+          },
+          "reconciled_completed_receipt": false
+        },
+        {
+          "role": "extractor",
+          "attempt": 1,
+          "status": "completed",
+          "started_unix": 1791850099.3601959,
+          "elapsed_seconds": 84.277,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "producer": {
+            "status": "receipt_verified",
+            "program": {
+              "package_version": "1.4.15",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+              "python_version": "3.12.13",
+              "components": {
+                "agent_logic": {
+                  "package_version": "1.4.2",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+                  "python_version": "3.12.13"
+                },
+                "catalog_tools": {
+                  "package_version": "1.4.8",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+                  "python_version": "3.12.13"
+                },
+                "legacy_skills": {
+                  "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+                  "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+                },
+                "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+                "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+              }
+            },
+            "artifact_sha256": "1696ae49f6061462855973f74f1795c0ec38980b2c109629015d67ed7a372bf5",
+            "source_bound_save": true,
+            "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+            "physical_page": 111,
+            "attempt": 1,
+            "role": "extractor",
+            "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+            "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf",
+            "started_at": 1791850101.6690285,
+            "finished_at": 1791850179.4959085
+          },
+          "native_elapsed_seconds": 77.827,
+          "artifact": {
+            "file": "round-1/catalog-3-page-111/candidate-1.json",
+            "sha256": "1696ae49f6061462855973f74f1795c0ec38980b2c109629015d67ed7a372bf5",
+            "bytes": 75709
+          },
+          "reconciled_completed_receipt": false
+        }
+      ],
+      "first_pass_score": "round-1/catalog-3-page-111/first-pass-score-v0.3.2.json",
+      "first_pass_dual_grading": {
+        "baseline_release": "0.3.0",
+        "baseline_grader_sha256": "24b64859fd690d11afd8477c69a0f84336a28338ac0b49981e5300055364d57a",
+        "baseline_score": "round-1/catalog-3-page-111/first-pass-score-v0.3.0.json",
+        "primary_release": "0.3.2",
+        "primary_score": "round-1/catalog-3-page-111/first-pass-score-v0.3.2.json",
+        "baseline_correct": {
+          "engineering": 15,
+          "drawing": 0
+        },
+        "primary_correct": {
+          "engineering": 15,
+          "drawing": 0
+        },
+        "primary_minus_baseline": {
+          "engineering": 0,
+          "drawing": 0
+        },
+        "same_candidate_sha256": "e62d8edc76426e810607cef81b14ef8b3fc80da22fb6eb6a3befc590fd151b5e",
+        "candidate_bytes_unchanged": true,
+        "model_calls_performed": 0
+      },
+      "final_score": "round-1/catalog-3-page-111/final-score-v0.3.2.json",
+      "final_dual_grading": {
+        "baseline_release": "0.3.0",
+        "baseline_grader_sha256": "24b64859fd690d11afd8477c69a0f84336a28338ac0b49981e5300055364d57a",
+        "baseline_score": "round-1/catalog-3-page-111/final-score-v0.3.0.json",
+        "primary_release": "0.3.2",
+        "primary_score": "round-1/catalog-3-page-111/final-score-v0.3.2.json",
+        "baseline_correct": {
+          "engineering": 15,
+          "drawing": 0
+        },
+        "primary_correct": {
+          "engineering": 15,
+          "drawing": 0
+        },
+        "primary_minus_baseline": {
+          "engineering": 0,
+          "drawing": 0
+        },
+        "same_candidate_sha256": "1696ae49f6061462855973f74f1795c0ec38980b2c109629015d67ed7a372bf5",
+        "candidate_bytes_unchanged": true,
+        "model_calls_performed": 0
+      },
+      "engineering_expected": 15,
+      "drawing_expected": 0
+    },
+    {
+      "case_id": "catalog-4-page-033",
+      "physical_page": 33,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "status": "awaiting_review",
+      "attempt": 1,
+      "elapsed_seconds": 892.26,
+      "calls": [
+        {
+          "role": "extractor",
+          "attempt": 0,
+          "status": "completed",
+          "started_unix": 1791839870.3197224,
+          "elapsed_seconds": 124.646,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "producer": {
+            "status": "receipt_verified",
+            "program": {
+              "package_version": "1.4.15",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+              "python_version": "3.12.13",
+              "components": {
+                "agent_logic": {
+                  "package_version": "1.4.2",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+                  "python_version": "3.12.13"
+                },
+                "catalog_tools": {
+                  "package_version": "1.4.8",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+                  "python_version": "3.12.13"
+                },
+                "legacy_skills": {
+                  "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+                  "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+                },
+                "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+                "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+              }
+            },
+            "artifact_sha256": "cf93e0f875ac8fe3577ef8e8e81780aa136b201e323518315858f8f581545a78",
+            "source_bound_save": true,
+            "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+            "physical_page": 33,
+            "attempt": 0,
+            "role": "extractor",
+            "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+            "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf",
+            "started_at": 1791839872.7306776,
+            "finished_at": 1791839989.9437463
+          },
+          "native_elapsed_seconds": 117.213,
+          "artifact": {
+            "file": "round-1/catalog-4-page-033/candidate-0.json",
+            "sha256": "cf93e0f875ac8fe3577ef8e8e81780aa136b201e323518315858f8f581545a78",
+            "bytes": 25306
+          },
+          "reconciled_completed_receipt": false
+        },
+        {
+          "role": "reviewer",
+          "attempt": 0,
+          "status": "completed",
+          "started_unix": 1791846100.6416254,
+          "elapsed_seconds": 682.543,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "producer": {
+            "status": "receipt_verified",
+            "program": {
+              "package_version": "1.4.17",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "fff9569e21c4b5fcc401ede854f652c8cfeff4aa46611ef1f4bc6c34788ed021",
+              "python_version": "3.12.13"
+            },
+            "artifact_sha256": "15808b48eba6891e10e98ec2463dbf246574abc0359724f4cc7cb8f7c9798315",
+            "source_bound_save": true,
+            "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+            "physical_page": 33,
+            "attempt": 0,
+            "role": "reviewer",
+            "model": "zai.glm-5.3-flash?reasoning=low",
+            "contract_sha256": "c73c47d085f908594ae59f64f00db5708525a6d8807c0d541c029f7f212872e2",
+            "started_at": 1791846102.607729,
+            "finished_at": 1791846780.5866466
+          },
+          "native_elapsed_seconds": 677.979,
+          "artifact": {
+            "file": "round-1/catalog-4-page-033/review-0.json",
+            "sha256": "15808b48eba6891e10e98ec2463dbf246574abc0359724f4cc7cb8f7c9798315",
+            "bytes": 21451
+          },
+          "reconciled_completed_receipt": false
+        },
+        {
+          "role": "extractor",
+          "attempt": 1,
+          "status": "completed",
+          "started_unix": 1791850183.650715,
+          "elapsed_seconds": 85.071,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "producer": {
+            "status": "receipt_verified",
+            "program": {
+              "package_version": "1.4.15",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+              "python_version": "3.12.13",
+              "components": {
+                "agent_logic": {
+                  "package_version": "1.4.2",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+                  "python_version": "3.12.13"
+                },
+                "catalog_tools": {
+                  "package_version": "1.4.8",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+                  "python_version": "3.12.13"
+                },
+                "legacy_skills": {
+                  "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+                  "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+                },
+                "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+                "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+              }
+            },
+            "artifact_sha256": "23d71ecfd0e4f5a0bb7609cb0528dd28620dcfe6f15729db5f5c16fab0ee2e85",
+            "source_bound_save": true,
+            "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+            "physical_page": 33,
+            "attempt": 1,
+            "role": "extractor",
+            "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+            "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf",
+            "started_at": 1791850185.9440796,
+            "finished_at": 1791850264.5834887
+          },
+          "native_elapsed_seconds": 78.639,
+          "artifact": {
+            "file": "round-1/catalog-4-page-033/candidate-1.json",
+            "sha256": "23d71ecfd0e4f5a0bb7609cb0528dd28620dcfe6f15729db5f5c16fab0ee2e85",
+            "bytes": 25776
+          },
+          "reconciled_completed_receipt": false
+        }
+      ],
+      "first_pass_score": "round-1/catalog-4-page-033/first-pass-score-v0.3.2.json",
+      "first_pass_dual_grading": {
+        "baseline_release": "0.3.0",
+        "baseline_grader_sha256": "24b64859fd690d11afd8477c69a0f84336a28338ac0b49981e5300055364d57a",
+        "baseline_score": "round-1/catalog-4-page-033/first-pass-score-v0.3.0.json",
+        "primary_release": "0.3.2",
+        "primary_score": "round-1/catalog-4-page-033/first-pass-score-v0.3.2.json",
+        "baseline_correct": {
+          "engineering": 108,
+          "drawing": 0
+        },
+        "primary_correct": {
+          "engineering": 108,
+          "drawing": 0
+        },
+        "primary_minus_baseline": {
+          "engineering": 0,
+          "drawing": 0
+        },
+        "same_candidate_sha256": "cf93e0f875ac8fe3577ef8e8e81780aa136b201e323518315858f8f581545a78",
+        "candidate_bytes_unchanged": true,
+        "model_calls_performed": 0
+      },
+      "final_score": "round-1/catalog-4-page-033/final-score-v0.3.2.json",
+      "final_dual_grading": {
+        "baseline_release": "0.3.0",
+        "baseline_grader_sha256": "24b64859fd690d11afd8477c69a0f84336a28338ac0b49981e5300055364d57a",
+        "baseline_score": "round-1/catalog-4-page-033/final-score-v0.3.0.json",
+        "primary_release": "0.3.2",
+        "primary_score": "round-1/catalog-4-page-033/final-score-v0.3.2.json",
+        "baseline_correct": {
+          "engineering": 108,
+          "drawing": 0
+        },
+        "primary_correct": {
+          "engineering": 108,
+          "drawing": 0
+        },
+        "primary_minus_baseline": {
+          "engineering": 0,
+          "drawing": 0
+        },
+        "same_candidate_sha256": "23d71ecfd0e4f5a0bb7609cb0528dd28620dcfe6f15729db5f5c16fab0ee2e85",
+        "candidate_bytes_unchanged": true,
+        "model_calls_performed": 0
+      },
+      "engineering_expected": 108,
+      "drawing_expected": 0
+    },
+    {
+      "case_id": "catalog-4-page-038",
+      "physical_page": 38,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "status": "failed",
+      "attempt": 0,
+      "elapsed_seconds": 323.75751824188234,
+      "calls": [
+        {
+          "role": "extractor",
+          "attempt": 0,
+          "status": "completed",
+          "started_unix": 1791839994.9673464,
+          "elapsed_seconds": 61.973,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "producer": {
+            "status": "receipt_verified",
+            "program": {
+              "package_version": "1.4.15",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+              "python_version": "3.12.13",
+              "components": {
+                "agent_logic": {
+                  "package_version": "1.4.2",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+                  "python_version": "3.12.13"
+                },
+                "catalog_tools": {
+                  "package_version": "1.4.8",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+                  "python_version": "3.12.13"
+                },
+                "legacy_skills": {
+                  "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+                  "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+                },
+                "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+                "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+              }
+            },
+            "artifact_sha256": "fb490269e42e4cd5b7563559303e50f83fd6d5c74a0c81ae36fa3443947e53bf",
+            "source_bound_save": true,
+            "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+            "physical_page": 38,
+            "attempt": 0,
+            "role": "extractor",
+            "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+            "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf",
+            "started_at": 1791839997.3447654,
+            "finished_at": 1791840052.015613
+          },
+          "native_elapsed_seconds": 54.671,
+          "artifact": {
+            "file": "round-1/catalog-4-page-038/candidate-0.json",
+            "sha256": "fb490269e42e4cd5b7563559303e50f83fd6d5c74a0c81ae36fa3443947e53bf",
+            "bytes": 20686
+          },
+          "reconciled_completed_receipt": false
+        },
+        {
+          "role": "reviewer",
+          "attempt": 0,
+          "status": "failed",
+          "started_unix": 1791846783.2379203,
+          "elapsed_seconds": 261.7845182418823,
+          "elapsed_seconds_definition": "lower bound from invocation start to last retained checkpoint; actual completion time unknown",
+          "native_end_unknown": true,
+          "elapsed_is_checkpoint_lower_bound": true,
+          "native_stop_reason": null,
+          "failure_class": "server_restart_unknown_native_outcome_not_replayed",
+          "failed_native_log_observations": [
+            {
+              "worker_log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "token_plan_usage_limit_phrase_observed": false,
+              "rate_limit_signal_observed": false,
+              "raw_log_not_published": true
+            }
+          ],
+          "reconciled_completed_receipt": false
+        }
+      ],
+      "first_pass_score": "round-1/catalog-4-page-038/first-pass-score-v0.3.2.json",
+      "first_pass_dual_grading": {
+        "baseline_release": "0.3.0",
+        "baseline_grader_sha256": "24b64859fd690d11afd8477c69a0f84336a28338ac0b49981e5300055364d57a",
+        "baseline_score": "round-1/catalog-4-page-038/first-pass-score-v0.3.0.json",
+        "primary_release": "0.3.2",
+        "primary_score": "round-1/catalog-4-page-038/first-pass-score-v0.3.2.json",
+        "baseline_correct": {
+          "engineering": 72,
+          "drawing": 0
+        },
+        "primary_correct": {
+          "engineering": 72,
+          "drawing": 0
+        },
+        "primary_minus_baseline": {
+          "engineering": 0,
+          "drawing": 0
+        },
+        "same_candidate_sha256": "fb490269e42e4cd5b7563559303e50f83fd6d5c74a0c81ae36fa3443947e53bf",
+        "candidate_bytes_unchanged": true,
+        "model_calls_performed": 0
+      },
+      "final_score": "round-1/catalog-4-page-038/final-score-v0.3.2.json",
+      "final_dual_grading": {
+        "baseline_release": "0.3.0",
+        "baseline_grader_sha256": "24b64859fd690d11afd8477c69a0f84336a28338ac0b49981e5300055364d57a",
+        "baseline_score": "round-1/catalog-4-page-038/final-score-v0.3.0.json",
+        "primary_release": "0.3.2",
+        "primary_score": "round-1/catalog-4-page-038/final-score-v0.3.2.json",
+        "baseline_correct": {
+          "engineering": 72,
+          "drawing": 0
+        },
+        "primary_correct": {
+          "engineering": 72,
+          "drawing": 0
+        },
+        "primary_minus_baseline": {
+          "engineering": 0,
+          "drawing": 0
+        },
+        "same_candidate_sha256": "fb490269e42e4cd5b7563559303e50f83fd6d5c74a0c81ae36fa3443947e53bf",
+        "candidate_bytes_unchanged": true,
+        "model_calls_performed": 0
+      },
+      "engineering_expected": 72,
+      "drawing_expected": 0
+    },
+    {
+      "case_id": "catalog-4-page-078",
+      "physical_page": 78,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "status": "awaiting_review",
+      "attempt": 1,
+      "elapsed_seconds": 476.356,
+      "calls": [
+        {
+          "role": "extractor",
+          "attempt": 0,
+          "status": "completed",
+          "started_unix": 1791840056.9538832,
+          "elapsed_seconds": 53.318,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "producer": {
+            "status": "receipt_verified",
+            "program": {
+              "package_version": "1.4.15",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+              "python_version": "3.12.13",
+              "components": {
+                "agent_logic": {
+                  "package_version": "1.4.2",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+                  "python_version": "3.12.13"
+                },
+                "catalog_tools": {
+                  "package_version": "1.4.8",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+                  "python_version": "3.12.13"
+                },
+                "legacy_skills": {
+                  "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+                  "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+                },
+                "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+                "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+              }
+            },
+            "artifact_sha256": "3069ca038bf8b0bfcdd6fe073bd9205a5a07809c3cf85fcd951c46b2c6475b4b",
+            "source_bound_save": true,
+            "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+            "physical_page": 78,
+            "attempt": 0,
+            "role": "extractor",
+            "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+            "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf",
+            "started_at": 1791840059.4506564,
+            "finished_at": 1791840106.1529813
+          },
+          "native_elapsed_seconds": 46.702,
+          "artifact": {
+            "file": "round-1/catalog-4-page-078/candidate-0.json",
+            "sha256": "3069ca038bf8b0bfcdd6fe073bd9205a5a07809c3cf85fcd951c46b2c6475b4b",
+            "bytes": 27921
+          },
+          "reconciled_completed_receipt": false
+        },
+        {
+          "role": "reviewer",
+          "attempt": 0,
+          "status": "completed",
+          "started_unix": 1791851365.4004147,
+          "elapsed_seconds": 333.345,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "producer": {
+            "status": "receipt_verified",
+            "program": {
+              "package_version": "1.4.17",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "fff9569e21c4b5fcc401ede854f652c8cfeff4aa46611ef1f4bc6c34788ed021",
+              "python_version": "3.12.13"
+            },
+            "artifact_sha256": "04c52882548dac52a4afb18403e5f856cbbc7120608c1f2c1c5fa348626ec6c7",
+            "source_bound_save": true,
+            "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+            "physical_page": 78,
+            "attempt": 0,
+            "role": "reviewer",
+            "model": "zai.glm-5.3-flash?reasoning=low",
+            "contract_sha256": "c73c47d085f908594ae59f64f00db5708525a6d8807c0d541c029f7f212872e2",
+            "started_at": 1791851368.2763445,
+            "finished_at": 1791851696.3453636
+          },
+          "native_elapsed_seconds": 328.069,
+          "artifact": {
+            "file": "round-1/catalog-4-page-078/review-0.json",
+            "sha256": "04c52882548dac52a4afb18403e5f856cbbc7120608c1f2c1c5fa348626ec6c7",
+            "bytes": 11967
+          },
+          "reconciled_completed_receipt": false
+        },
+        {
+          "role": "extractor",
+          "attempt": 1,
+          "status": "completed",
+          "started_unix": 1791851699.3000157,
+          "elapsed_seconds": 89.693,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "producer": {
+            "status": "receipt_verified",
+            "program": {
+              "package_version": "1.4.15",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+              "python_version": "3.12.13",
+              "components": {
+                "agent_logic": {
+                  "package_version": "1.4.2",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+                  "python_version": "3.12.13"
+                },
+                "catalog_tools": {
+                  "package_version": "1.4.8",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+                  "python_version": "3.12.13"
+                },
+                "legacy_skills": {
+                  "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+                  "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+                },
+                "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+                "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+              }
+            },
+            "artifact_sha256": "5ad14ad9bf37114a682a499a8a0482ccc6a77e22ab4ccb86306aea07e329b439",
+            "source_bound_save": true,
+            "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+            "physical_page": 78,
+            "attempt": 1,
+            "role": "extractor",
+            "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+            "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf",
+            "started_at": 1791851703.3641741,
+            "finished_at": 1791851784.9473107
+          },
+          "native_elapsed_seconds": 81.583,
+          "artifact": {
+            "file": "round-1/catalog-4-page-078/candidate-1.json",
+            "sha256": "5ad14ad9bf37114a682a499a8a0482ccc6a77e22ab4ccb86306aea07e329b439",
+            "bytes": 28781
+          },
+          "reconciled_completed_receipt": false
+        }
+      ],
+      "first_pass_score": "round-1/catalog-4-page-078/first-pass-score-v0.3.2.json",
+      "first_pass_dual_grading": {
+        "baseline_release": "0.3.0",
+        "baseline_grader_sha256": "24b64859fd690d11afd8477c69a0f84336a28338ac0b49981e5300055364d57a",
+        "baseline_score": "round-1/catalog-4-page-078/first-pass-score-v0.3.0.json",
+        "primary_release": "0.3.2",
+        "primary_score": "round-1/catalog-4-page-078/first-pass-score-v0.3.2.json",
+        "baseline_correct": {
+          "engineering": 124,
+          "drawing": 0
+        },
+        "primary_correct": {
+          "engineering": 124,
+          "drawing": 0
+        },
+        "primary_minus_baseline": {
+          "engineering": 0,
+          "drawing": 0
+        },
+        "same_candidate_sha256": "3069ca038bf8b0bfcdd6fe073bd9205a5a07809c3cf85fcd951c46b2c6475b4b",
+        "candidate_bytes_unchanged": true,
+        "model_calls_performed": 0
+      },
+      "final_score": "round-1/catalog-4-page-078/final-score-v0.3.2.json",
+      "final_dual_grading": {
+        "baseline_release": "0.3.0",
+        "baseline_grader_sha256": "24b64859fd690d11afd8477c69a0f84336a28338ac0b49981e5300055364d57a",
+        "baseline_score": "round-1/catalog-4-page-078/final-score-v0.3.0.json",
+        "primary_release": "0.3.2",
+        "primary_score": "round-1/catalog-4-page-078/final-score-v0.3.2.json",
+        "baseline_correct": {
+          "engineering": 140,
+          "drawing": 0
+        },
+        "primary_correct": {
+          "engineering": 140,
+          "drawing": 0
+        },
+        "primary_minus_baseline": {
+          "engineering": 0,
+          "drawing": 0
+        },
+        "same_candidate_sha256": "5ad14ad9bf37114a682a499a8a0482ccc6a77e22ab4ccb86306aea07e329b439",
+        "candidate_bytes_unchanged": true,
+        "model_calls_performed": 0
+      },
+      "engineering_expected": 140,
+      "drawing_expected": 0
+    },
+    {
+      "case_id": "catalog-5-page-030",
+      "physical_page": 30,
+      "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+      "status": "awaiting_review",
+      "attempt": 1,
+      "elapsed_seconds": 555.389,
+      "calls": [
+        {
+          "role": "extractor",
+          "attempt": 0,
+          "status": "completed",
+          "started_unix": 1791840110.2859306,
+          "elapsed_seconds": 160.937,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "producer": {
+            "status": "receipt_verified",
+            "program": {
+              "package_version": "1.4.15",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+              "python_version": "3.12.13",
+              "components": {
+                "agent_logic": {
+                  "package_version": "1.4.2",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+                  "python_version": "3.12.13"
+                },
+                "catalog_tools": {
+                  "package_version": "1.4.8",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+                  "python_version": "3.12.13"
+                },
+                "legacy_skills": {
+                  "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+                  "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+                },
+                "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+                "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+              }
+            },
+            "artifact_sha256": "121d80da7269da1977777868b0fc6df96dbc944651133de1c6a2fabaa2f86aa0",
+            "source_bound_save": true,
+            "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+            "physical_page": 30,
+            "attempt": 0,
+            "role": "extractor",
+            "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+            "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf",
+            "started_at": 1791840112.562723,
+            "finished_at": 1791840266.637166
+          },
+          "native_elapsed_seconds": 154.074,
+          "artifact": {
+            "file": "round-1/catalog-5-page-030/candidate-0.json",
+            "sha256": "121d80da7269da1977777868b0fc6df96dbc944651133de1c6a2fabaa2f86aa0",
+            "bytes": 34988
+          },
+          "reconciled_completed_receipt": false
+        },
+        {
+          "role": "reviewer",
+          "attempt": 0,
+          "status": "completed",
+          "started_unix": 1791851698.746917,
+          "elapsed_seconds": 277.095,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "producer": {
+            "status": "receipt_verified",
+            "program": {
+              "package_version": "1.4.17",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "fff9569e21c4b5fcc401ede854f652c8cfeff4aa46611ef1f4bc6c34788ed021",
+              "python_version": "3.12.13"
+            },
+            "artifact_sha256": "593cf3d05a922a2cde6bb7949d268c6703911c7eb96f41d3a4685b0ef9fc4260",
+            "source_bound_save": true,
+            "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+            "physical_page": 30,
+            "attempt": 0,
+            "role": "reviewer",
+            "model": "zai.glm-5.3-flash?reasoning=low",
+            "contract_sha256": "c73c47d085f908594ae59f64f00db5708525a6d8807c0d541c029f7f212872e2",
+            "started_at": 1791851701.728769,
+            "finished_at": 1791851973.7155843
+          },
+          "native_elapsed_seconds": 271.987,
+          "artifact": {
+            "file": "round-1/catalog-5-page-030/review-0.json",
+            "sha256": "593cf3d05a922a2cde6bb7949d268c6703911c7eb96f41d3a4685b0ef9fc4260",
+            "bytes": 8500
+          },
+          "reconciled_completed_receipt": false
+        },
+        {
+          "role": "extractor",
+          "attempt": 1,
+          "status": "completed",
+          "started_unix": 1791851976.42426,
+          "elapsed_seconds": 117.357,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "producer": {
+            "status": "receipt_verified",
+            "program": {
+              "package_version": "1.4.15",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+              "python_version": "3.12.13",
+              "components": {
+                "agent_logic": {
+                  "package_version": "1.4.2",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+                  "python_version": "3.12.13"
+                },
+                "catalog_tools": {
+                  "package_version": "1.4.8",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+                  "python_version": "3.12.13"
+                },
+                "legacy_skills": {
+                  "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+                  "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+                },
+                "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+                "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+              }
+            },
+            "artifact_sha256": "273636a5c12e33a8be0e833650a132293afee7eefc08b6e31db64233d023ad6c",
+            "source_bound_save": true,
+            "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+            "physical_page": 30,
+            "attempt": 1,
+            "role": "extractor",
+            "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+            "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf",
+            "started_at": 1791851980.355466,
+            "finished_at": 1791852089.6639102
+          },
+          "native_elapsed_seconds": 109.308,
+          "artifact": {
+            "file": "round-1/catalog-5-page-030/candidate-1.json",
+            "sha256": "273636a5c12e33a8be0e833650a132293afee7eefc08b6e31db64233d023ad6c",
+            "bytes": 34977
+          },
+          "reconciled_completed_receipt": false
+        }
+      ],
+      "first_pass_score": "round-1/catalog-5-page-030/first-pass-score-v0.3.2.json",
+      "first_pass_dual_grading": {
+        "baseline_release": "0.3.0",
+        "baseline_grader_sha256": "24b64859fd690d11afd8477c69a0f84336a28338ac0b49981e5300055364d57a",
+        "baseline_score": "round-1/catalog-5-page-030/first-pass-score-v0.3.0.json",
+        "primary_release": "0.3.2",
+        "primary_score": "round-1/catalog-5-page-030/first-pass-score-v0.3.2.json",
+        "baseline_correct": {
+          "engineering": 15,
+          "drawing": 0
+        },
+        "primary_correct": {
+          "engineering": 15,
+          "drawing": 0
+        },
+        "primary_minus_baseline": {
+          "engineering": 0,
+          "drawing": 0
+        },
+        "same_candidate_sha256": "121d80da7269da1977777868b0fc6df96dbc944651133de1c6a2fabaa2f86aa0",
+        "candidate_bytes_unchanged": true,
+        "model_calls_performed": 0
+      },
+      "final_score": "round-1/catalog-5-page-030/final-score-v0.3.2.json",
+      "final_dual_grading": {
+        "baseline_release": "0.3.0",
+        "baseline_grader_sha256": "24b64859fd690d11afd8477c69a0f84336a28338ac0b49981e5300055364d57a",
+        "baseline_score": "round-1/catalog-5-page-030/final-score-v0.3.0.json",
+        "primary_release": "0.3.2",
+        "primary_score": "round-1/catalog-5-page-030/final-score-v0.3.2.json",
+        "baseline_correct": {
+          "engineering": 15,
+          "drawing": 0
+        },
+        "primary_correct": {
+          "engineering": 15,
+          "drawing": 0
+        },
+        "primary_minus_baseline": {
+          "engineering": 0,
+          "drawing": 0
+        },
+        "same_candidate_sha256": "273636a5c12e33a8be0e833650a132293afee7eefc08b6e31db64233d023ad6c",
+        "candidate_bytes_unchanged": true,
+        "model_calls_performed": 0
+      },
+      "engineering_expected": 15,
+      "drawing_expected": 0
+    },
+    {
+      "case_id": "catalog-5-page-035",
+      "physical_page": 35,
+      "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+      "status": "awaiting_review",
+      "attempt": 1,
+      "elapsed_seconds": 855.6759999999999,
+      "calls": [
+        {
+          "role": "extractor",
+          "attempt": 0,
+          "status": "completed",
+          "started_unix": 1791840271.1707048,
+          "elapsed_seconds": 83.501,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "producer": {
+            "status": "receipt_verified",
+            "program": {
+              "package_version": "1.4.15",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+              "python_version": "3.12.13",
+              "components": {
+                "agent_logic": {
+                  "package_version": "1.4.2",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+                  "python_version": "3.12.13"
+                },
+                "catalog_tools": {
+                  "package_version": "1.4.8",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+                  "python_version": "3.12.13"
+                },
+                "legacy_skills": {
+                  "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+                  "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+                },
+                "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+                "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+              }
+            },
+            "artifact_sha256": "b979e0dc443f25b20f25c500470001c6f6290937f4533aa744ff56c071eb55fc",
+            "source_bound_save": true,
+            "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+            "physical_page": 35,
+            "attempt": 0,
+            "role": "extractor",
+            "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+            "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf",
+            "started_at": 1791840273.6124833,
+            "finished_at": 1791840349.9962573
+          },
+          "native_elapsed_seconds": 76.384,
+          "artifact": {
+            "file": "round-1/catalog-5-page-035/candidate-0.json",
+            "sha256": "b979e0dc443f25b20f25c500470001c6f6290937f4533aa744ff56c071eb55fc",
+            "bytes": 26147
+          },
+          "reconciled_completed_receipt": false
+        },
+        {
+          "role": "reviewer",
+          "attempt": 0,
+          "status": "completed",
+          "started_unix": 1791851975.8636093,
+          "elapsed_seconds": 567.683,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "producer": {
+            "status": "receipt_verified",
+            "program": {
+              "package_version": "1.4.17",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "fff9569e21c4b5fcc401ede854f652c8cfeff4aa46611ef1f4bc6c34788ed021",
+              "python_version": "3.12.13"
+            },
+            "artifact_sha256": "0af642b345fa288f702db5fda378011437e671b4c3a58cc435ec9a2e56dee6de",
+            "source_bound_save": true,
+            "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+            "physical_page": 35,
+            "attempt": 0,
+            "role": "reviewer",
+            "model": "zai.glm-5.3-flash?reasoning=low",
+            "contract_sha256": "c73c47d085f908594ae59f64f00db5708525a6d8807c0d541c029f7f212872e2",
+            "started_at": 1791851978.9853473,
+            "finished_at": 1791852541.288981
+          },
+          "native_elapsed_seconds": 562.304,
+          "artifact": {
+            "file": "round-1/catalog-5-page-035/review-0.json",
+            "sha256": "0af642b345fa288f702db5fda378011437e671b4c3a58cc435ec9a2e56dee6de",
+            "bytes": 10146
+          },
+          "reconciled_completed_receipt": false
+        },
+        {
+          "role": "extractor",
+          "attempt": 1,
+          "status": "completed",
+          "started_unix": 1791852544.1959882,
+          "elapsed_seconds": 204.492,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "producer": {
+            "status": "receipt_verified",
+            "program": {
+              "package_version": "1.4.15",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+              "python_version": "3.12.13",
+              "components": {
+                "agent_logic": {
+                  "package_version": "1.4.2",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+                  "python_version": "3.12.13"
+                },
+                "catalog_tools": {
+                  "package_version": "1.4.8",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+                  "python_version": "3.12.13"
+                },
+                "legacy_skills": {
+                  "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+                  "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+                },
+                "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+                "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+              }
+            },
+            "artifact_sha256": "acbea8500ab6c73905c0a8abf07b5e05d6fcdf996a3bc89e77815aeec645687f",
+            "source_bound_save": true,
+            "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+            "physical_page": 35,
+            "attempt": 1,
+            "role": "extractor",
+            "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+            "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf",
+            "started_at": 1791852548.1779072,
+            "finished_at": 1791852744.5505073
+          },
+          "native_elapsed_seconds": 196.373,
+          "artifact": {
+            "file": "round-1/catalog-5-page-035/candidate-1.json",
+            "sha256": "acbea8500ab6c73905c0a8abf07b5e05d6fcdf996a3bc89e77815aeec645687f",
+            "bytes": 28784
+          },
+          "reconciled_completed_receipt": false
+        }
+      ],
+      "first_pass_score": "round-1/catalog-5-page-035/first-pass-score-v0.3.2.json",
+      "first_pass_dual_grading": {
+        "baseline_release": "0.3.0",
+        "baseline_grader_sha256": "24b64859fd690d11afd8477c69a0f84336a28338ac0b49981e5300055364d57a",
+        "baseline_score": "round-1/catalog-5-page-035/first-pass-score-v0.3.0.json",
+        "primary_release": "0.3.2",
+        "primary_score": "round-1/catalog-5-page-035/first-pass-score-v0.3.2.json",
+        "baseline_correct": {
+          "engineering": 15,
+          "drawing": 0
+        },
+        "primary_correct": {
+          "engineering": 15,
+          "drawing": 0
+        },
+        "primary_minus_baseline": {
+          "engineering": 0,
+          "drawing": 0
+        },
+        "same_candidate_sha256": "b979e0dc443f25b20f25c500470001c6f6290937f4533aa744ff56c071eb55fc",
+        "candidate_bytes_unchanged": true,
+        "model_calls_performed": 0
+      },
+      "final_score": "round-1/catalog-5-page-035/final-score-v0.3.2.json",
+      "final_dual_grading": {
+        "baseline_release": "0.3.0",
+        "baseline_grader_sha256": "24b64859fd690d11afd8477c69a0f84336a28338ac0b49981e5300055364d57a",
+        "baseline_score": "round-1/catalog-5-page-035/final-score-v0.3.0.json",
+        "primary_release": "0.3.2",
+        "primary_score": "round-1/catalog-5-page-035/final-score-v0.3.2.json",
+        "baseline_correct": {
+          "engineering": 15,
+          "drawing": 0
+        },
+        "primary_correct": {
+          "engineering": 15,
+          "drawing": 0
+        },
+        "primary_minus_baseline": {
+          "engineering": 0,
+          "drawing": 0
+        },
+        "same_candidate_sha256": "acbea8500ab6c73905c0a8abf07b5e05d6fcdf996a3bc89e77815aeec645687f",
+        "candidate_bytes_unchanged": true,
+        "model_calls_performed": 0
+      },
+      "engineering_expected": 15,
+      "drawing_expected": 0
+    },
+    {
+      "case_id": "catalog-5-page-126",
+      "physical_page": 126,
+      "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+      "status": "awaiting_review",
+      "attempt": 1,
+      "elapsed_seconds": 890.0980000000001,
+      "calls": [
+        {
+          "role": "extractor",
+          "attempt": 0,
+          "status": "completed",
+          "started_unix": 1791840354.7026844,
+          "elapsed_seconds": 143.305,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "producer": {
+            "status": "receipt_verified",
+            "program": {
+              "package_version": "1.4.15",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+              "python_version": "3.12.13",
+              "components": {
+                "agent_logic": {
+                  "package_version": "1.4.2",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+                  "python_version": "3.12.13"
+                },
+                "catalog_tools": {
+                  "package_version": "1.4.8",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+                  "python_version": "3.12.13"
+                },
+                "legacy_skills": {
+                  "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+                  "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+                },
+                "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+                "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+              }
+            },
+            "artifact_sha256": "07daee0239673bb391a4910393ac5a06a075c72901f4e21b1c19eecbcc1c548b",
+            "source_bound_save": true,
+            "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+            "physical_page": 126,
+            "attempt": 0,
+            "role": "extractor",
+            "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+            "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf",
+            "started_at": 1791840357.0659552,
+            "finished_at": 1791840493.4227118
+          },
+          "native_elapsed_seconds": 136.357,
+          "artifact": {
+            "file": "round-1/catalog-5-page-126/candidate-0.json",
+            "sha256": "07daee0239673bb391a4910393ac5a06a075c72901f4e21b1c19eecbcc1c548b",
+            "bytes": 46267
+          },
+          "reconciled_completed_receipt": false
+        },
+        {
+          "role": "reviewer",
+          "attempt": 0,
+          "status": "completed",
+          "started_unix": 1791852543.6335335,
+          "elapsed_seconds": 652.201,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "producer": {
+            "status": "receipt_verified",
+            "program": {
+              "package_version": "1.4.17",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "fff9569e21c4b5fcc401ede854f652c8cfeff4aa46611ef1f4bc6c34788ed021",
+              "python_version": "3.12.13"
+            },
+            "artifact_sha256": "050911f28ffee90f42c75f9ac05b70dc7a61a9693cec2559d8c484f1ac2b50c8",
+            "source_bound_save": true,
+            "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+            "physical_page": 126,
+            "attempt": 0,
+            "role": "reviewer",
+            "model": "zai.glm-5.3-flash?reasoning=low",
+            "contract_sha256": "c73c47d085f908594ae59f64f00db5708525a6d8807c0d541c029f7f212872e2",
+            "started_at": 1791852546.431916,
+            "finished_at": 1791853193.488263
+          },
+          "native_elapsed_seconds": 647.056,
+          "artifact": {
+            "file": "round-1/catalog-5-page-126/review-0.json",
+            "sha256": "050911f28ffee90f42c75f9ac05b70dc7a61a9693cec2559d8c484f1ac2b50c8",
+            "bytes": 7690
+          },
+          "reconciled_completed_receipt": false
+        },
+        {
+          "role": "extractor",
+          "attempt": 1,
+          "status": "completed",
+          "started_unix": 1791853196.3207302,
+          "elapsed_seconds": 94.592,
+          "elapsed_seconds_definition": "worker cycle including admission wait; native duration is separate",
+          "producer": {
+            "status": "receipt_verified",
+            "program": {
+              "package_version": "1.4.15",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+              "python_version": "3.12.13",
+              "components": {
+                "agent_logic": {
+                  "package_version": "1.4.2",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+                  "python_version": "3.12.13"
+                },
+                "catalog_tools": {
+                  "package_version": "1.4.8",
+                  "git_revision": null,
+                  "dirty": null,
+                  "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+                  "python_version": "3.12.13"
+                },
+                "legacy_skills": {
+                  "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+                  "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+                },
+                "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+                "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+                "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+              }
+            },
+            "artifact_sha256": "51e9f5af04ac2749371f203a564681e01b943083e5286dd06122ecdf40800f40",
+            "source_bound_save": true,
+            "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+            "physical_page": 126,
+            "attempt": 1,
+            "role": "extractor",
+            "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+            "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf",
+            "started_at": 1791853200.429467,
+            "finished_at": 1791853286.8312151
+          },
+          "native_elapsed_seconds": 86.402,
+          "artifact": {
+            "file": "round-1/catalog-5-page-126/candidate-1.json",
+            "sha256": "51e9f5af04ac2749371f203a564681e01b943083e5286dd06122ecdf40800f40",
+            "bytes": 46961
+          },
+          "reconciled_completed_receipt": false
+        }
+      ],
+      "first_pass_score": "round-1/catalog-5-page-126/first-pass-score-v0.3.2.json",
+      "first_pass_dual_grading": {
+        "baseline_release": "0.3.0",
+        "baseline_grader_sha256": "24b64859fd690d11afd8477c69a0f84336a28338ac0b49981e5300055364d57a",
+        "baseline_score": "round-1/catalog-5-page-126/first-pass-score-v0.3.0.json",
+        "primary_release": "0.3.2",
+        "primary_score": "round-1/catalog-5-page-126/first-pass-score-v0.3.2.json",
+        "baseline_correct": {
+          "engineering": 15,
+          "drawing": 0
+        },
+        "primary_correct": {
+          "engineering": 15,
+          "drawing": 0
+        },
+        "primary_minus_baseline": {
+          "engineering": 0,
+          "drawing": 0
+        },
+        "same_candidate_sha256": "07daee0239673bb391a4910393ac5a06a075c72901f4e21b1c19eecbcc1c548b",
+        "candidate_bytes_unchanged": true,
+        "model_calls_performed": 0
+      },
+      "final_score": "round-1/catalog-5-page-126/final-score-v0.3.2.json",
+      "final_dual_grading": {
+        "baseline_release": "0.3.0",
+        "baseline_grader_sha256": "24b64859fd690d11afd8477c69a0f84336a28338ac0b49981e5300055364d57a",
+        "baseline_score": "round-1/catalog-5-page-126/final-score-v0.3.0.json",
+        "primary_release": "0.3.2",
+        "primary_score": "round-1/catalog-5-page-126/final-score-v0.3.2.json",
+        "baseline_correct": {
+          "engineering": 15,
+          "drawing": 0
+        },
+        "primary_correct": {
+          "engineering": 15,
+          "drawing": 0
+        },
+        "primary_minus_baseline": {
+          "engineering": 0,
+          "drawing": 0
+        },
+        "same_candidate_sha256": "51e9f5af04ac2749371f203a564681e01b943083e5286dd06122ecdf40800f40",
+        "candidate_bytes_unchanged": true,
+        "model_calls_performed": 0
+      },
+      "engineering_expected": 15,
+      "drawing_expected": 0
+    }
+  ],
+  "provider_pacing": {
+    "extractor": {
+      "configured_maximum": 1,
+      "current_limit": 1,
+      "active_calls": 0,
+      "waiting_calls": 0,
+      "rate_limit_count": 26,
+      "rate_limit_waves": 4,
+      "backoff_streak": 0,
+      "clean_successes": 4,
+      "operator_not_before_unix": 0,
+      "operator_hold_remaining_seconds": 0,
+      "backoff_remaining_seconds": 0
+    },
+    "reviewer": {
+      "configured_maximum": 1,
+      "current_limit": 1,
+      "active_calls": 0,
+      "waiting_calls": 0,
+      "rate_limit_count": 4,
+      "rate_limit_waves": 3,
+      "backoff_streak": 0,
+      "clean_successes": 4,
+      "operator_not_before_unix": 0,
+      "operator_hold_remaining_seconds": 0,
+      "backoff_remaining_seconds": 0
+    }
+  },
+  "provider_pacing_counter_scope": "cumulative across this job, not per-round count",
+  "full_page_accuracy": false,
+  "unobserved_checkpoint_gap_seconds": 2957.572324514389,
+  "restart_timing_clarification": "restart-timing-clarification.json",
+  "gap_is_not_model_inference_time": true,
+  "native_roles": {
+    "extractor": {
+      "program": {
+        "package_version": "1.4.15",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+        "python_version": "3.12.13",
+        "components": {
+          "agent_logic": {
+            "package_version": "1.4.2",
+            "git_revision": null,
+            "dirty": null,
+            "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+            "python_version": "3.12.13"
+          },
+          "catalog_tools": {
+            "package_version": "1.4.8",
+            "git_revision": null,
+            "dirty": null,
+            "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+            "python_version": "3.12.13"
+          },
+          "legacy_skills": {
+            "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+            "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+          },
+          "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+          "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+          "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+          "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+        }
+      },
+      "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf"
+    },
+    "reviewer": {
+      "program": {
+        "package_version": "1.4.17",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "fff9569e21c4b5fcc401ede854f652c8cfeff4aa46611ef1f4bc6c34788ed021",
+        "python_version": "3.12.13"
+      },
+      "contract_sha256": "c73c47d085f908594ae59f64f00db5708525a6d8807c0d541c029f7f212872e2"
+    }
+  },
+  "native_parent_program": {
+    "package_version": "1.4.17",
+    "git_revision": null,
+    "dirty": null,
+    "source_code_sha256": "fff9569e21c4b5fcc401ede854f652c8cfeff4aa46611ef1f4bc6c34788ed021",
+    "python_version": "3.12.13"
+  },
+  "benchmark_source_revision": "897fdf570eadc9f6228a5fc9f6280096d1dce3e5",
+  "first_pass_worker_span_seconds": 1968.427,
+  "first_pass_worker_span_definition": "legacy derived span; admission timestamp plus worker duration that may include earlier waits; not an exact completion timestamp",
+  "first_pass_verified_native_receipt_span_seconds": 1961.296,
+  "first_pass_verified_native_receipt_span_coverage": {
+    "completed_pages": 17,
+    "selected_pages": 17,
+    "failed_duration_unknown_not_zero": true
+  },
+  "round_start_unix_from_checkpoint": 1791838529.0650601,
+  "first_pass_elapsed_to_last_verified_receipt_seconds": 1964.358,
+  "first_pass_elapsed_definition": "round start to last completed initial native receipt; includes waits before receipts; post-receipt coordinator processing and unknown failed-call ends not inferred",
+  "first_pass_worker_seconds_sum": 1968.368,
+  "first_pass_completed_native_seconds_sum": 1844.425,
+  "first_pass_failed_native_duration_not_zero_filled": true,
+  "elapsed_seconds_definition": "actual whole round wall to this snapshot or closure; concurrent reviewers included",
+  "baseline_v0_3_0": {
+    "grader_sha256": "24b64859fd690d11afd8477c69a0f84336a28338ac0b49981e5300055364d57a",
+    "first_pass": {
+      "engineering_correct": 490,
+      "engineering_expected": 520,
+      "engineering_percent": 94.23,
+      "drawing_correct": 4,
+      "drawing_expected": 21,
+      "drawing_percent": 19.05,
+      "correct": 494,
+      "expected": 541,
+      "percent": 91.31,
+      "valid_pages": 17,
+      "selected_pages": 17,
+      "missing_or_failed_pages_count_zero": true
+    },
+    "available_draft": {
+      "engineering_correct": 508,
+      "engineering_expected": 520,
+      "engineering_percent": 97.69,
+      "drawing_correct": 6,
+      "drawing_expected": 21,
+      "drawing_percent": 28.57,
+      "correct": 514,
+      "expected": 541,
+      "percent": 95.01,
+      "valid_pages": 17,
+      "selected_pages": 17,
+      "missing_or_failed_pages_count_zero": true
+    },
+    "accepted_delivery": {
+      "engineering_correct": 15,
+      "engineering_expected": 520,
+      "engineering_percent": 2.88,
+      "drawing_correct": 0,
+      "drawing_expected": 21,
+      "drawing_percent": 0.0,
+      "correct": 15,
+      "expected": 541,
+      "percent": 2.77,
+      "valid_pages": 1,
+      "selected_pages": 17,
+      "missing_or_failed_pages_count_zero": true
+    }
+  },
+  "available_draft": {
+    "engineering_correct": 508,
+    "engineering_expected": 520,
+    "engineering_percent": 97.69,
+    "drawing_correct": 6,
+    "drawing_expected": 21,
+    "drawing_percent": 28.57,
+    "correct": 514,
+    "expected": 541,
+    "percent": 95.01,
+    "valid_pages": 17,
+    "selected_pages": 17,
+    "missing_or_failed_pages_count_zero": true
+  },
+  "accepted_delivery": {
+    "engineering_correct": 15,
+    "engineering_expected": 520,
+    "engineering_percent": 2.88,
+    "drawing_correct": 0,
+    "drawing_expected": 21,
+    "drawing_percent": 0.0,
+    "correct": 15,
+    "expected": 541,
+    "percent": 2.77,
+    "valid_pages": 1,
+    "selected_pages": 17,
+    "missing_or_failed_pages_count_zero": true
+  },
+  "report": {
+    "grader_release": "0.3.2",
+    "grader_sha256": "f091872c67af7e410490df6b590cb8ac03a05eb6e615351ed281c4ae1687e21d",
+    "runner_component_version": "0.2.0-checkpoint",
+    "window_expired": true,
+    "operator_stopped": false,
+    "drain_reason": "active_budget_expired",
+    "natural_native_drain": true,
+    "round": 1,
+    "complete": false,
+    "all_pages_attempted": true,
+    "draft_correct": 514,
+    "draft_engineering_correct": 508,
+    "draft_drawing_correct": 6,
+    "first_pass_engineering_correct": 492,
+    "first_pass_drawing_correct": 4,
+    "draft_pages": 17,
+    "draft_percent_with_missing_zero": 95.01,
+    "first_pass_correct": 496,
+    "first_pass_pages": 17,
+    "first_pass_percent_with_missing_zero": 91.68,
+    "engineering_correct": 15,
+    "engineering_expected": 520,
+    "drawing_correct": 0,
+    "drawing_expected": 21,
+    "correct": 15,
+    "expected": 541,
+    "percent": 2.77,
+    "accepted_pages": 1,
+    "selected_pages": 17,
+    "elapsed_seconds": 16543.229,
+    "active_budget_seconds": 10880.774,
+    "quota_hold_seconds": 2704.882,
+    "cases": [
+      {
+        "case_id": "catalog-1-page-027",
+        "status": "awaiting_review",
+        "engineering_correct": 0,
+        "engineering_expected": 10,
+        "drawing_correct": 0,
+        "drawing_expected": 13,
+        "draft_engineering_correct": 10,
+        "draft_drawing_correct": 2,
+        "first_pass_engineering_correct": 10,
+        "first_pass_drawing_correct": 1,
+        "first_pass_correct": 11
+      },
+      {
+        "case_id": "catalog-1-page-039",
+        "status": "awaiting_review",
+        "engineering_correct": 0,
+        "engineering_expected": 10,
+        "drawing_correct": 0,
+        "drawing_expected": 8,
+        "draft_engineering_correct": 10,
+        "draft_drawing_correct": 4,
+        "first_pass_engineering_correct": 10,
+        "first_pass_drawing_correct": 3,
+        "first_pass_correct": 13
+      },
+      {
+        "case_id": "catalog-1-page-017",
+        "status": "failed",
+        "engineering_correct": 0,
+        "engineering_expected": 15,
+        "drawing_correct": 0,
+        "drawing_expected": 0,
+        "draft_engineering_correct": 15,
+        "draft_drawing_correct": 0,
+        "first_pass_engineering_correct": 15,
+        "first_pass_drawing_correct": 0,
+        "first_pass_correct": 15
+      },
+      {
+        "case_id": "catalog-1-page-022",
+        "status": "failed",
+        "engineering_correct": 0,
+        "engineering_expected": 15,
+        "drawing_correct": 0,
+        "drawing_expected": 0,
+        "draft_engineering_correct": 13,
+        "draft_drawing_correct": 0,
+        "first_pass_engineering_correct": 13,
+        "first_pass_drawing_correct": 0,
+        "first_pass_correct": 13
+      },
+      {
+        "case_id": "catalog-1-page-026",
+        "status": "accepted",
+        "engineering_correct": 15,
+        "engineering_expected": 15,
+        "drawing_correct": 0,
+        "drawing_expected": 0,
+        "draft_engineering_correct": 15,
+        "draft_drawing_correct": 0,
+        "first_pass_engineering_correct": 15,
+        "first_pass_drawing_correct": 0,
+        "first_pass_correct": 15
+      },
+      {
+        "case_id": "catalog-2-page-060",
+        "status": "awaiting_review",
+        "engineering_correct": 0,
+        "engineering_expected": 15,
+        "drawing_correct": 0,
+        "drawing_expected": 0,
+        "draft_engineering_correct": 12,
+        "draft_drawing_correct": 0,
+        "first_pass_engineering_correct": 12,
+        "first_pass_drawing_correct": 0,
+        "first_pass_correct": 12
+      },
+      {
+        "case_id": "catalog-2-page-149",
+        "status": "failed",
+        "engineering_correct": 0,
+        "engineering_expected": 15,
+        "drawing_correct": 0,
+        "drawing_expected": 0,
+        "draft_engineering_correct": 15,
+        "draft_drawing_correct": 0,
+        "first_pass_engineering_correct": 15,
+        "first_pass_drawing_correct": 0,
+        "first_pass_correct": 15
+      },
+      {
+        "case_id": "catalog-2-page-185",
+        "status": "failed",
+        "engineering_correct": 0,
+        "engineering_expected": 15,
+        "drawing_correct": 0,
+        "drawing_expected": 0,
+        "draft_engineering_correct": 8,
+        "draft_drawing_correct": 0,
+        "first_pass_engineering_correct": 8,
+        "first_pass_drawing_correct": 0,
+        "first_pass_correct": 8
+      },
+      {
+        "case_id": "catalog-3-page-103",
+        "status": "awaiting_review",
+        "engineering_correct": 0,
+        "engineering_expected": 15,
+        "drawing_correct": 0,
+        "drawing_expected": 0,
+        "draft_engineering_correct": 15,
+        "draft_drawing_correct": 0,
+        "first_pass_engineering_correct": 15,
+        "first_pass_drawing_correct": 0,
+        "first_pass_correct": 15
+      },
+      {
+        "case_id": "catalog-3-page-108",
+        "status": "deferred_without_new_call",
+        "engineering_correct": 0,
+        "engineering_expected": 15,
+        "drawing_correct": 0,
+        "drawing_expected": 0,
+        "draft_engineering_correct": 15,
+        "draft_drawing_correct": 0,
+        "first_pass_engineering_correct": 15,
+        "first_pass_drawing_correct": 0,
+        "first_pass_correct": 15
+      },
+      {
+        "case_id": "catalog-3-page-111",
+        "status": "deferred_without_new_call",
+        "engineering_correct": 0,
+        "engineering_expected": 15,
+        "drawing_correct": 0,
+        "drawing_expected": 0,
+        "draft_engineering_correct": 15,
+        "draft_drawing_correct": 0,
+        "first_pass_engineering_correct": 15,
+        "first_pass_drawing_correct": 0,
+        "first_pass_correct": 15
+      },
+      {
+        "case_id": "catalog-4-page-033",
+        "status": "awaiting_review",
+        "engineering_correct": 0,
+        "engineering_expected": 108,
+        "drawing_correct": 0,
+        "drawing_expected": 0,
+        "draft_engineering_correct": 108,
+        "draft_drawing_correct": 0,
+        "first_pass_engineering_correct": 108,
+        "first_pass_drawing_correct": 0,
+        "first_pass_correct": 108
+      },
+      {
+        "case_id": "catalog-4-page-038",
+        "status": "failed",
+        "engineering_correct": 0,
+        "engineering_expected": 72,
+        "drawing_correct": 0,
+        "drawing_expected": 0,
+        "draft_engineering_correct": 72,
+        "draft_drawing_correct": 0,
+        "first_pass_engineering_correct": 72,
+        "first_pass_drawing_correct": 0,
+        "first_pass_correct": 72
+      },
+      {
+        "case_id": "catalog-4-page-078",
+        "status": "awaiting_review",
+        "engineering_correct": 0,
+        "engineering_expected": 140,
+        "drawing_correct": 0,
+        "drawing_expected": 0,
+        "draft_engineering_correct": 140,
+        "draft_drawing_correct": 0,
+        "first_pass_engineering_correct": 124,
+        "first_pass_drawing_correct": 0,
+        "first_pass_correct": 124
+      },
+      {
+        "case_id": "catalog-5-page-030",
+        "status": "awaiting_review",
+        "engineering_correct": 0,
+        "engineering_expected": 15,
+        "drawing_correct": 0,
+        "drawing_expected": 0,
+        "draft_engineering_correct": 15,
+        "draft_drawing_correct": 0,
+        "first_pass_engineering_correct": 15,
+        "first_pass_drawing_correct": 0,
+        "first_pass_correct": 15
+      },
+      {
+        "case_id": "catalog-5-page-035",
+        "status": "awaiting_review",
+        "engineering_correct": 0,
+        "engineering_expected": 15,
+        "drawing_correct": 0,
+        "drawing_expected": 0,
+        "draft_engineering_correct": 15,
+        "draft_drawing_correct": 0,
+        "first_pass_engineering_correct": 15,
+        "first_pass_drawing_correct": 0,
+        "first_pass_correct": 15
+      },
+      {
+        "case_id": "catalog-5-page-126",
+        "status": "awaiting_review",
+        "engineering_correct": 0,
+        "engineering_expected": 15,
+        "drawing_correct": 0,
+        "drawing_expected": 0,
+        "draft_engineering_correct": 15,
+        "draft_drawing_correct": 0,
+        "first_pass_engineering_correct": 15,
+        "first_pass_drawing_correct": 0,
+        "first_pass_correct": 15
+      }
+    ],
+    "full_page_accuracy": false
+  }
+}
