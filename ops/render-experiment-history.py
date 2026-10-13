@@ -235,13 +235,13 @@ def collect() -> list[dict]:
                 reviews = [c for c in page["calls"] if c["role"] == "reviewer" and c["attempt"] == candidate["attempt"]]
                 source = candidate["independent_source_audit"]["status"]
                 score = candidate["scores"]["0.3.2"]
-                assessment = "Источник: " + {"rejected": "отклонён", "pending": "ещё не принят"}.get(source, source)
+                assessment = ("Модель: " + reviews[-1]["model_review_verdict"] + "; " if reviews else "") + "Источник: " + {"rejected": "отклонён", "pending": "ещё не принят"}.get(source, source)
                 assessment += f"; чертежи032 {score['drawing_correct']}/{score['drawing_expected']}"
                 PROBES.append({"label": f"1.4.26 / рисунки, цикл{trial['round']}, попытка{candidate['attempt']}",
                     "receipt": drawing_pilot, "case_id": page["case_id"], "program": candidate["producer"]["program"],
                     "model": data["models"]["extractor"] + " → " + data["models"]["reviewer"],
                     "grader": "0.3.2 primary;0.3.3 retained separately", "status": source,
-                    "model_review": reviews[-1].get("verdict") if reviews else None,
+                    "model_review": reviews[-1].get("model_review_verdict") if reviews else None,
                     "assessment": assessment, "elapsed_seconds": sum(c["receipt_native_seconds"] for c in page["calls"]),
                     "elapsed_definition": "sum of completed native calls for this page at snapshot, not full round wall",
                     "latest_candidate": candidate, "round": trial["round"], "full_round": False,
