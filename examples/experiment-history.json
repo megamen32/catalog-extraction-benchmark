@@ -103,6 +103,10 @@
       "sha256": "f87d4cd35cb0510618aa02f5c6ada4c7d1d7749e489d30db62e27eb90071e19d",
       "last_commit_time": "2026-10-12T18:42:02+03:00"
     },
+    "examples/agent-routing/2026-10-13-reviewer25-source-check/manifest.json": {
+      "sha256": "db7d05bcb971f244b616222b5a66c46dc493784fc299ec4bb7df768d7465768f",
+      "last_commit_time": null
+    },
     "examples/tool-leaderboard/common-15-v032/manifest.json": {
       "sha256": "70d7935b99ab6a2801767fd16eb74f39f0463a58ac4f4beb9f3ab9dadd3e61eb",
       "last_commit_time": "2026-10-13T00:43:28+03:00"
@@ -3179,6 +3183,47 @@
       "grader": "historical strict evaluation; see retained grade artifact",
       "elapsed_seconds": null,
       "full_round": false
+    },
+    {
+      "label": "1.4.25 / проверка рисунка",
+      "receipt": "examples/agent-routing/2026-10-13-reviewer25-source-check/manifest.json",
+      "case_id": "catalog-1-page-035",
+      "program": {
+        "package_version": "1.4.25",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "373c903d4622be8fc18e0fcfac899d31d72000c9857403e84ea5aa226c34f818",
+        "python_version": "3.12.13"
+      },
+      "model": "zai.glm-5.3-flash?reasoning=low",
+      "grader": null,
+      "elapsed_seconds": 258.08174443244934,
+      "outputs": [
+        {
+          "file": "candidate-0.json",
+          "sha256": "22ab054e276ba9805bdd6c72689e596e3e864232a673d57252afe9502f5b9fd3",
+          "bytes": 21829
+        },
+        {
+          "file": "source-observation-0.json",
+          "sha256": "5883e82248395fb8906f357361f860a4784e5ae36072e3b02cc1fc9820ff3f8d",
+          "bytes": 16502
+        },
+        {
+          "file": "verified-source-observation-0.json",
+          "sha256": "7f1346264f05b2b6256c5ae2f0dc7b59b2b5b94760cc0e06bebf03d2c76156a5",
+          "bytes": 16672
+        },
+        {
+          "file": "review-0.json",
+          "sha256": "f255704c8be6647a538ea1416e97acb96968931faeccff7e3316e105d2720e7e",
+          "bytes": 7018
+        }
+      ],
+      "status": "FAILED_SOURCE_ACCEPTANCE_FALSE_PASS",
+      "assessment": "Ложный PASS: неверная привязка Ø500",
+      "full_round": false,
+      "accuracy_percent": null
     }
   ]
 }

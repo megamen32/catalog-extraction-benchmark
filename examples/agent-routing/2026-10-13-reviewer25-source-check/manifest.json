@@ -1,0 +1,131 @@
+{
+  "stage": "focused_native_reviewer_source_check",
+  "case_id": "catalog-1-page-035",
+  "physical_page": 35,
+  "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+  "full_round": false,
+  "models": {
+    "extractor": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+    "reviewer": "zai.glm-5.3-flash?reasoning=low"
+  },
+  "reviewer_endpoint": "https://api.z.ai/api/coding/paas/v4/",
+  "candidate_producer": {
+    "status": "receipt_verified",
+    "program": {
+      "package_version": "1.4.15",
+      "git_revision": null,
+      "dirty": null,
+      "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+      "python_version": "3.12.13",
+      "components": {
+        "agent_logic": {
+          "package_version": "1.4.2",
+          "git_revision": null,
+          "dirty": null,
+          "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+          "python_version": "3.12.13"
+        },
+        "catalog_tools": {
+          "package_version": "1.4.8",
+          "git_revision": null,
+          "dirty": null,
+          "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+          "python_version": "3.12.13"
+        },
+        "legacy_skills": {
+          "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+          "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+        },
+        "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+        "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+        "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+        "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+      }
+    },
+    "artifact_sha256": "22ab054e276ba9805bdd6c72689e596e3e864232a673d57252afe9502f5b9fd3",
+    "source_bound_save": true,
+    "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+    "physical_page": 35,
+    "attempt": 6,
+    "role": "extractor",
+    "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+    "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf",
+    "started_at": 1791850789.8736,
+    "finished_at": 1791850835.6026788
+  },
+  "review_producer": {
+    "status": "receipt_verified",
+    "program": {
+      "package_version": "1.4.25",
+      "git_revision": null,
+      "dirty": null,
+      "source_code_sha256": "373c903d4622be8fc18e0fcfac899d31d72000c9857403e84ea5aa226c34f818",
+      "python_version": "3.12.13"
+    },
+    "artifact_sha256": "f255704c8be6647a538ea1416e97acb96968931faeccff7e3316e105d2720e7e",
+    "source_bound_save": true,
+    "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+    "physical_page": 35,
+    "attempt": 0,
+    "role": "reviewer",
+    "model": "zai.glm-5.3-flash?reasoning=low",
+    "contract_sha256": "b3dc17a2236faf818e779b773e4ecc1c02ae5abcc1729a6ecebc8d739a843289",
+    "started_at": 1791851574.0883017,
+    "finished_at": 1791851828.1762114
+  },
+  "program_release": "v1.4.25",
+  "published_source_revision": "a4a69f2",
+  "config_sha256": "aeac1f34a0febb5d2425e9f05e801fad79e3ec2cfa0b3fd90981c247b9fcdd5c",
+  "native_sdk": {
+    "fast-agent-mcp": "0.10.43",
+    "mcp": "2.3.0"
+  },
+  "candidate_bytes_changed": false,
+  "gold_or_old_observation_supplied": false,
+  "external_source_leads_supplied": false,
+  "model_reported_verdict": "pass",
+  "independent_source_verdict": "revise",
+  "critical_source_findings": [
+    {
+      "path": "figures[0].description",
+      "dimension": "Ø500",
+      "candidate_claim": "maximum outer diameter of ribbed body",
+      "visible_source": "dimension extension lines terminate at the outer upper ring; ribbed body visibly narrower",
+      "status": "confirmed_by_two_independent_original_page_inspections"
+    },
+    {
+      "path": "figures[1].labels",
+      "dimension": "147,5",
+      "status": "correctly retained in candidate6; older14,75error was repaired"
+    }
+  ],
+  "native_elapsed_seconds": 254.08790969848633,
+  "wall_elapsed_seconds": 258.08174443244934,
+  "accuracy_percent": null,
+  "status": "FAILED_SOURCE_ACCEPTANCE_FALSE_PASS",
+  "production_promoted": false,
+  "outputs": [
+    {
+      "file": "candidate-0.json",
+      "sha256": "22ab054e276ba9805bdd6c72689e596e3e864232a673d57252afe9502f5b9fd3",
+      "bytes": 21829
+    },
+    {
+      "file": "source-observation-0.json",
+      "sha256": "5883e82248395fb8906f357361f860a4784e5ae36072e3b02cc1fc9820ff3f8d",
+      "bytes": 16502
+    },
+    {
+      "file": "verified-source-observation-0.json",
+      "sha256": "7f1346264f05b2b6256c5ae2f0dc7b59b2b5b94760cc0e06bebf03d2c76156a5",
+      "bytes": 16672
+    },
+    {
+      "file": "review-0.json",
+      "sha256": "f255704c8be6647a538ea1416e97acb96968931faeccff7e3316e105d2720e7e",
+      "bytes": 7018
+    }
+  ],
+  "transcripts_public": false,
+  "limitations": "One focused call and two human-style agent visual audits, outside the17-page/520+21 cohort; does not establish a regression against the old reviewer, a whole-page accuracy rate or a winner."
+}

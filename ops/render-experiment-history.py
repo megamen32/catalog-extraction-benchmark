@@ -212,6 +212,16 @@ def collect() -> list[dict]:
                            "status", "engineering_selected", "drawing_assertions", "artifacts"]},
                        "grader": "historical strict evaluation; see retained grade artifact",
                        "elapsed_seconds": entry["native_elapsed_seconds"], "full_round": False})
+    source_probe = "examples/agent-routing/2026-10-13-reviewer25-source-check/manifest.json"
+    if (ROOT / source_probe).exists():
+        data = read(source_probe)
+        PROBES.append({"label": "1.4.25 / проверка рисунка", "receipt": source_probe,
+                       "case_id": data["case_id"], "program": data["review_producer"]["program"],
+                       "model": data["models"]["reviewer"], "grader": None,
+                       "elapsed_seconds": data["wall_elapsed_seconds"],
+                       "outputs": data["outputs"], "status": data["status"],
+                       "assessment": "Ложный PASS: неверная привязка Ø500",
+                       "full_round": False, "accuracy_percent": None})
     return experiments
 
 
@@ -305,7 +315,7 @@ def render(experiments: list[dict]) -> str:
         "| Проба | Страница | Модель | Сохранённая оценка | Время, с |", "|---|---|---|---|---|"]
     for probe in PROBES:
         grade = probe.get("engineering") or probe.get("engineering_selected")
-        score = f"{grade['correct']}/{grade['expected']}" if grade else "нет валидного ответа"
+        score = f"{grade['correct']}/{grade['expected']}" if grade else probe.get("assessment", "нет валидного ответа")
         elapsed = f"{probe['elapsed_seconds']:.3f}" if probe["elapsed_seconds"] is not None else "не записано"
         lines.append(f"| [{probe['label']}]({BASE}{probe['receipt']}) | {probe['case_id'].rsplit('-', 1)[1]} | {probe['model']} | {score} | {elapsed} |")
     lines += ["", "Vision-пробы страницы 78 показывают старую строгую оценку: 108/140 и 136/140. Это отдельные ответы, а не первые раунды позднейшего полного испытания. Ранние 98,57% в переписке относились к 138/140 буквально прочитанным ячейкам одной страницы 78; это другой показатель, не точность всех каталогов.", "",

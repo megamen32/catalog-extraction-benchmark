@@ -105,6 +105,7 @@ Project X здесь означает адаптированную Vision-инт
 | [Project X / focused Vision probe](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/project-x/2026-10-12-vision-preview/results.json) | 078 | glm-5.3-flash | 136/140 | 106.563 |
 | [Project X / focused Vision probe](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/project-x/2026-10-12-vision-preview/results.json) | 027 | MiniMax-M3.1-Flash-Preview | нет валидного ответа | не записано |
 | [Project X / focused Vision probe](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/project-x/2026-10-12-vision-preview/results.json) | 039 | MiniMax-M3.1-Flash-Preview | нет валидного ответа | не записано |
+| [1.4.25 / проверка рисунка](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-13-reviewer25-source-check/manifest.json) | 035 | zai.glm-5.3-flash?reasoning=low | Ложный PASS: неверная привязка Ø500 | 258.082 |
 
 Vision-пробы страницы 78 показывают старую строгую оценку: 108/140 и 136/140. Это отдельные ответы, а не первые раунды позднейшего полного испытания. Ранние 98,57% в переписке относились к 138/140 буквально прочитанным ячейкам одной страницы 78; это другой показатель, не точность всех каталогов.
 
@@ -175,6 +176,7 @@ Vision-пробы страницы 78 показывают старую стро
 
 | Последняя публикация, UTC | Доказательство |
 |---|---|
+| ещё не закоммичен | [examples/agent-routing/2026-10-13-reviewer25-source-check/manifest.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-13-reviewer25-source-check/manifest.json) |
 | 2026-10-12T07:19:05+03:00 | [examples/parser-outputs/2026-10-12/manifest.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/parser-outputs/2026-10-12/manifest.json) |
 | 2026-10-12T08:25:09+03:00 | [examples/parser-outputs/2026-10-12/regrade-v0.2.2.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/parser-outputs/2026-10-12/regrade-v0.2.2.json) |
 | 2026-10-12T08:28:57+03:00 | [examples/agent-routing/2026-10-12-v1.4.1/manifest.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-12-v1.4.1/manifest.json) |
