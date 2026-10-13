@@ -115,6 +115,14 @@
       "sha256": "db7d05bcb971f244b616222b5a66c46dc493784fc299ec4bb7df768d7465768f",
       "last_commit_time": "2026-10-13T03:47:30+03:00"
     },
+    "examples/agent-routing/2026-10-13-drawing-v126/manifest.json": {
+      "sha256": "024f18d3b01673a8f16f9fdbc726c539533afb71db2fdc4ecede354b712dedf7",
+      "last_commit_time": "2026-10-13T06:06:02+03:00"
+    },
+    "examples/supplemental-drawing-audit-v1/manifest.json": {
+      "sha256": "49a38a4798e318e58f63696c7dffe2eae4dc450e8057c54a178e4ae3414bfed7",
+      "last_commit_time": "2026-10-13T05:52:52+03:00"
+    },
     "examples/tool-leaderboard/common-15-v032/manifest.json": {
       "sha256": "70d7935b99ab6a2801767fd16eb74f39f0463a58ac4f4beb9f3ab9dadd3e61eb",
       "last_commit_time": "2026-10-13T00:43:28+03:00"
@@ -3318,6 +3326,304 @@
       "assessment": "Ложный PASS: неверная привязка Ø500",
       "full_round": false,
       "accuracy_percent": null
+    },
+    {
+      "label": "1.4.26 / рисунки, цикл1, попытка4",
+      "receipt": "examples/agent-routing/2026-10-13-drawing-v126/manifest.json",
+      "case_id": "catalog-1-page-027",
+      "program": {
+        "package_version": "1.4.26",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "624fb1c0512d5a89e8a15b91dddfaa45fdca22524e84a81d66e28d86ee357a95",
+        "python_version": "3.12.13"
+      },
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium → zai.glm-5.3-flash?reasoning=low",
+      "grader": "0.3.2 primary;0.3.3 retained separately",
+      "status": "rejected",
+      "model_review": null,
+      "assessment": "Источник: отклонён; чертежи032 9/13",
+      "elapsed_seconds": 3375.5149999999994,
+      "elapsed_definition": "sum of completed native calls for this page at snapshot, not full round wall",
+      "latest_candidate": {
+        "role": "extractor",
+        "attempt": 4,
+        "producer": {
+          "status": "receipt_verified",
+          "program": {
+            "package_version": "1.4.26",
+            "git_revision": null,
+            "dirty": null,
+            "source_code_sha256": "624fb1c0512d5a89e8a15b91dddfaa45fdca22524e84a81d66e28d86ee357a95",
+            "python_version": "3.12.13"
+          },
+          "artifact_sha256": "a2f815115e1c02d6f496e20b664efe95d56946866367b665d33f4cc54895a643",
+          "source_bound_save": true,
+          "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+          "physical_page": 27,
+          "attempt": 4,
+          "role": "extractor",
+          "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+          "contract_sha256": "bd213a42bd97c2d3e7c1e1ee6e5e792d6f4ca427c54b1b8ca3524b6d6b008713",
+          "started_at": 1791858713.1634872,
+          "finished_at": 1791858822.9183853
+        },
+        "artifact": "examples/agent-routing/2026-10-13-drawing-v126/round-1/catalog-1-page-027/candidate-4.json",
+        "artifact_sha256": "a2f815115e1c02d6f496e20b664efe95d56946866367b665d33f4cc54895a643",
+        "receipt_sha256": "b144d3fe716021f77d114302a0d342014d2cf902d84b68c0172cb5f49d30df85",
+        "receipt_native_seconds": 109.755,
+        "worker_elapsed_seconds": 116.06980848312378,
+        "tool_usage": {
+          "coverage": "receipt_window_bound_log",
+          "count": 16,
+          "by_tool": {
+            "load_skill": 1,
+            "read_page_json": 1,
+            "read_review": 1,
+            "view_page": 1,
+            "view_region": 5,
+            "read_external_audit": 1,
+            "save_section": 4,
+            "extract_direct": 1,
+            "save_page_json": 1
+          },
+          "geometry_calls": 0,
+          "unparsed_lines": 0,
+          "raw_transcripts_not_published": true
+        },
+        "scores": {
+          "0.3.2": {
+            "engineering_correct": 10,
+            "engineering_expected": 10,
+            "drawing_correct": 9,
+            "drawing_expected": 13,
+            "score_file": "examples/agent-routing/2026-10-13-drawing-v126/round-1/catalog-1-page-027/score-v0.3.2-candidate-4.json",
+            "grader_sha256": "f091872c67af7e410490df6b590cb8ac03a05eb6e615351ed281c4ae1687e21d"
+          },
+          "0.3.3": {
+            "engineering_correct": 10,
+            "engineering_expected": 10,
+            "drawing_correct": 9,
+            "drawing_expected": 13,
+            "score_file": "examples/agent-routing/2026-10-13-drawing-v126/round-1/catalog-1-page-027/score-v0.3.3-candidate-4.json",
+            "grader_sha256": "6df48353cac09b55dee5d3157e6dd93517a214ad4e2cdd9d259a76fd88550d80"
+          }
+        },
+        "tables_unchanged_from_seed": true,
+        "independent_source_audit": {
+          "status": "rejected",
+          "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+          "candidate_sha256": "a2f815115e1c02d6f496e20b664efe95d56946866367b665d33f4cc54895a643",
+          "audit_observed_at": 1791855879.7610993,
+          "source_audit_scope": "Two independent original-image inspections; semantic drawing leads, not prepared replacement values or benchmark fixtures",
+          "audit_findings_count": 6,
+          "model_acceptance_is_not_independent_source_acceptance": true
+        }
+      },
+      "round": 1,
+      "full_round": false,
+      "accuracy_percent": null,
+      "strict_round_sequentiality_not_claimed": true
+    },
+    {
+      "label": "1.4.26 / рисунки, цикл1, попытка3",
+      "receipt": "examples/agent-routing/2026-10-13-drawing-v126/manifest.json",
+      "case_id": "catalog-1-page-039",
+      "program": {
+        "package_version": "1.4.26",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "624fb1c0512d5a89e8a15b91dddfaa45fdca22524e84a81d66e28d86ee357a95",
+        "python_version": "3.12.13"
+      },
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium → zai.glm-5.3-flash?reasoning=low",
+      "grader": "0.3.2 primary;0.3.3 retained separately",
+      "status": "rejected",
+      "model_review": null,
+      "assessment": "Источник: отклонён; чертежи032 5/8",
+      "elapsed_seconds": 1251.3740000000003,
+      "elapsed_definition": "sum of completed native calls for this page at snapshot, not full round wall",
+      "latest_candidate": {
+        "role": "extractor",
+        "attempt": 3,
+        "producer": {
+          "status": "receipt_verified",
+          "program": {
+            "package_version": "1.4.26",
+            "git_revision": null,
+            "dirty": null,
+            "source_code_sha256": "624fb1c0512d5a89e8a15b91dddfaa45fdca22524e84a81d66e28d86ee357a95",
+            "python_version": "3.12.13"
+          },
+          "artifact_sha256": "8a7ff8e8fbef23697e3fe2de93ce813103b4b72b1bdf705bada00e0b9c60e432",
+          "source_bound_save": true,
+          "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+          "physical_page": 39,
+          "attempt": 3,
+          "role": "extractor",
+          "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+          "contract_sha256": "bd213a42bd97c2d3e7c1e1ee6e5e792d6f4ca427c54b1b8ca3524b6d6b008713",
+          "started_at": 1791859108.4316275,
+          "finished_at": 1791859251.3613625
+        },
+        "artifact": "examples/agent-routing/2026-10-13-drawing-v126/round-1/catalog-1-page-039/candidate-3.json",
+        "artifact_sha256": "8a7ff8e8fbef23697e3fe2de93ce813103b4b72b1bdf705bada00e0b9c60e432",
+        "receipt_sha256": "c1fbb6b8c2d529cc9a211fec94336883b5d9e774985000a8d2f0271a04ffa675",
+        "receipt_native_seconds": 142.93,
+        "worker_elapsed_seconds": 149.39973545074463,
+        "tool_usage": {
+          "coverage": "receipt_window_bound_log",
+          "count": 17,
+          "by_tool": {
+            "load_skill": 1,
+            "read_page_json": 1,
+            "read_review": 1,
+            "view_page": 1,
+            "read_source_table": 2,
+            "source_artifact_created": 1,
+            "read_source_artifact": 2,
+            "view_region": 4,
+            "read_external_audit": 1,
+            "extract_direct": 1,
+            "read_source_layout": 1,
+            "save_page_json": 1
+          },
+          "geometry_calls": 0,
+          "unparsed_lines": 0,
+          "raw_transcripts_not_published": true
+        },
+        "scores": {
+          "0.3.2": {
+            "engineering_correct": 10,
+            "engineering_expected": 10,
+            "drawing_correct": 5,
+            "drawing_expected": 8,
+            "score_file": "examples/agent-routing/2026-10-13-drawing-v126/round-1/catalog-1-page-039/score-v0.3.2-candidate-3.json",
+            "grader_sha256": "f091872c67af7e410490df6b590cb8ac03a05eb6e615351ed281c4ae1687e21d"
+          },
+          "0.3.3": {
+            "engineering_correct": 10,
+            "engineering_expected": 10,
+            "drawing_correct": 5,
+            "drawing_expected": 8,
+            "score_file": "examples/agent-routing/2026-10-13-drawing-v126/round-1/catalog-1-page-039/score-v0.3.3-candidate-3.json",
+            "grader_sha256": "6df48353cac09b55dee5d3157e6dd93517a214ad4e2cdd9d259a76fd88550d80"
+          }
+        },
+        "tables_unchanged_from_seed": true,
+        "independent_source_audit": {
+          "status": "rejected",
+          "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+          "candidate_sha256": "8a7ff8e8fbef23697e3fe2de93ce813103b4b72b1bdf705bada00e0b9c60e432",
+          "audit_observed_at": 1791855879.7881844,
+          "source_audit_scope": "Two independent original-image inspections; semantic drawing leads, not prepared replacement values or benchmark fixtures",
+          "audit_findings_count": 5,
+          "model_acceptance_is_not_independent_source_acceptance": true
+        }
+      },
+      "round": 1,
+      "full_round": false,
+      "accuracy_percent": null,
+      "strict_round_sequentiality_not_claimed": true
+    },
+    {
+      "label": "1.4.26 / рисунки, цикл2, попытка1",
+      "receipt": "examples/agent-routing/2026-10-13-drawing-v126/manifest.json",
+      "case_id": "catalog-1-page-027",
+      "program": {
+        "package_version": "1.4.26",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "624fb1c0512d5a89e8a15b91dddfaa45fdca22524e84a81d66e28d86ee357a95",
+        "python_version": "3.12.13"
+      },
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium → zai.glm-5.3-flash?reasoning=low",
+      "grader": "0.3.2 primary;0.3.3 retained separately",
+      "status": "pending",
+      "model_review": null,
+      "assessment": "Источник: ещё не принят; чертежи032 5/13",
+      "elapsed_seconds": 926.3230000000001,
+      "elapsed_definition": "sum of completed native calls for this page at snapshot, not full round wall",
+      "latest_candidate": {
+        "role": "extractor",
+        "attempt": 1,
+        "producer": {
+          "status": "receipt_verified",
+          "program": {
+            "package_version": "1.4.26",
+            "git_revision": null,
+            "dirty": null,
+            "source_code_sha256": "624fb1c0512d5a89e8a15b91dddfaa45fdca22524e84a81d66e28d86ee357a95",
+            "python_version": "3.12.13"
+          },
+          "artifact_sha256": "1be3de29d94250ef5b81497bc10c3e79d617ecf17617688fbf4875843a80ff8c",
+          "source_bound_save": true,
+          "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+          "physical_page": 27,
+          "attempt": 1,
+          "role": "extractor",
+          "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+          "contract_sha256": "bd213a42bd97c2d3e7c1e1ee6e5e792d6f4ca427c54b1b8ca3524b6d6b008713",
+          "started_at": 1791856679.3581667,
+          "finished_at": 1791856944.7172675
+        },
+        "artifact": "examples/agent-routing/2026-10-13-drawing-v126/round-2/catalog-1-page-027/candidate-1.json",
+        "artifact_sha256": "1be3de29d94250ef5b81497bc10c3e79d617ecf17617688fbf4875843a80ff8c",
+        "receipt_sha256": "f68e581c5db7a5cb5a471ef6e69d63fd424e8ce3aa3f6035f82e7588ec544d44",
+        "receipt_native_seconds": 265.359,
+        "worker_elapsed_seconds": 265.35910081863403,
+        "tool_usage": {
+          "coverage": "receipt_window_bound_log",
+          "count": 36,
+          "by_tool": {
+            "load_skill": 1,
+            "read_page_json": 1,
+            "view_page": 1,
+            "read_source_table": 2,
+            "source_artifact_created": 2,
+            "read_source_artifact": 4,
+            "view_region": 22,
+            "read_source_layout": 1,
+            "extract_direct": 1,
+            "save_page_json": 1
+          },
+          "geometry_calls": 0,
+          "unparsed_lines": 0,
+          "raw_transcripts_not_published": true
+        },
+        "scores": {
+          "0.3.2": {
+            "engineering_correct": 10,
+            "engineering_expected": 10,
+            "drawing_correct": 5,
+            "drawing_expected": 13,
+            "score_file": "examples/agent-routing/2026-10-13-drawing-v126/round-2/catalog-1-page-027/score-v0.3.2-candidate-1.json",
+            "grader_sha256": "f091872c67af7e410490df6b590cb8ac03a05eb6e615351ed281c4ae1687e21d"
+          },
+          "0.3.3": {
+            "engineering_correct": 10,
+            "engineering_expected": 10,
+            "drawing_correct": 5,
+            "drawing_expected": 13,
+            "score_file": "examples/agent-routing/2026-10-13-drawing-v126/round-2/catalog-1-page-027/score-v0.3.3-candidate-1.json",
+            "grader_sha256": "6df48353cac09b55dee5d3157e6dd93517a214ad4e2cdd9d259a76fd88550d80"
+          }
+        },
+        "tables_unchanged_from_seed": false,
+        "independent_source_audit": {
+          "status": "pending",
+          "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+          "candidate_sha256": "1be3de29d94250ef5b81497bc10c3e79d617ecf17617688fbf4875843a80ff8c",
+          "audit_observed_at": null,
+          "source_audit_scope": null,
+          "audit_findings_count": null,
+          "model_acceptance_is_not_independent_source_acceptance": true
+        }
+      },
+      "round": 2,
+      "full_round": false,
+      "accuracy_percent": null,
+      "strict_round_sequentiality_not_claimed": true
     }
   ]
 }

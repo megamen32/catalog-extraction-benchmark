@@ -222,6 +222,30 @@ def collect() -> list[dict]:
                        "outputs": data["outputs"], "status": data["status"],
                        "assessment": "Ложный PASS: неверная привязка Ø500",
                        "full_round": False, "accuracy_percent": None})
+    drawing_pilot = "examples/agent-routing/2026-10-13-drawing-v126/manifest.json"
+    if (ROOT / drawing_pilot).exists():
+        data = read(drawing_pilot)
+        assert data["is_fresh_17_page_benchmark"] is False and data["full_page_accuracy"] is False
+        for trial in data["rounds"]:
+            for page in trial["pages"]:
+                candidates = [c for c in page["calls"] if c["role"] == "extractor"]
+                if not candidates:
+                    continue
+                candidate = max(candidates, key=lambda c: c["attempt"])
+                reviews = [c for c in page["calls"] if c["role"] == "reviewer" and c["attempt"] == candidate["attempt"]]
+                source = candidate["independent_source_audit"]["status"]
+                score = candidate["scores"]["0.3.2"]
+                assessment = "Источник: " + {"rejected": "отклонён", "pending": "ещё не принят"}.get(source, source)
+                assessment += f"; чертежи032 {score['drawing_correct']}/{score['drawing_expected']}"
+                PROBES.append({"label": f"1.4.26 / рисунки, цикл{trial['round']}, попытка{candidate['attempt']}",
+                    "receipt": drawing_pilot, "case_id": page["case_id"], "program": candidate["producer"]["program"],
+                    "model": data["models"]["extractor"] + " → " + data["models"]["reviewer"],
+                    "grader": "0.3.2 primary;0.3.3 retained separately", "status": source,
+                    "model_review": reviews[-1].get("verdict") if reviews else None,
+                    "assessment": assessment, "elapsed_seconds": sum(c["receipt_native_seconds"] for c in page["calls"]),
+                    "elapsed_definition": "sum of completed native calls for this page at snapshot, not full round wall",
+                    "latest_candidate": candidate, "round": trial["round"], "full_round": False,
+                    "accuracy_percent": None, "strict_round_sequentiality_not_claimed": True})
     return experiments
 
 
@@ -318,6 +342,12 @@ def render(experiments: list[dict]) -> str:
         score = f"{grade['correct']}/{grade['expected']}" if grade else probe.get("assessment", "нет валидного ответа")
         elapsed = f"{probe['elapsed_seconds']:.3f}" if probe["elapsed_seconds"] is not None else "не записано"
         lines.append(f"| [{probe['label']}]({BASE}{probe['receipt']}) | {probe['case_id'].rsplit('-', 1)[1]} | {probe['model']} | {score} | {elapsed} |")
+    lines += ["", "Пробы1.4.26 — отдельный пилот двух страниц с сохранённой обратной связью и восстановлением управляющего процесса. Они не являются тремя свежими последовательными раундами полного бенчмарка. PASS модели сохранён отдельно от отклонения по оригиналу; выбранные проверки чертежей не охватывают все реальные ошибки. Время этих строк — сумма завершённых native вызовов страницы на момент снимка.", ""]
+    supplemental_path = "examples/supplemental-drawing-audit-v1/manifest.json"
+    if (ROOT / supplemental_path).exists():
+        supplemental = read(supplemental_path)
+        assert supplemental["expected_separate_checks"] == 13 and supplemental["new_overall_benchmark_percent"] is False
+        lines += ["[Дополнительный аудит13 связей и собственного условия столбца на странице27](SUPPLEMENTAL-DRAWING-AUDIT-v1.md) проверяет сохранённые ответы без новых вызовов модели. Он опубликован отдельной версией; результаты не добавляются к520+21 и не меняют прежние проценты.", ""]
     lines += ["", "Vision-пробы страницы 78 показывают старую строгую оценку: 108/140 и 136/140. Это отдельные ответы, а не первые раунды позднейшего полного испытания. Ранние 98,57% в переписке относились к 138/140 буквально прочитанным ячейкам одной страницы 78; это другой показатель, не точность всех каталогов.", "",
         "## Общий рейтинг инструментов — включая Project X", "",
         "[Таблица для отправки другу: Project X и остальные инструменты на одинаковых 15 страницах](TOOL-LEADERBOARD-RU.md). Все конфигурации ниже переоценены одним оценщиком 0.3.2, без новых запусков. Это общие 500 инженерных фактов сохранённых испытаний; основной расширенный набор 17/520+21 остаётся отдельным. Наш агент в рейтинге инструментов не участвует.", ""]

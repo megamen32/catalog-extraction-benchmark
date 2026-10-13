@@ -109,6 +109,14 @@ Project X здесь означает адаптированную Vision-инт
 | [Project X / focused Vision probe](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/project-x/2026-10-12-vision-preview/results.json) | 027 | MiniMax-M3.1-Flash-Preview | нет валидного ответа | не записано |
 | [Project X / focused Vision probe](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/project-x/2026-10-12-vision-preview/results.json) | 039 | MiniMax-M3.1-Flash-Preview | нет валидного ответа | не записано |
 | [1.4.25 / проверка рисунка](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-13-reviewer25-source-check/manifest.json) | 035 | zai.glm-5.3-flash?reasoning=low | Ложный PASS: неверная привязка Ø500 | 258.082 |
+| [1.4.26 / рисунки, цикл1, попытка4](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-13-drawing-v126/manifest.json) | 027 | anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium → zai.glm-5.3-flash?reasoning=low | Источник: отклонён; чертежи032 9/13 | 3375.515 |
+| [1.4.26 / рисунки, цикл1, попытка3](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-13-drawing-v126/manifest.json) | 039 | anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium → zai.glm-5.3-flash?reasoning=low | Источник: отклонён; чертежи032 5/8 | 1251.374 |
+| [1.4.26 / рисунки, цикл2, попытка1](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-13-drawing-v126/manifest.json) | 027 | anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium → zai.glm-5.3-flash?reasoning=low | Источник: ещё не принят; чертежи032 5/13 | 926.323 |
+
+Пробы1.4.26 — отдельный пилот двух страниц с сохранённой обратной связью и восстановлением управляющего процесса. Они не являются тремя свежими последовательными раундами полного бенчмарка. PASS модели сохранён отдельно от отклонения по оригиналу; выбранные проверки чертежей не охватывают все реальные ошибки. Время этих строк — сумма завершённых native вызовов страницы на момент снимка.
+
+[Дополнительный аудит13 связей и собственного условия столбца на странице27](SUPPLEMENTAL-DRAWING-AUDIT-v1.md) проверяет сохранённые ответы без новых вызовов модели. Он опубликован отдельной версией; результаты не добавляются к520+21 и не меняют прежние проценты.
+
 
 Vision-пробы страницы 78 показывают старую строгую оценку: 108/140 и 136/140. Это отдельные ответы, а не первые раунды позднейшего полного испытания. Ранние 98,57% в переписке относились к 138/140 буквально прочитанным ячейкам одной страницы 78; это другой показатель, не точность всех каталогов.
 
@@ -205,5 +213,7 @@ Vision-пробы страницы 78 показывают старую стро
 | 2026-10-13T03:47:30+03:00 | [examples/agent-routing/2026-10-13-reviewer25-source-check/manifest.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-13-reviewer25-source-check/manifest.json) |
 | 2026-10-13T04:40:33+03:00 | [examples/agent-routing/2026-10-12-corrected-v032/round-1/round.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-12-corrected-v032/round-1/round.json) |
 | 2026-10-13T05:30:31+03:00 | [examples/agent-routing/2026-10-12-corrected-v032/first-pass-round-2/round.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-12-corrected-v032/first-pass-round-2/round.json) |
+| 2026-10-13T05:52:52+03:00 | [examples/supplemental-drawing-audit-v1/manifest.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/supplemental-drawing-audit-v1/manifest.json) |
+| 2026-10-13T06:06:02+03:00 | [examples/agent-routing/2026-10-13-drawing-v126/manifest.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-13-drawing-v126/manifest.json) |
 
 Воспроизвести индекс: `python3 ops/render-experiment-history.py`. Команда только читает опубликованные результаты и создаёт эту страницу и JSON-сводку; парсеры и модели не запускаются.
