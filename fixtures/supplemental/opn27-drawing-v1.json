@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.0",
+  "supplemental_audit_version": "1.0.0",
+  "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+  "physical_page": 27,
+  "source_confirmation": "Original PDF and crop inspected by root, independent source auditor and grader owner; four repeated variants confirmed; supplemental fixture is never model context",
+  "drawing_facts": [
+    {
+      "id": "1.2-III-45",
+      "charge": "1.2",
+      "execution": "III",
+      "view": "А",
+      "dimension": "45",
+      "source_fact": "between centres of the first two holes in view A"
+    },
+    {
+      "id": "1.2-III-67.5",
+      "charge": "1.2",
+      "execution": "III",
+      "view": "А",
+      "dimension": "67.5",
+      "source_fact": "between the second hole centre and body central axis in view A"
+    },
+    {
+      "id": "1.2-III-135",
+      "charge": "1.2",
+      "execution": "III",
+      "view": "А",
+      "dimension": "135",
+      "source_fact": "between left plate edge and body central axis, not full plate length in view A"
+    },
+    {
+      "id": "1.2-IV-45",
+      "charge": "1.2",
+      "execution": "IV",
+      "view": "А",
+      "dimension": "45",
+      "source_fact": "between centres of the first two holes in view A"
+    },
+    {
+      "id": "1.2-IV-67.5",
+      "charge": "1.2",
+      "execution": "IV",
+      "view": "А",
+      "dimension": "67.5",
+      "source_fact": "between the second hole centre and body central axis in view A"
+    },
+    {
+      "id": "1.2-IV-135",
+      "charge": "1.2",
+      "execution": "IV",
+      "view": "А",
+      "dimension": "135",
+      "source_fact": "between left plate edge and body central axis, not full plate length in view A"
+    },
+    {
+      "id": "1.6-III-45",
+      "charge": "1.6",
+      "execution": "III",
+      "view": "А",
+      "dimension": "45",
+      "source_fact": "between centres of the first two holes in view A"
+    },
+    {
+      "id": "1.6-III-67.5",
+      "charge": "1.6",
+      "execution": "III",
+      "view": "А",
+      "dimension": "67.5",
+      "source_fact": "between the second hole centre and body central axis in view A"
+    },
+    {
+      "id": "1.6-III-135",
+      "charge": "1.6",
+      "execution": "III",
+      "view": "А",
+      "dimension": "135",
+      "source_fact": "between left plate edge and body central axis, not full plate length in view A"
+    },
+    {
+      "id": "1.6-IV-45",
+      "charge": "1.6",
+      "execution": "IV",
+      "view": "А",
+      "dimension": "45",
+      "source_fact": "between centres of the first two holes in view A"
+    },
+    {
+      "id": "1.6-IV-67.5",
+      "charge": "1.6",
+      "execution": "IV",
+      "view": "А",
+      "dimension": "67.5",
+      "source_fact": "between the second hole centre and body central axis in view A"
+    },
+    {
+      "id": "1.6-IV-135",
+      "charge": "1.6",
+      "execution": "IV",
+      "view": "А",
+      "dimension": "135",
+      "source_fact": "between left plate edge and body central axis, not full plate length in view A"
+    }
+  ],
+  "column_fact": {
+    "id": "lower-creepage-no-minimum",
+    "lower_table_index": 1,
+    "label_pattern": "длин\\w*\\s+пути\\s+утечки",
+    "unit": "см",
+    "source_fact": "Lower-table creepage length, cm has no minimum condition; neighbouring thermal energy does have that condition",
+    "lower_table_charge_product_pattern": "/1[,.]6[-–](?:III|IV)\\b"
+  },
+  "full_page_ground_truth": false,
+  "new_overall_benchmark_percent": false
+}

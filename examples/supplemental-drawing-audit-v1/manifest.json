@@ -1,0 +1,97 @@
+{
+  "supplemental_audit_version": "1.0.0",
+  "fixture": "fixtures/supplemental/opn27-drawing-v1.json",
+  "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+  "physical_page": 27,
+  "expected_separate_checks": 13,
+  "model_calls": 0,
+  "frozen_benchmark_unchanged": "17pages/520engineering+21drawing; primary032 and retained033 unchanged",
+  "new_overall_benchmark_percent": false,
+  "original_native_bytes_unchanged": true,
+  "candidates": [
+    {
+      "attempt": 1,
+      "candidate": "examples/supplemental-drawing-audit-v1/opn27-candidate-1/candidate.json",
+      "candidate_sha256": "587f77be6b856cb74fdf34428160e7fcade031517e36e9c500921b33c5d2e019",
+      "producer": {
+        "status": "receipt_verified",
+        "program": {
+          "package_version": "1.4.26",
+          "git_revision": null,
+          "dirty": null,
+          "source_code_sha256": "624fb1c0512d5a89e8a15b91dddfaa45fdca22524e84a81d66e28d86ee357a95",
+          "python_version": "3.12.13"
+        },
+        "artifact_sha256": "587f77be6b856cb74fdf34428160e7fcade031517e36e9c500921b33c5d2e019",
+        "source_bound_save": true,
+        "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+        "physical_page": 27,
+        "attempt": 1,
+        "role": "extractor",
+        "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+        "contract_sha256": "bd213a42bd97c2d3e7c1e1ee6e5e792d6f4ca427c54b1b8ca3524b6d6b008713",
+        "started_at": 1791855410.2847536,
+        "finished_at": 1791855610.9611373
+      },
+      "receipt_sha256": "f371a8bc0d471a7675a7571543626c089f8240a6f8e68aff8e8b16170e74d279",
+      "old_metrics": {
+        "0.3.2": {
+          "engineering": 10,
+          "drawing": 1,
+          "algorithm_sha256": "f091872c67af7e410490df6b590cb8ac03a05eb6e615351ed281c4ae1687e21d"
+        },
+        "0.3.3": {
+          "engineering": 10,
+          "drawing": 1,
+          "algorithm_sha256": "6df48353cac09b55dee5d3157e6dd93517a214ad4e2cdd9d259a76fd88550d80"
+        }
+      },
+      "supplemental_file": "examples/supplemental-drawing-audit-v1/opn27-candidate-1/supplemental-audit-v1.json",
+      "supplemental_passed": 1,
+      "supplemental_wrong": 0,
+      "supplemental_missing": 12
+    },
+    {
+      "attempt": 2,
+      "candidate": "examples/supplemental-drawing-audit-v1/opn27-candidate-2/candidate.json",
+      "candidate_sha256": "3e280c8bcc23411736c586117dc10a6e62edaf917905de8e6d0d9084043c3cd9",
+      "producer": {
+        "status": "receipt_verified",
+        "program": {
+          "package_version": "1.4.26",
+          "git_revision": null,
+          "dirty": null,
+          "source_code_sha256": "624fb1c0512d5a89e8a15b91dddfaa45fdca22524e84a81d66e28d86ee357a95",
+          "python_version": "3.12.13"
+        },
+        "artifact_sha256": "3e280c8bcc23411736c586117dc10a6e62edaf917905de8e6d0d9084043c3cd9",
+        "source_bound_save": true,
+        "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+        "physical_page": 27,
+        "attempt": 2,
+        "role": "extractor",
+        "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+        "contract_sha256": "bd213a42bd97c2d3e7c1e1ee6e5e792d6f4ca427c54b1b8ca3524b6d6b008713",
+        "started_at": 1791856018.0611567,
+        "finished_at": 1791856555.9415283
+      },
+      "receipt_sha256": "d17b054c9717d64a1b9657717c65464f81def1d1f14fc518be168d0eca2c9ec6",
+      "old_metrics": {
+        "0.3.2": {
+          "engineering": 10,
+          "drawing": 9,
+          "algorithm_sha256": "f091872c67af7e410490df6b590cb8ac03a05eb6e615351ed281c4ae1687e21d"
+        },
+        "0.3.3": {
+          "engineering": 10,
+          "drawing": 9,
+          "algorithm_sha256": "6df48353cac09b55dee5d3157e6dd93517a214ad4e2cdd9d259a76fd88550d80"
+        }
+      },
+      "supplemental_file": "examples/supplemental-drawing-audit-v1/opn27-candidate-2/supplemental-audit-v1.json",
+      "supplemental_passed": 1,
+      "supplemental_wrong": 12,
+      "supplemental_missing": 0
+    }
+  ]
+}
