@@ -1,0 +1,24 @@
+{
+  "id": "review-first-save-contract",
+  "status": "diagnostic",
+  "priority": "high",
+  "category": "delivery",
+  "title": "Read the review contract before generating an invalid report",
+  "source": {
+    "filename": "Malyj-katalog.pdf",
+    "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_page": 4
+  },
+  "review_basis": "Original manually rendered and visually inspected,2026-10-14. Ambiguous glyph has no gold value.",
+  "artifacts": [
+    {
+      "path": "artifacts/native-efficiency-audit.json",
+      "sha256": "728eddbc42f1a4f9c614aed0c0bd7e36bea8610d83eb06fb28e0f5867ec7e75f",
+      "bytes": 9148,
+      "role": "derived_metrics",
+      "program_version": "multiple",
+      "model": "multiple"
+    }
+  ],
+  "assertions": []
+}

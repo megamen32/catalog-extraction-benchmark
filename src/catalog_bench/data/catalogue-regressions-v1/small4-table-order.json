@@ -1,0 +1,77 @@
+{
+  "id": "small4-table-order",
+  "status": "confirmed",
+  "priority": "high",
+  "category": "review_regression",
+  "title": "Array order is not table identity",
+  "source": {
+    "filename": "Malyj-katalog.pdf",
+    "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_page": 4
+  },
+  "review_basis": "Original manually rendered and visually inspected,2026-10-14. Ambiguous glyph has no gold value.",
+  "artifacts": [
+    {
+      "path": "artifacts/small4-candidate15.json",
+      "sha256": "1b52c2ae877fd270516a423622ad27326e350c8f2f54c7e3efafc7e6ed215a60",
+      "bytes": 65941,
+      "role": "extractor",
+      "program_version": "1.4.15",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "producer": {
+        "role": "extractor",
+        "attempt": 11,
+        "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+        "physical_page": 4,
+        "program_version": "1.4.15",
+        "program_source_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+        "elapsed_seconds": 704.12,
+        "started_at": 1791917673.7562187,
+        "finished_at": 1791918377.875928,
+        "receipt_binding": "exact native artifact"
+      }
+    },
+    {
+      "path": "artifacts/small4-source32.json",
+      "sha256": "e920f25ad67c315c027cdf3f299c92fc6a07375f334ede60b4c188f3e9869daf",
+      "bytes": 37769,
+      "role": "independent_source_observation",
+      "program_version": "1.4.32",
+      "model": "zai.glm-5.3-flash?reasoning=low",
+      "producer": {
+        "role": "reviewer",
+        "attempt": 11,
+        "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+        "physical_page": 4,
+        "program_version": "1.4.32",
+        "program_source_sha256": "56e767a914bf01e63a366d64f329ff49c1aa2f633d34b3a756a1995003ea434a",
+        "elapsed_seconds": 468.066,
+        "started_at": 1791932847.862412,
+        "finished_at": 1791933315.9279659,
+        "receipt_binding": "associated reviewer run"
+      }
+    },
+    {
+      "path": "artifacts/small4-review32.json",
+      "sha256": "ec401e01cf07db8be346a83af3e3cedc64d4e75cd0ad0cfb231f5f78b8559d54",
+      "bytes": 26182,
+      "role": "reviewer",
+      "program_version": "1.4.32",
+      "model": "zai.glm-5.3-flash?reasoning=low",
+      "producer": {
+        "role": "reviewer",
+        "attempt": 11,
+        "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+        "physical_page": 4,
+        "program_version": "1.4.32",
+        "program_source_sha256": "56e767a914bf01e63a366d64f329ff49c1aa2f633d34b3a756a1995003ea434a",
+        "elapsed_seconds": 468.066,
+        "started_at": 1791932847.862412,
+        "finished_at": 1791933315.9279659,
+        "receipt_binding": "exact native artifact"
+      }
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "Source table0 is9-column specification; candidate table0 is4-column UI panel. Table correspondence must precede cell comparison; ambiguous matches must remain blocked, valid tables must not be deleted."
+}

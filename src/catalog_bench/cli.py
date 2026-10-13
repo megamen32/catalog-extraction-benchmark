@@ -35,9 +35,25 @@ def main():
     demo.add_argument('--output', type=Path, required=True)
     scan = subs.add_parser('scan', help='Scan difficulty heuristics; this is not a quality score')
     scan.add_argument('sources', type=Path, nargs='+'); scan.add_argument('--output', type=Path, required=True)
+    regress = subs.add_parser('regressions', help='Inspect, capture or score catalogue-meaning/error regressions without model calls')
+    regress.add_argument('--registry', type=Path)
+    regress.add_argument('--case')
+    regress.add_argument('--candidate', type=Path)
+    regress.add_argument('--register', type=Path)
+    regress.add_argument('--output', type=Path)
     args = parser.parse_args()
     try:
-        if args.command == 'dataset':
+        if args.command == 'regressions':
+            from .regressions import inspect_registry, score_regression, register_pending
+            if args.register:
+                if not args.registry: raise ValueError('--register requires an explicit --registry destination')
+                result = register_pending(args.register, args.registry)
+            elif args.case or args.candidate:
+                if not (args.case and args.candidate): raise ValueError('Provide both --case and --candidate')
+                result = score_regression(args.case, json.loads(args.candidate.read_text()), args.registry)
+            else: result = inspect_registry(args.registry)
+            if args.output: write_json(args.output, result)
+        elif args.command == 'dataset':
             result = validate_dataset(args.dataset)
             if args.list: result['cases'] = load_dataset(args.dataset)['cases']
             if args.export: result['exported_to'] = str(export_dataset(args.export,args.dataset))

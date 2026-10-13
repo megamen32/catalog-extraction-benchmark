@@ -1,3 +1,7 @@
+## Catalogue-meaning regressions,2026-10-14
+
+Owner Root adds package0.4.0 registry1.0.0:8 retained high-priority failure examples, source hashes/page, exact outputs and native producer/version/time, pending ambiguity excluded. Meaning classification and engineering IDs have5 explicit automatic assertions; grammar/branding/efficiency remain diagnostics, not semantic accuracy gains. Legacy15/500 and17/520+21 datasets unchanged. New context metadata is accepted without changing their field assertions.37 focused checks pass0.24s; actual installed/public CLI proof pending. No model reruns for registration.
+
 # Project State
 
 ## Project Reference

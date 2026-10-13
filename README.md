@@ -7,6 +7,7 @@ Compare PDF catalogue parsers against independently reviewed engineering facts.
 - Compare canonical page JSON and externally supplied products/characteristics/families JSONL.
 - Run explicit **project × model** matrices with bounded execution and reusable artifacts.
 - Keep literal transcription, engineering correctness and annotation coverage separate.
+- [Important real failures and catalogue-meaning regressions](docs/REGRESSIONS-RU.md): retained evidence, pending glyph adjudication and purpose/scope checks, separate from historical fact totals.
 
 **[Единая история всех испытаний: версии, три раунда, разброс, время и параллельные оценки](docs/EXPERIMENT-HISTORY-RU.md)** · [JSON-сводка](examples/experiment-history.json)
 
@@ -17,7 +18,7 @@ Compare PDF catalogue parsers against independently reviewed engineering facts.
 Requires Python 3.11+ and [uv](https://docs.astral.sh/uv/).
 
 ```bash
-uv tool install git+https://github.com/megamen32/catalog-extraction-benchmark@v0.3.0
+uv tool install git+https://github.com/megamen32/catalog-extraction-benchmark@v0.4.0
 ```
 
 ## Try it

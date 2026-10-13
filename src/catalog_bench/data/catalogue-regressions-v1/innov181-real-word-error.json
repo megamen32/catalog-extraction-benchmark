@@ -1,0 +1,58 @@
+{
+  "id": "innov181-real-word-error",
+  "status": "diagnostic",
+  "priority": "high",
+  "category": "literal_transcription",
+  "title": "Fix extraction word error without inventing a source typo",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 181
+  },
+  "review_basis": "Original manually rendered and visually inspected,2026-10-14. Ambiguous glyph has no gold value.",
+  "artifacts": [
+    {
+      "path": "artifacts/innov181-before15.json",
+      "sha256": "87d22f030a81b64203a2241fbbdbc8114bfd74cf5ff218fed3059f60cfa22b41",
+      "bytes": 14556,
+      "role": "extractor",
+      "program_version": "1.4.15",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "producer": {
+        "role": "extractor",
+        "attempt": 0,
+        "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+        "physical_page": 181,
+        "program_version": "1.4.15",
+        "program_source_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+        "elapsed_seconds": 78.796,
+        "started_at": 1791867669.8467138,
+        "finished_at": 1791867748.6424305,
+        "receipt_binding": "exact native artifact"
+      }
+    },
+    {
+      "path": "artifacts/innov181-after15.json",
+      "sha256": "673c3bd7221c033d81f9cf90a8bc8d9adb29792d70bffc5a01cd3552723085b2",
+      "bytes": 14829,
+      "role": "extractor",
+      "program_version": "1.4.15",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "producer": {
+        "role": "extractor",
+        "attempt": 1,
+        "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+        "physical_page": 181,
+        "program_version": "1.4.15",
+        "program_source_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+        "elapsed_seconds": 122.768,
+        "started_at": 1791927604.476948,
+        "finished_at": 1791927727.2446527,
+        "receipt_binding": "exact native artifact"
+      }
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "Preserve literal printed unusual conductor codes while correcting the independently confirmed word. No catalogue code normalization by plausibility.",
+  "coverage_note": "Historical literal wording correction, not a demonstrated change in catalogue engineering meaning. Excluded from semantic accuracy totals."
+}

@@ -1,0 +1,538 @@
+{
+  "verdict": "revise",
+  "checks": [
+    {
+      "category": "table_count",
+      "passed": true,
+      "evidence": "Три печатные решётки: спецификация (18 содержательных строк с пустыми строками секций), панель SmartLine (9×4) и блок подписей штампа — покрыты кандидатскими t1, t2, t3/t_panel; расщепление штампа на таблицу и фигуры не теряет данных."
+    },
+    {
+      "category": "column_coverage",
+      "passed": true,
+      "evidence": "Все 9 колонок спецификации, 4 графы панели и 6 граф блока подписей (Изм./Колуч./Лист/№док./Подп./Дата) представлены."
+    },
+    {
+      "category": "row_coverage",
+      "passed": true,
+      "evidence": "Поз. 1–1.5.2 (18 строк), 9 строк панели (СВ95-3 3; МУ103 1; МУ104 2; У4 2; ЭП-2М 2; ЭПВ-М 1), строки штампа Разраб./Иванов, Н.контр./Петров, ГИП/Сидоров с датами 01.08.21 присутствуют."
+    },
+    {
+      "category": "blank_cells",
+      "passed": true,
+      "evidence": "Пустые графы (код продукции, поставщик у 1.3.1/1.4.1/1.4.5, масса у 1.2.1 и т.д.) корректно blank."
+    },
+    {
+      "category": "merged_cells",
+      "passed": true,
+      "evidence": "Секционные заголовки 1.1–1.5 без ложных объединений; вертикальные подписи штампа описаны отдельно, дублирования строк нет."
+    },
+    {
+      "category": "values",
+      "passed": false,
+      "evidence": "В таблице панели и в labels фигуры кандидат печатает «ЗП-2М» и «ЗПВ-М»; увеличенный фрагмент панели ([0.09–0.30, 0.43–0.475]) показывает «ЭП-2М» (2) и «ЭПВ-М» (1), что подтверждается тождеством с марками ЭП-1М/ЭП-2М (код 99) поз. 1.5.2. Прочие значения спецификации сверены по клеткам и верны (ВЛП-0,4 кВ; ПВС 3х2,5; СИП-2 3х50 1х50; 283,9·1,05 = 299 м; 4,5/0,167; 299/0,727; 8/900; ЗП6 1/0,5; КС2, 26.0085-42 1/1,9; МУ103 2/32; МУ104 3/32,2; У4 3/6,9; Х16, 26.0085-47 1/0,4; 98/4/0,9; 99/3/1,6)."
+    },
+    {
+      "category": "units",
+      "passed": true,
+      "evidence": "Единицы м/шт. построчно верны; кг — единица колонки «Масса 1 ед.», соответствующая шапке."
+    },
+    {
+      "category": "figures",
+      "passed": false,
+      "evidence": "Искажённые обозначения «ЗП-2М», «ЗПВ-М» повторены в labels фигуры скриншота; остальное (лента, КАМЕЛЬГИНО.DWG*, план ВЛ) соответствует оригиналу."
+    },
+    {
+      "category": "text_completeness",
+      "passed": true,
+      "evidence": "Оба абзаца дословны; вертикальные надписи «Согласовано», «Взам. инв. №», «Подп. и дата», «Инв. № подл.» учтены; футер «3» есть."
+    },
+    {
+      "category": "rotated_labels",
+      "passed": true,
+      "evidence": "Повернутые надписи левого поля штампа и вертикальные вкладки окна («Кабель, провод», «Типовые узлы», «Свойства», «Команды») распознаны."
+    },
+    {
+      "category": "provenance",
+      "passed": true,
+      "evidence": "Печатная страница 3; штамп XXX-XX-ЭВ.СО, стадия Р, лист 1, листов 2, ООО «XXXXX»; сохранённый дефект печати «Паименование объекта строительства» соответствует источнику."
+    }
+  ],
+  "issues": [
+    {
+      "severity": "error",
+      "path": "tables[t1].rows (графа «Марка», строки Линейная арматура)",
+      "message": "В источнике напечатано «ЭП-2М» (кол. 2) и «ЭПВ-М» (кол. 1); кандидат содержит «ЗП-2М» и «ЗПВ-М» — заменены буквы Э→З, противоречит также «ЭП-2М» в t2 поз. 1.5.2. Требуется исправление обозначений."
+    },
+    {
+      "severity": "error",
+      "path": "figures[0].labels",
+      "message": "Те же изменённые обозначения «ЗП-2М», «ЗПВ-М» повторены в подписях фигуры скриншота; заменить на напечатанные «ЭП-2М», «ЭПВ-М»."
+    },
+    {
+      "severity": "error",
+      "path": "source_observation.uncertainties",
+      "message": "Независимая запись оригинала: []; в кандидате: [\"Мелкие высотные отметки и подписи на плане трассы в скриншоте частично нечитаемы из-за растрового качества\"]"
+    },
+    {
+      "severity": "error",
+      "path": "tables",
+      "message": "Независимая запись оригинала: 3; в кандидате: 4"
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].columns",
+      "message": "Независимая запись оригинала: 9; в кандидате: 4"
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows",
+      "message": "Независимая запись оригинала: 18; в кандидате: 9"
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].columns[0].label",
+      "message": "Независимая запись оригинала: \"Поз.\"; в кандидате: \"Марка\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].columns[1].label",
+      "message": "Независимая запись оригинала: \"Наименование и техническая характеристика\"; в кандидате: \"Кол.\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].columns[2].label",
+      "message": "Независимая запись оригинала: \"Тип, марка, обозначение документа, опросного листа\"; в кандидате: \"Вкл.\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].columns[3].label",
+      "message": "Независимая запись оригинала: \"Код продукции\"; в кандидате: \"Примечание\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[0].cells[column=0].value",
+      "message": "Независимая запись оригинала: \"1\"; в кандидате: \"Железобетонные элементы\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[0].cells[column=1].state",
+      "message": "Независимая запись оригинала: \"value\"; в кандидате: \"blank\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[0].cells[column=1].value",
+      "message": "Независимая запись оригинала: \"Строительство ВЛП-0,4 кВ\"; в кандидате: null"
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[1].cells[column=0].value",
+      "message": "Независимая запись оригинала: \"1.1\"; в кандидате: \"СВ95-3\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[1].cells[column=1].value",
+      "message": "Независимая запись оригинала: \"Кабельно-проводниковая продукция\"; в кандидате: \"3\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[1].cells[column=2].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[1].cells[column=2].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"☑\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[2].cells[column=0].value",
+      "message": "Независимая запись оригинала: \"1.1.1\"; в кандидате: \"Стальные конструкции\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[2].cells[column=1].state",
+      "message": "Независимая запись оригинала: \"value\"; в кандидате: \"blank\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[2].cells[column=1].value",
+      "message": "Независимая запись оригинала: \"Провод силовой с ПВХ изоляцией сечением 3х2,5\"; в кандидате: null"
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[2].cells[column=2].state",
+      "message": "Независимая запись оригинала: \"value\"; в кандидате: \"blank\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[2].cells[column=2].value",
+      "message": "Независимая запись оригинала: \"ПВС 3х2,5\"; в кандидате: null"
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[3].cells[column=0].value",
+      "message": "Независимая запись оригинала: \"1.1.2\"; в кандидате: \"МУ103\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[3].cells[column=1].value",
+      "message": "Независимая запись оригинала: \"Провод самонесущий изолированный\"; в кандидате: \"1\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[3].cells[column=2].value",
+      "message": "Независимая запись оригинала: \"СИП-2 3х50 1х50\"; в кандидате: \"☑\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[4].cells[column=0].value",
+      "message": "Независимая запись оригинала: \"1.2\"; в кандидате: \"МУ104\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[4].cells[column=1].value",
+      "message": "Независимая запись оригинала: \"Оборудование на напряжение до 1000 В\"; в кандидате: \"2\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[4].cells[column=2].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[4].cells[column=2].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"☑\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[5].cells[column=0].value",
+      "message": "Независимая запись оригинала: \"1.2.1\"; в кандидате: \"У4\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[5].cells[column=1].value",
+      "message": "Независимая запись оригинала: \"Светильник уличного освещения\"; в кандидате: \"2\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[5].cells[column=2].value",
+      "message": "Независимая запись оригинала: \"Светильник (марку определить проектом)\"; в кандидате: \"☑\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[6].cells[column=0].value",
+      "message": "Независимая запись оригинала: \"1.3\"; в кандидате: \"Линейная арматура\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[6].cells[column=1].state",
+      "message": "Независимая запись оригинала: \"value\"; в кандидате: \"blank\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[6].cells[column=1].value",
+      "message": "Независимая запись оригинала: \"Железобетонные элементы\"; в кандидате: null"
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[7].cells[column=0].value",
+      "message": "Независимая запись оригинала: \"1.3.1\"; в кандидате: \"ЗП-2М\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[7].cells[column=1].value",
+      "message": "Независимая запись оригинала: \"Стойка железобетонная вибрированная, ТУ 5863-007-96502166-2016\"; в кандидате: \"2\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[7].cells[column=2].value",
+      "message": "Независимая запись оригинала: \"СВ95-3\"; в кандидате: \"☑\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[8].cells[column=0].value",
+      "message": "Независимая запись оригинала: \"1.4\"; в кандидате: \"ЗПВ-М\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[8].cells[column=1].value",
+      "message": "Независимая запись оригинала: \"Стальные конструкции\"; в кандидате: \"1\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[8].cells[column=2].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[8].cells[column=2].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"☑\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[1].columns",
+      "message": "Независимая запись оригинала: 4; в кандидате: 9"
+    },
+    {
+      "severity": "error",
+      "path": "tables[1].rows",
+      "message": "Независимая запись оригинала: 9; в кандидате: 24"
+    },
+    {
+      "severity": "error",
+      "path": "tables[1].columns[0].label",
+      "message": "Независимая запись оригинала: \"Марка\"; в кандидате: \"Поз.\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[1].columns[1].label",
+      "message": "Независимая запись оригинала: \"Кол.\"; в кандидате: \"Наименование и техническая характеристика\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[1].columns[2].label",
+      "message": "Независимая запись оригинала: \"Вкл.\"; в кандидате: \"Тип, марка, обозначение документа, опросного листа\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[1].columns[3].label",
+      "message": "Независимая запись оригинала: \"Примечание\"; в кандидате: \"Код продукции\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[1].rows[0].cells[column=0].state",
+      "message": "Независимая запись оригинала: \"value\"; в кандидате: \"blank\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[1].rows[0].cells[column=0].value",
+      "message": "Независимая запись оригинала: \"Железобетонные элементы\"; в кандидате: null"
+    },
+    {
+      "severity": "error",
+      "path": "tables[1].rows[1].cells[column=0].value",
+      "message": "Независимая запись оригинала: \"СВ95-3\"; в кандидате: \"1\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[1].rows[1].cells[column=1].value",
+      "message": "Независимая запись оригинала: \"3\"; в кандидате: \"Строительство ВЛП-0,4 кВ\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[1].rows[1].cells[column=2].state",
+      "message": "Независимая запись оригинала: \"value\"; в кандидате: \"blank\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[1].rows[1].cells[column=2].value",
+      "message": "Независимая запись оригинала: \"☑\"; в кандидате: null"
+    },
+    {
+      "severity": "error",
+      "path": "tables[1].rows[2].cells[column=0].state",
+      "message": "Независимая запись оригинала: \"value\"; в кандидате: \"blank\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[1].rows[2].cells[column=0].value",
+      "message": "Независимая запись оригинала: \"Стальные конструкции\"; в кандидате: null"
+    },
+    {
+      "severity": "error",
+      "path": "tables[1].rows[3].cells[column=0].value",
+      "message": "Независимая запись оригинала: \"МУ103\"; в кандидате: \"1.1\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[1].rows[3].cells[column=1].value",
+      "message": "Независимая запись оригинала: \"1\"; в кандидате: \"Кабельно-проводниковая продукция\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[1].rows[3].cells[column=2].state",
+      "message": "Независимая запись оригинала: \"value\"; в кандидате: \"blank\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[1].rows[3].cells[column=2].value",
+      "message": "Независимая запись оригинала: \"☑\"; в кандидате: null"
+    },
+    {
+      "severity": "error",
+      "path": "tables[1].rows[4].cells[column=0].value",
+      "message": "Независимая запись оригинала: \"МУ104\"; в кандидате: \"1.1.1\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[1].rows[4].cells[column=1].value",
+      "message": "Независимая запись оригинала: \"2\"; в кандидате: \"Провод силовой с ПВХ изоляцией сечением 3х2,5\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[1].rows[4].cells[column=2].value",
+      "message": "Независимая запись оригинала: \"☑\"; в кандидате: \"ПВС 3х2,5\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[1].rows[5].cells[column=0].value",
+      "message": "Независимая запись оригинала: \"У4\"; в кандидате: \"1.1.2\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[1].rows[5].cells[column=1].value",
+      "message": "Независимая запись оригинала: \"2\"; в кандидате: \"Провод самонесущий изолированный\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[1].rows[5].cells[column=2].value",
+      "message": "Независимая запись оригинала: \"☑\"; в кандидате: \"СИП-2 3х50  1х50\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[1].rows[6].cells[column=0].state",
+      "message": "Независимая запись оригинала: \"value\"; в кандидате: \"blank\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[1].rows[6].cells[column=0].value",
+      "message": "Независимая запись оригинала: \"Линейная арматура\"; в кандидате: null"
+    },
+    {
+      "severity": "error",
+      "path": "tables[1].rows[7].cells[column=0].value",
+      "message": "Независимая запись оригинала: \"ЭП-2М\"; в кандидате: \"1.2\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[1].rows[7].cells[column=1].value",
+      "message": "Независимая запись оригинала: \"2\"; в кандидате: \"Оборудование на напряжение до 1000 В\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[1].rows[7].cells[column=2].state",
+      "message": "Независимая запись оригинала: \"value\"; в кандидате: \"blank\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[1].rows[7].cells[column=2].value",
+      "message": "Независимая запись оригинала: \"☑\"; в кандидате: null"
+    },
+    {
+      "severity": "error",
+      "path": "tables[1].rows[8].cells[column=0].value",
+      "message": "Независимая запись оригинала: \"ЭПВ-М\"; в кандидате: \"1.2.1\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[1].rows[8].cells[column=1].value",
+      "message": "Независимая запись оригинала: \"1\"; в кандидате: \"Светильник уличного освещения\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[1].rows[8].cells[column=2].value",
+      "message": "Независимая запись оригинала: \"☑\"; в кандидате: \"Светильник (марку определить проектом)\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[2].rows",
+      "message": "Независимая запись оригинала: 5; в кандидате: 9"
+    },
+    {
+      "severity": "error",
+      "path": "tables[2].rows[0].cells[column=0].state",
+      "message": "Независимая запись оригинала: \"value\"; в кандидате: \"blank\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[2].rows[0].cells[column=0].value",
+      "message": "Независимая запись оригинала: \"Разраб.\"; в кандидате: null"
+    },
+    {
+      "severity": "error",
+      "path": "tables[2].rows[0].cells[column=1].state",
+      "message": "Независимая запись оригинала: \"value\"; в кандидате: \"blank\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[2].rows[0].cells[column=1].value",
+      "message": "Независимая запись оригинала: \"Иванов\"; в кандидате: null"
+    },
+    {
+      "severity": "error",
+      "path": "tables[2].rows[0].cells[column=5].state",
+      "message": "Независимая запись оригинала: \"value\"; в кандидате: \"blank\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[2].rows[0].cells[column=5].value",
+      "message": "Независимая запись оригинала: \"01.08.21\"; в кандидате: null"
+    },
+    {
+      "severity": "error",
+      "path": "tables[2].rows[3].cells[column=0].value",
+      "message": "Независимая запись оригинала: \"Н.контр.\"; в кандидате: \"Разраб.\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[2].rows[3].cells[column=1].state",
+      "message": "Независимая запись оригинала: \"value\"; в кандидате: \"blank\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[2].rows[3].cells[column=1].value",
+      "message": "Независимая запись оригинала: \"Петров\"; в кандидате: null"
+    },
+    {
+      "severity": "error",
+      "path": "tables[2].rows[3].cells[column=2].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[2].rows[3].cells[column=2].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"Иванов\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[2].rows[4].cells[column=0].state",
+      "message": "Независимая запись оригинала: \"value\"; в кандидате: \"blank\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[2].rows[4].cells[column=0].value",
+      "message": "Независимая запись оригинала: \"ГИП\"; в кандидате: null"
+    },
+    {
+      "severity": "error",
+      "path": "tables[2].rows[4].cells[column=1].state",
+      "message": "Независимая запись оригинала: \"value\"; в кандидате: \"blank\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[2].rows[4].cells[column=1].value",
+      "message": "Независимая запись оригинала: \"Сидоров\"; в кандидате: null"
+    },
+    {
+      "severity": "error",
+      "path": "tables[2].rows[4].cells[column=5].state",
+      "message": "Независимая запись оригинала: \"value\"; в кандидате: \"blank\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[2].rows[4].cells[column=5].value",
+      "message": "Независимая запись оригинала: \"01.08.21\"; в кандидате: null"
+    }
+  ],
+  "observed_table_count": 3,
+  "observed_row_counts": [
+    18,
+    9,
+    5
+  ],
+  "observed_column_counts": [
+    9,
+    4,
+    6
+  ]
+}

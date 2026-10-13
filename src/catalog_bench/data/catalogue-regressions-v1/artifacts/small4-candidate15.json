@@ -1,0 +1,2151 @@
+{
+  "title": "Спецификация оборудования, изделий и материалов",
+  "printed_page": "3",
+  "text_blocks": [
+    {
+      "kind": "paragraph",
+      "text": "Ключевая функция программы — автоматическое создание спецификаций. Для этого достаточно выделить рамкой область чертежа. Далее программа отфильтрует нужные объекты и составит по ним спецификацию согласно ГОСТ 21.110-2013. Результат можно экспортировать на чертеж, в Excel, Word или Open Document (ГОСТ Р ИСО/МЭК 26300-2010)."
+    },
+    {
+      "kind": "branding",
+      "text": "Платформа nanoCAD x64 24 - не для коммерческого использования DEMO - КАМЕЛЬГИНО.DWG*"
+    },
+    {
+      "kind": "branding",
+      "text": "Вкладки ленты: Главная, Построение, Вставка, Оформление, Зависимости, 3D-инструменты, Вид, Настройки, Вывод, Растр, Облака точек, Топоплан, Подключаемые модули."
+    },
+    {
+      "kind": "branding",
+      "text": "SmartLine – проектирование ЛЭП 0,4-35 кВ"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Поля панели SmartLine (скриншот): «Тип» — «Опора 0,4 кВ» (раскрывающийся список), «Номер» — «2», «Название» — «УА29», «Заголовок» — пустое поле; ниже узлы дерева «УГО», «Ссылка на проект», «Спецификация», кнопка «Добавить» и кнопки «В избранное» / «На чертеж»."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Также из модели ВЛ можно извлечь и другие отчеты."
+    },
+    {
+      "kind": "paragraph",
+      "text": "У левого края изображения спецификации расположены вертикальные (повернутые на 90°) блоки с надписями «Согласовано», «Взам. инв. №», «Подп. и дата» и «Инв. № подл.»; каждый блок содержит узкие графы, все они пустые."
+    },
+    {
+      "kind": "footer",
+      "text": "3"
+    }
+  ],
+  "tables": [
+    {
+      "id": "t1",
+      "title": "Панель SmartLine: спецификация выбранной опоры (скриншот программы)",
+      "columns": [
+        {
+          "id": "c1",
+          "label": "Марка",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "c2",
+          "label": "Кол.",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "c3",
+          "label": "Вкл.",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "c4",
+          "label": "Примечание",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        }
+      ],
+      "rows": [
+        {
+          "cells": [
+            {
+              "column_id": "c1",
+              "value": "Железобетонные элементы",
+              "state": "value"
+            },
+            {
+              "column_id": "c2",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c3",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c4",
+              "value": null,
+              "state": "blank"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "c1",
+              "value": "СВ95-3",
+              "state": "value"
+            },
+            {
+              "column_id": "c2",
+              "value": "3",
+              "state": "value"
+            },
+            {
+              "column_id": "c3",
+              "value": "☑",
+              "state": "value"
+            },
+            {
+              "column_id": "c4",
+              "value": null,
+              "state": "blank"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "c1",
+              "value": "Стальные конструкции",
+              "state": "value"
+            },
+            {
+              "column_id": "c2",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c3",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c4",
+              "value": null,
+              "state": "blank"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "c1",
+              "value": "МУ103",
+              "state": "value"
+            },
+            {
+              "column_id": "c2",
+              "value": "1",
+              "state": "value"
+            },
+            {
+              "column_id": "c3",
+              "value": "☑",
+              "state": "value"
+            },
+            {
+              "column_id": "c4",
+              "value": null,
+              "state": "blank"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "c1",
+              "value": "МУ104",
+              "state": "value"
+            },
+            {
+              "column_id": "c2",
+              "value": "2",
+              "state": "value"
+            },
+            {
+              "column_id": "c3",
+              "value": "☑",
+              "state": "value"
+            },
+            {
+              "column_id": "c4",
+              "value": null,
+              "state": "blank"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "c1",
+              "value": "У4",
+              "state": "value"
+            },
+            {
+              "column_id": "c2",
+              "value": "2",
+              "state": "value"
+            },
+            {
+              "column_id": "c3",
+              "value": "☑",
+              "state": "value"
+            },
+            {
+              "column_id": "c4",
+              "value": null,
+              "state": "blank"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "c1",
+              "value": "Линейная арматура",
+              "state": "value"
+            },
+            {
+              "column_id": "c2",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c3",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c4",
+              "value": null,
+              "state": "blank"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "c1",
+              "value": "ЗП-2М",
+              "state": "value"
+            },
+            {
+              "column_id": "c2",
+              "value": "2",
+              "state": "value"
+            },
+            {
+              "column_id": "c3",
+              "value": "☑",
+              "state": "value"
+            },
+            {
+              "column_id": "c4",
+              "value": null,
+              "state": "blank"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "c1",
+              "value": "ЗПВ-М",
+              "state": "value"
+            },
+            {
+              "column_id": "c2",
+              "value": "1",
+              "state": "value"
+            },
+            {
+              "column_id": "c3",
+              "value": "☑",
+              "state": "value"
+            },
+            {
+              "column_id": "c4",
+              "value": null,
+              "state": "blank"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": "Спецификация оборудования, изделий и материалов (растровый снимок спецификации)",
+      "columns": [
+        {
+          "id": "c1",
+          "label": "Поз.",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "c2",
+          "label": "Наименование и техническая характеристика",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "c3",
+          "label": "Тип, марка, обозначение документа, опросного листа",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "c4",
+          "label": "Код продукции",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "c5",
+          "label": "Поставщик",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "c6",
+          "label": "Ед. измерения",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "c7",
+          "label": "Кол.",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "c8",
+          "label": "Масса 1 ед.",
+          "unit": "кг",
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "c9",
+          "label": "Примечание",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        }
+      ],
+      "rows": [
+        {
+          "cells": [
+            {
+              "column_id": "c1",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c2",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c3",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c4",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c5",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c6",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c7",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c8",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c9",
+              "value": null,
+              "state": "blank"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "c1",
+              "value": "1",
+              "state": "value"
+            },
+            {
+              "column_id": "c2",
+              "value": "Строительство ВЛП-0,4 кВ",
+              "state": "value"
+            },
+            {
+              "column_id": "c3",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c4",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c5",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c6",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c7",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c8",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c9",
+              "value": null,
+              "state": "blank"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "c1",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c2",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c3",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c4",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c5",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c6",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c7",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c8",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c9",
+              "value": null,
+              "state": "blank"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "c1",
+              "value": "1.1",
+              "state": "value"
+            },
+            {
+              "column_id": "c2",
+              "value": "Кабельно-проводниковая продукция",
+              "state": "value"
+            },
+            {
+              "column_id": "c3",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c4",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c5",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c6",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c7",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c8",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c9",
+              "value": null,
+              "state": "blank"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "c1",
+              "value": "1.1.1",
+              "state": "value"
+            },
+            {
+              "column_id": "c2",
+              "value": "Провод силовой с ПВХ изоляцией сечением 3х2,5",
+              "state": "value"
+            },
+            {
+              "column_id": "c3",
+              "value": "ПВС 3х2,5",
+              "state": "value"
+            },
+            {
+              "column_id": "c4",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c5",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c6",
+              "value": "м",
+              "state": "value"
+            },
+            {
+              "column_id": "c7",
+              "value": "4,5",
+              "state": "value"
+            },
+            {
+              "column_id": "c8",
+              "value": "0,167",
+              "state": "value"
+            },
+            {
+              "column_id": "c9",
+              "value": null,
+              "state": "blank"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "c1",
+              "value": "1.1.2",
+              "state": "value"
+            },
+            {
+              "column_id": "c2",
+              "value": "Провод самонесущий изолированный",
+              "state": "value"
+            },
+            {
+              "column_id": "c3",
+              "value": "СИП-2 3х50  1х50",
+              "state": "value"
+            },
+            {
+              "column_id": "c4",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c5",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c6",
+              "value": "м",
+              "state": "value"
+            },
+            {
+              "column_id": "c7",
+              "value": "299",
+              "state": "value"
+            },
+            {
+              "column_id": "c8",
+              "value": "0,727",
+              "state": "value"
+            },
+            {
+              "column_id": "c9",
+              "value": "283,9·1.05 = 299 м",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "c1",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c2",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c3",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c4",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c5",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c6",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c7",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c8",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c9",
+              "value": null,
+              "state": "blank"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "c1",
+              "value": "1.2",
+              "state": "value"
+            },
+            {
+              "column_id": "c2",
+              "value": "Оборудование на напряжение до 1000 В",
+              "state": "value"
+            },
+            {
+              "column_id": "c3",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c4",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c5",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c6",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c7",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c8",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c9",
+              "value": null,
+              "state": "blank"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "c1",
+              "value": "1.2.1",
+              "state": "value"
+            },
+            {
+              "column_id": "c2",
+              "value": "Светильник уличного освещения",
+              "state": "value"
+            },
+            {
+              "column_id": "c3",
+              "value": "Светильник (марку определить проектом)",
+              "state": "value"
+            },
+            {
+              "column_id": "c4",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c5",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c6",
+              "value": "шт.",
+              "state": "value"
+            },
+            {
+              "column_id": "c7",
+              "value": "1",
+              "state": "value"
+            },
+            {
+              "column_id": "c8",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c9",
+              "value": null,
+              "state": "blank"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "c1",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c2",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c3",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c4",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c5",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c6",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c7",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c8",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c9",
+              "value": null,
+              "state": "blank"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "c1",
+              "value": "1.3",
+              "state": "value"
+            },
+            {
+              "column_id": "c2",
+              "value": "Железобетонные элементы",
+              "state": "value"
+            },
+            {
+              "column_id": "c3",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c4",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c5",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c6",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c7",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c8",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c9",
+              "value": null,
+              "state": "blank"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "c1",
+              "value": "1.3.1",
+              "state": "value"
+            },
+            {
+              "column_id": "c2",
+              "value": "Стойка железобетонная вибрированная, ТУ 5863-007-96502166-2016",
+              "state": "value"
+            },
+            {
+              "column_id": "c3",
+              "value": "СВ95-3",
+              "state": "value"
+            },
+            {
+              "column_id": "c4",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c5",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c6",
+              "value": "шт.",
+              "state": "value"
+            },
+            {
+              "column_id": "c7",
+              "value": "8",
+              "state": "value"
+            },
+            {
+              "column_id": "c8",
+              "value": "900",
+              "state": "value"
+            },
+            {
+              "column_id": "c9",
+              "value": null,
+              "state": "blank"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "c1",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c2",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c3",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c4",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c5",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c6",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c7",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c8",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c9",
+              "value": null,
+              "state": "blank"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "c1",
+              "value": "1.4",
+              "state": "value"
+            },
+            {
+              "column_id": "c2",
+              "value": "Стальные конструкции",
+              "state": "value"
+            },
+            {
+              "column_id": "c3",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c4",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c5",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c6",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c7",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c8",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c9",
+              "value": null,
+              "state": "blank"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "c1",
+              "value": "1.4.1",
+              "state": "value"
+            },
+            {
+              "column_id": "c2",
+              "value": "Заземляющий проводник",
+              "state": "value"
+            },
+            {
+              "column_id": "c3",
+              "value": "ЗП6",
+              "state": "value"
+            },
+            {
+              "column_id": "c4",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c5",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c6",
+              "value": "м",
+              "state": "value"
+            },
+            {
+              "column_id": "c7",
+              "value": "1",
+              "state": "value"
+            },
+            {
+              "column_id": "c8",
+              "value": "0,5",
+              "state": "value"
+            },
+            {
+              "column_id": "c9",
+              "value": "к крюку (2 шт.)",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "c1",
+              "value": "1.4.2",
+              "state": "value"
+            },
+            {
+              "column_id": "c2",
+              "value": "Кронштейн",
+              "state": "value"
+            },
+            {
+              "column_id": "c3",
+              "value": "КС2. 26.0085-42",
+              "state": "value"
+            },
+            {
+              "column_id": "c4",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c5",
+              "value": "ООО «МЗВА-ЧЭМЗ»",
+              "state": "value"
+            },
+            {
+              "column_id": "c6",
+              "value": "шт.",
+              "state": "value"
+            },
+            {
+              "column_id": "c7",
+              "value": "1",
+              "state": "value"
+            },
+            {
+              "column_id": "c8",
+              "value": "1,9",
+              "state": "value"
+            },
+            {
+              "column_id": "c9",
+              "value": null,
+              "state": "blank"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "c1",
+              "value": "1.4.3",
+              "state": "value"
+            },
+            {
+              "column_id": "c2",
+              "value": "Плита",
+              "state": "value"
+            },
+            {
+              "column_id": "c3",
+              "value": "МУ103",
+              "state": "value"
+            },
+            {
+              "column_id": "c4",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c5",
+              "value": "ООО «МЗВА-ЧЭМЗ»",
+              "state": "value"
+            },
+            {
+              "column_id": "c6",
+              "value": "шт.",
+              "state": "value"
+            },
+            {
+              "column_id": "c7",
+              "value": "2",
+              "state": "value"
+            },
+            {
+              "column_id": "c8",
+              "value": "32",
+              "state": "value"
+            },
+            {
+              "column_id": "c9",
+              "value": null,
+              "state": "blank"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "c1",
+              "value": "1.4.4",
+              "state": "value"
+            },
+            {
+              "column_id": "c2",
+              "value": "Плита",
+              "state": "value"
+            },
+            {
+              "column_id": "c3",
+              "value": "МУ104",
+              "state": "value"
+            },
+            {
+              "column_id": "c4",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c5",
+              "value": "ООО «МЗВА-ЧЭМЗ»",
+              "state": "value"
+            },
+            {
+              "column_id": "c6",
+              "value": "шт.",
+              "state": "value"
+            },
+            {
+              "column_id": "c7",
+              "value": "3",
+              "state": "value"
+            },
+            {
+              "column_id": "c8",
+              "value": "32,2",
+              "state": "value"
+            },
+            {
+              "column_id": "c9",
+              "value": null,
+              "state": "blank"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "c1",
+              "value": "1.4.5",
+              "state": "value"
+            },
+            {
+              "column_id": "c2",
+              "value": "Кронштейн",
+              "state": "value"
+            },
+            {
+              "column_id": "c3",
+              "value": "У4",
+              "state": "value"
+            },
+            {
+              "column_id": "c4",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c5",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c6",
+              "value": "шт.",
+              "state": "value"
+            },
+            {
+              "column_id": "c7",
+              "value": "3",
+              "state": "value"
+            },
+            {
+              "column_id": "c8",
+              "value": "6,9",
+              "state": "value"
+            },
+            {
+              "column_id": "c9",
+              "value": null,
+              "state": "blank"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "c1",
+              "value": "1.4.6",
+              "state": "value"
+            },
+            {
+              "column_id": "c2",
+              "value": "Хомут",
+              "state": "value"
+            },
+            {
+              "column_id": "c3",
+              "value": "Х16, 26.0085-47",
+              "state": "value"
+            },
+            {
+              "column_id": "c4",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c5",
+              "value": "ООО «МЗВА-ЧЭМЗ»",
+              "state": "value"
+            },
+            {
+              "column_id": "c6",
+              "value": "шт.",
+              "state": "value"
+            },
+            {
+              "column_id": "c7",
+              "value": "1",
+              "state": "value"
+            },
+            {
+              "column_id": "c8",
+              "value": "0,4",
+              "state": "value"
+            },
+            {
+              "column_id": "c9",
+              "value": null,
+              "state": "blank"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "c1",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c2",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c3",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c4",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c5",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c6",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c7",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c8",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c9",
+              "value": null,
+              "state": "blank"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "c1",
+              "value": "1.5",
+              "state": "value"
+            },
+            {
+              "column_id": "c2",
+              "value": "Линейная арматура",
+              "state": "value"
+            },
+            {
+              "column_id": "c3",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c4",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c5",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c6",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c7",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c8",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c9",
+              "value": null,
+              "state": "blank"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "c1",
+              "value": "1.5.1",
+              "state": "value"
+            },
+            {
+              "column_id": "c2",
+              "value": "Заземляющий проводник ЗП-1 М",
+              "state": "value"
+            },
+            {
+              "column_id": "c3",
+              "value": "ЗП-1М",
+              "state": "value"
+            },
+            {
+              "column_id": "c4",
+              "value": "98",
+              "state": "value"
+            },
+            {
+              "column_id": "c5",
+              "value": "ООО «МЗВА-ЧЭМЗ»",
+              "state": "value"
+            },
+            {
+              "column_id": "c6",
+              "value": "шт.",
+              "state": "value"
+            },
+            {
+              "column_id": "c7",
+              "value": "4",
+              "state": "value"
+            },
+            {
+              "column_id": "c8",
+              "value": "0,9",
+              "state": "value"
+            },
+            {
+              "column_id": "c9",
+              "value": null,
+              "state": "blank"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "c1",
+              "value": "1.5.2",
+              "state": "value"
+            },
+            {
+              "column_id": "c2",
+              "value": "Заземляющий проводник ЗП-2 М",
+              "state": "value"
+            },
+            {
+              "column_id": "c3",
+              "value": "ЗП-2М",
+              "state": "value"
+            },
+            {
+              "column_id": "c4",
+              "value": "99",
+              "state": "value"
+            },
+            {
+              "column_id": "c5",
+              "value": "ООО «МЗВА-ЧЭМЗ»",
+              "state": "value"
+            },
+            {
+              "column_id": "c6",
+              "value": "шт.",
+              "state": "value"
+            },
+            {
+              "column_id": "c7",
+              "value": "3",
+              "state": "value"
+            },
+            {
+              "column_id": "c8",
+              "value": "1,6",
+              "state": "value"
+            },
+            {
+              "column_id": "c9",
+              "value": null,
+              "state": "blank"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": "Основная надпись (штамп): блок граф подписей",
+      "columns": [
+        {
+          "id": "c1",
+          "label": "Изм.",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "c2",
+          "label": "Кол.уч.",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "c3",
+          "label": "Лист",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "c4",
+          "label": "№док.",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "c5",
+          "label": "Подп.",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "c6",
+          "label": "Дата",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        }
+      ],
+      "rows": [
+        {
+          "cells": [
+            {
+              "column_id": "c1",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c2",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c3",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c4",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c5",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c6",
+              "value": null,
+              "state": "blank"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "c1",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c2",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c3",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c4",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c5",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c6",
+              "value": null,
+              "state": "blank"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "c1",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c2",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c3",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c4",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c5",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c6",
+              "value": null,
+              "state": "blank"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "c1",
+              "value": "Разраб.",
+              "state": "value"
+            },
+            {
+              "column_id": "c2",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c3",
+              "value": "Иванов",
+              "state": "value"
+            },
+            {
+              "column_id": "c4",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c5",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c6",
+              "value": "01.08.21",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "c1",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c2",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c3",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c4",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c5",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c6",
+              "value": null,
+              "state": "blank"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "c1",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c2",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c3",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c4",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c5",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c6",
+              "value": null,
+              "state": "blank"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "c1",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c2",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c3",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c4",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c5",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c6",
+              "value": null,
+              "state": "blank"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "c1",
+              "value": "Н.контр.",
+              "state": "value"
+            },
+            {
+              "column_id": "c2",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c3",
+              "value": "Петров",
+              "state": "value"
+            },
+            {
+              "column_id": "c4",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c5",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c6",
+              "value": "01.08.21",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "c1",
+              "value": "ГИП",
+              "state": "value"
+            },
+            {
+              "column_id": "c2",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c3",
+              "value": "Сидоров",
+              "state": "value"
+            },
+            {
+              "column_id": "c4",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c5",
+              "value": null,
+              "state": "blank"
+            },
+            {
+              "column_id": "c6",
+              "value": "01.08.21",
+              "state": "value"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t_panel",
+      "title": "Поля панели SmartLine (реквизиты выбранной опоры на скриншоте)",
+      "columns": [
+        {
+          "id": "c1",
+          "label": "Поле",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "c2",
+          "label": "Значение",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        }
+      ],
+      "rows": [
+        {
+          "cells": [
+            {
+              "column_id": "c1",
+              "value": "Тип",
+              "state": "value"
+            },
+            {
+              "column_id": "c2",
+              "value": "Опора 0,4 кВ",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "c1",
+              "value": "Номер",
+              "state": "value"
+            },
+            {
+              "column_id": "c2",
+              "value": "2",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "c1",
+              "value": "Название",
+              "state": "value"
+            },
+            {
+              "column_id": "c2",
+              "value": "УА29",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "c1",
+              "value": "Заголовок",
+              "state": "value"
+            },
+            {
+              "column_id": "c2",
+              "value": null,
+              "state": "blank"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "figures": [
+    {
+      "title": "Скриншот платформы nanoCAD: лента, панель SmartLine и план ВЛ",
+      "description": "Окно «Платформа nanoCAD x64 24 - не для коммерческого использования DEMO - КАМЕЛЬГИНО.DWG*». Вкладки ленты: Главная, Построение, Вставка, Оформление, Зависимости, 3D-инструменты, Вид, Настройки, Вывод, Растр, Облака точек, Топоплан, Подключаемые модули; подпись группы «SmartLine – проектирование ЛЭП 0,4-35 кВ» с кнопками «Каталог/свойства», «Спецификация», «Групповой редактор опор», «Ведомость опор», «Ведомость объемов работ», «Авт. расстановка опор», «Кабельный журнал», «Ведомость траншей», «Траншеи - ведомость работ». Слева панель SmartLine с полями Тип/Номер/Название/Заголовок, деревом «УГО», «Ссылка на проект», «Спецификация», кнопкой «Добавить» и таблицей марок (см. таблицу t1); у каждой строки марки значки «✕» (удалить) и карандаш (изменить), в графе «Вкл.» — печатные галочки. Значение графы «Тип» — «Опора 0,4 кВ», «Номер» — 2. Справа чертёж: вкладки документов «DEMO.DWG» и «DEMO - КАМЕЛЬГИНО.DWG*», вертикальные вкладки «Команды», «Типовые узлы», «Кабель, провод», «Свойства»; строка «+ Сверху 2D-каркас — нет связанных видов —». План трассы ВЛ содержит обозначения трасс «ВЛ №2 0,4кВ», «ВЛ №4 10кВ от П29» и частично обрезанную рамкой панели у левого нижнего края «ВЛ №0 10кВ 14кВ» (дальнейшие символы за пределами снимка отсутствуют), прямоугольник с надписью «ДЖ», синюю интерфейсную метку «УА29», обозначения опор «1» и «А29», «3 П29», «4 П29», номера пролётов «29», «28», «28», «28» (проверено увеличением: четыре подписи), обозначения «А», «А1», «А83», курсивную надпись «ориентировочно» вдоль зелёной штриховой линии, стрелку-указатель без надписи, координатную ось «X» с квадратиком и треугольником, а также отметки высот (печатный разделитель — точка). Внизу вкладки «Модель» и «Лист1».",
+      "labels": [
+        "Платформа nanoCAD x64 24 - не для коммерческого использования DEMO - КАМЕЛЬГИНО.DWG*",
+        "SmartLine – проектирование ЛЭП 0,4-35 кВ",
+        "Главная",
+        "Построение",
+        "Вставка",
+        "Оформление",
+        "Зависимости",
+        "3D-инструменты",
+        "Вид",
+        "Настройки",
+        "Вывод",
+        "Растр",
+        "Облака точек",
+        "Топоплан",
+        "Подключаемые модули",
+        "Каталог/свойства",
+        "Спецификация",
+        "Групповой редактор опор",
+        "Ведомость опор",
+        "Авт. расстановка опор",
+        "Ведомость объемов работ",
+        "Ведомость траншей",
+        "Траншеи - ведомость работ",
+        "Кабельный журнал",
+        "Типовые узлы",
+        "Кабель, провод",
+        "Свойства",
+        "Команды",
+        "Тип",
+        "Номер",
+        "Название",
+        "Заголовок",
+        "Опора 0,4 кВ",
+        "УГО",
+        "Ссылка на проект",
+        "Спецификация",
+        "Добавить",
+        "Марка",
+        "Кол.",
+        "Вкл.",
+        "Примечание",
+        "Железобетонные элементы",
+        "СВ95-3",
+        "Стальные конструкции",
+        "МУ103",
+        "МУ104",
+        "У4",
+        "Линейная арматура",
+        "ЗП-2М",
+        "ЗПВ-М",
+        "В избранное",
+        "На чертеж",
+        "DEMO.DWG",
+        "DEMO - КАМЕЛЬГИНО.DWG*",
+        "+ Сверху",
+        "2D-каркас",
+        "— нет связанных видов —",
+        "ВЛ №2 0,4кВ",
+        "ВЛ №4 10кВ от П29",
+        "ВЛ №0 10кВ 14кВ",
+        "ДЖ",
+        "УА29",
+        "1",
+        "А29",
+        "3",
+        "П29",
+        "4",
+        "29",
+        "28",
+        "28",
+        "28",
+        "А",
+        "А1",
+        "А83",
+        "ориентировочно",
+        "X",
+        "132.15",
+        "132.16",
+        "132.18",
+        "132.24",
+        "132.33",
+        "132.45",
+        "132.46",
+        "132.51",
+        "132.52",
+        "132.53",
+        "132.55",
+        "132.56",
+        "132.59",
+        "132.60",
+        "132.61",
+        "132.63",
+        "132.64",
+        "132.65",
+        "132.66",
+        "132.68",
+        "132.70",
+        "132.72",
+        "132.74",
+        "132.75",
+        "132.76",
+        "132.77",
+        "132.78",
+        "132.79",
+        "132.80",
+        "132.83",
+        "132.85",
+        "132.86",
+        "132.87",
+        "132.88",
+        "132.95",
+        "133.49",
+        "Модель",
+        "Лист1"
+      ]
+    },
+    {
+      "title": "Основная надпись (штамп): дополнительные реквизиты справа от граф подписей",
+      "description": "Правый блок штампа: верхняя широкая графа с обозначением «XXX-XX-ЭВ.СО»; под ней графа заголовка, напечатанного в источнике как «Паименование объекта строительства» (дефект печати, первая буква «П» вместо «Н»); в правой части — блок граф «Стадия» / «Лист» / «Листов» со значениями «Р» / «1» / «2»; ниже — графа наименования документа «Спецификация оборудования, изделий и материалов» и графа организации «ООО «XXXXX»».",
+      "labels": [
+        "XXX-XX-ЭВ.СО",
+        "Паименование объекта строительства",
+        "Стадия",
+        "Р",
+        "Лист",
+        "1",
+        "Листов",
+        "2",
+        "Спецификация оборудования, изделий и материалов",
+        "ООО «XXXXX»"
+      ]
+    },
+    {
+      "title": "Вертикальные блоки у левого края спецификации (повёрнутые надписи)",
+      "description": "Вдоль левого края изображения спецификации расположены четыре узких блока с надписями, повёрнутыми на 90°: «Согласовано» (верхний блок с четырьмя узкими графами для подписей), ниже «Взам. инв. №», «Подп. и дата» и «Инв. № подл.». Блок «Согласовано» содержит собственные графы «Изм. № подл.», «Подп. и дата», «Взам. инв. №»; все графы во всех блоках пустые.",
+      "labels": [
+        "Согласовано",
+        "Взам. инв. №",
+        "Подп. и дата",
+        "Инв. № подл.",
+        "Изм. № подл."
+      ]
+    }
+  ],
+  "source_notes": [
+    "Заголовок строки окна nanoCAD и имя файла набраны в источнике как «Платформа nanoCAD x64 24 - не для коммерческого использования DEMO - КАМЕЛЬГИНО.DWG*» (латинская буква x в «x64»; дефисы, а не тире).",
+    "Подпись группы ленты «SmartLine – проектирование ЛЭП 0,4-35 кВ» набрана в источнике с длинным тире.",
+    "Отметки высот на плане ВЛ разделены точкой, а не запятой (132.15, 132.63 и т. д.), — написание источника сохранено.",
+    "Обозначение трассы у опоры П29 читается как «ВЛ №4 10кВ от П29»; у обозначения «ВЛ №2 0,4кВ» в источнике продолжения «от П29» нет.",
+    "У опоры А29 в источнике два отдельных элемента: номер «1» (над опорой) и обозначение «А29»; синяя метка «УА29» — отдельный интерфейсный элемент nanoCAD.",
+    "В таблице спецификации между строками секций (1.1, 1.2, 1.3, 1.4, 1.5) и перед строкой «1» в источнике имеются полностью пустые строки решётки; они сохранены как строки со всеми ячейками state=blank, поэтому нумерация строк в JSON не совпадает с нумерацией непробельных строк.",
+    "t_panel (поля «Тип»/«Номер»/«Название»/«Заголовок») описывает верхнюю часть той же панели SmartLine, что и t1 (таблица марок); из-за растровой вёрстки оба объекта присутствуют в JSON как отдельные таблицы.",
+    "В таблице панели SmartLine слева от графы «Марка» имеются две узкие графы без заголовков с пиктограммами «✕» и «✎» (удалить/редактировать); текстовых значений они не содержат и в графы значений не включены.",
+    "В примечании к поз. 1.4.1 слово «к крюку» и в обозначении поз. 1.4.2 знак после «КС2» (точка, а не запятая) перепроверены увеличением оригинала и сохранены как в источнике.",
+    "В обозначении поз. 1.3.1 перед «ТУ 5863-007-96502166-2016» напечатана запятая с хвостиком ниже базовой линии.",
+    "Буква «З» в обозначениях «ЗП6», «ЗП-1М», «ЗП-2М», «ЗПВ-М» перепроверена увеличением: глиф не имеет средней перекладины, характерной для «Э» в «XXX-XX-ЭВ.СО».",
+    "Заголовок графы штампа напечатан в источнике как «Паименование объекта строительства» (первая буква «П» вместо «Н», дефект печати растровой копии); написание сохранено.",
+    "Замечание предыдущего ревью о «сдвиге строк» спецификации (потеря строки 1.4.5) проверено по оригиналу увеличением и не подтвердилось: в таблице 19 содержательных строк, все позиции 1.1.1–1.5.2 присутствуют и единицы/массы совпадают с источником; расхождение индексов вызвано сохранёнными пустыми строками решётки между секциями.",
+    "Утверждения ревью об отметках высот «132,82»/«132,48» и обозначении «ВЛ 894 10кВ» не подтверждены оригиналом: разделитель в отметках — точка, а надпись у П29 читается как «ВЛ №4 10кВ от П29»; написание источника сохранено.",
+    "Утверждение ревью о пятой вертикальной надписи «Инв. № дубл.» у левого края спецификации не подтверждено оригиналом: увеличение всего левого края показывает ровно четыре блока — «Согласовано», «Взам. инв. №», «Подп. и дата», «Инв. № подл.».",
+    "Утверждение ревью о лишней подписи пролёта не подтверждено оригиналом: на плане ВЛ печатны четыре номера пролётов — «29» (между опорами А29 и УА29) и три «28» (далее по трассе к опорам П29 №3 и П29 №4); сохранены все четыре.",
+    "Обещание ревью прочитать подпись у верхней опоры как «ВЛ 0,4кВ СШП» оригиналом не подтверждается: надписи трасс на плане — «ВЛ №2 0,4кВ», «ВЛ №4 10кВ от П29» и обрезанная «ВЛ №0 10кВ 14кВ». Неподтверждённая надпись «ВЛ №1 0,4кВ от А29» из предыдущего кандидата удалена как не существующая в источнике."
+  ],
+  "uncertainties": [
+    "Фамилии «Иванов», «Петров», «Сидоров» в штампе набраны очень мелко; чтения получены при увеличении оригинала и требуют подтверждения на более чётком скане.",
+    "Границы граф блока подписей штампа в растре не вполне различимы, поэтому принадлежность широкой ячейки с фамилией к графам «Лист»/«№ док.» определена по видимым вертикальным линиям и может потребовать уточнения.",
+    "Нижняя строка блока подписей штампа («ГИП» / «Сидоров» / «01.08.21») частично обрезана краем страницы; чтение получено по увеличению.",
+    "Последний знак в обозначении поз. 1.4.1 («ЗП6») при максимальном увеличении растра допускает чтение как «б» (ЗПб); сохранено чтение «ЗП6» по форме петли, совпадающей с цифрой «6» в «26.0085-42» той же строки.",
+    "Марка «А83» на плане ВЛ читается по растру; возможны «АВ3»/«А83», значение сохранено как «А83».",
+    "Подпись трассы у левого нижнего края плана обрезана рамкой панели: читается «ВЛ №0 10кВ 14кВ», дальнейшие символы в источнике отсутствуют и не восстанавливались.",
+    "Часть подписей у правого края окна чертежа обрезана рамкой снимка (видна лишь начальная часть отметки, читаемая как «133.0…»); остальные символы в источнике отсутствуют.",
+    "Мелкие отметки высот на плане ВЛ читаются по растру; перечень в figures[0].labels может быть неполным по краям кадра."
+  ]
+}

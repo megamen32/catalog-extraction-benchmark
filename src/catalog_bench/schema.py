@@ -57,6 +57,7 @@ class Figure(Model):
 
 class PageContent(Model):
     title: str
+    page_context: dict | None = Field(default=None, description="Semantic page metadata; legacy engineering graders keep their original field assertions")
     printed_page: str | None = None
     text_blocks: list[TextBlock]
     tables: list[Table]

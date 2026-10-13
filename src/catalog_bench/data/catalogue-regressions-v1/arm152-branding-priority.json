@@ -1,0 +1,45 @@
+{
+  "id": "arm152-branding-priority",
+  "status": "confirmed",
+  "priority": "high",
+  "category": "review_priority",
+  "title": "Decorative punctuation must not dominate catalogue verification",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 152
+  },
+  "review_basis": "Original manually rendered and visually inspected,2026-10-14. Ambiguous glyph has no gold value.",
+  "artifacts": [
+    {
+      "path": "artifacts/arm152-review31.json",
+      "sha256": "a55e84681e429cd1913f8fec6c09a226c6bf77ae656139bb783b8e9d176a4e36",
+      "bytes": 3504,
+      "role": "reviewer",
+      "program_version": "1.4.31",
+      "model": "zai.glm-5.3-flash?reasoning=low",
+      "producer": {
+        "role": "reviewer",
+        "attempt": 0,
+        "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+        "physical_page": 152,
+        "program_version": "1.4.31",
+        "program_source_sha256": "2a5818cbc8743f8a86b1e0e2e4003dc417740a1dcd7a2e367eea840eee90c642",
+        "elapsed_seconds": 291.663,
+        "started_at": 1791927303.757017,
+        "finished_at": 1791927595.4198856,
+        "receipt_binding": "exact native artifact"
+      }
+    },
+    {
+      "path": "artifacts/native-efficiency-audit.json",
+      "sha256": "728eddbc42f1a4f9c614aed0c0bd7e36bea8610d83eb06fb28e0f5867ec7e75f",
+      "bytes": 9148,
+      "role": "derived_metrics",
+      "program_version": "multiple",
+      "model": "multiple"
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "Source punctuation is recorded, but cosmetic-only deviations do not become engineering/product errors. This is a review-policy case, not a new scalar product fact."
+}

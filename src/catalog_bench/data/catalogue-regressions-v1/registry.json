@@ -1,0 +1,26 @@
+{
+  "id": "catalogue-regressions-v1",
+  "version": "1.0.0",
+  "scope": "Operational and catalogue-meaning regression corpus. Separate from frozen engineering v1/v2 denominators.",
+  "case_files": [
+    "small4-software-example.json",
+    "small4-table-order.json",
+    "small4-glyph-z-or-e.json",
+    "arm152-branding-priority.json",
+    "innov181-real-word-error.json",
+    "small4-repeat-crops.json",
+    "review-first-save-contract.json",
+    "innov181-engineering-identities.json"
+  ],
+  "historical_drawing_cases": [
+    {
+      "dataset": "engineering-catalogs-v2",
+      "case": "catalog-1-page-027"
+    },
+    {
+      "dataset": "engineering-catalogs-v2",
+      "case": "catalog-1-page-039"
+    }
+  ],
+  "model_calls_for_registration": 0
+}
