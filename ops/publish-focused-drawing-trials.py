@@ -74,12 +74,20 @@ def collect(state_path,output):
             pages.append({'case_id':cid,'physical_page':page,'source_sha256':source,'baseline_candidate_sha256':p['baseline_candidate_sha256'],'status':p['status'],'latest_attempt':p.get('attempt'),'calls':calls,'failed_error_type':p.get('error_type'),'independent_source_acceptance':'pending unless matching independent proof; never inherited from model review'})
         rounds.append({'round':r['round'],'status':r['status'],'started_at':r['started_at'],'finished_at':r.get('finished_at'),'wall_seconds':r.get('finished_at',time.time())-r['started_at'],'pages':pages})
     result={'schema_version':'1.0','collector_version':COLLECTOR_VERSION,'scope':state['scope'],'profile':'1.4.26 focused drawing repairs','is_fresh_17_page_benchmark':False,'not_comparable_to_17_page_cohort_mean':True,'program':state['program'],'models':state['models'],'graders':{'0.3.2':language_grader_digest(),'0.3.3':ownership_grader_digest()},'state_sha256':hashlib.sha256(state_bytes).hexdigest(),'native_state_complete':state['complete'],'rounds':rounds,'model_calls_by_collector':0,'original_candidates_reviews_and_receipts_unchanged':True,'full_page_accuracy':False,'snapshot_unix':time.time()}
+    recovery=state_path.parent/'orchestration-recovery-proof.json'
+    if recovery.exists():
+        proof=json.loads(recovery.read_text())
+        allowed={'drawing-trials.py','drawing-trials-fixed.py','review39_completed_receipt_verified','provider_calls','reusable_review_sha256'}
+        result['orchestration_recovery']={k:v for k,v in proof.items() if k in allowed}
+        result['orchestration_recovery']['proof_sha256']=sha(recovery)
+    result['available_controller_source_sha256']={p.name:sha(p) for p in (state_path.parent/'drawing-trials.py',state_path.parent/'drawing-trials-fixed.py') if p.exists()}
+    result['controller_hashes_are_snapshot_available_sources_not_inferred_per_call_bindings']=True
     write(output/'manifest.json',result);return result
 
 def main():
     a=argparse.ArgumentParser();a.add_argument('--state',type=Path,required=True);a.add_argument('--output',type=Path,default=ROOT/'examples/agent-routing/2026-10-13-drawing-v126');a.add_argument('--watch-seconds',type=float,default=0);args=a.parse_args();output=args.output.resolve();assert output.is_relative_to(ROOT);deadline=time.monotonic()+min(100800,max(0,args.watch_seconds));previous=None
     while True:
-        digest=sha(args.state)+''.join(sha(p) for p in sorted(args.state.parent.glob('round-*/page-*/external-audit.json')))
+        digest=sha(args.state)+''.join(sha(p) for p in sorted(args.state.parent.glob('round-*/page-*/external-audit.json')))+''.join(sha(p) for p in (args.state.parent/'orchestration-recovery-proof.json',args.state.parent/'drawing-trials-fixed.py') if p.exists())
         if digest!=previous:
             result=collect(args.state,output);previous=digest;print(json.dumps({'snapshot_rounds':len(result['rounds']),'completed_native_calls':sum(len(p['calls']) for r in result['rounds'] for p in r['pages']),'native_complete':result['native_state_complete'],'model_calls':0}),flush=True)
             # Source audits can arrive after native acceptance; keep the finite

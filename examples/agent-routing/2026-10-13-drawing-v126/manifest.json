@@ -20,22 +20,22 @@
     "0.3.2": "f091872c67af7e410490df6b590cb8ac03a05eb6e615351ed281c4ae1687e21d",
     "0.3.3": "6df48353cac09b55dee5d3157e6dd93517a214ad4e2cdd9d259a76fd88550d80"
   },
-  "state_sha256": "9546b3976c0cf74bf3af9d6f53653116b8e234eef3a54c32dcd325083f2a2322",
+  "state_sha256": "251964ca397c9315c0a27fe82b61638afab10c7a63b0f65c486e3b6e202cc1a3",
   "native_state_complete": false,
   "rounds": [
     {
       "round": 1,
-      "status": "active",
+      "status": "closed",
       "started_at": 1791855408.2590222,
-      "finished_at": null,
-      "wall_seconds": 731.9300787448883,
+      "finished_at": 1791856557.4532835,
+      "wall_seconds": 1149.1942613124847,
       "pages": [
         {
           "case_id": "catalog-1-page-027",
           "physical_page": 27,
           "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
           "baseline_candidate_sha256": "0d0d78831dc3fd2b4070436597a6c93ad6b63269451a9be220a3f6d67c514df7",
-          "status": "extractor",
+          "status": "failed",
           "latest_attempt": 2,
           "calls": [
             {
@@ -111,7 +111,7 @@
                 "candidate_sha256": "587f77be6b856cb74fdf34428160e7fcade031517e36e9c500921b33c5d2e019",
                 "audit_observed_at": 1791855879.7610993,
                 "source_audit_scope": "Two independent original-image inspections; semantic drawing leads, not prepared replacement values or benchmark fixtures",
-                "audit_findings_count": 2,
+                "audit_findings_count": 3,
                 "model_acceptance_is_not_independent_source_acceptance": true
               }
             },
@@ -164,7 +164,7 @@
               "model_review_verdict": "revise"
             }
           ],
-          "failed_error_type": null,
+          "failed_error_type": "TypeError",
           "independent_source_acceptance": "pending unless matching independent proof; never inherited from model review"
         },
         {
@@ -172,7 +172,7 @@
           "physical_page": 39,
           "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
           "baseline_candidate_sha256": "33f827d12b237e7795d2bf53d0ea44ebf6f3cfa56dd718c76ed24cf9b14dee4e",
-          "status": "reviewer",
+          "status": "failed",
           "latest_attempt": 1,
           "calls": [
             {
@@ -245,11 +245,42 @@
                 "candidate_sha256": "a31dfcff463a0e3e5ef74a58bac1d80e827bc3f6114efb3da23d118813e81daf",
                 "audit_observed_at": 1791855879.7881844,
                 "source_audit_scope": "Two independent original-image inspections; semantic drawing leads, not prepared replacement values or benchmark fixtures",
-                "audit_findings_count": 2,
+                "audit_findings_count": 3,
                 "model_acceptance_is_not_independent_source_acceptance": true
               }
             }
           ],
+          "failed_error_type": "TypeError",
+          "independent_source_acceptance": "pending unless matching independent proof; never inherited from model review"
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "status": "active",
+      "started_at": 1791856557.470065,
+      "finished_at": null,
+      "wall_seconds": 276.89910435676575,
+      "pages": [
+        {
+          "case_id": "catalog-1-page-027",
+          "physical_page": 27,
+          "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+          "baseline_candidate_sha256": "0d0d78831dc3fd2b4070436597a6c93ad6b63269451a9be220a3f6d67c514df7",
+          "status": "extractor",
+          "latest_attempt": 1,
+          "calls": [],
+          "failed_error_type": null,
+          "independent_source_acceptance": "pending unless matching independent proof; never inherited from model review"
+        },
+        {
+          "case_id": "catalog-1-page-039",
+          "physical_page": 39,
+          "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+          "baseline_candidate_sha256": "33f827d12b237e7795d2bf53d0ea44ebf6f3cfa56dd718c76ed24cf9b14dee4e",
+          "status": "pending",
+          "latest_attempt": null,
+          "calls": [],
           "failed_error_type": null,
           "independent_source_acceptance": "pending unless matching independent proof; never inherited from model review"
         }
@@ -259,5 +290,18 @@
   "model_calls_by_collector": 0,
   "original_candidates_reviews_and_receipts_unchanged": true,
   "full_page_accuracy": false,
-  "snapshot_unix": 1791856140.1903214
+  "snapshot_unix": 1791856834.3703372,
+  "orchestration_recovery": {
+    "drawing-trials.py": "RED awaited None from synchronous observer",
+    "drawing-trials-fixed.py": "PASS async observer",
+    "review39_completed_receipt_verified": true,
+    "provider_calls": 0,
+    "reusable_review_sha256": "e3c7408b6709d5bcc7cf117e329a855eeef38bb371016b8b8724d23fb4d431b4",
+    "proof_sha256": "278a432702117d43200baa6804fc6c82666d6f53959c8eb777fb2c1c76e78c46"
+  },
+  "available_controller_source_sha256": {
+    "drawing-trials.py": "6a594cadd746fb5e8dbc5acdd09dbc3d8ad268abaefa01b8c3b1338f62f2aef8",
+    "drawing-trials-fixed.py": "dfdcca59d429fee94a935b25c8f40894f3babe2008e3cbcccd55b142f05a073e"
+  },
+  "controller_hashes_are_snapshot_available_sources_not_inferred_per_call_bindings": true
 }
