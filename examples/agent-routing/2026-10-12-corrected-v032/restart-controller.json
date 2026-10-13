@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "checkpoint_controller_version": "0.1.0",
+  "frozen_plan_sha256": "3184e08c2f916cb350e966b424a0b1f9b783f57631c63707fe88e9a240d96df3",
+  "unchanged_frozen_input_count": 148,
+  "controller_file_sha256": {
+    "src/catalog_bench/checkpoint_mixed_runner.py": "4f070ee83759ba59861e9ba9edb31db95d2443152c0d3a0c6f2ac2a3d12f56e6",
+    "ops/checkpoint-native-benchmark-bootstrap.py": "ac00c07214930b7a985746a0b16a83c87fd64af9972c42813cb2c75b83d15386"
+  },
+  "native_roles_unchanged": true,
+  "primary_grader_release": "0.3.2",
+  "baseline_grader_release": "0.3.0",
+  "restart_reason": "server reboot at 2026-10-13 02:27:29 Europe/Moscow",
+  "retained_initial_pages": 17,
+  "verified_completed_native_calls": 32,
+  "interrupted_unknown_calls": [
+    {
+      "case_id": "catalog-4-page-038",
+      "role": "reviewer",
+      "attempt": 0,
+      "completed_receipt_available": false,
+      "replayed": false,
+      "delivery_score_policy": "zero unless a subsequent independently accepted delivery exists",
+      "elapsed_policy": "last checkpoint lower bound; actual native completion time unknown"
+    }
+  ],
+  "budget_policy": {
+    "wall": "original round wall elapsed plus downtime; no reset",
+    "active": "saved active work plus new work; no-process downtime excluded",
+    "provider_backoff": "saved counters and streak retained; remaining cooldown ages with downtime"
+  },
+  "restoration_source_tests": {
+    "category": "focused integration",
+    "passed": 16,
+    "maximum_seconds": 180,
+    "actual_seconds": 0.75
+  },
+  "full_page_accuracy": false
+}
