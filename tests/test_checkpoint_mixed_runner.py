@@ -86,3 +86,15 @@ def test_interrupted_no_receipt_is_failed_unknown_not_replayed(monkeypatch,tmp_p
     assert got['status']=='failed' and got['calls'][0]['native_end_unknown']
     assert got['calls'][0]['elapsed_is_checkpoint_lower_bound']
     assert runner.next_stage(got) is None and not trace
+
+
+def test_unindexed_native_invocation_blocks_resumption(monkeypatch,tmp_path):
+    monkeypatch.setattr(original,'mixed_runner',runner);trace=[];original.install(monkeypatch,trace)
+    from catalog_json.agents import AgentPair
+    p=original.plan(tmp_path);p['cases']=p['cases'][:1];case=p['cases'][0]
+    work=Path(p['output'])/'round-1'/case['id'];native=work/'page-0001';(native/'calls'/'unknown').mkdir(parents=True)
+    (native/'calls'/'unknown'/'worker.log').write_text('')
+    r=dict(case_id=case['id'],physical_page=1,source_sha256=case['source_sha256'],status='extracting',attempt=0,calls=[],errors=[],elapsed_seconds=0)
+    with pytest.raises(ValueError,match='Unindexed native invocation'):
+        runner.restore_records(p,dict(cases=[r],_saved_unix=time.time()),{case['id']:(case,{},work)},AgentPair(None,'M3','GLMcoding'))
+    assert not trace

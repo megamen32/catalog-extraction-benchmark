@@ -1,0 +1,38 @@
+{
+  "source_revision": "416d79b",
+  "published_sources": [
+    {
+      "path": "src/catalog_bench/checkpoint_mixed_runner.py",
+      "sha256": "4f070ee83759ba59861e9ba9edb31db95d2443152c0d3a0c6f2ac2a3d12f56e6",
+      "matches": true
+    },
+    {
+      "path": "ops/checkpoint-native-benchmark-bootstrap.py",
+      "sha256": "ac00c07214930b7a985746a0b16a83c87fd64af9972c42813cb2c75b83d15386",
+      "matches": true
+    }
+  ],
+  "retained_initial_complete_calls": 17,
+  "unknown_review38_not_replayed": true,
+  "admitted_roles": [
+    {
+      "case_id": "catalog-1-page-027",
+      "role": "reviewer",
+      "attempt": 1
+    },
+    {
+      "case_id": "catalog-3-page-103",
+      "role": "extractor",
+      "attempt": 1
+    }
+  ],
+  "restoration_downtime_seconds": 2957.572324514389,
+  "all_frozen_inputs_unchanged": true,
+  "focused_restart_tests": {
+    "passed": 6,
+    "maximum_seconds": 180,
+    "actual_seconds": 0.21,
+    "native_model_calls": 0
+  },
+  "collection_model_calls": 0
+}
