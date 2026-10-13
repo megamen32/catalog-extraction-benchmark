@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "last_retained_snapshot_unix": 1791847045.0224385,
+  "server_boot_unix": 1791847649.0,
+  "server_boot_local": "2026-10-13T02:27:29+03:00",
+  "unobserved_checkpoint_gap_seconds": 2957.572324514389,
+  "preboot_unobserved_seconds": 603.978,
+  "postboot_until_resume_seconds": 2353.595,
+  "gap_is_not_exact_no_process_duration": true,
+  "gap_is_not_model_inference_time": true,
+  "saved_active_budget_seconds": 5811.074,
+  "saved_quota_hold_seconds": 2704.882,
+  "preboot_active_budget_exclusion_evidence": {
+    "provider": "anthropic",
+    "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+    "observed_before_reset": true,
+    "shared_hold_not_before_unix": 1791849780.0,
+    "official_interval_end_unix": 1791849600.0,
+    "provider_hold_covered_whole_preboot_gap": true,
+    "waiting_case": "catalog-3-page-103",
+    "current_attempt": 1,
+    "no_native_attempt1_call_before_restart": true,
+    "snapshot_showed_quota_paused_union_budget": true,
+    "source": "pre-reset read-only provider-admission-holds.json observation and retained runner snapshot"
+  },
+  "native_call38_completion_time": "unknown",
+  "frozen_controller_and_roles_unchanged": true
+}
