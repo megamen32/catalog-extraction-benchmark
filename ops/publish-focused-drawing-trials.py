@@ -80,6 +80,9 @@ def collect(state_path,output):
         allowed={'drawing-trials.py','drawing-trials-fixed.py','review39_completed_receipt_verified','provider_calls','reusable_review_sha256'}
         result['orchestration_recovery']={k:v for k,v in proof.items() if k in allowed}
         result['orchestration_recovery']['proof_sha256']=sha(recovery)
+        result['scope']='Focused two-page drawing repair pilot with controller recovery; retained seeds and feedback; not a fresh full benchmark'
+        result['strict_round_sequentiality_not_claimed']=True
+        result['round_order_interrupted_by_controller_recovery']=True
     result['available_controller_source_sha256']={p.name:sha(p) for p in (state_path.parent/'drawing-trials.py',state_path.parent/'drawing-trials-fixed.py') if p.exists()}
     result['controller_hashes_are_snapshot_available_sources_not_inferred_per_call_bindings']=True
     write(output/'manifest.json',result);return result
