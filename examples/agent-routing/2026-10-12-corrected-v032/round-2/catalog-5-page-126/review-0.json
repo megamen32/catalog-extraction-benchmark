@@ -1,0 +1,364 @@
+{
+  "verdict": "revise",
+  "checks": [
+    {
+      "category": "text_completeness",
+      "passed": false,
+      "evidence": "Все абзацы, ТУ 3494-004-82442590-2008, футер и брендинг присутствуют, но text_blocks[8] искажён: в источнике напечатано «Выдерживаемое напряжение на пробое грозовым импульсом, не менее - 97,5 кВ.» (увеличенный просмотр box [0.07,0.405,0.33,0.44] ясно показывает «на про-бое»), кандидат содержит «на пробой» — изменённое слово."
+    },
+    {
+      "category": "table_count",
+      "passed": true,
+      "evidence": "На странице ровно одна таблица (ИОРП-10, 22 строки данных + шапка); в кандидате tables.length=1 — совпадает."
+    },
+    {
+      "category": "row_coverage",
+      "passed": true,
+      "evidence": "Источник содержит 22 строки данных от ИОРП-10-00 до ИОРП-10-09АС (прямая сетка read_source_table, row_count=23 с шапкой); кандидат имеет 22 строки с теми же наименованиями в том же порядке."
+    },
+    {
+      "category": "column_coverage",
+      "passed": true,
+      "evidence": "12 физических колонок (Наименование, Рис., Длина пути тока утечки, d1, d2, d3, L1, L2, L3, B1, Масса, Фарфоровый аналог) воспроизведены в кандидате в правильном порядке; заголовок «Масса, кг, не более» корректно разложен на label+unit+qualifier."
+    },
+    {
+      "category": "values",
+      "passed": false,
+      "evidence": "Сверены все 22×12 ячеек против сетки и зумов. Совпадают: Рис. (включая исходные опечатки «.5» и «.6»), 183, d1/d2, B1 (18/18/23/23/23/23/-/-/23/23/23/23/-/-/-/-/23/23/-/-/-/-), L1, массы и аналоги. Ошибки: (1) rows[12].c5 и rows[13].c5 (ИОРП-10-06/06А) — кандидат «М8», в источнике d3 пусто (zoom box [0.5,0.755,0.6,0.855]: М8 напечатано только в строке 07 в колонке d3 при L1=«-»); (2) rows[8..11].c5 (04..05А) — кандидат «-», в источнике пусто; (3) rows[14].c7 и rows[15].c7 (07/07/1) — кандидат «15» в L2, но «15» напечатано в колонке L3; в L2 объединено «40»."
+    },
+    {
+      "category": "units",
+      "passed": true,
+      "evidence": "Все размерные колонки несут «мм» из печатной шапки; «Масса, кг, не более» — unit кг, qualifier «не более»; единицы не перепутаны (например, «15» отнесено к колонке L3 с единицей мм, а не к другой)."
+    },
+    {
+      "category": "merged_cells",
+      "passed": false,
+      "evidence": "По геометрии сетки: «183» объединено на всех 22 строках (кандидат корректно расширил); «40» в колонке L2 объединено на строках 00..09А (строки 0–19), «56» в L2 на строках 09С/09АС. Кандидат некорректно расширяет объединение L2: поставил «40» только в rows[6] и rows[7] (03/03А), а rows[0..5], rows[8..11], rows[16..19] сделал blank; кроме того rows[14]/[15] получили «15» в L2 вместо «40»."
+    },
+    {
+      "category": "blank_cells",
+      "passed": false,
+      "evidence": "В источнике d3 пуст (не «-») для строк 00..06А; кандидат поставил «-» (rows[8..11]) и «М8» (rows[12..13]) — пустые ячейки заменены значениями."
+    },
+    {
+      "category": "rotated_labels",
+      "passed": true,
+      "evidence": "Вертикальных/повёрнутых заголовков на странице нет; все шапки горизонтальные, читаемы при зуме; вертикально повёрнуты только объединённые значения 183/40/56, корректно обработанные как merged cells."
+    },
+    {
+      "category": "figures",
+      "passed": true,
+      "evidence": "Проверены зумами Рис.1–7 и Вид А: подписи Ø53, B1, d1, 2отв., L1, 120+1.6, L2, 20, d2, Ø80, d3, L3, Ø72, «4», обозначение «Вид А» — все отражены; количество фигур в JSON (7 видов + круговой вид) соответствует печати."
+    },
+    {
+      "category": "provenance",
+      "passed": true,
+      "evidence": "printed_page «125» совпадает с футером; title, брендинг ФОРЭНЕРГО/FORENERGO® (проверены точечными зумами), ТУ 3494-004-82442590-2008 и футер ООО «ИНСТА» присутствуют и совпадают."
+    }
+  ],
+  "issues": [
+    {
+      "severity": "error",
+      "path": "tables[0].rows[6].cells[c7] и rows[7]; отсутствует на rows[0..5], rows[8..11], rows[16..19]",
+      "message": "Объединённая ячейка L2 «40» в источнике охватывает строки ИОРП-10-00..ИОРП-10-09А (22 строки таблицы, строки 0–19). Кандидат поставил «40» только в строки 03/03А, остальные сделал blank — ошибочная проекция объединения."
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[14].cells[c7], rows[15].cells[c7] / rows[14].cells[c8], rows[15].cells[c8]",
+      "message": "В строках ИОРП-10-07 и ИОРП-10-07/1 кандидат помещает «15» в колонку L2, но в источнике «15» напечатано в колонке L3; в L2 для этих строк действует объединённое «40». Ожидается L2=40, L3=15."
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[12].cells[c5], rows[13].cells[c5]",
+      "message": "d3 для ИОРП-10-06 и ИОРП-10-06А пуста в источнике (подтверждено зумом d3-колонки); кандидат содержит «М8» — унаследованное/перенесённое значение из строки 07."
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[8].cells[c5], rows[9].cells[c5], rows[10].cells[c5], rows[11].cells[c5]",
+      "message": "d3 для ИОРП-10-04/04А/05/05А пуста в источнике; кандидат содержит «-» — blank заменён прочерком."
+    },
+    {
+      "severity": "error",
+      "path": "text_blocks[8]",
+      "message": "Искажено слово: источник «Выдерживаемое напряжение на пробое грозовым импульсом, не менее - 97,5 кВ.»; кандидат «на пробой»."
+    },
+    {
+      "severity": "warning",
+      "path": "tables[0].columns[c10]",
+      "message": "Печатная шапка «Масса, кг, не более» представлена как label «Масса» с unit кг и qualifier «не более»; семантика сохранена, но полный печатный текст заголовка не процитирован."
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[0].cells[column=7].state",
+      "message": "Независимая запись оригинала: \"value\"; в кандидате: \"blank\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[0].cells[column=7].value",
+      "message": "Независимая запись оригинала: \"40\"; в кандидате: null"
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[0].cells[column=11].value",
+      "message": "Независимая запись оригинала: \"ИОР-10-3, 75 УЗ ИО-10-3, 75IIУЭ И 4-80 I УХЛ Т2\"; в кандидате: \"ИОР-10-3, 75 УЗ\\nИО-10-3, 75IIУЭ\\nИ 4-80 I УХЛ Т2\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[1].cells[column=7].state",
+      "message": "Независимая запись оригинала: \"value\"; в кандидате: \"blank\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[1].cells[column=7].value",
+      "message": "Независимая запись оригинала: \"40\"; в кандидате: null"
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[1].cells[column=11].value",
+      "message": "Независимая запись оригинала: \"ИОР-10-3, 75 УЗ ИО-10-3,75IIУЭ ИОР 4-80 I УХЛ Т2\"; в кандидате: \"ИОР-10-3, 75 УЗ\\nИО-10-3,75IIУЭ\\nИОР 4-80 I УХЛ Т2\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[2].cells[column=7].state",
+      "message": "Независимая запись оригинала: \"value\"; в кандидате: \"blank\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[2].cells[column=7].value",
+      "message": "Независимая запись оригинала: \"40\"; в кандидате: null"
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[2].cells[column=11].value",
+      "message": "Независимая запись оригинала: \"ИО-10-7, 5IIУЭ ИОР-10-7,5 II УХЛ 2\"; в кандидате: \"ИО-10-7, 5IIУЭ\\nИОР-10-7,5 II УХЛ 2\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[3].cells[column=7].state",
+      "message": "Независимая запись оригинала: \"value\"; в кандидате: \"blank\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[3].cells[column=7].value",
+      "message": "Независимая запись оригинала: \"40\"; в кандидате: null"
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[3].cells[column=11].value",
+      "message": "Независимая запись оригинала: \"ИО-10-7, 5IIУЭ ИОР-10-7,5 II УХЛ 2\"; в кандидате: \"ИО-10-7, 5IIУЭ\\nИОР-10-7,5 II УХЛ 2\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[4].cells[column=7].state",
+      "message": "Независимая запись оригинала: \"value\"; в кандидате: \"blank\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[4].cells[column=7].value",
+      "message": "Независимая запись оригинала: \"40\"; в кандидате: null"
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[5].cells[column=7].state",
+      "message": "Независимая запись оригинала: \"value\"; в кандидате: \"blank\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[5].cells[column=7].value",
+      "message": "Независимая запись оригинала: \"40\"; в кандидате: null"
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[8].cells[column=5].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[8].cells[column=5].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"-\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[8].cells[column=7].state",
+      "message": "Независимая запись оригинала: \"value\"; в кандидате: \"blank\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[8].cells[column=7].value",
+      "message": "Независимая запись оригинала: \"40\"; в кандидате: null"
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[9].cells[column=5].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[9].cells[column=5].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"-\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[9].cells[column=7].state",
+      "message": "Независимая запись оригинала: \"value\"; в кандидате: \"blank\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[9].cells[column=7].value",
+      "message": "Независимая запись оригинала: \"40\"; в кандидате: null"
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[10].cells[column=5].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[10].cells[column=5].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"-\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[10].cells[column=7].state",
+      "message": "Независимая запись оригинала: \"value\"; в кандидате: \"blank\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[10].cells[column=7].value",
+      "message": "Независимая запись оригинала: \"40\"; в кандидате: null"
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[11].cells[column=5].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[11].cells[column=5].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"-\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[11].cells[column=7].state",
+      "message": "Независимая запись оригинала: \"value\"; в кандидате: \"blank\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[11].cells[column=7].value",
+      "message": "Независимая запись оригинала: \"40\"; в кандидате: null"
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[12].cells[column=5].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[12].cells[column=5].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"М8\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[12].cells[column=7].state",
+      "message": "Независимая запись оригинала: \"value\"; в кандидате: \"blank\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[12].cells[column=7].value",
+      "message": "Независимая запись оригинала: \"40\"; в кандидате: null"
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[13].cells[column=5].state",
+      "message": "Независимая запись оригинала: \"blank\"; в кандидате: \"value\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[13].cells[column=5].value",
+      "message": "Независимая запись оригинала: null; в кандидате: \"М8\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[13].cells[column=7].state",
+      "message": "Независимая запись оригинала: \"value\"; в кандидате: \"blank\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[13].cells[column=7].value",
+      "message": "Независимая запись оригинала: \"40\"; в кандидате: null"
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[14].cells[column=7].value",
+      "message": "Независимая запись оригинала: \"40\"; в кандидате: \"15\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[14].cells[column=8].value",
+      "message": "Независимая запись оригинала: \"15\"; в кандидате: \"-\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[15].cells[column=7].value",
+      "message": "Независимая запись оригинала: \"40\"; в кандидате: \"15\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[15].cells[column=8].value",
+      "message": "Независимая запись оригинала: \"15\"; в кандидате: \"-\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[16].cells[column=7].state",
+      "message": "Независимая запись оригинала: \"value\"; в кандидате: \"blank\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[16].cells[column=7].value",
+      "message": "Независимая запись оригинала: \"40\"; в кандидате: null"
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[17].cells[column=7].state",
+      "message": "Независимая запись оригинала: \"value\"; в кандидате: \"blank\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[17].cells[column=7].value",
+      "message": "Независимая запись оригинала: \"40\"; в кандидате: null"
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[18].cells[column=7].state",
+      "message": "Независимая запись оригинала: \"value\"; в кандидате: \"blank\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[18].cells[column=7].value",
+      "message": "Независимая запись оригинала: \"40\"; в кандидате: null"
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[19].cells[column=7].state",
+      "message": "Независимая запись оригинала: \"value\"; в кандидате: \"blank\""
+    },
+    {
+      "severity": "error",
+      "path": "tables[0].rows[19].cells[column=7].value",
+      "message": "Независимая запись оригинала: \"40\"; в кандидате: null"
+    },
+    {
+      "severity": "error",
+      "path": "text_blocks[source=8]",
+      "message": "Независимая запись оригинала: \"Выдерживаемое напряжение на пробое грозовым импульсом, не менее - 97,5 кВ.\"; в кандидате: \"missing or changed wording\""
+    }
+  ],
+  "observed_table_count": 1,
+  "observed_row_counts": [
+    22
+  ],
+  "observed_column_counts": [
+    12
+  ]
+}

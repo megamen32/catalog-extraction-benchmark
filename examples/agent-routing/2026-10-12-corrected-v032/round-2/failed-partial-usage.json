@@ -1,0 +1,621 @@
+{
+  "partial_collector_version": "0.1.0",
+  "failed_calls": 6,
+  "calls_with_observed_usage": 5,
+  "known_failed_usage": {
+    "provider_response_records": 323,
+    "metrics": {
+      "input_total_reported": {
+        "sum": 5904712,
+        "reported_records": 92,
+        "missing_records": 231
+      },
+      "input_uncached_reported": {
+        "sum": 548212,
+        "reported_records": 231,
+        "missing_records": 92
+      },
+      "input_cache_read": {
+        "sum": 36328051,
+        "reported_records": 322,
+        "missing_records": 1
+      },
+      "input_cache_write": {
+        "sum": null,
+        "reported_records": 0,
+        "missing_records": 323
+      },
+      "output_total": {
+        "sum": 292532,
+        "reported_records": 323,
+        "missing_records": 0
+      },
+      "reasoning_subset": {
+        "sum": 27390,
+        "reported_records": 206,
+        "missing_records": 117
+      },
+      "tool_calls": {
+        "sum": 356,
+        "reported_records": 323,
+        "missing_records": 0
+      },
+      "inference_duration_ms": {
+        "sum": 5018714.4399999995,
+        "reported_records": 323,
+        "missing_records": 0
+      }
+    },
+    "input_accounted": {
+      "sum": 37257775,
+      "exact_records": 92,
+      "lower_bound_records": 231,
+      "missing_records": 0
+    }
+  },
+  "coverage_complete": false,
+  "successful_receipt_bound_usage_is_excluded": true,
+  "failed_sdk_attempts_may_omit_usage": true,
+  "declared_model_reasoning_comes_from_frozen_plan_not_usage_confirmation": true,
+  "model_calls_performed": 0,
+  "calls": [
+    {
+      "case_id": "catalog-1-page-017",
+      "source_sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+      "physical_page": 17,
+      "role": "extractor",
+      "attempt": 2,
+      "status": "failed",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "declared_native_runtime": {
+        "program": {
+          "package_version": "1.4.15",
+          "git_revision": null,
+          "dirty": null,
+          "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+          "python_version": "3.12.13",
+          "components": {
+            "agent_logic": {
+              "package_version": "1.4.2",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+              "python_version": "3.12.13"
+            },
+            "catalog_tools": {
+              "package_version": "1.4.8",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+              "python_version": "3.12.13"
+            },
+            "legacy_skills": {
+              "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+              "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+            },
+            "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+            "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+            "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+            "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+          }
+        },
+        "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf"
+      },
+      "source_binding": "frozen_plan_and_failed_call_window_not_successful_receipt",
+      "started_unix": 1791868402.5476367,
+      "finished_window_unix": 1791869311.6566367,
+      "coverage_complete": false,
+      "missing_usage_is_unknown_not_zero": true,
+      "native_reported_elapsed_seconds": 900.082,
+      "native_stop_reason": "LlmStopReason.CANCELLED",
+      "canonical_histories_observed": 1,
+      "usage": {
+        "input_accounted": {
+          "sum": 12281770,
+          "exact_records": 0,
+          "lower_bound_records": 110,
+          "missing_records": 0,
+          "definition": "reported prompt total, else sum of known uncached/cache_read/cache_write components; unreported components remain unknown"
+        },
+        "provider_response_records": 110,
+        "metrics": {
+          "input_total_reported": {
+            "sum": null,
+            "reported_records": 0,
+            "missing_records": 110
+          },
+          "input_uncached_reported": {
+            "sum": 264874,
+            "reported_records": 110,
+            "missing_records": 0
+          },
+          "input_cache_read": {
+            "sum": 12016896,
+            "reported_records": 109,
+            "missing_records": 1
+          },
+          "input_cache_write": {
+            "sum": null,
+            "reported_records": 0,
+            "missing_records": 110
+          },
+          "output_total": {
+            "sum": 22160,
+            "reported_records": 110,
+            "missing_records": 0
+          },
+          "reasoning_subset": {
+            "sum": null,
+            "reported_records": 0,
+            "missing_records": 110
+          },
+          "tool_calls": {
+            "sum": 115,
+            "reported_records": 110,
+            "missing_records": 0
+          },
+          "inference_duration_ms": {
+            "sum": 868457.68,
+            "reported_records": 110,
+            "missing_records": 0
+          }
+        },
+        "reasoning_tokens_are_subset_of_output_total": true,
+        "cache_read_is_subset_of_reported_prompt_total_when_provider_reports_total": true,
+        "unknown_fields_are_null_not_zero": true
+      }
+    },
+    {
+      "case_id": "catalog-2-page-060",
+      "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+      "physical_page": 60,
+      "role": "reviewer",
+      "attempt": 0,
+      "status": "failed",
+      "model": "zai.glm-5.3-flash?reasoning=low",
+      "declared_native_runtime": {
+        "program": {
+          "package_version": "1.4.17",
+          "git_revision": null,
+          "dirty": null,
+          "source_code_sha256": "fff9569e21c4b5fcc401ede854f652c8cfeff4aa46611ef1f4bc6c34788ed021",
+          "python_version": "3.12.13"
+        },
+        "contract_sha256": "c73c47d085f908594ae59f64f00db5708525a6d8807c0d541c029f7f212872e2"
+      },
+      "source_binding": "frozen_plan_and_failed_call_window_not_successful_receipt",
+      "started_unix": 1791858482.7766707,
+      "finished_window_unix": 1791859689.1186707,
+      "coverage_complete": false,
+      "missing_usage_is_unknown_not_zero": true,
+      "canonical_histories_observed": 1,
+      "usage": {
+        "input_accounted": {
+          "sum": 1645371,
+          "exact_records": 28,
+          "lower_bound_records": 0,
+          "missing_records": 0,
+          "definition": "reported prompt total, else sum of known uncached/cache_read/cache_write components; unreported components remain unknown"
+        },
+        "provider_response_records": 28,
+        "metrics": {
+          "input_total_reported": {
+            "sum": 1645371,
+            "reported_records": 28,
+            "missing_records": 0
+          },
+          "input_uncached_reported": {
+            "sum": null,
+            "reported_records": 0,
+            "missing_records": 28
+          },
+          "input_cache_read": {
+            "sum": 1507904,
+            "reported_records": 28,
+            "missing_records": 0
+          },
+          "input_cache_write": {
+            "sum": null,
+            "reported_records": 0,
+            "missing_records": 28
+          },
+          "output_total": {
+            "sum": 83836,
+            "reported_records": 28,
+            "missing_records": 0
+          },
+          "reasoning_subset": {
+            "sum": 8797,
+            "reported_records": 28,
+            "missing_records": 0
+          },
+          "tool_calls": {
+            "sum": 38,
+            "reported_records": 28,
+            "missing_records": 0
+          },
+          "inference_duration_ms": {
+            "sum": 1176267.0,
+            "reported_records": 28,
+            "missing_records": 0
+          }
+        },
+        "reasoning_tokens_are_subset_of_output_total": true,
+        "cache_read_is_subset_of_reported_prompt_total_when_provider_reports_total": true,
+        "unknown_fields_are_null_not_zero": true
+      }
+    },
+    {
+      "case_id": "catalog-2-page-149",
+      "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+      "physical_page": 149,
+      "role": "extractor",
+      "attempt": 1,
+      "status": "failed",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "declared_native_runtime": {
+        "program": {
+          "package_version": "1.4.15",
+          "git_revision": null,
+          "dirty": null,
+          "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+          "python_version": "3.12.13",
+          "components": {
+            "agent_logic": {
+              "package_version": "1.4.2",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+              "python_version": "3.12.13"
+            },
+            "catalog_tools": {
+              "package_version": "1.4.8",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+              "python_version": "3.12.13"
+            },
+            "legacy_skills": {
+              "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+              "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+            },
+            "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+            "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+            "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+            "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+          }
+        },
+        "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf"
+      },
+      "source_binding": "frozen_plan_and_failed_call_window_not_successful_receipt",
+      "started_unix": 1791860781.7904289,
+      "finished_window_unix": 1791861164.3474288,
+      "coverage_complete": false,
+      "missing_usage_is_unknown_not_zero": true,
+      "native_reported_elapsed_seconds": 45.994,
+      "native_stop_reason": "LlmStopReason.ERROR",
+      "canonical_histories_observed": 1,
+      "usage": {
+        "input_accounted": {
+          "sum": null,
+          "exact_records": 0,
+          "lower_bound_records": 0,
+          "missing_records": 0,
+          "definition": "reported prompt total, else sum of known uncached/cache_read/cache_write components; unreported components remain unknown"
+        },
+        "provider_response_records": 0,
+        "metrics": {
+          "input_total_reported": {
+            "sum": null,
+            "reported_records": 0,
+            "missing_records": 0
+          },
+          "input_uncached_reported": {
+            "sum": null,
+            "reported_records": 0,
+            "missing_records": 0
+          },
+          "input_cache_read": {
+            "sum": null,
+            "reported_records": 0,
+            "missing_records": 0
+          },
+          "input_cache_write": {
+            "sum": null,
+            "reported_records": 0,
+            "missing_records": 0
+          },
+          "output_total": {
+            "sum": null,
+            "reported_records": 0,
+            "missing_records": 0
+          },
+          "reasoning_subset": {
+            "sum": null,
+            "reported_records": 0,
+            "missing_records": 0
+          },
+          "tool_calls": {
+            "sum": null,
+            "reported_records": 0,
+            "missing_records": 0
+          },
+          "inference_duration_ms": {
+            "sum": null,
+            "reported_records": 0,
+            "missing_records": 0
+          }
+        },
+        "reasoning_tokens_are_subset_of_output_total": true,
+        "cache_read_is_subset_of_reported_prompt_total_when_provider_reports_total": true,
+        "unknown_fields_are_null_not_zero": true
+      }
+    },
+    {
+      "case_id": "catalog-3-page-103",
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 103,
+      "role": "reviewer",
+      "attempt": 0,
+      "status": "failed",
+      "model": "zai.glm-5.3-flash?reasoning=low",
+      "declared_native_runtime": {
+        "program": {
+          "package_version": "1.4.17",
+          "git_revision": null,
+          "dirty": null,
+          "source_code_sha256": "fff9569e21c4b5fcc401ede854f652c8cfeff4aa46611ef1f4bc6c34788ed021",
+          "python_version": "3.12.13"
+        },
+        "contract_sha256": "c73c47d085f908594ae59f64f00db5708525a6d8807c0d541c029f7f212872e2"
+      },
+      "source_binding": "frozen_plan_and_failed_call_window_not_successful_receipt",
+      "started_unix": 1791861437.851136,
+      "finished_window_unix": 1791862645.751136,
+      "coverage_complete": false,
+      "missing_usage_is_unknown_not_zero": true,
+      "canonical_histories_observed": 1,
+      "usage": {
+        "input_accounted": {
+          "sum": 1783561,
+          "exact_records": 29,
+          "lower_bound_records": 0,
+          "missing_records": 0,
+          "definition": "reported prompt total, else sum of known uncached/cache_read/cache_write components; unreported components remain unknown"
+        },
+        "provider_response_records": 29,
+        "metrics": {
+          "input_total_reported": {
+            "sum": 1783561,
+            "reported_records": 29,
+            "missing_records": 0
+          },
+          "input_uncached_reported": {
+            "sum": null,
+            "reported_records": 0,
+            "missing_records": 29
+          },
+          "input_cache_read": {
+            "sum": 1679168,
+            "reported_records": 29,
+            "missing_records": 0
+          },
+          "input_cache_write": {
+            "sum": null,
+            "reported_records": 0,
+            "missing_records": 29
+          },
+          "output_total": {
+            "sum": 64529,
+            "reported_records": 29,
+            "missing_records": 0
+          },
+          "reasoning_subset": {
+            "sum": 6696,
+            "reported_records": 29,
+            "missing_records": 0
+          },
+          "tool_calls": {
+            "sum": 36,
+            "reported_records": 29,
+            "missing_records": 0
+          },
+          "inference_duration_ms": {
+            "sum": 976626.99,
+            "reported_records": 29,
+            "missing_records": 0
+          }
+        },
+        "reasoning_tokens_are_subset_of_output_total": true,
+        "cache_read_is_subset_of_reported_prompt_total_when_provider_reports_total": true,
+        "unknown_fields_are_null_not_zero": true
+      }
+    },
+    {
+      "case_id": "catalog-3-page-111",
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 111,
+      "role": "reviewer",
+      "attempt": 1,
+      "status": "failed",
+      "model": "zai.glm-5.3-flash?reasoning=low",
+      "declared_native_runtime": {
+        "program": {
+          "package_version": "1.4.17",
+          "git_revision": null,
+          "dirty": null,
+          "source_code_sha256": "fff9569e21c4b5fcc401ede854f652c8cfeff4aa46611ef1f4bc6c34788ed021",
+          "python_version": "3.12.13"
+        },
+        "contract_sha256": "c73c47d085f908594ae59f64f00db5708525a6d8807c0d541c029f7f212872e2"
+      },
+      "source_binding": "frozen_plan_and_failed_call_window_not_successful_receipt",
+      "started_unix": 1791868149.1926649,
+      "finished_window_unix": 1791869357.3246648,
+      "coverage_complete": false,
+      "missing_usage_is_unknown_not_zero": true,
+      "canonical_histories_observed": 1,
+      "usage": {
+        "input_accounted": {
+          "sum": 2475780,
+          "exact_records": 35,
+          "lower_bound_records": 0,
+          "missing_records": 0,
+          "definition": "reported prompt total, else sum of known uncached/cache_read/cache_write components; unreported components remain unknown"
+        },
+        "provider_response_records": 35,
+        "metrics": {
+          "input_total_reported": {
+            "sum": 2475780,
+            "reported_records": 35,
+            "missing_records": 0
+          },
+          "input_uncached_reported": {
+            "sum": null,
+            "reported_records": 0,
+            "missing_records": 35
+          },
+          "input_cache_read": {
+            "sum": 2336128,
+            "reported_records": 35,
+            "missing_records": 0
+          },
+          "input_cache_write": {
+            "sum": null,
+            "reported_records": 0,
+            "missing_records": 35
+          },
+          "output_total": {
+            "sum": 103239,
+            "reported_records": 35,
+            "missing_records": 0
+          },
+          "reasoning_subset": {
+            "sum": 4183,
+            "reported_records": 35,
+            "missing_records": 0
+          },
+          "tool_calls": {
+            "sum": 41,
+            "reported_records": 35,
+            "missing_records": 0
+          },
+          "inference_duration_ms": {
+            "sum": 1174830.42,
+            "reported_records": 35,
+            "missing_records": 0
+          }
+        },
+        "reasoning_tokens_are_subset_of_output_total": true,
+        "cache_read_is_subset_of_reported_prompt_total_when_provider_reports_total": true,
+        "unknown_fields_are_null_not_zero": true
+      }
+    },
+    {
+      "case_id": "catalog-5-page-035",
+      "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+      "physical_page": 35,
+      "role": "extractor",
+      "attempt": 0,
+      "status": "failed",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "declared_native_runtime": {
+        "program": {
+          "package_version": "1.4.15",
+          "git_revision": null,
+          "dirty": null,
+          "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+          "python_version": "3.12.13",
+          "components": {
+            "agent_logic": {
+              "package_version": "1.4.2",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+              "python_version": "3.12.13"
+            },
+            "catalog_tools": {
+              "package_version": "1.4.8",
+              "git_revision": null,
+              "dirty": null,
+              "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+              "python_version": "3.12.13"
+            },
+            "legacy_skills": {
+              "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+              "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+            },
+            "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+            "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+            "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+            "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+          }
+        },
+        "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf"
+      },
+      "source_binding": "frozen_plan_and_failed_call_window_not_successful_receipt",
+      "started_unix": 1791857466.1824338,
+      "finished_window_unix": 1791858378.158434,
+      "coverage_complete": false,
+      "missing_usage_is_unknown_not_zero": true,
+      "native_reported_elapsed_seconds": 900.158,
+      "native_stop_reason": "LlmStopReason.CANCELLED",
+      "canonical_histories_observed": 1,
+      "usage": {
+        "input_accounted": {
+          "sum": 19071293,
+          "exact_records": 0,
+          "lower_bound_records": 121,
+          "missing_records": 0,
+          "definition": "reported prompt total, else sum of known uncached/cache_read/cache_write components; unreported components remain unknown"
+        },
+        "provider_response_records": 121,
+        "metrics": {
+          "input_total_reported": {
+            "sum": null,
+            "reported_records": 0,
+            "missing_records": 121
+          },
+          "input_uncached_reported": {
+            "sum": 283338,
+            "reported_records": 121,
+            "missing_records": 0
+          },
+          "input_cache_read": {
+            "sum": 18787955,
+            "reported_records": 121,
+            "missing_records": 0
+          },
+          "input_cache_write": {
+            "sum": null,
+            "reported_records": 0,
+            "missing_records": 121
+          },
+          "output_total": {
+            "sum": 18768,
+            "reported_records": 121,
+            "missing_records": 0
+          },
+          "reasoning_subset": {
+            "sum": 7714,
+            "reported_records": 114,
+            "missing_records": 7
+          },
+          "tool_calls": {
+            "sum": 126,
+            "reported_records": 121,
+            "missing_records": 0
+          },
+          "inference_duration_ms": {
+            "sum": 822532.35,
+            "reported_records": 121,
+            "missing_records": 0
+          }
+        },
+        "reasoning_tokens_are_subset_of_output_total": true,
+        "cache_read_is_subset_of_reported_prompt_total_when_provider_reports_total": true,
+        "unknown_fields_are_null_not_zero": true
+      }
+    }
+  ]
+}

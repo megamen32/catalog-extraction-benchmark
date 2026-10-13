@@ -44,8 +44,8 @@ Project X здесь означает адаптированную Vision-инт
 
 | Программа / профиль | Оценщик | Раунд 1 | Раунд 2 | Раунд 3 | Среднее ± SD, п.п. | Валидных страниц | Время по раундам, с |
 |---|---|---|---|---|---|---|---|
-| [1.4.15 → 1.4.17 / последний черновик](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-12-corrected-v032/manifest.json) | 0.3.2 | 508/520 (97.69%) | ожидается | ожидается | нет трёх завершённых раундов | 17/17 | 16543.2 |
-| [1.4.15 → 1.4.17 / принятый результат](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-12-corrected-v032/manifest.json) | 0.3.2 | 15/520 (2.88%) | ожидается | ожидается | нет трёх завершённых раундов | 1/17 | 16543.2 |
+| [1.4.15 → 1.4.17 / последний черновик](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-12-corrected-v032/manifest.json) | 0.3.2 | 508/520 (97.69%) | 500/520 (96.15%) | ожидается | нет трёх завершённых раундов | 17/17; 16/17 | 16543.2; 17050.9 |
+| [1.4.15 → 1.4.17 / принятый результат](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-12-corrected-v032/manifest.json) | 0.3.2 | 15/520 (2.88%) | 78/520 (15.00%) | ожидается | нет трёх завершённых раундов | 1/17; 6/17 | 16543.2; 17050.9 |
 
 ## Чертежи / 21 отдельная проверка
 
@@ -82,7 +82,9 @@ Project X здесь означает адаптированную Vision-инт
 | [1.4.15 → 1.4.17 / первая выгрузка](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-12-corrected-v032/manifest.json) | 1 | 0.3.0: 490/520 (94.23%) / 4/21 (19.05%) | 0.3.2: 492/520 (94.62%) / 4/21 (19.05%) | 0 |
 | [1.4.15 → 1.4.17 / первая выгрузка](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-12-corrected-v032/manifest.json) | 2 | 0.3.0: 490/520 (94.23%) / 9/21 (42.86%) | 0.3.2: 490/520 (94.23%) / 9/21 (42.86%) | 0 |
 | [1.4.15 → 1.4.17 / последний черновик](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-12-corrected-v032/manifest.json) | 1 | 0.3.0: 508/520 (97.69%) / 6/21 (28.57%) | 0.3.2: 508/520 (97.69%) / 6/21 (28.57%) | 0 |
+| [1.4.15 → 1.4.17 / последний черновик](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-12-corrected-v032/manifest.json) | 2 | 0.3.0: 500/520 (96.15%) / 9/21 (42.86%) | 0.3.2: 500/520 (96.15%) / 9/21 (42.86%) | 0 |
 | [1.4.15 → 1.4.17 / принятый результат](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-12-corrected-v032/manifest.json) | 1 | 0.3.0: 15/520 (2.88%) / 0/21 (0.00%) | 0.3.2: 15/520 (2.88%) / 0/21 (0.00%) | 0 |
+| [1.4.15 → 1.4.17 / принятый результат](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-12-corrected-v032/manifest.json) | 2 | 0.3.0: 78/520 (15.00%) / 9/21 (42.86%) | 0.3.2: 78/520 (15.00%) / 9/21 (42.86%) | 0 |
 
 У 1.4.2, раунд 3, сохранённый ответ получил 406/500 по старому алгоритму и 466/500 по 0.2.4: оценщик научился учитывать однозначную группу размеров верхнего фланца. JSON не менялся. В 0.3.2 добавлены ограниченные физические алиасы единиц и английских обозначений геометрии; неправильные числа, допуски и принадлежность размера по-прежнему считаются ошибками.
 
@@ -187,6 +189,7 @@ Vision-пробы страницы 78 показывают старую стро
 
 | Последняя публикация, UTC | Доказательство |
 |---|---|
+| ещё не закоммичен | [examples/agent-routing/2026-10-12-corrected-v032/round-2/round.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-12-corrected-v032/round-2/round.json) |
 | 2026-10-12T07:19:05+03:00 | [examples/parser-outputs/2026-10-12/manifest.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/parser-outputs/2026-10-12/manifest.json) |
 | 2026-10-12T08:25:09+03:00 | [examples/parser-outputs/2026-10-12/regrade-v0.2.2.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/parser-outputs/2026-10-12/regrade-v0.2.2.json) |
 | 2026-10-12T08:28:57+03:00 | [examples/agent-routing/2026-10-12-v1.4.1/manifest.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-12-v1.4.1/manifest.json) |
