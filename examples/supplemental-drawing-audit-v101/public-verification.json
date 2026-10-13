@@ -1,0 +1,69 @@
+{
+  "public_commit": "7631fa54627bd08ebb71b063a4a3fc32011472e9",
+  "release": "supplemental-drawing-audit-v1.0.1",
+  "downloaded_files": {
+    "examples/supplemental-drawing-audit-v101/manifest.json": "8476a647b1cc2aa881fb22537792e8b87e9b0373a0bfddb607d76bb2de65c5de",
+    "fixtures/supplemental/opn27-drawing-v1.json": "54a30024079fdc1f72b1ca7d0a252ca59a4db05e405d9e507e5b094088e4a675",
+    "examples/supplemental-drawing-audit-v1/opn27-candidate-1/candidate.json": "587f77be6b856cb74fdf34428160e7fcade031517e36e9c500921b33c5d2e019",
+    "examples/supplemental-drawing-audit-v101/opn27-candidate-1/supplemental-audit-v1.0.1.json": "9319706475dac7b9025a9b9b4bc78019f94cfef7a7d32d716c468bd91e9cf50a",
+    "examples/supplemental-drawing-audit-v1/opn27-candidate-2/candidate.json": "3e280c8bcc23411736c586117dc10a6e62edaf917905de8e6d0d9084043c3cd9",
+    "examples/supplemental-drawing-audit-v101/opn27-candidate-2/supplemental-audit-v1.0.1.json": "9dc7e30353b2f69c1181334d536064c62d1f72c53e3afd29c48f8e2bf3f8e544"
+  },
+  "released_assets_sha256": {
+    "catalog-supplemental-drawing-audit-v1.0.1.py": "93871eeb9e3e3952df3abab7c3b647de3f18e27076ec11df3c2b5243229f868e",
+    "catalog-supplemental-drawing-audit-v1.py": "23f14700ff03e08f0090b8509ca418f30bf1de09a68926a903948a2517c6092d",
+    "catalog-language-grader-v0.3.2.py": "e268c25f302e051d6b34295298eac6603dba8ff9f108003bb9bd3f3a2685972d",
+    "opn27-drawing-v1.json": "54a30024079fdc1f72b1ca7d0a252ca59a4db05e405d9e507e5b094088e4a675",
+    "SHA256SUMS": "123fa24223b9874117887eb2551526be28dc6060b0aa9873089cf98817ba63fb"
+  },
+  "exact_real_candidate_regrades": 2,
+  "real_counts_unchanged": true,
+  "offline_regressions": [
+    {
+      "qualifier": "at least",
+      "expected": "wrong",
+      "actual": "wrong",
+      "synthetic_offline_only": true
+    },
+    {
+      "qualifier": "не более",
+      "expected": "wrong",
+      "actual": "wrong",
+      "synthetic_offline_only": true
+    },
+    {
+      "qualifier": "минимум 10",
+      "expected": "wrong",
+      "actual": "wrong",
+      "synthetic_offline_only": true
+    },
+    {
+      "qualifier": "условие неизвестно",
+      "expected": "missing",
+      "actual": "missing",
+      "synthetic_offline_only": true
+    },
+    {
+      "qualifier": "not at least",
+      "expected": "missing",
+      "actual": "missing",
+      "synthetic_offline_only": true
+    },
+    {
+      "qualifier": "условие at least не указано",
+      "expected": "passed",
+      "actual": "passed",
+      "synthetic_offline_only": true
+    },
+    {
+      "qualifier": "условие не указано, но at least 10",
+      "expected": "wrong",
+      "actual": "wrong",
+      "synthetic_offline_only": true
+    }
+  ],
+  "original_520_plus_21_primary_scores_unchanged": true,
+  "model_calls": 0,
+  "new_overall_percent": false,
+  "pass": true
+}
