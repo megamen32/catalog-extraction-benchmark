@@ -1,0 +1,725 @@
+{
+  "schema_version": "1.0",
+  "case_id": "catalog-1-page-027",
+  "metrics": {
+    "cells_literal": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "cells_numeric_equivalent": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "blank_cells": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "merged_cells": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "header_assertions": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "figure_labels": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "forbidden_label_absence": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    }
+  },
+  "structure": {
+    "expected_tables": 0,
+    "observed_tables": 2,
+    "extra_tables": null,
+    "tables": [],
+    "table_shape_scored": false
+  },
+  "drawing_assertions": {
+    "correct": 9,
+    "expected": 13,
+    "percent": 69.23,
+    "checks": [
+      {
+        "id": "material-source-absence",
+        "expected": "The page does not print porcelain/ceramic material; visible ribs alone do not establish it.",
+        "category": "unsupported_material_reference",
+        "status": "passed",
+        "evidence": [],
+        "contradictions": []
+      },
+      {
+        "id": "12-III-view-a",
+        "expected": "ViewА is top-directed, not a side view.",
+        "category": "view_direction",
+        "status": "missing",
+        "evidence": [],
+        "contradictions": []
+      },
+      {
+        "id": "12-III-outer140",
+        "expected": "ViewБ φ140 labels the outer solid contour.",
+        "category": "dimension_owner",
+        "status": "passed",
+        "evidence": [
+          {
+            "figure_index": 0,
+            "text": " линии 135. Вид Б: круг с внешним сплошным контуром, измеряемым выноской «φ140» (стрелки на внешнюю окружность); пунктирная окружность, измеряемая выноской «φ116» (стрелка на пунктирную окружность), проходит через 4 отверстия «φ11 4 отв.», расположенные крестообразно (стрелка «φ11 4 отв.» указывает на левое из этих отверстий); в центре — окружность корпуса (юбки) и две пары концентрических отверстий. III СЗ ",
+            "pattern": "(?<![\\d.,φ])φ?\\s*140(?!\\d)(?![.,]\\d)[^.;\\d]{0,90}(?P<claim>наружн\\w*|внешн\\w*)"
+          },
+          {
+            "figure_index": 0,
+            "text": " линии 135. Вид Б: круг с внешним сплошным контуром, измеряемым выноской «φ140» (стрелки на внешнюю окружность); пунктирная окружность, измеряемая выноской «φ116» (стрелка на пунктирную окружность), проходит через 4 отверстия «φ11 4 отв.», расположенные крестообразно (стрелка «φ11 4 отв.» указывает на левое из этих отверстий); в центре — окружность корпуса (юбки) и две пары концентрических отверстий. III СЗ ",
+            "pattern": "(?P<claim>наружн\\w*|внешн\\w*)[^.;\\d]{0,90}(?<![\\d.,φ])φ?\\s*140(?!\\d)(?![.,]\\d)"
+          }
+        ],
+        "contradictions": []
+      },
+      {
+        "id": "12-III-pitch116",
+        "expected": "ViewБ φ116 labels the dashed circle through four mounting-hole centers.",
+        "category": "dimension_owner",
+        "status": "passed",
+        "evidence": [
+          {
+            "figure_index": 0,
+            "text": " линии 135. Вид Б: круг с внешним сплошным контуром, измеряемым выноской «φ140» (стрелки на внешнюю окружность); пунктирная окружность, измеряемая выноской «φ116» (стрелка на пунктирную окружность), проходит через 4 отверстия «φ11 4 отв.», расположенные крестообразно (стрелка «φ11 4 отв.» указывает на левое из этих отверстий); в центре — окружность корпуса (юбки) и две пары концентрических отверстий. III СЗ ",
+            "pattern": "(?<![\\d.,φ])φ?\\s*116(?!\\d)(?![.,]\\d)[^.;\\d]{0,90}(?P<claim>пунктир\\w*|штрих\\w*|окружност\\w*\\s+(?:расположени\\w*|центров|отверсти\\w*))"
+          },
+          {
+            "figure_index": 0,
+            "text": " линии 135. Вид Б: круг с внешним сплошным контуром, измеряемым выноской «φ140» (стрелки на внешнюю окружность); пунктирная окружность, измеряемая выноской «φ116» (стрелка на пунктирную окружность), проходит через 4 отверстия «φ11 4 отв.», расположенные крестообразно (стрелка «φ11 4 отв.» указывает на левое из этих отверстий); в центре — окружность корпуса (юбки) и две пары концентрических отверстий. III СЗ ",
+            "pattern": "(?P<claim>пунктир\\w*|штрих\\w*|окружност\\w*\\s+(?:расположени\\w*|центров|отверсти\\w*))[^.;\\d]{0,90}(?<![\\d.,φ])φ?\\s*116(?!\\d)(?![.,]\\d)"
+          }
+        ],
+        "contradictions": []
+      },
+      {
+        "id": "12-IV-view-a",
+        "expected": "ViewА is top-directed, not a side view.",
+        "category": "view_direction",
+        "status": "missing",
+        "evidence": [],
+        "contradictions": []
+      },
+      {
+        "id": "12-IV-outer140",
+        "expected": "ViewБ φ140 labels the outer solid contour.",
+        "category": "dimension_owner",
+        "status": "passed",
+        "evidence": [
+          {
+            "figure_index": 1,
+            "text": " линии 135. Вид Б: круг с внешним сплошным контуром, измеряемым выноской «φ140» (стрелки на внешнюю окружность); пунктирная окружность, измеряемая выноской «φ116» (стрелка на пунктирную окружность), проходит через 4 отверстия «φ11 4 отв.», расположенные крестообразно (стрелка «φ11 4 отв.» указывает на левое из этих отверстий); в центре — окружность корпуса (юбки) и две пары концентрических отверстий. IV СЗ ",
+            "pattern": "(?<![\\d.,φ])φ?\\s*140(?!\\d)(?![.,]\\d)[^.;\\d]{0,90}(?P<claim>наружн\\w*|внешн\\w*)"
+          },
+          {
+            "figure_index": 1,
+            "text": " линии 135. Вид Б: круг с внешним сплошным контуром, измеряемым выноской «φ140» (стрелки на внешнюю окружность); пунктирная окружность, измеряемая выноской «φ116» (стрелка на пунктирную окружность), проходит через 4 отверстия «φ11 4 отв.», расположенные крестообразно (стрелка «φ11 4 отв.» указывает на левое из этих отверстий); в центре — окружность корпуса (юбки) и две пары концентрических отверстий. IV СЗ ",
+            "pattern": "(?P<claim>наружн\\w*|внешн\\w*)[^.;\\d]{0,90}(?<![\\d.,φ])φ?\\s*140(?!\\d)(?![.,]\\d)"
+          }
+        ],
+        "contradictions": []
+      },
+      {
+        "id": "12-IV-pitch116",
+        "expected": "ViewБ φ116 labels the dashed circle through four mounting-hole centers.",
+        "category": "dimension_owner",
+        "status": "passed",
+        "evidence": [
+          {
+            "figure_index": 1,
+            "text": " линии 135. Вид Б: круг с внешним сплошным контуром, измеряемым выноской «φ140» (стрелки на внешнюю окружность); пунктирная окружность, измеряемая выноской «φ116» (стрелка на пунктирную окружность), проходит через 4 отверстия «φ11 4 отв.», расположенные крестообразно (стрелка «φ11 4 отв.» указывает на левое из этих отверстий); в центре — окружность корпуса (юбки) и две пары концентрических отверстий. IV СЗ ",
+            "pattern": "(?<![\\d.,φ])φ?\\s*116(?!\\d)(?![.,]\\d)[^.;\\d]{0,90}(?P<claim>пунктир\\w*|штрих\\w*|окружност\\w*\\s+(?:расположени\\w*|центров|отверсти\\w*))"
+          },
+          {
+            "figure_index": 1,
+            "text": " линии 135. Вид Б: круг с внешним сплошным контуром, измеряемым выноской «φ140» (стрелки на внешнюю окружность); пунктирная окружность, измеряемая выноской «φ116» (стрелка на пунктирную окружность), проходит через 4 отверстия «φ11 4 отв.», расположенные крестообразно (стрелка «φ11 4 отв.» указывает на левое из этих отверстий); в центре — окружность корпуса (юбки) и две пары концентрических отверстий. IV СЗ ",
+            "pattern": "(?P<claim>пунктир\\w*|штрих\\w*|окружност\\w*\\s+(?:расположени\\w*|центров|отверсти\\w*))[^.;\\d]{0,90}(?<![\\d.,φ])φ?\\s*116(?!\\d)(?![.,]\\d)"
+          }
+        ],
+        "contradictions": []
+      },
+      {
+        "id": "16-III-view-a",
+        "expected": "ViewА is top-directed, not a side view.",
+        "category": "view_direction",
+        "status": "missing",
+        "evidence": [],
+        "contradictions": []
+      },
+      {
+        "id": "16-III-outer140",
+        "expected": "ViewБ φ140 labels the outer solid contour.",
+        "category": "dimension_owner",
+        "status": "passed",
+        "evidence": [
+          {
+            "figure_index": 2,
+            "text": " линии 135. Вид Б: круг с внешним сплошным контуром, измеряемым выноской «φ140» (стрелки на внешнюю окружность); пунктирная окружность, измеряемая выноской «φ116» (стрелка на пунктирную окружность), проходит через 4 отверстия «φ11 4 отв.», расположенные крестообразно (стрелка «φ11 4 отв.» указывает на левое из этих отверстий); в центре — окружность корпуса (юбки) и две пары концентрических отверстий. III СЗ ",
+            "pattern": "(?<![\\d.,φ])φ?\\s*140(?!\\d)(?![.,]\\d)[^.;\\d]{0,90}(?P<claim>наружн\\w*|внешн\\w*)"
+          },
+          {
+            "figure_index": 2,
+            "text": " линии 135. Вид Б: круг с внешним сплошным контуром, измеряемым выноской «φ140» (стрелки на внешнюю окружность); пунктирная окружность, измеряемая выноской «φ116» (стрелка на пунктирную окружность), проходит через 4 отверстия «φ11 4 отв.», расположенные крестообразно (стрелка «φ11 4 отв.» указывает на левое из этих отверстий); в центре — окружность корпуса (юбки) и две пары концентрических отверстий. III СЗ ",
+            "pattern": "(?P<claim>наружн\\w*|внешн\\w*)[^.;\\d]{0,90}(?<![\\d.,φ])φ?\\s*140(?!\\d)(?![.,]\\d)"
+          }
+        ],
+        "contradictions": []
+      },
+      {
+        "id": "16-III-pitch116",
+        "expected": "ViewБ φ116 labels the dashed circle through four mounting-hole centers.",
+        "category": "dimension_owner",
+        "status": "passed",
+        "evidence": [
+          {
+            "figure_index": 2,
+            "text": " линии 135. Вид Б: круг с внешним сплошным контуром, измеряемым выноской «φ140» (стрелки на внешнюю окружность); пунктирная окружность, измеряемая выноской «φ116» (стрелка на пунктирную окружность), проходит через 4 отверстия «φ11 4 отв.», расположенные крестообразно (стрелка «φ11 4 отв.» указывает на левое из этих отверстий); в центре — окружность корпуса (юбки) и две пары концентрических отверстий. III СЗ ",
+            "pattern": "(?<![\\d.,φ])φ?\\s*116(?!\\d)(?![.,]\\d)[^.;\\d]{0,90}(?P<claim>пунктир\\w*|штрих\\w*|окружност\\w*\\s+(?:расположени\\w*|центров|отверсти\\w*))"
+          },
+          {
+            "figure_index": 2,
+            "text": " линии 135. Вид Б: круг с внешним сплошным контуром, измеряемым выноской «φ140» (стрелки на внешнюю окружность); пунктирная окружность, измеряемая выноской «φ116» (стрелка на пунктирную окружность), проходит через 4 отверстия «φ11 4 отв.», расположенные крестообразно (стрелка «φ11 4 отв.» указывает на левое из этих отверстий); в центре — окружность корпуса (юбки) и две пары концентрических отверстий. III СЗ ",
+            "pattern": "(?P<claim>пунктир\\w*|штрих\\w*|окружност\\w*\\s+(?:расположени\\w*|центров|отверсти\\w*))[^.;\\d]{0,90}(?<![\\d.,φ])φ?\\s*116(?!\\d)(?![.,]\\d)"
+          }
+        ],
+        "contradictions": []
+      },
+      {
+        "id": "16-IV-view-a",
+        "expected": "ViewА is top-directed, not a side view.",
+        "category": "view_direction",
+        "status": "missing",
+        "evidence": [],
+        "contradictions": []
+      },
+      {
+        "id": "16-IV-outer140",
+        "expected": "ViewБ φ140 labels the outer solid contour.",
+        "category": "dimension_owner",
+        "status": "passed",
+        "evidence": [
+          {
+            "figure_index": 3,
+            "text": " линии 135. Вид Б: круг с внешним сплошным контуром, измеряемым выноской «φ140» (стрелки на внешнюю окружность); пунктирная окружность, измеряемая выноской «φ116» (стрелка на пунктирную окружность), проходит через 4 отверстия «φ11 4 отв.», расположенные крестообразно (стрелка «φ11 4 отв.» указывает на левое из этих отверстий); в центре — окружность корпуса (юбки) и две пары концентрических отверстий. IV СЗ ",
+            "pattern": "(?<![\\d.,φ])φ?\\s*140(?!\\d)(?![.,]\\d)[^.;\\d]{0,90}(?P<claim>наружн\\w*|внешн\\w*)"
+          },
+          {
+            "figure_index": 3,
+            "text": " линии 135. Вид Б: круг с внешним сплошным контуром, измеряемым выноской «φ140» (стрелки на внешнюю окружность); пунктирная окружность, измеряемая выноской «φ116» (стрелка на пунктирную окружность), проходит через 4 отверстия «φ11 4 отв.», расположенные крестообразно (стрелка «φ11 4 отв.» указывает на левое из этих отверстий); в центре — окружность корпуса (юбки) и две пары концентрических отверстий. IV СЗ ",
+            "pattern": "(?P<claim>наружн\\w*|внешн\\w*)[^.;\\d]{0,90}(?<![\\d.,φ])φ?\\s*140(?!\\d)(?![.,]\\d)"
+          }
+        ],
+        "contradictions": []
+      },
+      {
+        "id": "16-IV-pitch116",
+        "expected": "ViewБ φ116 labels the dashed circle through four mounting-hole centers.",
+        "category": "dimension_owner",
+        "status": "passed",
+        "evidence": [
+          {
+            "figure_index": 3,
+            "text": " линии 135. Вид Б: круг с внешним сплошным контуром, измеряемым выноской «φ140» (стрелки на внешнюю окружность); пунктирная окружность, измеряемая выноской «φ116» (стрелка на пунктирную окружность), проходит через 4 отверстия «φ11 4 отв.», расположенные крестообразно (стрелка «φ11 4 отв.» указывает на левое из этих отверстий); в центре — окружность корпуса (юбки) и две пары концентрических отверстий. IV СЗ ",
+            "pattern": "(?<![\\d.,φ])φ?\\s*116(?!\\d)(?![.,]\\d)[^.;\\d]{0,90}(?P<claim>пунктир\\w*|штрих\\w*|окружност\\w*\\s+(?:расположени\\w*|центров|отверсти\\w*))"
+          },
+          {
+            "figure_index": 3,
+            "text": " линии 135. Вид Б: круг с внешним сплошным контуром, измеряемым выноской «φ140» (стрелки на внешнюю окружность); пунктирная окружность, измеряемая выноской «φ116» (стрелка на пунктирную окружность), проходит через 4 отверстия «φ11 4 отв.», расположенные крестообразно (стрелка «φ11 4 отв.» указывает на левое из этих отверстий); в центре — окружность корпуса (юбки) и две пары концентрических отверстий. IV СЗ ",
+            "pattern": "(?P<claim>пунктир\\w*|штрих\\w*|окружност\\w*\\s+(?:расположени\\w*|центров|отверсти\\w*))[^.;\\d]{0,90}(?<![\\d.,φ])φ?\\s*116(?!\\d)(?![.,]\\d)"
+          }
+        ],
+        "contradictions": []
+      }
+    ],
+    "full_drawing_accuracy": false,
+    "method": "frozen scoped deterministic relation/claim assertions; unsupported wording is missing, never inferred"
+  },
+  "all_verified_checks_passed": false,
+  "coverage": {
+    "full_page_ground_truth": false,
+    "text_blocks_scored": false,
+    "diagram_relationships_scored": true,
+    "selected_drawing_assertions": 13,
+    "full_drawing_ground_truth": false,
+    "header_assertions": 0,
+    "figure_label_assertions": 0,
+    "forbidden_declared_label_assertions": 0,
+    "all_invented_labels_scored": false
+  },
+  "differences": [],
+  "engineering_facts": {
+    "correct": 10,
+    "expected": 10,
+    "percent": 100.0,
+    "statuses": {
+      "passed": 10
+    },
+    "checks": [
+      {
+        "id": "selected-01",
+        "expected": {
+          "location": "top table",
+          "entity": "ОПН-П-35/38/10/1,2-III",
+          "parameter": "наибольшее длительно допустимое рабочее напряжение",
+          "value": "38",
+          "unit": "кВ"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t1",
+            "row_index": 0,
+            "column_index": 1,
+            "column": {
+              "id": "c1",
+              "label": "Наибольшее длительно допустимое рабочее напряжение ограничителя",
+              "unit": "кВ",
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c1",
+              "value": "38",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОПН-П-35/38/10/1,2-III"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": false
+        }
+      },
+      {
+        "id": "selected-02",
+        "expected": {
+          "location": "top table",
+          "entity": "ОПН-П-35/38/10/1,2-III",
+          "parameter": "остающееся при 125 А 30/60",
+          "value": "-",
+          "unit": "кВ"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t1",
+            "row_index": 0,
+            "column_index": 6,
+            "column": {
+              "id": "c6",
+              "label": "125А",
+              "unit": "кВ",
+              "group": "Остающееся напряжение (кВ), при значениях коммутационных импульсов тока длительностью 30/60 мкс величиной:",
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c6",
+              "value": "-",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОПН-П-35/38/10/1,2-III"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": true
+        }
+      },
+      {
+        "id": "selected-03",
+        "expected": {
+          "location": "top table",
+          "entity": "ОПН-П-35/38/10/1,2-III",
+          "parameter": "остающееся при 250 А 30/60",
+          "value": "87,3",
+          "unit": "кВ"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t1",
+            "row_index": 0,
+            "column_index": 7,
+            "column": {
+              "id": "c7",
+              "label": "250 А",
+              "unit": "кВ",
+              "group": "Остающееся напряжение (кВ), при значениях коммутационных импульсов тока длительностью 30/60 мкс величиной:",
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c7",
+              "value": "87,3",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОПН-П-35/38/10/1,2-III"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": true
+        }
+      },
+      {
+        "id": "selected-04",
+        "expected": {
+          "location": "top table",
+          "entity": "ОПН-П-35/38/10/1,2-IV",
+          "parameter": "наибольшее длительно допустимое рабочее напряжение",
+          "value": "38",
+          "unit": "кВ"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t1",
+            "row_index": 1,
+            "column_index": 1,
+            "column": {
+              "id": "c1",
+              "label": "Наибольшее длительно допустимое рабочее напряжение ограничителя",
+              "unit": "кВ",
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c1",
+              "value": "38",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОПН-П-35/38/10/1,2-IV"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": false
+        }
+      },
+      {
+        "id": "selected-05",
+        "expected": {
+          "location": "top table",
+          "entity": "ОПН-П-35/38/10/1,2-IV",
+          "parameter": "остающееся при 125 А 30/60",
+          "value": "-",
+          "unit": "кВ"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t1",
+            "row_index": 1,
+            "column_index": 6,
+            "column": {
+              "id": "c6",
+              "label": "125А",
+              "unit": "кВ",
+              "group": "Остающееся напряжение (кВ), при значениях коммутационных импульсов тока длительностью 30/60 мкс величиной:",
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c6",
+              "value": "-",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОПН-П-35/38/10/1,2-IV"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": true
+        }
+      },
+      {
+        "id": "selected-06",
+        "expected": {
+          "location": "top table",
+          "entity": "ОПН-П-35/38/10/1,2-IV",
+          "parameter": "остающееся при 250 А 30/60",
+          "value": "87,3",
+          "unit": "кВ"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t1",
+            "row_index": 1,
+            "column_index": 7,
+            "column": {
+              "id": "c7",
+              "label": "250 А",
+              "unit": "кВ",
+              "group": "Остающееся напряжение (кВ), при значениях коммутационных импульсов тока длительностью 30/60 мкс величиной:",
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c7",
+              "value": "87,3",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОПН-П-35/38/10/1,2-IV"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": true
+        }
+      },
+      {
+        "id": "selected-07",
+        "expected": {
+          "location": "lower table",
+          "entity": "ОПН-П-35/37/10/1,6-III УХЛ1",
+          "parameter": "остающееся при 500 А 30/60",
+          "value": "95,5",
+          "unit": "кВ"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 1,
+            "table_id": "t2",
+            "row_index": 0,
+            "column_index": 7,
+            "column": {
+              "id": "d7",
+              "label": "500 А",
+              "unit": "кВ",
+              "group": "Остающееся напряжение (кВ), при следующих значениях коммутационных токов длительностью 30/60 мкс:",
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "d7",
+              "value": "95,5",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОПН-П-35/37/10/1,6-III УХЛ1"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": true
+        }
+      },
+      {
+        "id": "selected-08",
+        "expected": {
+          "location": "lower table",
+          "entity": "ОПН-П-35/37/10/1,6-III УХЛ1",
+          "parameter": "тепловая энергия, не менее",
+          "value": "7,0",
+          "unit": "кДж/кВ"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 1,
+            "table_id": "t2",
+            "row_index": 0,
+            "column_index": 13,
+            "column": {
+              "id": "d13",
+              "label": "Тепловая энергия",
+              "unit": "кДж/кВ",
+              "group": null,
+              "qualifier": "не менее"
+            },
+            "cell": {
+              "column_id": "d13",
+              "value": "7,0",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОПН-П-35/37/10/1,6-III УХЛ1"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": false
+        }
+      },
+      {
+        "id": "selected-09",
+        "expected": {
+          "location": "lower table",
+          "entity": "ОПН-П-35/37/10/1,6-IV УХЛ1",
+          "parameter": "остающееся при 500 А 30/60",
+          "value": "90,5",
+          "unit": "кВ"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 1,
+            "table_id": "t2",
+            "row_index": 3,
+            "column_index": 7,
+            "column": {
+              "id": "d7",
+              "label": "500 А",
+              "unit": "кВ",
+              "group": "Остающееся напряжение (кВ), при следующих значениях коммутационных токов длительностью 30/60 мкс:",
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "d7",
+              "value": "90,5",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОПН-П-35/37/10/1,6-IV УХЛ1"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": true
+        }
+      },
+      {
+        "id": "selected-10",
+        "expected": {
+          "location": "lower table",
+          "entity": "ОПН-П-35/37/10/1,6-IV УХЛ1",
+          "parameter": "тепловая энергия, не менее",
+          "value": "7,0",
+          "unit": "кДж/кВ"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 1,
+            "table_id": "t2",
+            "row_index": 3,
+            "column_index": 13,
+            "column": {
+              "id": "d13",
+              "label": "Тепловая энергия",
+              "unit": "кДж/кВ",
+              "group": null,
+              "qualifier": "не менее"
+            },
+            "cell": {
+              "column_id": "d13",
+              "value": "7,0",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОПН-П-35/37/10/1,6-IV УХЛ1"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": false
+        }
+      }
+    ],
+    "full_page_accuracy": false
+  },
+  "fixture_sha256": "77094a2eda355eb504370827d8c0fb11b1439ee8d3a0d8cdd962cd1ecc48c29f",
+  "candidate_sha256": "a2f815115e1c02d6f496e20b664efe95d56946866367b665d33f4cc54895a643",
+  "source_binding": "caller-selected plain page artifact",
+  "grader_sha256": "f091872c67af7e410490df6b590cb8ac03a05eb6e615351ed281c4ae1687e21d",
+  "grader_release": "0.3.2",
+  "retained_original_grader_sha256": "24b64859fd690d11afd8477c69a0f84336a28338ac0b49981e5300055364d57a",
+  "literal_format_differences": [],
+  "unsupported_material_reference_policy": "Strict source-absence proxy for material mentions including appearance analogies; not an assertion that the candidate claims manufacture from that material",
+  "raw_literal_metrics_unchanged": true,
+  "source_fixture_bytes_unchanged": true,
+  "identifiers_are_not_globally_normalized": true,
+  "correction": "Matching-only physical A/А aliases, supported English geometry, contextual pollution abbreviation and dimensional metric-thread script difference; numeric/scoped/negation guards retained"
+}
