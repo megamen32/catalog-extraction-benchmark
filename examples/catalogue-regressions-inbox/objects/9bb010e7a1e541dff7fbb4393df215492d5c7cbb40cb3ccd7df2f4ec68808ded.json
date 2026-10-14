@@ -1,0 +1,1342 @@
+{
+  "schema": "source-bound-merge-error/1",
+  "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+  "physical_page": 143,
+  "input_packet_sha256": "d4792e0b541b47db8cd1826ce5c59e8a0345c718f15f897d9bc8a81500f41035",
+  "owner_work_sha256": "56606d5c0d1a8cb64d15259f8e251fac5789d7d246805dca85cd6a2d28b4dc24",
+  "merge_program_version": "1.5.25",
+  "actual_owner": "Codex",
+  "review_model_observed_current_native_session": "gpt-6.1-sol",
+  "source_evidence": [
+    {
+      "bbox": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "observation": "Codex лично просмотрел исходную страницу143 в сохранённом именном overview и сверил исходные факты. Это рабочее сведение одного исполнителя, независимаяфинальнаяпроверка позднее."
+    },
+    {
+      "bbox": [
+        0.045,
+        0.05,
+        0.97,
+        0.94
+      ],
+      "observation": "Привязки сверены по исходному обзору, именам столбцов, единицам, условиям, разделам таблицы и собственной модели. Совпадающие данные не переизвлекаются. Реальные отличия просматриваются отдельно; это не новая независимаяпроверка всех исходных чисел."
+    }
+  ],
+  "groups": [
+    {
+      "decision": {
+        "fact_indices": [
+          79,
+          271,
+          473
+        ],
+        "relation": "same_fact",
+        "keep": "ours",
+        "reason": "Реальное различие: Олег подставил высоту изолятора из соседнего столбца вместо Н стр. Лично просмотрена таблица; прямой nativegrid связывает точную марку с печатнойячейкой Н стр. (столбец4), совпадающей с нашимзначением. Соседняя H стр.,из. — другаяхарактеристика, обе исходные формы сохранены.",
+        "evidence_refs": [
+          0,
+          1
+        ]
+      },
+      "original_facts": [
+        {
+          "fact_id": "L-e8e196465e4aec38a8ad546f",
+          "side": "oleg",
+          "catalog": "isolators",
+          "kind": "model_parameter",
+          "pointer": "characteristics.jsonl:56018/raw",
+          "owner": "ОШСК 220-2- Г60-А-2",
+          "name": "Н стр., мм",
+          "value": "2100",
+          "unit": "мм",
+          "condition": "",
+          "physical_pages": [
+            143
+          ],
+          "input_fact_sha256": "315010120f76f879a4bb75dfe5d832cc07a6f5a2752b8c4dd58da48750f6c7fe",
+          "input_line": 65393,
+          "raw_context": "raw-b9144512cff1f62bf1a39d83f261c8e3f1cfecef6dad65242a1164603b64b4b3",
+          "metadata": {
+            "raw_value_type": "str",
+            "observation_id": "C-6a1de1ef79f22c8b8dd5a41e",
+            "window_id": "W-cb50268f10613d87f46889ad",
+            "group_id": "G-ca4572925d77259005dbb7d5",
+            "product_id": "P-2818770813f594ef75c07742",
+            "group_title": "Опоры шинные для жесткой ошиновки с горизонтальным расположением шин напряжение 110-220 кВ",
+            "raw_value_present": true
+          }
+        },
+        {
+          "fact_id": "L-e4e4b1cc597ee25a88658d5d",
+          "side": "oleg",
+          "catalog": "isolators",
+          "kind": "model_parameter",
+          "pointer": "characteristics.jsonl:56713/raw",
+          "owner": "ОШСК 220-2-Г60-А-2",
+          "name": "Н стр.",
+          "value": "2158",
+          "unit": "мм",
+          "condition": "",
+          "physical_pages": [
+            143
+          ],
+          "input_fact_sha256": "0d5f23002b3e194fa0c244727951a4e381734ae6b29d3e606c2a1b5612719f5e",
+          "input_line": 66088,
+          "raw_context": "raw-8e1ba2c281182072645ed09772b823761f82a621faca47f1a3b79545f6a9681d",
+          "metadata": {
+            "raw_value_type": "str",
+            "observation_id": "C-b6f9e01887c8c28a632c5a84",
+            "window_id": "W-568d3cdc5953fbb439851fd9",
+            "group_id": "G-6e8b90c70b727eae54b88f4e",
+            "product_id": "P-c6a6ceac73809deef74245fd",
+            "group_title": "Опоры шинные на напряжение 220 кВ (горизонтальное расположение шин)",
+            "raw_value_present": true
+          }
+        },
+        {
+          "fact_id": "O-8cd1c76c32853b2c1735c1af",
+          "side": "ours",
+          "catalog": "isolators",
+          "kind": "model_parameter",
+          "pointer": "/catalogs/1/pages/142/content/tables/0/rows/3/cells/4",
+          "owner": "ОШСК 220-2- Г60-А-2",
+          "name": "Н стр.",
+          "value": "2158",
+          "unit": "мм",
+          "condition": null,
+          "physical_pages": [
+            143
+          ],
+          "input_fact_sha256": "82f5531ba852e8f9ba77303191eafe30328663e7231b09e5733764479677562e",
+          "input_line": 112250,
+          "row_context": "row-dabce57b8fe47c9b7581685365545ea8813ba051f69abe86cb423fd266ea6c5e",
+          "raw_context": "raw-ec2ef54a449c2e188746ca90434449305e947d805adba099c32528bc00cc5c45",
+          "metadata": {
+            "raw_value_type": "str",
+            "table_index": 0,
+            "row_index": 3,
+            "column_index": 4,
+            "table_title": "Опоры шинные на напряжение 220 кВ",
+            "column": {
+              "id": "c5",
+              "label": "Н стр.",
+              "unit": "мм",
+              "group": null,
+              "qualifier": null
+            },
+            "owner_column_index": 0,
+            "owner_scope": "",
+            "candidate_sha256": "6c71751d25a7a252a46acbb9d7c49c44c93a68bb270f97e6c0547bc7ebf94814",
+            "previously_accepted": true
+          }
+        }
+      ]
+    },
+    {
+      "decision": {
+        "fact_indices": [
+          91,
+          283,
+          487
+        ],
+        "relation": "same_fact",
+        "keep": "ours",
+        "reason": "Реальное различие: Олег подставил высоту изолятора из соседнего столбца вместо Н стр. Лично просмотрена таблица; прямой nativegrid связывает точную марку с печатнойячейкой Н стр. (столбец4), совпадающей с нашимзначением. Соседняя H стр.,из. — другаяхарактеристика, обе исходные формы сохранены.",
+        "evidence_refs": [
+          0,
+          1
+        ]
+      },
+      "original_facts": [
+        {
+          "fact_id": "L-4688c0947c3ff28227d66d72",
+          "side": "oleg",
+          "catalog": "isolators",
+          "kind": "model_parameter",
+          "pointer": "characteristics.jsonl:56030/raw",
+          "owner": "ОШСК 220-3- Г60-А-2",
+          "name": "Н стр., мм",
+          "value": "2100",
+          "unit": "мм",
+          "condition": "",
+          "physical_pages": [
+            143
+          ],
+          "input_fact_sha256": "29ce207fbb4c56a58f2d75272ab0083fee7511a14a183d09c489850f5f56b6d7",
+          "input_line": 65405,
+          "raw_context": "raw-27925a2f3a27faf9fe22bcec323665965ed4ad029c179e0ea3e6caee777a48fd",
+          "metadata": {
+            "raw_value_type": "str",
+            "observation_id": "C-3aa0b0b2505ba649a7173b40",
+            "window_id": "W-cb50268f10613d87f46889ad",
+            "group_id": "G-ca4572925d77259005dbb7d5",
+            "product_id": "P-fe9e4e9cd3072019866b4fdd",
+            "group_title": "Опоры шинные для жесткой ошиновки с горизонтальным расположением шин напряжение 110-220 кВ",
+            "raw_value_present": true
+          }
+        },
+        {
+          "fact_id": "L-a914115e529d101116f11fac",
+          "side": "oleg",
+          "catalog": "isolators",
+          "kind": "model_parameter",
+          "pointer": "characteristics.jsonl:56725/raw",
+          "owner": "ОШСК 220-3-Г60-А-2",
+          "name": "Н стр.",
+          "value": "2178",
+          "unit": "мм",
+          "condition": "",
+          "physical_pages": [
+            143
+          ],
+          "input_fact_sha256": "e0ac1f978d39fbb11e0913f45b9a73e8631cfac357e2b49aeb44faaec723fba8",
+          "input_line": 66100,
+          "raw_context": "raw-851ab2fbafb572cacf58934f23c98c17ee17e16ff115db6dec9bdf95b0e85525",
+          "metadata": {
+            "raw_value_type": "str",
+            "observation_id": "C-d45b253bfafe00ce9b63076d",
+            "window_id": "W-568d3cdc5953fbb439851fd9",
+            "group_id": "G-6e8b90c70b727eae54b88f4e",
+            "product_id": "P-a82fce5f67e2af7e418c61aa",
+            "group_title": "Опоры шинные на напряжение 220 кВ (горизонтальное расположение шин)",
+            "raw_value_present": true
+          }
+        },
+        {
+          "fact_id": "O-64b6a16aff1627ead018199a",
+          "side": "ours",
+          "catalog": "isolators",
+          "kind": "model_parameter",
+          "pointer": "/catalogs/1/pages/142/content/tables/0/rows/5/cells/4",
+          "owner": "ОШСК 220-3- Г60-А-2",
+          "name": "Н стр.",
+          "value": "2178",
+          "unit": "мм",
+          "condition": null,
+          "physical_pages": [
+            143
+          ],
+          "input_fact_sha256": "be5631456adc05c054e8c43b71a4ebc182bfa74b455844d45ff45db1ada50c74",
+          "input_line": 112264,
+          "row_context": "row-168a353691907c094752586c05533856cde0920e08561b438762dd85bf64c75b",
+          "raw_context": "raw-3ecda15150f8c56759c886a74bf58fa0726cf4284428e50be27b7900ad8eebaf",
+          "metadata": {
+            "raw_value_type": "str",
+            "table_index": 0,
+            "row_index": 5,
+            "column_index": 4,
+            "table_title": "Опоры шинные на напряжение 220 кВ",
+            "column": {
+              "id": "c5",
+              "label": "Н стр.",
+              "unit": "мм",
+              "group": null,
+              "qualifier": null
+            },
+            "owner_column_index": 0,
+            "owner_scope": "",
+            "candidate_sha256": "6c71751d25a7a252a46acbb9d7c49c44c93a68bb270f97e6c0547bc7ebf94814",
+            "previously_accepted": true
+          }
+        }
+      ]
+    },
+    {
+      "decision": {
+        "fact_indices": [
+          103,
+          295,
+          501
+        ],
+        "relation": "same_fact",
+        "keep": "ours",
+        "reason": "Реальное различие: Олег подставил высоту изолятора из соседнего столбца вместо Н стр. Лично просмотрена таблица; прямой nativegrid связывает точную марку с печатнойячейкой Н стр. (столбец4), совпадающей с нашимзначением. Соседняя H стр.,из. — другаяхарактеристика, обе исходные формы сохранены.",
+        "evidence_refs": [
+          0,
+          1
+        ]
+      },
+      "original_facts": [
+        {
+          "fact_id": "L-9c7774db65429450034c5e84",
+          "side": "oleg",
+          "catalog": "isolators",
+          "kind": "model_parameter",
+          "pointer": "characteristics.jsonl:56042/raw",
+          "owner": "ОШСК 220-4- Г60-А-2",
+          "name": "Н стр., мм",
+          "value": "2100",
+          "unit": "мм",
+          "condition": "",
+          "physical_pages": [
+            143
+          ],
+          "input_fact_sha256": "c577787eeb5e780b0e0f811fe56d9dcd5c520fbc3afd90b6948d56af7229e580",
+          "input_line": 65417,
+          "raw_context": "raw-5d91cf949e84d5a7648e29be4a30411f702ae01ae26c32e82e4d1e6fd8598dfd",
+          "metadata": {
+            "raw_value_type": "str",
+            "observation_id": "C-d9aaf9090d658bd558a522ae",
+            "window_id": "W-cb50268f10613d87f46889ad",
+            "group_id": "G-ca4572925d77259005dbb7d5",
+            "product_id": "P-f38bbdd347bee2909ba35347",
+            "group_title": "Опоры шинные для жесткой ошиновки с горизонтальным расположением шин напряжение 110-220 кВ",
+            "raw_value_present": true
+          }
+        },
+        {
+          "fact_id": "L-0f3a8eb95ed1db69d1fd1ee7",
+          "side": "oleg",
+          "catalog": "isolators",
+          "kind": "model_parameter",
+          "pointer": "characteristics.jsonl:56737/raw",
+          "owner": "ОШСК 220-4-Г60-А-2",
+          "name": "Н стр.",
+          "value": "2198",
+          "unit": "мм",
+          "condition": "",
+          "physical_pages": [
+            143
+          ],
+          "input_fact_sha256": "d2fdce0b7f42cb4d375ad7be91e0ead534f4dc090b50040c0a2f7e367a085c13",
+          "input_line": 66112,
+          "raw_context": "raw-bb8701a6c23a5ad080e4560add7b07ba293a83a0820920ad53f27f8290b12b6d",
+          "metadata": {
+            "raw_value_type": "str",
+            "observation_id": "C-6a1282ad07cd28cdc3b4bfcb",
+            "window_id": "W-568d3cdc5953fbb439851fd9",
+            "group_id": "G-6e8b90c70b727eae54b88f4e",
+            "product_id": "P-e802228fc1a208c6930ef3e8",
+            "group_title": "Опоры шинные на напряжение 220 кВ (горизонтальное расположение шин)",
+            "raw_value_present": true
+          }
+        },
+        {
+          "fact_id": "O-a831751e3df47ae59a5abbeb",
+          "side": "ours",
+          "catalog": "isolators",
+          "kind": "model_parameter",
+          "pointer": "/catalogs/1/pages/142/content/tables/0/rows/7/cells/4",
+          "owner": "ОШСК 220-4- Г60-А-2",
+          "name": "Н стр.",
+          "value": "2198",
+          "unit": "мм",
+          "condition": null,
+          "physical_pages": [
+            143
+          ],
+          "input_fact_sha256": "c28514ac1672781979db3804c988546bcf0691f6c8a2ef2afad7701cf37dd74c",
+          "input_line": 112278,
+          "row_context": "row-006d9176a5b821d71a872a1b5542b96dcf2a788d1028e18e89f4e135a4e62108",
+          "raw_context": "raw-54e5290a16be24ecf208efdbcfdccaa2beb7915e15157c2ff1dfbf6784564d18",
+          "metadata": {
+            "raw_value_type": "str",
+            "table_index": 0,
+            "row_index": 7,
+            "column_index": 4,
+            "table_title": "Опоры шинные на напряжение 220 кВ",
+            "column": {
+              "id": "c5",
+              "label": "Н стр.",
+              "unit": "мм",
+              "group": null,
+              "qualifier": null
+            },
+            "owner_column_index": 0,
+            "owner_scope": "",
+            "candidate_sha256": "6c71751d25a7a252a46acbb9d7c49c44c93a68bb270f97e6c0547bc7ebf94814",
+            "previously_accepted": true
+          }
+        }
+      ]
+    },
+    {
+      "decision": {
+        "fact_indices": [
+          127,
+          319,
+          529
+        ],
+        "relation": "same_fact",
+        "keep": "ours",
+        "reason": "Реальное различие: Олег подставил высоту изолятора из соседнего столбца вместо Н стр. Лично просмотрена таблица; прямой nativegrid связывает точную марку с печатнойячейкой Н стр. (столбец4), совпадающей с нашимзначением. Соседняя H стр.,из. — другаяхарактеристика, обе исходные формы сохранены.",
+        "evidence_refs": [
+          0,
+          1
+        ]
+      },
+      "original_facts": [
+        {
+          "fact_id": "L-ff7cf60ad16e1b3aa33834cf",
+          "side": "oleg",
+          "catalog": "isolators",
+          "kind": "model_parameter",
+          "pointer": "characteristics.jsonl:56066/raw",
+          "owner": "ОШСК 220-2- Г80-А-2",
+          "name": "Н стр., мм",
+          "value": "2100",
+          "unit": "мм",
+          "condition": "",
+          "physical_pages": [
+            143
+          ],
+          "input_fact_sha256": "c2dcb4f87ecb4ceeb75a38dba5332e45641bcaf5a11fbd81abb63cdbc2bd76d7",
+          "input_line": 65441,
+          "raw_context": "raw-9cd8df8bba79f63c72e4011c136d812e8683d2fd6f70e2b4811fc3dc6b376860",
+          "metadata": {
+            "raw_value_type": "str",
+            "observation_id": "C-a03bd1c884b8c0420fb09130",
+            "window_id": "W-cb50268f10613d87f46889ad",
+            "group_id": "G-ca4572925d77259005dbb7d5",
+            "product_id": "P-70de76d98799a6a3985347f6",
+            "group_title": "Опоры шинные для жесткой ошиновки с горизонтальным расположением шин напряжение 110-220 кВ",
+            "raw_value_present": true
+          }
+        },
+        {
+          "fact_id": "L-9da89d7b44d2904394a3eb08",
+          "side": "oleg",
+          "catalog": "isolators",
+          "kind": "model_parameter",
+          "pointer": "characteristics.jsonl:56761/raw",
+          "owner": "ОШСК 220-2-Г80-А-2",
+          "name": "Н стр.",
+          "value": "2162",
+          "unit": "мм",
+          "condition": "",
+          "physical_pages": [
+            143
+          ],
+          "input_fact_sha256": "93e540777a41d34ea59ff9c949bb40bae044ec81521fc204941831803a0717d0",
+          "input_line": 66136,
+          "raw_context": "raw-fbc7a2462577c811f6866b558d3ab476f9b3dac7750335569dbd6a34973690e3",
+          "metadata": {
+            "raw_value_type": "str",
+            "observation_id": "C-85ce47f2771496e9d8eba0bd",
+            "window_id": "W-568d3cdc5953fbb439851fd9",
+            "group_id": "G-6e8b90c70b727eae54b88f4e",
+            "product_id": "P-080ed38dbc266cebd1b1a1bc",
+            "group_title": "Опоры шинные на напряжение 220 кВ (горизонтальное расположение шин)",
+            "raw_value_present": true
+          }
+        },
+        {
+          "fact_id": "O-50439d413033291e52966fbf",
+          "side": "ours",
+          "catalog": "isolators",
+          "kind": "model_parameter",
+          "pointer": "/catalogs/1/pages/142/content/tables/0/rows/11/cells/4",
+          "owner": "ОШСК 220-2- Г80-А-2",
+          "name": "Н стр.",
+          "value": "2162",
+          "unit": "мм",
+          "condition": null,
+          "physical_pages": [
+            143
+          ],
+          "input_fact_sha256": "9bdbdec22dde7bf3af3b045246a76ae14e4fe8db791dd430e269d774ae0450b1",
+          "input_line": 112306,
+          "row_context": "row-de224c788f0b17818fbdb54738ac260f34dcd22d51df1b392f9f04c83bd90c4b",
+          "raw_context": "raw-6851b60fb6d9f0a4e6fc9784b77654e4903b9565a5ae4436e34f9a6e7da2d68d",
+          "metadata": {
+            "raw_value_type": "str",
+            "table_index": 0,
+            "row_index": 11,
+            "column_index": 4,
+            "table_title": "Опоры шинные на напряжение 220 кВ",
+            "column": {
+              "id": "c5",
+              "label": "Н стр.",
+              "unit": "мм",
+              "group": null,
+              "qualifier": null
+            },
+            "owner_column_index": 0,
+            "owner_scope": "",
+            "candidate_sha256": "6c71751d25a7a252a46acbb9d7c49c44c93a68bb270f97e6c0547bc7ebf94814",
+            "previously_accepted": true
+          }
+        }
+      ]
+    },
+    {
+      "decision": {
+        "fact_indices": [
+          139,
+          331,
+          543
+        ],
+        "relation": "same_fact",
+        "keep": "ours",
+        "reason": "Реальное различие: Олег подставил высоту изолятора из соседнего столбца вместо Н стр. Лично просмотрена таблица; прямой nativegrid связывает точную марку с печатнойячейкой Н стр. (столбец4), совпадающей с нашимзначением. Соседняя H стр.,из. — другаяхарактеристика, обе исходные формы сохранены.",
+        "evidence_refs": [
+          0,
+          1
+        ]
+      },
+      "original_facts": [
+        {
+          "fact_id": "L-96de8f5a53272da664b07805",
+          "side": "oleg",
+          "catalog": "isolators",
+          "kind": "model_parameter",
+          "pointer": "characteristics.jsonl:56078/raw",
+          "owner": "ОШСК 220-3- Г80-А-2",
+          "name": "Н стр., мм",
+          "value": "2100",
+          "unit": "мм",
+          "condition": "",
+          "physical_pages": [
+            143
+          ],
+          "input_fact_sha256": "c91ba7bc3dc22eafe4b18826385be24ac09b997b05802da548528109f965f457",
+          "input_line": 65453,
+          "raw_context": "raw-82aab7bf139fefc77656be670c8abadadbe5ff027c256913d6a99d79a4a31b52",
+          "metadata": {
+            "raw_value_type": "str",
+            "observation_id": "C-eda3429c02ee3726e4bc226e",
+            "window_id": "W-cb50268f10613d87f46889ad",
+            "group_id": "G-ca4572925d77259005dbb7d5",
+            "product_id": "P-c3f6e09898075b48eb41c89b",
+            "group_title": "Опоры шинные для жесткой ошиновки с горизонтальным расположением шин напряжение 110-220 кВ",
+            "raw_value_present": true
+          }
+        },
+        {
+          "fact_id": "L-7b1270ff611b31f74f99ebdc",
+          "side": "oleg",
+          "catalog": "isolators",
+          "kind": "model_parameter",
+          "pointer": "characteristics.jsonl:56773/raw",
+          "owner": "ОШСК 220-3-Г80-А-2",
+          "name": "Н стр.",
+          "value": "2182",
+          "unit": "мм",
+          "condition": "",
+          "physical_pages": [
+            143
+          ],
+          "input_fact_sha256": "6fcf384aedecab8e33060d4fb77276006743b69b4e0296d98d5365447d193edf",
+          "input_line": 66148,
+          "raw_context": "raw-7179ea4d581961752bf5097a778764982d8981d84dd65f4266105954f2c63393",
+          "metadata": {
+            "raw_value_type": "str",
+            "observation_id": "C-0e1ae2f398c747ebf71686a7",
+            "window_id": "W-568d3cdc5953fbb439851fd9",
+            "group_id": "G-6e8b90c70b727eae54b88f4e",
+            "product_id": "P-332ed1848f55b77f1eba7812",
+            "group_title": "Опоры шинные на напряжение 220 кВ (горизонтальное расположение шин)",
+            "raw_value_present": true
+          }
+        },
+        {
+          "fact_id": "O-9f7ff715fb44d14fa810ca77",
+          "side": "ours",
+          "catalog": "isolators",
+          "kind": "model_parameter",
+          "pointer": "/catalogs/1/pages/142/content/tables/0/rows/13/cells/4",
+          "owner": "ОШСК 220-3- Г80-А-2",
+          "name": "Н стр.",
+          "value": "2182",
+          "unit": "мм",
+          "condition": null,
+          "physical_pages": [
+            143
+          ],
+          "input_fact_sha256": "f0b09d2e503698d310f657411d429f47ce0f3b4e9d3c7b4f523cdee3bdc7cb4d",
+          "input_line": 112320,
+          "row_context": "row-b16c6d9195179f78900cd3d2f682ea71d1fd486f05de3d28493fa368f2c460c3",
+          "raw_context": "raw-218678d557c6d08d016797af0de29ae75f302dd64b650f42ceb459b1ac6342c2",
+          "metadata": {
+            "raw_value_type": "str",
+            "table_index": 0,
+            "row_index": 13,
+            "column_index": 4,
+            "table_title": "Опоры шинные на напряжение 220 кВ",
+            "column": {
+              "id": "c5",
+              "label": "Н стр.",
+              "unit": "мм",
+              "group": null,
+              "qualifier": null
+            },
+            "owner_column_index": 0,
+            "owner_scope": "",
+            "candidate_sha256": "6c71751d25a7a252a46acbb9d7c49c44c93a68bb270f97e6c0547bc7ebf94814",
+            "previously_accepted": true
+          }
+        }
+      ]
+    },
+    {
+      "decision": {
+        "fact_indices": [
+          151,
+          343,
+          557
+        ],
+        "relation": "same_fact",
+        "keep": "ours",
+        "reason": "Реальное различие: Олег подставил высоту изолятора из соседнего столбца вместо Н стр. Лично просмотрена таблица; прямой nativegrid связывает точную марку с печатнойячейкой Н стр. (столбец4), совпадающей с нашимзначением. Соседняя H стр.,из. — другаяхарактеристика, обе исходные формы сохранены.",
+        "evidence_refs": [
+          0,
+          1
+        ]
+      },
+      "original_facts": [
+        {
+          "fact_id": "L-f0ede3a3a79a12b4a2268361",
+          "side": "oleg",
+          "catalog": "isolators",
+          "kind": "model_parameter",
+          "pointer": "characteristics.jsonl:56090/raw",
+          "owner": "ОШСК 220-4- Г80-А-2",
+          "name": "Н стр., мм",
+          "value": "2100",
+          "unit": "мм",
+          "condition": "",
+          "physical_pages": [
+            143
+          ],
+          "input_fact_sha256": "a75b64592aa55db34caa087747d878bd80236f8f53dd23cbe0ea7949c2786f78",
+          "input_line": 65465,
+          "raw_context": "raw-ca5708c56b4139ede577f1b7109508338854a9c131fb554414ebdc5761f98ea3",
+          "metadata": {
+            "raw_value_type": "str",
+            "observation_id": "C-98d111a9d1d947620d2848fc",
+            "window_id": "W-cb50268f10613d87f46889ad",
+            "group_id": "G-ca4572925d77259005dbb7d5",
+            "product_id": "P-a8509778e79dadfb99ddbabe",
+            "group_title": "Опоры шинные для жесткой ошиновки с горизонтальным расположением шин напряжение 110-220 кВ",
+            "raw_value_present": true
+          }
+        },
+        {
+          "fact_id": "L-818c17fe3d74a03665d76ec2",
+          "side": "oleg",
+          "catalog": "isolators",
+          "kind": "model_parameter",
+          "pointer": "characteristics.jsonl:56785/raw",
+          "owner": "ОШСК 220-4-Г80-А-2",
+          "name": "Н стр.",
+          "value": "2202",
+          "unit": "мм",
+          "condition": "",
+          "physical_pages": [
+            143
+          ],
+          "input_fact_sha256": "8efc7a5f2805eed36344e233a0bd13c818cc9d076a29405a26199b519a762653",
+          "input_line": 66160,
+          "raw_context": "raw-eb22b20650ffc1ff4625b38e1313aa42c1bf0f858c6aa1b3a79b035450864fff",
+          "metadata": {
+            "raw_value_type": "str",
+            "observation_id": "C-1513247fc3d95981274f3f2e",
+            "window_id": "W-568d3cdc5953fbb439851fd9",
+            "group_id": "G-6e8b90c70b727eae54b88f4e",
+            "product_id": "P-4f064bcfaabde06f72e68a4c",
+            "group_title": "Опоры шинные на напряжение 220 кВ (горизонтальное расположение шин)",
+            "raw_value_present": true
+          }
+        },
+        {
+          "fact_id": "O-e9fdeb1d617841a4c4df8dbb",
+          "side": "ours",
+          "catalog": "isolators",
+          "kind": "model_parameter",
+          "pointer": "/catalogs/1/pages/142/content/tables/0/rows/15/cells/4",
+          "owner": "ОШСК 220-4- Г80-А-2",
+          "name": "Н стр.",
+          "value": "2202",
+          "unit": "мм",
+          "condition": null,
+          "physical_pages": [
+            143
+          ],
+          "input_fact_sha256": "bee7c83a68318760ced92a40360f9058f77b89c94c54cb9a0b71dff974888dca",
+          "input_line": 112334,
+          "row_context": "row-caa32e0d9bc71c60009df998df1a42f6ebf5cb63528e671ebe7f4c140e0ec654",
+          "raw_context": "raw-d2a811c62ccf164285ca1c54527bdd1c78cdd388bde6bcb28e80a09a6212e15b",
+          "metadata": {
+            "raw_value_type": "str",
+            "table_index": 0,
+            "row_index": 15,
+            "column_index": 4,
+            "table_title": "Опоры шинные на напряжение 220 кВ",
+            "column": {
+              "id": "c5",
+              "label": "Н стр.",
+              "unit": "мм",
+              "group": null,
+              "qualifier": null
+            },
+            "owner_column_index": 0,
+            "owner_scope": "",
+            "candidate_sha256": "6c71751d25a7a252a46acbb9d7c49c44c93a68bb270f97e6c0547bc7ebf94814",
+            "previously_accepted": true
+          }
+        }
+      ]
+    },
+    {
+      "decision": {
+        "fact_indices": [
+          175,
+          367,
+          585
+        ],
+        "relation": "same_fact",
+        "keep": "ours",
+        "reason": "Реальное различие: Олег подставил высоту изолятора из соседнего столбца вместо Н стр. Лично просмотрена таблица; прямой nativegrid связывает точную марку с печатнойячейкой Н стр. (столбец4), совпадающей с нашимзначением. Соседняя H стр.,из. — другаяхарактеристика, обе исходные формы сохранены.",
+        "evidence_refs": [
+          0,
+          1
+        ]
+      },
+      "original_facts": [
+        {
+          "fact_id": "L-c8219df324c83a329984f321",
+          "side": "oleg",
+          "catalog": "isolators",
+          "kind": "model_parameter",
+          "pointer": "characteristics.jsonl:56114/raw",
+          "owner": "ОШСК 220-2- Г100-А-2",
+          "name": "Н стр., мм",
+          "value": "2100",
+          "unit": "мм",
+          "condition": "",
+          "physical_pages": [
+            143
+          ],
+          "input_fact_sha256": "84d8be13f3babb5be634f21a28f939dd06b9dd6b3e193b4acc8cbeb060c537f2",
+          "input_line": 65489,
+          "raw_context": "raw-6c09227e8e17a5c93699b18ea740a976a170af4f7248dfb52d91c1f90b1849d1",
+          "metadata": {
+            "raw_value_type": "str",
+            "observation_id": "C-b221ffd2e445a485c3d60164",
+            "window_id": "W-cb50268f10613d87f46889ad",
+            "group_id": "G-ca4572925d77259005dbb7d5",
+            "product_id": "P-0d87a932a6ca3e08d1760ed9",
+            "group_title": "Опоры шинные для жесткой ошиновки с горизонтальным расположением шин напряжение 110-220 кВ",
+            "raw_value_present": true
+          }
+        },
+        {
+          "fact_id": "L-ecfec6a80af681289db8b526",
+          "side": "oleg",
+          "catalog": "isolators",
+          "kind": "model_parameter",
+          "pointer": "characteristics.jsonl:56809/raw",
+          "owner": "ОШСК 220-2-Г100-А-2",
+          "name": "Н стр.",
+          "value": "2166",
+          "unit": "мм",
+          "condition": "",
+          "physical_pages": [
+            143
+          ],
+          "input_fact_sha256": "0538d3712808f455d31ad5ebd64518f75dfcf0f80d8d0fa05e6cfa9d7c625bb1",
+          "input_line": 66184,
+          "raw_context": "raw-8c281dd4e3a378ff432c1f96c9ee506e5bff2db95b9aee4915c5d5bdcc9cb941",
+          "metadata": {
+            "raw_value_type": "str",
+            "observation_id": "C-192042e6ad5425fddacc4914",
+            "window_id": "W-568d3cdc5953fbb439851fd9",
+            "group_id": "G-6e8b90c70b727eae54b88f4e",
+            "product_id": "P-791de3b0a3a061d0ac94e178",
+            "group_title": "Опоры шинные на напряжение 220 кВ (горизонтальное расположение шин)",
+            "raw_value_present": true
+          }
+        },
+        {
+          "fact_id": "O-15875905978096547ba1b35c",
+          "side": "ours",
+          "catalog": "isolators",
+          "kind": "model_parameter",
+          "pointer": "/catalogs/1/pages/142/content/tables/0/rows/19/cells/4",
+          "owner": "ОШСК 220-2- Г100-А-2",
+          "name": "Н стр.",
+          "value": "2166",
+          "unit": "мм",
+          "condition": null,
+          "physical_pages": [
+            143
+          ],
+          "input_fact_sha256": "c194c07daecb7b3f6dfd80ba6b9104f4d3ac4c379819379c650ed45fc21fe6c2",
+          "input_line": 112362,
+          "row_context": "row-d2fba1b4a2f9b4cee8919927ace57ba5b7a901fdacbf32bcd05103f2016eb062",
+          "raw_context": "raw-5d26db418bb372c705b00f62073556db40fd5383e19ab8c30b76c848207d25a7",
+          "metadata": {
+            "raw_value_type": "str",
+            "table_index": 0,
+            "row_index": 19,
+            "column_index": 4,
+            "table_title": "Опоры шинные на напряжение 220 кВ",
+            "column": {
+              "id": "c5",
+              "label": "Н стр.",
+              "unit": "мм",
+              "group": null,
+              "qualifier": null
+            },
+            "owner_column_index": 0,
+            "owner_scope": "",
+            "candidate_sha256": "6c71751d25a7a252a46acbb9d7c49c44c93a68bb270f97e6c0547bc7ebf94814",
+            "previously_accepted": true
+          }
+        }
+      ]
+    },
+    {
+      "decision": {
+        "fact_indices": [
+          187,
+          379,
+          599
+        ],
+        "relation": "same_fact",
+        "keep": "ours",
+        "reason": "Реальное различие: Олег подставил высоту изолятора из соседнего столбца вместо Н стр. Лично просмотрена таблица; прямой nativegrid связывает точную марку с печатнойячейкой Н стр. (столбец4), совпадающей с нашимзначением. Соседняя H стр.,из. — другаяхарактеристика, обе исходные формы сохранены.",
+        "evidence_refs": [
+          0,
+          1
+        ]
+      },
+      "original_facts": [
+        {
+          "fact_id": "L-32821a99c60a4555349bc761",
+          "side": "oleg",
+          "catalog": "isolators",
+          "kind": "model_parameter",
+          "pointer": "characteristics.jsonl:56126/raw",
+          "owner": "ОШСК 220-3- Г100-А-2",
+          "name": "Н стр., мм",
+          "value": "2100",
+          "unit": "мм",
+          "condition": "",
+          "physical_pages": [
+            143
+          ],
+          "input_fact_sha256": "a519fe8ffcbce04a7e22a9e8aebb5a7e422e02448e4780c03f860b5b88fb31f4",
+          "input_line": 65501,
+          "raw_context": "raw-1ac62ed9944470acfaa93231fea8434993474006b6625953e632b76add6c8c1b",
+          "metadata": {
+            "raw_value_type": "str",
+            "observation_id": "C-b3bfe73e68cf2cb5f2ee6bdf",
+            "window_id": "W-cb50268f10613d87f46889ad",
+            "group_id": "G-ca4572925d77259005dbb7d5",
+            "product_id": "P-d3c75f9f332baae64ccd8681",
+            "group_title": "Опоры шинные для жесткой ошиновки с горизонтальным расположением шин напряжение 110-220 кВ",
+            "raw_value_present": true
+          }
+        },
+        {
+          "fact_id": "L-ef35f6981f78e6bfc8651bdb",
+          "side": "oleg",
+          "catalog": "isolators",
+          "kind": "model_parameter",
+          "pointer": "characteristics.jsonl:56821/raw",
+          "owner": "ОШСК 220-3-Г100-А-2",
+          "name": "Н стр.",
+          "value": "2186",
+          "unit": "мм",
+          "condition": "",
+          "physical_pages": [
+            143
+          ],
+          "input_fact_sha256": "2ceb9bb2db10d545b5ea31f1a0f2835d33c4b719d45f489ecee31c24495ff836",
+          "input_line": 66196,
+          "raw_context": "raw-1a238ee3c5575d603821e36f76677b3712dbef6ff60d388c97d3f63e019b75de",
+          "metadata": {
+            "raw_value_type": "str",
+            "observation_id": "C-fe2a0df49d6000467ab77f93",
+            "window_id": "W-568d3cdc5953fbb439851fd9",
+            "group_id": "G-6e8b90c70b727eae54b88f4e",
+            "product_id": "P-e0b8485ee281e347644185fc",
+            "group_title": "Опоры шинные на напряжение 220 кВ (горизонтальное расположение шин)",
+            "raw_value_present": true
+          }
+        },
+        {
+          "fact_id": "O-792d0919b5d17f1fa3132e65",
+          "side": "ours",
+          "catalog": "isolators",
+          "kind": "model_parameter",
+          "pointer": "/catalogs/1/pages/142/content/tables/0/rows/21/cells/4",
+          "owner": "ОШСК 220-3- Г100-А-2",
+          "name": "Н стр.",
+          "value": "2186",
+          "unit": "мм",
+          "condition": null,
+          "physical_pages": [
+            143
+          ],
+          "input_fact_sha256": "b32cca4150d85772cd7c5f61943c7a06e15bd56f300e8cbc111f2e96796f17aa",
+          "input_line": 112376,
+          "row_context": "row-bd1ab847a592983dc7fdcc9c9e73f24d1fde4bd435d82be4d39dffe6a51f46a5",
+          "raw_context": "raw-7ba20d0912838828d1e5e5f14f59f8aff86f6ca76446f9caded082c58283d376",
+          "metadata": {
+            "raw_value_type": "str",
+            "table_index": 0,
+            "row_index": 21,
+            "column_index": 4,
+            "table_title": "Опоры шинные на напряжение 220 кВ",
+            "column": {
+              "id": "c5",
+              "label": "Н стр.",
+              "unit": "мм",
+              "group": null,
+              "qualifier": null
+            },
+            "owner_column_index": 0,
+            "owner_scope": "",
+            "candidate_sha256": "6c71751d25a7a252a46acbb9d7c49c44c93a68bb270f97e6c0547bc7ebf94814",
+            "previously_accepted": true
+          }
+        }
+      ]
+    },
+    {
+      "decision": {
+        "fact_indices": [
+          199,
+          391,
+          613
+        ],
+        "relation": "same_fact",
+        "keep": "ours",
+        "reason": "Реальное различие: Олег подставил высоту изолятора из соседнего столбца вместо Н стр. Лично просмотрена таблица; прямой nativegrid связывает точную марку с печатнойячейкой Н стр. (столбец4), совпадающей с нашимзначением. Соседняя H стр.,из. — другаяхарактеристика, обе исходные формы сохранены.",
+        "evidence_refs": [
+          0,
+          1
+        ]
+      },
+      "original_facts": [
+        {
+          "fact_id": "L-ef0ffdcc8585188324ffe56e",
+          "side": "oleg",
+          "catalog": "isolators",
+          "kind": "model_parameter",
+          "pointer": "characteristics.jsonl:56138/raw",
+          "owner": "ОШСК 220-4- Г100-А-2",
+          "name": "Н стр., мм",
+          "value": "2100",
+          "unit": "мм",
+          "condition": "",
+          "physical_pages": [
+            143
+          ],
+          "input_fact_sha256": "d5c38a25415adbd2d74dec13a577f4800c39685faef5145ea60ee681504909a3",
+          "input_line": 65513,
+          "raw_context": "raw-b2baa1ffc89dc825296ca874c4acbc582fb156040221bec8a883e0e0bec489f0",
+          "metadata": {
+            "raw_value_type": "str",
+            "observation_id": "C-fb58065e8f8cdd6d6a9ea27c",
+            "window_id": "W-cb50268f10613d87f46889ad",
+            "group_id": "G-ca4572925d77259005dbb7d5",
+            "product_id": "P-655a28d8b2e978b86a1be2b3",
+            "group_title": "Опоры шинные для жесткой ошиновки с горизонтальным расположением шин напряжение 110-220 кВ",
+            "raw_value_present": true
+          }
+        },
+        {
+          "fact_id": "L-476d44a141c5ec0fce7f674c",
+          "side": "oleg",
+          "catalog": "isolators",
+          "kind": "model_parameter",
+          "pointer": "characteristics.jsonl:56833/raw",
+          "owner": "ОШСК 220-4-Г100-А-2",
+          "name": "Н стр.",
+          "value": "2206",
+          "unit": "мм",
+          "condition": "",
+          "physical_pages": [
+            143
+          ],
+          "input_fact_sha256": "b660c2813bdd80bfdee788ca5b38f9b1bdab1271fb590cf26b5d064965af4c21",
+          "input_line": 66208,
+          "raw_context": "raw-cd5ebc5b49d10afb298fde80407b295091603becdac4d8fdcfa74947ac47a0b6",
+          "metadata": {
+            "raw_value_type": "str",
+            "observation_id": "C-2b8253e38bc47b63ba884290",
+            "window_id": "W-568d3cdc5953fbb439851fd9",
+            "group_id": "G-6e8b90c70b727eae54b88f4e",
+            "product_id": "P-0618bf740275dcffe0616ca0",
+            "group_title": "Опоры шинные на напряжение 220 кВ (горизонтальное расположение шин)",
+            "raw_value_present": true
+          }
+        },
+        {
+          "fact_id": "O-1c0b4992474d09727c69fdbf",
+          "side": "ours",
+          "catalog": "isolators",
+          "kind": "model_parameter",
+          "pointer": "/catalogs/1/pages/142/content/tables/0/rows/23/cells/4",
+          "owner": "ОШСК 220-4- Г100-А-2",
+          "name": "Н стр.",
+          "value": "2206",
+          "unit": "мм",
+          "condition": null,
+          "physical_pages": [
+            143
+          ],
+          "input_fact_sha256": "a0365e5452a0bd65f10b47305dbc6b3afb7ea7e28915a3330005d4114364f8bd",
+          "input_line": 112390,
+          "row_context": "row-786e613b2712be724eaf5ab13467aec1978550d377ad3e82e16f8c648ed4388e",
+          "raw_context": "raw-84cca014c360b24506565918a1cce65306178c2c08f833ce8254869d35147e55",
+          "metadata": {
+            "raw_value_type": "str",
+            "table_index": 0,
+            "row_index": 23,
+            "column_index": 4,
+            "table_title": "Опоры шинные на напряжение 220 кВ",
+            "column": {
+              "id": "c5",
+              "label": "Н стр.",
+              "unit": "мм",
+              "group": null,
+              "qualifier": null
+            },
+            "owner_column_index": 0,
+            "owner_scope": "",
+            "candidate_sha256": "6c71751d25a7a252a46acbb9d7c49c44c93a68bb270f97e6c0547bc7ebf94814",
+            "previously_accepted": true
+          }
+        }
+      ]
+    },
+    {
+      "decision": {
+        "fact_indices": [
+          223,
+          415,
+          641
+        ],
+        "relation": "same_fact",
+        "keep": "ours",
+        "reason": "Реальное различие: Олег подставил высоту изолятора из соседнего столбца вместо Н стр. Лично просмотрена таблица; прямой nativegrid связывает точную марку с печатнойячейкой Н стр. (столбец4), совпадающей с нашимзначением. Соседняя H стр.,из. — другаяхарактеристика, обе исходные формы сохранены.",
+        "evidence_refs": [
+          0,
+          1
+        ]
+      },
+      "original_facts": [
+        {
+          "fact_id": "L-a88e2ae74bec3a5fd5f3cc30",
+          "side": "oleg",
+          "catalog": "isolators",
+          "kind": "model_parameter",
+          "pointer": "characteristics.jsonl:56162/raw",
+          "owner": "ОШСК 220-2- Г120-А-2",
+          "name": "Н стр., мм",
+          "value": "2100",
+          "unit": "мм",
+          "condition": "",
+          "physical_pages": [
+            143
+          ],
+          "input_fact_sha256": "90dea9f2142ad7c8dbb5c5fe3fc558097be87f7e7bcd7c60d2c4d187e2853511",
+          "input_line": 65537,
+          "raw_context": "raw-f0888ff259debd84306c4be166a472fddbd46ea13f1999429efd857918640f05",
+          "metadata": {
+            "raw_value_type": "str",
+            "observation_id": "C-68aa6af05118286ec9704987",
+            "window_id": "W-cb50268f10613d87f46889ad",
+            "group_id": "G-ca4572925d77259005dbb7d5",
+            "product_id": "P-37f89280890ef50bf8121f1a",
+            "group_title": "Опоры шинные для жесткой ошиновки с горизонтальным расположением шин напряжение 110-220 кВ",
+            "raw_value_present": true
+          }
+        },
+        {
+          "fact_id": "L-ba24cd1ca34f18639f4339ca",
+          "side": "oleg",
+          "catalog": "isolators",
+          "kind": "model_parameter",
+          "pointer": "characteristics.jsonl:56857/raw",
+          "owner": "ОШСК 220-2-Г120-А-2",
+          "name": "Н стр.",
+          "value": "2168",
+          "unit": "мм",
+          "condition": "",
+          "physical_pages": [
+            143
+          ],
+          "input_fact_sha256": "14791a7515d7173e9f3438c77a821fbfae50320efb47a8de72aef248a181ebc0",
+          "input_line": 66232,
+          "raw_context": "raw-2e04f4107fe1b29ce510d5519a4204cc9b3aa927f72437c25cc9ffc30b8a4b27",
+          "metadata": {
+            "raw_value_type": "str",
+            "observation_id": "C-e059a1c2caece1a69f10e243",
+            "window_id": "W-568d3cdc5953fbb439851fd9",
+            "group_id": "G-6e8b90c70b727eae54b88f4e",
+            "product_id": "P-fdcd5a27b483dbb67e58f762",
+            "group_title": "Опоры шинные на напряжение 220 кВ (горизонтальное расположение шин)",
+            "raw_value_present": true
+          }
+        },
+        {
+          "fact_id": "O-bfa7bbc5da4b32edecc715b8",
+          "side": "ours",
+          "catalog": "isolators",
+          "kind": "model_parameter",
+          "pointer": "/catalogs/1/pages/142/content/tables/0/rows/27/cells/4",
+          "owner": "ОШСК 220-2- Г120-А-2",
+          "name": "Н стр.",
+          "value": "2168",
+          "unit": "мм",
+          "condition": null,
+          "physical_pages": [
+            143
+          ],
+          "input_fact_sha256": "2dbd95f2f0ee61e88de73ac5b093d81eb445d45d650397f7888437369ac893ca",
+          "input_line": 112418,
+          "row_context": "row-4dc5e7d8c2a5d623e6bf2e5e1c0aa5b81324b527eea89f774192760469a60d5b",
+          "raw_context": "raw-f19f40a25aaf8d093274150aab301e13dba7e01fc75b02dcf96cb3c617d33333",
+          "metadata": {
+            "raw_value_type": "str",
+            "table_index": 0,
+            "row_index": 27,
+            "column_index": 4,
+            "table_title": "Опоры шинные на напряжение 220 кВ",
+            "column": {
+              "id": "c5",
+              "label": "Н стр.",
+              "unit": "мм",
+              "group": null,
+              "qualifier": null
+            },
+            "owner_column_index": 0,
+            "owner_scope": "",
+            "candidate_sha256": "6c71751d25a7a252a46acbb9d7c49c44c93a68bb270f97e6c0547bc7ebf94814",
+            "previously_accepted": true
+          }
+        }
+      ]
+    },
+    {
+      "decision": {
+        "fact_indices": [
+          235,
+          427,
+          655
+        ],
+        "relation": "same_fact",
+        "keep": "ours",
+        "reason": "Реальное различие: Олег подставил высоту изолятора из соседнего столбца вместо Н стр. Лично просмотрена таблица; прямой nativegrid связывает точную марку с печатнойячейкой Н стр. (столбец4), совпадающей с нашимзначением. Соседняя H стр.,из. — другаяхарактеристика, обе исходные формы сохранены.",
+        "evidence_refs": [
+          0,
+          1
+        ]
+      },
+      "original_facts": [
+        {
+          "fact_id": "L-a6f5412fc9382bd99ffe222e",
+          "side": "oleg",
+          "catalog": "isolators",
+          "kind": "model_parameter",
+          "pointer": "characteristics.jsonl:56174/raw",
+          "owner": "ОШСК220-3- Г120-А-2",
+          "name": "Н стр., мм",
+          "value": "2100",
+          "unit": "мм",
+          "condition": "",
+          "physical_pages": [
+            143
+          ],
+          "input_fact_sha256": "2d19ede1b01bc21a6d7b4c879022548b3a94d188a3608c094c9078d649320edf",
+          "input_line": 65549,
+          "raw_context": "raw-7a42d573a2410c2899186a05e79ce056f81375639b5837fc1a39dbcec84c8383",
+          "metadata": {
+            "raw_value_type": "str",
+            "observation_id": "C-d4ad45944cc9c567d972c125",
+            "window_id": "W-cb50268f10613d87f46889ad",
+            "group_id": "G-ca4572925d77259005dbb7d5",
+            "product_id": "P-4a0ce108924d0b130e4001d3",
+            "group_title": "Опоры шинные для жесткой ошиновки с горизонтальным расположением шин напряжение 110-220 кВ",
+            "raw_value_present": true
+          }
+        },
+        {
+          "fact_id": "L-3dec1c7e6a53c1d6c543c7dc",
+          "side": "oleg",
+          "catalog": "isolators",
+          "kind": "model_parameter",
+          "pointer": "characteristics.jsonl:56869/raw",
+          "owner": "ОШСК 220-3-Г120-А-2",
+          "name": "Н стр.",
+          "value": "2188",
+          "unit": "мм",
+          "condition": "",
+          "physical_pages": [
+            143
+          ],
+          "input_fact_sha256": "8d584d6431a6f5334f442997c1363cd4acbb670b483fa8e506af6b68b0a3de5e",
+          "input_line": 66244,
+          "raw_context": "raw-60bc2ab737e476de48b39572da6d7911415460f90f7027699b385644670edf11",
+          "metadata": {
+            "raw_value_type": "str",
+            "observation_id": "C-1d636ecccb47d5b35d122965",
+            "window_id": "W-568d3cdc5953fbb439851fd9",
+            "group_id": "G-6e8b90c70b727eae54b88f4e",
+            "product_id": "P-829a08f2d49e999cd2c1b2c9",
+            "group_title": "Опоры шинные на напряжение 220 кВ (горизонтальное расположение шин)",
+            "raw_value_present": true
+          }
+        },
+        {
+          "fact_id": "O-0e1af5b9ee44c62771deae5e",
+          "side": "ours",
+          "catalog": "isolators",
+          "kind": "model_parameter",
+          "pointer": "/catalogs/1/pages/142/content/tables/0/rows/29/cells/4",
+          "owner": "ОШСК220-3- Г120-А-2",
+          "name": "Н стр.",
+          "value": "2188",
+          "unit": "мм",
+          "condition": null,
+          "physical_pages": [
+            143
+          ],
+          "input_fact_sha256": "0f5cce6137c9ed4a0a4f7f7f07fc5a72c8c7ab40d95a6dafe8fa876889101357",
+          "input_line": 112432,
+          "row_context": "row-aaf1a952b92b751d8beea212c1d8afc687113155511c1c8b1c496abece02ff34",
+          "raw_context": "raw-8bcb59d3a86d07e6f5707277af791ffb6a3228c7e82286f041c9fb772b0862aa",
+          "metadata": {
+            "raw_value_type": "str",
+            "table_index": 0,
+            "row_index": 29,
+            "column_index": 4,
+            "table_title": "Опоры шинные на напряжение 220 кВ",
+            "column": {
+              "id": "c5",
+              "label": "Н стр.",
+              "unit": "мм",
+              "group": null,
+              "qualifier": null
+            },
+            "owner_column_index": 0,
+            "owner_scope": "",
+            "candidate_sha256": "6c71751d25a7a252a46acbb9d7c49c44c93a68bb270f97e6c0547bc7ebf94814",
+            "previously_accepted": true
+          }
+        }
+      ]
+    },
+    {
+      "decision": {
+        "fact_indices": [
+          247,
+          439,
+          669
+        ],
+        "relation": "same_fact",
+        "keep": "ours",
+        "reason": "Реальное различие: Олег подставил высоту изолятора из соседнего столбца вместо Н стр. Лично просмотрена таблица; прямой nativegrid связывает точную марку с печатнойячейкой Н стр. (столбец4), совпадающей с нашимзначением. Соседняя H стр.,из. — другаяхарактеристика, обе исходные формы сохранены.",
+        "evidence_refs": [
+          0,
+          1
+        ]
+      },
+      "original_facts": [
+        {
+          "fact_id": "L-aaddfe52ecaf1d190027b925",
+          "side": "oleg",
+          "catalog": "isolators",
+          "kind": "model_parameter",
+          "pointer": "characteristics.jsonl:56186/raw",
+          "owner": "ОШСК 220-4- Г120-А-2",
+          "name": "Н стр., мм",
+          "value": "2100",
+          "unit": "мм",
+          "condition": "",
+          "physical_pages": [
+            143
+          ],
+          "input_fact_sha256": "5330f6b1920968cb43411eb8644299103478f95dd68db1bc8b54b6746c6983f0",
+          "input_line": 65561,
+          "raw_context": "raw-2dbccf7fa7470b11fb2d92a9785b52bd291d45be6b811face96356bb96219cbc",
+          "metadata": {
+            "raw_value_type": "str",
+            "observation_id": "C-b94998f785faf1bf4c11d3c4",
+            "window_id": "W-cb50268f10613d87f46889ad",
+            "group_id": "G-ca4572925d77259005dbb7d5",
+            "product_id": "P-bada3fb7c92b26c6d230e54e",
+            "group_title": "Опоры шинные для жесткой ошиновки с горизонтальным расположением шин напряжение 110-220 кВ",
+            "raw_value_present": true
+          }
+        },
+        {
+          "fact_id": "L-d55c0629df0e752a8ac9720f",
+          "side": "oleg",
+          "catalog": "isolators",
+          "kind": "model_parameter",
+          "pointer": "characteristics.jsonl:56881/raw",
+          "owner": "ОШСК 220-4-Г120-А-2",
+          "name": "Н стр.",
+          "value": "2208",
+          "unit": "мм",
+          "condition": "",
+          "physical_pages": [
+            143
+          ],
+          "input_fact_sha256": "3222b20569ba1f2ebf525178b966c457fa6d207cb9e25285f713f07df4d1805b",
+          "input_line": 66256,
+          "raw_context": "raw-5d845df57d6adc4635b672ead32efaa01b185338fb4998d6bacbb0bc46957697",
+          "metadata": {
+            "raw_value_type": "str",
+            "observation_id": "C-59f5418bdb80594a517df3de",
+            "window_id": "W-568d3cdc5953fbb439851fd9",
+            "group_id": "G-6e8b90c70b727eae54b88f4e",
+            "product_id": "P-994f7d000db52409277225c2",
+            "group_title": "Опоры шинные на напряжение 220 кВ (горизонтальное расположение шин)",
+            "raw_value_present": true
+          }
+        },
+        {
+          "fact_id": "O-e0eb7dff488730f4bca5c915",
+          "side": "ours",
+          "catalog": "isolators",
+          "kind": "model_parameter",
+          "pointer": "/catalogs/1/pages/142/content/tables/0/rows/31/cells/4",
+          "owner": "ОШСК 220-4- Г120-А-2",
+          "name": "Н стр.",
+          "value": "2208",
+          "unit": "мм",
+          "condition": null,
+          "physical_pages": [
+            143
+          ],
+          "input_fact_sha256": "ae7dea5f5ac6c38c1dd4f76e64b8a7a07d23454e78b945b73178e1e57c7b5792",
+          "input_line": 112446,
+          "row_context": "row-51d2d3e6b6b835c9277a1bbdfde14121a178f9de4f7d68ed13411729e5a9c28d",
+          "raw_context": "raw-0f952a5c88790aa3a0c76cffc0e8292ab0f2017a020d31b3704eb80edb913320",
+          "metadata": {
+            "raw_value_type": "str",
+            "table_index": 0,
+            "row_index": 31,
+            "column_index": 4,
+            "table_title": "Опоры шинные на напряжение 220 кВ",
+            "column": {
+              "id": "c5",
+              "label": "Н стр.",
+              "unit": "мм",
+              "group": null,
+              "qualifier": null
+            },
+            "owner_column_index": 0,
+            "owner_scope": "",
+            "candidate_sha256": "6c71751d25a7a252a46acbb9d7c49c44c93a68bb270f97e6c0547bc7ebf94814",
+            "previously_accepted": true
+          }
+        }
+      ]
+    }
+  ],
+  "gold_not_yet_adjudicated": true,
+  "original_input_values_not_rewritten": true
+}

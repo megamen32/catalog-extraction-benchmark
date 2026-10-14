@@ -1,0 +1,27 @@
+{
+  "id": "isolators150-blank-overlap-observation-merge-20261015",
+  "status": "diagnostic",
+  "priority": "high",
+  "category": "table_semantics",
+  "title": "Пустое перекрывающееся наблюдение не должно стирать общую ячейку",
+  "source": {
+    "filename": "Katalog-IZOLJaTORY.pdf",
+    "sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+    "physical_page": 150
+  },
+  "review_basis": "Root personally inspected original source/zoom/native PDF table. Owner merge work retains both typed input alternatives; independent final gold review deferred by user. This is a pending regression, not a new accuracy denominator.",
+  "artifacts": [
+    {
+      "path": "objects/1e8f7c88989d788c9257053556cb5cd1998ca316b465e23c3ab4eea0811c3659.json",
+      "sha256": "1e8f7c88989d788c9257053556cb5cd1998ca316b465e23c3ab4eea0811c3659",
+      "bytes": 39663,
+      "role": "merge-adjudicator",
+      "program_version": "1.5.25",
+      "model": "native Codex, gpt-6.1-sol observed current session"
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "Preserve actual model/column/condition/merged-cell ownership. Do not confuse assembly height with insulation height, shift flange headings, or erase printed values with empty duplicate observations. Exact source-bound examples are retained in the artifact.",
+  "superseded_by": "isolators150-blank-overlap-observation-merge-20261015-r2",
+  "coverage_note": "Historical pending capture also contained one agreeing9-ball group. Superseded before gold adjudication; the new seven-group case is authoritative."
+}

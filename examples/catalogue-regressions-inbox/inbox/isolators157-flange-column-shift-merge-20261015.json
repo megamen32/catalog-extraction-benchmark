@@ -1,0 +1,25 @@
+{
+  "id": "isolators157-flange-column-shift-merge-20261015",
+  "status": "pending_adjudication",
+  "priority": "high",
+  "category": "table_semantics",
+  "title": "Восемь значений фланцев сдвинуты относительно заголовков",
+  "source": {
+    "filename": "Katalog-IZOLJaTORY.pdf",
+    "sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+    "physical_page": 157
+  },
+  "review_basis": "Root personally inspected original source/zoom/native PDF table. Owner merge work retains both typed input alternatives; independent final gold review deferred by user. This is a pending regression, not a new accuracy denominator.",
+  "artifacts": [
+    {
+      "path": "objects/5f984c9881c863f7e1db5fb12dbc1342a8c588e427d369e9b28e4655fdce1a9a.json",
+      "sha256": "5f984c9881c863f7e1db5fb12dbc1342a8c588e427d369e9b28e4655fdce1a9a",
+      "bytes": 27880,
+      "role": "merge-adjudicator",
+      "program_version": "1.5.25",
+      "model": "native Codex, gpt-6.1-sol observed current session"
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "Preserve actual model/column/condition/merged-cell ownership. Do not confuse assembly height with insulation height, shift flange headings, or erase printed values with empty duplicate observations. Exact source-bound examples are retained in the artifact."
+}

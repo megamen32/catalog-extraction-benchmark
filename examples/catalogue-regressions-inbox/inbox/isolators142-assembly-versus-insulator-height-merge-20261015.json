@@ -1,0 +1,25 @@
+{
+  "id": "isolators142-assembly-versus-insulator-height-merge-20261015",
+  "status": "pending_adjudication",
+  "priority": "high",
+  "category": "table_semantics",
+  "title": "Высота изолятора подставлена вместо полной высоты сборки",
+  "source": {
+    "filename": "Katalog-IZOLJaTORY.pdf",
+    "sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+    "physical_page": 142
+  },
+  "review_basis": "Root personally inspected original source/zoom/native PDF table. Owner merge work retains both typed input alternatives; independent final gold review deferred by user. This is a pending regression, not a new accuracy denominator.",
+  "artifacts": [
+    {
+      "path": "objects/7469f68fd53747e8fd1b7fbd893eb23123d5e04874f6152f550bba1915966a4d.json",
+      "sha256": "7469f68fd53747e8fd1b7fbd893eb23123d5e04874f6152f550bba1915966a4d",
+      "bytes": 53627,
+      "role": "merge-adjudicator",
+      "program_version": "1.5.25",
+      "model": "native Codex, gpt-6.1-sol observed current session"
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "Preserve actual model/column/condition/merged-cell ownership. Do not confuse assembly height with insulation height, shift flange headings, or erase printed values with empty duplicate observations. Exact source-bound examples are retained in the artifact."
+}

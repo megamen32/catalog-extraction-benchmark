@@ -1,0 +1,682 @@
+{
+  "schema": "source-bound-merge-error/1",
+  "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+  "physical_page": 157,
+  "input_packet_sha256": "8f93de456c2a0dfe78f06c23a13f2428f96ee1b569a6565e55a5164224b2f440",
+  "owner_work_sha256": "f41998e9910b37ec2c1fb7e392f8fb92292f2f15705159e621d89ed607681f0d",
+  "merge_program_version": "1.5.25",
+  "actual_owner": "Codex",
+  "review_model_observed_current_native_session": "gpt-6.1-sol",
+  "source_evidence": [
+    {
+      "bbox": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "observation": "Codex лично просмотрел исходную страницу157 в overview157–162 и сверил исходные факты. Это рабочее сведение одного исполнителя, независимаяфинальнаяпроверка позднее."
+    },
+    {
+      "bbox": [
+        0.045,
+        0.45,
+        0.97,
+        0.94
+      ],
+      "observation": "Лично увеличены ОБЕ таблицы, проверены вертикальные заголовки, минимумы/сноски/масса±10%, верхний и нижний фланцы и объединённые ячейки. D/d1/B/B1 различаются; Рис. только там где реально напечатан."
+    }
+  ],
+  "groups": [
+    {
+      "decision": {
+        "fact_indices": [
+          14,
+          40
+        ],
+        "relation": "same_fact",
+        "keep": "ours",
+        "reason": "Реальная ошибка заголовков Олега: на157нет колонки Рис.; восемь значений140/M12/99/- и-/18/160/200 сдвинуты наодин заголовок. Сохраняю нашу правильную привязку D,d1,B,B1 отдельно верхнего/нижнего фланца; альтернативные исходные записи сохранены.",
+        "evidence_refs": [
+          0,
+          1
+        ]
+      },
+      "original_facts": [
+        {
+          "fact_id": "L-936ffb5c10ddf39e3a8e953e",
+          "side": "oleg",
+          "catalog": "isolators",
+          "kind": "model_parameter",
+          "pointer": "characteristics.jsonl:62364/raw",
+          "owner": "ИОС-20-2000 УХЛ 1",
+          "name": "Рис.",
+          "value": "140",
+          "unit": "",
+          "condition": "Верхний фланец",
+          "physical_pages": [
+            157
+          ],
+          "input_fact_sha256": "805bdd77c05e47a6bd6b30416b69979d8621bb093c8547a0797b4c04b76a41c4",
+          "input_line": 71739,
+          "raw_context": "raw-e1bbf87f5efef0128785eaf0b108bbddf51d03542745486ab4225e358e0cf004",
+          "metadata": {
+            "raw_value_type": "str",
+            "observation_id": "C-85acd9e37e68b1a721a7cf0a",
+            "window_id": "W-131965478f27378837e6fe91",
+            "group_id": "G-6fc2cc12a618eedff97a0ed8",
+            "product_id": "P-7b99e88374dec231f31f2607",
+            "group_title": "Изоляторы опорные стержневые фарфоровые типа ИОС-20",
+            "raw_value_present": true
+          }
+        },
+        {
+          "fact_id": "O-f6a349574365be57a0a275ce",
+          "side": "ours",
+          "catalog": "isolators",
+          "kind": "model_parameter",
+          "pointer": "/catalogs/1/pages/156/content/tables/1/rows/0/cells/1",
+          "owner": "ИОС-20-2000 УХЛ 1",
+          "name": "D",
+          "value": "140",
+          "unit": null,
+          "condition": null,
+          "physical_pages": [
+            157
+          ],
+          "input_fact_sha256": "402b70f21076d8ca10f96b68a6904b1fa84034669d126b9ae836215defa3f8dd",
+          "input_line": 114520,
+          "row_context": "row-a7549596cb1213c5c95c4948b465f68933fcdd3cb92e403eb52dfc804ea09ac2",
+          "raw_context": "raw-632632ab017d79160755be9509208db7c27f729167f9a65c3b82225b3e106be3",
+          "metadata": {
+            "raw_value_type": "str",
+            "table_index": 1,
+            "row_index": 0,
+            "column_index": 1,
+            "table_title": "Присоединительные размеры изоляторов",
+            "column": {
+              "id": "d2",
+              "label": "D",
+              "unit": null,
+              "group": "Верхний фланец",
+              "qualifier": null
+            },
+            "owner_column_index": 0,
+            "owner_scope": "",
+            "candidate_sha256": "fef1bf403fafb11f09325dd6f144c8cd0c2abf4ee29e9a7f88bab4ac1c612ec0",
+            "previously_accepted": true
+          }
+        }
+      ]
+    },
+    {
+      "decision": {
+        "fact_indices": [
+          15,
+          41
+        ],
+        "relation": "same_fact",
+        "keep": "ours",
+        "reason": "Реальная ошибка заголовков Олега: на157нет колонки Рис.; восемь значений140/M12/99/- и-/18/160/200 сдвинуты наодин заголовок. Сохраняю нашу правильную привязку D,d1,B,B1 отдельно верхнего/нижнего фланца; альтернативные исходные записи сохранены.",
+        "evidence_refs": [
+          0,
+          1
+        ]
+      },
+      "original_facts": [
+        {
+          "fact_id": "L-a0680c5a6545a098daaa6e70",
+          "side": "oleg",
+          "catalog": "isolators",
+          "kind": "model_parameter",
+          "pointer": "characteristics.jsonl:62365/raw",
+          "owner": "ИОС-20-2000 УХЛ 1",
+          "name": "D",
+          "value": "M12",
+          "unit": "",
+          "condition": "Верхний фланец",
+          "physical_pages": [
+            157
+          ],
+          "input_fact_sha256": "d0e312facb2c5af2fca6ed9a2454a4be647a1b66d6b9fa1577b567672db7054a",
+          "input_line": 71740,
+          "raw_context": "raw-1b9cbfb97bfbec4132ade16c619c35e7d1feb51e58310bf180bd55b818ca3845",
+          "metadata": {
+            "raw_value_type": "str",
+            "observation_id": "C-ec37f53a63ff87b4316da60a",
+            "window_id": "W-131965478f27378837e6fe91",
+            "group_id": "G-6fc2cc12a618eedff97a0ed8",
+            "product_id": "P-7b99e88374dec231f31f2607",
+            "group_title": "Изоляторы опорные стержневые фарфоровые типа ИОС-20",
+            "raw_value_present": true
+          }
+        },
+        {
+          "fact_id": "O-b0735aadf6b7d05472c7888e",
+          "side": "ours",
+          "catalog": "isolators",
+          "kind": "model_parameter",
+          "pointer": "/catalogs/1/pages/156/content/tables/1/rows/0/cells/2",
+          "owner": "ИОС-20-2000 УХЛ 1",
+          "name": "d1",
+          "value": "M12",
+          "unit": null,
+          "condition": null,
+          "physical_pages": [
+            157
+          ],
+          "input_fact_sha256": "4795c92b2646fcc551d3a5476502c0b37a984ae977a8d6a67d7c3c7a3c84320a",
+          "input_line": 114521,
+          "row_context": "row-a7549596cb1213c5c95c4948b465f68933fcdd3cb92e403eb52dfc804ea09ac2",
+          "raw_context": "raw-4d6f7474348ef7bbddf8bf9fd7077d7809fff0394c321d29e187b80c34c87fe1",
+          "metadata": {
+            "raw_value_type": "str",
+            "table_index": 1,
+            "row_index": 0,
+            "column_index": 2,
+            "table_title": "Присоединительные размеры изоляторов",
+            "column": {
+              "id": "d3",
+              "label": "d1",
+              "unit": null,
+              "group": "Верхний фланец",
+              "qualifier": null
+            },
+            "owner_column_index": 0,
+            "owner_scope": "",
+            "candidate_sha256": "fef1bf403fafb11f09325dd6f144c8cd0c2abf4ee29e9a7f88bab4ac1c612ec0",
+            "previously_accepted": true
+          }
+        }
+      ]
+    },
+    {
+      "decision": {
+        "fact_indices": [
+          16,
+          42
+        ],
+        "relation": "same_fact",
+        "keep": "ours",
+        "reason": "Реальная ошибка заголовков Олега: на157нет колонки Рис.; восемь значений140/M12/99/- и-/18/160/200 сдвинуты наодин заголовок. Сохраняю нашу правильную привязку D,d1,B,B1 отдельно верхнего/нижнего фланца; альтернативные исходные записи сохранены.",
+        "evidence_refs": [
+          0,
+          1
+        ]
+      },
+      "original_facts": [
+        {
+          "fact_id": "L-fd4729ec313f06dd67414e56",
+          "side": "oleg",
+          "catalog": "isolators",
+          "kind": "model_parameter",
+          "pointer": "characteristics.jsonl:62366/raw",
+          "owner": "ИОС-20-2000 УХЛ 1",
+          "name": "d1",
+          "value": "99",
+          "unit": "",
+          "condition": "Верхний фланец",
+          "physical_pages": [
+            157
+          ],
+          "input_fact_sha256": "764f7518765fd3c94242f88aa243b972fa356cc18122e7e231ae0ec18f5b50ba",
+          "input_line": 71741,
+          "raw_context": "raw-b15b596a5d4332044635066f297c2482b7097ad9397c7a7dc4329cdf788e3ed6",
+          "metadata": {
+            "raw_value_type": "str",
+            "observation_id": "C-6ca89eb4d8d42f4fdb08211a",
+            "window_id": "W-131965478f27378837e6fe91",
+            "group_id": "G-6fc2cc12a618eedff97a0ed8",
+            "product_id": "P-7b99e88374dec231f31f2607",
+            "group_title": "Изоляторы опорные стержневые фарфоровые типа ИОС-20",
+            "raw_value_present": true
+          }
+        },
+        {
+          "fact_id": "O-2b4ceca26cc4080e84e60450",
+          "side": "ours",
+          "catalog": "isolators",
+          "kind": "model_parameter",
+          "pointer": "/catalogs/1/pages/156/content/tables/1/rows/0/cells/3",
+          "owner": "ИОС-20-2000 УХЛ 1",
+          "name": "B",
+          "value": "99",
+          "unit": null,
+          "condition": null,
+          "physical_pages": [
+            157
+          ],
+          "input_fact_sha256": "469d15455a48ccf7f6cd82b111147e428f09d7142155ef1068feeaf73395ac5c",
+          "input_line": 114522,
+          "row_context": "row-a7549596cb1213c5c95c4948b465f68933fcdd3cb92e403eb52dfc804ea09ac2",
+          "raw_context": "raw-f5d9da8d8adee540a6842e4f76ab6cd8288576f7fe30d630c8bc0888060a9e5b",
+          "metadata": {
+            "raw_value_type": "str",
+            "table_index": 1,
+            "row_index": 0,
+            "column_index": 3,
+            "table_title": "Присоединительные размеры изоляторов",
+            "column": {
+              "id": "d4",
+              "label": "B",
+              "unit": null,
+              "group": "Верхний фланец",
+              "qualifier": null
+            },
+            "owner_column_index": 0,
+            "owner_scope": "",
+            "candidate_sha256": "fef1bf403fafb11f09325dd6f144c8cd0c2abf4ee29e9a7f88bab4ac1c612ec0",
+            "previously_accepted": true
+          }
+        }
+      ]
+    },
+    {
+      "decision": {
+        "fact_indices": [
+          17,
+          43
+        ],
+        "relation": "same_fact",
+        "keep": "ours",
+        "reason": "Реальная ошибка заголовков Олега: на157нет колонки Рис.; восемь значений140/M12/99/- и-/18/160/200 сдвинуты наодин заголовок. Сохраняю нашу правильную привязку D,d1,B,B1 отдельно верхнего/нижнего фланца; альтернативные исходные записи сохранены.",
+        "evidence_refs": [
+          0,
+          1
+        ]
+      },
+      "original_facts": [
+        {
+          "fact_id": "L-7c0f22433dbfea740e7b075c",
+          "side": "oleg",
+          "catalog": "isolators",
+          "kind": "model_parameter",
+          "pointer": "characteristics.jsonl:62367/raw",
+          "owner": "ИОС-20-2000 УХЛ 1",
+          "name": "B",
+          "value": "-",
+          "unit": "",
+          "condition": "Верхний фланец",
+          "physical_pages": [
+            157
+          ],
+          "input_fact_sha256": "0e0af28ba02230408f611dec02921086c0f658f70566082ad66354fa13b4374c",
+          "input_line": 71742,
+          "raw_context": "raw-14a4072690956338518db5bf3db7486e0e7d3f5176d939f78fed1c7c8bea26af",
+          "metadata": {
+            "raw_value_type": "str",
+            "observation_id": "C-58fa8452b72e58e637f17285",
+            "window_id": "W-131965478f27378837e6fe91",
+            "group_id": "G-6fc2cc12a618eedff97a0ed8",
+            "product_id": "P-7b99e88374dec231f31f2607",
+            "group_title": "Изоляторы опорные стержневые фарфоровые типа ИОС-20",
+            "raw_value_present": true
+          }
+        },
+        {
+          "fact_id": "O-03795d0c35e628774fa44ddb",
+          "side": "ours",
+          "catalog": "isolators",
+          "kind": "model_parameter",
+          "pointer": "/catalogs/1/pages/156/content/tables/1/rows/0/cells/4",
+          "owner": "ИОС-20-2000 УХЛ 1",
+          "name": "B1",
+          "value": "-",
+          "unit": null,
+          "condition": null,
+          "physical_pages": [
+            157
+          ],
+          "input_fact_sha256": "820dd6b6d85a0e43f52f710a0920d2e5ea60679e90a5ffbdcdba99dfeba33eda",
+          "input_line": 114523,
+          "row_context": "row-a7549596cb1213c5c95c4948b465f68933fcdd3cb92e403eb52dfc804ea09ac2",
+          "raw_context": "raw-bb02e2b66f0d51249ecf5acedcd38b0a69b87cd8504b45864c9483a110123a05",
+          "metadata": {
+            "raw_value_type": "str",
+            "table_index": 1,
+            "row_index": 0,
+            "column_index": 4,
+            "table_title": "Присоединительные размеры изоляторов",
+            "column": {
+              "id": "d5",
+              "label": "B1",
+              "unit": null,
+              "group": "Верхний фланец",
+              "qualifier": null
+            },
+            "owner_column_index": 0,
+            "owner_scope": "",
+            "candidate_sha256": "fef1bf403fafb11f09325dd6f144c8cd0c2abf4ee29e9a7f88bab4ac1c612ec0",
+            "previously_accepted": true
+          }
+        }
+      ]
+    },
+    {
+      "decision": {
+        "fact_indices": [
+          18,
+          44
+        ],
+        "relation": "same_fact",
+        "keep": "ours",
+        "reason": "Реальная ошибка заголовков Олега: на157нет колонки Рис.; восемь значений140/M12/99/- и-/18/160/200 сдвинуты наодин заголовок. Сохраняю нашу правильную привязку D,d1,B,B1 отдельно верхнего/нижнего фланца; альтернативные исходные записи сохранены.",
+        "evidence_refs": [
+          0,
+          1
+        ]
+      },
+      "original_facts": [
+        {
+          "fact_id": "L-0474f4ed25c31fc56741734a",
+          "side": "oleg",
+          "catalog": "isolators",
+          "kind": "model_parameter",
+          "pointer": "characteristics.jsonl:62368/raw",
+          "owner": "ИОС-20-2000 УХЛ 1",
+          "name": "Рис.",
+          "value": "-",
+          "unit": "",
+          "condition": "Нижний фланец",
+          "physical_pages": [
+            157
+          ],
+          "input_fact_sha256": "94a3376dc61eadde167f888135490b8d83f7c9e65955bb9647cf3e4e55449987",
+          "input_line": 71743,
+          "raw_context": "raw-01327b46b1379a3dfe060b10102dd221d7c0e0591a7272178c02264a332cff90",
+          "metadata": {
+            "raw_value_type": "str",
+            "observation_id": "C-4734db0b62836eaf313e9e58",
+            "window_id": "W-131965478f27378837e6fe91",
+            "group_id": "G-6fc2cc12a618eedff97a0ed8",
+            "product_id": "P-7b99e88374dec231f31f2607",
+            "group_title": "Изоляторы опорные стержневые фарфоровые типа ИОС-20",
+            "raw_value_present": true
+          }
+        },
+        {
+          "fact_id": "O-bcd80dee81db42adf695dc10",
+          "side": "ours",
+          "catalog": "isolators",
+          "kind": "model_parameter",
+          "pointer": "/catalogs/1/pages/156/content/tables/1/rows/0/cells/5",
+          "owner": "ИОС-20-2000 УХЛ 1",
+          "name": "D",
+          "value": "-",
+          "unit": null,
+          "condition": null,
+          "physical_pages": [
+            157
+          ],
+          "input_fact_sha256": "378d16dcc0baaa10d372c931c0182930b0ba8f049f96e7d008bb2be5bfac64f3",
+          "input_line": 114524,
+          "row_context": "row-a7549596cb1213c5c95c4948b465f68933fcdd3cb92e403eb52dfc804ea09ac2",
+          "raw_context": "raw-f1893e24148b9df3e590ed8aea193db06f23bb70468df53b58d9b86164dab742",
+          "metadata": {
+            "raw_value_type": "str",
+            "table_index": 1,
+            "row_index": 0,
+            "column_index": 5,
+            "table_title": "Присоединительные размеры изоляторов",
+            "column": {
+              "id": "d6",
+              "label": "D",
+              "unit": null,
+              "group": "Нижний фланец",
+              "qualifier": null
+            },
+            "owner_column_index": 0,
+            "owner_scope": "",
+            "candidate_sha256": "fef1bf403fafb11f09325dd6f144c8cd0c2abf4ee29e9a7f88bab4ac1c612ec0",
+            "previously_accepted": true
+          }
+        }
+      ]
+    },
+    {
+      "decision": {
+        "fact_indices": [
+          19,
+          45
+        ],
+        "relation": "same_fact",
+        "keep": "ours",
+        "reason": "Реальная ошибка заголовков Олега: на157нет колонки Рис.; восемь значений140/M12/99/- и-/18/160/200 сдвинуты наодин заголовок. Сохраняю нашу правильную привязку D,d1,B,B1 отдельно верхнего/нижнего фланца; альтернативные исходные записи сохранены.",
+        "evidence_refs": [
+          0,
+          1
+        ]
+      },
+      "original_facts": [
+        {
+          "fact_id": "L-533e6a253588eade2d07c536",
+          "side": "oleg",
+          "catalog": "isolators",
+          "kind": "model_parameter",
+          "pointer": "characteristics.jsonl:62369/raw",
+          "owner": "ИОС-20-2000 УХЛ 1",
+          "name": "D",
+          "value": "18",
+          "unit": "",
+          "condition": "Нижний фланец",
+          "physical_pages": [
+            157
+          ],
+          "input_fact_sha256": "2921c644b9fb1b2ae48936bb6b028c7c3abfff32733a562d7c9618ec225c4bf5",
+          "input_line": 71744,
+          "raw_context": "raw-583c287c701194800ff53444c515394284d60dc19397166709256b22f222cb4d",
+          "metadata": {
+            "raw_value_type": "str",
+            "observation_id": "C-05a9bf9b11b9df8467d9fea8",
+            "window_id": "W-131965478f27378837e6fe91",
+            "group_id": "G-6fc2cc12a618eedff97a0ed8",
+            "product_id": "P-7b99e88374dec231f31f2607",
+            "group_title": "Изоляторы опорные стержневые фарфоровые типа ИОС-20",
+            "raw_value_present": true
+          }
+        },
+        {
+          "fact_id": "O-f6cc88eb282cac4f00e6a2e2",
+          "side": "ours",
+          "catalog": "isolators",
+          "kind": "model_parameter",
+          "pointer": "/catalogs/1/pages/156/content/tables/1/rows/0/cells/6",
+          "owner": "ИОС-20-2000 УХЛ 1",
+          "name": "d1",
+          "value": "18",
+          "unit": null,
+          "condition": null,
+          "physical_pages": [
+            157
+          ],
+          "input_fact_sha256": "3eac87b7e04e7ca066bb9f14c2677aa3267a8af27f2d721f6ebabdb0608ffcc8",
+          "input_line": 114525,
+          "row_context": "row-a7549596cb1213c5c95c4948b465f68933fcdd3cb92e403eb52dfc804ea09ac2",
+          "raw_context": "raw-9b74a630e0d3fe6aa2a096df5ff100d9700c6708282b8cc889dd014efc940bcc",
+          "metadata": {
+            "raw_value_type": "str",
+            "table_index": 1,
+            "row_index": 0,
+            "column_index": 6,
+            "table_title": "Присоединительные размеры изоляторов",
+            "column": {
+              "id": "d7",
+              "label": "d1",
+              "unit": null,
+              "group": "Нижний фланец",
+              "qualifier": null
+            },
+            "owner_column_index": 0,
+            "owner_scope": "",
+            "candidate_sha256": "fef1bf403fafb11f09325dd6f144c8cd0c2abf4ee29e9a7f88bab4ac1c612ec0",
+            "previously_accepted": true
+          }
+        }
+      ]
+    },
+    {
+      "decision": {
+        "fact_indices": [
+          20,
+          46
+        ],
+        "relation": "same_fact",
+        "keep": "ours",
+        "reason": "Реальная ошибка заголовков Олега: на157нет колонки Рис.; восемь значений140/M12/99/- и-/18/160/200 сдвинуты наодин заголовок. Сохраняю нашу правильную привязку D,d1,B,B1 отдельно верхнего/нижнего фланца; альтернативные исходные записи сохранены.",
+        "evidence_refs": [
+          0,
+          1
+        ]
+      },
+      "original_facts": [
+        {
+          "fact_id": "L-9b33ed50ac8cc6178bcbacb2",
+          "side": "oleg",
+          "catalog": "isolators",
+          "kind": "model_parameter",
+          "pointer": "characteristics.jsonl:62370/raw",
+          "owner": "ИОС-20-2000 УХЛ 1",
+          "name": "d1",
+          "value": "160",
+          "unit": "",
+          "condition": "Нижний фланец",
+          "physical_pages": [
+            157
+          ],
+          "input_fact_sha256": "092eb96c212aebea36d12e782fd0d78ded3ef66d4055c12deecd2bb24badd0c0",
+          "input_line": 71745,
+          "raw_context": "raw-6d247813fe516f67cb76b54eb8d639557c45f8d7315bfac7f06a620263f24481",
+          "metadata": {
+            "raw_value_type": "str",
+            "observation_id": "C-6a32de9b0314f751ccbc8ed0",
+            "window_id": "W-131965478f27378837e6fe91",
+            "group_id": "G-6fc2cc12a618eedff97a0ed8",
+            "product_id": "P-7b99e88374dec231f31f2607",
+            "group_title": "Изоляторы опорные стержневые фарфоровые типа ИОС-20",
+            "raw_value_present": true
+          }
+        },
+        {
+          "fact_id": "O-c2bb3205e6f9f821cb090e25",
+          "side": "ours",
+          "catalog": "isolators",
+          "kind": "model_parameter",
+          "pointer": "/catalogs/1/pages/156/content/tables/1/rows/0/cells/7",
+          "owner": "ИОС-20-2000 УХЛ 1",
+          "name": "B",
+          "value": "160",
+          "unit": null,
+          "condition": null,
+          "physical_pages": [
+            157
+          ],
+          "input_fact_sha256": "d3b9dc06e38d7f6de1b3c03d7de236661b56086a13fdf195e258aec49afb64e8",
+          "input_line": 114526,
+          "row_context": "row-a7549596cb1213c5c95c4948b465f68933fcdd3cb92e403eb52dfc804ea09ac2",
+          "raw_context": "raw-108d30633b8a01c8107d43ab97a573339a36393ae7d6c46b8b040b54a7539674",
+          "metadata": {
+            "raw_value_type": "str",
+            "table_index": 1,
+            "row_index": 0,
+            "column_index": 7,
+            "table_title": "Присоединительные размеры изоляторов",
+            "column": {
+              "id": "d8",
+              "label": "B",
+              "unit": null,
+              "group": "Нижний фланец",
+              "qualifier": null
+            },
+            "owner_column_index": 0,
+            "owner_scope": "",
+            "candidate_sha256": "fef1bf403fafb11f09325dd6f144c8cd0c2abf4ee29e9a7f88bab4ac1c612ec0",
+            "previously_accepted": true
+          }
+        }
+      ]
+    },
+    {
+      "decision": {
+        "fact_indices": [
+          21,
+          47
+        ],
+        "relation": "same_fact",
+        "keep": "ours",
+        "reason": "Реальная ошибка заголовков Олега: на157нет колонки Рис.; восемь значений140/M12/99/- и-/18/160/200 сдвинуты наодин заголовок. Сохраняю нашу правильную привязку D,d1,B,B1 отдельно верхнего/нижнего фланца; альтернативные исходные записи сохранены.",
+        "evidence_refs": [
+          0,
+          1
+        ]
+      },
+      "original_facts": [
+        {
+          "fact_id": "L-e96e697b185facc2a57d5e7f",
+          "side": "oleg",
+          "catalog": "isolators",
+          "kind": "model_parameter",
+          "pointer": "characteristics.jsonl:62371/raw",
+          "owner": "ИОС-20-2000 УХЛ 1",
+          "name": "B",
+          "value": "200",
+          "unit": "",
+          "condition": "Нижний фланец",
+          "physical_pages": [
+            157
+          ],
+          "input_fact_sha256": "3270540d61dc2666a2bb8b586e65c984644cfc2ca2ed14e30b14df5a74578f59",
+          "input_line": 71746,
+          "raw_context": "raw-54c0ad3bbeeff69c1c59659755d58b363fbeee23af4511dbf56148b8f2a23d8c",
+          "metadata": {
+            "raw_value_type": "str",
+            "observation_id": "C-0b0cb0cbbe51963b778bcc9c",
+            "window_id": "W-131965478f27378837e6fe91",
+            "group_id": "G-6fc2cc12a618eedff97a0ed8",
+            "product_id": "P-7b99e88374dec231f31f2607",
+            "group_title": "Изоляторы опорные стержневые фарфоровые типа ИОС-20",
+            "raw_value_present": true
+          }
+        },
+        {
+          "fact_id": "O-51ea92c4192b8b55fa6e1531",
+          "side": "ours",
+          "catalog": "isolators",
+          "kind": "model_parameter",
+          "pointer": "/catalogs/1/pages/156/content/tables/1/rows/0/cells/8",
+          "owner": "ИОС-20-2000 УХЛ 1",
+          "name": "B1",
+          "value": "200",
+          "unit": null,
+          "condition": null,
+          "physical_pages": [
+            157
+          ],
+          "input_fact_sha256": "b24a103575e2645087e7c2ead2e11cdb21b74d8a8332b6545b348d07776b1585",
+          "input_line": 114527,
+          "row_context": "row-a7549596cb1213c5c95c4948b465f68933fcdd3cb92e403eb52dfc804ea09ac2",
+          "raw_context": "raw-26f87eedcfa12322e300d2a600ad0b23eb0e864c333d8b601ec4b6d5d8e79e46",
+          "metadata": {
+            "raw_value_type": "str",
+            "table_index": 1,
+            "row_index": 0,
+            "column_index": 8,
+            "table_title": "Присоединительные размеры изоляторов",
+            "column": {
+              "id": "d9",
+              "label": "B1",
+              "unit": null,
+              "group": "Нижний фланец",
+              "qualifier": null
+            },
+            "owner_column_index": 0,
+            "owner_scope": "",
+            "candidate_sha256": "fef1bf403fafb11f09325dd6f144c8cd0c2abf4ee29e9a7f88bab4ac1c612ec0",
+            "previously_accepted": true
+          }
+        }
+      ]
+    }
+  ],
+  "gold_not_yet_adjudicated": true,
+  "original_input_values_not_rewritten": true
+}
