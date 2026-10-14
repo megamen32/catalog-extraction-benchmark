@@ -1,0 +1,36 @@
+{
+  "id": "innov151-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 151: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 151
+  },
+  "review_basis": "[\"Полный лист и собственные 6× кропы просмотрены; все 52 ячейки верны.\", \"Строка позиции 4 не является самостоятельной пустой технической характеристикой; это общая описательная строка.\", \"На фото не доказаны пружинный механизм и материал троса.\"] Исправления: [\"Уточнены видимые детали фото, владельцы H/100/216/D и смысл общей строки 4.\", \"Bbox доказательства охватывает все перечисленные признаки. Численные таблицы сохранены.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/cf4d67955f25592d9cd24f9097e7941890868abe4d7da93fa84eecf1db6d9860.json",
+      "sha256": "cf4d67955f25592d9cd24f9097e7941890868abe4d7da93fa84eecf1db6d9860",
+      "bytes": 22814,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/f00726a93824cce497197c1e8fbbb77652f2f9614153d4ec1b6f55bf88d99890.json",
+      "sha256": "f00726a93824cce497197c1e8fbbb77652f2f9614153d4ec1b6f55bf88d99890",
+      "bytes": 18215,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-innovations-20261014.r3"
+    },
+    {
+      "path": "objects/939e84ca110c044b16cf0d194514e0c83196e54b5b3162f71a68f8fdb8ff0092.json",
+      "sha256": "939e84ca110c044b16cf0d194514e0c83196e54b5b3162f71a68f8fdb8ff0092",
+      "bytes": 18226,
+      "role": "source-review",
+      "program_version": "tail-mod3-innovations-20261014.r3"
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 135,
+  "printed_page": null,
+  "status": "awaiting_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod3",
+    "task": "/root/catalog_tail_mod3",
+    "version": "tail-mod3-innovations-20261014.r3",
+    "model_id": "Current native Codex worker session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "innovations-135-candidate.json",
+    "sha256": "ba831fbd19a5ebe66d7b59ba39da6cfd75e70d7e33c0595c454ddd96806809d8",
+    "canonical_sha256": "532320e5428fdb2b77a34b344a0b0fdcc50b72b4e0a243c8f9a5580a0dd41463",
+    "producer": {
+      "program": {
+        "package_version": "1.5.4",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "03d94c1397ffd39d50a89db0b4d9ae29d17f13e5293b2fcbda6e8b4ec34d8c0c",
+        "python_version": "3.12.13"
+      },
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 135,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4d5faa2b87b39793b899bfd40ccb8b7b4ff5223f5cfe2aed7fb1c9e3580c2e6b",
+      "artifact_sha256": "ba831fbd19a5ebe66d7b59ba39da6cfd75e70d7e33c0595c454ddd96806809d8",
+      "started_at": 1791941073.565668,
+      "finished_at": 1791941123.4182527,
+      "provider_rate_limit_events": 0,
+      "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46",
+      "status": "receipt_verified",
+      "source_bound_save": true,
+      "receipt": ".tmp/full-digitization/staged-best-v1.4.8/innovations/page-0135/calls/6b7096e3691141e08ab02fc351fe4274/result.json",
+      "frozen_receipt": "innovations-135-native-receipt.json",
+      "frozen_receipt_sha256": "def19a2df49254b03380e15f85c85578093897f6a57841e801e1df06fb78a09b"
+    }
+  },
+  "output": {
+    "file": "innovations-135-reviewed.json",
+    "sha256": "3cb8c93be06bd26dc2e26200a2e4612e4200023bc24ff3c94c9db8af431c6f84",
+    "canonical_sha256": "e5fb17383ebe5e403828db594226e124598ad3347cf195d220a888b1bcefefe2"
+  },
+  "full_original_image_review": true,
+  "original_image": "innovations-135.png",
+  "original_image_sha256": "d7bb562653e9f68ba768de0f23687398728853b9b4ef6b3e282776471098c937",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "page_content_schema": true
+  },
+  "tables": {
+    "row_counts": [],
+    "column_counts": [],
+    "cells_checked": 0
+  },
+  "source_findings": [
+    "Весь лист просмотрен, таблиц нет.",
+    "Native использовал неподписанный термин «сцепная изоляция» и представлял фото как цепи на горизонтальных траверсах, тогда как видны три присоединённые гирлянды."
+  ],
+  "corrections": [
+    "Исправлены описания фото по видимому содержимому без выдуманных марок/материалов.",
+    "Полный bbox доказательства."
+  ],
+  "complete_leaf_diff": [
+    {
+      "path": ".figures[0].description",
+      "before": "Фотография: металлическая опора со стойкой и траверсами на фоне голубого неба; на траверсах подвешены цепи подвесных изоляторов, соединённые проводом. Иллюстрация назначения раздела.",
+      "after": "На фоне синего неба видны три гирлянды дисковых изоляторов: одна слева и две параллельные справа вверху. Они присоединены к металлическим узлам, рядом проходят тёмные проводники. Марки конкретной арматуры и назначение отдельных деталей не подписаны."
+    },
+    {
+      "path": ".figures[0].title",
+      "before": "Сцепная изоляция провода на металлической опоре воздушной ЛЭП",
+      "after": "Гирлянды изоляторов и металлические узлы опоры"
+    },
+    {
+      "path": ".figures[1].description",
+      "before": "Фотография небольшого золотистого металлического изделия — серьги (D-образного звена) с болтом, гайками и шплинтом, размещённого между двумя светло-серыми наклонными декоративными линиями. Размерных обозначений и подписей нет.",
+      "after": "Золотистое D-образное звено с поперечным крепежом: видны шестигранные головки/гайки и тонкий стопорный конец. По краям два светлых контурных параллелограмма. Точная марка, материал покрытия и число гаек текстом не заданы."
+    },
+    {
+      "path": ".page_context.source_evidence",
+      "before": [
+        {
+          "kind": "supporting_material",
+          "box": [
+            0.34,
+            0.575,
+            0.66,
+            0.635
+          ],
+          "observation": "Единственный текстовый элемент страницы — заголовок раздела «АРМАТУРА СЦЕПНАЯ», набранный прописными буквами по центру ниже основной фотографии. Более мелких подписей, пояснений, таблиц и нумерации на странице нет; текстовый слой содержит ровно эти два слова.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "supporting_material",
+          "box": [
+            0.07,
+            0.0,
+            0.93,
+            0.44
+          ],
+          "observation": "Декоративная фотография на всю ширину верхней части листа: металлическая опора (стойка с траверсами) на фоне голубого неба, на траверсах подвешены цепи подвесных изоляторов, соединённые проводом. Фотография иллюстрирует назначение раздела (сцепная изоляция провода воздушной ЛЭП) и не содержит ни размеров, ни обозначений изделий.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "supporting_material",
+          "box": [
+            0.33,
+            0.72,
+            0.67,
+            0.85
+          ],
+          "observation": "Нижняя часть листа: фотография небольшого золотистого металлического изделия между двумя светло-серыми наклонными декоративными линиями. Изделие — серьга (D-образное звено) с болтом, гайками и шплинтом; служит образцом изделия раздела. Подписей, размерных линий и обозначений нет.",
+          "transcription": "literal"
+        }
+      ],
+      "after": [
+        {
+          "kind": "supporting_material",
+          "box": [
+            0.06,
+            0,
+            0.98,
+            0.995
+          ],
+          "observation": "Полный лист: верхняя фотография трёх гирлянд, заголовок «АРМАТУРА СЦЕПНАЯ», предметное изображение и два декоративных параллелограмма. Дополнительных подписей нет.",
+          "transcription": "literal"
+        }
+      ]
+    },
+    {
+      "path": ".page_context.summary",
+      "before": "Шмуцтитул (разделитель раздела) каталога: фотография сцепной изоляции на опоре воздушной линии электропередачи, заголовок раздела «АРМАТУРА СЦЕПНАЯ» и изображение одного элемента сцепной арматуры — серьги (D-образного звена) с болтом, гайкой и шплинтом. Страница не содержит ни таблиц, ни технических характеристик, ни марок, ни размеров; она лишь обозначает начало тематического раздела каталога о сцепной арматуре для проводов воздушных ЛЭП.",
+      "after": "Разделительный лист «Арматура сцепная». На верхней фотографии три гирлянды дисковых изоляторов и металлические узлы опоры. Внизу золотистое D-образное звено с поперечным крепежом. Марки, размеры, таблицы и печатный номер отсутствуют."
+    },
+    {
+      "path": ".source_notes[0]",
+      "before": "Страница является шмуцтитулом (разделителем раздела): собственных технических данных, марок, единиц и размеров на ней нет — номера колонтитула также отсутствует.",
+      "after": "Страница — разделитель «Арматура сцепная»: таблиц, технических единиц, марок и номера колонтитула нет. Термин «сцепная изоляция» в исходнике не напечатан."
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independent_review_required": true,
+  "unresolved_issues": [],
+  "acceptance_note": "No PASS issued. Corrected content, engineering drawing relations, and uncertainties require independent source review.",
+  "completed_at": "2026-10-14T16:39:00.684577+03:00",
+  "private_original_receipt_sha256": "9747c94982fcd0f9ff0c48e24baf3a987632b13fd96c2c70e48c9f44de7ba842"
+}

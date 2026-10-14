@@ -1,0 +1,36 @@
+{
+  "id": "innov196-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 196: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 196
+  },
+  "review_basis": "[\"Полный оригинал просмотрен: это supporting_material, а не инженерный чертёж. Таблиц и числовых технических параметров нет.\", \"Проверены заголовок, регистр марок АСКу/АСк2у, оба логотипа, страница 196 и полные контакты ООО «МЗВА». Фотография сверена по видимой форме опор; материал проводов и их марки не выводились из вида.\"] Исправления: [\"Ошибочное описание попарных Г-образных кронштейнов заменено видимыми раздвоенными верхними частями и траверсами опор.\", \"Убрано неподтверждённое отождествление проводов на фотографии с конкретными марками заголовка. Исправлена заметка, объявлявшая все буквы заголовка прописными.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/6e2ccf88be5dcd43187dd63cbe9e6f379d881dea85add4fc2f04b1da0cb2b021.json",
+      "sha256": "6e2ccf88be5dcd43187dd63cbe9e6f379d881dea85add4fc2f04b1da0cb2b021",
+      "bytes": 5912,
+      "role": "native-candidate",
+      "program_version": "1.5.21"
+    },
+    {
+      "path": "objects/e75a37d62e730f372bc0edb91704fa931b61b45ba124ecc20e936a7d027e856d.json",
+      "sha256": "e75a37d62e730f372bc0edb91704fa931b61b45ba124ecc20e936a7d027e856d",
+      "bytes": 5216,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r1"
+    },
+    {
+      "path": "objects/16ba3555657dda2c34523e3a0631c9a52f0081f7d08f910596ee4ea5111db63b.json",
+      "sha256": "16ba3555657dda2c34523e3a0631c9a52f0081f7d08f910596ee4ea5111db63b",
+      "bytes": 3747,
+      "role": "source-review",
+      "program_version": "tail-mod0-20261014.r1"
+    }
+  ]
+}

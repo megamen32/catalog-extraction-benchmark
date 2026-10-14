@@ -1,0 +1,36 @@
+{
+  "id": "arm42-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 42: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 42
+  },
+  "review_basis": "[\"Все18 ячеек сверены, включая шесть длинных сопрягаемых марок первой строки и три второй, нагрузки60/105.\", \"Номер ТУ3449-001-52814896-2010 имеет14896, не подменён19896; режим удержания при обрыве одной цепи сохранён.\"] Исправления: [\"480 исправлено с нижнего края/центрального отверстия на два закруглённых конца продолговатых пазов.\", \"B/b связаны с двухпластинным пакетом и толщиной одной пластины, d — с болтом.\", \"Пояснения и описания записаны с нормальными пробелами; буквальные маркировки и табличные поля сохранены.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/3a94bca03560b9b4fbb13661b5cf2a2d33d83ef5f973c3ea7ac15e12ee3d9a7b.json",
+      "sha256": "3a94bca03560b9b4fbb13661b5cf2a2d33d83ef5f973c3ea7ac15e12ee3d9a7b",
+      "bytes": 13157,
+      "role": "native-candidate",
+      "program_version": "1.5.3"
+    },
+    {
+      "path": "objects/5eac78a57ad9f8b121eb96e691b80a8a2b8881b00cdf95415da942464f6f8625.json",
+      "sha256": "5eac78a57ad9f8b121eb96e691b80a8a2b8881b00cdf95415da942464f6f8625",
+      "bytes": 10895,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r2"
+    },
+    {
+      "path": "objects/d4de0c54e3d969bd40f3629fce1073b0b85fbdae724745565d9fd71e3b765a97.json",
+      "sha256": "d4de0c54e3d969bd40f3629fce1073b0b85fbdae724745565d9fd71e3b765a97",
+      "bytes": 3738,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r2"
+    }
+  ]
+}

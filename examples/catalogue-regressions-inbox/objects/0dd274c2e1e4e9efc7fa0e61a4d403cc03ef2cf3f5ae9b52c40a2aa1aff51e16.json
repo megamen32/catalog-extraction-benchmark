@@ -1,0 +1,86 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 200,
+  "printed_page": "200",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r2"
+  },
+  "basis_candidate": {
+    "file": "innovations-0200-native-candidate.json",
+    "sha256": "6c8d84a9fe2f76b41f8d0e8008688f80d1f376e2670fde731188d8eabf834b5b",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.19",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "4dd002a27b4242bf9afd3391e54e404aef0ec7a81a5606e51be336747baa0775",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "6c8d84a9fe2f76b41f8d0e8008688f80d1f376e2670fde731188d8eabf834b5b",
+      "source_bound_save": true,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 200,
+      "attempt": 3,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "fec64c63bd31c2ddcf566856f3fee9b2747c113ce7d62e2928fe46211be57dd5",
+      "receipt": "calls/e0fb15cd62f941f5b3b4881bfe574c8e/result.json",
+      "started_at": 1791967169.3487425,
+      "finished_at": 1791967384.2482817
+    }
+  },
+  "output": {
+    "file": "innovations-0200-reviewed-r2.json",
+    "sha256": "14b7198fa0eebdaa7588f12b7560d3d328c6dede1eebed3b5901f6cdb434011f"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "29dd5efcfb5dc09a40be1a683bb81c513dac1a0899deab4c36a93cda6f5bda5a",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [],
+    "column_counts": [],
+    "cells_checked": 0
+  },
+  "source_findings": [
+    "Предыдущая полная исходная сверка сохранена в supersedes_source_review. Повторно просмотрены увеличенные оригинальные фрагменты и исправлены только перечисленные принадлежности; все таблицы побайтно равны прежним проверенным таблицам.",
+    "Нижняя база 166 на рис.3 отнесена к наружной касательной протектора, расположенной ниже самого провода. Исправлены summary, описание рис.3 и общая заметка. Рис.4/5 сохранены: там базой является провод."
+  ],
+  "corrections": [
+    "Нижняя база 166 на рис.3 отнесена к наружной касательной протектора, расположенной ниже самого провода. Исправлены summary, описание рис.3 и общая заметка. Рис.4/5 сохранены: там базой является провод."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T14:39:19.285934+00:00",
+  "previous_reviewed_output": {
+    "file": "innovations-0200-reviewed.json",
+    "sha256": "19da02fc1f1d5a971b90419b12b0b2f5b7a17ddde904e9d34ae2a50f662d203c"
+  },
+  "supersedes_source_review": {
+    "file": "innovations-0200-source-review.json",
+    "sha256": "3a66869b84522e4c33305979700298d36527b6329307480c789baea0414ebc99"
+  },
+  "additional_original_images": [
+    {
+      "file": "innovations-200-first.png",
+      "sha256": "7bf24f5e37d55b0b13c27a1a0591898ccc7fee49a2fcbb50bbd5f3ffe79ad70d"
+    }
+  ],
+  "private_original_receipt_sha256": "59713966b2b5fb1aceb21c92ba84b22e78d5ffc294af42e9aba20bf1b6cf92a5"
+}

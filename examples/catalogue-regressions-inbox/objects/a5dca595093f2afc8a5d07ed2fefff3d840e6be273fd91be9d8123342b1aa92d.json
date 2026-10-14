@@ -1,0 +1,83 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 90,
+  "printed_page": "89",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r2",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "2ee2ed3e0286ceb40d0bb900c0b0a195fbee73b3a1294ac1a3a67fa60fe8d8a1",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.4",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "03d94c1397ffd39d50a89db0b4d9ae29d17f13e5293b2fcbda6e8b4ec34d8c0c",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "2ee2ed3e0286ceb40d0bb900c0b0a195fbee73b3a1294ac1a3a67fa60fe8d8a1",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 90,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4d5faa2b87b39793b899bfd40ccb8b7b4ff5223f5cfe2aed7fb1c9e3580c2e6b",
+      "receipt": "calls/e59f89a314ec46bc99d9fdc4c46b8f3c/result.json",
+      "started_at": 1791941297.8908699,
+      "finished_at": 1791941411.849789
+    }
+  },
+  "output": {
+    "file": "armature-90-reviewed-r2.json",
+    "sha256": "05e07035e665cf5d738aaa1eb8ef534ebcb6a4411935e93adf842d0ab6596ecb"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "f0c934185be289a3a7e9bb689a15cf622fc75b64ead2e0bf2354ebad7e56927e",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      26
+    ],
+    "column_counts": [
+      6
+    ],
+    "cells_checked": 156
+  },
+  "source_findings": [
+    "Сверены156 ячеек26×6, включая необычное АС50/80 в первых двух строках, все сноски к изоляторам, четыре цвета и18 штук в упаковке.",
+    "Сохранена буквальная запись ВСн в абзаце и строковые lll текстового слоя с пояснением вида III; наименования -П не заменены похожей буквой.",
+    "Свежий собственный6× footer и get_text физической90 подтверждают zakaz@mzva.ru; замечание менять его на info ошибочно, контакт сохранён."
+  ],
+  "corrections": [
+    "Удалены две ложные товарные строки: повторная шапка и сноска. Все26 реальных позиций, их совместимости и18 штук в упаковке сохранены.",
+    "Рисунки1/4 описаны как отдельные спиральные зажимы, а не волнистые провода на изоляторе; двойное крепление не сведено к двум зажимам.",
+    "Убрано выдуманное определение горизонтальной условной полосы как штыря/траверсы и исправлен бренд ЧЭМЗ.",
+    "Шаблон марки восстановлен по текстовому слою как ПВС_ _/_ _ с одним разделителем /; рубрика перенесена в text_blocks."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T16:26:15.788010+03:00",
+  "revision": "r2",
+  "prior_output": {
+    "file": "armature-90-reviewed.json",
+    "sha256": "d8363d1a29b66eddc4874bcb52535f5a1b13b8b40f0a00ba85a09f2e9b8f4115"
+  },
+  "private_original_receipt_sha256": "715f2de1ccf6466b708b3e660f94ec8beb6f919ad4100a973e21dfc1c3c9a78e"
+}

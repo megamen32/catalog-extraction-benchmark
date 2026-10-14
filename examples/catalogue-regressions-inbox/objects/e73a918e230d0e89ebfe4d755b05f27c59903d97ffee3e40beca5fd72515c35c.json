@@ -1,0 +1,78 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_filename": "Katalog-ARMATURA.pdf",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 56,
+  "printed_page": null,
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-0056-native-candidate.json",
+    "sha256": "9f6cb3755ae9f07b8df27ee2fe56b5e7937487b3c888f2fc192ce84f9d6334f2",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.3",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "531e9bea963ef7592a9a09035761b155f81fbf1ba43027dc5c7017c55e9693fe",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "9f6cb3755ae9f07b8df27ee2fe56b5e7937487b3c888f2fc192ce84f9d6334f2",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 56,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "3b4165e5e56d3a8455b883aea55738aa0e06f3159a60ba01bc9d5ccabf1f6d10",
+      "receipt": "calls/84e78029b9ce4e8c84ae1e6e4799d35f/result.json",
+      "started_at": 1791939954.44591,
+      "finished_at": 1791940006.1315513
+    }
+  },
+  "output": {
+    "file": "armature-0056-reviewed.json",
+    "sha256": "5c907a4b2939164cccc8ed5652715563da812393b71da097e9ffc69ac08456af"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "13d8d410007908580e6438c8cf4eaa255e62008d7901c044dcd077dac2444f1a",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [],
+    "column_counts": [],
+    "cells_checked": 0
+  },
+  "source_findings": [
+    "Просмотрен весь оригинал и отдельное крупное увеличение всех3предметных фото. Единственная надпись «АРМАТУРА ПОДДЕРЖИВАЮЩАЯ», номера/реквизитов нет.",
+    "Крупное фото опор и предметные фото поддерживающие иллюстрации, не чертежи. Таблиц/ячеек/стрелок/единиц нет.",
+    "Видимое стопорное кольцо на верхнем пальце правого изделия отличено от заклёпки. Клейма не прочитаны по правдоподобию; неопределённость явно сохранена."
+  ],
+  "corrections": [
+    "Убраны неподписанный материал сталь и способы нанесения клейм/инвентарные номера.",
+    "Верхний узел правого изделия — палец со стопорным кольцом, не заклёпка; центральная планка имеет две гайки.",
+    "Декоративные разделители больше не объявлены самостоятельными техническими фигурами; честно записано ограничение чтения мелких клейм."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [
+    "Полные буквальные марки в мелких литых клеймах трёх предметных фотографий не подтверждены из-за качества исходных снимков; на правом корпусе читается МЗВА, остальное не угадывалось."
+  ],
+  "completed_at": "2026-10-14T16:22:06.083732+03:00",
+  "private_original_receipt_sha256": "4e8664585f63fc1f7c521d11e80ef8444c2154a777992e9e1c62bac6a8eb2704"
+}

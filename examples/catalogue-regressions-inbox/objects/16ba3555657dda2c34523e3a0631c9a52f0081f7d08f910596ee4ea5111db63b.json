@@ -1,0 +1,74 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 196,
+  "printed_page": "196",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "innovations-0196-native-candidate.json",
+    "sha256": "6e2ccf88be5dcd43187dd63cbe9e6f379d881dea85add4fc2f04b1da0cb2b021",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.21",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "2301687f1a836b45b5310748b9eff0562539e6ca5d5cae7237a5b8e7ae0f4f91",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "6e2ccf88be5dcd43187dd63cbe9e6f379d881dea85add4fc2f04b1da0cb2b021",
+      "source_bound_save": true,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 196,
+      "attempt": 2,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "867b3f790ecc8921609cf97aa738eda3b36ee55598d694455416842fad03be98",
+      "receipt": "calls/9b1e5a6123ac4b5ebea2e6b1565aed89/result.json",
+      "started_at": 1791975676.7571547,
+      "finished_at": 1791975728.348785
+    }
+  },
+  "output": {
+    "file": "innovations-0196-reviewed.json",
+    "sha256": "e75a37d62e730f372bc0edb91704fa931b61b45ba124ecc20e936a7d027e856d"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "8fe14b55d4d84a9f09b0a4b6d5a8b071095c9fcb7680a237b6597f59bbcb1514",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [],
+    "column_counts": [],
+    "cells_checked": 0
+  },
+  "source_findings": [
+    "Полный оригинал просмотрен: это supporting_material, а не инженерный чертёж. Таблиц и числовых технических параметров нет.",
+    "Проверены заголовок, регистр марок АСКу/АСк2у, оба логотипа, страница 196 и полные контакты ООО «МЗВА». Фотография сверена по видимой форме опор; материал проводов и их марки не выводились из вида."
+  ],
+  "corrections": [
+    "Ошибочное описание попарных Г-образных кронштейнов заменено видимыми раздвоенными верхними частями и траверсами опор.",
+    "Убрано неподтверждённое отождествление проводов на фотографии с конкретными марками заголовка. Исправлена заметка, объявлявшая все буквы заголовка прописными."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T17:17:27.079916+03:00",
+  "private_original_receipt_sha256": "8eab0b4ff11224a56ed3cee862d977ad0ad30a15b9db5ce0e9b38a94e65b9bb4"
+}

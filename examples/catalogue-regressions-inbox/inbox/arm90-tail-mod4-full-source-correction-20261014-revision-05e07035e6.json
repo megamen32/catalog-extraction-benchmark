@@ -1,0 +1,36 @@
+{
+  "id": "arm90-tail-mod4-full-source-correction-20261014-revision-05e07035e6",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 90: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 90
+  },
+  "review_basis": "[\"Сверены156 ячеек26×6, включая необычное АС50/80 в первых двух строках, все сноски к изоляторам, четыре цвета и18 штук в упаковке.\", \"Сохранена буквальная запись ВСн в абзаце и строковые lll текстового слоя с пояснением вида III; наименования -П не заменены похожей буквой.\", \"Свежий собственный6× footer и get_text физической90 подтверждают zakaz@mzva.ru; замечание менять его на info ошибочно, контакт сохранён.\"] Исправления: [\"Удалены две ложные товарные строки: повторная шапка и сноска. Все26 реальных позиций, их совместимости и18 штук в упаковке сохранены.\", \"Рисунки1/4 описаны как отдельные спиральные зажимы, а не волнистые провода на изоляторе; двойное крепление не сведено к двум зажимам.\", \"Убрано выдуманное определение горизонтальной условной полосы как штыря/траверсы и исправлен бренд ЧЭМЗ.\", \"Шаблон марки восстановлен по текстовому слою как ПВС_ _/_ _ с одним разделителем /; рубрика перенесена в text_blocks.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/2ee2ed3e0286ceb40d0bb900c0b0a195fbee73b3a1294ac1a3a67fa60fe8d8a1.json",
+      "sha256": "2ee2ed3e0286ceb40d0bb900c0b0a195fbee73b3a1294ac1a3a67fa60fe8d8a1",
+      "bytes": 38115,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/05e07035e665cf5d738aaa1eb8ef534ebcb6a4411935e93adf842d0ab6596ecb.json",
+      "sha256": "05e07035e665cf5d738aaa1eb8ef534ebcb6a4411935e93adf842d0ab6596ecb",
+      "bytes": 35634,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r2"
+    },
+    {
+      "path": "objects/a5dca595093f2afc8a5d07ed2fefff3d840e6be273fd91be9d8123342b1aa92d.json",
+      "sha256": "a5dca595093f2afc8a5d07ed2fefff3d840e6be273fd91be9d8123342b1aa92d",
+      "bytes": 4294,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r2"
+    }
+  ]
+}

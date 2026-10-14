@@ -1,0 +1,162 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 99,
+  "printed_page": null,
+  "status": "awaiting_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod3",
+    "task": "/root/catalog_tail_mod3",
+    "version": "tail-mod3-innovations-20261014.r5",
+    "model_id": "Current native Codex worker session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "innovations-99-candidate.json",
+    "sha256": "b7af674c6a57ecae2286e647dc33bacb8a30c676f632870d16c7a5ae6fd60c16",
+    "canonical_sha256": "93f11a025f69fd7ba7ac87bdf787d04d360d12a96e2755d5295ceeedf32e9ebf",
+    "producer": {
+      "program": {
+        "package_version": "1.5.3",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "531e9bea963ef7592a9a09035761b155f81fbf1ba43027dc5c7017c55e9693fe",
+        "python_version": "3.12.13"
+      },
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 99,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "3b4165e5e56d3a8455b883aea55738aa0e06f3159a60ba01bc9d5ccabf1f6d10",
+      "artifact_sha256": "b7af674c6a57ecae2286e647dc33bacb8a30c676f632870d16c7a5ae6fd60c16",
+      "started_at": 1791939347.1835775,
+      "finished_at": 1791940003.8614628,
+      "provider_rate_limit_events": 0,
+      "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46",
+      "status": "receipt_verified",
+      "source_bound_save": true,
+      "receipt": ".tmp/full-digitization/staged-best-v1.4.8/innovations/page-0099/calls/f9ff1998f02540c9a420938afa11a541/result.json",
+      "frozen_receipt": "innovations-99-native-receipt.json",
+      "frozen_receipt_sha256": "c338315f3fff5b5803569fe49b2401bb0d6b6e72360939f0a0d5a3e239f75b97"
+    }
+  },
+  "output": {
+    "file": "innovations-99-reviewed.json",
+    "sha256": "b74c71aa6a2850ff15a420a29d68fda27ff16ca67263edf5de7f91851812b8dc",
+    "canonical_sha256": "81aef8663bb7b68fe6aaa592406d2ddb3bbabde3c0e79ea9551c643762a8db70"
+  },
+  "full_original_image_review": true,
+  "original_image": "innovations-99.png",
+  "original_image_sha256": "de3b0356af0af55df48c77b7fd7ed919becd2a519e5083ee7a0b7d10a302c9ac",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "page_content_schema": true
+  },
+  "tables": {
+    "row_counts": [],
+    "column_counts": [],
+    "cells_checked": 0
+  },
+  "source_findings": [
+    "Весь лист просмотрен, таблиц нет.",
+    "Native приписал декоративной черте смысл вариантов окраски и назвал неподписанные выступы металлическими штуцерами."
+  ],
+  "corrections": [
+    "Классификация supporting_material для разделителя.",
+    "Фото описаны по видимому содержимому, без выдуманных функций креплений."
+  ],
+  "complete_leaf_diff": [
+    {
+      "path": ".figures[0].description",
+      "before": "Фотография применения: на фоне облачного неба две металлические опоры воздушной линии — красно-белая круглая опора с грозозащитными тросами, подвесными изоляторами и растяжками, и решётчатая металлическая опора. На проводах подвешены сферические маркеры белого и оранжевого цвета.",
+      "after": "Слева красно-белая высокая цилиндрическая опора с поперечными узлами и прямоугольной тёмной панелью; справа решётчатая опора. На проводах между ними видны белые и оранжевые сферические предметы. Фон — облака и синее небо. Марки узлов и дополнительные конструктивные функции не подписаны."
+    },
+    {
+      "path": ".figures[1].description",
+      "before": "Два сферических изделия с горизонтальными рёбрами-поясами, разделённые наклонной линией-разделителем. Слева — белое изделие с металлическим штуцером на боковой поверхности; справа — оранжевое изделие с металлическими штуцерами по бокам и снизу. Технических надписей и размеров на странице нет.",
+      "after": "Слева белый сферический корпус с горизонтальными поясами и видимым боковым металлическим креплением. Справа оранжевый сферический корпус с поясами, боковыми металлическими креплениями и нижним оранжевым выступом. Между ними светлый контурный наклонный параллелограмм, не технический знак вариантов. Тип, число и назначение креплений текстом не поясняются; нижний выступ не назван металлическим штуцером."
+    },
+    {
+      "path": ".figures[1].title",
+      "before": "Авиационные маркерные устройства: варианты окраски",
+      "after": "Два сферических предметных изображения"
+    },
+    {
+      "path": ".page_context.kind",
+      "before": "catalogue_product_data",
+      "after": "supporting_material"
+    },
+    {
+      "path": ".page_context.source_evidence",
+      "before": [
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.1,
+            0.63,
+            0.92,
+            0.72
+          ],
+          "observation": "Единственный текстовый элемент страницы — крупный заголовок раздела каталога, задающий тип изделий; расположен между двумя иллюстрациями и относится к обеим фотографиям.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.08,
+            0.0,
+            0.92,
+            0.46
+          ],
+          "observation": "Фотография применения изделий: сферические маркеры (белые и оранжевые) подвешены на проводах воздушной линии между красно-белой круглой и решётчатой металлическими опорами ЛЭП — иллюстрация назначения маркерных устройств для обозначения трассы ВЛ.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.22,
+            0.8,
+            0.78,
+            0.94
+          ],
+          "observation": "Предметные изображения изделия: два сферических корпуса с горизонтальными рёбрами-поясами и боковым/нижним металлическими штуцерами (белый и оранжевый), разделённые косой линией, обозначающей варианты окраски одного изделия.",
+          "transcription": "literal"
+        }
+      ],
+      "after": [
+        {
+          "kind": "supporting_material",
+          "box": [
+            0.05,
+            0,
+            0.98,
+            0.995
+          ],
+          "observation": "Весь лист: верхняя фотография, единственный заголовок, два нижних предметных изображения и один декоративный контурный параллелограмм. Отдельных подписей к изделиям нет.",
+          "transcription": "literal"
+        }
+      ]
+    },
+    {
+      "path": ".page_context.summary",
+      "before": "Разворот-титул каталога: заголовок раздела «Устройства маркерного типа авиационные» и две иллюстрации. Вверху — фотография применения: сферические маркерные устройства подвешены на проводах воздушной линии электропередачи между металлическими опорами. Внизу — предметные изображения двух сферических изделий с горизонтальными поясами (белого и оранжевого цвета) с металлическими штуцерами, разделённых косой чертой, что показывает варианты окраски одного изделия. Никаких технических характеристик, марок, размеров или единиц на странице нет — это раздел каталога, а не проектная спецификация и не демонстрация ПО.",
+      "after": "Разделительный лист «Устройства маркерного типа авиационные». На верхней фотографии красно-белые опоры, провода и белые/оранжевые сферические предметы на них. Внизу два сферических изделия без марок и размеров, белое и оранжевое. Таблиц, технических параметров и печатного номера нет."
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independent_review_required": true,
+  "unresolved_issues": [],
+  "acceptance_note": "No PASS issued. Corrected content, engineering drawing relations, and uncertainties require independent source review.",
+  "completed_at": "2026-10-14T17:04:22.877575+03:00",
+  "private_original_receipt_sha256": "b9e13fa5d68ee9783dd563761f1ebef6209c858257ec9dc80819cefab8b03a19"
+}

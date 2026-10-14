@@ -1,0 +1,36 @@
+{
+  "id": "arm34-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 34: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 34
+  },
+  "review_basis": "[\"Все26 ячеек без изменения, включая161/180,600/800,400/450 и два прочерка L₂.\", \"Соединение палец-проушина с однолапчатыми проушинами и оба типа25/30 сохранены.\"] Исправления: [\"Исправлена ошибка названия двухцепные; каждому из l/L/L₁/H/H₁ назначена отдельная пара баз.\", \"b исправлен с ширины пакета на внутренний просвет, B — полный крепёжный габарит.\", \"Ошибочная подпись у логотипа заменена на напечатанное «производственное объединение»; полный номер ТУ сохранён как на данном листе.\", \"Пояснения и описания записаны с нормальными пробелами; буквальные маркировки и табличные поля сохранены.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/dd5b0c5a4c8d7a431e0f87df105dd2bd116afa90639b223fe655b98ea4fc64ca.json",
+      "sha256": "dd5b0c5a4c8d7a431e0f87df105dd2bd116afa90639b223fe655b98ea4fc64ca",
+      "bytes": 11865,
+      "role": "native-candidate",
+      "program_version": "1.5.3"
+    },
+    {
+      "path": "objects/243423922226be88197993f84f7b8ec3508dd6d2f76f5e89e0de81facfce2bda.json",
+      "sha256": "243423922226be88197993f84f7b8ec3508dd6d2f76f5e89e0de81facfce2bda",
+      "bytes": 11116,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r2"
+    },
+    {
+      "path": "objects/e7e3c6d19e09979cb2bc04e4c5bbcdda5b30596def7ae260507612b8387e329d.json",
+      "sha256": "e7e3c6d19e09979cb2bc04e4c5bbcdda5b30596def7ae260507612b8387e329d",
+      "bytes": 3886,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r2"
+    }
+  ]
+}

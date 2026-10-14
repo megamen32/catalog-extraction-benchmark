@@ -1,0 +1,79 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 208,
+  "printed_page": "208",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "innovations-0208-native-candidate.json",
+    "sha256": "58bba0d56f9dfd568ece5642f4ea59b5f542efdb85770fecd1359dd08c301214",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.8",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "56b47ab11c142fdd0d89ade636eb52fff30220c3425401678e2bf74c18b69c62",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "58bba0d56f9dfd568ece5642f4ea59b5f542efdb85770fecd1359dd08c301214",
+      "source_bound_save": true,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 208,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "ad43db8eeb96f6a5b1aab82eb07fb8d999a3c90cd9e1f094a41f378634f1d7ae",
+      "receipt": "calls/6c05d7607a8545ddb1c3600ecb82589c/result.json",
+      "started_at": 1791946253.978685,
+      "finished_at": 1791946336.063238
+    }
+  },
+  "output": {
+    "file": "innovations-0208-reviewed.json",
+    "sha256": "677641b7fa5400eb731b4e59b092a7b873ce7a800957623a23a23c1b9d0e55ef"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "85ba9bd973b4d058cd5f51679ea695fbe9daad21c3ad69ebe5d094460cee4047",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      23
+    ],
+    "column_counts": [
+      10
+    ],
+    "cells_checked": 230
+  },
+  "source_findings": [
+    "Просмотрены полный оригинал, крупный чертёж и матрицы. Все 230 ячеек 23×10 проверены; МШ-40.7 в ШАСТ-240.3 действительно напечатано с точкой.",
+    "По выносным линиям L₁ и L₂ имеют разные правые плоскости. Две риски находятся на наружной поверхности корпуса; d соответствует внутреннему каналу, а не отдельному контуру провода."
+  ],
+  "corrections": [
+    "Восстановлена буквальная печатная форма «Корпус зажимов изготавливаются».",
+    "Исправлены основания L₁ и L₂, принадлежность рисок наружной поверхности и d внутреннему каналу. Угол 20° назван углом, а не конусностью.",
+    "Наблюдение таблицы ограничено реально указанной областью, нижняя граница охватывает последнюю строку."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T17:15:00.483655+03:00",
+  "private_original_receipt_sha256": "1cdbdcb6543387392e830b5deca679fb61aa4cc652200ab58ac12b52a87fce70"
+}

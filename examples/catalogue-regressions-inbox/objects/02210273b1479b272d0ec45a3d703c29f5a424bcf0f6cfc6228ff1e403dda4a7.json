@@ -1,0 +1,88 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_filename": "Katalog-ARMATURA.pdf",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 8,
+  "printed_page": null,
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r2",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-0008-native-candidate.json",
+    "sha256": "0f2c020604f479b70d434d70862181d3c740ea162bc32899d83080c00b5d97ee",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.3",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "531e9bea963ef7592a9a09035761b155f81fbf1ba43027dc5c7017c55e9693fe",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "0f2c020604f479b70d434d70862181d3c740ea162bc32899d83080c00b5d97ee",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 8,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "3b4165e5e56d3a8455b883aea55738aa0e06f3159a60ba01bc9d5ccabf1f6d10",
+      "receipt": "calls/c8d865cf60744de5aaad65e63dc132d1/result.json",
+      "started_at": 1791937893.5735607,
+      "finished_at": 1791937973.3859408
+    }
+  },
+  "output": {
+    "file": "armature-0008-reviewed-r2.json",
+    "sha256": "d44c57472aae42c29a6b210073b18d0f98869f28062efb71719db82d20430def"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "bf94bd04027f3f863fbeeb0f177d82be0db0bc008207e929714a3fa89bedc2ab",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [],
+    "column_counts": [],
+    "cells_checked": 0
+  },
+  "source_findings": [
+    "Повторно лично просмотрен исходный крупный ряд логотипов и фотографическая маркировка. Лигатура ST имеет общий верхний штрих, но обе буквы присутствуют. Исправляется моя предыдущая ручная ошибка, а не ошибка native INSTA.",
+    "Нечитаемый суффикс ИОС-20-2000… остаётся pending; числовые данные текста сохранены."
+  ],
+  "corrections": [
+    "Отозвана моя ошибочная замена ИНСТА/INSTA на ИНСА/INSA: крупный оригинал показывает лигатуру СТ/ST.",
+    "Написание Voltra исправлено на Volta в логотипах и описании маркировки белого изделия: отдельной r в источнике нет.",
+    "Области заголовка, основного текста/кредо и ряда логотипов расширены доy0.40/0.80/0.93."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [
+    "Полный суффикс мелкой синей маркировки белого изделия после «ИОС-20-2000…» и полная рельефная надпись на голубой детали не установлены по исходной фотографии."
+  ],
+  "completed_at": "2026-10-14T14:06:11.451712+00:00",
+  "previous_reviewed_output": {
+    "file": "armature-0008-reviewed.json",
+    "sha256": "75622f906b612c1a7ebd2ab5f17db1a3abf5e868a82e7f8fc6c48b9575452c9c"
+  },
+  "revision_trigger": "Independent source review by catalog_tail_mod1, followed by personal source-image recheck by catalog_tail_mod0.",
+  "revision_evidence_images": [
+    {
+      "file": "armature-0008-brand-recheck.png",
+      "sha256": "03ea46705a333e75ccb638abb76f264423a43210ffd6501ded28572d823589da"
+    }
+  ],
+  "private_original_receipt_sha256": "3659ece4ec524a6fc3356846051312a9ecdc4b58500956b7c4c0c22af97dfafb"
+}

@@ -1,0 +1,159 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 167,
+  "printed_page": null,
+  "status": "awaiting_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod3",
+    "task": "/root/catalog_tail_mod3",
+    "version": "tail-mod3-innovations-20261014.r2",
+    "model_id": "Current native Codex worker session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "innovations-167-candidate.json",
+    "sha256": "9fbaf2200f8d483ad0cef5afa8ed20acfc730a3bcebaef5f6093297762d39232",
+    "canonical_sha256": "fbabc83e5e0fa285cfdef8b57dc8078ac047306739da701a2f6c79fcd326e38c",
+    "producer": {
+      "program": {
+        "package_version": "1.5.6",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "ca9cb343d7402f9bdb421b4fc5bc0b77ee1cff94b255122f592b3fda0e12f0b3",
+        "python_version": "3.12.13"
+      },
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 167,
+      "attempt": 2,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "3031f54101971a2d9729b048304180edaaf22cda716b98c15339c8c61c45fa7b",
+      "artifact_sha256": "9fbaf2200f8d483ad0cef5afa8ed20acfc730a3bcebaef5f6093297762d39232",
+      "started_at": 1791942996.9780755,
+      "finished_at": 1791943038.7724466,
+      "provider_rate_limit_events": 0,
+      "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46",
+      "status": "receipt_verified",
+      "source_bound_save": true,
+      "receipt": ".tmp/full-digitization/staged-best-v1.4.8/innovations/page-0167/calls/09f7f95d33eb4e5ab1750bd88d0057ed/result.json",
+      "frozen_receipt": "innovations-167-native-receipt.json",
+      "frozen_receipt_sha256": "966863d8f99519589b4e6c6a8072677a0c4a2690ce32d901ed05d68ab2aeaa0f"
+    }
+  },
+  "output": {
+    "file": "innovations-167-reviewed.json",
+    "sha256": "c1053a1d24d46b7d22b7594004277682daed6c919dc88a8e1dc9e5a3d83cab97",
+    "canonical_sha256": "83fba149ce9cc0d0786cbc510087e099bf1bceda2dcbe6c8725d05ee8cdba2dc"
+  },
+  "full_original_image_review": true,
+  "original_image": "innovations-167.png",
+  "original_image_sha256": "b1640b0207535d62230701d779bca641fe6cc97c3e80cf7296fc9fd8b8274af3",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "page_content_schema": true
+  },
+  "tables": {
+    "row_counts": [],
+    "column_counts": [],
+    "cells_checked": 0
+  },
+  "source_findings": [
+    "Просмотрен полный оригинал; таблиц и размерных выносных нет.",
+    "Native приписывал подвесные гирлянды и клиновой механизм, которых лист не подписывает."
+  ],
+  "corrections": [
+    "Фотографии описаны по видимому расположению узлов, без неподтверждённых разновидностей.",
+    "Устранены неполные bbox и оставлена классификация разделительного supporting_material."
+  ],
+  "complete_leaf_diff": [
+    {
+      "path": ".figures[0].description",
+      "before": "Фотография металлической опоры воздушной линии электропередачи с подвесными изоляторными гирляндами, натяжными подвесами и закреплёнными на опоре проводами — иллюстрация области применения натяжной арматуры для провода АС.",
+      "after": "Фотография высокой цилиндрической стойки опоры с креплениями на разных уровнях. От стойки отходят длинные горизонтальные изолирующие узлы, рядом проходят прямые провода и дугообразные шлейфы. Фон — небо с облаками; отдельные марки оборудования не подписаны."
+    },
+    {
+      "path": ".figures[1].description",
+      "before": "Изображение изделия раздела: натяжной зажим клинового типа для сталеалюминиевого провода АС.",
+      "after": "Отдельное металлическое изделие с длинной трубчатой частью, открытыми продольными элементами корпуса, поперечным крепежом и верхним присоединительным окончанием. Подписи модели и названия конкретного механизма нет, поэтому клиновый способ крепления по виду не утверждается."
+    },
+    {
+      "path": ".page_context.source_evidence",
+      "before": [
+        {
+          "kind": "supporting_material",
+          "box": [
+            0.28,
+            0.62,
+            0.72,
+            0.76
+          ],
+          "observation": "Единственный текстовый элемент страницы — крупный двухстрочный заголовок по центру («НАТЯЖНАЯ АРМАТУРА» / «ДЛЯ ПРОВОДА АС»); он задаёт тему раздела, а не характеристики изделия. Никаких абзацев, таблиц, параметров и ссылок на проект рядом нет.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "supporting_material",
+          "box": [
+            0.08,
+            0.0,
+            0.98,
+            0.45
+          ],
+          "observation": "Фотография воздушной линии: металлическая опора с навешенными подвесными изоляторными гирляндами, натяжными подвесами и проводами на фоне неба. Служит иллюстрацией области применения арматуры; надписей и параметров на фото нет.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "supporting_material",
+          "box": [
+            0.34,
+            0.8,
+            0.66,
+            0.93
+          ],
+          "observation": "Изображение отдельного изделия — компактный зажим с двумя пластинами и клином (натяжная арматура для провода АС). Размерных линий, выносных линий и подписей на изображении нет.",
+          "transcription": "literal"
+        }
+      ],
+      "after": [
+        {
+          "kind": "supporting_material",
+          "box": [
+            0.06,
+            0,
+            0.98,
+            0.995
+          ],
+          "observation": "Полный лист с фотографией опоры, двухстрочным заголовком, предметным изображением зажима и двумя декоративными наклонными параллелограммами. Технические подписи, числовые параметры и печатный номер отсутствуют.",
+          "transcription": "literal"
+        }
+      ]
+    },
+    {
+      "path": ".page_context.summary",
+      "before": "Разделительный титул раздела каталога: страница объявляет тему «Натяжная арматура для провода АС» (сталеалюминиевый провод). Верхняя фотография показывает смонтированную на опоре воздушную линию с подвесными изоляторами и натяжными конструкциями, нижнее изображение — отдельное изделие раздела (зажим/клиновой натяжной зажим для провода АС). Страница не содержит ни таблиц, ни технических характеристик, ни параметров: это иллюстративный разделитель, а не страница товарных или проектных данных.",
+      "after": "Разделительный лист «Натяжная арматура для провода АС»: сверху фотография опоры с проводами и длинными горизонтальными изолирующими узлами, снизу отдельное изделие без марки и размеров. Единственный текст — заголовок раздела; таблиц нет."
+    },
+    {
+      "path": ".source_notes",
+      "before": [],
+      "after": [
+        "На странице нет подписи к фотографиям, марки отдельного изделия и печатного номера. Два наклонных параллелограмма у предметного изображения — оформление, не технические выноски."
+      ]
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independent_review_required": true,
+  "unresolved_issues": [],
+  "acceptance_note": "No PASS issued. Corrected content, engineering drawing relations, and uncertainties require independent source review.",
+  "completed_at": "2026-10-14T16:21:33.474692+03:00",
+  "private_original_receipt_sha256": "6554f175e1b1c9104d736a291a805578c2b9c4000ccc2e192fe28cc1e0777602"
+}

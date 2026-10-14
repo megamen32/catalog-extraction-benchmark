@@ -1,0 +1,36 @@
+{
+  "id": "innov172-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 172: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 172
+  },
+  "review_basis": "[\"Предыдущая полная исходная сверка сохранена в supersedes_source_review. Повторно просмотрены увеличенные оригинальные фрагменты и исправлены только перечисленные принадлежности; все таблицы побайтно равны прежним проверенным таблицам.\", \"Исправлена собственная ошибка предыдущего reviewed: d₁ — центральное отверстие проушины. Острые концы стрелок направлены внутрь; наружные широкие основания стрелок были ошибочно приняты за их окончания. Native в этой части был верен, это не новый дефект native.\"] Исправления: [\"Исправлена собственная ошибка предыдущего reviewed: d₁ — центральное отверстие проушины. Острые концы стрелок направлены внутрь; наружные широкие основания стрелок были ошибочно приняты за их окончания. Native в этой части был верен, это не новый дефект native.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/e338c91bbeaa962c198981b64dd151c4504a7fdc2738d14fa1c2e4cf76d54d18.json",
+      "sha256": "e338c91bbeaa962c198981b64dd151c4504a7fdc2738d14fa1c2e4cf76d54d18",
+      "bytes": 85560,
+      "role": "native-candidate",
+      "program_version": "1.5.6"
+    },
+    {
+      "path": "objects/93b6e9df27ad23159596baed1c4b031d2636426d7a11d5084aaefa2a0f087d92.json",
+      "sha256": "93b6e9df27ad23159596baed1c4b031d2636426d7a11d5084aaefa2a0f087d92",
+      "bytes": 85437,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r2"
+    },
+    {
+      "path": "objects/0bf27645c24d31fbdeb858948da6614a176061182a14795863d2e3242e2a34c0.json",
+      "sha256": "0bf27645c24d31fbdeb858948da6614a176061182a14795863d2e3242e2a34c0",
+      "bytes": 4461,
+      "role": "source-review",
+      "program_version": "tail-mod0-20261014.r2"
+    }
+  ]
+}

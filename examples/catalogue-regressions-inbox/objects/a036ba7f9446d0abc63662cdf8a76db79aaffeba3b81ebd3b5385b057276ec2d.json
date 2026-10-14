@@ -1,0 +1,74 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 188,
+  "printed_page": "188",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "innovations-0188-native-candidate.json",
+    "sha256": "b79ff592c3ecba038f6930d33853a925d880df88a4813aa69f7ec5043bfba3a7",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.8",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "56b47ab11c142fdd0d89ade636eb52fff30220c3425401678e2bf74c18b69c62",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "b79ff592c3ecba038f6930d33853a925d880df88a4813aa69f7ec5043bfba3a7",
+      "source_bound_save": true,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 188,
+      "attempt": 2,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "ad43db8eeb96f6a5b1aab82eb07fb8d999a3c90cd9e1f094a41f378634f1d7ae",
+      "receipt": "calls/a20f32a93f3d44dfb59d52c7080c2351/result.json",
+      "started_at": 1791944462.9742024,
+      "finished_at": 1791944567.5208302
+    }
+  },
+  "output": {
+    "file": "innovations-0188-reviewed.json",
+    "sha256": "56fc8e185a4a2be1c81ef10403ad0348c634c62fe0ddf425d6aca6dcf806dc9b"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "1546604190e67986641f7db6cfa37f76249a0a6bd7a9a7be2624a5424450515a",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [],
+    "column_counts": [],
+    "cells_checked": 0
+  },
+  "source_findings": [
+    "Полный оригинал и увеличенные схемы просмотрены; весь технический текст проверен: 10%, 20%, ASTM B 958-08, 2-5%, 45 лет, миллионы кВт·ч и десятки миллионов рублей совпали. Таблиц нет.",
+    "Проверены обе выноски каждой схемы, цвета, разные правые базы 340/385, вертикальные базы 8,3 и отсутствие единиц при трёх размерах. Марки с кириллическими к/у сохранены."
+  ],
+  "corrections": [
+    "Уточнены две правые стойки как базы сравниваемых пролётов 340/385. Размер 8,3 явно связан с уровнем подвеса нижнего провода и нижней точкой кривой.",
+    "Удалены неподтверждённое заземление на левой схеме и заявление о логотипах/нижнем колонтитуле в области только левых заголовков."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T17:30:58.791921+03:00",
+  "private_original_receipt_sha256": "4715f640cb6f1738e1fda2d13ce7f3890e3c8ddb9c1cc1b45c3e83da760ea4f7"
+}

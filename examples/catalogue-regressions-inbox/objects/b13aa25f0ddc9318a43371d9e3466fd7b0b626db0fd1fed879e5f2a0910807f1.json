@@ -1,0 +1,85 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 38,
+  "printed_page": "37",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r2",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "b76262fb84808bfc36bba90f62edcb90787fa4ac6f1c1ff444ce60fcef166d62",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.3",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "531e9bea963ef7592a9a09035761b155f81fbf1ba43027dc5c7017c55e9693fe",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "b76262fb84808bfc36bba90f62edcb90787fa4ac6f1c1ff444ce60fcef166d62",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 38,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "3b4165e5e56d3a8455b883aea55738aa0e06f3159a60ba01bc9d5ccabf1f6d10",
+      "receipt": "calls/ff388f540cff4b71b94d880321ebacc3/result.json",
+      "started_at": 1791938981.305047,
+      "finished_at": 1791939102.1899297
+    }
+  },
+  "output": {
+    "file": "armature-38-reviewed-r2.json",
+    "sha256": "512e6189eef13a1e13cd13446e199484a3a47a041c41975d7f520809709d87c9"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "ebfe8453dbd9f4692f6303df84dd7b9166b424c0ce5919a19b508cbb7dd6668e",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      1
+    ],
+    "column_counts": [
+      3
+    ],
+    "cells_checked": 3
+  },
+  "source_findings": [
+    "Все3 ячейки и назначение для трёх проводов,ТУ и контакты сохранены.",
+    "120° не заменён размером длины, Ø17 относится к нижнему свободному отверстию."
+  ],
+  "corrections": [
+    "Вынесенный видА восстановлен как изогнутый круглый пруток Ø14 с R12 вместо П-образного сечения.",
+    "Убраны выдуманные канавки под провода, уточнены разные базы120/170 и75/109.",
+    "Ошибочная подпись у логотипа заменена на напечатанное «производственное объединение»; полный номер ТУ сохранён как на данном листе.",
+    "Левая база размера 75 исправлена с оси детали на её внутреннюю правую поверхность.",
+    "Пояснения и описания записаны с нормальными пробелами; буквальные маркировки и табличные поля сохранены."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T17:40:14.267631+03:00",
+  "previous_author_revision": {
+    "content": "armature-38-reviewed.json",
+    "content_sha256": "a0d713dfc4ffddd3d7d42c6f32ade4bae0cfe4578f7435e2e427cbfb0ea2f9b4",
+    "receipt": "armature-38-source-review.json",
+    "receipt_sha256": "36bd26e2f28725f8cfc787c2f381843eae646e63dae60595d512a435413dc8e1"
+  },
+  "revision": 2,
+  "private_original_receipt_sha256": "d48cd0a4c8aa201ad8023a439e7fd5dfb89e5346a24edf54e673e83cf7a2c339"
+}

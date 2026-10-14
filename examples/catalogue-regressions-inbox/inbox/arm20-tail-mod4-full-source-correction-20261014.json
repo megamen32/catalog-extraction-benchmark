@@ -1,0 +1,36 @@
+{
+  "id": "arm20-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 20: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 20
+  },
+  "review_basis": "[\"Полная исходная заставка повторно просмотрена. Текст и изображения не изменены; уточнён смысловой тип страницы.\"] Исправления: [\"Разделительный титул без марок и параметров классифицирован как supporting_material, сохраняя фото и заголовок.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/6953d0d54f3209c0912790bc85bdc59ad9c9782a3a307153bdea4f8d5d4b86e2.json",
+      "sha256": "6953d0d54f3209c0912790bc85bdc59ad9c9782a3a307153bdea4f8d5d4b86e2",
+      "bytes": 4818,
+      "role": "native-candidate",
+      "program_version": "1.5.3"
+    },
+    {
+      "path": "objects/ace49cf2dbae463392644b0810b44b5ec0457419d7232be916be1ce146f5ef8e.json",
+      "sha256": "ace49cf2dbae463392644b0810b44b5ec0457419d7232be916be1ce146f5ef8e",
+      "bytes": 5420,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r2"
+    },
+    {
+      "path": "objects/4f06b382074fbbb476b4d1a30261a8c2a33264ce694ab4a08522f1030c55cace.json",
+      "sha256": "4f06b382074fbbb476b4d1a30261a8c2a33264ce694ab4a08522f1030c55cace",
+      "bytes": 3346,
+      "role": "source-review",
+      "program_version": "tail-mod0-20261014.r2"
+    }
+  ]
+}

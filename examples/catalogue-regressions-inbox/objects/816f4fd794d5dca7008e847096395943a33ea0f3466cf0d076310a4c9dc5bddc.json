@@ -1,0 +1,172 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 139,
+  "printed_page": null,
+  "status": "awaiting_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod3",
+    "task": "/root/catalog_tail_mod3",
+    "version": "tail-mod3-innovations-20261014.r3",
+    "model_id": "Current native Codex worker session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "innovations-139-candidate.json",
+    "sha256": "45fffbe62a3903f0e14aa274222d01172b94191c34c7f594a94ec5addb425d6e",
+    "canonical_sha256": "7b9aade67eee1906b7df39d9e39a66ce34d60c355a96eb087208f159d95c5b3e",
+    "producer": {
+      "program": {
+        "package_version": "1.5.21",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "2301687f1a836b45b5310748b9eff0562539e6ca5d5cae7237a5b8e7ae0f4f91",
+        "python_version": "3.12.13"
+      },
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 139,
+      "attempt": 2,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "867b3f790ecc8921609cf97aa738eda3b36ee55598d694455416842fad03be98",
+      "artifact_sha256": "45fffbe62a3903f0e14aa274222d01172b94191c34c7f594a94ec5addb425d6e",
+      "started_at": 1791974967.0801857,
+      "finished_at": 1791975066.7780685,
+      "provider_rate_limit_events": 0,
+      "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46",
+      "status": "receipt_verified",
+      "source_bound_save": true,
+      "receipt": ".tmp/full-digitization/staged-best-v1.4.8/innovations/page-0139/calls/db8935519c214b3ebb468615ea7f8cc5/result.json",
+      "frozen_receipt": "innovations-139-native-receipt.json",
+      "frozen_receipt_sha256": "186417e6b30aea08019c926bc4f2196c4d1cc3179a7f7ccc5d75f6913c41a943"
+    }
+  },
+  "output": {
+    "file": "innovations-139-reviewed.json",
+    "sha256": "56542c2d37a9e12e4eac770c34758f5a59d984666dedec8719f1f004a4a28022",
+    "canonical_sha256": "2af6382434aeba58dbdaf8339063ba54b65dc63f35276ba3eb339f6256afcc9e"
+  },
+  "full_original_image_review": true,
+  "original_image": "innovations-139.png",
+  "original_image_sha256": "73b56ac7dacceb5f7547439485a27adbc929246731ba303220be3322aea21755",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "page_content_schema": true
+  },
+  "tables": {
+    "row_counts": [],
+    "column_counts": [],
+    "cells_checked": 0
+  },
+  "source_findings": [
+    "Просмотрен весь лист; технических таблиц и размерных линий нет.",
+    "Native назвал разделитель товарными данными и приписал нижним предметам материал и спиральную конструкцию без подписи."
+  ],
+  "corrections": [
+    "Классификация supporting_material и буквальное описание видимых предметов.",
+    "Полное доказательство и точное название декоративных элементов."
+  ],
+  "complete_leaf_diff": [
+    {
+      "path": ".figures[0].description",
+      "before": "Фотография металлической башни-опоры ЛЭП на фоне синего неба: провисающие провода, подвесные изоляторы на гирляндах и дополнительные тросы с зажимами. Показывает область применения защитной арматуры на воздушной линии; конкретные изделия на фотографии не подписаны.",
+      "after": "Металлическая решётчатая опора с горизонтальной траверсой на фоне синего неба. Видны наклонные гирлянды изоляторов, провода и несколько тёмных округлых предметов на них. Марки и назначение конкретных узлов на фото не подписаны."
+    },
+    {
+      "path": ".figures[1].description",
+      "before": "Слева: изогнутый в овальной форме спиральный (гофрированный) элемент с двумя свободными концами и центральным зажимом на болте. В центре: зажим на горизонтальном стальном тросе, от которого вниз на кронштейне подвешен тарельчатый (дискообразный) груз. Справа: овальная петля из стержня/трубки с прямым участком посередине и двумя свободными концами, закреплённая сверху металлической скобой-зажимом. Между изображениями — две косые линейки-разделители; подписей, марок и обозначений на изделиях нет, поэтому назначение каждого изделия источником не задано.",
+      "after": "Слева два вытянутых изогнутых элемента с рифлёной поверхностью, свободными концами и центральным креплением. В центре дискообразный корпус, подвешенный зажимом к горизонтальному тросу. Справа разомкнутый овальный элемент с двумя свободными нижними концами и верхним центральным креплением. Два светлых наклонных контурных параллелограмма являются декором. Конкретные марки, материал и конструктивные механизмы не подписаны."
+    },
+    {
+      "path": ".figures[1].title",
+      "before": "Три изделия защитной арматуры, разделённые косыми линейками",
+      "after": "Три предметных изображения защитной арматуры"
+    },
+    {
+      "path": ".page_context.kind",
+      "before": "catalogue_product_data",
+      "after": "supporting_material"
+    },
+    {
+      "path": ".page_context.source_evidence",
+      "before": [
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.3,
+            0.62,
+            0.72,
+            0.71
+          ],
+          "observation": "Единственный текстовый элемент страницы — крупный заголовок раздела «Арматура защитная» прописными буквами; он задаёт наименование товарной группы, без указания производителя, марок и характеристик.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.06,
+            0.0,
+            0.99,
+            0.46
+          ],
+          "observation": "Косо срезанная фотография металлической башни-опоры воздушной линии с провисающими проводами, подвесными изоляторами и дополнительными тросами — иллюстрация области применения защитной арматуры на ВЛ; конкретное изделие на снимке не подписано.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.14,
+            0.79,
+            0.95,
+            0.93
+          ],
+          "observation": "Полоса из трёх фотографий изделий без подписей и марок, разделённых двумя косыми линейками-разделителями; изделия показаны как представители товарной группы раздела.",
+          "transcription": "literal"
+        }
+      ],
+      "after": [
+        {
+          "kind": "supporting_material",
+          "box": [
+            0.06,
+            0,
+            0.98,
+            0.995
+          ],
+          "observation": "Весь лист: фотография опоры, заголовок и три предметные группы с двумя декоративными контурными параллелограммами. Единственный текст — «АРМАТУРА ЗАЩИТНАЯ».",
+          "transcription": "literal"
+        }
+      ]
+    },
+    {
+      "path": ".page_context.summary",
+      "before": "Разворот-разделитель каталога, открывающий товарный раздел «Арматура защитная» — линейная защитная арматура воздушных линий электропередачи. Единственный текст страницы — заголовок раздела; остальное — крупная фотография металлической опоры ВЛ с провисающими проводами, подвесными изоляторами и тросами (область применения) и полоса из трёх фотографий изделий, разделённых косыми линейками-разделителями. Ни марок, ни параметров, ни единиц, ни таблиц на странице нет: это визуальное представление товарной группы, а не проектные данные и не демонстрация ПО.",
+      "after": "Разделительный лист «Арматура защитная». Сверху фотография опоры ВЛ с проводами, изоляторными узлами и тёмными предметами на проводах; ниже три предметных изображения без подписей, марок и размеров. Таблиц и печатного номера нет."
+    },
+    {
+      "path": ".source_notes[0]",
+      "before": "Страница — разворот-разделитель раздела каталога: таблиц, номера страницы и колонтитула нет.",
+      "after": "Разделительный лист: таблиц, печатного номера и контактов нет. Единственный текстовый элемент — заголовок."
+    },
+    {
+      "path": ".source_notes[1]",
+      "before": "Заголовок набран прописными буквами; регистр сохранён как в источнике. Изделия на фотографиях не подписаны, поэтому их тип, типоразмер и марки источником не заданы — описания миниатюр даны по видимому облику без навязывания конструктивного назначения.",
+      "after": "Неподписанные предметы описаны по видимым частям; их конкретные марки, материалы и механизмы не определяются по внешнему виду."
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independent_review_required": true,
+  "unresolved_issues": [],
+  "acceptance_note": "No PASS issued. Corrected content, engineering drawing relations, and uncertainties require independent source review.",
+  "completed_at": "2026-10-14T16:39:00.676858+03:00",
+  "private_original_receipt_sha256": "17f6982c86cc55ea4ea2ae11d5b19ebb92b32b837d8d10b403cca215be4ce7dd"
+}

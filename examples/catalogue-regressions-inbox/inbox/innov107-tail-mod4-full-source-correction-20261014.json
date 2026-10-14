@@ -1,0 +1,36 @@
+{
+  "id": "innov107-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 107: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 107
+  },
+  "review_basis": "[\"Все63ячейки верны, напечатанные единицы S/L₁ ранее отсутствовали в unit.\", \"Native ошибочно дал2L,5как длину опрессования, Sмежду прижимными деталями и L₁без реальной базы.\"] Исправления: [\"Исправлены все владельцы размеров, L₁ от оси нижнего ряда болтов и5осевая перемычка.\", \"Добавлены напечатанные единицы и полное доказательство, различены внешние НАС и собственные окончания.\", \"Только пробелы в описаниях, кратком содержании и примечаниях; таблицы, марки и числа неизменны.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/d86bc6389c4b49e476e89b4ff824ed6e35ea0941d0f20ff98c263e5db950599b.json",
+      "sha256": "d86bc6389c4b49e476e89b4ff824ed6e35ea0941d0f20ff98c263e5db950599b",
+      "bytes": 19038,
+      "role": "native-candidate",
+      "program_version": "1.5.3"
+    },
+    {
+      "path": "objects/fb7cf702bb4269b86d516ba830e71d4656669a586e47b000a06f0278279fadcb.json",
+      "sha256": "fb7cf702bb4269b86d516ba830e71d4656669a586e47b000a06f0278279fadcb",
+      "bytes": 17444,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-innovations-20261014.round4.r2-readable"
+    },
+    {
+      "path": "objects/812dcc8ac0ea0b0f86cfe0df51af0c47910eead0aef626a8947fd79d12a03bc1.json",
+      "sha256": "812dcc8ac0ea0b0f86cfe0df51af0c47910eead0aef626a8947fd79d12a03bc1",
+      "bytes": 25371,
+      "role": "source-review",
+      "program_version": "tail-mod3-innovations-20261014.round4.r2-readable"
+    }
+  ]
+}

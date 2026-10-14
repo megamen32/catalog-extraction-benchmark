@@ -1,0 +1,73 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 216,
+  "printed_page": null,
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "innovations-0216-native-candidate.json",
+    "sha256": "2204da4f57e005cde37a0ec572a872dbcbf449064b28bf75f73234bffaa7afc4",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.8",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "56b47ab11c142fdd0d89ade636eb52fff30220c3425401678e2bf74c18b69c62",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "2204da4f57e005cde37a0ec572a872dbcbf449064b28bf75f73234bffaa7afc4",
+      "source_bound_save": true,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 216,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "ad43db8eeb96f6a5b1aab82eb07fb8d999a3c90cd9e1f094a41f378634f1d7ae",
+      "receipt": "calls/b9915f2e8e8d41aa95fbec234688024f/result.json",
+      "started_at": 1791946971.5042362,
+      "finished_at": 1791947031.7627451
+    }
+  },
+  "output": {
+    "file": "innovations-0216-reviewed.json",
+    "sha256": "45b92423c6fb29570986024164a530d19c085c2c3c807ba1e18c8f01ec6a509f"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "ce9eb32509ecf59dc89ddb94f1e6ecae46b9e7a1631878da8d157804848810b8",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [],
+    "column_counts": [],
+    "cells_checked": 0
+  },
+  "source_findings": [
+    "Полный оригинал innovations физическая216 просмотрен. Единственный заголовок «ДЛЯ ЗАМЕТОК», 37 пустых линеек, без печатного номера, таблиц и рисунков.",
+    "Число и длины строк дополнительно проверены по исходному текстовому слою; геометрические размеры по масштабу не вычислялись."
+  ],
+  "corrections": [
+    "Удалена лишняя 38-я строка подчёркиваний native: исходник содержит 37 линеек. Число коротких строк уточнено с четырёх до трёх."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T17:09:20.419519+03:00",
+  "private_original_receipt_sha256": "7ded6e565ca76e5ad405ecb814aac67f1c94694cb288bb1146ba72b6c30666a9"
+}

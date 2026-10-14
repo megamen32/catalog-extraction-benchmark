@@ -1,0 +1,36 @@
+{
+  "id": "innov216-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 216: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 216
+  },
+  "review_basis": "[\"Полный оригинал innovations физическая216 просмотрен. Единственный заголовок «ДЛЯ ЗАМЕТОК», 37 пустых линеек, без печатного номера, таблиц и рисунков.\", \"Число и длины строк дополнительно проверены по исходному текстовому слою; геометрические размеры по масштабу не вычислялись.\"] Исправления: [\"Удалена лишняя 38-я строка подчёркиваний native: исходник содержит 37 линеек. Число коротких строк уточнено с четырёх до трёх.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/2204da4f57e005cde37a0ec572a872dbcbf449064b28bf75f73234bffaa7afc4.json",
+      "sha256": "2204da4f57e005cde37a0ec572a872dbcbf449064b28bf75f73234bffaa7afc4",
+      "bytes": 6044,
+      "role": "native-candidate",
+      "program_version": "1.5.8"
+    },
+    {
+      "path": "objects/45b92423c6fb29570986024164a530d19c085c2c3c807ba1e18c8f01ec6a509f.json",
+      "sha256": "45b92423c6fb29570986024164a530d19c085c2c3c807ba1e18c8f01ec6a509f",
+      "bytes": 5920,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r1"
+    },
+    {
+      "path": "objects/7fc9aced9d0e9cadcc8f0cd281ef984f1f183152a2d086c1be6945716bef0a07.json",
+      "sha256": "7fc9aced9d0e9cadcc8f0cd281ef984f1f183152a2d086c1be6945716bef0a07",
+      "bytes": 3373,
+      "role": "source-review",
+      "program_version": "tail-mod0-20261014.r1"
+    }
+  ]
+}

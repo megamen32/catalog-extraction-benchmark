@@ -1,0 +1,36 @@
+{
+  "id": "innov99-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 99: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 99
+  },
+  "review_basis": "[\"Весь лист просмотрен, таблиц нет.\", \"Native приписал декоративной черте смысл вариантов окраски и назвал неподписанные выступы металлическими штуцерами.\"] Исправления: [\"Классификация supporting_material для разделителя.\", \"Фото описаны по видимому содержимому, без выдуманных функций креплений.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/b7af674c6a57ecae2286e647dc33bacb8a30c676f632870d16c7a5ae6fd60c16.json",
+      "sha256": "b7af674c6a57ecae2286e647dc33bacb8a30c676f632870d16c7a5ae6fd60c16",
+      "bytes": 5131,
+      "role": "native-candidate",
+      "program_version": "1.5.3"
+    },
+    {
+      "path": "objects/b74c71aa6a2850ff15a420a29d68fda27ff16ca67263edf5de7f91851812b8dc.json",
+      "sha256": "b74c71aa6a2850ff15a420a29d68fda27ff16ca67263edf5de7f91851812b8dc",
+      "bytes": 3396,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-innovations-20261014.r5"
+    },
+    {
+      "path": "objects/995f398fb37d944972e529454b89acb711f27ac56e1e61336c2a2f316f8f8321.json",
+      "sha256": "995f398fb37d944972e529454b89acb711f27ac56e1e61336c2a2f316f8f8321",
+      "bytes": 11193,
+      "role": "source-review",
+      "program_version": "tail-mod3-innovations-20261014.r5"
+    }
+  ]
+}

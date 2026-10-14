@@ -1,0 +1,36 @@
+{
+  "id": "innov143-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 143: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 143
+  },
+  "review_basis": "[\"Все 12 ячеек верны.\", \"Ø380 принадлежит контуру изолятора; native дал неверный размер между экранами и ложную опечатку.\", \"Собственный 10× кроп показывает У1-12-16 вместо Ч1-12-16.\"] Исправления: [\"Исправлены геометрические владельцы Ø380/Ø480 и марка ушка.\", \"Убрано утверждение о фиктивном третьем столбце, восстановлено точное назначение и бренд.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/bd3a1b99f25d221bf871005a6c98895602b9ea090fb329730c722fe275150623.json",
+      "sha256": "bd3a1b99f25d221bf871005a6c98895602b9ea090fb329730c722fe275150623",
+      "bytes": 8781,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/0d67edcdda57f78fe2ac4507f83c12273a1545a11ee6b15513f24ace20e6ded6.json",
+      "sha256": "0d67edcdda57f78fe2ac4507f83c12273a1545a11ee6b15513f24ace20e6ded6",
+      "bytes": 6968,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-innovations-20261014.r3"
+    },
+    {
+      "path": "objects/696eb4dbfea68e6fea8c02687a7af94038f7018b7c77cbae5ba60923e153b8ff.json",
+      "sha256": "696eb4dbfea68e6fea8c02687a7af94038f7018b7c77cbae5ba60923e153b8ff",
+      "bytes": 13011,
+      "role": "source-review",
+      "program_version": "tail-mod3-innovations-20261014.r3"
+    }
+  ]
+}

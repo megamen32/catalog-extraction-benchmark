@@ -1,0 +1,36 @@
+{
+  "id": "innov155-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 155: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 155
+  },
+  "review_basis": "[\"Все 182 ячейки совпадают с исходником, включая несовпадение шифра2,3/массы2,2 и объединение L716 до строки7.\", \"Native ошибочно дал замкнутый трос вместо двух грузов и перепутал D груза с проводом.\", \"Указатели шифра1/2/3 относятся к паре масс, диаметру троса, номеру плашки; native разделил их иначе.\"] Исправления: [\"Исправлены типы видимых частей и владельцы D/d/R/H/L/B/d₁/15°.\", \"Восстановлена точная связь указателей1–5 с шифром.\", \"Уточнены название и бренд, контекст перегруженного D и вложенная таблица; численные ячейки неизменны.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/966893916d9412d1f085f0b5dfc234ebd364db9f0da8215a6b7401ec3e092e15.json",
+      "sha256": "966893916d9412d1f085f0b5dfc234ebd364db9f0da8215a6b7401ec3e092e15",
+      "bytes": 37301,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/868e02475b9c21bc6bfa5777367db78f2898af96cc56281a58cc26e42c9c6510.json",
+      "sha256": "868e02475b9c21bc6bfa5777367db78f2898af96cc56281a58cc26e42c9c6510",
+      "bytes": 36199,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-innovations-20261014.r2"
+    },
+    {
+      "path": "objects/412950134e890642ec4c5511bf1167701f9911d092c883e080c3803e2e45a070.json",
+      "sha256": "412950134e890642ec4c5511bf1167701f9911d092c883e080c3803e2e45a070",
+      "bytes": 18059,
+      "role": "source-review",
+      "program_version": "tail-mod3-innovations-20261014.r2"
+    }
+  ]
+}

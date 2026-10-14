@@ -1,0 +1,36 @@
+{
+  "id": "innov191-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 191: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 191
+  },
+  "review_basis": "[\"Все 240 ячеек 15×16 сверены, численные значения верны.\", \"Native выдумал резьбовой хвостовик/конический анкер и неверно распределил D/d/d₁/d₂/L₄.\", \"Оригинал знака содержит «НЕ СОЗДАЕТ», не «НЕ СОХРАНЯЕТ».\"] Исправления: [\"Исправлены все владельцы размеров и направления опрессования.\", \"Снят ложный смысл крестиков как зон обработки и ложная резьба.\", \"Уточнены брендовый слоган и полный bbox доказательства.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/c0eed0b2d6ae7c02af625a0a4aa3dec6a71b149eeee2a9fbd947ab7daf2578ca.json",
+      "sha256": "c0eed0b2d6ae7c02af625a0a4aa3dec6a71b149eeee2a9fbd947ab7daf2578ca",
+      "bytes": 45157,
+      "role": "native-candidate",
+      "program_version": "1.5.8"
+    },
+    {
+      "path": "objects/3be5ad508dcb874fbb81e833ad4e9eb6bea927dfc8e69c114b23148aea6617ba.json",
+      "sha256": "3be5ad508dcb874fbb81e833ad4e9eb6bea927dfc8e69c114b23148aea6617ba",
+      "bytes": 41077,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-innovations-20261014.r2"
+    },
+    {
+      "path": "objects/827207ed08c38d3bead5beb73540aa2b4c164ef299c59f0e148bab95cd6c39c9.json",
+      "sha256": "827207ed08c38d3bead5beb73540aa2b4c164ef299c59f0e148bab95cd6c39c9",
+      "bytes": 19325,
+      "role": "source-review",
+      "program_version": "tail-mod3-innovations-20261014.r2"
+    }
+  ]
+}

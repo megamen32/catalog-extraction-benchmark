@@ -1,0 +1,36 @@
+{
+  "id": "arm92-tail-mod4-full-source-correction-20261014-revision-e9efdf5f2e",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 92: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 92
+  },
+  "review_basis": "[\"Повторно лично просмотрен увеличенный оригинальный предметный снимок: две отдельные детали, ориентированные вдоль друг друга. Поперечно установленный палец на фото отсутствует. Пять фотографий, заголовок и пустая таблица неизменны.\"] Исправления: [\"Центральный образец больше не назван корпусом с поперечным пальцем: отдельная продолговатая деталь лежит слева вдоль корпуса.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/cc606f59fc12c12b996a52e51a0c948db2dc1d6b66fbcfb989d1a2d3b3281261.json",
+      "sha256": "cc606f59fc12c12b996a52e51a0c948db2dc1d6b66fbcfb989d1a2d3b3281261",
+      "bytes": 5132,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/e9efdf5f2ead5991feb89d9fc29c0b3463321de855bec44c50728de86856f742.json",
+      "sha256": "e9efdf5f2ead5991feb89d9fc29c0b3463321de855bec44c50728de86856f742",
+      "bytes": 4301,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r2"
+    },
+    {
+      "path": "objects/2ee96287349fddad6558329441699159201a05e2fbbe4a6937dcc4e2685ffa6e.json",
+      "sha256": "2ee96287349fddad6558329441699159201a05e2fbbe4a6937dcc4e2685ffa6e",
+      "bytes": 3768,
+      "role": "source-review",
+      "program_version": "tail-mod0-20261014.r2"
+    }
+  ]
+}

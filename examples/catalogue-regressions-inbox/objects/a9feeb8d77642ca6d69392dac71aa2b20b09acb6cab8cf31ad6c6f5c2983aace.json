@@ -1,0 +1,120 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_filename": "Katalog-ARMATURA.pdf",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 49,
+  "printed_page": "48",
+  "status": "author_source_review_complete_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod1",
+    "task": "/root/catalog_tail_mod1",
+    "version": "tail-mod1-20261014.r2",
+    "model_id": "Current native Codex session;exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-49-candidate.json",
+    "sha256": "ffb6c53c2a74f434bf3b4d45995d0f7bf7f9754186d98883727ac87ab38860b3",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.3",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "531e9bea963ef7592a9a09035761b155f81fbf1ba43027dc5c7017c55e9693fe",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "ffb6c53c2a74f434bf3b4d45995d0f7bf7f9754186d98883727ac87ab38860b3",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 49,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "3b4165e5e56d3a8455b883aea55738aa0e06f3159a60ba01bc9d5ccabf1f6d10",
+      "receipt": "calls/1906c38f74934a8f91010f763fb43bec/result.json",
+      "started_at": 1791939593.045717,
+      "finished_at": 1791939671.1068199
+    },
+    "receipt_file": "armature-49-producer-receipt.json",
+    "receipt_sha256": "7888dcbf7404f692e52ea178e5553d7a52a44964bd4a1ca3f75c39dfba1a5ac9",
+    "receipt_artifact_equals_candidate": true
+  },
+  "output": {
+    "file": "armature-49-reviewed-r2.json",
+    "sha256": "388ca9a2728ea264593d60d44bd12002a068c8686fe1c8ba156aa3936c203ff4",
+    "author": "catalog_tail_mod1"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "fe0541b2fae9fe72cb7f1322500fce5417c183b9f3f81c59b18eb2f9b6f2c8d4",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "pagecontent_schema_valid": true
+  },
+  "tables": {
+    "row_counts": [
+      13
+    ],
+    "column_counts": [
+      11
+    ],
+    "cells_checked": 143
+  },
+  "source_findings": [
+    "Полностью сверены143 клетки13×11; B132,5 у ПРТ-30-1 и последующее125 уПРТ-35-1 действительно напечатаны. Все диаметры, длины, нагрузки и массы сохранены.",
+    "Уточнены владельцы d — диаметр левого пальца, В₁ — внутренний зазор, b — наружный размер обеих пластин. Удалены выдуманные шаровая проушина и цилиндрическая втулка.",
+    "Исправлено «промышленная электроника» в брендинге на производственное объединение."
+  ],
+  "corrections": [
+    {
+      "path": "page_context.source_evidence[3].observation",
+      "before": "Колонтитул с реквизитами изготовителя ООО «МЗВА-ЧЭМЗ», телефоном, e-mail и сайтом, а также логотипы ФОРЭНЕРГО/FORENERGO — подтверждают каталожный, а не проектный характер страницы.",
+      "after": "Колонтитул с реквизитами изготовителя ООО «МЗВА-ЧЭМЗ», телефоном, e-mail и сайтом — подтверждают каталожный, а не проектный характер страницы."
+    },
+    {
+      "path": "text_blocks[0].text",
+      "before": "ФОРЭНЕРГО — промышленная электроника / FORENERGO industrial group",
+      "after": "ФОРЭНЕРГО — производственное объединение / FORENERGO industrial group"
+    },
+    {
+      "path": "figures[0].description",
+      "before": "Верхний вид — продольный разрез звена: овальная (шаровая) проушина с болтом и шайбой наверху, цилиндрическая втулка, переход к трехлапчатому (вильчатому) корпусу с раздвинутыми концами лап; справа показаны штриховые линии невидимых контуров. Размерные линии верхнего вида: B — полная высота звена (крайняя левая вертикальная линия), B₁ — высота центральной овальной части, d — размер центральной части звена (внутренняя горизонтальная размерная линия со стрелками между двумя вертикальными гранями втулки), b — ширина раскрытых концов лап (вертикальная размерная линия справа у вилки; знак на странице напечатан повёрнутым, это строчная b, совпадающая с колонкой b таблицы). Нижний вид — план: звено с закруглёнными торцами, слева шестигранная гайка с круглым отверстием и элементами резьбы, правее четыре вертикальные линии граней перехода, справа круглое отверстие, на которое указывает указатель с обозначением D. Размеры плана: L — полная длина звена, A — расстояние от оси гайки до оси отверстия D, H — ширина звена. Числовых значений размеров, знаков точности и дополнительных примечаний на чертеже нет; обозначения d и D набраны без знака диаметра.",
+      "after": "ПРТ, два ортогональных вида звена с двумя профилированными пластинами и левым поперечным пальцем с крепежом и шплинтом. На верхнем виде В — полный размер от верхнего конца пальца до нижней наружной границы его головки; В₁ — внутренний зазор между пластинами у левого пальца. d — диаметр этого пальца между боковыми образующими. b — суммарный наружный поперечный размер двух пластин на правом конце, включая внутренний промежуток, а не ширина одного раскрытия. Нижний план: D — диаметр правого присоединительного отверстия; А — между осями левого пальца и правого отверстия, L — полная длина, Н — наружная ширина профиля. Числа и единицы мм для буквенных размеров даны в таблице; отдельных допусков на рисунке нет."
+    },
+    {
+      "path": "source_notes[1]",
+      "before": "Размер на правой стороне верхнего вида напечатан повёрнутым на 90°; при сверке с таблицей установлено, что это строчная b (ширина раскрытых концов лап), а не l.",
+      "after": "Справа на верхнем виде размер b набран повёрнутым. Он охватывает наружные границы обеих пластин правого конца. В₁ слева, напротив, задан между внутренними гранями пластин."
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "independent_review_required": true,
+  "independent_review_status": "pending",
+  "separate_model_review_of_root_edits": null,
+  "unresolved_issues": [
+    "Нужна независимая проверка авторского разбора и инженерных отношений."
+  ],
+  "completed_at": "2026-10-14T14:40:20.761699+00:00",
+  "supersedes": {
+    "output": "armature-49-reviewed.json",
+    "sha256": "8161f1cbb34e4eabe2df366fe9ad283d0c41b2bfd03fa29f98475a00dd10a5a4",
+    "source_review": "armature-49-source-review.json",
+    "source_review_sha256": "ad4086bd3b3ed6e0d0aa899d1c811c735b6ae1c5c448ab6b75bcd23f9d0be853"
+  },
+  "revision_reason": "Из наблюдения нижнего колонтитула убрано приписывание верхних логотипов.",
+  "revision_corrections": [
+    {
+      "path": "page_context.source_evidence[3].observation",
+      "before": "Колонтитул с реквизитами изготовителя ООО «МЗВА-ЧЭМЗ», телефоном, e-mail и сайтом, а также логотипы ФОРЭНЕРГО/FORENERGO — подтверждают каталожный, а не проектный характер страницы.",
+      "after": "Колонтитул с реквизитами изготовителя ООО «МЗВА-ЧЭМЗ», телефоном, e-mail и сайтом — подтверждают каталожный, а не проектный характер страницы."
+    }
+  ],
+  "private_original_receipt_sha256": "4ce2cf456f7eda0d4cbb17b6790ccaf8e5cbe71ea99f0012fb3bd2689fa2efad"
+}

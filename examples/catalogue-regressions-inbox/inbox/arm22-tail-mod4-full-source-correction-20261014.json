@@ -1,0 +1,36 @@
+{
+  "id": "arm22-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 22: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 22
+  },
+  "review_basis": "[\"Все100 ячеек,массы/нагрузки/объединения17/21 и группы рисунков1/2/3 сохранены.\", \"Назначение серьги для шапок изоляторов/головок ушек иТУ сохранены.\"] Исправления: [\"Нижняя база H исправлена с самого низа пятки на верхний опорный уровень.\", \"Урисунка3 отдельно исправлена верхняя база H: нижняя поверхность сечения кольца вместо оси отверстия; H₁полный не менялся.\", \"Ошибочная подпись у логотипа заменена на напечатанное «производственное объединение»; полный номер ТУ сохранён как на данном листе.\", \"Пояснения и описания записаны с нормальными пробелами; буквальные маркировки и табличные поля сохранены.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/108e2fdf447385f75f807a3aa3052227eec16d58d85484c7d769dfff8b8518b3.json",
+      "sha256": "108e2fdf447385f75f807a3aa3052227eec16d58d85484c7d769dfff8b8518b3",
+      "bytes": 26308,
+      "role": "native-candidate",
+      "program_version": "1.5.3"
+    },
+    {
+      "path": "objects/dbd9f4f17b807813e1a8f5faff158a27e5725472d10020f1cbc0ef94e0ec23df.json",
+      "sha256": "dbd9f4f17b807813e1a8f5faff158a27e5725472d10020f1cbc0ef94e0ec23df",
+      "bytes": 25179,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r2"
+    },
+    {
+      "path": "objects/9019aba76c5784d2a6f35e259f7ea40531116e240ac1fd0635709729bd52873d.json",
+      "sha256": "9019aba76c5784d2a6f35e259f7ea40531116e240ac1fd0635709729bd52873d",
+      "bytes": 3931,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r2"
+    }
+  ]
+}

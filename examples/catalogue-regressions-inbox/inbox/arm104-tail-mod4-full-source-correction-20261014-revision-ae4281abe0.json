@@ -1,0 +1,36 @@
+{
+  "id": "arm104-tail-mod4-full-source-correction-20261014-revision-ae4281abe0",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 104: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 104
+  },
+  "review_basis": "[\"Указание полного поперечного размера80 относится к исходному видуА; фактические данные не менялись.\", \"Точный diff r2/r3 ограничен одним пробелом. Все544 ячейки и геометрия ранее независимо подтверждены mod1.\"] Исправления: [\"Оставшаяся склейка «полной шириной80» исправлена на «полной шириной 80».\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/29edd75ea44a8ecf8d88563844dbf0e43c3f6ee3174d62ef5a0c91d171783e5b.json",
+      "sha256": "29edd75ea44a8ecf8d88563844dbf0e43c3f6ee3174d62ef5a0c91d171783e5b",
+      "bytes": 85401,
+      "role": "native-candidate",
+      "program_version": "1.5.5"
+    },
+    {
+      "path": "objects/ae4281abe0fbb352f1e90662f028d56a211460aaa4fda08a2a3b331250b9c7a2.json",
+      "sha256": "ae4281abe0fbb352f1e90662f028d56a211460aaa4fda08a2a3b331250b9c7a2",
+      "bytes": 85109,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r3"
+    },
+    {
+      "path": "objects/3e6e6425180feffd33cad447092db6c6e07fbb4471f8da3c36ba4f345be675ce.json",
+      "sha256": "3e6e6425180feffd33cad447092db6c6e07fbb4471f8da3c36ba4f345be675ce",
+      "bytes": 3487,
+      "role": "source-review",
+      "program_version": "tail-mod0-20261014.r3"
+    }
+  ]
+}

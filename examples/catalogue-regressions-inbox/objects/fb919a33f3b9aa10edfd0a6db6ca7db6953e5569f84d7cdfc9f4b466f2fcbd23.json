@@ -1,0 +1,1534 @@
+{
+  "title": "Шлейфы изолированные ШСИП-220-(…)-7-L: чертёж, назначение и таблица типового ряда",
+  "page_context": {
+    "kind": "catalogue_product_data",
+    "summary": "Изолированные шлейфы ШСИП модификации «7» для нового строительства или реконструкции ВЛ с заменой провода. Шлейф имеет собственные опрессованные окончания «штырь» и «лапка» и применяется с внешними зажимами НАС-1Б/НАС-1В. Внешние натяжные зажимы показаны пунктиром и в комплект шлейфа не входят. Чертёж с местными видами А/Б и таблица 18 проводных сочетаний с размерами, матрицами и предельной массой при L=7 м.",
+    "source_evidence": [
+      {
+        "kind": "catalogue_product_data",
+        "box": [
+          0.06,
+          0,
+          0.98,
+          0.995
+        ],
+        "observation": "Полный лист: рубрика, бренды, рисунок с двумя направлениями «В пролёт» и одним направлением опрессования, позиции 1–3, все размеры, назначение/состав/демонтаж, таблица 18×14 и контакты с info@mzva.ru страницы 131. Два размера 5 относятся к осевым изоляционным перемычкам, S — к толщине контактной лапки.",
+        "transcription": "literal"
+      }
+    ]
+  },
+  "printed_page": "131",
+  "text_blocks": [
+    {
+      "kind": "heading",
+      "text": "ШЛЕЙФЫ ИЗОЛИРОВАННЫЕ"
+    },
+    {
+      "kind": "paragraph",
+      "text": "ШСИП модификации «7» применяются при оснащении ВЛ изолированными шлейфами в ходе нового строительства или реконструкции ВЛ с заменой провода."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Шлейф состоит из изолированного проводника и опрессованных на его концах зажимов. С одной стороны зажим типа «штырь», с другой — зажим с «лапкой». Предназначен для монтажа с одной стороны с зажимом типа НАС-1Б, с другой — с зажимом типа НАС-1В."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Дополнительное преимущество: возможность демонтажа и последующего присоединения шлейфа обратно благодаря болтовому соединению."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Пояснение к чертежу: 1 — зажим типа «штырь»; 2 — зажим с «лапкой»; 3 — проводник изолированный. «Зажимы не входят в комплект поставки шлейфа» — выноски к двум внешним натяжным зажимам НАС (см. табл.), показанным пунктиром. Собственные окончания 1 и 2 входят в описанный состав шлейфа."
+    },
+    {
+      "kind": "branding",
+      "text": "ФОРЭНЕРГО / FORENERGO manufacturing association — производственное объединение"
+    },
+    {
+      "kind": "footer",
+      "text": "ООО «МЗВА». Тел./факс: +7 (495) 780-51-65, e-mail: info@mzva.ru, www.mzva.ru — 131"
+    }
+  ],
+  "tables": [
+    {
+      "id": "t1",
+      "title": "Типовой ряд изолированных шлейфов ШСИП-220 (модификация «7», L=7 м)",
+      "columns": [
+        {
+          "id": "designation",
+          "label": "Наименование",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "conductor",
+          "label": "Марка провода АС по ГОСТ 839-2019: сечение",
+          "unit": "мм²",
+          "group": "Марка провода АС по ГОСТ 839-2019",
+          "qualifier": null
+        },
+        {
+          "id": "diam_range",
+          "label": "Марка провода АС по ГОСТ 839-2019: диапазон диаметров",
+          "unit": "мм",
+          "group": "Марка провода АС по ГОСТ 839-2019",
+          "qualifier": null
+        },
+        {
+          "id": "matrix",
+          "label": "Матрица опрессования",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "clamp_b",
+          "label": "Наименование зажима, с которым применяется шлейф (сторона с зажимом типа «штырь», Б)",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "clamp_v",
+          "label": "Наименование зажима, с которым применяется шлейф (сторона с зажимом типа НАС-1В)",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "L1",
+          "label": "L1",
+          "unit": "мм",
+          "group": "Размеры, мм",
+          "qualifier": null
+        },
+        {
+          "id": "L2",
+          "label": "L2",
+          "unit": "мм",
+          "group": "Размеры, мм",
+          "qualifier": null
+        },
+        {
+          "id": "L3",
+          "label": "L3",
+          "unit": "мм",
+          "group": "Размеры, мм",
+          "qualifier": null
+        },
+        {
+          "id": "L4",
+          "label": "L4",
+          "unit": "мм",
+          "group": "Размеры, мм",
+          "qualifier": null
+        },
+        {
+          "id": "L5",
+          "label": "L5",
+          "unit": "мм",
+          "group": "Размеры, мм",
+          "qualifier": null
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "unit": "мм",
+          "group": "Размеры, мм",
+          "qualifier": null
+        },
+        {
+          "id": "S",
+          "label": "S",
+          "unit": "мм",
+          "group": "Размеры, мм",
+          "qualifier": null
+        },
+        {
+          "id": "mass",
+          "label": "Масса шлейфа при L=7 м, не более",
+          "unit": "кг",
+          "group": null,
+          "qualifier": "не более"
+        }
+      ],
+      "rows": [
+        {
+          "cells": [
+            {
+              "column_id": "designation",
+              "value": "ШСИП-220-(21-22)-7-L",
+              "state": "value"
+            },
+            {
+              "column_id": "conductor",
+              "value": "240/32",
+              "state": "value"
+            },
+            {
+              "column_id": "diam_range",
+              "value": "21-22",
+              "state": "value"
+            },
+            {
+              "column_id": "matrix",
+              "value": "МШ-33,8",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp_b",
+              "value": "НАС-240-1Б",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp_v",
+              "value": "НАС-240-1В",
+              "state": "value"
+            },
+            {
+              "column_id": "L1",
+              "value": "100",
+              "state": "value"
+            },
+            {
+              "column_id": "L2",
+              "value": "105",
+              "state": "value"
+            },
+            {
+              "column_id": "L3",
+              "value": "115",
+              "state": "value"
+            },
+            {
+              "column_id": "L4",
+              "value": "142",
+              "state": "value"
+            },
+            {
+              "column_id": "L5",
+              "value": "170",
+              "state": "value"
+            },
+            {
+              "column_id": "D",
+              "value": "21",
+              "state": "value"
+            },
+            {
+              "column_id": "S",
+              "value": "12",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "14,9",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "designation",
+              "value": "ШСИП-220-(21-22)-7-L",
+              "state": "value"
+            },
+            {
+              "column_id": "conductor",
+              "value": "240/39",
+              "state": "value"
+            },
+            {
+              "column_id": "diam_range",
+              "value": "21-22",
+              "state": "value"
+            },
+            {
+              "column_id": "matrix",
+              "value": "МШ-34,6",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp_b",
+              "value": "НАС-240-2Б",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp_v",
+              "value": "НАС-240-2В",
+              "state": "value"
+            },
+            {
+              "column_id": "L1",
+              "value": "100",
+              "state": "value"
+            },
+            {
+              "column_id": "L2",
+              "value": "105",
+              "state": "value"
+            },
+            {
+              "column_id": "L3",
+              "value": "115",
+              "state": "value"
+            },
+            {
+              "column_id": "L4",
+              "value": "142",
+              "state": "value"
+            },
+            {
+              "column_id": "L5",
+              "value": "170",
+              "state": "value"
+            },
+            {
+              "column_id": "D",
+              "value": "21",
+              "state": "value"
+            },
+            {
+              "column_id": "S",
+              "value": "12",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "14,9",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "designation",
+              "value": "ШСИП-220-(22,1-23)-7-L",
+              "state": "value"
+            },
+            {
+              "column_id": "conductor",
+              "value": "240/56",
+              "state": "value"
+            },
+            {
+              "column_id": "diam_range",
+              "value": "22,1-23",
+              "state": "value"
+            },
+            {
+              "column_id": "matrix",
+              "value": "МШ-39,8",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp_b",
+              "value": "НАС-330-1Б",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp_v",
+              "value": "НАС-330-1В",
+              "state": "value"
+            },
+            {
+              "column_id": "L1",
+              "value": "110",
+              "state": "value"
+            },
+            {
+              "column_id": "L2",
+              "value": "115",
+              "state": "value"
+            },
+            {
+              "column_id": "L3",
+              "value": "130",
+              "state": "value"
+            },
+            {
+              "column_id": "L4",
+              "value": "142",
+              "state": "value"
+            },
+            {
+              "column_id": "L5",
+              "value": "170",
+              "state": "value"
+            },
+            {
+              "column_id": "D",
+              "value": "24",
+              "state": "value"
+            },
+            {
+              "column_id": "S",
+              "value": "12",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "14,95",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "designation",
+              "value": "ШСИП-220-(24-24,5)-7-L",
+              "state": "value"
+            },
+            {
+              "column_id": "conductor",
+              "value": "300/39",
+              "state": "value"
+            },
+            {
+              "column_id": "diam_range",
+              "value": "24-24,5",
+              "state": "value"
+            },
+            {
+              "column_id": "matrix",
+              "value": "МШ-39,8",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp_b",
+              "value": "НАС-330-1Б",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp_v",
+              "value": "НАС-330-1В",
+              "state": "value"
+            },
+            {
+              "column_id": "L1",
+              "value": "110",
+              "state": "value"
+            },
+            {
+              "column_id": "L2",
+              "value": "115",
+              "state": "value"
+            },
+            {
+              "column_id": "L3",
+              "value": "130",
+              "state": "value"
+            },
+            {
+              "column_id": "L4",
+              "value": "152",
+              "state": "value"
+            },
+            {
+              "column_id": "L5",
+              "value": "183",
+              "state": "value"
+            },
+            {
+              "column_id": "D",
+              "value": "24",
+              "state": "value"
+            },
+            {
+              "column_id": "S",
+              "value": "14",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "17,8",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "designation",
+              "value": "ШСИП-220-(24-24,5)-7-L",
+              "state": "value"
+            },
+            {
+              "column_id": "conductor",
+              "value": "300/48",
+              "state": "value"
+            },
+            {
+              "column_id": "diam_range",
+              "value": "24-24,5",
+              "state": "value"
+            },
+            {
+              "column_id": "matrix",
+              "value": "МШ-39,8",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp_b",
+              "value": "НАС-330-1Б",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp_v",
+              "value": "НАС-330-1В",
+              "state": "value"
+            },
+            {
+              "column_id": "L1",
+              "value": "110",
+              "state": "value"
+            },
+            {
+              "column_id": "L2",
+              "value": "115",
+              "state": "value"
+            },
+            {
+              "column_id": "L3",
+              "value": "130",
+              "state": "value"
+            },
+            {
+              "column_id": "L4",
+              "value": "152",
+              "state": "value"
+            },
+            {
+              "column_id": "L5",
+              "value": "183",
+              "state": "value"
+            },
+            {
+              "column_id": "D",
+              "value": "24",
+              "state": "value"
+            },
+            {
+              "column_id": "S",
+              "value": "14",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "17,8",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "designation",
+              "value": "ШСИП-220-(24-24,5)-7-L",
+              "state": "value"
+            },
+            {
+              "column_id": "conductor",
+              "value": "300/66",
+              "state": "value"
+            },
+            {
+              "column_id": "diam_range",
+              "value": "24-24,5",
+              "state": "value"
+            },
+            {
+              "column_id": "matrix",
+              "value": "МШ-39,8",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp_b",
+              "value": "НАС-300-1Б",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp_v",
+              "value": "НАС-300-1В",
+              "state": "value"
+            },
+            {
+              "column_id": "L1",
+              "value": "110",
+              "state": "value"
+            },
+            {
+              "column_id": "L2",
+              "value": "115",
+              "state": "value"
+            },
+            {
+              "column_id": "L3",
+              "value": "130",
+              "state": "value"
+            },
+            {
+              "column_id": "L4",
+              "value": "152",
+              "state": "value"
+            },
+            {
+              "column_id": "L5",
+              "value": "183",
+              "state": "value"
+            },
+            {
+              "column_id": "D",
+              "value": "24",
+              "state": "value"
+            },
+            {
+              "column_id": "S",
+              "value": "14",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "17,8",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "designation",
+              "value": "ШСИП-220-(24-24,5)-7-L",
+              "state": "value"
+            },
+            {
+              "column_id": "conductor",
+              "value": "300/67",
+              "state": "value"
+            },
+            {
+              "column_id": "diam_range",
+              "value": "24-24,5",
+              "state": "value"
+            },
+            {
+              "column_id": "matrix",
+              "value": "МШ-39,8",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp_b",
+              "value": "НАС-300-1Б",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp_v",
+              "value": "НАС-300-1В",
+              "state": "value"
+            },
+            {
+              "column_id": "L1",
+              "value": "110",
+              "state": "value"
+            },
+            {
+              "column_id": "L2",
+              "value": "115",
+              "state": "value"
+            },
+            {
+              "column_id": "L3",
+              "value": "130",
+              "state": "value"
+            },
+            {
+              "column_id": "L4",
+              "value": "152",
+              "state": "value"
+            },
+            {
+              "column_id": "L5",
+              "value": "183",
+              "state": "value"
+            },
+            {
+              "column_id": "D",
+              "value": "24",
+              "state": "value"
+            },
+            {
+              "column_id": "S",
+              "value": "14",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "17,8",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "designation",
+              "value": "ШСИП-220-(24,6-25,5)-7-L",
+              "state": "value"
+            },
+            {
+              "column_id": "conductor",
+              "value": "330/30",
+              "state": "value"
+            },
+            {
+              "column_id": "diam_range",
+              "value": "24,6-25,5",
+              "state": "value"
+            },
+            {
+              "column_id": "matrix",
+              "value": "МШ-41,6",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp_b",
+              "value": "НАС-400-1Б",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp_v",
+              "value": "НАС-400-1В",
+              "state": "value"
+            },
+            {
+              "column_id": "L1",
+              "value": "120",
+              "state": "value"
+            },
+            {
+              "column_id": "L2",
+              "value": "125",
+              "state": "value"
+            },
+            {
+              "column_id": "L3",
+              "value": "140",
+              "state": "value"
+            },
+            {
+              "column_id": "L4",
+              "value": "152",
+              "state": "value"
+            },
+            {
+              "column_id": "L5",
+              "value": "183",
+              "state": "value"
+            },
+            {
+              "column_id": "D",
+              "value": "26",
+              "state": "value"
+            },
+            {
+              "column_id": "S",
+              "value": "14",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "17,85",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "designation",
+              "value": "ШСИП-220-(24,6-25,5)-7-L",
+              "state": "value"
+            },
+            {
+              "column_id": "conductor",
+              "value": "330/43",
+              "state": "value"
+            },
+            {
+              "column_id": "diam_range",
+              "value": "24,6-25,5",
+              "state": "value"
+            },
+            {
+              "column_id": "matrix",
+              "value": "МШ-41,6",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp_b",
+              "value": "НАС-330-3Б",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp_v",
+              "value": "НАС-330-3В",
+              "state": "value"
+            },
+            {
+              "column_id": "L1",
+              "value": "120",
+              "state": "value"
+            },
+            {
+              "column_id": "L2",
+              "value": "125",
+              "state": "value"
+            },
+            {
+              "column_id": "L3",
+              "value": "140",
+              "state": "value"
+            },
+            {
+              "column_id": "L4",
+              "value": "152",
+              "state": "value"
+            },
+            {
+              "column_id": "L5",
+              "value": "183",
+              "state": "value"
+            },
+            {
+              "column_id": "D",
+              "value": "26",
+              "state": "value"
+            },
+            {
+              "column_id": "S",
+              "value": "14",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "17,85",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "designation",
+              "value": "ШСИП-220-(26-27)-7-L",
+              "state": "value"
+            },
+            {
+              "column_id": "conductor",
+              "value": "400 /18",
+              "state": "value"
+            },
+            {
+              "column_id": "diam_range",
+              "value": "26-27",
+              "state": "value"
+            },
+            {
+              "column_id": "matrix",
+              "value": "МШ-41,6",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp_b",
+              "value": "НАС-400-1Б",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp_v",
+              "value": "НАС-400-1В",
+              "state": "value"
+            },
+            {
+              "column_id": "L1",
+              "value": "120",
+              "state": "value"
+            },
+            {
+              "column_id": "L2",
+              "value": "125",
+              "state": "value"
+            },
+            {
+              "column_id": "L3",
+              "value": "140",
+              "state": "value"
+            },
+            {
+              "column_id": "L4",
+              "value": "155",
+              "state": "value"
+            },
+            {
+              "column_id": "L5",
+              "value": "190",
+              "state": "value"
+            },
+            {
+              "column_id": "D",
+              "value": "26",
+              "state": "value"
+            },
+            {
+              "column_id": "S",
+              "value": "16",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "20,65",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "designation",
+              "value": "ШСИП-220-(26-27)-7-L",
+              "state": "value"
+            },
+            {
+              "column_id": "conductor",
+              "value": "400/22",
+              "state": "value"
+            },
+            {
+              "column_id": "diam_range",
+              "value": "26-27",
+              "state": "value"
+            },
+            {
+              "column_id": "matrix",
+              "value": "МШ-41,6",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp_b",
+              "value": "НАС-400-1Б",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp_v",
+              "value": "НАС-400-1В",
+              "state": "value"
+            },
+            {
+              "column_id": "L1",
+              "value": "120",
+              "state": "value"
+            },
+            {
+              "column_id": "L2",
+              "value": "125",
+              "state": "value"
+            },
+            {
+              "column_id": "L3",
+              "value": "140",
+              "state": "value"
+            },
+            {
+              "column_id": "L4",
+              "value": "155",
+              "state": "value"
+            },
+            {
+              "column_id": "L5",
+              "value": "190",
+              "state": "value"
+            },
+            {
+              "column_id": "D",
+              "value": "26",
+              "state": "value"
+            },
+            {
+              "column_id": "S",
+              "value": "16",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "20,65",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "designation",
+              "value": "ШСИП-220-(27,1-29)-7-L",
+              "state": "value"
+            },
+            {
+              "column_id": "conductor",
+              "value": "400/51",
+              "state": "value"
+            },
+            {
+              "column_id": "diam_range",
+              "value": "27,1-29",
+              "state": "value"
+            },
+            {
+              "column_id": "matrix",
+              "value": "МШ-44,2",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp_b",
+              "value": "НАС-450-1Б",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp_v",
+              "value": "НАС-450-1В",
+              "state": "value"
+            },
+            {
+              "column_id": "L1",
+              "value": "120",
+              "state": "value"
+            },
+            {
+              "column_id": "L2",
+              "value": "125",
+              "state": "value"
+            },
+            {
+              "column_id": "L3",
+              "value": "140",
+              "state": "value"
+            },
+            {
+              "column_id": "L4",
+              "value": "155",
+              "state": "value"
+            },
+            {
+              "column_id": "L5",
+              "value": "190",
+              "state": "value"
+            },
+            {
+              "column_id": "D",
+              "value": "28",
+              "state": "value"
+            },
+            {
+              "column_id": "S",
+              "value": "16",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "20,7",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "designation",
+              "value": "ШСИП-220-(27,1-29)-7-L",
+              "state": "value"
+            },
+            {
+              "column_id": "conductor",
+              "value": "400/64",
+              "state": "value"
+            },
+            {
+              "column_id": "diam_range",
+              "value": "27,1-29",
+              "state": "value"
+            },
+            {
+              "column_id": "matrix",
+              "value": "МШ-44,2",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp_b",
+              "value": "НАС-450-1Б",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp_v",
+              "value": "НАС-450-1В",
+              "state": "value"
+            },
+            {
+              "column_id": "L1",
+              "value": "120",
+              "state": "value"
+            },
+            {
+              "column_id": "L2",
+              "value": "125",
+              "state": "value"
+            },
+            {
+              "column_id": "L3",
+              "value": "140",
+              "state": "value"
+            },
+            {
+              "column_id": "L4",
+              "value": "155",
+              "state": "value"
+            },
+            {
+              "column_id": "L5",
+              "value": "190",
+              "state": "value"
+            },
+            {
+              "column_id": "D",
+              "value": "28",
+              "state": "value"
+            },
+            {
+              "column_id": "S",
+              "value": "16",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "20,7",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "designation",
+              "value": "ШСИП-220-(27,1-29)-7-L",
+              "state": "value"
+            },
+            {
+              "column_id": "conductor",
+              "value": "450/56",
+              "state": "value"
+            },
+            {
+              "column_id": "diam_range",
+              "value": "27,1-29",
+              "state": "value"
+            },
+            {
+              "column_id": "matrix",
+              "value": "МШ-44,2",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp_b",
+              "value": "НАС-450-1Б",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp_v",
+              "value": "НАС-450-1В",
+              "state": "value"
+            },
+            {
+              "column_id": "L1",
+              "value": "120",
+              "state": "value"
+            },
+            {
+              "column_id": "L2",
+              "value": "125",
+              "state": "value"
+            },
+            {
+              "column_id": "L3",
+              "value": "140",
+              "state": "value"
+            },
+            {
+              "column_id": "L4",
+              "value": "155",
+              "state": "value"
+            },
+            {
+              "column_id": "L5",
+              "value": "190",
+              "state": "value"
+            },
+            {
+              "column_id": "D",
+              "value": "28",
+              "state": "value"
+            },
+            {
+              "column_id": "S",
+              "value": "16",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "20,7",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "designation",
+              "value": "ШСИП-220-(29,1-31)-7-L",
+              "state": "value"
+            },
+            {
+              "column_id": "conductor",
+              "value": "400/93",
+              "state": "value"
+            },
+            {
+              "column_id": "diam_range",
+              "value": "29,1-31",
+              "state": "value"
+            },
+            {
+              "column_id": "matrix",
+              "value": "МШ-47,6",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp_b",
+              "value": "НАС-600-1Б",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp_v",
+              "value": "НАС-600-1В",
+              "state": "value"
+            },
+            {
+              "column_id": "L1",
+              "value": "140",
+              "state": "value"
+            },
+            {
+              "column_id": "L2",
+              "value": "145",
+              "state": "value"
+            },
+            {
+              "column_id": "L3",
+              "value": "165",
+              "state": "value"
+            },
+            {
+              "column_id": "L4",
+              "value": "160",
+              "state": "value"
+            },
+            {
+              "column_id": "L5",
+              "value": "195",
+              "state": "value"
+            },
+            {
+              "column_id": "D",
+              "value": "29",
+              "state": "value"
+            },
+            {
+              "column_id": "S",
+              "value": "16",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "24,05",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "designation",
+              "value": "ШСИП-220-(29,1-31)-7-L",
+              "state": "value"
+            },
+            {
+              "column_id": "conductor",
+              "value": "500/64",
+              "state": "value"
+            },
+            {
+              "column_id": "diam_range",
+              "value": "29,1-31",
+              "state": "value"
+            },
+            {
+              "column_id": "matrix",
+              "value": "МШ-47,6",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp_b",
+              "value": "НАС-600-1Б",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp_v",
+              "value": "НАС-600-1В",
+              "state": "value"
+            },
+            {
+              "column_id": "L1",
+              "value": "140",
+              "state": "value"
+            },
+            {
+              "column_id": "L2",
+              "value": "145",
+              "state": "value"
+            },
+            {
+              "column_id": "L3",
+              "value": "165",
+              "state": "value"
+            },
+            {
+              "column_id": "L4",
+              "value": "160",
+              "state": "value"
+            },
+            {
+              "column_id": "L5",
+              "value": "195",
+              "state": "value"
+            },
+            {
+              "column_id": "D",
+              "value": "29",
+              "state": "value"
+            },
+            {
+              "column_id": "S",
+              "value": "16",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "24,05",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "designation",
+              "value": "ШСИП-220-(29,1-31)-7-L",
+              "state": "value"
+            },
+            {
+              "column_id": "conductor",
+              "value": "500/26",
+              "state": "value"
+            },
+            {
+              "column_id": "diam_range",
+              "value": "29,1-31",
+              "state": "value"
+            },
+            {
+              "column_id": "matrix",
+              "value": "МШ-47,6",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp_b",
+              "value": "НАС-500-1Б",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp_v",
+              "value": "НАС-500-1В",
+              "state": "value"
+            },
+            {
+              "column_id": "L1",
+              "value": "140",
+              "state": "value"
+            },
+            {
+              "column_id": "L2",
+              "value": "145",
+              "state": "value"
+            },
+            {
+              "column_id": "L3",
+              "value": "165",
+              "state": "value"
+            },
+            {
+              "column_id": "L4",
+              "value": "160",
+              "state": "value"
+            },
+            {
+              "column_id": "L5",
+              "value": "195",
+              "state": "value"
+            },
+            {
+              "column_id": "D",
+              "value": "29",
+              "state": "value"
+            },
+            {
+              "column_id": "S",
+              "value": "16",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "24,05",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "designation",
+              "value": "ШСИП-220-(29,1-31)-7-L",
+              "state": "value"
+            },
+            {
+              "column_id": "conductor",
+              "value": "500/27",
+              "state": "value"
+            },
+            {
+              "column_id": "diam_range",
+              "value": "29,1-31",
+              "state": "value"
+            },
+            {
+              "column_id": "matrix",
+              "value": "МШ-47,6",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp_b",
+              "value": "НАС-500-1Б",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp_v",
+              "value": "НАС-500-1В",
+              "state": "value"
+            },
+            {
+              "column_id": "L1",
+              "value": "140",
+              "state": "value"
+            },
+            {
+              "column_id": "L2",
+              "value": "145",
+              "state": "value"
+            },
+            {
+              "column_id": "L3",
+              "value": "165",
+              "state": "value"
+            },
+            {
+              "column_id": "L4",
+              "value": "160",
+              "state": "value"
+            },
+            {
+              "column_id": "L5",
+              "value": "195",
+              "state": "value"
+            },
+            {
+              "column_id": "D",
+              "value": "29",
+              "state": "value"
+            },
+            {
+              "column_id": "S",
+              "value": "16",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "24,05",
+              "state": "value"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "figures": [
+    {
+      "title": "ШСИП модификации «7»: штырь, лапка и изолированный проводник",
+      "description": "Слева собственный штыревой зажим 1 вставлен в пунктирный внешний зажим НАС, справа собственная лапка 2 соединена болтами с другим пунктирным внешним НАС. Между ними изолированный проводник 3 с условным разрывом. Внешние зажимы в комплект шлейфа не входят; это не исключает собственные окончания 1/2. Стрелки «В пролёт» направлены наружу, стрелка опрессования слева — вниз-вправо вдоль наклонного зажима. L обозначен криволинейно по проводнику до стыковой перемычки справа, а не полным габаритом вместе с обоими натяжными зажимами. L₁ — указанная длина наклонной прямой зоны внешнего зажима НАС над его торцом. На местном виде Б: L₂ — от верхнего торца штыря до начала нижнего перехода, L₃ — от того же верхнего торца до нижней грани перехода перед буртом; D — поперечный размер металлического штыря, а не диаметр проводника. L₄ — от верхнего торца штыря до верхней границы стыковой перемычки 5 на левом окончании; L₅ — от оси нижнего ряда болтов контактного соединения до верхней границы аналогичной перемычки справа; верхняя выносная линия продолжается через ось нижнего болта, а не к верхнему торцу лапки. Два размера 5 — осевая толщина заштрихованной изоляционной перемычки на стыке металлического окончания с проводником, связанной с продольной оболочкой, не пустой зазор. S — толщина собственной контактной лапки 2, без пунктирной встречной пластины и болтов. На виде А: 80 — ширина лапки, второй 80 — от верхнего условного обрыва до начала нижнего сужения; два 45 — межосевые расстояния крепежей по горизонтали и вертикали; 17,5 — от верхнего обрыва до оси верхнего ряда крепежей. Шестигранники изображают крепёж, а не шестигранные отверстия.",
+      "labels": [
+        "В пролёт",
+        "В пролёт",
+        "Зажимы не входят в комплект поставки шлейфа",
+        "Зажим натяжной тип НАС (см. табл.)",
+        "Зажим натяжной тип НАС (см. табл.)",
+        "1",
+        "2",
+        "3",
+        "L",
+        "L₁",
+        "L₂",
+        "L₃",
+        "L₄",
+        "L₅",
+        "D",
+        "S",
+        "А",
+        "Б",
+        "80",
+        "80",
+        "45",
+        "45",
+        "17,5",
+        "5",
+        "5",
+        "Направление опрессования"
+      ]
+    }
+  ],
+  "source_notes": [
+    "В таблице 14 столбцов, 18 проводных строк и 7 наименований. Отдельный пустой технический столбец рядом с наименованием отсутствует.",
+    "В столбцах L5 и S печатные значения (170/12, 183/14, 190/16, 195/16) размещены в ячейках, объединённых через границы групп строк: 170 и 12 — на строки 240/32, 240/39 и 240/56; 183 и 14 — на все четыре строки 300/xx и обе строки 330/xx; 190 и 16 — на строки 400/18, 400/22, 400/51, 400/64 и 450/56; 195 и 16 — на все четыре строки группы 400/93…500/27. Значения распространены на реально покрытые объединением строки.",
+    "Сечение «400 /18» в источнике набрано с пробелом перед косой чертой.",
+    "Поясняющий текст называет зажимы «типа НАС-1Б» и «НАС-1В», тогда как таблица приводит конкретные исполнения (НАС-240-1Б … НАС-500-1В); расхождение сохранено как в источнике.",
+    "Два размера 5 относятся к осевой толщине стыковых изоляционных перемычек. Это не радиальная толщина оболочки и не пустые зазоры.",
+    "Все 252 ячейки проверены по собственному 5× кропу. Необычные соответствия 240/56→НАС-330-1Б/1В, 330/30→НАС-400-1Б/1В и 300/39/48→НАС-330-1Б/1В буквально напечатаны и сохранены. L₅/S действительно объединены через границы групп: 170/12 по первым трём строкам, 183/14 по следующим шести, 190/16 по следующим пяти, 195/16 по последним четырём."
+  ],
+  "uncertainties": []
+}

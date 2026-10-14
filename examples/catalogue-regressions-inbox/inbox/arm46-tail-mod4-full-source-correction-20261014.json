@@ -1,0 +1,36 @@
+{
+  "id": "arm46-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 46: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 46
+  },
+  "review_basis": "[\"151ячеек обеих таблиц сверены,все размеры/массы/нагрузки сохранены без изменения.\", \"ТУ3449-001-52819896-2010,назначение повышенной подвижности иразворот90° сохранены.\", \"Разделены слитные слова в пояснении source_evidence для читаемости. Геометрия и все таблицы неизменны.\"] Исправления: [\"Сксобы исправлены на напечатанноеСкобы,федеральная торговая марка на производственноеобъединение.\", \"Ø14/18связаны со стержнями,Ø16/22спальцами,17/23спросветом,70свнутренним изгибом.\", \"СКТ dболт,B₁просвет;убрано ложное отсутствие единиц в таблицах.\", \"Разделены слитные слова в пояснении source_evidence для читаемости. Геометрия и все таблицы неизменны.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/cf3410849200d33f974a92de2cda07859931cf8a4d13aefa6584ef500f504d16.json",
+      "sha256": "cf3410849200d33f974a92de2cda07859931cf8a4d13aefa6584ef500f504d16",
+      "bytes": 31318,
+      "role": "native-candidate",
+      "program_version": "1.5.3"
+    },
+    {
+      "path": "objects/52589cdcc6d55b399fe0ce3aa8ddb0cbc0938b7507cece40765158ef93df416b.json",
+      "sha256": "52589cdcc6d55b399fe0ce3aa8ddb0cbc0938b7507cece40765158ef93df416b",
+      "bytes": 31294,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/88033eded40c0d8065b2ae656c704899130db9f9af604573d96adb2f80215a0c.json",
+      "sha256": "88033eded40c0d8065b2ae656c704899130db9f9af604573d96adb2f80215a0c",
+      "bytes": 3963,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

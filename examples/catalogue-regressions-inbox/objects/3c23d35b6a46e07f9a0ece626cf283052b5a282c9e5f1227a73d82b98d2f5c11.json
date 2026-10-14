@@ -1,0 +1,79 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_filename": "Katalog-ARMATURA.pdf",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 24,
+  "printed_page": "23",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-0024-native-candidate.json",
+    "sha256": "ea84672e988a3aa8bdfd8cf36e23a5ba3093b0a06c0782aedfa621204ca246e0",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.3",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "531e9bea963ef7592a9a09035761b155f81fbf1ba43027dc5c7017c55e9693fe",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "ea84672e988a3aa8bdfd8cf36e23a5ba3093b0a06c0782aedfa621204ca246e0",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 24,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "3b4165e5e56d3a8455b883aea55738aa0e06f3159a60ba01bc9d5ccabf1f6d10",
+      "receipt": "calls/7ce1510646094d2daaa51196bb2ba05c/result.json",
+      "started_at": 1791938557.4247806,
+      "finished_at": 1791938617.1935241
+    }
+  },
+  "output": {
+    "file": "armature-0024-reviewed.json",
+    "sha256": "4fe0d907f16d3c9d287598107ee2ba9625551ba1bbb193d5431730e9d941ee4f"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "0700d5e882e13d4332bc52fcd5305c229479596ab945fd24cb0832d05bfd3a99",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      9
+    ],
+    "column_counts": [
+      11
+    ],
+    "cells_checked": 99
+  },
+  "source_findings": [
+    "Полная страница и крупные чертежи сверены. Все 99 ячеек 9×11, рисунки, точка в массе0.62, запятые остальных масс, нагрузки и размеры совпали с native.",
+    "Латинские B/H/D/b размерной шапки лично подтверждены исходными spans. Никакие коды и значения не нормализовались по другим страницам."
+  ],
+  "corrections": [
+    "Удалён вымышленный брендинг «федеральная сетевая компания», восстановлен «производственное объединение».",
+    "Рисунок 2 исправлен: две открытые вогнутые выемки R7 вместо двух закрытых отверстий и выпуклого выступа. Рисунок 3 связан с обеими фактическими строками таблицы, не исключительно У1К.",
+    "Для рисунков 1/3 явно установлены внутренняя верхняя база H и её нижняя база на оси проушины; D₁ — просвет входной шейки. Устранено ложное утверждение об отсутствии чисел при наличии42/Ø14."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T16:49:38.130354+03:00",
+  "private_original_receipt_sha256": "b0ce0f59bd9c5f60984fdd9fbf569fe69c5f04d72c00c9c656edb70eab834e61"
+}

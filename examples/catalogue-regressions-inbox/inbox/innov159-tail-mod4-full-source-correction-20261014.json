@@ -1,0 +1,36 @@
+{
+  "id": "innov159-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 159: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 159
+  },
+  "review_basis": "[\"Полный лист и три предметных изображения просмотрены.\", \"Надписи/звезда на самой опоре, не отдельном заднем сооружении.\", \"Native утверждал сталь, клиновой и ответвительный типы без подписи источника.\"] Исправления: [\"Классификация supporting_material.\", \"Исправлены владельцы надписей и фотоописания без выдуманных материалов/механизмов.\", \"Мелкие клейма оставлены честной неопределённостью.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/921eeee49510b72c5f6563c71c19a136cb82f8ad40d83f4f6d862fd7bbec5d55.json",
+      "sha256": "921eeee49510b72c5f6563c71c19a136cb82f8ad40d83f4f6d862fd7bbec5d55",
+      "bytes": 6191,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/9b7ff66e8d726619ec36f91babd059a24eb223bded711c3b8a467cd0358522eb.json",
+      "sha256": "9b7ff66e8d726619ec36f91babd059a24eb223bded711c3b8a467cd0358522eb",
+      "bytes": 4628,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-innovations-20261014.r2"
+    },
+    {
+      "path": "objects/d36cd5090c14a660d5169db1721cfdddf5addf33129bc9df9885525d7b3c7507.json",
+      "sha256": "d36cd5090c14a660d5169db1721cfdddf5addf33129bc9df9885525d7b3c7507",
+      "bytes": 13886,
+      "role": "source-review",
+      "program_version": "tail-mod3-innovations-20261014.r2"
+    }
+  ]
+}

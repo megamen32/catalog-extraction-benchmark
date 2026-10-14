@@ -1,0 +1,36 @@
+{
+  "id": "innov127-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 127: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 127
+  },
+  "review_basis": "[\"Все216ячеек, объединения и единицы верны.\", \"Native ошибочно дал5 как позицию и L как неразрешимый символ, L₂ как продольную длину и d как фактический диаметр провода.\", \"Матрица в самостоятельном столбце; вид Б не Б–Б.\"] Исправления: [\"Восстановлены владельцы L₃/L₂/D/d/S/S₁/5/L и правильное название местного вида.\", \"Удалены ложные4отв./позиция5, исправлены бренд и шапка матрицы, неопределённость L снята.\", \"Только пробелы в описаниях, кратком содержании и примечаниях; таблицы, марки и числа неизменны.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/166914fe056d373be96f959933cbdf6b4bb22e5a9ec7c2f68e5094a247d74690.json",
+      "sha256": "166914fe056d373be96f959933cbdf6b4bb22e5a9ec7c2f68e5094a247d74690",
+      "bytes": 44522,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/47feb9e04b0d5aa1a3bf09bdff8c3cf988152e410c4d47ca730dcf71ece4492e.json",
+      "sha256": "47feb9e04b0d5aa1a3bf09bdff8c3cf988152e410c4d47ca730dcf71ece4492e",
+      "bytes": 40427,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-innovations-20261014.round4.r2-readable"
+    },
+    {
+      "path": "objects/26b9c45a98ff804b2bdf8a5cc47b4dc6d2b81b86c4e2d21a93ab771f8e641c9c.json",
+      "sha256": "26b9c45a98ff804b2bdf8a5cc47b4dc6d2b81b86c4e2d21a93ab771f8e641c9c",
+      "bytes": 34013,
+      "role": "source-review",
+      "program_version": "tail-mod3-innovations-20261014.round4.r2-readable"
+    }
+  ]
+}

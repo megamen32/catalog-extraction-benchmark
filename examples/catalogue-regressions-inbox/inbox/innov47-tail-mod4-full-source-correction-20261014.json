@@ -1,0 +1,36 @@
+{
+  "id": "innov47-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 47: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 47
+  },
+  "review_basis": "[\"Все 72 ячейки правильны, включая реальные объединения.\", \"Native выдумал «кружкалку» вместо «рубашки», заменил части тел на частицы и исказил грамматику утверждения о крупных птицах.\", \"Два реальных ошибочных допуска: Ø33,3 0/−1,5 вместо +1,5/−2,5; толщина 16 +0,9/−1,1 вместо +0,9/−1,6.\", \"H — между осью проушины и основанием головки пестика, не полный габарит; Ø125 относится к защитному раструбу, не ребру.\"] Исправления: [\"Восстановлены исходные слова текста, бренды, владельцы и базы размеров.\", \"Исправлены оба допуска по собственным 12× кропам; таблица не менялась.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/5743e24e312c5eebc062d3c4145544134e6ed365901aeb69fa634b4836765054.json",
+      "sha256": "5743e24e312c5eebc062d3c4145544134e6ed365901aeb69fa634b4836765054",
+      "bytes": 21768,
+      "role": "native-candidate",
+      "program_version": "1.5.3"
+    },
+    {
+      "path": "objects/a5cce504c2808826f8c02f5c3ac3fe82a08ac48b4870251ebdcd9af8b0bb7cf6.json",
+      "sha256": "a5cce504c2808826f8c02f5c3ac3fe82a08ac48b4870251ebdcd9af8b0bb7cf6",
+      "bytes": 21151,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-innovations-20261014.r6"
+    },
+    {
+      "path": "objects/8abc79ed038f8e9b1e973c6dd5450d305e561cdb1aec89a758fa194c651001ef.json",
+      "sha256": "8abc79ed038f8e9b1e973c6dd5450d305e561cdb1aec89a758fa194c651001ef",
+      "bytes": 23080,
+      "role": "source-review",
+      "program_version": "tail-mod3-innovations-20261014.r6"
+    }
+  ]
+}

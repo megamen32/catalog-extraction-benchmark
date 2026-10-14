@@ -1,0 +1,183 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 175,
+  "printed_page": null,
+  "status": "awaiting_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod3",
+    "task": "/root/catalog_tail_mod3",
+    "version": "tail-mod3-innovations-20261014.r2",
+    "model_id": "Current native Codex worker session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "innovations-175-candidate.json",
+    "sha256": "7857f3e2028dd2edb736d174ae5515b3a1acdcc670f00eb646529b3f5c2599b5",
+    "canonical_sha256": "382fbf83273a6b6504c031dff2cc5f9a3b0d33f42563b48de5104fe3068f692a",
+    "producer": {
+      "program": {
+        "package_version": "1.5.6",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "ca9cb343d7402f9bdb421b4fc5bc0b77ee1cff94b255122f592b3fda0e12f0b3",
+        "python_version": "3.12.13"
+      },
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 175,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "3031f54101971a2d9729b048304180edaaf22cda716b98c15339c8c61c45fa7b",
+      "artifact_sha256": "7857f3e2028dd2edb736d174ae5515b3a1acdcc670f00eb646529b3f5c2599b5",
+      "started_at": 1791943335.5282185,
+      "finished_at": 1791943376.0147333,
+      "provider_rate_limit_events": 0,
+      "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46",
+      "status": "receipt_verified",
+      "source_bound_save": true,
+      "receipt": ".tmp/full-digitization/staged-best-v1.4.8/innovations/page-0175/calls/29b47645f1554a0882d2e0555168909c/result.json",
+      "frozen_receipt": "innovations-175-native-receipt.json",
+      "frozen_receipt_sha256": "dbbb43fecb37778e8db58530d596552974146aac65da650fc7c4b5486ae806e3"
+    }
+  },
+  "output": {
+    "file": "innovations-175-reviewed.json",
+    "sha256": "906f1ab9b828b595b2215f599eb996512233f682658514abc8cc7f13713d8adf",
+    "canonical_sha256": "99bf6bc5dc82cb42e8641098b11501bc747568ec10fd32fd9ec1d751f572d8de"
+  },
+  "full_original_image_review": true,
+  "original_image": "innovations-175.png",
+  "original_image_sha256": "a09409e29a5e63299c62f52fe72e83dcc5e68f6936ecd9ddefc0217e8b296bf1",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "page_content_schema": true
+  },
+  "tables": {
+    "row_counts": [],
+    "column_counts": [],
+    "cells_checked": 0
+  },
+  "source_findings": [
+    "Весь лист просмотрен; таблиц и печатного номера нет.",
+    "Источник показывает одного фигурного волка и мяч, а не неопределённые отдельные декоративные фигуры.",
+    "АС в заголовке не раскрыта как алюминиевый провод; slash-метки являются оформлением."
+  ],
+  "corrections": [
+    "Классификация supporting_material для разделителя.",
+    "Убраны неподтверждённые материалы/типы изделий и технические labels декоративных элементов.",
+    "Доказательство охватывает весь лист, фото описаны по видимому содержимому."
+  ],
+  "complete_leaf_diff": [
+    {
+      "path": ".figures[0].description",
+      "before": "Фотография опоры воздушной линии в поле: металлическая опора с разноцветными (бело-жёлто-красными) конструкциями и декоративными элементами в виде фигур, установленная на открытой местности на фоне голубого неба, облаков и лесной полосы; рядом отдельно стоит белая сферическая (шаровая) конструкция из металлических элементов.",
+      "after": "Фигурная металлическая опора в образе волка с очками, поднятой правой лапой и футбольным мячом у левой стороны. Каркас белый, жёлтый и красный; вокруг видны провода, фон — голубое небо, деревья и открытая местность. Название и город заданы подписью «Опора ВЛ «Волк Забивака», г. Калининград»."
+    },
+    {
+      "path": ".figures[1].description",
+      "before": "Ряд из трёх фотографий металлических соединительных зажимов для провода АС, разделённых косыми графическими разделителями («/»): слева — цилиндрический зажим с коническими концами, по центру — группа из нескольких длинных цилиндрических/трубчатых зажимов, справа — зажим с видимой прорезью (окном) в средней части. Подписей к отдельным изделиям на странице нет.",
+      "after": "Слева отдельное продолговатое металлическое изделие с расширениями на концах, в центре пять длинных трубчатых изделий разных размеров с цветными торцами, справа длинное изделие с несколькими продольными прорезями. Марки и конструктивный способ соединения не подписаны. Между предметными группами и по краям четыре светлых наклонных контурных параллелограмма; это декор, не технические обозначения."
+    },
+    {
+      "path": ".figures[1].labels",
+      "before": [
+        "/",
+        "/",
+        "/"
+      ],
+      "after": []
+    },
+    {
+      "path": ".figures[1].title",
+      "before": "Соединительная арматура для провода АС",
+      "after": "Соединительная арматура: три предметные группы"
+    },
+    {
+      "path": ".page_context.kind",
+      "before": "catalogue_product_data",
+      "after": "supporting_material"
+    },
+    {
+      "path": ".page_context.source_evidence",
+      "before": [
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.06,
+            0.435,
+            0.78,
+            0.48
+          ],
+          "observation": "Подпись под фотографией называет конкретную опору ВЛ «Волк Забивака» в г. Калининграде и перечисляет её комплектацию с указанием организаций-поставщиков (АО «ЮМЭК», ООО «МЗВА») — это рекламно-описательные сведения каталога об изделии и его оснащении, без технических параметров.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.24,
+            0.545,
+            0.78,
+            0.66
+          ],
+          "observation": "Крупный заголовок раздела «АРМАТУРА СОЕДИНИТЕЛЬНАЯ ДЛЯ ПРОВОДА АС» над фотографиями зажимов; задаёт назначение последующих товарных страниц (соединительная арматура для алюминиевого провода), а не характеристики конкретного изделия.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.13,
+            0.69,
+            0.83,
+            0.89
+          ],
+          "observation": "Три фотографии металлических соединительных зажимов, разделённые косыми графическими разделителями; подписей и обозначений конкретных изделий на странице нет.",
+          "transcription": "literal"
+        }
+      ],
+      "after": [
+        {
+          "kind": "supporting_material",
+          "box": [
+            0.06,
+            0,
+            0.98,
+            0.995
+          ],
+          "observation": "Весь лист: фотография опоры с подписью, крупный заголовок раздела, три предметные группы и четыре декоративных контурных параллелограмма. Печатного номера и таблиц нет.",
+          "transcription": "literal"
+        }
+      ]
+    },
+    {
+      "path": ".page_context.summary",
+      "before": "Шмуцтитул каталога: фотография опоры воздушной линии «Волк Забивака» (г. Калининград) с подписью о комплектации изоляторами АО «ЮМЭК», линейной арматурой и устройствами птицезащиты ООО «МЗВА», и заголовок раздела «Арматура соединительная для провода АС» над фотографиями трёх соединительных зажимов. Страница открывает товарный раздел каталога; технические характеристики, марки и единицы на ней не приведены.",
+      "after": "Разделительный лист «Арматура соединительная для провода АС». Верхняя фотография показывает фигурную опору «Волк Забивака» в Калининграде; подпись указывает изоляторы АО «ЮМЭК», арматуру и птицезащиту ООО «МЗВА». Внизу три предметные группы арматуры без марок и размеров."
+    },
+    {
+      "path": ".source_notes",
+      "before": [
+        "Буква «АС» в заголовке — кириллическая (U+0410, U+0421), что подтверждено кодпоинтами текстового слоя; визуально неотличима от латинской AC."
+      ],
+      "after": [
+        "Буква «АС» в заголовке — кириллическая (U+0410, U+0421), что подтверждено кодпоинтами текстового слоя; визуально неотличима от латинской AC.",
+        "АС сохранено как марка из заголовка без подмены на «алюминиевый провод». Подписей конкретных марок нижних изделий и числовых данных нет."
+      ]
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independent_review_required": true,
+  "unresolved_issues": [],
+  "acceptance_note": "No PASS issued. Corrected content, engineering drawing relations, and uncertainties require independent source review.",
+  "completed_at": "2026-10-14T16:21:33.445092+03:00",
+  "private_original_receipt_sha256": "ca8af1e8a0585f2ab0e9130be6f6e2035bca56c55329e7471ee0a41975112c53"
+}

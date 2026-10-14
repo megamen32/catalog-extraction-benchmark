@@ -1,0 +1,36 @@
+{
+  "id": "innov171-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 171: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 171
+  },
+  "review_basis": "[\"Лично сверены все 990 ячеек, включая реальные объединения и два типа прочерков.\", \"H группы НАС-500-1Б по 6× кропу равен 196, не 192; четыре повторения исправлены.\", \"Смещённая граница D между двумя строками НАС-600-2Б действительно напечатана, не исправлялась.\"] Исправления: [\"Четыре H=192→196 в группе НАС-500-1Б.\", \"L₃ отнесён к наклонному корпусу, L/L₁ к наружному краю/оси проушины; D/d наружный/внутренний, фиктивный размер B убран.\", \"Исправлены бренд, подпись немагнитности в evidence и ложное объединение H в source_notes.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/6aece3e934602d0535f9454bb83b8aa12f34cf3d16f43271436833d33a239924.json",
+      "sha256": "6aece3e934602d0535f9454bb83b8aa12f34cf3d16f43271436833d33a239924",
+      "bytes": 140430,
+      "role": "native-candidate",
+      "program_version": "1.5.6"
+    },
+    {
+      "path": "objects/dc96265a83330c2c7212f4dbc2d525773655325bc0eca195bd6b26a1a1fe6ceb.json",
+      "sha256": "dc96265a83330c2c7212f4dbc2d525773655325bc0eca195bd6b26a1a1fe6ceb",
+      "bytes": 138116,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-innovations-20261014.r2"
+    },
+    {
+      "path": "objects/0270352f55587c5b79ba9c71c2debd026a49167b01e423273cc7beea711d76ad.json",
+      "sha256": "0270352f55587c5b79ba9c71c2debd026a49167b01e423273cc7beea711d76ad",
+      "bytes": 18244,
+      "role": "source-review",
+      "program_version": "tail-mod3-innovations-20261014.r2"
+    }
+  ]
+}

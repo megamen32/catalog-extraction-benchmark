@@ -1,0 +1,1052 @@
+{
+  "title": "Шлейфы изолированные ШСИП модификации «2»",
+  "page_context": {
+    "kind": "catalogue_product_data",
+    "summary": "ШСИП-110 модификации «2» для нового строительства или реконструкции ВЛ с заменой провода. Изолированный проводник с собственными опрессованными лапками присоединяется болтами к внешним зажимам НАС-1В; эти внешние натяжные зажимы в комплект шлейфа не входят. Чертёж двух концов с видом А и таблица9 наименований,27 проводных сочетаний с диаметром, применяемым НАС, толщиной S и предельной массой при L=7 м.",
+    "source_evidence": [
+      {
+        "kind": "catalogue_product_data",
+        "box": [
+          0.05,
+          0,
+          0.98,
+          0.995
+        ],
+        "observation": "Полный лист: бренды, схема двух концов одного шлейфа с внешними пунктирными НАС, L₁ от нижнего болтового ряда до стыковой перемычки 5, Sтолщина лапки, все размеры вида А, описание состава/монтажа/демонтажа, таблица 27×6 и контакты info@mzva.ru страницы 115.",
+        "transcription": "literal"
+      }
+    ]
+  },
+  "printed_page": "115",
+  "text_blocks": [
+    {
+      "kind": "heading",
+      "text": "ШЛЕЙФЫ ИЗОЛИРОВАННЫЕ"
+    },
+    {
+      "kind": "paragraph",
+      "text": "ШСИП модификации «2» применяются при оснащении ВЛ изолированными шлейфами в ходе нового строительства или реконструкции ВЛ с заменой провода."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Шлейф изолированный состоит из изолированного проводника и опрессованных на его концах зажимов, имеющих «лапку» с четырьмя отверстиями. Монтаж шлейфа производится болтовым присоединением к зажиму типа НАС-1В."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Дополнительное преимущество: при проведении ремонтных работ на ВЛ обеспечивается возможность демонтажа и последующего присоединения шлейфа обратно, благодаря болтовым соединениям."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Пояснения к чертежу: 1 — корпус зажима; 2 — проводник изолированный. «Зажимы не входят в комплект поставки шлейфа» относится к внешним пунктирным натяжным зажимам НАС (см. табл.)."
+    },
+    {
+      "kind": "branding",
+      "text": "ФОРЭНЕРГО — производственное объединение / FORENERGO manufacturing association"
+    },
+    {
+      "kind": "footer",
+      "text": "ООО «МЗВА». Тел./факс: +7 (495) 780-51-65, e-mail: info@mzva.ru, www.mzva.ru"
+    }
+  ],
+  "tables": [
+    {
+      "id": "t1",
+      "title": "Подбор шлейфа ШСИП-110-…-2-L по марке провода АС (ГОСТ 839-2019)",
+      "columns": [
+        {
+          "id": "name",
+          "label": "Наименование",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "section",
+          "label": "Сечение",
+          "unit": "мм²",
+          "group": "Марка провода АС по ГОСТ 839-2019",
+          "qualifier": null
+        },
+        {
+          "id": "diameter",
+          "label": "Диаметр",
+          "unit": "мм",
+          "group": "Марка провода АС по ГОСТ 839-2019",
+          "qualifier": null
+        },
+        {
+          "id": "clamp",
+          "label": "Наименование зажима, с которым применяется шлейф",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "s",
+          "label": "S",
+          "unit": "мм",
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "mass",
+          "label": "Масса шлейфа, при L=7м",
+          "unit": "кг",
+          "group": null,
+          "qualifier": "не более"
+        }
+      ],
+      "rows": [
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ШСИП-110-(10,5-12)-2-L",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "70/11",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "11,4",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "НАС-95-1В",
+              "state": "value"
+            },
+            {
+              "column_id": "s",
+              "value": "8,5",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "6,00",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ШСИП-110-(12,5-14)-2-L",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "95/16",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "13,5",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "НАС-95-1В",
+              "state": "value"
+            },
+            {
+              "column_id": "s",
+              "value": "8,5",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "7,50",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ШСИП-110-(14,5-15,5)-2-L",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "120/19",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "15,2",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "НАС-120-1В",
+              "state": "value"
+            },
+            {
+              "column_id": "s",
+              "value": "8,5",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "8,20",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ШСИП-110-(14,5-15,5)-2-L",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "120/27",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "15,4",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "НАС-120-1В",
+              "state": "value"
+            },
+            {
+              "column_id": "s",
+              "value": "8,5",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "8,20",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ШСИП-110-(16-17,5)-2-L",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "150/19",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "16,8",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "НАС-150-1В",
+              "state": "value"
+            },
+            {
+              "column_id": "s",
+              "value": "8,5",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "9,40",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ШСИП-110-(16-17,5)-2-L",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "150/24",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "17,1",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "НАС-150-1В",
+              "state": "value"
+            },
+            {
+              "column_id": "s",
+              "value": "8,5",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "9,40",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ШСИП-110-(16-17,5)-2-L",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "150/34",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "17,5",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "НАС-150-1В",
+              "state": "value"
+            },
+            {
+              "column_id": "s",
+              "value": "8,5",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "9,40",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ШСИП-110-(18-20)-2-L",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "185/24",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "18,9",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "НАС-240-1В",
+              "state": "value"
+            },
+            {
+              "column_id": "s",
+              "value": "7,5",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "10,90",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ШСИП-110-(18-20)-2-L",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "185/29",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "18,8",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "НАС-240-1В",
+              "state": "value"
+            },
+            {
+              "column_id": "s",
+              "value": "7,5",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "10,90",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ШСИП-110-(18-20)-2-L",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "185/43",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "19,6",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "НАС-240-2В",
+              "state": "value"
+            },
+            {
+              "column_id": "s",
+              "value": "7,5",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "10,90",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ШСИП-110-(21-22,5)-2-L",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "240/32",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "21,6",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "НАС-240-1В",
+              "state": "value"
+            },
+            {
+              "column_id": "s",
+              "value": "10",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "12,80",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ШСИП-110-(21-22,5)-2-L",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "240/39",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "21,6",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "НАС-240-2В",
+              "state": "value"
+            },
+            {
+              "column_id": "s",
+              "value": "10",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "12,80",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ШСИП-110-(21-22,5)-2-L",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "240/56",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "22,4",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "НАС-330-1В",
+              "state": "value"
+            },
+            {
+              "column_id": "s",
+              "value": "10",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "12,80",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ШСИП-110-(24-25,5)-2-L",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "300/39",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "24,0",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "НАС-330-1В",
+              "state": "value"
+            },
+            {
+              "column_id": "s",
+              "value": "12",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "15,80",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ШСИП-110-(24-25,5)-2-L",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "300/48",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "24,1",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "НАС-330-1В",
+              "state": "value"
+            },
+            {
+              "column_id": "s",
+              "value": "12",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "15,80",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ШСИП-110-(24-25,5)-2-L",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "300/66",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "24,5",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "НАС-300-1В",
+              "state": "value"
+            },
+            {
+              "column_id": "s",
+              "value": "12",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "15,80",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ШСИП-110-(24-25,5)-2-L",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "300/67",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "24,5",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "НАС-300-1В",
+              "state": "value"
+            },
+            {
+              "column_id": "s",
+              "value": "12",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "15,80",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ШСИП-110-(24-25,5)-2-L",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "330/30",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "24,8",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "НАС-400-1В",
+              "state": "value"
+            },
+            {
+              "column_id": "s",
+              "value": "12",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "15,80",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ШСИП-110-(24-25,5)-2-L",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "330/43",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "25,2",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "НАС-330-3В",
+              "state": "value"
+            },
+            {
+              "column_id": "s",
+              "value": "12",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "15,80",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ШСИП-110-(26-29)-2-L",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "400 /18",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "26,0",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "НАС-400-1В",
+              "state": "value"
+            },
+            {
+              "column_id": "s",
+              "value": "14",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "18,80",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ШСИП-110-(26-29)-2-L",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "400/22",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "26,0",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "НАС-400-1В",
+              "state": "value"
+            },
+            {
+              "column_id": "s",
+              "value": "14",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "18,80",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ШСИП-110-(26-29)-2-L",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "400/51",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "27,5",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "НАС-450-1В",
+              "state": "value"
+            },
+            {
+              "column_id": "s",
+              "value": "14",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "18,80",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ШСИП-110-(26-29)-2-L",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "400/64",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "27,7",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "НАС-450-1В",
+              "state": "value"
+            },
+            {
+              "column_id": "s",
+              "value": "14",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "18,80",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ШСИП-110-(26-29)-2-L",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "450/56",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "28,8",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "НАС-450-1В",
+              "state": "value"
+            },
+            {
+              "column_id": "s",
+              "value": "14",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "18,80",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ШСИП-110-(29,1-31)-2-L",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "400/93",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "29,1",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "НАС-600-1В",
+              "state": "value"
+            },
+            {
+              "column_id": "s",
+              "value": "14",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "21,70",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ШСИП-110-(29,1-31)-2-L",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "500/26",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "30,0",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "НАС-500-1В",
+              "state": "value"
+            },
+            {
+              "column_id": "s",
+              "value": "14",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "21,70",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ШСИП-110-(29,1-31)-2-L",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "500/27",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "29,4",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "НАС-500-1В",
+              "state": "value"
+            },
+            {
+              "column_id": "s",
+              "value": "14",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "21,70",
+              "state": "value"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "figures": [
+    {
+      "title": "Два конца ШСИП модификации «2» и вид А",
+      "description": "Один шлейф показан двумя концами с условным разрывом в изолированном проводнике2. На обоих концах собственный корпус1 с лапкой соединён болтами с внешним натяжным зажимом НАС-1В, показанным пунктиром. Надпись об исключении из комплекта относится к этим внешним НАС; собственные опрессованные окончания входят в описанный состав. Слева и справа не разные сдвоенный/одиночный варианты. Стрелки «В пролёт» направлены наружу. L₁ справа вдоль наклонного окончания: от оси нижнего ряда болтов до верхней границы стыковой перемычки 5, а не до противоположного конца шлейфа. S — толщина собственной контактной лапки без пунктирной встречной пластины и крепежа. Размер 5 — осевая толщина заштрихованной изоляционной перемычки на стыке металлического окончания с проводником, связанной с продольной оболочкой; это не пустой зазор, не радиальная толщина стенки и не номер позиции. Криволинейный L задан вдоль изолированного проводника до нижней границы перемычки, а не вокруг корпуса НАС. Вид А, не разрез: На виде лапки 80 — её ширина, второй 80 — от верхнего горизонтального уровня прямоугольной части до начала нижнего сужения; два 45 — расстояния между осями крепежей по горизонтали и вертикали; 17,5 — от того же верхнего уровня до оси верхнего ряда. Шестигранники показывают крепёж, а не форму отверстий.",
+      "labels": [
+        "В пролёт",
+        "В пролёт",
+        "1",
+        "2",
+        "Зажимы не входят в комплект поставки шлейфа",
+        "Зажим натяжной тип НАС (см. табл.)",
+        "L",
+        "L₁",
+        "S",
+        "5",
+        "А",
+        "80",
+        "80",
+        "45",
+        "45",
+        "17,5"
+      ]
+    }
+  ],
+  "source_notes": [
+    "В строке ШСИП-110-(26-29)-2-L сечение «400 /18» набрано в источнике с пробелом перед косой чертой.",
+    "Для сечения 185/29 диаметр 18,8 мм напечатан меньше, чем 18,9 мм для 185/24 — особенность набора источника, значения сохранены буквально.",
+    "Для сечений 300/66 и 300/67 в источнике указан зажим НАС-300-1В, тогда как для 300/39 и 300/48 — НАС-330-1В; сохранено как напечатано.",
+    "Все 162 ячейки27×6 сверены. S=7,5 у 185 и 10 у 240 — буквально; применяемые НАС-330/300/400 в соседних строках сохранены. Верхняя база L₁ — ось нижнего ряда болтов, подтверждена собственным 10×кропом."
+  ],
+  "uncertainties": []
+}

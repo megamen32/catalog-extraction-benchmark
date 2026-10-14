@@ -1,0 +1,83 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 42,
+  "printed_page": "41",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r2",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "3a94bca03560b9b4fbb13661b5cf2a2d33d83ef5f973c3ea7ac15e12ee3d9a7b",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.3",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "531e9bea963ef7592a9a09035761b155f81fbf1ba43027dc5c7017c55e9693fe",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "3a94bca03560b9b4fbb13661b5cf2a2d33d83ef5f973c3ea7ac15e12ee3d9a7b",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 42,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "3b4165e5e56d3a8455b883aea55738aa0e06f3159a60ba01bc9d5ccabf1f6d10",
+      "receipt": "calls/165b5e108fd6409e8de5f825617da101/result.json",
+      "started_at": 1791939218.3143284,
+      "finished_at": 1791939272.0530167
+    }
+  },
+  "output": {
+    "file": "armature-42-reviewed-r2.json",
+    "sha256": "5eac78a57ad9f8b121eb96e691b80a8a2b8881b00cdf95415da942464f6f8625"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "bc40feffb22285e22e7a5ad5ce162c74634efec15d5bced3c48a655c9a14f335",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      2
+    ],
+    "column_counts": [
+      9
+    ],
+    "cells_checked": 18
+  },
+  "source_findings": [
+    "Все18 ячеек сверены, включая шесть длинных сопрягаемых марок первой строки и три второй, нагрузки60/105.",
+    "Номер ТУ3449-001-52814896-2010 имеет14896, не подменён19896; режим удержания при обрыве одной цепи сохранён."
+  ],
+  "corrections": [
+    "480 исправлено с нижнего края/центрального отверстия на два закруглённых конца продолговатых пазов.",
+    "B/b связаны с двухпластинным пакетом и толщиной одной пластины, d — с болтом.",
+    "Пояснения и описания записаны с нормальными пробелами; буквальные маркировки и табличные поля сохранены."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T17:40:14.266558+03:00",
+  "previous_author_revision": {
+    "content": "armature-42-reviewed.json",
+    "content_sha256": "a3ad1788915847524b48f3b0ee9d6ddc26bfe9f018a02c5806238e3c437bdca5",
+    "receipt": "armature-42-source-review.json",
+    "receipt_sha256": "d6d0d44fe226c72d568bf69550af17a86b60226f6eb39f7ab9fef3b5b0bb1b2f"
+  },
+  "revision": 2,
+  "private_original_receipt_sha256": "02a549dbec5c93f1136a1b3bf1ddd504de931a4d9adbc656426d8411602712cc"
+}

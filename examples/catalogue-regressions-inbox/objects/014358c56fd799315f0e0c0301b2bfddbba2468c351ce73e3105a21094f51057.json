@@ -1,0 +1,82 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 66,
+  "printed_page": "65",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r2",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "ebb132100919d8a20cabc9f3d25ed22b09fafbf5f92e6796368e605a91455875",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.4",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "03d94c1397ffd39d50a89db0b4d9ae29d17f13e5293b2fcbda6e8b4ec34d8c0c",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "ebb132100919d8a20cabc9f3d25ed22b09fafbf5f92e6796368e605a91455875",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 66,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4d5faa2b87b39793b899bfd40ccb8b7b4ff5223f5cfe2aed7fb1c9e3580c2e6b",
+      "receipt": "calls/2e462c670bbe4b128a7af3f61727328a/result.json",
+      "started_at": 1791940486.1602674,
+      "finished_at": 1791940555.9815297
+    }
+  },
+  "output": {
+    "file": "armature-66-reviewed-r2.json",
+    "sha256": "db52ea8c347250c018461258a95c389921d0cd6b424b298670950a33780530ce"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "39907d3de1409be3d5fdf417d580f60125c12098f18f5f19f2885e60e0616952",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [],
+    "column_counts": [],
+    "cells_checked": 0
+  },
+  "source_findings": [
+    "Пять рисунков полностью сверены с исходной страницей и собственным6× armature-66-top-detail.png.",
+    "Назначение, оба ТУ,70мм², свойства и контакты zakaz@mzva.ru сохранены; таблиц нет.",
+    "Повторно просмотрены свежие исходные увеличения рисунков 2–4: нижние базы 158 и обоих 166 идут к нижней касательной протектора/провода; конец боковой подвесной ветви находится ниже. Геометрия таблиц не затронута."
+  ],
+  "corrections": [
+    "64 связан с осью проушины и нижней образующей провода; Ø16 с пальцем,20 с просветом,38 с межосевым.",
+    "300 исправлен с длины провода на длину лодочки;19,2 на внутренний проход ушка.",
+    "Удалены выдуманные два болта крепления к подвеске; разделены крепёж лодочки и верхняя монтажная проушина.",
+    "Ложечки исправлены на напечатанные лодочки.",
+    "Размеры 158 и оба 166 привязаны к нижней касательной протектора/провода вместо более низкого конца подвесной ветви."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T17:40:14.278018+03:00",
+  "previous_author_revision": {
+    "content": "armature-66-reviewed.json",
+    "content_sha256": "f40741ead49432e6e47b83f7a02bb4c905607378066a8edb97f39c356d4ce332",
+    "receipt": "armature-66-source-review.json",
+    "receipt_sha256": "c991fb4c9471fee0d3ebf6aa022eb8f12b9b7724ad100dd1b875167065405835"
+  },
+  "revision": 2,
+  "private_original_receipt_sha256": "8ab77d2c71902d6166d84fcc8a19a25ef60caca624121911b3bdcf9ce943efd3"
+}

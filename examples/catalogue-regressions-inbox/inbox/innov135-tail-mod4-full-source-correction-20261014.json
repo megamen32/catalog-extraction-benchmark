@@ -1,0 +1,36 @@
+{
+  "id": "innov135-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 135: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 135
+  },
+  "review_basis": "[\"Весь лист просмотрен, таблиц нет.\", \"Native использовал неподписанный термин «сцепная изоляция» и представлял фото как цепи на горизонтальных траверсах, тогда как видны три присоединённые гирлянды.\"] Исправления: [\"Исправлены описания фото по видимому содержимому без выдуманных марок/материалов.\", \"Полный bbox доказательства.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/ba831fbd19a5ebe66d7b59ba39da6cfd75e70d7e33c0595c454ddd96806809d8.json",
+      "sha256": "ba831fbd19a5ebe66d7b59ba39da6cfd75e70d7e33c0595c454ddd96806809d8",
+      "bytes": 4864,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/3cb8c93be06bd26dc2e26200a2e4612e4200023bc24ff3c94c9db8af431c6f84.json",
+      "sha256": "3cb8c93be06bd26dc2e26200a2e4612e4200023bc24ff3c94c9db8af431c6f84",
+      "bytes": 2824,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-innovations-20261014.r3"
+    },
+    {
+      "path": "objects/05c48ccb6ead43d9464710b0672ab93867e3cf08dcf94c502f7bbe0d1b4fe5b6.json",
+      "sha256": "05c48ccb6ead43d9464710b0672ab93867e3cf08dcf94c502f7bbe0d1b4fe5b6",
+      "bytes": 11095,
+      "role": "source-review",
+      "program_version": "tail-mod3-innovations-20261014.r3"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "innov212-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 212: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 212
+  },
+  "review_basis": "[\"Предыдущая полная исходная сверка сохранена в supersedes_source_review. Повторно просмотрены увеличенные оригинальные фрагменты и исправлены только перечисленные принадлежности; все таблицы побайтно равны прежним проверенным таблицам.\", \"L₂ начинается на отмеченной плоскости внутри прямого цилиндрического участка, а не у фактического начала наружного прямого контура. Это собственная неточная формулировка предыдущего reviewed, не новый дефект native.\", \"Из наблюдения верхней области удалён диапазон марок, напечатанный ниже этой области.\"] Исправления: [\"L₂ начинается на отмеченной плоскости внутри прямого цилиндрического участка, а не у фактического начала наружного прямого контура. Это собственная неточная формулировка предыдущего reviewed, не новый дефект native.\", \"Из наблюдения верхней области удалён диапазон марок, напечатанный ниже этой области.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/15bb5c4619b15389476d4abf5ca0acf424572b72f60bb9dcab7a121cacc68ae8.json",
+      "sha256": "15bb5c4619b15389476d4abf5ca0acf424572b72f60bb9dcab7a121cacc68ae8",
+      "bytes": 34230,
+      "role": "native-candidate",
+      "program_version": "1.5.8"
+    },
+    {
+      "path": "objects/3e304143b42b8bff70d98e406012ab83f1b0a269fa309b25544911932825eb15.json",
+      "sha256": "3e304143b42b8bff70d98e406012ab83f1b0a269fa309b25544911932825eb15",
+      "bytes": 34061,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r2"
+    },
+    {
+      "path": "objects/3f6a8fcaf69be4de0136e43f476f035aa9f84cf90c286ca5257326c3e32f4c4e.json",
+      "sha256": "3f6a8fcaf69be4de0136e43f476f035aa9f84cf90c286ca5257326c3e32f4c4e",
+      "bytes": 4635,
+      "role": "source-review",
+      "program_version": "tail-mod0-20261014.r2"
+    }
+  ]
+}

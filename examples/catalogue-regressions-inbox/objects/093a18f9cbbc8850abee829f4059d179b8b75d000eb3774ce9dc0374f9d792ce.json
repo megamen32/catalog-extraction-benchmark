@@ -1,0 +1,79 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 204,
+  "printed_page": "204",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "innovations-0204-native-candidate.json",
+    "sha256": "cbd15f27a00a0245be14c3af390dfe9f57bb69fd95b2551be666aceb6ba09bc6",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.8",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "56b47ab11c142fdd0d89ade636eb52fff30220c3425401678e2bf74c18b69c62",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "cbd15f27a00a0245be14c3af390dfe9f57bb69fd95b2551be666aceb6ba09bc6",
+      "source_bound_save": true,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 204,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "ad43db8eeb96f6a5b1aab82eb07fb8d999a3c90cd9e1f094a41f378634f1d7ae",
+      "receipt": "calls/a85d6b3edb1447ae8f47f10141f0b1ab/result.json",
+      "started_at": 1791946136.5337253,
+      "finished_at": 1791946533.136837
+    }
+  },
+  "output": {
+    "file": "innovations-0204-reviewed.json",
+    "sha256": "f3d78d4eddb1816fbae4409bc182305ca83086ce63c7fcb42867a4d2c47cfdba"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "2e81dcff309e6581593f7bd06d7142450bfccfde631970a8e67843f29cddfc58",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      17
+    ],
+    "column_counts": [
+      19
+    ],
+    "cells_checked": 323
+  },
+  "source_findings": [
+    "Полный оригинал, крупные чертёж и таблица просмотрены. Все 323 ячейки 17×19 совпали с native, включая отличия НАСТ-150.1Б/150.2Б, 185.3Б и 240.3Б.",
+    "Проверены обе общие длины с разными левыми базами, внутренние плоскости L₄/L₅, три стрелки опрессования, D/D₁/D₂/d/d₁/d₂, b/S, Ø14, два шага 45 и ширина 80. Тексты ТУ и полных шлейфов Ш/ШСИП проверены полностью."
+  ],
+  "corrections": [
+    "Развёрнуты отдельные базы L/L₁/L₂/L₃/L₄/L₅, принадлежность диаметров и толщин. Вид А исправлен с разреза на направление взгляда.",
+    "Область верхнего наблюдения расширена до рубрики и правых логотипов. Удалены служебное утверждение об AnyDoc и необоснованное объявление формы «Тел./ факс» опечаткой.",
+    "Текст назначения и поясняющий абзац приведены по источнику; единицы размеров явно заданы как мм."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T17:15:56.193629+03:00",
+  "private_original_receipt_sha256": "db75e11dfe4cf6197eca2d8986a03009fad3c243e25ed362aa537f684dd58065"
+}

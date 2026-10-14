@@ -1,0 +1,36 @@
+{
+  "id": "innov91-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 91: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 91
+  },
+  "review_basis": "[\"Все24 ячейки верны.\", \"Native неверно считал745/850 полными габаритами с крепежом и300 расстоянием между струбцинами.\", \"FV(ПВ)-0 было ошибочно FV(ГВ)-0; фотографии не на траверсе.\"] Исправления: [\"Исправлены пределы высот и длины300, отдельные фото и код воспламеняемости.\", \"Устранено ошибочное отнесение свойства негорючести к материалу струбцин.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/da73e215ce5af407689eabdb3c6f3d09e40ef3a31b8c6238704e634dd0c9ffbd.json",
+      "sha256": "da73e215ce5af407689eabdb3c6f3d09e40ef3a31b8c6238704e634dd0c9ffbd",
+      "bytes": 14633,
+      "role": "native-candidate",
+      "program_version": "1.5.3"
+    },
+    {
+      "path": "objects/8ff7cb02a322c1b65da073cad645bea07f0f28165f60c88a669b8f274899ada1.json",
+      "sha256": "8ff7cb02a322c1b65da073cad645bea07f0f28165f60c88a669b8f274899ada1",
+      "bytes": 14792,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-innovations-20261014.r5"
+    },
+    {
+      "path": "objects/f9474801e5ff21efd6367e35ea2358915103409a4d0c57925066142af6b92a18.json",
+      "sha256": "f9474801e5ff21efd6367e35ea2358915103409a4d0c57925066142af6b92a18",
+      "bytes": 17023,
+      "role": "source-review",
+      "program_version": "tail-mod3-innovations-20261014.r5"
+    }
+  ]
+}

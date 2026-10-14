@@ -1,0 +1,36 @@
+{
+  "id": "innov123-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 123: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 123
+  },
+  "review_basis": "[\"Все243ячейки верны, необычное400/93 сохранено.\", \"Native выдумал подпись, «центровые» зажимы и5сварныхшвов, ошибочно исключил из комплекта собственные ШРЦ.\", \"S под ключ, L₁/L₂ осевые соседние участки,5изоляционная перемычка.\"] Исправления: [\"Восстановлен точный текст о цанговых ШРЦ и реальная подпись натяжного зажима.\", \"Исправлены комплектность, владельцы всех размеров, количество наименований и отсутствие ограничения массы.\", \"Только пробелы в описаниях, кратком содержании и примечаниях; таблицы, марки и числа неизменны.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/ee30bea62021458bee204961511ac6ec4b73240911dc016f156d8f81441d7522.json",
+      "sha256": "ee30bea62021458bee204961511ac6ec4b73240911dc016f156d8f81441d7522",
+      "bytes": 42749,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/f7127764b4c34965f0d522add2318ebd2260b8dd621686285b14a12f288bbba7.json",
+      "sha256": "f7127764b4c34965f0d522add2318ebd2260b8dd621686285b14a12f288bbba7",
+      "bytes": 41931,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-innovations-20261014.round4.r2-readable"
+    },
+    {
+      "path": "objects/5f2ed0c2292f3374ae34dcc47ee0440de4e69889f0566002513ed2cdff88b5da.json",
+      "sha256": "5f2ed0c2292f3374ae34dcc47ee0440de4e69889f0566002513ed2cdff88b5da",
+      "bytes": 26824,
+      "role": "source-review",
+      "program_version": "tail-mod3-innovations-20261014.round4.r2-readable"
+    }
+  ]
+}

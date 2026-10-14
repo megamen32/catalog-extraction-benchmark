@@ -1,0 +1,36 @@
+{
+  "id": "innov111-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 111: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 111
+  },
+  "review_basis": "[\"Все144ячейки и реальные объединения верны.\", \"Native дал5как позицию зажима, L₂/L₃ как продольную длину и dкак фактический диаметр провода.\", \"Разные окончания не являются зеркальными одинаковыми видами.\"] Исправления: [\"Исправлены владельцы всех размеров и5как осевая перемычка, местный видБ с крепежом.\", \"Полное доказательство и правильный смысл сечений/матриц без изменения чисел.\", \"Только пробелы в описаниях, кратком содержании и примечаниях; таблицы, марки и числа неизменны.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/18114f64b1095ec4d0695904f0841b5c8ffa4e6bd6613ca71c5f3eeccc420efc.json",
+      "sha256": "18114f64b1095ec4d0695904f0841b5c8ffa4e6bd6613ca71c5f3eeccc420efc",
+      "bytes": 32329,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/0e8275ca4ba7b8784043d6e7627257ce227dfca43b7cbce080977579370f8627.json",
+      "sha256": "0e8275ca4ba7b8784043d6e7627257ce227dfca43b7cbce080977579370f8627",
+      "bytes": 31330,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-innovations-20261014.round4.r2-readable"
+    },
+    {
+      "path": "objects/8b5192335289f95c9f67a88ac98ff6679c8e4926970def660a0756aed4508c07.json",
+      "sha256": "8b5192335289f95c9f67a88ac98ff6679c8e4926970def660a0756aed4508c07",
+      "bytes": 32032,
+      "role": "source-review",
+      "program_version": "tail-mod3-innovations-20261014.round4.r2-readable"
+    }
+  ]
+}

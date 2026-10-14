@@ -1,0 +1,36 @@
+{
+  "id": "innov199-tail-mod4-full-source-correction-20261014-revision-883f41ecc8",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 199: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 199
+  },
+  "review_basis": "[\"Проверены все 120 ячеек и реальные объединения рисунков/нагрузок. Масса 5,57 буквальна.\", \"Собственные 7× кропы подтверждают 158, 19,2 и 127 второго рисунка; native дал 150 и пропустил два размера.\", \"У первого рисунка Ø16 относится к штифту, 20 к просвету щёк, 38 к осям болтов, 64 не полная высота.\", \"Независимый mod1 и собственный 9× кроп подтвердили: нижняя база 158 — нижняя касательная круглого протектора, не конец подвесной скобы. Это ошибка моей r1 Codex; число 158 и таблица верны.\"] Исправления: [\"150 исправлено на 158; добавлены 19,2 и 127 и их владельцы.\", \"Полностью уточнены размерные базы обоих рисунков.\", \"Ложное отсутствие помех заменено буквальным отсутствием потерь от перемагничивания; добавлены пропущенные бренды и единица сечения.\", \"Уточнён только нижний конец 158 в figures[1].description; все 120 ячеек и остальные поля PageContent неизменны.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/4cd425c2f4383ec5b34745b22c77f8893afbe665ba150b37b87188e129ce3012.json",
+      "sha256": "4cd425c2f4383ec5b34745b22c77f8893afbe665ba150b37b87188e129ce3012",
+      "bytes": 24647,
+      "role": "native-candidate",
+      "program_version": "1.5.8"
+    },
+    {
+      "path": "objects/883f41ecc824ae29da2702e8bff3dc74e12b4016dbe8f72dee3f6f518b1697cb.json",
+      "sha256": "883f41ecc824ae29da2702e8bff3dc74e12b4016dbe8f72dee3f6f518b1697cb",
+      "bytes": 25305,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-innovations-20261014.r2-peer199195"
+    },
+    {
+      "path": "objects/2f46cd238547f6b8e31118ba9110e6f37e790ba7a3849b05dfebed631c1cfeb1.json",
+      "sha256": "2f46cd238547f6b8e31118ba9110e6f37e790ba7a3849b05dfebed631c1cfeb1",
+      "bytes": 22702,
+      "role": "source-review",
+      "program_version": "tail-mod3-innovations-20261014.r2-peer199195"
+    }
+  ]
+}

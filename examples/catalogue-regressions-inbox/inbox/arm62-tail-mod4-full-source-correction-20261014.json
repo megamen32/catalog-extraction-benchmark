@@ -1,0 +1,36 @@
+{
+  "id": "arm62-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 62: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 62
+  },
+  "review_basis": "[\"Все100 ячеек10×10 сверены, числовые значения не менялись.\", \"Сохранены обе строки ПГН-5-6 и примечания ПА-640/500. Контакт zakaz@mzva.ru.\"] Исправления: [\"Удалена выдумка о ломере/партии; восстановлена настоящая подпись про потери от перемагничивания.\", \"H/H₁ связаны с отдельными уровнями обеих конструкций,19,2 — внутренний проход ушка, не болт.\", \"Возвращено отсутствовавшее брендинг-наименование.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/a3b68b2738599cf18fc2a99abae884417d759ea0b9f73013a00a985a276371ba.json",
+      "sha256": "a3b68b2738599cf18fc2a99abae884417d759ea0b9f73013a00a985a276371ba",
+      "bytes": 22548,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/4ede527a220af47d82615c03eaaa04ce71a9ca01e70734045e8a842794d1e6ba.json",
+      "sha256": "4ede527a220af47d82615c03eaaa04ce71a9ca01e70734045e8a842794d1e6ba",
+      "bytes": 22173,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/9d4adea195d7a3fe98d7f94609b0484452ea98c03375878f23f7c0dfd95a84e3.json",
+      "sha256": "9d4adea195d7a3fe98d7f94609b0484452ea98c03375878f23f7c0dfd95a84e3",
+      "bytes": 3198,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

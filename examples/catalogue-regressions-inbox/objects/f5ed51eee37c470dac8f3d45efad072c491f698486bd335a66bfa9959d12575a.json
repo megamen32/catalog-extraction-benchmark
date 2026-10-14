@@ -1,0 +1,83 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_filename": "Katalog-ARMATURA.pdf",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 32,
+  "printed_page": "31",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r2",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-0032-native-candidate.json",
+    "sha256": "bb472c851e85785d91173a1c795baee3f62473a94368e3f4a75885674da517cf",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.3",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "531e9bea963ef7592a9a09035761b155f81fbf1ba43027dc5c7017c55e9693fe",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "bb472c851e85785d91173a1c795baee3f62473a94368e3f4a75885674da517cf",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 32,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "3b4165e5e56d3a8455b883aea55738aa0e06f3159a60ba01bc9d5ccabf1f6d10",
+      "receipt": "calls/abf08e61fad5455c864d6cb035d85891/result.json",
+      "started_at": 1791938836.2691226,
+      "finished_at": 1791938887.868357
+    }
+  },
+  "output": {
+    "file": "armature-0032-reviewed-r2.json",
+    "sha256": "0df218bf0e6cab9b1dd4da5f9cff9880ab3b0297f4a10a2b860f0f6497383e30"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "15edf30bc5cf4ab79b2612d3ebb310b63e35514fc843e602edf8b347857e7e5c",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      1
+    ],
+    "column_counts": [
+      3
+    ],
+    "cells_checked": 3
+  },
+  "source_findings": [
+    "Лично повторно проверены исходные области и сохранённые увеличения, замечания независимого автора подтверждены.",
+    "Все строки, ячейки и числовые значения таблиц сохранены; изменения ограничены указанной областью evidence либо честным отказом от неподтверждённой привязки D."
+  ],
+  "corrections": [
+    "Область вступления продлена до y=0.22, включая ТУ; колонтитула до x=0.93, включая конец сайта."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T13:54:57.218440+00:00",
+  "previous_reviewed_output": {
+    "file": "armature-0032-reviewed.json",
+    "sha256": "d6b67693c4b649f6fa8105e700469bb6694f2b33d0c223121ab4a5ac80b5616c"
+  },
+  "revision_trigger": "Independent source review by catalog_tail_mod1, followed by personal source-image recheck by catalog_tail_mod0.",
+  "revision_evidence_images": [],
+  "private_original_receipt_sha256": "141011af081b93e466d923020d96f7ed9c010f67ca7aef25f73989c06b56d025"
+}

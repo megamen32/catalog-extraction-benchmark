@@ -1,0 +1,36 @@
+{
+  "id": "arm68-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 68: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 68
+  },
+  "review_basis": "[\"Полный сохранённый оригинал повторно просмотрен, независимые замечания сопоставлены с исходником. Все числовые отношения и таблицы ранее независимо подтверждены catalog_tail_mod1; они сохранены.\", \"Правки читаемости не меняют обозначений. В марке АСк2у цифра внутри кода сохранена без добавления пробелов.\"] Исправления: [\"Во всех новых пояснениях разделены склеенные слова, числа и знаки обычными пробелами; буквальные марки, числовые значения и табличные данные сохранены.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/cf5db3fc8d8da421f6ba1b3e6ebd6e3f54515b56dad760050bca9cdfc22f215c.json",
+      "sha256": "cf5db3fc8d8da421f6ba1b3e6ebd6e3f54515b56dad760050bca9cdfc22f215c",
+      "bytes": 13452,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/63e8e50b3367355c642a39422328583190f8bbee7a8c16fb807823220ae294e7.json",
+      "sha256": "63e8e50b3367355c642a39422328583190f8bbee7a8c16fb807823220ae294e7",
+      "bytes": 14321,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r2"
+    },
+    {
+      "path": "objects/43f2b17aa9a51e5ef7a56b2b3e5d1315859f681d141d2a2dfe7563199b4579fc.json",
+      "sha256": "43f2b17aa9a51e5ef7a56b2b3e5d1315859f681d141d2a2dfe7563199b4579fc",
+      "bytes": 3809,
+      "role": "source-review",
+      "program_version": "tail-mod0-20261014.r2"
+    }
+  ]
+}

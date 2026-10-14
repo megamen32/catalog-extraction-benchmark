@@ -1,0 +1,36 @@
+{
+  "id": "arm106-tail-mod4-full-source-correction-20261014-revision-37fddd5a91",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 106: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 106
+  },
+  "review_basis": "[\"Полностью сверены 13×16 = 208 ячеек. В строках ТРАС-240-1 и ТРАС-330-1 общие значения распространены только внутри соответствующих объединённых областей.\", \"Сохранены фактические B=66 мм последнего корпуса, d1=26/S=25 у ТРАС-500-1 и все нагрузки/массы. Чертёж не даёт основания называть d фактическим диаметром провода.\"] Исправления: [\"Убрана неподтверждённая немагнитная сталь: источник сообщает немагнитность, но не материал.\", \"Исправлены детали корпуса и анкера, база L до внешнего края проушины и наличие размера l1 на наклонном участке.\", \"Убрано ложное замечание об отсутствии l1 и неверное чтение его как ссылки (1); задано соответствие парных табличных значений деталям.\", \"Русская подпись ФОРЭНЕРГО восстановлена как производственное объединение, английская industrial group сохранена.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/e14871ac5a1e19b8759c9902e1de7b527058635d107bdc803fcc6ff65c9d571f.json",
+      "sha256": "e14871ac5a1e19b8759c9902e1de7b527058635d107bdc803fcc6ff65c9d571f",
+      "bytes": 41429,
+      "role": "native-candidate",
+      "program_version": "1.5.5"
+    },
+    {
+      "path": "objects/37fddd5a918d855047550a7f9723f0ec979ada828ed10ef4b3c4575d31a5c7dc.json",
+      "sha256": "37fddd5a918d855047550a7f9723f0ec979ada828ed10ef4b3c4575d31a5c7dc",
+      "bytes": 37141,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r2"
+    },
+    {
+      "path": "objects/6561a88a55cbbaca75f8fe2ce1fc8675dc26aeb82cca852718e55c1f83b62d2a.json",
+      "sha256": "6561a88a55cbbaca75f8fe2ce1fc8675dc26aeb82cca852718e55c1f83b62d2a",
+      "bytes": 4081,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r2"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "arm74-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 74: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 74
+  },
+  "review_basis": "[\"Полный исходник и собственные5× upper/lower кропы сверены; таблиц0, неподписанные единицы не приписаны.\", \"Сохранены20 числовых нанесений двух чертежей (12 и8), включая два отдельныхØ22 и оба400. Цифра3 подтверждена get_text U+0033.\"] Исправления: [\"Восстановлены цифровой префикс3 и смысл трёх проводов. Удалены выдуманные пять/восемь проводов и лишние зажимы.\", \"Ø32 и левоеØ22 привязаны к стержням дужек; правоеØ22 к поперечному пальцу. Удалена выдуманная струна.\", \"Разделены габаритные610/980/844 и реальные межосевые880/400/560/260;355 оставлен по нижним образующим проводов.\", \"Бренд исправлен по оригиналу.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/dfff2ab2184e20fb024991a1e491cef7ac9cf7403ec88dfe2e899a4abc9241d8.json",
+      "sha256": "dfff2ab2184e20fb024991a1e491cef7ac9cf7403ec88dfe2e899a4abc9241d8",
+      "bytes": 8067,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/7b0c3506c69b7fec40b50089ad074d740b864bc3f36dabf8077e93e0aa10bf91.json",
+      "sha256": "7b0c3506c69b7fec40b50089ad074d740b864bc3f36dabf8077e93e0aa10bf91",
+      "bytes": 7546,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/a2d2d645024015bb1c9cc571c91154d55e5d283f706902f68b7de51686cab197.json",
+      "sha256": "a2d2d645024015bb1c9cc571c91154d55e5d283f706902f68b7de51686cab197",
+      "bytes": 3568,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

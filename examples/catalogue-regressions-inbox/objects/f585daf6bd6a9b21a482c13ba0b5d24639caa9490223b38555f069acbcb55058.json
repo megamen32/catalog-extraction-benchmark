@@ -1,0 +1,2162 @@
+{
+  "title": "Поддерживающая арматура для провода АС — присоединительные размеры, сечение, диаметр, разрушающая нагрузка, масса",
+  "page_context": {
+    "kind": "catalogue_product_data",
+    "summary": "Каталожная страница ООО «МЗВА» с параметрическим рядом поддерживающей арматуры (зажимов/креплений) для провода АС воздушных линий электропередачи. Для каждой марки указаны присоединительные размеры (тип зажима), сечение и диаметр применяемого провода, разрушающая нагрузка (не менее) и масса (не более). Таблица сгруппирована по диаметру провода D = 24,0; 24,1; 24,5; 24,8; 25,2 мм, причём для каждого диаметра приведены все применимые марки с соответствующими сечениями провода. Применение L — длина протектора 800–3000 мм, её определяет заказчик; масса указана с протектором минимальной длины 800 мм.",
+    "source_evidence": [
+      {
+        "kind": "catalogue_product_data",
+        "box": [
+          0.07,
+          0.015,
+          0.93,
+          0.123
+        ],
+        "observation": "Заголовок «ПОДДЕРЖИВАЮЩАЯ АРМАТУРА ДЛЯ ПРОВОДА АС» и шапка таблицы из шести столбцов: наименование, присоединительные размеры (тип зажима), сечение применяемого провода, диаметр провода, разрушающая нагрузка кН не менее, масса кг не более. Это титул товарной таблицы каталога, без привязки к конкретному объекту или заказчику.",
+        "transcription": "literal"
+      },
+      {
+        "kind": "catalogue_product_data",
+        "box": [
+          0.07,
+          0.115,
+          0.93,
+          0.89
+        ],
+        "observation": "60 позиций марок ПГН/2ПГН/3ПГН/3ПГН2/4ПГН/4ПГН2/5ПГН/5ПГН2 с обозначением ...-П(DхL)*; столбцы «Сечение применяемого провода» и «Диаметр провода» объединены по блокам из 12 строк, что показывает группировку параметров по диаметру провода, а не проектную позицию.",
+        "transcription": "literal"
+      },
+      {
+        "kind": "catalogue_product_data",
+        "box": [
+          0.07,
+          0.895,
+          0.95,
+          0.935
+        ],
+        "observation": "Примечания под таблицей: D — диаметр провода; L* — длина протектора 800 мм – 3000 мм, определяется Заказчиком; ** — масса указана с протектором минимальной длины 800 мм. Это типовые каталожные условия применения.",
+        "transcription": "literal"
+      }
+    ]
+  },
+  "printed_page": "164",
+  "text_blocks": [
+    {
+      "kind": "heading",
+      "text": "ПОДДЕРЖИВАЮЩАЯ АРМАТУРА ДЛЯ ПРОВОДА АС"
+    },
+    {
+      "kind": "branding",
+      "text": "ФОРЭНЕРГО — производственное объединение / FORENERGO manufacturing association"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Примечания: D — диаметр провода; L* — длина протектора 800 мм - 3000 мм, длину протектора определяет Заказчик; ** — масса указана с протектором минимальной длины 800 мм."
+    },
+    {
+      "kind": "footer",
+      "text": "164   ООО «МЗВА»   Тел./ факс: +7 (495) 780-51-65, e-mail: zakaz@mzva.ru   www.mzva.ru"
+    }
+  ],
+  "tables": [
+    {
+      "id": "t1",
+      "title": "Поддерживающая арматура для провода АС",
+      "columns": [
+        {
+          "id": "name",
+          "label": "Наименование",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "clamp",
+          "label": "Присоединительные размеры соответствуют зажимам типа",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "section",
+          "label": "Сечение применяемого провода",
+          "unit": "мм2",
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "diameter",
+          "label": "Диаметр провода",
+          "unit": "мм2",
+          "group": null,
+          "qualifier": "D"
+        },
+        {
+          "id": "breaking",
+          "label": "Разрушающая нагрузка",
+          "unit": "кН",
+          "group": null,
+          "qualifier": "не менее"
+        },
+        {
+          "id": "mass",
+          "label": "Масса",
+          "unit": "кг",
+          "group": "**",
+          "qualifier": "не более"
+        }
+      ],
+      "rows": [
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ПГН-5-3-П(24,0хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "ПГН-5-3",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "300/39",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "24,0",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "60",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "5,73",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ПГН-5-4-П(24,0хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "ПГН-5-4",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "300/39",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "24,0",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "100",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "7,40",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ПГН-5-6-П(24,0хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "ПГН-5-6",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "300/39",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "24,0",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "60",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "5,53",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "2ПГН-5-7-П(24,0хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "2ПГН-5-7",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "300/39",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "24,0",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "120",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "18,23",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "2ПГН-5-10-П(24,0хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "2ПГН-5-10",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "300/39",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "24,0",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "200",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "26,73",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "3ПГН-5-12-П(24,0хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "3ПГН-5-12",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "300/39",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "24,0",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "300",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "34,73",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "3ПГН-5-7-П(24,0хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "3ПГН-5-7",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "300/39",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "24,0",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "180",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "24,93",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "3ПГН2-5-4-П(24,0хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "3ПГН2-5-4",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "300/39",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "24,0",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "300",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "41,93",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "4ПГН-5-2А-П(24,0хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "4ПГН-5-2А",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "300/39",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "24,0",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "300",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "50,43",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "4ПГН2-5-2А-П(24,0хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "4ПГН2-5-2А",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "300/39",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "24,0",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "300",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "63,43",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "5ПГН-5-8-П(24,0хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "5ПГН-5-8",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "300/39",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "24,0",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "300",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "44,43",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "5ПГН2-5-8-П(24,0хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "5ПГН2-5-8",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "300/39",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "24,0",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "300",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "59,83",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ПГН-5-3-П(24,1хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "ПГН-5-3",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "300/48",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "24,1",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "60",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "5,73",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ПГН-5-4-П(24,1хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "ПГН-5-4",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "300/48",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "24,1",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "100",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "7,40",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ПГН-5-6-П(24,1хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "ПГН-5-6",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "300/48",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "24,1",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "60",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "5,53",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "2ПГН-5-7-П(24,1хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "2ПГН-5-7",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "300/48",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "24,1",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "120",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "18,23",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "2ПГН-5-10-П(24,1хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "2ПГН-5-10",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "300/48",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "24,1",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "200",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "26,73",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "3ПГН-5-12-П(24,1хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "3ПГН-5-12",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "300/48",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "24,1",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "300",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "34,73",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "3ПГН-5-7-П(24,1хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "3ПГН-5-7",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "300/48",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "24,1",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "180",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "24,93",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "3ПГН2-5-4-П(24,1хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "3ПГН2-5-4",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "300/48",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "24,1",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "300",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "41,93",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "4ПГН-5-2А-П(24,1хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "4ПГН-5-2А",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "300/48",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "24,1",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "300",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "50,43",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "4ПГН2-5-2А-П(24,1хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "4ПГН2-5-2А",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "300/48",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "24,1",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "300",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "63,43",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "5ПГН-5-8-П(24,1хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "5ПГН-5-8",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "300/48",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "24,1",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "300",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "44,43",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "5ПГН2-5-8-П(24,1хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "5ПГН2-5-8",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "300/48",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "24,1",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "300",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "59,83",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ПГН-5-3-П(24,5хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "ПГН-5-3",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "300/66\n300/67",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "24,5",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "60",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "5,74",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ПГН-5-4-П(24,5хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "ПГН-5-4",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "300/66\n300/67",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "24,5",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "100",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "7,40",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ПГН-5-6-П(24,5хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "ПГН-5-6",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "300/66\n300/67",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "24,5",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "60",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "5,54",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "2ПГН-5-7-П(24,5хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "2ПГН-5-7",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "300/66\n300/67",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "24,5",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "120",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "18,24",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "2ПГН-5-10-П(24,5хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "2ПГН-5-10",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "300/66\n300/67",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "24,5",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "200",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "26,74",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "3ПГН-5-12-П(24,5хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "3ПГН-5-12",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "300/66\n300/67",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "24,5",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "300",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "34,74",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "3ПГН-5-7-П(24,5хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "3ПГН-5-7",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "300/66\n300/67",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "24,5",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "180",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "23,94",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "3ПГН2-5-4-П(24,5хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "3ПГН2-5",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "300/66\n300/67",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "24,5",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "300",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "41,94",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "4ПГН-5-2А-П(24,5хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "4ПГН-5-2А-",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "300/66\n300/67",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "24,5",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "300",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "50,43",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "4ПГН2-5-2А-П(24,5хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "4ПГН2-5-2А",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "300/66\n300/67",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "24,5",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "300",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "63,44",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "5ПГН-5-8-П(24,5хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "5ПГН-5-8",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "300/66\n300/67",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "24,5",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "300",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "44,44",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "5ПГН2-5-8-П(24,5хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "5ПГН2-5-8",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "300/66\n300/67",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "24,5",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "300",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "59,84",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ПГН-5-3-П(24,8хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "ПГН-5-3",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "330/30",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "24,8",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "60",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "5,74",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ПГН-5-4-П(24,8хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "ПГН-5-4",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "330/30",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "24,8",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "100",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "7,43",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ПГН-5-6-П(24,8хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "ПГН-5-6",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "330/30",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "24,8",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "60",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "5,54",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "2ПГН-5-7-П(24,8хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "2ПГН-5-7",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "330/30",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "24,8",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "120",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "18,24",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "2ПГН-5-10-П(24,8хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "2ПГН-5-10",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "330/30",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "24,8",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "200",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "26,74",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "3ПГН-5-12-П(24,8хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "3ПГН-5-12",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "330/30",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "24,8",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "300",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "34,74",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "3ПГН-5-7-П(24,8хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "3ПГН-5-7",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "330/30",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "24,8",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "180",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "23,94",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "3ПГН2-5-4-П(24,8хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "3ПГН2-5-4",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "330/30",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "24,8",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "300",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "41,94",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "4ПГН-5-2А-П(24,8хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "4ПГН-5-2А",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "330/30",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "24,8",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "300",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "50,44",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "4ПГН2-5-2А-П(24,8хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "4ПГН2-5-2А",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "330/30",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "24,8",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "300",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "63,44",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "5ПГН-5-8-П(24,8хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "5ПГН-5-8",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "330/30",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "24,8",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "300",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "44,44",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "5ПГН2-5-8-П(24,8хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "5ПГН2-5-8",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "330/30",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "24,8",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "300",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "59,84",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ПГН-5-3-П(25,2хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "ПГН-5-3",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "330/43",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "25,2",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "60",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "5,74",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ПГН-5-4-П(25,2хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "ПГН-5-4",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "330/43",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "25,2",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "100",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "7,43",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "ПГН-5-6-П(25,2хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "ПГН-5-6",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "330/43",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "25,2",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "60",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "5.54",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "2ПГН-5-7-П(25,2хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "2ПГН-5-7",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "330/43",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "25,2",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "120",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "18,24",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "2ПГН-5-10-П(25,2хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "2ПГН-5-10",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "330/43",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "25,2",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "200",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "26,74",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "3ПГН-5-12-П(25,2хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "3ПГН-5-12",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "330/43",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "25,2",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "300",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "34,74",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "3ПГН-5-7-П(25,2хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "3ПГН-5-7",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "330/43",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "25,2",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "180",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "23,94",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "3ПГН2-5-4-П(25,2хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "3ПГН2-5-4",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "330/43",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "25,2",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "300",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "41,94",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "4ПГН-5-2А-П(25,2хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "4ПГН-5-2А",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "330/43",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "25,2",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "300",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "50,44",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "4ПГН2-5-2А-П(25,2хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "4ПГН2-5-2А",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "330/43",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "25,2",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "300",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "63,44",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "5ПГН-5-8-П(25,2хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "5ПГН-5-8",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "330/43",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "25,2",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "300",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "44,44",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "5ПГН2-5-8-П(25,2хL)*",
+              "state": "value"
+            },
+            {
+              "column_id": "clamp",
+              "value": "5ПГН2-5-8",
+              "state": "value"
+            },
+            {
+              "column_id": "section",
+              "value": "330/43",
+              "state": "value"
+            },
+            {
+              "column_id": "diameter",
+              "value": "25,2",
+              "state": "value"
+            },
+            {
+              "column_id": "breaking",
+              "value": "300",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "59,84",
+              "state": "value"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "figures": [],
+  "source_notes": [
+    "В блоке D=24,5 в столбце «Присоединительные размеры соответствуют зажимам типа» строка 3ПГН2-5-4-П(24,5хL)* набрана как «3ПГН2-5» (без окончания -4), а строка 4ПГН-5-2А-П(24,5хL)* — как «4ПГН-5-2А-» (с дефисом на конце); в остальных блоках те же позиции набраны полностью. Это особенность набора источника, перенесена буквально.",
+    "В блоке D=25,2 масса позиции ПГН-5-6-П(25,2хL)* набрана с точкой: «5.54», тогда как в остальных блоках та же позиция имеет вид «5,54».",
+    "Заголовок столбца «Диаметр провода» в источнике несёт единицу «мм2», хотя примечание определяет D как диаметр провода (мм); единица приведена как в источнике.",
+    "В обозначениях после диаметра употреблена кириллическая х и латинская L, что подтверждено текстовым слоем и изображением. Обозначения и все печатные особенности сохранены.",
+    "Масса 3ПГН-5-7-П(24,0хL)* и той же позиции при 24,1 равна 24,93; при 24,5/24,8/25,2 напечатано 23,94. Значения сохранены без выравнивания ряда."
+  ],
+  "uncertainties": []
+}

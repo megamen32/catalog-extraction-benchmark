@@ -1,0 +1,83 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_filename": "Katalog-ARMATURA.pdf",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 104,
+  "printed_page": "103",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r3",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-0104-native-candidate.json",
+    "sha256": "29edd75ea44a8ecf8d88563844dbf0e43c3f6ee3174d62ef5a0c91d171783e5b",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.5",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "2eacc79c9c9f59a9e1a1a95991de134de55c945cd252d9dffac288e3b2a29fff",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "29edd75ea44a8ecf8d88563844dbf0e43c3f6ee3174d62ef5a0c91d171783e5b",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 104,
+      "attempt": 2,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "1f47648c2a9640c6f2038f8a21a0cbb9c7a3757278e70e3926ce465237fae267",
+      "receipt": "calls/c9bdabc0848e4c96b6e22d0d1d5a9946/result.json",
+      "started_at": 1791942113.410355,
+      "finished_at": 1791942303.7713673
+    }
+  },
+  "output": {
+    "file": "armature-0104-reviewed-r3.json",
+    "sha256": "ae4281abe0fbb352f1e90662f028d56a211460aaa4fda08a2a3b331250b9c7a2"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "032318b574b4afe618629b10715b8893235f49c9a4b81f1190c2e35048344618",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      34
+    ],
+    "column_counts": [
+      16
+    ],
+    "cells_checked": 544
+  },
+  "source_findings": [
+    "Указание полного поперечного размера80 относится к исходному видуА; фактические данные не менялись.",
+    "Точный diff r2/r3 ограничен одним пробелом. Все544 ячейки и геометрия ранее независимо подтверждены mod1."
+  ],
+  "corrections": [
+    "Оставшаяся склейка «полной шириной80» исправлена на «полной шириной 80»."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T13:14:54.577927+00:00",
+  "previous_reviewed_output": {
+    "file": "armature-0104-reviewed-r2.json",
+    "sha256": "6b9745f25d5c22f47a013e4965c5778e1e7e82c6ace173a9af93fbc39a73e0de"
+  },
+  "revision_trigger": "Independent source review by catalog_tail_mod1, followed by personal source-image recheck by catalog_tail_mod0.",
+  "revision_evidence_images": [],
+  "private_original_receipt_sha256": "0a35ecef16c48bcc8619099e7a1ec8ea9e5f888ac5acff74d19c5e7861ee6fc9"
+}

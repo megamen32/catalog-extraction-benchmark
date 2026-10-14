@@ -1,0 +1,116 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 105,
+  "printed_page": "105",
+  "status": "author_source_review_complete_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod1",
+    "task": "/root/catalog_tail_mod1",
+    "version": "tail-mod1-20261014.r1",
+    "model_id": "Current native Codex session;exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "innovations-105-candidate.json",
+    "sha256": "d4ce9aa69fd1dfdeb9138393633f21b6d5e700e836c98859483350c0b45019c2",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.3",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "531e9bea963ef7592a9a09035761b155f81fbf1ba43027dc5c7017c55e9693fe",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "d4ce9aa69fd1dfdeb9138393633f21b6d5e700e836c98859483350c0b45019c2",
+      "source_bound_save": true,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 105,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "3b4165e5e56d3a8455b883aea55738aa0e06f3159a60ba01bc9d5ccabf1f6d10",
+      "receipt": "calls/a9216db2463b4e0e9b8d787b75fa6f3c/result.json",
+      "started_at": 1791939786.1188264,
+      "finished_at": 1791939819.1824665
+    },
+    "receipt_file": "innovations-105-producer-receipt.json",
+    "receipt_sha256": "f1e50bb7d90d71d5d0568b01bd191b1d993e6cb39302a1e7550de32d8584ff30",
+    "receipt_artifact_equals_candidate": true
+  },
+  "output": {
+    "file": "innovations-105-reviewed.json",
+    "sha256": "dd7004ee28b70c21c598efbaaa2f99741c1a6dcefc34fa00055e6f87523187ee",
+    "author": "catalog_tail_mod1"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "2d3897722a607d9721d682cf21ad8afa6c415d9ead679bfc8529462ab63a2633",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "pagecontent_schema_valid": true
+  },
+  "tables": {
+    "row_counts": [],
+    "column_counts": [],
+    "cells_checked": 0
+  },
+  "source_findings": [
+    "Полный оригинал просмотрен; сверены весь текст назначения, ТУ 3449-004-52819896-2018, условия изготовления, два преимущества защитной изоляции, все пять полей примера ШСИП-35-(8-9)-1-7, три плашки и контакты. Таблиц и размерных чертежей нет.",
+    "Исправлено смешение на фотографии: шлейф является изогнутым проводником, а не подвешенной гирляндой изоляторов. Исправлены рамки доказательств заголовка и текстовой плашки."
+  ],
+  "corrections": [
+    {
+      "path": "page_context.source_evidence[0].box[0]",
+      "before": 0.06,
+      "after": 0.075
+    },
+    {
+      "path": "page_context.source_evidence[0].box[1]",
+      "before": 0.17,
+      "after": 0.07
+    },
+    {
+      "path": "page_context.source_evidence[0].box[2]",
+      "before": 0.28,
+      "after": 0.285
+    },
+    {
+      "path": "page_context.source_evidence[0].box[3]",
+      "before": 0.62,
+      "after": 0.505
+    },
+    {
+      "path": "page_context.source_evidence[1].box[1]",
+      "before": 0.42,
+      "after": 0.395
+    },
+    {
+      "path": "page_context.source_evidence[1].box[3]",
+      "before": 0.54,
+      "after": 0.523
+    },
+    {
+      "path": "figures[0].description",
+      "before": "Чёрно-белая фотография металлической анкерной опоры (ферменная конструкция) с проводами ВЛ; видны установленные на опоре изолированные шлейфы — подвешенные гирлянды изоляторов с защитной изоляцией провода. Подписей, размерных линий, знаков и иных обозначений на фотографии нет.",
+      "after": "Чёрно-белая фотография ферменной металлической опоры ВЛ с проводами и гирляндами изоляторов. Изолированный шлейф — проходящий изогнутой дугой проводник, соединяющий участки магистрального провода; гирлянды изоляторов видны отдельно. На фотографии нет размерных линий или позиционных подписей."
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "independent_review_required": true,
+  "independent_review_status": "pending",
+  "separate_model_review_of_root_edits": null,
+  "unresolved_issues": [
+    "Нужна независимая проверка авторского разбора и инженерных отношений."
+  ],
+  "completed_at": "2026-10-14T16:46:31.056556+03:00",
+  "private_original_receipt_sha256": "75f4a409ace0b233a29104e37c772f3aca7996764aec015ca021b56b0885ecea"
+}

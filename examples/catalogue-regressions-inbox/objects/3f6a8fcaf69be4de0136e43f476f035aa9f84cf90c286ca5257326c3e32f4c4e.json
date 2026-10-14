@@ -1,0 +1,92 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 212,
+  "printed_page": "212",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r2"
+  },
+  "basis_candidate": {
+    "file": "innovations-0212-native-candidate.json",
+    "sha256": "15bb5c4619b15389476d4abf5ca0acf424572b72f60bb9dcab7a121cacc68ae8",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.8",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "56b47ab11c142fdd0d89ade636eb52fff30220c3425401678e2bf74c18b69c62",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "15bb5c4619b15389476d4abf5ca0acf424572b72f60bb9dcab7a121cacc68ae8",
+      "source_bound_save": true,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 212,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "ad43db8eeb96f6a5b1aab82eb07fb8d999a3c90cd9e1f094a41f378634f1d7ae",
+      "receipt": "calls/9395cd0c16804fa19039e767055aa41c/result.json",
+      "started_at": 1791947027.454658,
+      "finished_at": 1791947186.205902
+    }
+  },
+  "output": {
+    "file": "innovations-0212-reviewed-r2.json",
+    "sha256": "3e304143b42b8bff70d98e406012ab83f1b0a269fa309b25544911932825eb15"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "417564659ad607ea8a57c4a5685c4b90913bddfa4a7cf5d2349555bb8563e927",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      17
+    ],
+    "column_counts": [
+      10
+    ],
+    "cells_checked": 170
+  },
+  "source_findings": [
+    "Предыдущая полная исходная сверка сохранена в supersedes_source_review. Повторно просмотрены увеличенные оригинальные фрагменты и исправлены только перечисленные принадлежности; все таблицы побайтно равны прежним проверенным таблицам.",
+    "L₂ начинается на отмеченной плоскости внутри прямого цилиндрического участка, а не у фактического начала наружного прямого контура. Это собственная неточная формулировка предыдущего reviewed, не новый дефект native.",
+    "Из наблюдения верхней области удалён диапазон марок, напечатанный ниже этой области."
+  ],
+  "corrections": [
+    "L₂ начинается на отмеченной плоскости внутри прямого цилиндрического участка, а не у фактического начала наружного прямого контура. Это собственная неточная формулировка предыдущего reviewed, не новый дефект native.",
+    "Из наблюдения верхней области удалён диапазон марок, напечатанный ниже этой области."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T14:39:19.284272+00:00",
+  "previous_reviewed_output": {
+    "file": "innovations-0212-reviewed.json",
+    "sha256": "0f38bb12b8ee0cda2a6740f1404b994a793759f4fd8a546bfd289b9f3832a491"
+  },
+  "supersedes_source_review": {
+    "file": "innovations-0212-source-review.json",
+    "sha256": "667e08438aac84140bf428870035b2893e07fd94015ef27ad0aa0fbdffcd9fad"
+  },
+  "additional_original_images": [
+    {
+      "file": "innovations-212-dimensions.png",
+      "sha256": "213b2dd0f7d29c24738586fcde63ce689ce38076d5cd8e21d839c6a6632e7e86"
+    }
+  ],
+  "private_original_receipt_sha256": "e9374a4ba38e0eeb9e49285fd3c8e4597c088e5cf00abc10fd50fc622aea8c08"
+}

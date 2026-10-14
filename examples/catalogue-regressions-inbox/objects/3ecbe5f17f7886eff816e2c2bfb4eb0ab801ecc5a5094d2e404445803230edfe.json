@@ -1,0 +1,84 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 30,
+  "printed_page": "29",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r2",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "80510d0fea80c7943ac95f5e506ed074f57b59a9b3951493d6ab2cbb2df0ae09",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.3",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "531e9bea963ef7592a9a09035761b155f81fbf1ba43027dc5c7017c55e9693fe",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "80510d0fea80c7943ac95f5e506ed074f57b59a9b3951493d6ab2cbb2df0ae09",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 30,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "3b4165e5e56d3a8455b883aea55738aa0e06f3159a60ba01bc9d5ccabf1f6d10",
+      "receipt": "calls/84558bd749524339a2c671d31ea75858/result.json",
+      "started_at": 1791938767.770891,
+      "finished_at": 1791938843.446941
+    }
+  },
+  "output": {
+    "file": "armature-30-reviewed-r2.json",
+    "sha256": "e3b53b2bef1c4f4e6eca59612dc0ecb004dd3fc7ad6c9182cfa908e0fb7fc3d1"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "38b1ced3a8951833c684f3130c2fa9ee40acfa6ace2589d56a03b17dd3ee671e",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      19
+    ],
+    "column_counts": [
+      14
+    ],
+    "cells_checked": 266
+  },
+  "source_findings": [
+    "Все266 ячеек сверены,числа/тире не менялись.",
+    "Рисунки1–4 не перенесены на чужую страницу; связь через колонкуРис. и соседний источник явно описана.",
+    "Сохранены настоящее ТУ52814896 и ветровое условие отклонения до60°."
+  ],
+  "corrections": [
+    "D восстановлен как диаметр прутка, H₁ — до внутреннего низа скобы; удалены выдуманные провод/наклонённые пластины внутри рисунка6.",
+    "Сняты ложные неопределённости Smin/max и B/d после сверки схемы присоединения и соседнего полного листа29; реальные ограничения и прочерки сохранены.",
+    "Пояснения и описания записаны с нормальными пробелами; буквальные маркировки и табличные поля сохранены."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T17:40:14.272423+03:00",
+  "previous_author_revision": {
+    "content": "armature-30-reviewed.json",
+    "content_sha256": "ab6f59ef55adcf45ea123156fe74b4a89abbce44553343bbd8a45cfb38e2d497",
+    "receipt": "armature-30-source-review.json",
+    "receipt_sha256": "e4a9a52cc4f2ded301eeba5f043a0204bab2e9eb903593d5e13c9965c1570d1d"
+  },
+  "revision": 2,
+  "private_original_receipt_sha256": "a24cfd2d851922b976e4884807c9548bbc4575dd88517642e17d1fee68e3fc19"
+}

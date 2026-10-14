@@ -1,0 +1,36 @@
+{
+  "id": "innov139-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 139: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 139
+  },
+  "review_basis": "[\"Просмотрен весь лист; технических таблиц и размерных линий нет.\", \"Native назвал разделитель товарными данными и приписал нижним предметам материал и спиральную конструкцию без подписи.\"] Исправления: [\"Классификация supporting_material и буквальное описание видимых предметов.\", \"Полное доказательство и точное название декоративных элементов.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/45fffbe62a3903f0e14aa274222d01172b94191c34c7f594a94ec5addb425d6e.json",
+      "sha256": "45fffbe62a3903f0e14aa274222d01172b94191c34c7f594a94ec5addb425d6e",
+      "bytes": 5710,
+      "role": "native-candidate",
+      "program_version": "1.5.21"
+    },
+    {
+      "path": "objects/56542c2d37a9e12e4eac770c34758f5a59d984666dedec8719f1f004a4a28022.json",
+      "sha256": "56542c2d37a9e12e4eac770c34758f5a59d984666dedec8719f1f004a4a28022",
+      "bytes": 3286,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-innovations-20261014.r3"
+    },
+    {
+      "path": "objects/816f4fd794d5dca7008e847096395943a33ea0f3466cf0d076310a4c9dc5bddc.json",
+      "sha256": "816f4fd794d5dca7008e847096395943a33ea0f3466cf0d076310a4c9dc5bddc",
+      "bytes": 12639,
+      "role": "source-review",
+      "program_version": "tail-mod3-innovations-20261014.r3"
+    }
+  ]
+}

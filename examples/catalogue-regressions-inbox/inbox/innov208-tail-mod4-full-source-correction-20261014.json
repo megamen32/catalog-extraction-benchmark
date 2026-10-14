@@ -1,0 +1,36 @@
+{
+  "id": "innov208-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 208: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 208
+  },
+  "review_basis": "[\"Просмотрены полный оригинал, крупный чертёж и матрицы. Все 230 ячеек 23×10 проверены; МШ-40.7 в ШАСТ-240.3 действительно напечатано с точкой.\", \"По выносным линиям L₁ и L₂ имеют разные правые плоскости. Две риски находятся на наружной поверхности корпуса; d соответствует внутреннему каналу, а не отдельному контуру провода.\"] Исправления: [\"Восстановлена буквальная печатная форма «Корпус зажимов изготавливаются».\", \"Исправлены основания L₁ и L₂, принадлежность рисок наружной поверхности и d внутреннему каналу. Угол 20° назван углом, а не конусностью.\", \"Наблюдение таблицы ограничено реально указанной областью, нижняя граница охватывает последнюю строку.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/58bba0d56f9dfd568ece5642f4ea59b5f542efdb85770fecd1359dd08c301214.json",
+      "sha256": "58bba0d56f9dfd568ece5642f4ea59b5f542efdb85770fecd1359dd08c301214",
+      "bytes": 41190,
+      "role": "native-candidate",
+      "program_version": "1.5.8"
+    },
+    {
+      "path": "objects/677641b7fa5400eb731b4e59b092a7b873ce7a800957623a23a23c1b9d0e55ef.json",
+      "sha256": "677641b7fa5400eb731b4e59b092a7b873ce7a800957623a23a23c1b9d0e55ef",
+      "bytes": 39808,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r1"
+    },
+    {
+      "path": "objects/8ba6ba7dc6f700f50dac5ad6cc16813698cbf2f44b336bda2bf925a4cec60f20.json",
+      "sha256": "8ba6ba7dc6f700f50dac5ad6cc16813698cbf2f44b336bda2bf925a4cec60f20",
+      "bytes": 3849,
+      "role": "source-review",
+      "program_version": "tail-mod0-20261014.r1"
+    }
+  ]
+}

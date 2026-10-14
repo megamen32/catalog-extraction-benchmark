@@ -1,0 +1,74 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 74,
+  "printed_page": "73",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "dfff2ab2184e20fb024991a1e491cef7ac9cf7403ec88dfe2e899a4abc9241d8",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.4",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "03d94c1397ffd39d50a89db0b4d9ae29d17f13e5293b2fcbda6e8b4ec34d8c0c",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "dfff2ab2184e20fb024991a1e491cef7ac9cf7403ec88dfe2e899a4abc9241d8",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 74,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4d5faa2b87b39793b899bfd40ccb8b7b4ff5223f5cfe2aed7fb1c9e3580c2e6b",
+      "receipt": "calls/dbfaa5ad137d416d982bd4c9b36020de/result.json",
+      "started_at": 1791940738.2586787,
+      "finished_at": 1791940796.7607462
+    }
+  },
+  "output": {
+    "file": "armature-74-reviewed.json",
+    "sha256": "7b0c3506c69b7fec40b50089ad074d740b864bc3f36dabf8077e93e0aa10bf91"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "86c6c31d8c83e967a758830a12c0cd25f64550ff9e680ffec69073d7eb45f3c8",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [],
+    "column_counts": [],
+    "cells_checked": 0
+  },
+  "source_findings": [
+    "Полный исходник и собственные5× upper/lower кропы сверены; таблиц0, неподписанные единицы не приписаны.",
+    "Сохранены20 числовых нанесений двух чертежей (12 и8), включая два отдельныхØ22 и оба400. Цифра3 подтверждена get_text U+0033."
+  ],
+  "corrections": [
+    "Восстановлены цифровой префикс3 и смысл трёх проводов. Удалены выдуманные пять/восемь проводов и лишние зажимы.",
+    "Ø32 и левоеØ22 привязаны к стержням дужек; правоеØ22 к поперечному пальцу. Удалена выдуманная струна.",
+    "Разделены габаритные610/980/844 и реальные межосевые880/400/560/260;355 оставлен по нижним образующим проводов.",
+    "Бренд исправлен по оригиналу."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T16:26:15.788937+03:00",
+  "evidence_revision": "r2-count-only",
+  "private_original_receipt_sha256": "d8a31f2fcd9b07bc9136c2a53699b358507ec78c698218165481502f32b0dc95"
+}

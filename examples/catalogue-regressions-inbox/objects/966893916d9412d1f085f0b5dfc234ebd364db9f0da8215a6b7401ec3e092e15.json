@@ -1,0 +1,1255 @@
+{
+  "title": "Ограничители голедообразования и колебаний типа ОГК",
+  "page_context": {
+    "kind": "catalogue_product_data",
+    "summary": "Каталожная страница раздела «Арматура защитная»: ограничители голедообразования и колебаний (вибрационные гасители) типа ОГК, предназначенные для уменьшения массы голеда на проводах, тросах и оптических кабелях связи на ВЛ, уменьшения вероятности возникновения пляски, а также гашения вибраций, вызванных ветром. Изделия изготавливаются по ТУ 3449-001-52819896-2017. Страница содержит правило построения шифра изделия, перечень технических характеристик (массы применяемых грузов, диаметр троса демпфера, таблица выбора плашки по посадочному диаметру d1, буквенные индексы модификаций П/П1, точное обозначение диаметра провода), чертёж с размерами L, H, B, d, R, D, d1 и углом 15°, а также таблицу основных размеров и масс для 14 марок ОГК. Это товарные данные каталога, а не пример отчёта программы и не проектная спецификация.",
+    "source_evidence": [
+      {
+        "kind": "catalogue_product_data",
+        "box": [
+          0.08,
+          0.02,
+          0.95,
+          0.26
+        ],
+        "observation": "Заголовок раздела «АРМАТУРА ЗАЩИТНАЯ», подзаголовок с типом изделия, блок «НАЗНАЧЕНИЕ» с описанием области применения и ссылкой на ТУ, а также чертёж изделия с проставленными размерами. Это оформление каталожной страницы о конкретном изделии, а не снимок интерфейса ПО и не заполненная форма реального проекта.",
+        "transcription": "literal"
+      },
+      {
+        "kind": "catalogue_product_data",
+        "box": [
+          0.36,
+          0.265,
+          0.93,
+          0.62
+        ],
+        "observation": "Таблица «Технические характеристики» пронумерована позициями 1–5 и задаёт правила выбора: массы применяемого большего и меньшего груза, диаметр троса демпфера d, соответствие номера плашки посадочному диаметру d1, буквенные индексы модификаций и точное обозначение диаметра провода/троса/кабеля. Это параметры самого изделия, а не позиции стройки.",
+        "transcription": "literal"
+      },
+      {
+        "kind": "catalogue_product_data",
+        "box": [
+          0.08,
+          0.7,
+          0.93,
+          0.94
+        ],
+        "observation": "Сводная таблица марок ОГК с основными размерами (L, H, B, d, R, D) и массами (груз 1, груз 2, масса ОГК), перечисляющая весь типоразмерный ряд изделия от ОГК-0,55/0,45 до ОГК-3,9/3,1 — то есть предлагаемый ряд, а не подбор под конкретный объект.",
+        "transcription": "literal"
+      }
+    ]
+  },
+  "printed_page": "155",
+  "text_blocks": [
+    {
+      "kind": "heading",
+      "text": "АРМАТУРА ЗАЩИТНАЯ"
+    },
+    {
+      "kind": "heading",
+      "text": "ОГРАНИЧИТЕЛИ ГОЛОЛЕДООБРАЗОВАНИЯ И КОЛЕБАНИЙ ТИПА ОГК"
+    },
+    {
+      "kind": "heading",
+      "text": "НАЗНАЧЕНИЕ:"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Предназначены для уменьшения массы голеда на проводах, тросах и оптических кабелях связи на ВЛ, уменьшения вероятности возникновения пляски, а также гашения вибраций, вызванной ветром. Изготавливаются по ТУ 3449-001-52819896-2017."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Пример обозначения: ОГК-1,7/1,3-11-23/31 — стрелками 1, 2, 3 показаны масса большего груза, масса меньшего груза и диаметр троса демпфера; с модификацией: ОГК-1,7/1,3-11-23/31П(15,2) — стрелками 4 и 5 дополнительно показаны буквенное обозначение модификации (П) и точное обозначение диаметра провода, троса или кабеля."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Внимание! При использовании ОГК модификации П или П1 для выбора № плашки необходимо прибавлять 6,0 мм к диаметру (D) провода, троса или кабеля."
+    },
+    {
+      "kind": "paragraph",
+      "text": "* — при обозначении ОГК с интегрированным протектором к наименованию добавляется «П» или «П1» и диаметр провода, троса или кабеля, см. пример обозначения и пп. 4, 5."
+    },
+    {
+      "kind": "paragraph",
+      "text": "** — размеры для справки."
+    },
+    {
+      "kind": "branding",
+      "text": "ООО «МЗВА», тел./факс: +7 (495) 780-51-65, e-mail: zakaz@mzva.ru, www.mzva.ru. ФОРЭНЕРГО — производственная ассоциация, FORENERGO manufacturing association."
+    },
+    {
+      "kind": "footer",
+      "text": "155"
+    }
+  ],
+  "tables": [
+    {
+      "id": "t1",
+      "title": "Технические характеристики",
+      "columns": [
+        {
+          "id": "num",
+          "label": "№ п/п",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "name",
+          "label": "Наименование",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "value",
+          "label": "Технические характеристики",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        }
+      ],
+      "rows": [
+        {
+          "cells": [
+            {
+              "column_id": "num",
+              "value": "1",
+              "state": "value"
+            },
+            {
+              "column_id": "name",
+              "value": "Масса применяемого большего груза, кг",
+              "state": "value"
+            },
+            {
+              "column_id": "value",
+              "value": "0,55; 1,7; 2,8 ;1,6; 3,9",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "num",
+              "value": "1",
+              "state": "value"
+            },
+            {
+              "column_id": "name",
+              "value": "Масса применяемого меньшего груза, кг",
+              "state": "value"
+            },
+            {
+              "column_id": "value",
+              "value": "0,45; 1,3; 2,3; 3,1",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "num",
+              "value": "2",
+              "state": "value"
+            },
+            {
+              "column_id": "name",
+              "value": "Диаметр троса демпфера d, мм",
+              "state": "value"
+            },
+            {
+              "column_id": "value",
+              "value": "9,1; 11,0; 13,0",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "num",
+              "value": "3",
+              "state": "value"
+            },
+            {
+              "column_id": "name",
+              "value": "№ плашки, обозначающий посадочный диаметр провода, троса или кабеля d1",
+              "state": "value"
+            },
+            {
+              "column_id": "value",
+              "value": null,
+              "state": "blank"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "num",
+              "value": "4",
+              "state": "value"
+            },
+            {
+              "column_id": "name",
+              "value": "Буквенное обозначение модификации ОГК с интегрированным протектором",
+              "state": "value"
+            },
+            {
+              "column_id": "value",
+              "value": "П — модификация для установки на провод; П1 — модификация для установки на трос или кабель",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "num",
+              "value": "5",
+              "state": "value"
+            },
+            {
+              "column_id": "name",
+              "value": "Точное обозначение диаметра провода, троса или кабеля, на который устанавливается гаситель вибрации с интегрированным протектором, мм",
+              "state": "value"
+            },
+            {
+              "column_id": "value",
+              "value": null,
+              "state": "blank"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": "Соответствие номера плашки и посадочного диаметра d1",
+      "columns": [
+        {
+          "id": "plate",
+          "label": "№ плашки",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "d1",
+          "label": "Диаметр, d1, мм",
+          "unit": "мм",
+          "group": null,
+          "qualifier": null
+        }
+      ],
+      "rows": [
+        {
+          "cells": [
+            {
+              "column_id": "plate",
+              "value": "10 – 13",
+              "state": "value"
+            },
+            {
+              "column_id": "d1",
+              "value": "9,0 – 15,0",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "plate",
+              "value": "16 – 20",
+              "state": "value"
+            },
+            {
+              "column_id": "d1",
+              "value": "14,5 – 22,0",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "plate",
+              "value": "23 – 31",
+              "state": "value"
+            },
+            {
+              "column_id": "d1",
+              "value": "20,1 – 32,0",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "plate",
+              "value": "23 – 35",
+              "state": "value"
+            },
+            {
+              "column_id": "d1",
+              "value": "20,1 – 35,0",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "plate",
+              "value": "32 – 46",
+              "state": "value"
+            },
+            {
+              "column_id": "d1",
+              "value": "32,0 – 46,0",
+              "state": "value"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": "Основные размеры и массы марок ОГК",
+      "columns": [
+        {
+          "id": "num",
+          "label": "№",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "marka",
+          "label": "Марка ОГК",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "L",
+          "label": "L**",
+          "unit": "мм",
+          "group": "Основные размеры, мм",
+          "qualifier": "размеры для справки"
+        },
+        {
+          "id": "H",
+          "label": "Н**",
+          "unit": "мм",
+          "group": "Основные размеры, мм",
+          "qualifier": "размеры для справки"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "unit": "мм",
+          "group": "Основные размеры, мм",
+          "qualifier": null
+        },
+        {
+          "id": "d",
+          "label": "d",
+          "unit": "мм",
+          "group": "Основные размеры, мм",
+          "qualifier": null
+        },
+        {
+          "id": "R",
+          "label": "R",
+          "unit": "мм",
+          "group": "Основные размеры, мм",
+          "qualifier": null
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "unit": "мм",
+          "group": "Основные размеры, мм",
+          "qualifier": null
+        },
+        {
+          "id": "m1",
+          "label": "Груз 1",
+          "unit": "кг",
+          "group": "Масса, кг",
+          "qualifier": null
+        },
+        {
+          "id": "m2",
+          "label": "Груз 2",
+          "unit": "кг",
+          "group": "Масса, кг",
+          "qualifier": null
+        },
+        {
+          "id": "m",
+          "label": "ОГК",
+          "unit": "кг",
+          "group": "Масса, кг",
+          "qualifier": null
+        }
+      ],
+      "rows": [
+        {
+          "cells": [
+            {
+              "column_id": "num",
+              "value": "1",
+              "state": "value"
+            },
+            {
+              "column_id": "marka",
+              "value": "ОГК-0,55/0,45-9,1-10/13*",
+              "state": "value"
+            },
+            {
+              "column_id": "L",
+              "value": "600",
+              "state": "value"
+            },
+            {
+              "column_id": "H",
+              "value": "240",
+              "state": "value"
+            },
+            {
+              "column_id": "B",
+              "value": "45",
+              "state": "value"
+            },
+            {
+              "column_id": "d",
+              "value": "9,1",
+              "state": "value"
+            },
+            {
+              "column_id": "R",
+              "value": "75",
+              "state": "value"
+            },
+            {
+              "column_id": "D",
+              "value": "14",
+              "state": "value"
+            },
+            {
+              "column_id": "m1",
+              "value": "0,55",
+              "state": "value"
+            },
+            {
+              "column_id": "m2",
+              "value": "0,45",
+              "state": "value"
+            },
+            {
+              "column_id": "m",
+              "value": "1,3",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "num",
+              "value": "2",
+              "state": "value"
+            },
+            {
+              "column_id": "marka",
+              "value": "ОГК-0,55/0,45-9,1-16/20*",
+              "state": "value"
+            },
+            {
+              "column_id": "L",
+              "value": "600",
+              "state": "value"
+            },
+            {
+              "column_id": "H",
+              "value": "249",
+              "state": "value"
+            },
+            {
+              "column_id": "B",
+              "value": "45",
+              "state": "value"
+            },
+            {
+              "column_id": "d",
+              "value": "9,1",
+              "state": "value"
+            },
+            {
+              "column_id": "R",
+              "value": "75",
+              "state": "value"
+            },
+            {
+              "column_id": "D",
+              "value": "14",
+              "state": "value"
+            },
+            {
+              "column_id": "m1",
+              "value": "0,55",
+              "state": "value"
+            },
+            {
+              "column_id": "m2",
+              "value": "0,45",
+              "state": "value"
+            },
+            {
+              "column_id": "m",
+              "value": "1,3",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "num",
+              "value": "3",
+              "state": "value"
+            },
+            {
+              "column_id": "marka",
+              "value": "ОГК-0,55/0,45-9,1-23/31*",
+              "state": "value"
+            },
+            {
+              "column_id": "L",
+              "value": "600",
+              "state": "value"
+            },
+            {
+              "column_id": "H",
+              "value": "286",
+              "state": "value"
+            },
+            {
+              "column_id": "B",
+              "value": "50",
+              "state": "value"
+            },
+            {
+              "column_id": "d",
+              "value": "9,1",
+              "state": "value"
+            },
+            {
+              "column_id": "R",
+              "value": "75",
+              "state": "value"
+            },
+            {
+              "column_id": "D",
+              "value": "14",
+              "state": "value"
+            },
+            {
+              "column_id": "m1",
+              "value": "0,55",
+              "state": "value"
+            },
+            {
+              "column_id": "m2",
+              "value": "0,45",
+              "state": "value"
+            },
+            {
+              "column_id": "m",
+              "value": "1,4",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "num",
+              "value": "4",
+              "state": "value"
+            },
+            {
+              "column_id": "marka",
+              "value": "ОГК-1,7/1,3-11-10/13*",
+              "state": "value"
+            },
+            {
+              "column_id": "L",
+              "value": "716",
+              "state": "value"
+            },
+            {
+              "column_id": "H",
+              "value": "289",
+              "state": "value"
+            },
+            {
+              "column_id": "B",
+              "value": "45",
+              "state": "value"
+            },
+            {
+              "column_id": "d",
+              "value": "11,0",
+              "state": "value"
+            },
+            {
+              "column_id": "R",
+              "value": "100",
+              "state": "value"
+            },
+            {
+              "column_id": "D",
+              "value": "18",
+              "state": "value"
+            },
+            {
+              "column_id": "m1",
+              "value": "1,7",
+              "state": "value"
+            },
+            {
+              "column_id": "m2",
+              "value": "1,3",
+              "state": "value"
+            },
+            {
+              "column_id": "m",
+              "value": "3,4",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "num",
+              "value": "5",
+              "state": "value"
+            },
+            {
+              "column_id": "marka",
+              "value": "ОГК-1,7/1,3-11-16/20*",
+              "state": "value"
+            },
+            {
+              "column_id": "L",
+              "value": "716",
+              "state": "value"
+            },
+            {
+              "column_id": "H",
+              "value": "298",
+              "state": "value"
+            },
+            {
+              "column_id": "B",
+              "value": "45",
+              "state": "value"
+            },
+            {
+              "column_id": "d",
+              "value": "11,0",
+              "state": "value"
+            },
+            {
+              "column_id": "R",
+              "value": "100",
+              "state": "value"
+            },
+            {
+              "column_id": "D",
+              "value": "18",
+              "state": "value"
+            },
+            {
+              "column_id": "m1",
+              "value": "1,7",
+              "state": "value"
+            },
+            {
+              "column_id": "m2",
+              "value": "1,3",
+              "state": "value"
+            },
+            {
+              "column_id": "m",
+              "value": "3,4",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "num",
+              "value": "6",
+              "state": "value"
+            },
+            {
+              "column_id": "marka",
+              "value": "ОГК-1,7/1,3-11-23/31*",
+              "state": "value"
+            },
+            {
+              "column_id": "L",
+              "value": "716",
+              "state": "value"
+            },
+            {
+              "column_id": "H",
+              "value": "336",
+              "state": "value"
+            },
+            {
+              "column_id": "B",
+              "value": "50",
+              "state": "value"
+            },
+            {
+              "column_id": "d",
+              "value": "11,0",
+              "state": "value"
+            },
+            {
+              "column_id": "R",
+              "value": "100",
+              "state": "value"
+            },
+            {
+              "column_id": "D",
+              "value": "18",
+              "state": "value"
+            },
+            {
+              "column_id": "m1",
+              "value": "1,7",
+              "state": "value"
+            },
+            {
+              "column_id": "m2",
+              "value": "1,3",
+              "state": "value"
+            },
+            {
+              "column_id": "m",
+              "value": "3,5",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "num",
+              "value": "7",
+              "state": "value"
+            },
+            {
+              "column_id": "marka",
+              "value": "ОГК-2,8/2,3-13-16/20*",
+              "state": "value"
+            },
+            {
+              "column_id": "L",
+              "value": "716",
+              "state": "value"
+            },
+            {
+              "column_id": "H",
+              "value": "308",
+              "state": "value"
+            },
+            {
+              "column_id": "B",
+              "value": "45",
+              "state": "value"
+            },
+            {
+              "column_id": "d",
+              "value": "13,0",
+              "state": "value"
+            },
+            {
+              "column_id": "R",
+              "value": "100",
+              "state": "value"
+            },
+            {
+              "column_id": "D",
+              "value": "24",
+              "state": "value"
+            },
+            {
+              "column_id": "m1",
+              "value": "2,8",
+              "state": "value"
+            },
+            {
+              "column_id": "m2",
+              "value": "2,2",
+              "state": "value"
+            },
+            {
+              "column_id": "m",
+              "value": "5,6",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "num",
+              "value": "8",
+              "state": "value"
+            },
+            {
+              "column_id": "marka",
+              "value": "ОГК-2,8/2,3-13-23/31*",
+              "state": "value"
+            },
+            {
+              "column_id": "L",
+              "value": "690",
+              "state": "value"
+            },
+            {
+              "column_id": "H",
+              "value": "345",
+              "state": "value"
+            },
+            {
+              "column_id": "B",
+              "value": "50",
+              "state": "value"
+            },
+            {
+              "column_id": "d",
+              "value": "13,0",
+              "state": "value"
+            },
+            {
+              "column_id": "R",
+              "value": "100",
+              "state": "value"
+            },
+            {
+              "column_id": "D",
+              "value": "24",
+              "state": "value"
+            },
+            {
+              "column_id": "m1",
+              "value": "2,8",
+              "state": "value"
+            },
+            {
+              "column_id": "m2",
+              "value": "2,2",
+              "state": "value"
+            },
+            {
+              "column_id": "m",
+              "value": "5,7",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "num",
+              "value": "9",
+              "state": "value"
+            },
+            {
+              "column_id": "marka",
+              "value": "ОГК-2,8/2,3-13-23/35*",
+              "state": "value"
+            },
+            {
+              "column_id": "L",
+              "value": "690",
+              "state": "value"
+            },
+            {
+              "column_id": "H",
+              "value": "345",
+              "state": "value"
+            },
+            {
+              "column_id": "B",
+              "value": "50",
+              "state": "value"
+            },
+            {
+              "column_id": "d",
+              "value": "13,0",
+              "state": "value"
+            },
+            {
+              "column_id": "R",
+              "value": "100",
+              "state": "value"
+            },
+            {
+              "column_id": "D",
+              "value": "24",
+              "state": "value"
+            },
+            {
+              "column_id": "m1",
+              "value": "2,8",
+              "state": "value"
+            },
+            {
+              "column_id": "m2",
+              "value": "2,2",
+              "state": "value"
+            },
+            {
+              "column_id": "m",
+              "value": "5,7",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "num",
+              "value": "10",
+              "state": "value"
+            },
+            {
+              "column_id": "marka",
+              "value": "ОГК-2,8/2,3-13-32/46*",
+              "state": "value"
+            },
+            {
+              "column_id": "L",
+              "value": "690",
+              "state": "value"
+            },
+            {
+              "column_id": "H",
+              "value": "382",
+              "state": "value"
+            },
+            {
+              "column_id": "B",
+              "value": "50",
+              "state": "value"
+            },
+            {
+              "column_id": "d",
+              "value": "13,0",
+              "state": "value"
+            },
+            {
+              "column_id": "R",
+              "value": "100",
+              "state": "value"
+            },
+            {
+              "column_id": "D",
+              "value": "24",
+              "state": "value"
+            },
+            {
+              "column_id": "m1",
+              "value": "2,8",
+              "state": "value"
+            },
+            {
+              "column_id": "m2",
+              "value": "2,2",
+              "state": "value"
+            },
+            {
+              "column_id": "m",
+              "value": "5,7",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "num",
+              "value": "11",
+              "state": "value"
+            },
+            {
+              "column_id": "marka",
+              "value": "ОГК-3,9/3,1-13-16/20*",
+              "state": "value"
+            },
+            {
+              "column_id": "L",
+              "value": "720",
+              "state": "value"
+            },
+            {
+              "column_id": "H",
+              "value": "314",
+              "state": "value"
+            },
+            {
+              "column_id": "B",
+              "value": "45",
+              "state": "value"
+            },
+            {
+              "column_id": "d",
+              "value": "13,0",
+              "state": "value"
+            },
+            {
+              "column_id": "R",
+              "value": "100",
+              "state": "value"
+            },
+            {
+              "column_id": "D",
+              "value": "28",
+              "state": "value"
+            },
+            {
+              "column_id": "m1",
+              "value": "3,9",
+              "state": "value"
+            },
+            {
+              "column_id": "m2",
+              "value": "3,1",
+              "state": "value"
+            },
+            {
+              "column_id": "m",
+              "value": "7,6",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "num",
+              "value": "12",
+              "state": "value"
+            },
+            {
+              "column_id": "marka",
+              "value": "ОГК-3,9/3,1-13-23/31*",
+              "state": "value"
+            },
+            {
+              "column_id": "L",
+              "value": "720",
+              "state": "value"
+            },
+            {
+              "column_id": "H",
+              "value": "351",
+              "state": "value"
+            },
+            {
+              "column_id": "B",
+              "value": "50",
+              "state": "value"
+            },
+            {
+              "column_id": "d",
+              "value": "13,0",
+              "state": "value"
+            },
+            {
+              "column_id": "R",
+              "value": "100",
+              "state": "value"
+            },
+            {
+              "column_id": "D",
+              "value": "28",
+              "state": "value"
+            },
+            {
+              "column_id": "m1",
+              "value": "3,9",
+              "state": "value"
+            },
+            {
+              "column_id": "m2",
+              "value": "3,1",
+              "state": "value"
+            },
+            {
+              "column_id": "m",
+              "value": "7,8",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "num",
+              "value": "13",
+              "state": "value"
+            },
+            {
+              "column_id": "marka",
+              "value": "ОГК-3,9/3,1-13-23/35*",
+              "state": "value"
+            },
+            {
+              "column_id": "L",
+              "value": "720",
+              "state": "value"
+            },
+            {
+              "column_id": "H",
+              "value": "351",
+              "state": "value"
+            },
+            {
+              "column_id": "B",
+              "value": "50",
+              "state": "value"
+            },
+            {
+              "column_id": "d",
+              "value": "13,0",
+              "state": "value"
+            },
+            {
+              "column_id": "R",
+              "value": "100",
+              "state": "value"
+            },
+            {
+              "column_id": "D",
+              "value": "28",
+              "state": "value"
+            },
+            {
+              "column_id": "m1",
+              "value": "3,9",
+              "state": "value"
+            },
+            {
+              "column_id": "m2",
+              "value": "3,1",
+              "state": "value"
+            },
+            {
+              "column_id": "m",
+              "value": "7,8",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "num",
+              "value": "14",
+              "state": "value"
+            },
+            {
+              "column_id": "marka",
+              "value": "ОГК-3,9/3,1-13-32/46*",
+              "state": "value"
+            },
+            {
+              "column_id": "L",
+              "value": "720",
+              "state": "value"
+            },
+            {
+              "column_id": "H",
+              "value": "388",
+              "state": "value"
+            },
+            {
+              "column_id": "B",
+              "value": "50",
+              "state": "value"
+            },
+            {
+              "column_id": "d",
+              "value": "13,0",
+              "state": "value"
+            },
+            {
+              "column_id": "R",
+              "value": "100",
+              "state": "value"
+            },
+            {
+              "column_id": "D",
+              "value": "28",
+              "state": "value"
+            },
+            {
+              "column_id": "m1",
+              "value": "3,9",
+              "state": "value"
+            },
+            {
+              "column_id": "m2",
+              "value": "3,1",
+              "state": "value"
+            },
+            {
+              "column_id": "m",
+              "value": "7,95",
+              "state": "value"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "figures": [
+    {
+      "title": "Чертёж гасителя вибрации ОГК",
+      "description": "Слева — вид сверху (развернутый контур): замкнутый тросовый демпфер с двумя прямыми участками, петлями радиуса R на концах, разнесёнными концами троса для зажима провода/троса/кабеля; посередине расположена зажимная плашка с болтом. Справа — вид сбоку (в поперечном направлении размаха демпфера): две разведённые ветви образуют угол 15°, видна вертикальная петля троса и зажимная плашка с отверстием для провода. Размеры: L — полная длина демпфера; H — полная высота в виде сбоку; B — ширина зажимной плашки; d — диаметр троса демпфера, указанный на прямом участке; R — радиус изгиба концевой петли троса; D — диаметр (толщина) концевого участка троса, зажимающего провод, трос или кабель; d1 — посадочный диаметр отверстия плашки, в который устанавливается провод, трос или кабель; 15° — угол раскрытия между двумя ветвями демпфера в виде сбоку.",
+      "labels": [
+        "L",
+        "H",
+        "B",
+        "d",
+        "R",
+        "D",
+        "d1",
+        "15°"
+      ]
+    }
+  ],
+  "source_notes": [
+    "В позиции 1 «Масса применяемого большего груза, кг» источник набирает значения с разнобоем знаков препинания: «0,55; 1,7; 2,8 ;1,6; 3,9» — перенесено как напечатано.",
+    "Столбец Н набирается в источнике кириллической «Н», тогда как L — латинской; обозначения сохранены как в оригинале.",
+    "Значения L и Н помечены сноской «** — размеры для справки», столбцы B, d, R, D такой пометки не имеют."
+  ],
+  "uncertainties": []
+}

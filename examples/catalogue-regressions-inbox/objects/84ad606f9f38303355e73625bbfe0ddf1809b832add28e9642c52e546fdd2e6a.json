@@ -1,0 +1,83 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_filename": "Katalog-ARMATURA.pdf",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 44,
+  "printed_page": "43",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r2",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-0044-native-candidate.json",
+    "sha256": "8d441e50742a8d6d8464eb050948a443a37f320bfa131b1a4f39d27b65cd1189",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.3",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "531e9bea963ef7592a9a09035761b155f81fbf1ba43027dc5c7017c55e9693fe",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "8d441e50742a8d6d8464eb050948a443a37f320bfa131b1a4f39d27b65cd1189",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 44,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "3b4165e5e56d3a8455b883aea55738aa0e06f3159a60ba01bc9d5ccabf1f6d10",
+      "receipt": "calls/e627d720fc8f48b1b57808cca02e0c89/result.json",
+      "started_at": 1791939308.7998757,
+      "finished_at": 1791939378.900403
+    }
+  },
+  "output": {
+    "file": "armature-0044-reviewed-r2.json",
+    "sha256": "82265f20020b625b9d1175d9326db6711c91bf22e0b8fd1c26493c76b68f99a0"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "7ef325f03a0ef5b8bf28ae2a68fcabb128fc7f9bac0c17f37590e8f47d3f4828",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      17
+    ],
+    "column_counts": [
+      16
+    ],
+    "cells_checked": 272
+  },
+  "source_findings": [
+    "Лично повторно проверены исходные области и сохранённые увеличения, замечания независимого автора подтверждены.",
+    "Все строки, ячейки и числовые значения таблиц сохранены; изменения ограничены указанной областью evidence либо честным отказом от неподтверждённой привязки D."
+  ],
+  "corrections": [
+    "Область таблицы начинается с y=0.63 и включает всю многоуровневую шапку."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T13:54:57.217215+00:00",
+  "previous_reviewed_output": {
+    "file": "armature-0044-reviewed.json",
+    "sha256": "3203097955557644159e6f2c7d1dc29c3d4bced8d0da5f89361544f32d8bd227"
+  },
+  "revision_trigger": "Independent source review by catalog_tail_mod1, followed by personal source-image recheck by catalog_tail_mod0.",
+  "revision_evidence_images": [],
+  "private_original_receipt_sha256": "62c8b14c13e957ea14f456c322e6742ac988348567cdf886a4adfb655d1b9e18"
+}

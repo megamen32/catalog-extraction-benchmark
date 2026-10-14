@@ -1,0 +1,86 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 46,
+  "printed_page": "45",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "cf3410849200d33f974a92de2cda07859931cf8a4d13aefa6584ef500f504d16",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.3",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "531e9bea963ef7592a9a09035761b155f81fbf1ba43027dc5c7017c55e9693fe",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "cf3410849200d33f974a92de2cda07859931cf8a4d13aefa6584ef500f504d16",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 46,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "3b4165e5e56d3a8455b883aea55738aa0e06f3159a60ba01bc9d5ccabf1f6d10",
+      "receipt": "calls/6f07d05e288c404d8b34d72633f30dbd/result.json",
+      "started_at": 1791939393.7067788,
+      "finished_at": 1791939441.0603123
+    }
+  },
+  "output": {
+    "file": "armature-46-reviewed-r2.json",
+    "sha256": "52589cdcc6d55b399fe0ce3aa8ddb0cbc0938b7507cece40765158ef93df416b"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "799a6a29a03163939f65d84eb0fc85d94fee7caa53043df3dfaa93ea51c37642",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      2,
+      13
+    ],
+    "column_counts": [
+      4,
+      11
+    ],
+    "cells_checked": 151
+  },
+  "source_findings": [
+    "151ячеек обеих таблиц сверены,все размеры/массы/нагрузки сохранены без изменения.",
+    "ТУ3449-001-52819896-2010,назначение повышенной подвижности иразворот90° сохранены.",
+    "Разделены слитные слова в пояснении source_evidence для читаемости. Геометрия и все таблицы неизменны."
+  ],
+  "corrections": [
+    "Сксобы исправлены на напечатанноеСкобы,федеральная торговая марка на производственноеобъединение.",
+    "Ø14/18связаны со стержнями,Ø16/22спальцами,17/23спросветом,70свнутренним изгибом.",
+    "СКТ dболт,B₁просвет;убрано ложное отсутствие единиц в таблицах.",
+    "Разделены слитные слова в пояснении source_evidence для читаемости. Геометрия и все таблицы неизменны."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T17:00:24.725941+03:00",
+  "previous_authored_output": {
+    "file": "armature-46-reviewed.json",
+    "sha256": "d92ff102a6dcb0a60ee77f2aca3b052b17290393cb73f663db63762f047b4744",
+    "source_review": "armature-46-source-review.json",
+    "source_review_sha256": "fc4a5df316e67084358ed2c4aa3ff0faf7cb8cc96e9b68330ad45a7ba054c3ef"
+  },
+  "private_original_receipt_sha256": "ee5089147cf1c9c30e9da77bfb9feff5af2d464f7b36e41b55a07c2a68332137"
+}

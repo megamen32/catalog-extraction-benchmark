@@ -1,0 +1,36 @@
+{
+  "id": "arm70-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 70: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 70
+  },
+  "review_basis": "[\"Полностью сверены60 ячеек15×4, включая настоящие массы20,0 и20,05/20,10 и общий120,0кН не менее. Объединённые названия150/24,185/29,240/39 распространены правильно.\", \"Совместимые АСку/АСк2у в одной физической ячейке240/39 и240/56 сохранены; новых товарных строк не придумано.\", \"Собственные7× armature-70-geometry.png и12× armature-70-d17.png показывают размерные базы, без догадки о ненапечатанных размерах провода.\"] Исправления: [\"Ø22 иR15 привязаны к монтажной дужке вместо провода и лодочки.\", \"65/38 отнесены к реальным трём уровням выносных;514/400 разделены как наружный габарит и проводное межосевое.\", \"17 записан как поперечный размер нижнего крепления, не выступающий конец;300 длина седла вдоль провода.\", \"Устранена выдуманная П-образная лодочка как название всей общей траверсы.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/e5e67ca3eb9a71c48866a5e55cb70cf835fc91a7dd8dc0b9ec3044ca3ddfab12.json",
+      "sha256": "e5e67ca3eb9a71c48866a5e55cb70cf835fc91a7dd8dc0b9ec3044ca3ddfab12",
+      "bytes": 17351,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/74a26432d095ca765e09678d815646b15028a50a64b8e9cbfb9ed25fb0abd917.json",
+      "sha256": "74a26432d095ca765e09678d815646b15028a50a64b8e9cbfb9ed25fb0abd917",
+      "bytes": 17074,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/2862ea14204afacf8e82ad7e9110e8d3a7adb17b32ca5dfb029e257b9329b8ab.json",
+      "sha256": "2862ea14204afacf8e82ad7e9110e8d3a7adb17b32ca5dfb029e257b9329b8ab",
+      "bytes": 3847,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

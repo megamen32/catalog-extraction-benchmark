@@ -1,0 +1,36 @@
+{
+  "id": "innov115-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 115: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 115
+  },
+  "review_basis": "[\"Все162ячейки верны, включая объединения массы/S и разные НАС для отдельных сечений.\", \"Native дал два разных варианта вместо двух концов одного шлейфа; L₁/S/5 имели неверных владельцев.\", \"Лапки самого шлейфа не исключены из комплекта.\"] Исправления: [\"Исправлены состав и геометрические базы, L₁ от нижнего ряда болтов.\", \"Реальный бренд и полное доказательство; слово «продолжение» не приписано печатному заголовку.\", \"Только пробелы в описаниях, кратком содержании и примечаниях; таблицы, марки и числа неизменны.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/74586370e65b587526cb796430d121ffd0bad1f1f63c1ce1c3de5eb4dee95833.json",
+      "sha256": "74586370e65b587526cb796430d121ffd0bad1f1f63c1ce1c3de5eb4dee95833",
+      "bytes": 34871,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/fc57131208647907b6b959fb5e722843b96c2b847594b76e2f0e9fccd4e470f4.json",
+      "sha256": "fc57131208647907b6b959fb5e722843b96c2b847594b76e2f0e9fccd4e470f4",
+      "bytes": 31797,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-innovations-20261014.round4.r2-readable"
+    },
+    {
+      "path": "objects/9a0408d7154aa42c28a5a59a3908fc37fbd57baa7887ebdc7c5f7a4a9033f22c.json",
+      "sha256": "9a0408d7154aa42c28a5a59a3908fc37fbd57baa7887ebdc7c5f7a4a9033f22c",
+      "bytes": 29160,
+      "role": "source-review",
+      "program_version": "tail-mod3-innovations-20261014.round4.r2-readable"
+    }
+  ]
+}

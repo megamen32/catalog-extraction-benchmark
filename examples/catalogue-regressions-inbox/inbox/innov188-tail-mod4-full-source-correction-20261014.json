@@ -1,0 +1,36 @@
+{
+  "id": "innov188-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 188: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 188
+  },
+  "review_basis": "[\"Полный оригинал и увеличенные схемы просмотрены; весь технический текст проверен: 10%, 20%, ASTM B 958-08, 2-5%, 45 лет, миллионы кВт·ч и десятки миллионов рублей совпали. Таблиц нет.\", \"Проверены обе выноски каждой схемы, цвета, разные правые базы 340/385, вертикальные базы 8,3 и отсутствие единиц при трёх размерах. Марки с кириллическими к/у сохранены.\"] Исправления: [\"Уточнены две правые стойки как базы сравниваемых пролётов 340/385. Размер 8,3 явно связан с уровнем подвеса нижнего провода и нижней точкой кривой.\", \"Удалены неподтверждённое заземление на левой схеме и заявление о логотипах/нижнем колонтитуле в области только левых заголовков.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/b79ff592c3ecba038f6930d33853a925d880df88a4813aa69f7ec5043bfba3a7.json",
+      "sha256": "b79ff592c3ecba038f6930d33853a925d880df88a4813aa69f7ec5043bfba3a7",
+      "bytes": 13553,
+      "role": "native-candidate",
+      "program_version": "1.5.8"
+    },
+    {
+      "path": "objects/56fc8e185a4a2be1c81ef10403ad0348c634c62fe0ddf425d6aca6dcf806dc9b.json",
+      "sha256": "56fc8e185a4a2be1c81ef10403ad0348c634c62fe0ddf425d6aca6dcf806dc9b",
+      "bytes": 13260,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r1"
+    },
+    {
+      "path": "objects/a036ba7f9446d0abc63662cdf8a76db79aaffeba3b81ebd3b5385b057276ec2d.json",
+      "sha256": "a036ba7f9446d0abc63662cdf8a76db79aaffeba3b81ebd3b5385b057276ec2d",
+      "bytes": 3775,
+      "role": "source-review",
+      "program_version": "tail-mod0-20261014.r1"
+    }
+  ]
+}

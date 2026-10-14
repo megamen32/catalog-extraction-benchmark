@@ -1,0 +1,77 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 164,
+  "printed_page": "164",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "innovations-0164-native-candidate.json",
+    "sha256": "3b3a1d0ea967d14bf8eda7a67021dfb24fd09e1c38a63f1e7e82e8540cdb93dd",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.5",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "2eacc79c9c9f59a9e1a1a95991de134de55c945cd252d9dffac288e3b2a29fff",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "3b3a1d0ea967d14bf8eda7a67021dfb24fd09e1c38a63f1e7e82e8540cdb93dd",
+      "source_bound_save": true,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 164,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "1f47648c2a9640c6f2038f8a21a0cbb9c7a3757278e70e3926ce465237fae267",
+      "receipt": "calls/22d9ed46f0664c01b1b3c8a3fa88a02e/result.json",
+      "started_at": 1791942410.8437376,
+      "finished_at": 1791942573.7195835
+    }
+  },
+  "output": {
+    "file": "innovations-0164-reviewed.json",
+    "sha256": "f585daf6bd6a9b21a482c13ba0b5d24639caa9490223b38555f069acbcb55058"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "4bcb9640d1588d6ba7f7498794f960ca02321463b66ea347b8fa68ff2685f44f",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      60
+    ],
+    "column_counts": [
+      6
+    ],
+    "cells_checked": 360
+  },
+  "source_findings": [
+    "Полный оригинал и две увеличенные части таблицы просмотрены. Все 360 ячеек 60×6 совпали: пять блоков по 12 строк, объединения сечений и диаметров, индивидуальные нагрузки и массы. Ни одного числа или кода не исправлял.",
+    "Лично подтверждены усечённая марка 3ПГН2-5 и завершающий дефис 4ПГН-5-2А- в блоке 24,5; 50,43 в том же блоке; 24,93 против 23,94; точка в 5.54; печатная единица мм² в заголовке диаметра. Примечания D, L*=800–3000 мм и масса с минимальным протектором 800 мм сохранены."
+  ],
+  "corrections": [
+    "Область шапки расширена до её нижней строки: прежняя y=.09 обрезала заголовки столбцов. Логотипы переданы их фактическим текстом."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T17:34:22.680776+03:00",
+  "private_original_receipt_sha256": "7891b815db91d5255396eb74bcc91cfc8b19298b11e73d13fe9a209add56aaac"
+}

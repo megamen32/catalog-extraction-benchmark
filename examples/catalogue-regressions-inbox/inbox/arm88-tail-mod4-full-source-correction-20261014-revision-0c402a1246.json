@@ -1,0 +1,36 @@
+{
+  "id": "arm88-tail-mod4-full-source-correction-20261014-revision-0c402a1246",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 88: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 88
+  },
+  "review_basis": "[\"Шесть оставшихся склеек в описании рисунка разделены пробелами. Размеры, числовые значения и их связи с контурами сохранены.\", \"Геометрия исходника ранее полностью проверена мной и независимо подтверждена catalog_tail_mod1; текущая ревизия ограничена читаемостью текста.\"] Исправления: [\"и450 → и 450\", \"и300 → и 300\", \"блока;520 → блока; 520\", \"Горизонтальный600 → Горизонтальный 600\", \"наклонный600 → наклонный 600\", \"блока.920 → блока. 920\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/fc14e8e898a6bad63598b5cf63922ef0cc474070355bf4ed1b0416049b0f2e18.json",
+      "sha256": "fc14e8e898a6bad63598b5cf63922ef0cc474070355bf4ed1b0416049b0f2e18",
+      "bytes": 9001,
+      "role": "native-candidate",
+      "program_version": "1.5.5"
+    },
+    {
+      "path": "objects/0c402a124687798057a29d15c6c08aca6b719d555a215a193b9b1e9a426e2695.json",
+      "sha256": "0c402a124687798057a29d15c6c08aca6b719d555a215a193b9b1e9a426e2695",
+      "bytes": 10671,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r3"
+    },
+    {
+      "path": "objects/7e73fd947c7a366caf16a517c068b6e8a4808c82fe656328e86ea0dc4689ed99.json",
+      "sha256": "7e73fd947c7a366caf16a517c068b6e8a4808c82fe656328e86ea0dc4689ed99",
+      "bytes": 3698,
+      "role": "source-review",
+      "program_version": "tail-mod0-20261014.r3"
+    }
+  ]
+}

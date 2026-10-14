@@ -1,0 +1,36 @@
+{
+  "id": "innov83-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 83: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 83
+  },
+  "review_basis": "[\"Все144 ячейки верны, включая нижние d₁18/20,5, M12 и разные B/B₁.\", \"Native ошибочно дал ØD наружному контуру и B₁ межосевому, а фото назвал двухсекционной сборкой.\", \"В заголовке «ПРИСОЕДИНИТЕЛЬНЫЕ» пропущена О в native, печать правильна.\"] Исправления: [\"Исправлены владельцы ØD/□B₁ и условный разрыв вместо реального стыка.\", \"Восстановлены точный заголовок и бренд; таблицы численно неизменны.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/054da9d5310d1332d338f1eb2e8888907accfe40b8ed06fe072b18b9b0aa92b4.json",
+      "sha256": "054da9d5310d1332d338f1eb2e8888907accfe40b8ed06fe072b18b9b0aa92b4",
+      "bytes": 32955,
+      "role": "native-candidate",
+      "program_version": "1.5.3"
+    },
+    {
+      "path": "objects/4b5e4a453732a048d3e58a396d76369fa3b68839c66d9b1f4842ea4e256cc28a.json",
+      "sha256": "4b5e4a453732a048d3e58a396d76369fa3b68839c66d9b1f4842ea4e256cc28a",
+      "bytes": 31867,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-innovations-20261014.r5"
+    },
+    {
+      "path": "objects/b2bb81a3b33e67a96e11a8e15bf2311760386eec5d37e3be918cf4b2d1fed01e.json",
+      "sha256": "b2bb81a3b33e67a96e11a8e15bf2311760386eec5d37e3be918cf4b2d1fed01e",
+      "bytes": 16816,
+      "role": "source-review",
+      "program_version": "tail-mod3-innovations-20261014.r5"
+    }
+  ]
+}

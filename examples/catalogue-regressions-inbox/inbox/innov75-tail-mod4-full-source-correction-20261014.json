@@ -1,0 +1,36 @@
+{
+  "id": "innov75-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 75: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 75
+  },
+  "review_basis": "[\"Все 240 ячеек таблицы правильны, включая необычную марку ОСК 12,5-10-А-2 и реальные объединения.\", \"Native ошибочно назвал торцевые виды сечениями и сообщил, что все присоединительные значения берутся из таблицы данного листа.\"] Исправления: [\"Точно раскрыты D1/D2 как окружности центров отверстий и B1/B2 как межосевые; виды А/Б и пределы H/L.\", \"Убрано ложное наличие числовых присоединительных размеров на данном листе.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/2e77aea301608e98ce092d5553abbeeac6d04b37560634b6b191174ac388844a.json",
+      "sha256": "2e77aea301608e98ce092d5553abbeeac6d04b37560634b6b191174ac388844a",
+      "bytes": 45730,
+      "role": "native-candidate",
+      "program_version": "1.5.3"
+    },
+    {
+      "path": "objects/8c62ad57a7f1366c2fab343a144290df5a1e98198f53b9839bea170d727ade02.json",
+      "sha256": "8c62ad57a7f1366c2fab343a144290df5a1e98198f53b9839bea170d727ade02",
+      "bytes": 41498,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-innovations-20261014.r6"
+    },
+    {
+      "path": "objects/bd16c90dc8e47d4962c46119e867d5ab714bc38eae71308d6ca5e682b577c3ac.json",
+      "sha256": "bd16c90dc8e47d4962c46119e867d5ab714bc38eae71308d6ca5e682b577c3ac",
+      "bytes": 18857,
+      "role": "source-review",
+      "program_version": "tail-mod3-innovations-20261014.r6"
+    }
+  ]
+}

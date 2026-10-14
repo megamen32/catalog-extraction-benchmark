@@ -1,0 +1,36 @@
+{
+  "id": "innov87-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 87: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 87
+  },
+  "review_basis": "[\"Все18 ячеек верны.\", \"Native выдумал восемь прорезей, установленную траверсу и гирлянду на фото.\", \"Номер87 напечатан, прежний null ошибочен.\"] Исправления: [\"Восстановлены печатный номер и видимые части устройства, убраны неподтверждённые прорези/хомуты.\", \"Точно ограничены размеры120/610 и смысл объединённых столбцов.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/8817cf0bdd1ad075d7cae6fdb569c53971178f2e39026ece196bbd125ed020e1.json",
+      "sha256": "8817cf0bdd1ad075d7cae6fdb569c53971178f2e39026ece196bbd125ed020e1",
+      "bytes": 16161,
+      "role": "native-candidate",
+      "program_version": "1.5.21"
+    },
+    {
+      "path": "objects/88296baa67dc3850c2b1bb6b61a4cee144057d4838560b2de552de6d56c5a153.json",
+      "sha256": "88296baa67dc3850c2b1bb6b61a4cee144057d4838560b2de552de6d56c5a153",
+      "bytes": 11482,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-innovations-20261014.r5"
+    },
+    {
+      "path": "objects/54c9bc01acadfb5a7cefd37ef250af8103294876345b5fefd078dd100da25d32.json",
+      "sha256": "54c9bc01acadfb5a7cefd37ef250af8103294876345b5fefd078dd100da25d32",
+      "bytes": 17384,
+      "role": "source-review",
+      "program_version": "tail-mod3-innovations-20261014.r5"
+    }
+  ]
+}

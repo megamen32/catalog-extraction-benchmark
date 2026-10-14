@@ -1,0 +1,36 @@
+{
+  "id": "arm38-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 38: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 38
+  },
+  "review_basis": "[\"Все3 ячейки и назначение для трёх проводов,ТУ и контакты сохранены.\", \"120° не заменён размером длины, Ø17 относится к нижнему свободному отверстию.\"] Исправления: [\"Вынесенный видА восстановлен как изогнутый круглый пруток Ø14 с R12 вместо П-образного сечения.\", \"Убраны выдуманные канавки под провода, уточнены разные базы120/170 и75/109.\", \"Ошибочная подпись у логотипа заменена на напечатанное «производственное объединение»; полный номер ТУ сохранён как на данном листе.\", \"Левая база размера 75 исправлена с оси детали на её внутреннюю правую поверхность.\", \"Пояснения и описания записаны с нормальными пробелами; буквальные маркировки и табличные поля сохранены.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/b76262fb84808bfc36bba90f62edcb90787fa4ac6f1c1ff444ce60fcef166d62.json",
+      "sha256": "b76262fb84808bfc36bba90f62edcb90787fa4ac6f1c1ff444ce60fcef166d62",
+      "bytes": 9777,
+      "role": "native-candidate",
+      "program_version": "1.5.3"
+    },
+    {
+      "path": "objects/512e6189eef13a1e13cd13446e199484a3a47a041c41975d7f520809709d87c9.json",
+      "sha256": "512e6189eef13a1e13cd13446e199484a3a47a041c41975d7f520809709d87c9",
+      "bytes": 7201,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r2"
+    },
+    {
+      "path": "objects/b13aa25f0ddc9318a43371d9e3466fd7b0b626db0fd1fed879e5f2a0910807f1.json",
+      "sha256": "b13aa25f0ddc9318a43371d9e3466fd7b0b626db0fd1fed879e5f2a0910807f1",
+      "bytes": 4029,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r2"
+    }
+  ]
+}

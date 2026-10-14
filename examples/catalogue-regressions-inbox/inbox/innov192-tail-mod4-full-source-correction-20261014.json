@@ -1,0 +1,36 @@
+{
+  "id": "innov192-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 192: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 192
+  },
+  "review_basis": "[\"Полный оригинал и увеличенный чертёж просмотрены; все 180 ячеек 15×12 совпали. Многострочные применимые провода, дроби, матрицы и массы сохранены буквально.\", \"Проверены L, обе L₁, L₂ и четыре диаметра, включая несовпадение плоскостей L₁ с торцами втулки. Все тексты, логотипы и контакты прочитаны по этой странице.\"] Исправления: [\"Исправлены базы обеих L₁: они не совпадают с торцами втулки. d и d₁ названы внутренними диаметрами своих деталей.\", \"Убрано вымышленное обозначение сварного шва; крестики относятся к условному изображению провода.\", \"Восстановлены регистр марок АСку/АСк2у, буквальные формулировки назначения/корпуса и единица мм²; шапка таблицы охвачена полностью.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/daed86d10cd0b3e6fc1333dcd4d68367ba2e19a9bca715feeb5c1846f55e1801.json",
+      "sha256": "daed86d10cd0b3e6fc1333dcd4d68367ba2e19a9bca715feeb5c1846f55e1801",
+      "bytes": 34262,
+      "role": "native-candidate",
+      "program_version": "1.5.8"
+    },
+    {
+      "path": "objects/ea58de9153a978c8b7ae580d1da2e9cafeeddccf9f47444e984fb34094f10277.json",
+      "sha256": "ea58de9153a978c8b7ae580d1da2e9cafeeddccf9f47444e984fb34094f10277",
+      "bytes": 33334,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r1"
+    },
+    {
+      "path": "objects/a192701608e49093cba897229335138478134193e5912c01ff06e1eda2cbb5b4.json",
+      "sha256": "a192701608e49093cba897229335138478134193e5912c01ff06e1eda2cbb5b4",
+      "bytes": 3893,
+      "role": "source-review",
+      "program_version": "tail-mod0-20261014.r1"
+    }
+  ]
+}

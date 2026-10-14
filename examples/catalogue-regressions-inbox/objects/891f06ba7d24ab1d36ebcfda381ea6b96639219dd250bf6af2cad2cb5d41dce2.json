@@ -1,0 +1,111 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_filename": "Katalog-ARMATURA.pdf",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 93,
+  "printed_page": "92",
+  "status": "author_source_review_complete_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod1",
+    "task": "/root/catalog_tail_mod1",
+    "version": "tail-mod1-20261014.r2",
+    "model_id": "Current native Codex session;exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-93-candidate.json",
+    "sha256": "52a9d6cc415c9d6618a8014967890588c8d8552f7df0096e938a53bcbeb830ac",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.4",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "03d94c1397ffd39d50a89db0b4d9ae29d17f13e5293b2fcbda6e8b4ec34d8c0c",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "52a9d6cc415c9d6618a8014967890588c8d8552f7df0096e938a53bcbeb830ac",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 93,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4d5faa2b87b39793b899bfd40ccb8b7b4ff5223f5cfe2aed7fb1c9e3580c2e6b",
+      "receipt": "calls/66193361bcae4a91a00fa230064442a7/result.json",
+      "started_at": 1791941439.0367835,
+      "finished_at": 1791941488.6656523
+    },
+    "receipt_file": "armature-93-producer-receipt.json",
+    "receipt_sha256": "5a729af108e3b68670fbc153ee5769ac3f06d09cf5e1cc9c5ef9ad6d4655801f",
+    "receipt_artifact_equals_candidate": true
+  },
+  "output": {
+    "file": "armature-93-reviewed-r2.json",
+    "sha256": "a47e775184ec62245e942a9c4cd011482574babb49c2e397cd1062463ec9a6d0",
+    "author": "catalog_tail_mod1"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "d164f7f01853b9eb5fdf6722b49809973311cda7da848a8aa8152463157ea71e",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "pagecontent_schema_valid": true
+  },
+  "tables": {
+    "row_counts": [],
+    "column_counts": [],
+    "cells_checked": 0
+  },
+  "source_findings": [
+    "Повторный просмотр оригинала подтвердил правку рамки шапки доx.93; упоминание нижнего колонтитула из верхней области удалено. Все исходные текстовые факты неизменны.",
+    "Сверка исходного текста, таблиц и остальных размерных связей выполнена ранее по полному оригиналу и сохранена в неизменной предыдущей source-review; текущая версия отражает указанную точную ревизию."
+  ],
+  "corrections": [
+    {
+      "path": "page_context.source_evidence[0].box[2]",
+      "before": 0.6,
+      "after": 0.93
+    },
+    {
+      "path": "page_context.source_evidence[0].observation",
+      "before": "Заголовочная строка «ЛИНЕЙНАЯ АРМАТУРА ДЛЯ ВЛ / АРМАТУРА НАТЯЖНАЯ» задаёт раздел каталога по линейной арматуре воздушных линий; рядом логотипы ФОРЭНЕРГО/FORENERGO, внизу колонтитул с реквизитами ООО «МЗВА-ЧЭМЗ».",
+      "after": "Верхняя рубрика «ЛИНЕЙНАЯ АРМАТУРА ДЛЯ ВЛ / АРМАТУРА НАТЯЖНАЯ» и расположенные справа логотипы ФОРЭНЕРГО/FORENERGO."
+    }
+  ],
+  "unchanged_native_candidate": true,
+  "independent_from_initial_extractor": true,
+  "independent_review_required": true,
+  "independent_review_status": "pending",
+  "separate_model_review_of_root_edits": null,
+  "unresolved_issues": [
+    "Нужна независимая проверка новой авторской ревизии."
+  ],
+  "completed_at": "2026-10-14T14:15:01.941853+00:00",
+  "revision_history": [
+    {
+      "previous_output": "armature-93-reviewed.json",
+      "previous_output_sha256": "52a9d6cc415c9d6618a8014967890588c8d8552f7df0096e938a53bcbeb830ac",
+      "previous_source_review": "armature-93-source-review.json",
+      "reason": "Повторный просмотр оригинала подтвердил правку рамки шапки доx.93; упоминание нижнего колонтитула из верхней области удалено. Все исходные текстовые факты неизменны.",
+      "delta": [
+        {
+          "path": "page_context.source_evidence[0].box[2]",
+          "before": 0.6,
+          "after": 0.93
+        },
+        {
+          "path": "page_context.source_evidence[0].observation",
+          "before": "Заголовочная строка «ЛИНЕЙНАЯ АРМАТУРА ДЛЯ ВЛ / АРМАТУРА НАТЯЖНАЯ» задаёт раздел каталога по линейной арматуре воздушных линий; рядом логотипы ФОРЭНЕРГО/FORENERGO, внизу колонтитул с реквизитами ООО «МЗВА-ЧЭМЗ».",
+          "after": "Верхняя рубрика «ЛИНЕЙНАЯ АРМАТУРА ДЛЯ ВЛ / АРМАТУРА НАТЯЖНАЯ» и расположенные справа логотипы ФОРЭНЕРГО/FORENERGO."
+        }
+      ]
+    }
+  ],
+  "private_original_receipt_sha256": "0c35f5653bd321e35fb38e977b559430b999ec2a1a3632a5b68e5592bc4175e1"
+}

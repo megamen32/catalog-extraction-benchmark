@@ -1,0 +1,36 @@
+{
+  "id": "arm48-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 48: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 48
+  },
+  "review_basis": "[\"Лично повторно проверены исходные области и сохранённые увеличения, замечания независимого автора подтверждены.\", \"Все строки, ячейки и числовые значения таблиц сохранены; изменения ограничены указанной областью evidence либо честным отказом от неподтверждённой привязки D.\"] Исправления: [\"Область чертежа начинается с y=0.28 и включает верхнюю размерную линию В.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/4dda8a9dd8f756fd5f690112153330bec72623090a40dfb88b0448d31c36c775.json",
+      "sha256": "4dda8a9dd8f756fd5f690112153330bec72623090a40dfb88b0448d31c36c775",
+      "bytes": 25048,
+      "role": "native-candidate",
+      "program_version": "1.5.3"
+    },
+    {
+      "path": "objects/2f9d78f2c5adcfcae3472dbd2bfeeb54d526b00b3efa0b855b467ee74462e9e0.json",
+      "sha256": "2f9d78f2c5adcfcae3472dbd2bfeeb54d526b00b3efa0b855b467ee74462e9e0",
+      "bytes": 24822,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r2"
+    },
+    {
+      "path": "objects/7678e513a924f7ec19f28356da799454e0cc5bfd57d5841381b644225d0f1a64.json",
+      "sha256": "7678e513a924f7ec19f28356da799454e0cc5bfd57d5841381b644225d0f1a64",
+      "bytes": 3610,
+      "role": "source-review",
+      "program_version": "tail-mod0-20261014.r2"
+    }
+  ]
+}

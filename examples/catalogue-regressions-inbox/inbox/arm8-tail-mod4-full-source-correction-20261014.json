@@ -1,0 +1,36 @@
+{
+  "id": "arm8-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 8: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 8
+  },
+  "review_basis": "[\"Повторно лично просмотрен исходный крупный ряд логотипов и фотографическая маркировка. Лигатура ST имеет общий верхний штрих, но обе буквы присутствуют. Исправляется моя предыдущая ручная ошибка, а не ошибка native INSTA.\", \"Нечитаемый суффикс ИОС-20-2000… остаётся pending; числовые данные текста сохранены.\"] Исправления: [\"Отозвана моя ошибочная замена ИНСТА/INSTA на ИНСА/INSA: крупный оригинал показывает лигатуру СТ/ST.\", \"Написание Voltra исправлено на Volta в логотипах и описании маркировки белого изделия: отдельной r в источнике нет.\", \"Области заголовка, основного текста/кредо и ряда логотипов расширены доy0.40/0.80/0.93.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/0f2c020604f479b70d434d70862181d3c740ea162bc32899d83080c00b5d97ee.json",
+      "sha256": "0f2c020604f479b70d434d70862181d3c740ea162bc32899d83080c00b5d97ee",
+      "bytes": 9509,
+      "role": "native-candidate",
+      "program_version": "1.5.3"
+    },
+    {
+      "path": "objects/d44c57472aae42c29a6b210073b18d0f98869f28062efb71719db82d20430def.json",
+      "sha256": "d44c57472aae42c29a6b210073b18d0f98869f28062efb71719db82d20430def",
+      "bytes": 9916,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r2"
+    },
+    {
+      "path": "objects/02210273b1479b272d0ec45a3d703c29f5a424bcf0f6cfc6228ff1e403dda4a7.json",
+      "sha256": "02210273b1479b272d0ec45a3d703c29f5a424bcf0f6cfc6228ff1e403dda4a7",
+      "bytes": 4474,
+      "role": "source-review",
+      "program_version": "tail-mod0-20261014.r2"
+    }
+  ]
+}

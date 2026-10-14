@@ -1,0 +1,36 @@
+{
+  "id": "innov147-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 147: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 147
+  },
+  "review_basis": "[\"Все 14 ячеек соответствуют оригиналу.\", \"По собственному 6× кропу Ø320 Max принадлежит изолятору, не раскрытию экрана; основной вертикальный диаметр тоже не расстояние между экранами.\"] Исправления: [\"Исправлены владельцы диаметров и смысл основного вида/сечений.\", \"Исправлены бренд и опечатка «зажижом», полное доказательство вместо неполных bbox.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/aa103fc35b8b8c77fb9c1dd5dd247f619ab1b3bd452c1dc61b4a2ebc25b69466.json",
+      "sha256": "aa103fc35b8b8c77fb9c1dd5dd247f619ab1b3bd452c1dc61b4a2ebc25b69466",
+      "bytes": 9311,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/529400082b586b34932404fdc4f19b438b667801cf0bc65b2651ea64269bf952.json",
+      "sha256": "529400082b586b34932404fdc4f19b438b667801cf0bc65b2651ea64269bf952",
+      "bytes": 7892,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-innovations-20261014.r3"
+    },
+    {
+      "path": "objects/d0a3fc8bb53f1927fe9822839e9993dcef97bc06d5cf67f0da2330474b77779b.json",
+      "sha256": "d0a3fc8bb53f1927fe9822839e9993dcef97bc06d5cf67f0da2330474b77779b",
+      "bytes": 13984,
+      "role": "source-review",
+      "program_version": "tail-mod3-innovations-20261014.r3"
+    }
+  ]
+}

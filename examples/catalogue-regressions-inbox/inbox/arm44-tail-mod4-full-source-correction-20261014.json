@@ -1,0 +1,36 @@
+{
+  "id": "arm44-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 44: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 44
+  },
+  "review_basis": "[\"Лично повторно проверены исходные области и сохранённые увеличения, замечания независимого автора подтверждены.\", \"Все строки, ячейки и числовые значения таблиц сохранены; изменения ограничены указанной областью evidence либо честным отказом от неподтверждённой привязки D.\"] Исправления: [\"Область таблицы начинается с y=0.63 и включает всю многоуровневую шапку.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/8d441e50742a8d6d8464eb050948a443a37f320bfa131b1a4f39d27b65cd1189.json",
+      "sha256": "8d441e50742a8d6d8464eb050948a443a37f320bfa131b1a4f39d27b65cd1189",
+      "bytes": 44911,
+      "role": "native-candidate",
+      "program_version": "1.5.3"
+    },
+    {
+      "path": "objects/82265f20020b625b9d1175d9326db6711c91bf22e0b8fd1c26493c76b68f99a0.json",
+      "sha256": "82265f20020b625b9d1175d9326db6711c91bf22e0b8fd1c26493c76b68f99a0",
+      "bytes": 47968,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r2"
+    },
+    {
+      "path": "objects/84ad606f9f38303355e73625bbfe0ddf1809b832add28e9642c52e546fdd2e6a.json",
+      "sha256": "84ad606f9f38303355e73625bbfe0ddf1809b832add28e9642c52e546fdd2e6a",
+      "bytes": 3610,
+      "role": "source-review",
+      "program_version": "tail-mod0-20261014.r2"
+    }
+  ]
+}

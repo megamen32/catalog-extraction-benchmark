@@ -1,0 +1,36 @@
+{
+  "id": "innov175-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 175: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 175
+  },
+  "review_basis": "[\"Весь лист просмотрен; таблиц и печатного номера нет.\", \"Источник показывает одного фигурного волка и мяч, а не неопределённые отдельные декоративные фигуры.\", \"АС в заголовке не раскрыта как алюминиевый провод; slash-метки являются оформлением.\"] Исправления: [\"Классификация supporting_material для разделителя.\", \"Убраны неподтверждённые материалы/типы изделий и технические labels декоративных элементов.\", \"Доказательство охватывает весь лист, фото описаны по видимому содержимому.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/7857f3e2028dd2edb736d174ae5515b3a1acdcc670f00eb646529b3f5c2599b5.json",
+      "sha256": "7857f3e2028dd2edb736d174ae5515b3a1acdcc670f00eb646529b3f5c2599b5",
+      "bytes": 5242,
+      "role": "native-candidate",
+      "program_version": "1.5.6"
+    },
+    {
+      "path": "objects/906f1ab9b828b595b2215f599eb996512233f682658514abc8cc7f13713d8adf.json",
+      "sha256": "906f1ab9b828b595b2215f599eb996512233f682658514abc8cc7f13713d8adf",
+      "bytes": 3849,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-innovations-20261014.r2"
+    },
+    {
+      "path": "objects/a4fe7ef4ab8cbbf158719f2c10047405d70d7667d24b695f8d602eb52f6a07d2.json",
+      "sha256": "a4fe7ef4ab8cbbf158719f2c10047405d70d7667d24b695f8d602eb52f6a07d2",
+      "bytes": 12376,
+      "role": "source-review",
+      "program_version": "tail-mod3-innovations-20261014.r2"
+    }
+  ]
+}

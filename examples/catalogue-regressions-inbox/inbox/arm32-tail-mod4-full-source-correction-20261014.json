@@ -1,0 +1,36 @@
+{
+  "id": "arm32-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 32: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 32
+  },
+  "review_basis": "[\"Лично повторно проверены исходные области и сохранённые увеличения, замечания независимого автора подтверждены.\", \"Все строки, ячейки и числовые значения таблиц сохранены; изменения ограничены указанной областью evidence либо честным отказом от неподтверждённой привязки D.\"] Исправления: [\"Область вступления продлена до y=0.22, включая ТУ; колонтитула до x=0.93, включая конец сайта.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/bb472c851e85785d91173a1c795baee3f62473a94368e3f4a75885674da517cf.json",
+      "sha256": "bb472c851e85785d91173a1c795baee3f62473a94368e3f4a75885674da517cf",
+      "bytes": 9686,
+      "role": "native-candidate",
+      "program_version": "1.5.3"
+    },
+    {
+      "path": "objects/0df218bf0e6cab9b1dd4da5f9cff9880ab3b0297f4a10a2b860f0f6497383e30.json",
+      "sha256": "0df218bf0e6cab9b1dd4da5f9cff9880ab3b0297f4a10a2b860f0f6497383e30",
+      "bytes": 8939,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r2"
+    },
+    {
+      "path": "objects/f5ed51eee37c470dac8f3d45efad072c491f698486bd335a66bfa9959d12575a.json",
+      "sha256": "f5ed51eee37c470dac8f3d45efad072c491f698486bd335a66bfa9959d12575a",
+      "bytes": 3638,
+      "role": "source-review",
+      "program_version": "tail-mod0-20261014.r2"
+    }
+  ]
+}

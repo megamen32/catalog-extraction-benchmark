@@ -1,0 +1,76 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 62,
+  "printed_page": "61",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "a3b68b2738599cf18fc2a99abae884417d759ea0b9f73013a00a985a276371ba",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.4",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "03d94c1397ffd39d50a89db0b4d9ae29d17f13e5293b2fcbda6e8b4ec34d8c0c",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "a3b68b2738599cf18fc2a99abae884417d759ea0b9f73013a00a985a276371ba",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 62,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4d5faa2b87b39793b899bfd40ccb8b7b4ff5223f5cfe2aed7fb1c9e3580c2e6b",
+      "receipt": "calls/7854496e920940bfa3bda80ba4ebf14a/result.json",
+      "started_at": 1791940337.3649316,
+      "finished_at": 1791940412.1846159
+    }
+  },
+  "output": {
+    "file": "armature-62-reviewed.json",
+    "sha256": "4ede527a220af47d82615c03eaaa04ce71a9ca01e70734045e8a842794d1e6ba"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "7deab66b59a774e93a6be80bf1ab88c9fd1613bb360bb4c922df15cf0a663443",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      10
+    ],
+    "column_counts": [
+      10
+    ],
+    "cells_checked": 100
+  },
+  "source_findings": [
+    "Все100 ячеек10×10 сверены, числовые значения не менялись.",
+    "Сохранены обе строки ПГН-5-6 и примечания ПА-640/500. Контакт zakaz@mzva.ru."
+  ],
+  "corrections": [
+    "Удалена выдумка о ломере/партии; восстановлена настоящая подпись про потери от перемагничивания.",
+    "H/H₁ связаны с отдельными уровнями обеих конструкций,19,2 — внутренний проход ушка, не болт.",
+    "Возвращено отсутствовавшее брендинг-наименование."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T16:49:18.649459+03:00",
+  "private_original_receipt_sha256": "78c0f6fec1efceb4cdec2617055d094bad8f1b36b713c87ae13fd0ee10456dad"
+}

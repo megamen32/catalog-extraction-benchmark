@@ -1,0 +1,36 @@
+{
+  "id": "innov131-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 131: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 131
+  },
+  "review_basis": "[\"Все 252 ячейки, объединения, мм/мм²/кг и условие L=7 м проверены; численные данные верны.\", \"Native смешивал внешний пунктирный НАС и собственные окончания шлейфа, ошибочно приписал D проводнику/S всему пакету.\", \"Выдуманная подпись «Напряжение натяжного болта» отсутствует; два 5 — осевые изоляционные перемычки.\", \"Собственный дополнительный 10× кроп показывает базу L₅: ось нижнего ряда болтов. Моя r1 ошибочно называла верхнюю границу лапки; это ошибка автора Codex, не native MiniMax.\"] Исправления: [\"Полностью восстановлены владельцы размеров, направления стрелок и состав комплекта.\", \"Удалены фиктивные labels и пустой столбец, полный bbox и точная связь L₅/S с объединениями.\", \"В r2 изменена только верхняя база L₅ в figures[0].description; 252 ячейки и остальные поля PageContent неизменны.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/993eb454da65343e953337f67008fbdddce9151445fdc34e4f4340790b2e1031.json",
+      "sha256": "993eb454da65343e953337f67008fbdddce9151445fdc34e4f4340790b2e1031",
+      "bytes": 48441,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/fb919a33f3b9aa10edfd0a6db6ca7db6953e5569f84d7cdfc9f4b466f2fcbd23.json",
+      "sha256": "fb919a33f3b9aa10edfd0a6db6ca7db6953e5569f84d7cdfc9f4b466f2fcbd23",
+      "bytes": 46730,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-innovations-20261014.r2-self-recheck131"
+    },
+    {
+      "path": "objects/df12a8cd481d86ae8a8093788b7a32adf86c2b169fed0f8649050cb4ce8faef5.json",
+      "sha256": "df12a8cd481d86ae8a8093788b7a32adf86c2b169fed0f8649050cb4ce8faef5",
+      "bytes": 29705,
+      "role": "source-review",
+      "program_version": "tail-mod3-innovations-20261014.r2-self-recheck131"
+    }
+  ]
+}

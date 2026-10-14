@@ -1,0 +1,36 @@
+{
+  "id": "arm78-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 78: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 78
+  },
+  "review_basis": "[\"Сверены288 ячеек48×6: шесть групп по восемь вариантов, все нагрузки60/100/120/200/180/300/300/300 и индивидуальные массы.\", \"Сохранён порядок18,9 затем18,8, обе марки95/141 и205/27 в последней группе и настоящие типы3ПГН2-5-1/4. Рекомендуемая длина2200 остаётся отдельным столбцом; L800–3000 по заказчику не подменяет её.\", \"Собственный6× armature-78-geometry.png показывает базу19,2 и разные вертикальные уровни158/188.\"] Исправления: [\"19,2 восстановлен как внутренний просвет присоединительного отверстия вместо наружной ширины пальца/бандажа.\", \"158 отделён от полной высоты188: его нижняя выносная выше нижней дуги седла.\", \"Убрано выдуманное назначение вертикального подвесного элемента как болта; уточнено, что это конструктивный пример, а не универсальные габариты всех48 исполнений.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/93334ddff1b4efda17dcff9caa7963e3d9b80bc8a3b53254b492b2c72d26d5b3.json",
+      "sha256": "93334ddff1b4efda17dcff9caa7963e3d9b80bc8a3b53254b492b2c72d26d5b3",
+      "bytes": 50978,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/f0fdbd8b395f768d636f7b118b29fa4f783fe7fc9a534f4090d53493f564fd27.json",
+      "sha256": "f0fdbd8b395f768d636f7b118b29fa4f783fe7fc9a534f4090d53493f564fd27",
+      "bytes": 49494,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/7ba7725511e16ad6e41b1b208bc2d7d76c09fe107534ff7a5deb3d562c2d0e7f.json",
+      "sha256": "7ba7725511e16ad6e41b1b208bc2d7d76c09fe107534ff7a5deb3d562c2d0e7f",
+      "bytes": 3847,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

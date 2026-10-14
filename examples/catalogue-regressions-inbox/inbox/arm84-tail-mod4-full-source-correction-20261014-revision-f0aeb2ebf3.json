@@ -1,0 +1,36 @@
+{
+  "id": "arm84-tail-mod4-full-source-correction-20261014-revision-f0aeb2ebf3",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 84: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 84
+  },
+  "review_basis": "[\"Буквальная подпись Ø16.5 подтверждена оригиналом; техническое значение, окружности Ø140/Ø175 и все 36 ячеек без изменений.\"] Исправления: [\"Повтор диаметра в summary приведён к буквальному Ø16.5 с точкой; рамка включает полный выносной текст; исправлены пробелы.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/87b322909162e2d6212fde846da0a0faa70362b1c74796079187a26eae2dde26.json",
+      "sha256": "87b322909162e2d6212fde846da0a0faa70362b1c74796079187a26eae2dde26",
+      "bytes": 15898,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/f0aeb2ebf33dcd70f0e96177e900a5c14888472cdc8b53fc72b2ae77b4fad6b3.json",
+      "sha256": "f0aeb2ebf33dcd70f0e96177e900a5c14888472cdc8b53fc72b2ae77b4fad6b3",
+      "bytes": 15913,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r2"
+    },
+    {
+      "path": "objects/4a523848e4fdfc525d643cd6087f005af3976baebf5855d1db817aad816eb4af.json",
+      "sha256": "4a523848e4fdfc525d643cd6087f005af3976baebf5855d1db817aad816eb4af",
+      "bytes": 3405,
+      "role": "source-review",
+      "program_version": "tail-mod0-20261014.r2"
+    }
+  ]
+}

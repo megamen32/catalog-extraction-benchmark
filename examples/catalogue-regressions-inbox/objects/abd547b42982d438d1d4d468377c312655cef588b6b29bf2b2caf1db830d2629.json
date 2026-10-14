@@ -1,0 +1,86 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 58,
+  "printed_page": "57",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "09e68ede5939282be3fe31457c89e2ee5ea013d643f8fbff7a198c03eee14625",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.4",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "03d94c1397ffd39d50a89db0b4d9ae29d17f13e5293b2fcbda6e8b4ec34d8c0c",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "09e68ede5939282be3fe31457c89e2ee5ea013d643f8fbff7a198c03eee14625",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 58,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4d5faa2b87b39793b899bfd40ccb8b7b4ff5223f5cfe2aed7fb1c9e3580c2e6b",
+      "receipt": "calls/ab7bc2936c004ac8a7ab9e2fe63a52b8/result.json",
+      "started_at": 1791940211.0748427,
+      "finished_at": 1791940315.9464674
+    }
+  },
+  "output": {
+    "file": "armature-58-reviewed-r3.json",
+    "sha256": "8acb09203c735b2ee5ac56537af0f18d32fb70a69e0cb76cc587baeea6d11512"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "71a4ab4f5d8e63fea77b598645df74ce4636592e2df13e20baf9186133d0db0c",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      11
+    ],
+    "column_counts": [
+      10
+    ],
+    "cells_checked": 110
+  },
+  "source_findings": [
+    "Все110 ячеек сохранены, включая настоящее пустое H₁ уП1,тире других строк и нагрузки25/35.",
+    "ТУ3449-001-52819896-2010,материал,типы ПГ/ПГГ иособый коннекторК проверены.",
+    "Исправлена собственная ошибка root: только B на рисунке7 отнесён к двум внешним граням верхнего плоского пакета. B рисунков1–4 по-прежнему внутренний просвет вилки. Все110 ячеек неизменны."
+  ],
+  "corrections": [
+    "H₁/65/122/142 связаны с нижней образующей провода и реальными верхними базами.",
+    "ДляА убран выдуманный установленный ЗПС; описан болт для его присоединения.",
+    "B иd связаны с просветом вилки и пальцем;19,2 с внутренним проходом ушка.",
+    "Удалены xxx как якобы размерные подписи, сохранена их роль условного провода в примечании.",
+    "Исправлена собственная ошибка root: только B на рисунке7 отнесён к двум внешним граням верхнего плоского пакета. B рисунков1–4 по-прежнему внутренний просвет вилки. Все110 ячеек неизменны.",
+    "Убрано второе собственное противоречие в source_evidence: B рисунка7 наружный, остальные B внутренние. Таблица и figures строго как вr2."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T17:06:00.216511+03:00",
+  "previous_authored_output": {
+    "file": "armature-58-reviewed-r2.json",
+    "sha256": "f87efc184a7984d591bb3603ec44d49b4360f25cef7dbc49070eedb1dc9916ed",
+    "source_review": "armature-58-source-review-r2.json",
+    "source_review_sha256": "94ef6ef65974283aeeb7a3c6edb08c66a89c830c35228e7645f0baf1b2e99c62"
+  },
+  "private_original_receipt_sha256": "b69535da4da52e15b3c0d22e402590ea3c13518b35bf76d67b0476bed4a51464"
+}

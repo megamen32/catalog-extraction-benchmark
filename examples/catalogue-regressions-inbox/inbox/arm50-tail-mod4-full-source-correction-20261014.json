@@ -1,0 +1,36 @@
+{
+  "id": "arm50-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 50: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 50
+  },
+  "review_basis": "[\"Сверены144ячеек18×8,включая разные массы15,00у110/120,иобособленноеТУдля4-1*.\", \"bтолщина проушины ребром,Dнаружный,D₁диаметр свободного отверстия;Lполный.\", \"Разделены слитные слова в пояснении source_evidence для читаемости. Геометрия и все таблицы неизменны.\"] Исправления: [\"A исправлен с торца-на-ось на межосевой размер.\", \"Удалены выдуманные резьба,d,расхождение d/b; восстановлены две проушины под90°.\", \"19 позиций исправлено на реальные18;все144ячеек без изменения.\", \"Разделены слитные слова в пояснении source_evidence для читаемости. Геометрия и все таблицы неизменны.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/9735f5fa37b990b0cc70be0b204a7d9b70d5753c605494f1d21527c837f8494e.json",
+      "sha256": "9735f5fa37b990b0cc70be0b204a7d9b70d5753c605494f1d21527c837f8494e",
+      "bytes": 29330,
+      "role": "native-candidate",
+      "program_version": "1.5.3"
+    },
+    {
+      "path": "objects/00d62656dcf82742994456a9f547c74c478bc030b459ca33353058b1d5f45714.json",
+      "sha256": "00d62656dcf82742994456a9f547c74c478bc030b459ca33353058b1d5f45714",
+      "bytes": 26431,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/ff09f27ccb89d412a6b2c3e4cfa4ea98d4ea6e1134c35f5192af1b749210fdf2.json",
+      "sha256": "ff09f27ccb89d412a6b2c3e4cfa4ea98d4ea6e1134c35f5192af1b749210fdf2",
+      "bytes": 3819,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

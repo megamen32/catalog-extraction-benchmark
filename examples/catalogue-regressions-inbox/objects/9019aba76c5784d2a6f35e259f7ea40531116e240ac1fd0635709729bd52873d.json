@@ -1,0 +1,84 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 22,
+  "printed_page": "21",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r2",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "108e2fdf447385f75f807a3aa3052227eec16d58d85484c7d769dfff8b8518b3",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.3",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "531e9bea963ef7592a9a09035761b155f81fbf1ba43027dc5c7017c55e9693fe",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "108e2fdf447385f75f807a3aa3052227eec16d58d85484c7d769dfff8b8518b3",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 22,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "3b4165e5e56d3a8455b883aea55738aa0e06f3159a60ba01bc9d5ccabf1f6d10",
+      "receipt": "calls/5602ba7dfffd4a3fb47ffb34b08a78ff/result.json",
+      "started_at": 1791938492.046834,
+      "finished_at": 1791938547.8493893
+    }
+  },
+  "output": {
+    "file": "armature-22-reviewed-r2.json",
+    "sha256": "dbd9f4f17b807813e1a8f5faff158a27e5725472d10020f1cbc0ef94e0ec23df"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "a7de4e12572be759979495d4b6948f486d2eb84d7d06f9fee509e0a8ba952176",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      10
+    ],
+    "column_counts": [
+      10
+    ],
+    "cells_checked": 100
+  },
+  "source_findings": [
+    "Все100 ячеек,массы/нагрузки/объединения17/21 и группы рисунков1/2/3 сохранены.",
+    "Назначение серьги для шапок изоляторов/головок ушек иТУ сохранены."
+  ],
+  "corrections": [
+    "Нижняя база H исправлена с самого низа пятки на верхний опорный уровень.",
+    "Урисунка3 отдельно исправлена верхняя база H: нижняя поверхность сечения кольца вместо оси отверстия; H₁полный не менялся.",
+    "Ошибочная подпись у логотипа заменена на напечатанное «производственное объединение»; полный номер ТУ сохранён как на данном листе.",
+    "Пояснения и описания записаны с нормальными пробелами; буквальные маркировки и табличные поля сохранены."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T17:40:14.276845+03:00",
+  "previous_author_revision": {
+    "content": "armature-22-reviewed.json",
+    "content_sha256": "5ac867fc7a0f6d7b061c5cef644580076c6b7266e79aea75f4cef91c78d9ab03",
+    "receipt": "armature-22-source-review.json",
+    "receipt_sha256": "c9e5b08cdec1933771b3b93a9fabdeb8f34385100f34f96be511d5a5a055b589"
+  },
+  "revision": 2,
+  "private_original_receipt_sha256": "6ce19c0587a7848131f0397bb1fd154aa1ea3b0ec70cc4de7dbf63998928f90a"
+}

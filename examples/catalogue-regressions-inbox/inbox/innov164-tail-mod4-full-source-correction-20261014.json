@@ -1,0 +1,36 @@
+{
+  "id": "innov164-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 164: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 164
+  },
+  "review_basis": "[\"Полный оригинал и две увеличенные части таблицы просмотрены. Все 360 ячеек 60×6 совпали: пять блоков по 12 строк, объединения сечений и диаметров, индивидуальные нагрузки и массы. Ни одного числа или кода не исправлял.\", \"Лично подтверждены усечённая марка 3ПГН2-5 и завершающий дефис 4ПГН-5-2А- в блоке 24,5; 50,43 в том же блоке; 24,93 против 23,94; точка в 5.54; печатная единица мм² в заголовке диаметра. Примечания D, L*=800–3000 мм и масса с минимальным протектором 800 мм сохранены.\"] Исправления: [\"Область шапки расширена до её нижней строки: прежняя y=.09 обрезала заголовки столбцов. Логотипы переданы их фактическим текстом.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/3b3a1d0ea967d14bf8eda7a67021dfb24fd09e1c38a63f1e7e82e8540cdb93dd.json",
+      "sha256": "3b3a1d0ea967d14bf8eda7a67021dfb24fd09e1c38a63f1e7e82e8540cdb93dd",
+      "bytes": 58043,
+      "role": "native-candidate",
+      "program_version": "1.5.5"
+    },
+    {
+      "path": "objects/f585daf6bd6a9b21a482c13ba0b5d24639caa9490223b38555f069acbcb55058.json",
+      "sha256": "f585daf6bd6a9b21a482c13ba0b5d24639caa9490223b38555f069acbcb55058",
+      "bytes": 58544,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r1"
+    },
+    {
+      "path": "objects/112479c4c33d9e04f62f12b6d6c5c829e058ae9d15b57d3b5f7e3fc8c374b90f.json",
+      "sha256": "112479c4c33d9e04f62f12b6d6c5c829e058ae9d15b57d3b5f7e3fc8c374b90f",
+      "bytes": 3754,
+      "role": "source-review",
+      "program_version": "tail-mod0-20261014.r1"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "innov35-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 35: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 35
+  },
+  "review_basis": "[\"Все 108 ячеек правильны, включая реальные объединения масс 5,0/5,2 и общую 220, отдельные массы 6,8/7,7/8,5. Кириллическая З во второй марке подтверждена исходным текстовым слоем.\", \"Native перепутал Ø90 с опорной скобой, не раскрыл кольца Ø165/Ø235 и базы H/L, выдумал заваренный штифт в гнезде.\", \"Нормативная пометка ** относится к трём маркам 160/220; сведения о сбое AnyDoc не напечатаны на листе.\"] Исправления: [\"Восстановлены владельцы всех размеров, осевые базы H, внутренние границы L и размеры гнезда.\", \"Убрано недоказанное сварное закрепление и процессное примечание; сохранены все допуски и таблица.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/54a9211c0d553cca0bff594c04170fe006ddf37d1e48f03005f78855a08d7622.json",
+      "sha256": "54a9211c0d553cca0bff594c04170fe006ddf37d1e48f03005f78855a08d7622",
+      "bytes": 32072,
+      "role": "native-candidate",
+      "program_version": "1.5.3"
+    },
+    {
+      "path": "objects/206e6327d9e06bd7b7d1b6f55fb7126010793aef81cafa76c17242836d5fc114.json",
+      "sha256": "206e6327d9e06bd7b7d1b6f55fb7126010793aef81cafa76c17242836d5fc114",
+      "bytes": 29760,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-innovations-20261014.r6"
+    },
+    {
+      "path": "objects/7036126b31c6e4173f1ad2e21a32463bdcb77a2c5031574645931d347c4e4bd0.json",
+      "sha256": "7036126b31c6e4173f1ad2e21a32463bdcb77a2c5031574645931d347c4e4bd0",
+      "bytes": 19107,
+      "role": "source-review",
+      "program_version": "tail-mod3-innovations-20261014.r6"
+    }
+  ]
+}

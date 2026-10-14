@@ -1,0 +1,36 @@
+{
+  "id": "arm54-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 54: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 54
+  },
+  "review_basis": "[\"Полностью сверены406 ячеек29×14 ивсе объединения,включая A₁120 у45/53 иL/H172 уПТМ-30-3/3А.\", \"D отверстия не подменён d болта,B₁ внутренний просвет не внешний B;код120-1 сохранён.\", \"Исправлена собственная ошибка root: прежнее примечание ошибочно относило тире B₂ к рисунку3. Все406 ячеек без изменения.\"] Исправления: [\"Удалены выдуманные косая планка и проводной зажим; каждому буквенному размеру назначены реальные базы.\", \"29 масс возвращены к десятичной запятой оригинала без изменения численных значений.\", \"Исправлена собственная ошибка root: прежнее примечание ошибочно относило тире B₂ к рисунку3. Все406 ячеек без изменения.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/260a9ef754c114ac52b07e46f8ddafe193a12033401cb7cecc1bbadea7b29005.json",
+      "sha256": "260a9ef754c114ac52b07e46f8ddafe193a12033401cb7cecc1bbadea7b29005",
+      "bytes": 63393,
+      "role": "native-candidate",
+      "program_version": "1.5.3"
+    },
+    {
+      "path": "objects/b66acc5f4b08f13defa63a37aca1ae22680a0a651d0bd5cd4dca23abfd223997.json",
+      "sha256": "b66acc5f4b08f13defa63a37aca1ae22680a0a651d0bd5cd4dca23abfd223997",
+      "bytes": 62472,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/ff2b1892a9fbcfb4e9addf82e3331feeb1a78a06467384a66542bce6d24635dd.json",
+      "sha256": "ff2b1892a9fbcfb4e9addf82e3331feeb1a78a06467384a66542bce6d24635dd",
+      "bytes": 3929,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

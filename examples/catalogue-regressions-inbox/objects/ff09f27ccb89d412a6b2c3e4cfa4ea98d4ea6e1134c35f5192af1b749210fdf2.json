@@ -1,0 +1,84 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 50,
+  "printed_page": "49",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "9735f5fa37b990b0cc70be0b204a7d9b70d5753c605494f1d21527c837f8494e",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.3",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "531e9bea963ef7592a9a09035761b155f81fbf1ba43027dc5c7017c55e9693fe",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "9735f5fa37b990b0cc70be0b204a7d9b70d5753c605494f1d21527c837f8494e",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 50,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "3b4165e5e56d3a8455b883aea55738aa0e06f3159a60ba01bc9d5ccabf1f6d10",
+      "receipt": "calls/f54668a7778c4eef875ce291c0b88eec/result.json",
+      "started_at": 1791939635.41162,
+      "finished_at": 1791939786.8816166
+    }
+  },
+  "output": {
+    "file": "armature-50-reviewed-r2.json",
+    "sha256": "00d62656dcf82742994456a9f547c74c478bc030b459ca33353058b1d5f45714"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "ccba9d43751949844f3c1a792c8b47e56f23c40f15a033188b2551d2ed31c3bc",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      18
+    ],
+    "column_counts": [
+      8
+    ],
+    "cells_checked": 144
+  },
+  "source_findings": [
+    "Сверены144ячеек18×8,включая разные массы15,00у110/120,иобособленноеТУдля4-1*.",
+    "bтолщина проушины ребром,Dнаружный,D₁диаметр свободного отверстия;Lполный.",
+    "Разделены слитные слова в пояснении source_evidence для читаемости. Геометрия и все таблицы неизменны."
+  ],
+  "corrections": [
+    "A исправлен с торца-на-ось на межосевой размер.",
+    "Удалены выдуманные резьба,d,расхождение d/b; восстановлены две проушины под90°.",
+    "19 позиций исправлено на реальные18;все144ячеек без изменения.",
+    "Разделены слитные слова в пояснении source_evidence для читаемости. Геометрия и все таблицы неизменны."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T17:00:24.723765+03:00",
+  "previous_authored_output": {
+    "file": "armature-50-reviewed.json",
+    "sha256": "7122478d0361f8b01d8d5b08d26f43b606903428a7391dc7d33ab0716fdacf38",
+    "source_review": "armature-50-source-review.json",
+    "source_review_sha256": "3134782afc4c1f8f57ce64164f51160a8af3b0b4950c2fedda472bd18e76ef0f"
+  },
+  "private_original_receipt_sha256": "0065ac63ba036a95aba1831b8e9609afd79b4563b1473fedb4f36de0ceaf8252"
+}

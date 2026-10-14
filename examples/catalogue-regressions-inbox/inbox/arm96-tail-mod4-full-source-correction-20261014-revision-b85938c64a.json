@@ -1,0 +1,36 @@
+{
+  "id": "arm96-tail-mod4-full-source-correction-20261014-revision-b85938c64a",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 96: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 96
+  },
+  "review_basis": "[\"Фактическое правое поперечное сечение действительно лежит за прежней рамкой .8; новая .92 его включает. Все 152 ячейки и геометрия неизменны.\"] Исправления: [\"Рамка чертежа расширена до правого сечения; АС описаны как сталеалюминиевые провода.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/c9637644c4f3735c7396054ad83e771eeb8d569659f1f9b3348cba8e510ac6b9.json",
+      "sha256": "c9637644c4f3735c7396054ad83e771eeb8d569659f1f9b3348cba8e510ac6b9",
+      "bytes": 31776,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/b85938c64af9c11dd252500d30cc6ef82f72327586e6e7075f31662bb905d01e.json",
+      "sha256": "b85938c64af9c11dd252500d30cc6ef82f72327586e6e7075f31662bb905d01e",
+      "bytes": 32450,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r2"
+    },
+    {
+      "path": "objects/5a5be505c65948b920a63a3f10df8d7c9df6cbf86a9a516a5b07082e0ec46c66.json",
+      "sha256": "5a5be505c65948b920a63a3f10df8d7c9df6cbf86a9a516a5b07082e0ec46c66",
+      "bytes": 3388,
+      "role": "source-review",
+      "program_version": "tail-mod0-20261014.r2"
+    }
+  ]
+}

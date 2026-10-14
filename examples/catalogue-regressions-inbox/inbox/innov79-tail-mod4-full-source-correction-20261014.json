@@ -1,0 +1,36 @@
+{
+  "id": "innov79-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 79: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 79
+  },
+  "review_basis": "[\"Все234 ячейки верны, включая18 пустых D₂ и8 пустых B₁.\", \"Native не раскрыл владельцев D₁/D₂/B₁/B₂ и назвал виды сечениями; история замены ТУ из скобок не следует.\", \"Заголовок и русское раскрытие бренда искажены native.\"] Исправления: [\"Точно указаны окружности крепёжных отверстий и их межосевые размеры, видыА/Б и H±2.\", \"Восстановлены заголовок/бренд и буквальное представление двух ТУ без выдуманной истории замены.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/0415c7747a9555a8ce09344e0dce47e5b9d7c0da38cc842ad98bfa0d940d2b1b.json",
+      "sha256": "0415c7747a9555a8ce09344e0dce47e5b9d7c0da38cc842ad98bfa0d940d2b1b",
+      "bytes": 45636,
+      "role": "native-candidate",
+      "program_version": "1.5.3"
+    },
+    {
+      "path": "objects/9a81a81a917997701591774077474be9f07861ee1e82069039a1a49f75e62fac.json",
+      "sha256": "9a81a81a917997701591774077474be9f07861ee1e82069039a1a49f75e62fac",
+      "bytes": 43529,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-innovations-20261014.r5"
+    },
+    {
+      "path": "objects/2141ac72e268e47a72a4344e99532559af6247bb349f4e57d8a4a4d4c672feee.json",
+      "sha256": "2141ac72e268e47a72a4344e99532559af6247bb349f4e57d8a4a4d4c672feee",
+      "bytes": 16003,
+      "role": "source-review",
+      "program_version": "tail-mod3-innovations-20261014.r5"
+    }
+  ]
+}

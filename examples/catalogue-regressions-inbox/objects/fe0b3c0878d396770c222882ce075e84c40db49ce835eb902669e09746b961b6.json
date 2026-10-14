@@ -1,0 +1,74 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_filename": "Katalog-ARMATURA.pdf",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 16,
+  "printed_page": "15",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-0016-native-candidate.json",
+    "sha256": "48df8576f9d48ddaa178c158436637527a48b66b65e2fab3866c01c1cd68cf1c",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.21",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "2301687f1a836b45b5310748b9eff0562539e6ca5d5cae7237a5b8e7ae0f4f91",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "48df8576f9d48ddaa178c158436637527a48b66b65e2fab3866c01c1cd68cf1c",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 16,
+      "attempt": 2,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "867b3f790ecc8921609cf97aa738eda3b36ee55598d694455416842fad03be98",
+      "receipt": "calls/290a4b85c9054a48b2bc049bd9aa564c/result.json",
+      "started_at": 1791975847.791792,
+      "finished_at": 1791975924.5785196
+    }
+  },
+  "output": {
+    "file": "armature-0016-reviewed.json",
+    "sha256": "805860979140b8a9602fe5939b56276da38eb70878cf3529c523fb2e4651e0a0"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "8445bf90e82f33be4cd2afe9927e68f793bc203ec6bf4e38a3e86421f41664e4",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [],
+    "column_counts": [],
+    "cells_checked": 0
+  },
+  "source_findings": [
+    "Полный оригинал и увеличенный текст просмотрены: завод, год 1993, утверждение «более 30 лет», номенклатура, все адреса, телефоны, почта и сайты двух представительств совпали с источником.",
+    "Все перечисленные регионы обеих зон поставки проверены по строкам, включая Марий Эл/Нижегородскую/Пензенскую и одиннадцать составляющих второй приволжской зоны. Таблиц и чертежей нет."
+  ],
+  "corrections": [
+    "Из описания производственной фотографии удалены неподтверждённые «расплавленная компаундная масса» и материал «стальные брусья»: видимую форму нельзя превращать в технологические параметры.",
+    "Два абзаца о предприятии восстановлены буквальным текстом без свободного перефразирования."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T16:51:05.885265+03:00",
+  "private_original_receipt_sha256": "a05f27b7d754ffb18302ab7d17107c356a219883152177245f4caefe85f0c55e"
+}

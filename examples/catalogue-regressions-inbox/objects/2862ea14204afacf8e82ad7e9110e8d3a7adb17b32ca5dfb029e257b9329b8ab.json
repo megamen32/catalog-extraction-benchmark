@@ -1,0 +1,78 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 70,
+  "printed_page": "69",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "e5e67ca3eb9a71c48866a5e55cb70cf835fc91a7dd8dc0b9ec3044ca3ddfab12",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.4",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "03d94c1397ffd39d50a89db0b4d9ae29d17f13e5293b2fcbda6e8b4ec34d8c0c",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "e5e67ca3eb9a71c48866a5e55cb70cf835fc91a7dd8dc0b9ec3044ca3ddfab12",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 70,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4d5faa2b87b39793b899bfd40ccb8b7b4ff5223f5cfe2aed7fb1c9e3580c2e6b",
+      "receipt": "calls/ac84edf5cecf4974942167110b000a27/result.json",
+      "started_at": 1791940622.587205,
+      "finished_at": 1791940674.9943995
+    }
+  },
+  "output": {
+    "file": "armature-70-reviewed.json",
+    "sha256": "74a26432d095ca765e09678d815646b15028a50a64b8e9cbfb9ed25fb0abd917"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "f2bb1f78792f2f18184885592915c80f13691534f60620f875e52c560f37d18a",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      15
+    ],
+    "column_counts": [
+      4
+    ],
+    "cells_checked": 60
+  },
+  "source_findings": [
+    "Полностью сверены60 ячеек15×4, включая настоящие массы20,0 и20,05/20,10 и общий120,0кН не менее. Объединённые названия150/24,185/29,240/39 распространены правильно.",
+    "Совместимые АСку/АСк2у в одной физической ячейке240/39 и240/56 сохранены; новых товарных строк не придумано.",
+    "Собственные7× armature-70-geometry.png и12× armature-70-d17.png показывают размерные базы, без догадки о ненапечатанных размерах провода."
+  ],
+  "corrections": [
+    "Ø22 иR15 привязаны к монтажной дужке вместо провода и лодочки.",
+    "65/38 отнесены к реальным трём уровням выносных;514/400 разделены как наружный габарит и проводное межосевое.",
+    "17 записан как поперечный размер нижнего крепления, не выступающий конец;300 длина седла вдоль провода.",
+    "Устранена выдуманная П-образная лодочка как название всей общей траверсы."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T16:28:46.008780+03:00",
+  "private_original_receipt_sha256": "e040603a7f493a5f3f38c3713c950d55675fa99a9654d8f87282ef72481d667c"
+}

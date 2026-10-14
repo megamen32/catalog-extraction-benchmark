@@ -1,0 +1,36 @@
+{
+  "id": "arm40-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 40: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 40
+  },
+  "review_basis": "[\"Лично повторно проверены исходные области и сохранённые увеличения, замечания независимого автора подтверждены.\", \"Все строки, ячейки и числовые значения таблиц сохранены; изменения ограничены указанной областью evidence либо честным отказом от неподтверждённой привязки D.\"] Исправления: [\"После повторного просмотра увеличенного оригинала снято моё неподтверждённое утверждение D как толщины прутка верхней петли 3КУ-135-1/180-1. Вместо догадки сохранена неопределённость точного назначения выноски.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/5da7dc85e440c1f8d8cb7a4f4a71f1195483a17f208945816cc0e2ae839f84ff.json",
+      "sha256": "5da7dc85e440c1f8d8cb7a4f4a71f1195483a17f208945816cc0e2ae839f84ff",
+      "bytes": 22708,
+      "role": "native-candidate",
+      "program_version": "1.5.3"
+    },
+    {
+      "path": "objects/2502f3af8b8d3b22d9a3d9e37d161d64ce92692d67a0ae4fe1a27005fc11a005.json",
+      "sha256": "2502f3af8b8d3b22d9a3d9e37d161d64ce92692d67a0ae4fe1a27005fc11a005",
+      "bytes": 26218,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r2"
+    },
+    {
+      "path": "objects/68a5343117c58680714cd8e405b86c6b4599242e4cd28ab74c50cacfb88b9fdc.json",
+      "sha256": "68a5343117c58680714cd8e405b86c6b4599242e4cd28ab74c50cacfb88b9fdc",
+      "bytes": 4760,
+      "role": "source-review",
+      "program_version": "tail-mod0-20261014.r2"
+    }
+  ]
+}

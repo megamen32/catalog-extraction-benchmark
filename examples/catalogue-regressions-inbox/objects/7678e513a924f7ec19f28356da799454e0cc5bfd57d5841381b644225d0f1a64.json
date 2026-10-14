@@ -1,0 +1,83 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_filename": "Katalog-ARMATURA.pdf",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 48,
+  "printed_page": "47",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r2",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-0048-native-candidate.json",
+    "sha256": "4dda8a9dd8f756fd5f690112153330bec72623090a40dfb88b0448d31c36c775",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.3",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "531e9bea963ef7592a9a09035761b155f81fbf1ba43027dc5c7017c55e9693fe",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "4dda8a9dd8f756fd5f690112153330bec72623090a40dfb88b0448d31c36c775",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 48,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "3b4165e5e56d3a8455b883aea55738aa0e06f3159a60ba01bc9d5ccabf1f6d10",
+      "receipt": "calls/49aed1c5ecf6417a89288f9babddace9/result.json",
+      "started_at": 1791939520.7296412,
+      "finished_at": 1791939575.952569
+    }
+  },
+  "output": {
+    "file": "armature-0048-reviewed-r2.json",
+    "sha256": "2f9d78f2c5adcfcae3472dbd2bfeeb54d526b00b3efa0b855b467ee74462e9e0"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "880d55fdf2fd2d7fd92dd663b355cdd674379eadda075b755db487aec3b1b2b5",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      13
+    ],
+    "column_counts": [
+      9
+    ],
+    "cells_checked": 117
+  },
+  "source_findings": [
+    "Лично повторно проверены исходные области и сохранённые увеличения, замечания независимого автора подтверждены.",
+    "Все строки, ячейки и числовые значения таблиц сохранены; изменения ограничены указанной областью evidence либо честным отказом от неподтверждённой привязки D."
+  ],
+  "corrections": [
+    "Область чертежа начинается с y=0.28 и включает верхнюю размерную линию В."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T13:54:57.213331+00:00",
+  "previous_reviewed_output": {
+    "file": "armature-0048-reviewed.json",
+    "sha256": "06863f7ca7954c434a3b50826c35662c098d749229a99a4d96263bf28d444d60"
+  },
+  "revision_trigger": "Independent source review by catalog_tail_mod1, followed by personal source-image recheck by catalog_tail_mod0.",
+  "revision_evidence_images": [],
+  "private_original_receipt_sha256": "a3c1eb0313351ca17d28ef538407a38621113c7b599d79e91044c33b2b576ed7"
+}

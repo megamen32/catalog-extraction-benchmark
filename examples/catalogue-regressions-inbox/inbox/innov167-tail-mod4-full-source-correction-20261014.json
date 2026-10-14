@@ -1,0 +1,36 @@
+{
+  "id": "innov167-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 167: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 167
+  },
+  "review_basis": "[\"Просмотрен полный оригинал; таблиц и размерных выносных нет.\", \"Native приписывал подвесные гирлянды и клиновой механизм, которых лист не подписывает.\"] Исправления: [\"Фотографии описаны по видимому расположению узлов, без неподтверждённых разновидностей.\", \"Устранены неполные bbox и оставлена классификация разделительного supporting_material.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/9fbaf2200f8d483ad0cef5afa8ed20acfc730a3bcebaef5f6093297762d39232.json",
+      "sha256": "9fbaf2200f8d483ad0cef5afa8ed20acfc730a3bcebaef5f6093297762d39232",
+      "bytes": 4027,
+      "role": "native-candidate",
+      "program_version": "1.5.6"
+    },
+    {
+      "path": "objects/c1053a1d24d46b7d22b7594004277682daed6c919dc88a8e1dc9e5a3d83cab97.json",
+      "sha256": "c1053a1d24d46b7d22b7594004277682daed6c919dc88a8e1dc9e5a3d83cab97",
+      "bytes": 3069,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-innovations-20261014.r2"
+    },
+    {
+      "path": "objects/63141e96b970bd400b7cdae96143726940226aac9b84fd3861e2f5659038ab6d.json",
+      "sha256": "63141e96b970bd400b7cdae96143726940226aac9b84fd3861e2f5659038ab6d",
+      "bytes": 10325,
+      "role": "source-review",
+      "program_version": "tail-mod3-innovations-20261014.r2"
+    }
+  ]
+}

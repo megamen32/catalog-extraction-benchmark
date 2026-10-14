@@ -1,0 +1,36 @@
+{
+  "id": "arm12-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 12: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 12
+  },
+  "review_basis": "[\"Границы двух областей лично сопоставлены с сохранённым полным оригиналом. Все реквизиты и текст сохранены.\"] Исправления: [\"Область логотипа расширена вправо до0.71, области представительств вверх до0.78 для полного заголовка.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/900b75c83f5a747f1ae554fded5124acda94295ca49d258e496bafefde803c23.json",
+      "sha256": "900b75c83f5a747f1ae554fded5124acda94295ca49d258e496bafefde803c23",
+      "bytes": 13005,
+      "role": "native-candidate",
+      "program_version": "1.5.3"
+    },
+    {
+      "path": "objects/f25dcf89e343087d0c3a9050aa73cc4b41f9251b29e7044da96cbe0a2e4da0ed.json",
+      "sha256": "f25dcf89e343087d0c3a9050aa73cc4b41f9251b29e7044da96cbe0a2e4da0ed",
+      "bytes": 13425,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r2"
+    },
+    {
+      "path": "objects/600b3f1cb1d603c674c90f8f2aa16af4ecf3c54e0902f8ab69afc60d4429d81e.json",
+      "sha256": "600b3f1cb1d603c674c90f8f2aa16af4ecf3c54e0902f8ab69afc60d4429d81e",
+      "bytes": 3331,
+      "role": "source-review",
+      "program_version": "tail-mod0-20261014.r2"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_filename": "Katalog-ARMATURA.pdf",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 12,
+  "printed_page": "11",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r2",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-0012-native-candidate.json",
+    "sha256": "900b75c83f5a747f1ae554fded5124acda94295ca49d258e496bafefde803c23",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.3",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "531e9bea963ef7592a9a09035761b155f81fbf1ba43027dc5c7017c55e9693fe",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "900b75c83f5a747f1ae554fded5124acda94295ca49d258e496bafefde803c23",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 12,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "3b4165e5e56d3a8455b883aea55738aa0e06f3159a60ba01bc9d5ccabf1f6d10",
+      "receipt": "calls/25e60b2d1d2341dca973a6fecf7bc0d5/result.json",
+      "started_at": 1791938081.3883066,
+      "finished_at": 1791938140.5098479
+    }
+  },
+  "output": {
+    "file": "armature-0012-reviewed-r2.json",
+    "sha256": "f25dcf89e343087d0c3a9050aa73cc4b41f9251b29e7044da96cbe0a2e4da0ed"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "853d91570de188658e18e8309fbb478e25aa81674d77f70110a3b306f422ccd2",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [],
+    "column_counts": [],
+    "cells_checked": 0
+  },
+  "source_findings": [
+    "Границы двух областей лично сопоставлены с сохранённым полным оригиналом. Все реквизиты и текст сохранены."
+  ],
+  "corrections": [
+    "Область логотипа расширена вправо до0.71, области представительств вверх до0.78 для полного заголовка."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T14:06:11.450513+00:00",
+  "previous_reviewed_output": {
+    "file": "armature-0012-reviewed.json",
+    "sha256": "1ea8d38b5573ec102b6f697bbe69b109668d1e17974f843f45ef1f8fc0ee4cee"
+  },
+  "revision_trigger": "Independent source review by catalog_tail_mod1, followed by personal source-image recheck by catalog_tail_mod0.",
+  "revision_evidence_images": [],
+  "private_original_receipt_sha256": "75606ce2cd8c4057bde1a74abbede04b42ceacc0dc4812e483c8fb6f004ea7a8"
+}

@@ -1,0 +1,84 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 34,
+  "printed_page": "33",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r2",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "dd5b0c5a4c8d7a431e0f87df105dd2bd116afa90639b223fe655b98ea4fc64ca",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.3",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "531e9bea963ef7592a9a09035761b155f81fbf1ba43027dc5c7017c55e9693fe",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "dd5b0c5a4c8d7a431e0f87df105dd2bd116afa90639b223fe655b98ea4fc64ca",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 34,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "3b4165e5e56d3a8455b883aea55738aa0e06f3159a60ba01bc9d5ccabf1f6d10",
+      "receipt": "calls/970c3ef857724078b048682bb6bbcf6c/result.json",
+      "started_at": 1791938889.6700792,
+      "finished_at": 1791938931.2716966
+    }
+  },
+  "output": {
+    "file": "armature-34-reviewed-r2.json",
+    "sha256": "243423922226be88197993f84f7b8ec3508dd6d2f76f5e89e0de81facfce2bda"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "dd6dfffaae1d80dd7b5d09f05310d289f02a9cb7817f2e3d3be9f6d753d9292c",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      2
+    ],
+    "column_counts": [
+      13
+    ],
+    "cells_checked": 26
+  },
+  "source_findings": [
+    "Все26 ячеек без изменения, включая161/180,600/800,400/450 и два прочерка L₂.",
+    "Соединение палец-проушина с однолапчатыми проушинами и оба типа25/30 сохранены."
+  ],
+  "corrections": [
+    "Исправлена ошибка названия двухцепные; каждому из l/L/L₁/H/H₁ назначена отдельная пара баз.",
+    "b исправлен с ширины пакета на внутренний просвет, B — полный крепёжный габарит.",
+    "Ошибочная подпись у логотипа заменена на напечатанное «производственное объединение»; полный номер ТУ сохранён как на данном листе.",
+    "Пояснения и описания записаны с нормальными пробелами; буквальные маркировки и табличные поля сохранены."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T17:40:14.268817+03:00",
+  "previous_author_revision": {
+    "content": "armature-34-reviewed.json",
+    "content_sha256": "1b2ab703b6a63421ff75a3aa621fa72a02f63a54770c4841ac6b89386498b825",
+    "receipt": "armature-34-source-review.json",
+    "receipt_sha256": "b545b65f07e8b98695d6d3ff599efa23106eeedf0418ad0732b82e24b9415fe0"
+  },
+  "revision": 2,
+  "private_original_receipt_sha256": "5f10f93eaf62134d4853cceee58379699957bc21d4469285b83d26720814745d"
+}

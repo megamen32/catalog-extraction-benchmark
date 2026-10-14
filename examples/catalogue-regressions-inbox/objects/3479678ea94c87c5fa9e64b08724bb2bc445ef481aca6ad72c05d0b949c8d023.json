@@ -1,0 +1,85 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 118,
+  "printed_page": "117",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r3",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "a943cdd8602ba19bff678edcf69c5d284c012ee211a5f8217ad89db8e4fe1ad3",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.6",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "ca9cb343d7402f9bdb421b4fc5bc0b77ee1cff94b255122f592b3fda0e12f0b3",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "a943cdd8602ba19bff678edcf69c5d284c012ee211a5f8217ad89db8e4fe1ad3",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 118,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "3031f54101971a2d9729b048304180edaaf22cda716b98c15339c8c61c45fa7b",
+      "receipt": "calls/e26671b9140649c8ad8ea6e0caa2dbaf/result.json",
+      "started_at": 1791943341.9676898,
+      "finished_at": 1791943528.8056693
+    }
+  },
+  "output": {
+    "file": "armature-118-reviewed-r3.json",
+    "sha256": "a53f6d5341b29290707aa8647c0422632629542bcfd2f2d68b74fb3429c90e13"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "68a3147b693e55649d4d0ccc879745bcd639e1767d52609a1ea66ef3e82adfae",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      27
+    ],
+    "column_counts": [
+      7
+    ],
+    "cells_checked": 189
+  },
+  "source_findings": [
+    "Все189ячеек27×7проверены;группы3/3/3/9/6/3строк. Цветакрасный/Желтый/Розовый/Зеленый/Голубой/Фиолетовыйсохраненыпопринтупарысостандартами.",
+    "Диапазоны5,81–8,64/8,64–12,07/12,07–14,88/14,73–18,39/18,5–20,5/20,4–22,48включаютреальноеперекрытие,неподогнаныдругкдругу.",
+    "Собственный8×кроппоказываетреальныеD/Lивнутренниепружинныеконтуры;отдельнойразмернойлинииΦнет. Условиепрочностинеменее95%инеинструментальныймонтажсохранены."
+  ],
+  "corrections": [
+    "УбранвыдуманныйдиаметрпружиныΦибездоказательноерастянутоесостояние/шток.",
+    "Dпривязанктелукорпуса,невыступающимкраямконцевыхзаглушек.",
+    "Снятатретьяфотодогадкаорезьбевотверстии;восстановлено«типономиналов».",
+    "Областиклассификациисоответствуютвсемуперечисленномусодержанию.",
+    "Восстановлены обычные пробелы и читаемость авторских пояснений. Технические факты и все таблицы прежние.",
+    "Обозначения серии MHT-5/10, MHT-5/15, MHT-9/20, MHT-12/25 восстановлены латиницей по исходному текстовому слою; геометрия и таблицы прежние."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T16:16:48.939633+03:00",
+  "prior_output": {
+    "file": "armature-118-reviewed-r2.json",
+    "sha256": "51304ab4a1d7665859290f0949a7ba1202b53857ce0c7b783f56c112aea2e7d5"
+  },
+  "revision": "r3",
+  "private_original_receipt_sha256": "788c49d47fad5e7b815c150a25ef434d20642c23536b0e1eb4f3e91571bfeda2"
+}

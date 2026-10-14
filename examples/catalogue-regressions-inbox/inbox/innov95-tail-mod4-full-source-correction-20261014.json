@@ -1,0 +1,36 @@
+{
+  "id": "innov95-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 95: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 95
+  },
+  "review_basis": "[\"Все72 ячейки верны, включая повторную границу15,24.\", \"Форма двух участков установки у типа2 и отсутствие отдельного провода неверно описаны native.\", \"В тексте было пресечении вместо пересечении; слово гасителя действительно печатное.\"] Исправления: [\"Исправлено слово пересечении, распределение малых/широких витков и описание изображений.\", \"Уточнены владельцы L/350 и сохранены необычные буквальные значения.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/3676c15f72ce4af59c14d59e053b787f6da22ff036a3187089ab1db6f7118d05.json",
+      "sha256": "3676c15f72ce4af59c14d59e053b787f6da22ff036a3187089ab1db6f7118d05",
+      "bytes": 21106,
+      "role": "native-candidate",
+      "program_version": "1.5.3"
+    },
+    {
+      "path": "objects/b01ff291b7d40e36a2bf58964a486c41b9cc85cfe7cab01c5fb3ae93a024c01f.json",
+      "sha256": "b01ff291b7d40e36a2bf58964a486c41b9cc85cfe7cab01c5fb3ae93a024c01f",
+      "bytes": 19337,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-innovations-20261014.r5"
+    },
+    {
+      "path": "objects/9115bcb6219607d77358038e3a02908f4066ea92f8465fd8f335652b29b9f5a9.json",
+      "sha256": "9115bcb6219607d77358038e3a02908f4066ea92f8465fd8f335652b29b9f5a9",
+      "bytes": 17346,
+      "role": "source-review",
+      "program_version": "tail-mod3-innovations-20261014.r5"
+    }
+  ]
+}
