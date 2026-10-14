@@ -1,0 +1,42 @@
+{
+  "program_version": "1.5.15",
+  "role": "reviewer",
+  "attempt": 29,
+  "native_status": "inflight_or_unaccepted_not_PASS",
+  "source_page": 47,
+  "read_lead_calls": [
+    {
+      "message_index": 13,
+      "timestamp": "2026-10-14T05:58:00.985620Z"
+    }
+  ],
+  "review_save_calls": [
+    {
+      "message_index": 19,
+      "timestamp": "2026-10-14T05:59:14.519771Z"
+    },
+    {
+      "message_index": 35,
+      "timestamp": "2026-10-14T06:01:54.675947Z"
+    },
+    {
+      "message_index": 41,
+      "timestamp": "2026-10-14T06:03:22.824380Z"
+    },
+    {
+      "message_index": 53,
+      "timestamp": "2026-10-14T06:05:52.565101Z"
+    },
+    {
+      "message_index": 63,
+      "timestamp": "2026-10-14T06:08:52.268895Z"
+    }
+  ],
+  "current_parent_audit_sha256": "1b8027a9b798b5bf43bf5b28487548fc32f15bbcd84b1eccac201f75b46dc6c2",
+  "parent_audit_modified_unix": 1791958201.0252836,
+  "source_gate_before_fix": "CatalogTools.save guarded only kind=page, not review. Parent digest receipt still prevented final queue acceptance; the native reviewer itself had no early refresh refusal.",
+  "focused_red_proof": "Review tool saves despite a new unread source lead; test_reviewer_refreshes_source_leads_before_final_write failed before fix.",
+  "fix": "Require current audit digest for candidate/review writes, preserve blind source observation before disclosure. Refresh inside current native attempt; reading a hint never waives real source defects.",
+  "model_calls_for_replay": 0,
+  "raw_transcript_published": false
+}

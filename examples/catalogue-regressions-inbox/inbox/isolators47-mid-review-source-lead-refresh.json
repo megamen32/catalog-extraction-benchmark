@@ -1,0 +1,25 @@
+{
+  "id": "isolators47-mid-review-source-lead-refresh",
+  "status": "pending_adjudication",
+  "category": "late_audit_receipt_discovery",
+  "title": "Reviewer learns stale audit rejection only after finishing native attempt",
+  "source": {
+    "filename": "Katalog-IZOLJaTORY.pdf",
+    "sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+    "physical_page": 47
+  },
+  "review_basis": "New source lead arrived while native1515review29 was working. Native save gate only checked candidate writes; parent alone checked current audit receipt. Focused real file-tool reproduction allowed an unread/new lead at review save. Native current attempt is unaccepted; no source accuracy score assigned.",
+  "failure_oracle": "Refuse review save with missing/stale audit read and ask read_external_audit within same native context. Keep blind observation timing and all strict source/geometry checks; update must never imply PASS or execute a model-independent value repair.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/27c7da1ca6ccc661c4638e7741e869a90b48123ea7a1615cfbc44053ebab476a.json",
+      "sha256": "27c7da1ca6ccc661c4638e7741e869a90b48123ea7a1615cfbc44053ebab476a",
+      "bytes": 1526,
+      "role": "sanitized_native_audit_refresh_diagnostic",
+      "program_version": "1.5.15",
+      "model": "zai.glm-5.3-flash?reasoning=low",
+      "native_attempt_status": "unaccepted_not_PASS"
+    }
+  ]
+}
