@@ -1,0 +1,1844 @@
+{
+  "schema_version": "catalogue-owner-merge-regression-evidence/1",
+  "catalog": "isolators",
+  "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+  "physical_page": 97,
+  "input_fact_store_sha256": "05409d87f09123705fc1a0f21aa20727961dcf4351128d29497a0660978eec8d",
+  "input_ledger_sha256": "1d1fe979355d046a91ac2f619ed52e174a3ffe563fa7eba4ff7625bd91b19cb8",
+  "ours_snapshot_zip_sha256": "dcfdf4a64448a727766cc50ba31b01cf967b475744b9a6d6c5d065344c5061a7",
+  "work_packet_sha256": "ca4a4b5997cfd7eb85af13111fa8788dac0d0d66622f239ba131e2ed306439e2",
+  "work_sha256": "6f0c48d3c2ecb787af4874287efbcc965a4d621b2e164f5c34f99e5b72aa9c2f",
+  "actual_merge_producer": {
+    "role": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "model": "gpt-6.1-sol",
+    "runtime": "Codex native original-image review",
+    "program_version": "1.5.25"
+  },
+  "source_evidence": [
+    {
+      "bbox": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "observation": "Codex лично просмотрел исходную страницу97 в сохранённом именном overview и сверил исходные факты. Это рабочее сведение одного исполнителя, независимаяфинальнаяпроверка позднее."
+    },
+    {
+      "bbox": [
+        0.045,
+        0.05,
+        0.97,
+        0.94
+      ],
+      "observation": "Привязки сверены по исходному обзору, именам столбцов, единицам, условиям, разделам таблицы и собственной модели. Совпадающие данные не переизвлекаются. Реальные отличия просматриваются отдельно; это не новая независимаяпроверка всех исходных чисел."
+    }
+  ],
+  "original_typed_facts": [
+    {
+      "fact_index": 67,
+      "fact_id": "L-cf342d3042af0e7eaa4d9004",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:19748/raw",
+      "owner": "РМИ 30/10-480-П2(П3)-3",
+      "name": "Диаметр провода D*, мм",
+      "value": "13,5÷19,6 – П2\n18÷28 – П3",
+      "unit": "мм",
+      "condition": "* — В случае применения протектора учитывать его диаметр",
+      "physical_pages": [
+        97
+      ],
+      "input_fact_sha256": "322678040faf62ce779ce8518f63598cb74b3a40230706f0c37c0350b66c318c",
+      "input_line": 29123,
+      "raw_context": "raw-5d302033ee3790d91152ce50b97f9b629887f09cdead764d1184c866c9ad5b7d",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-9ce4fea063b41ee6106a8880",
+        "window_id": "W-e8157da9b34aa2890534f6ec",
+        "group_id": "G-c831bed28a647543e1e299a2",
+        "product_id": "P-b38211083643fd9705fabf36",
+        "group_title": "Распорки межфазные изолирующие типа РМИ на напряжение 10-35 кВ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 73,
+      "fact_id": "L-0f8a01ebf1c336732ae78c17",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:19754/raw",
+      "owner": "РМИ 30/10-530-П2(П3)-4",
+      "name": "Диаметр провода D*, мм",
+      "value": "13,5÷19,6 – П2\n18÷28 – П3",
+      "unit": "мм",
+      "condition": "* — В случае применения протектора учитывать его диаметр",
+      "physical_pages": [
+        97
+      ],
+      "input_fact_sha256": "993e29ac23c8180200f6873c1a12b1ded4784a62a31c7d8652120ff7ad933fa4",
+      "input_line": 29129,
+      "raw_context": "raw-5f260808b218ef14f2915252b39bf953f5c2314ebf88d6dea537c388b828cc7a",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-dada46b689352a5e2e4517d0",
+        "window_id": "W-e8157da9b34aa2890534f6ec",
+        "group_id": "G-c831bed28a647543e1e299a2",
+        "product_id": "P-77373097c77256df81bacf9f",
+        "group_title": "Распорки межфазные изолирующие типа РМИ на напряжение 10-35 кВ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 79,
+      "fact_id": "L-f164ae62f50e6b00b4bcb24a",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:19760/raw",
+      "owner": "РМИ 30/20-555-П2(П3)-2",
+      "name": "Диаметр провода D*, мм",
+      "value": "13,5÷19,6 – П2\n18÷28 – П3",
+      "unit": "мм",
+      "condition": "* — В случае применения протектора учитывать его диаметр",
+      "physical_pages": [
+        97
+      ],
+      "input_fact_sha256": "313aaba1ac05ef0034c1d830579bdca6af385531839481f84da07c9860807080",
+      "input_line": 29135,
+      "raw_context": "raw-b0c903c8fd2758dae576100914c2b91e47b7073e53509fc10363f76bc056f59d",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-e538c12b30c39567011d9850",
+        "window_id": "W-e8157da9b34aa2890534f6ec",
+        "group_id": "G-c831bed28a647543e1e299a2",
+        "product_id": "P-b1e75604f17c25dcb2aaad0f",
+        "group_title": "Распорки межфазные изолирующие типа РМИ на напряжение 10-35 кВ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 85,
+      "fact_id": "L-2337c1af583c178de129345d",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:19766/raw",
+      "owner": "РМИ 30/20-630-П2(П3)-3",
+      "name": "Диаметр провода D*, мм",
+      "value": "13,5÷19,6 – П2\n18÷28 – П3",
+      "unit": "мм",
+      "condition": "* — В случае применения протектора учитывать его диаметр",
+      "physical_pages": [
+        97
+      ],
+      "input_fact_sha256": "be510dbe2f7b756205b6dd721ce0730333643ad075ac97c5b10d816c03e7bcc5",
+      "input_line": 29141,
+      "raw_context": "raw-ce4aca17e1d1ef53a8db22cca8419f024e19e46fd09a7d08e762613d6960eccf",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-c2eb3a6c8d82b1361e39c58e",
+        "window_id": "W-e8157da9b34aa2890534f6ec",
+        "group_id": "G-c831bed28a647543e1e299a2",
+        "product_id": "P-e353dbe9f52dd61809460380",
+        "group_title": "Распорки межфазные изолирующие типа РМИ на напряжение 10-35 кВ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 91,
+      "fact_id": "L-7e7bfc11b05cdcca5a61098d",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:19772/raw",
+      "owner": "РМИ 30/35-680-П2(П3)-1",
+      "name": "Диаметр провода D*, мм",
+      "value": "13,5÷19,6 – П2\n18÷28 – П3",
+      "unit": "мм",
+      "condition": "* — В случае применения протектора учитывать его диаметр",
+      "physical_pages": [
+        97
+      ],
+      "input_fact_sha256": "9bb96f0c2d01deaf1c1712327dc985d9cebba731ca62af9741b33d59098ad035",
+      "input_line": 29147,
+      "raw_context": "raw-f52996755ca25cf0552d8e0702d77a9383314fa9d3a8ec364875212ec20e4c34",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-2258f337c89533d61eba2280",
+        "window_id": "W-e8157da9b34aa2890534f6ec",
+        "group_id": "G-c831bed28a647543e1e299a2",
+        "product_id": "P-711581e63e600fb2c4687c89",
+        "group_title": "Распорки межфазные изолирующие типа РМИ на напряжение 10-35 кВ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 97,
+      "fact_id": "L-2e0e94d70eaa96181b920f19",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:19778/raw",
+      "owner": "РМИ 30/35-730-П2(П3)-2",
+      "name": "Диаметр провода D*, мм",
+      "value": "13,5÷19,6 – П2\n18÷28 – П3",
+      "unit": "мм",
+      "condition": "* — В случае применения протектора учитывать его диаметр",
+      "physical_pages": [
+        97
+      ],
+      "input_fact_sha256": "08c1e7fbe944197cd9b97e4621fea83be0fd93f6623489841d695ab3abbdb05d",
+      "input_line": 29153,
+      "raw_context": "raw-bf7fa889449d1fb3db763f5804f8a1e22695918a1f316d4001376390247adf48",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-bd85afe09659c891aa146c0d",
+        "window_id": "W-e8157da9b34aa2890534f6ec",
+        "group_id": "G-c831bed28a647543e1e299a2",
+        "product_id": "P-f771aa605359c12e6731e49a",
+        "group_title": "Распорки межфазные изолирующие типа РМИ на напряжение 10-35 кВ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 145,
+      "fact_id": "L-b45f80382bf4a1ee548b7a2c",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:19826/raw",
+      "owner": "РМИ 30/10-Н-П2(П3)-4",
+      "name": "Диаметр провода D*, мм",
+      "value": "13,5÷19,6 – П2\n18÷28 – П3",
+      "unit": "мм",
+      "condition": "* — В случае применения протектора учитывать его диаметр",
+      "physical_pages": [
+        97
+      ],
+      "input_fact_sha256": "161ec3e4e6ef355e7b516af04ca53605e15a26682a6a41f5105c7ad73ef2b26f",
+      "input_line": 29201,
+      "raw_context": "raw-c9694c6f72bbd4213168cfaefe8fb0825e8197ba24cf7f2ce1bbfa7fbd7d3f5d",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-d0cf3bf75f081cd842e16bef",
+        "window_id": "W-e8157da9b34aa2890534f6ec",
+        "group_id": "G-c831bed28a647543e1e299a2",
+        "product_id": "P-1396d00d2007bffd9e24bf1a",
+        "group_title": "Распорки межфазные изолирующие типа РМИ на напряжение 10-35 кВ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 151,
+      "fact_id": "L-84eeb97d908d9a49ce20cbcc",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:19832/raw",
+      "owner": "РМИ 30/20-Н-П2(П3)-2",
+      "name": "Диаметр провода D*, мм",
+      "value": "13,5÷19,6 – П2\n18÷28 – П3",
+      "unit": "мм",
+      "condition": "* — В случае применения протектора учитывать его диаметр",
+      "physical_pages": [
+        97
+      ],
+      "input_fact_sha256": "6ee27d21bdfef833a2c6a9e95048f6077e00a77c0dd6f8f22525bc686abcfc2f",
+      "input_line": 29207,
+      "raw_context": "raw-8741d53c279c545cd0cd6c4ef95b7eda28e0021814c01333c06a86f25a2dec67",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-d6de38e432a0b9af5a6d33dc",
+        "window_id": "W-e8157da9b34aa2890534f6ec",
+        "group_id": "G-c831bed28a647543e1e299a2",
+        "product_id": "P-b8ad865b1780d032868560b6",
+        "group_title": "Распорки межфазные изолирующие типа РМИ на напряжение 10-35 кВ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 157,
+      "fact_id": "L-9c1579abc1741baa7c43e5f8",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:19838/raw",
+      "owner": "РМИ 30/20-Н-П2(П3)-3",
+      "name": "Диаметр провода D*, мм",
+      "value": "13,5÷19,6 – П2\n18÷28 – П3",
+      "unit": "мм",
+      "condition": "* — В случае применения протектора учитывать его диаметр",
+      "physical_pages": [
+        97
+      ],
+      "input_fact_sha256": "4806df604f57653d6ce12bd1ae3bc51b11fb8d2b39faf5cf70135a23ab9d7e6c",
+      "input_line": 29213,
+      "raw_context": "raw-ea71729553b9e8069473af29082f2adf16bf76eebcc28040f263c0276c5ef001",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-6cec313761a70914e506839f",
+        "window_id": "W-e8157da9b34aa2890534f6ec",
+        "group_id": "G-c831bed28a647543e1e299a2",
+        "product_id": "P-495a29e3c1cc947ec987c688",
+        "group_title": "Распорки межфазные изолирующие типа РМИ на напряжение 10-35 кВ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 163,
+      "fact_id": "L-02b570cba0d09c6dd6b4ed3f",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:19844/raw",
+      "owner": "РМИ 30/20-Н-П2(П3)-4",
+      "name": "Диаметр провода D*, мм",
+      "value": "13,5÷19,6 – П2\n18÷28 – П3",
+      "unit": "мм",
+      "condition": "* — В случае применения протектора учитывать его диаметр",
+      "physical_pages": [
+        97
+      ],
+      "input_fact_sha256": "d9945454ee748002db4c8c6f7a0bcdb73a82887b0e263319fde23b386ec13e9c",
+      "input_line": 29219,
+      "raw_context": "raw-429a8193fb529a4a83690891f5da18780c72f9027f5e967939eb53d3f2cc6eb3",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-5a00260c921315eb336377ea",
+        "window_id": "W-e8157da9b34aa2890534f6ec",
+        "group_id": "G-c831bed28a647543e1e299a2",
+        "product_id": "P-a631100fa864e31978884ea8",
+        "group_title": "Распорки межфазные изолирующие типа РМИ на напряжение 10-35 кВ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 169,
+      "fact_id": "L-33bbef35f17fe82d67404009",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:19850/raw",
+      "owner": "РМИ 30/35-Н-П2(П3)-2",
+      "name": "Диаметр провода D*, мм",
+      "value": "13,5÷19,6 – П2\n18÷28 – П3",
+      "unit": "мм",
+      "condition": "* — В случае применения протектора учитывать его диаметр",
+      "physical_pages": [
+        97
+      ],
+      "input_fact_sha256": "195de01c83f2508c1e20d1c69381b0758861d1bebc879d7280b2931c621ebb5f",
+      "input_line": 29225,
+      "raw_context": "raw-a57c560d0facdfa45ebd878dce0917f5e2f1db1f36266746339cc8e7fc5c7144",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-aaccc6107892145239096ca7",
+        "window_id": "W-e8157da9b34aa2890534f6ec",
+        "group_id": "G-c831bed28a647543e1e299a2",
+        "product_id": "P-7bd39c6324ef8d965d938ade",
+        "group_title": "Распорки межфазные изолирующие типа РМИ на напряжение 10-35 кВ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 175,
+      "fact_id": "L-1dbcac3e3e7500732abcfada",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:19856/raw",
+      "owner": "РМИ 30/35-Н-П2(П3)-3",
+      "name": "Диаметр провода D*, мм",
+      "value": "13,5÷19,6 – П2\n18÷28 – П3",
+      "unit": "мм",
+      "condition": "* — В случае применения протектора учитывать его диаметр",
+      "physical_pages": [
+        97
+      ],
+      "input_fact_sha256": "a007129117fef21b7f6fd2829fc3ee25b714fb7741b770ad820e80c188f739b6",
+      "input_line": 29231,
+      "raw_context": "raw-187c3678b5e39cea31fcf949bc584aa419b9fef39fe8c318616a0df4733ace1b",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-d9f0ccb665cbb48a4107202c",
+        "window_id": "W-e8157da9b34aa2890534f6ec",
+        "group_id": "G-c831bed28a647543e1e299a2",
+        "product_id": "P-446bc7183e1df166a5d5a627",
+        "group_title": "Распорки межфазные изолирующие типа РМИ на напряжение 10-35 кВ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 181,
+      "fact_id": "L-edba0f98a7ff01803c629f50",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:19862/raw",
+      "owner": "РМИ 30/35-Н-П2(П3)-4",
+      "name": "Диаметр провода D*, мм",
+      "value": "13,5÷19,6 – П2\n18÷28 – П3",
+      "unit": "мм",
+      "condition": "* — В случае применения протектора учитывать его диаметр",
+      "physical_pages": [
+        97
+      ],
+      "input_fact_sha256": "57f98010f1c5f09bb019489d4e38b579e6396117bffab67f12aa959acc0bacd7",
+      "input_line": 29237,
+      "raw_context": "raw-40a56017a0583d9b0451154c7f7527262d3c06fc0f1aafcf78601552d9115687",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-49ecfc33f9365cafc2b5d906",
+        "window_id": "W-e8157da9b34aa2890534f6ec",
+        "group_id": "G-c831bed28a647543e1e299a2",
+        "product_id": "P-806a363e8e5a2472f6f3b83d",
+        "group_title": "Распорки межфазные изолирующие типа РМИ на напряжение 10-35 кВ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 231,
+      "fact_id": "O-d53df03775940d37f107eebf",
+      "side": "ours",
+      "catalog": "isolators",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/1/pages/96/content/tables/0/rows/6/cells/6",
+      "owner": "РМИ 30/10-480-П2(П3)-3",
+      "name": "Диаметр провода D*, мм",
+      "value": "13,5÷19,6 – П2; 18÷28 – П3",
+      "unit": "мм",
+      "condition": "* — В случае применения протектора учитывать его диаметр",
+      "physical_pages": [
+        97
+      ],
+      "input_fact_sha256": "e18272b9628ef872766312587c60e2184fa1fc4cf25b06bf149ff71ce5a03f94",
+      "input_line": 105659,
+      "row_context": "row-38c5b40f19f7c98902bbe61cd1181baf7bfe95abb2e7518bf4f9202c0169c58a",
+      "raw_context": "raw-b1c6848f115a2f9179d0c1908045b033ca5656b39c10596e9e1524b45ac6be0a",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 6,
+        "column_index": 6,
+        "table_title": "Верхняя таблица (одиночная распорка)",
+        "column": {
+          "id": "c7",
+          "label": "Диаметр провода D*, мм",
+          "unit": "мм",
+          "group": null,
+          "qualifier": "* — В случае применения протектора учитывать его диаметр"
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "3d70d49163ee78e978eca8e3b6dbdfb9660ffe05d77b49347a4c708ba2c78eaf",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 238,
+      "fact_id": "O-c083e44826ba9ebab85b6147",
+      "side": "ours",
+      "catalog": "isolators",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/1/pages/96/content/tables/0/rows/7/cells/6",
+      "owner": "РМИ 30/10-530-П2(П3)-4",
+      "name": "Диаметр провода D*, мм",
+      "value": "13,5÷19,6 – П2; 18÷28 – П3",
+      "unit": "мм",
+      "condition": "* — В случае применения протектора учитывать его диаметр",
+      "physical_pages": [
+        97
+      ],
+      "input_fact_sha256": "0fd198c1bd2988b87b386f765a74f3e7562a3ac714e00382ce61ed898c2614a6",
+      "input_line": 105666,
+      "row_context": "row-008e7aa8086773e43d7aecf05fa38ec872925081e5622e9f339dac831d145036",
+      "raw_context": "raw-b1c6848f115a2f9179d0c1908045b033ca5656b39c10596e9e1524b45ac6be0a",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 7,
+        "column_index": 6,
+        "table_title": "Верхняя таблица (одиночная распорка)",
+        "column": {
+          "id": "c7",
+          "label": "Диаметр провода D*, мм",
+          "unit": "мм",
+          "group": null,
+          "qualifier": "* — В случае применения протектора учитывать его диаметр"
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "3d70d49163ee78e978eca8e3b6dbdfb9660ffe05d77b49347a4c708ba2c78eaf",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 245,
+      "fact_id": "O-ae791298d9c6e394320b59c8",
+      "side": "ours",
+      "catalog": "isolators",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/1/pages/96/content/tables/0/rows/8/cells/6",
+      "owner": "РМИ 30/20-555-П2(П3)-2",
+      "name": "Диаметр провода D*, мм",
+      "value": "13,5÷19,6 – П2; 18÷28 – П3",
+      "unit": "мм",
+      "condition": "* — В случае применения протектора учитывать его диаметр",
+      "physical_pages": [
+        97
+      ],
+      "input_fact_sha256": "5b420bd83492104cfc1fd35cdfa9a6cd8e6b5448359eb28e7f8a7d3c6b9e6864",
+      "input_line": 105673,
+      "row_context": "row-9cdd20b0f5860fb1b373d2bcc0e2c45991695ff3e584e3afac44c1304bef9790",
+      "raw_context": "raw-b1c6848f115a2f9179d0c1908045b033ca5656b39c10596e9e1524b45ac6be0a",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 8,
+        "column_index": 6,
+        "table_title": "Верхняя таблица (одиночная распорка)",
+        "column": {
+          "id": "c7",
+          "label": "Диаметр провода D*, мм",
+          "unit": "мм",
+          "group": null,
+          "qualifier": "* — В случае применения протектора учитывать его диаметр"
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "3d70d49163ee78e978eca8e3b6dbdfb9660ffe05d77b49347a4c708ba2c78eaf",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 252,
+      "fact_id": "O-40faee1177df2000970e5e5a",
+      "side": "ours",
+      "catalog": "isolators",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/1/pages/96/content/tables/0/rows/9/cells/6",
+      "owner": "РМИ 30/20-630-П2(П3)-3",
+      "name": "Диаметр провода D*, мм",
+      "value": "13,5÷19,6 – П2; 18÷28 – П3",
+      "unit": "мм",
+      "condition": "* — В случае применения протектора учитывать его диаметр",
+      "physical_pages": [
+        97
+      ],
+      "input_fact_sha256": "f4dc22ecddc32139d6a603e0162c3a0d459e201ed0e70aa4471a7bc18cf9bbe0",
+      "input_line": 105680,
+      "row_context": "row-8567abd4a3a1e86372ee1c5c8edf6ceb5e979a46fa3f251f9b1b01ab0e01f170",
+      "raw_context": "raw-b1c6848f115a2f9179d0c1908045b033ca5656b39c10596e9e1524b45ac6be0a",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 9,
+        "column_index": 6,
+        "table_title": "Верхняя таблица (одиночная распорка)",
+        "column": {
+          "id": "c7",
+          "label": "Диаметр провода D*, мм",
+          "unit": "мм",
+          "group": null,
+          "qualifier": "* — В случае применения протектора учитывать его диаметр"
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "3d70d49163ee78e978eca8e3b6dbdfb9660ffe05d77b49347a4c708ba2c78eaf",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 259,
+      "fact_id": "O-c39f2a0b7d7095dd123fe36f",
+      "side": "ours",
+      "catalog": "isolators",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/1/pages/96/content/tables/0/rows/10/cells/6",
+      "owner": "РМИ 30/35-680-П2(П3)-1",
+      "name": "Диаметр провода D*, мм",
+      "value": "13,5÷19,6 – П2; 18÷28 – П3",
+      "unit": "мм",
+      "condition": "* — В случае применения протектора учитывать его диаметр",
+      "physical_pages": [
+        97
+      ],
+      "input_fact_sha256": "1929fc94c8620be2addad53014d23fafcd0b2ec259af7ab10bf4fa6f376eaddd",
+      "input_line": 105687,
+      "row_context": "row-8eb3cafaf9463e2fe91e769adab0ea1d6a6b25c81f960d35347e77d16d5b48e2",
+      "raw_context": "raw-b1c6848f115a2f9179d0c1908045b033ca5656b39c10596e9e1524b45ac6be0a",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 10,
+        "column_index": 6,
+        "table_title": "Верхняя таблица (одиночная распорка)",
+        "column": {
+          "id": "c7",
+          "label": "Диаметр провода D*, мм",
+          "unit": "мм",
+          "group": null,
+          "qualifier": "* — В случае применения протектора учитывать его диаметр"
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "3d70d49163ee78e978eca8e3b6dbdfb9660ffe05d77b49347a4c708ba2c78eaf",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 266,
+      "fact_id": "O-08d56980c99196ab5a109764",
+      "side": "ours",
+      "catalog": "isolators",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/1/pages/96/content/tables/0/rows/11/cells/6",
+      "owner": "РМИ 30/35-730-П2(П3)-2",
+      "name": "Диаметр провода D*, мм",
+      "value": "13,5÷19,6 – П2; 18÷28 – П3",
+      "unit": "мм",
+      "condition": "* — В случае применения протектора учитывать его диаметр",
+      "physical_pages": [
+        97
+      ],
+      "input_fact_sha256": "75246f9885e90a657f8bc51cbbd1c594456d0daf4b5865e42f62e1ad7a0b4994",
+      "input_line": 105694,
+      "row_context": "row-3bcc045e611c3e47a979d14d2209d2ee168b15a8e75478aa57e44ed0b486b2fe",
+      "raw_context": "raw-b1c6848f115a2f9179d0c1908045b033ca5656b39c10596e9e1524b45ac6be0a",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 11,
+        "column_index": 6,
+        "table_title": "Верхняя таблица (одиночная распорка)",
+        "column": {
+          "id": "c7",
+          "label": "Диаметр провода D*, мм",
+          "unit": "мм",
+          "group": null,
+          "qualifier": "* — В случае применения протектора учитывать его диаметр"
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "3d70d49163ee78e978eca8e3b6dbdfb9660ffe05d77b49347a4c708ba2c78eaf",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 322,
+      "fact_id": "O-df71f92b6366a9f38361678e",
+      "side": "ours",
+      "catalog": "isolators",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/1/pages/96/content/tables/1/rows/7/cells/6",
+      "owner": "РМИ 30/10-Н-П2(П3)-4",
+      "name": "Диаметр провода D*, мм",
+      "value": "13,5÷19,6 – П2; 18÷28 – П3",
+      "unit": "мм",
+      "condition": "* — В случае применения протектора учитывать его диаметр",
+      "physical_pages": [
+        97
+      ],
+      "input_fact_sha256": "77a0034b990f8fa9a18a3f7db78437e09d49c8ba154bed54ce63582fc961cd3b",
+      "input_line": 105750,
+      "row_context": "row-22b80c2deec2f1b6f67f8a21b8fcde40f71baeb81742eb3632db2259f3cabfcd",
+      "raw_context": "raw-b1c6848f115a2f9179d0c1908045b033ca5656b39c10596e9e1524b45ac6be0a",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 1,
+        "row_index": 7,
+        "column_index": 6,
+        "table_title": "Нижняя таблица (составная распорка)",
+        "column": {
+          "id": "c7",
+          "label": "Диаметр провода D*, мм",
+          "unit": "мм",
+          "group": null,
+          "qualifier": "* — В случае применения протектора учитывать его диаметр"
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "3d70d49163ee78e978eca8e3b6dbdfb9660ffe05d77b49347a4c708ba2c78eaf",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 329,
+      "fact_id": "O-e524de2537a13b55b090f5db",
+      "side": "ours",
+      "catalog": "isolators",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/1/pages/96/content/tables/1/rows/8/cells/6",
+      "owner": "РМИ 30/20-Н-П2(П3)-2",
+      "name": "Диаметр провода D*, мм",
+      "value": "13,5÷19,6 – П2; 18÷28 – П3",
+      "unit": "мм",
+      "condition": "* — В случае применения протектора учитывать его диаметр",
+      "physical_pages": [
+        97
+      ],
+      "input_fact_sha256": "0318d3bdc0d204b1b44c2096df64bdc343e1fe0fd1b40525f69ce52f8e6af1cf",
+      "input_line": 105757,
+      "row_context": "row-e1756235181730b8ef51ed10206a28bac649a380986bfcd8b3d7bd17938ae030",
+      "raw_context": "raw-b1c6848f115a2f9179d0c1908045b033ca5656b39c10596e9e1524b45ac6be0a",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 1,
+        "row_index": 8,
+        "column_index": 6,
+        "table_title": "Нижняя таблица (составная распорка)",
+        "column": {
+          "id": "c7",
+          "label": "Диаметр провода D*, мм",
+          "unit": "мм",
+          "group": null,
+          "qualifier": "* — В случае применения протектора учитывать его диаметр"
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "3d70d49163ee78e978eca8e3b6dbdfb9660ffe05d77b49347a4c708ba2c78eaf",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 336,
+      "fact_id": "O-33b4d837a75466f3f72cefc9",
+      "side": "ours",
+      "catalog": "isolators",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/1/pages/96/content/tables/1/rows/9/cells/6",
+      "owner": "РМИ 30/20-Н-П2(П3)-3",
+      "name": "Диаметр провода D*, мм",
+      "value": "13,5÷19,6 – П2; 18÷28 – П3",
+      "unit": "мм",
+      "condition": "* — В случае применения протектора учитывать его диаметр",
+      "physical_pages": [
+        97
+      ],
+      "input_fact_sha256": "c5ead34a651a4eb0ffb930a3dcd378df92beb6e14d4334fd9fca081bd56e5cd2",
+      "input_line": 105764,
+      "row_context": "row-8f41fe5ef16c8ef07f9482c312a268ba039eb476b4b9296cc5c1b890d2d3c861",
+      "raw_context": "raw-b1c6848f115a2f9179d0c1908045b033ca5656b39c10596e9e1524b45ac6be0a",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 1,
+        "row_index": 9,
+        "column_index": 6,
+        "table_title": "Нижняя таблица (составная распорка)",
+        "column": {
+          "id": "c7",
+          "label": "Диаметр провода D*, мм",
+          "unit": "мм",
+          "group": null,
+          "qualifier": "* — В случае применения протектора учитывать его диаметр"
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "3d70d49163ee78e978eca8e3b6dbdfb9660ffe05d77b49347a4c708ba2c78eaf",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 343,
+      "fact_id": "O-e3e4c631c946137248ec607d",
+      "side": "ours",
+      "catalog": "isolators",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/1/pages/96/content/tables/1/rows/10/cells/6",
+      "owner": "РМИ 30/20-Н-П2(П3)-4",
+      "name": "Диаметр провода D*, мм",
+      "value": "13,5÷19,6 – П2; 18÷28 – П3",
+      "unit": "мм",
+      "condition": "* — В случае применения протектора учитывать его диаметр",
+      "physical_pages": [
+        97
+      ],
+      "input_fact_sha256": "15ea167a1603936c07bc87b169924eed9c3349517a4830a14284704e2bafc146",
+      "input_line": 105771,
+      "row_context": "row-8317206ffa96f6aec10a51d5c8f8699019043ba2cf6aaef2d4dfc3f5f71291de",
+      "raw_context": "raw-b1c6848f115a2f9179d0c1908045b033ca5656b39c10596e9e1524b45ac6be0a",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 1,
+        "row_index": 10,
+        "column_index": 6,
+        "table_title": "Нижняя таблица (составная распорка)",
+        "column": {
+          "id": "c7",
+          "label": "Диаметр провода D*, мм",
+          "unit": "мм",
+          "group": null,
+          "qualifier": "* — В случае применения протектора учитывать его диаметр"
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "3d70d49163ee78e978eca8e3b6dbdfb9660ffe05d77b49347a4c708ba2c78eaf",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 350,
+      "fact_id": "O-4f371dd39bda8a22e6fb6444",
+      "side": "ours",
+      "catalog": "isolators",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/1/pages/96/content/tables/1/rows/11/cells/6",
+      "owner": "РМИ 30/35-Н-П2(П3)-2",
+      "name": "Диаметр провода D*, мм",
+      "value": "13,5÷19,6 – П2; 18÷28 – П3",
+      "unit": "мм",
+      "condition": "* — В случае применения протектора учитывать его диаметр",
+      "physical_pages": [
+        97
+      ],
+      "input_fact_sha256": "e713626a2aac1412903fbccae8aa78f2853c110a3dcd30006b77303d342e7db5",
+      "input_line": 105778,
+      "row_context": "row-594fa89c9ad0168ac6be1baab1ad08c59c189d35aace8ede253aa0177c279f7a",
+      "raw_context": "raw-b1c6848f115a2f9179d0c1908045b033ca5656b39c10596e9e1524b45ac6be0a",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 1,
+        "row_index": 11,
+        "column_index": 6,
+        "table_title": "Нижняя таблица (составная распорка)",
+        "column": {
+          "id": "c7",
+          "label": "Диаметр провода D*, мм",
+          "unit": "мм",
+          "group": null,
+          "qualifier": "* — В случае применения протектора учитывать его диаметр"
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "3d70d49163ee78e978eca8e3b6dbdfb9660ffe05d77b49347a4c708ba2c78eaf",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 357,
+      "fact_id": "O-69bd9b1682bb22e6485f855e",
+      "side": "ours",
+      "catalog": "isolators",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/1/pages/96/content/tables/1/rows/12/cells/6",
+      "owner": "РМИ 30/35-Н-П2(П3)-3",
+      "name": "Диаметр провода D*, мм",
+      "value": "13,5÷19,6 – П2; 18÷28 – П3",
+      "unit": "мм",
+      "condition": "* — В случае применения протектора учитывать его диаметр",
+      "physical_pages": [
+        97
+      ],
+      "input_fact_sha256": "cc93601ab53601cd3a93e848a32c1010aaf91cd50631e0b7f8a8f313a3637e7d",
+      "input_line": 105785,
+      "row_context": "row-469e0dfe26ab64a1521822b27ec5cfd528b758053d96d994e45610ffe6915e64",
+      "raw_context": "raw-b1c6848f115a2f9179d0c1908045b033ca5656b39c10596e9e1524b45ac6be0a",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 1,
+        "row_index": 12,
+        "column_index": 6,
+        "table_title": "Нижняя таблица (составная распорка)",
+        "column": {
+          "id": "c7",
+          "label": "Диаметр провода D*, мм",
+          "unit": "мм",
+          "group": null,
+          "qualifier": "* — В случае применения протектора учитывать его диаметр"
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "3d70d49163ee78e978eca8e3b6dbdfb9660ffe05d77b49347a4c708ba2c78eaf",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 364,
+      "fact_id": "O-dbe14e1d262296b683d7851d",
+      "side": "ours",
+      "catalog": "isolators",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/1/pages/96/content/tables/1/rows/13/cells/6",
+      "owner": "РМИ 30/35-Н-П2(П3)-4",
+      "name": "Диаметр провода D*, мм",
+      "value": "13,5÷19,6 – П2; 18÷28 – П3",
+      "unit": "мм",
+      "condition": "* — В случае применения протектора учитывать его диаметр",
+      "physical_pages": [
+        97
+      ],
+      "input_fact_sha256": "e2a7af305a7a2689e2c4ff4245a064b9f0ae8488ca0ff42e1f734a0dc0dd6dd7",
+      "input_line": 105792,
+      "row_context": "row-0c5f9d0a92d6dba22328e3e4dba810445dd306661acb96e9dfba29d2e2eb68fb",
+      "raw_context": "raw-b1c6848f115a2f9179d0c1908045b033ca5656b39c10596e9e1524b45ac6be0a",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 1,
+        "row_index": 13,
+        "column_index": 6,
+        "table_title": "Нижняя таблица (составная распорка)",
+        "column": {
+          "id": "c7",
+          "label": "Диаметр провода D*, мм",
+          "unit": "мм",
+          "group": null,
+          "qualifier": "* — В случае применения протектора учитывать его диаметр"
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "3d70d49163ee78e978eca8e3b6dbdfb9660ffe05d77b49347a4c708ba2c78eaf",
+        "previously_accepted": true
+      }
+    }
+  ],
+  "original_contexts": {
+    "raw-5d302033ee3790d91152ce50b97f9b629887f09cdead764d1184c866c9ad5b7d": {
+      "scope": "Visually merged cell spanning supported rows of this table/subgroup; value copied to each applicable designation",
+      "scope_evidence": "Visually merged cell spanning supported rows of this table/subgroup; value copied to each applicable designation",
+      "evidence": [
+        {
+          "page": 97,
+          "region": [
+            0.837,
+            0.363,
+            0.931,
+            0.45299999999999996
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "Диаметр провода D*, мм",
+          "role": "column",
+          "unit": "мм",
+          "condition": "* — В случае применения протектора учитывать его диаметр",
+          "evidence": [
+            {
+              "page": 97,
+              "region": [
+                0.837,
+                0.21,
+                0.931,
+                0.273
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 97,
+          "region": [
+            0.082,
+            0.363,
+            0.265,
+            0.378
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "table_cell"
+    },
+    "raw-5f260808b218ef14f2915252b39bf953f5c2314ebf88d6dea537c388b828cc7a": {
+      "scope": "Visually merged cell spanning supported rows of this table/subgroup; value copied to each applicable designation",
+      "scope_evidence": "Visually merged cell spanning supported rows of this table/subgroup; value copied to each applicable designation",
+      "evidence": [
+        {
+          "page": 97,
+          "region": [
+            0.837,
+            0.363,
+            0.931,
+            0.45299999999999996
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "Диаметр провода D*, мм",
+          "role": "column",
+          "unit": "мм",
+          "condition": "* — В случае применения протектора учитывать его диаметр",
+          "evidence": [
+            {
+              "page": 97,
+              "region": [
+                0.837,
+                0.21,
+                0.931,
+                0.273
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 97,
+          "region": [
+            0.082,
+            0.378,
+            0.265,
+            0.393
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "table_cell"
+    },
+    "raw-b0c903c8fd2758dae576100914c2b91e47b7073e53509fc10363f76bc056f59d": {
+      "scope": "Visually merged cell spanning supported rows of this table/subgroup; value copied to each applicable designation",
+      "scope_evidence": "Visually merged cell spanning supported rows of this table/subgroup; value copied to each applicable designation",
+      "evidence": [
+        {
+          "page": 97,
+          "region": [
+            0.837,
+            0.363,
+            0.931,
+            0.45299999999999996
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "Диаметр провода D*, мм",
+          "role": "column",
+          "unit": "мм",
+          "condition": "* — В случае применения протектора учитывать его диаметр",
+          "evidence": [
+            {
+              "page": 97,
+              "region": [
+                0.837,
+                0.21,
+                0.931,
+                0.273
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 97,
+          "region": [
+            0.082,
+            0.393,
+            0.265,
+            0.40800000000000003
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "table_cell"
+    },
+    "raw-ce4aca17e1d1ef53a8db22cca8419f024e19e46fd09a7d08e762613d6960eccf": {
+      "scope": "Visually merged cell spanning supported rows of this table/subgroup; value copied to each applicable designation",
+      "scope_evidence": "Visually merged cell spanning supported rows of this table/subgroup; value copied to each applicable designation",
+      "evidence": [
+        {
+          "page": 97,
+          "region": [
+            0.837,
+            0.363,
+            0.931,
+            0.45299999999999996
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "Диаметр провода D*, мм",
+          "role": "column",
+          "unit": "мм",
+          "condition": "* — В случае применения протектора учитывать его диаметр",
+          "evidence": [
+            {
+              "page": 97,
+              "region": [
+                0.837,
+                0.21,
+                0.931,
+                0.273
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 97,
+          "region": [
+            0.082,
+            0.408,
+            0.265,
+            0.423
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "table_cell"
+    },
+    "raw-f52996755ca25cf0552d8e0702d77a9383314fa9d3a8ec364875212ec20e4c34": {
+      "scope": "Visually merged cell spanning supported rows of this table/subgroup; value copied to each applicable designation",
+      "scope_evidence": "Visually merged cell spanning supported rows of this table/subgroup; value copied to each applicable designation",
+      "evidence": [
+        {
+          "page": 97,
+          "region": [
+            0.837,
+            0.363,
+            0.931,
+            0.45299999999999996
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "Диаметр провода D*, мм",
+          "role": "column",
+          "unit": "мм",
+          "condition": "* — В случае применения протектора учитывать его диаметр",
+          "evidence": [
+            {
+              "page": 97,
+              "region": [
+                0.837,
+                0.21,
+                0.931,
+                0.273
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 97,
+          "region": [
+            0.082,
+            0.423,
+            0.265,
+            0.438
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "table_cell"
+    },
+    "raw-bf7fa889449d1fb3db763f5804f8a1e22695918a1f316d4001376390247adf48": {
+      "scope": "Visually merged cell spanning supported rows of this table/subgroup; value copied to each applicable designation",
+      "scope_evidence": "Visually merged cell spanning supported rows of this table/subgroup; value copied to each applicable designation",
+      "evidence": [
+        {
+          "page": 97,
+          "region": [
+            0.837,
+            0.363,
+            0.931,
+            0.45299999999999996
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "Диаметр провода D*, мм",
+          "role": "column",
+          "unit": "мм",
+          "condition": "* — В случае применения протектора учитывать его диаметр",
+          "evidence": [
+            {
+              "page": 97,
+              "region": [
+                0.837,
+                0.21,
+                0.931,
+                0.273
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 97,
+          "region": [
+            0.082,
+            0.438,
+            0.265,
+            0.453
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "table_cell"
+    },
+    "raw-c9694c6f72bbd4213168cfaefe8fb0825e8197ba24cf7f2ce1bbfa7fbd7d3f5d": {
+      "scope": "Visually merged cell spanning supported rows of this table/subgroup; value copied to each applicable designation",
+      "scope_evidence": "Visually merged cell spanning supported rows of this table/subgroup; value copied to each applicable designation",
+      "evidence": [
+        {
+          "page": 97,
+          "region": [
+            0.815,
+            0.8004,
+            0.918,
+            0.9068
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "Диаметр провода D*, мм",
+          "role": "column",
+          "unit": "мм",
+          "condition": "* — В случае применения протектора учитывать его диаметр",
+          "evidence": [
+            {
+              "page": 97,
+              "region": [
+                0.815,
+                0.631,
+                0.918,
+                0.694
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 97,
+          "region": [
+            0.081,
+            0.8004,
+            0.272,
+            0.8156
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "table_cell"
+    },
+    "raw-8741d53c279c545cd0cd6c4ef95b7eda28e0021814c01333c06a86f25a2dec67": {
+      "scope": "Visually merged cell spanning supported rows of this table/subgroup; value copied to each applicable designation",
+      "scope_evidence": "Visually merged cell spanning supported rows of this table/subgroup; value copied to each applicable designation",
+      "evidence": [
+        {
+          "page": 97,
+          "region": [
+            0.815,
+            0.8004,
+            0.918,
+            0.9068
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "Диаметр провода D*, мм",
+          "role": "column",
+          "unit": "мм",
+          "condition": "* — В случае применения протектора учитывать его диаметр",
+          "evidence": [
+            {
+              "page": 97,
+              "region": [
+                0.815,
+                0.631,
+                0.918,
+                0.694
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 97,
+          "region": [
+            0.081,
+            0.8156,
+            0.272,
+            0.8308
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "table_cell"
+    },
+    "raw-ea71729553b9e8069473af29082f2adf16bf76eebcc28040f263c0276c5ef001": {
+      "scope": "Visually merged cell spanning supported rows of this table/subgroup; value copied to each applicable designation",
+      "scope_evidence": "Visually merged cell spanning supported rows of this table/subgroup; value copied to each applicable designation",
+      "evidence": [
+        {
+          "page": 97,
+          "region": [
+            0.815,
+            0.8004,
+            0.918,
+            0.9068
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "Диаметр провода D*, мм",
+          "role": "column",
+          "unit": "мм",
+          "condition": "* — В случае применения протектора учитывать его диаметр",
+          "evidence": [
+            {
+              "page": 97,
+              "region": [
+                0.815,
+                0.631,
+                0.918,
+                0.694
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 97,
+          "region": [
+            0.081,
+            0.8308,
+            0.272,
+            0.846
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "table_cell"
+    },
+    "raw-429a8193fb529a4a83690891f5da18780c72f9027f5e967939eb53d3f2cc6eb3": {
+      "scope": "Visually merged cell spanning supported rows of this table/subgroup; value copied to each applicable designation",
+      "scope_evidence": "Visually merged cell spanning supported rows of this table/subgroup; value copied to each applicable designation",
+      "evidence": [
+        {
+          "page": 97,
+          "region": [
+            0.815,
+            0.8004,
+            0.918,
+            0.9068
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "Диаметр провода D*, мм",
+          "role": "column",
+          "unit": "мм",
+          "condition": "* — В случае применения протектора учитывать его диаметр",
+          "evidence": [
+            {
+              "page": 97,
+              "region": [
+                0.815,
+                0.631,
+                0.918,
+                0.694
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 97,
+          "region": [
+            0.081,
+            0.846,
+            0.272,
+            0.8612
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "table_cell"
+    },
+    "raw-a57c560d0facdfa45ebd878dce0917f5e2f1db1f36266746339cc8e7fc5c7144": {
+      "scope": "Visually merged cell spanning supported rows of this table/subgroup; value copied to each applicable designation",
+      "scope_evidence": "Visually merged cell spanning supported rows of this table/subgroup; value copied to each applicable designation",
+      "evidence": [
+        {
+          "page": 97,
+          "region": [
+            0.815,
+            0.8004,
+            0.918,
+            0.9068
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "Диаметр провода D*, мм",
+          "role": "column",
+          "unit": "мм",
+          "condition": "* — В случае применения протектора учитывать его диаметр",
+          "evidence": [
+            {
+              "page": 97,
+              "region": [
+                0.815,
+                0.631,
+                0.918,
+                0.694
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 97,
+          "region": [
+            0.081,
+            0.8612,
+            0.272,
+            0.8764
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "table_cell"
+    },
+    "raw-187c3678b5e39cea31fcf949bc584aa419b9fef39fe8c318616a0df4733ace1b": {
+      "scope": "Visually merged cell spanning supported rows of this table/subgroup; value copied to each applicable designation",
+      "scope_evidence": "Visually merged cell spanning supported rows of this table/subgroup; value copied to each applicable designation",
+      "evidence": [
+        {
+          "page": 97,
+          "region": [
+            0.815,
+            0.8004,
+            0.918,
+            0.9068
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "Диаметр провода D*, мм",
+          "role": "column",
+          "unit": "мм",
+          "condition": "* — В случае применения протектора учитывать его диаметр",
+          "evidence": [
+            {
+              "page": 97,
+              "region": [
+                0.815,
+                0.631,
+                0.918,
+                0.694
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 97,
+          "region": [
+            0.081,
+            0.8764,
+            0.272,
+            0.8916
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "table_cell"
+    },
+    "raw-40a56017a0583d9b0451154c7f7527262d3c06fc0f1aafcf78601552d9115687": {
+      "scope": "Visually merged cell spanning supported rows of this table/subgroup; value copied to each applicable designation",
+      "scope_evidence": "Visually merged cell spanning supported rows of this table/subgroup; value copied to each applicable designation",
+      "evidence": [
+        {
+          "page": 97,
+          "region": [
+            0.815,
+            0.8004,
+            0.918,
+            0.9068
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "Диаметр провода D*, мм",
+          "role": "column",
+          "unit": "мм",
+          "condition": "* — В случае применения протектора учитывать его диаметр",
+          "evidence": [
+            {
+              "page": 97,
+              "region": [
+                0.815,
+                0.631,
+                0.918,
+                0.694
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 97,
+          "region": [
+            0.081,
+            0.8916,
+            0.272,
+            0.9067999999999999
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "table_cell"
+    },
+    "row-38c5b40f19f7c98902bbe61cd1181baf7bfe95abb2e7518bf4f9202c0169c58a": {
+      "row_values": [
+        "РМИ 30/10-480-П2(П3)-3",
+        "480",
+        "235",
+        "565",
+        "III",
+        "8,0",
+        "13,5÷19,6 – П2; 18÷28 – П3"
+      ]
+    },
+    "raw-b1c6848f115a2f9179d0c1908045b033ca5656b39c10596e9e1524b45ac6be0a": {
+      "column_id": "c7",
+      "value": "13,5÷19,6 – П2; 18÷28 – П3",
+      "state": "value"
+    },
+    "row-008e7aa8086773e43d7aecf05fa38ec872925081e5622e9f339dac831d145036": {
+      "row_values": [
+        "РМИ 30/10-530-П2(П3)-4",
+        "530",
+        "285",
+        "710",
+        "IV",
+        "8,0",
+        "13,5÷19,6 – П2; 18÷28 – П3"
+      ]
+    },
+    "row-9cdd20b0f5860fb1b373d2bcc0e2c45991695ff3e584e3afac44c1304bef9790": {
+      "row_values": [
+        "РМИ 30/20-555-П2(П3)-2",
+        "555",
+        "310",
+        "800",
+        "II",
+        "6,0",
+        "13,5÷19,6 – П2; 18÷28 – П3"
+      ]
+    },
+    "row-8567abd4a3a1e86372ee1c5c8edf6ceb5e979a46fa3f251f9b1b01ab0e01f170": {
+      "row_values": [
+        "РМИ 30/20-630-П2(П3)-3",
+        "630",
+        "385",
+        "1020",
+        "III",
+        "5,0",
+        "13,5÷19,6 – П2; 18÷28 – П3"
+      ]
+    },
+    "row-8eb3cafaf9463e2fe91e769adab0ea1d6a6b25c81f960d35347e77d16d5b48e2": {
+      "row_values": [
+        "РМИ 30/35-680-П2(П3)-1",
+        "680",
+        "435",
+        "1160",
+        "I",
+        "5,0",
+        "13,5÷19,6 – П2; 18÷28 – П3"
+      ]
+    },
+    "row-3bcc045e611c3e47a979d14d2209d2ee168b15a8e75478aa57e44ed0b486b2fe": {
+      "row_values": [
+        "РМИ 30/35-730-П2(П3)-2",
+        "730",
+        "485",
+        "1350",
+        "II",
+        "4,0",
+        "13,5÷19,6 – П2; 18÷28 – П3"
+      ]
+    },
+    "row-22b80c2deec2f1b6f67f8a21b8fcde40f71baeb81742eb3632db2259f3cabfcd": {
+      "row_values": [
+        "РМИ 30/10-Н-П2(П3)-4",
+        "700",
+        "370",
+        "720",
+        "IV",
+        "3,0",
+        "13,5÷19,6 – П2; 18÷28 – П3"
+      ]
+    },
+    "row-e1756235181730b8ef51ed10206a28bac649a380986bfcd8b3d7bd17938ae030": {
+      "row_values": [
+        "РМИ 30/20-Н-П2(П3)-2",
+        "900",
+        "370",
+        "840",
+        "II",
+        "3,0",
+        "13,5÷19,6 – П2; 18÷28 – П3"
+      ]
+    },
+    "row-8f41fe5ef16c8ef07f9482c312a268ba039eb476b4b9296cc5c1b890d2d3c861": {
+      "row_values": [
+        "РМИ 30/20-Н-П2(П3)-3",
+        "900",
+        "470",
+        "1130",
+        "III",
+        "3,0",
+        "13,5÷19,6 – П2; 18÷28 – П3"
+      ]
+    },
+    "row-8317206ffa96f6aec10a51d5c8f8699019043ba2cf6aaef2d4dfc3f5f71291de": {
+      "row_values": [
+        "РМИ 30/20-Н-П2(П3)-4",
+        "900",
+        "570",
+        "1420",
+        "IV",
+        "3,0",
+        "13,5÷19,6 – П2; 18÷28 – П3"
+      ]
+    },
+    "row-594fa89c9ad0168ac6be1baab1ad08c59c189d35aace8ede253aa0177c279f7a": {
+      "row_values": [
+        "РМИ 30/35-Н-П2(П3)-2",
+        "1000",
+        "570",
+        "1420",
+        "II",
+        "2,0",
+        "13,5÷19,6 – П2; 18÷28 – П3"
+      ]
+    },
+    "row-469e0dfe26ab64a1521822b27ec5cfd528b758053d96d994e45610ffe6915e64": {
+      "row_values": [
+        "РМИ 30/35-Н-П2(П3)-3",
+        "1250",
+        "770",
+        "1790",
+        "III",
+        "2,0",
+        "13,5÷19,6 – П2; 18÷28 – П3"
+      ]
+    },
+    "row-0c5f9d0a92d6dba22328e3e4dba810445dd306661acb96e9dfba29d2e2eb68fb": {
+      "row_values": [
+        "РМИ 30/35-Н-П2(П3)-4",
+        "1250",
+        "920",
+        "2510",
+        "IV",
+        "1,5",
+        "13,5÷19,6 – П2; 18÷28 – П3"
+      ]
+    }
+  },
+  "author_groups": [
+    {
+      "fact_indices": [
+        67,
+        231
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Лично увеличены обе таблицы97: общая ячейка содержит два диапазона с собственными кодамиП2/П3. Перевод строки уОлега и точкасзапятой унас разделяют те же две упорядоченные альтернативы; диапазоны и коды не превращены в один скаляр, исходные строки сохранены.",
+      "evidence_refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "fact_indices": [
+        73,
+        238
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Лично увеличены обе таблицы97: общая ячейка содержит два диапазона с собственными кодамиП2/П3. Перевод строки уОлега и точкасзапятой унас разделяют те же две упорядоченные альтернативы; диапазоны и коды не превращены в один скаляр, исходные строки сохранены.",
+      "evidence_refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "fact_indices": [
+        79,
+        245
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Лично увеличены обе таблицы97: общая ячейка содержит два диапазона с собственными кодамиП2/П3. Перевод строки уОлега и точкасзапятой унас разделяют те же две упорядоченные альтернативы; диапазоны и коды не превращены в один скаляр, исходные строки сохранены.",
+      "evidence_refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "fact_indices": [
+        85,
+        252
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Лично увеличены обе таблицы97: общая ячейка содержит два диапазона с собственными кодамиП2/П3. Перевод строки уОлега и точкасзапятой унас разделяют те же две упорядоченные альтернативы; диапазоны и коды не превращены в один скаляр, исходные строки сохранены.",
+      "evidence_refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "fact_indices": [
+        91,
+        259
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Лично увеличены обе таблицы97: общая ячейка содержит два диапазона с собственными кодамиП2/П3. Перевод строки уОлега и точкасзапятой унас разделяют те же две упорядоченные альтернативы; диапазоны и коды не превращены в один скаляр, исходные строки сохранены.",
+      "evidence_refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "fact_indices": [
+        97,
+        266
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Лично увеличены обе таблицы97: общая ячейка содержит два диапазона с собственными кодамиП2/П3. Перевод строки уОлега и точкасзапятой унас разделяют те же две упорядоченные альтернативы; диапазоны и коды не превращены в один скаляр, исходные строки сохранены.",
+      "evidence_refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "fact_indices": [
+        145,
+        322
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Лично увеличены обе таблицы97: общая ячейка содержит два диапазона с собственными кодамиП2/П3. Перевод строки уОлега и точкасзапятой унас разделяют те же две упорядоченные альтернативы; диапазоны и коды не превращены в один скаляр, исходные строки сохранены.",
+      "evidence_refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "fact_indices": [
+        151,
+        329
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Лично увеличены обе таблицы97: общая ячейка содержит два диапазона с собственными кодамиП2/П3. Перевод строки уОлега и точкасзапятой унас разделяют те же две упорядоченные альтернативы; диапазоны и коды не превращены в один скаляр, исходные строки сохранены.",
+      "evidence_refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "fact_indices": [
+        157,
+        336
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Лично увеличены обе таблицы97: общая ячейка содержит два диапазона с собственными кодамиП2/П3. Перевод строки уОлега и точкасзапятой унас разделяют те же две упорядоченные альтернативы; диапазоны и коды не превращены в один скаляр, исходные строки сохранены.",
+      "evidence_refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "fact_indices": [
+        163,
+        343
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Лично увеличены обе таблицы97: общая ячейка содержит два диапазона с собственными кодамиП2/П3. Перевод строки уОлега и точкасзапятой унас разделяют те же две упорядоченные альтернативы; диапазоны и коды не превращены в один скаляр, исходные строки сохранены.",
+      "evidence_refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "fact_indices": [
+        169,
+        350
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Лично увеличены обе таблицы97: общая ячейка содержит два диапазона с собственными кодамиП2/П3. Перевод строки уОлега и точкасзапятой унас разделяют те же две упорядоченные альтернативы; диапазоны и коды не превращены в один скаляр, исходные строки сохранены.",
+      "evidence_refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "fact_indices": [
+        175,
+        357
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Лично увеличены обе таблицы97: общая ячейка содержит два диапазона с собственными кодамиП2/П3. Перевод строки уОлега и точкасзапятой унас разделяют те же две упорядоченные альтернативы; диапазоны и коды не превращены в один скаляр, исходные строки сохранены.",
+      "evidence_refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "fact_indices": [
+        181,
+        364
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Лично увеличены обе таблицы97: общая ячейка содержит два диапазона с собственными кодамиП2/П3. Перевод строки уОлега и точкасзапятой унас разделяют те же две упорядоченные альтернативы; диапазоны и коды не превращены в один скаляр, исходные строки сохранены.",
+      "evidence_refs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "independent_final_review_complete": false
+}

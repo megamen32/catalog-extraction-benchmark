@@ -1,0 +1,2113 @@
+{
+  "schema_version": "catalogue-owner-merge-regression-evidence/1",
+  "catalog": "isolators",
+  "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+  "physical_page": 95,
+  "input_fact_store_sha256": "05409d87f09123705fc1a0f21aa20727961dcf4351128d29497a0660978eec8d",
+  "input_ledger_sha256": "1d1fe979355d046a91ac2f619ed52e174a3ffe563fa7eba4ff7625bd91b19cb8",
+  "ours_snapshot_zip_sha256": "dcfdf4a64448a727766cc50ba31b01cf967b475744b9a6d6c5d065344c5061a7",
+  "work_packet_sha256": "88654a1598680a6a20d7dc844327b009878be8541e2a07c74199fcac39a94917",
+  "work_sha256": "f4aceaa1c639fec769e715c10583d9f07167fea921987b11165b5c10656fa227",
+  "actual_merge_producer": {
+    "role": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "model": "gpt-6.1-sol",
+    "runtime": "Codex native original-image review",
+    "program_version": "1.5.25"
+  },
+  "source_evidence": [
+    {
+      "bbox": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "observation": "Codex лично просмотрел исходную страницу95 в сохранённом именном overview и сверил исходные факты. Это рабочее сведение одного исполнителя, независимаяфинальнаяпроверка позднее."
+    },
+    {
+      "bbox": [
+        0.045,
+        0.05,
+        0.97,
+        0.94
+      ],
+      "observation": "Привязки сверены по исходному обзору, именам столбцов, единицам, условиям, разделам таблицы и собственной модели. Совпадающие данные не переизвлекаются. Реальные отличия просматриваются отдельно; это не новая независимаяпроверка всех исходных чисел."
+    }
+  ],
+  "original_typed_facts": [
+    {
+      "fact_index": 13,
+      "fact_id": "L-b392e50afe7864ccb1fd6d4c",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "group_parameter",
+      "pointer": "group_characteristics.jsonl:1826/raw",
+      "owner": "",
+      "name": "Р",
+      "value": "8,4÷11,4",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        95
+      ],
+      "input_fact_sha256": "03f7b3399e289009c6bed4e13404db240c3e76af3f9bbf41ab28858d2650ac42",
+      "input_line": 89104,
+      "raw_context": "raw-354b31f24667f8549c3d89557d5884da1424d295ff838a15620e42adf0aefd72",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-ff9d7dadb495cc61b2fa3366",
+        "window_id": "W-3ed557fd14bcd629af710cc3",
+        "group_id": "G-199e1396556f0d532cc715b8",
+        "product_id": null,
+        "group_title": "Распорки межфазные изолирующие полимерные типа РМИ и РМИД",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 14,
+      "fact_id": "L-ed04f9a12f4b22dd9688620e",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "group_parameter",
+      "pointer": "group_characteristics.jsonl:1827/raw",
+      "owner": "",
+      "name": "Р1",
+      "value": "13,0÷15,8",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        95
+      ],
+      "input_fact_sha256": "8d05d37b9b4135c5b7fc5af6aa425d8204c2826b636b1a53eb4f65205573f8ea",
+      "input_line": 89105,
+      "raw_context": "raw-ba0afc9ed0b01c2c33fdb2e6a00cd217dda82af99c7bfc7c2ececc8276b698a7",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-b9635329cd4d0769705e526e",
+        "window_id": "W-3ed557fd14bcd629af710cc3",
+        "group_id": "G-199e1396556f0d532cc715b8",
+        "product_id": null,
+        "group_title": "Распорки межфазные изолирующие полимерные типа РМИ и РМИД",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 15,
+      "fact_id": "L-6cd288bee388699481f91bd4",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "group_parameter",
+      "pointer": "group_characteristics.jsonl:1828/raw",
+      "owner": "",
+      "name": "Р2",
+      "value": "16,8÷19,8",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        95
+      ],
+      "input_fact_sha256": "756b80e0e6b9b3bf09492cc0a93cee2f34b5164a4de2b0c64a28d8a4316fb9a1",
+      "input_line": 89106,
+      "raw_context": "raw-f8dfc814d24ec853fd30e383b5cf7bbf65770f99836eb03a171705266700adda",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-1104376ec805ee26be6c9ea1",
+        "window_id": "W-3ed557fd14bcd629af710cc3",
+        "group_id": "G-199e1396556f0d532cc715b8",
+        "product_id": null,
+        "group_title": "Распорки межфазные изолирующие полимерные типа РМИ и РМИД",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 16,
+      "fact_id": "L-8b0a78ed5c5a10dae8da0f0b",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "group_parameter",
+      "pointer": "group_characteristics.jsonl:1829/raw",
+      "owner": "",
+      "name": "П1",
+      "value": "6,4÷12,6",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        95
+      ],
+      "input_fact_sha256": "c4662f8c4bf61f179956bb063782b32d7e99b0af728f8ee15222c667e73f848f",
+      "input_line": 89107,
+      "raw_context": "raw-a02d20dcc39b84c5b3958e9f316d14dbe44eb90997138955d86c1d6e35297124",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-c3f0d8c1d9d54d2173932e21",
+        "window_id": "W-3ed557fd14bcd629af710cc3",
+        "group_id": "G-199e1396556f0d532cc715b8",
+        "product_id": null,
+        "group_title": "Распорки межфазные изолирующие полимерные типа РМИ и РМИД",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 17,
+      "fact_id": "L-0e0a260daa7fba413043ba6f",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "group_parameter",
+      "pointer": "group_characteristics.jsonl:1830/raw",
+      "owner": "",
+      "name": "П2",
+      "value": "13,5÷19,6",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        95
+      ],
+      "input_fact_sha256": "f0cd8b2a8dc2ecc3c11adeda1fdd99be5cf232bddd71158ee9e020938e736fbb",
+      "input_line": 89108,
+      "raw_context": "raw-3e331a8b6948183c73549ae2d3003e479a9db522704dd4962123947e343ec4af",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-5a8ababc1ac3bb21be4f24d1",
+        "window_id": "W-3ed557fd14bcd629af710cc3",
+        "group_id": "G-199e1396556f0d532cc715b8",
+        "product_id": null,
+        "group_title": "Распорки межфазные изолирующие полимерные типа РМИ и РМИД",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 18,
+      "fact_id": "L-d3229dc3d9c9ee78120e16d0",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "group_parameter",
+      "pointer": "group_characteristics.jsonl:1831/raw",
+      "owner": "",
+      "name": "П3",
+      "value": "18÷28,0",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        95
+      ],
+      "input_fact_sha256": "9913ca948e16f108c573d7964f40ad7be03f953ad275bee89af5bd9272c41105",
+      "input_line": 89109,
+      "raw_context": "raw-f384eb0837841e5ab5ba32ed2e24442f4b60150aaf85fce7feff7e205579d443",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-1f1dc585a79d1edc403939f4",
+        "window_id": "W-3ed557fd14bcd629af710cc3",
+        "group_id": "G-199e1396556f0d532cc715b8",
+        "product_id": null,
+        "group_title": "Распорки межфазные изолирующие полимерные типа РМИ и РМИД",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 19,
+      "fact_id": "L-95db661994e97b3963ad3948",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "group_parameter",
+      "pointer": "group_characteristics.jsonl:1832/raw",
+      "owner": "",
+      "name": "П4",
+      "value": "13÷40,0",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        95
+      ],
+      "input_fact_sha256": "786bd2232673b8a7acc57da11794188cfa9af3e461c505969b25a4533b408c0f",
+      "input_line": 89110,
+      "raw_context": "raw-77543053a12d1e0067288866c245b0b49b081b96d3929cf95fbbb36077f30193",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-224416af5b609fe80a0d2119",
+        "window_id": "W-3ed557fd14bcd629af710cc3",
+        "group_id": "G-199e1396556f0d532cc715b8",
+        "product_id": null,
+        "group_title": "Распорки межфазные изолирующие полимерные типа РМИ и РМИД",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 20,
+      "fact_id": "L-24aa0ed8e696c6b2198f4d9c",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "group_parameter",
+      "pointer": "group_characteristics.jsonl:1833/raw",
+      "owner": "",
+      "name": "Без обозначения",
+      "value": "13,5÷29,1",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        95
+      ],
+      "input_fact_sha256": "d077ab083944bd3fac305eac2c371412f61e9d906d5c9eeaca0965aadc7df127",
+      "input_line": 89111,
+      "raw_context": "raw-6dd5b9b8c9c59c0fd533440759bc23a40fd97141b92e636772c7e24a40e5fe14",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-c120b1777429f535d1ccee74",
+        "window_id": "W-3ed557fd14bcd629af710cc3",
+        "group_id": "G-199e1396556f0d532cc715b8",
+        "product_id": null,
+        "group_title": "Распорки межфазные изолирующие полимерные типа РМИ и РМИД",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 33,
+      "fact_id": "L-18c6a3bbbea7ddb716678d31",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "group_parameter",
+      "pointer": "group_characteristics.jsonl:1900/raw",
+      "owner": "",
+      "name": "Плашечные зажимы: Р",
+      "value": "8,4÷11,4",
+      "unit": "",
+      "condition": "Диапазон диаметров проводов",
+      "physical_pages": [
+        95
+      ],
+      "input_fact_sha256": "ea8f8c03bced2a08f03a04f3614d44a7f5cd2c55f4c172e0c7fea1294a560a9d",
+      "input_line": 89178,
+      "raw_context": "raw-fae02e60abd99b9e622fc36b16a9b377a9f3b3422e8af2ef1eda8ffd99b28291",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-168fbb981b5926d3123396fc",
+        "window_id": "W-e8157da9b34aa2890534f6ec",
+        "group_id": "G-cac7053856f6216863e1d03b",
+        "product_id": null,
+        "group_title": "Распорки межфазные изолирующие полимерные типа РМИ и РМИД",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 34,
+      "fact_id": "L-e94b5ea71525628c4d8f00ca",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "group_parameter",
+      "pointer": "group_characteristics.jsonl:1901/raw",
+      "owner": "",
+      "name": "Плашечные зажимы: Р1",
+      "value": "13,0÷15,8",
+      "unit": "",
+      "condition": "Диапазон диаметров проводов",
+      "physical_pages": [
+        95
+      ],
+      "input_fact_sha256": "2b24ef05e03da6371585e04fa71dc759d5c0b21144caff9d78b760b69033fa64",
+      "input_line": 89179,
+      "raw_context": "raw-3d9421c5a73ce559aad457bbe603d045cd57de124a43426a3d36a00a364ad844",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-ba0750f8752d17608ee0bdf6",
+        "window_id": "W-e8157da9b34aa2890534f6ec",
+        "group_id": "G-cac7053856f6216863e1d03b",
+        "product_id": null,
+        "group_title": "Распорки межфазные изолирующие полимерные типа РМИ и РМИД",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 35,
+      "fact_id": "L-751ff78b44be5f09bb448e17",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "group_parameter",
+      "pointer": "group_characteristics.jsonl:1902/raw",
+      "owner": "",
+      "name": "Плашечные зажимы: Р2",
+      "value": "16,8÷19,8",
+      "unit": "",
+      "condition": "Диапазон диаметров проводов",
+      "physical_pages": [
+        95
+      ],
+      "input_fact_sha256": "dcf6f8e2a4836c8b3b55d88de2109e28501fc7658d10f3cdcb5f66e15f3a5435",
+      "input_line": 89180,
+      "raw_context": "raw-0d12e0fc48bf0538c9eadc7c1107b774487bebd60eebafe10ad602965964c4ac",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-f2bd4b5f5c979d606307e2f4",
+        "window_id": "W-e8157da9b34aa2890534f6ec",
+        "group_id": "G-cac7053856f6216863e1d03b",
+        "product_id": null,
+        "group_title": "Распорки межфазные изолирующие полимерные типа РМИ и РМИД",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 36,
+      "fact_id": "L-8da0344fb09e682ea53aa8d2",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "group_parameter",
+      "pointer": "group_characteristics.jsonl:1903/raw",
+      "owner": "",
+      "name": "Зажимы «лодочка»: П1",
+      "value": "6,4÷12,6",
+      "unit": "",
+      "condition": "Диапазон диаметров проводов",
+      "physical_pages": [
+        95
+      ],
+      "input_fact_sha256": "45f942c8235387bd8e3377045e438fce6b944678d4cf363887d866644ef09078",
+      "input_line": 89181,
+      "raw_context": "raw-e3dd7e7dd08352152bbd207ee7e7666ec59161d69f5edea926e0942e023b0723",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-13a350efbdbe265dce320f24",
+        "window_id": "W-e8157da9b34aa2890534f6ec",
+        "group_id": "G-cac7053856f6216863e1d03b",
+        "product_id": null,
+        "group_title": "Распорки межфазные изолирующие полимерные типа РМИ и РМИД",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 37,
+      "fact_id": "L-94e80a2683e58dd7851e3933",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "group_parameter",
+      "pointer": "group_characteristics.jsonl:1904/raw",
+      "owner": "",
+      "name": "Зажимы «лодочка»: П2",
+      "value": "13,5÷19,6",
+      "unit": "",
+      "condition": "Диапазон диаметров проводов",
+      "physical_pages": [
+        95
+      ],
+      "input_fact_sha256": "0d6ba10215503633621a6abe764f58f755e33695fdcc843e3f0a833c2b54b34f",
+      "input_line": 89182,
+      "raw_context": "raw-afd6aa4f6fa4a129b3e6830da5ad07630fd19d10034c6413512d2c2f08713088",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-b1dd05eec65ca881bd066d13",
+        "window_id": "W-e8157da9b34aa2890534f6ec",
+        "group_id": "G-cac7053856f6216863e1d03b",
+        "product_id": null,
+        "group_title": "Распорки межфазные изолирующие полимерные типа РМИ и РМИД",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 38,
+      "fact_id": "L-a634f2ca7d6abcd3320219fb",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "group_parameter",
+      "pointer": "group_characteristics.jsonl:1905/raw",
+      "owner": "",
+      "name": "Зажимы «лодочка»: П3",
+      "value": "18÷28,0",
+      "unit": "",
+      "condition": "Диапазон диаметров проводов",
+      "physical_pages": [
+        95
+      ],
+      "input_fact_sha256": "025deb63aa1dd0e6b1af4a56bff6811a5d313114fc9de12cd826a15117e479ab",
+      "input_line": 89183,
+      "raw_context": "raw-92168d002c46d83e9f310ed8a193fc8e9b2fd074c1f3025b8835fceed745a29d",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-efa6ad16e51f79a024549f84",
+        "window_id": "W-e8157da9b34aa2890534f6ec",
+        "group_id": "G-cac7053856f6216863e1d03b",
+        "product_id": null,
+        "group_title": "Распорки межфазные изолирующие полимерные типа РМИ и РМИД",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 39,
+      "fact_id": "L-c7268bed78f122ce3ba0ecd0",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "group_parameter",
+      "pointer": "group_characteristics.jsonl:1906/raw",
+      "owner": "",
+      "name": "Зажимы «лодочка»: П4",
+      "value": "13÷40,0",
+      "unit": "",
+      "condition": "Диапазон диаметров проводов",
+      "physical_pages": [
+        95
+      ],
+      "input_fact_sha256": "772883084f08c020f954977b2d761e439efc7d59a0ad3ced3dfc9f74c00477b8",
+      "input_line": 89184,
+      "raw_context": "raw-0549d1ba354407e64101f7470bb524d071b37b9f798bf79a8cfc218bf9769e5e",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-4b498c2693acfd6159ad5245",
+        "window_id": "W-e8157da9b34aa2890534f6ec",
+        "group_id": "G-cac7053856f6216863e1d03b",
+        "product_id": null,
+        "group_title": "Распорки межфазные изолирующие полимерные типа РМИ и РМИД",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 40,
+      "fact_id": "L-0cf17b5253afc33b01f19150",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "group_parameter",
+      "pointer": "group_characteristics.jsonl:1907/raw",
+      "owner": "",
+      "name": "Зажимы «лодочка»: Без обозначения",
+      "value": "13,5÷29,1",
+      "unit": "",
+      "condition": "Диапазон диаметров проводов",
+      "physical_pages": [
+        95
+      ],
+      "input_fact_sha256": "3f7f5acdb88194e43ae64855e38b9b7270550113e29dc0fac5ca7c17fa7284e8",
+      "input_line": 89185,
+      "raw_context": "raw-f687f96cd08a2c356d9dace8dfc8c89ccdee013de12631d5a3f514ca6dd332eb",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-3466ca9e654d3be238e7a9b2",
+        "window_id": "W-e8157da9b34aa2890534f6ec",
+        "group_id": "G-cac7053856f6216863e1d03b",
+        "product_id": null,
+        "group_title": "Распорки межфазные изолирующие полимерные типа РМИ и РМИД",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 46,
+      "fact_id": "O-895c7f78e41d0c9bec0aca07",
+      "side": "ours",
+      "catalog": "isolators",
+      "kind": "model_designation",
+      "pointer": "/catalogs/1/pages/94/content/tables/0/rows/0/cells/0",
+      "owner": "Р – 8,4÷11,4",
+      "name": "designation",
+      "value": "Р – 8,4÷11,4",
+      "unit": null,
+      "condition": null,
+      "physical_pages": [
+        95
+      ],
+      "input_fact_sha256": "a257eb3c844298da994fa91fd876d5cca8a7f5f405194b44c11ec8cab209901a",
+      "input_line": 105510,
+      "row_context": "row-01188d3817e549d5e36304e4f969631dfe0491c2a45f37ce2be993c41042e5e8",
+      "raw_context": "raw-1398204de96b56443310a4a9a47542f30c120f85d80276f502e717e64d905b79",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 0,
+        "column_index": 0,
+        "table_title": "Диапазон диаметров проводов: плашечные зажимы и зажимы «лодочка»",
+        "column": {
+          "id": "c1",
+          "label": "Плашечные зажимы",
+          "unit": null,
+          "group": "Диапазон диаметров проводов",
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "940d81816ba7503e86aeca63470d0a5eca48b37bb38d9f4ab8fdfe6249925578",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 47,
+      "fact_id": "O-dc5b727704f8177850eb6faf",
+      "side": "ours",
+      "catalog": "isolators",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/1/pages/94/content/tables/0/rows/0/cells/1",
+      "owner": "Р – 8,4÷11,4",
+      "name": "Зажимы «лодочка»",
+      "value": "П1 – 6,4÷12,6",
+      "unit": null,
+      "condition": null,
+      "physical_pages": [
+        95
+      ],
+      "input_fact_sha256": "868c6eeb965ba19a843ade947681109d5ef51bf31ed7d1857e506cc5a8430c36",
+      "input_line": 105511,
+      "row_context": "row-01188d3817e549d5e36304e4f969631dfe0491c2a45f37ce2be993c41042e5e8",
+      "raw_context": "raw-a5d269b0b308fa185e1096aaa1eceeca22281832e927acee063892ba955f8da8",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 0,
+        "column_index": 1,
+        "table_title": "Диапазон диаметров проводов: плашечные зажимы и зажимы «лодочка»",
+        "column": {
+          "id": "c2",
+          "label": "Зажимы «лодочка»",
+          "unit": null,
+          "group": "Диапазон диаметров проводов",
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "940d81816ba7503e86aeca63470d0a5eca48b37bb38d9f4ab8fdfe6249925578",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 48,
+      "fact_id": "O-943b5ebf875c5c2147e2e119",
+      "side": "ours",
+      "catalog": "isolators",
+      "kind": "model_designation",
+      "pointer": "/catalogs/1/pages/94/content/tables/0/rows/1/cells/0",
+      "owner": "Р1 – 13,0÷15,8",
+      "name": "designation",
+      "value": "Р1 – 13,0÷15,8",
+      "unit": null,
+      "condition": null,
+      "physical_pages": [
+        95
+      ],
+      "input_fact_sha256": "9e9fefaa9af455ff4fcf47d9107a7917888a4fa89ef355cd033cd834d063691a",
+      "input_line": 105512,
+      "row_context": "row-28f28770ef13bec4c4e3193a12e4ab6d904eae18b07d29cc793e86d79d79e921",
+      "raw_context": "raw-1ee6f939027bf5be084bcb22ee32f29d88a86786672aa0c231c9088db8a33f19",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 1,
+        "column_index": 0,
+        "table_title": "Диапазон диаметров проводов: плашечные зажимы и зажимы «лодочка»",
+        "column": {
+          "id": "c1",
+          "label": "Плашечные зажимы",
+          "unit": null,
+          "group": "Диапазон диаметров проводов",
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "940d81816ba7503e86aeca63470d0a5eca48b37bb38d9f4ab8fdfe6249925578",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 49,
+      "fact_id": "O-5927b155b57c44b5b80245aa",
+      "side": "ours",
+      "catalog": "isolators",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/1/pages/94/content/tables/0/rows/1/cells/1",
+      "owner": "Р1 – 13,0÷15,8",
+      "name": "Зажимы «лодочка»",
+      "value": "П2 – 13,5÷19,6",
+      "unit": null,
+      "condition": null,
+      "physical_pages": [
+        95
+      ],
+      "input_fact_sha256": "212ea722b914557849911872fe2eb8c8986ff4cdc5d57cf4b5d15c7a93324446",
+      "input_line": 105513,
+      "row_context": "row-28f28770ef13bec4c4e3193a12e4ab6d904eae18b07d29cc793e86d79d79e921",
+      "raw_context": "raw-26e2a984537651d1a36c20d596249ffa58eec4167db6e5a895cbf125f55f7221",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 1,
+        "column_index": 1,
+        "table_title": "Диапазон диаметров проводов: плашечные зажимы и зажимы «лодочка»",
+        "column": {
+          "id": "c2",
+          "label": "Зажимы «лодочка»",
+          "unit": null,
+          "group": "Диапазон диаметров проводов",
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "940d81816ba7503e86aeca63470d0a5eca48b37bb38d9f4ab8fdfe6249925578",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 50,
+      "fact_id": "O-28ca3d34357eb377b287178d",
+      "side": "ours",
+      "catalog": "isolators",
+      "kind": "model_designation",
+      "pointer": "/catalogs/1/pages/94/content/tables/0/rows/2/cells/0",
+      "owner": "Р2 – 16,8÷19,8",
+      "name": "designation",
+      "value": "Р2 – 16,8÷19,8",
+      "unit": null,
+      "condition": null,
+      "physical_pages": [
+        95
+      ],
+      "input_fact_sha256": "46f114e12a50b618e2ee49e86b832231386f0412daf65f99073af676b4d3715f",
+      "input_line": 105514,
+      "row_context": "row-89c6621f175002497ec3e8f7dde56918e35bf449bab56e6c4e693608c788322b",
+      "raw_context": "raw-8f691d1fd6331a193d7df967293276052ed02ae26db6002dab71885b9ab85b80",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 2,
+        "column_index": 0,
+        "table_title": "Диапазон диаметров проводов: плашечные зажимы и зажимы «лодочка»",
+        "column": {
+          "id": "c1",
+          "label": "Плашечные зажимы",
+          "unit": null,
+          "group": "Диапазон диаметров проводов",
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "940d81816ba7503e86aeca63470d0a5eca48b37bb38d9f4ab8fdfe6249925578",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 51,
+      "fact_id": "O-9de122b9e74b136e67f0e522",
+      "side": "ours",
+      "catalog": "isolators",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/1/pages/94/content/tables/0/rows/2/cells/1",
+      "owner": "Р2 – 16,8÷19,8",
+      "name": "Зажимы «лодочка»",
+      "value": "П3 – 18÷28,0",
+      "unit": null,
+      "condition": null,
+      "physical_pages": [
+        95
+      ],
+      "input_fact_sha256": "f825f70dff1a5adb2d128dc3755309de00a41909eee46825199490d55b614834",
+      "input_line": 105515,
+      "row_context": "row-89c6621f175002497ec3e8f7dde56918e35bf449bab56e6c4e693608c788322b",
+      "raw_context": "raw-5612df412c55802abe37edc6756fc7126cac6525576d2ad15cf910b904680f88",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 2,
+        "column_index": 1,
+        "table_title": "Диапазон диаметров проводов: плашечные зажимы и зажимы «лодочка»",
+        "column": {
+          "id": "c2",
+          "label": "Зажимы «лодочка»",
+          "unit": null,
+          "group": "Диапазон диаметров проводов",
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "940d81816ba7503e86aeca63470d0a5eca48b37bb38d9f4ab8fdfe6249925578",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 52,
+      "fact_id": "O-77399c1ef8172ff2dbe8481c",
+      "side": "ours",
+      "catalog": "isolators",
+      "kind": "model_designation",
+      "pointer": "/catalogs/1/pages/94/content/tables/0/rows/3/cells/0",
+      "owner": null,
+      "name": "designation",
+      "value": null,
+      "unit": null,
+      "condition": null,
+      "physical_pages": [
+        95
+      ],
+      "input_fact_sha256": "3189e4d6fe340cc48e89c96dd5fc8b959b5e3203ee35abeae50c1ea036397a41",
+      "input_line": 105516,
+      "row_context": "row-facce1972c59f07bca35fe0b71f7098162f4fa8669d282c709e69c0a08fb08f3",
+      "raw_context": "raw-18e78e51ca2849c066092f9d120334f188e18dc803ea9697292712af1f4421c5",
+      "metadata": {
+        "raw_value_type": "NoneType",
+        "table_index": 0,
+        "row_index": 3,
+        "column_index": 0,
+        "table_title": "Диапазон диаметров проводов: плашечные зажимы и зажимы «лодочка»",
+        "column": {
+          "id": "c1",
+          "label": "Плашечные зажимы",
+          "unit": null,
+          "group": "Диапазон диаметров проводов",
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "940d81816ba7503e86aeca63470d0a5eca48b37bb38d9f4ab8fdfe6249925578",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 53,
+      "fact_id": "O-0b83e7d6bc9099d49c66c9ae",
+      "side": "ours",
+      "catalog": "isolators",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/1/pages/94/content/tables/0/rows/3/cells/1",
+      "owner": null,
+      "name": "Зажимы «лодочка»",
+      "value": "П4 – 13÷40,0",
+      "unit": null,
+      "condition": null,
+      "physical_pages": [
+        95
+      ],
+      "input_fact_sha256": "1177ea99ad0c0d467be2ce465afe952ec4a2527d51fb3ac56efc606fe4f20bc2",
+      "input_line": 105517,
+      "row_context": "row-facce1972c59f07bca35fe0b71f7098162f4fa8669d282c709e69c0a08fb08f3",
+      "raw_context": "raw-58a7062f96c4338bab5c861faab78e2c7251b5ba372b6979ce010d0d1fdba6f6",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 3,
+        "column_index": 1,
+        "table_title": "Диапазон диаметров проводов: плашечные зажимы и зажимы «лодочка»",
+        "column": {
+          "id": "c2",
+          "label": "Зажимы «лодочка»",
+          "unit": null,
+          "group": "Диапазон диаметров проводов",
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "940d81816ba7503e86aeca63470d0a5eca48b37bb38d9f4ab8fdfe6249925578",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 54,
+      "fact_id": "O-cc2f68b17d6df6202aa9cb0f",
+      "side": "ours",
+      "catalog": "isolators",
+      "kind": "model_designation",
+      "pointer": "/catalogs/1/pages/94/content/tables/0/rows/4/cells/0",
+      "owner": null,
+      "name": "designation",
+      "value": null,
+      "unit": null,
+      "condition": null,
+      "physical_pages": [
+        95
+      ],
+      "input_fact_sha256": "baf2670c666724bb82abba9f142903b85577e5dc0f555c19385f37c31fe83018",
+      "input_line": 105518,
+      "row_context": "row-bb628a12f493ca1feb291c3e64426c4569ad8604725f23072fed74be97588840",
+      "raw_context": "raw-18e78e51ca2849c066092f9d120334f188e18dc803ea9697292712af1f4421c5",
+      "metadata": {
+        "raw_value_type": "NoneType",
+        "table_index": 0,
+        "row_index": 4,
+        "column_index": 0,
+        "table_title": "Диапазон диаметров проводов: плашечные зажимы и зажимы «лодочка»",
+        "column": {
+          "id": "c1",
+          "label": "Плашечные зажимы",
+          "unit": null,
+          "group": "Диапазон диаметров проводов",
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "940d81816ba7503e86aeca63470d0a5eca48b37bb38d9f4ab8fdfe6249925578",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 55,
+      "fact_id": "O-d38e67e9635d33a7a2735fbd",
+      "side": "ours",
+      "catalog": "isolators",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/1/pages/94/content/tables/0/rows/4/cells/1",
+      "owner": null,
+      "name": "Зажимы «лодочка»",
+      "value": "Без обозначения – 13,5÷29,1",
+      "unit": null,
+      "condition": null,
+      "physical_pages": [
+        95
+      ],
+      "input_fact_sha256": "c9815d46863f60c0f4265e57470215344cbb2f0807153ee5d9263a3271d5c229",
+      "input_line": 105519,
+      "row_context": "row-bb628a12f493ca1feb291c3e64426c4569ad8604725f23072fed74be97588840",
+      "raw_context": "raw-7d745391dce74138d424a74cb1b8f42efd632af95e4697d480cc82b6fb043bd8",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 4,
+        "column_index": 1,
+        "table_title": "Диапазон диаметров проводов: плашечные зажимы и зажимы «лодочка»",
+        "column": {
+          "id": "c2",
+          "label": "Зажимы «лодочка»",
+          "unit": null,
+          "group": "Диапазон диаметров проводов",
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "940d81816ba7503e86aeca63470d0a5eca48b37bb38d9f4ab8fdfe6249925578",
+        "previously_accepted": true
+      }
+    }
+  ],
+  "original_contexts": {
+    "raw-354b31f24667f8549c3d89557d5884da1424d295ff838a15620e42adf0aefd72": {
+      "scope": "РМИ и РМИД; Плашечные зажимы",
+      "scope_evidence": "РМИ и РМИД; Плашечные зажимы",
+      "evidence": [
+        {
+          "page": 95,
+          "region": [
+            0.318,
+            0.7,
+            0.47,
+            0.714
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "Диапазон диаметров проводов:",
+          "role": "group",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 95,
+              "region": [
+                0.318,
+                0.67,
+                0.67,
+                0.686
+              ]
+            }
+          ]
+        },
+        {
+          "raw_text": "Плашечные зажимы",
+          "role": "group",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 95,
+              "region": [
+                0.318,
+                0.686,
+                0.68,
+                0.7
+              ]
+            }
+          ]
+        },
+        {
+          "raw_text": "Р",
+          "role": "prose",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 95,
+              "region": [
+                0.318,
+                0.7,
+                0.47,
+                0.714
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 95,
+          "region": [
+            0.318,
+            0.7,
+            0.47,
+            0.714
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "prose"
+    },
+    "raw-ba0afc9ed0b01c2c33fdb2e6a00cd217dda82af99c7bfc7c2ececc8276b698a7": {
+      "scope": "РМИ и РМИД; Плашечные зажимы",
+      "scope_evidence": "РМИ и РМИД; Плашечные зажимы",
+      "evidence": [
+        {
+          "page": 95,
+          "region": [
+            0.318,
+            0.714,
+            0.47,
+            0.728
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "Диапазон диаметров проводов:",
+          "role": "group",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 95,
+              "region": [
+                0.318,
+                0.67,
+                0.67,
+                0.686
+              ]
+            }
+          ]
+        },
+        {
+          "raw_text": "Плашечные зажимы",
+          "role": "group",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 95,
+              "region": [
+                0.318,
+                0.686,
+                0.68,
+                0.7
+              ]
+            }
+          ]
+        },
+        {
+          "raw_text": "Р1",
+          "role": "prose",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 95,
+              "region": [
+                0.318,
+                0.714,
+                0.47,
+                0.728
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 95,
+          "region": [
+            0.318,
+            0.714,
+            0.47,
+            0.728
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "prose"
+    },
+    "raw-f8dfc814d24ec853fd30e383b5cf7bbf65770f99836eb03a171705266700adda": {
+      "scope": "РМИ и РМИД; Плашечные зажимы",
+      "scope_evidence": "РМИ и РМИД; Плашечные зажимы",
+      "evidence": [
+        {
+          "page": 95,
+          "region": [
+            0.318,
+            0.728,
+            0.47,
+            0.742
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "Диапазон диаметров проводов:",
+          "role": "group",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 95,
+              "region": [
+                0.318,
+                0.67,
+                0.67,
+                0.686
+              ]
+            }
+          ]
+        },
+        {
+          "raw_text": "Плашечные зажимы",
+          "role": "group",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 95,
+              "region": [
+                0.318,
+                0.686,
+                0.68,
+                0.7
+              ]
+            }
+          ]
+        },
+        {
+          "raw_text": "Р2",
+          "role": "prose",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 95,
+              "region": [
+                0.318,
+                0.728,
+                0.47,
+                0.742
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 95,
+          "region": [
+            0.318,
+            0.728,
+            0.47,
+            0.742
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "prose"
+    },
+    "raw-a02d20dcc39b84c5b3958e9f316d14dbe44eb90997138955d86c1d6e35297124": {
+      "scope": "РМИ и РМИД; Зажимы «лодочка»",
+      "scope_evidence": "РМИ и РМИД; Зажимы «лодочка»",
+      "evidence": [
+        {
+          "page": 95,
+          "region": [
+            0.48,
+            0.702,
+            0.7,
+            0.716
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "Диапазон диаметров проводов:",
+          "role": "group",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 95,
+              "region": [
+                0.318,
+                0.67,
+                0.67,
+                0.686
+              ]
+            }
+          ]
+        },
+        {
+          "raw_text": "Зажимы «лодочка»",
+          "role": "group",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 95,
+              "region": [
+                0.318,
+                0.686,
+                0.68,
+                0.7
+              ]
+            }
+          ]
+        },
+        {
+          "raw_text": "П1",
+          "role": "prose",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 95,
+              "region": [
+                0.48,
+                0.702,
+                0.7,
+                0.716
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 95,
+          "region": [
+            0.48,
+            0.702,
+            0.7,
+            0.716
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "prose"
+    },
+    "raw-3e331a8b6948183c73549ae2d3003e479a9db522704dd4962123947e343ec4af": {
+      "scope": "РМИ и РМИД; Зажимы «лодочка»",
+      "scope_evidence": "РМИ и РМИД; Зажимы «лодочка»",
+      "evidence": [
+        {
+          "page": 95,
+          "region": [
+            0.48,
+            0.716,
+            0.7,
+            0.73
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "Диапазон диаметров проводов:",
+          "role": "group",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 95,
+              "region": [
+                0.318,
+                0.67,
+                0.67,
+                0.686
+              ]
+            }
+          ]
+        },
+        {
+          "raw_text": "Зажимы «лодочка»",
+          "role": "group",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 95,
+              "region": [
+                0.318,
+                0.686,
+                0.68,
+                0.7
+              ]
+            }
+          ]
+        },
+        {
+          "raw_text": "П2",
+          "role": "prose",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 95,
+              "region": [
+                0.48,
+                0.716,
+                0.7,
+                0.73
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 95,
+          "region": [
+            0.48,
+            0.716,
+            0.7,
+            0.73
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "prose"
+    },
+    "raw-f384eb0837841e5ab5ba32ed2e24442f4b60150aaf85fce7feff7e205579d443": {
+      "scope": "РМИ и РМИД; Зажимы «лодочка»",
+      "scope_evidence": "РМИ и РМИД; Зажимы «лодочка»",
+      "evidence": [
+        {
+          "page": 95,
+          "region": [
+            0.48,
+            0.731,
+            0.7,
+            0.745
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "Диапазон диаметров проводов:",
+          "role": "group",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 95,
+              "region": [
+                0.318,
+                0.67,
+                0.67,
+                0.686
+              ]
+            }
+          ]
+        },
+        {
+          "raw_text": "Зажимы «лодочка»",
+          "role": "group",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 95,
+              "region": [
+                0.318,
+                0.686,
+                0.68,
+                0.7
+              ]
+            }
+          ]
+        },
+        {
+          "raw_text": "П3",
+          "role": "prose",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 95,
+              "region": [
+                0.48,
+                0.731,
+                0.7,
+                0.745
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 95,
+          "region": [
+            0.48,
+            0.731,
+            0.7,
+            0.745
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "prose"
+    },
+    "raw-77543053a12d1e0067288866c245b0b49b081b96d3929cf95fbbb36077f30193": {
+      "scope": "РМИ и РМИД; Зажимы «лодочка»",
+      "scope_evidence": "РМИ и РМИД; Зажимы «лодочка»",
+      "evidence": [
+        {
+          "page": 95,
+          "region": [
+            0.48,
+            0.745,
+            0.7,
+            0.759
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "Диапазон диаметров проводов:",
+          "role": "group",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 95,
+              "region": [
+                0.318,
+                0.67,
+                0.67,
+                0.686
+              ]
+            }
+          ]
+        },
+        {
+          "raw_text": "Зажимы «лодочка»",
+          "role": "group",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 95,
+              "region": [
+                0.318,
+                0.686,
+                0.68,
+                0.7
+              ]
+            }
+          ]
+        },
+        {
+          "raw_text": "П4",
+          "role": "prose",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 95,
+              "region": [
+                0.48,
+                0.745,
+                0.7,
+                0.759
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 95,
+          "region": [
+            0.48,
+            0.745,
+            0.7,
+            0.759
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "prose"
+    },
+    "raw-6dd5b9b8c9c59c0fd533440759bc23a40fd97141b92e636772c7e24a40e5fe14": {
+      "scope": "РМИ и РМИД; Зажимы «лодочка»",
+      "scope_evidence": "РМИ и РМИД; Зажимы «лодочка»",
+      "evidence": [
+        {
+          "page": 95,
+          "region": [
+            0.48,
+            0.759,
+            0.7,
+            0.773
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "Диапазон диаметров проводов:",
+          "role": "group",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 95,
+              "region": [
+                0.318,
+                0.67,
+                0.67,
+                0.686
+              ]
+            }
+          ]
+        },
+        {
+          "raw_text": "Зажимы «лодочка»",
+          "role": "group",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 95,
+              "region": [
+                0.318,
+                0.686,
+                0.68,
+                0.7
+              ]
+            }
+          ]
+        },
+        {
+          "raw_text": "Без обозначения",
+          "role": "prose",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 95,
+              "region": [
+                0.48,
+                0.759,
+                0.7,
+                0.773
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 95,
+          "region": [
+            0.48,
+            0.759,
+            0.7,
+            0.773
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "prose"
+    },
+    "raw-fae02e60abd99b9e622fc36b16a9b377a9f3b3422e8af2ef1eda8ffd99b28291": {
+      "scope": "All family products; Диапазон диаметров проводов",
+      "scope_evidence": "All family products; Диапазон диаметров проводов",
+      "evidence": [
+        {
+          "page": 95,
+          "region": [
+            0.31,
+            0.675,
+            0.69,
+            0.775
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "Плашечные зажимы: Р",
+          "role": "prose",
+          "unit": "",
+          "condition": "Диапазон диаметров проводов",
+          "evidence": [
+            {
+              "page": 95,
+              "region": [
+                0.31,
+                0.675,
+                0.69,
+                0.775
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 95,
+          "region": [
+            0.31,
+            0.675,
+            0.69,
+            0.775
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "prose"
+    },
+    "raw-3d9421c5a73ce559aad457bbe603d045cd57de124a43426a3d36a00a364ad844": {
+      "scope": "All family products; Диапазон диаметров проводов",
+      "scope_evidence": "All family products; Диапазон диаметров проводов",
+      "evidence": [
+        {
+          "page": 95,
+          "region": [
+            0.31,
+            0.675,
+            0.69,
+            0.775
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "Плашечные зажимы: Р1",
+          "role": "prose",
+          "unit": "",
+          "condition": "Диапазон диаметров проводов",
+          "evidence": [
+            {
+              "page": 95,
+              "region": [
+                0.31,
+                0.675,
+                0.69,
+                0.775
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 95,
+          "region": [
+            0.31,
+            0.675,
+            0.69,
+            0.775
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "prose"
+    },
+    "raw-0d12e0fc48bf0538c9eadc7c1107b774487bebd60eebafe10ad602965964c4ac": {
+      "scope": "All family products; Диапазон диаметров проводов",
+      "scope_evidence": "All family products; Диапазон диаметров проводов",
+      "evidence": [
+        {
+          "page": 95,
+          "region": [
+            0.31,
+            0.675,
+            0.69,
+            0.775
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "Плашечные зажимы: Р2",
+          "role": "prose",
+          "unit": "",
+          "condition": "Диапазон диаметров проводов",
+          "evidence": [
+            {
+              "page": 95,
+              "region": [
+                0.31,
+                0.675,
+                0.69,
+                0.775
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 95,
+          "region": [
+            0.31,
+            0.675,
+            0.69,
+            0.775
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "prose"
+    },
+    "raw-e3dd7e7dd08352152bbd207ee7e7666ec59161d69f5edea926e0942e023b0723": {
+      "scope": "All family products; Диапазон диаметров проводов",
+      "scope_evidence": "All family products; Диапазон диаметров проводов",
+      "evidence": [
+        {
+          "page": 95,
+          "region": [
+            0.31,
+            0.675,
+            0.69,
+            0.775
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "Зажимы «лодочка»: П1",
+          "role": "prose",
+          "unit": "",
+          "condition": "Диапазон диаметров проводов",
+          "evidence": [
+            {
+              "page": 95,
+              "region": [
+                0.31,
+                0.675,
+                0.69,
+                0.775
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 95,
+          "region": [
+            0.31,
+            0.675,
+            0.69,
+            0.775
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "prose"
+    },
+    "raw-afd6aa4f6fa4a129b3e6830da5ad07630fd19d10034c6413512d2c2f08713088": {
+      "scope": "All family products; Диапазон диаметров проводов",
+      "scope_evidence": "All family products; Диапазон диаметров проводов",
+      "evidence": [
+        {
+          "page": 95,
+          "region": [
+            0.31,
+            0.675,
+            0.69,
+            0.775
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "Зажимы «лодочка»: П2",
+          "role": "prose",
+          "unit": "",
+          "condition": "Диапазон диаметров проводов",
+          "evidence": [
+            {
+              "page": 95,
+              "region": [
+                0.31,
+                0.675,
+                0.69,
+                0.775
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 95,
+          "region": [
+            0.31,
+            0.675,
+            0.69,
+            0.775
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "prose"
+    },
+    "raw-92168d002c46d83e9f310ed8a193fc8e9b2fd074c1f3025b8835fceed745a29d": {
+      "scope": "All family products; Диапазон диаметров проводов",
+      "scope_evidence": "All family products; Диапазон диаметров проводов",
+      "evidence": [
+        {
+          "page": 95,
+          "region": [
+            0.31,
+            0.675,
+            0.69,
+            0.775
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "Зажимы «лодочка»: П3",
+          "role": "prose",
+          "unit": "",
+          "condition": "Диапазон диаметров проводов",
+          "evidence": [
+            {
+              "page": 95,
+              "region": [
+                0.31,
+                0.675,
+                0.69,
+                0.775
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 95,
+          "region": [
+            0.31,
+            0.675,
+            0.69,
+            0.775
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "prose"
+    },
+    "raw-0549d1ba354407e64101f7470bb524d071b37b9f798bf79a8cfc218bf9769e5e": {
+      "scope": "All family products; Диапазон диаметров проводов",
+      "scope_evidence": "All family products; Диапазон диаметров проводов",
+      "evidence": [
+        {
+          "page": 95,
+          "region": [
+            0.31,
+            0.675,
+            0.69,
+            0.775
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "Зажимы «лодочка»: П4",
+          "role": "prose",
+          "unit": "",
+          "condition": "Диапазон диаметров проводов",
+          "evidence": [
+            {
+              "page": 95,
+              "region": [
+                0.31,
+                0.675,
+                0.69,
+                0.775
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 95,
+          "region": [
+            0.31,
+            0.675,
+            0.69,
+            0.775
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "prose"
+    },
+    "raw-f687f96cd08a2c356d9dace8dfc8c89ccdee013de12631d5a3f514ca6dd332eb": {
+      "scope": "All family products; Диапазон диаметров проводов",
+      "scope_evidence": "All family products; Диапазон диаметров проводов",
+      "evidence": [
+        {
+          "page": 95,
+          "region": [
+            0.31,
+            0.675,
+            0.69,
+            0.775
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "Зажимы «лодочка»: Без обозначения",
+          "role": "prose",
+          "unit": "",
+          "condition": "Диапазон диаметров проводов",
+          "evidence": [
+            {
+              "page": 95,
+              "region": [
+                0.31,
+                0.675,
+                0.69,
+                0.775
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 95,
+          "region": [
+            0.31,
+            0.675,
+            0.69,
+            0.775
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "prose"
+    },
+    "row-01188d3817e549d5e36304e4f969631dfe0491c2a45f37ce2be993c41042e5e8": {
+      "row_values": [
+        "Р – 8,4÷11,4",
+        "П1 – 6,4÷12,6"
+      ]
+    },
+    "raw-1398204de96b56443310a4a9a47542f30c120f85d80276f502e717e64d905b79": {
+      "column_id": "c1",
+      "value": "Р – 8,4÷11,4",
+      "state": "value"
+    },
+    "raw-a5d269b0b308fa185e1096aaa1eceeca22281832e927acee063892ba955f8da8": {
+      "column_id": "c2",
+      "value": "П1 – 6,4÷12,6",
+      "state": "value"
+    },
+    "row-28f28770ef13bec4c4e3193a12e4ab6d904eae18b07d29cc793e86d79d79e921": {
+      "row_values": [
+        "Р1 – 13,0÷15,8",
+        "П2 – 13,5÷19,6"
+      ]
+    },
+    "raw-1ee6f939027bf5be084bcb22ee32f29d88a86786672aa0c231c9088db8a33f19": {
+      "column_id": "c1",
+      "value": "Р1 – 13,0÷15,8",
+      "state": "value"
+    },
+    "raw-26e2a984537651d1a36c20d596249ffa58eec4167db6e5a895cbf125f55f7221": {
+      "column_id": "c2",
+      "value": "П2 – 13,5÷19,6",
+      "state": "value"
+    },
+    "row-89c6621f175002497ec3e8f7dde56918e35bf449bab56e6c4e693608c788322b": {
+      "row_values": [
+        "Р2 – 16,8÷19,8",
+        "П3 – 18÷28,0"
+      ]
+    },
+    "raw-8f691d1fd6331a193d7df967293276052ed02ae26db6002dab71885b9ab85b80": {
+      "column_id": "c1",
+      "value": "Р2 – 16,8÷19,8",
+      "state": "value"
+    },
+    "raw-5612df412c55802abe37edc6756fc7126cac6525576d2ad15cf910b904680f88": {
+      "column_id": "c2",
+      "value": "П3 – 18÷28,0",
+      "state": "value"
+    },
+    "row-facce1972c59f07bca35fe0b71f7098162f4fa8669d282c709e69c0a08fb08f3": {
+      "row_values": [
+        null,
+        "П4 – 13÷40,0"
+      ]
+    },
+    "raw-18e78e51ca2849c066092f9d120334f188e18dc803ea9697292712af1f4421c5": {
+      "column_id": "c1",
+      "value": null,
+      "state": "blank"
+    },
+    "raw-58a7062f96c4338bab5c861faab78e2c7251b5ba372b6979ce010d0d1fdba6f6": {
+      "column_id": "c2",
+      "value": "П4 – 13÷40,0",
+      "state": "value"
+    },
+    "row-bb628a12f493ca1feb291c3e64426c4569ad8604725f23072fed74be97588840": {
+      "row_values": [
+        null,
+        "Без обозначения – 13,5÷29,1"
+      ]
+    },
+    "raw-7d745391dce74138d424a74cb1b8f42efd632af95e4697d480cc82b6fb043bd8": {
+      "column_id": "c2",
+      "value": "Без обозначения – 13,5÷29,1",
+      "state": "value"
+    }
+  },
+  "author_groups": [
+    {
+      "fact_indices": [
+        13,
+        33,
+        46
+      ],
+      "relation": "same_fact",
+      "keep": "both",
+      "reason": "Лично увеличена схема95: это два независимых списка диапазонов для плашечных зажимовР/Р1/Р2 и зажимовлодочкаП1–П4/Безобозначения. Связываю только свой код и диапазон с соответствующей структурнойхарактеристикой, не приписываю левыйзажим правому по горизонтальному соседству и не выдаю расшифровку марки за отдельныйSKU.",
+      "evidence_refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "fact_indices": [
+        14,
+        34,
+        48
+      ],
+      "relation": "same_fact",
+      "keep": "both",
+      "reason": "Лично увеличена схема95: это два независимых списка диапазонов для плашечных зажимовР/Р1/Р2 и зажимовлодочкаП1–П4/Безобозначения. Связываю только свой код и диапазон с соответствующей структурнойхарактеристикой, не приписываю левыйзажим правому по горизонтальному соседству и не выдаю расшифровку марки за отдельныйSKU.",
+      "evidence_refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "fact_indices": [
+        15,
+        35,
+        50
+      ],
+      "relation": "same_fact",
+      "keep": "both",
+      "reason": "Лично увеличена схема95: это два независимых списка диапазонов для плашечных зажимовР/Р1/Р2 и зажимовлодочкаП1–П4/Безобозначения. Связываю только свой код и диапазон с соответствующей структурнойхарактеристикой, не приписываю левыйзажим правому по горизонтальному соседству и не выдаю расшифровку марки за отдельныйSKU.",
+      "evidence_refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "fact_indices": [
+        16,
+        36,
+        47
+      ],
+      "relation": "same_fact",
+      "keep": "both",
+      "reason": "Лично увеличена схема95: это два независимых списка диапазонов для плашечных зажимовР/Р1/Р2 и зажимовлодочкаП1–П4/Безобозначения. Связываю только свой код и диапазон с соответствующей структурнойхарактеристикой, не приписываю левыйзажим правому по горизонтальному соседству и не выдаю расшифровку марки за отдельныйSKU.",
+      "evidence_refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "fact_indices": [
+        17,
+        37,
+        49
+      ],
+      "relation": "same_fact",
+      "keep": "both",
+      "reason": "Лично увеличена схема95: это два независимых списка диапазонов для плашечных зажимовР/Р1/Р2 и зажимовлодочкаП1–П4/Безобозначения. Связываю только свой код и диапазон с соответствующей структурнойхарактеристикой, не приписываю левыйзажим правому по горизонтальному соседству и не выдаю расшифровку марки за отдельныйSKU.",
+      "evidence_refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "fact_indices": [
+        18,
+        38,
+        51
+      ],
+      "relation": "same_fact",
+      "keep": "both",
+      "reason": "Лично увеличена схема95: это два независимых списка диапазонов для плашечных зажимовР/Р1/Р2 и зажимовлодочкаП1–П4/Безобозначения. Связываю только свой код и диапазон с соответствующей структурнойхарактеристикой, не приписываю левыйзажим правому по горизонтальному соседству и не выдаю расшифровку марки за отдельныйSKU.",
+      "evidence_refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "fact_indices": [
+        19,
+        39,
+        53
+      ],
+      "relation": "same_fact",
+      "keep": "both",
+      "reason": "Лично увеличена схема95: это два независимых списка диапазонов для плашечных зажимовР/Р1/Р2 и зажимовлодочкаП1–П4/Безобозначения. Связываю только свой код и диапазон с соответствующей структурнойхарактеристикой, не приписываю левыйзажим правому по горизонтальному соседству и не выдаю расшифровку марки за отдельныйSKU.",
+      "evidence_refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "fact_indices": [
+        20,
+        40,
+        55
+      ],
+      "relation": "same_fact",
+      "keep": "both",
+      "reason": "Лично увеличена схема95: это два независимых списка диапазонов для плашечных зажимовР/Р1/Р2 и зажимовлодочкаП1–П4/Безобозначения. Связываю только свой код и диапазон с соответствующей структурнойхарактеристикой, не приписываю левыйзажим правому по горизонтальному соседству и не выдаю расшифровку марки за отдельныйSKU.",
+      "evidence_refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "fact_indices": [
+        52,
+        54
+      ],
+      "relation": "ours_only",
+      "keep": "ours",
+      "reason": "Пустые ячейки левого списка послеР2: там нет двух новых изделий или неизвестных марок. Правый список продолженП4/Безобозначения независимо. Исходные пустоты и геометрия сохранены.",
+      "evidence_refs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "independent_final_review_complete": false
+}

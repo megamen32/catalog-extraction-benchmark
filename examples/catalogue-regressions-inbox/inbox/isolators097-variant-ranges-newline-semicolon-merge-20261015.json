@@ -1,0 +1,25 @@
+{
+  "id": "isolators097-variant-ranges-newline-semicolon-merge-20261015",
+  "status": "pending_adjudication",
+  "priority": "high",
+  "category": "table_semantics",
+  "title": "Перенос строки и точка с запятой сохраняют две пары диапазон–зажим",
+  "source": {
+    "filename": "Katalog-IZOLJaTORY.pdf",
+    "sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+    "physical_page": 97
+  },
+  "review_basis": "Root viewed original page and enlarged relevant drawing/table. Author merge references immutable typed facts; independent final gold review deferred by user. Pending case does not change any frozen score denominator.",
+  "artifacts": [
+    {
+      "path": "objects/0e92c09a8ddf82e06daa65c6a42d00fe3ba9698572e11ee53214344bcfeb8c3a.json",
+      "sha256": "0e92c09a8ddf82e06daa65c6a42d00fe3ba9698572e11ee53214344bcfeb8c3a",
+      "bytes": 69056,
+      "role": "merge-adjudicator",
+      "program_version": "1.5.25",
+      "model": "native Codex gpt-6.1-sol"
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "Preserve both diameter ranges with their own clamp codes П2 and П3. Newline versus semicolon is representation, not disagreement or one scalar."
+}

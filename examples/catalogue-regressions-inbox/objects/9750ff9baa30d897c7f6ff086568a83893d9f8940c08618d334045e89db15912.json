@@ -1,0 +1,1573 @@
+{
+  "schema_version": "catalogue-owner-merge-regression-evidence/1",
+  "catalog": "isolators",
+  "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+  "physical_page": 89,
+  "input_fact_store_sha256": "05409d87f09123705fc1a0f21aa20727961dcf4351128d29497a0660978eec8d",
+  "input_ledger_sha256": "1d1fe979355d046a91ac2f619ed52e174a3ffe563fa7eba4ff7625bd91b19cb8",
+  "ours_snapshot_zip_sha256": "dcfdf4a64448a727766cc50ba31b01cf967b475744b9a6d6c5d065344c5061a7",
+  "work_packet_sha256": "a0f4cd63c68daa9775ee6e0a1b9f818a6056988f2c10e9466a388d11df9a009e",
+  "work_sha256": "93e49566a8ba1e19c1d3b5f9a889d37913e5a06a6aaa7f3efbd4ae99adfdd641",
+  "actual_merge_producer": {
+    "role": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "model": "gpt-6.1-sol",
+    "runtime": "Codex native original-image review",
+    "program_version": "1.5.25"
+  },
+  "source_evidence": [
+    {
+      "bbox": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "observation": "Codex лично просмотрел исходную страницу89 в сохранённом именном overview и сверил исходные факты. Это рабочее сведение одного исполнителя, независимаяфинальнаяпроверка позднее."
+    },
+    {
+      "bbox": [
+        0.045,
+        0.05,
+        0.97,
+        0.94
+      ],
+      "observation": "Привязки сверены по исходному обзору, именам столбцов, единицам, условиям, разделам таблицы и собственной модели. Совпадающие данные не переизвлекаются. Реальные отличия просматриваются отдельно; это не новая независимаяпроверка всех исходных чисел."
+    },
+    {
+      "bbox": [
+        0.32,
+        0.08,
+        0.97,
+        0.7
+      ],
+      "observation": "Лично увеличены оба чертежа и прочитаны все указанные ниже размеры. Собственный заголовок ЛК 70/150-ГУ-6 ГП задаёт владельца. ДваØ17 наГУ имеют разные элементы/допуски: верхнееотверстие+1,3/0, нижнийштырь0/-1,2. H±5 и L±2 относятся к своим размерным базам, а не к произвольному полному boundingbox картинки."
+    },
+    {
+      "bbox": [
+        0.32,
+        0.08,
+        0.97,
+        0.7
+      ],
+      "observation": "Лично увеличены оба чертежа и прочитаны все указанные ниже размеры. Собственный заголовок ЛК 70/220-ГУ-5 ГП задаёт владельца. ДваØ17 наГУ имеют разные элементы/допуски: верхнееотверстие+1,3/0, нижнийштырь0/-1,2. H±5 и L±2 относятся к своим размерным базам, а не к произвольному полному boundingbox картинки."
+    }
+  ],
+  "original_typed_facts": [
+    {
+      "fact_index": 12,
+      "fact_id": "L-c48d084419cdddef714544c0",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "model_designation",
+      "pointer": "products.jsonl:2491/raw/designation",
+      "owner": "ЛК 70/150-ГУ-6 ГП",
+      "name": "designation",
+      "value": "ЛК 70/150-ГУ-6 ГП",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        89
+      ],
+      "input_fact_sha256": "69a43b9af0af6e6e1d4ae40c5172d4aafbb7c2fbef27d12f886239639a2a769d",
+      "input_line": 2491,
+      "raw_context": "raw-4007125ca87049afcadefb7e21f86776ba9c035d071d4a35f8cbc16ae10740c2",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "P-420e8dbed2b3f63be6c52fd0",
+        "window_id": "W-a296b4f54bd8ba9bff4c474a",
+        "group_id": "G-14de7cc49a53694344c3b4ed"
+      }
+    },
+    {
+      "fact_index": 13,
+      "fact_id": "L-e449da0e41c7841d620d3937",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "model_designation",
+      "pointer": "products.jsonl:2492/raw/designation",
+      "owner": "ЛК 70/220-ГУ-5 ГП",
+      "name": "designation",
+      "value": "ЛК 70/220-ГУ-5 ГП",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        89
+      ],
+      "input_fact_sha256": "b7cba5db848553b24832d2770f94550019b559ac20fe6bb434e3af61fd371c4c",
+      "input_line": 2492,
+      "raw_context": "raw-0d455681c43ce8a5d34aa477e8fe76174aecbaf8597d38623568f5b52ca33752",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "P-a88f1f3d3e7e885298dd5cc1",
+        "window_id": "W-a296b4f54bd8ba9bff4c474a",
+        "group_id": "G-14de7cc49a53694344c3b4ed"
+      }
+    },
+    {
+      "fact_index": 146,
+      "fact_id": "L-0b03dd000ef21ddfcebf9b6b",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:18001/raw",
+      "owner": "ЛК 70/150-ГУ-6 ГП",
+      "name": "Ø17",
+      "value": "+1.3 / 0",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        89
+      ],
+      "input_fact_sha256": "9f3db33af20b4c74f9a3e463ac5a9f731b601e519539c3762d296d15422d87b2",
+      "input_line": 27376,
+      "raw_context": "raw-6f129f9113bfbfa6650e5fc0b5df122da72ff0912e1ed1b4c2ff0eaf07aa1cc3",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-75d8c4039a3db806de7f3791",
+        "window_id": "W-a296b4f54bd8ba9bff4c474a",
+        "group_id": "G-14de7cc49a53694344c3b4ed",
+        "product_id": "P-420e8dbed2b3f63be6c52fd0",
+        "group_title": "Изоляторы линейные подвесные полимерные для районов с особой степенью загрязнения и высокой грозовой активностью на напряжение 110-220 кВ типа ЛК 70(120)/110(150, 220)-ГУ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 147,
+      "fact_id": "L-67e06c0fc95702ef8233e913",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:18002/raw",
+      "owner": "ЛК 70/150-ГУ-6 ГП",
+      "name": "16",
+      "value": "+0.9 / -1.1",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        89
+      ],
+      "input_fact_sha256": "f714b26d07cf01983fd6fcfd2426c575b61667c6868ef817ef22466fe17fb377",
+      "input_line": 27377,
+      "raw_context": "raw-5176b192655080f9fd4eb0eb0aac61f8f12ab80ada39e2daf9106a2e94248d1c",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-5057a4cc7edc449a60dff877",
+        "window_id": "W-a296b4f54bd8ba9bff4c474a",
+        "group_id": "G-14de7cc49a53694344c3b4ed",
+        "product_id": "P-420e8dbed2b3f63be6c52fd0",
+        "group_title": "Изоляторы линейные подвесные полимерные для районов с особой степенью загрязнения и высокой грозовой активностью на напряжение 110-220 кВ типа ЛК 70(120)/110(150, 220)-ГУ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 148,
+      "fact_id": "L-41df9d3d4828f920fa083a33",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:18003/raw",
+      "owner": "ЛК 70/150-ГУ-6 ГП",
+      "name": "L",
+      "value": "±2",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        89
+      ],
+      "input_fact_sha256": "00994a8d34c76c44ef9ffe9cc370ad58bb7e01d7777d730edf5b882c0160541b",
+      "input_line": 27378,
+      "raw_context": "raw-9940660c604b3948d2d98661c1bce140498c0059ca93573bd347dacbc02eccac",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-2493f6f70bd05c253b223b0f",
+        "window_id": "W-a296b4f54bd8ba9bff4c474a",
+        "group_id": "G-14de7cc49a53694344c3b4ed",
+        "product_id": "P-420e8dbed2b3f63be6c52fd0",
+        "group_title": "Изоляторы линейные подвесные полимерные для районов с особой степенью загрязнения и высокой грозовой активностью на напряжение 110-220 кВ типа ЛК 70(120)/110(150, 220)-ГУ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 149,
+      "fact_id": "L-0a5f10d0010fc53613615482",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:18004/raw",
+      "owner": "ЛК 70/150-ГУ-6 ГП",
+      "name": "H",
+      "value": "±5",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        89
+      ],
+      "input_fact_sha256": "18e3aae835d88b1746caee32683b3c3c68c099560047c46ebd63a9b86918b6f0",
+      "input_line": 27379,
+      "raw_context": "raw-a461bdf44bc3c20e6eb37d12e37173d0ba597628c51e8b8b4edc6258596b086f",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-0d663956e107b71e8978491b",
+        "window_id": "W-a296b4f54bd8ba9bff4c474a",
+        "group_id": "G-14de7cc49a53694344c3b4ed",
+        "product_id": "P-420e8dbed2b3f63be6c52fd0",
+        "group_title": "Изоляторы линейные подвесные полимерные для районов с особой степенью загрязнения и высокой грозовой активностью на напряжение 110-220 кВ типа ЛК 70(120)/110(150, 220)-ГУ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 150,
+      "fact_id": "L-7a0f778ab74908fb6137a9d8",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:18005/raw",
+      "owner": "ЛК 70/150-ГУ-6 ГП",
+      "name": "Ø90",
+      "value": "Ø90",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        89
+      ],
+      "input_fact_sha256": "702121a43b079b54bfaeed5028f242196261bd99cb0df703402bec1dfc33a4cb",
+      "input_line": 27380,
+      "raw_context": "raw-798e5b15b74c541438daf855d82d617889193aaaa0d88318046000ef1ba95c37",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-85fbde890804087f39d6a3c3",
+        "window_id": "W-a296b4f54bd8ba9bff4c474a",
+        "group_id": "G-14de7cc49a53694344c3b4ed",
+        "product_id": "P-420e8dbed2b3f63be6c52fd0",
+        "group_title": "Изоляторы линейные подвесные полимерные для районов с особой степенью загрязнения и высокой грозовой активностью на напряжение 110-220 кВ типа ЛК 70(120)/110(150, 220)-ГУ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 151,
+      "fact_id": "L-99e1b2608484ab5c32fb65d0",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:18006/raw",
+      "owner": "ЛК 70/150-ГУ-6 ГП",
+      "name": "Ø65",
+      "value": "Ø65",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        89
+      ],
+      "input_fact_sha256": "aec55f57447f75ea85508d163720f92d0a32cf80fb48c583a36f0c4578a7d5b3",
+      "input_line": 27381,
+      "raw_context": "raw-1692dfaaada191cfa6cd02e2974bd3a24c10637aaf8c9f73ab28b1b7c6f641f1",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-59d138f98db59041f6df593a",
+        "window_id": "W-a296b4f54bd8ba9bff4c474a",
+        "group_id": "G-14de7cc49a53694344c3b4ed",
+        "product_id": "P-420e8dbed2b3f63be6c52fd0",
+        "group_title": "Изоляторы линейные подвесные полимерные для районов с особой степенью загрязнения и высокой грозовой активностью на напряжение 110-220 кВ типа ЛК 70(120)/110(150, 220)-ГУ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 152,
+      "fact_id": "L-6b9d9fdee3333d517ce00f90",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:18007/raw",
+      "owner": "ЛК 70/150-ГУ-6 ГП",
+      "name": "Ø165",
+      "value": "Ø165",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        89
+      ],
+      "input_fact_sha256": "f4ccf2e0f02b02cc50506629e225919657498e7bd6b1546df36bdcd69bc03c62",
+      "input_line": 27382,
+      "raw_context": "raw-07ba916d526ea5efa8b7b3bf1d4bcc1086424edaa80ac588cf4c65c212569b47",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-530f8ab8a0bfeedb159ed342",
+        "window_id": "W-a296b4f54bd8ba9bff4c474a",
+        "group_id": "G-14de7cc49a53694344c3b4ed",
+        "product_id": "P-420e8dbed2b3f63be6c52fd0",
+        "group_title": "Изоляторы линейные подвесные полимерные для районов с особой степенью загрязнения и высокой грозовой активностью на напряжение 110-220 кВ типа ЛК 70(120)/110(150, 220)-ГУ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 153,
+      "fact_id": "L-d81f4d7a6682dac0e82c7301",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:18008/raw",
+      "owner": "ЛК 70/150-ГУ-6 ГП",
+      "name": "Ø17",
+      "value": "0 / -1.2",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        89
+      ],
+      "input_fact_sha256": "5a22e51e241bf36001c84844d2988039086cca4a48e771d8f9f3bf200993f756",
+      "input_line": 27383,
+      "raw_context": "raw-6f129f9113bfbfa6650e5fc0b5df122da72ff0912e1ed1b4c2ff0eaf07aa1cc3",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-6aac18d273b8ec9adf23e7ee",
+        "window_id": "W-a296b4f54bd8ba9bff4c474a",
+        "group_id": "G-14de7cc49a53694344c3b4ed",
+        "product_id": "P-420e8dbed2b3f63be6c52fd0",
+        "group_title": "Изоляторы линейные подвесные полимерные для районов с особой степенью загрязнения и высокой грозовой активностью на напряжение 110-220 кВ типа ЛК 70(120)/110(150, 220)-ГУ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 154,
+      "fact_id": "L-fc6005051b807f9d231ee5fb",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:18009/raw",
+      "owner": "ЛК 70/150-ГУ-6 ГП",
+      "name": "Ø33.3",
+      "value": "0 / -1.5",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        89
+      ],
+      "input_fact_sha256": "4442c37b4885402e09d097c290c0b7d1f3ad8dc461c3bd56e8f2c3192c1ecb64",
+      "input_line": 27384,
+      "raw_context": "raw-be32c3a8e17926707b33c6079838ed937292789476fcc47ca7c0fe1efa4faeb7",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-4dbfb5dd7501e2a87b32bb8a",
+        "window_id": "W-a296b4f54bd8ba9bff4c474a",
+        "group_id": "G-14de7cc49a53694344c3b4ed",
+        "product_id": "P-420e8dbed2b3f63be6c52fd0",
+        "group_title": "Изоляторы линейные подвесные полимерные для районов с особой степенью загрязнения и высокой грозовой активностью на напряжение 110-220 кВ типа ЛК 70(120)/110(150, 220)-ГУ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 155,
+      "fact_id": "L-8ece4be80f03c5cf0cecc643",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:18010/raw",
+      "owner": "ЛК 70/220-ГУ-5 ГП",
+      "name": "Ø17",
+      "value": "+1.3 / 0",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        89
+      ],
+      "input_fact_sha256": "d2f7b4573f8b9a276431e5613eb2649c94721f7a0474cfbc164580179c22d9b3",
+      "input_line": 27385,
+      "raw_context": "raw-9dd9b850d98da4fac858355f71fb85b8da5f5403492f05b24f258b4888fe744a",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-4101edb8b6afab36f17ea9c5",
+        "window_id": "W-a296b4f54bd8ba9bff4c474a",
+        "group_id": "G-14de7cc49a53694344c3b4ed",
+        "product_id": "P-a88f1f3d3e7e885298dd5cc1",
+        "group_title": "Изоляторы линейные подвесные полимерные для районов с особой степенью загрязнения и высокой грозовой активностью на напряжение 110-220 кВ типа ЛК 70(120)/110(150, 220)-ГУ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 156,
+      "fact_id": "L-353dfb80048e332ba79128e5",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:18011/raw",
+      "owner": "ЛК 70/220-ГУ-5 ГП",
+      "name": "16",
+      "value": "+0.9 / -1.1",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        89
+      ],
+      "input_fact_sha256": "327eab550cefe66b471d824905ca9ae72d58b22e75b3b52497a7dae4965e27cb",
+      "input_line": 27386,
+      "raw_context": "raw-e0312184f9879f4ca81d0b4efa52e75e9d912386c6d565d1a006858dd8668037",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-1ddb228892cd36ecabd70dca",
+        "window_id": "W-a296b4f54bd8ba9bff4c474a",
+        "group_id": "G-14de7cc49a53694344c3b4ed",
+        "product_id": "P-a88f1f3d3e7e885298dd5cc1",
+        "group_title": "Изоляторы линейные подвесные полимерные для районов с особой степенью загрязнения и высокой грозовой активностью на напряжение 110-220 кВ типа ЛК 70(120)/110(150, 220)-ГУ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 157,
+      "fact_id": "L-7da3d8f86750869a535e75fb",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:18012/raw",
+      "owner": "ЛК 70/220-ГУ-5 ГП",
+      "name": "L",
+      "value": "±2",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        89
+      ],
+      "input_fact_sha256": "89da254dce920d1747842f6fd88ef2873b418dc80b30242c73b9d50571a65f8b",
+      "input_line": 27387,
+      "raw_context": "raw-fbd7f6bc74247f77bdc8345c72083ed9479bdbe20a7c2a979b168f2f551268f7",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-bb51e38575d73bc6a4f3b43f",
+        "window_id": "W-a296b4f54bd8ba9bff4c474a",
+        "group_id": "G-14de7cc49a53694344c3b4ed",
+        "product_id": "P-a88f1f3d3e7e885298dd5cc1",
+        "group_title": "Изоляторы линейные подвесные полимерные для районов с особой степенью загрязнения и высокой грозовой активностью на напряжение 110-220 кВ типа ЛК 70(120)/110(150, 220)-ГУ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 158,
+      "fact_id": "L-518ba7d1753aa83a2a6a58c5",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:18013/raw",
+      "owner": "ЛК 70/220-ГУ-5 ГП",
+      "name": "H",
+      "value": "±5",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        89
+      ],
+      "input_fact_sha256": "42d47d80aff70f405e4044c749481c218be525d31ce452f2f7216fdf585a9b40",
+      "input_line": 27388,
+      "raw_context": "raw-aded4c70c90405a05b01ba034f09aa4437f0f165d9b53e7df8cc9d97507fe2e5",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-bffd40ab11b3ef46693fd812",
+        "window_id": "W-a296b4f54bd8ba9bff4c474a",
+        "group_id": "G-14de7cc49a53694344c3b4ed",
+        "product_id": "P-a88f1f3d3e7e885298dd5cc1",
+        "group_title": "Изоляторы линейные подвесные полимерные для районов с особой степенью загрязнения и высокой грозовой активностью на напряжение 110-220 кВ типа ЛК 70(120)/110(150, 220)-ГУ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 159,
+      "fact_id": "L-90ebcc273b68f3b7472b2a0c",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:18014/raw",
+      "owner": "ЛК 70/220-ГУ-5 ГП",
+      "name": "Ø90",
+      "value": "Ø90",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        89
+      ],
+      "input_fact_sha256": "db8ed36598034c0cac109c234e1979400647672092419d7c686da3f0b9499422",
+      "input_line": 27389,
+      "raw_context": "raw-4b7138a7366f5222542061cf64302c2132513d446fb286c4074045662e9b09bd",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-9347958908fc36a1de3ab7ab",
+        "window_id": "W-a296b4f54bd8ba9bff4c474a",
+        "group_id": "G-14de7cc49a53694344c3b4ed",
+        "product_id": "P-a88f1f3d3e7e885298dd5cc1",
+        "group_title": "Изоляторы линейные подвесные полимерные для районов с особой степенью загрязнения и высокой грозовой активностью на напряжение 110-220 кВ типа ЛК 70(120)/110(150, 220)-ГУ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 160,
+      "fact_id": "L-10cb9153f7680a7cadba9574",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:18015/raw",
+      "owner": "ЛК 70/220-ГУ-5 ГП",
+      "name": "Ø65",
+      "value": "Ø65",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        89
+      ],
+      "input_fact_sha256": "c5de10cc637a8b110c62b17646ec50614bcaa8273a557980cf4fbc0ced7d9cb0",
+      "input_line": 27390,
+      "raw_context": "raw-474d3698d497108bbbde72f13dae57666f72f6b764f42a6948194770758dd653",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-e3740f7d09da944f66e7fb4e",
+        "window_id": "W-a296b4f54bd8ba9bff4c474a",
+        "group_id": "G-14de7cc49a53694344c3b4ed",
+        "product_id": "P-a88f1f3d3e7e885298dd5cc1",
+        "group_title": "Изоляторы линейные подвесные полимерные для районов с особой степенью загрязнения и высокой грозовой активностью на напряжение 110-220 кВ типа ЛК 70(120)/110(150, 220)-ГУ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 161,
+      "fact_id": "L-30eb868c503011a1be6d676e",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:18016/raw",
+      "owner": "ЛК 70/220-ГУ-5 ГП",
+      "name": "Ø235",
+      "value": "Ø235",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        89
+      ],
+      "input_fact_sha256": "128557a9dff6b583a77876e75e91702094079544c5a00d01c9008e92ceb36ac6",
+      "input_line": 27391,
+      "raw_context": "raw-7ef33ac878492f5b7178ae83ddc81aa72ddd572f4cf64f147a074bc72e198357",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-651323f5f41c96a2f758e404",
+        "window_id": "W-a296b4f54bd8ba9bff4c474a",
+        "group_id": "G-14de7cc49a53694344c3b4ed",
+        "product_id": "P-a88f1f3d3e7e885298dd5cc1",
+        "group_title": "Изоляторы линейные подвесные полимерные для районов с особой степенью загрязнения и высокой грозовой активностью на напряжение 110-220 кВ типа ЛК 70(120)/110(150, 220)-ГУ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 162,
+      "fact_id": "L-e94961e31413b65484d0507f",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:18017/raw",
+      "owner": "ЛК 70/220-ГУ-5 ГП",
+      "name": "Ø17",
+      "value": "0 / -1.2",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        89
+      ],
+      "input_fact_sha256": "1c60d417c71692ed3e4b5955511e12e2447bcb5df5f2f73961de59843373c169",
+      "input_line": 27392,
+      "raw_context": "raw-9dd9b850d98da4fac858355f71fb85b8da5f5403492f05b24f258b4888fe744a",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-4bd55f7120745727c0eba203",
+        "window_id": "W-a296b4f54bd8ba9bff4c474a",
+        "group_id": "G-14de7cc49a53694344c3b4ed",
+        "product_id": "P-a88f1f3d3e7e885298dd5cc1",
+        "group_title": "Изоляторы линейные подвесные полимерные для районов с особой степенью загрязнения и высокой грозовой активностью на напряжение 110-220 кВ типа ЛК 70(120)/110(150, 220)-ГУ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 163,
+      "fact_id": "L-487056b1019b6134ce58f06a",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:18018/raw",
+      "owner": "ЛК 70/220-ГУ-5 ГП",
+      "name": "Ø33.3",
+      "value": "0 / -1.5",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        89
+      ],
+      "input_fact_sha256": "0e4c86c7f49ad9298a230536432a085165f8ccdd2a3cd40523f1ea34d5f77eae",
+      "input_line": 27393,
+      "raw_context": "raw-ad55b29ef2a897c388c2353525fed9d25b5a2ffcc767f86f4f0c82f34177d1b8",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-ebb233e968fb7c09925ce481",
+        "window_id": "W-a296b4f54bd8ba9bff4c474a",
+        "group_id": "G-14de7cc49a53694344c3b4ed",
+        "product_id": "P-a88f1f3d3e7e885298dd5cc1",
+        "group_title": "Изоляторы линейные подвесные полимерные для районов с особой степенью загрязнения и высокой грозовой активностью на напряжение 110-220 кВ типа ЛК 70(120)/110(150, 220)-ГУ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 338,
+      "fact_id": "O-35c5ee867c54cb8f1071c970",
+      "side": "ours",
+      "catalog": "isolators",
+      "kind": "figure",
+      "pointer": "/catalogs/1/pages/88/content/figures/0",
+      "owner": "",
+      "name": "",
+      "value": {
+        "title": "ЛК 70/150-ГУ-6 ГП",
+        "description": "Чертёж линейного подвесного полимерного изолятора: главный вид (фронтальный) и отдельный разрез (в сечении, со штриховкой) узла верхнего оконцевателя, расположенный справа от главного вида. Изолятор показан с металлической аркой, закреплённой на верхней и нижней обоймах; верхняя часть — стержень с шестигранной головкой и сквозным отверстием, нижняя часть — стержень с цилиндрической головкой. На главном виде нанесены габаритные размеры (H±5 — внешний, L±2 — внутренний) и размеры юбок (Ø90, Ø65, Ø165); толщины элементов даны выносными линиями. Допуски набраны в виде верхних и нижних предельных отклонений над и под номинальным размером.",
+        "labels": [
+          "ЛК 70/150-ГУ-6 ГП",
+          "Ø17 +1.3/0",
+          "16 +0.9/-1.1",
+          "Ø90",
+          "Ø65",
+          "Ø165",
+          "H±5",
+          "L±2",
+          "Ø17 0/-1.2",
+          "Ø33.3 0/-1.5"
+        ]
+      },
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        89
+      ],
+      "input_fact_sha256": "797b06b2e72db1f02d2a7f01393e86ef7b6e5bbd0fe21034ae2ef71d7429ed81",
+      "input_line": 104697,
+      "raw_context": "raw-6cfffead3084699f5d4cd8ec335fff35496807ce769d70f0f77c056d3f3d6eff",
+      "metadata": {
+        "raw_value_type": "dict",
+        "candidate_sha256": "ad8dda42d29e5b8c03dec2c0dcf256509fe80db11a19f27755de1535373e1be3",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 339,
+      "fact_id": "O-7cd8d7d2cdedc8bc62770133",
+      "side": "ours",
+      "catalog": "isolators",
+      "kind": "figure",
+      "pointer": "/catalogs/1/pages/88/content/figures/1",
+      "owner": "",
+      "name": "",
+      "value": {
+        "title": "ЛК 70/220-ГУ-5 ГП",
+        "description": "Чертёж линейного подвесного полимерного изолятора: главный вид (фронтальный) и отдельный разрез (в сечении, со штриховкой) узла верхнего оконцевателя, расположенный слева от главного вида. Отличие от чертёжа ЛК 70/150-ГУ-6 — нижняя опорная обойма увеличенного диаметра Ø235; арка отклонена вправо. Размерные линии охватывают полную конструкцию (H±5 — внешний, L±2 — внутренний габарит).",
+        "labels": [
+          "ЛК 70/220-ГУ-5 ГП",
+          "16 +0.9/-1.1",
+          "Ø17 +1.3/0",
+          "Ø90",
+          "Ø65",
+          "Ø235",
+          "L±2",
+          "H±5",
+          "Ø17 0/-1.2",
+          "Ø33.3 0/-1.5"
+        ]
+      },
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        89
+      ],
+      "input_fact_sha256": "473f4368cd3fec3febc24389eff26d04a565414598b2351a92172a35bd7a63cd",
+      "input_line": 104698,
+      "raw_context": "raw-20b700ddc895509697871b35aa9b795bea830ca3dc50e2bfff2f4d0ccbd81623",
+      "metadata": {
+        "raw_value_type": "dict",
+        "candidate_sha256": "ad8dda42d29e5b8c03dec2c0dcf256509fe80db11a19f27755de1535373e1be3",
+        "previously_accepted": true
+      }
+    }
+  ],
+  "original_contexts": {
+    "raw-4007125ca87049afcadefb7e21f86776ba9c035d071d4a35f8cbc16ae10740c2": {
+      "record_kind": "named_execution",
+      "designation": "ЛК 70/150-ГУ-6 ГП",
+      "product_id": "p89",
+      "section_complete": true,
+      "evidence": [
+        {
+          "page": 89,
+          "region": [
+            0.46,
+            0.1,
+            0.61,
+            0.118
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    "raw-0d455681c43ce8a5d34aa477e8fe76174aecbaf8597d38623568f5b52ca33752": {
+      "record_kind": "named_execution",
+      "designation": "ЛК 70/220-ГУ-5 ГП",
+      "product_id": "p89",
+      "section_complete": true,
+      "evidence": [
+        {
+          "page": 89,
+          "region": [
+            0.68,
+            0.1,
+            0.85,
+            0.118
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    "raw-6f129f9113bfbfa6650e5fc0b5df122da72ff0912e1ed1b4c2ff0eaf07aa1cc3": {
+      "scope": "ЛК 70/150-ГУ-6 ГП",
+      "scope_evidence": "Literal technical annotation on this independently named execution.",
+      "evidence": [
+        {
+          "page": 89,
+          "region": [
+            0.39,
+            0.13,
+            0.62,
+            0.43
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "Ø17",
+          "role": "column",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 89,
+              "region": [
+                0.39,
+                0.13,
+                0.62,
+                0.43
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 89,
+          "region": [
+            0.46,
+            0.1,
+            0.61,
+            0.118
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "diagram_dimension"
+    },
+    "raw-5176b192655080f9fd4eb0eb0aac61f8f12ab80ada39e2daf9106a2e94248d1c": {
+      "scope": "ЛК 70/150-ГУ-6 ГП",
+      "scope_evidence": "Literal technical annotation on this independently named execution.",
+      "evidence": [
+        {
+          "page": 89,
+          "region": [
+            0.39,
+            0.13,
+            0.62,
+            0.43
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "16",
+          "role": "column",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 89,
+              "region": [
+                0.39,
+                0.13,
+                0.62,
+                0.43
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 89,
+          "region": [
+            0.46,
+            0.1,
+            0.61,
+            0.118
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "diagram_dimension"
+    },
+    "raw-9940660c604b3948d2d98661c1bce140498c0059ca93573bd347dacbc02eccac": {
+      "scope": "ЛК 70/150-ГУ-6 ГП",
+      "scope_evidence": "Literal technical annotation on this independently named execution.",
+      "evidence": [
+        {
+          "page": 89,
+          "region": [
+            0.39,
+            0.13,
+            0.62,
+            0.43
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "L",
+          "role": "column",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 89,
+              "region": [
+                0.39,
+                0.13,
+                0.62,
+                0.43
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 89,
+          "region": [
+            0.46,
+            0.1,
+            0.61,
+            0.118
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "diagram_dimension"
+    },
+    "raw-a461bdf44bc3c20e6eb37d12e37173d0ba597628c51e8b8b4edc6258596b086f": {
+      "scope": "ЛК 70/150-ГУ-6 ГП",
+      "scope_evidence": "Literal technical annotation on this independently named execution.",
+      "evidence": [
+        {
+          "page": 89,
+          "region": [
+            0.39,
+            0.13,
+            0.62,
+            0.43
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "H",
+          "role": "column",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 89,
+              "region": [
+                0.39,
+                0.13,
+                0.62,
+                0.43
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 89,
+          "region": [
+            0.46,
+            0.1,
+            0.61,
+            0.118
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "diagram_dimension"
+    },
+    "raw-798e5b15b74c541438daf855d82d617889193aaaa0d88318046000ef1ba95c37": {
+      "scope": "ЛК 70/150-ГУ-6 ГП",
+      "scope_evidence": "Literal technical annotation on this independently named execution.",
+      "evidence": [
+        {
+          "page": 89,
+          "region": [
+            0.39,
+            0.13,
+            0.62,
+            0.43
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "Ø90",
+          "role": "column",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 89,
+              "region": [
+                0.39,
+                0.13,
+                0.62,
+                0.43
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 89,
+          "region": [
+            0.46,
+            0.1,
+            0.61,
+            0.118
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "diagram_dimension"
+    },
+    "raw-1692dfaaada191cfa6cd02e2974bd3a24c10637aaf8c9f73ab28b1b7c6f641f1": {
+      "scope": "ЛК 70/150-ГУ-6 ГП",
+      "scope_evidence": "Literal technical annotation on this independently named execution.",
+      "evidence": [
+        {
+          "page": 89,
+          "region": [
+            0.39,
+            0.13,
+            0.62,
+            0.43
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "Ø65",
+          "role": "column",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 89,
+              "region": [
+                0.39,
+                0.13,
+                0.62,
+                0.43
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 89,
+          "region": [
+            0.46,
+            0.1,
+            0.61,
+            0.118
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "diagram_dimension"
+    },
+    "raw-07ba916d526ea5efa8b7b3bf1d4bcc1086424edaa80ac588cf4c65c212569b47": {
+      "scope": "ЛК 70/150-ГУ-6 ГП",
+      "scope_evidence": "Literal technical annotation on this independently named execution.",
+      "evidence": [
+        {
+          "page": 89,
+          "region": [
+            0.39,
+            0.13,
+            0.62,
+            0.43
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "Ø165",
+          "role": "column",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 89,
+              "region": [
+                0.39,
+                0.13,
+                0.62,
+                0.43
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 89,
+          "region": [
+            0.46,
+            0.1,
+            0.61,
+            0.118
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "diagram_dimension"
+    },
+    "raw-be32c3a8e17926707b33c6079838ed937292789476fcc47ca7c0fe1efa4faeb7": {
+      "scope": "ЛК 70/150-ГУ-6 ГП",
+      "scope_evidence": "Literal technical annotation on this independently named execution.",
+      "evidence": [
+        {
+          "page": 89,
+          "region": [
+            0.39,
+            0.13,
+            0.62,
+            0.43
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "Ø33.3",
+          "role": "column",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 89,
+              "region": [
+                0.39,
+                0.13,
+                0.62,
+                0.43
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 89,
+          "region": [
+            0.46,
+            0.1,
+            0.61,
+            0.118
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "diagram_dimension"
+    },
+    "raw-9dd9b850d98da4fac858355f71fb85b8da5f5403492f05b24f258b4888fe744a": {
+      "scope": "ЛК 70/220-ГУ-5 ГП",
+      "scope_evidence": "Literal technical annotation on this independently named execution.",
+      "evidence": [
+        {
+          "page": 89,
+          "region": [
+            0.65,
+            0.13,
+            0.91,
+            0.43
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "Ø17",
+          "role": "column",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 89,
+              "region": [
+                0.65,
+                0.13,
+                0.91,
+                0.43
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 89,
+          "region": [
+            0.68,
+            0.1,
+            0.85,
+            0.118
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "diagram_dimension"
+    },
+    "raw-e0312184f9879f4ca81d0b4efa52e75e9d912386c6d565d1a006858dd8668037": {
+      "scope": "ЛК 70/220-ГУ-5 ГП",
+      "scope_evidence": "Literal technical annotation on this independently named execution.",
+      "evidence": [
+        {
+          "page": 89,
+          "region": [
+            0.65,
+            0.13,
+            0.91,
+            0.43
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "16",
+          "role": "column",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 89,
+              "region": [
+                0.65,
+                0.13,
+                0.91,
+                0.43
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 89,
+          "region": [
+            0.68,
+            0.1,
+            0.85,
+            0.118
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "diagram_dimension"
+    },
+    "raw-fbd7f6bc74247f77bdc8345c72083ed9479bdbe20a7c2a979b168f2f551268f7": {
+      "scope": "ЛК 70/220-ГУ-5 ГП",
+      "scope_evidence": "Literal technical annotation on this independently named execution.",
+      "evidence": [
+        {
+          "page": 89,
+          "region": [
+            0.65,
+            0.13,
+            0.91,
+            0.43
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "L",
+          "role": "column",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 89,
+              "region": [
+                0.65,
+                0.13,
+                0.91,
+                0.43
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 89,
+          "region": [
+            0.68,
+            0.1,
+            0.85,
+            0.118
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "diagram_dimension"
+    },
+    "raw-aded4c70c90405a05b01ba034f09aa4437f0f165d9b53e7df8cc9d97507fe2e5": {
+      "scope": "ЛК 70/220-ГУ-5 ГП",
+      "scope_evidence": "Literal technical annotation on this independently named execution.",
+      "evidence": [
+        {
+          "page": 89,
+          "region": [
+            0.65,
+            0.13,
+            0.91,
+            0.43
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "H",
+          "role": "column",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 89,
+              "region": [
+                0.65,
+                0.13,
+                0.91,
+                0.43
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 89,
+          "region": [
+            0.68,
+            0.1,
+            0.85,
+            0.118
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "diagram_dimension"
+    },
+    "raw-4b7138a7366f5222542061cf64302c2132513d446fb286c4074045662e9b09bd": {
+      "scope": "ЛК 70/220-ГУ-5 ГП",
+      "scope_evidence": "Literal technical annotation on this independently named execution.",
+      "evidence": [
+        {
+          "page": 89,
+          "region": [
+            0.65,
+            0.13,
+            0.91,
+            0.43
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "Ø90",
+          "role": "column",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 89,
+              "region": [
+                0.65,
+                0.13,
+                0.91,
+                0.43
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 89,
+          "region": [
+            0.68,
+            0.1,
+            0.85,
+            0.118
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "diagram_dimension"
+    },
+    "raw-474d3698d497108bbbde72f13dae57666f72f6b764f42a6948194770758dd653": {
+      "scope": "ЛК 70/220-ГУ-5 ГП",
+      "scope_evidence": "Literal technical annotation on this independently named execution.",
+      "evidence": [
+        {
+          "page": 89,
+          "region": [
+            0.65,
+            0.13,
+            0.91,
+            0.43
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "Ø65",
+          "role": "column",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 89,
+              "region": [
+                0.65,
+                0.13,
+                0.91,
+                0.43
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 89,
+          "region": [
+            0.68,
+            0.1,
+            0.85,
+            0.118
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "diagram_dimension"
+    },
+    "raw-7ef33ac878492f5b7178ae83ddc81aa72ddd572f4cf64f147a074bc72e198357": {
+      "scope": "ЛК 70/220-ГУ-5 ГП",
+      "scope_evidence": "Literal technical annotation on this independently named execution.",
+      "evidence": [
+        {
+          "page": 89,
+          "region": [
+            0.65,
+            0.13,
+            0.91,
+            0.43
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "Ø235",
+          "role": "column",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 89,
+              "region": [
+                0.65,
+                0.13,
+                0.91,
+                0.43
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 89,
+          "region": [
+            0.68,
+            0.1,
+            0.85,
+            0.118
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "diagram_dimension"
+    },
+    "raw-ad55b29ef2a897c388c2353525fed9d25b5a2ffcc767f86f4f0c82f34177d1b8": {
+      "scope": "ЛК 70/220-ГУ-5 ГП",
+      "scope_evidence": "Literal technical annotation on this independently named execution.",
+      "evidence": [
+        {
+          "page": 89,
+          "region": [
+            0.65,
+            0.13,
+            0.91,
+            0.43
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "Ø33.3",
+          "role": "column",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 89,
+              "region": [
+                0.65,
+                0.13,
+                0.91,
+                0.43
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 89,
+          "region": [
+            0.68,
+            0.1,
+            0.85,
+            0.118
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "diagram_dimension"
+    },
+    "raw-6cfffead3084699f5d4cd8ec335fff35496807ce769d70f0f77c056d3f3d6eff": {
+      "title": "ЛК 70/150-ГУ-6 ГП",
+      "description": "Чертёж линейного подвесного полимерного изолятора: главный вид (фронтальный) и отдельный разрез (в сечении, со штриховкой) узла верхнего оконцевателя, расположенный справа от главного вида. Изолятор показан с металлической аркой, закреплённой на верхней и нижней обоймах; верхняя часть — стержень с шестигранной головкой и сквозным отверстием, нижняя часть — стержень с цилиндрической головкой. На главном виде нанесены габаритные размеры (H±5 — внешний, L±2 — внутренний) и размеры юбок (Ø90, Ø65, Ø165); толщины элементов даны выносными линиями. Допуски набраны в виде верхних и нижних предельных отклонений над и под номинальным размером.",
+      "labels": [
+        "ЛК 70/150-ГУ-6 ГП",
+        "Ø17 +1.3/0",
+        "16 +0.9/-1.1",
+        "Ø90",
+        "Ø65",
+        "Ø165",
+        "H±5",
+        "L±2",
+        "Ø17 0/-1.2",
+        "Ø33.3 0/-1.5"
+      ]
+    },
+    "raw-20b700ddc895509697871b35aa9b795bea830ca3dc50e2bfff2f4d0ccbd81623": {
+      "title": "ЛК 70/220-ГУ-5 ГП",
+      "description": "Чертёж линейного подвесного полимерного изолятора: главный вид (фронтальный) и отдельный разрез (в сечении, со штриховкой) узла верхнего оконцевателя, расположенный слева от главного вида. Отличие от чертёжа ЛК 70/150-ГУ-6 — нижняя опорная обойма увеличенного диаметра Ø235; арка отклонена вправо. Размерные линии охватывают полную конструкцию (H±5 — внешний, L±2 — внутренний габарит).",
+      "labels": [
+        "ЛК 70/220-ГУ-5 ГП",
+        "16 +0.9/-1.1",
+        "Ø17 +1.3/0",
+        "Ø90",
+        "Ø65",
+        "Ø235",
+        "L±2",
+        "H±5",
+        "Ø17 0/-1.2",
+        "Ø33.3 0/-1.5"
+      ]
+    }
+  },
+  "author_groups": [
+    {
+      "fact_indices": [
+        12,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        338
+      ],
+      "relation": "same_fact",
+      "keep": "oleg",
+      "reason": "Выбран структурный наборразмеровОлега: буквальные числа/знаки совпадают с увеличенным оригиналом. Наша свободная description ошибочно называетHполнымгабаритом всейконструкции; размер начинается от оси верхнегоотверстия, а не от крайнейверхнейповерхности. Исходныйfigure целиком сохранён вальтернативах, отвергнутыйпересказне выдаётся заисправленныйканон. ВерхнийØ17+1,3/0 инижнийØ17 0/-1,2 сохраняютсяраздельно поbbox/областям исходника.",
+      "evidence_refs": [
+        2
+      ]
+    },
+    {
+      "fact_indices": [
+        13,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        339
+      ],
+      "relation": "same_fact",
+      "keep": "oleg",
+      "reason": "Выбран структурный наборразмеровОлега: буквальные числа/знаки совпадают с увеличенным оригиналом. Наша свободная description ошибочно называетHполнымгабаритом всейконструкции; размер начинается от оси верхнегоотверстия, а не от крайнейверхнейповерхности. Исходныйfigure целиком сохранён вальтернативах, отвергнутыйпересказне выдаётся заисправленныйканон. ВерхнийØ17+1,3/0 инижнийØ17 0/-1,2 сохраняютсяраздельно поbbox/областям исходника.",
+      "evidence_refs": [
+        3
+      ]
+    }
+  ],
+  "independent_final_review_complete": false
+}

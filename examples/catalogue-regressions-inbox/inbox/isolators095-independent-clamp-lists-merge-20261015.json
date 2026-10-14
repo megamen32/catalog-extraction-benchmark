@@ -1,0 +1,25 @@
+{
+  "id": "isolators095-independent-clamp-lists-merge-20261015",
+  "status": "pending_adjudication",
+  "priority": "high",
+  "category": "table_semantics",
+  "title": "Два независимых списка зажимов не образуют попарные строки SKU",
+  "source": {
+    "filename": "Katalog-IZOLJaTORY.pdf",
+    "sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+    "physical_page": 95
+  },
+  "review_basis": "Root viewed original page and enlarged relevant drawing/table. Author merge references immutable typed facts; independent final gold review deferred by user. Pending case does not change any frozen score denominator.",
+  "artifacts": [
+    {
+      "path": "objects/11bb46a68e017885cbbd0800ac1bc280e7031d244724d03560f61852dc64320f.json",
+      "sha256": "11bb46a68e017885cbbd0800ac1bc280e7031d244724d03560f61852dc64320f",
+      "bytes": 67046,
+      "role": "merge-adjudicator",
+      "program_version": "1.5.25",
+      "model": "native Codex gpt-6.1-sol"
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "Map each exact clamp code to its own diameter range; do not join left and right independent lists by visual alignment or invent extra SKU from blank left cells."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "isolators089-same-diameter-distinct-elements-merge-20261015",
+  "status": "pending_adjudication",
+  "priority": "high",
+  "category": "drawing_ownership",
+  "title": "Два Ø17 относятся к разным элементам и имеют разные допуски",
+  "source": {
+    "filename": "Katalog-IZOLJaTORY.pdf",
+    "sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+    "physical_page": 89
+  },
+  "review_basis": "Root viewed original page and enlarged relevant drawing/table. Author merge references immutable typed facts; independent final gold review deferred by user. Pending case does not change any frozen score denominator.",
+  "artifacts": [
+    {
+      "path": "objects/9750ff9baa30d897c7f6ff086568a83893d9f8940c08618d334045e89db15912.json",
+      "sha256": "9750ff9baa30d897c7f6ff086568a83893d9f8940c08618d334045e89db15912",
+      "bytes": 53964,
+      "role": "merge-adjudicator",
+      "program_version": "1.5.25",
+      "model": "native Codex gpt-6.1-sol"
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "Keep upper eye Ø17 +1.3/0 separate from lower pin Ø17 0/-1.2. Do not call the H dimension the complete outer bounding box."
+}
