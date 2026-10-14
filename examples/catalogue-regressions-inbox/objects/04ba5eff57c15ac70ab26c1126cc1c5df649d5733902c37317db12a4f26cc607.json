@@ -1,0 +1,57 @@
+{
+  "program_version": "1.5.3",
+  "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+  "physical_page": 4,
+  "accepted_after_repair": true,
+  "audits": [
+    {
+      "role": "reviewer",
+      "attempt": 0,
+      "save_calls": {
+        "save_source_observation": 3,
+        "save_review": 1
+      },
+      "save_failures": {
+        "save_source_observation": 2
+      },
+      "failure_categories": {
+        "save_source_observation:validation_errors": 1,
+        "save_source_observation:context_errors": 1
+      },
+      "load_skill_delivery": [
+        {
+          "bytes_received": 12305,
+          "truncated": false
+        }
+      ],
+      "helper_activation_calls": 0
+    },
+    {
+      "role": "reviewer",
+      "attempt": 1,
+      "save_calls": {
+        "save_source_observation": 3,
+        "correct_source_observation": 2,
+        "save_review": 3
+      },
+      "save_failures": {
+        "save_source_observation": 2,
+        "correct_source_observation": 1,
+        "save_review": 2
+      },
+      "failure_categories": {
+        "save_source_observation:validation_errors": 1,
+        "save_source_observation:context_errors": 1,
+        "correct_source_observation:context_errors": 1,
+        "save_review:validation_errors": 2
+      },
+      "load_skill_delivery": [
+        {
+          "bytes_received": 12305,
+          "truncated": false
+        }
+      ],
+      "helper_activation_calls": 0
+    }
+  ]
+}

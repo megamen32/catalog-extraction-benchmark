@@ -1,0 +1,24 @@
+{
+  "id": "small4-review-save-attempt-accounting",
+  "status": "pending_adjudication",
+  "priority": "medium",
+  "category": "diagnostic_transcript_accounting",
+  "title": "Count failed source-observation/review saves as well as successful journal receipts",
+  "source": {
+    "filename": "Malyj-katalog.pdf",
+    "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_page": 4
+  },
+  "review_basis": "Full native histories audited, not only successful tools.jsonl receipts. Each reviewer context needed3 save_source_observation calls; final reviewer needed3 save_review calls. This corrects the first-source-save claim in the earlier small4-voltage-condition-not-adverb review_basis; underlying exact outputs and voltage finding are unchanged.",
+  "artifacts": [
+    {
+      "path": "objects/04ba5eff57c15ac70ab26c1126cc1c5df649d5733902c37317db12a4f26cc607.json",
+      "sha256": "04ba5eff57c15ac70ab26c1126cc1c5df649d5733902c37317db12a4f26cc607",
+      "bytes": 1461,
+      "role": "transcript_audit",
+      "program_version": "1.5.3"
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "Report all attempts/time/tokens including refused arguments. Source observations each had2 refusals, final review2 JSON refusals, no enable_helpers calls, full skill delivery12305 bytes. Accepted eventual output does not imply first-save success."
+}

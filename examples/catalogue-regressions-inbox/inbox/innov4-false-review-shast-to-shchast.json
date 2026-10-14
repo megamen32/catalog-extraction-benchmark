@@ -1,0 +1,33 @@
+{
+  "id": "innov4-false-review-shast-to-shchast",
+  "status": "pending_adjudication",
+  "priority": "high",
+  "category": "engineering_identity_false_review",
+  "title": "Reviewer invents a product-code correction contrary to original image and text layer",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 4
+  },
+  "review_basis": "Root independently viewed original page4 enlarged code and original page208 product heading; both show ШАСТ. Original page4 text layer also says ШАСТ. Native review-4 falsely claims ЩАСТ in both image and text layer. Source-bound correction lead added to live queue, without hand-editing candidate/review.",
+  "artifacts": [
+    {
+      "path": "objects/d940ee6b325d6e8853b558fd4e52e49a06018608f7a84d92ebdcb5050e3ddb46.json",
+      "sha256": "d940ee6b325d6e8853b558fd4e52e49a06018608f7a84d92ebdcb5050e3ddb46",
+      "bytes": 7109,
+      "role": "extractor",
+      "program_version": "1.5.3",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium"
+    },
+    {
+      "path": "objects/8298300d7c5533530c7ec77c715bdcaac5559aa23eb7fef077d9ebb49b7a52f0.json",
+      "sha256": "8298300d7c5533530c7ec77c715bdcaac5559aa23eb7fef077d9ebb49b7a52f0",
+      "bytes": 4954,
+      "role": "reviewer",
+      "program_version": "1.5.3",
+      "model": "zai.glm-5.3-flash?reasoning=low"
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "Retain source product identity ШАСТ; do not change it to ЩАСТ because a reviewer asserts it. Verify original glyph and source layer independently. No automatic global accuracy credit until adjudication."
+}
