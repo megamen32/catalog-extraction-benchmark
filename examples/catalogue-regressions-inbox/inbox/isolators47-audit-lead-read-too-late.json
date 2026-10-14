@@ -1,0 +1,24 @@
+{
+  "id": "isolators47-audit-lead-read-too-late",
+  "status": "pending_adjudication",
+  "priority": "high",
+  "category": "repair_efficiency",
+  "title": "Source-audit instructions defer the repair lead until after more than50 zooms",
+  "source": {
+    "filename": "Katalog-IZOLJaTORY.pdf",
+    "sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+    "physical_page": 47
+  },
+  "review_basis": "Full native156 attempt27 audited while still unfinished after ten minutes: more than50 detail views before source lead consumption. Source-bound lead already distinguishes supporting document thumbnails from dimensional drawings. Current task text postponed the lead until after source study. This is an efficiency/order case, no printed value oracle.",
+  "failure_oracle": "Extractor: initial original-page view then read source-audit guidance before detailed repair; independently verify it. Reviewer remains blind until source observation save. Do not invent or omit genuine facts.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/dd13a968c9e7e8a414c070b4457ff495e43fdf52d3f9a3913b5993892ccb6626.json",
+      "sha256": "dd13a968c9e7e8a414c070b4457ff495e43fdf52d3f9a3913b5993892ccb6626",
+      "role": "transcript_diagnostic",
+      "program_version": "1.5.6",
+      "bytes": 601
+    }
+  ]
+}
