@@ -1,0 +1,24 @@
+{
+  "id": "small65-blank-manufacturer-owner-20261014",
+  "status": "pending_adjudication",
+  "category": "cross-extraction-manufacturer-ownership",
+  "title": "Пустая правая марка не принадлежит левому хомуту HF207",
+  "source": {
+    "filename": "Malyj-katalog.pdf",
+    "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_page": 65
+  },
+  "review_basis": "Root лично просмотрел страницу65:левыйHF207имеет нагрузку10,0кН, а правая марка и её нагрузка пусты/прочерк. Matcher ошибочно относил правый прочерк к левому изделию при отсутствующем group. Исправление scope проверено на фактических строках.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/16ca768a18a9c3eb18ce2ffaa832beae36a081180e9a3599fa4e3db767da7971.json",
+      "sha256": "16ca768a18a9c3eb18ce2ffaa832beae36a081180e9a3599fa4e3db767da7971",
+      "bytes": 54136,
+      "role": "exact-delivered-page-with-original-attribution"
+    }
+  ],
+  "changes_engineering_denominator": false,
+  "consensus": "pending; no automatic oracle",
+  "new_model_calls": 0
+}

@@ -1,0 +1,1160 @@
+{
+  "catalog_id": "armature",
+  "physical_page": 311,
+  "snapshot_zip_sha256": "dcfdf4a64448a727766cc50ba31b01cf967b475744b9a6d6c5d065344c5061a7",
+  "delivered_page": {
+    "pdf_page": 311,
+    "source_filename": "Katalog-ARMATURA.pdf",
+    "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "status": "manual_independently_source_verified",
+    "candidate_sha256": "02daca0d43a5b373e97bec3ef28a190dad76e7bd0046240c8618c81b3682109c",
+    "candidate_producer": {
+      "status": "manual_source_checked",
+      "harness": "codex",
+      "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+      "model": "Current native Codex session; exact provider identifier not exported.",
+      "program": {
+        "package_version": "root-tail-source-review-2026-10-14.r1",
+        "source_code_sha256": null
+      },
+      "method": "Full original-page visual check by independently assigned Codex author",
+      "artifact_sha256": "02daca0d43a5b373e97bec3ef28a190dad76e7bd0046240c8618c81b3682109c",
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 311,
+      "authored_at": "2026-10-14T15:08:03.861853+03:00",
+      "native_basis_sha256": "1223eaa69e185912c4a42e39805e62ba64a4e30d5fe973bf2650c90923f3e52e"
+    },
+    "source_checked_by": [
+      "01a12c30-e58f-7861-8a2d-966c92630163",
+      "catalog_tail_mod3"
+    ],
+    "reviewed_current_content": true,
+    "review_producer": {
+      "status": "manual_independent_source_review_verified",
+      "harness": "codex",
+      "session_id": "catalog_tail_mod3",
+      "model": "Native Codex agent; exact base model identity not exposed",
+      "program": {
+        "package_version": "root-independence-mod3-20261014.r2-block67",
+        "source_code_sha256": null
+      },
+      "artifact_sha256": "0320bf75de7ab625d80be1f36d6ac666835537f5dc5c9c40938eb60f30b317d2",
+      "reviewed_candidate_sha256": "02daca0d43a5b373e97bec3ef28a190dad76e7bd0046240c8618c81b3682109c",
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 311,
+      "provider_receipt": false,
+      "method": "Different assigned author reviewed the full original page and exact frozen corrected JSON"
+    },
+    "content": {
+      "title": "ПРОВОДА И КАНАТЫ — ПРОВОДА САМОНЕСУЩИЕ ЗАЩИЩЕННЫЕ (СИП-3), ГОСТ Р 52373-2005",
+      "page_context": {
+        "kind": "catalogue_product_data",
+        "summary": "Страница каталога «Провода и канаты» — типовой ряд самонесущих защищённых проводов СИП-3 по ГОСТ Р 52373-2005 и ТУ 16-705.500-2006. Первая таблица даёт для вариантов СИП-3-20 кВ и СИП-3-35 кВ число и номинальное сечение жил (1×35…1×240), расчётный наружный диаметр провода и расчётную массу 1 км. Вторая таблица даёт конструктивные и электрические параметры жил: число проволок, наружный диаметр жилы без изоляции (мин./макс.), толщину изоляции (2,3 мм для 20 кВ и 3,5 мм для 35 кВ), наружный диаметр жилы с изоляцией отдельно для 20 и 35 кВ, прочность при растяжении (не менее) и электрическое сопротивление постоянному току на длине 1 км (не более). Это товарные справочные данные изделия, а не проектная спецификация и не демонстрация ПО.",
+        "source_evidence": [
+          {
+            "kind": "catalogue_product_data",
+            "box": [
+              0.08,
+              0.02,
+              0.95,
+              0.97
+            ],
+            "observation": "Рубрика СИП-3, ГОСТР52373-2005, таблицы16×4 и9строк с общими условиями толщины2,3мм/20кВ и3,5мм/35кВ, реквизиты310. Вторая таблица нормализована с отдельными условными колонками толщины.",
+            "transcription": "literal"
+          }
+        ]
+      },
+      "printed_page": "310",
+      "text_blocks": [
+        {
+          "kind": "heading",
+          "text": "ПРОВОДА И КАНАТЫ"
+        },
+        {
+          "kind": "branding",
+          "text": "ФОРЭНЕРГО — производственное объединение / FORENERGO industrial group"
+        },
+        {
+          "kind": "heading",
+          "text": "ПРОВОДА САМОНЕСУЩИЕ ЗАЩИЩЕННЫЕ (СИП-3)"
+        },
+        {
+          "kind": "heading",
+          "text": "ГОСТ Р 52373-2005"
+        },
+        {
+          "kind": "footer",
+          "text": "Номер страницы каталога: 310"
+        },
+        {
+          "kind": "footer",
+          "text": "ООО «МЗВА-ЧЭМЗ»"
+        },
+        {
+          "kind": "footer",
+          "text": "Тел./ факс: +7 (495) 780-51-65, e-mail: zakaz@mzva.ru"
+        },
+        {
+          "kind": "footer",
+          "text": "www.mzva.ru"
+        }
+      ],
+      "tables": [
+        {
+          "id": "t0",
+          "title": "СИП-3: марка, сечение жил, расчетный наружный диаметр и расчетная масса 1 км провода",
+          "columns": [
+            {
+              "id": "c0",
+              "label": "Марка и номинальное напряжение провода",
+              "unit": null,
+              "group": null,
+              "qualifier": null
+            },
+            {
+              "id": "c1",
+              "label": "Число и номинальное сечение фазных и нулевой несущей жил",
+              "unit": "шт. × мм²",
+              "group": null,
+              "qualifier": null
+            },
+            {
+              "id": "c2",
+              "label": "Расчетный наружный диаметр провода",
+              "unit": "мм",
+              "group": null,
+              "qualifier": null
+            },
+            {
+              "id": "c3",
+              "label": "Расчетная масса 1 км провода",
+              "unit": "кг",
+              "group": null,
+              "qualifier": null
+            }
+          ],
+          "rows": [
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "СИП-3 (СИП-3-20 кВ по ГОСТ Р 52373-2005 и ТУ 16-705.500-2006)",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "1×35",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": 12,
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": 165,
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "СИП-3 (СИП-3-20 кВ по ГОСТ Р 52373-2005 и ТУ 16-705.500-2006)",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "1×50",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": 13,
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": 215,
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "СИП-3 (СИП-3-20 кВ по ГОСТ Р 52373-2005 и ТУ 16-705.500-2006)",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "1×70",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": 15,
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": 282,
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "СИП-3 (СИП-3-20 кВ по ГОСТ Р 52373-2005 и ТУ 16-705.500-2006)",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "1×95",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": 16,
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": 364,
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "СИП-3 (СИП-3-20 кВ по ГОСТ Р 52373-2005 и ТУ 16-705.500-2006)",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "1×120",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": 18,
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": 445,
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "СИП-3 (СИП-3-20 кВ по ГОСТ Р 52373-2005 и ТУ 16-705.500-2006)",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "1×150",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": 19,
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": 540,
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "СИП-3 (СИП-3-20 кВ по ГОСТ Р 52373-2005 и ТУ 16-705.500-2006)",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "1×185",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": 21,
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": 722,
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "СИП-3 (СИП-3-20 кВ по ГОСТ Р 52373-2005 и ТУ 16-705.500-2006)",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "1×240",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": 24,
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": 950,
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "СИП-3 (СИП-3-35 кВ по ГОСТ Р 52373-2005 и ТУ 16-705.500-2006)",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "1×35",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": 14,
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": 209,
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "СИП-3 (СИП-3-35 кВ по ГОСТ Р 52373-2005 и ТУ 16-705.500-2006)",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "1×50",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": 16,
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": 263,
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "СИП-3 (СИП-3-35 кВ по ГОСТ Р 52373-2005 и ТУ 16-705.500-2006)",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "1×70",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": 17,
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": 334,
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "СИП-3 (СИП-3-35 кВ по ГОСТ Р 52373-2005 и ТУ 16-705.500-2006)",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "1×95",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": 19,
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": 421,
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "СИП-3 (СИП-3-35 кВ по ГОСТ Р 52373-2005 и ТУ 16-705.500-2006)",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "1×120",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": 20,
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": 518,
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "СИП-3 (СИП-3-35 кВ по ГОСТ Р 52373-2005 и ТУ 16-705.500-2006)",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "1×150",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": 22,
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": 618,
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "СИП-3 (СИП-3-35 кВ по ГОСТ Р 52373-2005 и ТУ 16-705.500-2006)",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "1×185",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": 24,
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": 808,
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "СИП-3 (СИП-3-35 кВ по ГОСТ Р 52373-2005 и ТУ 16-705.500-2006)",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "1×240",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": 26,
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": 1054,
+                  "state": "value"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "t1",
+          "title": "СИП-3: конструктивные и электрические параметры жилы",
+          "columns": [
+            {
+              "id": "c0",
+              "label": "Номинальное сечение токопроводящей жилы защищенных проводов",
+              "unit": "мм²",
+              "group": null,
+              "qualifier": null
+            },
+            {
+              "id": "c1",
+              "label": "Число проволок в жиле",
+              "unit": "шт.",
+              "group": null,
+              "qualifier": null
+            },
+            {
+              "id": "c2",
+              "label": "мин.",
+              "unit": "мм",
+              "group": "Наружный диаметр жилы без изоляции",
+              "qualifier": null
+            },
+            {
+              "id": "c3",
+              "label": "макс.",
+              "unit": "мм",
+              "group": "Наружный диаметр жилы без изоляции",
+              "qualifier": null
+            },
+            {
+              "id": "c4",
+              "label": "20 кВ",
+              "unit": "мм",
+              "group": "Толщина изоляции",
+              "qualifier": "для СИП-3-20 кВ"
+            },
+            {
+              "id": "c4_35",
+              "label": "35 кВ",
+              "unit": "мм",
+              "group": "Толщина изоляции",
+              "qualifier": "для СИП-3-35 кВ"
+            },
+            {
+              "id": "c5",
+              "label": "20 кВ",
+              "unit": "мм",
+              "group": "Наружный диаметр жилы с изоляцией",
+              "qualifier": null
+            },
+            {
+              "id": "c6",
+              "label": "35 кВ",
+              "unit": "мм",
+              "group": "Наружный диаметр жилы с изоляцией",
+              "qualifier": null
+            },
+            {
+              "id": "c7",
+              "label": "Прочность при растяжении провода",
+              "unit": "кН",
+              "group": null,
+              "qualifier": "не менее"
+            },
+            {
+              "id": "c8",
+              "label": "Электрическое сопротивление жилы постоянному току на длине 1 км",
+              "unit": "Ом",
+              "group": null,
+              "qualifier": "не более"
+            }
+          ],
+          "rows": [
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": 35,
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": 7,
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": "6,70",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": "7,10",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c4",
+                  "value": "2,3",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c4_35",
+                  "value": "3,5",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c5",
+                  "value": "11,3-11,7",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c6",
+                  "value": "13,7-14,1",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c7",
+                  "value": "10,3",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c8",
+                  "value": "0,986",
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": 50,
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": 7,
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": "7,85",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": "8,35",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c4",
+                  "value": "2,3",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c4_35",
+                  "value": "3,5",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c5",
+                  "value": "12,45-12,95",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c6",
+                  "value": "14,85-15,35",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c7",
+                  "value": "14,2",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c8",
+                  "value": "0,720",
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": 70,
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": 7,
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": "9,45",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": "9,95",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c4",
+                  "value": "2,3",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c4_35",
+                  "value": "3,5",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c5",
+                  "value": "14,05-14,55",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c6",
+                  "value": "16,45-16,95",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c7",
+                  "value": "20,6",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c8",
+                  "value": "0,493",
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": 95,
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": 7,
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": "11,10",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": "11,70",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c4",
+                  "value": "2,3",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c4_35",
+                  "value": "3,5",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c5",
+                  "value": "15,7-16,3",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c6",
+                  "value": "18,1-18,7",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c7",
+                  "value": "27,9",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c8",
+                  "value": "0,363",
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": 95,
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": 19,
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": "12,20",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": "12,90",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c4",
+                  "value": "2,3",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c4_35",
+                  "value": "3,5",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c5",
+                  "value": "16,8-17,5",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c6",
+                  "value": "19,2-19,9",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c7",
+                  "value": "27,9",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c8",
+                  "value": "0,363",
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": 120,
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": 19,
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": "12,50",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": "13,10",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c4",
+                  "value": "2,3",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c4_35",
+                  "value": "3,5",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c5",
+                  "value": "17,1-17,7",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c6",
+                  "value": "19,5-20,1",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c7",
+                  "value": "35,2",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c8",
+                  "value": "0,288",
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": 150,
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": 19,
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": "13,90",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": "14,50",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c4",
+                  "value": "2,3",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c4_35",
+                  "value": "3,5",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c5",
+                  "value": "18,5-19,1",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c6",
+                  "value": "20,9-21,5",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c7",
+                  "value": "43,4",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c8",
+                  "value": "0,236",
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": 185,
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": 19,
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": "15,45",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": "16,15",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c4",
+                  "value": "2,3",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c4_35",
+                  "value": "3,5",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c5",
+                  "value": "20,05-20,65",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c6",
+                  "value": "22,45-23,15",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c7",
+                  "value": "53,5",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c8",
+                  "value": "0,188",
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": 240,
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": 19,
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": "17,75",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": "18,45",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c4",
+                  "value": "2,3",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c4_35",
+                  "value": "3,5",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c5",
+                  "value": "22,35-23,05",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c6",
+                  "value": "24,75-25,45",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c7",
+                  "value": "69,5",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c8",
+                  "value": "0,145",
+                  "state": "value"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "figures": [],
+      "source_notes": [
+        "Первая таблица: ячейка «Марка и номинальное напряжение провода» объединена по 8 строк для каждого варианта (СИП-3-20 кВ и СИП-3-35 кВ); значение выведено во все покрытые строки.",
+        "Толщина изоляции зависит от класса напряжения, а не от сечения или числа проволок:2,3мм дляСИП-3-20кВ и3,5мм дляСИП-3-35кВ относятся ко ВСЕМ9 строкам второй таблицы. Две подписи внутри общего физического столбца нормализованы в две условные колонки. Физическое расположение подписей по высоте не ограничивает их соседними строками.",
+        "Подпись под логотипом ФОРЭНЕРГО в источнике набрана очень мелко и передана приблизительно по видимым буквам."
+      ],
+      "uncertainties": []
+    },
+    "review": {
+      "schema_version": "catalogue-independent-source-review/1",
+      "catalog": "armature",
+      "source_filename": "Katalog-ARMATURA.pdf",
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 311,
+      "exact_reviewed_path": "armature-311-reviewed-r2.json",
+      "exact_reviewed_sha256": "02daca0d43a5b373e97bec3ef28a190dad76e7bd0046240c8618c81b3682109c",
+      "frozen_reviewed_path": "frozen-root-armature-311-r2.json",
+      "independent_author": "catalog_tail_mod3",
+      "origin_author": "root",
+      "version": "root-independence-mod3-20261014.r2-block67",
+      "harness": "codex",
+      "is_glm_receipt": false,
+      "source_first": true,
+      "full_original_image_review": true,
+      "original_image": "armature-311-source.png",
+      "original_image_sha256": "92d354f18b23a2e666a6167968a9ff7e72579919c385c81d61ed18c88c778bde",
+      "own_source_observation": "armature-311-own-source-observation.json",
+      "checks": {
+        "all_text_and_meaning": true,
+        "all_table_cells": true,
+        "headers_units_conditions": true,
+        "merged_cells_and_blanks": true,
+        "figures_and_relationships": true,
+        "source_provenance": true
+      },
+      "observed_table_count": 2,
+      "observed_row_counts": [
+        16,
+        9
+      ],
+      "observed_column_counts": [
+        4,
+        10
+      ],
+      "cells_checked": 154,
+      "technical_and_meaning_review": "Проверены все 145 числовых и текстовых ячеек, оба набора СИП-3-20/35 кВ по восемь сечений и все девять строк нижней таблицы, включая два исполнения 95 мм² на 7 и 19 проволок. Все диаметры, массы, усилия и сопротивления совпадают. Выявлена смысловая ошибка распространения условия толщины изоляции. Полный исходник и все значения обеих таблиц пересверены. Две отдельные условные колонки толщины2,3мм/20кВ и3,5мм/35кВ корректно распространены на все девять сечений. Диаметры и электрические параметры не изменены, геометрия печатных объединений явно раскрыта.",
+      "per_figure_dimension_ownership": [],
+      "issues": [],
+      "uncertainties": [],
+      "verdict": "pass",
+      "reviewed_at": "2026-10-14T15:26:48.695335+03:00",
+      "prior_review": "armature-311-review.json",
+      "prior_review_sha256": "3c7cc7a563a8afcb29fcda454797925cc37824339c00001493b8d26ceb55fd95",
+      "revision_verified_against_source": "Полный исходник и все значения обеих таблиц пересверены. Две отдельные условные колонки толщины2,3мм/20кВ и3,5мм/35кВ корректно распространены на все девять сечений. Диаметры и электрические параметры не изменены, геометрия печатных объединений явно раскрыта."
+    },
+    "review_sha256": "0320bf75de7ab625d80be1f36d6ac666835537f5dc5c9c40938eb60f30b317d2",
+    "independent_source_review": {
+      "verdict": "pass",
+      "reviewer": "catalog_tail_mod3",
+      "review_sha256": "0320bf75de7ab625d80be1f36d6ac666835537f5dc5c9c40938eb60f30b317d2",
+      "reviewed_candidate_sha256": "02daca0d43a5b373e97bec3ef28a190dad76e7bd0046240c8618c81b3682109c",
+      "full_original_image_review": true,
+      "provider_model_call": false,
+      "reviewed_at": "2026-10-14T15:26:48.695335+03:00",
+      "issues": [],
+      "unresolved_issues": []
+    },
+    "native_basis_elapsed_seconds": 0,
+    "content_canonical_sha256": "a46fc3feffb43a8601a1b0ba3538e2038949c7bc9865dbc8f706132be7807e6a"
+  },
+  "comparison_program_commit": "1248885",
+  "comparison_source_sha256": "0421230dcf4ae7a3ad5af3fb1ec5d3422cc302349e6078d87e70e88510ff993b"
+}

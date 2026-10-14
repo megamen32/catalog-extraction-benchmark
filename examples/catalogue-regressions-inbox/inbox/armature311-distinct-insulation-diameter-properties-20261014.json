@@ -1,0 +1,24 @@
+{
+  "id": "armature311-distinct-insulation-diameter-properties-20261014",
+  "status": "pending_adjudication",
+  "category": "cross-extraction-property-alignment",
+  "title": "20/35кВ: толщина изоляции и наружный диаметр — разные свойства",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 311
+  },
+  "review_basis": "Root лично просмотрел страницу311:2,3/3,5мм задают толщину изоляции для20/35кВ;11,3–11,7 и13,7–14,1мм относятся к соседним подколонкам наружного диаметра. Matcher сопоставлял только одинаковые leaf-напряжения. Исправление подтверждено локальным реальным canary без изменения исходных чисел.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/64f43ccc8f282d5a920a136026a5f078d77fd7718a9fe70be28fe8a8cddcb7f6.json",
+      "sha256": "64f43ccc8f282d5a920a136026a5f078d77fd7718a9fe70be28fe8a8cddcb7f6",
+      "bytes": 39956,
+      "role": "exact-delivered-page-with-original-attribution"
+    }
+  ],
+  "changes_engineering_denominator": false,
+  "consensus": "pending; no automatic oracle",
+  "new_model_calls": 0
+}

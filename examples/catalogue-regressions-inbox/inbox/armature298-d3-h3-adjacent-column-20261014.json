@@ -1,0 +1,24 @@
+{
+  "id": "armature298-d3-h3-adjacent-column-20261014",
+  "status": "pending_adjudication",
+  "category": "cross-extraction-adjacent-column-scope",
+  "title": "d3/H3: не переносить соседние d2/H2 в пятнадцать строк ОТМ-1-13-L",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 298
+  },
+  "review_basis": "Root лично просмотрел исходную страницу298 и собственное увеличение шапки d1/d2/d3/H1/H2/H3. В сравнении двух экспортов выявлены30 связанных кандидатных записей:28находитсявd2,35вH2,аd3/H3дляназванных строк имеют общие прочерки. Четырёхсторонний консенсус ещё ожидается.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/4d8b6ed692aa148c07e6f8b377f3dca93f619f9e5f1108871325154631e022bd.json",
+      "sha256": "4d8b6ed692aa148c07e6f8b377f3dca93f619f9e5f1108871325154631e022bd",
+      "bytes": 113349,
+      "role": "exact-delivered-page-with-original-attribution"
+    }
+  ],
+  "changes_engineering_denominator": false,
+  "consensus": "pending; no automatic oracle",
+  "new_model_calls": 0
+}
