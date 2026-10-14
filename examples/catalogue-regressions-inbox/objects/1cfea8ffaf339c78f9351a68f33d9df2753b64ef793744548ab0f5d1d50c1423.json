@@ -1,0 +1,140 @@
+{
+  "program_version": "1.5.3",
+  "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+  "physical_page": 47,
+  "tool_counts": {
+    "catalog__load_skill": 1,
+    "catalog__view_page": 1,
+    "catalog__save_source_observation": 3,
+    "catalog__read_page_json": 1,
+    "catalog__read_external_audit": 1,
+    "bash": 27,
+    "catalog__view_region": 16,
+    "catalog__save_review": 3,
+    "catalog__record_dimension_reviews": 8,
+    "catalog__enable_helpers": 1,
+    "catalog__get_json_schema": 1,
+    "catalog__correct_source_observation": 3
+  },
+  "native_outcome": "1200s timeout; one recorded429",
+  "save_refusals": [
+    {
+      "saved": false,
+      "error": "A blanket figures PASS cannot certify dimension ownership. Enable labels helpers to record already inspected relationships in a batch; enable drawings only for ambiguous engineering geometry. Inspect each source view/variant and its own tips/contour. False or unresolved relationships require figures failed. Never borrow a label from another view.",
+      "missing_dimension_relations": [
+        {
+          "figure_index": 0,
+          "label_index": 3,
+          "figure_title": "Протокол аттестационных испытаний (верхний ряд, 1-й слева)",
+          "label": "2018 г.",
+          "inventory": "candidate"
+        },
+        {
+          "figure_index": 0,
+          "label_index": 7,
+          "figure_title": "Протокол аттестационных испытаний (верхний ряд, 1-й слева)",
+          "label": "2018 г.",
+          "inventory": "candidate"
+        },
+        {
+          "figure_index": 0,
+          "label_index": 8,
+          "figure_title": "Протокол аттестационных испытаний (верхний ряд, 1-й слева)",
+          "label": "ПРОТОКОЛ № [рукописный номер неразборчив] от 24.0[4/6].2018",
+          "inventory": "candidate"
+        },
+        {
+          "figure_index": 0,
+          "label_index": 9,
+          "figure_title": "Протокол аттестационных испытаний (верхний ряд, 1-й слева)",
+          "label": "по результатам срока действия Заключения аттестационной комиссии № 29-10 от 22.03.2010 г. в дополнение",
+          "inventory": "candidate"
+        },
+        {
+          "figure_index": 0,
+          "label_index": 10,
+          "figure_title": "Протокол аттестационных испытаний (верхний ряд, 1-й слева)",
+          "label": "Срок действия с 2[4/9].09.2018 г. по [рукописная дата неразборчива]",
+          "inventory": "candidate"
+        },
+        {
+          "figure_index": 0,
+          "label_index": 12,
+          "figure_title": "Протокол аттестационных испытаний (верхний ряд, 1-й слева)",
+          "label": "Изоляторы линейные подвесные тарельчатые стеклянные типа ПС 70Е, ПСВ 70А, ПСЕ 70В, климатического исполнения УХЛ1, категория размещения 1, изготовленные в соответствии с ТУ 3493-004-99267582-2009 (изм.9)",
+          "inventory": "candidate"
+        },
+        {
+          "figure_index": 0,
+          "label_index": 14,
+          "figure_title": "Протокол аттестационных испытаний (верхний ряд, 1-й слева)",
+          "label": "Акционерное общество «Ю.М.Э.К.» (АО «Ю.М.Э.К» – 457040, Челябинская обл., г. Южноуральск, ул. Строителей 1б)",
+          "inventory": "candidate"
+        },
+        {
+          "figure_index": 0,
+          "label_index": 16,
+          "figure_title": "Протокол аттестационных испытаний (верхний ряд, 1-й слева)",
+          "label": "Акционерное общество «Ю.М.Э.К.» (АО «Ю.М.Э.К» – 457040, Челябинская обл., г. Южноуральск, ул. Строителей 1б)",
+          "inventory": "candidate"
+        },
+        {
+          "figure_index": 0,
+          "label_index": 3,
+          "figure_title": "Протокол аттестационных испытаний (верхний ряд, 1-й слева)",
+          "label": "2018 г.",
+          "inventory": "source"
+        },
+        {
+          "figure_index": 0,
+          "label_index": 7,
+          "figure_title": "Протокол аттестационных испытаний (верхний ряд, 1-й слева)",
+          "label": "2018 г.",
+          "inventory": "source"
+        },
+        {
+          "figure_index": 0,
+          "label_index": 8,
+          "figure_title": "Протокол аттестационных испытаний (верхний ряд, 1-й слева)",
+          "label": "ПРОТОКОЛ № [рукописный номер неразборчив] от 24.0[4/6].2018",
+          "inventory": "source"
+        },
+        {
+          "figure_index": 0,
+          "label_index": 9,
+          "figure_title": "Протокол аттестационных испытаний (верхний ряд, 1-й слева)",
+          "label": "по результатам срока действия Заключения аттестационной комиссии № 29-10 от 22.03.2010 г. в дополнение",
+          "inventory": "source"
+        },
+        {
+          "figure_index": 0,
+          "label_index": 10,
+          "figure_title": "Протокол аттестационных испытаний (верхний ряд, 1-й слева)",
+          "label": "Срок действия с 2[4/9].09.2018 г. по [рукописная дата неразборчива]",
+          "inventory": "source"
+        },
+        {
+          "figure_index": 0,
+          "label_index": 12,
+          "figure_title": "Протокол аттестационных испытаний (верхний ряд, 1-й слева)",
+          "label": "Изоляторы линейные подвесные тарельчатые стеклянные типа ПС 70Е, ПСВ 70А, ПСЕ 70В, климатического исполнения УХЛ1, категория размещения 1, изготовленные в соответствии с ТУ 3493-004-99267582-2009 (изм.9)",
+          "inventory": "source"
+        },
+        {
+          "figure_index": 0,
+          "label_index": 14,
+          "figure_title": "Протокол аттестационных испытаний (верхний ряд, 1-й слева)",
+          "label": "Акционерное общество «Ю.М.Э.К.» (АО «Ю.М.Э.К» – 457040, Челябинская обл., г. Южноуральск, ул. Строителей 1б)",
+          "inventory": "source"
+        },
+        {
+          "figure_index": 0,
+          "label_index": 16,
+          "figure_title": "Протокол аттестационных испытаний (верхний ряд, 1-й слева)",
+          "label": "Акционерное общество «Ю.М.Э.К.» (АО «Ю.М.Э.К» – 457040, Челябинская обл., г. Южноуральск, ул. Строителей 1б)",
+          "inventory": "source"
+        }
+      ]
+    }
+  ]
+}

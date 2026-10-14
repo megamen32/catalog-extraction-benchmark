@@ -1,0 +1,31 @@
+{
+  "id": "isolators47-certificate-metadata-not-dimension-arrows",
+  "status": "pending_adjudication",
+  "priority": "high",
+  "category": "review_false_geometry",
+  "title": "Dates, certificate numbers and addresses demanded as drawing dimension ownership",
+  "source": {
+    "filename": "Katalog-IZOLJaTORY.pdf",
+    "sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+    "physical_page": 47
+  },
+  "review_basis": "Native reviewer26 history retained. Root viewed original47: eight document thumbnails and two standard-project title sheets, not dimensional engineering views.1.5.3 refused figure PASS for metadata including2018г, protocol numbers and addresses;66 tool calls and1200s timeout. This diagnostic does not certify every candidate glyph.",
+  "artifacts": [
+    {
+      "path": "objects/ff2ec925880fdb495974da2039c17d85ea353645895e4b8d0fbdb1da62c03590.json",
+      "sha256": "ff2ec925880fdb495974da2039c17d85ea353645895e4b8d0fbdb1da62c03590",
+      "bytes": 41238,
+      "role": "extractor",
+      "program_version": "1.5.3"
+    },
+    {
+      "path": "objects/1cfea8ffaf339c78f9351a68f33d9df2753b64ef793744548ab0f5d1d50c1423.json",
+      "sha256": "1cfea8ffaf339c78f9351a68f33d9df2753b64ef793744548ab0f5d1d50c1423",
+      "bytes": 7636,
+      "role": "native_transcript_diagnostic",
+      "program_version": "1.5.3"
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "Metadata accuracy still requires source verification. Do not demand fictional arrow tips for dates/IDs. Explicit independent supporting-only classification may bypass only metadata geometry; actual/mixed drawings, bare dimensions, diameters, tolerances and length units remain guarded."
+}
