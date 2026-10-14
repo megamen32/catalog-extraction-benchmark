@@ -1,0 +1,37 @@
+{
+  "id": "innov184-footer-observer-added-explanation",
+  "status": "pending_adjudication",
+  "category": "source_observation_efficiency",
+  "title": "Observer appends an unprinted page prefix and explanatory prose to a footer",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 184
+  },
+  "review_basis": "Full new native158 history audited. Original page visually inspected. Native final review passed; retained records diagnose extra work and observer corrections. No ambiguous glyph is promoted to automatic gold.",
+  "failure_oracle": "Keep page number and literal footer facts separate from observer reasoning. Do not add unprinted Стр. or explanatory sentences to the source footer, or demand a catalogue repair for this observer mistake.",
+  "artifacts": [
+    {
+      "path": "objects/ff35c48c8aba77b54eaa73c2c1bbab39ca48e7e25f895806171324d2f0b01111.json",
+      "sha256": "ff35c48c8aba77b54eaa73c2c1bbab39ca48e7e25f895806171324d2f0b01111",
+      "bytes": 33325,
+      "role": "diagnostic",
+      "program_version": "1.5.8"
+    },
+    {
+      "path": "objects/c2bf7d8b91c7f05428df2f02e15407686404e1a23570b2e38c70bebd0da1e9b6.json",
+      "sha256": "c2bf7d8b91c7f05428df2f02e15407686404e1a23570b2e38c70bebd0da1e9b6",
+      "bytes": 4763,
+      "role": "extractor",
+      "program_version": "1.5.6"
+    },
+    {
+      "path": "objects/ad062b038b6dcefa04ac28e85463d23a55f2af532148d7e5ad40a241d2bf9b64.json",
+      "sha256": "ad062b038b6dcefa04ac28e85463d23a55f2af532148d7e5ad40a241d2bf9b64",
+      "bytes": 4838,
+      "role": "reviewer",
+      "program_version": "1.5.8"
+    }
+  ],
+  "assertions": []
+}

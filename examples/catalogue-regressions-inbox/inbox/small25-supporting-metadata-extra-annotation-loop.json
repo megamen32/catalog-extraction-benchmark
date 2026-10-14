@@ -1,0 +1,37 @@
+{
+  "id": "small25-supporting-metadata-extra-annotation-loop",
+  "status": "pending_adjudication",
+  "category": "supporting_metadata_efficiency",
+  "title": "A pure supporting page leaves the explicit metadata flag false and repeats annotation records",
+  "source": {
+    "filename": "Malyj-katalog.pdf",
+    "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_page": 25
+  },
+  "review_basis": "Full new native158 history audited. Original page visually inspected. Native final review passed; retained records diagnose extra work and observer corrections. No ambiguous glyph is promoted to automatic gold.",
+  "failure_oracle": "Use the already supported independent supporting_annotations_verified contract only when its strict source/candidate context and factual checks hold. Otherwise record actual annotations without inventing dimensional arrows; never waive factual mismatches.",
+  "artifacts": [
+    {
+      "path": "objects/7aa37ae4f242463406d48bacab56f7221c20f4c5092e5209803775c8515b73bd.json",
+      "sha256": "7aa37ae4f242463406d48bacab56f7221c20f4c5092e5209803775c8515b73bd",
+      "bytes": 93195,
+      "role": "diagnostic",
+      "program_version": "1.5.8"
+    },
+    {
+      "path": "objects/78dc79e85c441897b937a7a0b877b23d23120ff670911236292417d39b7d9294.json",
+      "sha256": "78dc79e85c441897b937a7a0b877b23d23120ff670911236292417d39b7d9294",
+      "bytes": 17147,
+      "role": "extractor",
+      "program_version": "1.5.3"
+    },
+    {
+      "path": "objects/a6c59a0ee84c01a9ad0778f54a4e2f4e182c4700205733d03c26e7c941d1a0cf.json",
+      "sha256": "a6c59a0ee84c01a9ad0778f54a4e2f4e182c4700205733d03c26e7c941d1a0cf",
+      "bytes": 6580,
+      "role": "reviewer",
+      "program_version": "1.5.8"
+    }
+  ],
+  "assertions": []
+}
