@@ -1,0 +1,24 @@
+{
+  "id": "native-provider-error-is-not-artifact-repair",
+  "status": "pending_adjudication",
+  "category": "provider_failure_control",
+  "title": "FastAgent stop_reason error is retried as a missing JSON artifact repair",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 189
+  },
+  "review_basis": "Actual1510 native MiniMax history has repeated error responses429/2056 with stop_reason error and no source tools. Official GET confirms exhausted interval. Seven quota-denied in-flight attempts cancelled through their own supervisors after source-tool-call checks; GLM untouched.",
+  "failure_oracle": "A terminal SDK provider error must end this native attempt and return control to provider pacing. Ordinary end-turn with incomplete source artifact must still continue without a repair count cap; cancellation/deadline and strict artifact verification remain.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/7c187e29afac2430330835c5f7dbb4409275e79e6a04615a999bb92cb75da9c2.json",
+      "sha256": "7c187e29afac2430330835c5f7dbb4409275e79e6a04615a999bb92cb75da9c2",
+      "bytes": 535,
+      "role": "native_sdk_failure_diagnostic",
+      "program_version": "1.5.10",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium"
+    }
+  ]
+}

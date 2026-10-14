@@ -1,0 +1,13 @@
+{
+  "program_version": "1.5.10",
+  "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+  "physical_page": 189,
+  "native_stop_reason": "error",
+  "error_code": 429,
+  "provider_code": 2056,
+  "message": "Token Plan usage limit reached",
+  "source_tool_calls": 0,
+  "native_assistant_error_turns_observed": 5,
+  "failure": "generate_until_saved continues with missing-artifact repair prompt after SDK provider error; source/schema repair and provider failure are different outcomes",
+  "raw_transcript_published": false
+}
