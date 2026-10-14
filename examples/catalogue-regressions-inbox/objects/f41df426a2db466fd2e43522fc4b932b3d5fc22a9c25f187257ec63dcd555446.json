@@ -1,0 +1,77 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 122,
+  "printed_page": "121",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "d2a7faad0bdb27be77f29d8f613faeb8155ed4c3b8bb4027db5da1ab40f7c4cf",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.6",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "ca9cb343d7402f9bdb421b4fc5bc0b77ee1cff94b255122f592b3fda0e12f0b3",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "d2a7faad0bdb27be77f29d8f613faeb8155ed4c3b8bb4027db5da1ab40f7c4cf",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 122,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "3031f54101971a2d9729b048304180edaaf22cda716b98c15339c8c61c45fa7b",
+      "receipt": "calls/3db5bf6bf9d448149f35e9ac8318972b/result.json",
+      "started_at": 1791943577.8678951,
+      "finished_at": 1791943665.7629821
+    }
+  },
+  "output": {
+    "file": "armature-122-reviewed.json",
+    "sha256": "3de3770243d0b1f9ea1166c1026be5377de379f89ac6313049ff2f95658bfab6"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "d4c260ffda590fa5048e67ce52ec61657e1c4e36f0a53a99aa0978fb02edc484",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      17
+    ],
+    "column_counts": [
+      12
+    ],
+    "cells_checked": 204
+  },
+  "source_findings": [
+    "Все204ячейки17×12сверены. Отдельныекорпус/втулкаиматрицыкорпуса/втулкинеперемешаны.",
+    "САСТ500.4 L990/масса8,00,500.5 L100/9,30истиннопечатные. МШ60/МШ31,2у500.5,МШ30,3у750.1,МШ33,8у800.1проверены.",
+    "ВерхняяшапкаРазмеры,ммнепрерывнонакрываетD,d,D1,d1,L,L1,L2."
+  ],
+  "corrections": [
+    "Выдуманныйбренд«федеральнаясетеваякомпания»заменёнпечатнымпроизводственнымобъединением.",
+    "Вevidenceразмернаягруппакорректнораспространенанавсе7колонок,а не4.",
+    "УдаленавыдуманнаяформулаL≈L1+L2,печатныеL990/100сохраненыбезпересчёта."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T15:44:21.153250+03:00",
+  "private_original_receipt_sha256": "5f90b102cb251b4892f2eeb7a341fce9788b7852f5e085c2b120e612159e4131"
+}

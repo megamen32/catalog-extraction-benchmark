@@ -1,0 +1,88 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 132,
+  "printed_page": "131",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r2",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-0132-native-candidate.json",
+    "sha256": "49e102e0c63c7eb0f813562a16af09e4038c44866a40e0a750ba3e0d4455297a",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.8",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "56b47ab11c142fdd0d89ade636eb52fff30220c3425401678e2bf74c18b69c62",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "49e102e0c63c7eb0f813562a16af09e4038c44866a40e0a750ba3e0d4455297a",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 132,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "ad43db8eeb96f6a5b1aab82eb07fb8d999a3c90cd9e1f094a41f378634f1d7ae",
+      "receipt": "calls/a37e12d802c14bc99fc6a7f70f5036b4/result.json",
+      "started_at": 1791944488.9517217,
+      "finished_at": 1791944559.9155004
+    }
+  },
+  "output": {
+    "file": "armature-0132-reviewed-r2.json",
+    "sha256": "2de9fe822659fc87007c97d632e243b3db16199edd8a9cd0c57b514eed494149"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "2b7dee5f2628e3ed03fc791618afff8c9a419edacfadbffe8cf66b22aff359cb",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      10
+    ],
+    "column_counts": [
+      6
+    ],
+    "cells_checked": 60
+  },
+  "source_findings": [
+    "Крупный оригинальный кроп верхнего заголовка и текстовый слой PDF независимо подтверждают «цанговые». Полная страница и блок преимуществ просмотрены ранее, все числовые данные 60 ячеек и геометрия остаются верными.",
+    "Прежнее source_note о различии было собственной ошибкой чтения. Она устранена во всех повторах summary, evidence, text_blocks, заголовке таблицы и source_notes."
+  ],
+  "corrections": [
+    "Все ошибочные «цапковые / цапковых» исправлены на исходные «цанговые / цанговых».",
+    "Удалено ложное примечание о различии верхнего наименования и блока преимуществ: исходник одинаков в обоих местах."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T12:27:20.737196+00:00",
+  "previous_reviewed_output": {
+    "file": "armature-0132-reviewed.json",
+    "sha256": "836aed82a7d56778b71801c9491e9eaf18469c55589e2adeec7285ed5ff78d64"
+  },
+  "revision_trigger": "Independent source review by catalog_tail_mod1, followed by personal source-image recheck by catalog_tail_mod0.",
+  "revision_evidence_images": [
+    {
+      "file": "armature-0132-r2-title.png",
+      "sha256": "8865f92399d25ccce339bac184f68409ccd5f6e6a35ae2e8c118850928e6d679"
+    }
+  ],
+  "private_original_receipt_sha256": "7a8ace4806a01602c6aea61b15959883ca5aa68f2d0dcc9486c175b818bbde34"
+}

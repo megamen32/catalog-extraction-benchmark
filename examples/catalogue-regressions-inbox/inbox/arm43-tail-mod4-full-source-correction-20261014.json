@@ -1,0 +1,36 @@
+{
+  "id": "arm43-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 43: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 43
+  },
+  "review_basis": "Все12 ячеек3×4 совпадают. Сохранены нагрузки90/60/60 и массы49,57/74,6/53,1; совместимость первых двух строк объединена, последняя2ПРР-21-1 буквально. Необычный ТУ52814896 и повтор нагрузка нагрузка раскрыты. Три собственных5×кропа устанавливают Ø278 по штрихпунктирной окружности,не внешнему диаметру. Исправления: [{\"path\": \"branding/figures/page_context\", \"reason\": \"Ø278 перенесён с наружного кольца на окружность отверстий; уточнены600/450/150 и пальцы, удалён недоказанный сварной способ.\"}] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/3c1e8954ebb4e6b334d5d905805352b7fb6044bb42e9afde324a71b6136dbe72.json",
+      "sha256": "3c1e8954ebb4e6b334d5d905805352b7fb6044bb42e9afde324a71b6136dbe72",
+      "bytes": 12200,
+      "role": "native-candidate",
+      "program_version": "1.5.3"
+    },
+    {
+      "path": "objects/baaa440c91ea736f513cb810e2d8818f0b8d9488a58e1670f7deefb8cb86948a.json",
+      "sha256": "baaa440c91ea736f513cb810e2d8818f0b8d9488a58e1670f7deefb8cb86948a",
+      "bytes": 11204,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-20261014.r11"
+    },
+    {
+      "path": "objects/f545e77d0912fc99b305a798dcd6f32f9ad013357724a5af171387b807f51bba.json",
+      "sha256": "f545e77d0912fc99b305a798dcd6f32f9ad013357724a5af171387b807f51bba",
+      "bytes": 13511,
+      "role": "source-review",
+      "program_version": "tail-mod3-20261014.r11"
+    }
+  ]
+}

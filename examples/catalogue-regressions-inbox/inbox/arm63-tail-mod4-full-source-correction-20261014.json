@@ -1,0 +1,36 @@
+{
+  "id": "arm63-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 63: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 63
+  },
+  "review_basis": "Все52 ячейки:2×10 зажимов и8×4 прокладок совпадают. Сохранены H161/H1 259,5 и214,5, обеL500,диаметр45,массы7,30/6,81,нагрузки80/39,24, четыре прочерка А/d. Все длинные списки проводов прокладок, одиночный прочеркБ и повторные ПГН-5-3/5-6 в тексте сохранены. Собственный6×кроп подтверждает H1наружный иHотдельный. Исправления: [{\"path\": \"branding/figures/page_context\", \"reason\": \"Удалён выдуманный производитель магнитополимерных изделий; H/H1 исправлены,19,2 привязан к верхнему присоединительному элементу.\"}] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/9d621e8320cbd367d9179be2a824a46c0be0b3f01f29a35759d1eef9a18d16b3.json",
+      "sha256": "9d621e8320cbd367d9179be2a824a46c0be0b3f01f29a35759d1eef9a18d16b3",
+      "bytes": 18186,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/6d8a8832c61e603d3691aba132fd94245352dc5a4cb54fc96303266814d99ffc.json",
+      "sha256": "6d8a8832c61e603d3691aba132fd94245352dc5a4cb54fc96303266814d99ffc",
+      "bytes": 16558,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-20261014.r10"
+    },
+    {
+      "path": "objects/0f9c4c4582b1d94f66f8eae59a9753b037f5a2adf59959a9796755de48a56cd8.json",
+      "sha256": "0f9c4c4582b1d94f66f8eae59a9753b037f5a2adf59959a9796755de48a56cd8",
+      "bytes": 10237,
+      "role": "source-review",
+      "program_version": "tail-mod3-20261014.r10"
+    }
+  ]
+}

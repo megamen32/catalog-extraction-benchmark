@@ -1,0 +1,36 @@
+{
+  "id": "arm207-tail-mod4-full-source-correction-20261014-revision-9b24123141",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 207: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 207
+  },
+  "review_basis": "30ячеек5×6полностьюпроверены,ПА-640общий,А-74напервые4строки,АШ-70напоследнюю. L341/311/340/320/380имассы5,81/5,51/6,06/5,90/3,37сохранены. Триконструкциис140,385,60/60/60/100,М16,20min,24min,Ø18проверены;позицииРис1/2неперепутаны. Убранафантазияорезьбенаконцепровода;номер206восстановлен. Повторно просмотрен полный оригинал. Описания рисунков переписаны обычным русским с пробелами; доказательство охватывает все названные признаки полного листа. Табличные числа, марки, матрицы и единицы неизменны. Исправления: [{\"path\": \"figures/printed_page/source_notes\", \"reason\": \"Уточненытолщины20/24min иL;убранывыдуманныерезьбовойхвостовик/гайка,служебныйтекстосохраненииlabels.\"}, {\"path\": \"figures.description/page_context.source_evidence\", \"reason\": \"Повторно просмотрен полный оригинал. Описания рисунков переписаны обычным русским с пробелами; доказательство охватывает все названные признаки полного листа. Табличные числа, марки, матрицы и единицы неизменны.\"}] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/8103d245b6100162ef415755d98b643ff5135c8e4bc96c65eb1dcae22ea3e001.json",
+      "sha256": "8103d245b6100162ef415755d98b643ff5135c8e4bc96c65eb1dcae22ea3e001",
+      "bytes": 16299,
+      "role": "native-candidate",
+      "program_version": "1.5.13"
+    },
+    {
+      "path": "objects/9b24123141a797fc892d5783dd5c66fe812a10b28eaac6bd70c6207ab70dea02.json",
+      "sha256": "9b24123141a797fc892d5783dd5c66fe812a10b28eaac6bd70c6207ab70dea02",
+      "bytes": 14245,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-20261014.r2-press-arrow-prose"
+    },
+    {
+      "path": "objects/6b0cbc8eb5c9768f23638ed0e446c1adb3336fac5a16091185db96b8b985702b.json",
+      "sha256": "6b0cbc8eb5c9768f23638ed0e446c1adb3336fac5a16091185db96b8b985702b",
+      "bytes": 22727,
+      "role": "source-review",
+      "program_version": "tail-mod3-20261014.r2-press-arrow-prose"
+    }
+  ]
+}

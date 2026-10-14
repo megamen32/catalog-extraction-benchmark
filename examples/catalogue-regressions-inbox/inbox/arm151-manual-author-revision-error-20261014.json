@@ -1,0 +1,29 @@
+{
+  "id": "arm151-manual-author-revision-error-20261014",
+  "status": "pending_adjudication",
+  "category": "manual-author-and-reviewer-failure",
+  "title": "Арматура 151: ошибка ручного автора и независимое исправление",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 151
+  },
+  "review_basis": "Ручной автор сохранил выдуманный пустой ряд рамки под таблицей. Оригинальный5×низ показывает отдельную горизонтальную линию колонтитула без боковин ряда. r2 удаляет только ложное примечание; все171 ячейка и чертёж прежние. Ответственный за ошибочный ручной артефакт — native Codex, не MiniMax/GLM. Исходные native JSON и receipts не редактировались. Старые шкалы500/520 и модельные результаты не пересчитывались; это отдельный pending error case.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/575d3c79596d64ec2908bedccd9dc316571cf1ac889ee60e67e7b205d26515e8.json",
+      "sha256": "575d3c79596d64ec2908bedccd9dc316571cf1ac889ee60e67e7b205d26515e8",
+      "bytes": 31178,
+      "role": "manual-author-output-with-confirmed-error",
+      "program_version": "tail-mod3-20261014.r6"
+    },
+    {
+      "path": "objects/5018d4ae973a7af2a99aaa6bc9de6202c1b70adb0dfd5db153c3d3df6efe36ca.json",
+      "sha256": "5018d4ae973a7af2a99aaa6bc9de6202c1b70adb0dfd5db153c3d3df6efe36ca",
+      "bytes": 31034,
+      "role": "source-checked-manual-revision",
+      "program_version": "tail-mod3-20261014.r6-corrected"
+    }
+  ]
+}

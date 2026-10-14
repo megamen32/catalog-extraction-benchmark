@@ -1,0 +1,161 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_filename": "Katalog-ARMATURA.pdf",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 39,
+  "printed_page": "38",
+  "status": "awaiting_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod3",
+    "task": "/root/catalog_tail_mod3",
+    "version": "tail-mod3-20261014.r11",
+    "model_id": "Current native Codex worker session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-39-candidate.json",
+    "sha256": "dff2ffdb9dfe3136b4e669fb630385b9614bdc7a02bdec8885e18e5c18d95b44",
+    "canonical_sha256": "fda49b04c3e59d68dc1dc488f1055fcfcaf48ed4689d0be0f4b2fbacab8915a2",
+    "producer": {
+      "program": {
+        "package_version": "1.5.3",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "531e9bea963ef7592a9a09035761b155f81fbf1ba43027dc5c7017c55e9693fe",
+        "python_version": "3.12.13"
+      },
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 39,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "3b4165e5e56d3a8455b883aea55738aa0e06f3159a60ba01bc9d5ccabf1f6d10",
+      "artifact_sha256": "dff2ffdb9dfe3136b4e669fb630385b9614bdc7a02bdec8885e18e5c18d95b44",
+      "started_at": 1791939009.6674895,
+      "finished_at": 1791939060.385432,
+      "provider_rate_limit_events": 2,
+      "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46",
+      "status": "receipt_verified",
+      "source_bound_save": true,
+      "receipt": ".tmp/full-digitization/staged-best-v1.4.8/armature/page-0039/calls/471fde43ff1c4d84a2a1417f2a88d5c1/result.json",
+      "frozen_receipt": "armature-39-native-receipt.json",
+      "frozen_receipt_sha256": "d1ac07370a248003ba0d961c42dfaca3d71514bd58efb1fb5582ccae051b35ec"
+    }
+  },
+  "output": {
+    "file": "armature-39-reviewed.json",
+    "sha256": "e7c15e6f6fb645a3c1d6d9725c7d63224bc624121b7d97293422dc95ec60a6d0",
+    "canonical_sha256": "00832bbef466e9e6168d2deb20b4464ed27e11392db2181af94795ba6cd30fc7"
+  },
+  "full_original_image_review": true,
+  "original_image": "armature-39.png",
+  "original_image_sha256": "83763d67ccdb423bd4ed3a3bc3fc88c58f513bfcf4fa911fd58c9646b05b8b4d",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "page_content_schema": true
+  },
+  "tables": {
+    "row_counts": [
+      18
+    ],
+    "column_counts": [
+      13
+    ],
+    "cells_checked": 234
+  },
+  "source_findings": "Все234 ячейки18×13 проверены. Сохранены необычные d38 у60-2/90-1, четыре прочерка d у120-1/135/180/270, разные R/R1,H/H1/H2,L/L1;масса1220 беззапятой. Нагрузки120…2700, остальные массы4,75…101,0 совпадают. Собственный5×кроп прослежен по каждой выноске.",
+  "corrections": [
+    {
+      "path": "branding/figures/page_context",
+      "reason": "Удалён выдуманный ФОРЕШТРОМЕРЖЭнерго; D/D1 настоящие диаметры прутков, R1 нижний изгиб, d круглое отверстие. Все буквенные размеры привязаны."
+    }
+  ],
+  "complete_leaf_diff": [
+    {
+      "path": ".figures[0].description",
+      "before": "Схематический чертёж сцепной арматуры (коромысла): V-образный силуэт из двух наклонных элементов, соединённых в верхней вершине радиусами R и R1, с продольным отверстием диаметра d в средней нижней части и вылетом D/D1 по краям. Размерные линии по высоте даны как H, H1 и H2, по ширине — L и L1; обозначения соответствуют столбцам таблицы размеров на этой же странице. Единицы измерения на самом чертеже не проставлены — они заданы группой «Размеры, мм» в таблице.",
+      "after": "Универсальное коромысло2КУ с верхним изгибом прутка и двумя нижними обратными изгибами. D — диаметр основного верхнего пруткового элемента; D1 — диаметр обратной ветви у нижнего изгиба. R — внутренний радиус верхнего изгиба, R1 — внутренний радиус нижнего правого изгиба. d — диаметр круглого отверстия нижней центральной перемычки, а не продольный паз. L — горизонтально между центрами нижних изгибов; L1 — полный наружный горизонтальный габарит. H — вертикально между внутренней верхней точкой верхнего изгиба и нижним отмеченным внутренним уровнем нижних изгибов; H1 — полный наружный вертикальный габарит. H2 — вдоль прямой обратной ветви от уровня центра нижнего изгиба до отмеченного торца обратного участка. D/D1 не являются вылетами. Единицы мм заданы общей шапкой таблицы."
+    },
+    {
+      "path": ".page_context.source_evidence",
+      "before": [
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.08,
+            0.025,
+            0.93,
+            0.25
+          ],
+          "observation": "Заголовочная и вводная часть страницы: рубрика каталога «ЛИНЕЙНАЯ АРМАТУРА ДЛЯ ВЛ / АРМАТУРА СЦЕПНАЯ», подзаголовок «Коромысла универсальные типа 2КУ», блок «НАЗНАЧЕНИЕ» с описанием применения и указанием ТУ. Формулировки носят характер универсального заводского описания изделия и применимости, что и определяет назначение страницы как товарных данных.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.08,
+            0.57,
+            0.95,
+            0.94
+          ],
+          "observation": "Единая таблица типоразмеров с шапкой и 18 строками изделий 2КУ: обозначения наименований, группа «Размеры, мм» с обозначениями D, D1, d, R, R1, H, H1, H2, L, L1, а также разрушающая нагрузка и масса. Это самостоятельный заводской сортамент изделия по типоразмерам, а не позиции конкретной стройки.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.35,
+            0.26,
+            0.93,
+            0.51
+          ],
+          "observation": "Чертёж арматуры с обозначениями размеров D, D1, d, R, R1, H, H1, H2, L, L1; обозначения совпадают с обозначениями столбцов таблицы, что связывает значения таблицы с элементами чертежа.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.06,
+            0.94,
+            0.95,
+            0.97
+          ],
+          "observation": "Колонтитул с реквизитами завода-изготовителя, телефонами и адресом сайта — оформление каталожного издания.",
+          "transcription": "literal"
+        }
+      ],
+      "after": [
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.06,
+            0.02,
+            0.96,
+            0.98
+          ],
+          "observation": "2КУ для двухцепных подвесок и крепления двух проводов, цепное соединение, ТУ2010. Один чертёж с прутковыми диаметрами, радиусами, внутренними/наружными габаритами и круглым отверстием, таблица18×13. Масса1220 последней строки сохранена буквально, не заменена122,0.",
+          "transcription": "literal"
+        }
+      ]
+    },
+    {
+      "path": ".text_blocks[3].text",
+      "before": "ФОРЭНЕРГО — ФОРЕШТРОМЕРЖЭнерго (производитель/поставщик разработки); FORENERGO industries group; логотип Форэнерго",
+      "after": "ФОРЭНЕРГО — производственное объединение / FORENERGO industrial group"
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independent_review_required": true,
+  "unresolved_issues": [],
+  "acceptance_note": "No PASS issued. Corrected content, engineering drawing relations, and uncertainties require independent source review.",
+  "completed_at": "2026-10-14T15:50:34.509658+03:00",
+  "private_original_receipt_sha256": "9cea5ac2cf07b1050814756aaa69b9f10aa7007f3b5d10b85be2170609c52b4d"
+}

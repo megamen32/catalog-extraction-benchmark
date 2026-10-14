@@ -1,0 +1,161 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_filename": "Katalog-ARMATURA.pdf",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 51,
+  "printed_page": "50",
+  "status": "awaiting_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod3",
+    "task": "/root/catalog_tail_mod3",
+    "version": "tail-mod3-20261014.r11",
+    "model_id": "Current native Codex worker session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-51-candidate.json",
+    "sha256": "c3db9a0552b26e834ddc46dad5d4b7d53c4689c43a7587b511a023c98acd55e8",
+    "canonical_sha256": "2b4a4f46bd1f9b5b6d51815a66d5eded2862c678d148957b26dd3eee5e23fd5e",
+    "producer": {
+      "program": {
+        "package_version": "1.5.3",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "531e9bea963ef7592a9a09035761b155f81fbf1ba43027dc5c7017c55e9693fe",
+        "python_version": "3.12.13"
+      },
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 51,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "3b4165e5e56d3a8455b883aea55738aa0e06f3159a60ba01bc9d5ccabf1f6d10",
+      "artifact_sha256": "c3db9a0552b26e834ddc46dad5d4b7d53c4689c43a7587b511a023c98acd55e8",
+      "started_at": 1791939688.7636862,
+      "finished_at": 1791939751.2031245,
+      "provider_rate_limit_events": 0,
+      "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46",
+      "status": "receipt_verified",
+      "source_bound_save": true,
+      "receipt": ".tmp/full-digitization/staged-best-v1.4.8/armature/page-0051/calls/c012763c8978412d95fdc938ba047fe1/result.json",
+      "frozen_receipt": "armature-51-native-receipt.json",
+      "frozen_receipt_sha256": "5985acfd7a6b7ec8a0daf945485537e2c68f8d96a5b766091aaada57153dcd6f"
+    }
+  },
+  "output": {
+    "file": "armature-51-reviewed.json",
+    "sha256": "b06ab12445ee59d853f159aabeb7adc605b40744395c243a34609d00389780f0",
+    "canonical_sha256": "cf7c7134a55f8ddbbf74bc159da00840d6332b55bbc7153fcda83524df2313ee"
+  },
+  "full_original_image_review": true,
+  "original_image": "armature-51.png",
+  "original_image_sha256": "1dc45a20c2ecfff4a7862986be5685bde5a80f387dfc5f5a51b0266c3726cf14",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "page_content_schema": true
+  },
+  "tables": {
+    "row_counts": [
+      21
+    ],
+    "column_counts": [
+      12
+    ],
+    "cells_checked": 252
+  },
+  "source_findings": "Все252 ячейки21×12 проверены: A950/600 на35…60 и1450/900 на120…180, L830/1050/1630/1650 по своим объединениям; H180/200 последних групп. Три звёздочных Amin-прочерка и сноска2КЛ сохранены. Нагрузки70…1800 и массы1,77…169,6 совпадают. Собственный5×кроп проверяет B/B1 и палецd.",
+  "corrections": [
+    {
+      "path": "branding/figures/page_context",
+      "reason": "Удалён выдуманный федеральный энергосбытовой холдинг; уточнены пакетная толщинаb, полныйB и внутреннийB1."
+    }
+  ],
+  "complete_leaf_diff": [
+    {
+      "path": ".figures[0].description",
+      "before": "Верхний вид: плоское звено с рядами отверстий по краям и двумя зажимами; L — полная длина звена, A — расстояние между крайними отверстиями (регулируемая длина), H — ширина звена, D — выносная линия к отверстию в звене. Нижний вид: b — толщина стержневой (плоской) части звена, B — полная высота звена в зоне зажимов, B₁ — высота звена у зажима, d — выносная линия к болту зажима. Обозначения размеров соответствуют столбцам таблицы типоразмеров.",
+      "after": "Две проекции регулируемого звена ПРР из перекрывающихся полос с рядами отверстий и двумя поперечными пальцами. На верхнем виде L — полный продольный наружный габарит в показанном положении, A — между осями крайних присоединительных отверстий; выбор отверстий обеспечивает ступенчатую регулировку. D — диаметр отверстия левого конца, H — ширина полосы между наружными боковыми гранями. На нижнем виде b — наружная толщина левой пакетной части между крайними поверхностями. B — полный размер правого соединения от верхнего выступающего конца пальца до нижней наружной грани его головки; B1 — просвет между внутренними обращёнными плоскостями правых полос, а не наружная высота. d — диаметр поперечного пальца. Числа берутся из своих колонок таблицы; единица A отдельно не напечатана."
+    },
+    {
+      "path": ".page_context.source_evidence",
+      "before": [
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.09,
+            0.025,
+            0.54,
+            0.205
+          ],
+          "observation": "Заголовок раздела «ЛИНЕЙНАЯ АРМАТУРА ДЛЯ ВЛ / АРМАТУРА СЦЕПНАЯ», подзаголовок «Звенья промежуточные регулируемые типа ПРР» и блок НАЗНАЧЕНИЕ с прямым указанием назначения изделия (ступенчатая регулировка длины изолирующей подвески) и ТУ 3449-001-52819896-2010 — типовой каталожный текст об изделии, а не описание проекта или программы.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.09,
+            0.605,
+            0.94,
+            0.917
+          ],
+          "observation": "Единая таблица типоразмеров: столбцы «Наименование», регулируемая длина A (max/min), размеры B, B₁, b, D, d, L, H, разрушающая нагрузка кН не менее, масса кг не более. Значения A, L, H объединены по вертикали на 2–4 соседних строки (L=830 для ПРР-25-1/ПРР-30-1; L=1050 для ПРР-45-1/ПРР-53-1; L=1630 и H=180 для ПРР-120-1/ПРР-135-1; L=1650 и H=200 для ПРР-160-1/ПРР-180-1; A=950/600 для ПРР-35-1…ПРР-60-1; A=1450/900 для ПРР-120-1…ПРР-180-1). Таблица перечисляет весь ряд изделий производителя, что подтверждает её каталожный, а не проектный характер.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.24,
+            0.33,
+            0.95,
+            0.53
+          ],
+          "observation": "Чертёж звена в двух видах: верхний вид с размерами L (полная длина), A (регулируемая длина между отверстиями), H (ширина звена), D (выносная линия к отверстию); нижний вид с размерами b (толщина стержневой части), B (габарит по высоте в зажимах), B₁ (высота звена у зажима) и d (выносная линия к болту зажима). Обозначения размеров совпадают со столбцами таблицы.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.09,
+            0.92,
+            0.69,
+            0.94
+          ],
+          "observation": "Примечание под таблицей, ограничивающее область применения позиций со звёздочкой (ПРР-12-3*, ПРР-16-3*, ПРР-21-3*): только для комплектов изолирующих подвесок при установке на них лучевых коромысел типа 2 КЛ.",
+          "transcription": "literal"
+        }
+      ],
+      "after": [
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.06,
+            0.02,
+            0.96,
+            0.98
+          ],
+          "observation": "Звенья ПРР для ступенчатой регулировки подвески, ТУ2010, две проекции и21 строка размеров/нагрузок/массы. Звёздочные исполнения только для лучевых коромысел2КЛ; Amax/min без отдельной единицы, прочерки Amin сохранены. B1 — внутренний просвет, d — палец.",
+          "transcription": "literal"
+        }
+      ]
+    },
+    {
+      "path": ".text_blocks[4].text",
+      "before": "ФОРЭНЕРГО / FORENERGO Industries Group — федеральный энергосбытовой холдинг",
+      "after": "ФОРЭНЕРГО — производственное объединение / FORENERGO industrial group"
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independent_review_required": true,
+  "unresolved_issues": [],
+  "acceptance_note": "No PASS issued. Corrected content, engineering drawing relations, and uncertainties require independent source review.",
+  "completed_at": "2026-10-14T15:50:34.482412+03:00",
+  "private_original_receipt_sha256": "a90e5563e19ecd8eb9e3dd20c73363d45c494c05045d35fbda898a5c8d14ef69"
+}

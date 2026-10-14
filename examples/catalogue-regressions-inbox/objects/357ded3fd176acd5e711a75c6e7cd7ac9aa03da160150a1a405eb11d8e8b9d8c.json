@@ -1,0 +1,149 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 207,
+  "printed_page": "207",
+  "status": "awaiting_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod3",
+    "task": "/root/catalog_tail_mod3",
+    "version": "tail-mod3-innovations-20261014.r1",
+    "model_id": "Current native Codex worker session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "innovations-207-candidate.json",
+    "sha256": "0e124735dd370926b63f124a6010394966c474b0aa49ea13ad23aafebdbfdc9f",
+    "canonical_sha256": "6ec19cf6eca768f4c8cc6ff906c0636cf262425c5c43d8e92301fc153024b417",
+    "producer": {
+      "program": {
+        "package_version": "1.5.8",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "56b47ab11c142fdd0d89ade636eb52fff30220c3425401678e2bf74c18b69c62",
+        "python_version": "3.12.13"
+      },
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 207,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "ad43db8eeb96f6a5b1aab82eb07fb8d999a3c90cd9e1f094a41f378634f1d7ae",
+      "artifact_sha256": "0e124735dd370926b63f124a6010394966c474b0aa49ea13ad23aafebdbfdc9f",
+      "started_at": 1791946545.160007,
+      "finished_at": 1791946643.2945626,
+      "provider_rate_limit_events": 0,
+      "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46",
+      "status": "receipt_verified",
+      "source_bound_save": true,
+      "receipt": ".tmp/full-digitization/staged-best-v1.4.8/innovations/page-0207/calls/55b04a10f18e473ca7dd5ab60dfa32af/result.json",
+      "frozen_receipt": "innovations-207-native-receipt.json",
+      "frozen_receipt_sha256": "82aaf5217c9919d01a404987b3149d184b606106c8c4af32e7f0cfd23b509693"
+    }
+  },
+  "output": {
+    "file": "innovations-207-reviewed.json",
+    "sha256": "17e1a2fa52595bfa96fbdeaead64f055d8c8e6861d600e6d2e49df9168c8c347",
+    "canonical_sha256": "ca024e5607ff000c96fd7574300bd4cdfa3d56ddb433053135a39050af073b0c"
+  },
+  "full_original_image_review": true,
+  "original_image": "innovations-207.png",
+  "original_image_sha256": "3c0c7a8294c78f51d0bcd4a80072c03431bb4bd4a98932b88eeb84e4b56e0f04",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "page_content_schema": true
+  },
+  "tables": {
+    "row_counts": [
+      17
+    ],
+    "column_counts": [
+      12
+    ],
+    "cells_checked": 204
+  },
+  "source_findings": [
+    "Все 204 ячейки совпадают с оригиналом, включая буквальные 990 и 100.",
+    "Native evidence упоминало footer вне своей области."
+  ],
+  "corrections": [
+    "Доказательство расширено до полного листа.",
+    "Уточнены группы деталей и буквальное сохранение необычных чисел."
+  ],
+  "complete_leaf_diff": [
+    {
+      "path": ".page_context.source_evidence",
+      "before": [
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.08,
+            0.015,
+            0.46,
+            0.035
+          ],
+          "observation": "Заголовок страницы прямо называет товарную номенклатуру — «Линейная арматура для проводов АСТ», то есть раздел каталога изделий, а не объект проекта и не интерфейс программы.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.07,
+            0.055,
+            0.95,
+            0.44
+          ],
+          "observation": "Единственная таблица страницы: 17 заводских позиций с собственной маркировкой САСТ-xxx.x, привязкой к сечению провода АСТ, размерами корпуса/втулки и длинами, матрицами опрессования и предельной массой. Столбцы «Корпус/Втулка» и «Матрица опрессования» повторяют смысл деталей арматуры для конкретного провода, что характерно для типовой каталожной таблицы, а не для позиций конкретной стройки; колонтитус издателя с реквизитами заказа подтверждает каталог.",
+          "transcription": "literal"
+        }
+      ],
+      "after": [
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.07,
+            0.01,
+            0.97,
+            0.995
+          ],
+          "observation": "Весь лист: рубрика, бренд, таблица 17×12, многоуровневая шапка размеров корпуса и втулки и матриц, контакты ООО «МЗВА» и номер 207. L у САСТ-500.4 равен 990, у САСТ-500.5 — 100 по оригиналу.",
+          "transcription": "literal"
+        }
+      ]
+    },
+    {
+      "path": ".page_context.summary",
+      "before": "Страница каталога ООО «МЗВА» (ФОРЭНЕРГО) содержит таблицу товарных данных линейной арматуры для проводов марки АСТ: 17 типоразмеров САСТ-400.1 … САСТ-800.1 с привязкой к марке и сечению провода АСТ (400/18 … 800/105 мм²), габаритными размерами в мм (корпус D, d; втулка D1, d1; L, L1, L2), применяемыми матрицами опрессования для корпуса и втулки и массой в кг (не более). Это серийная продукция с заводскими обозначениями и матрицами, а не проектная спецификация и не демонстрация ПО: в каталоге нет ни наименования стройки, ни позиций проекта, ни снимков программы; таблица даёт собственный набор изделий с размерами и массами для заказа.",
+      "after": "Таблица 17 типоразмеров САСТ от 400.1 до 800.1 для проводов АСТ. Размеры корпуса D/d и втулки D₁/d₁, длины L/L₁/L₂, отдельные матрицы опрессования корпуса и втулки и масса «не более». На странице нет чертежа; все числа приведены буквально, включая необычное L=100."
+    },
+    {
+      "path": ".source_notes",
+      "before": [
+        "Заголовок «Провод марки АСТ, сечение, мм²» набран вертикально в несколько строк; единица относится к столбцу сечения, а клетки содержат запись вида «400/18» без явного разделителя значений.",
+        "Исходные значения L для САСТ-500.4 (990) и САСТ-500.5 (100) приведены буквально, как в источнике, несмотря на необычную величину.",
+        "Логотип «ФОРЭНЕРГО / FORENERGO manufacturing association» с подписью «производственное объединение» в правом верхнем углу страницы."
+      ],
+      "after": [
+        "Шапка сечения провода АСТ имеет единицу мм². Группа «Размеры, мм» включает корпус D/d, втулку D₁/d₁ и длины L/L₁/L₂. Две матрицы относятся к разным деталям.",
+        "Исходные значения L для САСТ-500.4 (990) и САСТ-500.5 (100) приведены буквально, как в источнике, несмотря на необычную величину.",
+        "Логотип «ФОРЭНЕРГО / FORENERGO manufacturing association» с подписью «производственное объединение» в правом верхнем углу страницы.",
+        "Все 204 ячейки сверены, включая d₁=22 у 550.1 и 18 у 600.1, L₂=390/420 у 500.4/500.5 и соответствующие массы 8,00/9,30. Необычные числа не исправлены по предполагаемой формуле."
+      ]
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independent_review_required": true,
+  "unresolved_issues": [],
+  "acceptance_note": "No PASS issued. Corrected content, engineering drawing relations, and uncertainties require independent source review.",
+  "completed_at": "2026-10-14T16:07:18.649496+03:00",
+  "private_original_receipt_sha256": "c44e90a855ea3f0100ebe5e90058cc3c07ca030caf1093f1f59b953c73cd1559"
+}

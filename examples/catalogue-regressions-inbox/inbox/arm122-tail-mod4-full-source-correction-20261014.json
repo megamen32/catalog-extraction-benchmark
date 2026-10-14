@@ -1,0 +1,36 @@
+{
+  "id": "arm122-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 122: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 122
+  },
+  "review_basis": "[\"Все204ячейки17×12сверены. Отдельныекорпус/втулкаиматрицыкорпуса/втулкинеперемешаны.\", \"САСТ500.4 L990/масса8,00,500.5 L100/9,30истиннопечатные. МШ60/МШ31,2у500.5,МШ30,3у750.1,МШ33,8у800.1проверены.\", \"ВерхняяшапкаРазмеры,ммнепрерывнонакрываетD,d,D1,d1,L,L1,L2.\"] Исправления: [\"Выдуманныйбренд«федеральнаясетеваякомпания»заменёнпечатнымпроизводственнымобъединением.\", \"Вevidenceразмернаягруппакорректнораспространенанавсе7колонок,а не4.\", \"УдаленавыдуманнаяформулаL≈L1+L2,печатныеL990/100сохраненыбезпересчёта.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/d2a7faad0bdb27be77f29d8f613faeb8155ed4c3b8bb4027db5da1ab40f7c4cf.json",
+      "sha256": "d2a7faad0bdb27be77f29d8f613faeb8155ed4c3b8bb4027db5da1ab40f7c4cf",
+      "bytes": 35086,
+      "role": "native-candidate",
+      "program_version": "1.5.6"
+    },
+    {
+      "path": "objects/3de3770243d0b1f9ea1166c1026be5377de379f89ac6313049ff2f95658bfab6.json",
+      "sha256": "3de3770243d0b1f9ea1166c1026be5377de379f89ac6313049ff2f95658bfab6",
+      "bytes": 31608,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/f41df426a2db466fd2e43522fc4b932b3d5fc22a9c25f187257ec63dcd555446.json",
+      "sha256": "f41df426a2db466fd2e43522fc4b932b3d5fc22a9c25f187257ec63dcd555446",
+      "bytes": 3383,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

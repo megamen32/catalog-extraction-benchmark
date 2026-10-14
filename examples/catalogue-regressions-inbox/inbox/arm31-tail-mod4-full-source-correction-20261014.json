@@ -1,0 +1,36 @@
+{
+  "id": "arm31-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 31: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 31
+  },
+  "review_basis": "Все176 ячеек11×16 совпадают. Пары1/3 соответствуютрис1/2, толькоКГ16-1безпарного3. Прочеркиd/B у3, S7–20/16–26/16–20/16–30, нагрузки120…400 и массы1,17…11,5 сохранены. КГ30-1H1 237,5,КГ40-1B1 151иКГ40-3B1 126 проверены. Три собственных6×кропа подтверждают Sтра­версы, четыреD1отверстия и межосевыеL1/L2. Исправления: [{\"path\": \"figures/page_context\", \"reason\": \"Полностью привязаны буквенные размеры двух исполнений к конкретным поверхностям и осям, уточнены d/B иH/H1;нет выдуманной нижней шпильки.\"}] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/12689a2f03ef7062e4c6b4b016681ecc20f38c31f0e27bbc8857eea8151addd1.json",
+      "sha256": "12689a2f03ef7062e4c6b4b016681ecc20f38c31f0e27bbc8857eea8151addd1",
+      "bytes": 37387,
+      "role": "native-candidate",
+      "program_version": "1.5.3"
+    },
+    {
+      "path": "objects/1948b6131ff63c306327b7202603e10d01a20966bdaf69539d4f0da483f1146e.json",
+      "sha256": "1948b6131ff63c306327b7202603e10d01a20966bdaf69539d4f0da483f1146e",
+      "bytes": 34515,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-20261014.r11"
+    },
+    {
+      "path": "objects/fd260ec761064744f3ec55a002381145a8fe55268dd143ecd11ee376846b40e3.json",
+      "sha256": "fd260ec761064744f3ec55a002381145a8fe55268dd143ecd11ee376846b40e3",
+      "bytes": 13796,
+      "role": "source-review",
+      "program_version": "tail-mod3-20261014.r11"
+    }
+  ]
+}

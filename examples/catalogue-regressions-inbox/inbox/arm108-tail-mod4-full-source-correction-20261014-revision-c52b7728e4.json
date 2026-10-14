@@ -1,0 +1,36 @@
+{
+  "id": "arm108-tail-mod4-full-source-correction-20261014-revision-c52b7728e4",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 108: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 108
+  },
+  "review_basis": "[\"Полный оригинал и нижняя пара строк НАСУС-500ЖС-1 лично сверены. Все272 ячейки и геометрия неизменны и независимо подтверждены.\"] Исправления: [\"Рамка табличного evidence расширена вниз до .947, чтобы покрыть обе последние строки таблицы до .944.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/79a08dfaf580c640113e795db8f01a61eae347679f8546516eab3007868c9e89.json",
+      "sha256": "79a08dfaf580c640113e795db8f01a61eae347679f8546516eab3007868c9e89",
+      "bytes": 47416,
+      "role": "native-candidate",
+      "program_version": "1.5.5"
+    },
+    {
+      "path": "objects/c52b7728e47b3c5f6e45f7f2fe8e7699ec4da1a8904aa996909afa694b610ec9.json",
+      "sha256": "c52b7728e47b3c5f6e45f7f2fe8e7699ec4da1a8904aa996909afa694b610ec9",
+      "bytes": 49423,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r2"
+    },
+    {
+      "path": "objects/1fc8b0c358715fed7ebec2272280b00fc9ab92e024e947babf50937680e4a431.json",
+      "sha256": "1fc8b0c358715fed7ebec2272280b00fc9ab92e024e947babf50937680e4a431",
+      "bytes": 3381,
+      "role": "source-review",
+      "program_version": "tail-mod0-20261014.r2"
+    }
+  ]
+}

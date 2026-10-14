@@ -1,0 +1,76 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_filename": "Katalog-ARMATURA.pdf",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 92,
+  "printed_page": null,
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-0092-native-candidate.json",
+    "sha256": "cc606f59fc12c12b996a52e51a0c948db2dc1d6b66fbcfb989d1a2d3b3281261",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.4",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "03d94c1397ffd39d50a89db0b4d9ae29d17f13e5293b2fcbda6e8b4ec34d8c0c",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "cc606f59fc12c12b996a52e51a0c948db2dc1d6b66fbcfb989d1a2d3b3281261",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 92,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4d5faa2b87b39793b899bfd40ccb8b7b4ff5223f5cfe2aed7fb1c9e3580c2e6b",
+      "receipt": "calls/2850db886edb46dda02dfb3224e778df/result.json",
+      "started_at": 1791941379.7754626,
+      "finished_at": 1791941412.3506107
+    }
+  },
+  "output": {
+    "file": "armature-0092-reviewed.json",
+    "sha256": "c386512c9c5582f01bd6a3504d6089a62240e011690d0378b253856f18555bdc"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "a3d7e5fcf677f68e586a11847d6665d34de82d4fb3530c6bb0f4ea47e15378de",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [],
+    "column_counts": [],
+    "cells_checked": 0
+  },
+  "source_findings": [
+    "Весь оригинал просмотрен: единственная надпись «АРМАТУРА НАТЯЖНАЯ», никаких номера главы, страницы и реквизитов.",
+    "Все5 предметных фото лично просмотрены; их неподписанные модели не угадывались. Снимки не классифицированы как чертежи, размерных стрелок нет.",
+    "Таблиц/ячеек/единиц/числовых характеристик нет; массивtables пуст,printed_page null соответствует источнику."
+  ],
+  "corrections": [
+    "Удалены придуманные «ГЛАВА3»/номер главы из title,summary,text_blocks,evidence.",
+    "Поддерживающие фотографии сохранены как фотографии; удалены ложные изолятор с крюком и ушко с внутренней резьбой, не показанные источником.",
+    "Уточнены реальные границы крупного фото и предметного ряда."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T16:03:21.989981+03:00",
+  "private_original_receipt_sha256": "089f163d1659ed82b92f5e7ff94ed0d6e9708ffda6b79010e172c61976826995"
+}

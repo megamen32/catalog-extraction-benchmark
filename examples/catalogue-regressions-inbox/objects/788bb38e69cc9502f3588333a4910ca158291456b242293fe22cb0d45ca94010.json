@@ -1,0 +1,241 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 203,
+  "printed_page": "203",
+  "status": "awaiting_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod3",
+    "task": "/root/catalog_tail_mod3",
+    "version": "tail-mod3-innovations-20261014.r1",
+    "model_id": "Current native Codex worker session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "innovations-203-candidate.json",
+    "sha256": "10db108a8db2607b7a11aa379be278c878b7045bf6d7279b267470ca5111432e",
+    "canonical_sha256": "54e6ac523e562117b0a5118c94b2469de34cbdaf254886ee9bb6b9d316ffd49b",
+    "producer": {
+      "program": {
+        "package_version": "1.5.8",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "56b47ab11c142fdd0d89ade636eb52fff30220c3425401678e2bf74c18b69c62",
+        "python_version": "3.12.13"
+      },
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 203,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "ad43db8eeb96f6a5b1aab82eb07fb8d999a3c90cd9e1f094a41f378634f1d7ae",
+      "artifact_sha256": "10db108a8db2607b7a11aa379be278c878b7045bf6d7279b267470ca5111432e",
+      "started_at": 1791945328.1236975,
+      "finished_at": 1791945420.2459743,
+      "provider_rate_limit_events": 0,
+      "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46",
+      "status": "receipt_verified",
+      "source_bound_save": true,
+      "receipt": ".tmp/full-digitization/staged-best-v1.4.8/innovations/page-0203/calls/b7c325f9473c461294e7d1d363165787/result.json",
+      "frozen_receipt": "innovations-203-native-receipt.json",
+      "frozen_receipt_sha256": "7d25f89f038ab11a16b819461fa068c4c864ff236e037ce629c77520102491d7"
+    }
+  },
+  "output": {
+    "file": "innovations-203-reviewed.json",
+    "sha256": "a2d33966ed237b804c7772e2618cf4059dc02b1194b3c6da60803f29f0146d45",
+    "canonical_sha256": "486cc04c3f9499619d2d4f16ee2aa416909cd1904bb6f9facb06d980593d4833"
+  },
+  "full_original_image_review": true,
+  "original_image": "innovations-203.png",
+  "original_image_sha256": "f8c6c999992d26a8648e7665eb1e1b7ec85aa4884fa9a57fb4398dd7290ef671",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "page_content_schema": true
+  },
+  "tables": {
+    "row_counts": [
+      27
+    ],
+    "column_counts": [
+      17
+    ],
+    "cells_checked": 459
+  },
+  "source_findings": [
+    "Все 459 ячеек 27×17 сверены; размерная шапка объединяет 12 колонок.",
+    "Native удвоил manufacturing association в бренде и оставил единицы размеров только в group."
+  ],
+  "corrections": [
+    "Исправлен бренд, единицы мм²/мм и полный bbox доказательства.",
+    "Убрано неподтверждённое «титульная» и служебная история инструмента из описания содержания."
+  ],
+  "complete_leaf_diff": [
+    {
+      "path": ".page_context.source_evidence",
+      "before": [
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.08,
+            0.015,
+            0.95,
+            0.05
+          ],
+          "observation": "Заголовок раздела «ЛИНЕЙНАЯ АРМАТУРА ДЛЯ ПРОВОДОВ АСТ» задаёт назначение страницы — типовая каталожная таблица по разделу изделий, без ссылки на объект, стройку или программную выдачу.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.08,
+            0.06,
+            0.95,
+            0.62
+          ],
+          "observation": "Сплошная сортаментная таблица из 27 однотипных строк по типам арматуры НАСТ, связанных с проводом АСТ: марка/сечение провода, двенадцать размеров (D…L4), матрица опрессования корпуса и анкера, масса «не более». Все строки — элементы единого заводского ассортимента, повторяющиеся значения размеров по группам изделий характерны для такого каталога; никаких проектных или демонстрационных признаков (объект, ПО, штамп, количество для объекта) в области нет.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "supporting_material",
+          "box": [
+            0.7,
+            0.015,
+            0.95,
+            0.05
+          ],
+          "observation": "Логотипы «ФОРЭНЕРГО / manufacturing association» и «FORENERGO» — фирменная атрибутика издателя каталога, а не технические данные.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "supporting_material",
+          "box": [
+            0.08,
+            0.94,
+            0.95,
+            0.98
+          ],
+          "observation": "Колонтитул издателя: ООО «МЗВА», телефон/факс, e-mail, сайт и номер страницы 203.",
+          "transcription": "literal"
+        }
+      ],
+      "after": [
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.07,
+            0.01,
+            0.97,
+            0.995
+          ],
+          "observation": "Полный лист с рубрикой и логотипами, таблицей 27×17, группами размеров и двух матриц, единицами и условием массы, контактами ООО «МЗВА» и номером 203.",
+          "transcription": "literal"
+        }
+      ]
+    },
+    {
+      "path": ".page_context.summary",
+      "before": "Титульная таблица каталога ООО «МЗВА» (Форэнерго) — сортамент линейной арматуры для проводов марки АСТ: 27 позиций НАСТ-205.1 … НАСТ-800.1. Для каждой позиции указаны провод марки АСТ и его сечение, двенадцать размеров (D, D1, D2, d, d1, d2, b, L, L1–L4) в мм, применяемые матрицы опрессования для корпуса и анкера и масса изделия в кг (не более). Ни позиций проекта, ни иллюстраций программного отчёта на странице нет — это обычный товарный раздел каталога.",
+      "after": "Таблица 27 типоразмеров НАСТ для проводов АСТ: сечение, двенадцать размеров в миллиметрах, отдельные матрицы опрессования корпуса и анкера и масса с условием «не более». На листе нет чертежа, поэтому размеры не получают придуманных геометрических баз."
+    },
+    {
+      "path": ".source_notes",
+      "before": [
+        "Шапка таблицы: «Размеры, мм» физически объединяет колонки D, D1, D2, d, d1, d2, b, L, L1, L2, L3, L4; «Матрица опрессования» — колонки Корпус и Анкер; последняя колонка «Масса, кг, не более» набрана повёрнуто (вертикально), условие «не более» вынесено в qualifier.",
+        "В шапке единица сечения набрана как «мм2» без надстрочного форматирования в текстовом слое.",
+        "Тело прочитано прямой сеткой read_source_table по области таблицы (27 строк данных × 17 колонок, объединения только в шапке) и подтверждено изображением оригинала."
+      ],
+      "after": [
+        "Группа «Размеры, мм» охватывает D, D₁, D₂, d, d₁, d₂, b, L, L₁, L₂, L₃, L₄; эти двенадцать колонок имеют явную единицу мм.",
+        "Шапка сечения на изображении имеет мм². Матрицы «Корпус» и «Анкер» не относятся к размерной группе. Последняя шапка массы повёрнута, условие «не более» относится только к массе.",
+        "Все 459 ячеек проверены по оригиналу: 27 строк без объединений в теле. Сохранены различающиеся МШ-40,7 и МШ-41,1, L₄=377,5/477,5/422,5/552,5 и массы 5,9/5,7 последних двух позиций.",
+        "Техническая история чтения native-инструментом не служит самостоятельным доказательством; проведена личная сверка полного оригинала."
+      ]
+    },
+    {
+      "path": ".tables[0].columns[1].unit",
+      "before": "мм2",
+      "after": "мм²"
+    },
+    {
+      "path": ".tables[0].columns[2].unit",
+      "before": null,
+      "after": "мм"
+    },
+    {
+      "path": ".tables[0].columns[3].unit",
+      "before": null,
+      "after": "мм"
+    },
+    {
+      "path": ".tables[0].columns[4].unit",
+      "before": null,
+      "after": "мм"
+    },
+    {
+      "path": ".tables[0].columns[5].unit",
+      "before": null,
+      "after": "мм"
+    },
+    {
+      "path": ".tables[0].columns[6].unit",
+      "before": null,
+      "after": "мм"
+    },
+    {
+      "path": ".tables[0].columns[7].unit",
+      "before": null,
+      "after": "мм"
+    },
+    {
+      "path": ".tables[0].columns[8].unit",
+      "before": null,
+      "after": "мм"
+    },
+    {
+      "path": ".tables[0].columns[9].unit",
+      "before": null,
+      "after": "мм"
+    },
+    {
+      "path": ".tables[0].columns[10].unit",
+      "before": null,
+      "after": "мм"
+    },
+    {
+      "path": ".tables[0].columns[11].unit",
+      "before": null,
+      "after": "мм"
+    },
+    {
+      "path": ".tables[0].columns[12].unit",
+      "before": null,
+      "after": "мм"
+    },
+    {
+      "path": ".tables[0].columns[13].unit",
+      "before": null,
+      "after": "мм"
+    },
+    {
+      "path": ".text_blocks[1].text",
+      "before": "ФОРЭНЕРГО — производственное объединение manufacturing association; FORENERGO manufacturing association",
+      "after": "ФОРЭНЕРГО — производственное объединение / FORENERGO manufacturing association"
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independent_review_required": true,
+  "unresolved_issues": [],
+  "acceptance_note": "No PASS issued. Corrected content, engineering drawing relations, and uncertainties require independent source review.",
+  "completed_at": "2026-10-14T16:07:18.662005+03:00",
+  "private_original_receipt_sha256": "2b8676d812a705eb9e4835df6f7df75904e6193f1391ce5654a430eaf77ba7ce"
+}

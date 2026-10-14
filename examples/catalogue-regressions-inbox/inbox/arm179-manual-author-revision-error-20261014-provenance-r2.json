@@ -1,0 +1,30 @@
+{
+  "id": "arm179-manual-author-revision-error-20261014-provenance-r2",
+  "status": "pending_adjudication",
+  "category": "manual-author-and-reviewer-failure",
+  "title": "Арматура 179: ошибка ручного автора и независимое исправление",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 179
+  },
+  "review_basis": "Уточнение происхождения артефактов: в предыдущей записи суффикс «-corrected» был ошибочно добавлен к program_version исправленного выхода. Здесь записана фактическая версия из source-review. Сами SHA JSON неизменны; это не новый запуск/новая страница/новые факты. Ручной автор вслед за native кандидатом ошибочно оставил 20 blank в L1/S2. Оригинальная геометрия объединений даёт L1=230/S2=14 на всех 15 строках после первых трёх, независимо от разделений L2/S1. r3 восстанавливает ровно20 значений; остальные160 ячеек неизменны. Ответственный за ошибочный ручной артефакт — native Codex, не MiniMax/GLM. Исходные native JSON и receipts не редактировались. Старые шкалы500/520 и модельные результаты не пересчитывались; это отдельный pending error case.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/e02718a9f2fd0b1dead82ccea16cb19c1b0e6eae3540ad050d5c181a4904437e.json",
+      "sha256": "e02718a9f2fd0b1dead82ccea16cb19c1b0e6eae3540ad050d5c181a4904437e",
+      "bytes": 37209,
+      "role": "manual-author-output-with-confirmed-error",
+      "program_version": "tail-mod3-20261014.r2-bridge5"
+    },
+    {
+      "path": "objects/ac9b31083350490dd53758ddebb2bbba9ad7f1ff5853dc781d5d01a100b5f2ef.json",
+      "sha256": "ac9b31083350490dd53758ddebb2bbba9ad7f1ff5853dc781d5d01a100b5f2ef",
+      "bytes": 34007,
+      "role": "source-checked-manual-revision",
+      "program_version": "tail-mod3-20261014.r3-merged-plate"
+    }
+  ],
+  "supersedes_case": "arm179-manual-author-revision-error-20261014"
+}

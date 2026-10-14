@@ -1,0 +1,76 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 106,
+  "printed_page": "105",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "e14871ac5a1e19b8759c9902e1de7b527058635d107bdc803fcc6ff65c9d571f",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.5",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "2eacc79c9c9f59a9e1a1a95991de134de55c945cd252d9dffac288e3b2a29fff",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "e14871ac5a1e19b8759c9902e1de7b527058635d107bdc803fcc6ff65c9d571f",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 106,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "1f47648c2a9640c6f2038f8a21a0cbb9c7a3757278e70e3926ce465237fae267",
+      "receipt": "calls/5be7d9edb6234af894db805fb1523c5e/result.json",
+      "started_at": 1791942293.2103896,
+      "finished_at": 1791942398.3627312
+    }
+  },
+  "output": {
+    "file": "armature-106-reviewed.json",
+    "sha256": "2dc9aef551b490d3638437408514c8284da8687dbea0a2597f8c461b554cb758"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "a3ff6cdbc7e2d5234f08cc40776d6cc85a2eba4f84a700029c016bab7ce3c3ba",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      13
+    ],
+    "column_counts": [
+      16
+    ],
+    "cells_checked": 208
+  },
+  "source_findings": [
+    "Полностью сверены 13×16 = 208 ячеек. В строках ТРАС-240-1 и ТРАС-330-1 общие значения распространены только внутри соответствующих объединённых областей.",
+    "Сохранены фактические B=66 мм последнего корпуса, d1=26/S=25 у ТРАС-500-1 и все нагрузки/массы. Чертёж не даёт основания называть d фактическим диаметром провода."
+  ],
+  "corrections": [
+    "Убрана неподтверждённая немагнитная сталь: источник сообщает немагнитность, но не материал.",
+    "Исправлены детали корпуса и анкера, база L до внешнего края проушины и наличие размера l1 на наклонном участке.",
+    "Убрано ложное замечание об отсутствии l1 и неверное чтение его как ссылки (1); задано соответствие парных табличных значений деталям."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T15:53:50.813467+03:00",
+  "private_original_receipt_sha256": "de96170c91fe2ee45286e9c01538eae58935e046e7ae6f746cce40a2c2cd0bc6"
+}

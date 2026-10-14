@@ -1,0 +1,36 @@
+{
+  "id": "innov199-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 199: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 199
+  },
+  "review_basis": "[\"Проверены все 120 ячеек и реальные объединения рисунков/нагрузок. Масса 5,57 буквальна.\", \"Собственные 7× кропы подтверждают 158, 19,2 и 127 второго рисунка; native дал 150 и пропустил два размера.\", \"У первого рисунка Ø16 относится к штифту, 20 к просвету щёк, 38 к осям болтов, 64 не полная высота.\"] Исправления: [\"150 исправлено на 158; добавлены 19,2 и 127 и их владельцы.\", \"Полностью уточнены размерные базы обоих рисунков.\", \"Ложное отсутствие помех заменено буквальным отсутствием потерь от перемагничивания; добавлены пропущенные бренды и единица сечения.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/4cd425c2f4383ec5b34745b22c77f8893afbe665ba150b37b87188e129ce3012.json",
+      "sha256": "4cd425c2f4383ec5b34745b22c77f8893afbe665ba150b37b87188e129ce3012",
+      "bytes": 24647,
+      "role": "native-candidate",
+      "program_version": "1.5.8"
+    },
+    {
+      "path": "objects/ad68c00c2ae23962d90f7c56963208d5be7636772450482ae85613834593401a.json",
+      "sha256": "ad68c00c2ae23962d90f7c56963208d5be7636772450482ae85613834593401a",
+      "bytes": 25149,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-innovations-20261014.r1"
+    },
+    {
+      "path": "objects/17f6faac4fd77e2ea46872099819fa8646d7fb91a39bd48a12bedf068c71b682.json",
+      "sha256": "17f6faac4fd77e2ea46872099819fa8646d7fb91a39bd48a12bedf068c71b682",
+      "bytes": 18640,
+      "role": "source-review",
+      "program_version": "tail-mod3-innovations-20261014.r1"
+    }
+  ]
+}

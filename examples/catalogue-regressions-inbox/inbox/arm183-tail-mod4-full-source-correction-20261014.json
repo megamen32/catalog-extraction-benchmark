@@ -1,0 +1,36 @@
+{
+  "id": "arm183-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 183: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 183
+  },
+  "review_basis": "Оригинал целиком — пустой разделительный лист. Есть только шапка раздела соединительной арматуры,логотипы и подвал182/ООО«МЗВА-ЧЭМЗ»/телефон+7(495)780-51-65/info@mzva.ru/www.mzva.ru. Таблиц и рисунков нет. Classification supporting_material, printed_page182 и все реквизиты native подтверждены, изменений нет. Повторно просмотрен весь оригинал и собственный7×кроп шапки. Удалено недоказанное утверждение открывает раздел, явно сохранён реальный логотип. Центральная область пуста, таблиц нет. Исправления: [{\"path\": \"tables/figures/source_notes/page_context\", \"reason\": \"Повторно просмотрен весь оригинал и собственный7×кроп шапки. Удалено недоказанное утверждение открывает раздел, явно сохранён реальный логотип. Центральная область пуста, таблиц нет.\"}] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/5ae68c978e892a672557c8ebc6ac8e55efac51a282a0889e173080b969f1a81a.json",
+      "sha256": "5ae68c978e892a672557c8ebc6ac8e55efac51a282a0889e173080b969f1a81a",
+      "bytes": 3350,
+      "role": "native-candidate",
+      "program_version": "1.5.9"
+    },
+    {
+      "path": "objects/6c8b79ff9365ea169ed7d8b16ab4e55425e55c50e62a0ef6b56aeccea35b99d4.json",
+      "sha256": "6c8b79ff9365ea169ed7d8b16ab4e55425e55c50e62a0ef6b56aeccea35b99d4",
+      "bytes": 2517,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-20261014.r2-merged-plate"
+    },
+    {
+      "path": "objects/bd3f3bc2ab05ed16cb959aa3d748265852232915bb2fad0d5f8b221c3bc95176.json",
+      "sha256": "bd3f3bc2ab05ed16cb959aa3d748265852232915bb2fad0d5f8b221c3bc95176",
+      "bytes": 8580,
+      "role": "source-review",
+      "program_version": "tail-mod3-20261014.r2-merged-plate"
+    }
+  ]
+}

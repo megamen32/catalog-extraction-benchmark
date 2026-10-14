@@ -1,0 +1,36 @@
+{
+  "id": "innov207-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 207: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 207
+  },
+  "review_basis": "[\"Все 204 ячейки совпадают с оригиналом, включая буквальные 990 и 100.\", \"Native evidence упоминало footer вне своей области.\"] Исправления: [\"Доказательство расширено до полного листа.\", \"Уточнены группы деталей и буквальное сохранение необычных чисел.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/0e124735dd370926b63f124a6010394966c474b0aa49ea13ad23aafebdbfdc9f.json",
+      "sha256": "0e124735dd370926b63f124a6010394966c474b0aa49ea13ad23aafebdbfdc9f",
+      "bytes": 33149,
+      "role": "native-candidate",
+      "program_version": "1.5.8"
+    },
+    {
+      "path": "objects/17e1a2fa52595bfa96fbdeaead64f055d8c8e6861d600e6d2e49df9168c8c347.json",
+      "sha256": "17e1a2fa52595bfa96fbdeaead64f055d8c8e6861d600e6d2e49df9168c8c347",
+      "bytes": 31645,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-innovations-20261014.r1"
+    },
+    {
+      "path": "objects/357ded3fd176acd5e711a75c6e7cd7ac9aa03da160150a1a405eb11d8e8b9d8c.json",
+      "sha256": "357ded3fd176acd5e711a75c6e7cd7ac9aa03da160150a1a405eb11d8e8b9d8c",
+      "bytes": 9818,
+      "role": "source-review",
+      "program_version": "tail-mod3-innovations-20261014.r1"
+    }
+  ]
+}

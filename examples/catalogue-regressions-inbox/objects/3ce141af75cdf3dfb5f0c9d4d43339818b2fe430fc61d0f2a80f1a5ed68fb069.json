@@ -1,0 +1,83 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 126,
+  "printed_page": "125",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r2",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "d0d52f1726a9f6c437ae50fcc68eb7bcd4827ebb42c1d8dd40935215ca5c987c",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.6",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "ca9cb343d7402f9bdb421b4fc5bc0b77ee1cff94b255122f592b3fda0e12f0b3",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "d0d52f1726a9f6c437ae50fcc68eb7bcd4827ebb42c1d8dd40935215ca5c987c",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 126,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "3031f54101971a2d9729b048304180edaaf22cda716b98c15339c8c61c45fa7b",
+      "receipt": "calls/080517dd26424cfd804806fb89ff8615/result.json",
+      "started_at": 1791943693.7646782,
+      "finished_at": 1791943759.2215142
+    }
+  },
+  "output": {
+    "file": "armature-126-reviewed-r2.json",
+    "sha256": "93b6f490b19bb147e4a339a9974abedc98d92a19683f38a396e22438051b87db"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "3360c2125a194787e0f3708f19893d30be20a5df605486cfacf91079c2271278",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      11
+    ],
+    "column_counts": [
+      8
+    ],
+    "cells_checked": 88
+  },
+  "source_findings": [
+    "Все88ячеек11×8проверены. Общиемассы0,22длядвухСВС50,0,64длядвухСВС120,масса135=0,63сохраненабезмонотоннойподгонки.",
+    "МатрицыСШ,неМШ;размерыL80/85/90/95/100/110/120,диаметрыd14,5/17,5/21/22,5/24/25,5/29,5/33,5/36совпадают.",
+    "Реальноеназначениестальныеканаты50–300мм²здесьпрямонапечатано,вотличиеотневыводимогоматериалаАСТна134."
+  ],
+  "corrections": [
+    "Снятывыдуманныезубчатыеотверстия;показаносоединениеканатовврасплетвцилиндрическойтрубке.",
+    "Исправленоsource_notesобобъединениидиаметровСВС50:9,1и9,2относятсякразнымГОСТ.",
+    "Термин«врасплет»сохранёнбезнеподтверждённогообъявленияопечаткой;брендраскрыт.",
+    "По независимому замечанию восстановлены пробелы и читаемость пояснений; все таблицы побайтово эквивалентны r1."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T15:59:12.808361+03:00",
+  "revision": "r2",
+  "prior_output": {
+    "file": "armature-126-reviewed.json",
+    "sha256": "cf0142eced508d5b6c2ae87ededa8df27e183b6c2c5f7b3bc652d74808a54c09"
+  },
+  "private_original_receipt_sha256": "cb7524ee098c6e3b7454665fb0f20402a7ac2fb17635c456b22bc27849bffb21"
+}

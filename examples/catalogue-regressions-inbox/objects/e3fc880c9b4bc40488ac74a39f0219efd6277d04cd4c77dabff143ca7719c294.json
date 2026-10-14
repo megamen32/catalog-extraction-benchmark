@@ -1,0 +1,165 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 211,
+  "printed_page": "211",
+  "status": "awaiting_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod3",
+    "task": "/root/catalog_tail_mod3",
+    "version": "tail-mod3-innovations-20261014.r1",
+    "model_id": "Current native Codex worker session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "innovations-211-candidate.json",
+    "sha256": "0b4c929017ce606843ce561a1b4680fa85aecdd2faf3b674bb6e7d873bf618e7",
+    "canonical_sha256": "16e19c76617bbf2d7efd1ddb503dd1eb8a90ff99bee5a651913981c90e7c3306",
+    "producer": {
+      "program": {
+        "package_version": "1.5.8",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "56b47ab11c142fdd0d89ade636eb52fff30220c3425401678e2bf74c18b69c62",
+        "python_version": "3.12.13"
+      },
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 211,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "ad43db8eeb96f6a5b1aab82eb07fb8d999a3c90cd9e1f094a41f378634f1d7ae",
+      "artifact_sha256": "0b4c929017ce606843ce561a1b4680fa85aecdd2faf3b674bb6e7d873bf618e7",
+      "started_at": 1791946783.6376023,
+      "finished_at": 1791946899.8311331,
+      "provider_rate_limit_events": 0,
+      "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46",
+      "status": "receipt_verified",
+      "source_bound_save": true,
+      "receipt": ".tmp/full-digitization/staged-best-v1.4.8/innovations/page-0211/calls/c464600c02b94718b105cadd93f51562/result.json",
+      "frozen_receipt": "innovations-211-native-receipt.json",
+      "frozen_receipt_sha256": "30bb9f2d3dd4380ff97f9d484988946b78fd27f96bf3ea27c77ccfe1760ad480"
+    }
+  },
+  "output": {
+    "file": "innovations-211-reviewed.json",
+    "sha256": "7eac42f4fe86099d542dd9b6bdca006d5ae6eef15ab3d4fa3719407ca4676771",
+    "canonical_sha256": "b38acbaaf920d5fe263c2f76b8955e6cd12825c80db8a713aa4b538409c39c4c"
+  },
+  "full_original_image_review": true,
+  "original_image": "innovations-211.png",
+  "original_image_sha256": "0fb3f647f3bdcef94c8ec8fb7bb1cbfe78d0385d0caf6316a2a794acfaba3f09",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "page_content_schema": true
+  },
+  "tables": {
+    "row_counts": [
+      23
+    ],
+    "column_counts": [
+      12
+    ],
+    "cells_checked": 276
+  },
+  "source_findings": [
+    "Все 276 ячеек и вертикальные объединения 11 групп сверены.",
+    "На рисунке единица мм² с надстрочным 2, в native поле было мм2."
+  ],
+  "corrections": [
+    "Уточнены единица сечения и полный bbox доказательства.",
+    "Смысл размеров ограничен данными таблицы без додумывания геометрии."
+  ],
+  "complete_leaf_diff": [
+    {
+      "path": ".page_context.source_evidence",
+      "before": [
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.08,
+            0.015,
+            0.95,
+            0.09
+          ],
+          "observation": "Заголовок страницы и логотип производителя: «ЛИНЕЙНАЯ АРМАТУРА ДЛЯ ПРОВОДОВ АСТ», ФОРЭНЕРГО / FORENERGO manufacturing association — типовой каталожный раздел изделий одного производителя, а не описание программы и не проектный документ.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.08,
+            0.055,
+            0.92,
+            0.522
+          ],
+          "observation": "Единственная таблица страницы: типоразмеры арматуры РОАСТ с привязкой к сечению провода АСТ, габаритные размеры в мм, матрицы опрессования (Шлейф/Пролет) и масса. Наименования и остальные параметры набраны по центру групп строк, то есть это реальные объединённые ячейки; ни проектных наименований объекта, ни номеров заказа, ни оттиска проекта на странице нет.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.08,
+            0.975,
+            0.95,
+            0.995
+          ],
+          "observation": "Нижний колонтитул: ООО «МЗВА», тел./факс +7 (495) 780-51-65, e-mail zakaz@mzva.ru, www.mzva.ru, номер страницы 211 — стандартные контактные реквизиты каталога, подтверждающие каталожное назначение страницы.",
+          "transcription": "literal"
+        }
+      ],
+      "after": [
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.07,
+            0.01,
+            0.97,
+            0.995
+          ],
+          "observation": "Полный лист: рубрика и логотипы, таблица 23×12 с объединениями групп РОАСТ, единицы мм²/мм/кг и условия массы, контакты ООО «МЗВА» и страница 211.",
+          "transcription": "literal"
+        }
+      ]
+    },
+    {
+      "path": ".page_context.summary",
+      "before": "Каталожная страница производителя ООО «МЗВА»/ФОРЭНЕРГО со сводной таблицей линейной арматуры для проводов марки АСТ: перечень типоразмеров зажимов (РОАСТ-300.13, РОАСТ-300.4, РОАСТ-330.12, РОАСТ-400.12, РОАСТ-400.34, РОАСТ-400/500, РОАСТ-500.4, РОАСТ-500.5, РОАСТ-550/600, РОАСТ-650/700, РОАСТ-750/800) с применимым сечением провода АСТ, габаритными размерами D, d, H, H1, L, L1, L2 в мм, требуемыми матрицами опрессования для шлейфа и пролёта и массой изделия (кг, не более). Это реальные товарные характеристики каталога, а не проектная спецификация и не демонстрация ПО: на странице нет ни названия стройки, ни интерфейса программы; шапка и подвал — обычные каталожные реквизиты.",
+      "after": "Таблица РОАСТ для проводов марки АСТ: 11 групп изделий и 23 отдельных проводных строки, размеры D/d/H/H₁/L/L₁/L₂ в миллиметрах, отдельные матрицы опрессования шлейфа и пролёта и предельная масса. Общие значения реальных объединённых ячеек относятся ко всем проводам соответствующей группы. Чертежа на странице нет."
+    },
+    {
+      "path": ".source_notes",
+      "before": [
+        "В заголовке столбца сечения в исходном текстовом слое напечатано «мм2» без надстрочного индекса.",
+        "Обозначения H, H1, L, L1, L2 — латинские литеры (U+0048, U+004C), что подтверждено исходным текстовым слоем.",
+        "Наименование типоразмера и все параметры набраны по центру групп строк: это реальные объединённые ячейки, значения относятся ко всем строкам группы (например, РОАСТ-300.13 — три сечения 300/39, 300/48, 300/66)."
+      ],
+      "after": [
+        "Единица сечения на изображении напечатана как мм²; запись мм2 в исходном текстовом слое не отменяет надстрочного показателя.",
+        "Обозначения H, H1, L, L1, L2 — латинские литеры (U+0048, U+004C), что подтверждено исходным текстовым слоем.",
+        "Наименование типоразмера и все параметры набраны по центру групп строк: это реальные объединённые ячейки, значения относятся ко всем строкам группы (например, РОАСТ-300.13 — три сечения 300/39, 300/48, 300/66).",
+        "Все 276 ячеек сверены. Группа РОАСТ-400/500 включает пять проводов, в том числе 500/64. Разные матрицы шлейфа и пролёта сохранены раздельно; 204,5/39,5 и 316,5/56,5 не округлялись."
+      ]
+    },
+    {
+      "path": ".tables[0].columns[1].unit",
+      "before": "мм2",
+      "after": "мм²"
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independent_review_required": true,
+  "unresolved_issues": [],
+  "acceptance_note": "No PASS issued. Corrected content, engineering drawing relations, and uncertainties require independent source review.",
+  "completed_at": "2026-10-14T16:07:18.642942+03:00",
+  "private_original_receipt_sha256": "e6f41e3027eda42b09b5a15d744cf52e40519aa3846e47f35e85866e72312e6c"
+}

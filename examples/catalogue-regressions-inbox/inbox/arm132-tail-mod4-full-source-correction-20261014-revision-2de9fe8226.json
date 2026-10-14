@@ -1,0 +1,36 @@
+{
+  "id": "arm132-tail-mod4-full-source-correction-20261014-revision-2de9fe8226",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 132: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 132
+  },
+  "review_basis": "[\"Крупный оригинальный кроп верхнего заголовка и текстовый слой PDF независимо подтверждают «цанговые». Полная страница и блок преимуществ просмотрены ранее, все числовые данные 60 ячеек и геометрия остаются верными.\", \"Прежнее source_note о различии было собственной ошибкой чтения. Она устранена во всех повторах summary, evidence, text_blocks, заголовке таблицы и source_notes.\"] Исправления: [\"Все ошибочные «цапковые / цапковых» исправлены на исходные «цанговые / цанговых».\", \"Удалено ложное примечание о различии верхнего наименования и блока преимуществ: исходник одинаков в обоих местах.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/49e102e0c63c7eb0f813562a16af09e4038c44866a40e0a750ba3e0d4455297a.json",
+      "sha256": "49e102e0c63c7eb0f813562a16af09e4038c44866a40e0a750ba3e0d4455297a",
+      "bytes": 20027,
+      "role": "native-candidate",
+      "program_version": "1.5.8"
+    },
+    {
+      "path": "objects/2de9fe822659fc87007c97d632e243b3db16199edd8a9cd0c57b514eed494149.json",
+      "sha256": "2de9fe822659fc87007c97d632e243b3db16199edd8a9cd0c57b514eed494149",
+      "bytes": 20928,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r2"
+    },
+    {
+      "path": "objects/2d0a4f35bb736661bbf5202d730522373c1c14aba4ce871bf2c1cbf9842c67f6.json",
+      "sha256": "2d0a4f35bb736661bbf5202d730522373c1c14aba4ce871bf2c1cbf9842c67f6",
+      "bytes": 4094,
+      "role": "source-review",
+      "program_version": "tail-mod0-20261014.r2"
+    }
+  ]
+}

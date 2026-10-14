@@ -1,0 +1,82 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_filename": "Katalog-ARMATURA.pdf",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 112,
+  "printed_page": "111",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r2",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-0112-native-candidate.json",
+    "sha256": "10e8319cd110b0ea67842cc011bb757f64a58b52b522d83a832c05db2ffc725b",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.6",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "ca9cb343d7402f9bdb421b4fc5bc0b77ee1cff94b255122f592b3fda0e12f0b3",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "10e8319cd110b0ea67842cc011bb757f64a58b52b522d83a832c05db2ffc725b",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 112,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "3031f54101971a2d9729b048304180edaaf22cda716b98c15339c8c61c45fa7b",
+      "receipt": "calls/ecb3ab223db54a068060f655a6234b94/result.json",
+      "started_at": 1791943002.5487692,
+      "finished_at": 1791943164.1736119
+    }
+  },
+  "output": {
+    "file": "armature-0112-reviewed-r2.json",
+    "sha256": "cffc8b9e9c4c36f72968516295944e8699591daf74f19340f7832cc4368e4554"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "dd19a16248fdf6f3f4a82ad50c2a1d16d583c98356656ec040cf0ad70e32ea5a",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      41
+    ],
+    "column_counts": [
+      14
+    ],
+    "cells_checked": 574
+  },
+  "source_findings": [
+    "Исходная шапка и41 строка сверены, описательная правка не затрагивает574 ячейки, условные звёздочки или привязки размеров. Они независимо подтверждены mod1."
+  ],
+  "corrections": [
+    "Исправлена склейка «Таблица41» на «Таблица из 41»."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T13:06:44.885136+00:00",
+  "previous_reviewed_output": {
+    "file": "armature-0112-reviewed.json",
+    "sha256": "e4d99cb6f31e131d21df03b282d4f0ac7d6543684a038474b00767af8903c0a5"
+  },
+  "revision_trigger": "Independent source review by catalog_tail_mod1, followed by personal source-image recheck by catalog_tail_mod0.",
+  "revision_evidence_images": [],
+  "private_original_receipt_sha256": "87db121e4bdad33c5d40113578c26865af011df2df37461fdedb75dc8de9bb33"
+}

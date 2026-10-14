@@ -1,0 +1,197 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 187,
+  "printed_page": "186",
+  "status": "awaiting_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod3",
+    "task": "/root/catalog_tail_mod3",
+    "version": "tail-mod3-20261014.r2-merged-plate",
+    "model_id": "Current native Codex worker session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-187-candidate.json",
+    "sha256": "653d4521b25265c3f739320607027ae3bb683a3fe6c4ee2c615a04008f8c39c7",
+    "canonical_sha256": "64ae6e0f50562022456ea5507cc1c0bdcec2b5177a98bbb30d03e97cf1eab119",
+    "producer": {
+      "program": {
+        "package_version": "1.5.9",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "f5f0879481c5c45730d168c7edf956c8a1784eeed1c5ea6bcad7d8c4355101b0",
+        "python_version": "3.12.13"
+      },
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 187,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "89126eb717d25da53e59e93c52197380a6660b24bec70eea7e46df1f2cfa0e5e",
+      "artifact_sha256": "653d4521b25265c3f739320607027ae3bb683a3fe6c4ee2c615a04008f8c39c7",
+      "started_at": 1791949234.8646047,
+      "finished_at": 1791949383.9822888,
+      "provider_rate_limit_events": 0,
+      "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46",
+      "status": "receipt_verified",
+      "source_bound_save": true,
+      "receipt": ".tmp/full-digitization/staged-best-v1.4.8/armature/page-0187/calls/38c3ac2dd10243f49072e3552bba0945/result.json",
+      "frozen_receipt": "armature-187-native-receipt.json",
+      "frozen_receipt_sha256": "e0ca12ddf88bca82a9a1894a458c4a1fe4d3d92ddc44c12a4a32048e9afbde27"
+    }
+  },
+  "output": {
+    "file": "armature-187-reviewed-r2.json",
+    "sha256": "0804f185093356da75db4b171c5ce3daab0ee359e70161a45ffb9d4db1cf0c0e",
+    "canonical_sha256": "5ec554d7fcebdceafeea76d3064b8b31038964f2eaea14eefbd7fdf8adc728aa"
+  },
+  "full_original_image_review": true,
+  "original_image": "armature-187.png",
+  "original_image_sha256": "c04bbb4406c723b6d0661aca6a3c5e4eae49155f20e0996686772ee9897c45f4",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "page_content_schema": true
+  },
+  "tables": {
+    "row_counts": [
+      14
+    ],
+    "column_counts": [
+      11
+    ],
+    "cells_checked": 154
+  },
+  "source_findings": "Сверены154ячейки14×11. Все маркиОА-10…ОА-600,диаметры,матрицыМШ/А,массы0,27…2,14,размеры и объединенияА36на8строк/37на1/60на5;L1 иS по своим группам сохранены. Печатные значения L184,5 для300,d16,3 для120,D47/52/58 последних исполнений не исправлялись. ТУ2010,напылениеТ,до50лет,все связи рисунка проверены. Повторно просмотрены полный оригинал и собственный7×кроп S/15. Удалена выдуманная вторая контактная пластина;15 привязан к пластине и шайбе. Все140 ячеек, числа и остальные размерные связи неизменны.",
+  "corrections": [
+    {
+      "path": "branding/figures/source_notes",
+      "reason": "Убран выдуманный федеральный глобальный проект;15 правильно связан с зазором, S с толщиной, L1 с прямой зоной; ненапечатанные мм у15/45 сняты."
+    },
+    {
+      "path": "tables/figures/source_notes/page_context",
+      "reason": "Повторно просмотрены полный оригинал и собственный7×кроп S/15. Удалена выдуманная вторая контактная пластина;15 привязан к пластине и шайбе. Все140 ячеек, числа и остальные размерные связи неизменны."
+    }
+  ],
+  "complete_leaf_diff": [
+    {
+      "path": ".figures[0].description",
+      "before": "Чертёж в двух видах: слева — вид сбоку с изогнутым контактным «носиком», двумя болтовыми зажимами на пластине и указанием направления опрессования; справа — вид с торца с круглым отверстием в верхней части и двумя шестигранными головками болтов. Размерные линии: L — полная длина от левой точки изгиба до торца контактной части; L₁ — длина от оси установки болтов до торца; d — внутренний диаметр контактной (напрессовываемой) трубки; D — наружный диаметр контактной части; S — толщина боковой стенки корпуса зажима; 15 мм — расстояние от наружной грани стенки до оси болта; 45 мм — расстояние между осями двух болтов; A — ширина корпуса (размер между боковыми гранями пластины); H — общая высота зажима от верхней кромки до низа корпуса. Значения A, D, d, L, L₁, H, S для каждого типоразмера приведены в таблице под чертежом; 15 и 45 даны на чертеже как постоянные.",
+      "after": "Две проекции ОА-Т. Слева изогнутый корпус с прямой горизонтальной цилиндрической зоной опрессования и одной нижней контактной пластиной с двумя болтами. L — от крайней левой наружной точки изгиба до правого торца; L1 — от начала прямой горизонтальной зоны до того же торца. d — её внутренний проход, D — наружный диаметр. S — толщина единственной плоской контактной пластины. Размер15 идёт от правой грани этой пластины до левой опорной грани шайбы перед гайкой; второй контактной пластины на изображении нет. Справа45 — вертикальное межосевое двух болтов, A — наружная ширина пластины, H — полный вертикальный габарит корпуса. Опрессование направлено вправо. Таблица задаёт единицы буквенных размеров; отдельные15/45 на рисунке напечатаны без единицы."
+    },
+    {
+      "path": ".figures[0].labels[5]",
+      "before": "15 мм",
+      "after": "15"
+    },
+    {
+      "path": ".figures[0].labels[6]",
+      "before": "45 мм",
+      "after": "45"
+    },
+    {
+      "path": ".page_context.source_evidence",
+      "before": [
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.09,
+            0.035,
+            0.56,
+            0.16
+          ],
+          "observation": "Заголовок «ЛИНЕЙНАЯ АРМАТУРА ДЛЯ ВЛ / АРМАТУРА КОНТАКТНАЯ», подзаголовок «Зажимы ответвительные прессуемые типа ОА-Т» и логотип FORENERGO — типичная товарная страница каталога производителя, без признаков спецификации стройки или примера выдачи программы.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.09,
+            0.11,
+            0.55,
+            0.44
+          ],
+          "observation": "Блок «НАЗНАЧЕНИЕ», пояснение «Т – термодинамическое напыление меди на контактную поверхность», ссылка на ТУ 3449-001-52819896-2010 и знаки «арматура нового поколения»/«конструкция защищена патентом» задают назначение и нормативную базу изделия.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.08,
+            0.72,
+            0.94,
+            0.935
+          ],
+          "observation": "Устойчивый серийный ряд марок ОА-10-2Т … ОА-600-2Т с диапазонами диаметров проводов, матрицами опрессования и массами — типовой каталожный ряд по каждому исполнению.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.33,
+            0.39,
+            0.92,
+            0.71
+          ],
+          "observation": "Сборочный чертёж зажима: два вида с обозначениями L, L₁, d, D, S, 15, 45, A, H и стрелкой «направление опрессования» — те же параметры, что перечислены в таблице размеров.",
+          "transcription": "literal"
+        }
+      ],
+      "after": [
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.06,
+            0.02,
+            0.96,
+            0.98
+          ],
+          "observation": "Полный исходный лист: видимые рубрика, реальный бренд, нижние реквизиты и номер; чертёж с размерными связями, пояснения и таблица с реальными объединениями.",
+          "transcription": "literal"
+        }
+      ]
+    },
+    {
+      "path": ".printed_page",
+      "before": "стр. 186",
+      "after": "186"
+    },
+    {
+      "path": ".source_notes[1]",
+      "before": "На чертеже рядом с обозначением S указано «15», тогда как в таблице S для типоразмеров составляет 5…14 мм; источник этих значений не поясняет.",
+      "after": "S — толщина одной контактной пластины.15 — от её правой грани до левой опорной поверхности шайбы перед гайкой, не промежуток между двумя контактными пластинами. Число15 не заменяет табличный S."
+    },
+    {
+      "path": ".text_blocks[7].text",
+      "before": "ФОРЭНЕРГО / FORENERGO industrial group — федеральный глобальный проект.",
+      "after": "ФОРЭНЕРГО производственное объединение / FORENERGO® industrial group"
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independent_review_required": true,
+  "unresolved_issues": [],
+  "acceptance_note": "No PASS issued. Corrected content, engineering drawing relations, and uncertainties require independent source review.",
+  "completed_at": "2026-10-14T15:45:31.314980+03:00",
+  "source_filename": "Katalog-ARMATURA.pdf",
+  "prior_output": {
+    "file": "armature-187-reviewed.json",
+    "sha256": "59ac6bf421d32d58b6f4a1364d8d2af380349b61b01061403f38264f25fb4038"
+  },
+  "revision_reason": "Повторно просмотрены полный оригинал и собственный7×кроп S/15. Удалена выдуманная вторая контактная пластина;15 привязан к пластине и шайбе. Все140 ячеек, числа и остальные размерные связи неизменны.",
+  "revision_source_crops": [
+    {
+      "file": "armature-187-S15-r2.png",
+      "sha256": "241f64fd73e5fc612621c487262c37b7ed9584c8aa01a49349ad06bf756c7f63",
+      "scale": 7
+    }
+  ],
+  "private_original_receipt_sha256": "85dd649173bee47148b8c77f65c4d5cd647bb66fb16c0dc6e7c1a11bb28eb222"
+}

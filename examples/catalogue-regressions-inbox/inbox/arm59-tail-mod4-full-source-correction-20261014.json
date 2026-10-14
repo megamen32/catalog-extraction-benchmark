@@ -1,0 +1,36 @@
+{
+  "id": "arm59-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 59: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 59
+  },
+  "review_basis": "Все80 ячеек8×10 совпадают: реальные B17/20/22,7,L1 61,5/69,5/70,5/66,L190,H55/89/100,5/67,5,H1 97/111/126,диапазоны6,4–9,8…13,5–19,6,массы0,40…0,78,нагрузки25/30. Полный оригинал и собственный6×кроп подтверждают верхнийпалецØ16,внутреннийB иразныебазыH; числа не менялись. Исправления: [{\"path\": \"text_blocks/figures/source_notes/page_context/tables.columns.unit\", \"reason\": \"Исправлены ЧМЭЗ/подочки/немагнитизация и выдуманный холдинг. Уточнены B/H/H1/Ø16, сняты только выдуманные мм ненапечатанных размерных граф.\"}] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/1ecaf3e0d2726f2a9587a0076747d01efebea4c5352cdf0a7d6d4914bacf7317.json",
+      "sha256": "1ecaf3e0d2726f2a9587a0076747d01efebea4c5352cdf0a7d6d4914bacf7317",
+      "bytes": 21655,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/12c2a5d36ac9ef9cf2b6445f0b7d3fb713f26cfa7f36cc1d53ad47e47667dcaf.json",
+      "sha256": "12c2a5d36ac9ef9cf2b6445f0b7d3fb713f26cfa7f36cc1d53ad47e47667dcaf",
+      "bytes": 18931,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-20261014.r10"
+    },
+    {
+      "path": "objects/397be64e83d46508f759d473fcec9dfcc29e07b634a325cdbbb760f022234979.json",
+      "sha256": "397be64e83d46508f759d473fcec9dfcc29e07b634a325cdbbb760f022234979",
+      "bytes": 18489,
+      "role": "source-review",
+      "program_version": "tail-mod3-20261014.r10"
+    }
+  ]
+}

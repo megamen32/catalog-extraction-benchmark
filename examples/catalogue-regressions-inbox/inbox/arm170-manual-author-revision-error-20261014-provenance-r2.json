@@ -1,0 +1,30 @@
+{
+  "id": "arm170-manual-author-revision-error-20261014-provenance-r2",
+  "status": "pending_adjudication",
+  "category": "manual-author-and-reviewer-failure",
+  "title": "Арматура 170: ошибка ручного автора и независимое исправление",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 170
+  },
+  "review_basis": "Уточнение происхождения артефактов: в предыдущей записи суффикс «-corrected» был ошибочно добавлен к program_version исправленного выхода. Здесь записана фактическая версия из source-review. Сами SHA JSON неизменны; это не новый запуск/новая страница/новые факты. Ручной автор ошибочно назвал d фактическим диаметром провода. На оригинале d — посадочный проход ШРЦ; значение 12,5 не равно диапазону провода 11–12. Независимый автор обнаружил ошибку, r2 исправляет только смысл, таблица прежняя. Ответственный за ошибочный ручной артефакт — native Codex, не MiniMax/GLM. Исходные native JSON и receipts не редактировались. Старые шкалы500/520 и модельные результаты не пересчитывались; это отдельный pending error case.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/61364af08fa53d994bc2ac53c271ec7783f7c799c95428ea7ac8a776f2a1f50e.json",
+      "sha256": "61364af08fa53d994bc2ac53c271ec7783f7c799c95428ea7ac8a776f2a1f50e",
+      "bytes": 42468,
+      "role": "manual-author-output-with-confirmed-error",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/0abb6cfab4100fbe97fa33c1ec32a135cfd8d2944aed22b55a7bf15fd01b0be0.json",
+      "sha256": "0abb6cfab4100fbe97fa33c1ec32a135cfd8d2944aed22b55a7bf15fd01b0be0",
+      "bytes": 42783,
+      "role": "source-checked-manual-revision",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ],
+  "supersedes_case": "arm170-manual-author-revision-error-20261014"
+}

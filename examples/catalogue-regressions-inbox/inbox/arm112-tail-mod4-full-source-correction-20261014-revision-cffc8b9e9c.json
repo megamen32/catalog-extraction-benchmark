@@ -1,0 +1,36 @@
+{
+  "id": "arm112-tail-mod4-full-source-correction-20261014-revision-cffc8b9e9c",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 112: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 112
+  },
+  "review_basis": "[\"Исходная шапка и41 строка сверены, описательная правка не затрагивает574 ячейки, условные звёздочки или привязки размеров. Они независимо подтверждены mod1.\"] Исправления: [\"Исправлена склейка «Таблица41» на «Таблица из 41».\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/10e8319cd110b0ea67842cc011bb757f64a58b52b522d83a832c05db2ffc725b.json",
+      "sha256": "10e8319cd110b0ea67842cc011bb757f64a58b52b522d83a832c05db2ffc725b",
+      "bytes": 83162,
+      "role": "native-candidate",
+      "program_version": "1.5.6"
+    },
+    {
+      "path": "objects/cffc8b9e9c4c36f72968516295944e8699591daf74f19340f7832cc4368e4554.json",
+      "sha256": "cffc8b9e9c4c36f72968516295944e8699591daf74f19340f7832cc4368e4554",
+      "bytes": 83613,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r2"
+    },
+    {
+      "path": "objects/a14b593994fae47977fde887aecfca8f2b74fef3e6eb4a6bae3b395d2dadc4cb.json",
+      "sha256": "a14b593994fae47977fde887aecfca8f2b74fef3e6eb4a6bae3b395d2dadc4cb",
+      "bytes": 3354,
+      "role": "source-review",
+      "program_version": "tail-mod0-20261014.r2"
+    }
+  ]
+}

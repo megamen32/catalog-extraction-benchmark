@@ -1,0 +1,81 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_filename": "Katalog-ARMATURA.pdf",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 96,
+  "printed_page": "95",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-0096-native-candidate.json",
+    "sha256": "c9637644c4f3735c7396054ad83e771eeb8d569659f1f9b3348cba8e510ac6b9",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.4",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "03d94c1397ffd39d50a89db0b4d9ae29d17f13e5293b2fcbda6e8b4ec34d8c0c",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "c9637644c4f3735c7396054ad83e771eeb8d569659f1f9b3348cba8e510ac6b9",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 96,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4d5faa2b87b39793b899bfd40ccb8b7b4ff5223f5cfe2aed7fb1c9e3580c2e6b",
+      "receipt": "calls/e55a7a46bb594585be71a0cb399a9c07/result.json",
+      "started_at": 1791941525.7535634,
+      "finished_at": 1791941652.5619948
+    }
+  },
+  "output": {
+    "file": "armature-0096-reviewed.json",
+    "sha256": "78896c44b406829edb5dfc3e416fffca2dc929f6c2a2ec12216c359dd09eac66"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "ffb58c3517ef27ef53061eb258b64e87fa53126a56233e2870984ff0750d1990",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      19
+    ],
+    "column_counts": [
+      8
+    ],
+    "cells_checked": 152
+  },
+  "source_findings": [
+    "Весь оригинал просмотрен, все152 ячейки19×8 сверены:525 на12строк,741,5 на7строк,пять групп проводов/нагрузок,всеL₁/d/В/массы. НеобычныеАС205/37,АС400/27,7/51,9,АС500/34,5 сохранены.",
+    "Назначение неизолированных проводов/подвески,95%,ТУ2010,3 рекламные плашки,оба логотипа,реальные реквизиты95 сверены. Размеры мм,нагрузка кН «не менее»,масса кг «не более».",
+    "Нижние выносные L/L₁ реально различают ось пальца и конец вилки. На верхнем изображении не вводились неподписанные функции отдельных видимых деталей."
+  ],
+  "corrections": [
+    "Восстановлено точное «клиносочлененные» вместо «клиносочленные» и «подвескам» вместо «подвесам».",
+    "Убраны выдуманные гайка под ключ, сердцевидный рычаг, вилка с отдельным клиновым зажимом.",
+    "Заданы реальные базы L до оси концевого пальца и L₁ до наружного торца вилки; d палец, В внутренний зазор щёк.",
+    "Бренд исправлен на производственное объединение."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T16:02:48.414782+03:00",
+  "private_original_receipt_sha256": "cded5b7aa42ee77b0871a594fa7aba514a620264c167a13d89f04078b16cc901"
+}

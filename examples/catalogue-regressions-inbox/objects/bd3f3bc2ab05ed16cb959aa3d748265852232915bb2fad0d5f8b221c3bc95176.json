@@ -1,0 +1,142 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 183,
+  "printed_page": "182",
+  "status": "awaiting_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod3",
+    "task": "/root/catalog_tail_mod3",
+    "version": "tail-mod3-20261014.r2-merged-plate",
+    "model_id": "Current native Codex worker session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-183-candidate.json",
+    "sha256": "5ae68c978e892a672557c8ebc6ac8e55efac51a282a0889e173080b969f1a81a",
+    "canonical_sha256": "c6ccf673bbde277f2d99d005bf951b2ca2ff68fe13b396238a7bf5dd952ed45d",
+    "producer": {
+      "program": {
+        "package_version": "1.5.9",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "f5f0879481c5c45730d168c7edf956c8a1784eeed1c5ea6bcad7d8c4355101b0",
+        "python_version": "3.12.13"
+      },
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 183,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "89126eb717d25da53e59e93c52197380a6660b24bec70eea7e46df1f2cfa0e5e",
+      "artifact_sha256": "5ae68c978e892a672557c8ebc6ac8e55efac51a282a0889e173080b969f1a81a",
+      "started_at": 1791949198.3619206,
+      "finished_at": 1791949294.4854786,
+      "provider_rate_limit_events": 0,
+      "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46",
+      "status": "receipt_verified",
+      "source_bound_save": true,
+      "receipt": ".tmp/full-digitization/staged-best-v1.4.8/armature/page-0183/calls/5721502924964595a87811dca1a5292e/result.json",
+      "frozen_receipt": "armature-183-native-receipt.json",
+      "frozen_receipt_sha256": "fae686b13bcc921d0c7dd7c39a7fff09717cace5cf1be1dddfcb542909980ef0"
+    }
+  },
+  "output": {
+    "file": "armature-183-reviewed-r2.json",
+    "sha256": "6c8b79ff9365ea169ed7d8b16ab4e55425e55c50e62a0ef6b56aeccea35b99d4",
+    "canonical_sha256": "9791a7a8c59adc77ab70f46664cc51b316550d62e47b35875d7bdc4b4a138aa7"
+  },
+  "full_original_image_review": true,
+  "original_image": "armature-183.png",
+  "original_image_sha256": "e3cb2504adbc3c998d6bebfafd16d82e382e53f7c4326b8b802878feaf1d212f",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "page_content_schema": true
+  },
+  "tables": {
+    "row_counts": [],
+    "column_counts": [],
+    "cells_checked": 0
+  },
+  "source_findings": "Оригинал целиком — пустой разделительный лист. Есть только шапка раздела соединительной арматуры,логотипы и подвал182/ООО«МЗВА-ЧЭМЗ»/телефон+7(495)780-51-65/info@mzva.ru/www.mzva.ru. Таблиц и рисунков нет. Classification supporting_material, printed_page182 и все реквизиты native подтверждены, изменений нет. Повторно просмотрен весь оригинал и собственный7×кроп шапки. Удалено недоказанное утверждение открывает раздел, явно сохранён реальный логотип. Центральная область пуста, таблиц нет.",
+  "corrections": [
+    {
+      "path": "tables/figures/source_notes/page_context",
+      "reason": "Повторно просмотрен весь оригинал и собственный7×кроп шапки. Удалено недоказанное утверждение открывает раздел, явно сохранён реальный логотип. Центральная область пуста, таблиц нет."
+    }
+  ],
+  "complete_leaf_diff": [
+    {
+      "path": ".page_context.source_evidence",
+      "before": [
+        {
+          "kind": "supporting_material",
+          "box": [
+            0.08,
+            0.02,
+            0.65,
+            0.07
+          ],
+          "observation": "Единственное содержательное поле страницы — заголовок раздела «Линейная арматура для ВЛ / Арматура соединительная» над горизонтальной линией; под линией весь корпус страницы пуст, нет ни таблиц, ни схем, ни подписей к изделиям. Заголовок задаёт тему раздела, но не утверждает ни марок, ни параметров.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "supporting_material",
+          "box": [
+            0.09,
+            0.955,
+            0.92,
+            0.99
+          ],
+          "observation": "Нижний колонтитул: колонцифра печатной страницы, наименование издателя ООО «МЗВА-ЧЭМЗ», телефон/факс +7 (495) 780-51-65, e-mail info@mzva.ru и сайт www.mzva.ru — реквизиты издателя, а не технические данные изделий.",
+          "transcription": "literal"
+        }
+      ],
+      "after": [
+        {
+          "kind": "supporting_material",
+          "box": [
+            0.06,
+            0.02,
+            0.96,
+            0.98
+          ],
+          "observation": "Полный исходный лист: видимые рубрика, реальный бренд, нижние реквизиты и номер; центральное поле полностью пустое, таблиц и чертежей нет.",
+          "transcription": "literal"
+        }
+      ]
+    },
+    {
+      "path": ".page_context.summary",
+      "before": "Разделительный лист раздела каталога ООО «МЗВА-ЧЭМЗ»: заголовочная полоса «Линейная арматура для ВЛ / Арматура соединительная» и пустое поле под ней. Страница не содержит ни характеристик изделий, ни таблиц, ни чертежей — фактических сведений об арматуре она не даёт, а лишь открывает тематический раздел.",
+      "after": "Почти пустой лист каталога: рубрика Линейная арматура для ВЛ / Арматура соединительная, реальный логотип ФОРЭНЕРГО — производственное объединение / FORENERGO industrial group и нижние контакты ООО «МЗВА-ЧЭМЗ» с номером182. Центральное поле пустое, таблиц и чертежей нет. Положение листа перед разделом из его содержания не выводится."
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independent_review_required": true,
+  "unresolved_issues": [],
+  "acceptance_note": "No PASS issued. Corrected content, engineering drawing relations, and uncertainties require independent source review.",
+  "completed_at": "2026-10-14T15:45:31.325165+03:00",
+  "source_filename": "Katalog-ARMATURA.pdf",
+  "prior_output": {
+    "file": "armature-183-reviewed.json",
+    "sha256": "5ae68c978e892a672557c8ebc6ac8e55efac51a282a0889e173080b969f1a81a"
+  },
+  "revision_reason": "Повторно просмотрен весь оригинал и собственный7×кроп шапки. Удалено недоказанное утверждение открывает раздел, явно сохранён реальный логотип. Центральная область пуста, таблиц нет.",
+  "revision_source_crops": [
+    {
+      "file": "armature-183-header-r2.png",
+      "sha256": "4955d782e518879550eb3d60f96641ea0cd6dd0a069ce6f851df215c32c81dfc",
+      "scale": 7
+    }
+  ],
+  "private_original_receipt_sha256": "0bf5d1b6e29ce37348024e80eab6e147c4d4a71574fcef50199a16991774920a"
+}

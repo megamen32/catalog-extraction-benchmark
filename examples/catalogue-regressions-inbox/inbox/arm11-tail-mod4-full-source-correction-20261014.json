@@ -1,0 +1,36 @@
+{
+  "id": "arm11-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 11: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 11
+  },
+  "review_basis": "[\"Полный оригинал, блок документов и все стандарты сверены; таблиц нет.\", \"В native ошибочно названы TAF/ILAC MRA/UKAS и единый Inspect Inspect; крупные знаки IAF/IAS и два отдельных листа подтверждены кропом.\", \"Описание серого ребристого изолятора как стеклянного источником не подтверждается.\"] Исправления: [\"Исправлена классификация supporting_material и доказательства на полный лист.\", \"Сертификаты и KEMA разведены по реальным листам, знаки исправлены на IAF/IAS.\", \"Уточнены видимые фотографии, сняты неподтверждённые материалы и устройства; раскрыты неразборчивые реквизиты.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/ab9463617ef0e7d90a51ab2463678e5ba3ba64c7f2ee7d878257865a039a7669.json",
+      "sha256": "ab9463617ef0e7d90a51ab2463678e5ba3ba64c7f2ee7d878257865a039a7669",
+      "bytes": 13118,
+      "role": "native-candidate",
+      "program_version": "1.5.3"
+    },
+    {
+      "path": "objects/773a7163a5953fdc19920135d456e58b59b4b3433bc83a1e7c98893386616274.json",
+      "sha256": "773a7163a5953fdc19920135d456e58b59b4b3433bc83a1e7c98893386616274",
+      "bytes": 11414,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-20261014.r12"
+    },
+    {
+      "path": "objects/0f6b108c09b67860215585bacf8da04bf12e9a5c75f36809bb49ec944acf4d11.json",
+      "sha256": "0f6b108c09b67860215585bacf8da04bf12e9a5c75f36809bb49ec944acf4d11",
+      "bytes": 19085,
+      "role": "source-review",
+      "program_version": "tail-mod3-20261014.r12"
+    }
+  ]
+}

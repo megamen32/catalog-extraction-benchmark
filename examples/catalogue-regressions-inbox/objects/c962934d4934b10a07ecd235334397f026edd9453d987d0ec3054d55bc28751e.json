@@ -1,0 +1,84 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 138,
+  "printed_page": "137",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r3",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "08e7d4160800ddb22f3e13b72a4cc941c88670ad9f1a9e8a481896c2937d79b9",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.8",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "56b47ab11c142fdd0d89ade636eb52fff30220c3425401678e2bf74c18b69c62",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "08e7d4160800ddb22f3e13b72a4cc941c88670ad9f1a9e8a481896c2937d79b9",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 138,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "ad43db8eeb96f6a5b1aab82eb07fb8d999a3c90cd9e1f094a41f378634f1d7ae",
+      "receipt": "calls/3e57176e231f434b99fb7c3900393d96/result.json",
+      "started_at": 1791944920.349817,
+      "finished_at": 1791944993.3011873
+    }
+  },
+  "output": {
+    "file": "armature-138-reviewed-r3.json",
+    "sha256": "c334320290c902c72bf3cb539eaaef455a3e95c620d5b5b1d9a49680d0b43b1e"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "001ca88cc42d261e177e8b61c51c8f2b4d5f22f299a63881319a1502b5bcc85c",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      6
+    ],
+    "column_counts": [
+      6
+    ],
+    "cells_checked": 36
+  },
+  "source_findings": [
+    "Сверены36ячеек6×6:5/4лапкиПП59,5/4ПП69,8/5ПП67;массыобщие20,7/24,0/48,0.",
+    "МатричныекодыА30,3/45/45/57/40,5/57иразныедиапазонысохранены,печатное30,6свнутреннимпробеломнепотеряно.",
+    "Собственный5×кропкольцапоказываетвсе4конца400/600,диаметрØ1044поштрихпунктируиобеосинаклонного400."
+  ],
+  "corrections": [
+    "Ложный угловой400 заменён линейным межосевым.",
+    "Ø1044отнесёнкокружностирасположениякрепежей,Ø1400кнаружномукольцу.",
+    "Центральнаяосьненазванацентральнымвинтом;385описываетполныйвылетмеждуконцамиаппаратныхзажимов.",
+    "По независимому замечанию восстановлены пробелы и читаемость пояснений; все таблицы побайтово эквивалентны r1.",
+    "Только оставшиеся пробелы по независимому замечанию: крепежей.Ø1044."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T16:03:59.847156+03:00",
+  "revision": "r3",
+  "prior_output": {
+    "file": "armature-138-reviewed-r2.json",
+    "sha256": "cc729e16d2366bf3147310960852dacfad492919610b27ebe1824aa96ea9072f"
+  },
+  "private_original_receipt_sha256": "8ac2b27de0c1709f7da5ddab4b13a20c493c86dfc25dad855e0b7140eb192c88"
+}

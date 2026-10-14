@@ -1,0 +1,163 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_filename": "Katalog-ARMATURA.pdf",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 63,
+  "printed_page": "62",
+  "status": "awaiting_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod3",
+    "task": "/root/catalog_tail_mod3",
+    "version": "tail-mod3-20261014.r10",
+    "model_id": "Current native Codex worker session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-63-candidate.json",
+    "sha256": "9d621e8320cbd367d9179be2a824a46c0be0b3f01f29a35759d1eef9a18d16b3",
+    "canonical_sha256": "b32ec0b5e518f029decca0962511efd10287c5430f466ccb2d6cae6f3d4d52d2",
+    "producer": {
+      "program": {
+        "package_version": "1.5.4",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "03d94c1397ffd39d50a89db0b4d9ae29d17f13e5293b2fcbda6e8b4ec34d8c0c",
+        "python_version": "3.12.13"
+      },
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 63,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4d5faa2b87b39793b899bfd40ccb8b7b4ff5223f5cfe2aed7fb1c9e3580c2e6b",
+      "artifact_sha256": "9d621e8320cbd367d9179be2a824a46c0be0b3f01f29a35759d1eef9a18d16b3",
+      "started_at": 1791940379.545407,
+      "finished_at": 1791940439.0804133,
+      "provider_rate_limit_events": 0,
+      "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46",
+      "status": "receipt_verified",
+      "source_bound_save": true,
+      "receipt": ".tmp/full-digitization/staged-best-v1.4.8/armature/page-0063/calls/c8f02b80ede34092b92247980bdeaede/result.json",
+      "frozen_receipt": "armature-63-native-receipt.json",
+      "frozen_receipt_sha256": "26884fbbe02b22bd0338aa7ee0a562d6b9bc1fe353b2ebe6036a998a9387ed11"
+    }
+  },
+  "output": {
+    "file": "armature-63-reviewed.json",
+    "sha256": "6d8a8832c61e603d3691aba132fd94245352dc5a4cb54fc96303266814d99ffc",
+    "canonical_sha256": "00b92e1309e3f585fb19a7948c33c9784c2d11c3bcec34d97c540431a2585e7b"
+  },
+  "full_original_image_review": true,
+  "original_image": "armature-63.png",
+  "original_image_sha256": "12d13f6acd7b94496d39b01dbd15a5a7ca8549d72d701e7608ee3e9f57238396",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "page_content_schema": true
+  },
+  "tables": {
+    "row_counts": [
+      2,
+      8
+    ],
+    "column_counts": [
+      10,
+      4
+    ],
+    "cells_checked": 52
+  },
+  "source_findings": "Все52 ячейки:2×10 зажимов и8×4 прокладок совпадают. Сохранены H161/H1 259,5 и214,5, обеL500,диаметр45,массы7,30/6,81,нагрузки80/39,24, четыре прочерка А/d. Все длинные списки проводов прокладок, одиночный прочеркБ и повторные ПГН-5-3/5-6 в тексте сохранены. Собственный6×кроп подтверждает H1наружный иHотдельный.",
+  "corrections": [
+    {
+      "path": "branding/figures/page_context",
+      "reason": "Удалён выдуманный производитель магнитополимерных изделий; H/H1 исправлены,19,2 привязан к верхнему присоединительному элементу."
+    }
+  ],
+  "complete_leaf_diff": [
+    {
+      "path": ".figures[0].description",
+      "before": "Чертёж зажима в двух видах: слева вид спереди (симметричная П-образная рамка с центральной плитой и зажимными болтами), справа вид сбоку с вертикальными размерами H (полная высота) и H₁ (высота рабочей части с болтами). По фронтальному виду заданы: 300 — расстояние между осями двух крайних зажимных болтов, L — полная ширина зажима по наружным габаритам рамки; в верхней части бокового вида показан горизонтальный размер 19,2, отнесённый к узкому высту/шине зажима.",
+      "after": "Рис.3, две проекции поддерживающего зажима для полого провода ПА-500. Слева300 — между осями двух крайних болтов соединения лодочки с треугольной подвесной деталью; L — наружный продольный габарит лодочки. Справа H1 — полный вертикальный наружный габарит, H — от отмеченного верхнего уровня присоединительного узла до нижней границы области охвата провода; это не полная высота.19,2 — поперечный размер верхнего присоединительного элемента между двумя отмеченными боковыми границами. Провод в торце показан полым. Буквенные размеры связаны с таблицей в мм; единица самого рисунка отдельно не напечатана."
+    },
+    {
+      "path": ".page_context.source_evidence",
+      "before": [
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.09,
+            0.075,
+            0.95,
+            0.115
+          ],
+          "observation": "Заголовочная строка раздела «ЛИНЕЙНАЯ АРМАТУРА ДЛЯ ВЛ / АРМАТУРА ПОДДЕРЖИВАЮЩАЯ» задаёт товарную принадлежность страницы: каталог ведёт перечень линейной арматуры воздушных линий, а не конкретный заказ или проект.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.09,
+            0.135,
+            0.25,
+            0.26
+          ],
+          "observation": "Блок «НАЗНАЧЕНИЕ» первой позиции прямо связывает изделие с его применением: зажим крепит провод марки ПА-500 в линейной арматуре и изготавливается по конкретным техническим условиям. Это подтверждает, что следующий чертёж и таблица — товарные характеристики изделия, а не заполненная спецификация объекта.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.09,
+            0.575,
+            0.35,
+            0.815
+          ],
+          "observation": "Блок второй позиции «Прокладки для проводов к зажимам типа ПГН» с пояснением, что прокладка подбирается по марке монтируемого в зажим провода и её обозначение приводится в таблице. Это правило подбора и есть содержательная связь для второй таблицы.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.79,
+            0.075,
+            0.92,
+            0.12
+          ],
+          "observation": "Логотипы ФОРЭНЕРГО (производитель магнитополимерных изделий) в верхнем колонтитуле — бренд производителя каталога; знак «немагнитная арматура — не создаёт потерь от перемагничивания» у первой позиции относится к свойству изделия.",
+          "transcription": "literal"
+        }
+      ],
+      "after": [
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.06,
+            0.02,
+            0.96,
+            0.98
+          ],
+          "observation": "Две товарные группы: ПГН для алюминиевых полых проводов ПА-500 по ТУ2010 с рис.3 и двумя строками размеров, затем прокладки А/Б/В/Г/Д/Е/Ж/К с применимостью по ГОСТ839-80. H1 полный габарит, H отдельная высота по выносным линиям. Бренд — производственное объединение, магнитополимерные изделия не заявлены.",
+          "transcription": "literal"
+        }
+      ]
+    },
+    {
+      "path": ".text_blocks[6].text",
+      "before": "ФОРЭНЕРГО / FORENERGO industrial group",
+      "after": "ФОРЭНЕРГО — производственное объединение / FORENERGO industrial group"
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independent_review_required": true,
+  "unresolved_issues": [],
+  "acceptance_note": "No PASS issued. Corrected content, engineering drawing relations, and uncertainties require independent source review.",
+  "completed_at": "2026-10-14T15:38:08.681730+03:00",
+  "private_original_receipt_sha256": "5c36240682b23983e6881d35187ae56f94e5097d0772210c18ead71e2a91adb6"
+}

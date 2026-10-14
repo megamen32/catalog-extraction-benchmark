@@ -1,0 +1,36 @@
+{
+  "id": "arm23-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 23: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 23
+  },
+  "review_basis": "[\"Полный лист и оба 7× кропа сверены; все 30 ячеек обеих таблиц совпадают с оригиналом.\", \"Рубрика действительно «СЦЕПНАЯ», изделие «длинная», бренд — производственное объединение.\", \"H/H₁ серьги и 19,2/H₁ ушек в исходном разборе имели неверных владельцев.\"] Исправления: [\"Исправлены рубрика, название и бренд.\", \"У СРД H привязан к внутренней верхней границе окна и опорной границе головки; восстановлен полный H₁.\", \"У УД 19,2 привязан к внутренним вертикальным граням, H₁ к высоте внутреннего прохода; исключены выдуманные концы штыря.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/c7c53218cea0608afa21727ae56b2d13c685a2343e7648e3a391dc54c77cd8c9.json",
+      "sha256": "c7c53218cea0608afa21727ae56b2d13c685a2343e7648e3a391dc54c77cd8c9",
+      "bytes": 17033,
+      "role": "native-candidate",
+      "program_version": "1.5.3"
+    },
+    {
+      "path": "objects/7daba680630ce8e0092bd9b41f81dde20811df095e2841f71f8acf823a544671.json",
+      "sha256": "7daba680630ce8e0092bd9b41f81dde20811df095e2841f71f8acf823a544671",
+      "bytes": 13726,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-20261014.r12"
+    },
+    {
+      "path": "objects/355f0d4f70ae291211e5da52adfed40883eea92c8db73cdc6a3f756e56ae1139.json",
+      "sha256": "355f0d4f70ae291211e5da52adfed40883eea92c8db73cdc6a3f756e56ae1139",
+      "bytes": 18662,
+      "role": "source-review",
+      "program_version": "tail-mod3-20261014.r12"
+    }
+  ]
+}

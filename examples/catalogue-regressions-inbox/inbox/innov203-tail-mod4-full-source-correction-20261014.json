@@ -1,0 +1,36 @@
+{
+  "id": "innov203-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 203: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 203
+  },
+  "review_basis": "[\"Все 459 ячеек 27×17 сверены; размерная шапка объединяет 12 колонок.\", \"Native удвоил manufacturing association в бренде и оставил единицы размеров только в group.\"] Исправления: [\"Исправлен бренд, единицы мм²/мм и полный bbox доказательства.\", \"Убрано неподтверждённое «титульная» и служебная история инструмента из описания содержания.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/10db108a8db2607b7a11aa379be278c878b7045bf6d7279b267470ca5111432e.json",
+      "sha256": "10db108a8db2607b7a11aa379be278c878b7045bf6d7279b267470ca5111432e",
+      "bytes": 66886,
+      "role": "native-candidate",
+      "program_version": "1.5.8"
+    },
+    {
+      "path": "objects/a2d33966ed237b804c7772e2618cf4059dc02b1194b3c6da60803f29f0146d45.json",
+      "sha256": "a2d33966ed237b804c7772e2618cf4059dc02b1194b3c6da60803f29f0146d45",
+      "bytes": 64843,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-innovations-20261014.r1"
+    },
+    {
+      "path": "objects/788bb38e69cc9502f3588333a4910ca158291456b242293fe22cb0d45ca94010.json",
+      "sha256": "788bb38e69cc9502f3588333a4910ca158291456b242293fe22cb0d45ca94010",
+      "bytes": 12265,
+      "role": "source-review",
+      "program_version": "tail-mod3-innovations-20261014.r1"
+    }
+  ]
+}

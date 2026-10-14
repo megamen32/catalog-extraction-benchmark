@@ -1,0 +1,159 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 215,
+  "printed_page": "215",
+  "status": "awaiting_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod3",
+    "task": "/root/catalog_tail_mod3",
+    "version": "tail-mod3-innovations-20261014.r1",
+    "model_id": "Current native Codex worker session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "innovations-215-candidate.json",
+    "sha256": "02f4d244a47376ab3c0139e902957e97f81613399de32e0b94f3fffa9479d2dc",
+    "canonical_sha256": "b4592f64b917bc5aba2b39c4e3e162e7dbc58da51ef313d76455954f37f7e0f7",
+    "producer": {
+      "program": {
+        "package_version": "1.5.8",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "56b47ab11c142fdd0d89ade636eb52fff30220c3425401678e2bf74c18b69c62",
+        "python_version": "3.12.13"
+      },
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 215,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "ad43db8eeb96f6a5b1aab82eb07fb8d999a3c90cd9e1f094a41f378634f1d7ae",
+      "artifact_sha256": "02f4d244a47376ab3c0139e902957e97f81613399de32e0b94f3fffa9479d2dc",
+      "started_at": 1791946918.8824716,
+      "finished_at": 1791946963.8445222,
+      "provider_rate_limit_events": 0,
+      "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46",
+      "status": "receipt_verified",
+      "source_bound_save": true,
+      "receipt": ".tmp/full-digitization/staged-best-v1.4.8/innovations/page-0215/calls/c6b7a3eb1b984f599d730bfafa4e4857/result.json",
+      "frozen_receipt": "innovations-215-native-receipt.json",
+      "frozen_receipt_sha256": "ff151b552dc795e952104151fa7319fc209578a71e654c604ac01132e34daa34"
+    }
+  },
+  "output": {
+    "file": "innovations-215-reviewed.json",
+    "sha256": "0d99c5d8de310fffc90af90d272e027067628e7f78513e07591803bcc39d4126",
+    "canonical_sha256": "e2ef667327f20b37e7622c4947098cbb1df69e08e4c369c8943df4d3c996898c"
+  },
+  "full_original_image_review": true,
+  "original_image": "innovations-215.png",
+  "original_image_sha256": "0dd095093a836242c9d7740b3ac7a74924f4e132bec0ee8878b7ae6434e540e7",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "page_content_schema": true
+  },
+  "tables": {
+    "row_counts": [
+      11
+    ],
+    "column_counts": [
+      7
+    ],
+    "cells_checked": 77
+  },
+  "source_findings": [
+    "Все 77 ячеек сверены по полному оригиналу, объединена только шапка размеров.",
+    "На листе нет основания для добавленного native материала АСТ или конкретных установочных баз."
+  ],
+  "corrections": [
+    "Добавлены явно напечатанные мм в поля D/L/L₁.",
+    "Убраны неподтверждённые расшифровка АСТ и назначение размеров; evidence охватывает полный лист."
+  ],
+  "complete_leaf_diff": [
+    {
+      "path": ".page_context.source_evidence",
+      "before": [
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.07,
+            0.015,
+            0.93,
+            0.3
+          ],
+          "observation": "Единственный смысловой блок страницы — заголовок «ЛИНЕЙНАЯ АРМАТУРА ДЛЯ ПРОВОДОВ АСТ» и таблица с типоразмерами: столбцы «Обозначение», «Провод марки АСТ, сечение мм²», группа «Размеры, мм» (D, L, L1), «Матрица опрессования», «Масса, кг». Признаков программной демонстрации (окно САПР, файл DEMO, описание формирования отчёта) на странице нет; признаков проектной спецификации (название стройки, штамп, ведомость объёмов) также нет. Это товарные данные каталога.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.46,
+            0.055,
+            0.61,
+            0.095
+          ],
+          "observation": "Заголовочная ячейка-группа «Размеры, мм» физически объединяет три подстолбца D, L и L₁ — миллиметры относятся именно к этим трём размерам, а не к матрице опрессования или массе (у массы своя единица «кг»). Единица «мм²» напечатана в самом заголовке столбца провода.",
+          "transcription": "literal"
+        }
+      ],
+      "after": [
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.07,
+            0.01,
+            0.97,
+            0.995
+          ],
+          "observation": "Полный лист с рубрикой, брендом ФОРЭНЕРГО / FORENERGO manufacturing association, таблицей 11×7, группой «Размеры, мм» и контактами ООО «МЗВА» на странице 215.",
+          "transcription": "literal"
+        }
+      ]
+    },
+    {
+      "path": ".page_context.summary",
+      "before": "Страница каталога производителя ООО «МЗВА» (ФОРЭНЕРГО) — товарная таблица линейной арматуры типа РАСТ для алюминиево-стальных проводов марки АСТ. Для каждого типоразмера приведены обозначение, марка и сечение провода в формате АСТ-<алюминий>/<сталь> (мм²), три установочных размера D, L и L₁ в мм, применяемая матрица опрессования (МШ-…) и масса изделия в кг. Таблица не содержит привязки к конкретному объекту, объёмов для стройки или проектных отметок — это типовой каталожный перечень применяемости и подбора по сечению провода.",
+      "after": "Таблица линейной арматуры РАСТ для проводов марки АСТ: 11 типоразмеров от РАСТ-500.1 до РАСТ-800.1, сечение, размеры D/L/L₁ в миллиметрах, матрицы опрессования и масса в килограммах. Чертежей и назначения на этом листе нет; материал провода и смысл каждой размерной базы по таблице не достраиваются."
+    },
+    {
+      "path": ".source_notes",
+      "before": [],
+      "after": [
+        "Объединённая шапка «Размеры, мм» относится к D, L, L₁; единицы явно перенесены в поля этих трёх колонок. Масса имеет единицу кг без условия «не более».",
+        "Сохранены все 77 ячеек, в том числе массы 1,9/1,95 у двух первых позиций, 2,25/2,2 у 550/600 и 3,65/3,4 у 750/800.",
+        "На этом листе нет расшифровки марки АСТ и нет чертежа, позволяющего установить конкретные поверхности или оси для D/L/L₁."
+      ]
+    },
+    {
+      "path": ".tables[0].columns[2].unit",
+      "before": null,
+      "after": "мм"
+    },
+    {
+      "path": ".tables[0].columns[3].unit",
+      "before": null,
+      "after": "мм"
+    },
+    {
+      "path": ".tables[0].columns[4].unit",
+      "before": null,
+      "after": "мм"
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independent_review_required": true,
+  "unresolved_issues": [],
+  "acceptance_note": "No PASS issued. Corrected content, engineering drawing relations, and uncertainties require independent source review.",
+  "completed_at": "2026-10-14T16:07:18.635070+03:00",
+  "private_original_receipt_sha256": "4c54112d2d8b243a4c90420cbcbed68a6984adfaa2158e857761fadabfc8872f"
+}

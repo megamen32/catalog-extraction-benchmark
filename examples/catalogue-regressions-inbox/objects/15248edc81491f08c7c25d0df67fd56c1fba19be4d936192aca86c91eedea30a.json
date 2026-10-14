@@ -1,0 +1,81 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_filename": "Katalog-ARMATURA.pdf",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 84,
+  "printed_page": "83",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-0084-native-candidate.json",
+    "sha256": "87b322909162e2d6212fde846da0a0faa70362b1c74796079187a26eae2dde26",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.4",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "03d94c1397ffd39d50a89db0b4d9ae29d17f13e5293b2fcbda6e8b4ec34d8c0c",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "87b322909162e2d6212fde846da0a0faa70362b1c74796079187a26eae2dde26",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 84,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4d5faa2b87b39793b899bfd40ccb8b7b4ff5223f5cfe2aed7fb1c9e3580c2e6b",
+      "receipt": "calls/c3e6f6e162d94d1c8e719bf153ff836a/result.json",
+      "started_at": 1791941148.876342,
+      "finished_at": 1791941216.7787426
+    }
+  },
+  "output": {
+    "file": "armature-0084-reviewed.json",
+    "sha256": "c93ac7a41ea5a622e48aa5aded8a21b4359f2c7bce14d41f0feaa469d31a8d03"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "aef4faf1f5cfbd0618aa1c61bc09b62909bf986386cc27c746e57d07a3991672",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      4
+    ],
+    "column_counts": [
+      9
+    ],
+    "cells_checked": 36
+  },
+  "source_findings": [
+    "Полный оригинал просмотрен. Все36 ячеек4×9 сверены:марки/сечения всех4 групп,диаметры/А/Hmax/масса кг «не более»,печатные тире и две строкиПМ240/300.",
+    "НазначениеИОС-20/35,ТУ2010,немагнитная плашка,логотипы,реальные реквизиты83 соответствуют источнику.",
+    "ВыносныеØ140 касаются штриховой окружности центров отверстий,Ø175 наружного кругового габарита; конкретные наконечники и окружности проверены по всему исходному плану."
+  ],
+  "corrections": [
+    "Ø140 исправлен на окружность центров четырёх отверстий; Ø175 на наружный габарит основания. Они не задают посадочную поверхность провода и не поменяны местами.",
+    "Диаметр отверстия сохранён буквальноØ16.5 с точкой; А между осями болтов, H max от опорной плоскости до верха крепежа.",
+    "Убраны неподтверждённые штырь/изолятор в изображении и утверждение, чтоØ175 есть в таблице; исправлен ложный бренд федеральная сетевая компания.",
+    "Первый evidence расширен до реально заявленного логотипа."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T16:05:17.286082+03:00",
+  "private_original_receipt_sha256": "62560ac2800cec0ce477fea8fa1fdcd8e6700d98a5f83485a1646fb5c54a37d9"
+}

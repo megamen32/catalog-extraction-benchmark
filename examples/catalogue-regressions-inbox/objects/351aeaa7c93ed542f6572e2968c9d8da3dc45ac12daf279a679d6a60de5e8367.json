@@ -1,0 +1,217 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_filename": "Katalog-ARMATURA.pdf",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 71,
+  "printed_page": "70",
+  "status": "awaiting_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod3",
+    "task": "/root/catalog_tail_mod3",
+    "version": "tail-mod3-20261014.r10",
+    "model_id": "Current native Codex worker session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-71-candidate.json",
+    "sha256": "f8047cf8b56227e957f239a1a45db513ecbbf1a11c333c0dc4f9fad76e8e9a57",
+    "canonical_sha256": "118ccea1f091cc6b9ac1e78e936a26ee6dde6afe574741eaf39d313cbece9b9a",
+    "producer": {
+      "program": {
+        "package_version": "1.5.4",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "03d94c1397ffd39d50a89db0b4d9ae29d17f13e5293b2fcbda6e8b4ec34d8c0c",
+        "python_version": "3.12.13"
+      },
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 71,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4d5faa2b87b39793b899bfd40ccb8b7b4ff5223f5cfe2aed7fb1c9e3580c2e6b",
+      "artifact_sha256": "f8047cf8b56227e957f239a1a45db513ecbbf1a11c333c0dc4f9fad76e8e9a57",
+      "started_at": 1791940656.18327,
+      "finished_at": 1791940704.3528981,
+      "provider_rate_limit_events": 0,
+      "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46",
+      "status": "receipt_verified",
+      "source_bound_save": true,
+      "receipt": ".tmp/full-digitization/staged-best-v1.4.8/armature/page-0071/calls/46093af6ac014876a3fca07048a2e705/result.json",
+      "frozen_receipt": "armature-71-native-receipt.json",
+      "frozen_receipt_sha256": "098c9559c4035a67984ed675f3f00dad7eb4c922408aedb08e226f1875e5db21"
+    }
+  },
+  "output": {
+    "file": "armature-71-reviewed.json",
+    "sha256": "93a1b334f37cda6a44ebfa82a734f133b3656eec2f2d04a936bdc1a4e9dcdd82",
+    "canonical_sha256": "9af00a838da7325d34bd2f79f21887b7ccda6ba2f8ab1e7ab03ce953814d6e48"
+  },
+  "full_original_image_review": true,
+  "original_image": "armature-71.png",
+  "original_image_sha256": "1aad9fb24bd59452934da5401c9e840c9acc921078aa36ee2be06f9ee2f655a6",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "page_content_schema": true
+  },
+  "tables": {
+    "row_counts": [
+      15
+    ],
+    "column_counts": [
+      4
+    ],
+    "cells_checked": 60
+  },
+  "source_findings": "Все60 ячеек15×4 совпадают: девять10КП и шесть7КП, общие200,0кН; массы28,20…28,95 с повторениями; две двойные применимости240/39 и240/56. Регистры АСКУ/АСку/АСК2У/АСк2у сохранены. Полный собственный8×кроп и отдельный6×кроп надписи показывают Силовая схема, не Гильза в гнете.",
+  "corrections": [
+    {
+      "path": "title/figures/source_notes/page_context",
+      "reason": "Удалены выдуманные Гильза в гнете, А–Б и резьба на проводе; все размеры связаны с деталями, раскрыт необычный знак90."
+    }
+  ],
+  "complete_leaf_diff": [
+    {
+      "path": ".figures[0].description",
+      "before": "Сборочный чертёж в трёх видах: главный фронтальный вид с двумя зажимами, соединёнными П-образной лодочкой (справа — вид спереди с проушиной 300 и высотой 283); слева внизу — вынесенный разрез Б-Б с обозначением «Гильза в гнете» и угловым размером 90°; между видами — небольшое сечение А-Б через шарнир зажима. Выносками указаны детали «Зажим» и «Протектор»; на разрезе провода показана резьба «х х х х».",
+      "after": "Две основные проекции двухпроводной сборки с зажимами на концах поперечного узла. Слева530 — наружный габарит двух зажимов,400 — между проводными осями. R18 — внутренний радиус верхнего изгиба центральной детали, Ø30 — диаметр её прутка.95 — вертикально от внутренней верхней точки этого изгиба до отмеченного нижнего уровня у проводной посадки. Ø17 — два присоединительных отверстия поперечной пластины,260 — между их осями. Справа300 — наружная продольная длина лодочки,283 — полный вертикальный габарит. Выноски Зажим и Протектор указывают на разные детали; крестики на проводе не обозначают резьбу. А — направление дополнительного вида; Б задаёт повёрнутое сечение Б–Б, а не сечение А–Б. Под ним напечатано Силовая схема: показан изгиб с буквальным обозначением90¹ возле дуговых стрелок. Подписи Гильза в гнете в источнике нет. Единицы на самом чертеже не напечатаны."
+    },
+    {
+      "path": ".figures[0].labels",
+      "before": [
+        "530",
+        "400",
+        "R18",
+        "Ø30",
+        "95",
+        "Ø17",
+        "260",
+        "90ª",
+        "300",
+        "283",
+        "Зажим",
+        "Протектор",
+        "Б-Б",
+        "А",
+        "Б",
+        "Силовая схема",
+        "Гильза в гнете",
+        "х х х х"
+      ],
+      "after": [
+        "530",
+        "400",
+        "R18",
+        "Ø30",
+        "95",
+        "Ø17",
+        "260",
+        "90¹",
+        "300",
+        "283",
+        "Зажим",
+        "Протектор",
+        "Б–Б",
+        "А",
+        "Б",
+        "Силовая схема"
+      ]
+    },
+    {
+      "path": ".page_context.source_evidence",
+      "before": [
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.09,
+            0.075,
+            0.66,
+            0.13
+          ],
+          "observation": "Заголовочная строка рубрики «ЛИНЕЙНАЯ АРМАТУРА ДЛЯ ВЛ / АРМАТУРА ПОДДЕРЖИВАЮЩАЯ» и логотипы ФОРЭНЕРГО / FORENERGO industrial group задают товарную рубрику каталога.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.09,
+            0.15,
+            0.35,
+            0.36
+          ],
+          "observation": "Наименование изделия «Зажимы поддерживающие типа 2ПГН-5-10КП» и блок «НАЗНАЧЕНИЕ» с назначением, материалом лодечек и плашек, встроенным защитным спиральным протектором и ТУ 3449-001-52819896-2010 — типичное описание товарной позиции каталога.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.28,
+            0.18,
+            0.93,
+            0.37
+          ],
+          "observation": "Сборочный чертёж зажима поддерживающего: главный вид с двумя зажимами на П-образной лодочке, вид спереди и вынесенный разрез Б-Б с подписью «Гильза в гнете»; конструктивные размеры и выноски деталей, а не данные заказа.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.09,
+            0.585,
+            0.91,
+            0.935
+          ],
+          "observation": "Единая таблица типоразмеров: 15 позиций зажимов с марками и сечениями провода, постоянной по объединённой ячейке разрушающей нагрузкой 200,0 кН (не менее) и массой от 28,20 до 28,95 кг — типовой ряд каталога, а не подбор под конкретный объект.",
+          "transcription": "literal"
+        }
+      ],
+      "after": [
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.06,
+            0.02,
+            0.96,
+            0.98
+          ],
+          "observation": "Двухпроводные зажимы для компактированных АСку/АСк2у с интегрированным спиральным протектором, ТУ2010. Чертёж различает зажим и протектор, вид А и повёрнутое Б–Б с подписью Силовая схема. Таблица15 строк содержит реальный переход10КП→7КП и общую нагрузку200,0кН.",
+          "transcription": "literal"
+        }
+      ]
+    },
+    {
+      "path": ".source_notes[3]",
+      "before": "Подпись под вынесенным разрезом набрана мелким курсивом; прочитана как «Гильза в гнете» при увеличении области чертежа.",
+      "after": "Под повёрнутым сечением Б–Б напечатано «Силовая схема». Курсив не прочитан как «Гильза в гнете»."
+    },
+    {
+      "path": ".source_notes[4]",
+      "before": "Угол на разрезе в текстовом слое закодирован как «90ª» (U+00AA) — сохранено как в источнике.",
+      "after": "Возле дуговых стрелок силовой схемы изображено90 с малым надстрочным знаком, визуально похожим на1; текстовый слой кодирует его90ª. Это раскрытая особенность источника, не размер90мм."
+    },
+    {
+      "path": ".source_notes[5]",
+      "before": "Латиница «A» (U+0041) в обозначении сечения А-Б и кириллица «А» (U+0410) в стрелке разреза нарисованы одинаково; различие установлено по кодпоинтам текстового слоя.",
+      "after": "А обозначает дополнительный вид, Б–Б — отдельное повёрнутое сечение. Объединённого обозначения А–Б в источнике нет."
+    },
+    {
+      "path": ".title",
+      "before": "ЛИНЕЙНАЯ АРМАТУРА ДЛЯ ВЛ / АРМАТУРА ПОДДЕРЖИВАЮЩАЯ",
+      "after": "Зажимы поддерживающие типа 2ПГН-5-10КП"
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independent_review_required": true,
+  "unresolved_issues": [],
+  "acceptance_note": "No PASS issued. Corrected content, engineering drawing relations, and uncertainties require independent source review.",
+  "completed_at": "2026-10-14T15:38:08.669579+03:00",
+  "private_original_receipt_sha256": "d97de7b028dc66f11ca054bb1e687900f3615bab08ba441e43c200dff948dbfe"
+}

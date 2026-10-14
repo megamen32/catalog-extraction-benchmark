@@ -1,0 +1,36 @@
+{
+  "id": "arm134-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 134: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 134
+  },
+  "review_basis": "[\"Полностьюсверены170ячеек17×10. Всецифрысовпали,включаяМШ62у700.1иразныемассы500.1=1,00/500.2=1,10.\", \"L3=20только500.4/500.5/700.1/750.1/800.1;550.1/600.1/650.1остаются15.\", \"ВисточникеШАСТиАСТ, никакогоЩАСТилиматериаластальногонастраниценет.\"] Исправления: [\"Числостроквsummaryисправленос16на17.\", \"Снятнеподтверждённыйматериал«стальной»дляпроводаАСТ.\", \"Единицымм/кгвынесенывполя,областьevidenceвключаетномер/контакты.\", \"По независимому замечанию восстановлены пробелы и читаемость пояснений; все таблицы побайтово эквивалентны r1.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/25dc0c1ffee90ebce0193d9a7faca8385d9bcc57252e419b9b08641c142c1841.json",
+      "sha256": "25dc0c1ffee90ebce0193d9a7faca8385d9bcc57252e419b9b08641c142c1841",
+      "bytes": 28292,
+      "role": "native-candidate",
+      "program_version": "1.5.8"
+    },
+    {
+      "path": "objects/550540b19a0657eeee3f8dc7edcd1554337f2ef06489465853075eda0d994b00.json",
+      "sha256": "550540b19a0657eeee3f8dc7edcd1554337f2ef06489465853075eda0d994b00",
+      "bytes": 26623,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r2"
+    },
+    {
+      "path": "objects/28fd638d4dddd49a01642f8c4e100216cab0a7ca7cfd5dd62c81f4a840661063.json",
+      "sha256": "28fd638d4dddd49a01642f8c4e100216cab0a7ca7cfd5dd62c81f4a840661063",
+      "bytes": 3590,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r2"
+    }
+  ]
+}

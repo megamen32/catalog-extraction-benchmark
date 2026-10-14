@@ -1,0 +1,83 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 130,
+  "printed_page": "129",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r2",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "b6ad82271f1aaa29d56d73e63080027e598b7d99d0fcc54118bb9967e3741feb",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.8",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "56b47ab11c142fdd0d89ade636eb52fff30220c3425401678e2bf74c18b69c62",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "b6ad82271f1aaa29d56d73e63080027e598b7d99d0fcc54118bb9967e3741feb",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 130,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "ad43db8eeb96f6a5b1aab82eb07fb8d999a3c90cd9e1f094a41f378634f1d7ae",
+      "receipt": "calls/7eb2109be2c84d3fba39046936e3cba2/result.json",
+      "started_at": 1791944471.9336562,
+      "finished_at": 1791944587.8788934
+    }
+  },
+  "output": {
+    "file": "armature-130-reviewed-r2.json",
+    "sha256": "6cc152f882a0de77016738e575b5bb64f48e2b4a7b921acaff26391169a9625f"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "5caec597d7bbbda817df15e5108db23dc9f669fbcd48eb0621e4d409ff1c9c40",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      9
+    ],
+    "column_counts": [
+      6
+    ],
+    "cells_checked": 54
+  },
+  "source_findings": [
+    "Все54ячейки9×6сверены,включаяАС70/72вШРП120иАС95/141вШРП185,неисправлялисьподтиповыезначения.",
+    "Длины244/288/338/376/414/424/468/490/520,массы0,24/0,35/0,43/0,64/0,86/1,00/1,53/2,05/2,60совпали.",
+    "ТУимеетгод2020,несоседний2010;рожковыеключииразъёмностьявнонапечатаны."
+  ],
+  "corrections": [
+    "Две фотографиисборки/разборкивместотрёх:средняяотдельнаядетальсоединительнаямуфта,неконцеваяполовина.",
+    "Шестигранныеподключусловныеконтурыненазваныопрессовочнымиокружностями;направлениянаружуиLпограницамкорпусапрописаны.",
+    "Уточнёнсмысл«безсваркистермопатронами»,восстановленпечатныйбренд.",
+    "По независимому замечанию восстановлены пробелы и читаемость пояснений; все таблицы побайтово эквивалентны r1."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T15:59:12.806118+03:00",
+  "revision": "r2",
+  "prior_output": {
+    "file": "armature-130-reviewed.json",
+    "sha256": "44ac6e88c3f8eb13e69743db2e56be19e54cf76dda1e8c935e2aa5a616553b7e"
+  },
+  "private_original_receipt_sha256": "338c82636e62ac8a728e56264297caca5c0bbb37a6de8e755941104d013d6b64"
+}

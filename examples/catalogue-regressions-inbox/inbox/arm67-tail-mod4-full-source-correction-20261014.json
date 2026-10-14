@@ -1,0 +1,36 @@
+{
+  "id": "arm67-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 67: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 67
+  },
+  "review_basis": "Все200 ячеек40×5 проверены. Группы рисунков1/2/3/4/5 на2/22/8/7/1 строк, нагрузки35,0/60,0/100,0/100,0/120,0 совпадают. Буквальные70/72,95/141,205/27, повторные15,4/19,8/21,6 и масса5,57 у400/22 сохранены. Все индивидуальные массы1,25…7,39 и марки соответствуют оригиналу. Исправления: [{\"path\": \"branding/page_context/title\", \"reason\": \"Исправлены выдуманный бренд,41→40строк и области доказательств, которые не охватывали логотип и footer.\"}] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/ac9695d80914756d30a9b26969db7b44c26384139468e7466d6ba1cda2fc9e32.json",
+      "sha256": "ac9695d80914756d30a9b26969db7b44c26384139468e7466d6ba1cda2fc9e32",
+      "bytes": 34124,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/f4ccf28d7d92367e70ac2e8ec83c418efaa3188d1297da84a9ea2121bf9a2b81.json",
+      "sha256": "f4ccf28d7d92367e70ac2e8ec83c418efaa3188d1297da84a9ea2121bf9a2b81",
+      "bytes": 31203,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-20261014.r10"
+    },
+    {
+      "path": "objects/2f879910f86f06b8f1789df6b9e2ed49c0af9c4783a217f824b55e4c9e8e6179.json",
+      "sha256": "2f879910f86f06b8f1789df6b9e2ed49c0af9c4783a217f824b55e4c9e8e6179",
+      "bytes": 9924,
+      "role": "source-review",
+      "program_version": "tail-mod3-20261014.r10"
+    }
+  ]
+}

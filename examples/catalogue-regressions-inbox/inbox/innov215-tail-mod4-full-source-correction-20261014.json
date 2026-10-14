@@ -1,0 +1,36 @@
+{
+  "id": "innov215-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 215: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 215
+  },
+  "review_basis": "[\"Все 77 ячеек сверены по полному оригиналу, объединена только шапка размеров.\", \"На листе нет основания для добавленного native материала АСТ или конкретных установочных баз.\"] Исправления: [\"Добавлены явно напечатанные мм в поля D/L/L₁.\", \"Убраны неподтверждённые расшифровка АСТ и назначение размеров; evidence охватывает полный лист.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/02f4d244a47376ab3c0139e902957e97f81613399de32e0b94f3fffa9479d2dc.json",
+      "sha256": "02f4d244a47376ab3c0139e902957e97f81613399de32e0b94f3fffa9479d2dc",
+      "bytes": 15300,
+      "role": "native-candidate",
+      "program_version": "1.5.8"
+    },
+    {
+      "path": "objects/0d99c5d8de310fffc90af90d272e027067628e7f78513e07591803bcc39d4126.json",
+      "sha256": "0d99c5d8de310fffc90af90d272e027067628e7f78513e07591803bcc39d4126",
+      "bytes": 14269,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-innovations-20261014.r1"
+    },
+    {
+      "path": "objects/c185e96c86fb81cd39e4d0f640a970618f459acde71a8518f411e8dccef5f681.json",
+      "sha256": "c185e96c86fb81cd39e4d0f640a970618f459acde71a8518f411e8dccef5f681",
+      "bytes": 9140,
+      "role": "source-review",
+      "program_version": "tail-mod3-innovations-20261014.r1"
+    }
+  ]
+}

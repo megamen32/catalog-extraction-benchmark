@@ -1,0 +1,80 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_filename": "Katalog-ARMATURA.pdf",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 124,
+  "printed_page": "123",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-0124-native-candidate.json",
+    "sha256": "024ac3d0bf194b0d56226be50c81a27886f12e2d26f23e620988198752cc374f",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.6",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "ca9cb343d7402f9bdb421b4fc5bc0b77ee1cff94b255122f592b3fda0e12f0b3",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "024ac3d0bf194b0d56226be50c81a27886f12e2d26f23e620988198752cc374f",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 124,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "3031f54101971a2d9729b048304180edaaf22cda716b98c15339c8c61c45fa7b",
+      "receipt": "calls/ee543df063704ac284d394d93b79792c/result.json",
+      "started_at": 1791943654.1208155,
+      "finished_at": 1791943733.1515675
+    }
+  },
+  "output": {
+    "file": "armature-0124-reviewed.json",
+    "sha256": "8f4a36d1b4a5e04201490c4832299e2d576fefb4efd5b79cf42e230c2ddf09ec"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "782de4f57c2eef7bd8ea65916b76772ab8469f8e3e05f366f6a22fde8b2d4002",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      6
+    ],
+    "column_counts": [
+      9
+    ],
+    "cells_checked": 54
+  },
+  "source_findings": [
+    "Полностью просмотрены оригинал и увеличенные чертежи, назначение, ТУ, логотипы, реальные реквизиты и печатная 123.",
+    "Все 54 ячейки таблицы 6×9 сверены, включая две подстроки каждой детали, прочерки, втулку/сердеч., все марки АС и матрицы. Ошибочные или необычные числа не подменялись.",
+    "Шапка «Размеры, мм» геометрически объединяет только d/D/L; отдельная В не имеет напечатанной единицы. Масса кг «не более». Оба L между торцами соответствующих деталей, d/D/В относятся к конкретным окружностям и лыскам."
+  ],
+  "corrections": [
+    "Убрана ошибочная шестигранная форма правого сечения: источник показывает две вертикальные лыски и верхнюю/нижнюю дуги. В — между лысками, D — полный вертикальный диаметр.",
+    "Отдельный полый сердечник больше не назван сборкой с проводом; две верхние стрелки не приписаны разным операциям без подписи источника.",
+    "Уточнены базы обоих L, направления стрелок А и границы первого evidence."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T15:50:08.056957+03:00",
+  "private_original_receipt_sha256": "44421c9eee1131df1f15cfdf586215f12af276400f786ff31744d8f55beb73a0"
+}

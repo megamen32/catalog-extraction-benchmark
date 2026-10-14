@@ -1,0 +1,36 @@
+{
+  "id": "innov211-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 211: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 211
+  },
+  "review_basis": "[\"Все 276 ячеек и вертикальные объединения 11 групп сверены.\", \"На рисунке единица мм² с надстрочным 2, в native поле было мм2.\"] Исправления: [\"Уточнены единица сечения и полный bbox доказательства.\", \"Смысл размеров ограничен данными таблицы без додумывания геометрии.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/0b4c929017ce606843ce561a1b4680fa85aecdd2faf3b674bb6e7d873bf618e7.json",
+      "sha256": "0b4c929017ce606843ce561a1b4680fa85aecdd2faf3b674bb6e7d873bf618e7",
+      "bytes": 43142,
+      "role": "native-candidate",
+      "program_version": "1.5.8"
+    },
+    {
+      "path": "objects/7eac42f4fe86099d542dd9b6bdca006d5ae6eef15ab3d4fa3719407ca4676771.json",
+      "sha256": "7eac42f4fe86099d542dd9b6bdca006d5ae6eef15ab3d4fa3719407ca4676771",
+      "bytes": 41332,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-innovations-20261014.r1"
+    },
+    {
+      "path": "objects/e3fc880c9b4bc40488ac74a39f0219efd6277d04cd4c77dabff143ca7719c294.json",
+      "sha256": "e3fc880c9b4bc40488ac74a39f0219efd6277d04cd4c77dabff143ca7719c294",
+      "bytes": 10543,
+      "role": "source-review",
+      "program_version": "tail-mod3-innovations-20261014.r1"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "arm110-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 110: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 110
+  },
+  "review_basis": "[\"Полностьюсверены247ячеек19×13,включая3ГОСТНС50идвойные70/100/120/140/170/220.\", \"Расчётныеплощади50,45/48,64/49,32связаныс9,2/9,1/9,2строк;непереставлены. Разрушающиенагрузки90,37…433,75вкН,неменее;массывкг.\", \"Сохраненыистинные333,75уНС220и333,12уНС230,3,40у120и3,33у140;объединённыенагрузкираспространеныпосвоимтипоразмерам.\"] Исправления: [\"L1 привязан к указанной поперечной границе прямой зоны,не к началу петли.\", \"d — посадочный проходподтрос,нефактическийдиаметрканата;d1 — внутреннийпросветушка.\", \"Убранынеподтверждённыеконическая/завальцованнаячасть;направлениеопрессованиявлевоявноуказано.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/358ec5a512f240fba601a5574a481b6e16c1dbdab930495ef32d6dee9259d2b8.json",
+      "sha256": "358ec5a512f240fba601a5574a481b6e16c1dbdab930495ef32d6dee9259d2b8",
+      "bytes": 41777,
+      "role": "native-candidate",
+      "program_version": "1.5.5"
+    },
+    {
+      "path": "objects/28e02b1c77645ca4febc1948a41a8c588e22a8a7d110dabecb237afb3c19b107.json",
+      "sha256": "28e02b1c77645ca4febc1948a41a8c588e22a8a7d110dabecb237afb3c19b107",
+      "bytes": 40711,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/e1648aa80b9b98449a6a5df1a29115fc408ff431a532ca662d7b01ee10ef06c5.json",
+      "sha256": "e1648aa80b9b98449a6a5df1a29115fc408ff431a532ca662d7b01ee10ef06c5",
+      "bytes": 3552,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

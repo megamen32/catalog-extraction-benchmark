@@ -1,0 +1,29 @@
+{
+  "id": "arm187-manual-author-revision-error-20261014",
+  "status": "pending_adjudication",
+  "category": "manual-author-and-reviewer-failure",
+  "title": "Арматура 187: ошибка ручного автора и независимое исправление",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 187
+  },
+  "review_basis": "Ручной автор перенёс описание размера15 с похожего другого чертежа и выдумал вторую контактную пластину. Оригинальный7×кроп показывает15 от правой грани одной пластины до левой опорной грани шайбы перед гайкой. r2 исправляет рисунок и примечание;154 ячейки прежние. Ответственный за ошибочный ручной артефакт — native Codex, не MiniMax/GLM. Исходные native JSON и receipts не редактировались. Старые шкалы500/520 и модельные результаты не пересчитывались; это отдельный pending error case.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/59ac6bf421d32d58b6f4a1364d8d2af380349b61b01061403f38264f25fb4038.json",
+      "sha256": "59ac6bf421d32d58b6f4a1364d8d2af380349b61b01061403f38264f25fb4038",
+      "bytes": 30186,
+      "role": "manual-author-output-with-confirmed-error",
+      "program_version": "tail-mod3-20261014.r5"
+    },
+    {
+      "path": "objects/0804f185093356da75db4b171c5ce3daab0ee359e70161a45ffb9d4db1cf0c0e.json",
+      "sha256": "0804f185093356da75db4b171c5ce3daab0ee359e70161a45ffb9d4db1cf0c0e",
+      "bytes": 28464,
+      "role": "source-checked-manual-revision",
+      "program_version": "tail-mod3-20261014.r5-corrected"
+    }
+  ]
+}

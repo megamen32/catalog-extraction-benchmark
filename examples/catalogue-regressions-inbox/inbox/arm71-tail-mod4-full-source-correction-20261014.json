@@ -1,0 +1,36 @@
+{
+  "id": "arm71-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 71: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 71
+  },
+  "review_basis": "Все60 ячеек15×4 совпадают: девять10КП и шесть7КП, общие200,0кН; массы28,20…28,95 с повторениями; две двойные применимости240/39 и240/56. Регистры АСКУ/АСку/АСК2У/АСк2у сохранены. Полный собственный8×кроп и отдельный6×кроп надписи показывают Силовая схема, не Гильза в гнете. Исправления: [{\"path\": \"title/figures/source_notes/page_context\", \"reason\": \"Удалены выдуманные Гильза в гнете, А–Б и резьба на проводе; все размеры связаны с деталями, раскрыт необычный знак90.\"}] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/f8047cf8b56227e957f239a1a45db513ecbbf1a11c333c0dc4f9fad76e8e9a57.json",
+      "sha256": "f8047cf8b56227e957f239a1a45db513ecbbf1a11c333c0dc4f9fad76e8e9a57",
+      "bytes": 18421,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/93a1b334f37cda6a44ebfa82a734f133b3656eec2f2d04a936bdc1a4e9dcdd82.json",
+      "sha256": "93a1b334f37cda6a44ebfa82a734f133b3656eec2f2d04a936bdc1a4e9dcdd82",
+      "bytes": 17551,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-20261014.r10"
+    },
+    {
+      "path": "objects/351aeaa7c93ed542f6572e2968c9d8da3dc45ac12daf279a679d6a60de5e8367.json",
+      "sha256": "351aeaa7c93ed542f6572e2968c9d8da3dc45ac12daf279a679d6a60de5e8367",
+      "bytes": 12525,
+      "role": "source-review",
+      "program_version": "tail-mod3-20261014.r10"
+    }
+  ]
+}

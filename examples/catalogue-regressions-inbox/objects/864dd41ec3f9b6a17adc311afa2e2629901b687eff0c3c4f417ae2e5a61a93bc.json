@@ -1,0 +1,166 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_filename": "Katalog-ARMATURA.pdf",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 37,
+  "printed_page": "36",
+  "status": "author_source_review_complete_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod1",
+    "task": "/root/catalog_tail_mod1",
+    "version": "tail-mod1-20261014.r1",
+    "model_id": "Current native Codex session;exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-37-candidate.json",
+    "sha256": "806b1fe6702ad3d45dc62d367743b1b7ad6c31b6275e16081c7066c07577e55d",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.3",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "531e9bea963ef7592a9a09035761b155f81fbf1ba43027dc5c7017c55e9693fe",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "806b1fe6702ad3d45dc62d367743b1b7ad6c31b6275e16081c7066c07577e55d",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 37,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "3b4165e5e56d3a8455b883aea55738aa0e06f3159a60ba01bc9d5ccabf1f6d10",
+      "receipt": "calls/30f1ef45f4dd4b7285fb1ddd5451b723/result.json",
+      "started_at": 1791938958.608191,
+      "finished_at": 1791939070.810859
+    },
+    "receipt_file": "armature-37-producer-receipt.json",
+    "receipt_sha256": "8d2f8ac76c5e808591f077b8ec905dac59abd7bf72939da8876025c11f7027c6",
+    "receipt_artifact_equals_candidate": true
+  },
+  "output": {
+    "file": "armature-37-reviewed.json",
+    "sha256": "26faa6cd2d26e33fa3ad7bf77f2191fcb366103200a1b48582d8b3875cf503d5",
+    "author": "catalog_tail_mod1"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "d96330f120ca2b721bd42f13f3dcc4f35ccc0b9ad271f34576e151292f9ea757",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "pagecontent_schema_valid": true
+  },
+  "tables": {
+    "row_counts": [
+      10
+    ],
+    "column_counts": [
+      15
+    ],
+    "cells_checked": 150
+  },
+  "source_findings": [
+    "Все150 клеток10×15 сверены,включая разные тире и значения1428,5/1305. Числа, марки и привязки к рис.1/2 сохранены. Добавлены unitмм/кН/кг, явно заданные шапкой.",
+    "D₁ относится к диаметру прутка верхней скобы;Н имеет базу по внутреннему изгибу,Н₁ наружный габарит. Уточнены В/В₁/В₂,D и нижние d/a по крупным исходным видам.",
+    "Исправлен ложный брендинг «федеральная сетевая компания»."
+  ],
+  "corrections": [
+    {
+      "path": "text_blocks[1].text",
+      "before": "ФОРЭНЕРГО — федеральная сетевая компания / FORENERGO INDUSTRIAL GROUP",
+      "after": "ФОРЭНЕРГО — производственное объединение / FORENERGO industrial group"
+    },
+    {
+      "path": "tables[0].columns[2].unit",
+      "before": null,
+      "after": "мм"
+    },
+    {
+      "path": "tables[0].columns[3].unit",
+      "before": null,
+      "after": "мм"
+    },
+    {
+      "path": "tables[0].columns[4].unit",
+      "before": null,
+      "after": "мм"
+    },
+    {
+      "path": "tables[0].columns[5].unit",
+      "before": null,
+      "after": "мм"
+    },
+    {
+      "path": "tables[0].columns[6].unit",
+      "before": null,
+      "after": "мм"
+    },
+    {
+      "path": "tables[0].columns[7].unit",
+      "before": null,
+      "after": "мм"
+    },
+    {
+      "path": "tables[0].columns[8].unit",
+      "before": null,
+      "after": "мм"
+    },
+    {
+      "path": "tables[0].columns[9].unit",
+      "before": null,
+      "after": "мм"
+    },
+    {
+      "path": "tables[0].columns[10].unit",
+      "before": null,
+      "after": "мм"
+    },
+    {
+      "path": "tables[0].columns[11].unit",
+      "before": null,
+      "after": "мм"
+    },
+    {
+      "path": "tables[0].columns[12].unit",
+      "before": null,
+      "after": "мм"
+    },
+    {
+      "path": "tables[0].columns[13].unit",
+      "before": null,
+      "after": "кН"
+    },
+    {
+      "path": "tables[0].columns[14].unit",
+      "before": null,
+      "after": "кг"
+    },
+    {
+      "path": "figures[0].description",
+      "before": "Габаритный чертёж первого исполнения коромысла: слева фронтальный вид — трехцепное балансирное коромысло с одной точкой крепления (верхнее шарнирное ухо с отверстием D₁, наклонные раскосы с серьгами на концах, две симметричные отметки L от центра, общий размер L₁ по всей длине, вертикальные размеры H и H₁ слева, разрезная сердцевидная вставка в средней части); справа вид сбоку с размерами B₁, B₂, D и B.",
+      "after": "Рис.1: главный и боковой виды трёхцепного балансирного коромысла с одним верхним креплением. D₁ — диаметр прутка верхней скобы, не отверстия; В₁ — её внутренний зазор на боковом виде, В₂ — полный поперечный размер верхнего крепежа. Две балки снизу дают три точки подвеса. Два L — межосевые расстояния соседних нижних присоединений, L₁ — полный наружный горизонтальный габарит. Н — от верхней внутренней точки изгиба скобы до осей нижних присоединений; Н₁ — от наружного верха скобы до наружного низа нижних деталей. Внизу бокового вида В — внутренний зазор между щеками, D — диаметр нижнего пальца. Все буквенные размеры имеют мм по таблице."
+    },
+    {
+      "path": "figures[1].description",
+      "before": "Габаритный чертёж второго исполнения коромысла: слева фронтальный вид увеличенного трехцепного балансирного коромысла (верхнее шарнирное ухо D₁, серьги на концах раскосов и в средней части, размеры H и H₁ слева, две симметричные отметки L и общий L₁, размер d у правого конца); справа вид сбоку с размерами B₁, B₂ и a.",
+      "after": "Рис.2: главный и боковой виды исполнения с нижними плоскими присоединительными частями. D₁ — диаметр прутка верхней скобы, В₁ — внутренний зазор её верхнего присоединения, В₂ — полный поперечный габарит верхнего крепежа. Два L связывают оси трёх нижних присоединений, L₁ — наружная ширина всей сборки. Н — от верхней внутренней точки изгиба скобы до осей нижних присоединений; Н₁ — наружный вертикальный габарит. d — поперечная ширина продолговатого нижнего присоединительного прохода, показанная на главном виде; a — толщина плоской нижней детали на боковом виде. Значения в мм даны только в строках, относящихся к рис.2."
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "independent_review_required": true,
+  "independent_review_status": "pending",
+  "separate_model_review_of_root_edits": null,
+  "unresolved_issues": [
+    "Нужна независимая проверка авторского разбора и инженерных отношений."
+  ],
+  "completed_at": "2026-10-14T15:39:09.782249+03:00",
+  "private_original_receipt_sha256": "3d1ea67caaa1a011b4bed42e9b2c11bf5df8f3d7b0bca4dfcf81c9163acdedc3"
+}

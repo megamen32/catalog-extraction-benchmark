@@ -1,0 +1,105 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 205,
+  "printed_page": "205",
+  "status": "author_source_review_complete_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod1",
+    "task": "/root/catalog_tail_mod1",
+    "version": "tail-mod1-20261014.r1",
+    "model_id": "Current native Codex session;exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "innovations-205-candidate.json",
+    "sha256": "65c3ae6273539dfb8f69a26f96a19a5e376541c03109ff3d281ca2e4b9ab4b4e",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.8",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "56b47ab11c142fdd0d89ade636eb52fff30220c3425401678e2bf74c18b69c62",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "65c3ae6273539dfb8f69a26f96a19a5e376541c03109ff3d281ca2e4b9ab4b4e",
+      "source_bound_save": true,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 205,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "ad43db8eeb96f6a5b1aab82eb07fb8d999a3c90cd9e1f094a41f378634f1d7ae",
+      "receipt": "calls/65767b01692e4c02b78b11fe3a945e29/result.json",
+      "started_at": 1791945404.0057936,
+      "finished_at": 1791945561.0476458
+    },
+    "receipt_file": "innovations-205-producer-receipt.json",
+    "receipt_sha256": "3c40feec8e1554491121ab13b702e0f352b77408c483ba3a08c2a8eefa6b4b05",
+    "receipt_artifact_equals_candidate": true
+  },
+  "output": {
+    "file": "innovations-205-reviewed.json",
+    "sha256": "f38ed7c0dd38de32ec9ba30a7be6246169115bb8118e784c1a5ae96ca82df3eb",
+    "author": "catalog_tail_mod1"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "14616ee2b93daf93ae527876ce46cecc9cfb93a670563dfd9cee4b228cbf0ccb",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "pagecontent_schema_valid": true
+  },
+  "tables": {
+    "row_counts": [
+      23
+    ],
+    "column_counts": [
+      19
+    ],
+    "cells_checked": 437
+  },
+  "source_findings": [
+    "Все437 клеток23×19 сверены: модели,сечения,14 размеров,обе матрицы и массы совпадают; числа/тире/десятичные запятые сохранены.",
+    "Две сноски ПА-640/ПА-500 сохранены, но удалено неподтверждённое отнесение к другим таблицам. Расширен source_evidence bbox до реального конца всех23 строк. Брендинг,контакты и205 совпадают."
+  ],
+  "corrections": [
+    {
+      "path": "page_context.source_evidence[1].box[1]",
+      "before": 0.04,
+      "after": 0.06
+    },
+    {
+      "path": "page_context.source_evidence[1].box[3]",
+      "before": 0.5,
+      "after": 0.55
+    },
+    {
+      "path": "source_notes[0]",
+      "before": "Заголовок в текстовом слое набран строчными («линейная арматура для ПРОВОДОВ АСТ») и отрисован капителью; в heading приведён прописными.",
+      "after": "Страница содержит только таблицу НАСТ, две сноски о полых проводах и выходные данные; собственного инженерного рисунка нет."
+    },
+    {
+      "path": "source_notes[1]",
+      "before": "Сноски «* для полых проводов ПА-640» и «** для полых проводов ПА-500» набраны внизу страницы, однако в таблице этой страницы нет позиций со звёздочками и нет столбца для марки ПА — сноски относятся к другим таблицам каталога.",
+      "after": "Внизу напечатаны сноски «* для полых проводов ПА-640» и «** для полых проводов ПА-500». В строках этой страницы нет маркировок звёздочками; связь с конкретными строками или другими страницами здесь не установлена."
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "independent_review_required": true,
+  "independent_review_status": "pending",
+  "separate_model_review_of_root_edits": null,
+  "unresolved_issues": [
+    "Нужна независимая проверка авторского разбора и инженерных отношений."
+  ],
+  "completed_at": "2026-10-14T15:51:22.778615+03:00",
+  "private_original_receipt_sha256": "7a2b56b8c3c24d88474de418f7c00483f653b31edf2d5796519acfcf41e3d948"
+}

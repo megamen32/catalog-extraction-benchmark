@@ -1,0 +1,80 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_filename": "Katalog-ARMATURA.pdf",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 120,
+  "printed_page": "119",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-0120-native-candidate.json",
+    "sha256": "d57ea7c1fc5aa69e1440a21dd21122f163276841ba668b40d5b1e1421b21baf1",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.6",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "ca9cb343d7402f9bdb421b4fc5bc0b77ee1cff94b255122f592b3fda0e12f0b3",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "d57ea7c1fc5aa69e1440a21dd21122f163276841ba668b40d5b1e1421b21baf1",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 120,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "3031f54101971a2d9729b048304180edaaf22cda716b98c15339c8c61c45fa7b",
+      "receipt": "calls/7daaf5bb1e7b499eaed029d3aa51db0c/result.json",
+      "started_at": 1791943461.815669,
+      "finished_at": 1791943631.223871
+    }
+  },
+  "output": {
+    "file": "armature-0120-reviewed.json",
+    "sha256": "d6741c91b848a0ba18773be4cf5d0091b4d13bfb8fe100a4ef12ebeb943a800d"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "8e8747131ccc31442975632ac4aaa0722e26640ac15eb163ebac13030b707445",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      28
+    ],
+    "column_counts": [
+      9
+    ],
+    "cells_checked": 252
+  },
+  "source_findings": [
+    "Полный оригинал просмотрен; назначение соединения сталеалюминиевых проводов от185 мм², труб специального профиля, врасплет, шестигранные матрицы/гидропрессы, ТУ2010, обе плашки и реальные реквизиты сверены.",
+    "Все252 ячейки28×9 сверены, все14 марок и порядок330-3Б перед300-1Б сохранены. Объединения марки/провода/массы отражены пустыми подстроками втулки и source_note; тире L₁ сохранены.",
+    "У САС-400-2Б сохранены буквальные АС400/93, d втулки10,0 и D29. Все матрицы, десятичные окончания, масса кг «не более», d/D/L/L₁ в мм сверены. Чертёж: два L₁ от наружных торцов к внутренним плоскостям, не общая полудлина."
+  ],
+  "corrections": [
+    "Исправлен принцип соединения стальной части: буквально «врасплет», а не «встык» в summary и назначении.",
+    "Удалена ложная расшифровка ФОРЭНЕРГО как федеральной сетевой компании; источник — производственное объединение.",
+    "Описаны обе собственные базы L₁, оба L, круговые сечения и стрелки А/Б без приписывания диапазонов чертежу."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T15:50:41.045911+03:00",
+  "private_original_receipt_sha256": "471d17ddb38c9bfb105b2da48e76b53c1917d087d327a3f4f6fa70999aceab97"
+}

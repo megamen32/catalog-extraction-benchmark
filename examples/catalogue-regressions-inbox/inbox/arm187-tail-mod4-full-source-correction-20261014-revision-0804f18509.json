@@ -1,0 +1,36 @@
+{
+  "id": "arm187-tail-mod4-full-source-correction-20261014-revision-0804f18509",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 187: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 187
+  },
+  "review_basis": "Сверены154ячейки14×11. Все маркиОА-10…ОА-600,диаметры,матрицыМШ/А,массы0,27…2,14,размеры и объединенияА36на8строк/37на1/60на5;L1 иS по своим группам сохранены. Печатные значения L184,5 для300,d16,3 для120,D47/52/58 последних исполнений не исправлялись. ТУ2010,напылениеТ,до50лет,все связи рисунка проверены. Повторно просмотрены полный оригинал и собственный7×кроп S/15. Удалена выдуманная вторая контактная пластина;15 привязан к пластине и шайбе. Все140 ячеек, числа и остальные размерные связи неизменны. Исправления: [{\"path\": \"branding/figures/source_notes\", \"reason\": \"Убран выдуманный федеральный глобальный проект;15 правильно связан с зазором, S с толщиной, L1 с прямой зоной; ненапечатанные мм у15/45 сняты.\"}, {\"path\": \"tables/figures/source_notes/page_context\", \"reason\": \"Повторно просмотрены полный оригинал и собственный7×кроп S/15. Удалена выдуманная вторая контактная пластина;15 привязан к пластине и шайбе. Все140 ячеек, числа и остальные размерные связи неизменны.\"}] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/653d4521b25265c3f739320607027ae3bb683a3fe6c4ee2c615a04008f8c39c7.json",
+      "sha256": "653d4521b25265c3f739320607027ae3bb683a3fe6c4ee2c615a04008f8c39c7",
+      "bytes": 30420,
+      "role": "native-candidate",
+      "program_version": "1.5.9"
+    },
+    {
+      "path": "objects/0804f185093356da75db4b171c5ce3daab0ee359e70161a45ffb9d4db1cf0c0e.json",
+      "sha256": "0804f185093356da75db4b171c5ce3daab0ee359e70161a45ffb9d4db1cf0c0e",
+      "bytes": 28464,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-20261014.r2-merged-plate"
+    },
+    {
+      "path": "objects/606323c19dab3a93333ebc29f394f89017e2ae235db531605bac5140e3bd6b2d.json",
+      "sha256": "606323c19dab3a93333ebc29f394f89017e2ae235db531605bac5140e3bd6b2d",
+      "bytes": 13197,
+      "role": "source-review",
+      "program_version": "tail-mod3-20261014.r2-merged-plate"
+    }
+  ]
+}

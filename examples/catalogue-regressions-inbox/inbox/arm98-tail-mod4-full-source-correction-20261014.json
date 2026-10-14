@@ -1,0 +1,36 @@
+{
+  "id": "arm98-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 98: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 98
+  },
+  "review_basis": "[\"Полностью сверены 75 ячеек: СИП-3 1х95 объединён только на А35/А50; шесть настоящих прочерков у А120/А150/М25/М50/М95/М120 сохранены.\", \"44,0 кН не менее и 0,79 кг общие всем 15 строкам. Необычный ТУ 34449-001-52819896-2010 действительно напечатан, не исправлен по соседним страницам.\", \"Самостоятельный 5× кроп armature-98-geometry.png подтверждает штифт/шплинт и грани размерных выносных.\"] Исправления: [\"Исправлена выдуманная подпись бренда: производственное объединение.\", \"Ø16 отнесён к соединительному штифту, а не полому выступу/отверстию; описан просвет 20 между щёками и предел габарита 148 без концов шплинта.\", \"Убрано неподтверждённое перечисление двух шайб на каждом болте.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/4dcb9cbe8b2299e21504fa22dfcb7e959ba422c21f66cfd60b866e57bfe628f5.json",
+      "sha256": "4dcb9cbe8b2299e21504fa22dfcb7e959ba422c21f66cfd60b866e57bfe628f5",
+      "bytes": 21051,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/2fe6bdd74dfb190d8d85b61dfb396ec9bf9936392e1909c8cd67e6014bcd5221.json",
+      "sha256": "2fe6bdd74dfb190d8d85b61dfb396ec9bf9936392e1909c8cd67e6014bcd5221",
+      "bytes": 19072,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/958d47d5c6ce606f9f63a6234f476667cadcfed4485473276c5e81c68bb1df25.json",
+      "sha256": "958d47d5c6ce606f9f63a6234f476667cadcfed4485473276c5e81c68bb1df25",
+      "bytes": 3669,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

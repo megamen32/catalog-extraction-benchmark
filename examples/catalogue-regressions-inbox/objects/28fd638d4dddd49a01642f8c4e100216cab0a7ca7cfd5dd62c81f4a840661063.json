@@ -1,0 +1,83 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 134,
+  "printed_page": "133",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r2",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "25dc0c1ffee90ebce0193d9a7faca8385d9bcc57252e419b9b08641c142c1841",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.8",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "56b47ab11c142fdd0d89ade636eb52fff30220c3425401678e2bf74c18b69c62",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "25dc0c1ffee90ebce0193d9a7faca8385d9bcc57252e419b9b08641c142c1841",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 134,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "ad43db8eeb96f6a5b1aab82eb07fb8d999a3c90cd9e1f094a41f378634f1d7ae",
+      "receipt": "calls/fd9cee39b785466a96f8b0892c19a021/result.json",
+      "started_at": 1791944698.4160118,
+      "finished_at": 1791944775.4840598
+    }
+  },
+  "output": {
+    "file": "armature-134-reviewed-r2.json",
+    "sha256": "550540b19a0657eeee3f8dc7edcd1554337f2ef06489465853075eda0d994b00"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "a94660fce4f69126f4f040fd922fadca1c902d7f449a77d37204849c199c7cc2",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      17
+    ],
+    "column_counts": [
+      10
+    ],
+    "cells_checked": 170
+  },
+  "source_findings": [
+    "Полностьюсверены170ячеек17×10. Всецифрысовпали,включаяМШ62у700.1иразныемассы500.1=1,00/500.2=1,10.",
+    "L3=20только500.4/500.5/700.1/750.1/800.1;550.1/600.1/650.1остаются15.",
+    "ВисточникеШАСТиАСТ, никакогоЩАСТилиматериаластальногонастраниценет."
+  ],
+  "corrections": [
+    "Числостроквsummaryисправленос16на17.",
+    "Снятнеподтверждённыйматериал«стальной»дляпроводаАСТ.",
+    "Единицымм/кгвынесенывполя,областьevidenceвключаетномер/контакты.",
+    "По независимому замечанию восстановлены пробелы и читаемость пояснений; все таблицы побайтово эквивалентны r1."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T15:59:12.804315+03:00",
+  "revision": "r2",
+  "prior_output": {
+    "file": "armature-134-reviewed.json",
+    "sha256": "e80c492c386f58267c84973128683029ff41a1c88e5561c5c2725ff82370520b"
+  },
+  "private_original_receipt_sha256": "3e30b25d6470a8bbe70472dc9274aeafff1fea5852c0f9f7ed1cb1592a31f613"
+}

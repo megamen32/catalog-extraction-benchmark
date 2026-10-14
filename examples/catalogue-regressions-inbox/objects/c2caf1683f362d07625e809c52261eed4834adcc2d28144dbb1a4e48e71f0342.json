@@ -1,0 +1,76 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_filename": "Katalog-ARMATURA.pdf",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 88,
+  "printed_page": "87",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-0088-native-candidate.json",
+    "sha256": "fc14e8e898a6bad63598b5cf63922ef0cc474070355bf4ed1b0416049b0f2e18",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.5",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "2eacc79c9c9f59a9e1a1a95991de134de55c945cd252d9dffac288e3b2a29fff",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "fc14e8e898a6bad63598b5cf63922ef0cc474070355bf4ed1b0416049b0f2e18",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 88,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "1f47648c2a9640c6f2038f8a21a0cbb9c7a3757278e70e3926ce465237fae267",
+      "receipt": "calls/4445c27c0c2b474bbf776d9095629349/result.json",
+      "started_at": 1791942105.5171523,
+      "finished_at": 1791942774.1269555
+    }
+  },
+  "output": {
+    "file": "armature-0088-reviewed.json",
+    "sha256": "b74ae5c7c93468e76fa2c9e7925c55e7021268cd7b0f3e0a980306e92955921f"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "22f7fee0560b206ac0d45433913dc66d3d39820feb806ba40c43e1b3f7e423a4",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [],
+    "column_counts": [],
+    "cells_checked": 0
+  },
+  "source_findings": [
+    "Весь оригинал и два крупных фрагмента всех трёх чертежей просмотрены. Таблиц нет; все33 напечатанных размерных символа/числа и подписи трёх изделий сверены.",
+    "Буквальные «разнице длине» и3П6Р-30-2А,ТУ2010,немагнитная плашка,логотипы,реальные реквизиты87 сохранены.",
+    "Реальные стрелки/выносные450×2/300×2/95/260/520/1000/920/600×2;2800/450×5/Ø44/L/600/519/1071;2260/600×2/450×2/Ø44/L/600×3 проверены. Размеры без указания единицы, не вычислялись."
+  ],
+  "corrections": [
+    "Размеры2800/2260 отнесены к осям крайних узлов подвеса, не полной наружной длине балки.",
+    "Наклонный600 первой сборки связал оси отверстий верхнего и нижнего блока; горизонтальный600 связан с верхней парой,920 с наружными боковыми границами.",
+    "Уточнены конкретные базы остальных размеров, межосевые450/300,Ø44,проектное наложение четырёх блоков последней сборки; bbox включил реальную верхнюю рубрику."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T16:04:37.261411+03:00",
+  "private_original_receipt_sha256": "1dccc41f268246325785a6036252e4e0fc51de1fee4541dc661d09848fe05241"
+}

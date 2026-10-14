@@ -1,0 +1,77 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 98,
+  "printed_page": "97",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "4dcb9cbe8b2299e21504fa22dfcb7e959ba422c21f66cfd60b866e57bfe628f5",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.4",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "03d94c1397ffd39d50a89db0b4d9ae29d17f13e5293b2fcbda6e8b4ec34d8c0c",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "4dcb9cbe8b2299e21504fa22dfcb7e959ba422c21f66cfd60b866e57bfe628f5",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 98,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4d5faa2b87b39793b899bfd40ccb8b7b4ff5223f5cfe2aed7fb1c9e3580c2e6b",
+      "receipt": "calls/ddb1f6e8762b4f51ac176b3d1b2ee5a1/result.json",
+      "started_at": 1791941613.0273776,
+      "finished_at": 1791941692.2322526
+    }
+  },
+  "output": {
+    "file": "armature-98-reviewed.json",
+    "sha256": "2fe6bdd74dfb190d8d85b61dfb396ec9bf9936392e1909c8cd67e6014bcd5221"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "f6ed9d9a603f40aac847db7fc9a21400dc353e2b22d2fb39f4fe528dacf95c15",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      15
+    ],
+    "column_counts": [
+      5
+    ],
+    "cells_checked": 75
+  },
+  "source_findings": [
+    "Полностью сверены 75 ячеек: СИП-3 1х95 объединён только на А35/А50; шесть настоящих прочерков у А120/А150/М25/М50/М95/М120 сохранены.",
+    "44,0 кН не менее и 0,79 кг общие всем 15 строкам. Необычный ТУ 34449-001-52819896-2010 действительно напечатан, не исправлен по соседним страницам.",
+    "Самостоятельный 5× кроп armature-98-geometry.png подтверждает штифт/шплинт и грани размерных выносных."
+  ],
+  "corrections": [
+    "Исправлена выдуманная подпись бренда: производственное объединение.",
+    "Ø16 отнесён к соединительному штифту, а не полому выступу/отверстию; описан просвет 20 между щёками и предел габарита 148 без концов шплинта.",
+    "Убрано неподтверждённое перечисление двух шайб на каждом болте."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T15:57:35.351328+03:00",
+  "private_original_receipt_sha256": "29559f1bf66f27e88b96aa5b46a3c38995ea660342fe7edd5dd9982ad49f39f3"
+}

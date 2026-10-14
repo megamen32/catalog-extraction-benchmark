@@ -1,0 +1,36 @@
+{
+  "id": "arm102-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 102: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 102
+  },
+  "review_basis": "[\"Проверены все 208 ячеек, включая разные С-22/С-23 у вариантов НАС-240-1, общие параметры НАС-330-1 и истинное B=66 у НАС-700-1.\", \"Круглые матрицы, нижняя граница сечения провода 185 мм², ГОСТ 839-80 и ТУ 3449-001-52819896-2010 сохранены.\"] Исправления: [\"Исправлен выдуманный статус ФОРЭНЕРГО как федеральной сетевой компании.\", \"Явно разделены разные левые базы L1 (внешний край) и L (ось) и устранены ложные привязки проушины к диаметру провода, сечения Б–Б к проушине и S к стенке.\", \"Сечение d описано как проход детали, не фактический диаметр провода.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/0f0b07dbd088dc92d8f5e480e26431ecf8c384f24134cb993d581e5342d8f5bd.json",
+      "sha256": "0f0b07dbd088dc92d8f5e480e26431ecf8c384f24134cb993d581e5342d8f5bd",
+      "bytes": 37205,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/72f88665da5105bd9a8fbe41ffa15c3e55b404d76a89140201369dde7a48ac40.json",
+      "sha256": "72f88665da5105bd9a8fbe41ffa15c3e55b404d76a89140201369dde7a48ac40",
+      "bytes": 36824,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/1c04c2f4be9162cb45add2d67009f55feae2ff2179b68bcf1050f17b49ef6226.json",
+      "sha256": "1c04c2f4be9162cb45add2d67009f55feae2ff2179b68bcf1050f17b49ef6226",
+      "bytes": 3449,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

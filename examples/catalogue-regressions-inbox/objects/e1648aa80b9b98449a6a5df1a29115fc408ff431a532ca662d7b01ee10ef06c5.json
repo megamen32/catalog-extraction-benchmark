@@ -1,0 +1,77 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 110,
+  "printed_page": "109",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "358ec5a512f240fba601a5574a481b6e16c1dbdab930495ef32d6dee9259d2b8",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.5",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "2eacc79c9c9f59a9e1a1a95991de134de55c945cd252d9dffac288e3b2a29fff",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "358ec5a512f240fba601a5574a481b6e16c1dbdab930495ef32d6dee9259d2b8",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 110,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "1f47648c2a9640c6f2038f8a21a0cbb9c7a3757278e70e3926ce465237fae267",
+      "receipt": "calls/a6e6177954cf4c2a8b3ebbcf3bf7dd96/result.json",
+      "started_at": 1791942643.0546286,
+      "finished_at": 1791942765.7064476
+    }
+  },
+  "output": {
+    "file": "armature-110-reviewed.json",
+    "sha256": "28e02b1c77645ca4febc1948a41a8c588e22a8a7d110dabecb237afb3c19b107"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "1adb9ccbef8b5ea5f3f33ffde72da56ad348351ebddd7d53878879e687550fa4",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      19
+    ],
+    "column_counts": [
+      13
+    ],
+    "cells_checked": 247
+  },
+  "source_findings": [
+    "Полностьюсверены247ячеек19×13,включая3ГОСТНС50идвойные70/100/120/140/170/220.",
+    "Расчётныеплощади50,45/48,64/49,32связаныс9,2/9,1/9,2строк;непереставлены. Разрушающиенагрузки90,37…433,75вкН,неменее;массывкг.",
+    "Сохраненыистинные333,75уНС220и333,12уНС230,3,40у120и3,33у140;объединённыенагрузкираспространеныпосвоимтипоразмерам."
+  ],
+  "corrections": [
+    "L1 привязан к указанной поперечной границе прямой зоны,не к началу петли.",
+    "d — посадочный проходподтрос,нефактическийдиаметрканата;d1 — внутреннийпросветушка.",
+    "Убранынеподтверждённыеконическая/завальцованнаячасть;направлениеопрессованиявлевоявноуказано."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T15:46:14.028167+03:00",
+  "private_original_receipt_sha256": "7f77fe6753562c8ca5a7fda8de1d1f8a251a5d49a11be41999f6985db156168c"
+}

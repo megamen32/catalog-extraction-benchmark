@@ -1,0 +1,36 @@
+{
+  "id": "arm47-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 47: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 47
+  },
+  "review_basis": "Все360 ячеек30×12 совпадают. Первые7/12/16 безВ ссылаются на2;3, разные L/L1 107/112,132/136,152/156 сохранены; блокВ рисунок1, следующие рисунок2, последние135/270рисунок1. Все прочерки, нагрузки70…2700 и разная точность масс сохранены. Три группы рисунков лично просмотрены5×. Исправления: [{\"path\": \"branding/figures[2]/tables.columns.unit/source_notes/page_context\", \"reason\": \"Выдуманное фруктовое оборудование удалено; bрис3 отнесён к утолщённому концу, явные мм раскрыты в колонках. Непроверенное сообщение о сбое инструмента удалено из товарных заметок.\"}] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/a906ff79bb2346c8e4a2062157f5e674e1f59f7a45ee8c19a05ec0ebc278091c.json",
+      "sha256": "a906ff79bb2346c8e4a2062157f5e674e1f59f7a45ee8c19a05ec0ebc278091c",
+      "bytes": 59135,
+      "role": "native-candidate",
+      "program_version": "1.5.3"
+    },
+    {
+      "path": "objects/139fad947312f2ab72c54a031fb63c56fa3b02a02297a6640f12887500cb29c4.json",
+      "sha256": "139fad947312f2ab72c54a031fb63c56fa3b02a02297a6640f12887500cb29c4",
+      "bytes": 55369,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-20261014.r11"
+    },
+    {
+      "path": "objects/27e1fcc97f1dc85dc834040f96b9af386dcf6a924ee892f156c2004709d18feb.json",
+      "sha256": "27e1fcc97f1dc85dc834040f96b9af386dcf6a924ee892f156c2004709d18feb",
+      "bytes": 17851,
+      "role": "source-review",
+      "program_version": "tail-mod3-20261014.r11"
+    }
+  ]
+}

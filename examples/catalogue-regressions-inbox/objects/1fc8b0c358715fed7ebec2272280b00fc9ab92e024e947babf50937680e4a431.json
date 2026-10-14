@@ -1,0 +1,82 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_filename": "Katalog-ARMATURA.pdf",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 108,
+  "printed_page": "107",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r2",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-0108-native-candidate.json",
+    "sha256": "79a08dfaf580c640113e795db8f01a61eae347679f8546516eab3007868c9e89",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.5",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "2eacc79c9c9f59a9e1a1a95991de134de55c945cd252d9dffac288e3b2a29fff",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "79a08dfaf580c640113e795db8f01a61eae347679f8546516eab3007868c9e89",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 108,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "1f47648c2a9640c6f2038f8a21a0cbb9c7a3757278e70e3926ce465237fae267",
+      "receipt": "calls/a1a959f11a5549149aa3f31ce02d7e35/result.json",
+      "started_at": 1791942452.7809432,
+      "finished_at": 1791942615.6113582
+    }
+  },
+  "output": {
+    "file": "armature-0108-reviewed-r2.json",
+    "sha256": "c52b7728e47b3c5f6e45f7f2fe8e7699ec4da1a8904aa996909afa694b610ec9"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "d2fa2f088dd0a3949e986abf4936001bcfc2540afcd189d36f866f040a3885d7",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      16
+    ],
+    "column_counts": [
+      17
+    ],
+    "cells_checked": 272
+  },
+  "source_findings": [
+    "Полный оригинал и нижняя пара строк НАСУС-500ЖС-1 лично сверены. Все272 ячейки и геометрия неизменны и независимо подтверждены."
+  ],
+  "corrections": [
+    "Рамка табличного evidence расширена вниз до .947, чтобы покрыть обе последние строки таблицы до .944."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T13:06:44.875850+00:00",
+  "previous_reviewed_output": {
+    "file": "armature-0108-reviewed.json",
+    "sha256": "884073483b0d6de2ebf339d6f80fd5c80538a4704370cc1b7c59c38fab030ef8"
+  },
+  "revision_trigger": "Independent source review by catalog_tail_mod1, followed by personal source-image recheck by catalog_tail_mod0.",
+  "revision_evidence_images": [],
+  "private_original_receipt_sha256": "baef24f8f601a4ebee111bd40492a2bde83b01b1a738f5d74f30ddc24d8203f1"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "innov195-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 195: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 195
+  },
+  "review_basis": "[\"Сверены все 100 ячеек, три проводные подстроки позиции330/43 и все восемь различных наименований.\", \"Собственный 7× кроп показывает малое отверстие Ø5 в двух проекциях и разные базы L₁/L₂.\", \"Повтор АСку в назначении действительно напечатан и сохранён; 50 лет — утверждение изготовителя.\"] Исправления: [\"Исправлено число наименований 9→8, bbox на весь лист.\", \"Снят ошибочный смысл Ø5 как ширины полосы, указано малое отверстие без догадки о назначении.\", \"Уточнены базы 88*/L₁/L₂, остальные размеры и межосевые; таблица неизменна.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/6ad5ad60bd6d13053d5fa3e6672a50d0160f54a73c1aa51b6a1e8893efc51eee.json",
+      "sha256": "6ad5ad60bd6d13053d5fa3e6672a50d0160f54a73c1aa51b6a1e8893efc51eee",
+      "bytes": 27024,
+      "role": "native-candidate",
+      "program_version": "1.5.8"
+    },
+    {
+      "path": "objects/f1053bb34548bf78c61252df2c77df1153c725bbce4ef025c487db707ca42c02.json",
+      "sha256": "f1053bb34548bf78c61252df2c77df1153c725bbce4ef025c487db707ca42c02",
+      "bytes": 22899,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-innovations-20261014.r1"
+    },
+    {
+      "path": "objects/963d5a6b4725724e3cd8b3c473fe90e8459013a224b294498abafa546e52d191.json",
+      "sha256": "963d5a6b4725724e3cd8b3c473fe90e8459013a224b294498abafa546e52d191",
+      "bytes": 19767,
+      "role": "source-review",
+      "program_version": "tail-mod3-innovations-20261014.r1"
+    }
+  ]
+}

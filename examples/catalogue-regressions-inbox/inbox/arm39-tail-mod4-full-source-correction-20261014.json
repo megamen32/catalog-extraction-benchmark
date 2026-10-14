@@ -1,0 +1,36 @@
+{
+  "id": "arm39-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 39: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 39
+  },
+  "review_basis": "Все234 ячейки18×13 проверены. Сохранены необычные d38 у60-2/90-1, четыре прочерка d у120-1/135/180/270, разные R/R1,H/H1/H2,L/L1;масса1220 беззапятой. Нагрузки120…2700, остальные массы4,75…101,0 совпадают. Собственный5×кроп прослежен по каждой выноске. Исправления: [{\"path\": \"branding/figures/page_context\", \"reason\": \"Удалён выдуманный ФОРЕШТРОМЕРЖЭнерго; D/D1 настоящие диаметры прутков, R1 нижний изгиб, d круглое отверстие. Все буквенные размеры привязаны.\"}] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/dff2ffdb9dfe3136b4e669fb630385b9614bdc7a02bdec8885e18e5c18d95b44.json",
+      "sha256": "dff2ffdb9dfe3136b4e669fb630385b9614bdc7a02bdec8885e18e5c18d95b44",
+      "bytes": 38816,
+      "role": "native-candidate",
+      "program_version": "1.5.3"
+    },
+    {
+      "path": "objects/e7c15e6f6fb645a3c1d6d9725c7d63224bc624121b7d97293422dc95ec60a6d0.json",
+      "sha256": "e7c15e6f6fb645a3c1d6d9725c7d63224bc624121b7d97293422dc95ec60a6d0",
+      "bytes": 37481,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-20261014.r11"
+    },
+    {
+      "path": "objects/1a1b473e99ec1a88167fe074b87d8e0d18d005184d344b08a4d5baf0a439d582.json",
+      "sha256": "1a1b473e99ec1a88167fe074b87d8e0d18d005184d344b08a4d5baf0a439d582",
+      "bytes": 10343,
+      "role": "source-review",
+      "program_version": "tail-mod3-20261014.r11"
+    }
+  ]
+}

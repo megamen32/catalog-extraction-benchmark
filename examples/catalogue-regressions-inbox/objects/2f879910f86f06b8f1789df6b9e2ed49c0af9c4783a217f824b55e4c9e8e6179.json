@@ -1,0 +1,155 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_filename": "Katalog-ARMATURA.pdf",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 67,
+  "printed_page": "66",
+  "status": "awaiting_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod3",
+    "task": "/root/catalog_tail_mod3",
+    "version": "tail-mod3-20261014.r10",
+    "model_id": "Current native Codex worker session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-67-candidate.json",
+    "sha256": "ac9695d80914756d30a9b26969db7b44c26384139468e7466d6ba1cda2fc9e32",
+    "canonical_sha256": "2f3ec865cc6fae937589c2a026e08796a5d8ab4720e99575d77f461a6b7f6dc9",
+    "producer": {
+      "program": {
+        "package_version": "1.5.4",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "03d94c1397ffd39d50a89db0b4d9ae29d17f13e5293b2fcbda6e8b4ec34d8c0c",
+        "python_version": "3.12.13"
+      },
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 67,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4d5faa2b87b39793b899bfd40ccb8b7b4ff5223f5cfe2aed7fb1c9e3580c2e6b",
+      "artifact_sha256": "ac9695d80914756d30a9b26969db7b44c26384139468e7466d6ba1cda2fc9e32",
+      "started_at": 1791940501.1989453,
+      "finished_at": 1791940573.107394,
+      "provider_rate_limit_events": 0,
+      "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46",
+      "status": "receipt_verified",
+      "source_bound_save": true,
+      "receipt": ".tmp/full-digitization/staged-best-v1.4.8/armature/page-0067/calls/a18930c30de74406a340a2441f0258e5/result.json",
+      "frozen_receipt": "armature-67-native-receipt.json",
+      "frozen_receipt_sha256": "1c2042fbe4fd42906a6ee8fd31a4486cc4af6afafdbaa814d9e800d148a44e78"
+    }
+  },
+  "output": {
+    "file": "armature-67-reviewed.json",
+    "sha256": "f4ccf28d7d92367e70ac2e8ec83c418efaa3188d1297da84a9ea2121bf9a2b81",
+    "canonical_sha256": "6f2e1e8d55ed7eee23b437bd183f0a5eb86ff419d585ad41c686731d932e6b90"
+  },
+  "full_original_image_review": true,
+  "original_image": "armature-67.png",
+  "original_image_sha256": "1303631a66127e36b46006960cb074881d925a995ef81f5f4041730740dd4c10",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "page_content_schema": true
+  },
+  "tables": {
+    "row_counts": [
+      40
+    ],
+    "column_counts": [
+      5
+    ],
+    "cells_checked": 200
+  },
+  "source_findings": "Все200 ячеек40×5 проверены. Группы рисунков1/2/3/4/5 на2/22/8/7/1 строк, нагрузки35,0/60,0/100,0/100,0/120,0 совпадают. Буквальные70/72,95/141,205/27, повторные15,4/19,8/21,6 и масса5,57 у400/22 сохранены. Все индивидуальные массы1,25…7,39 и марки соответствуют оригиналу.",
+  "corrections": [
+    {
+      "path": "branding/page_context/title",
+      "reason": "Исправлены выдуманный бренд,41→40строк и области доказательств, которые не охватывали логотип и footer."
+    }
+  ],
+  "complete_leaf_diff": [
+    {
+      "path": ".page_context.source_evidence",
+      "before": [
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.09,
+            0.025,
+            0.64,
+            0.05
+          ],
+          "observation": "Заголовок страницы задаёт назначение раздела каталога: линейная арматура для воздушных линий (ВЛ), то есть поддерживающая арматура. Рядом логотип Форэнерго (FORENERGO industrial group), в подвале — ООО «МЗВА-ЧЭМЗ» с контактами завода-изготовителя: это товарный каталог производителя, а не проектная документация.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.0927,
+            0.063,
+            0.9015,
+            0.7754
+          ],
+          "observation": "Единая таблица с шапками «Наименование / Рис. / Провод марки АСТ, сечение мм2 / Масса, кг не более / Разрушающая нагрузка, кН, не менее». Колонки рисунка и разрушающей нагрузки физически объединены по группам изделий (рис. 1 — две позиции 30П; рис. 2 — 22 позиции 60П; рис. 3 — восемь позиций 100П; рис. 4 — семь позиций 100; рис. 5 — одна позиция 120), что подтверждает групповой, а не построчный характер этих параметров.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.09,
+            0.1036,
+            0.92,
+            0.1203
+          ],
+          "observation": "Первые строки сортамента: ПГАСТ-30П(11,4) и ПГАСТ-30П(13,5) с рисунком 1, сечениями провода АСТ 70/11 и 95/16, массой 1,25 кг и общим значением разрушающей нагрузки 35,0 кН. Наименования — заводские марки с числовым индексом в скобках, что вместе с логотипом изготовителя и подписью завода подтверждает каталожный характер страницы.",
+          "transcription": "literal"
+        }
+      ],
+      "after": [
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.06,
+            0.02,
+            0.96,
+            0.98
+          ],
+          "observation": "Полный лист содержит рубрику, бренд, таблицу40×5 с группами2/22/8/7/1 строк, проводами АСТ в мм², предельной массой и минимальной нагрузкой, нижние реквизиты66. Необычные буквальные сечения и массы не исправлены по ожиданию.",
+          "transcription": "literal"
+        }
+      ]
+    },
+    {
+      "path": ".page_context.summary",
+      "before": "Страница товарного каталога завода Форэнерго (ООО «МЗВА-ЧЭМЗ») по линейной арматуре для воздушных линий электропередачи — поддерживающей арматуре марок ПГАСТ-30П, ПГАСТ-60П, ПГАСТ-100П, ПГАСТ-100 и ПГАСТ-120. Это не проектная спецификация и не демонстрация ПО: таблица перечисляет заводской сортамент — для каждой марки указано сечение применяемого провода марки АСТ, предельная масса изделия и минимальная разрушающая нагрузка. Колонки «Рис.» и «Разрушающая нагрузка» объединены по группам: значение рисунка и нагрузка относятся ко всем вариантам сечения провода внутри соответствующей группы изделия. Приведены 41 позиция сортамента; данные являются характеристиками изделия, а не позициями конкретной стройки.",
+      "after": "Сортамент ПГАСТ:40 строк пяти групп рисунков1–5, сечения проводов АСТ, масса не более в кг и разрушающая нагрузка не менее в кН. Значения рисунка и нагрузки распространены только внутри реальных объединений. Чертежей на этом листе нет."
+    },
+    {
+      "path": ".text_blocks[1].text",
+      "before": "ФОРЭНЕРГО — ФОРЭНЕРГО industrial group",
+      "after": "ФОРЭНЕРГО — производственное объединение / FORENERGO industrial group"
+    },
+    {
+      "path": ".title",
+      "before": "Линейная арматура для ВЛ / арматура поддерживающая — каталог Forenergo (ООО «МЗВА-ЧЭМЗ»), сортамент ПГАСТ: провод марки АСТ, масса, разрушающая нагрузка",
+      "after": "Сортамент поддерживающей арматуры ПГАСТ"
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independent_review_required": true,
+  "unresolved_issues": [],
+  "acceptance_note": "No PASS issued. Corrected content, engineering drawing relations, and uncertainties require independent source review.",
+  "completed_at": "2026-10-14T15:38:08.676765+03:00",
+  "private_original_receipt_sha256": "4d7d205b14210b22ec7e5293ce88bd7e5a4c34c9bba269b7254882631dcf8fad"
+}
