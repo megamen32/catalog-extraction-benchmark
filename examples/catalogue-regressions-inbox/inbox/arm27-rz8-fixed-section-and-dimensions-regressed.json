@@ -1,0 +1,25 @@
+{
+  "id": "arm27-rz8-fixed-section-and-dimensions-regressed",
+  "status": "pending_adjudication",
+  "category": "repair-regresses-correct-drawing-relations",
+  "title": "После исправления Rz8 перепутаны положение А-А, начало L и толщина S",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 27,
+    "printed_page": "26"
+  },
+  "review_basis": "Root whole original27 and independent4x drawing crop14Oct2026; explicit section position, extension-line alignment and hatching. Other relations remain independent-review obligations.",
+  "assertions": [],
+  "coverage_note": "Pending exact-source repair regression; no new model benchmark or old-score change. Correct Rz8 repair does not certify all dimensions.",
+  "artifacts": [
+    {
+      "path": "objects/423bcf3aceeecbbece95a6f44105f2705616266eae225d1f91a600c2c02412f8.json",
+      "sha256": "423bcf3aceeecbbece95a6f44105f2705616266eae225d1f91a600c2c02412f8",
+      "bytes": 29159,
+      "role": "extractor",
+      "program_version": "1.5.17",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium"
+    }
+  ]
+}
