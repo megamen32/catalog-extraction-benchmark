@@ -1,0 +1,24 @@
+{
+  "id": "innov100-false-r300-diameter-arithmetic",
+  "status": "pending_adjudication",
+  "category": "drawing_semantic_reasoning",
+  "title": "Reviewer claims R300 equals Ø640 divided by2 and asks to remove real geometry uncertainty",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 100
+  },
+  "review_basis": "Fresh complete1510 native review1 inspected; its final revise repeats R300=Ø640/2. Root viewed source drawing: both R300 andØ640 are printed, but640/2=320. Existing PASS guard refused candidate uncertainty, so no false accepted page. Root does not adjudicate actual R300 surface ownership from arithmetic.",
+  "failure_oracle": "Do not resolve drawing ownership from false arithmetic or force300=320. Verify the actual feature/leader; preserve numeric source values and uncertainty unless supported. Retained case is not a new geometric gold score.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/a4f4a767d0f98af60b11bfc034913217c3f856e663aeccbbae4eada36c4bf556.json",
+      "sha256": "a4f4a767d0f98af60b11bfc034913217c3f856e663aeccbbae4eada36c4bf556",
+      "bytes": 4802,
+      "role": "reviewer",
+      "program_version": "1.5.10",
+      "model": "zai.glm-5.3-flash?reasoning=low"
+    }
+  ]
+}

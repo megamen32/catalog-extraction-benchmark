@@ -1,0 +1,24 @@
+{
+  "id": "isolators47-unchanged-branding-evidence-expires",
+  "status": "pending_adjudication",
+  "category": "source_observation_efficiency",
+  "title": "Successful unrelated source correction expires previously verified unchanged branding quotes",
+  "source": {
+    "filename": "Katalog-IZOLJaTORY.pdf",
+    "sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+    "physical_page": 47
+  },
+  "review_basis": "Fresh complete1511 reviewer27 history has19 correction calls and25 zooms before timeout. Original full page inspected; same three graphic branding regions repeatedly inspected. correct_observation advances disclosed cutoff and forces all quotes again; diagnostics omit the failing target IDs, so model repeats one already fresh crop.",
+  "failure_oracle": "Preserve exact unchanged branding receipts from a successful post-disclosure correction. A changed quote/region/basis still requires fresh original-region inspection. Initial blind receipts cannot waive the first post-disclosure check. Keep all literal/numeric/context/source/PASS guards. Report exact missing target and box.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/c63bdf57d57d799a2a9353be261b0674529fa4fa34e67217792509721b05fcf7.json",
+      "sha256": "c63bdf57d57d799a2a9353be261b0674529fa4fa34e67217792509721b05fcf7",
+      "bytes": 205510,
+      "role": "selected_native_file_tool_arguments_and_refusals",
+      "program_version": "1.5.11",
+      "model": "zai.glm-5.3-flash?reasoning=low"
+    }
+  ]
+}
