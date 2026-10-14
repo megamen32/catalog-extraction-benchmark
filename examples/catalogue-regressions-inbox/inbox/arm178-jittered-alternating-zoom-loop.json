@@ -1,0 +1,24 @@
+{
+  "id": "arm178-jittered-alternating-zoom-loop",
+  "status": "pending_adjudication",
+  "category": "agent_tool_efficiency",
+  "title": "MiniMax repeats alternating near-identical drawing crops without saving extraction",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 178
+  },
+  "review_basis": "Original drawing and table visually inspected. Fresh159 native history reviewed; only selected tool arguments retained, no model reasoning/transcript. This is efficiency evidence, not new accuracy score.",
+  "failure_oracle": "Near-identical crops with small coordinate jitter should receive loop guidance, while every original image remains available and no inspection/repair count cap or weaker PASS is introduced. A tighter detail or changed rotation remains distinct.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/8232e21e134abf0ab1cce7ccb98372b74e54795e790a3253a833eb09ac371744.json",
+      "sha256": "8232e21e134abf0ab1cce7ccb98372b74e54795e790a3253a833eb09ac371744",
+      "bytes": 6519,
+      "role": "native_region_tool_arguments",
+      "program_version": "1.5.9",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium"
+    }
+  ]
+}
