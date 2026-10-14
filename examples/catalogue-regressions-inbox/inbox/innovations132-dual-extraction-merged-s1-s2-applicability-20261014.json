@@ -1,0 +1,24 @@
+{
+  "id": "innovations132-dual-extraction-merged-s1-s2-applicability-20261014",
+  "status": "pending_adjudication",
+  "category": "cross-extraction-alignment-and-merged-cell-scope",
+  "title": "Объединение S₂ и соседняя колонка S₁ при сведении двух разборов",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 132
+  },
+  "review_basis": "Сравнивать S₁ и S₂ отдельно. Root просмотрел полную страницу и нижнюю таблицу; значение16 находится в соседней колонкеS₁, общий14 напечатан вS₂. Точная граница объединения и все четыре подстроки требуют четырёхстороннего решения; исходные значения не изменены.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/ae012d32a07efc32eee2db82a12d9ba504f37d4f949ed426f9980a6e009cad52.json",
+      "sha256": "ae012d32a07efc32eee2db82a12d9ba504f37d4f949ed426f9980a6e009cad52",
+      "bytes": 41288,
+      "role": "exact-delivered-page-and-real-producer",
+      "program_version": "tail-mod0-20261014.r1"
+    }
+  ],
+  "changes_engineering_denominator": false,
+  "consensus": "pending Codex/ZCode/GLM5.3Flash/MiniMaxM3.1FlashPreview"
+}

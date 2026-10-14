@@ -1,0 +1,24 @@
+{
+  "id": "small60-dual-extraction-parallel-manufacturer-owner-20261014",
+  "status": "pending_adjudication",
+  "category": "cross-extraction-alignment-and-merged-cell-scope",
+  "title": "Сопоставление не должно присваивать параметры аналога соседнему производителю",
+  "source": {
+    "filename": "Malyj-katalog.pdf",
+    "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_page": 60
+  },
+  "review_basis": "Подтверждённый дефект compare matcher: для PS4x35 ошибочно сравнивались10,0 и7,0 из колонок соседних производителей с12,0 МЗВА. Полный оригинал и schema groupheaders проверены. Исправление separateowneranchors протестировано; исходные разборы не менялись. Это диагностический случай сводки, не баллы точности извлечения.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/8f9fb9d1ea24e8c1886ee32183e492a5251d159d63d2bed7d8548d5bbc01d4b0.json",
+      "sha256": "8f9fb9d1ea24e8c1886ee32183e492a5251d159d63d2bed7d8548d5bbc01d4b0",
+      "bytes": 69839,
+      "role": "exact-delivered-page-and-real-producer",
+      "program_version": "1.4.15"
+    }
+  ],
+  "changes_engineering_denominator": false,
+  "consensus": "pending Codex/ZCode/GLM5.3Flash/MiniMaxM3.1FlashPreview"
+}

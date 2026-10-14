@@ -1,0 +1,24 @@
+{
+  "id": "innovations155-dual-extraction-l716-l690-boundary-20261014",
+  "status": "pending_adjudication",
+  "category": "cross-extraction-alignment-and-merged-cell-scope",
+  "title": "L716/690: граница объединённой ячейки не совпадает с группой одинаковой массы",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 155
+  },
+  "review_basis": "Root лично просмотрел оригинал и увеличенную таблицу. Векторная граница L-колонки x0.30238..0.37805 находится y0.82676 (под строкой7); L716 захватывает строку7, L690 начинается ниже. Нельзя переназначать по соседним группам одинаковых масс; предварительный ошибочный вывод root отозван, никакой замены значений не было.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/766f62f67fa92e70fbfd3233e2decffc2d213393ce3c6444bfd5de2a5149e27f.json",
+      "sha256": "766f62f67fa92e70fbfd3233e2decffc2d213393ce3c6444bfd5de2a5149e27f",
+      "bytes": 39949,
+      "role": "exact-delivered-page-and-real-producer",
+      "program_version": "tail-mod3-innovations-20261014.r2"
+    }
+  ],
+  "changes_engineering_denominator": false,
+  "consensus": "pending Codex/ZCode/GLM5.3Flash/MiniMaxM3.1FlashPreview"
+}

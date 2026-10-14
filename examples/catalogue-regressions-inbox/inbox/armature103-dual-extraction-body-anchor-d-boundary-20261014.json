@@ -1,0 +1,24 @@
+{
+  "id": "armature103-dual-extraction-body-anchor-d-boundary-20261014",
+  "status": "pending_adjudication",
+  "category": "cross-extraction-alignment-and-merged-cell-scope",
+  "title": "D55,5/58,5: размер меняется внутри НАС-600-2Б между корпусом и анкером",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 103
+  },
+  "review_basis": "Root лично просмотрел увеличенную нижнюю таблицу. Граница D55,5→58,5 проходит внутри моделиНАС-600-2Б, между корпусом и анкером. Одно число на всю модель или сравнение только по designation иD создаёт ложное противоречие. Нужно сохранить деталь/подстроку; четыре голоса ещё не получены.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/861195cc69a1721f47ecde31088c2797bbd06ea479ad19fddb1d86fbc1162012.json",
+      "sha256": "861195cc69a1721f47ecde31088c2797bbd06ea479ad19fddb1d86fbc1162012",
+      "bytes": 150805,
+      "role": "exact-delivered-page-and-real-producer",
+      "program_version": "tail-mod3-20261014.r8"
+    }
+  ],
+  "changes_engineering_denominator": false,
+  "consensus": "pending Codex/ZCode/GLM5.3Flash/MiniMaxM3.1FlashPreview"
+}
