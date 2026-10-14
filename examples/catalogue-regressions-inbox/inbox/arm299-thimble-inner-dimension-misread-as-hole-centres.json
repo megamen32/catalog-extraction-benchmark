@@ -1,0 +1,36 @@
+{
+  "id": "arm299-thimble-inner-dimension-misread-as-hole-centres",
+  "status": "pending_adjudication",
+  "category": "drawing-ownership",
+  "title": "Dкоуша назван межосевым расстоянием, а условный разрыв каната—сращиванием",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 299
+  },
+  "review_basis": "Root лично просмотрел полный оригинал и8xправыйузел: верхняя и нижняя границы Dлежат на внутреннем просвете коуша, а не на центрах отверстий (верхнее/нижнее отверстия выше/ниже выносных линий). Условный разрыв сокращает длинный канат, не вводит узел сращивания. Полный rootJSONсохраняет легенду и связь Рис.1/2 с настоящими таблицами300/301; независимый modelPASS исправлению не присвоен. Точная старая версия vetoed без изменения её байтов.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/9016f3ccdfe2ba5b4e6adc63e78ca6d2741f2482cd6b3d3a51420aeafc5748b1.json",
+      "sha256": "9016f3ccdfe2ba5b4e6adc63e78ca6d2741f2482cd6b3d3a51420aeafc5748b1",
+      "bytes": 8867,
+      "role": "native-candidate",
+      "program_version": "1.5.17"
+    },
+    {
+      "path": "objects/f971888bce886892e8487c55708ed0811f33bba1d3407fc6937b5bef4dd52cdb.json",
+      "sha256": "f971888bce886892e8487c55708ed0811f33bba1d3407fc6937b5bef4dd52cdb",
+      "bytes": 9058,
+      "role": "root-corrected-source-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/161c7bffff3feb57b48364e9cf9b6674d6592a6d7eaa49955b086872540c80bd.json",
+      "sha256": "161c7bffff3feb57b48364e9cf9b6674d6592a6d7eaa49955b086872540c80bd",
+      "bytes": 3530,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

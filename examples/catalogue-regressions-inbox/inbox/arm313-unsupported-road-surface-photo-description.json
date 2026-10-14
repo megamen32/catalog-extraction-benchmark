@@ -1,0 +1,36 @@
+{
+  "id": "arm313-unsupported-road-surface-photo-description",
+  "status": "pending_adjudication",
+  "category": "catalogue-semantics",
+  "title": "Описание фото выдумало тип дорожного покрытия",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 313
+  },
+  "review_basis": "Root лично сверил оригинал313/печатная312: фотография показывает дорогу; утверждение «грунтовая» не подтверждено изображением. Содержательные списки объектов/партнёров проверены целиком и сохранены; снята только неподтверждённая деталь фото.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/45269bdcfed5bdc3831f96f5ed8680e8c2530eb306674b97320af5901aa644bc.json",
+      "sha256": "45269bdcfed5bdc3831f96f5ed8680e8c2530eb306674b97320af5901aa644bc",
+      "bytes": 11251,
+      "role": "retained-native-candidate",
+      "program_version": "1.5.17"
+    },
+    {
+      "path": "objects/de14e01f0d19817508334df62cfda69b12a1a5428de596d7e3a9e376e5a2c56b.json",
+      "sha256": "de14e01f0d19817508334df62cfda69b12a1a5428de596d7e3a9e376e5a2c56b",
+      "bytes": 11146,
+      "role": "root-source-checked-correction",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/f353092f4829febbce66fd57d1acca03cd8e8f194044a51f0f0fd4f89982a6a4.json",
+      "sha256": "f353092f4829febbce66fd57d1acca03cd8e8f194044a51f0f0fd4f89982a6a4",
+      "bytes": 2893,
+      "role": "root-source-review-receipt",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

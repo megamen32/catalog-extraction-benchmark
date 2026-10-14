@@ -1,0 +1,36 @@
+{
+  "id": "arm312-invented-branding-on-reference-list",
+  "status": "pending_adjudication",
+  "category": "catalogue-semantics",
+  "title": "На референс-листе выдумана подпись о металлоконструкциях",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 312
+  },
+  "review_basis": "Root лично сверил полный оригинал312/печатная311: исходная страница не имеет придуманных branding/логотипа «производство металлоконструкций». Текст объектов/дат/классов напряжения и фотография проверены; полный исправленныйJSONсохранён отдельно, прошлыеnativeбайты не изменены.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/100d9883d1e58c441ee97ae12a7592f192a516911a0c9ed5e695b4775f494578.json",
+      "sha256": "100d9883d1e58c441ee97ae12a7592f192a516911a0c9ed5e695b4775f494578",
+      "bytes": 10277,
+      "role": "retained-native-candidate",
+      "program_version": "1.5.17"
+    },
+    {
+      "path": "objects/65b1aecc104b6184a3e95e15f3d5e95922ae7d0ec59ce02ba73d7ca7cc9ec8e6.json",
+      "sha256": "65b1aecc104b6184a3e95e15f3d5e95922ae7d0ec59ce02ba73d7ca7cc9ec8e6",
+      "bytes": 9902,
+      "role": "root-source-checked-correction",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/d6f97ac21b09e8b63938c81abbef21c1242f88a8c47750096119358fcb2b4078.json",
+      "sha256": "d6f97ac21b09e8b63938c81abbef21c1242f88a8c47750096119358fcb2b4078",
+      "bytes": 3145,
+      "role": "root-source-review-receipt",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

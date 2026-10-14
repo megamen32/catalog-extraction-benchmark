@@ -1,0 +1,43 @@
+{
+  "id": "arm307-invented-company-identity-and-unlabelled-table-continuation",
+  "status": "pending_adjudication",
+  "category": "catalogue-semantics",
+  "title": "Выдумана сетевая компания и потерян смысл столбцов продолжения таблицы",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 307
+  },
+  "review_basis": "Кандидат называет ФОРЭНЕРГО федеральной сетевой компанией; оригинал этого не содержит. Таблица верхней части307физической страницы продолжается с306: реальная предыдущая шапка однозначно задаёт параметры, единицы и условия. Root сверил обе страницы и все34×6и15×6ячеек; значения сохранены, восстановлена связь. Коррекция полногоJSON отдельно от nativeпроизводителя, не автоматическийgold.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/ed4461a9f7756f52bdd82777ebd35fde27222492d307098c45e5721fb89df5e7.json",
+      "sha256": "ed4461a9f7756f52bdd82777ebd35fde27222492d307098c45e5721fb89df5e7",
+      "bytes": 49045,
+      "role": "retained-native-candidate",
+      "program_version": "1.5.17"
+    },
+    {
+      "path": "objects/c9c1229e9f790843023bf8cbdced12e0e2a12744aae7bd2a219d5e30178b1240.json",
+      "sha256": "c9c1229e9f790843023bf8cbdced12e0e2a12744aae7bd2a219d5e30178b1240",
+      "bytes": 49551,
+      "role": "root-source-checked-correction",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/fee4aaf21ac39a74d72d1ff9d5aa8a746c0804558b4518c62f0fa16346cb4c40.json",
+      "sha256": "fee4aaf21ac39a74d72d1ff9d5aa8a746c0804558b4518c62f0fa16346cb4c40",
+      "bytes": 3311,
+      "role": "root-source-review-receipt",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/d6b700779d381a95ada22c44224f7f978a272d5c0d330b90cb5819ae9241e432.json",
+      "sha256": "d6b700779d381a95ada22c44224f7f978a272d5c0d330b90cb5819ae9241e432",
+      "bytes": 43036,
+      "role": "preceding-page-header-candidate",
+      "program_version": "1.5.17"
+    }
+  ]
+}

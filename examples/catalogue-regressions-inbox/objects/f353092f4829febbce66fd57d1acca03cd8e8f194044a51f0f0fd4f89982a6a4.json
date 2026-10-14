@@ -1,0 +1,66 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 313,
+  "printed_page": "312",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "45269bdcfed5bdc3831f96f5ed8680e8c2530eb306674b97320af5901aa644bc",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.17",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "250a5f879c4c07bb339e5791b2e6b59062426df6bcef56df7b50cb0af47cfc87",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "45269bdcfed5bdc3831f96f5ed8680e8c2530eb306674b97320af5901aa644bc",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 313,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "5f66dfaacd6c43b74ca531095c704b2a738db593b26901fc493f46c9409796e6",
+      "receipt": "calls/57e474c5e5f14422bac4c7022279146f/result.json",
+      "started_at": 1791965397.3974006,
+      "finished_at": 1791965623.1522548
+    }
+  },
+  "output": {
+    "file": "armature-313-reviewed.json",
+    "sha256": "de14e01f0d19817508334df62cfda69b12a1a5428de596d7e3a9e376e5a2c56b"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "bd7a36eede8a6f67988ee69b5d8db5068682fb962eb1990b3d470a82bdc79c50",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [],
+    "column_counts": [],
+    "cells_checked": 0
+  },
+  "source_findings": "Лично сверены весь текст,10объектов,5компанийТЭК,10генподрядчиков,8кабельныхкомпаний,2011–2019и750/500/330/220/110кВ,условиедо110кВ,фото. Классы напряжения относятся к объектам, а не к товарным параметрам.",
+  "corrections": [
+    "Фотография не удостоверяет материал дорожного покрытия: снято выдуманное «грунтовая»."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T12:49:31.079364+03:00"
+}

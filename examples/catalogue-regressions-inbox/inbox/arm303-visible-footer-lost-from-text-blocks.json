@@ -1,0 +1,36 @@
+{
+  "id": "arm303-visible-footer-lost-from-text-blocks",
+  "status": "pending_adjudication",
+  "category": "catalogue-semantics",
+  "title": "В почти пустой странице потеряны видимые реквизиты",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 303
+  },
+  "review_basis": "Root лично сверил оригинал303/печатная302: заголовок, логотип, номер, ОООМЗВА-ЧЭМЗ, телефон/e-mail/www видимы, а text_blocks пусты. Это не потерянная товарная таблица, но неполный readableoutput. Полный rootJSON восстанавливает реквизиты, не превращая пустое место в engineeringunknown.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/b3d4d83c16b53ed59c137d8348e5bcd43fffde7c2315ef4d888721f7adb864fa.json",
+      "sha256": "b3d4d83c16b53ed59c137d8348e5bcd43fffde7c2315ef4d888721f7adb864fa",
+      "bytes": 3347,
+      "role": "retained-native-candidate",
+      "program_version": "1.5.17"
+    },
+    {
+      "path": "objects/5da28cc9d567121498df5fa627f6e89dcb907ae14551b70561941df7e3211d8a.json",
+      "sha256": "5da28cc9d567121498df5fa627f6e89dcb907ae14551b70561941df7e3211d8a",
+      "bytes": 3481,
+      "role": "root-source-checked-correction",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/fcc81e8b8d5a801c15da2402ff812b8c49e3f606c931303112c356db34237440.json",
+      "sha256": "fcc81e8b8d5a801c15da2402ff812b8c49e3f606c931303112c356db34237440",
+      "bytes": 3005,
+      "role": "root-source-review-receipt",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}
