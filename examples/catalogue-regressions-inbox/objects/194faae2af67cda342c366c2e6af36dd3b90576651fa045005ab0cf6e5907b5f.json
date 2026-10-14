@@ -1,0 +1,140 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "isolators",
+  "source_filename": "Katalog-IZOLJaTORY.pdf",
+  "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+  "physical_page": 124,
+  "printed_page": "123",
+  "status": "author_source_review_complete_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod1",
+    "task": "/root/catalog_tail_mod1",
+    "version": "tail-mod1-20261014.r1",
+    "model_id": "Current native Codex session;exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "isolators-124-actual-native-candidate.json",
+    "sha256": "145f79fd179513747cee6f656f03132fd35de79641f94deb65b0c0abe20d209e",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.4.2",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "145f79fd179513747cee6f656f03132fd35de79641f94deb65b0c0abe20d209e",
+      "source_bound_save": true,
+      "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+      "physical_page": 124,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "aa97a446c59b5a207fd1ab84542de68a56c8d05e595fabde973e24da9ccc405d",
+      "receipt": "calls/5f3c2c02fe8b465c9fa8f666faac5232/result.json",
+      "started_at": 1791824459.2988615,
+      "finished_at": 1791824556.074411
+    },
+    "receipt_file": "isolators-124-producer-receipt.json",
+    "receipt_sha256": "8f9b59f6285f792498cc6caf6e4d8cb8c4560973850ece7372952bae2c3248be",
+    "receipt_artifact_equals_candidate": true,
+    "saved_runtime_candidate": "isolators-124-candidate.json",
+    "saved_runtime_candidate_sha256": "98596868a75a3f28877b3b381feb895bebe9167aa25613d7053cc6b5cb17ae0e",
+    "runtime_schema_normalization": "Exact PageContent schema normalization of raw producer artifact equals saved current runtime candidate; raw bytes retained separately when nullable defaults were inserted."
+  },
+  "output": {
+    "file": "isolators-124-reviewed.json",
+    "sha256": "8bde3cfce1e6f656c0283677924d106f8f60a692a2dac655b056f8870c2b6675",
+    "author": "catalog_tail_mod1"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "3dae6ff110c803f47081d9ab8d7e907897f969fbda6b118936b54c01b7a1207e",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "pagecontent_schema_valid": true
+  },
+  "tables": {
+    "row_counts": [
+      6,
+      18
+    ],
+    "column_counts": [
+      15,
+      8
+    ],
+    "cells_checked": 234
+  },
+  "source_findings": [
+    "Полный оригинал до current candidate. Все234ячейки6×15+18×8сверены иvaluesunchanged:220/6либо8/2,0/H2100/2200/2300/D170/L1860/1960/2060/утечка5700/5980/6300;импульс950/1000/1050,сухое/дождь440/500/550,общие220/100,10/IIили20/III. Нижниедва9строчныхблока,A4/B2/В3,каждаяячейкаØ127/□160/□180/□194/4М16/4Ø18/4Ø20проверена;36blanksсохранены.",
+    "Исправлены вымышленные сечения/фланеры,H/Lповерхности,D1/D2pitch,B1/B2межосевые,уточнено отсутствие табличногоD2неподменяетсярисунком. Всеисходныемарки/контакты/нормативысохранены."
+  ],
+  "corrections": [
+    {
+      "path": "figures[0].description",
+      "before": "Слева — продольный вид изолятора с верхним и нижним фланерами, ребрами (юбками) и центральной штрихпунктирной осью; вертикальные габаритные размеры «Н±2» (полная строительная высота) и «L» (изоляционная высота) проставлены слева от вида, диаметр ребер «D» — справа у одного из рёбер; стрелки разрезов: А сверху (внизу) и Б снизу. Справа сверху — вид (сечение) А: фланец с четырьмя отверстиями, размеры B1 (расстояние между отверстиями по горизонтали), D1 (диаметр), подпись «d1 / 4 отв.» (четыре отверстия), штрихпунктирные осевые линии. Справа снизу — вид (сечение) Б: фланец с четырьмя отверстиями, размеры B2, D2 и «d2 / 4 отв.». Числовых значений размеров на чертеже не проставлено.",
+      "after": "Главный вид слева с концевыми фланцами, оребрённой изоляционной оболочкой и условным обрывом по длине. Н±2 — между наружными торцевыми плоскостями фланцев; L — между отмеченными границами изоляционной оболочки у оконцевателей; D — наружный диаметр большого ребра. Верхняя стрелка А направлена вниз, нижняя Б вверх, справа соответствующие торцевые виды без штриховки разреза. D1/D2 — окружности центров четырёх крепёжных отверстий, B1/B2 — горизонтальные расстояния между центрами соседних верхних отверстий, не полные наружные размеры фланцев. d1/d2 с4отв. — размеры самих отверстий или резьб, не дроби. Буквенный D2 на общем рисунке не заполняет пустые табличные D2 конкретных исполнений. Числовых присоединительных размеров на самом рисунке нет."
+    },
+    {
+      "path": "source_notes[0]",
+      "before": "Заголовок страницы сохранён буквально: «ИЗОЛЯТОРЫ / ИЗОЛЯТОРЫ ОПОРНЫЕ СТЕРЖНЕВЫЕ ПОЛИМЕРНЫЕ», хотя далее речь идёт о полимерных изоляторах типа ОСК 6-220/8-220.",
+      "after": "Рубрика соответствует изделию: опорные стержневые полимерные изоляторы ОСК6-220/8-220. Отдельной подписи «сечение» возле торцевых видов нет."
+    },
+    {
+      "path": "page_context",
+      "before": null,
+      "after": {
+        "kind": "catalogue_product_data",
+        "summary": "Опорные полимерные ОСК 6-220/8-220 на 220 кВ: назначение и условия/нормативы, главный вид и торцевые А/Б, шесть строк характеристик и 18 присоединительных исполнений. H 2100/2200/2300, L 1860/1960/2060, утечка 5700/5980/6300; собственные верхние круговые либо квадратные расположения крепежа, нижние квадратные □160/180/194. В колонке нижнего D2 все 18 пустот реальны; выводить его из B2 нельзя.",
+        "source_evidence": [
+          {
+            "kind": "catalogue_product_data",
+            "box": [
+              0.075,
+              0.015,
+              0.925,
+              0.31
+            ],
+            "observation": "Рубрика/логотипы, два типа220кВ, назначение100Гц/−60…+50°C/УХЛ1/ГОСТ15150/ТУ2015/ГОСТР52082, собственный чертёж."
+          },
+          {
+            "kind": "catalogue_product_data",
+            "box": [
+              0.51,
+              0.075,
+              0.785,
+              0.325
+            ],
+            "observation": "ГлавныйH±2/L/Dребра, торцевыеА/Б,D1/D2pitch/B1/B2межосевые, d1/d2×4."
+          },
+          {
+            "kind": "catalogue_product_data",
+            "box": [
+              0.075,
+              0.38,
+              0.925,
+              0.945
+            ],
+            "observation": "Все6×15+18×8ячееки36реальныхпустот альтернативных присоединительных параметров; нижние4Ø20толькоуБ01обеихсерий."
+          }
+        ]
+      }
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "independent_review_required": true,
+  "independent_review_status": "pending",
+  "separate_model_review_of_root_edits": null,
+  "unresolved_issues": [
+    "Нужна независимая проверка авторского разбора и инженерных отношений."
+  ],
+  "completed_at": "2026-10-14T19:34:25.512884+03:00",
+  "private_original_receipt_sha256": "e597b45e789900a37c3e2f71f3e1bc2fa6d687013c638b106b16a23f2f054ff8"
+}

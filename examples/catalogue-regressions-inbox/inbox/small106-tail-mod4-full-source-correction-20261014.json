@@ -1,0 +1,36 @@
+{
+  "id": "small106-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "small, страница 106: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Malyj-katalog.pdf",
+    "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_page": 106
+  },
+  "review_basis": "[\"Полный оригинал и собственные увеличения сверены; размеры привязаны к конкретным поверхностям и отдельным деталям.\"] Исправления: [\"Исправлены ложные размерные базы H₁/122/142 до оси провода: источник задаёт нижнюю наружную образующую.\", \"Уточнены внутренний B, палец d и вход гнезда 19.2 с точкой; полная H включает крепёж. Все 60 табличных значений/состояний неизменны.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/80438e617e747560d6a72d5442f0e0ef7051eadda914d2e4985806f861802517.json",
+      "sha256": "80438e617e747560d6a72d5442f0e0ef7051eadda914d2e4985806f861802517",
+      "bytes": 16129,
+      "role": "native-candidate",
+      "program_version": "1.4.15"
+    },
+    {
+      "path": "objects/3ccea198828ed6463e7bd61cbb358c07a5f1d5db8e1ac481672fca1367ba27ac.json",
+      "sha256": "3ccea198828ed6463e7bd61cbb358c07a5f1d5db8e1ac481672fca1367ba27ac",
+      "bytes": 20392,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-remaining-small-20261014.r7"
+    },
+    {
+      "path": "objects/f3ee5f027b4f786b39a1ad7d793da67ce93028f81fd01ecf84a641ad2c81a010.json",
+      "sha256": "f3ee5f027b4f786b39a1ad7d793da67ce93028f81fd01ecf84a641ad2c81a010",
+      "bytes": 16274,
+      "role": "source-review",
+      "program_version": "tail-mod3-remaining-small-20261014.r7"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 165,
+  "printed_page": "164",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r2",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "9bb7e3f27bc3fb765091efb5834166ed55b7e1e363df37b6bca7a1eb3ae24d0a",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.8",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "56b47ab11c142fdd0d89ade636eb52fff30220c3425401678e2bf74c18b69c62",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "9bb7e3f27bc3fb765091efb5834166ed55b7e1e363df37b6bca7a1eb3ae24d0a",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 165,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "ad43db8eeb96f6a5b1aab82eb07fb8d999a3c90cd9e1f094a41f378634f1d7ae",
+      "receipt": "calls/e7128aab3cbd4787859aaee6a0b6174e/result.json",
+      "started_at": 1791947375.9750834,
+      "finished_at": 1791947540.5469074
+    }
+  },
+  "output": {
+    "file": "armature-165-reviewed-r2.json",
+    "sha256": "b9b2018ece8f8dc1a569814891028851c2062919a84ec0d3e313ba7ac4e60d06"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "4b9132960c51a01369583a3a97a55203f67f2270bdd731ce91ab45d01ce56336",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      27
+    ],
+    "column_counts": [
+      9
+    ],
+    "cells_checked": 243
+  },
+  "source_findings": "Все243ячейки27×9сверены,12типоразмеровсразнымиприменимымисечениями,настоящаяточка5.-L,400 /18иА-42сохранены. МШ29,4/163vs165,массы4,75…20,5верны;неболееявнонапечатановэтойшапке.",
+  "corrections": [
+    "Ложнаяпозиция5разрешенакакосеваятолщинаизоляционнойперемычки,исправленбазыL2/назначениеD/d/длинаL,убраналожнаянекомплектностьсамихвтулок.",
+    "Нижняя базаL1совпадаетсверхнейL2наотдельнойвнутреннейплоскостивтулки,не еёнаружномуступе;восстановлено«клиносочлененного»."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T19:24:12.461134+03:00",
+  "supersedes_output_sha256": "2099fcc4aa6449a7410e39f7cad52571171f57b91b5539b03efd5cca5ca2232e",
+  "private_original_receipt_sha256": "bc0d44fa6d8afc762d95e84e6a7998ab4b5c7f847f753bf5acc2d85a74d053d1"
+}

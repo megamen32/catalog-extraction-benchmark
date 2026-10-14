@@ -1,0 +1,36 @@
+{
+  "id": "arm165-tail-mod4-full-source-correction-20261014-revision-b9b2018ece",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 165: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 165
+  },
+  "review_basis": "Все243ячейки27×9сверены,12типоразмеровсразнымиприменимымисечениями,настоящаяточка5.-L,400 /18иА-42сохранены. МШ29,4/163vs165,массы4,75…20,5верны;неболееявнонапечатановэтойшапке. Исправления: [\"Ложнаяпозиция5разрешенакакосеваятолщинаизоляционнойперемычки,исправленбазыL2/назначениеD/d/длинаL,убраналожнаянекомплектностьсамихвтулок.\", \"Нижняя базаL1совпадаетсверхнейL2наотдельнойвнутреннейплоскостивтулки,не еёнаружномуступе;восстановлено«клиносочлененного».\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/9bb7e3f27bc3fb765091efb5834166ed55b7e1e363df37b6bca7a1eb3ae24d0a.json",
+      "sha256": "9bb7e3f27bc3fb765091efb5834166ed55b7e1e363df37b6bca7a1eb3ae24d0a",
+      "bytes": 47460,
+      "role": "native-candidate",
+      "program_version": "1.5.8"
+    },
+    {
+      "path": "objects/b9b2018ece8f8dc1a569814891028851c2062919a84ec0d3e313ba7ac4e60d06.json",
+      "sha256": "b9b2018ece8f8dc1a569814891028851c2062919a84ec0d3e313ba7ac4e60d06",
+      "bytes": 41679,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r2"
+    },
+    {
+      "path": "objects/3544a972eb6bb6238b6ecbdbdd40ef747d575b475daaf67617e8b5aa707e3279.json",
+      "sha256": "3544a972eb6bb6238b6ecbdbdd40ef747d575b475daaf67617e8b5aa707e3279",
+      "bytes": 3424,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r2"
+    }
+  ]
+}

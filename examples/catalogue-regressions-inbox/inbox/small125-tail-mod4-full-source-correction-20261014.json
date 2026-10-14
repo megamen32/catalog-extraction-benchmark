@@ -1,0 +1,36 @@
+{
+  "id": "small125-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "small, страница 125: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Malyj-katalog.pdf",
+    "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_page": 125
+  },
+  "review_basis": "[\"Полный оригинал, собственные увеличения, все таблицы, тексты и связи размеров проверены до авторского выпуска.\"] Исправления: [\"Удалено неподтверждённое отождествление восьми краевых элементов с отверстиями слива.\", \"Уточнены D провода и полный наружный 310 без выдуманных знака Ø/единицы; все 126 ячеек и печатные необычности сохранены.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/0b9f3179680f5cd7b928b71965768ed7bb9d374fcdf033f704cb281cee55c0a7.json",
+      "sha256": "0b9f3179680f5cd7b928b71965768ed7bb9d374fcdf033f704cb281cee55c0a7",
+      "bytes": 26474,
+      "role": "native-candidate",
+      "program_version": "1.4.15"
+    },
+    {
+      "path": "objects/7cefcaf17f92a0e3fd49c6f30d2d2e87591470d38152fd2fc8f8f39e00cf57ad.json",
+      "sha256": "7cefcaf17f92a0e3fd49c6f30d2d2e87591470d38152fd2fc8f8f39e00cf57ad",
+      "bytes": 28768,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-remaining-small-20261014.r6"
+    },
+    {
+      "path": "objects/cdd953d42fc0258da2f6d7b085b87723eedebe2a78a414bcd972b7193eaf393a.json",
+      "sha256": "cdd953d42fc0258da2f6d7b085b87723eedebe2a78a414bcd972b7193eaf393a",
+      "bytes": 12310,
+      "role": "source-review",
+      "program_version": "tail-mod3-remaining-small-20261014.r6"
+    }
+  ]
+}

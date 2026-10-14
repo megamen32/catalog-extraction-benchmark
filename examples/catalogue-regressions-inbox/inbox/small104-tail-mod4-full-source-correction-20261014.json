@@ -1,0 +1,36 @@
+{
+  "id": "small104-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "small, страница 104: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Malyj-katalog.pdf",
+    "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_page": 104
+  },
+  "review_basis": "[\"Полный оригинал и крупные кропы просмотрены; все 20 табличных значений верны, рисунки требуют исправления смысловых привязок.\"] Исправления: [\"Ø38/46 исправлены с ложного отверстия на наружный диаметр нижнего утолщения; Ø16/22 — пальцы,17/23 — внутренние просветы.\", \"70 исправлен на внутренний верх изгиба→ось пальца; исходное расхождение H/H₁ УД сохранено, вымышленный палец из гнезда УД убран.\", \"Evidence расширено на полный лист: прежняя шапочная область ошибочно цитировала footer. Все20 values/state неизменны.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/dbd0e4f53e079a33d3044e4bfea991420bf8cd8fdf9f6589268c16ec895a59ab.json",
+      "sha256": "dbd0e4f53e079a33d3044e4bfea991420bf8cd8fdf9f6589268c16ec895a59ab",
+      "bytes": 16656,
+      "role": "native-candidate",
+      "program_version": "1.5.24"
+    },
+    {
+      "path": "objects/f4a53cfdeca6c8928241033c19344bc5bedaf2ec52f1e381e1d06d2ad35ce232.json",
+      "sha256": "f4a53cfdeca6c8928241033c19344bc5bedaf2ec52f1e381e1d06d2ad35ce232",
+      "bytes": 15287,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-remaining-small-20261014.r8"
+    },
+    {
+      "path": "objects/765f956a55b4731b024d599abb87b59ffe69d7a35dcd028da0bbab9c88f6664b.json",
+      "sha256": "765f956a55b4731b024d599abb87b59ffe69d7a35dcd028da0bbab9c88f6664b",
+      "bytes": 20447,
+      "role": "source-review",
+      "program_version": "tail-mod3-remaining-small-20261014.r8"
+    }
+  ]
+}

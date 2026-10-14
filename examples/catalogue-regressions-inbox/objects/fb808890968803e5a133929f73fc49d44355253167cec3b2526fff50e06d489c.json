@@ -1,0 +1,147 @@
+{
+  "schema_version": "catalogue-independent-source-review/1",
+  "catalog": "innovations",
+  "source_filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 110,
+  "exact_reviewed_path": "innovations-110-reviewed-r2.json",
+  "exact_reviewed_sha256": "0c83c8bf1b20040d65ab03344f370fb3525b5ee7467dde840309422c260ed570",
+  "frozen_reviewed_path": "frozen-root-innovations-110-r2.json",
+  "independent_author": "catalog_tail_mod3",
+  "origin_author": "root",
+  "version": "peer-mod3-L1L2-reopened-20261014.r1",
+  "harness": "codex",
+  "is_glm_receipt": false,
+  "source_first": true,
+  "full_original_image_review": true,
+  "original_image": "innovations-110-source.png",
+  "original_image_sha256": "0a0881daa74ca3384ee5dbec552800e7c961c0301eb22ff17048004b51b396e2",
+  "own_source_observation": "innovations-110-own-source-observation.json",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": false,
+    "source_provenance": true
+  },
+  "observed_table_count": 1,
+  "observed_row_counts": [
+    9
+  ],
+  "observed_column_counts": [
+    9
+  ],
+  "cells_checked": 81,
+  "technical_and_meaning_review": "Свежие собственные14× левые виды и12× правый вид118 выявили ошибку прежнего PASS. L₁ заканчивается на отдельно отмеченной внутренней поперечной плоскости втулки, выше наружного уступа. На118 эта же плоскость служит верхней базой L₂; обе длины нельзя привязывать к уступу. Числа таблиц и прочие ранее проверенные поля подтверждены.",
+  "per_figure_dimension_ownership": [
+    {
+      "figure_index": 0,
+      "source_bbox": [
+        0.055,
+        0.065,
+        0.94,
+        0.495
+      ],
+      "dimensions": [
+        {
+          "literal_label": "D / d",
+          "actual_target": "Наружный диаметр втулки / внутренний проход",
+          "source_bbox": [
+            0.258,
+            0.287,
+            0.349,
+            0.359
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "мм в таблице"
+        },
+        {
+          "literal_label": "L₁",
+          "actual_target": "От верхнего торца втулки до отдельной внутренней плоскости, выше её нижнего уступа",
+          "source_bbox": [
+            0.229,
+            0.316,
+            0.321,
+            0.377
+          ],
+          "arrow_start": "Верхний торец втулки",
+          "arrow_end": "Отдельная внутренняя поперечная плоскость",
+          "units": "мм в таблице"
+        },
+        {
+          "literal_label": "L₂",
+          "actual_target": "От внутренней поперечной плоскости втулки до верхней плоскости осевой изоляционной перемычки5",
+          "source_bbox": [
+            0.606,
+            0.32,
+            0.758,
+            0.429
+          ],
+          "arrow_start": "Отдельная внутренняя поперечная плоскость втулки",
+          "arrow_end": "Верхняя плоскость перемычки5",
+          "units": "мм в таблице"
+        },
+        {
+          "literal_label": "5",
+          "actual_target": "Осевая заштрихованная изоляционная перемычка",
+          "source_bbox": [
+            0.614,
+            0.4,
+            0.711,
+            0.452
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "На рисунке единица не напечатана; по масштабу не измерено."
+        },
+        {
+          "literal_label": "L",
+          "actual_target": "Общая длина проводника через разрыв",
+          "source_bbox": [
+            0.565,
+            0.437,
+            0.658,
+            0.489
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "На рисунке единица не напечатана; по масштабу не измерено."
+        }
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "path": "figures[0].description",
+      "actual": "Нижняя база L₁ — отдельная внутренняя плоскость втулки, выше её нижнего наружного уступа.",
+      "incorrect": "Между верхним торцом и нижним уступом.",
+      "source_bbox": [
+        0.18,
+        0.29,
+        0.365,
+        0.394
+      ],
+      "evidence": "innovations-110-L1-recheck.png"
+    }
+  ],
+  "nonblocking_observations": [
+    "Местами авторские пояснения требуют пробелов; смысл однозначен, это не блокирует проверку."
+  ],
+  "uncertainties": [],
+  "verdict": "revise",
+  "reviewed_at": "2026-10-14T19:25:26.456914+03:00",
+  "supersedes_prior_verdict": {
+    "review": "innovations-110-review-r2.json",
+    "review_sha256": "0e62250824f6d20bca43ba88047d27492a4d035ce02ab320b18dd5d41376727b",
+    "reason": "Targeted fresh-source recheck found a dimension-base error missed in prior PASS. Prior report retained unchanged."
+  },
+  "private_review_artifact_sha256": "d831c6a13602b67f6f573f12a320cac9703ee9a651fc72bbe804727f63a5cf19",
+  "actual_author_producer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r2",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  }
+}

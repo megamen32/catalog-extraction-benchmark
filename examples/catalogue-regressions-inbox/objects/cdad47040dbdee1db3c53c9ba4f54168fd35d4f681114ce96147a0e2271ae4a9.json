@@ -1,0 +1,166 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "small",
+  "source_filename": "Malyj-katalog.pdf",
+  "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+  "physical_page": 107,
+  "printed_page": "106",
+  "status": "awaiting_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod3",
+    "task": "/root/catalog_tail_mod3",
+    "version": "tail-mod3-remaining-small-20261014.r7",
+    "model_id": "Current native Codex worker session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "small-107-candidate.json",
+    "sha256": "b876e53005dc6171a3c131399b6de5c3f01986c66303d2f32c134688b32cb9fb",
+    "canonical_sha256": "f7cc5ae9e66849fa41e2b64a3bca4f298d2218a433ad2cfa14cb4eeb642e717c",
+    "producer": {
+      "program": {
+        "package_version": "1.4.15",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+        "python_version": "3.12.13",
+        "components": {
+          "agent_logic": {
+            "package_version": "1.4.2",
+            "git_revision": null,
+            "dirty": null,
+            "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+            "python_version": "3.12.13"
+          },
+          "catalog_tools": {
+            "package_version": "1.4.8",
+            "git_revision": null,
+            "dirty": null,
+            "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+            "python_version": "3.12.13"
+          },
+          "legacy_skills": {
+            "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+            "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+          },
+          "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+          "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+          "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+          "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+        }
+      },
+      "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+      "physical_page": 107,
+      "attempt": 2,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf",
+      "artifact_sha256": "b876e53005dc6171a3c131399b6de5c3f01986c66303d2f32c134688b32cb9fb",
+      "started_at": 1791876091.772451,
+      "finished_at": 1791876188.4531205,
+      "provider_rate_limit_events": 0,
+      "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46",
+      "status": "receipt_verified",
+      "source_bound_save": true,
+      "receipt": ".tmp/full-digitization/staged-best-v1.4.8/small/page-0107/calls/1e3458f436ff43b0a13e6ec0a84912c9/result.json",
+      "frozen_receipt": "small-107-native-receipt.json",
+      "frozen_receipt_sha256": "810a8d6222853afd7bb9785c0187772113308996b39ce881a641f416a5da5ad2"
+    }
+  },
+  "output": {
+    "file": "small-107-reviewed.json",
+    "sha256": "1bed2e3af655b77b7e283d6875531fa70b4e01caafb3addfc2e695c3c98b940b",
+    "canonical_sha256": "25c56c6a9bc864ca59f8672bfcb45b1f15eafcbeb6d6b9a271a1bbaddce311f8"
+  },
+  "full_original_image_review": true,
+  "original_image": "small-107.png",
+  "original_image_sha256": "74a25e0b74c551d847aa0a0b2c53a4b701058cec3483dae291dcc3c136ca9535",
+  "own_source_observation": "small-107-own-source-observation.json",
+  "own_source_observation_sha256": "c2ce3d28259150f3ca190ce9c0f97095e61480c71648f33ec13816d7112f609a",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "page_content_schema": true
+  },
+  "tables": {
+    "row_counts": [
+      8
+    ],
+    "column_counts": [
+      10
+    ],
+    "cells_checked": 80
+  },
+  "source_findings": [
+    "Полный оригинал и собственные увеличения сверены; размеры привязаны к конкретным поверхностям и отдельным деталям."
+  ],
+  "corrections": [
+    "Уточнены базы H/H₁, внутренний B, палец Ø16 и поперечный наружный L₁.",
+    "Нижняя база H не подменена осью провода; все 80 табличных значений/состояний неизменны."
+  ],
+  "complete_leaf_diff": [
+    {
+      "path": ".figures[1].description",
+      "before": "Чертёж зажима в двух видах: слева — фронтальный вид корпуса с верхним отверстием, лодочкой провода, проходящей горизонтально, центральной гайкой и болтом; размеры L по горизонтали внизу и H по вертикали справа. Справа — вид сбоку (вид на зажим сверху/с торца: шайбы, болт ⌀16, гайки); размеры B вверху, ⌀16 в средней части, H₁ справа по вертикали, L₁ внизу по горизонтали.",
+      "after": "Рис. 1: фронтальный и боковой виды одной сборки. H — от оси верхнего круглого отверстия до нижней наружной образующей провода, не до его оси. H₁ на боковом виде — от верхних наружных плоскостей щёк до нижней наружной границы лодочки. L — между крайними наружными концами лодочки во фронтальном виде; L₁ — поперечный габарит крепежа на боковом виде от левого конца пальца до правой наружной грани крепежа. B — внутренний просвет между щеками, Ø16 — диаметр верхнего поперечного пальца. Размерные линии не относятся к отдельному виду сверху."
+    },
+    {
+      "path": ".figures[3].description",
+      "before": "Чертёж зажима в двух видах: слева — фронтальный вид корпуса зажима с лодочкой провода и верхней проушиной; размер L по горизонтали внизу, H (внутренний) и H₁ (внешний) по вертикали справа. Справа — вид сбоку (шарнирный болт, шайбы, гайки); размер B вверху, ⌀16 справа по горизонтали, L₁ внизу по горизонтали.",
+      "after": "Рис. 2: фронтальный и боковой виды сборки с верхним ушком. H — от отмеченной внутренней верхней поверхности полости ушка на фронтальном виде до нижней наружной образующей провода; верхняя база не совпадает с осью круглого отверстия. H₁ — от верхнего наружного края ушка до нижней наружной границы лодочки. L — наружные концы лодочки; L₁ — поперечный габарит крепежа от левого конца пальца до правого конца крепежа. B — внутренний просвет щёк, Ø16 — верхний поперечный палец, не диаметр провода."
+    },
+    {
+      "path": ".page_context",
+      "before": null,
+      "after": {
+        "kind": "catalogue_product_data",
+        "summary": "Поддерживающие зажимы ПГ/ПГН для изолирующих подвесок с лодочками и плашками из алюминиевых сплавов, без потерь перемагничивания, ТУ 2010. Два фото и два двухвидовых рисунка связаны с восемью строками таблицы; все 80 ячеек проверены. Размеры H/H₁ имеют разные базы, B — внутренний просвет щёк, L/L₁ — наружные размеры в разных направлениях. Единицы B/L₁/L/H/H₁ на листе отдельно не напечатаны.",
+        "source_evidence": [
+          {
+            "kind": "catalogue_product_data",
+            "box": [
+              0.05,
+              0.01,
+              0.95,
+              0.985
+            ],
+            "observation": "Полный оригинал просмотрен до candidate. Собственные крупные кропы подтверждают все 80 ячеек, единицы и условия, объединения/прочерки/пустоты, марки, тексты, бренды, контакты и индивидуальные размерные базы.",
+            "transcription": "literal"
+          }
+        ]
+      }
+    },
+    {
+      "path": ".source_notes",
+      "before": [
+        "Заголовок таблицы колонки «В» набран кириллической буквой В (U+0412), тогда как H — латинская H (U+0048), а «Н1» — кириллическая Н (U+041D) по данным текстового слоя; различия сохранены как в источнике.",
+        "На фотографии верхнего зажима различимо клеймо «МЗВА ПГН-3-5» (подтверждено зумом области 0.55-0.85/0.09-0.19 оригинальной страницы).",
+        "Числовые значения в колонках B, L1, L, H, H1 не имеют указанной единицы измерения в источнике; привязка к мм не подтверждена текстом таблицы.",
+        "В обозначениях размеров на чертежах индексы набраны подстрочно (L₁, H₁), в таблице — без подстрочного начертания (L1, Н1).",
+        "Подписи «РИС. 1» и «РИС. 2» набраны как обычный текстовый слой, а обозначения размеров на чертежах выполнены векторными контурами (в текстовом слое отсутствуют).",
+        "Под логотипом в шапке напечатано «производственное объединение», в латинской части — «FORENERGO® industrial group»; текст блока приведён дословно по зуму области 0.7-0.98/0.01-0.05."
+      ],
+      "after": [
+        "Заголовок таблицы колонки «В» набран кириллической буквой В (U+0412), тогда как H — латинская H (U+0048), а «Н1» — кириллическая Н (U+041D) по данным текстового слоя; различия сохранены как в источнике.",
+        "На фотографии верхнего зажима различимо клеймо «МЗВА ПГН-3-5» (подтверждено зумом области 0.55-0.85/0.09-0.19 оригинальной страницы).",
+        "Числовые значения в колонках B, L1, L, H, H1 не имеют указанной единицы измерения в источнике; привязка к мм не подтверждена текстом таблицы.",
+        "В обозначениях размеров на чертежах индексы набраны подстрочно (L₁, H₁), в таблице — без подстрочного начертания (L1, Н1).",
+        "Подписи «РИС. 1» и «РИС. 2» набраны как обычный текстовый слой, а обозначения размеров на чертежах выполнены векторными контурами (в текстовом слое отсутствуют).",
+        "Под логотипом в шапке напечатано «производственное объединение», в латинской части — «FORENERGO® industrial group»; текст блока приведён дословно по зуму области 0.7-0.98/0.01-0.05.",
+        "Все 80 values/state сохранены. Нижняя база H — нижняя наружная образующая провода; у Рис. 2 верхняя база H на внутренней поверхности ушка. H₁ — отдельный наружный размер. Собственный 18×кроп фото подтверждает маркировку МЗВА ПГН-3-5; остальные микроклейма не добавлены."
+      ]
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independent_review_required": true,
+  "unresolved_issues": [],
+  "acceptance_note": "No self PASS. Corrected author content and engineering dimension ownership require independent source review. Frozen native bytes and actual receipt retained separately.",
+  "completed_at": "2026-10-14T19:39:34.116806+03:00",
+  "private_original_receipt_sha256": "fe6e9d9b187fc9fb4536bb8131aadaf56e8981914b435f6f7d7de54f618cd736"
+}

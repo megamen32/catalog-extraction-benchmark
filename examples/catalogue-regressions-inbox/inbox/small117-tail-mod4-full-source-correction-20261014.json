@@ -1,0 +1,36 @@
+{
+  "id": "small117-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "small, страница 117: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Malyj-katalog.pdf",
+    "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_page": 117
+  },
+  "review_basis": "[\"Полный оригинал и собственные увеличения сверены; размеры привязаны к конкретным поверхностям и отдельным деталям.\"] Исправления: [\"Уточнены все размерные владельцы ПС/ПС-А/ПА, отдельное направление взгляда А не названо размером.\", \"d ПА однозначно посадочный канал и отделён от фактического диаметра провода; все 114 ячеек неизменны.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/0767450f57a5833fd8c798f2570223e3b189e57972679a04d74667ea0323f863.json",
+      "sha256": "0767450f57a5833fd8c798f2570223e3b189e57972679a04d74667ea0323f863",
+      "bytes": 25386,
+      "role": "native-candidate",
+      "program_version": "1.4.15"
+    },
+    {
+      "path": "objects/0fca6cdc13bef50304c7f2ebc5636eaef0a89fbb073afb6a3cf7bb4b6ab738ba.json",
+      "sha256": "0fca6cdc13bef50304c7f2ebc5636eaef0a89fbb073afb6a3cf7bb4b6ab738ba",
+      "bytes": 29853,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-remaining-small-20261014.r7"
+    },
+    {
+      "path": "objects/2716a114cfb912187264068e9ebec94571063a2424e4cca2864b7fac4749a088.json",
+      "sha256": "2716a114cfb912187264068e9ebec94571063a2424e4cca2864b7fac4749a088",
+      "bytes": 16367,
+      "role": "source-review",
+      "program_version": "tail-mod3-remaining-small-20261014.r7"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 110,
+  "printed_page": "110",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r3",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "cc5a5ecbe0f22f71933e039ede53ed3b251519d2939944ee360811eb9316d72a",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.4",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "03d94c1397ffd39d50a89db0b4d9ae29d17f13e5293b2fcbda6e8b4ec34d8c0c",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "cc5a5ecbe0f22f71933e039ede53ed3b251519d2939944ee360811eb9316d72a",
+      "source_bound_save": true,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 110,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4d5faa2b87b39793b899bfd40ccb8b7b4ff5223f5cfe2aed7fb1c9e3580c2e6b",
+      "receipt": "calls/1301b60a841645148f1a3f3a925b0709/result.json",
+      "started_at": 1791940137.3029463,
+      "finished_at": 1791940228.9142313
+    }
+  },
+  "output": {
+    "file": "innovations-110-reviewed-r3.json",
+    "sha256": "0e71c1b2918670f2ff2c0c475bf7c73aee90014d58b5b230f800cc750e335218"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "0361cb825fde65cf91e680f10bd698f30fa82564f6e8bc40965a20963c63e497",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      9
+    ],
+    "column_counts": [
+      9
+    ],
+    "cells_checked": 81
+  },
+  "source_findings": "Все81ячейки9×9,группы120/19и120/27,150/19/24/34сохранены.45/120,50/125,70/135,75/145,90/150,95/160имассы2,1/2,5/3,4/4,1/4,95/5,65проверены.",
+  "corrections": [
+    "D/d восстановлены как наружный диаметр/внутренний проход,реальные базыL₁/L₂/5 и дугаL без выдуманнойCL.",
+    "Отделены комплектные втулки шлейфа от некомплектных внешних натяжных зажимов.",
+    "По собственному7×чертежу верхняя базаL₂ перенесена с наружного уступа на фактическую отдельную внутреннюю плоскость втулки.",
+    "По повторной source-first проверке нижняя базаL1совпадает с верхнейL2на отдельной ВНУТРЕННЕЙ плоскости втулки выше её наружного уступа. Предыдущий independentPASSпо этой базе оказался ошибочным и не переносится на новую ревизию."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T19:25:26.276523+03:00",
+  "supersedes_output_sha256": "0c83c8bf1b20040d65ab03344f370fb3525b5ee7467dde840309422c260ed570",
+  "private_original_receipt_sha256": "6493cc85e28d8ebd3530d4cd789c26b0ac676b81d55ab9267ca2307fbe0ef282"
+}

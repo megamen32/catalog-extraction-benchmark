@@ -1,0 +1,36 @@
+{
+  "id": "small161-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "small, страница 161: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Malyj-katalog.pdf",
+    "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_page": 161
+  },
+  "review_basis": "[\"Полный источник и собственные крупные кропы текста/таблиц/рисунков сверены. Табличные значения и состояния сохранены; инженерные отношения проверены индивидуально.\"] Исправления: [\"Исправлены размерные базы H/D/d и ложные цанговые зажимы/скобы/сварка/материалы неподписанных деталей.\", \"Печатное «отвердения» сохранено; ложные примечания о пустых строках и неопределённых нормированных напряжениях убраны.\", \"Все табличные values/state неизменны.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/bf1a5ddf091be0cbe620a7bd53c794c8c85d2096d69b34c1cb28a4cbb0d27d9a.json",
+      "sha256": "bf1a5ddf091be0cbe620a7bd53c794c8c85d2096d69b34c1cb28a4cbb0d27d9a",
+      "bytes": 14890,
+      "role": "native-candidate",
+      "program_version": "1.4.15"
+    },
+    {
+      "path": "objects/13e6e67e1c53be70f6144b40fe5572c009bbb35b42fa2edcade4af167bc1633c.json",
+      "sha256": "13e6e67e1c53be70f6144b40fe5572c009bbb35b42fa2edcade4af167bc1633c",
+      "bytes": 17215,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-remaining-small-20261014.r5"
+    },
+    {
+      "path": "objects/9dd49e117fb663970ba1cd061ba291ffd09940c684c85b1b748a3431f73e28df.json",
+      "sha256": "9dd49e117fb663970ba1cd061ba291ffd09940c684c85b1b748a3431f73e28df",
+      "bytes": 13761,
+      "role": "source-review",
+      "program_version": "tail-mod3-remaining-small-20261014.r5"
+    }
+  ]
+}

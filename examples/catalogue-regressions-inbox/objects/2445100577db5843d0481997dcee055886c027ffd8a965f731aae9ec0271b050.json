@@ -1,0 +1,135 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "isolators",
+  "source_filename": "Katalog-IZOLJaTORY.pdf",
+  "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+  "physical_page": 111,
+  "printed_page": "110",
+  "status": "author_source_review_complete_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod1",
+    "task": "/root/catalog_tail_mod1",
+    "version": "tail-mod1-20261014.r1",
+    "model_id": "Current native Codex session;exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "isolators-111-actual-native-candidate.json",
+    "sha256": "13743d25e0d727890742aeef7d21e155ad9c149f766cd5100f58fb84d417bff9",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.4.2",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "13743d25e0d727890742aeef7d21e155ad9c149f766cd5100f58fb84d417bff9",
+      "source_bound_save": true,
+      "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+      "physical_page": 111,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "aa97a446c59b5a207fd1ab84542de68a56c8d05e595fabde973e24da9ccc405d",
+      "receipt": "calls/d8b8e74c5e0c4583b44d06762da0d82a/result.json",
+      "started_at": 1791824071.0013921,
+      "finished_at": 1791824110.7954514
+    },
+    "receipt_file": "isolators-111-producer-receipt.json",
+    "receipt_sha256": "aeaffd7d609fcc82d19de6fe58298dfdb9027e137a896916ff21f38e5224eb63",
+    "receipt_artifact_equals_candidate": true,
+    "saved_runtime_candidate": "isolators-111-candidate.json",
+    "saved_runtime_candidate_sha256": "019dab5f4015d4d198574fb36e2d1c4c9d86d864dc27498ceb7a9b4694c8d93a",
+    "runtime_schema_normalization": "Exact PageContent schema normalization of raw producer artifact equals saved current runtime candidate; raw bytes retained separately when nullable defaults were inserted."
+  },
+  "output": {
+    "file": "isolators-111-reviewed.json",
+    "sha256": "b6cb9ffa076ef1d5818f7085017cb6288c9ae436750fc3ad8a31f179336d146d",
+    "author": "catalog_tail_mod1"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "f276aacc1c84240867f2365ab4fb1b22fe309e71c13e4b376d3a110353f46ae3",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "pagecontent_schema_valid": true
+  },
+  "tables": {
+    "row_counts": [
+      1,
+      3
+    ],
+    "column_counts": [
+      14,
+      4
+    ],
+    "cells_checked": 26
+  },
+  "source_findings": [
+    "Полный оригинал до current candidate. Все26ячеек1×14+3×4 сверены:20/4/0,2/350/295/630/190/150/110/26/10/II/2,5; три маркиА/А01/А02 иМ10/50/М10,М12/50/М12,М10/70/М12 с2отв. Таблицы unchanged. Назначение и обаТУ/ГОСТ/contacts/110 совпали.",
+    "Исправлены верхний50 инижнийD какмежосевые отверстий вместо наружныхширины/диаметра, Lпо границам оболочки; восстановлено наличие реальных числовых50/Ø100 на рисунке вместо ложного«чиселнет». Н±2полная наружная высота верна."
+  ],
+  "corrections": [
+    {
+      "path": "figures[0].description",
+      "before": "Один вид: продольный профиль стержневого опорного изолятора с металлическими концевыми фланцами (верхний и нижний), шейкой и шестью полимерными юбками (зонтичными рёбрами) на стержне. Осевая линия показана штрихпунктиром. Слева два вертикальных габаритных размера: Н±2 (полная конструктивная высота, от верхней наружной грани верхнего фланца до нижней наружной грани нижнего фланца) и L (изоляционная высота, от низа верхнего фланца до верха нижнего фланца). Верхний фланец: горизонтальный размер 50 по ширине фланца и d1, 2 отв. — диаметр двух крепёжных отверстий в верхнем штуцере (отверстия показаны штриховкой). Горизонтальный размер Ø100 — диаметр юбки, проведённый по второй юбке сверху. Нижний фланец: D — диаметр нижнего фланца и d2, 2 отв. — два крепёжных отверстия в нижнем штуцере. Числовые значения Н±2, L, 50, Ø100, D, d1, d2 на самом чертеже не проставлены, они даны в таблицах страницы. Других видов, сечений, стрелок направления взгляда и указателей на чертеже нет.",
+      "after": "Главный вид ОСК с шестью большими изоляционными рёбрами и металлическими фланцами по концам; отверстия в правых частях фланцев показаны местными разрезами. Н±2 — полная высота между наружными торцевыми плоскостями фланцев. L — между отмеченными верхней/нижней границами изоляционной оболочки у оконцевателей, не между наружными краями или внутренними плоскостями самих фланцев. Ø100 — наружный диаметр ребра. Верхний размер 50 — между осями двух верхних крепёжных отверстий, не полная ширина верхнего фланца. Нижний D — между осями двух нижних отверстий, не наружный диаметр фланца. d1/d2 с «2отв.» относятся к резьбовым отверстиям: конкретные М10/М12 заданы в своих строках таблицы. На рисунке действительно численно напечатаны 50 и Ø100, остальные размеры буквенные. Направлений взгляда и дополнительных видов нет."
+    },
+    {
+      "path": "page_context",
+      "before": null,
+      "after": {
+        "kind": "catalogue_product_data",
+        "summary": "Опорный полимерный изолятор ОСК 4-20-А-2 на 20 кВ: назначение, условия, два ТУ и ГОСТ Р 52082, главный вид, строка технических характеристик и три варианта присоединительных размеров. Верхний межосевой размер 50, нижнийD 50/70, d1/d2 — по два резьбовых отверстия М10/М12. Н/L относятся к полной строительной высоте и собственным границам оболочки.",
+        "source_evidence": [
+          {
+            "kind": "catalogue_product_data",
+            "box": [
+              0.075,
+              0.015,
+              0.925,
+              0.375
+            ],
+            "observation": "Рубрика, ОСК4-20-А-2, назначение20кВ/100Гц/−60…+50°C/УХЛ1/ГОСТ15150,ТУ2015 иТУ2006 в скобках, ГОСТР52082."
+          },
+          {
+            "kind": "catalogue_product_data",
+            "box": [
+              0.56,
+              0.09,
+              0.8,
+              0.5
+            ],
+            "observation": "Собственный чертёж Н±2/L/Ø100, верхний50 между осями отверстий, нижнийD между осями отверстий, d1/d2 с2отв."
+          },
+          {
+            "kind": "catalogue_product_data",
+            "box": [
+              0.075,
+              0.54,
+              0.925,
+              0.945
+            ],
+            "observation": "Все14ячеек параметров и12ячеек присоединений, диапазонов или объединённых иных строк нет."
+          }
+        ]
+      }
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "independent_review_required": true,
+  "independent_review_status": "pending",
+  "separate_model_review_of_root_edits": null,
+  "unresolved_issues": [
+    "Нужна независимая проверка авторского разбора и инженерных отношений."
+  ],
+  "completed_at": "2026-10-14T19:24:13.935362+03:00",
+  "private_original_receipt_sha256": "28cd817d90d830e192fa669274561abdd1e9b4e13ae8ecf5b938f079a0a11a21"
+}

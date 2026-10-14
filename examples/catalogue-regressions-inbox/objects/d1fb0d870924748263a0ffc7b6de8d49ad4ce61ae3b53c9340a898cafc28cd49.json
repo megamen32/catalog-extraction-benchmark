@@ -1,0 +1,133 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "isolators",
+  "source_filename": "Katalog-IZOLJaTORY.pdf",
+  "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+  "physical_page": 120,
+  "printed_page": "119",
+  "status": "author_source_review_complete_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod1",
+    "task": "/root/catalog_tail_mod1",
+    "version": "tail-mod1-20261014.r1",
+    "model_id": "Current native Codex session;exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "isolators-120-actual-native-candidate.json",
+    "sha256": "a47eed634437f88809bd9903bc53f95d541f808b89f4ac70608f1f45414643bc",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.4.2",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "a47eed634437f88809bd9903bc53f95d541f808b89f4ac70608f1f45414643bc",
+      "source_bound_save": true,
+      "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+      "physical_page": 120,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "aa97a446c59b5a207fd1ab84542de68a56c8d05e595fabde973e24da9ccc405d",
+      "receipt": "calls/be5e2d8fa6af41b38067059d2503fe38/result.json",
+      "started_at": 1791824343.0947204,
+      "finished_at": 1791824443.52046
+    },
+    "receipt_file": "isolators-120-producer-receipt.json",
+    "receipt_sha256": "03cee66779e0b706abbbd5914655574f8c540ba0b778560453fae2e871cc56dc",
+    "receipt_artifact_equals_candidate": true,
+    "saved_runtime_candidate": "isolators-120-candidate.json",
+    "saved_runtime_candidate_sha256": "c0d29a252ba19cf4f22cbc80a7b98f1541707528a9b3690d617fe77c7e0dcc0e",
+    "runtime_schema_normalization": "Exact PageContent schema normalization of raw producer artifact equals saved current runtime candidate; raw bytes retained separately when nullable defaults were inserted."
+  },
+  "output": {
+    "file": "isolators-120-reviewed.json",
+    "sha256": "088f5f7384ed336bc40229e7034224dbfb7e08404fec2d8cf198930bea6638c4",
+    "author": "catalog_tail_mod1"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "316f749a86d7ee3ae1af9b5cefb4970a7e79db350c86793c845db3ce5d284160",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "pagecontent_schema_valid": true
+  },
+  "tables": {
+    "row_counts": [
+      16
+    ],
+    "column_counts": [
+      15
+    ],
+    "cells_checked": 240
+  },
+  "source_findings": [
+    "Полный оригинал до current candidate. Все240ячеек16×15 сверены иvaluesнеизменны: силовые6/8/10/12,5;моменты2,0на8/4,0на8;D155на8/170на8;H1020/1050/1100/1220,L910/910/960/1060 повторены;утечки2800/2800/2900/3200для6/8и2800/2800/2850/3150для10/12,5;490/320/260либо590/410/350,10/IIлибо20/III;110/27общие. Реальная13-ямарка12,5-10-А-2сохранена.",
+    "Уточнены H/Lповерхности,D1/D2pitch,В1/В2горизонтальные межосевые,d1/d2своиотверстия,Dрёбер. Неподписанные центральные контуры не объявлены отверстиями. Всеусловия/нормативы/footer119 совпали."
+  ],
+  "corrections": [
+    {
+      "path": "figures[0].description",
+      "before": "Слева — продольный главный вид стержневого опорного полимерного изолятора: фланец (опорная плита) сверху и снизу, цилиндрическая часть с оребрением, посередине показан разрыв (сокращение длины, волнистая линия). Справа — два поперечных вида: «А» (верхний) и «Б» (нижний), каждый с четырьмя отверстиями, пунктирными диагональными осями и окружностями, проведёнными через отверстия. На главном виде проставлены размеры: Н±2 (габаритная высота между нижней и верхней плоскостями фланцев, вертикально слева), L (изоляционная высота, вертикально рядом с Н±2) и D (наибольший диаметр ребра, горизонтально у верхней группы рёбер). Стрелки направления взгляда: «А» — над верхним торцом, «Б» — под нижним торцом. Числовые значения размеров на чертеже не проставлены. Признаки знаков: «±» после Н.",
+      "after": "Главный вид слева с верхним/нижним фланцами и оребрённой оболочкой с условным разрывом. Н±2 — между наружными торцевыми поверхностями фланцев; L — между отмеченными верхней/нижней границами изоляционной оболочки у оконцевателей; D — наружный диаметр большого ребра. Верхняя А и нижняя Б — направления торцевых видов справа, не линия разреза. D1/D2 на этих видах относятся к штрихпунктирным окружностям центров четырёх крепёжных отверстий. В1/В2 — горизонтальные расстояния между центрами соседних верхних отверстий своих фланцев, не полные наружные размеры фланцев. d1/d2 с4отв. относятся к самим отверстиям. Нижний фланец показан больше верхнего; размеры одного нельзя переносить на другой. Центральные круглые контуры неподписанной функцией не наделены. На рисунке только буквенные размеры и допуск±2, числовых присоединительных номиналов нет."
+    },
+    {
+      "path": "page_context",
+      "before": null,
+      "after": {
+        "kind": "catalogue_product_data",
+        "summary": "Опорные полимерные ОСК 6/8/10/12,5-110 на 110 кВ: назначение, условия/ТУ/ГОСТ, главный вид и торцевые А/Б, 16 типоисполнений с механическими, геометрическими и электрическими параметрами. В 13-й марке реально 12,5-10-А-2; столбец напряжения всё равно 110 кВ, исходную марку по смыслу не исправляем. На чертеже D рёбер отделён от D1/D2 окружностей центров и В1/В2 межосевых отверстий.",
+        "source_evidence": [
+          {
+            "kind": "catalogue_product_data",
+            "box": [
+              0.075,
+              0.015,
+              0.925,
+              0.375
+            ],
+            "observation": "Рубрика/логотипы/серия110кВ, назначение100Гц/−60…+50°C/УХЛ1/ГОСТ15150/ТУ2015/ГОСТР52082; собственный чертёж."
+          },
+          {
+            "kind": "catalogue_product_data",
+            "box": [
+              0.535,
+              0.085,
+              0.875,
+              0.39
+            ],
+            "observation": "H±2/L/Dребра; торцевыеА/Б,D1/D2pitch,В1/В2межосевые,d1/d2×4."
+          },
+          {
+            "kind": "catalogue_product_data",
+            "box": [
+              0.075,
+              0.465,
+              0.925,
+              0.945
+            ],
+            "observation": "Все16×15ячеекиисходная12,5-10-А-2, общие110/27/разрядное110, силовые и диаметральные группы, собственныеутечки2900/3200и2850/3150."
+          }
+        ]
+      }
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "independent_review_required": true,
+  "independent_review_status": "pending",
+  "separate_model_review_of_root_edits": null,
+  "unresolved_issues": [
+    "Нужна независимая проверка авторского разбора и инженерных отношений."
+  ],
+  "completed_at": "2026-10-14T19:32:58.637127+03:00",
+  "private_original_receipt_sha256": "c3baee9f3571e2c130499a0a67c7eea769f8fd4e1455ea084eccbcac139d0c9c"
+}

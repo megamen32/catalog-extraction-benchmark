@@ -1,0 +1,36 @@
+{
+  "id": "small107-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "small, страница 107: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Malyj-katalog.pdf",
+    "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_page": 107
+  },
+  "review_basis": "[\"Полный оригинал и собственные увеличения сверены; размеры привязаны к конкретным поверхностям и отдельным деталям.\"] Исправления: [\"Уточнены базы H/H₁, внутренний B, палец Ø16 и поперечный наружный L₁.\", \"Нижняя база H не подменена осью провода; все 80 табличных значений/состояний неизменны.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/b876e53005dc6171a3c131399b6de5c3f01986c66303d2f32c134688b32cb9fb.json",
+      "sha256": "b876e53005dc6171a3c131399b6de5c3f01986c66303d2f32c134688b32cb9fb",
+      "bytes": 18409,
+      "role": "native-candidate",
+      "program_version": "1.4.15"
+    },
+    {
+      "path": "objects/1bed2e3af655b77b7e283d6875531fa70b4e01caafb3addfc2e695c3c98b940b.json",
+      "sha256": "1bed2e3af655b77b7e283d6875531fa70b4e01caafb3addfc2e695c3c98b940b",
+      "bytes": 20955,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-remaining-small-20261014.r7"
+    },
+    {
+      "path": "objects/cdad47040dbdee1db3c53c9ba4f54168fd35d4f681114ce96147a0e2271ae4a9.json",
+      "sha256": "cdad47040dbdee1db3c53c9ba4f54168fd35d4f681114ce96147a0e2271ae4a9",
+      "bytes": 14227,
+      "role": "source-review",
+      "program_version": "tail-mod3-remaining-small-20261014.r7"
+    }
+  ]
+}

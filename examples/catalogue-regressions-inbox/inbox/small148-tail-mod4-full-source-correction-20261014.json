@@ -1,0 +1,36 @@
+{
+  "id": "small148-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "small, страница 148: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Malyj-katalog.pdf",
+    "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_page": 148
+  },
+  "review_basis": "[\"Полный оригинал, собственные увеличения, все таблицы, тексты и связи размеров проверены до авторского выпуска.\"] Исправления: [\"Отверстие 30 исправлено с вымышленного концевого винта на глубину; Ø16 относится к разрядному электроду, не коннектору заземления.\", \"Уточнены базы H/L/45/105/155; 105 заканчивается на верхней образующей Ø10, не на оси.\", \"120 связан с внутренней плоскостью отверстия и наружным концом нижнего электрода, не осью прижимного болта.\", \"Все табличные значения, состояния и марочные символы сохранены.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/9c1709ebd9234c368f8f6536b448e9dd28533b5ecc00d6694d215ac533e575e5.json",
+      "sha256": "9c1709ebd9234c368f8f6536b448e9dd28533b5ecc00d6694d215ac533e575e5",
+      "bytes": 20612,
+      "role": "native-candidate",
+      "program_version": "1.4.15"
+    },
+    {
+      "path": "objects/c6b7ba319d8792d1ab503448190c71aec35744e72708f9d6528bf7591eeb348c.json",
+      "sha256": "c6b7ba319d8792d1ab503448190c71aec35744e72708f9d6528bf7591eeb348c",
+      "bytes": 27312,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-remaining-small-20261014.r6"
+    },
+    {
+      "path": "objects/d92ab23738664c2944e16f67af0d65d7d2a1670f13b58cedd851f98ef929ece8.json",
+      "sha256": "d92ab23738664c2944e16f67af0d65d7d2a1670f13b58cedd851f98ef929ece8",
+      "bytes": 23625,
+      "role": "source-review",
+      "program_version": "tail-mod3-remaining-small-20261014.r6"
+    }
+  ]
+}

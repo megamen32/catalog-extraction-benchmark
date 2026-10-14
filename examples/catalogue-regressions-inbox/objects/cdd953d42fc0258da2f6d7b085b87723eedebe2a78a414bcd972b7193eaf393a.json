@@ -1,0 +1,157 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "small",
+  "source_filename": "Malyj-katalog.pdf",
+  "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+  "physical_page": 125,
+  "printed_page": "124",
+  "status": "awaiting_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod3",
+    "task": "/root/catalog_tail_mod3",
+    "version": "tail-mod3-remaining-small-20261014.r6",
+    "model_id": "Current native Codex worker session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "small-125-candidate.json",
+    "sha256": "0b9f3179680f5cd7b928b71965768ed7bb9d374fcdf033f704cb281cee55c0a7",
+    "canonical_sha256": "7ad5621cd70d894eef267d5e9eb34480a5d3c3993641119a46f4b17004380057",
+    "producer": {
+      "program": {
+        "package_version": "1.4.15",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+        "python_version": "3.12.13",
+        "components": {
+          "agent_logic": {
+            "package_version": "1.4.2",
+            "git_revision": null,
+            "dirty": null,
+            "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+            "python_version": "3.12.13"
+          },
+          "catalog_tools": {
+            "package_version": "1.4.8",
+            "git_revision": null,
+            "dirty": null,
+            "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+            "python_version": "3.12.13"
+          },
+          "legacy_skills": {
+            "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+            "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+          },
+          "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+          "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+          "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+          "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+        }
+      },
+      "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+      "physical_page": 125,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf",
+      "artifact_sha256": "0b9f3179680f5cd7b928b71965768ed7bb9d374fcdf033f704cb281cee55c0a7",
+      "started_at": 1791872181.5646698,
+      "finished_at": 1791872272.2473578,
+      "provider_rate_limit_events": 0,
+      "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46",
+      "status": "receipt_verified",
+      "source_bound_save": true,
+      "receipt": ".tmp/full-digitization/staged-best-v1.4.8/small/page-0125/calls/ecf6d4191dca4ef3b292eb38d9c6ccc0/result.json",
+      "frozen_receipt": "small-125-native-receipt.json",
+      "frozen_receipt_sha256": "ed6f8cefe0f84f8aa960567ff65670ef185480d552e4abc4acd93fa7d00a3818"
+    }
+  },
+  "output": {
+    "file": "small-125-reviewed.json",
+    "sha256": "7cefcaf17f92a0e3fd49c6f30d2d2e87591470d38152fd2fc8f8f39e00cf57ad",
+    "canonical_sha256": "dfcc322da22b6a182c0f36bbbbe67b652b57c60a3fdb1f2fada26d3703c4b593"
+  },
+  "full_original_image_review": true,
+  "original_image": "small-125.png",
+  "original_image_sha256": "2c68892894fa783cd6ed3c21004a01acd8b8e649fe907d18a09543569e97fd7e",
+  "own_source_observation": "small-125-own-source-observation.json",
+  "own_source_observation_sha256": "e5a6107254eb05fbccbaa8fc486e865eceff5100677339b46ca4bac879c5ed36",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "page_content_schema": true
+  },
+  "tables": {
+    "row_counts": [
+      18
+    ],
+    "column_counts": [
+      7
+    ],
+    "cells_checked": 126
+  },
+  "source_findings": [
+    "Полный оригинал, собственные увеличения, все таблицы, тексты и связи размеров проверены до авторского выпуска."
+  ],
+  "corrections": [
+    "Удалено неподтверждённое отождествление восьми краевых элементов с отверстиями слива.",
+    "Уточнены D провода и полный наружный 310 без выдуманных знака Ø/единицы; все 126 ячеек и печатные необычности сохранены."
+  ],
+  "complete_leaf_diff": [
+    {
+      "path": ".figures[1].description",
+      "before": "Чертёж изделия. Слева — вид сбоку: сферический корпус на проводе, вертикальная линия стыка половин и четыре коротких горизонтальных элемента на корпусе; провод показан со спиральным фиксатором. Справа от этого вида — вертикальный размер диаметра провода с обозначением D. Справа — вид с торца: две половины корпуса с зазором между ними, по четыре угловых отверстия для слива на каждой половине (всего 8), в центре — круглое отверстие для провода; сверху габаритный размер 310. Иных размерных обозначений и допусков на чертеже не указано.",
+      "after": "Слева сборка сферического маркера на проводе/тросе с двусторонним спиральным фиксатором: показаны стык половин и поперечные элементы крепления. Вертикальная D у правой части провода ограничена его наружными образующими и обозначает диаметр провода, не шара. Справа отдельно показаны две части корпуса с центральным круглым проходом и местами крепления у краёв; их конкретная функция как сливных отверстий по рисунку не подписана. Горизонтальный 310 — полный поперечный наружный размер корпуса между крайними образующими. Знак Ø перед 310 и отдельная единица на самом рисунке не напечатаны; они не добавлены. Прочие размеры и допуски отсутствуют."
+    },
+    {
+      "path": ".page_context",
+      "before": null,
+      "after": {
+        "kind": "catalogue_product_data",
+        "summary": "ММ-02 — маркерные устройства визуальной индикации проводов и тросов для птиц, транспорта и пилотов. Фото и чертёж сборки со спиральным фиксатором, вид двух половин и размер 310; D обозначает диаметр провода. Таблица 18×7 содержит 126 проверенных ячеек: диапазоны проводов, общий класс 6–750 кВ, районы I–VII, видимость 600 м, УХЛ1 и массы. Сохранены цветовые исполнения, шесть преимуществ, стандарты/ТУ, патент и одобрение Союза охраны птиц России.",
+        "source_evidence": [
+          {
+            "kind": "catalogue_product_data",
+            "box": [
+              0.05,
+              0.01,
+              0.95,
+              0.985
+            ],
+            "observation": "Полный исходный лист просмотрен до выбранного текущим каталогом candidate. Собственные крупные кропы подтвердили все 126 ячеек, единицы, ограничения, объединения и пустоты, марки, тексты, бренды, контакты и рисунки. Каждая размерная база сверена отдельно; значения не исправлены по аналогии с соседними листами.",
+            "transcription": "literal"
+          }
+        ]
+      }
+    },
+    {
+      "path": ".source_notes",
+      "before": [
+        "В таблице столбцы «Класс напряжения ВЛ, кВ», «Ветровой район, гололедный район», «Видимое расстояние, м» и «Исполнение» объединены вертикальной ячейкой на все 18 строк; значение каждого относится ко всем строкам.",
+        "Значение «6-750» в столбце «Класс напряжения ВЛ, кВ» приведено буквально, хотя заголовок страницы указывает на 6-35 кВ.",
+        "В наименовании последней строки напечатано «ММ-02-32,1/34-О/К/Б/С» (без «,0» после 34), тогда как в столбце диаметров указано «32,1-34,0».",
+        "В тексте о назначении напечатано «при пресечении ВЛ с автомобильными дорогами» — слово приведено буквально, как в источнике."
+      ],
+      "after": [
+        "В таблице столбцы «Класс напряжения ВЛ, кВ», «Ветровой район, гололедный район», «Видимое расстояние, м» и «Исполнение» объединены вертикальной ячейкой на все 18 строк; значение каждого относится ко всем строкам.",
+        "Значение «6-750» в столбце «Класс напряжения ВЛ, кВ» приведено буквально, хотя заголовок страницы указывает на 6-35 кВ.",
+        "В наименовании последней строки напечатано «ММ-02-32,1/34-О/К/Б/С» (без «,0» после 34), тогда как в столбце диаметров указано «32,1-34,0».",
+        "В тексте о назначении напечатано «при пресечении ВЛ с автомобильными дорогами» — слово приведено буквально, как в источнике.",
+        "На виде частей корпуса небольшие краевые элементы не названы сливными отверстиями по догадке; наличие сливных отверстий сохранено отдельно в буквальном тексте преимущества. Размер 310 приведён без выдуманного знака Ø."
+      ]
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independent_review_required": true,
+  "unresolved_issues": [],
+  "acceptance_note": "No self PASS. Corrected author content and engineering dimension ownership require independent source review. Frozen native bytes and actual receipt retained separately.",
+  "completed_at": "2026-10-14T19:34:10.135788+03:00",
+  "private_original_receipt_sha256": "3704612892458fd5644504cf9bbb8128b08201b8ee7b896b2b81114ff2da8da5"
+}

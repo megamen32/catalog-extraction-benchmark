@@ -1,0 +1,36 @@
+{
+  "id": "small142-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "small, страница 142: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Malyj-katalog.pdf",
+    "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_page": 142
+  },
+  "review_basis": "[\"Полный оригинал, собственные увеличения, все таблицы, тексты и связи размеров проверены до авторского выпуска.\"] Исправления: [\"Исправлена ложная единственная привязка Рис. 2 к d115: источник содержит 100 и 115.\", \"H/h/L/D/d связаны с конкретными поверхностями; Б — сплошная головка, не желоб без прорези.\", \"Печатное H220 и две пустоты усилия растяжения подтверждены; 172 значения/состояния неизменны.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/95c61b182527cb0fd1daa9bd219b5d3d3131b2619f1f50e47a8af14024c0ab14.json",
+      "sha256": "95c61b182527cb0fd1daa9bd219b5d3d3131b2619f1f50e47a8af14024c0ab14",
+      "bytes": 36626,
+      "role": "native-candidate",
+      "program_version": "1.4.15"
+    },
+    {
+      "path": "objects/c659a5c4f5943c829582317764548a8ee9eaa5159d61337b5ffcc953b2b5cc5f.json",
+      "sha256": "c659a5c4f5943c829582317764548a8ee9eaa5159d61337b5ffcc953b2b5cc5f",
+      "bytes": 39904,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-remaining-small-20261014.r6"
+    },
+    {
+      "path": "objects/cd0c35033fd0f6337bb7a9a215f0802708b710e5a2442668ec402840f5e0813e.json",
+      "sha256": "cd0c35033fd0f6337bb7a9a215f0802708b710e5a2442668ec402840f5e0813e",
+      "bytes": 17241,
+      "role": "source-review",
+      "program_version": "tail-mod3-remaining-small-20261014.r6"
+    }
+  ]
+}

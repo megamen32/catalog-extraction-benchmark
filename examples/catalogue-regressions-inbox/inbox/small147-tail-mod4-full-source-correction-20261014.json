@@ -1,0 +1,36 @@
+{
+  "id": "small147-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "small, страница 147: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Malyj-katalog.pdf",
+    "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_page": 147
+  },
+  "review_basis": "[\"Полный оригинал, собственные увеличения, все таблицы, тексты и связи размеров проверены до авторского выпуска.\"] Исправления: [\"Отверстие 30 исправлено с вымышленного концевого винта на глубину; Ø16 относится к разрядному электроду, не коннектору заземления.\", \"Уточнены базы H/L/45/105/155; 105 заканчивается на верхней образующей Ø10, не на оси.\", \"60 связан с общей внутренней базой 30 и концом отдельного наклонного ОПН.\", \"Все табличные значения, состояния и марочные символы сохранены.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/5dbb32978baf6d09759bec88caa27b4980c22109d159641d30b74a9e0d22da5d.json",
+      "sha256": "5dbb32978baf6d09759bec88caa27b4980c22109d159641d30b74a9e0d22da5d",
+      "bytes": 22862,
+      "role": "native-candidate",
+      "program_version": "1.4.15"
+    },
+    {
+      "path": "objects/1e9aa4f7c405fad81b9dfc45f30faf53af508ce64b848147c8920bff1b487d9d.json",
+      "sha256": "1e9aa4f7c405fad81b9dfc45f30faf53af508ce64b848147c8920bff1b487d9d",
+      "bytes": 29879,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-remaining-small-20261014.r6"
+    },
+    {
+      "path": "objects/b55f4bf8a11b556bbb1b423938013e0d542a2dadcf968ac65231fb22fb41b98c.json",
+      "sha256": "b55f4bf8a11b556bbb1b423938013e0d542a2dadcf968ac65231fb22fb41b98c",
+      "bytes": 29555,
+      "role": "source-review",
+      "program_version": "tail-mod3-remaining-small-20261014.r6"
+    }
+  ]
+}

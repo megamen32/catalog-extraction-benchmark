@@ -1,0 +1,144 @@
+{
+  "schema_version": "catalogue-independent-source-review/1",
+  "catalog": "isolators",
+  "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+  "physical_page": 91,
+  "printed_page": "90",
+  "reviewed_json": ".tmp/root-tail-review-20261014/shard-mod1/isolators-91-reviewed.json",
+  "reviewed_json_sha256": "fb52b9d04de2968cdb29d09e7512eaf312f1264c75910928dbd8458746cbc690",
+  "reviewed_input_frozen": "isolators-91-reviewed-input-frozen.json",
+  "independent_author": "01a12c30-e58f-7861-8a2d-966c92630163",
+  "origin_author": "catalog_tail_mod1",
+  "time": "2026-10-14T19:31:31.150291+03:00",
+  "verdict": "revise",
+  "full_original_image_review": true,
+  "original_image": "isolators-91-original.png",
+  "original_image_sha256": "ed002fdd0c308c1e75dc8e1d3b0cab66d201c6a7ea022b66eb18560e0a0860fa",
+  "checks": {
+    "all_text_and_meaning": {
+      "passed": false,
+      "evidence": "Все220ячеек20×11 совпали,включая реальные необычные H605/L485/1350 и H630/L485/1350;отсутствующие ИГ5/ИГ6 не добавлены. H/L/Ø300/65/90 и нижние допуски верны. Однако собственный20×оригинал показывает перед верхним1.3 только вертикальную черту,не отчётливый плюс;утверждать знак + нельзя."
+    },
+    "all_table_cells": {
+      "passed": true,
+      "evidence": "Все220ячеек20×11 совпали,включая реальные необычные H605/L485/1350 и H630/L485/1350;отсутствующие ИГ5/ИГ6 не добавлены. H/L/Ø300/65/90 и нижние допуски верны. Однако собственный20×оригинал показывает перед верхним1.3 только вертикальную черту,не отчётливый плюс;утверждать знак + нельзя."
+    },
+    "headers_units_conditions": {
+      "passed": true,
+      "evidence": "Все220ячеек20×11 совпали,включая реальные необычные H605/L485/1350 и H630/L485/1350;отсутствующие ИГ5/ИГ6 не добавлены. H/L/Ø300/65/90 и нижние допуски верны. Однако собственный20×оригинал показывает перед верхним1.3 только вертикальную черту,не отчётливый плюс;утверждать знак + нельзя."
+    },
+    "merged_cells_and_blanks": {
+      "passed": true,
+      "evidence": "Все220ячеек20×11 совпали,включая реальные необычные H605/L485/1350 и H630/L485/1350;отсутствующие ИГ5/ИГ6 не добавлены. H/L/Ø300/65/90 и нижние допуски верны. Однако собственный20×оригинал показывает перед верхним1.3 только вертикальную черту,не отчётливый плюс;утверждать знак + нельзя."
+    },
+    "figures_and_relationships": {
+      "passed": false,
+      "evidence": "Все220ячеек20×11 совпали,включая реальные необычные H605/L485/1350 и H630/L485/1350;отсутствующие ИГ5/ИГ6 не добавлены. H/L/Ø300/65/90 и нижние допуски верны. Однако собственный20×оригинал показывает перед верхним1.3 только вертикальную черту,не отчётливый плюс;утверждать знак + нельзя."
+    },
+    "source_provenance": {
+      "passed": true,
+      "evidence": "Все220ячеек20×11 совпали,включая реальные необычные H605/L485/1350 и H630/L485/1350;отсутствующие ИГ5/ИГ6 не добавлены. H/L/Ø300/65/90 и нижние допуски верны. Однако собственный20×оригинал показывает перед верхним1.3 только вертикальную черту,не отчётливый плюс;утверждать знак + нельзя."
+    }
+  },
+  "observed_row_counts": [
+    20
+  ],
+  "observed_column_counts": [
+    11
+  ],
+  "total_cells_checked": 220,
+  "dimension_ownership": [
+    {
+      "figure_title": "ЛКП",
+      "dimensions": [
+        {
+          "literal": "Н±5",
+          "actual_target": "Ось верхнего отверстия → переход шейки в головку пестика",
+          "source_bbox": [
+            0.08,
+            0.06,
+            0.94,
+            0.39
+          ]
+        },
+        {
+          "literal": "L",
+          "actual_target": "Нижняя плоскость защитного диска → нижняя граница полимерной оболочки",
+          "source_bbox": [
+            0.08,
+            0.06,
+            0.94,
+            0.39
+          ]
+        },
+        {
+          "literal": "Ø300/Ø65/Ø90",
+          "actual_target": "Собственный защитный диск/малое ребро/большое ребро",
+          "source_bbox": [
+            0.08,
+            0.06,
+            0.94,
+            0.39
+          ]
+        },
+        {
+          "literal": "16+0.9/-1.1",
+          "actual_target": "Толщина верхней проушины",
+          "source_bbox": [
+            0.08,
+            0.06,
+            0.94,
+            0.39
+          ]
+        },
+        {
+          "literal": "Ø17/Ø33.3",
+          "actual_target": "Нижняя шейка/головка пестика с собственными допусками",
+          "source_bbox": [
+            0.08,
+            0.06,
+            0.94,
+            0.39
+          ]
+        },
+        {
+          "literal": "Ø17 верхнее отклонение1.3",
+          "actual_target": "Отверстие верхней проушины;знак отклонения визуально не установлен",
+          "source_bbox": [
+            0.08,
+            0.06,
+            0.94,
+            0.39
+          ]
+        }
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "checks": [
+        "figures_and_relationships",
+        "all_text_and_meaning"
+      ],
+      "description": "Знак перед верхним1.3на Ø17 неразборчив: оригинал содержит вертикальную черту без горизонтальной части. Удалить недоказанное утверждение + и сохранить честную uncertainty;числа/таблицы не менять.",
+      "source_bbox": [
+        0.64,
+        0.065,
+        0.79,
+        0.13
+      ],
+      "evidence_image": ".tmp/root-tail-review-20261014/independent-reviews/isolators-91-root-upper-tolerance.png"
+    }
+  ],
+  "unresolved_issues": [],
+  "blind_order": "Original full page and detail crops inspected first; then exact other-author corrected JSON read.",
+  "provider_receipt": false,
+  "private_review_artifact_sha256": "6f713d2a16b6c68920da8a068e0bff9b9926ade515e000a53de2e5416caa8980",
+  "actual_author_producer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod1",
+    "task": "/root/catalog_tail_mod1",
+    "version": "tail-mod1-20261014.r1",
+    "model_id": "Current native Codex session;exact provider identifier not exported."
+  }
+}

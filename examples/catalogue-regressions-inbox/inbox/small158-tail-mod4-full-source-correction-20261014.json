@@ -1,0 +1,36 @@
+{
+  "id": "small158-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "small, страница 158: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Malyj-katalog.pdf",
+    "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_page": 158
+  },
+  "review_basis": "[\"Полный оригинал, собственные увеличения, все таблицы, тексты и связи размеров проверены до авторского выпуска.\"] Исправления: [\"H уточнена по внутренним базам сферического сопряжения; d связан с нижней шейкой и стандартным соединением, не с верхним болтом/шайбой.\", \"Удалены неподтверждённые материалы, болты/винты и скобы, ошибочная сборка из двух половин; общий вид и полуразрез относятся к одному изделию. Все табличные значения и состояния неизменны.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/d0dec6637827a13ab68e50fd70b5c9bee88d546a711f297d59a16797ec5d83ea.json",
+      "sha256": "d0dec6637827a13ab68e50fd70b5c9bee88d546a711f297d59a16797ec5d83ea",
+      "bytes": 15845,
+      "role": "native-candidate",
+      "program_version": "1.4.15"
+    },
+    {
+      "path": "objects/3303c239f80c044bdccfcb85db57dc7f705a97636249f75683bb48d546505739.json",
+      "sha256": "3303c239f80c044bdccfcb85db57dc7f705a97636249f75683bb48d546505739",
+      "bytes": 17866,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-remaining-small-20261014.r6"
+    },
+    {
+      "path": "objects/624f1544898d01f9e9c3c88422113c8ff418078d064d725073b6623bbd38455a.json",
+      "sha256": "624f1544898d01f9e9c3c88422113c8ff418078d064d725073b6623bbd38455a",
+      "bytes": 13551,
+      "role": "source-review",
+      "program_version": "tail-mod3-remaining-small-20261014.r6"
+    }
+  ]
+}

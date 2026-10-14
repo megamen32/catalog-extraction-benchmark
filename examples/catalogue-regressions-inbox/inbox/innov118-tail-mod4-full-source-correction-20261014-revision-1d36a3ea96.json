@@ -1,0 +1,36 @@
+{
+  "id": "innov118-tail-mod4-full-source-correction-20261014-revision-1d36a3ea96",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 118: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 118
+  },
+  "review_basis": "Все243ячейки27×9сохранены,включаябуквальнуюточку5.-Lвдвухстроках,двегруппыматрицМШ39,8 А42,разныеL₂163/165,массы4,75…20,5. Модификация5/новоеидействующеестроительство/втулки/выходизвнешнегозажима/контактыпрочитаны. Исправления: [\"D/d восстановлены как наружный диаметр/внутренний проход,реальные базыL₁/L₂/5 и дугаL без выдуманнойCL.\", \"Отделены комплектные втулки шлейфа от некомплектных внешних натяжных зажимов.\", \"По повторной source-first проверке нижняя базаL1совпадает с верхнейL2на отдельной ВНУТРЕННЕЙ плоскости втулки выше её наружного уступа. Предыдущий independentPASSпо этой базе оказался ошибочным и не переносится на новую ревизию.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/cba517207ee45cedb740342257e0294a3702bd5567a2ce411c02025408c4767c.json",
+      "sha256": "cba517207ee45cedb740342257e0294a3702bd5567a2ce411c02025408c4767c",
+      "bytes": 44312,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/1d36a3ea96106421018aaf77498d5aade857d46f6ec4cfd4a8ffb622696f4d45.json",
+      "sha256": "1d36a3ea96106421018aaf77498d5aade857d46f6ec4cfd4a8ffb622696f4d45",
+      "bytes": 42568,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r2"
+    },
+    {
+      "path": "objects/47625ee712b1a173e036c22e8446d657e07c45a9591e5763812ad538ced10634.json",
+      "sha256": "47625ee712b1a173e036c22e8446d657e07c45a9591e5763812ad538ced10634",
+      "bytes": 3747,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r2"
+    }
+  ]
+}

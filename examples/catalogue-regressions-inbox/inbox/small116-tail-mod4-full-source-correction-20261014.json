@@ -1,0 +1,36 @@
+{
+  "id": "small116-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "small, страница 116: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Malyj-katalog.pdf",
+    "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_page": 116
+  },
+  "review_basis": "[\"Полный оригинал и собственные увеличения сверены; размеры привязаны к конкретным поверхностям и отдельным деталям.\"] Исправления: [\"D уточнён как основной наружный корпус без краевых расширений, L — крайние наружные торцы.\", \"Убраны вымышленные ответвление/четыре отверстия и ложное чтение части разреза; соединён разорванный типономиналов. Все 126 ячеек неизменны.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/559fb25af3b40a61659000fe2cd91eb65247daf2bf54eb92287cbd1c56cb2e2d.json",
+      "sha256": "559fb25af3b40a61659000fe2cd91eb65247daf2bf54eb92287cbd1c56cb2e2d",
+      "bytes": 25558,
+      "role": "native-candidate",
+      "program_version": "1.4.15"
+    },
+    {
+      "path": "objects/bc4f9c6bce0c5a053526b052603e94ecc117f46fe5645c48909e8879f218a220.json",
+      "sha256": "bc4f9c6bce0c5a053526b052603e94ecc117f46fe5645c48909e8879f218a220",
+      "bytes": 27629,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-remaining-small-20261014.r7"
+    },
+    {
+      "path": "objects/ed6dbda9e606fce1f799a04b092837a8252e6c605548e39456c3184698d3acf1.json",
+      "sha256": "ed6dbda9e606fce1f799a04b092837a8252e6c605548e39456c3184698d3acf1",
+      "bytes": 13360,
+      "role": "source-review",
+      "program_version": "tail-mod3-remaining-small-20261014.r7"
+    }
+  ]
+}

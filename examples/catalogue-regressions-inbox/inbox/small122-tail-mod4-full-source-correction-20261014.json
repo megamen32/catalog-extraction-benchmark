@@ -1,0 +1,36 @@
+{
+  "id": "small122-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "small, страница 122: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Malyj-katalog.pdf",
+    "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_page": 122
+  },
+  "review_basis": "[\"Полный оригинал и собственные увеличения сверены; размеры привязаны к конкретным поверхностям и отдельным деталям.\"] Исправления: [\"Исправлены перепутанные функции крупных сигнальных и малых установочных витков; верхняя отдельная спираль не названа установленной на вымышленном проводе.\", \"Размерное L исправлено с l, удалена ложная пустая псевдоколонка; все 72 ячейки неизменны.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/e6e14a90f6c751b8ad71d5ff0a597159311c27030cc531a5471844d87fc19699.json",
+      "sha256": "e6e14a90f6c751b8ad71d5ff0a597159311c27030cc531a5471844d87fc19699",
+      "bytes": 18558,
+      "role": "native-candidate",
+      "program_version": "1.4.15"
+    },
+    {
+      "path": "objects/1c792fca3b2852f419eef34065adf3ab819dce175fe885cf4335a06cb064369d.json",
+      "sha256": "1c792fca3b2852f419eef34065adf3ab819dce175fe885cf4335a06cb064369d",
+      "bytes": 20254,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-remaining-small-20261014.r7"
+    },
+    {
+      "path": "objects/a30b9e4153110c438be5d83b7ea43b2d4c13692a3b59508ff1cc804274e660e3.json",
+      "sha256": "a30b9e4153110c438be5d83b7ea43b2d4c13692a3b59508ff1cc804274e660e3",
+      "bytes": 15611,
+      "role": "source-review",
+      "program_version": "tail-mod3-remaining-small-20261014.r7"
+    }
+  ]
+}

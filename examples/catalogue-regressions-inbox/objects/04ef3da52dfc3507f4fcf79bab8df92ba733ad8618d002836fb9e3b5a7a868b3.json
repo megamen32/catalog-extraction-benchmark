@@ -1,0 +1,160 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "small",
+  "source_filename": "Malyj-katalog.pdf",
+  "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+  "physical_page": 157,
+  "printed_page": "156",
+  "status": "awaiting_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod3",
+    "task": "/root/catalog_tail_mod3",
+    "version": "tail-mod3-remaining-small-20261014.r6",
+    "model_id": "Current native Codex worker session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "small-157-candidate.json",
+    "sha256": "20fca398c9f505bb2efefed7abd9bc01e6a297ee4358deaff6deee6e017e6de1",
+    "canonical_sha256": "ea8bddf36cd00069245ce684d7068ffcef8b348600c7862ede309a4a44a5e1df",
+    "producer": {
+      "program": {
+        "package_version": "1.4.15",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+        "python_version": "3.12.13",
+        "components": {
+          "agent_logic": {
+            "package_version": "1.4.2",
+            "git_revision": null,
+            "dirty": null,
+            "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+            "python_version": "3.12.13"
+          },
+          "catalog_tools": {
+            "package_version": "1.4.8",
+            "git_revision": null,
+            "dirty": null,
+            "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+            "python_version": "3.12.13"
+          },
+          "legacy_skills": {
+            "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+            "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+          },
+          "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+          "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+          "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+          "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+        }
+      },
+      "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+      "physical_page": 157,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf",
+      "artifact_sha256": "20fca398c9f505bb2efefed7abd9bc01e6a297ee4358deaff6deee6e017e6de1",
+      "started_at": 1791887989.708365,
+      "finished_at": 1791888151.057757,
+      "provider_rate_limit_events": 0,
+      "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46",
+      "status": "receipt_verified",
+      "source_bound_save": true,
+      "receipt": ".tmp/full-digitization/staged-best-v1.4.8/small/page-0157/calls/7d2c90e8ee094ba0991f08e7dacf85f8/result.json",
+      "frozen_receipt": "small-157-native-receipt.json",
+      "frozen_receipt_sha256": "df187b9664a41e1eab7dc27539afd4c2f1e1eb64291627a60fca43e3e9575ec4"
+    }
+  },
+  "output": {
+    "file": "small-157-reviewed.json",
+    "sha256": "074857c17b90a44689ccff17302899ec9a8144a60876f38acd0ec88c35336c84",
+    "canonical_sha256": "833c3476c643d278a1ad4d16efd37e8ea5b7d024940063f74b07fa04f441d80f"
+  },
+  "full_original_image_review": true,
+  "original_image": "small-157.png",
+  "original_image_sha256": "570b990bce1fd2ce4ab734f631eed8f80bb01c44eb71865d5990908d72b1e3e1",
+  "own_source_observation": "small-157-own-source-observation.json",
+  "own_source_observation_sha256": "4be78c4b1a4df7bf465edd3bf5eab2cd5d7f4fe616fc089284568256163bd1f4",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "page_content_schema": true
+  },
+  "tables": {
+    "row_counts": [
+      6
+    ],
+    "column_counts": [
+      21
+    ],
+    "cells_checked": 126
+  },
+  "source_findings": [
+    "Полный оригинал, собственные увеличения, все таблицы, тексты и связи размеров проверены до авторского выпуска."
+  ],
+  "corrections": [
+    "H уточнена по внутренним базам сферического сопряжения; d связан с нижней шейкой и стандартным соединением, не с верхним болтом/шайбой.",
+    "Удалены неподтверждённые материалы, болты/винты и скобы, ошибочная сборка из двух половин; общий вид и полуразрез относятся к одному изделию. Все табличные значения и состояния неизменны."
+  ],
+  "complete_leaf_diff": [
+    {
+      "path": ".figures[0].description",
+      "before": "Сбоку изображён стеклянный тарельчатый подвесной изолятор с металлической арматурой (серька с отверстием сверху, стержень и шайба снизу); справа показан разрез тарелки со штриховкой стекла. Размерные линии с двусторонними стрелками: H — вертикальная общая строительная высота (слева, вертикально), D — горизонтальный диаметр тарелки (внизу), d — диаметр стержня под шайбой (справа от шайбы, выносная линия). Осевая пунктирная линия проходит вертикально через весь изолятор. Числовых значений размеров и знаков допусков на чертеже нет.",
+      "after": "Комбинированное изображение одного изолятора: слева наружный вид, справа осевой полуразрез тарелки и центрального соединения, по центру штрихпунктирная ось. H ограничена отмеченной внутренней верхней плоскостью в гнезде шапки и уровнем перехода нижней шейки в головку пестика. Это не полный наружный габарит, не самая высокая точка шапки и не низ головки. D — полный наружный диаметр стеклянной тарелки; d у нижней шейки относится к стандартному сферическому соединению по ГОСТ 27396, отдельно указанному в таблице. Штриховки сохранены как признаки разреза; материал неподписанных деталей по ним не угадывается. Числовые значения и допуски на самом рисунке отсутствуют."
+    },
+    {
+      "path": ".figures[1].description",
+      "before": "Цветная фотография стеклянного тарельчатого изолятора типа ПС, вид сбоку под углом: прозрачная стеклянная тарель с ребристой гофрированной поверхностью, металлическая серька с отверстием в верхней части и металлический стержень со шайбой в нижней части, соединённые шарнирно. Подписей и обозначений на фотографии нет.",
+      "after": "Фотография изолятора под углом: прозрачная стеклянная тарелка с нижними рёбрами и металлические концевые элементы. Размерных подписей нет. Мелкая рельефная маркировка не расшифровывается без уверенного чтения; вымышленная скоба или отдельная шайба не добавлены."
+    },
+    {
+      "path": ".page_context",
+      "before": null,
+      "after": {
+        "kind": "catalogue_product_data",
+        "summary": "Линейные подвесные стеклянные изоляторы типа ПС тарельчатые: назначение для проводов и грозозащитных тросов, условия переменного тока свыше 1000 В до 100 Гц, −60…+50 °С, УХЛ1, стандарты и ТУ. Отдельные фотография и наружный вид с осевым полуразрезом; таблица содержит 126 ячеек с механическими, геометрическими, электрическими параметрами, тремя парами радиопомех и массой. Размерные базы H/D/d проверены по оригиналу.",
+        "source_evidence": [
+          {
+            "kind": "catalogue_product_data",
+            "box": [
+              0.05,
+              0.01,
+              0.95,
+              0.985
+            ],
+            "observation": "Полный исходный лист просмотрен до выбранного текущим каталогом candidate. Собственные крупные кропы подтвердили все 126 ячеек, единицы, ограничения, объединения и пустоты, марки, тексты, бренды, контакты и рисунки. Каждая размерная база сверена отдельно; значения не исправлены по аналогии с соседними листами.",
+            "transcription": "literal"
+          }
+        ]
+      }
+    },
+    {
+      "path": ".source_notes",
+      "before": [
+        "В строке ПС70Е212/112 столбец c6 содержит два значения «127/146», а столбец c1 — две строки «U70BS/ U70BL»; сохранено как в источнике.",
+        "В строке ПС120Б212/112 столбец c1 содержит «–/U120B» с типографским дефисом перед косой чертой; сохранено как в источнике.",
+        "Заголовок столбца c4 напечатан как «Нормированная энергия удара, Дж, (Н · м)»: «Дж» записано в unit, «(Н · м)» — в qualifier.",
+        "Группа «Уровни радиопомех при нормированных напряжениях» визуально объединяет только столбцы c14–c19; столбец «Масса, кг» (c20) расположен вне этой группы."
+      ],
+      "after": [
+        "Все 126 ячеек, заголовки, единицы и условия сверены. Масса приведена без ограничения «не более», ограничение радиопомех «не более» сохранено. H имеет специальные базы сопряжения, D относится к тарелке, d — к стандартному сферическому соединению, не к проводу.",
+        "Записи 127/146 и 110/110 либо 105/105 сохранены в своих ячейках, варианты не разнесены на вымышленные строки. Три нормированных напряжения относятся к трём соседним значениям радиопомех.",
+        "В первой строке последняя пара радиопомех 25 кВ/86 дБ, в остальных 30 кВ/86 дБ. Во всех строках вторая пара 18 кВ/55 дБ. Разные пути утечки 320/415/407/330/415/407 сохранены. Прочерк в –/U120B является частью обозначения МЭК."
+      ]
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independent_review_required": true,
+  "unresolved_issues": [],
+  "acceptance_note": "No self PASS. Corrected author content and engineering dimension ownership require independent source review. Frozen native bytes and actual receipt retained separately.",
+  "completed_at": "2026-10-14T19:34:09.823067+03:00",
+  "private_original_receipt_sha256": "587d8ad3be2725d6f22e3d0eddabb910f6c5de5803ba149e5579ef74b6f81dd0"
+}

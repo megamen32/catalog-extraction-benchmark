@@ -1,0 +1,166 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "small",
+  "source_filename": "Malyj-katalog.pdf",
+  "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+  "physical_page": 116,
+  "printed_page": "115",
+  "status": "awaiting_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod3",
+    "task": "/root/catalog_tail_mod3",
+    "version": "tail-mod3-remaining-small-20261014.r7",
+    "model_id": "Current native Codex worker session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "small-116-candidate.json",
+    "sha256": "559fb25af3b40a61659000fe2cd91eb65247daf2bf54eb92287cbd1c56cb2e2d",
+    "canonical_sha256": "bd772c82b747005680b7c59e07001cfa07376fffb29bbb9c0fa9506e6df44fea",
+    "producer": {
+      "program": {
+        "package_version": "1.4.15",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+        "python_version": "3.12.13",
+        "components": {
+          "agent_logic": {
+            "package_version": "1.4.2",
+            "git_revision": null,
+            "dirty": null,
+            "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+            "python_version": "3.12.13"
+          },
+          "catalog_tools": {
+            "package_version": "1.4.8",
+            "git_revision": null,
+            "dirty": null,
+            "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+            "python_version": "3.12.13"
+          },
+          "legacy_skills": {
+            "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+            "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+          },
+          "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+          "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+          "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+          "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+        }
+      },
+      "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+      "physical_page": 116,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf",
+      "artifact_sha256": "559fb25af3b40a61659000fe2cd91eb65247daf2bf54eb92287cbd1c56cb2e2d",
+      "started_at": 1791871697.7888403,
+      "finished_at": 1791871748.6803644,
+      "provider_rate_limit_events": 0,
+      "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46",
+      "status": "receipt_verified",
+      "source_bound_save": true,
+      "receipt": ".tmp/full-digitization/staged-best-v1.4.8/small/page-0116/calls/18747c9ca8a94d79afd560e866aadd32/result.json",
+      "frozen_receipt": "small-116-native-receipt.json",
+      "frozen_receipt_sha256": "5e353e7c4455dd9d0a293e912c4d5e03b6729402801c4f8b39013f5b249cfeec"
+    }
+  },
+  "output": {
+    "file": "small-116-reviewed.json",
+    "sha256": "bc4f9c6bce0c5a053526b052603e94ecc117f46fe5645c48909e8879f218a220",
+    "canonical_sha256": "7c4384193cc3eb43ab657b70134797364f1962c6f018effe55776e2dabf87968"
+  },
+  "full_original_image_review": true,
+  "original_image": "small-116.png",
+  "original_image_sha256": "7e2be09892b04fa9aaedde264c84a72b653e31c7b5a663f23b4ac08bfaaa92a4",
+  "own_source_observation": "small-116-own-source-observation.json",
+  "own_source_observation_sha256": "7bff2172ecb33fa781d12f088e5663b899a6ddb4aa1dd2de95f0d9bbd0c79ff3",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "page_content_schema": true
+  },
+  "tables": {
+    "row_counts": [
+      18
+    ],
+    "column_counts": [
+      7
+    ],
+    "cells_checked": 126
+  },
+  "source_findings": [
+    "Полный оригинал и собственные увеличения сверены; размеры привязаны к конкретным поверхностям и отдельным деталям."
+  ],
+  "corrections": [
+    "D уточнён как основной наружный корпус без краевых расширений, L — крайние наружные торцы.",
+    "Убраны вымышленные ответвление/четыре отверстия и ложное чтение части разреза; соединён разорванный типономиналов. Все 126 ячеек неизменны."
+  ],
+  "complete_leaf_diff": [
+    {
+      "path": ".figures[1].description",
+      "before": "Продольный разрез соединительного зажима: слева конический наконечник (ввод провода) с обозначением диаметра D, справа винтовая пружина и ответвление с выходным конусом; по оси показаны две точечные отметки (Ø-подобные точки) и зоны зажима с четырьмя круглыми отверстиями на теле (2+2) и прямоугольными окнами в полости. Общие габариты по длине обозначены L.",
+      "after": "Один зажим показан наружным видом слева и частичным продольным разрезом справа. По оси видны провод, пружина и внутренний зажимной узел; неподписанные детали не названы ответвлением и не получили вымышленных отверстий. D — наружный поперечный размер основного корпуса по отмеченным границам, без краевых расширений. L — полная длина между крайними наружными торцами двух концевых расширений. D не является диаметром провода или внутреннего прохода. Частичный разрез и условные обрывы не означают отдельные изделия."
+    },
+    {
+      "path": ".page_context",
+      "before": null,
+      "after": {
+        "kind": "catalogue_product_data",
+        "summary": "Автоматические соединительные зажимы АСЦ для проводов А/АС в пролёте, включая новые типы проводов: назначение, разные температуры монтажа и эксплуатации, ТУ 2020, шесть преимуществ и буквальный список аналогов. Фото пяти изделий и чертёж с наружным видом/частичным продольным разрезом. Все 126 ячеек таблицы 18×7 проверены, включая объединения групп 3/3/3/9 проводных строк; D — основной наружный корпус, L — длина между крайними торцами.",
+        "source_evidence": [
+          {
+            "kind": "catalogue_product_data",
+            "box": [
+              0.05,
+              0.01,
+              0.95,
+              0.985
+            ],
+            "observation": "Полный оригинал просмотрен до candidate. Собственные крупные кропы подтверждают все 126 ячеек, единицы и условия, объединения/прочерки/пустоты, марки, тексты, бренды, контакты и индивидуальные размерные базы.",
+            "transcription": "literal"
+          }
+        ]
+      }
+    },
+    {
+      "path": ".source_notes",
+      "before": [
+        "В исходнике в строке АСЦ-65 указана марка провода «АС 125/6,9» (по всем zoom-областям так в источнике).",
+        "В исходнике в строке АСЦ-70 указана марка провода «АС 70/72» (по всем zoom-областям так в источнике).",
+        "Шапка таблицы: текст «Размеры, мм» физически расположен в двух колонках и в текстовом слое распадается на «Разм»/«еры, мм»; в источнике это единый объединённый заголовок над колонками D и L.",
+        "На странице присутствует текстовый слой поверх фотографии зажимов, из-за чего прямой парсер подмешивает слова «арматура», «НЕ СОЗДАЕТ ПОТЕРЬ ОТ ПЕРЕМАГНИЧИВАНИЯ», «конструкция защищена ©патентом» в основной текст; фактически это выносные знаки справа от фотографии.",
+        "Латиница в обозначениях типов аналогов (CIL, MHT) подтверждена по codepoints текстового слоя (U+0043/0049/004C, U+004D/0048/0054).",
+        "Подпись под логотипом ФОРЭНЕРГО в источнике читается как «производственное объединение» (view_region 0.6–1.0 × 0.01–0.07)."
+      ],
+      "after": [
+        "В исходнике в строке АСЦ-65 указана марка провода «АС 125/6,9» (по всем zoom-областям так в источнике).",
+        "В исходнике в строке АСЦ-70 указана марка провода «АС 70/72» (по всем zoom-областям так в источнике).",
+        "Шапка таблицы: текст «Размеры, мм» физически расположен в двух колонках и в текстовом слое распадается на «Разм»/«еры, мм»; в источнике это единый объединённый заголовок над колонками D и L.",
+        "На странице присутствует текстовый слой поверх фотографии зажимов, из-за чего прямой парсер подмешивает слова «арматура», «НЕ СОЗДАЕТ ПОТЕРЬ ОТ ПЕРЕМАГНИЧИВАНИЯ», «конструкция защищена ©патентом» в основной текст; фактически это выносные знаки справа от фотографии.",
+        "Латиница в обозначениях типов аналогов (CIL, MHT) подтверждена по codepoints текстового слоя (U+0043/0049/004C, U+004D/0048/0054).",
+        "Подпись под логотипом ФОРЭНЕРГО в источнике читается как «производственное объединение» (view_region 0.6–1.0 × 0.01–0.07).",
+        "Все 126 values/state сохранены. D25/33,5/44 и L345/410/555 относятся к корпусу, диапазоны фактических проводов хранятся отдельно. CIL/MHT в списке аналогов сохранены латиницей."
+      ]
+    },
+    {
+      "path": ".text_blocks[7].text",
+      "before": "• Монтаж без применения инструмента, а также возможность соединения двух-трех типо номиналов проводов близких сечений, что особенно важно при проведении аварийно-восстановительных работ.",
+      "after": "• Монтаж без применения инструмента, а также возможность соединения двух-трех типономиналов проводов близких сечений, что особенно важно при проведении аварийно-восстановительных работ."
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independent_review_required": true,
+  "unresolved_issues": [],
+  "acceptance_note": "No self PASS. Corrected author content and engineering dimension ownership require independent source review. Frozen native bytes and actual receipt retained separately.",
+  "completed_at": "2026-10-14T19:39:33.915819+03:00",
+  "private_original_receipt_sha256": "cf7b30b4366504c530aff27d62d4fdad6cf0bbf5d01aae7d48af01391c48133c"
+}

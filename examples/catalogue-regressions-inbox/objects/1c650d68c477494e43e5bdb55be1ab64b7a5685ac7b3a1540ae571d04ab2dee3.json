@@ -1,0 +1,165 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "isolators",
+  "source_filename": "Katalog-IZOLJaTORY.pdf",
+  "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+  "physical_page": 119,
+  "printed_page": "118",
+  "status": "author_source_review_complete_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod1",
+    "task": "/root/catalog_tail_mod1",
+    "version": "tail-mod1-20261014.r1",
+    "model_id": "Current native Codex session;exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "isolators-119-actual-native-candidate.json",
+    "sha256": "08c256d3fb6ee815e63c27d8f3b6bd553c8af1380f93df9b5baecc0820842548",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.4.2",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "08c256d3fb6ee815e63c27d8f3b6bd553c8af1380f93df9b5baecc0820842548",
+      "source_bound_save": true,
+      "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+      "physical_page": 119,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "aa97a446c59b5a207fd1ab84542de68a56c8d05e595fabde973e24da9ccc405d",
+      "receipt": "calls/879b5c0697674694b82ed627a99217d9/result.json",
+      "started_at": 1791824311.275966,
+      "finished_at": 1791824430.5922844
+    },
+    "receipt_file": "isolators-119-producer-receipt.json",
+    "receipt_sha256": "049934e4eb8be6a8edea442c8454113a76174fb71f38defa6b8989e56abfa7ed",
+    "receipt_artifact_equals_candidate": true,
+    "saved_runtime_candidate": "isolators-119-candidate.json",
+    "saved_runtime_candidate_sha256": "9aecb8ac544c62c58ce6859b3530da0320eef569184238d64896395635604a40",
+    "runtime_schema_normalization": "Exact PageContent schema normalization of raw producer artifact equals saved current runtime candidate; raw bytes retained separately when nullable defaults were inserted."
+  },
+  "output": {
+    "file": "isolators-119-reviewed.json",
+    "sha256": "b4808d01d88e86ce367e04e28c0e6de06a4a56fbbf16d42cf82066654805a30c",
+    "author": "catalog_tail_mod1"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "2c788641850ed6109c1cfd6c65804e720ab6c15b6c9f004dbe0252dd73737e0d",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "pagecontent_schema_valid": true
+  },
+  "tables": {
+    "row_counts": [
+      4,
+      22
+    ],
+    "column_counts": [
+      13,
+      6
+    ],
+    "cells_checked": 184
+  },
+  "source_findings": [
+    "Полный оригинал до current candidate. Все184ячейки4×13+22×6 сверены иvalues неизменны: силы12,5/12,5/16,0/16,0, H400/440,общие1,0/346/1160/200/165/120/42/20/III/6,2. Вкаждом11строчномприсоединительномблоке4А+7Б, всеØ140/Ø127/4М12/4М16/4Ø18/4Ø13 иверх-низ совпали, включаяБ05верх4М12/низ4Ø13.",
+    "Исправлены выдуманныеА-А/Б-Бразрезы→торцевыеА/Б, H/Lповерхности,D1/D2pitch, неткрестовойштриховкиотверстий. NoteH440на8строк исправлена на7. КВобщейшапки явнораспространено."
+  ],
+  "corrections": [
+    {
+      "path": "tables[0].columns[6].unit",
+      "before": null,
+      "after": "кВ"
+    },
+    {
+      "path": "tables[0].columns[7].unit",
+      "before": null,
+      "after": "кВ"
+    },
+    {
+      "path": "tables[0].columns[8].unit",
+      "before": null,
+      "after": "кВ"
+    },
+    {
+      "path": "figures[0].title",
+      "before": "Изолятор опорный стержневой полимерный ОСК: главный вид и поперечные сечения А–А и Б–Б",
+      "after": "Главный вид ОСК и торцевые виды А/Б"
+    },
+    {
+      "path": "figures[0].description",
+      "before": "Слева — продольный главный вид стержневого полимерного изолятора с верхним и нижним фланцами (прямоугольные плиты с отверстиями), осевой штрихпунктирной линией и ребрами (козырьками) на стержне. Слева от вида вертикальные размерные линии: Н±2 — полная строительная высота (от наружной поверхности верхнего фланца до наружной поверхности нижнего фланца), L — изоляционная высота между фланцами. Справа от верхней части штрихпунктирного контура горизонтальный размер Ø140 со стрелками. Сверху обозначение направления разреза А (стрелка вниз), снизу — Б (стрелка вверх). Справа сверху — поперечное сечение А: четыре отверстия на окружности (крестовые штриховки в отверстиях), выносные линии: d1 — «4 отв.» (диаметр отверстий, линия к отверстию) и D1 (линия к штрихпунктирной окружности отверстий). Справа снизу — поперечное сечение Б: аналогично, d2 — «4 отв.» и D2. Поперечные оси отверстий показаны штрихпунктирными диагональными линиями.",
+      "after": "Главный вид слева с концевыми фланцами, оребрённой оболочкой и условным разрывом. Н±2 — между наружными торцевыми поверхностями верхнего и нижнего фланцев; L — между отмеченными границами изоляционной оболочки у оконцевателей, не между самими наружными фланцами. Ø140 — наружный диаметр большого ребра. Верхняя стрелка А и нижняя Б задают торцевые виды справа, не поперечные сечения А-А/Б-Б. Штриховки разреза нет. D1/D2 — диаметры штрихпунктирных окружностей центров отверстий, d1/d2 — сами четыре отверстия или резьбы, заданные в соответствующих колонках верхнего/нижнего фланца. Концентрические линии резьбовых отверстий не являются крестовой штриховкой. Неподписанные функции центральных контуров не выводятся."
+    },
+    {
+      "path": "source_notes[3]",
+      "before": "Обозначение «Н» в заголовке «Строительная высота Н» подтверждено кодпоинтами как кириллица (U+041D); для глифа «L» в заголовке «Изоляционная высота L» и на чертеже слой слов не отдал кодпоинты, поэтому латинская/кириллическая идентичность по источнику не устанавливается.",
+      "after": "Кириллическая Н верхней шапки подтверждена текстовым слоем; размерная L — стандартная буквенная подпись своей высоты. Кодпоинты контурных Н/H чертежа по внешнему виду не определяются."
+    },
+    {
+      "path": "source_notes[6]",
+      "before": "Во второй таблице высота Н также объединена по группам строк (400 для четырёх строк, 440 для восьми).",
+      "after": "В присоединительной таблице две группы по11строк: H400 на четырёх исполненияхА/А01/А02/А03, H440 на семиБ/Б01…Б06. Никакая дополнительная восьмая строкаБ не добавлена."
+    },
+    {
+      "path": "page_context",
+      "before": null,
+      "after": {
+        "kind": "catalogue_product_data",
+        "summary": "ОСК 12,5-35 и ОСК 16-35 на 35 кВ: условия эксплуатации и нормативы, главный вид/торцевые А и Б, четыре строки характеристик и 22 присоединительных исполнения. Общие L 346 / утечка 1160 / 1,0 кН·м/200/165/120/42/20/III/масса 6,2 кг; высота 400 у А / 440 у Б. Окружности центров D1/D2 и отверстия d1/d2 связаны с собственными верхними/нижними фланцами.",
+        "source_evidence": [
+          {
+            "kind": "catalogue_product_data",
+            "box": [
+              0.075,
+              0.015,
+              0.925,
+              0.345
+            ],
+            "observation": "Рубрика/логотипы, типы35кВ, назначение100Гц/−60…+50°C/УХЛ1/ГОСТ15150/ТУ2015/ГОСТР52082."
+          },
+          {
+            "kind": "catalogue_product_data",
+            "box": [
+              0.45,
+              0.065,
+              0.85,
+              0.38
+            ],
+            "observation": "ГлавныйH±2/L/Ø140ребра, торцевые А/Б безразрезов,D1/D2pitch/d1/d2×4."
+          },
+          {
+            "kind": "catalogue_product_data",
+            "box": [
+              0.075,
+              0.385,
+              0.925,
+              0.945
+            ],
+            "observation": "Полные4×13+22×6ячеек; две группы4строкиА/H400+7строкБ/H440, все размеры/резьбы/проходныеотверстия и массы."
+          }
+        ]
+      }
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "independent_review_required": true,
+  "independent_review_status": "pending",
+  "separate_model_review_of_root_edits": null,
+  "unresolved_issues": [
+    "Нужна независимая проверка авторского разбора и инженерных отношений."
+  ],
+  "completed_at": "2026-10-14T19:32:16.999207+03:00",
+  "private_original_receipt_sha256": "ccba7afa07d684be27518e1af9efdbbddfa558f6118a3843633c39e35e77c8c9"
+}

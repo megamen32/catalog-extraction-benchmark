@@ -1,0 +1,167 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "small",
+  "source_filename": "Malyj-katalog.pdf",
+  "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+  "physical_page": 160,
+  "printed_page": "159",
+  "status": "awaiting_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod3",
+    "task": "/root/catalog_tail_mod3",
+    "version": "tail-mod3-remaining-small-20261014.r5",
+    "model_id": "Current native Codex worker session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "small-160-candidate.json",
+    "sha256": "a02533e1a8baeb692d8618315cfb2da5389f0e3ac556239d0add2f2208e27574",
+    "canonical_sha256": "bd49406cddf1f6d93c5bfa638fc701d3a7a001fa3a3fce2ad422ccec54fa6894",
+    "producer": {
+      "program": {
+        "package_version": "1.4.15",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+        "python_version": "3.12.13",
+        "components": {
+          "agent_logic": {
+            "package_version": "1.4.2",
+            "git_revision": null,
+            "dirty": null,
+            "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+            "python_version": "3.12.13"
+          },
+          "catalog_tools": {
+            "package_version": "1.4.8",
+            "git_revision": null,
+            "dirty": null,
+            "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+            "python_version": "3.12.13"
+          },
+          "legacy_skills": {
+            "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+            "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+          },
+          "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+          "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+          "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+          "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+        }
+      },
+      "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+      "physical_page": 160,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf",
+      "artifact_sha256": "a02533e1a8baeb692d8618315cfb2da5389f0e3ac556239d0add2f2208e27574",
+      "started_at": 1791888265.964082,
+      "finished_at": 1791888321.218053,
+      "provider_rate_limit_events": 0,
+      "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46",
+      "status": "receipt_verified",
+      "source_bound_save": true,
+      "receipt": ".tmp/full-digitization/staged-best-v1.4.8/small/page-0160/calls/d38fb1884e77491c945f9922be72a566/result.json",
+      "frozen_receipt": "small-160-native-receipt.json",
+      "frozen_receipt_sha256": "58e63ae828fc8b2c8b9973d5a98d437638dfd6b4945d68dac3b650386f7b7b12"
+    }
+  },
+  "output": {
+    "file": "small-160-reviewed.json",
+    "sha256": "f170d3aaaa6cc3c34c690b09802384144c747623565010fe8d5b1194942127b1",
+    "canonical_sha256": "1508a7ea6500ffc9a85b3b3d8225ce3ef4bf8277fa1c68cf7cc366af2cb8f1c1"
+  },
+  "full_original_image_review": true,
+  "original_image": "small-160.png",
+  "original_image_sha256": "89c50be41aeb3b4e19f95f5a738270c4b170a9c4d330eee996499e39bc96d459",
+  "own_source_observation": "small-160-own-source-observation.json",
+  "own_source_observation_sha256": "ef1cb356f921ccc00d9777e7feab91c03cbfcb9816292a5f6a17d19cbe0fa33b",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "page_content_schema": true
+  },
+  "tables": {
+    "row_counts": [
+      1
+    ],
+    "column_counts": [
+      20
+    ],
+    "cells_checked": 20
+  },
+  "source_findings": [
+    "Полный источник и собственные крупные кропы текста/таблиц/рисунков сверены. Табличные значения и состояния сохранены; инженерные отношения проверены индивидуально."
+  ],
+  "corrections": [
+    "Исправлены размерные базы H/D/d и ложные цанговые зажимы/скобы/сварка/материалы неподписанных деталей.",
+    "Печатное «отвердения» сохранено; ложные примечания о пустых строках и неопределённых нормированных напряжениях убраны.",
+    "Все табличные values/state неизменны."
+  ],
+  "complete_leaf_diff": [
+    {
+      "path": ".figures[0].description",
+      "before": "Тарельчатый стеклянный изолятор с аэродинамическим профилем изоляционной детали: слева половина вида сбоку (внешний контур тарелки и цементно-металлической арматуры), справа половина разреза со штриховкой — стеклянная тарелка, цементное тело, металлическая арматура (штырь со шайбой и колпачком, скоба с ушком и шарниром). Через центр проведена вертикальная осевая линия (штрих-пунктир). Размерные линии с двусторонними стрелками: H — вертикальный размер от нижней поверхности цементного тела до верхней точки арматуры; D — горизонтальный размер, максимальный диаметр тарелки; d — горизонтальный размер диаметра штыря/цоколя, заданный стрелками у оси. Числовых значений размеров и знаков прецизионных отклонений на чертеже не напечатано.",
+      "after": "Комбинированное изображение: слева наружный вид стеклянной тарелки с верхней шапкой и нижним пестиком, справа осевой полуразрез с различными штриховками составных деталей. H — между отмеченной верхней базой внутри сферического гнезда шапки и отмеченным уровнем перехода нижней шейки в головку пестика. Верхняя база не совпадает с самой высокой наружной точкой шапки, нижняя не совпадает с низом головки. D — полный наружный диаметр стеклянной тарелки. Выноска d расположена у нижней шейки и относится к стандартному сферическому соединению по ГОСТ27396, отдельно указанному в таблице. Материал каждой заштрихованной детали без подписей не угадывается. Отдельных числовых значений или допусков на самом чертеже нет."
+    },
+    {
+      "path": ".figures[1].description",
+      "before": "Фотография стеклянного тарельчатого изолятора с аэродинамическим профилем тарелки и цементно-металлической арматурой, показанного под углом, с металлическим штырём с опорной шайбой сверху и скобой с ушком на тарелке. Маркировка на изоляции не читается. Подписи к фотографии на странице нет.",
+      "after": "Отдельная фотография изолятора U 120BA212/112 под углом: видны стеклянная тарелка с нижними рёбрами и металлические концевые элементы. Размерные подписи отсутствуют. Мелкая рельефная маркировка не расшифровывается без уверенного чтения; отдельный проводной зажим на фотографии не назван."
+    },
+    {
+      "path": ".page_context",
+      "before": null,
+      "after": {
+        "kind": "catalogue_product_data",
+        "summary": "Стеклянные линейные подвесные изоляторы U 120BA212/112 АО «ЮМЭК»: назначение, условия эксплуатации и стандарты, фотография и комбинированный наружный вид/полуразрез с H/D/d, таблица технических характеристик. Все 20 ячеек сверены по оригиналу; масса в кг без условия «не более», радиопомехи в дБ с условием «не более». H имеет специальные базы сферического соединения; d обозначает стандартное соединение по ГОСТ27396.",
+        "source_evidence": [
+          {
+            "kind": "catalogue_product_data",
+            "box": [
+              0.05,
+              0.01,
+              0.95,
+              0.985
+            ],
+            "observation": "Полный исходный лист просмотрен до candidate. Собственные крупные кропы подтверждают все 20 ячеек, единицы, условия, объединения, параметры/марки, размерные базы, текст, бренды, контакты и печатный номер. Необычные числа и обозначения сохранены без нормализации по ожиданию.",
+            "transcription": "literal"
+          }
+        ]
+      }
+    },
+    {
+      "path": ".source_notes[0]",
+      "before": "Обозначение изолятора в таблице набрано латиницей: «U 120BA212/112» (codepoints B=U+0042, A=U+0041, подтверждены по текстовому слою), не кириллицей ВА.",
+      "after": "Все 20 значения и состояния таблицы сверены. H127/146 сохранена как единая печатная запись без разбиения на варианты; d16 относится к стандартному сферическому соединению."
+    },
+    {
+      "path": ".source_notes[1]",
+      "before": "Логотип в верхнем колонтитуле: «ФОРЭНЕРГО» с подписью «производственное объединение» и «FORENERGO®» с подписью «manufacturing association».",
+      "after": "D измеряет тарелку, H ограничена отмеченными базами сопряжения, d не является диаметром провода. Конкретный материал неподписанных деталей по штриховке не добавлен."
+    },
+    {
+      "path": ".source_notes[2]",
+      "before": "Заголовки колонок «Уровень радиопомех» набраны в исходнике слитно с единицей и предельным условием: «Уровень радиопомех, дБ, не более».",
+      "after": "Радиопомехи составляют три пары:10 кВ/34дБ,20 кВ/55дБ,30 кВ/86дБ. Нормированные напряжения явно указаны в строках таблицы."
+    },
+    {
+      "path": ".source_notes[3]",
+      "before": "Чертёж выполнен без числовых значений размеров и без знаков прецизионных отклонений — в источнике приведены только обозначения H, D, d.",
+      "after": "Единственная марка напечатана латиницей «U 120BA212/112»; не заменена на кириллическое ВА."
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independent_review_required": true,
+  "unresolved_issues": [],
+  "acceptance_note": "No self PASS. Corrected author content and engineering dimension ownership require independent source review. Frozen native bytes and actual receipt retained separately.",
+  "completed_at": "2026-10-14T19:22:58.419609+03:00",
+  "private_original_receipt_sha256": "c97ad824857dcb1287af63cca160e54c741dcc6610605c265e0c78b441c5691d"
+}

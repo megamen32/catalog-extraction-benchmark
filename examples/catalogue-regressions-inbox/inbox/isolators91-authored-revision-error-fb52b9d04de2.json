@@ -1,0 +1,36 @@
+{
+  "id": "isolators91-authored-revision-error-fb52b9d04de2",
+  "status": "pending_adjudication",
+  "category": "independent-review-catches-authored-error",
+  "title": "isolators,страница91:независимая проверка исправила ошибку автора",
+  "source": {
+    "filename": "Katalog-IZOLJaTORY.pdf",
+    "sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+    "physical_page": 91
+  },
+  "review_basis": "[{\"checks\": [\"figures_and_relationships\", \"all_text_and_meaning\"], \"description\": \"Знак перед верхним1.3на Ø17 неразборчив: оригинал содержит вертикальную черту без горизонтальной части. Удалить недоказанное утверждение + и сохранить честную uncertainty;числа/таблицы не менять.\", \"source_bbox\": [0.64, 0.065, 0.79, 0.13], \"evidence_image\": \".tmp/root-tail-review-20261014/independent-reviews/isolators-91-root-upper-tolerance.png\"}] Фактический автор {\"harness\": \"codex\", \"session_id\": \"catalog_tail_mod1\", \"task\": \"/root/catalog_tail_mod1\", \"version\": \"tail-mod1-20261014.r1\", \"model_id\": \"Current native Codex session;exact provider identifier not exported.\"}. Сохранены точные ошибочные авторские байты и новая source-corrected версия; это НЕ результат MiniMax/GLM и не автоматическое золото.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/fb52b9d04de2968cdb29d09e7512eaf312f1264c75910928dbd8458746cbc690.json",
+      "sha256": "fb52b9d04de2968cdb29d09e7512eaf312f1264c75910928dbd8458746cbc690",
+      "bytes": 40734,
+      "role": "actual-authored-failure",
+      "program_version": "tail-mod1-20261014.r1"
+    },
+    {
+      "path": "objects/33da34431cb4f6bd143276964a26a2b49302a8c8541d73f3e8ad582a98019ff6.json",
+      "sha256": "33da34431cb4f6bd143276964a26a2b49302a8c8541d73f3e8ad582a98019ff6",
+      "bytes": 41770,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod1-20261014.r2"
+    },
+    {
+      "path": "objects/f0e15c0be47769429a88a08a272fbbbf055fa48ef33fe994296b5b1027a2fd5b.json",
+      "sha256": "f0e15c0be47769429a88a08a272fbbbf055fa48ef33fe994296b5b1027a2fd5b",
+      "bytes": 7506,
+      "role": "independent-source-review",
+      "program_version": "native-codex-independent-review-20261014"
+    }
+  ]
+}

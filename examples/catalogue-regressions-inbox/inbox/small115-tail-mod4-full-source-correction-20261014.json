@@ -1,0 +1,36 @@
+{
+  "id": "small115-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "small, страница 115: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Malyj-katalog.pdf",
+    "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_page": 115
+  },
+  "review_basis": "[\"Полный оригинал и собственные увеличения сверены; размеры привязаны к конкретным поверхностям и отдельным деталям.\"] Исправления: [\"Восстановлена потерянная объединённая L250 у СОАС-25-3: blank→value250; прямое доказательство в собственном 5×кропе таблицы.\", \"b₁/b₂ уточнены как внутренние просветы; сечения двух проводов не названы двумя отверстиями. Ложное примечание о пустой L убрано.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/1ee6096c4e9d836df9ba775e4e399c25d6de0bf59ef365e7ecc95b8128b41659.json",
+      "sha256": "1ee6096c4e9d836df9ba775e4e399c25d6de0bf59ef365e7ecc95b8128b41659",
+      "bytes": 21321,
+      "role": "native-candidate",
+      "program_version": "1.4.15"
+    },
+    {
+      "path": "objects/9ab46efa0c2ee8930ecbb9b587cc014fb6da37387e10ec4f42be6ff519b91a71.json",
+      "sha256": "9ab46efa0c2ee8930ecbb9b587cc014fb6da37387e10ec4f42be6ff519b91a71",
+      "bytes": 23131,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-remaining-small-20261014.r7"
+    },
+    {
+      "path": "objects/d9b1504f4471edc41a5954dd2c78ddb313d21a971501c0c84d1caac13a617956.json",
+      "sha256": "d9b1504f4471edc41a5954dd2c78ddb313d21a971501c0c84d1caac13a617956",
+      "bytes": 12381,
+      "role": "source-review",
+      "program_version": "tail-mod3-remaining-small-20261014.r7"
+    }
+  ]
+}

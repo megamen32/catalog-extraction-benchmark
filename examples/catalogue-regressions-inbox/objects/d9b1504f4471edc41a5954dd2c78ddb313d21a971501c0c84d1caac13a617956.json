@@ -1,0 +1,165 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "small",
+  "source_filename": "Malyj-katalog.pdf",
+  "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+  "physical_page": 115,
+  "printed_page": "114",
+  "status": "awaiting_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod3",
+    "task": "/root/catalog_tail_mod3",
+    "version": "tail-mod3-remaining-small-20261014.r7",
+    "model_id": "Current native Codex worker session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "small-115-candidate.json",
+    "sha256": "1ee6096c4e9d836df9ba775e4e399c25d6de0bf59ef365e7ecc95b8128b41659",
+    "canonical_sha256": "b3d22597cf48b6a96abe591e98d9bb88c794357233d3b672deaa658a19a1e473",
+    "producer": {
+      "program": {
+        "package_version": "1.4.15",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+        "python_version": "3.12.13",
+        "components": {
+          "agent_logic": {
+            "package_version": "1.4.2",
+            "git_revision": null,
+            "dirty": null,
+            "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+            "python_version": "3.12.13"
+          },
+          "catalog_tools": {
+            "package_version": "1.4.8",
+            "git_revision": null,
+            "dirty": null,
+            "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+            "python_version": "3.12.13"
+          },
+          "legacy_skills": {
+            "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+            "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+          },
+          "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+          "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+          "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+          "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+        }
+      },
+      "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+      "physical_page": 115,
+      "attempt": 0,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf",
+      "artifact_sha256": "1ee6096c4e9d836df9ba775e4e399c25d6de0bf59ef365e7ecc95b8128b41659",
+      "started_at": 1791854108.4087358,
+      "finished_at": 1791854174.0322533,
+      "provider_rate_limit_events": 0,
+      "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46",
+      "status": "receipt_verified",
+      "source_bound_save": true,
+      "receipt": ".tmp/full-digitization/staged-best-v1.4.8/small/page-0115/calls/7c3952889b69421dbd1f2e3715a1a2c1/result.json",
+      "frozen_receipt": "small-115-native-receipt.json",
+      "frozen_receipt_sha256": "a6ddc1f03c0a4aea7e04e8afb37acec1069b3dc2db9b20547cacb27e6b4e5f32"
+    }
+  },
+  "output": {
+    "file": "small-115-reviewed.json",
+    "sha256": "9ab46efa0c2ee8930ecbb9b587cc014fb6da37387e10ec4f42be6ff519b91a71",
+    "canonical_sha256": "8d9eabaf468e96ff16f6498db36cab0fcbb336f83b650954cc64c0a961e9eb7c"
+  },
+  "full_original_image_review": true,
+  "original_image": "small-115.png",
+  "original_image_sha256": "28c5769320e9e44e5992c9e14bc5ddce2f60507cecb6cec877c57d7c33b60c8f",
+  "own_source_observation": "small-115-own-source-observation.json",
+  "own_source_observation_sha256": "9e12e4ccb03f01e2f088b1a6f547ad9796efbabbe9fe598c80542838d5116142",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "page_content_schema": true
+  },
+  "tables": {
+    "row_counts": [
+      9
+    ],
+    "column_counts": [
+      12
+    ],
+    "cells_checked": 108
+  },
+  "source_findings": [
+    "Полный оригинал и собственные увеличения сверены; размеры привязаны к конкретным поверхностям и отдельным деталям."
+  ],
+  "corrections": [
+    "Восстановлена потерянная объединённая L250 у СОАС-25-3: blank→value250; прямое доказательство в собственном 5×кропе таблицы.",
+    "b₁/b₂ уточнены как внутренние просветы; сечения двух проводов не названы двумя отверстиями. Ложное примечание о пустой L убрано."
+  ],
+  "complete_leaf_diff": [
+    {
+      "path": ".figures[1].description",
+      "before": "Чертёж из двух видов. Главный вид — продольный разрез зажима (овальный корпус с завальцованными концами), показан в разрезе: в продольных полуразрезах справа и слева условно показаны два алюминиевых провода (штриховые линии, обозначены участками из 'xxxx'). Поперечное сечение (справа, вид А–А) — овальной формы с двумя круглыми отверстиями, показанными штриховкой сетки. Размерные обозначения: L — длина зажима (горизонтальная размерная линия под главным видом, между наружными торцами зажима); b₂ — вертикальный размер в сечении А–А (высота овала); b₁ — горизонтальный размер в сечении А–А (ширина овала). Обозначения сечения: две пары разрывов линии с подписями 'А' (вверху и внизу главного вида) и заголовок 'А–А' над поперечным сечением. Других размеров, отклонений, допусков, сварных швов и нумерации поз и отверстий на чертеже нет.",
+      "after": "Одна овальная соединительная муфта с двумя проводами: главный продольный вид с местным разрезом стенки слева и отдельное поперечное сечение А–А справа. L — полная продольная длина между крайними наружными торцами расширенных концов муфты. В сечении b₁ — малый горизонтальный внутренний просвет между внутренними стенками муфты, b₂ — большой вертикальный внутренний просвет; оба не являются наружными габаритами овала. Два заштрихованных круглых участка — сечения проводов внутри единого овального прохода, не два самостоятельных просверленных отверстия. А со стрелками задаёт секущую плоскость, А–А является названием сечения. Материал внутренних деталей по штриховке не определён."
+    },
+    {
+      "path": ".page_context",
+      "before": null,
+      "after": {
+        "kind": "catalogue_product_data",
+        "summary": "Овальные соединительные зажимы СОАС для монтажа скручиванием: назначение, диапазоны алюминиевых и сталеалюминиевых проводов с исключением усиленного сердечника, ТУ 2010. Фото четырёх муфт и размерный рисунок с сечением А–А. Таблица 9×12 содержит 108 ячеек размеров, проводных назначений, пяти колонок минимальной прочности заделки и максимальной массы. Объединённое L250 восстановлено для обеих строк СОАС-16-3/25-3; b₁/b₂ обозначают внутренние просветы.",
+        "source_evidence": [
+          {
+            "kind": "catalogue_product_data",
+            "box": [
+              0.05,
+              0.01,
+              0.95,
+              0.985
+            ],
+            "observation": "Полный оригинал просмотрен до candidate. Собственные крупные кропы подтверждают все 108 ячеек, единицы и условия, объединения/прочерки/пустоты, марки, тексты, бренды, контакты и индивидуальные размерные базы.",
+            "transcription": "literal"
+          }
+        ]
+      }
+    },
+    {
+      "path": ".source_notes",
+      "before": [
+        "Наименования в первой колонке набраны шрифтом, визуально близким к кириллическому «С», использовано написание «СОАС» (в тексте заголовка — «типа СОАС»).",
+        "Столбец «Масса, кг, не более» в источнике набран вертикально, текст «не более» относится к массе, а не к прочности заделки.",
+        "Ячейка L в строке СОАС-25-3 в источнике пуста (визуально подтверждено увеличением)."
+      ],
+      "after": [
+        "Наименования в первой колонке набраны шрифтом, визуально близким к кириллическому «С», использовано написание «СОАС» (в тексте заголовка — «типа СОАС»).",
+        "Столбец «Масса, кг, не более» в источнике набран вертикально, текст «не более» относится к массе, а не к прочности заделки.",
+        "Исходная ячейка L250 объединена вертикально для СОАС-16-3 и СОАС-25-3: горизонтальный разделитель между строками в колонке L отсутствует. Прежняя blank в СОАС-25-3 исправлена на value250. Остальные 107 значений/состояний неизменны.",
+        "b₁/b₂ — внутренние размеры единого овального прохода. Все прочерки, включая различия пяти колонок прочности, сохранены; 70/39 и 61,75 относятся к АЖС в строке СОАС-95-3."
+      ]
+    },
+    {
+      "path": ".tables[0].rows[2].cells[3].state",
+      "before": "blank",
+      "after": "value"
+    },
+    {
+      "path": ".tables[0].rows[2].cells[3].value",
+      "before": null,
+      "after": "250"
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independent_review_required": true,
+  "unresolved_issues": [],
+  "acceptance_note": "No self PASS. Corrected author content and engineering dimension ownership require independent source review. Frozen native bytes and actual receipt retained separately.",
+  "completed_at": "2026-10-14T19:39:34.005941+03:00",
+  "private_original_receipt_sha256": "2201e6003411e0815f05eab7c559e78096ac74eaf6337c3ccaffb460b812ccec"
+}
