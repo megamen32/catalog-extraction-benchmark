@@ -1,0 +1,25 @@
+{
+  "id": "innov4-encoded-observation-json-loop",
+  "status": "pending_adjudication",
+  "category": "native_file_tool_delivery",
+  "priority": "high",
+  "title": "GLM repeats more than20 malformed JSON strings inside source-observation tool arguments",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 4
+  },
+  "review_basis": "Full fresh158 native review4 history audited. More than20 escaped JSON strings are incomplete, even after progressively shorter test payloads; source observation never freshly saved. Original page visually inspected. This is tool-delivery failure, not an adjudicated fact score.",
+  "failure_oracle": "Native file tools should accept data objects without requiring the model to serialize another JSON document inside a string. Preserve legacy compatibility, complete schema/source/blind/PASS guards, and refuse both payloads or malformed strings rather than auto-repairing them.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/cd7e1ca9c8409f415d7a3d669a4ff5a82bcb5bd58e5ccb54255ea35b4bd574ab.json",
+      "sha256": "cd7e1ca9c8409f415d7a3d669a4ff5a82bcb5bd58e5ccb54255ea35b4bd574ab",
+      "bytes": 68890,
+      "role": "unsaved_native_tool_arguments_and_diagnostics",
+      "program_version": "1.5.8",
+      "model": "zai.glm-5.3-flash?reasoning=low"
+    }
+  ]
+}
