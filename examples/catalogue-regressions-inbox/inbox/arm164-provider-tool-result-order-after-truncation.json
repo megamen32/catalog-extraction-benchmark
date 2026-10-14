@@ -1,0 +1,24 @@
+{
+  "id": "arm164-provider-tool-result-order-after-truncation",
+  "status": "pending_adjudication",
+  "category": "provider_transport_failure",
+  "title": "MiniMax rejects tool-result order after maxTokens boundary",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 164
+  },
+  "review_basis": "Completed failed production attempt; retained native history has matched visible tool ids, ends maxTokens then continuation/endTurn. Provider returned400 invalid tool call result ordering. This is an unsuccessful attempt, not source accuracy evidence.",
+  "failure_oracle": "Fail closed and preserve original attempt; diagnose actual provider wire shape before any SDK history change. No repeated accepted effects or false success.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/149872335292d5bba8fa785a34d891666823397c70c8b6cb73a0c147b65765fd.json",
+      "sha256": "149872335292d5bba8fa785a34d891666823397c70c8b6cb73a0c147b65765fd",
+      "bytes": 916,
+      "role": "sanitized_native_failure_diagnostic",
+      "program_version": "1.5.13",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium"
+    }
+  ]
+}

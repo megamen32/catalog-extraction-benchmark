@@ -1,0 +1,197 @@
+{
+  "program_version": "1.5.13",
+  "source_physical_page": 136,
+  "selected_file_tool_calls": [
+    {
+      "arguments": {
+        "name": "catalog__save_source_observation",
+        "arguments": {
+          "data": {
+            "figures": [
+              {
+                "description": "Чертёж скобы, вид сбоку: продолговатое звено с глазком внизу; размеры 105 (полная длина), Ø14 (диаметр стержня звена), Ø38 (наружный диаметр глазка)",
+                "index": 0,
+                "labels": [
+                  {
+                    "index": 0,
+                    "text": "105"
+                  },
+                  {
+                    "index": 1,
+                    "text": "Ø14"
+                  },
+                  {
+                    "index": 2,
+                    "text": "Ø38"
+                  }
+                ]
+              },
+              {
+                "description": "Чертёж скобы, фронтальный вид: проушина на пальце с гайкой и шплинтом; размеры 70 (высота внутренней полости проушины), Ø16 (диаметр пальца), 17 (ширина между щеками), 66 (полная ширина)",
+                "index": 1,
+                "labels": [
+                  {
+                    "index": 0,
+                    "text": "70"
+                  },
+                  {
+                    "index": 1,
+                    "text": "Ø16"
+                  },
+                  {
+                    "index": 2,
+                    "text": "17"
+                  },
+                  {
+                    "index": 3,
+                    "text": "66"
+                  }
+                ]
+              }
+            ],
+            "page_context": {
+              "kind": "catalogue_product_data",
+              "source_evidence": [
+                {
+                  "box": [
+                    0.03,
+                    0.06,
+                    0.45,
+                    0.19
+                  ],
+                  "kind": "catalogue_product_data",
+                  "observation": "Заголовок «СКОБА ТИПА СК-70-1Б», раздел «НАЗНАЧЕНИЕ:» — для образования шарнирного цепного соединения повышенной подвижности; изготавливается по TY 3449-001-52819896-2010; логотипы МЗВА/ФОРЭНЕРГО",
+                  "transcription": "contextual_summary"
+                },
+                {
+                  "box": [
+                    0.03,
+                    0.88,
+                    0.97,
+                    0.95
+                  ],
+                  "kind": "catalogue_product_data",
+                  "observation": "Таблица параметров изделия: СК-70-1Б, разрушающая нагрузка 70 кН (не менее), масса 0,42 кг (не более)",
+                  "transcription": "contextual_summary"
+                }
+              ],
+              "summary": "Страница каталога МЗВА: скоба типа СК-70-1Б (арматура нового поколения) для шарнирного цепного соединения повышенной подвижности, изготавливается по ТУ 3449-001-52819896-2010; два вида с размерами и таблица параметров."
+            },
+            "text_blocks": [
+              {
+                "block_index": 0,
+                "heading": true,
+                "text": "СКОБА ТИПА СК-70-1Б",
+                "transcription": "verbatim"
+              },
+              {
+                "block_index": 1,
+                "text": "НАЗНАЧЕНИЕ: Предназначена для образования шарнирного цепного соединения повышенной подвижности. Изготавливается по ТУ 3449-001-52819896-2010.",
+                "transcription": "verbatim"
+              },
+              {
+                "block_index": 2,
+                "text": "АРМАТУРА НОВОГО ПОКОЛЕНИЯ",
+                "transcription": "verbatim"
+              }
+            ],
+            "title": "СКОБА ТИПА СК-70-1Б"
+          },
+          "page": 136
+        }
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"saved\": false,\n  \"validation_errors\": [\n    {\n      \"type\": \"value_error\",\n      \"loc\": [\n        \"page_context\",\n        \"source_evidence\",\n        0\n      ],\n      \"msg\": \"Value error, Only software demonstration regions may use a contextual summary\",\n      \"ctx\": {\n        \"error\": \"Only software demonstration regions may use a contextual summary\"\n      }\n    },\n    {\n      \"type\": \"value_error\",\n      \"loc\": [\n        \"page_context\",\n        \"source_evidence\",\n        1\n      ],\n      \"msg\": \"Value error, Only software demonstration regions may use a contextual summary\",\n      \"ctx\": {\n        \"error\": \"Only software demonstration regions may use a contextual summary\"\n      }\n    },\n    {\n      \"type\": \"missing\",\n      \"loc\": [\n        \"text_blocks\",\n        0,\n        \"kind\"\n      ],\n      \"msg\": \"Field required\"\n    },\n    {\n      \"type\": \"extra_forbidden\",\n      \"loc\": [\n        \"text_blocks\",\n        0,\n        \"block_index\"\n      ],\n      \"msg\": \"Extra inputs are not permitted\"\n    },\n    {\n      \"type\": \"extra_forbidden\",\n      \"loc\": [\n        \"text_blocks\",\n        0,\n        \"heading\"\n      ],\n      \"msg\": \"Extra inputs are not permitted\"\n    },\n    {\n      \"type\": \"extra_forbidden\",\n      \"loc\": [\n        \"text_blocks\",\n        0,\n        \"transcription\"\n      ],\n      \"msg\": \"Extra inputs are not permitted\"\n    },\n    {\n      \"type\": \"missing\",\n      \"loc\": [\n        \"text_blocks\",\n        1,\n        \"kind\"\n      ],\n      \"msg\": \"Field required\"\n    },\n    {\n      \"type\": \"extra_forbidden\",\n      \"loc\": [\n        \"text_blocks\",\n        1,\n        \"block_index\"\n      ],\n      \"msg\": \"Extra inputs are not permitted\"\n    },\n    {\n      \"type\": \"extra_forbidden\",\n      \"loc\": [\n        \"text_blocks\",\n        1,\n        \"transcription\"\n      ],\n      \"msg\": \"Extra inputs are not permitted\"\n    },\n    {\n      \"type\": \"missing\",\n      \"loc\": [\n        \"text_blocks\",\n        2,\n        \"kind\"\n      ],\n      \"msg\": \"Field required\"\n    },\n    {\n      \"type\": \"extra_forbidden\",\n      \"loc\": [\n        \"text_blocks\",\n        2,\n        \"block_index\"\n      ],\n      \"msg\": \"Extra inputs are not permitted\"\n    },\n    {\n      \"type\": \"extra_forbidden\",\n      \"loc\": [\n        \"text_blocks\",\n        2,\n        \"transcription\"\n      ],\n      \"msg\": \"Extra inputs are not permitted\"\n    },\n    {\n      \"type\": \"missing\",\n      \"loc\": [\n        \"tables\"\n      ],\n      \"msg\": \"Field required\"\n    },\n    {\n      \"type\": \"missing\",\n      \"loc\": [\n        \"figures\",\n        0,\n        \"title\"\n      ],\n      \"msg\": \"Field required\"\n    },\n    {\n      \"type\": \"string_type\",\n      \"loc\": [\n        \"figures\",\n        0,\n        \"labels\",\n        0\n      ],\n      \"msg\": \"Input should be a valid string\"\n    },\n    {\n      \"type\": \"string_type\",\n      \"loc\": [\n        \"figures\",\n        0,\n        \"labels\",\n        1\n      ],\n      \"msg\": \"Input should be a valid string\"\n    },\n    {\n      \"type\": \"string_type\",\n      \"loc\": [\n        \"figures\",\n        0,\n        \"labels\",\n        2\n      ],\n      \"msg\": \"Input should be a valid string\"\n    },\n    {\n      \"type\": \"extra_forbidden\",\n      \"loc\": [\n        \"figures\",\n        0,\n        \"index\"\n      ],\n      \"msg\": \"Extra inputs are not permitted\"\n    },\n    {\n      \"type\": \"missing\",\n      \"loc\": [\n        \"figures\",\n        1,\n        \"title\"\n      ],\n      \"msg\": \"Field required\"\n    },\n    {\n      \"type\": \"string_type\",\n      \"loc\": [\n        \"figures\",\n        1,\n        \"labels\",\n        0\n      ],\n      \"msg\": \"Input should be a valid string\"\n    },\n    {\n      \"type\": \"string_type\",\n      \"loc\": [\n        \"figures\",\n        1,\n        \"labels\",\n        1\n      ],\n      \"msg\": \"Input should be a valid string\"\n    },\n    {\n      \"type\": \"string_type\",\n      \"loc\": [\n        \"figures\",\n        1,\n        \"labels\",\n        2\n      ],\n      \"msg\": \"Input should be a valid string\"\n    },\n    {\n      \"type\": \"string_type\",\n      \"loc\": [\n        \"figures\",\n        1,\n        \"labels\",\n        3\n      ],\n      \"msg\": \"Input should be a valid string\"\n    },\n    {\n      \"type\": \"extra_forbidden\",\n      \"loc\": [\n        \"figures\",\n        1,\n        \"index\"\n      ],\n      \"msg\": \"Extra inputs are not permitted\"\n    }\n  ],\n  \"retry_payload\": \"Use data as a JSON object with the required schema. Do not repair/escape JSON inside a string; get_json_schema exposes PageContent or Review.\"\n}"
+          }
+        ]
+      }
+    },
+    {
+      "arguments": {
+        "name": "catalog__record_dimension_reviews",
+        "arguments": {
+          "data": {
+            "records": [
+              {
+                "candidate_feature_quote": "Ø14 — поперечный размер шейки",
+                "figure_index": 0,
+                "label_index": 1,
+                "relation": "diameter",
+                "source_feature": "Диаметр стержня (шейки) звена на виде сбоку",
+                "tip_points": []
+              },
+              {
+                "candidate_feature_quote": "Ø38 — наружный диаметр головки",
+                "figure_index": 0,
+                "label_index": 2,
+                "relation": "diameter",
+                "source_feature": "Наружный диаметр глазка (головки) звена",
+                "tip_points": []
+              },
+              {
+                "candidate_feature_quote": "Ø16 — диаметр сквозного болта",
+                "figure_index": 1,
+                "label_index": 1,
+                "relation": "diameter",
+                "source_feature": "Диаметр пальца (болта) проушины",
+                "tip_points": []
+              },
+              {
+                "candidate_feature_quote": "70 — от верха дуги скобы до оси болта",
+                "figure_index": 1,
+                "label_index": 0,
+                "relation": "linear",
+                "source_feature": "Высота внутренней полости проушины от верха дуги до оси пальца",
+                "tip_points": []
+              },
+              {
+                "candidate_feature_quote": "17 — расстояние между внутренними боковыми гранями вилок скобы",
+                "figure_index": 1,
+                "label_index": 2,
+                "relation": "linear",
+                "source_feature": "Ширина между щеками проушины по внутренней грани",
+                "tip_points": []
+              },
+              {
+                "candidate_feature_quote": "66 — общая ширина узла по наружным граням",
+                "figure_index": 1,
+                "label_index": 3,
+                "relation": "linear",
+                "source_feature": "Общая ширина узла по наружным граням щек",
+                "tip_points": []
+              }
+            ],
+            "shared": {
+              "evidence": "Проверено по zoom: размерная линия 105 от верха до низа звена; Ø14 и Ø38 указаны выносными на тот же вид; на виде спереди 70 — от верха внутренней дуги до оси пальца, Ø16 — на пальце с гайкой, 17 — между щеками, 66 — полная ширина",
+              "source_box": [
+                0.35,
+                0.19,
+                0.95,
+                0.44
+              ],
+              "view": "original view_region page 136",
+              "candidate_feature_quote": "общая габаритная длина 105",
+              "figure_index": 0,
+              "label_index": 0,
+              "relation": "linear",
+              "source_feature": "Полная длина скобы от верха шейки до низа глазка на виде сбоку"
+            }
+          },
+          "page": 136
+        }
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"saved\": false,\n  \"saved_count\": 0,\n  \"failures\": [\n    {\n      \"index\": 0,\n      \"saved\": false,\n      \"validation_errors\": [\n        {\n          \"type\": \"missing\",\n          \"loc\": [\n            \"source_figure_index\"\n          ],\n          \"msg\": \"Field required\"\n        },\n        {\n          \"type\": \"missing\",\n          \"loc\": [\n            \"source_label_index\"\n          ],\n          \"msg\": \"Field required\"\n        },\n        {\n          \"type\": \"missing\",\n          \"loc\": [\n            \"feature_box\"\n          ],\n          \"msg\": \"Field required\"\n        },\n        {\n          \"type\": \"missing\",\n          \"loc\": [\n            \"agrees_with_candidate\"\n          ],\n          \"msg\": \"Field required\"\n        }\n      ],\n      \"retry_payload\": \"Use data as a JSON object with the required schema. Do not repair/escape JSON inside a string; get_json_schema exposes PageContent or Review.\"\n    },\n    {\n      \"index\": 1,\n      \"saved\": false,\n      \"validation_errors\": [\n        {\n          \"type\": \"missing\",\n          \"loc\": [\n            \"source_figure_index\"\n          ],\n          \"msg\": \"Field required\"\n        },\n        {\n          \"type\": \"missing\",\n          \"loc\": [\n            \"source_label_index\"\n          ],\n          \"msg\": \"Field required\"\n        },\n        {\n          \"type\": \"missing\",\n          \"loc\": [\n            \"feature_box\"\n          ],\n          \"msg\": \"Field required\"\n        },\n        {\n          \"type\": \"missing\",\n          \"loc\": [\n            \"agrees_with_candidate\"\n          ],\n          \"msg\": \"Field required\"\n        }\n      ],\n      \"retry_payload\": \"Use data as a JSON object with the required schema. Do not repair/escape JSON inside a string; get_json_schema exposes PageContent or Review.\"\n    },\n    {\n      \"index\": 2,\n      \"saved\": false,\n      \"validation_errors\": [\n        {\n          \"type\": \"missing\",\n          \"loc\": [\n            \"source_figure_index\"\n          ],\n          \"msg\": \"Field required\"\n        },\n        {\n          \"type\": \"missing\",\n          \"loc\": [\n            \"source_label_index\"\n          ],\n          \"msg\": \"Field required\"\n        },\n        {\n          \"type\": \"missing\",\n          \"loc\": [\n            \"feature_box\"\n          ],\n          \"msg\": \"Field required\"\n        },\n        {\n          \"type\": \"missing\",\n          \"loc\": [\n            \"agrees_with_candidate\"\n          ],\n          \"msg\": \"Field required\"\n        }\n      ],\n      \"retry_payload\": \"Use data as a JSON object with the required schema. Do not repair/escape JSON inside a string; get_json_schema exposes PageContent or Review.\"\n    },\n    {\n      \"index\": 3,\n      \"saved\": false,\n      \"validation_errors\": [\n        {\n          \"type\": \"missing\",\n          \"loc\": [\n            \"source_figure_index\"\n          ],\n          \"msg\": \"Field required\"\n        },\n        {\n          \"type\": \"missing\",\n          \"loc\": [\n            \"source_label_index\"\n          ],\n          \"msg\": \"Field required\"\n        },\n        {\n          \"type\": \"missing\",\n          \"loc\": [\n            \"feature_box\"\n          ],\n          \"msg\": \"Field required\"\n        },\n        {\n          \"type\": \"missing\",\n          \"loc\": [\n            \"agrees_with_candidate\"\n          ],\n          \"msg\": \"Field required\"\n        }\n      ],\n      \"retry_payload\": \"Use data as a JSON object with the required schema. Do not repair/escape JSON inside a string; get_json_schema exposes PageContent or Review.\"\n    },\n    {\n      \"index\": 4,\n      \"saved\": false,\n      \"validation_errors\": [\n        {\n          \"type\": \"missing\",\n          \"loc\": [\n            \"source_figure_index\"\n          ],\n          \"msg\": \"Field required\"\n        },\n        {\n          \"type\": \"missing\",\n          \"loc\": [\n            \"source_label_index\"\n          ],\n          \"msg\": \"Field required\"\n        },\n        {\n          \"type\": \"missing\",\n          \"loc\": [\n            \"feature_box\"\n          ],\n          \"msg\": \"Field required\"\n        },\n        {\n          \"type\": \"missing\",\n          \"loc\": [\n            \"agrees_with_candidate\"\n          ],\n          \"msg\": \"Field required\"\n        }\n      ],\n      \"retry_payload\": \"Use data as a JSON object with the required schema. Do not repair/escape JSON inside a string; get_json_schema exposes PageContent or Review.\"\n    },\n    {\n      \"index\": 5,\n      \"saved\": false,\n      \"validation_errors\": [\n        {\n          \"type\": \"missing\",\n          \"loc\": [\n            \"source_figure_index\"\n          ],\n          \"msg\": \"Field required\"\n        },\n        {\n          \"type\": \"missing\",\n          \"loc\": [\n            \"source_label_index\"\n          ],\n          \"msg\": \"Field required\"\n        },\n        {\n          \"type\": \"missing\",\n          \"loc\": [\n            \"feature_box\"\n          ],\n          \"msg\": \"Field required\"\n        },\n        {\n          \"type\": \"missing\",\n          \"loc\": [\n            \"agrees_with_candidate\"\n          ],\n          \"msg\": \"Field required\"\n        }\n      ],\n      \"retry_payload\": \"Use data as a JSON object with the required schema. Do not repair/escape JSON inside a string; get_json_schema exposes PageContent or Review.\"\n    }\n  ],\n  \"instruction\": \"All individual source/candidate, crop, tip, path and correction checks still apply. Partial successes are retained. Every failed record and every missing relation must be resolved before figures PASS.\"\n}"
+          }
+        ]
+      }
+    }
+  ],
+  "scope": "Selected file-tool arguments/refusals, not a raw transcript or reasoning."
+}

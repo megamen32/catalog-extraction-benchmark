@@ -1,0 +1,24 @@
+{
+  "id": "innov136-missing-observation-dimension-contract-discovery",
+  "status": "pending_adjudication",
+  "category": "tool_contract_discovery",
+  "title": "Reviewer guesses observation wrapper and dimension evidence record fields",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 136
+  },
+  "review_basis": "Full new136 native reviewer history inspected; original136 viewed. Existing schema lookup only exposes PageContent/Review, while source-observation has sibling quote arguments and dimension records have a different model. Retained selected first failed file-tool calls have actual schema errors. Review ultimately PASS, but delivery shape caused avoidable retries.",
+  "failure_oracle": "Expose exact observation wrapper and DimensionReview schema/example before writes; keep source blindness, actual crop/tips, independent indices and strict PASS. Example coordinates/placeholders are never source evidence. No claimed model speed/accuracy gain without production evidence.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/0a64b4f4532e1a6787bd330595857f1f9e1f7443e7f5d36fd3e0ec727267e987.json",
+      "sha256": "0a64b4f4532e1a6787bd330595857f1f9e1f7443e7f5d36fd3e0ec727267e987",
+      "bytes": 19490,
+      "role": "selected_file_tool_arguments_and_refusals",
+      "program_version": "1.5.13",
+      "model": "zai.glm-5.3-flash?reasoning=low"
+    }
+  ]
+}

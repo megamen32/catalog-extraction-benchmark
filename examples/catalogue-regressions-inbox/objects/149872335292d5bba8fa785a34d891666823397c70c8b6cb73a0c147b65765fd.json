@@ -1,0 +1,16 @@
+{
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 164,
+  "program_version": "1.5.13",
+  "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+  "history_sha256": "a662128eef12966c564bc4f9f59d85185edeebdbb2cf8183b7d043c34698a6ce",
+  "message_count": 36,
+  "preceding_stops": [
+    "toolUse",
+    "maxTokens",
+    "endTurn"
+  ],
+  "all_visible_tool_ids_matched": true,
+  "provider_error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'invalid params, tool call result does not follow tool call (2013)'}, 'request_id': '071e439fe7ef92439a6caa95bc97a1f1'}",
+  "interpretation": "One failed attempt, no accepted artifact; visible native history has matched tool ids. Provider wire/SDK truncation root cause not established. Do not replay accepted actions or invent a transcript repair."
+}

@@ -1,0 +1,24 @@
+{
+  "id": "arm178-dimension-five-not-hole-count",
+  "status": "pending_adjudication",
+  "category": "dimension_role_invention",
+  "title": "Dimension5 is promoted into a count of five holes",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 178
+  },
+  "review_basis": "Root inspected full original and4x original crop at both conductor/sleeve interfaces.5 is attached to dimension/extension lines; candidate2 text_blocks[6] invents a hole count. Earlier crimp-direction word is now correct. Source crop stays private.",
+  "failure_oracle": "Preserve the printed5 and its source-bound geometric role. Do not infer a count of holes from a linear dimension or introduce an unsupported feature. Other dimensions/rows still need independent verification.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/ba7afb1d474a348ce7b71669e82334220cb1d530ad46b676cfb323514f9beacc.json",
+      "sha256": "ba7afb1d474a348ce7b71669e82334220cb1d530ad46b676cfb323514f9beacc",
+      "bytes": 46005,
+      "role": "extractor",
+      "program_version": "1.5.13",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium"
+    }
+  ]
+}
