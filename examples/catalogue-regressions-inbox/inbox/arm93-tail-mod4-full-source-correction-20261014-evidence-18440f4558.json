@@ -1,0 +1,36 @@
+{
+  "id": "arm93-tail-mod4-full-source-correction-20261014-evidence-18440f4558",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 93: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 93
+  },
+  "review_basis": "[\"Повторный просмотр оригинала подтвердил правку рамки шапки доx.93; упоминание нижнего колонтитула из верхней области удалено. Все исходные текстовые факты неизменны.\", \"Сверка исходного текста, таблиц и остальных размерных связей выполнена ранее по полному оригиналу и сохранена в неизменной предыдущей source-review; текущая версия отражает указанную точную ревизию.\"] Исправления: [{\"path\": \"page_context.source_evidence[0].box[2]\", \"before\": 0.6, \"after\": 0.93}, {\"path\": \"page_context.source_evidence[0].observation\", \"before\": \"Заголовочная строка «ЛИНЕЙНАЯ АРМАТУРА ДЛЯ ВЛ / АРМАТУРА НАТЯЖНАЯ» задаёт раздел каталога по линейной арматуре воздушных линий; рядом логотипы ФОРЭНЕРГО/FORENERGO, внизу колонтитул с реквизитами ООО «МЗВА-ЧЭМЗ».\", \"after\": \"Верхняя рубрика «ЛИНЕЙНАЯ АРМАТУРА ДЛЯ ВЛ / АРМАТУРА НАТЯЖНАЯ» и расположенные справа логотипы ФОРЭНЕРГО/FORENERGO.\"}] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/52a9d6cc415c9d6618a8014967890588c8d8552f7df0096e938a53bcbeb830ac.json",
+      "sha256": "52a9d6cc415c9d6618a8014967890588c8d8552f7df0096e938a53bcbeb830ac",
+      "bytes": 8122,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/a47e775184ec62245e942a9c4cd011482574babb49c2e397cd1062463ec9a6d0.json",
+      "sha256": "a47e775184ec62245e942a9c4cd011482574babb49c2e397cd1062463ec9a6d0",
+      "bytes": 7946,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod1-20261014.provenance-r3"
+    },
+    {
+      "path": "objects/18440f455848bede35b3fa7bb6b42429f5c69bdcbf23e6c483d2cee3d30047a8.json",
+      "sha256": "18440f455848bede35b3fa7bb6b42429f5c69bdcbf23e6c483d2cee3d30047a8",
+      "bytes": 6605,
+      "role": "source-review",
+      "program_version": "tail-mod1-20261014.provenance-r3"
+    }
+  ]
+}
