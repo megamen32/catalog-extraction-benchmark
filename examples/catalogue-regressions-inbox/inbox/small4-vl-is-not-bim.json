@@ -1,0 +1,26 @@
+{
+  "id": "small4-vl-is-not-bim",
+  "status": "pending_adjudication",
+  "priority": "high",
+  "category": "catalogue_meaning",
+  "title": "Do not replace an overhead-line model with an invented BIM concept",
+  "source": {
+    "filename": "Malyj-katalog.pdf",
+    "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_page": 4
+  },
+  "review_basis": "Root inspected the original and a4x source clip of caption (normalized0.06,0.495,0.97,0.54). Independent visual reviewer initially missed this and corrected after inspecting the same original clip. Native GLM review is still blind/in progress; no leads injected.",
+  "source_quote": "Также из модели ВЛ можно извлечь и другие отчеты.",
+  "artifacts": [
+    {
+      "path": "objects/ddf68fba8617791615afa2d672ab7239fcc4c1154f8a3ee0122d7dab6b60927a.json",
+      "sha256": "ddf68fba8617791615afa2d672ab7239fcc4c1154f8a3ee0122d7dab6b60927a",
+      "bytes": 8204,
+      "role": "extractor",
+      "program_version": "1.5.2",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium"
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "Preserve the technical meaning ВЛ/overhead line. A faithful paraphrase is permitted, but replacing this with ВИМ/BIM in title, summary or figure descriptions adds an unsupported concept. Correctly classifying software_demo does not certify all actual assertions."
+}
