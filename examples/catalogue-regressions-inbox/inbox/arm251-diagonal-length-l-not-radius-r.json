@@ -1,0 +1,24 @@
+{
+  "id": "arm251-diagonal-length-l-not-radius-r",
+  "status": "pending_adjudication",
+  "category": "invented_drawing_semantics",
+  "title": "Diagonal length L invented as r",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 251
+  },
+  "review_basis": "Root inspected original physical251/printed250, third drawing3РС-5-400. The diagonal dimension between upper-left and lower head axes is L rotated along the dimension line, not r. Candidate adds r to labels and describes that span as r. Preserve independent upper horizontal L, real Ø48/d/65/30 and view A. Reinspect extension endpoints; do not call the diagonal a radius.",
+  "failure_oracle": "На третьем чертеже 3РС-5-400 проверьте повёрнутое обозначение диагонального межосевого размера: источник показывает L, а candidate1 называет его r. Сверьте букву и обе базы по изображению. Верхний горизонтальный L — отдельный размер. Не подменяйте расстояние между головками радиусом; реальные Ø48/d/65/30 и вид А сохраняйте. Подсказка требует самостоятельной сверки, не готовый PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/c849cb94bece53d6066fd9d4d23cccada804c77ff94f962435b747ebcca34898.json",
+      "sha256": "c849cb94bece53d6066fd9d4d23cccada804c77ff94f962435b747ebcca34898",
+      "bytes": 9350,
+      "role": "extractor",
+      "program_version": "1.5.15",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium"
+    }
+  ]
+}

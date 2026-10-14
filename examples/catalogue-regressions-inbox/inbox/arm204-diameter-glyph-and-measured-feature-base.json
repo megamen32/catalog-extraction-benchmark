@@ -1,0 +1,40 @@
+{
+  "id": "arm204-diameter-glyph-and-measured-feature-base",
+  "status": "pending_adjudication",
+  "category": "diameter_alias_loss_and_real_feature_error",
+  "title": "Diameter glyph produces false issue and is dropped; real70feature-base error remains",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 204
+  },
+  "review_basis": "Root inspected original204 (printed203), callout diameter14/fourholes, lower plan70extension lines. Source/candidate ⌀/∅ glyph variants carry diameter meaning; figure_key previously stripped∅ entirely and could also equate∅14with14. Native review treated same glyph as a defect. Separately candidate says upper70base at bolt-row axis; original shows it at upper edge of narrow central part, below upper round bolt heads. Header group=null warning explicitly says grouping is correct.",
+  "failure_oracle": "Normalize ∅ to existing diameter token only in same existing numeric-dimension context; never drop diameter or accept changed numeral/hole count. Preserve raw source/candidate bytes. Correct true70feature ownership independently by tips/extensions/contour; alias-only replay is not drawingPASS. Keep explanatory label comments in description and literal labels separately, without changing true numbers.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/efa447e402cbdf98ee97229805976d1b0307d337faa47b8285589bce0ce4099c.json",
+      "sha256": "efa447e402cbdf98ee97229805976d1b0307d337faa47b8285589bce0ce4099c",
+      "bytes": 13038,
+      "role": "extractor",
+      "program_version": "1.5.13",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium"
+    },
+    {
+      "path": "objects/0b85f4e361e663039677a650ccc28762ff103cb9dd8d0b6447107787e069e42c.json",
+      "sha256": "0b85f4e361e663039677a650ccc28762ff103cb9dd8d0b6447107787e069e42c",
+      "bytes": 10245,
+      "role": "reviewer",
+      "program_version": "1.5.15",
+      "model": "zai.glm-5.3-flash?reasoning=low"
+    },
+    {
+      "path": "objects/dbfa78dbf2cb289f72b205e150b1dc6337a7ac654bb36c55b46fbf0c75ddd86e.json",
+      "sha256": "dbfa78dbf2cb289f72b205e150b1dc6337a7ac654bb36c55b46fbf0c75ddd86e",
+      "bytes": 10065,
+      "role": "independent_source_observation",
+      "program_version": "1.5.15",
+      "model": "zai.glm-5.3-flash?reasoning=low"
+    }
+  ]
+}

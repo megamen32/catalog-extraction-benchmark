@@ -1,0 +1,24 @@
+{
+  "id": "arm164-invented-hinged-pencil-and-length-ownership",
+  "status": "pending_adjudication",
+  "category": "invented_drawing_semantics",
+  "title": "Unsupported hinged-pencil description and length ownership",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 164
+  },
+  "review_basis": "Root inspected original physical164/printed163. Right view A depicts the pin/clamp termination section, not a hinged pencil. Candidate description invents that object. Candidate also describes L4 as crimped portion length: original L1 is at upper crimp region while L4 spans the long pin/termination segment. Need independently map exact endpoints instead of certifying every current label; D numeric diameter convention must not be changed solely because its literal glyph is absent. Existing table27rows preserved, no whole-table accuracy claim.",
+  "failure_oracle": "В description candidate1 есть «в шарнирном карандаше»: оригинал не показывает и не называет такой предмет. Опишите реальный узел штыря/зажима на виде А по источнику без выдуманного механизма. Отдельно проверьте обе базы L1 и L4: сейчас L4 назван длиной опрессованного участка, но область L1 у опрессованного конца и длинный участок L4 различны. Связи определите по выносным линиям, не по догадке. Не меняйте D только из-за отсутствия отдельного знака диаметра; сохраните таблицу и все истинные числа. Это повод независимой проверки, не PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/125065c42c5e7eff9421877e0734dfc722ec78cc73b42b266205ad20691929b4.json",
+      "sha256": "125065c42c5e7eff9421877e0734dfc722ec78cc73b42b266205ad20691929b4",
+      "bytes": 50546,
+      "role": "extractor",
+      "program_version": "1.5.15",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium"
+    }
+  ]
+}
