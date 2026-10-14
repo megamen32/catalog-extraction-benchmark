@@ -1,0 +1,23 @@
+{
+  "native_status": "failed_timeout_unaccepted",
+  "role": "reviewer",
+  "runtime_program_version": "1.5.17",
+  "runtime_contract_sha256": "5f66dfaacd6c43b74ca531095c704b2a738db593b26901fc493f46c9409796e6",
+  "program_binding": "Native tool events match sealed1517 contract; timeout receipt has no completed execution envelope. Not a verified final review artifact.",
+  "model": "zai.glm-5.3-flash?reasoning=low",
+  "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+  "physical_page": 47,
+  "candidate_sha256": "49921aff03f7871f5f1a65bcb337b9e9bed9ffd70cb72e9e0cc7751ae779ec06",
+  "candidate_program_version": "1.5.13",
+  "messages": 62,
+  "view_region_calls": 11,
+  "save_review_calls": 2,
+  "missing_dimension_relations_count_from_native_tool_output": 70,
+  "gate_error": "A blanket figures PASS cannot certify dimension ownership",
+  "observation_context": "mixed: factory throughput and certificate/title-sheet scans",
+  "review_context_evidence_says_no_engineering_drawings": true,
+  "supporting_annotations_verified_was_not_set": true,
+  "native_bash_processes_timed_out_and_were_stopped_by_agent": 2,
+  "root_original_check": "Only factory description, eight attestation scans and two title sheets; no engineering dimension drawings or product-parameter grid. Correct semantics first, preserve genuine facts and strict dimension gate for real drawings.",
+  "raw_transcript_published": false
+}

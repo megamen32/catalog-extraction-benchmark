@@ -1,0 +1,41 @@
+{
+  "id": "arm178-fasteners-fixed-merged-s-cells-corrupted",
+  "status": "pending_adjudication",
+  "category": "merged_cells_misread_as_blank_or_other_span",
+  "title": "Fastener repair preserved but three S cells damaged after unreliable grid inspection",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 178
+  },
+  "review_basis": "Root inspected original physical178/printed177 and enlarged S merge:12 spans first three conductor rows;14 covers the330/30 and330/43 rows. Candidate3→4 changes exactly three table cells:12→blank and14→16 twice. Four hex fasteners now correctly described. Direct grid replay on exact native crop produces19x16 vs18x14 with unknown cells and empty outer columns, so its mismatched output cannot certify values.",
+  "failure_oracle": "Root сверил полный оригинал178 и отдельное увеличение S. Candidate4 правильно заменил выдуманные шестигранные отверстия крепежом, но изменил три настоящих значения таблицы: у ШСИП-220-(22,1-23)-7-L, провод240/56, S стало blank/null вместо общей объединённой12; у ШСИП-220-(24,6-25,5)-7-L, провода330/30 и330/43, S стало16 вместо14. Проследите именно внешние границы объединённых ячеек S по изображению: отсутствие повторной цифры не пустая ячейка. Native read_source_table для этой рамки дал19x16 вместо18x14, лишние пустые колонки иunknown_cells — такая сетка ненадёжна, нельзя переносить из неё raw nulls/сдвинутые колонки. Сохраните правильное описание крепежа/направления опрессования и остальные верные данные; самостоятельно исправьте по источнику без выдуманных значений. Это не итоговый PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/357926226d32763d9f805794f4ae0b4896892a42825cb51b35a848e805042e6a.json",
+      "sha256": "357926226d32763d9f805794f4ae0b4896892a42825cb51b35a848e805042e6a",
+      "bytes": 47261,
+      "role": "extractor",
+      "program_version": "1.5.15",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium"
+    },
+    {
+      "path": "objects/9c7934602f5c68b00c55107ac26fcb029c75290c6dfc94601f95c56b0df31db3.json",
+      "sha256": "9c7934602f5c68b00c55107ac26fcb029c75290c6dfc94601f95c56b0df31db3",
+      "bytes": 48426,
+      "role": "extractor",
+      "program_version": "1.5.17",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium"
+    },
+    {
+      "path": "objects/5c657012b04cc7a71fb184d055b73b8f8584a2595c8f8f084c808c64a22451b4.json",
+      "sha256": "5c657012b04cc7a71fb184d055b73b8f8584a2595c8f8f084c808c64a22451b4",
+      "bytes": 38727,
+      "role": "diagnostic_direct_grid",
+      "program_version": "1.5.17",
+      "model": null,
+      "source_authority": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "isolators47-factory-mixed-context-seventy-false-dimensions",
+  "status": "pending_adjudication",
+  "category": "supporting_factory_misclassified_mixed",
+  "title": "Factory context misclassification causes70 spurious dimension targets and timeout",
+  "source": {
+    "filename": "Katalog-IZOLJaTORY.pdf",
+    "sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+    "physical_page": 47
+  },
+  "review_basis": "Root re-inspected full original physical47/printed46. Factory5million/year and10percent share are manufacturer facts;8attestations and2project title sheets are supporting material. Native29review correctly says no engineering drawings but keeps mixed and omits existing supporting_annotations_verified;70 date/address/document targets requested, review never completed before1200s deadline. The diagnostic is explicitly failed/unaccepted, not a native completed receipt.",
+  "failure_oracle": "На whole-page47 снова подтверждены только сведения о заводе ЮМЭК,8растровых аттестаций и2титула типовых проектов; инженерных чертежей или товарной таблицы здесь нет. Candidate29/mixed и source mixed были обоснованы5млн/год и10%производства завода, но это вводная справка о производителе, а не второй инженерный вид материала. Нужно исправить семантическую классификацию по оригиналу, сохранив все существенные заводские факты и документы. В существующем контракте подтверждающие документы используют supporting_material; supporting_annotations_verified допустим только после независимой сверки обоих инвентарей и отсутствия настоящих инженерных фигур. Не собирайте70размерных свидетельств для дат, адресов и номеров документов; не ставьте флаг ради обхода проверки. Если текущий кандидат содержит реальную ошибку назначения/марки/ТУ, сохраните конкретный revise с проваленным соответствующим check, а не blanket figures PASS. Неразборчивые вспомогательные реквизиты описывайте честно в source_notes; читаемые истинные марки/номера/годы не заменяйте. Никакого принудительного PASS и никаких автоматических исправлений значений.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/49921aff03f7871f5f1a65bcb337b9e9bed9ffd70cb72e9e0cc7751ae779ec06.json",
+      "sha256": "49921aff03f7871f5f1a65bcb337b9e9bed9ffd70cb72e9e0cc7751ae779ec06",
+      "bytes": 41676,
+      "role": "extractor",
+      "program_version": "1.5.13",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium"
+    },
+    {
+      "path": "objects/042fa2ea273b6fe3a95f8dc24a1d117cccd99feab363f3924720b532b3073b33.json",
+      "sha256": "042fa2ea273b6fe3a95f8dc24a1d117cccd99feab363f3924720b532b3073b33",
+      "bytes": 1436,
+      "role": "diagnostic_failed_native_attempt",
+      "program_version": "1.5.17",
+      "model": "zai.glm-5.3-flash?reasoning=low",
+      "accepted_review": false
+    }
+  ]
+}
