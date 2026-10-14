@@ -1,0 +1,36 @@
+{
+  "id": "small78-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "small, страница 78: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Malyj-katalog.pdf",
+    "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_page": 78
+  },
+  "review_basis": "[\"Полный источник и собственные6× оба чертежа/обе таблицы просмотрены до candidate; все312ячеек24×6+21×8 верны, values/state неизменны.\", \"D/L/S цангового зажима и D/L гильзы относятся к собственным наружным размерам; Sподключ,нецилиндрическийдиаметр. Средняя перегородка дана в тексте, но не нарисована; фото не в разрезе.\", \"СохраненыТ-25/трубка20кВ,95*/19проволок,двойные наименованияССИП120,матрицыЕ140/173/215/МШ22,5 и все прочерки/массы/объединения.\", \"Восстановлена печатная77, исходныйТУ2020/2017/95%,контактыМЗВА-ЧЭМЗ/industrial group/патент/немагнитнаяарматура подтверждены.\"] Исправления: [\"Исправлены владельцы S/D/L и выдуманные разрезы фото/перегородка на рисунке.\", \"Восстановлена printed_page77, области evidence расширены до полного оригинала, исправлена геометрия объединений в source_notes; исключены ложная опечатка нормального текста и внутренний AnyDoc-error.\", \"D/L гильзы получили явную единицу мм из общей шапки; значения/state не менялись.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/a8aefc81056a6f61dc836fa8e9c3a8fc074d800dd273c71e531e334cd5944395.json",
+      "sha256": "a8aefc81056a6f61dc836fa8e9c3a8fc074d800dd273c71e531e334cd5944395",
+      "bytes": 58804,
+      "role": "native-candidate",
+      "program_version": "1.5.23"
+    },
+    {
+      "path": "objects/1cf948d52d62c458cf998eb3521c90d6f609be2a00aab55b051be07d98519b61.json",
+      "sha256": "1cf948d52d62c458cf998eb3521c90d6f609be2a00aab55b051be07d98519b61",
+      "bytes": 55841,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-additional-residues02-20261014.r1"
+    },
+    {
+      "path": "objects/ad890669ad9ea6c069ae95299c8184e054bcb01ae4f9f1e890cdab66dd553681.json",
+      "sha256": "ad890669ad9ea6c069ae95299c8184e054bcb01ae4f9f1e890cdab66dd553681",
+      "bytes": 28442,
+      "role": "source-review",
+      "program_version": "tail-mod3-additional-residues02-20261014.r1"
+    }
+  ]
+}

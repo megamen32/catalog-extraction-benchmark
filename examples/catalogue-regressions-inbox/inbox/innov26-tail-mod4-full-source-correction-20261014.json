@@ -1,0 +1,36 @@
+{
+  "id": "innov26-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 26: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 26
+  },
+  "review_basis": "Все168ячеек8×21построчносверены с новымнативным23кандидатом,не старым1.4.20. Реальные445/470/468и545/560/555/570,парырадиопомехиусловиемассынеболее сохранены. Назначение1000В/100Гц/−60…+50/УХЛ1/ТУ2009/ГОСТ6490-2017/МЭК60383 и печатная26правильны. В таблице не найдено дефекта физического смысла;значениянеисправлялисьподожидаемые. Исправления: [\"По собственному7×оригиналу исправлены обе базыH:внутренняяверхняяплоскость гнезда→переходшейкивголовкупестика. Убраны выдуманные цельнолитаяподножка/материалы неподписанныхобластей.\", \"Восстановлен настоящий printed_page26и буквальный футер26.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/c4ba83c7ec4685443b330afc9cc598c268f1af2e9e23570bbc2d26bd5a2e0024.json",
+      "sha256": "c4ba83c7ec4685443b330afc9cc598c268f1af2e9e23570bbc2d26bd5a2e0024",
+      "bytes": 35587,
+      "role": "native-candidate",
+      "program_version": "1.5.23"
+    },
+    {
+      "path": "objects/8818dd31b23a1a6fb248ddc922024ecc8a9c2beac070fa8a8ba2d6b5c70406ee.json",
+      "sha256": "8818dd31b23a1a6fb248ddc922024ecc8a9c2beac070fa8a8ba2d6b5c70406ee",
+      "bytes": 36462,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/88a65773d9511cff7ee686c48bc86cf542034e113783432e1ce3b5e70a983d82.json",
+      "sha256": "88a65773d9511cff7ee686c48bc86cf542034e113783432e1ce3b5e70a983d82",
+      "bytes": 3529,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

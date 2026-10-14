@@ -1,0 +1,71 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 182,
+  "printed_page": "182",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "8b3714176fb3d0427e95a7595ada4d8a2995096a099bfa27d4912661ff77294a",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.23",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "9149f67edeac9814da5291cad899361e9512ccff01cd4d049e4d5f1a28fa8fdd",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "8b3714176fb3d0427e95a7595ada4d8a2995096a099bfa27d4912661ff77294a",
+      "source_bound_save": true,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 182,
+      "attempt": 2,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "867b3f790ecc8921609cf97aa738eda3b36ee55598d694455416842fad03be98",
+      "receipt": "calls/064dd2935e3c438d9a51df2fd0628bf2/result.json",
+      "started_at": 1791989537.9505925,
+      "finished_at": 1791989829.7150738
+    }
+  },
+  "output": {
+    "file": "innovations-182-reviewed.json",
+    "sha256": "16b50b0d94bbea39e73cb0d102c665f4c4533afcc7cae20f534247bea8f977ad"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "4f5296e5b83dcac7b3017d16a3b4b8c21a9e4a817e9b57761c8ab7a7354cd435",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      28
+    ],
+    "column_counts": [
+      9
+    ],
+    "cells_checked": 252
+  },
+  "source_findings": "Все252ячейки28×9сверены:14паркорпус/втулка,всеприменимыемаркиАС/матрицы/массыповторены,тиреL1втулокреальны;330-1Бс300/39и300/48реальнаямарка,205/27в1Бреально. Заголовокпреимуществбуквально«натяжных»,хотястраницасоединительных—сохранён.",
+  "corrections": [
+    "ИсправленонаправлениеопрессованияотцентракконцамидействительныебазыL1;восстановленыммв4колонках/печатный182/МЗВА-ЧЭМЗ."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T19:09:35.143132+03:00",
+  "private_original_receipt_sha256": "0496ea807f5dffb46f2ba3b92c211e9169497486c28934e604128ba0fd825212"
+}

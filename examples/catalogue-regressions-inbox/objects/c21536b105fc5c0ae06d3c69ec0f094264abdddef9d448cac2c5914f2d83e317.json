@@ -1,0 +1,138 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "isolators",
+  "source_filename": "Katalog-IZOLJaTORY.pdf",
+  "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+  "physical_page": 61,
+  "printed_page": "60",
+  "status": "author_source_review_complete_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod1",
+    "task": "/root/catalog_tail_mod1",
+    "version": "tail-mod1-20261014.r1",
+    "model_id": "Current native Codex session;exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "isolators-61-actual-native-candidate.json",
+    "sha256": "ccd865eb27a54ae23fea97d7696a3789bfebaf819275ea8c9386bdd4c47d3635",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.4.2",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "ccd865eb27a54ae23fea97d7696a3789bfebaf819275ea8c9386bdd4c47d3635",
+      "source_bound_save": true,
+      "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+      "physical_page": 61,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "aa97a446c59b5a207fd1ab84542de68a56c8d05e595fabde973e24da9ccc405d",
+      "receipt": "calls/296372a18748456f84b8d60367d1ddd3/result.json",
+      "started_at": 1791820566.2266662,
+      "finished_at": 1791820626.0214636
+    },
+    "receipt_file": "isolators-61-producer-receipt.json",
+    "receipt_sha256": "6418137190524e292d1dc6381818d697d89abafab678f0881c0575437c916fc6",
+    "receipt_artifact_equals_candidate": true,
+    "saved_runtime_candidate": "isolators-61-candidate.json",
+    "saved_runtime_candidate_sha256": "87c8e1d6c685a78446c8261ae0baf8b0ab44062ca397fc332a640e22b517cad8",
+    "runtime_schema_normalization": "Exact PageContent schema normalization of raw producer artifact equals saved current runtime candidate; raw bytes retained separately when nullable defaults were inserted."
+  },
+  "output": {
+    "file": "isolators-61-reviewed.json",
+    "sha256": "3321de3730165ad72f1b12b2ca677f5744717701d7b9115303074863c161966c",
+    "author": "catalog_tail_mod1"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "f4b81cd09a219218c54b75a3e98f9a8474a33543f1da95a5e6ef9855466c9a97",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "pagecontent_schema_valid": true
+  },
+  "tables": {
+    "row_counts": [
+      1
+    ],
+    "column_counts": [
+      21
+    ],
+    "cells_checked": 21
+  },
+  "source_findings": [
+    "Полный оригинал до candidate лично просмотрен. Все21ячейка проверены: ПСД70Е Р212/112,PSD70E,70/56/270/127/146/411/16/130/75/45/110/110, пары10/34,20/55,25/75,30/80,масса4,6. Значения не менялись; пустой заголовок второй колонки и отсутствие единицы у d сохранены.",
+    "Уточнены реальные Н/D/d и конструкция шапки с гнездом/замком; удалены выдуманные проушина/шарнир, полный наружный Н, две зоны остекления. Назначение/дваТУ/четырестандарта/footer сверены. Добавлена продуктовая классификация, синтетическое пояснение пустой шапки перенесено из qualifier в существующую note."
+  ],
+  "corrections": [
+    {
+      "path": "tables[0].columns[1].qualifier",
+      "before": "заголовок ячейки в источнике пуст; столбец содержит латинское обозначение PSD70E",
+      "after": null
+    },
+    {
+      "path": "figures[0].description",
+      "before": "Одно изображение изолятора: широкая стеклянная тарель с двумя зонами остекления; правая половина тарели показана в разрезе косой штриховкой с внутренними полостями (цоколь, залитый точками/штрихпунктиром, и полости остекления), левая половина — контур половины тарели без штриховки, с осевой штрихпунктирной линией по центру. Над тарелью по оси расположен металлический цоколь с овальным глазом (проушиной), внутри которого показан поперечно штифт (схематично); от центра оси проведены выносные линии с дуговыми выносками. Размерные линии: вертикальная Н — от низа тарели до верха проушины (слева), горизонтальная D — полная ширина тарели (внизу), d — от центра оси тарели до посадочного места шарнира цоколя (стрелка вправо). Числовых значений размеров, пределов отклонений и знаков ± на чертеже нет; значения приведены в таблице.",
+      "after": "Совмещены наружный вид слева и полуразрез справа с общей вертикальной осью. Стеклянная двукрылая тарелка имеет нижние рёбра, справа показана штриховка и отдельная точечная область около оси. Верхняя шапка имеет внутреннее гнездо и замок; она не подписана проушиной с поперечным шарнирным пальцем. Н идёт от отмеченной внутренней верхней плоскости гнезда шапки до плоскости перехода нижней цилиндрической шейки в расширенную головку пестика. Эти базы не являются наружным верхом шапки и нижним краем двукрылой тарелки. D — полный наружный диаметр тарелки между крайними боковыми точками. d — условный размер сферического соединения по собственной колонке стандартов; выноска показана у нижней центральной шейки, не является радиусом расстояния от оси до гнезда. Материалы неподписанных крепёжных областей отдельно не выводятся. На чертеже только буквенные размеры, без чисел и допусков."
+    },
+    {
+      "path": "page_context",
+      "before": null,
+      "after": {
+        "kind": "catalogue_product_data",
+        "summary": "Стеклянные подвесные тарельчатые двукрылые изоляторы ПСД с пониженным уровнем радиопомех: назначение, условия эксплуатации, два ТУ и четыре стандарта; совмещённый вид и полуразрез с Н/D/d и одна строка технических характеристик ПСД70Е Р 212/112 / PSD70E. Это типовые товарные данные, без параметров конкретной стройки.",
+        "source_evidence": [
+          {
+            "kind": "catalogue_product_data",
+            "box": [
+              0.075,
+              0.065,
+              0.35,
+              0.45
+            ],
+            "observation": "Наименование ПСД, назначение свыше 1000 В/до 100 Гц/−60…+50°C, УХЛ1/ГОСТ15150, оба ТУ и четыре стандарта."
+          },
+          {
+            "kind": "catalogue_product_data",
+            "box": [
+              0.41,
+              0.105,
+              0.92,
+              0.355
+            ],
+            "observation": "Совмещённые наружный вид и правый полуразрез; Н между внутренней верхней плоскостью гнезда и переходом шейки в головку, D наружная тарелка, d связь с колонкой сферического соединения."
+          },
+          {
+            "kind": "catalogue_product_data",
+            "box": [
+              0.075,
+              0.62,
+              0.925,
+              0.945
+            ],
+            "observation": "Одна строка21столбец, реальная пустая шапка над PSD70E, четыре пары кВ/дБ радиопомех и масса не более."
+          }
+        ]
+      }
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "independent_review_required": true,
+  "independent_review_status": "pending",
+  "separate_model_review_of_root_edits": null,
+  "unresolved_issues": [
+    "Нужна независимая проверка авторского разбора и инженерных отношений."
+  ],
+  "completed_at": "2026-10-14T19:12:09.423586+03:00",
+  "private_original_receipt_sha256": "82245a61bbe8b4a1d463036a6e4f915f64199fd7f1ac77d71ea8a159f15ca178"
+}

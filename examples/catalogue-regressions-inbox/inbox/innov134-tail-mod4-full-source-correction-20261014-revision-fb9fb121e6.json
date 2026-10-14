@@ -1,0 +1,36 @@
+{
+  "id": "innov134-tail-mod4-full-source-correction-20261014-revision-fb9fb121e6",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 134: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 134
+  },
+  "review_basis": "Все162 ячейки18×9, восемь объединённых типоразмеров и18сечений совпали с оригиналом. Подтверждены разные300/450/400/500сечения,массы14,8/17,9/21,1/21/24,3 и условиеL=7м. Исходные values/state таблицы неизменны;правка только метаданных единицы и смысла рисунка. Исправления: [\"Исправлены спиральный/стропильный и клиносочленённый, разделены комплектные ШРЦ и внешние натяжные зажимы.\", \"РазмерамD/d/S/L₁/L₂/5/L даны реальные детали и базы; восстановлена явная общая единица мм из шапки таблицы.\", \"Удалено противоречие summary о неразъёмном прессовом монтаже и общей некомплектности зажимов: комплектные ШРЦ разъёмны,внешние натяжные вне комплекта.\", \"Размер5 уточнён как штрихованная осевая перемычка,не пустой зазор.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/780249711057d1ef9aefce6df65c3653c3a6af567003cd2440da2573f891db82.json",
+      "sha256": "780249711057d1ef9aefce6df65c3653c3a6af567003cd2440da2573f891db82",
+      "bytes": 31630,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/fb9fb121e6328b0cf6a7280759851c9c127b0e53918d3db5425f44dae8ce4b1e.json",
+      "sha256": "fb9fb121e6328b0cf6a7280759851c9c127b0e53918d3db5425f44dae8ce4b1e",
+      "bytes": 31249,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r2"
+    },
+    {
+      "path": "objects/2f3947e4d9a8905ee00dd5ceeee025c186b0dfde30623df04a6b04e1bdaaeec4.json",
+      "sha256": "2f3947e4d9a8905ee00dd5ceeee025c186b0dfde30623df04a6b04e1bdaaeec4",
+      "bytes": 3860,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r2"
+    }
+  ]
+}

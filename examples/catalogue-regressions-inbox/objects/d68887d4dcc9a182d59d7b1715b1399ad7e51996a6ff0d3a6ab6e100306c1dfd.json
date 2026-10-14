@@ -1,0 +1,258 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "small",
+  "source_filename": "Malyj-katalog.pdf",
+  "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+  "physical_page": 40,
+  "printed_page": "39",
+  "status": "awaiting_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod3",
+    "task": "/root/catalog_tail_mod3",
+    "version": "tail-mod3-additional-residues02-20261014.r2",
+    "model_id": "Current native Codex worker session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "small-40-candidate.json",
+    "sha256": "5e110b7963e3d5fefcdeb565c256b5b4c33575feeba65b633a1f6395e266daec",
+    "canonical_sha256": "ae1535d5323d0d5b52d3f5f4331f0709ae2b33b66b0cf907862340dd3e03500d",
+    "producer": {
+      "program": {
+        "package_version": "1.5.23",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "9149f67edeac9814da5291cad899361e9512ccff01cd4d049e4d5f1a28fa8fdd",
+        "python_version": "3.12.13"
+      },
+      "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+      "physical_page": 40,
+      "attempt": 2,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "867b3f790ecc8921609cf97aa738eda3b36ee55598d694455416842fad03be98",
+      "artifact_sha256": "5e110b7963e3d5fefcdeb565c256b5b4c33575feeba65b633a1f6395e266daec",
+      "started_at": 1791988932.9316602,
+      "finished_at": 1791989000.4534917,
+      "provider_rate_limit_events": 0,
+      "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46",
+      "status": "receipt_verified",
+      "source_bound_save": true,
+      "receipt": ".tmp/full-digitization/staged-best-v1.4.8/small/page-0040/calls/6c0c2d26f3754befa5971c0154f80b05/result.json",
+      "frozen_receipt": "small-40-native-receipt.json",
+      "frozen_receipt_sha256": "a3ae9641757eb09c449b256fc134c95872852c5b9632c4bcd2559de735020f31"
+    }
+  },
+  "output": {
+    "file": "small-40-reviewed.json",
+    "sha256": "ed62f9eddf2ccaef8ebf73a6e615caea07e16268c52aba94c73fb5ef3b18ab39",
+    "canonical_sha256": "3269a1fe06db92f38be90c7a6c9c85eda52d4f9f0b9feac6c1d39f46aa32be90"
+  },
+  "full_original_image_review": true,
+  "original_image": "small-40.png",
+  "original_image_sha256": "24ab9bbe0aaab3fa48a5c1315e0421f5a25b42d7f415d31f23db8217bcfe3fca",
+  "own_source_observation": "small-40-own-source-observation.json",
+  "own_source_observation_sha256": "5e07f49674f74686e115f70fa5823a8eaf957b4b4786d7143fea78949d5328b6",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "page_content_schema": true
+  },
+  "tables": {
+    "row_counts": [
+      7,
+      4
+    ],
+    "column_counts": [
+      7,
+      7
+    ],
+    "cells_checked": 77
+  },
+  "source_findings": [
+    "Полный исходник просмотрен до candidate, затем собственные 7×КР/9×KD. Все 77 значений и состояния ячеек верны, общие нагрузки/Md/H у КР и H16 KD12/16 повторены по реальным объединениям.",
+    "Назначения двух типов, ТУ3449-008-52819896-2010, СТО34.01-2.2-003-2015, ПАО Россети, шапка и полный footer подтверждены.",
+    "КР L от крайней наружной кромки, Ø38 внутренний проём, L₁/80 до первой шайбы,120 от начала резьбы. KD H раскрытие, L от центра изгиба, L₁ резьба до острия. Фотографии отделены от рисунков."
+  ],
+  "corrections": [
+    "Исправлены ошибочные базы L у КР,120 у КР и смысл H у KD; уточнён внутренний Ø38.",
+    "Восстановлены структурированные единицы кН/мм/кг из явных шапок без изменения 77 values/state.",
+    "Исправлены printed_page и области source_evidence, убраны недоказанные пояснения о Unicode и повторная ошибочная трактовка H."
+  ],
+  "complete_leaf_diff": [
+    {
+      "path": ".figures[1].description",
+      "before": "Чертёж одного вида: крюк с загнутым в петлю концом, опорной шайбой и резьбовым концом с гайкой. Обозначение диаметра ⌀38 относится к окружности изгиба петли крюка. Размер H — вертикальный габарит петли: от верхней точки изгиба до нижней точки изгиба крюка, стрелки на верхней и нижней образующих петли. Числовой размер 80 — расстояние от вертикальной оси петли до опорной шайбы. Числовой размер 120 — длина резьбового участка под гайкой, от опорной шайбы до конца резьбы. L₁ — от опорной шайбы до конца резьбы; L — полная длина от вертикальной оси петли до конца резьбы. Md — обозначение резьбы на конце. Стрелками показаны направления разрушающих нагрузок Fx (горизонтально, влево) и Fy (вертикально, вниз). Допуски не указаны.",
+      "after": "Крюк КР с двумя шайбами и гайкой на резьбовом хвостовике. Ø38 относится к внутреннему круглому проёму изгиба. H — полный наружный вертикальный размер изгиба. L — от крайней левой наружной кромки изгиба до правого конца хвостовика. L₁ — от левой опорной грани первой шайбы у изгиба до того же правого конца. 80 — от вертикальной оси центра изгиба до этой опорной грани. 120 — от начала резьбового участка, расположенного левее второй шайбы с гайкой, до правого конца хвостовика; это отдельная база от L₁. Md — диаметр резьбы. Fx направлена влево, Fy вниз. Условный разрыв стержня не является стыком."
+    },
+    {
+      "path": ".figures[3].description",
+      "before": "Чертёж одного вида: крюк с загнутым концом и резьбовым (трапецеидальным на виде) концом. Размер H — поперечный размер прутка у свободного конца загнутой части крюка: короткая наклонная размерная линия между верхней и нижней образующими загнутого конца, то есть толщина (диаметр) прутка в месте загиба. Md — обозначение резьбы на конце. L₁ — длина резьбового участка, от начала резьбы до торца; L — полная длина от вертикальной оси петли крюка до торца. Стрелками показаны направления разрушающих нагрузок Fx (горизонтально, влево) и Fy (вертикально, вниз). Допуски не указаны.",
+      "after": "Крюк KD с изогнутым свободным концом и заострённым резьбовым хвостовиком. H — наклонное раскрытие между внутренней кромкой свободного конца крюка и верхней кромкой стержня напротив него; это не толщина прутка. L — от вертикальной оси центра изгиба до правого острия хвостовика, поэтому не включает левый выступ изгиба. L₁ — длина резьбового участка от его начала до острия. Md — диаметр резьбового участка. Fx направлена влево, Fy вниз. Условный разрыв не обозначает стык."
+    },
+    {
+      "path": ".page_context.source_evidence",
+      "before": [
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.08,
+            0.6,
+            0.62,
+            0.68
+          ],
+          "observation": "Под вторым изделием страницы текст «НАЗНАЧЕНИЕ: Предназначены для крепления анкерных зажимов на деревянной стене здания или деревянных опорах. Изготавливаются по ТУ 3449-008-52819896-2010. Соответствуют требованиям СТО 34.01-2.2-003-2015 ПАО «Россети»» — описание назначения и нормативных требований к изделию, рядом фотография и чертёж крюка, то есть самостоятельный товарный раздел каталога, а не отчёт программы и не проектная спецификация.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.33,
+            0.32,
+            0.93,
+            0.49
+          ],
+          "observation": "Таблица типоразмеров КР 16.200/16.240/16.320/20.200/20.240/20.320/20.350 в формате «Наименование / разрушающая нагрузка Fx/Fy (не менее, кН) / диаметр резьбы Md / H / L / L₁ (группа «Размеры, мм») / масса (не более, кг)» — параметрический ряд собственной продукции по первому изделию страницы.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.34,
+            0.82,
+            0.93,
+            0.95
+          ],
+          "observation": "Таблица типоразмеров KD 8/12/16/20 в том же формате — ни названия объекта, ни количеств для стройки, ни проектного штампа на странице нет.",
+          "transcription": "literal"
+        }
+      ],
+      "after": [
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.05,
+            0.01,
+            0.95,
+            0.985
+          ],
+          "observation": "Полный оригинал: два семейства крюков с отдельными назначениями, фотографиями, чертежами и таблицами. Все 77 ячеек двух таблиц сверены, включая общую H=16 у KD12/KD16; размеры в мм, Fx/Fy не менее в кН, масса не более в кг. Проверены ТУ, СТО, контакты и размерные базы КР/KD.",
+          "transcription": "literal"
+        }
+      ]
+    },
+    {
+      "path": ".printed_page",
+      "before": "стр. 39",
+      "after": "39"
+    },
+    {
+      "path": ".source_notes",
+      "before": [
+        "В шапке колонки разрушающей нагрузки единица набрана как «кH» — кириллическая «к» (U+043A) с латинской H (U+0048); передано буквально слитно с названием параметра, отдельным полем unit не выделяется.",
+        "В наименованиях первой таблицы и в заголовках используется кириллическое «КР», второй таблицы — латинское «KD», как в источнике.",
+        "В значении «М16»/«М20» кириллическая М (U+041C); передано буквально.",
+        "Общий заголовок «Размеры, мм» набран одной строкой над четырьмя колонками (Диаметр резьбы Md / H / L / L₁) и сохранён как group; у таблицы KD соответствующая колонка подписана просто «Диаметр», без Md.",
+        "На чертеже КР выносная H вертикальная и охватывает петлю изгиба сверху донизу; на чертеже KD H — короткая наклонная выноска у загнутого конца, между его образующими."
+      ],
+      "after": [
+        "В шапках нагрузки напечатано Fx/Fy: значения являются парой нагрузок по показанным направлениям, в кН, не менее.",
+        "Марки КР кириллические, KD латинские; обозначения М16/М20 сохранены в первой таблице.",
+        "Единица мм задана общей группой для диаметра, H, L и L₁. В таблице KD столбец подписан «Диаметр», без Md; значения 8,0/12,0/16,0/20,0 сохранены без добавления букв М.",
+        "У КР L начинается на наружной кромке изгиба, у KD — на его центральной оси; размер H у KD задаёт раскрытие, тогда как H у КР задаёт наружную высоту."
+      ]
+    },
+    {
+      "path": ".tables[0].columns[1].label",
+      "before": "Разрушающая нагрузка, Fx/Fy, кН",
+      "after": "Разрушающая нагрузка, Fx/Fy"
+    },
+    {
+      "path": ".tables[0].columns[1].unit",
+      "before": null,
+      "after": "кН"
+    },
+    {
+      "path": ".tables[0].columns[2].unit",
+      "before": null,
+      "after": "мм"
+    },
+    {
+      "path": ".tables[0].columns[3].unit",
+      "before": null,
+      "after": "мм"
+    },
+    {
+      "path": ".tables[0].columns[4].unit",
+      "before": null,
+      "after": "мм"
+    },
+    {
+      "path": ".tables[0].columns[5].unit",
+      "before": null,
+      "after": "мм"
+    },
+    {
+      "path": ".tables[0].columns[6].label",
+      "before": "Масса, кг",
+      "after": "Масса"
+    },
+    {
+      "path": ".tables[0].columns[6].unit",
+      "before": null,
+      "after": "кг"
+    },
+    {
+      "path": ".tables[1].columns[1].label",
+      "before": "Разрушающая нагрузка, Fx/Fy, кН",
+      "after": "Разрушающая нагрузка, Fx/Fy"
+    },
+    {
+      "path": ".tables[1].columns[1].unit",
+      "before": null,
+      "after": "кН"
+    },
+    {
+      "path": ".tables[1].columns[2].unit",
+      "before": null,
+      "after": "мм"
+    },
+    {
+      "path": ".tables[1].columns[3].unit",
+      "before": null,
+      "after": "мм"
+    },
+    {
+      "path": ".tables[1].columns[4].unit",
+      "before": null,
+      "after": "мм"
+    },
+    {
+      "path": ".tables[1].columns[5].unit",
+      "before": null,
+      "after": "мм"
+    },
+    {
+      "path": ".tables[1].columns[6].label",
+      "before": "Масса, кг",
+      "after": "Масса"
+    },
+    {
+      "path": ".tables[1].columns[6].unit",
+      "before": null,
+      "after": "кг"
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independent_review_required": true,
+  "unresolved_issues": [],
+  "acceptance_note": "No self PASS. Corrected author content and engineering dimension ownership require independent source review. Frozen native bytes and actual receipt retained separately.",
+  "completed_at": "2026-10-14T19:02:23.079869+03:00",
+  "private_original_receipt_sha256": "927764e5e51beb8d72ecd225df05d8bc684345a133b5f37860511c2674412064"
+}

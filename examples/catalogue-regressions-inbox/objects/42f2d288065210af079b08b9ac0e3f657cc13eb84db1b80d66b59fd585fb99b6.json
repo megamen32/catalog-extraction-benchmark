@@ -1,0 +1,71 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 25,
+  "printed_page": "25",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "57e218147c9530e8fe8d83b3af794bc8ca98accaff65810ba11f1ea99b02746c",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.23",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "9149f67edeac9814da5291cad899361e9512ccff01cd4d049e4d5f1a28fa8fdd",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "57e218147c9530e8fe8d83b3af794bc8ca98accaff65810ba11f1ea99b02746c",
+      "source_bound_save": true,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 25,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "867b3f790ecc8921609cf97aa738eda3b36ee55598d694455416842fad03be98",
+      "receipt": "calls/2d47bbfa91df4b06a2add788422439b3/result.json",
+      "started_at": 1791991871.2357404,
+      "finished_at": 1791992062.307158
+    }
+  },
+  "output": {
+    "file": "innovations-25-reviewed.json",
+    "sha256": "2b0bc9127a70bc1229321178f741cd25fbc6d5f4a397d06038cd5f26dcd7a592"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "65c293823eb0fcb0c3e82c8f775a9acc453f2c001ffa906192cc341d729b42df",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      14
+    ],
+    "column_counts": [
+      21
+    ],
+    "cells_checked": 294
+  },
+  "source_findings": "Все294ячейки14×21сверены:настоящая195уПС210Д/М,170уПС240,380утечка,четырепарырадиопомех,звёздочки/ТУ2009/2013,ГOCT6490-2017/МЭК60383сохранены. Значениянеунифицированысдругимкаталогом.",
+  "corrections": [
+    "Исправлены ложная скоба с болтом/цементная подошва и базыH;восстановлен печатный25и футер."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T19:09:58.299561+03:00",
+  "private_original_receipt_sha256": "81627ba32805c3b43492f9b50fd69cb0e16f65a531b8e0247a102c9845659bcc"
+}

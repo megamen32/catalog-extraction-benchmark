@@ -1,0 +1,162 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "small",
+  "source_filename": "Malyj-katalog.pdf",
+  "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+  "physical_page": 211,
+  "printed_page": "210",
+  "status": "awaiting_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod3",
+    "task": "/root/catalog_tail_mod3",
+    "version": "tail-mod3-remaining-small-20261014.r4",
+    "model_id": "Current native Codex worker session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "small-211-candidate.json",
+    "sha256": "15842f68a28837e4b4ec055e9a379941c392a22be0c27c5c027ed3849a70eb14",
+    "canonical_sha256": "7eb3c3683e7ea2f76503ffb01f8419c77a88519ccb75aa3801de5c3b1dc43e56",
+    "producer": {
+      "program": {
+        "package_version": "1.4.15",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+        "python_version": "3.12.13",
+        "components": {
+          "agent_logic": {
+            "package_version": "1.4.2",
+            "git_revision": null,
+            "dirty": null,
+            "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+            "python_version": "3.12.13"
+          },
+          "catalog_tools": {
+            "package_version": "1.4.8",
+            "git_revision": null,
+            "dirty": null,
+            "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+            "python_version": "3.12.13"
+          },
+          "legacy_skills": {
+            "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+            "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+          },
+          "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+          "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+          "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+          "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+        }
+      },
+      "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+      "physical_page": 211,
+      "attempt": 0,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf",
+      "artifact_sha256": "15842f68a28837e4b4ec055e9a379941c392a22be0c27c5c027ed3849a70eb14",
+      "started_at": 1791856377.7345457,
+      "finished_at": 1791856412.0200276,
+      "provider_rate_limit_events": 0,
+      "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46",
+      "status": "receipt_verified",
+      "source_bound_save": true,
+      "receipt": ".tmp/full-digitization/staged-best-v1.4.8/small/page-0211/calls/431c29cde18a49d4ac9110898bd51e1c/result.json",
+      "frozen_receipt": "small-211-native-receipt.json",
+      "frozen_receipt_sha256": "03511ec6dd9f2fc3fbe3b393430ae2e94b5b62a8370c2316d3b0e9ee73d063c2"
+    }
+  },
+  "output": {
+    "file": "small-211-reviewed.json",
+    "sha256": "3ee6087105e0dd1d0d3ef0d48733098a682cad085977cf57997e565a41a01936",
+    "canonical_sha256": "e05efa9533f202219437c62306480d372eb739ba835d130c5cec4928ab71791d"
+  },
+  "full_original_image_review": true,
+  "original_image": "small-211.png",
+  "original_image_sha256": "aa511038004daaa91ec9ed2f66bfe53c7a3747b5378e32c10e81daea861e6d6e",
+  "own_source_observation": "small-211-own-source-observation.json",
+  "own_source_observation_sha256": "da2951377e447977d56c5a9aec56b08819135df8a95d0a426a5ca800a4cee2ea",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "page_content_schema": true
+  },
+  "tables": {
+    "row_counts": [
+      1,
+      3,
+      1
+    ],
+    "column_counts": [
+      5,
+      3,
+      6
+    ],
+    "cells_checked": 20
+  },
+  "source_findings": [
+    "Полный оригинал просмотрен до candidate; каждый размер сверён по собственным крупным кропам. Все значения/состояния/единицы/условия и объединения таблиц подтверждены.",
+    "Исходные необычные числа и буквенные коды не исправлялись по инженерному ожиданию."
+  ],
+  "corrections": [
+    "Исправлены ложный осевой разрез, описание S как зазора и приписанное сечение жилы; размерные выноски связаны с рабочим профилем.",
+    "Добавлены полные контекст и source evidence; необычное сочетание усилия/значения и Е213 сохранены, все20 ячеек неизменны."
+  ],
+  "complete_leaf_diff": [
+    {
+      "path": ".figures[2].description",
+      "before": "Схематический чертеж двух половин матрицы с осевым разрезом: в верхней половине — окружность и вписанная шестигранная форма сечения жилы. Размер D задан по горизонтали между вертикальными линиями-границами шестигранника с двусторонними стрелками (указателями). Размер S задан по вертикали между горизонтальными линиями верхней и нижней половин матрицы, стрелки направлены навстречу друг другу. Числовые значения размеров на чертеже не проставлены.",
+      "after": "Эскиз двух раздельных половин матрицы с шестигранным рабочим просветом и окружающим круглым контуром. Штриховки и обозначения разреза нет; материал жилы не изображён. D — горизонтальный размер рабочего профиля между двумя показанными вертикальными выносными плоскостями; это не полная наружная ширина матрицы. S — расстояние между противоположными горизонтальными гранями шестигранного рабочего просвета, не зазор между половинами. Значения S/D заданы соседней таблицей в мм. Рисунок не использовался для измерения по масштабу."
+    },
+    {
+      "path": ".page_context",
+      "before": null,
+      "after": {
+        "kind": "catalogue_product_data",
+        "summary": "Два инструмента для опрессовки: гидравлический ПГРс-150 СИП с автоматическим сбросом давления АСД и механический ПМК-240. Даны назначения, разные комплектации, фотографии, рабочий профиль матрицы S/D и три таблицы. Все 20 ячеек сверены, включая пустую область медных наконечников, матрицу Е213 и необычное значение480х175х75 под заголовком усилия рукоятки. Производитель ООО «МЗВА».",
+        "source_evidence": [
+          {
+            "kind": "catalogue_product_data",
+            "box": [
+              0.05,
+              0.01,
+              0.95,
+              0.985
+            ],
+            "observation": "Полный исходный лист просмотрен до candidate и затем сверён с собственными крупными кропами: все 20 ячеек, состояния, объединения, шапки, единицы и условия, марки, подписи, размерные базы, бренды, контакты и печатный номер. Необычные печатные значения сохранены без инженерной нормализации.",
+            "transcription": "literal"
+          }
+        ]
+      }
+    },
+    {
+      "path": ".source_notes",
+      "before": [
+        "Текст комплектации ПГРс-150 СИП указывает матрицы «Е 140, Е 173 и Е 215», тогда как в таблице матриц для СИП приведена «Е 213 к ПМК-240» — расхождение в источнике, сохранено буквально.",
+        "В таблице ПМК-240 значение габаритов набрано с пробелом после «460/»: «460/ 590х120х60».",
+        "Ячейка «Медные наконечники, мм2» в строке ПМК-240 визуально пуста (без знака прочерка).",
+        "Единицы площади сечения в заголовках таблиц набраны без надстрочного индекса («мм2»).",
+        "На фотографиях прессов надписей/шильдиков, читаемых как инженерные обозначения, не выявлено."
+      ],
+      "after": [
+        "В комплекте ПГРс-150 СИП названа Е215, в отдельной таблице для ПМК-240 напечатана Е213 с S21,5/D16,2; обе записи сохранены буквально.",
+        "В таблице ПГРс-150 СИП под заголовком «Максимальное усилие на рукоятке, Н(кгс)» действительно стоит480х175х75. Номер/единица столбца и значение сохранены, несмотря на необычное сочетание.",
+        "В таблице ПМК-240 медные наконечники имеют реально пустую ячейку; алюминиевые —4–150 мм². Габариты записаны460/ 590х120х60, масса инструмента(комплекта)2,4(3,2)кг.",
+        "У S/D не предполагаются дополнительные зависимости: все значения переданы как напечатано."
+      ]
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independent_review_required": true,
+  "unresolved_issues": [],
+  "acceptance_note": "No self PASS. Corrected author content and engineering dimension ownership require independent source review. Frozen native bytes and actual receipt retained separately.",
+  "completed_at": "2026-10-14T19:17:26.060757+03:00",
+  "private_original_receipt_sha256": "0edf40889c3baf0ff71ab6ed61668b642ddb01a17164150d8a8f93a8bde6dd8c"
+}

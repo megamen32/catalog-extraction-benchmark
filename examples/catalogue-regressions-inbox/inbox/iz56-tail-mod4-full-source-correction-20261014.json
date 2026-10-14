@@ -1,0 +1,36 @@
+{
+  "id": "iz56-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "isolators, страница 56: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-IZOLJaTORY.pdf",
+    "sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+    "physical_page": 56
+  },
+  "review_basis": "[\"Полный оригинал и собственные6× кропы просмотрены до candidate. Все16 ячеек1×16, их units/group/qualifier/state сохранены.\", \"Назначение, восемь преимуществ, ТУ2016 и все пять стандартов вплоть доМЭК62896:2024 подтверждены; печатные остоянии и загрезнениям не исправлялись.\", \"H/d проверены по соединительным плоскостям; фотография не доказывает резьбу/шпильку или плоскую головку, штриховка не доказывает галтование, болт в колпаке или запрессовку цоколя.\", \"Колонтитул55,АОЮМЭК,industrial group,телефон/e-mail/сайт подтверждены.\"] Исправления: [\"Убраны недоказанные технологические детали и типы головок, уточнены H/d и назначение фото.\", \"Исправлена выдуманная запись радиопомеж в source_notes; сохранены реальные опечатки источника. Добавлен полный page_context, таблица неизменна.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/28a0f83715726729f6552f0721295ecf1d6f0a93999c10c61cab7c064067b3f4.json",
+      "sha256": "28a0f83715726729f6552f0721295ecf1d6f0a93999c10c61cab7c064067b3f4",
+      "bytes": 13699,
+      "role": "native-candidate",
+      "program_version": "1.4.2"
+    },
+    {
+      "path": "objects/d13214ca6bcdf4a958739ced33715cf60a294cc30327004c4f0ca0b185694d5e.json",
+      "sha256": "d13214ca6bcdf4a958739ced33715cf60a294cc30327004c4f0ca0b185694d5e",
+      "bytes": 15042,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-additional-residues02-20261014.r1"
+    },
+    {
+      "path": "objects/3ba2899320f76b81d4aef2570c03dbd75f894c6a878c2df9b36eba61728013de.json",
+      "sha256": "3ba2899320f76b81d4aef2570c03dbd75f894c6a878c2df9b36eba61728013de",
+      "bytes": 11837,
+      "role": "source-review",
+      "program_version": "tail-mod3-additional-residues02-20261014.r1"
+    }
+  ]
+}

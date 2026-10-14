@@ -1,0 +1,36 @@
+{
+  "id": "innov124-tail-mod4-full-source-correction-20261014-revision-10830c9e3e",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 124: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 124
+  },
+  "review_basis": "[\"Убрано ошибочное приписывание условия изготовления по проектной документации левой колонке в observation[0]; оно сохранено в реальной правой врезке evidence[1] и основном тексте.\", \"Полные оригиналы ранее лично проверены; точечная ревизия повторно сопоставлена с их сохранёнными изображениями. Таблицы и числовые факты не менялись.\"] Исправления: [\"Убрано ошибочное приписывание условия изготовления по проектной документации левой колонке в observation[0]; оно сохранено в реальной правой врезке evidence[1] и основном тексте.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/34e65bb788d7ede6a5f9440af95615ca888c7cc9425732409b3c01119b66eed1.json",
+      "sha256": "34e65bb788d7ede6a5f9440af95615ca888c7cc9425732409b3c01119b66eed1",
+      "bytes": 9025,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/10830c9e3e22a900fdc484270f9e79e843f519cf9c15c449c1bde1dec3b8b536.json",
+      "sha256": "10830c9e3e22a900fdc484270f9e79e843f519cf9c15c449c1bde1dec3b8b536",
+      "bytes": 8981,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r1"
+    },
+    {
+      "path": "objects/fd8f952ed5d720edf6d8b55cc00dad95d4503ecf33d4cd1994985ed4b3d3520e.json",
+      "sha256": "fd8f952ed5d720edf6d8b55cc00dad95d4503ecf33d4cd1994985ed4b3d3520e",
+      "bytes": 3888,
+      "role": "source-review",
+      "program_version": "tail-mod0-20261014.r1"
+    }
+  ]
+}

@@ -1,0 +1,313 @@
+{
+  "schema_version": "catalogue-independent-source-review/1",
+  "catalog": "innovations",
+  "source_filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 130,
+  "exact_reviewed_path": "innovations-130-reviewed.json",
+  "exact_reviewed_sha256": "cf03c19b4bda547892abca71cc1587ddc772998b3f61dccde9f6b76acb4185f7",
+  "frozen_reviewed_path": "frozen-root-innovations-130.json",
+  "independent_author": "catalog_tail_mod3",
+  "origin_author": "root",
+  "version": "root-independence-mod3-innovations-20261014.block3",
+  "harness": "codex",
+  "is_glm_receipt": false,
+  "source_first": true,
+  "full_original_image_review": true,
+  "original_image": "innovations-130-source.png",
+  "original_image_sha256": "5190bcc4437b674f7d16ae31a2508624358affdfd56518d8be4210c146b8d08d",
+  "own_source_observation": "innovations-130-own-source-observation.json",
+  "checks": {
+    "all_text_and_meaning": false,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": false,
+    "source_provenance": true
+  },
+  "observed_table_count": 1,
+  "observed_row_counts": [
+    18
+  ],
+  "observed_column_counts": [
+    13
+  ],
+  "cells_checked": 234,
+  "technical_and_meaning_review": "Полный оригинал изучен до JSON. Все поля, таблицы, марки, числа, единицы, условия, сноски, объединения и пустоты сверены. Свежие6×/12× кропы подтверждают владельцев повторяющихся диаметров, прямые базы лапок, осевые перемычки5 и две реальные пустые ячейки126. Все522 ячейки блока верны. Перечисленные содержательные ошибки требуют отдельной авторской ревизии.",
+  "per_figure_dimension_ownership": [
+    {
+      "figure_index": 0,
+      "source_bbox": [
+        0.055,
+        0.06,
+        0.935,
+        0.372
+      ],
+      "dimensions": [
+        {
+          "literal_label": "L₁",
+          "actual_target": "Горизонтальная прямая ветвь корпуса между отмеченной плоскостью и наружным торцом",
+          "source_bbox": [
+            0.055,
+            0.075,
+            0.935,
+            0.152
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "мм в таблице"
+        },
+        {
+          "literal_label": "L₃ / L₄",
+          "actual_target": "Наклонные длины левой / правой ветвей до осевой перемычки5",
+          "source_bbox": [
+            0.23,
+            0.1,
+            0.74,
+            0.279
+          ],
+          "arrow_start": "Верхние отмеченные поперечные плоскости на изогнутых ветвях",
+          "arrow_end": "Плоскость осевой перемычки5 в нижнем соединении",
+          "units": "мм в таблице"
+        },
+        {
+          "literal_label": "D",
+          "actual_target": "Вертикальная наружная высота круглого раскрытого корпуса в А–А",
+          "source_bbox": [
+            0.075,
+            0.2,
+            0.16,
+            0.27
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "мм в таблице"
+        },
+        {
+          "literal_label": "d",
+          "actual_target": "Внутренний посадочный проход вкладыша в А–А",
+          "source_bbox": [
+            0.115,
+            0.21,
+            0.18,
+            0.254
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "мм в таблице"
+        },
+        {
+          "literal_label": "L₂",
+          "actual_target": "Поперечная горизонтальная ширина раскрытого профиля А–А",
+          "source_bbox": [
+            0.09,
+            0.248,
+            0.165,
+            0.277
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "мм в таблице"
+        },
+        {
+          "literal_label": "S / S₁",
+          "actual_target": "Толщины двух отдельных сопрягаемых контактных лапок у болтового стыка",
+          "source_bbox": [
+            0.69,
+            0.15,
+            0.775,
+            0.209
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "мм в таблице"
+        },
+        {
+          "literal_label": "5 ×2",
+          "actual_target": "Осевая толщина заштрихованной изоляционной перемычки на обоих стыках",
+          "source_bbox": [
+            0.235,
+            0.19,
+            0.72,
+            0.284
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "На рисунке единица не напечатана; по масштабу не измерено."
+        },
+        {
+          "literal_label": "L",
+          "actual_target": "Длина изолированного проводника через разрыв",
+          "source_bbox": [
+            0.49,
+            0.29,
+            0.635,
+            0.368
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "На рисунке единица не напечатана; по масштабу не измерено."
+        },
+        {
+          "literal_label": "В пролёт / Направление опрессования",
+          "actual_target": "Наружу влево слева, вправо справа",
+          "source_bbox": [
+            0.065,
+            0.06,
+            0.915,
+            0.126
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "На рисунке единица не напечатана; по масштабу не измерено."
+        },
+        {
+          "literal_label": "К натяжным зажимам изолирующих подвесок",
+          "actual_target": "Стрелки от концов к внутренним направлениям",
+          "source_bbox": [
+            0.29,
+            0.14,
+            0.64,
+            0.183
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "На рисунке единица не напечатана; по масштабу не измерено."
+        },
+        {
+          "literal_label": "1 / 2 / 3 / 4",
+          "actual_target": "Корпус с лапкой / обычный ответвительный корпус / вкладыш / изолированный проводник",
+          "source_bbox": [
+            0.07,
+            0.148,
+            0.83,
+            0.393
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "На рисунке единица не напечатана; по масштабу не измерено."
+        },
+        {
+          "literal_label": "Зажимы входят в комплект поставки шлейфа",
+          "actual_target": "Оба собственных ответвительных корпуса",
+          "source_bbox": [
+            0.22,
+            0.069,
+            0.782,
+            0.14
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "На рисунке единица не напечатана; по масштабу не измерено."
+        }
+      ]
+    },
+    {
+      "figure_index": 1,
+      "source_bbox": [
+        0.8,
+        0.173,
+        0.93,
+        0.37
+      ],
+      "dimensions": [
+        {
+          "literal_label": "Б",
+          "actual_target": "Отдельный вид по стрелке, не Б–Б",
+          "source_bbox": [
+            0.81,
+            0.173,
+            0.89,
+            0.204
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "На рисунке единица не напечатана; по масштабу не измерено."
+        },
+        {
+          "literal_label": "80 (горизонтальный)",
+          "actual_target": "Наружная ширина лапки",
+          "source_bbox": [
+            0.81,
+            0.188,
+            0.895,
+            0.247
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "На рисунке единица не напечатана; по масштабу не измерено."
+        },
+        {
+          "literal_label": "80 (вертикальный)",
+          "actual_target": "Высота прямой средней площадки",
+          "source_bbox": [
+            0.8,
+            0.205,
+            0.89,
+            0.251
+          ],
+          "arrow_start": "Прямая верхняя грань собственной лапки",
+          "arrow_end": "Прямая нижняя грань",
+          "units": "На рисунке единица не напечатана; по масштабу не измерено."
+        },
+        {
+          "literal_label": "45 ×2",
+          "actual_target": "Межосевое двух колонок и рядов болтов",
+          "source_bbox": [
+            0.82,
+            0.207,
+            0.91,
+            0.245
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "На рисунке единица не напечатана; по масштабу не измерено."
+        },
+        {
+          "literal_label": "17,5",
+          "actual_target": "От прямой верхней грани площадки до оси верхнего ряда болтов",
+          "source_bbox": [
+            0.873,
+            0.19,
+            0.93,
+            0.224
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "На рисунке единица не напечатана; по масштабу не измерено."
+        }
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "path": "page_context.summary",
+      "finding": "Осталось название вида Б-Б, хотя источник имеет отдельный видБ.",
+      "required_correction": "ВидБ и два конца одного шлейфа вместо зеркальных видов одной стороны.",
+      "evidence": "innovations-130-drawing.png"
+    },
+    {
+      "path": "figures[0].description",
+      "finding": "5 указан только как расстояние торцов проводников, потеряна заштрихованная осевая изоляционная перемычка, связанная с продольной оболочкой.",
+      "required_correction": "Указать осевую толщину заштрихованной перемычки между торцами, не пустоту/радиальную стенку.",
+      "evidence": "innovations-130-axial5.png"
+    },
+    {
+      "path": "source_notes[1]",
+      "finding": "Выдуманы разрывы внутри слов заголовка Марка пр/овода и Разме/ры,м/м; в источнике их нет.",
+      "required_correction": "Удалить ложную заметку либо описать настоящие переносы между словами.",
+      "evidence": "innovations-130-table.png"
+    }
+  ],
+  "nonblocking_observations": [],
+  "uncertainties": [],
+  "verdict": "revise",
+  "reviewed_at": "2026-10-14T18:27:11.160997+03:00",
+  "private_review_artifact_sha256": "2d06366fa93b43f42cf2db02d1f952ae2e88ad3da58600a9d32ff31b984d03e9",
+  "actual_author_producer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  }
+}

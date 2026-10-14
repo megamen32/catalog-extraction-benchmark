@@ -1,0 +1,99 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 49,
+  "printed_page": "49",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r2",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "128396159fb8601b31eb2486e92f6ea4aaafe05c1ab6abfb6e6bc29abbe9135e",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.4.15",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+        "python_version": "3.12.13",
+        "components": {
+          "agent_logic": {
+            "package_version": "1.4.2",
+            "git_revision": null,
+            "dirty": null,
+            "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+            "python_version": "3.12.13"
+          },
+          "catalog_tools": {
+            "package_version": "1.4.8",
+            "git_revision": null,
+            "dirty": null,
+            "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+            "python_version": "3.12.13"
+          },
+          "legacy_skills": {
+            "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+            "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+          },
+          "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+          "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+          "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+          "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+        }
+      },
+      "artifact_sha256": "128396159fb8601b31eb2486e92f6ea4aaafe05c1ab6abfb6e6bc29abbe9135e",
+      "source_bound_save": true,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 49,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf",
+      "receipt": "calls/3603e228a0f7473ab8427935126981aa/result.json",
+      "started_at": 1791906515.2400022,
+      "finished_at": 1791906861.2751842
+    }
+  },
+  "output": {
+    "file": "innovations-49-reviewed-r2.json",
+    "sha256": "9eb997da32f710ffb2ebb98dc798666e553f381666bb7778f77fd36e9631a69c"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "b29faa5ef3d90c382d69bda12901b532f3eeb5a6b16a376c2125ab8978e57167",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      24
+    ],
+    "column_counts": [
+      11
+    ],
+    "cells_checked": 264
+  },
+  "source_findings": "Все264ячейки24×11сверены:70/120кНгруппы,собственныеразныеH305/330…630,изолирующая185…485,все7электрических/загрязняющихколонок,сноска10оконцевателейреальны. ТУ2006/100Гц/−60…+50/ГОСТ15150/28856/55189/МЭК61109подтверждены.",
+  "corrections": [
+    "Hпривязанакосиверхнегоотверстияиплоскостипестика;детализацияØ65/90рёбра/Ø300экран. Неподтверждённыйзнак+1,3невыданкакпроверенный.",
+    "Десятичные точки всех чертёжных допусков сохранены буквально; неподтверждённыйплюсперед1.3удалёниспискаподписей. Неясныйзнакисходникаостаётсянеизвестным."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [
+    "Знакверхнегоотклонения1.3дляØ17верхнейпроушины:24×растеризованныйвекторныйглифнепозволяетrootуверенноотличитьзнак;нужнанезависимаясверка. Номинал17/нижнее0читаются."
+  ],
+  "completed_at": "2026-10-14T19:18:44.801663+03:00",
+  "supersedes_output_sha256": "c41e5a47c9502eec405c2f32684c0e8b769515875afd7cec0f3887bf180de2dc",
+  "private_original_receipt_sha256": "4602d2b3dcd03582f1dcd3a80f8c605df83d5bc37d9f37eb39ab548a82cd14cb"
+}

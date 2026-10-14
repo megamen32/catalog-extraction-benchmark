@@ -1,0 +1,72 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 50,
+  "printed_page": "50",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "14ef1752d67a42ea1e5394f2be95fee61dd7b3228210712fff84b9d6a855f362",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.3",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "531e9bea963ef7592a9a09035761b155f81fbf1ba43027dc5c7017c55e9693fe",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "14ef1752d67a42ea1e5394f2be95fee61dd7b3228210712fff84b9d6a855f362",
+      "source_bound_save": true,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 50,
+      "attempt": 3,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "3b4165e5e56d3a8455b883aea55738aa0e06f3159a60ba01bc9d5ccabf1f6d10",
+      "receipt": "calls/89d327acc5e44f57a013f94783a946e9/result.json",
+      "started_at": 1791938155.68156,
+      "finished_at": 1791938359.9246893
+    }
+  },
+  "output": {
+    "file": "innovations-50-reviewed.json",
+    "sha256": "99fa684bc8d46910753e9a802dbe6155904053544d39a6392ad298ece245cf2c"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "99b5d9dbe2f46e04f47e2902ce50ee4e0eaa34c0b0f098354b7c5dee8bd8d9de",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      30
+    ],
+    "column_counts": [
+      12
+    ],
+    "cells_checked": 360
+  },
+  "source_findings": "Все360ячеек30×12сверены,6групппо5строк,правильныеобъединенияH/L/напряжений,втомчисле1630в120/150И4сохранено,неисправлено подправдоподобие. Всеусловия110–220/до100Гц/−60…+50/УХЛ1,двеТУ2006/2008,триГОСТ/МЭК,четыреоконцевателяиопцияD470при110кВсохранены.",
+  "corrections": [
+    "Верхнее/нижнее отклоненияØ17восстановлены из28×источника как−1,3/0,безперестановки подожидаемыйдопуск.",
+    "Н±5привязана косиверхнегоотверстияиопорномууровнюпестика;Ø65/90принадлежат рёбрам,нестволу,Ø165кольцевымэлементам."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T18:33:01.373967+03:00",
+  "private_original_receipt_sha256": "c2fba99128a365a09d0930f0143a5d60ea58eff844798e393ca3ffd2421d318b"
+}

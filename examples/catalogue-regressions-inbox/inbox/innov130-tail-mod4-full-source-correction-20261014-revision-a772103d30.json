@@ -1,0 +1,36 @@
+{
+  "id": "innov130-tail-mod4-full-source-correction-20261014-revision-a772103d30",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 130: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 130
+  },
+  "review_basis": "Все234 ячейки18×13,четыре объединённые группы3/6/5/4строк,матрицыМШ33,8/36,4/41,6,массы16,1/19,45/22,8/26,0 и ГОСТ839-2019 совпали; значения/состояния/единицы таблицы сохранены. Исправления: [\"Модификация6 восстановлена вместо буквыб; видБ отделён от выдуманного разрезаБ–Б.\", \"Определены реальные L₁/L₂/L₃/L₄, толщиныS/S₁, внутренний5 и дуговаяL,все направления опрессования.\", \"Исправлена ложная расшифровка русской подписи бренда.\", \"Остаточное «Б-Б» удалено из summary,согласовано с настоящим видомБ.\", \"Размер5 уточнён по12×источнику как штрихованная осевая изоляционная перемычка,не пустой зазор.\", \"Удалены ложные примечания о разрыве слов в шапке: на изображении слова цельные,обычные переносы между словами.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/00c774bb17ab124792545f95479bd643ba5d421c9aac2a276d34631ddefa9007.json",
+      "sha256": "00c774bb17ab124792545f95479bd643ba5d421c9aac2a276d34631ddefa9007",
+      "bytes": 45069,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/a772103d301cc958ddf91678676acd8f23c6d20b5da197cd6f82ba26cae262d6.json",
+      "sha256": "a772103d301cc958ddf91678676acd8f23c6d20b5da197cd6f82ba26cae262d6",
+      "bytes": 42519,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r3"
+    },
+    {
+      "path": "objects/0ef472dc3df7a8c5593f4bf7c9dc154d8aae21e2c0fc82ac9ea571905901c29d.json",
+      "sha256": "0ef472dc3df7a8c5593f4bf7c9dc154d8aae21e2c0fc82ac9ea571905901c29d",
+      "bytes": 3866,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r3"
+    }
+  ]
+}

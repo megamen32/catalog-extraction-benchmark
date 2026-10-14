@@ -1,0 +1,178 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 82,
+  "printed_page": "82",
+  "status": "author_source_review_complete_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod1",
+    "task": "/root/catalog_tail_mod1",
+    "version": "tail-mod1-20261014.r2",
+    "model_id": "Current native Codex session;exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "innovations-82-candidate.json",
+    "sha256": "ee1c59e51131105c2da6b8dd62016a17e44a3f80a3391b61bded155b5e34b6f4",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.3",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "531e9bea963ef7592a9a09035761b155f81fbf1ba43027dc5c7017c55e9693fe",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "ee1c59e51131105c2da6b8dd62016a17e44a3f80a3391b61bded155b5e34b6f4",
+      "source_bound_save": true,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 82,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "3b4165e5e56d3a8455b883aea55738aa0e06f3159a60ba01bc9d5ccabf1f6d10",
+      "receipt": "calls/44aa0064719d4cc28bb76ed3baa97dd3/result.json",
+      "started_at": 1791938762.7805183,
+      "finished_at": 1791938815.6208625
+    },
+    "receipt_file": "innovations-82-producer-receipt.json",
+    "receipt_sha256": "0542f8bd6b38fd3593a1c3b7696bdda244570e38be7f4261618021f901222bdc",
+    "receipt_artifact_equals_candidate": true
+  },
+  "output": {
+    "file": "innovations-82-reviewed-r2.json",
+    "sha256": "9ab5bb852795ddc471b677115749c29935e77ac5d6167f1e3518e0c7f2330443",
+    "author": "catalog_tail_mod1"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "3718c3dc2bc2a7dcc190548048652e88044d43dd0c0e2036ff81bbe4ceb6425a",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "pagecontent_schema_valid": true
+  },
+  "tables": {
+    "row_counts": [],
+    "column_counts": [],
+    "cells_checked": 0
+  },
+  "source_findings": [
+    "Полный оригинал просмотрен и все абзацы сверены. Проверены 2013 год, четыре технологических процесса, ГОСТ20419-83/МЭК60672-3, материал подгруппы не ниже130 и позднее группы130, все числовые данные силы и проценты с их условиями, восемь остальных пунктов преимуществ и упаковка.",
+    "Реальный тип ИОС-110-2000 и технические сравнения производителя сохраняют смысл catalogue_product_data; производственный проект не превращён в проектную спецификацию. Удалена неподтверждённая оценка обычного прописного заголовка как нестандартной капитализации; source evidence охватывает полный лист."
+  ],
+  "corrections": [
+    {
+      "path": "page_context.source_evidence",
+      "before": [
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.07,
+            0.015,
+            0.94,
+            0.04
+          ],
+          "observation": "Заголовочная строка страницы каталога задаёт предмет: изоляторы опорные стержневые фарфоровые; рядом логотипы ПО «ФОРЭНЕРГО» и ассоциации FORENERGO. Это описание товара, а не проектная документация.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.08,
+            0.125,
+            0.93,
+            0.26
+          ],
+          "observation": "Повествовательный текст о производственном проекте «VOLTA» 2013 года в рамках программы развития ПО «ФОРЭНЕРГО» и о новых технологиях производства фарфоровых изоляторов серии ИОС. Проект упомянут как история внедрения технологии, а не как объект проектной спецификации.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.08,
+            0.465,
+            0.93,
+            0.58
+          ],
+          "observation": "Ключевой технический абзац с числами: нормируемое по ГОСТ значение минимальной разрушающей силы на изгиб для ИОС-110-2000 — 20 кН, значение по ТУ завода — 26 кН (+30%), гарантированное заводом — 28 кН (+40%), медианное фактическое по испытаниям — 29,5...31,0 кН (+55%); у прочих модификаций фактические значения выше нормативных до двух раз. Единица именно кН и относится к силе на изгиб.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.08,
+            0.58,
+            0.93,
+            0.85
+          ],
+          "observation": "Перечень остальных заявленных преимуществ и описание упаковки (деревянные ящики и индивидуальная полиэтиленовая упаковка). Все утверждения носят характер преимуществ товара, подтверждённых испытаниями, без ссылок на конкретный объект или стройку.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.08,
+            0.955,
+            0.93,
+            0.975
+          ],
+          "observation": "Контактные данные изготовителя ООО «ВОЛЬТА» подтверждают, что страница принадлежит каталогу производителя товара.",
+          "transcription": "literal"
+        }
+      ],
+      "after": [
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.04,
+            0,
+            0.98,
+            0.995
+          ],
+          "observation": "Полный лист: рубрика фарфоровых опорно-стержневых изоляторов и логотип Volta, история технологии с 2013 года, четыре производственных процесса и стандарты, пример реального ИОС-110-2000 с 20/26/28/29,5…31,0 кН и условиями процентов, остальные преимущества и упаковка, бренды/контакты/номер 82. Параметры приведены как заявления производителя, не как независимые текущие результаты испытаний.",
+          "transcription": "literal"
+        }
+      ]
+    },
+    {
+      "path": "source_notes[0]",
+      "before": "Заголовок набран с нестандартной капитализацией «ИЗОЛЯТОРЫ ОПОРНЫЕ СТЕРЖНЕВЫЕ ФАРФОРОВЫЕ» — перенесено как в оригинале.",
+      "after": "В тексте встречается внутренняя нестыковка обозначений материала: глинозёмный фарфор «подгруппы не ниже 130» (ГОСТ 20419-83, МЭК 60672-3) и далее «глинозёмного фарфора группы 130» — перенесено буквально."
+    },
+    {
+      "path": "source_notes[1]",
+      "before": "В тексте встречается внутренняя нестыковка обозначений материала: глинозёмный фарфор «подгруппы не ниже 130» (ГОСТ 20419-83, МЭК 60672-3) и далее «глинозёмного фарфора группы 130» — перенесено буквально.",
+      "after": "На странице нет таблиц и размерных чертежей. Показатели 20/26/28/29,5…31,0 кН, 30–100%, 30%, 40%, 55%, до двух раз и 20% относятся к разным явно описанным условиям; печатное арифметическое сопоставление 29,5…31,0 кН с 55% не пересчитано и не исправлено."
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "independent_review_required": true,
+  "independent_review_status": "pending",
+  "separate_model_review_of_root_edits": null,
+  "unresolved_issues": [
+    "Нужна независимая проверка авторского разбора и инженерных отношений."
+  ],
+  "completed_at": "2026-10-14T15:44:30.300556+00:00",
+  "supersedes": {
+    "output": ".tmp/root-tail-review-20261014/shard-mod1/innovations-82-reviewed.json",
+    "sha256": "28a24572d983b48828f98525895ed638733f509c45be94a2a886d58a1c3ac327",
+    "source_review": ".tmp/root-tail-review-20261014/shard-mod1/innovations-82-source-review.json",
+    "source_review_sha256": "4b2c07791b5c82064a0731ff3059634d9e9f33a280758064ee009d21a433ca16"
+  },
+  "revision_reason": "Только читаемые пробелы и запись связей величин в авторском пояснении. Все таблицы, исходные марки и значения, условия и размерные связи неизменны.",
+  "revision_corrections": [
+    {
+      "path": "source_notes[1]",
+      "before": "На странице нет таблиц и размерных чертежей. Показатели 20/26/28/29,5…31,0 кН, 30–100%, 30%, 40%, 55%, до двух раз и 20% относятся к разным явно описанным условиям; печатное арифметическое сопоставление 29,5…31,0 кН с55% не пересчитано и не исправлено.",
+      "after": "На странице нет таблиц и размерных чертежей. Показатели 20/26/28/29,5…31,0 кН, 30–100%, 30%, 40%, 55%, до двух раз и 20% относятся к разным явно описанным условиям; печатное арифметическое сопоставление 29,5…31,0 кН с 55% не пересчитано и не исправлено."
+    }
+  ],
+  "private_original_receipt_sha256": "3b68a793931b30c51245ba0c5900d19e8e4e6c48d8dbfca92f1231ac3bf738d8"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "innovations146-authored-revision-error-a5ae8b413c8e",
+  "status": "pending_adjudication",
+  "category": "independent-review-catches-authored-error",
+  "title": "innovations,страница146:независимая проверка исправила ошибку автора",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 146
+  },
+  "review_basis": "[{\"path\": \"figures[0].description; figures[0].labels\", \"finding\": \"УЧ-12-16 ошибочно; свежий12× оригинал показывает У1-12-16.\", \"required_correction\": \"Восстановить цифру1 в марке ушка.\", \"evidence\": \"innovations-146-ear-code.png\"}] Фактический автор {\"harness\": \"codex\", \"session_id\": \"01a12c30-e58f-7861-8a2d-966c92630163\", \"version\": \"root-tail-source-review-2026-10-14.r1\", \"model_id\": \"Current native Codex session; exact provider identifier not exported.\"}. Сохранены точные ошибочные авторские байты и новая source-corrected версия; это НЕ результат MiniMax/GLM и не автоматическое золото.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/a5ae8b413c8e873240b69065044d068bebcadcd95eb5e29ec6ce1a1faa87d782.json",
+      "sha256": "a5ae8b413c8e873240b69065044d068bebcadcd95eb5e29ec6ce1a1faa87d782",
+      "bytes": 6071,
+      "role": "actual-authored-failure",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/62f431b500fce22905ff8b12dce162bf9895b4ae3f746a14a41a6ae4061a3818.json",
+      "sha256": "62f431b500fce22905ff8b12dce162bf9895b4ae3f746a14a41a6ae4061a3818",
+      "bytes": 6069,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r2"
+    },
+    {
+      "path": "objects/c9e03c8818e97aa7844ba3a783440f7b86fd415877767b2266a12a0fada13794.json",
+      "sha256": "c9e03c8818e97aa7844ba3a783440f7b86fd415877767b2266a12a0fada13794",
+      "bytes": 8952,
+      "role": "independent-source-review",
+      "program_version": "native-codex-independent-review-20261014"
+    }
+  ]
+}

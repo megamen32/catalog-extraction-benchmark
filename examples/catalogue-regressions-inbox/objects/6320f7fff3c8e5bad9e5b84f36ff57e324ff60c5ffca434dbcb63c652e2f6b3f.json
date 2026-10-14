@@ -1,0 +1,74 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 114,
+  "printed_page": "114",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r2",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "77d6fa841ecef69e7fb34bbf56caa4df9f2b77b510f366a36611459d842ab818",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.4",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "03d94c1397ffd39d50a89db0b4d9ae29d17f13e5293b2fcbda6e8b4ec34d8c0c",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "77d6fa841ecef69e7fb34bbf56caa4df9f2b77b510f366a36611459d842ab818",
+      "source_bound_save": true,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 114,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4d5faa2b87b39793b899bfd40ccb8b7b4ff5223f5cfe2aed7fb1c9e3580c2e6b",
+      "receipt": "calls/7f305bf7ae834c2aa8865f90577cf3e1/result.json",
+      "started_at": 1791940248.0381763,
+      "finished_at": 1791940345.7156136
+    }
+  },
+  "output": {
+    "file": "innovations-114-reviewed-r2.json",
+    "sha256": "081d42fc1af31b46511089aab46aa65516115a4e86d07a302c0dd6a80e7ad036"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "9b993f4b7c4fc83ae9b2fa2ced4853e958f1bf7bcaef4470d5fa1784cd21c206",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      27
+    ],
+    "column_counts": [
+      10
+    ],
+    "cells_checked": 270
+  },
+  "source_findings": "Все270значений/state27×10сохранены,настоящиеобщие9типоразмеров,массы4,8…21,3,ГОСТ839-2019 и контакты сверены. Все числовыеотношения рисунка подтверждены собственным7×оригиналом.",
+  "corrections": [
+    "Ложная неизвестная позиция5 разрешена как настоящий осевой размер изоляционной перемычки; исправлены базыL₃ и принадлежностьdвкладышу.",
+    "Оба конца одногошлейфа и реальные направления отделены от двухзеркальныхвидов.",
+    "Отозвано ошибочно добавленное условие массы«не более»:собственный7×заголовок подтверждает только«Масса шлейфа,приL=7м,кг». Числа/состояниянеизменны."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T19:01:44.807866+03:00",
+  "supersedes_output_sha256": "8c159f30d981a52626d3e966fa277d7938314a46a40db9dbb0587ec227ddb8ab",
+  "private_original_receipt_sha256": "0488155bb6e5678a477609b30c58eba26d0698205cf914b78f9120dc981ff228"
+}

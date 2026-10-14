@@ -1,0 +1,36 @@
+{
+  "id": "innov122-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 122: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 122
+  },
+  "review_basis": "Все324ячейки27×12совпали:13верхнихстрок287/200/70/S₂10,14нижних337/230/80/S₂14;массы10,3…28,6;различныеНАСигруппыА4АБсохранены. Назначение/болтовой монтаж/отсутствиеопрессования/утопленныеболты/корона/радиопомехи/контактыполностью прочитаны. Исправления: [\"Вместо пропуска всей размерной геометрии внесены связиL₁–L₄/S₁/S₂/17,5/80/45/5/L с реальными узлами и видомА.\", \"По собственному7×видуА и независимому замечанию исправленL₃:между осями верхнего/нижнего правых болтов,не от оси до торца корпуса.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/114501517f533f77fab48c0c77d55c6893fadce9f0e8f47f5f878d2e90695c46.json",
+      "sha256": "114501517f533f77fab48c0c77d55c6893fadce9f0e8f47f5f878d2e90695c46",
+      "bytes": 53634,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/b84ac3c730329c52d4304e3de8ac74c8c8e91a7ce1564259ee0a39d378e05604.json",
+      "sha256": "b84ac3c730329c52d4304e3de8ac74c8c8e91a7ce1564259ee0a39d378e05604",
+      "bytes": 53365,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r2"
+    },
+    {
+      "path": "objects/fa4c99ac3c461faa6e8a6b2b6ed12b0cf9c0a1b528f00a891e9d4e4d809390ab.json",
+      "sha256": "fa4c99ac3c461faa6e8a6b2b6ed12b0cf9c0a1b528f00a891e9d4e4d809390ab",
+      "bytes": 3483,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r2"
+    }
+  ]
+}

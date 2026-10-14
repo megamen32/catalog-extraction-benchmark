@@ -1,0 +1,36 @@
+{
+  "id": "small178-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "small, страница 178: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Malyj-katalog.pdf",
+    "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_page": 178
+  },
+  "review_basis": "[\"Полный оригинал просмотрен до candidate; каждый размер сверён по собственным крупным кропам. Все значения/состояния/единицы/условия и объединения таблиц подтверждены.\", \"Исходные необычные числа и буквенные коды не исправлялись по инженерному ожиданию.\"] Исправления: [\"Удалены выдуманные центральный стальной канат и его материал; H исправлена до осей проводов, L/2±2 до торцов каждого корпуса.\", \"Уточнён пятиугольный знак Россети, добавлен полный контекст;48 ячеек и два прочерка неизменны.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/f3b81f0a83dbe0a10c1ddf0a7a3d247d602f906abd15ca25c66d39ed009f6e1c.json",
+      "sha256": "f3b81f0a83dbe0a10c1ddf0a7a3d247d602f906abd15ca25c66d39ed009f6e1c",
+      "bytes": 15349,
+      "role": "native-candidate",
+      "program_version": "1.4.15"
+    },
+    {
+      "path": "objects/33a89912972384b5fdeedafa8cc66c29eeff094bdec902f3ab92c6242dfc19c3.json",
+      "sha256": "33a89912972384b5fdeedafa8cc66c29eeff094bdec902f3ab92c6242dfc19c3",
+      "bytes": 16350,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-remaining-small-20261014.r4"
+    },
+    {
+      "path": "objects/8f3a84f929033bdea6b8871622b6b7fa6b8f5bae1696997e2f78f80a0c264785.json",
+      "sha256": "8f3a84f929033bdea6b8871622b6b7fa6b8f5bae1696997e2f78f80a0c264785",
+      "bytes": 15209,
+      "role": "source-review",
+      "program_version": "tail-mod3-remaining-small-20261014.r4"
+    }
+  ]
+}

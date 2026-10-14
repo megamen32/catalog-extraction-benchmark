@@ -1,0 +1,36 @@
+{
+  "id": "innovations202-authored-revision-error-c4c466b77d2c",
+  "status": "pending_adjudication",
+  "category": "independent-review-catches-authored-error",
+  "title": "innovations,страница202:независимая проверка исправила ошибку автора",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 202
+  },
+  "review_basis": "[{\"path\": \"figures[0].description\", \"finding\": \"Правая база L₂ / левая база L₁ названа плоскостью начала прямого корпуса. Выносная проходит внутри прямого корпуса, правее окончания наружного изгиба.\", \"required_correction\": \"Заменить обе привязки к началу корпуса на отдельную отмеченную поперечную плоскость внутри прямого корпуса. Левая база L₂ уже правильно отдельная внутренняя плоскость анкера.\", \"evidence\": \"innovations-202-drawing.png\"}] Фактический автор {\"harness\": \"codex\", \"session_id\": \"01a12c30-e58f-7861-8a2d-966c92630163\", \"version\": \"root-tail-source-review-2026-10-14.r1\", \"model_id\": \"Current native Codex session; exact provider identifier not exported.\"}. Сохранены точные ошибочные авторские байты и новая source-corrected версия; это НЕ результат MiniMax/GLM и не автоматическое золото.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/c4c466b77d2cb0719c1c1325a93d44eaeaede64bbd990d1dca02545c6e63a379.json",
+      "sha256": "c4c466b77d2cb0719c1c1325a93d44eaeaede64bbd990d1dca02545c6e63a379",
+      "bytes": 40555,
+      "role": "actual-authored-failure",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/d2bb71edf0a5142c092dcde91803c7e0226f671a958e3ea1acea584fbd827b39.json",
+      "sha256": "d2bb71edf0a5142c092dcde91803c7e0226f671a958e3ea1acea584fbd827b39",
+      "bytes": 40672,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r2"
+    },
+    {
+      "path": "objects/7698c8f3e5ca6d318f01f28cdbe27770a48e94d7cb9cfc005c661767be54e4c1.json",
+      "sha256": "7698c8f3e5ca6d318f01f28cdbe27770a48e94d7cb9cfc005c661767be54e4c1",
+      "bytes": 8331,
+      "role": "independent-source-review",
+      "program_version": "native-codex-independent-review-20261014"
+    }
+  ]
+}

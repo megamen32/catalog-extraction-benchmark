@@ -1,0 +1,198 @@
+{
+  "schema_version": "catalogue-independent-source-review/1",
+  "catalog": "innovations",
+  "source_filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 162,
+  "exact_reviewed_path": "innovations-162-reviewed.json",
+  "exact_reviewed_sha256": "b2789c41ad5b292933e00caa8cb2f3918f9d9c9e1d6de4f78a39ee78b2a7709e",
+  "frozen_reviewed_path": "frozen-root-innovations-162.json",
+  "independent_author": "catalog_tail_mod3",
+  "origin_author": "root",
+  "version": "root-independence-mod3-innovations-20261014.block2",
+  "harness": "codex",
+  "is_glm_receipt": false,
+  "source_first": true,
+  "full_original_image_review": true,
+  "original_image": "innovations-162-source.png",
+  "original_image_sha256": "43c1561dde8aee53dfd642d7d80839a4fe9a62f350d1d6c0920a9e1848597468",
+  "own_source_observation": "innovations-162-own-source-observation.json",
+  "checks": {
+    "all_text_and_meaning": false,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "observed_table_count": 0,
+  "observed_row_counts": [],
+  "observed_column_counts": [],
+  "cells_checked": 0,
+  "technical_and_meaning_review": "Полный исходник изучен до JSON, затем проверены все поля PageContent, ячейки, единицы, условия, сноски, марки, объединения/прочерки и отдельные выносные всех рисунков. Все таблицы верны; важные различия верхних баз H₁ на трёх исполнениях166 подтверждены отдельной сверкой. Требуются только перечисленные исправления.",
+  "per_figure_dimension_ownership": [
+    {
+      "figure_index": 0,
+      "source_bbox": [
+        0.22,
+        0.405,
+        0.89,
+        0.6
+      ],
+      "dimensions": [
+        {
+          "literal_label": "300",
+          "actual_target": "Наружная длина лодочки",
+          "arrow_start": null,
+          "arrow_end": null
+        },
+        {
+          "literal_label": "188",
+          "actual_target": "Полная наружная высота бокового вида",
+          "arrow_start": "Верхняя наружная точка подвесной части",
+          "arrow_end": "Крайняя нижняя граница лодочки"
+        },
+        {
+          "literal_label": "158",
+          "actual_target": "Вертикальная база до протектора",
+          "arrow_start": "Отмеченная верхняя внутренняя плоскость шейки подвесной скобы",
+          "arrow_end": "Нижняя наружная касательная круглого протектора"
+        },
+        {
+          "literal_label": "127",
+          "actual_target": "Наружная поперечная ширина скобы",
+          "arrow_start": null,
+          "arrow_end": null
+        },
+        {
+          "literal_label": "19,2",
+          "actual_target": "Внутренний проход верхней шейки ушка",
+          "arrow_start": null,
+          "arrow_end": null
+        },
+        {
+          "literal_label": "Зажим / Протектор",
+          "actual_target": "Раздельные выноски к наружной подвесной детали / спиральному защитному слою вокруг провода",
+          "arrow_start": null,
+          "arrow_end": null
+        }
+      ],
+      "unit_condition": "Единицы на чертеже не напечатаны; не вычислены по масштабу."
+    },
+    {
+      "figure_index": 1,
+      "source_bbox": [
+        0.19,
+        0.63,
+        0.94,
+        0.87
+      ],
+      "dimensions": [
+        {
+          "literal_label": "514",
+          "actual_target": "Наружная поперечная ширина двух узлов",
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "мм в таблице; размер рисунка не вычислен по масштабу"
+        },
+        {
+          "literal_label": "400",
+          "actual_target": "Межосевое расстояние проводов",
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "мм в таблице; размер рисунка не вычислен по масштабу"
+        },
+        {
+          "literal_label": "260",
+          "actual_target": "Расстояние осей двух крайних нижних отверстий",
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "мм в таблице; размер рисунка не вычислен по масштабу"
+        },
+        {
+          "literal_label": "Ø17",
+          "actual_target": "Свободное отверстие нижней пластины",
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "мм в таблице; размер рисунка не вычислен по масштабу"
+        },
+        {
+          "literal_label": "Ø22",
+          "actual_target": "Диаметр гнутого центрального прутка",
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "мм в таблице; размер рисунка не вычислен по масштабу"
+        },
+        {
+          "literal_label": "R15",
+          "actual_target": "Внутренний радиус его верхнего изгиба",
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "мм в таблице; размер рисунка не вычислен по масштабу"
+        },
+        {
+          "literal_label": "65",
+          "actual_target": "Вертикальный размер",
+          "arrow_start": "Внутренняя верхняя касательная изгиба прутка",
+          "arrow_end": "Нижняя наружная касательная круглого протектора",
+          "units": "мм в таблице; размер рисунка не вычислен по масштабу"
+        },
+        {
+          "literal_label": "38",
+          "actual_target": "Вертикальный размер",
+          "arrow_start": "Та же нижняя касательная протектора",
+          "arrow_end": "Верхняя плоскость нижней поперечной пластины",
+          "units": "мм в таблице; размер рисунка не вычислен по масштабу"
+        },
+        {
+          "literal_label": "300",
+          "actual_target": "Наружная длина лодочки на боковом виде",
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "мм в таблице; размер рисунка не вычислен по масштабу"
+        },
+        {
+          "literal_label": "249",
+          "actual_target": "Полная высота бокового вида",
+          "arrow_start": "Крайняя верхняя грань верхнего соединительного узла",
+          "arrow_end": "Крайняя нижняя грань крепежа",
+          "units": "мм в таблице; размер рисунка не вычислен по масштабу"
+        },
+        {
+          "literal_label": "17",
+          "actual_target": "Поперечная ширина нижнего крепления, не длина выступания",
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "мм в таблице; размер рисунка не вычислен по масштабу"
+        },
+        {
+          "literal_label": "Зажим / Протектор",
+          "actual_target": "Отдельные выноски к верхнему зажимному узлу / охватывающему провод круглому защитному слою",
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "мм в таблице; размер рисунка не вычислен по масштабу"
+        }
+      ],
+      "unit_condition": "Единицы на чертеже не напечатаны; числовые надписи буквальные, не по масштабу."
+    }
+  ],
+  "issues": [
+    {
+      "path": "source_notes[0], title, page_context.summary, text_blocks[1]",
+      "finding": "Источник содержит кириллические АС, но JSON использует латинские AC и утверждает, что латиница подтверждена текстовым слоем.",
+      "evidence": "Прямой pymupdf.open(original)[161].get_text(): Поддерживающая арматура для провода АС, последние знаки U+0410/U+0421.",
+      "required_correction": "Воспроизвести АС кириллицей в соответствующих полях; убрать ложное утверждение о латинице."
+    }
+  ],
+  "nonblocking_observations": [],
+  "uncertainties": [],
+  "verdict": "revise",
+  "reviewed_at": "2026-10-14T18:10:56.950043+03:00",
+  "private_review_artifact_sha256": "3eace26a76c33f26ed7df815999ef662d94c949f39cbfed952fee5599e37c7a2",
+  "actual_author_producer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  }
+}

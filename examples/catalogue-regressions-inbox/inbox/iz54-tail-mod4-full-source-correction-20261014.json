@@ -1,0 +1,36 @@
+{
+  "id": "iz54-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "isolators, страница 54: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-IZOLJaTORY.pdf",
+    "sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+    "physical_page": 54
+  },
+  "review_basis": "[\"Полный источник и собственные6× кропы до candidate; все16 ячеек1×16 и условия/единицы верны, таблица сохранена.\", \"Проверены все абзацы назначения/преимуществ/материала покрытия, ТУ2016 и четыре стандарта. Печатные1.5/остоянии/горячего отвердения и постоянный/переменный ток с50–100Гц сохранены.\", \"Исправлены реальные владельцы и базы H/D/d. Фото не показывает седловины с зажимом провода, цементную подвеску или резьбовую полость; штриховка не расшифровывает материалы крепежа.\", \"Мелкая рельефная маркировка фото честно не прочитана. Контакты/бренды/печатная53 подтверждены.\"] Исправления: [\"Убраны выдуманные проводной зажим, цементно-металлическая арматура с резьбой, поперечный крепёжный болт и ложные базы H/d.\", \"Source_notes записаны по собственному оригиналу без чужих read_source_layout/read_source_table receipt-утверждений; сохранены реальные печатные опечатки и честная нечитаемость маркировки. Добавлен page_context.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/e54527410290f0899567ef58ad88afbce4e6722864935f1eec9a9fd250cfafc7.json",
+      "sha256": "e54527410290f0899567ef58ad88afbce4e6722864935f1eec9a9fd250cfafc7",
+      "bytes": 18426,
+      "role": "native-candidate",
+      "program_version": "1.4.15"
+    },
+    {
+      "path": "objects/b891a09f7e3d244cfb5e4bf502503eed75b60a134c1da8a02cc714bd5c91f274.json",
+      "sha256": "b891a09f7e3d244cfb5e4bf502503eed75b60a134c1da8a02cc714bd5c91f274",
+      "bytes": 16975,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-additional-residues02-20261014.r1"
+    },
+    {
+      "path": "objects/8d3597daa1cf4f3326478d95005d8397fa35497f2703a8b95489986f33d72dae.json",
+      "sha256": "8d3597daa1cf4f3326478d95005d8397fa35497f2703a8b95489986f33d72dae",
+      "bytes": 17571,
+      "role": "source-review",
+      "program_version": "tail-mod3-additional-residues02-20261014.r1"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "innovations130-authored-revision-error-cf03c19b4bda",
+  "status": "pending_adjudication",
+  "category": "independent-review-catches-authored-error",
+  "title": "innovations,страница130:независимая проверка исправила ошибку автора",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 130
+  },
+  "review_basis": "[{\"path\": \"page_context.summary\", \"finding\": \"Осталось название вида Б-Б, хотя источник имеет отдельный видБ.\", \"required_correction\": \"ВидБ и два конца одного шлейфа вместо зеркальных видов одной стороны.\", \"evidence\": \"innovations-130-drawing.png\"}, {\"path\": \"figures[0].description\", \"finding\": \"5 указан только как расстояние торцов проводников, потеряна заштрихованная осевая изоляционная перемычка, связанная с продольной оболочкой.\", \"required_correction\": \"Указать осевую толщину заштрихованной перемычки между торцами, не пустоту/радиальную стенку.\", \"evidence\": \"innovations-130-axial5.png\"}, {\"path\": \"source_notes[1]\", \"finding\": \"Выдуманы разрывы внутри слов заголовка Марка пр/овода и Разме/ры,м/м; в источнике их нет.\", \"required_correction\": \"Удалить ложную заметку либо описать настоящие переносы между словами.\", \"evidence\": \"innovations-130-table.png\"}] Фактический автор {\"harness\": \"codex\", \"session_id\": \"01a12c30-e58f-7861-8a2d-966c92630163\", \"version\": \"root-tail-source-review-2026-10-14.r1\", \"model_id\": \"Current native Codex session; exact provider identifier not exported.\"}. Сохранены точные ошибочные авторские байты и новая source-corrected версия; это НЕ результат MiniMax/GLM и не автоматическое золото.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/cf03c19b4bda547892abca71cc1587ddc772998b3f61dccde9f6b76acb4185f7.json",
+      "sha256": "cf03c19b4bda547892abca71cc1587ddc772998b3f61dccde9f6b76acb4185f7",
+      "bytes": 42666,
+      "role": "actual-authored-failure",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/a772103d301cc958ddf91678676acd8f23c6d20b5da197cd6f82ba26cae262d6.json",
+      "sha256": "a772103d301cc958ddf91678676acd8f23c6d20b5da197cd6f82ba26cae262d6",
+      "bytes": 42519,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r3"
+    },
+    {
+      "path": "objects/503fd2962571ae2acb8ac45348dce3a9046bf72d1907cd68c65b345f289f32c3.json",
+      "sha256": "503fd2962571ae2acb8ac45348dce3a9046bf72d1907cd68c65b345f289f32c3",
+      "bytes": 12557,
+      "role": "independent-source-review",
+      "program_version": "native-codex-independent-review-20261014"
+    }
+  ]
+}

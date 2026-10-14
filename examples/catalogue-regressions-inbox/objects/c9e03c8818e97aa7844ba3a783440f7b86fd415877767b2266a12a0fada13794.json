@@ -1,0 +1,232 @@
+{
+  "schema_version": "catalogue-independent-source-review/1",
+  "catalog": "innovations",
+  "source_filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 146,
+  "exact_reviewed_path": "innovations-146-reviewed.json",
+  "exact_reviewed_sha256": "a5ae8b413c8e873240b69065044d068bebcadcd95eb5e29ec6ce1a1faa87d782",
+  "frozen_reviewed_path": "frozen-root-innovations-146.json",
+  "independent_author": "catalog_tail_mod3",
+  "origin_author": "root",
+  "version": "root-independence-mod3-innovations-20261014.block3",
+  "harness": "codex",
+  "is_glm_receipt": false,
+  "source_first": true,
+  "full_original_image_review": true,
+  "original_image": "innovations-146-source.png",
+  "original_image_sha256": "6366366a658b215ad4428b019298ecd0d03c7b56cec47be9d91a2e614ce196d7",
+  "own_source_observation": "innovations-146-own-source-observation.json",
+  "checks": {
+    "all_text_and_meaning": false,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": false,
+    "source_provenance": true
+  },
+  "observed_table_count": 0,
+  "observed_row_counts": [],
+  "observed_column_counts": [],
+  "cells_checked": 0,
+  "technical_and_meaning_review": "Полный оригинал изучен до JSON. Все поля, таблицы, марки, числа, единицы, условия, сноски, объединения и пустоты сверены. Свежие6×/12× кропы подтверждают владельцев повторяющихся диаметров, прямые базы лапок, осевые перемычки5 и две реальные пустые ячейки126. Все522 ячейки блока верны. Перечисленные содержательные ошибки требуют отдельной авторской ревизии.",
+  "per_figure_dimension_ownership": [
+    {
+      "figure_index": 0,
+      "source_bbox": [
+        0.34,
+        0.21,
+        0.93,
+        0.375
+      ],
+      "dimensions": [
+        {
+          "literal_label": "Ø380",
+          "actual_target": "Диаметр изолятора между тонкими наружными касательными, не расстояние между экранами",
+          "source_bbox": [
+            0.46,
+            0.236,
+            0.67,
+            0.335
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "На рисунке единица не напечатана; по масштабу не измерено."
+        },
+        {
+          "literal_label": "А / Б",
+          "actual_target": "Направления торцевых изображений",
+          "source_bbox": [
+            0.39,
+            0.25,
+            0.74,
+            0.325
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "На рисунке единица не напечатана; по масштабу не измерено."
+        },
+        {
+          "literal_label": "Серьга СР-12-16",
+          "actual_target": "Левый присоединительный узел",
+          "source_bbox": [
+            0.35,
+            0.27,
+            0.45,
+            0.313
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "На рисунке единица не напечатана; по масштабу не измерено."
+        },
+        {
+          "literal_label": "Ушко У1-12-16",
+          "actual_target": "Правый присоединительный узел",
+          "source_bbox": [
+            0.69,
+            0.214,
+            0.784,
+            0.29
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "На рисунке единица не напечатана; по масштабу не измерено."
+        },
+        {
+          "literal_label": "Звено промежуточное 2ПР-12-1",
+          "actual_target": "Звено справа от ушка перед натяжным зажимом",
+          "source_bbox": [
+            0.7,
+            0.24,
+            0.85,
+            0.3
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "На рисунке единица не напечатана; по масштабу не измерено."
+        },
+        {
+          "literal_label": "Зажим натяжной",
+          "actual_target": "Правая изогнутая трубчатая сборка",
+          "source_bbox": [
+            0.73,
+            0.27,
+            0.92,
+            0.36
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "На рисунке единица не напечатана; по масштабу не измерено."
+        },
+        {
+          "literal_label": "Экран ЭРВ-220/500-3 / Экран ЭРН-220-4",
+          "actual_target": "Левый / правый защитный экран",
+          "source_bbox": [
+            0.34,
+            0.225,
+            0.715,
+            0.375
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "На рисунке единица не напечатана; по масштабу не измерено."
+        }
+      ]
+    },
+    {
+      "figure_index": 1,
+      "source_bbox": [
+        0.35,
+        0.38,
+        0.79,
+        0.555
+      ],
+      "dimensions": [
+        {
+          "literal_label": "А–А: Ø490",
+          "actual_target": "Наружный диаметр кольца ЭРВ",
+          "source_bbox": [
+            0.35,
+            0.39,
+            0.56,
+            0.543
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "На рисунке единица не напечатана; по масштабу не измерено."
+        },
+        {
+          "literal_label": "Б–Б: Ø380",
+          "actual_target": "Диаметр внутренней тонкой окружности изолятора",
+          "source_bbox": [
+            0.56,
+            0.4,
+            0.755,
+            0.505
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "На рисунке единица не напечатана; по масштабу не измерено."
+        },
+        {
+          "literal_label": "R245",
+          "actual_target": "Наружная верхняя дуга экрана ЭРН",
+          "source_bbox": [
+            0.665,
+            0.39,
+            0.78,
+            0.46
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "На рисунке единица не напечатана; по масштабу не измерено."
+        },
+        {
+          "literal_label": "490",
+          "actual_target": "Полная наружная ширина экрана ЭРН",
+          "source_bbox": [
+            0.58,
+            0.45,
+            0.76,
+            0.555
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "На рисунке единица не напечатана; по масштабу не измерено."
+        },
+        {
+          "literal_label": "605",
+          "actual_target": "Полный вертикальный габарит ЭРН",
+          "source_bbox": [
+            0.66,
+            0.39,
+            0.79,
+            0.54
+          ],
+          "arrow_start": "Верхняя наружная точка дуги",
+          "arrow_end": "Нижняя точка центрального окончания",
+          "units": "На рисунке единица не напечатана; по масштабу не измерено."
+        }
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "path": "figures[0].description; figures[0].labels",
+      "finding": "УЧ-12-16 ошибочно; свежий12× оригинал показывает У1-12-16.",
+      "required_correction": "Восстановить цифру1 в марке ушка.",
+      "evidence": "innovations-146-ear-code.png"
+    }
+  ],
+  "nonblocking_observations": [],
+  "uncertainties": [],
+  "verdict": "revise",
+  "reviewed_at": "2026-10-14T18:27:11.154384+03:00",
+  "private_review_artifact_sha256": "39bb625715dab69f9ffd36398bcdd09f894aacb899c3e4b09cc2fd67449afc05",
+  "actual_author_producer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  }
+}

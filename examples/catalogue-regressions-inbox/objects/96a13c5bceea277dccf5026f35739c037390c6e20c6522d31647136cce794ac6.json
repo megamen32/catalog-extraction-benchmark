@@ -1,0 +1,80 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 64,
+  "printed_page": "64",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "innovations-0064-native-candidate.json",
+    "sha256": "bc4c22c0cb8158ae3039844868204fa810f303a86efad99d1dd4253de2b3b2d1",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.3",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "531e9bea963ef7592a9a09035761b155f81fbf1ba43027dc5c7017c55e9693fe",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "bc4c22c0cb8158ae3039844868204fa810f303a86efad99d1dd4253de2b3b2d1",
+      "source_bound_save": true,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 64,
+      "attempt": 2,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "3b4165e5e56d3a8455b883aea55738aa0e06f3159a60ba01bc9d5ccabf1f6d10",
+      "receipt": "calls/e1a01a32a01547e6b8fc8513642ec8c4/result.json",
+      "started_at": 1791938323.1149225,
+      "finished_at": 1791938377.3817203
+    }
+  },
+  "output": {
+    "file": "innovations-0064-reviewed.json",
+    "sha256": "ba3f4ba461dbf9a2275d918e2353ff54c1d56cd79bf2431473c5bb6f1a7ced78"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "ec124c16829c2be0512e73886582bf4da0733b8bcbc628d342678b707c53be57",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      10
+    ],
+    "column_counts": [
+      7
+    ],
+    "cells_checked": 70
+  },
+  "source_findings": [
+    "Лично просмотрен весь оригинал и увеличены оба чертежа. Все 70 ячеек 10×7 совпали. Рисунок 1 относится к первым трём исполнениям каждой группы 110/220, рисунок 2 — к следующим двум. Общая сила 1 кН распространяется на все десять строк; группы длин 3200÷6800/2750/5550 и 5300÷6800/4850/11130 покрывают по пять строк.",
+    "Все десять марок проверены, включая латинскую H внутри каждой марки. Сохранены реальные различия диапазонов 13,0÷40 /13,0÷40,0 и 18,0÷28 /18,0÷28,0. УХЛ 1, ГОСТ 15150, ТУ 3494-020-82442590-2012, назначение, рекомендация, сноски и контакты совпали.",
+    "По выносным линиям обоих рисунков проверены D по образующим проводов, H±15 между их осями, L между внутренними фланцевыми плоскостями, Ø165 по наружным кромкам фланцев. Значения не вычислялись по масштабу."
+  ],
+  "corrections": [
+    "Ø165 исправлен с диаметра тела изолятора на наружный диаметр оконцевательных фланцев; L уточнён между их внутренними плоскостями. У рисунка 2 удалено ложное утверждение об отсутствии болтового прижима: два поперечных крепежа на каждом конце видимы.",
+    "Удалено ложное сообщение об опечатке «протектора»: в оборотах «с применением протектора» и «в случае применения протектора» форма соответствует источнику. Буква H в подписи H±15 сохранена латиницей по исходному текстовому слою; кириллическая Н в табличной шапке сохранена.",
+    "Evidence рисунков расширен вниз на рекомендацию применения протектора, evidence таблицы — на обе сноски. В бренд добавлена видимая русская подпись."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T18:59:40.458103+03:00",
+  "private_original_receipt_sha256": "7a52a763e09ec9e4d155d8e71aa16aa875bdabdc3d93f937378c615d8c7bfe2a"
+}

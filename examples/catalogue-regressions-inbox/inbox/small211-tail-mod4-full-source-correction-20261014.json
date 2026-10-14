@@ -1,0 +1,36 @@
+{
+  "id": "small211-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "small, страница 211: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Malyj-katalog.pdf",
+    "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_page": 211
+  },
+  "review_basis": "[\"Полный оригинал просмотрен до candidate; каждый размер сверён по собственным крупным кропам. Все значения/состояния/единицы/условия и объединения таблиц подтверждены.\", \"Исходные необычные числа и буквенные коды не исправлялись по инженерному ожиданию.\"] Исправления: [\"Исправлены ложный осевой разрез, описание S как зазора и приписанное сечение жилы; размерные выноски связаны с рабочим профилем.\", \"Добавлены полные контекст и source evidence; необычное сочетание усилия/значения и Е213 сохранены, все20 ячеек неизменны.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/15842f68a28837e4b4ec055e9a379941c392a22be0c27c5c027ed3849a70eb14.json",
+      "sha256": "15842f68a28837e4b4ec055e9a379941c392a22be0c27c5c027ed3849a70eb14",
+      "bytes": 11392,
+      "role": "native-candidate",
+      "program_version": "1.4.15"
+    },
+    {
+      "path": "objects/3ee6087105e0dd1d0d3ef0d48733098a682cad085977cf57997e565a41a01936.json",
+      "sha256": "3ee6087105e0dd1d0d3ef0d48733098a682cad085977cf57997e565a41a01936",
+      "bytes": 13115,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-remaining-small-20261014.r4"
+    },
+    {
+      "path": "objects/22712ba042ad17a3ea99b4340f8f6b05cea1826a048c2f67d78efa22cada0789.json",
+      "sha256": "22712ba042ad17a3ea99b4340f8f6b05cea1826a048c2f67d78efa22cada0789",
+      "bytes": 11579,
+      "role": "source-review",
+      "program_version": "tail-mod3-remaining-small-20261014.r4"
+    }
+  ]
+}

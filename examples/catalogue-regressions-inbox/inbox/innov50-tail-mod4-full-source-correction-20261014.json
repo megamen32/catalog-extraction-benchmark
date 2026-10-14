@@ -1,0 +1,36 @@
+{
+  "id": "innov50-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 50: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 50
+  },
+  "review_basis": "Все360ячеек30×12сверены,6групппо5строк,правильныеобъединенияH/L/напряжений,втомчисле1630в120/150И4сохранено,неисправлено подправдоподобие. Всеусловия110–220/до100Гц/−60…+50/УХЛ1,двеТУ2006/2008,триГОСТ/МЭК,четыреоконцевателяиопцияD470при110кВсохранены. Исправления: [\"Верхнее/нижнее отклоненияØ17восстановлены из28×источника как−1,3/0,безперестановки подожидаемыйдопуск.\", \"Н±5привязана косиверхнегоотверстияиопорномууровнюпестика;Ø65/90принадлежат рёбрам,нестволу,Ø165кольцевымэлементам.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/14ef1752d67a42ea1e5394f2be95fee61dd7b3228210712fff84b9d6a855f362.json",
+      "sha256": "14ef1752d67a42ea1e5394f2be95fee61dd7b3228210712fff84b9d6a855f362",
+      "bytes": 62953,
+      "role": "native-candidate",
+      "program_version": "1.5.3"
+    },
+    {
+      "path": "objects/99fa684bc8d46910753e9a802dbe6155904053544d39a6392ad298ece245cf2c.json",
+      "sha256": "99fa684bc8d46910753e9a802dbe6155904053544d39a6392ad298ece245cf2c",
+      "bytes": 59655,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/10dd0ffea6c712f7c8860365b477c52d053908b74e342329caf56834ddfa7263.json",
+      "sha256": "10dd0ffea6c712f7c8860365b477c52d053908b74e342329caf56834ddfa7263",
+      "bytes": 3359,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

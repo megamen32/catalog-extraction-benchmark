@@ -1,0 +1,157 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "small",
+  "source_filename": "Malyj-katalog.pdf",
+  "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+  "physical_page": 179,
+  "printed_page": "178",
+  "status": "awaiting_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod3",
+    "task": "/root/catalog_tail_mod3",
+    "version": "tail-mod3-remaining-small-20261014.r4",
+    "model_id": "Current native Codex worker session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "small-179-candidate.json",
+    "sha256": "ebcd2724a4f76ffe42bc0b9a1a036296ca8d5ab8b95a74019495a75a10c4d1af",
+    "canonical_sha256": "16101e26a997f023b148ccbff8ad556001f3cb846c16425127166f7213a271b7",
+    "producer": {
+      "program": {
+        "package_version": "1.4.15",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+        "python_version": "3.12.13",
+        "components": {
+          "agent_logic": {
+            "package_version": "1.4.2",
+            "git_revision": null,
+            "dirty": null,
+            "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+            "python_version": "3.12.13"
+          },
+          "catalog_tools": {
+            "package_version": "1.4.8",
+            "git_revision": null,
+            "dirty": null,
+            "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+            "python_version": "3.12.13"
+          },
+          "legacy_skills": {
+            "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+            "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+          },
+          "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+          "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+          "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+          "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+        }
+      },
+      "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+      "physical_page": 179,
+      "attempt": 2,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf",
+      "artifact_sha256": "ebcd2724a4f76ffe42bc0b9a1a036296ca8d5ab8b95a74019495a75a10c4d1af",
+      "started_at": 1791894813.3780189,
+      "finished_at": 1791894872.5277264,
+      "provider_rate_limit_events": 0,
+      "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46",
+      "status": "receipt_verified",
+      "source_bound_save": true,
+      "receipt": ".tmp/full-digitization/staged-best-v1.4.8/small/page-0179/calls/cd0d2ac5526540519d0dadb4045f1db7/result.json",
+      "frozen_receipt": "small-179-native-receipt.json",
+      "frozen_receipt_sha256": "62000bbaad602d442d9d8e10139001d0b50b3e9f93b87b39338b9c34f72ae7d9"
+    }
+  },
+  "output": {
+    "file": "small-179-reviewed.json",
+    "sha256": "072fc3bceea399e76d96a8a3ac98d7c55cde78dcdc50376820cf3e977d66aa7c",
+    "canonical_sha256": "afda00c0782bdeabd0beefd0c653b65b41850f045aef32125fed5ff565dbf5e5"
+  },
+  "full_original_image_review": true,
+  "original_image": "small-179.png",
+  "original_image_sha256": "954ae11f7a80f1fcfffcabd16e761363fed6ae471e27a51a6bbaf8070941a553",
+  "own_source_observation": "small-179-own-source-observation.json",
+  "own_source_observation_sha256": "edbc813840840389b9ed479069be6e1e48e8231c4623622136071779173cc22a",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "page_content_schema": true
+  },
+  "tables": {
+    "row_counts": [
+      6
+    ],
+    "column_counts": [
+      7
+    ],
+    "cells_checked": 42
+  },
+  "source_findings": [
+    "Полный оригинал просмотрен до candidate; каждый размер сверён по собственным крупным кропам. Все значения/состояния/единицы/условия и объединения таблиц подтверждены.",
+    "Исходные необычные числа и буквенные коды не исправлялись по инженерному ожиданию."
+  ],
+  "corrections": [
+    "H задана между центрами проводов, L ограничена реальными торцами корпуса, условный разрыв отделён от разреза/зазора.",
+    "Внесён полный source context и удалена внутренняя ссылка на парсер;42 ячейки неизменны, необычные IV/4.0 сохранены."
+  ],
+  "complete_leaf_diff": [
+    {
+      "path": ".figures[0].description",
+      "before": "Продольный вид межфазной изолирующей распорки РМИ: симметричные крайние концевые части с поперечными штриховыми линиями (центрами) и выносными размерами диаметра провода D слева и справа; в середине — гофрированный изоляционный корпус с крупными и промежуточными шейками, показанными в разрезе разрывом. Сверху над изоляционной частью проведены две размерные линии: наружная Н±5 на всю длину изделия и внутренняя L на изоляционную длину.",
+      "after": "Рисунок 1: ребристый изоляционный корпус с концевыми шарнирными деталями и двумя плашечными зажимами вокруг проводов. Провода показаны заштрихованными круглыми поперечными сечениями у краёв. H±5 — между центрами этих сечений проводов, не полный наружный габарит зажимов. L — между отмеченными торцами изоляционного корпуса, без концевых шарниров. D — диаметр провода на каждом конце. Волнистый условный разрыв в середине корпуса не означает зазор или изображённый разрез всего изделия."
+    },
+    {
+      "path": ".page_context",
+      "before": null,
+      "after": {
+        "kind": "catalogue_product_data",
+        "summary": "РМИ10–35 кВ для изолированной фиксации проводов и тросов в пролёте, ограничения колебаний и сохранения изоляционных расстояний. Частота до100 Гц, температура−60…+50°С, УХЛ1 по ГОСТ15150, ТУ3494-011-82442590-2009. Рисунок 1 показывает плашечные концевые зажимы и размеры H/L/D; таблица6×7 связывает параметры шести марок с тремя диапазонами провода Р/Р1/Р2. Аттестация ПАО «Россети» заявлена на листе.",
+        "source_evidence": [
+          {
+            "kind": "catalogue_product_data",
+            "box": [
+              0.05,
+              0.01,
+              0.95,
+              0.985
+            ],
+            "observation": "Полный исходный лист просмотрен до candidate и затем сверён с собственными крупными кропами: все 42 ячеек, состояния, объединения, шапки, единицы и условия, марки, подписи, размерные базы, бренды, контакты и печатный номер. Необычные печатные значения сохранены без инженерной нормализации.",
+            "transcription": "literal"
+          }
+        ]
+      }
+    },
+    {
+      "path": ".source_notes[2]",
+      "before": "Заголовок колонки длины пути тока утечки не содержит символа D; лишний «D» в выводе парсера отброшен по изображению источника.",
+      "after": "Сноска «* В случае применения протектора учитывать его диаметр.» печатается под таблицей и вынесена в текстовый блок, а не в строку таблицы."
+    },
+    {
+      "path": ".source_notes[3]",
+      "before": "Сноска «* В случае применения протектора учитывать его диаметр.» печатается под таблицей и вынесена в текстовый блок, а не в строку таблицы.",
+      "after": "В абзаце НАЗНАЧЕНИЕ температурный диапазон набран в источнике со средним тире: «от –60 °С до +50 °С»."
+    },
+    {
+      "path": ".source_notes[4]",
+      "before": "В абзаце НАЗНАЧЕНИЕ температурный диапазон набран в источнике со средним тире: «от –60 °С до +50 °С».",
+      "after": "СЗIV в строке РМИ16/20-550-Р(Р1, Р2)-3 сохранена как напечатано, несмотря на суффикс3. Все 42 значения и состояния проверены; D содержит три разных диапазона с кодами Р/Р1/Р2."
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independent_review_required": true,
+  "unresolved_issues": [],
+  "acceptance_note": "No self PASS. Corrected author content and engineering dimension ownership require independent source review. Frozen native bytes and actual receipt retained separately.",
+  "completed_at": "2026-10-14T19:17:26.314358+03:00",
+  "private_original_receipt_sha256": "0839dbc49c4da4a4b573ec5e4f07237443f136f687a63e2db03bc74ca2750d51"
+}

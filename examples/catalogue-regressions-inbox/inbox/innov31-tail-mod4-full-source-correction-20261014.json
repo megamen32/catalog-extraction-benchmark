@@ -1,0 +1,36 @@
+{
+  "id": "innov31-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 31: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 31
+  },
+  "review_basis": "Все96ячеек16×6сверены,реальные16/20/16Аи19Nповторы,печатныепрочерки160/210длявилки/овала,точки/запятые17,5сохранены. ОбщиеГОСТ27396/11359/IEC60120/61466-1и7преимуществ/110кВ2раза/масса7–10/труд3/доставка7безизменений. Исправления: [\"Исправлены выдуманнаянарезкапроушины/наввинчиваниепестика,вилкаSзазор,овалØDсечениепруткаинеотверстие,В/Sвнутренниеразмеры.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/14ebcf1294b8e665b0718dba848b7ac949ef177b87f2c485c8ea00780050ce58.json",
+      "sha256": "14ebcf1294b8e665b0718dba848b7ac949ef177b87f2c485c8ea00780050ce58",
+      "bytes": 24148,
+      "role": "native-candidate",
+      "program_version": "1.4.15"
+    },
+    {
+      "path": "objects/8e9d93dce3e4b3fab5b8f9a5ffa02e702dbde3738c7a81da8c8838430209682f.json",
+      "sha256": "8e9d93dce3e4b3fab5b8f9a5ffa02e702dbde3738c7a81da8c8838430209682f",
+      "bytes": 25176,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/bef2bd50fd35ce4e474167799f8658d400de0f82737d4bd99fdff56eae0cb082.json",
+      "sha256": "bef2bd50fd35ce4e474167799f8658d400de0f82737d4bd99fdff56eae0cb082",
+      "bytes": 4379,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

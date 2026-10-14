@@ -1,0 +1,157 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "small",
+  "source_filename": "Malyj-katalog.pdf",
+  "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+  "physical_page": 180,
+  "printed_page": "179",
+  "status": "awaiting_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod3",
+    "task": "/root/catalog_tail_mod3",
+    "version": "tail-mod3-remaining-small-20261014.r4",
+    "model_id": "Current native Codex worker session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "small-180-candidate.json",
+    "sha256": "600c8cfd2a6ce42b061d91bdc956b9fc540a3739a45762187f0730b02ddde66d",
+    "canonical_sha256": "c30bfcc386789da64716d35a7dc95dcf842baafb41bc3ec2edf7107dab1fcebd",
+    "producer": {
+      "program": {
+        "package_version": "1.4.15",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+        "python_version": "3.12.13",
+        "components": {
+          "agent_logic": {
+            "package_version": "1.4.2",
+            "git_revision": null,
+            "dirty": null,
+            "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+            "python_version": "3.12.13"
+          },
+          "catalog_tools": {
+            "package_version": "1.4.8",
+            "git_revision": null,
+            "dirty": null,
+            "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+            "python_version": "3.12.13"
+          },
+          "legacy_skills": {
+            "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+            "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+          },
+          "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+          "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+          "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+          "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+        }
+      },
+      "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+      "physical_page": 180,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf",
+      "artifact_sha256": "600c8cfd2a6ce42b061d91bdc956b9fc540a3739a45762187f0730b02ddde66d",
+      "started_at": 1791888686.7434063,
+      "finished_at": 1791888742.8852258,
+      "provider_rate_limit_events": 0,
+      "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46",
+      "status": "receipt_verified",
+      "source_bound_save": true,
+      "receipt": ".tmp/full-digitization/staged-best-v1.4.8/small/page-0180/calls/334c6a3e623a48f6b03219d62b63dca8/result.json",
+      "frozen_receipt": "small-180-native-receipt.json",
+      "frozen_receipt_sha256": "24d6c1d8dde17e841479857e26ed621a66bbacd58b75adbe843ecaed9dba2763"
+    }
+  },
+  "output": {
+    "file": "small-180-reviewed.json",
+    "sha256": "3e5d64f9731000c10e6ee80615dc582ad5778155d3b3ba814029729bea416eba",
+    "canonical_sha256": "3ae91c7983829a5bfaa19e0237a70c32563166e14ecb344be8498943475e063c"
+  },
+  "full_original_image_review": true,
+  "original_image": "small-180.png",
+  "original_image_sha256": "54470341a2cf5831f2c605099f9abfcabc5eb3f3863c030ba9fe40cef6bd4c1d",
+  "own_source_observation": "small-180-own-source-observation.json",
+  "own_source_observation_sha256": "7971dac13336eb1a9361a98b8d477771291f15253a1702012b1a455ff4dbde47",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "page_content_schema": true
+  },
+  "tables": {
+    "row_counts": [
+      12
+    ],
+    "column_counts": [
+      7
+    ],
+    "cells_checked": 84
+  },
+  "source_findings": [
+    "Полный оригинал просмотрен до candidate; каждый размер сверён по собственным крупным кропам. Все значения/состояния/единицы/условия и объединения таблиц подтверждены.",
+    "Исходные необычные числа и буквенные коды не исправлялись по инженерному ожиданию."
+  ],
+  "corrections": [
+    "Убраны реальный зазор и недоказанный подсчёт рёбер; H/L получили действительные базы.",
+    "Убрана внутренняя ссылка на парсер, добавлен source context;84 ячейки неизменны."
+  ],
+  "complete_leaf_diff": [
+    {
+      "path": ".figures[0].description",
+      "before": "Чертёж межфазной изолирующей распорки типа РМИ, один симметричный вид сбоку: в центре — стойка с изолятором, имеющим 4 крупных и 2 промежуточных ребра (юбки) и разрыв (зазор) в средней части; материал изолятора на странице не указан. С обоих торцов стойки шарнирно (через отверстие) присоединены металлические кронштейны-опоры, каждый из которых крепится к проводу (провод показан штриховыми линиями обрыва) двумя болтами — всего 4 болтовых крепления (2 слева, 2 справа). Размерные обозначения: H±5 (общая строительная длина, верхний размерный размер между крайними опорами), L (изоляционная длина, размерный размер над изолятором), D (диаметр провода, два одинаковых размера у левого и правого концов).",
+      "after": "Рисунок 2: один ребристый изоляционный корпус с концевыми шарнирами и зажимами на вертикально изображённых проводах. H±5 — расстояние между осями двух проводов, не полный наружный размер креплений. L — между отмеченными торцевыми плоскостями изоляционного корпуса. Два D — наружный диаметр каждого провода. Волнистая линия в середине корпуса обозначает условный разрыв, а не реальный зазор или стык. Два болта на каждом концевом зажиме показаны отдельно от шарнирного соединения. Материал корпуса на листе не подписан. Рекомендован протектор."
+    },
+    {
+      "path": ".page_context",
+      "before": null,
+      "after": {
+        "kind": "catalogue_product_data",
+        "summary": "Межфазные изолирующие распорки РМИ10–35 кВ, рисунок 2 с единым изоляционным корпусом и концевыми зажимами. Таблица12×7 даёт отдельные H/L/путь утечки/СЗ/силу на сжатие и две группы диапазонов провода. Протектор рекомендован; звёздочка D* на этом листе не расшифрована. Заявлена аттестация ПАО «Россети».",
+        "source_evidence": [
+          {
+            "kind": "catalogue_product_data",
+            "box": [
+              0.05,
+              0.01,
+              0.95,
+              0.985
+            ],
+            "observation": "Полный исходный лист просмотрен до candidate и затем сверён с собственными крупными кропами: все 84 ячеек, состояния, объединения, шапки, единицы и условия, марки, подписи, размерные базы, бренды, контакты и печатный номер. Необычные печатные значения сохранены без инженерной нормализации.",
+            "transcription": "literal"
+          }
+        ]
+      }
+    },
+    {
+      "path": ".source_notes[4]",
+      "before": "В исходном PDF отсутствуют подписи «Рис. 3» и «L/2», которые вернул парсер Docling для этой страницы.",
+      "after": "Звёздочка в заголовке «Диаметр провода D*, мм» и значения диапазонов приведены буквально, сноска к звёздочке на странице отсутствует."
+    },
+    {
+      "path": ".source_notes[5]",
+      "before": "Звёздочка в заголовке «Диаметр провода D*, мм» и значения диапазонов приведены буквально, сноска к звёздочке на странице отсутствует.",
+      "after": "Материал изолятора и любые иные технические характеристики, кроме перечисленных на странице, на рисунке не указаны."
+    },
+    {
+      "path": ".source_notes[6]",
+      "before": "Материал изолятора и любые иные технические характеристики, кроме перечисленных на странице, на рисунке не указаны.",
+      "after": "H±5 на рисунке имеет базы по осям проводов. Все 84 значения/состояния двух групп по шесть строк сохранены; D* не получил выдуманную сноску на этом листе."
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independent_review_required": true,
+  "unresolved_issues": [],
+  "acceptance_note": "No self PASS. Corrected author content and engineering dimension ownership require independent source review. Frozen native bytes and actual receipt retained separately.",
+  "completed_at": "2026-10-14T19:17:26.233739+03:00",
+  "private_original_receipt_sha256": "ff9b4e26b35adc1bab8a0c87f443511e3ab9411c76f3cb1a74230ae0cad0e757"
+}

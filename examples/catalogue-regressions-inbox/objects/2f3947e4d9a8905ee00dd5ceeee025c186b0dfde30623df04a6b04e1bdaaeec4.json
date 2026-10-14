@@ -1,0 +1,75 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 134,
+  "printed_page": "134",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r2",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "780249711057d1ef9aefce6df65c3653c3a6af567003cd2440da2573f891db82",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.4",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "03d94c1397ffd39d50a89db0b4d9ae29d17f13e5293b2fcbda6e8b4ec34d8c0c",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "780249711057d1ef9aefce6df65c3653c3a6af567003cd2440da2573f891db82",
+      "source_bound_save": true,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 134,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4d5faa2b87b39793b899bfd40ccb8b7b4ff5223f5cfe2aed7fb1c9e3580c2e6b",
+      "receipt": "calls/b9c73cb4677b436884f196dd75678b37/result.json",
+      "started_at": 1791941004.0842829,
+      "finished_at": 1791941072.0313418
+    }
+  },
+  "output": {
+    "file": "innovations-134-reviewed-r2.json",
+    "sha256": "fb9fb121e6328b0cf6a7280759851c9c127b0e53918d3db5425f44dae8ce4b1e"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "9f6bca4620876a5b88079fcaf97cbe4e75148311357ba271471e9343ca2c1168",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      18
+    ],
+    "column_counts": [
+      9
+    ],
+    "cells_checked": 162
+  },
+  "source_findings": "Все162 ячейки18×9, восемь объединённых типоразмеров и18сечений совпали с оригиналом. Подтверждены разные300/450/400/500сечения,массы14,8/17,9/21,1/21/24,3 и условиеL=7м. Исходные values/state таблицы неизменны;правка только метаданных единицы и смысла рисунка.",
+  "corrections": [
+    "Исправлены спиральный/стропильный и клиносочленённый, разделены комплектные ШРЦ и внешние натяжные зажимы.",
+    "РазмерамD/d/S/L₁/L₂/5/L даны реальные детали и базы; восстановлена явная общая единица мм из шапки таблицы.",
+    "Удалено противоречие summary о неразъёмном прессовом монтаже и общей некомплектности зажимов: комплектные ШРЦ разъёмны,внешние натяжные вне комплекта.",
+    "Размер5 уточнён как штрихованная осевая перемычка,не пустой зазор."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T18:25:48.818270+03:00",
+  "supersedes_output_sha256": "aca2d0758ad656a8a2f275c1e1c3912b421ec1f624f22709ca277e65022265bb",
+  "private_original_receipt_sha256": "a08d4ce61bfd95b7491d5262eeeee33d875c80994da7a2fc269a3b591747cbff"
+}

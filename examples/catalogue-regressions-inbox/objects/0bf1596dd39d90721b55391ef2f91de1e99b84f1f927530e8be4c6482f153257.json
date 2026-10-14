@@ -1,0 +1,73 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 10,
+  "printed_page": "10",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r2",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "b943ae80c25bb0269979516be30c2d322028ed94ecdb94478b79b7cc67abb23d",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.23",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "9149f67edeac9814da5291cad899361e9512ccff01cd4d049e4d5f1a28fa8fdd",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "b943ae80c25bb0269979516be30c2d322028ed94ecdb94478b79b7cc67abb23d",
+      "source_bound_save": true,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 10,
+      "attempt": 7,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "867b3f790ecc8921609cf97aa738eda3b36ee55598d694455416842fad03be98",
+      "receipt": "calls/23bf39e47b4b4f7b94f25cdd665c569d/result.json",
+      "started_at": 1791989680.6633503,
+      "finished_at": 1791989759.2931013
+    }
+  },
+  "output": {
+    "file": "innovations-10-reviewed-r2.json",
+    "sha256": "568ba763216c7aa9bc90a4e817b47e6a3bc013891e25ecab535b0049733a7f22"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "f927e88d07b121df794d57061cb54bed299b1505d418a5cb98a633cbffb163bf",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      16
+    ],
+    "column_counts": [
+      3
+    ],
+    "cells_checked": 48
+  },
+  "source_findings": "Весьоригинал10прочитан.16межгосударственных/8национальных/13международныхкодастандартовсверены,48табличныхячеекснастоящимипустотамисохранены. ВсеисторическиеутверждениязаводаоРоссети/ФСКЕЭС,0,4кВ,2013,ISO9001-2015ипоставкахпереданыкаксловаизисточника. Шестьфотографий,тригруппысертификатов/аттестат,МЗВА/высоковольтнойнаписаниесверены. Неразличимыемикрореквизитыиллюстративныхбланковнеугадываются.",
+  "corrections": [
+    "Из описания сертификата удалено неподтверждённое утверждение о государственных знаках качества; основнойтекст/кодыстандартовсохранены.",
+    "Восстановлен видимый печатный номер10/нижнийфутер,пропущенныйпервымавтором;оригиналповторнопросмотрен."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T19:02:11.466838+03:00",
+  "supersedes_output_sha256": "10726a76db4f7118140d9a46cfd104ede6bb5deefb44849174c084952d291fa8",
+  "private_original_receipt_sha256": "fe42db2af210021301191d5f1ec46f72b6c35b85c0edaa4e3d9c5204b98b11c7"
+}

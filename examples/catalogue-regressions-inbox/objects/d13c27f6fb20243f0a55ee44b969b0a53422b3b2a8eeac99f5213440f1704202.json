@@ -1,0 +1,85 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 128,
+  "printed_page": "128",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "innovations-0128-native-candidate.json",
+    "sha256": "b745d7d1c6660ec8225bb4a1dc42ce3fac47772327f39355c9edf86b9911a047",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.4",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "03d94c1397ffd39d50a89db0b4d9ae29d17f13e5293b2fcbda6e8b4ec34d8c0c",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "b745d7d1c6660ec8225bb4a1dc42ce3fac47772327f39355c9edf86b9911a047",
+      "source_bound_save": true,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 128,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4d5faa2b87b39793b899bfd40ccb8b7b4ff5223f5cfe2aed7fb1c9e3580c2e6b",
+      "receipt": "calls/10007ae36d8d4089b39bf461f3b3f946/result.json",
+      "started_at": 1791940749.2251835,
+      "finished_at": 1791940843.0819016
+    }
+  },
+  "output": {
+    "file": "innovations-0128-reviewed-r3.json",
+    "sha256": "6cec78803947cbdb772326dd90a0da04116393fd7e6cb199270d8eeef439c131"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "64c19cdf98e1163c8a640323117e81750636ae13b4848521bc1fb4952c5484d7",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      18
+    ],
+    "column_counts": [
+      11
+    ],
+    "cells_checked": 198
+  },
+  "source_findings": [
+    "Верхняя граница evidence[1] расширена до .54, включая первую строку шапки таблицы около .545. Верная геометрия L₄ из r2 полностью сохранена.",
+    "Полные оригиналы ранее лично проверены; точечная ревизия повторно сопоставлена с их сохранёнными изображениями. Таблицы и числовые факты не менялись."
+  ],
+  "corrections": [
+    "Верхняя граница evidence[1] расширена до .54, включая первую строку шапки таблицы около .545. Верная геометрия L₄ из r2 полностью сохранена."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T15:30:47.071474+00:00",
+  "previous_reviewed_output": {
+    "file": "innovations-0128-reviewed-r2.json",
+    "sha256": "18c5468cec47c13500ee93ef05c1d2c24357d914d627468a6b9d5660906c3e11"
+  },
+  "supersedes_source_review": {
+    "file": "innovations-0128-source-review-r2.json",
+    "sha256": "6a0bb8d8b7caf1c3b2d67b01af8076d6a9bae9cb90d0797d7619d99a5164fef7"
+  },
+  "private_original_receipt_sha256": "859bde206516c8ebf0ec0d2991bbc1e7240f2a47516897e863a861f16bd7a45b"
+}

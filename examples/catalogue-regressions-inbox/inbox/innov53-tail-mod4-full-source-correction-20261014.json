@@ -1,0 +1,36 @@
+{
+  "id": "innov53-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 53: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 53
+  },
+  "review_basis": "Все12ячеек4×3иобеполныеподписи:24/33/24/33,масса0,5безнеболее;РИ2.1ЛК70/120сэкранами,2.2ЛК70/120модИДи160сэкранами;110кВивыше/ТУ2010. Исправления: [\"Устранены выдуманныевтулка/кольцевоеотверстие;Ø130наружныйконтур,276отосикрепления,неполнаядлина.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/838f086d32071d44fed33f7bb76e2ef3a9662a7a2fb90d61b8aef741b1389b2e.json",
+      "sha256": "838f086d32071d44fed33f7bb76e2ef3a9662a7a2fb90d61b8aef741b1389b2e",
+      "bytes": 9369,
+      "role": "native-candidate",
+      "program_version": "1.4.15"
+    },
+    {
+      "path": "objects/a9f966e29a18982730d134adec86ba33172368ef8d7b2937382e1c417e389dca.json",
+      "sha256": "a9f966e29a18982730d134adec86ba33172368ef8d7b2937382e1c417e389dca",
+      "bytes": 9947,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/5b03423183bb993546259c72c6f2f069a89487eb0b57a9086e7f5a2fb974e222.json",
+      "sha256": "5b03423183bb993546259c72c6f2f069a89487eb0b57a9086e7f5a2fb974e222",
+      "bytes": 4177,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "innov63-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 63: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 63
+  },
+  "review_basis": "Все48ячеек8×6сверены:950–2500/1270–2500/1270–3000/1450–3000,Lтире/370/370/770,утечка730/1400/1400/2340дважды,сжатие1,0всем,диапазоныП1/П2/П3/ТУ2009/сноскизаказчикаипротектора. Исправления: [\"Hуточнён как межосевое крайнихпроводов;Ø90рёбра,Dпровод,разрывыусловные.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/9341abb33dfee46b31ad978266fea76b51a9067e21011a0c1777bb116480e61f.json",
+      "sha256": "9341abb33dfee46b31ad978266fea76b51a9067e21011a0c1777bb116480e61f",
+      "bytes": 12991,
+      "role": "native-candidate",
+      "program_version": "1.4.15"
+    },
+    {
+      "path": "objects/b4f5542adc749d84bf3cf33b6e8fd1b9e72ad2c0f5748c9f8c36b20f826f4cca.json",
+      "sha256": "b4f5542adc749d84bf3cf33b6e8fd1b9e72ad2c0f5748c9f8c36b20f826f4cca",
+      "bytes": 14019,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/c4a703d3855d30d7accc6f32c46a1c9774f6358aea3c18ea32f6e1d4e5599a88.json",
+      "sha256": "c4a703d3855d30d7accc6f32c46a1c9774f6358aea3c18ea32f6e1d4e5599a88",
+      "bytes": 4181,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

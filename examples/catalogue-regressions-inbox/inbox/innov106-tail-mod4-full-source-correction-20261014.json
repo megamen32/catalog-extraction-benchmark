@@ -1,0 +1,36 @@
+{
+  "id": "innov106-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 106: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 106
+  },
+  "review_basis": "Все100значений/state10×10сохранены,включаянастоящуюнеобычную70/72,масс5безвыдуманногодесятичногоразряда,125/26,5/161длявсехтрёхстроксреднейгруппы. Исправления: [\"Ложная неизвестная позиция5 разрешена как настоящий осевой размер изоляционной перемычки; исправлены базыL₃ и принадлежностьdвкладышу.\", \"Оба конца одногошлейфа и реальные направления отделены от двухзеркальныхвидов.\", \"ДляL₁/L₂/L₃/D/d восстановлена общая напечатаннаяединицаммизшапки.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/a5cc63486f99260d5524885d6f68efe3ec249fa773d19ec1c0d6c0c75bc8a3c8.json",
+      "sha256": "a5cc63486f99260d5524885d6f68efe3ec249fa773d19ec1c0d6c0c75bc8a3c8",
+      "bytes": 25279,
+      "role": "native-candidate",
+      "program_version": "1.5.3"
+    },
+    {
+      "path": "objects/7cc8c2dabe30720f54ad8a9e81bb2d59c3ab1d6d12bffe6fd8c7c9e92e48d6b4.json",
+      "sha256": "7cc8c2dabe30720f54ad8a9e81bb2d59c3ab1d6d12bffe6fd8c7c9e92e48d6b4",
+      "bytes": 23012,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/ef11ab4c9a10b8beb1e04d20fc1c0b03e65db0e453a9d5f2d736aabe915be6ba.json",
+      "sha256": "ef11ab4c9a10b8beb1e04d20fc1c0b03e65db0e453a9d5f2d736aabe915be6ba",
+      "bytes": 3310,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

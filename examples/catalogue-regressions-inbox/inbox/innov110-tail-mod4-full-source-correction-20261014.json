@@ -1,0 +1,36 @@
+{
+  "id": "innov110-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 110: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 110
+  },
+  "review_basis": "Все81ячейки9×9,группы120/19и120/27,150/19/24/34сохранены.45/120,50/125,70/135,75/145,90/150,95/160имассы2,1/2,5/3,4/4,1/4,95/5,65проверены. Исправления: [\"D/d восстановлены как наружный диаметр/внутренний проход,реальные базыL₁/L₂/5 и дугаL без выдуманнойCL.\", \"Отделены комплектные втулки шлейфа от некомплектных внешних натяжных зажимов.\", \"По собственному7×чертежу верхняя базаL₂ перенесена с наружного уступа на фактическую отдельную внутреннюю плоскость втулки.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/cc5a5ecbe0f22f71933e039ede53ed3b251519d2939944ee360811eb9316d72a.json",
+      "sha256": "cc5a5ecbe0f22f71933e039ede53ed3b251519d2939944ee360811eb9316d72a",
+      "bytes": 22286,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/0c83c8bf1b20040d65ab03344f370fb3525b5ee7467dde840309422c260ed570.json",
+      "sha256": "0c83c8bf1b20040d65ab03344f370fb3525b5ee7467dde840309422c260ed570",
+      "bytes": 20723,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r2"
+    },
+    {
+      "path": "objects/3ccbd3411e230ae079be9090250bfe1e7b902d015b074d1f59ae9cfaf161128e.json",
+      "sha256": "3ccbd3411e230ae079be9090250bfe1e7b902d015b074d1f59ae9cfaf161128e",
+      "bytes": 3375,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r2"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "small100-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "small, страница 100: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Malyj-katalog.pdf",
+    "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_page": 100
+  },
+  "review_basis": "[\"Полный оригинал просмотрен до candidate, затем собственные крупные кропы текста и каждого чертежа. Все подписи и базы проверены индивидуально.\", \"Табличные значения/состояния сохранены без изменений.\"] Исправления: [\"Исправлены шапками/подвесок и производитель ЧЭМЗ, неверные геометрические базы H у СРС/СРД.\", \"d/b и H/H₁/H₂/В связаны с правильными деталями; фото не приписано конкретному СР-12-16.\", \"Удалено ложное примечание о пустой строке и исправлены области source evidence/printed_page. Все69 ячеек прежние.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/90f6a44fd8c584ca9dc0abf4f2f8a3b5ef172716667c1e95851f755682f3ce7e.json",
+      "sha256": "90f6a44fd8c584ca9dc0abf4f2f8a3b5ef172716667c1e95851f755682f3ce7e",
+      "bytes": 21306,
+      "role": "native-candidate",
+      "program_version": "1.5.23"
+    },
+    {
+      "path": "objects/a25a808c2acc9d31014f62947c5cea385cc29f970ab460cc7ffa1a3d318e3dc2.json",
+      "sha256": "a25a808c2acc9d31014f62947c5cea385cc29f970ab460cc7ffa1a3d318e3dc2",
+      "bytes": 21172,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-remaining-small-20261014.r3"
+    },
+    {
+      "path": "objects/ddb376d1a49345691b672b7dce5ebc497787e3737edb2c2e0431b0c34f35806e.json",
+      "sha256": "ddb376d1a49345691b672b7dce5ebc497787e3737edb2c2e0431b0c34f35806e",
+      "bytes": 18595,
+      "role": "source-review",
+      "program_version": "tail-mod3-remaining-small-20261014.r3"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "innov182-tail-mod4-full-source-correction-20261014-revision-02abff6494",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 182: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 182
+  },
+  "review_basis": "Все252ячейки28×9сверены:14паркорпус/втулка,всеприменимыемаркиАС/матрицы/массыповторены,тиреL1втулокреальны;330-1Бс300/39и300/48реальнаямарка,205/27в1Бреально. Заголовокпреимуществбуквально«натяжных»,хотястраницасоединительных—сохранён. Исправления: [\"ИсправленонаправлениеопрессованияотцентракконцамидействительныебазыL1;восстановленыммв4колонках/печатный182/МЗВА.\", \"Отозвано ошибочнорасширенноенаименованиепроизводителя:собственный6×футербуквальноООО«МЗВА»,безЧЭМЗ.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/8b3714176fb3d0427e95a7595ada4d8a2995096a099bfa27d4912661ff77294a.json",
+      "sha256": "8b3714176fb3d0427e95a7595ada4d8a2995096a099bfa27d4912661ff77294a",
+      "bytes": 48233,
+      "role": "native-candidate",
+      "program_version": "1.5.23"
+    },
+    {
+      "path": "objects/02abff6494030f68f940a415aa2689c1efe7a0493953782f6ca372a7482505a8.json",
+      "sha256": "02abff6494030f68f940a415aa2689c1efe7a0493953782f6ca372a7482505a8",
+      "bytes": 45381,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r2"
+    },
+    {
+      "path": "objects/64586e94e977d6db66174cf0d7646524506905218663d04365548113f04655af.json",
+      "sha256": "64586e94e977d6db66174cf0d7646524506905218663d04365548113f04655af",
+      "bytes": 3464,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r2"
+    }
+  ]
+}

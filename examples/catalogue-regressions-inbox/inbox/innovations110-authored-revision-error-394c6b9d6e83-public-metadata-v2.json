@@ -1,0 +1,37 @@
+{
+  "id": "innovations110-authored-revision-error-394c6b9d6e83-public-metadata-v2",
+  "status": "pending_adjudication",
+  "category": "independent-review-catches-authored-error",
+  "title": "innovations,страница110:независимая проверка исправила ошибку автора",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 110
+  },
+  "review_basis": "[{\"path\": \"figures[0].description\", \"actual\": \"Верхняя база L₂ — отдельная плоскость внутри втулки, выше её нижнего торца.\", \"incorrect\": \"От этого нижнего уступа.\", \"source_bbox\": [0.606, 0.32, 0.758, 0.429], \"evidence\": \"innovations-110-joint.png\"}] Фактический автор {\"harness\": \"codex\", \"session_id\": \"01a12c30-e58f-7861-8a2d-966c92630163\", \"version\": \"root-tail-source-review-2026-10-14.r1\", \"model_id\": \"Current native Codex session; exact provider identifier not exported.\"}. Сохранены точные ошибочные авторские байты и новая source-corrected версия; это НЕ результат MiniMax/GLM и не автоматическое золото.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/394c6b9d6e83b8570140f4a07f296a70358dd674239598fc82ee15f1c7916a30.json",
+      "sha256": "394c6b9d6e83b8570140f4a07f296a70358dd674239598fc82ee15f1c7916a30",
+      "bytes": 20340,
+      "role": "actual-authored-failure",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/0c83c8bf1b20040d65ab03344f370fb3525b5ee7467dde840309422c260ed570.json",
+      "sha256": "0c83c8bf1b20040d65ab03344f370fb3525b5ee7467dde840309422c260ed570",
+      "bytes": 20723,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r2"
+    },
+    {
+      "path": "objects/4a9d5ebe41f8890824c3abf5ab71d312860bcc07f25607d1c2c96ef9d7f33308.json",
+      "sha256": "4a9d5ebe41f8890824c3abf5ab71d312860bcc07f25607d1c2c96ef9d7f33308",
+      "bytes": 5365,
+      "role": "independent-source-review",
+      "program_version": "native-codex-independent-review-20261014"
+    }
+  ],
+  "private_prepublication_case_sha256": "996cfa674f78110fe645f3e6a2b0746091ef9954eac042aa2200aa6382272bef"
+}

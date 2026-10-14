@@ -1,0 +1,36 @@
+{
+  "id": "innov114-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 114: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 114
+  },
+  "review_basis": "Все270значений/state27×10сохранены,настоящиеобщие9типоразмеров,массы4,8…21,3,ГОСТ839-2019 и контакты сверены. Все числовыеотношения рисунка подтверждены собственным7×оригиналом. Исправления: [\"Ложная неизвестная позиция5 разрешена как настоящий осевой размер изоляционной перемычки; исправлены базыL₃ и принадлежностьdвкладышу.\", \"Оба конца одногошлейфа и реальные направления отделены от двухзеркальныхвидов.\", \"Отозвано ошибочно добавленное условие массы«не более»:собственный7×заголовок подтверждает только«Масса шлейфа,приL=7м,кг». Числа/состояниянеизменны.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/77d6fa841ecef69e7fb34bbf56caa4df9f2b77b510f366a36611459d842ab818.json",
+      "sha256": "77d6fa841ecef69e7fb34bbf56caa4df9f2b77b510f366a36611459d842ab818",
+      "bytes": 47584,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/081d42fc1af31b46511089aab46aa65516115a4e86d07a302c0dd6a80e7ad036.json",
+      "sha256": "081d42fc1af31b46511089aab46aa65516115a4e86d07a302c0dd6a80e7ad036",
+      "bytes": 45297,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r2"
+    },
+    {
+      "path": "objects/6320f7fff3c8e5bad9e5b84f36ff57e324ff60c5ffca434dbcb63c652e2f6b3f.json",
+      "sha256": "6320f7fff3c8e5bad9e5b84f36ff57e324ff60c5ffca434dbcb63c652e2f6b3f",
+      "bytes": 3625,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r2"
+    }
+  ]
+}

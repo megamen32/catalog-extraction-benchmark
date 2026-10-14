@@ -1,0 +1,36 @@
+{
+  "id": "small40-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "small, страница 40: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Malyj-katalog.pdf",
+    "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_page": 40
+  },
+  "review_basis": "[\"Полный исходник просмотрен до candidate, затем собственные 7×КР/9×KD. Все 77 значений и состояния ячеек верны, общие нагрузки/Md/H у КР и H16 KD12/16 повторены по реальным объединениям.\", \"Назначения двух типов, ТУ3449-008-52819896-2010, СТО34.01-2.2-003-2015, ПАО Россети, шапка и полный footer подтверждены.\", \"КР L от крайней наружной кромки, Ø38 внутренний проём, L₁/80 до первой шайбы,120 от начала резьбы. KD H раскрытие, L от центра изгиба, L₁ резьба до острия. Фотографии отделены от рисунков.\"] Исправления: [\"Исправлены ошибочные базы L у КР,120 у КР и смысл H у KD; уточнён внутренний Ø38.\", \"Восстановлены структурированные единицы кН/мм/кг из явных шапок без изменения 77 values/state.\", \"Исправлены printed_page и области source_evidence, убраны недоказанные пояснения о Unicode и повторная ошибочная трактовка H.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/5e110b7963e3d5fefcdeb565c256b5b4c33575feeba65b633a1f6395e266daec.json",
+      "sha256": "5e110b7963e3d5fefcdeb565c256b5b4c33575feeba65b633a1f6395e266daec",
+      "bytes": 23934,
+      "role": "native-candidate",
+      "program_version": "1.5.23"
+    },
+    {
+      "path": "objects/ed62f9eddf2ccaef8ebf73a6e615caea07e16268c52aba94c73fb5ef3b18ab39.json",
+      "sha256": "ed62f9eddf2ccaef8ebf73a6e615caea07e16268c52aba94c73fb5ef3b18ab39",
+      "bytes": 21586,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-additional-residues02-20261014.r2"
+    },
+    {
+      "path": "objects/d68887d4dcc9a182d59d7b1715b1399ad7e51996a6ff0d3a6ab6e100306c1dfd.json",
+      "sha256": "d68887d4dcc9a182d59d7b1715b1399ad7e51996a6ff0d3a6ab6e100306c1dfd",
+      "bytes": 16896,
+      "role": "source-review",
+      "program_version": "tail-mod3-additional-residues02-20261014.r2"
+    }
+  ]
+}

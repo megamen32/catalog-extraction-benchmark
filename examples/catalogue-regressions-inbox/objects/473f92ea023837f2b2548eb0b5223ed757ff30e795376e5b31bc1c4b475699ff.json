@@ -1,0 +1,207 @@
+{
+  "schema_version": "catalogue-independent-source-review/1",
+  "catalog": "innovations",
+  "source_filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 122,
+  "exact_reviewed_path": "innovations-122-reviewed.json",
+  "exact_reviewed_sha256": "d466fdd1ebf584adc640995e61378d59798393d68770a90530cd92f4b6ca303b",
+  "frozen_reviewed_path": "frozen-root-innovations-122.json",
+  "independent_author": "catalog_tail_mod3",
+  "origin_author": "root",
+  "version": "root-independence-mod3-innovations-20261014.block4.r1",
+  "harness": "codex",
+  "is_glm_receipt": false,
+  "source_first": true,
+  "full_original_image_review": true,
+  "original_image": "innovations-122-source.png",
+  "original_image_sha256": "0d64d583f1c2ec87542673c10d1760f07b343498ce3871c8007d3acc58bdee9d",
+  "own_source_observation": "innovations-122-own-source-observation.json",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": false,
+    "source_provenance": true
+  },
+  "observed_table_count": 1,
+  "observed_row_counts": [
+    27
+  ],
+  "observed_column_counts": [
+    12
+  ],
+  "cells_checked": 324,
+  "technical_and_meaning_review": "Полный оригинал и собственные увеличенные кропы просмотрены до открытия исправленного JSON. Все значения, состояния, объединения, единицы, условия, коды и размерные выноски сверены. Выявлены указанные содержательные ошибки автора; остальные поля подтверждены.",
+  "per_figure_dimension_ownership": [
+    {
+      "figure_index": 0,
+      "source_bbox": [
+        0.07,
+        0.085,
+        0.92,
+        0.355
+      ],
+      "dimensions": [
+        {
+          "literal_label": "L₁",
+          "actual_target": "Верхний торец корпуса А4АБ до нижнего торца его контактной лапки",
+          "source_bbox": [
+            0.52,
+            0.135,
+            0.64,
+            0.249
+          ],
+          "arrow_start": "Верхний торец А4АБ",
+          "arrow_end": "Нижний торец его лапки",
+          "units": "мм в таблице"
+        },
+        {
+          "literal_label": "L₂",
+          "actual_target": "Длина основного корпуса А4АБ между его торцами",
+          "source_bbox": [
+            0.552,
+            0.144,
+            0.654,
+            0.219
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "мм в таблице"
+        },
+        {
+          "literal_label": "L₄",
+          "actual_target": "Верхний торец А4АБ до верхней границы осевой перемычки5",
+          "source_bbox": [
+            0.506,
+            0.138,
+            0.691,
+            0.319
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "мм в таблице"
+        },
+        {
+          "literal_label": "S₁ / S₂",
+          "actual_target": "Толщины собственной лапки шлейфа / лапки А4АБ",
+          "source_bbox": [
+            0.55,
+            0.214,
+            0.62,
+            0.256
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "мм в таблице"
+        },
+        {
+          "literal_label": "17,5",
+          "actual_target": "Ось нижнего болтового ряда до нижнего торца контактной лапки",
+          "source_bbox": [
+            0.528,
+            0.232,
+            0.581,
+            0.255
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "На рисунке единица не напечатана; по масштабу не измерено."
+        },
+        {
+          "literal_label": "5",
+          "actual_target": "Осевая изоляционная перемычка внутри оболочки",
+          "source_bbox": [
+            0.505,
+            0.278,
+            0.568,
+            0.326
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "На рисунке единица не напечатана; по масштабу не измерено."
+        },
+        {
+          "literal_label": "L",
+          "actual_target": "Длина проводника через условный разрыв",
+          "source_bbox": [
+            0.49,
+            0.32,
+            0.57,
+            0.36
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "На рисунке единица не напечатана; по масштабу не измерено."
+        },
+        {
+          "literal_label": "80",
+          "actual_target": "Полная высота собственной контактной лапки на видеА",
+          "source_bbox": [
+            0.575,
+            0.3,
+            0.784,
+            0.336
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "На рисунке единица не напечатана; по масштабу не измерено."
+        },
+        {
+          "literal_label": "45 ×2",
+          "actual_target": "Межосевые расстояния четырёх отверстий лапки по двум направлениям",
+          "source_bbox": [
+            0.744,
+            0.296,
+            0.785,
+            0.339
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "На рисунке единица не напечатана; по масштабу не измерено."
+        },
+        {
+          "literal_label": "L₃",
+          "actual_target": "Между осями верхнего и нижнего болтов крайней правой пары А4АБ",
+          "source_bbox": [
+            0.85,
+            0.294,
+            0.891,
+            0.337
+          ],
+          "arrow_start": "Ось верхнего болта",
+          "arrow_end": "Ось нижнего болта",
+          "units": "мм в таблице"
+        }
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "path": "figures[0].description",
+      "actual": "L₃ — межосевое расстояние между верхним и нижним болтами крайней правой пары на видеА.",
+      "incorrect": "От оси третьего ряда до правого торца корпуса.",
+      "source_bbox": [
+        0.85,
+        0.294,
+        0.891,
+        0.337
+      ],
+      "evidence": "innovations-122-drawing.png"
+    }
+  ],
+  "nonblocking_observations": [
+    "Местами авторские пояснения требуют пробелов; смысл однозначен, это не блокирует проверку."
+  ],
+  "uncertainties": [],
+  "verdict": "revise",
+  "reviewed_at": "2026-10-14T19:00:45.682250+03:00",
+  "private_review_artifact_sha256": "0766c46e3e87d5d28a929c6efd9aa491fea2209cf67b6b7ae433d74ea483d533",
+  "actual_author_producer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  }
+}

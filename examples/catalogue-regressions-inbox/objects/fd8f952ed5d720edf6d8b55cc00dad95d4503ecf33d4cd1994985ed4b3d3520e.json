@@ -1,0 +1,81 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 124,
+  "printed_page": "124",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "innovations-0124-native-candidate.json",
+    "sha256": "34e65bb788d7ede6a5f9440af95615ca888c7cc9425732409b3c01119b66eed1",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.4",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "03d94c1397ffd39d50a89db0b4d9ae29d17f13e5293b2fcbda6e8b4ec34d8c0c",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "34e65bb788d7ede6a5f9440af95615ca888c7cc9425732409b3c01119b66eed1",
+      "source_bound_save": true,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 124,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4d5faa2b87b39793b899bfd40ccb8b7b4ff5223f5cfe2aed7fb1c9e3580c2e6b",
+      "receipt": "calls/6d4cab383f09486f8bf772fe1d40b5ec/result.json",
+      "started_at": 1791940652.5039742,
+      "finished_at": 1791940698.084552
+    }
+  },
+  "output": {
+    "file": "innovations-0124-reviewed-r2.json",
+    "sha256": "10830c9e3e22a900fdc484270f9e79e843f519cf9c15c449c1bde1dec3b8b536"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "7e700b8eb4b3e3c3b3b2521bf676b50537dfa7f2f5f60298e27c3f5a4cedd8c8",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [],
+    "column_counts": [],
+    "cells_checked": 0
+  },
+  "source_findings": [
+    "Убрано ошибочное приписывание условия изготовления по проектной документации левой колонке в observation[0]; оно сохранено в реальной правой врезке evidence[1] и основном тексте.",
+    "Полные оригиналы ранее лично проверены; точечная ревизия повторно сопоставлена с их сохранёнными изображениями. Таблицы и числовые факты не менялись."
+  ],
+  "corrections": [
+    "Убрано ошибочное приписывание условия изготовления по проектной документации левой колонке в observation[0]; оно сохранено в реальной правой врезке evidence[1] и основном тексте."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T15:30:47.065229+00:00",
+  "previous_reviewed_output": {
+    "file": "innovations-0124-reviewed.json",
+    "sha256": "f946728f455d9c0238661220d098270bcd41a1739f9f6fb396e1ce54e1c941aa"
+  },
+  "supersedes_source_review": {
+    "file": "innovations-0124-source-review.json",
+    "sha256": "19f83b1157e6a3c6d79f77fcb66b80677763433fe95c3110b4ceafbb5fbdd0ab"
+  },
+  "private_original_receipt_sha256": "317e90eb35ed9fb644f365d246ef7bd2eb8af13116b8fecddd9f1133eb3dfdb3"
+}

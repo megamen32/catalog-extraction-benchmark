@@ -1,0 +1,144 @@
+{
+  "schema_version": "catalogue-independent-source-review/1",
+  "catalog": "innovations",
+  "source_filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 210,
+  "exact_reviewed_path": "innovations-210-reviewed.json",
+  "exact_reviewed_sha256": "8294ae7e4cbeaa1a1f8a9537911e4cb24871ed466194a8bbcfacdf4108537050",
+  "frozen_reviewed_path": "frozen-root-innovations-210.json",
+  "independent_author": "catalog_tail_mod3",
+  "origin_author": "root",
+  "version": "root-independence-mod3-innovations-20261014.block1",
+  "harness": "codex",
+  "is_glm_receipt": false,
+  "source_first": true,
+  "full_original_image_review": true,
+  "original_image": "innovations-210-source.png",
+  "original_image_sha256": "83814447a47e81e707604e03a335017b6e851cb4b224f29d0b9f0ee2a0fc07d1",
+  "own_source_observation": "innovations-210-own-source-observation.json",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": false,
+    "source_provenance": true
+  },
+  "observed_table_count": 1,
+  "observed_row_counts": [
+    17
+  ],
+  "observed_column_counts": [
+    12
+  ],
+  "cells_checked": 204,
+  "source_physical_row_counts": [
+    17
+  ],
+  "technical_and_meaning_review": "Все заголовки, текст, марки, числа, единицы, условия, объединения, состояния ячеек, реквизиты, рисунки и области source_evidence сопоставлены с полным оригиналом и собственными 6× кропами. Все значения таблиц верны. Требуется только указанное исправление размерных баз.",
+  "per_figure_dimension_ownership": [
+    {
+      "figure_index": 0,
+      "source_bbox": [
+        0.35,
+        0.16,
+        0.94,
+        0.5
+      ],
+      "source_crop": "innovations-210-drawing.png",
+      "dimensions": [
+        {
+          "literal_label": "L",
+          "actual_target": "Продольный размер главного вида",
+          "arrow_start": "Крайняя левая наружная поверхность вертикальной ветви",
+          "arrow_end": "Правый торец корпуса",
+          "units": "мм в таблице; размер рисунка не вычислен по масштабу"
+        },
+        {
+          "literal_label": "L₁",
+          "actual_target": "Часть горизонтальной ветви",
+          "arrow_start": "Отдельная поперечная плоскость внутри прямого корпуса, правее конца наружного изгиба",
+          "arrow_end": "Правый торец",
+          "units": "мм в таблице; размер рисунка не вычислен по масштабу"
+        },
+        {
+          "literal_label": "L₂",
+          "actual_target": "Часть вертикальной ветви",
+          "arrow_start": "Отдельная горизонтальная плоскость внутри прямой ветви ниже конца наружного изгиба",
+          "arrow_end": "Нижний торец корпуса",
+          "units": "мм в таблице; размер рисунка не вычислен по масштабу"
+        },
+        {
+          "literal_label": "H",
+          "actual_target": "Общая вертикальная высота корпуса",
+          "arrow_start": "Верхняя наружная поверхность горизонтальной трубы",
+          "arrow_end": "Нижний торец вертикальной трубы",
+          "units": "мм в таблице; размер рисунка не вычислен по масштабу"
+        },
+        {
+          "literal_label": "D",
+          "actual_target": "В А–А наружная горизонтальная ширина; в Б–Б наружный диаметр",
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "мм в таблице; размер рисунка не вычислен по масштабу"
+        },
+        {
+          "literal_label": "d",
+          "actual_target": "В обоих сечениях внутренний посадочный проход",
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "мм в таблице; размер рисунка не вычислен по масштабу"
+        },
+        {
+          "literal_label": "H₁",
+          "actual_target": "А–А полная высота открытого профиля",
+          "arrow_start": "Концы верхних выступов",
+          "arrow_end": "Нижняя наружная поверхность",
+          "units": "мм в таблице; размер рисунка не вычислен по масштабу"
+        },
+        {
+          "literal_label": "А–А / Б–Б",
+          "actual_target": "Поперечные сечения горизонтальной / вертикальной ветвей",
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "мм в таблице; размер рисунка не вычислен по масштабу"
+        },
+        {
+          "literal_label": "Вкладыш / Корпус",
+          "actual_target": "Верхний внутренний / нижний наружный профиль А–А",
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "мм в таблице; размер рисунка не вычислен по масштабу"
+        },
+        {
+          "literal_label": "Направление опрессования",
+          "actual_target": "Горизонтальная стрелка вправо, вертикальная вниз",
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "мм в таблице; размер рисунка не вычислен по масштабу"
+        }
+      ],
+      "role": "Технический чертёж; каждая буквенная/числовая выноска сопоставлена с собственным оригинальным увеличением"
+    }
+  ],
+  "issues": [
+    {
+      "path": "figures[0].description",
+      "finding": "L₁ и L₂ названы плоскостями начала прямого участка. На собственном 6× кропе выносные расположены внутри прямых участков, отдельно от геометрического окончания изгиба.",
+      "required_correction": "Указать отдельную отмеченную плоскость внутри соответствующей прямой ветви; для L₁ правее, для L₂ ниже окончания наружного изгиба.",
+      "evidence": "innovations-210-drawing.png"
+    }
+  ],
+  "nonblocking_observations": [],
+  "uncertainties": [],
+  "verdict": "revise",
+  "reviewed_at": "2026-10-14T18:05:38.427560+03:00",
+  "private_review_artifact_sha256": "42531bcf10cf4ac3234ae69b4c38878a9213dee2603f4b4a45c9f7adb6ce3287",
+  "actual_author_producer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  }
+}

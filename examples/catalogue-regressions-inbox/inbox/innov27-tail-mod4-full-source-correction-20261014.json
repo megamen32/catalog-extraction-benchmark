@@ -1,0 +1,36 @@
+{
+  "id": "innov27-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 27: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 27
+  },
+  "review_basis": "Все60ячеек3×20сверены:380/420/420,127/146;146/170;170/195,365/413/413,16/20/20,четырепарырадиопомех,массы5,2/7,3/8,1;ТУ2014/ГОСТ6490-2017/МЭК60383сохранены. Исправления: [\"Отозвана ложная наружная высотаH/винтоваяскоба;верхняя и нижняя базы подтверждены оригиналом,печатный27нормализованбезвыдуманного«с.»\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/744e79be5ab4cf84db060955aab495b325d44c696a73653519522f3d1e9a6be1.json",
+      "sha256": "744e79be5ab4cf84db060955aab495b325d44c696a73653519522f3d1e9a6be1",
+      "bytes": 20451,
+      "role": "native-candidate",
+      "program_version": "1.5.23"
+    },
+    {
+      "path": "objects/add6959a5e29e0191d06edb8879f8dc667ee68c7dce93b2b3c975dfd5e0963eb.json",
+      "sha256": "add6959a5e29e0191d06edb8879f8dc667ee68c7dce93b2b3c975dfd5e0963eb",
+      "bytes": 18979,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/5a8ef455f7f31f7b21952486e42ab94812fa8387f7f7b5d4f96c0b86c7867119.json",
+      "sha256": "5a8ef455f7f31f7b21952486e42ab94812fa8387f7f7b5d4f96c0b86c7867119",
+      "bytes": 2980,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

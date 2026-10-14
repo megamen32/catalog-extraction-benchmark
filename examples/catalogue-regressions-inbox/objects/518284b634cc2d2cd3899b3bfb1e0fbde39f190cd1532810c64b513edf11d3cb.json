@@ -1,0 +1,87 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 84,
+  "printed_page": "84",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r2",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "innovations-0084-native-candidate.json",
+    "sha256": "cc77239ac6205cf2882f29ecae38601ace258bb26a141d96211e3fc9283f489e",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.23",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "9149f67edeac9814da5291cad899361e9512ccff01cd4d049e4d5f1a28fa8fdd",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "cc77239ac6205cf2882f29ecae38601ace258bb26a141d96211e3fc9283f489e",
+      "source_bound_save": true,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 84,
+      "attempt": 2,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "867b3f790ecc8921609cf97aa738eda3b36ee55598d694455416842fad03be98",
+      "receipt": "calls/427b977a92c047e5a2bcb0a5e4f6c2ef/result.json",
+      "started_at": 1791990760.7274082,
+      "finished_at": 1791990969.4242246
+    }
+  },
+  "output": {
+    "file": "innovations-0084-reviewed-r2.json",
+    "sha256": "c95d3a26e1bf87aee552913e35131476518122357db80d14d8356d1bf06daa15"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "46fd2e75bc9e59cc4514f7e7b99ab8b110ac41c09bbcf7a249a6259a9288e385",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      5,
+      5
+    ],
+    "column_counts": [
+      13,
+      11
+    ],
+    "cells_checked": 120
+  },
+  "source_findings": [
+    "Полный оригинал просмотрен; отдельно увеличены полуразрез/фланцы, вся нижняя таблица и20× окружностьØD. Сверены120 ячеек:65 технических значений неизменны, в55 присоединительных изменены только пять ошибочных D\\n-, остальные50 совпали, включая сложные объединения нижних B/B1 и d1.",
+    "Проверены все единицы/ограничения, общие110/450/230/230/9, массы±10%, свойства* и** со сносками; кириллическая М12 фактически подтверждена кодпоинтами исходного текстового слоя, контакты ООО«ВОЛЬТА» совпали. Размеры не выводились по масштабу.",
+    "Точечная авторская ревизия по независимому замечанию mod1; таблицы, тексты и геометрия структурно неизменны, изменено только указанное поле."
+  ],
+  "corrections": [
+    "В пяти ячейках D нижнего фланца убран ошибочно включённый заголовок: D\\n- → прочерк. D сохранён в имени столбца, необычная исходная вёрстка описана в source_notes.",
+    "Исправлен ØD как диаметр окружности центров отверстий, а не наружного корпуса фланца; □B1 — полный наружный размер квадратного фланца, B межосевой.",
+    "Уточнена противоречащая верной таблице заметка нижних объединений B/B1; восстановлен маркер** сейсмостойкости, убрано ложное утверждение о единицах на чертеже, сохранён правильный порядок МУ-01 в коде. Evidence расширен на обе сноски, фиктивный ярлык фотографии удалён.",
+    "Из source_notes удалено неподтверждённое отдельное обозначение N: его нет в шапках/чертеже, кН является кириллической единицей силы."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T16:04:10.691346+00:00",
+  "previous_output": {
+    "file": "innovations-0084-reviewed.json",
+    "sha256": "5c0b2fbba6cf73078d4a8edd1702f3e6dd9c31370b55b4ea621e1df3d11ba1a7"
+  },
+  "private_original_receipt_sha256": "4aae470230b16149dca311a415be32c948a577357cb45aeb73c62b65495b2f32"
+}

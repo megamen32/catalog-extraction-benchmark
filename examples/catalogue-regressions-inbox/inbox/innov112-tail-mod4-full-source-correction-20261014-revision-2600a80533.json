@@ -1,0 +1,36 @@
+{
+  "id": "innov112-tail-mod4-full-source-correction-20261014-revision-2600a80533",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 112: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 112
+  },
+  "review_basis": "[\"Нижняя граница evidence[0] расширена до .67, включая последнюю строку ремонтного преимущества до y≈.661. Число высоты 60 сохранено: повторный собственный22× upright и слепой взгляд root подтверждают6; первоначальное замечание mod1 об80 отозвано им после собственного20× upright.\", \"Полные оригиналы ранее лично проверены; точечная ревизия повторно сопоставлена с их сохранёнными изображениями. Таблицы и числовые факты не менялись.\"] Исправления: [\"Нижняя граница evidence[0] расширена до .67, включая последнюю строку ремонтного преимущества до y≈.661. Число высоты 60 сохранено: повторный собственный22× upright и слепой взгляд root подтверждают6; первоначальное замечание mod1 об80 отозвано им после собственного20× upright.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/560388d786ab966f2e68dd39de202a97bf38a884df3bcf25679856e3850698fe.json",
+      "sha256": "560388d786ab966f2e68dd39de202a97bf38a884df3bcf25679856e3850698fe",
+      "bytes": 29772,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/2600a80533c0be6ec176539fdac4df450587ef88425e9f68829bcbcea8bff0a5.json",
+      "sha256": "2600a80533c0be6ec176539fdac4df450587ef88425e9f68829bcbcea8bff0a5",
+      "bytes": 30128,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r1"
+    },
+    {
+      "path": "objects/78b1d1bb386c9dccd94c7dc43bcd0b2ad8d2740ecaad9d7ae7d4fd22d74667fa.json",
+      "sha256": "78b1d1bb386c9dccd94c7dc43bcd0b2ad8d2740ecaad9d7ae7d4fd22d74667fa",
+      "bytes": 4239,
+      "role": "source-review",
+      "program_version": "tail-mod0-20261014.r1"
+    }
+  ]
+}

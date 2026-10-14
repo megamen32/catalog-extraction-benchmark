@@ -1,0 +1,71 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 27,
+  "printed_page": "27",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "744e79be5ab4cf84db060955aab495b325d44c696a73653519522f3d1e9a6be1",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.23",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "9149f67edeac9814da5291cad899361e9512ccff01cd4d049e4d5f1a28fa8fdd",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "744e79be5ab4cf84db060955aab495b325d44c696a73653519522f3d1e9a6be1",
+      "source_bound_save": true,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 27,
+      "attempt": 3,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "867b3f790ecc8921609cf97aa738eda3b36ee55598d694455416842fad03be98",
+      "receipt": "calls/1b84cf8078d940d2afad68866de00693/result.json",
+      "started_at": 1791993320.446384,
+      "finished_at": 1791993435.010027
+    }
+  },
+  "output": {
+    "file": "innovations-27-reviewed.json",
+    "sha256": "add6959a5e29e0191d06edb8879f8dc667ee68c7dce93b2b3c975dfd5e0963eb"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "1b179de1de9bad3b3c8b270475cf2e154de19fecc1848fc1b7711da883582c17",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      3
+    ],
+    "column_counts": [
+      20
+    ],
+    "cells_checked": 60
+  },
+  "source_findings": "Все60ячеек3×20сверены:380/420/420,127/146;146/170;170/195,365/413/413,16/20/20,четырепарырадиопомех,массы5,2/7,3/8,1;ТУ2014/ГОСТ6490-2017/МЭК60383сохранены.",
+  "corrections": [
+    "Отозвана ложная наружная высотаH/винтоваяскоба;верхняя и нижняя базы подтверждены оригиналом,печатный27нормализованбезвыдуманного«с.»"
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T19:09:58.006465+03:00",
+  "private_original_receipt_sha256": "2446c2f6c906fb3f3e316e3757a9a2063287fb43ee8db7eadeb495eb165354c9"
+}

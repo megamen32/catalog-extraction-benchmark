@@ -1,0 +1,36 @@
+{
+  "id": "innov118-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 118: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 118
+  },
+  "review_basis": "Все243ячейки27×9сохранены,включаябуквальнуюточку5.-Lвдвухстроках,двегруппыматрицМШ39,8 А42,разныеL₂163/165,массы4,75…20,5. Модификация5/новоеидействующеестроительство/втулки/выходизвнешнегозажима/контактыпрочитаны. Исправления: [\"D/d восстановлены как наружный диаметр/внутренний проход,реальные базыL₁/L₂/5 и дугаL без выдуманнойCL.\", \"Отделены комплектные втулки шлейфа от некомплектных внешних натяжных зажимов.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/cba517207ee45cedb740342257e0294a3702bd5567a2ce411c02025408c4767c.json",
+      "sha256": "cba517207ee45cedb740342257e0294a3702bd5567a2ce411c02025408c4767c",
+      "bytes": 44312,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/d570536422fed8d2252501293b7f5ea9b9be99f56598708db2b95046cf012084.json",
+      "sha256": "d570536422fed8d2252501293b7f5ea9b9be99f56598708db2b95046cf012084",
+      "bytes": 42407,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/c85718af654639eff8be07d8713392df1ae2cca512de96ed30c22a47e975df68.json",
+      "sha256": "c85718af654639eff8be07d8713392df1ae2cca512de96ed30c22a47e975df68",
+      "bytes": 3242,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

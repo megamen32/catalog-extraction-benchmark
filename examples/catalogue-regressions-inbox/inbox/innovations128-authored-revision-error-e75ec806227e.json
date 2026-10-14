@@ -1,0 +1,36 @@
+{
+  "id": "innovations128-authored-revision-error-e75ec806227e",
+  "status": "pending_adjudication",
+  "category": "independent-review-catches-authored-error",
+  "title": "innovations,страница128:независимая проверка исправила ошибку автора",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 128
+  },
+  "review_basis": "[{\"check\": \"figures_and_relationships\", \"path\": \"figures[0].description\", \"finding\": \"L₄ ошибочно начинается от такой же внутренней плоскости в НАС, как верхняя база L₁. Личный7×кроп показывает общую выносную верхнего L₄ и НИЖНЕГО L₁ у нижнего торца НАС/основания штыря.\", \"correction\": \"Верх L₄ описать от нижнего торца НАС/основания штыря (общая выносная с нижним L₁), низ до верхней грани перемычки5. Источник: innovations-128-L1L4.png.\"}, {\"check\": \"source_provenance\", \"path\": \"page_context.source_evidence[1].box\", \"finding\": \"Верх .55 обрезает первую строку шапки «Марка провода АС» около .545.\", \"correction\": \"Поднять верх до .54.\"}] Фактический автор {\"harness\": \"codex\", \"session_id\": \"catalog_tail_mod0\", \"version\": \"tail-mod0-20261014.r1\", \"model_id\": \"Current native Codex session; exact provider identifier not exported.\"}. Сохранены точные ошибочные авторские байты и новая source-corrected версия; это НЕ результат MiniMax/GLM и не автоматическое золото.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/e75ec806227eab8a9ad833b4ccd11033be3ddf066b1260a04146348a8c1591a9.json",
+      "sha256": "e75ec806227eab8a9ad833b4ccd11033be3ddf066b1260a04146348a8c1591a9",
+      "bytes": 38494,
+      "role": "actual-authored-failure",
+      "program_version": "tail-mod0-20261014.r1"
+    },
+    {
+      "path": "objects/6cec78803947cbdb772326dd90a0da04116393fd7e6cb199270d8eeef439c131.json",
+      "sha256": "6cec78803947cbdb772326dd90a0da04116393fd7e6cb199270d8eeef439c131",
+      "bytes": 38743,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r1"
+    },
+    {
+      "path": "objects/dd84b53fbccf7a99244534455046b406b2dd0ce83d2eafcc4b83a9196a16393d.json",
+      "sha256": "dd84b53fbccf7a99244534455046b406b2dd0ce83d2eafcc4b83a9196a16393d",
+      "bytes": 8035,
+      "role": "independent-source-review",
+      "program_version": "native-codex-independent-review-20261014"
+    }
+  ]
+}

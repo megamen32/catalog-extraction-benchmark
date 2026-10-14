@@ -1,0 +1,36 @@
+{
+  "id": "innov25-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 25: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 25
+  },
+  "review_basis": "Все294ячейки14×21сверены:настоящая195уПС210Д/М,170уПС240,380утечка,четырепарырадиопомех,звёздочки/ТУ2009/2013,ГOCT6490-2017/МЭК60383сохранены. Значениянеунифицированысдругимкаталогом. Исправления: [\"Исправлены ложная скоба с болтом/цементная подошва и базыH;восстановлен печатный25и футер.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/57e218147c9530e8fe8d83b3af794bc8ca98accaff65810ba11f1ea99b02746c.json",
+      "sha256": "57e218147c9530e8fe8d83b3af794bc8ca98accaff65810ba11f1ea99b02746c",
+      "bytes": 51488,
+      "role": "native-candidate",
+      "program_version": "1.5.23"
+    },
+    {
+      "path": "objects/2b0bc9127a70bc1229321178f741cd25fbc6d5f4a397d06038cd5f26dcd7a592.json",
+      "sha256": "2b0bc9127a70bc1229321178f741cd25fbc6d5f4a397d06038cd5f26dcd7a592",
+      "bytes": 48416,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/42f2d288065210af079b08b9ac0e3f657cc13eb84db1b80d66b59fd585fb99b6.json",
+      "sha256": "42f2d288065210af079b08b9ac0e3f657cc13eb84db1b80d66b59fd585fb99b6",
+      "bytes": 2988,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 31,
+  "printed_page": "31",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "14ebcf1294b8e665b0718dba848b7ac949ef177b87f2c485c8ea00780050ce58",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.4.15",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+        "python_version": "3.12.13",
+        "components": {
+          "agent_logic": {
+            "package_version": "1.4.2",
+            "git_revision": null,
+            "dirty": null,
+            "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+            "python_version": "3.12.13"
+          },
+          "catalog_tools": {
+            "package_version": "1.4.8",
+            "git_revision": null,
+            "dirty": null,
+            "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+            "python_version": "3.12.13"
+          },
+          "legacy_skills": {
+            "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+            "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+          },
+          "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+          "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+          "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+          "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+        }
+      },
+      "artifact_sha256": "14ebcf1294b8e665b0718dba848b7ac949ef177b87f2c485c8ea00780050ce58",
+      "source_bound_save": true,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 31,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf",
+      "receipt": "calls/a3eec2288e9244aaab929a3c5ff92377/result.json",
+      "started_at": 1791906178.3082623,
+      "finished_at": 1791906244.1032195
+    }
+  },
+  "output": {
+    "file": "innovations-31-reviewed.json",
+    "sha256": "8e9d93dce3e4b3fab5b8f9a5ffa02e702dbde3738c7a81da8c8838430209682f"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "1fea13e2740c05b83b8c25eca832ffa7ab8b483ff664fbd33ac5c0586540b155",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      16
+    ],
+    "column_counts": [
+      6
+    ],
+    "cells_checked": 96
+  },
+  "source_findings": "Все96ячеек16×6сверены,реальные16/20/16Аи19Nповторы,печатныепрочерки160/210длявилки/овала,точки/запятые17,5сохранены. ОбщиеГОСТ27396/11359/IEC60120/61466-1и7преимуществ/110кВ2раза/масса7–10/труд3/доставка7безизменений.",
+  "corrections": [
+    "Исправлены выдуманнаянарезкапроушины/наввинчиваниепестика,вилкаSзазор,овалØDсечениепруткаинеотверстие,В/Sвнутренниеразмеры."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T19:09:57.655796+03:00",
+  "private_original_receipt_sha256": "2490ceff062ae39f392567a07d6e1729f5f420773447bf6826a9c55acb49005c"
+}

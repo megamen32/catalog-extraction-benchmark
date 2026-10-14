@@ -1,0 +1,36 @@
+{
+  "id": "innovations10-authored-revision-error-10726a76db4f",
+  "status": "pending_adjudication",
+  "category": "independent-review-catches-authored-error",
+  "title": "innovations,страница10:независимая проверка исправила ошибку автора",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 10
+  },
+  "review_basis": "[{\"check\": \"all_text_and_meaning\", \"path\": \"printed_page; text_blocks footer\", \"finding\": \"На оригинале нижний левый колонтитул 10, но printed_page=null, footer не содержит номера. Текстовый слой также начинается 10.\", \"correction\": \"В отдельной версии установить printed_page=\\\"10\\\"; добавить footer 10 при сохранении полного текста.\"}] Фактический автор {\"harness\": \"codex\", \"session_id\": \"01a12c30-e58f-7861-8a2d-966c92630163\", \"version\": \"root-tail-source-review-2026-10-14.r1\", \"model_id\": \"Current native Codex session; exact provider identifier not exported.\"}. Сохранены точные ошибочные авторские байты и новая source-corrected версия; это НЕ результат MiniMax/GLM и не автоматическое золото.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/10726a76db4f7118140d9a46cfd104ede6bb5deefb44849174c084952d291fa8.json",
+      "sha256": "10726a76db4f7118140d9a46cfd104ede6bb5deefb44849174c084952d291fa8",
+      "bytes": 22792,
+      "role": "actual-authored-failure",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/568ba763216c7aa9bc90a4e817b47e6a3bc013891e25ecab535b0049733a7f22.json",
+      "sha256": "568ba763216c7aa9bc90a4e817b47e6a3bc013891e25ecab535b0049733a7f22",
+      "bytes": 22848,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r2"
+    },
+    {
+      "path": "objects/7d598b73ef6ded211f3727c1f228a6a272a804eb08d02bd243bd663634f523bc.json",
+      "sha256": "7d598b73ef6ded211f3727c1f228a6a272a804eb08d02bd243bd663634f523bc",
+      "bytes": 9863,
+      "role": "independent-source-review",
+      "program_version": "native-codex-independent-review-20261014"
+    }
+  ]
+}

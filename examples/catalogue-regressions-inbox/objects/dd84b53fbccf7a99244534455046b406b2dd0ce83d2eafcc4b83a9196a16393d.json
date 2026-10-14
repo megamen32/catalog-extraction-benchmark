@@ -1,0 +1,113 @@
+{
+  "schema_version": "catalogue-independent-source-review/1",
+  "catalog": "innovations",
+  "source_filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 128,
+  "printed_page": "128",
+  "reviewed_json": "innovations-0128-reviewed.json",
+  "reviewed_json_sha256": "e75ec806227eab8a9ad833b4ccd11033be3ddf066b1260a04146348a8c1591a9",
+  "reviewed_input_frozen": "innovations-128-reviewed-input-frozen.json",
+  "independent_author": "catalog_tail_mod1",
+  "origin_author": "catalog_tail_mod0",
+  "time": "2026-10-14T18:21:48.092555+03:00",
+  "verdict": "revise",
+  "full_original_image_review": true,
+  "original_image": "innovations-128-original.png",
+  "original_image_sha256": "dd618033fe9fbd8fb658568db857544c08d9817cd2fb988426352eedbd318b4f",
+  "checks": {
+    "all_text_and_meaning": {
+      "passed": true,
+      "evidence": "Все 198 ячеек 18×11 полностью совпали. Сохранены разбиение матриц/НАС в группах, 400 /18 и реальное L₃165>L₄160 в последней группе; масса при L=7 м не более. Текст, состав, комплектность, стандарты и контакты/номер совпали. Личные 7× и 8× кропы выявили неверную верхнюю базу L₄; L₂/L₃ на виде А верны. Полный оригинал просмотрен до JSON; все шесть проверок выполнены."
+    },
+    "all_table_cells": {
+      "passed": true,
+      "evidence": "Все 198 ячеек 18×11 полностью совпали. Сохранены разбиение матриц/НАС в группах, 400 /18 и реальное L₃165>L₄160 в последней группе; масса при L=7 м не более. Текст, состав, комплектность, стандарты и контакты/номер совпали. Личные 7× и 8× кропы выявили неверную верхнюю базу L₄; L₂/L₃ на виде А верны. Полный оригинал просмотрен до JSON; все шесть проверок выполнены."
+    },
+    "headers_units_conditions": {
+      "passed": true,
+      "evidence": "Все 198 ячеек 18×11 полностью совпали. Сохранены разбиение матриц/НАС в группах, 400 /18 и реальное L₃165>L₄160 в последней группе; масса при L=7 м не более. Текст, состав, комплектность, стандарты и контакты/номер совпали. Личные 7× и 8× кропы выявили неверную верхнюю базу L₄; L₂/L₃ на виде А верны. Полный оригинал просмотрен до JSON; все шесть проверок выполнены."
+    },
+    "merged_cells_and_blanks": {
+      "passed": true,
+      "evidence": "Все 198 ячеек 18×11 полностью совпали. Сохранены разбиение матриц/НАС в группах, 400 /18 и реальное L₃165>L₄160 в последней группе; масса при L=7 м не более. Текст, состав, комплектность, стандарты и контакты/номер совпали. Личные 7× и 8× кропы выявили неверную верхнюю базу L₄; L₂/L₃ на виде А верны. Полный оригинал просмотрен до JSON; все шесть проверок выполнены."
+    },
+    "figures_and_relationships": {
+      "passed": false,
+      "evidence": "Все 198 ячеек 18×11 полностью совпали. Сохранены разбиение матриц/НАС в группах, 400 /18 и реальное L₃165>L₄160 в последней группе; масса при L=7 м не более. Текст, состав, комплектность, стандарты и контакты/номер совпали. Личные 7× и 8× кропы выявили неверную верхнюю базу L₄; L₂/L₃ на виде А верны. Полный оригинал просмотрен до JSON; все шесть проверок выполнены."
+    },
+    "source_provenance": {
+      "passed": false,
+      "evidence": "Все 198 ячеек 18×11 полностью совпали. Сохранены разбиение матриц/НАС в группах, 400 /18 и реальное L₃165>L₄160 в последней группе; масса при L=7 м не более. Текст, состав, комплектность, стандарты и контакты/номер совпали. Личные 7× и 8× кропы выявили неверную верхнюю базу L₄; L₂/L₃ на виде А верны. Полный оригинал просмотрен до JSON; все шесть проверок выполнены."
+    }
+  },
+  "observed_row_counts": [
+    18
+  ],
+  "observed_column_counts": [
+    11
+  ],
+  "total_cells_checked": 198,
+  "dimension_ownership": [
+    {
+      "literal": "L₁ / L₄",
+      "actual_target": "Верх L₁ внутри прямого НАС; НИЗ L₁ и ВЕРХ L₄ имеют общую выносную у торца НАС/основания штыря; низ L₄ — верх перемычки5",
+      "source_bbox": [
+        0.6,
+        0.12,
+        0.86,
+        0.3
+      ],
+      "bbox_units": "normalized_page",
+      "units_as_printed": null
+    },
+    {
+      "literal": "L₂ / L₃ / D",
+      "actual_target": "На виде А общая верхняя база у торца штыря; L₂ до торца заштрихованного НАС, L₃ до основания штыря, D между образующими штыря",
+      "source_bbox": [
+        0.82,
+        0.18,
+        0.92,
+        0.3
+      ],
+      "bbox_units": "normalized_page",
+      "units_as_printed": null
+    },
+    {
+      "literal": "5 / L",
+      "actual_target": "Осевая толщина изоляционной перемычки / размер вдоль изогнутого проводника",
+      "source_bbox": [
+        0.49,
+        0.26,
+        0.71,
+        0.38
+      ],
+      "bbox_units": "normalized_page",
+      "units_as_printed": null
+    }
+  ],
+  "issues": [
+    {
+      "check": "figures_and_relationships",
+      "path": "figures[0].description",
+      "finding": "L₄ ошибочно начинается от такой же внутренней плоскости в НАС, как верхняя база L₁. Личный7×кроп показывает общую выносную верхнего L₄ и НИЖНЕГО L₁ у нижнего торца НАС/основания штыря.",
+      "correction": "Верх L₄ описать от нижнего торца НАС/основания штыря (общая выносная с нижним L₁), низ до верхней грани перемычки5. Источник: innovations-128-L1L4.png."
+    },
+    {
+      "check": "source_provenance",
+      "path": "page_context.source_evidence[1].box",
+      "finding": "Верх .55 обрезает первую строку шапки «Марка провода АС» около .545.",
+      "correction": "Поднять верх до .54."
+    }
+  ],
+  "uncertainties": [],
+  "native_glm_receipt": false,
+  "author_outputs_modified": false,
+  "private_review_artifact_sha256": "59c894b8b110aaef1df82c972fd9367e5a4cc8e84dca123dd88897ae1129585d",
+  "actual_author_producer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "small101-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "small, страница 101: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Malyj-katalog.pdf",
+    "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_page": 101
+  },
+  "review_basis": "[\"Полный оригинал просмотрен до candidate, затем собственные крупные кропы текста и каждого чертежа. Все подписи и базы проверены индивидуально.\", \"На странице нет таблиц и числовых размеров.\"] Исправления: [\"H у первых двух исправлен до оси поперечного пальца, H₁ от верхних торцов резьбы; D первого — пруток скобы, d первых двух — диаметр пальца.\", \"H третьего исправлен до перехода шейки в головку, d — шейка пестика. H₁ четвёртого исправлен до внутренней поверхности U; выдуманный шарнир четвёртого убран.\", \"Source evidence охватывает весь лист; настоящий ТУ52814896 сохранён.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/117825a7e9ce64765a2e54ba4e99925e7a50210ba607075cb3a1c0eebe1e5e8e.json",
+      "sha256": "117825a7e9ce64765a2e54ba4e99925e7a50210ba607075cb3a1c0eebe1e5e8e",
+      "bytes": 14794,
+      "role": "native-candidate",
+      "program_version": "1.5.23"
+    },
+    {
+      "path": "objects/70981829ec38c8faa1919cc07df4d4d25ceefa44b1c0a577f6473174853cafcd.json",
+      "sha256": "70981829ec38c8faa1919cc07df4d4d25ceefa44b1c0a577f6473174853cafcd",
+      "bytes": 8898,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-remaining-small-20261014.r3"
+    },
+    {
+      "path": "objects/998d028f96f766f525f0f26af929b575441262f7c2f40414c6d00fa5d232753f.json",
+      "sha256": "998d028f96f766f525f0f26af929b575441262f7c2f40414c6d00fa5d232753f",
+      "bytes": 24736,
+      "role": "source-review",
+      "program_version": "tail-mod3-remaining-small-20261014.r3"
+    }
+  ]
+}

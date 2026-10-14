@@ -1,0 +1,2559 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 70,
+  "printed_page": "70",
+  "status": "author_source_review_complete_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod1",
+    "task": "/root/catalog_tail_mod1",
+    "version": "tail-mod1-20261014.r2",
+    "model_id": "Current native Codex session;exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "innovations-70-candidate.json",
+    "sha256": "21fe7c10627ce4af0a916622acedeb160511867337c2962d3eb715ac4bd3bdee",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.3",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "531e9bea963ef7592a9a09035761b155f81fbf1ba43027dc5c7017c55e9693fe",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "21fe7c10627ce4af0a916622acedeb160511867337c2962d3eb715ac4bd3bdee",
+      "source_bound_save": true,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 70,
+      "attempt": 2,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "3b4165e5e56d3a8455b883aea55738aa0e06f3159a60ba01bc9d5ccabf1f6d10",
+      "receipt": "calls/e0ddbad26bf24793882b6ddf2b8d4a2b/result.json",
+      "started_at": 1791938458.4174244,
+      "finished_at": 1791938536.4077053
+    },
+    "receipt_file": "innovations-70-producer-receipt.json",
+    "receipt_sha256": "70a39954850a81cd9133c3533527c80538f236cc3675eacdad4d0b7937ad0053",
+    "receipt_artifact_equals_candidate": true
+  },
+  "output": {
+    "file": "innovations-70-reviewed-r2.json",
+    "sha256": "9fbea1bd5e3f7ffee8edd981224664befe37eaafa9f60a5ea13b31002b7f0f4b",
+    "author": "catalog_tail_mod1"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "b7484a2688e2ea69f18d57458b1492db4630ffc2dcd0d3f9858ea9dd380a1779",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "pagecontent_schema_valid": true
+  },
+  "tables": {
+    "row_counts": [
+      18
+    ],
+    "column_counts": [
+      12
+    ],
+    "cells_checked": 216
+  },
+  "source_findings": [
+    "Полный оригинал и все строки/столбцы таблицы сверены. Восстановлены пропущенный столбец «50 Гц под дождем» и все18значений120/135; итог18×12=216ячеек. Величина600 в столбце момента сохранена буквально, без пересчёта.",
+    "Исправлено ложное объединение высот/пути утечки в группу напряжения, выдуманные разрезыА–Б и отсутствие числаØ130. D1/D2 относятся к окружностям центров отверстий, L к внутренним концам обойм. Весь текст, нормы и контакты сверены."
+  ],
+  "corrections": [
+    {
+      "path": "page_context.summary",
+      "before": "Страница каталога продукции ООО «ИНСТА» (Ассоциация «ФОРЭНЕРГО»): опорные стержневые полимерные изоляторы на напряжение 35 кВ типов ОСК 8-35, ОСК 10-35 и ОСК 12,5-35. Слева приведено назначение и условия эксплуатации (35 кВ, до 100 Гц, от -60 °C до +50 °C, УХЛ 1 по ГОСТ 15150, изготовление по ТУ 3494-024-82442590-2015, соответствие ГОСТ Р 52082), вверху справа — чертёж с разрезами А-Б и размерами H±2, L, Ø130 и крепёжными отверстиями d1/D1 и d2/D2 по 4 отв. Ниже — типовой параметрический ряд по 18 исполнениям (номинальная разрушающая сила на изгиб, момент, строительная и изоляционная высота, выдерживаемые напряжения, путь утечки, разрядное напряжение, удельная поверхностная проводимость, допустимая степень загрязнения). Это реальные каталожные данные типового изделия, а не спецификация конкретного объекта и не пример выдачи программы.",
+      "after": "Страница каталога продукции ООО «ИНСТА» (производственное объединение «ФОРЭНЕРГО»): опорные стержневые полимерные изоляторы на напряжение 35 кВ типов ОСК 8-35, ОСК 10-35 и ОСК 12,5-35. Слева приведено назначение и условия эксплуатации (35 кВ, до 100 Гц, от -60 °C до +50 °C, УХЛ 1 по ГОСТ 15150, изготовление по ТУ 3494-024-82442590-2015, соответствие ГОСТ Р 52082), вверху справа — чертёж с видами А/Б и размерами H±2, L, Ø130 и крепёжными отверстиями d1/D1 и d2/D2 по 4 отв. Ниже — типовой параметрический ряд по 18 исполнениям (номинальная разрушающая сила на изгиб, момент, строительная и изоляционная высота, выдерживаемые напряжения, путь утечки, разрядное напряжение, удельная поверхностная проводимость, допустимая степень загрязнения). Это реальные каталожные данные типового изделия, а не спецификация конкретного объекта и не пример выдачи программы."
+    },
+    {
+      "path": "page_context.source_evidence",
+      "before": [
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.06,
+            0.03,
+            0.94,
+            0.12
+          ],
+          "observation": "Верхний колонтитул страницы «ИЗОЛЯТОРЫ СТЕРЖНЕВЫЕ ПОЛИМЕРНЫЕ» с логотипами ФОРЭНЕРГО и FORENERGO — постоянная рубрика каталога, задающая товарный характер раздела; ниже идёт описание конкретной группы изоляторов с указанием типов и класса напряжения.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.07,
+            0.13,
+            0.4,
+            0.73
+          ],
+          "observation": "Блок «НАЗНАЧЕНИЕ» описывает назначение изделия, область применения (изоляция и крепление токоведущих частей в электрических аппаратах и распределительных устройствах электростанций и подстанций 35 кВ), эксплуатационные ограничения (переменный ток 35 кВ до 100 Гц, -60…+50 °C, УХЛ 1 по ГОСТ 15150) и производственные реквизиты (ТУ 3494-024-82442590-2015, ранее ТУ 3494-007-57966314-2008; соответствие ГОСТ Р 52082). Это описание серийного изделия, а не данные объекта.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.08,
+            0.71,
+            0.95,
+            0.96
+          ],
+          "observation": "Таблица параметров содержит перечень типоразмеров изделия (ОСК 8-35, ОСК 10-35, ОСК 12,5-35 с буквенным обозначением варианта А/Б/Д/Е/В/Г и цифрой 2 или 3) и их технические характеристики; строки сгруппированы по типу и варианту, общие для группы величины (600 и 42) объединены вертикально на всю группу строк. Никаких обозначений объекта, заказчика или количеств для конкретной стройки на странице нет.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.4,
+            0.1,
+            0.92,
+            0.45
+          ],
+          "observation": "Чертёж типового изолятора: главный вид с вертикальными размерами H±2 (общая строительная высота между фланцами) и L (изоляционная высота), Ø130 на юбке, справа горизонтальные разрезы/вид сверху А и снизу Б с обозначением 4 крепёжных отверстий диаметра d1 на окружности D1 (вариант А) и d2/D2 (вариант Б).",
+          "transcription": "literal"
+        }
+      ],
+      "after": [
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.04,
+            0,
+            0.98,
+            0.995
+          ],
+          "observation": "Полный лист: назначение и нормативы, две ТУ без пояснения их истории, главный вид с условным разрывом и H±2/L/Ø130, торцевые виды А/Б с D1/D2/d1/d2, все 216 ячеек 18×12, включая 50 Гц под дождем, бренды и контакты страницы 70.",
+          "transcription": "literal"
+        }
+      ]
+    },
+    {
+      "path": "tables[0].columns",
+      "before": [
+        {
+          "id": "c1",
+          "label": "Наименование",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "c2",
+          "label": "Нормированная разрушающая сила на изгиб",
+          "unit": "кН",
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "c3",
+          "label": "Нормированный разрушающий крутящий момент",
+          "unit": "кН·м",
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "c4",
+          "label": "Строительная высота H",
+          "unit": "мм",
+          "group": "Выдерживаемое напряжение, кВ",
+          "qualifier": null
+        },
+        {
+          "id": "c5",
+          "label": "Изоляционная высота L",
+          "unit": "мм",
+          "group": "Выдерживаемое напряжение, кВ",
+          "qualifier": null
+        },
+        {
+          "id": "c6",
+          "label": "Длина пути утечки, не менее",
+          "unit": "мм",
+          "group": "Выдерживаемое напряжение, кВ",
+          "qualifier": "не менее"
+        },
+        {
+          "id": "c7",
+          "label": "грозового импульса",
+          "unit": "кВ",
+          "group": "Выдерживаемое напряжение, кВ",
+          "qualifier": null
+        },
+        {
+          "id": "c8",
+          "label": "50 Гц в сухом состоянии",
+          "unit": "кВ",
+          "group": "Выдерживаемое напряжение, кВ",
+          "qualifier": null
+        },
+        {
+          "id": "c9",
+          "label": "Разрядное напряжение 50 Гц в загрязненном и увлажненном состоянии, не менее",
+          "unit": "кВ",
+          "group": null,
+          "qualifier": "не менее"
+        },
+        {
+          "id": "c10",
+          "label": "Нормированная удельная поверхностная проводимость",
+          "unit": "мкСм",
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "c11",
+          "label": "Допустимая степень загрязнения (СЗ) по ГОСТ 9920",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        }
+      ],
+      "after": [
+        {
+          "id": "c1",
+          "label": "Наименование",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "c2",
+          "label": "Нормированная разрушающая сила на изгиб",
+          "unit": "кН",
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "c3",
+          "label": "Нормированный разрушающий крутящий момент",
+          "unit": "кН·м",
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "c4",
+          "label": "Строительная высота H",
+          "unit": "мм",
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "c5",
+          "label": "Изоляционная высота L",
+          "unit": "мм",
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "c6",
+          "label": "Длина пути утечки",
+          "unit": "мм",
+          "group": null,
+          "qualifier": "не менее"
+        },
+        {
+          "id": "c7",
+          "label": "грозового импульса",
+          "unit": "кВ",
+          "group": "Выдерживаемое напряжение, кВ",
+          "qualifier": null
+        },
+        {
+          "id": "c8",
+          "label": "50 Гц в сухом состоянии",
+          "unit": "кВ",
+          "group": "Выдерживаемое напряжение, кВ",
+          "qualifier": null
+        },
+        {
+          "id": "c9",
+          "label": "50 Гц под дождем",
+          "unit": "кВ",
+          "group": "Выдерживаемое напряжение, кВ",
+          "qualifier": null
+        },
+        {
+          "id": "c10",
+          "label": "Разрядное напряжение 50 Гц в загрязненном и увлажненном состоянии, не менее",
+          "unit": "кВ",
+          "group": null,
+          "qualifier": "не менее"
+        },
+        {
+          "id": "c11",
+          "label": "Нормированная удельная поверхностная проводимость",
+          "unit": "мкСм",
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "c12",
+          "label": "Допустимая степень загрязнения (СЗ) по ГОСТ 9920",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        }
+      ]
+    },
+    {
+      "path": "tables[0].rows[0].cells",
+      "before": [
+        {
+          "column_id": "c1",
+          "value": "ОСК 8-35-А-2",
+          "state": "value"
+        },
+        {
+          "column_id": "c2",
+          "value": "8",
+          "state": "value"
+        },
+        {
+          "column_id": "c3",
+          "value": "600",
+          "state": "value"
+        },
+        {
+          "column_id": "c4",
+          "value": "400",
+          "state": "value"
+        },
+        {
+          "column_id": "c5",
+          "value": "350",
+          "state": "value"
+        },
+        {
+          "column_id": "c6",
+          "value": "1050",
+          "state": "value"
+        },
+        {
+          "column_id": "c7",
+          "value": "210",
+          "state": "value"
+        },
+        {
+          "column_id": "c8",
+          "value": "165",
+          "state": "value"
+        },
+        {
+          "column_id": "c9",
+          "value": "42",
+          "state": "value"
+        },
+        {
+          "column_id": "c10",
+          "value": "10",
+          "state": "value"
+        },
+        {
+          "column_id": "c11",
+          "value": "II",
+          "state": "value"
+        }
+      ],
+      "after": [
+        {
+          "column_id": "c1",
+          "value": "ОСК 8-35-А-2",
+          "state": "value"
+        },
+        {
+          "column_id": "c2",
+          "value": "8",
+          "state": "value"
+        },
+        {
+          "column_id": "c3",
+          "value": "600",
+          "state": "value"
+        },
+        {
+          "column_id": "c4",
+          "value": "400",
+          "state": "value"
+        },
+        {
+          "column_id": "c5",
+          "value": "350",
+          "state": "value"
+        },
+        {
+          "column_id": "c6",
+          "value": "1050",
+          "state": "value"
+        },
+        {
+          "column_id": "c7",
+          "value": "210",
+          "state": "value"
+        },
+        {
+          "column_id": "c8",
+          "value": "165",
+          "state": "value"
+        },
+        {
+          "column_id": "c9",
+          "value": "120",
+          "state": "value"
+        },
+        {
+          "column_id": "c10",
+          "value": "42",
+          "state": "value"
+        },
+        {
+          "column_id": "c11",
+          "value": "10",
+          "state": "value"
+        },
+        {
+          "column_id": "c12",
+          "value": "II",
+          "state": "value"
+        }
+      ]
+    },
+    {
+      "path": "tables[0].rows[1].cells",
+      "before": [
+        {
+          "column_id": "c1",
+          "value": "ОСК 8-35-Б-2",
+          "state": "value"
+        },
+        {
+          "column_id": "c2",
+          "value": "8",
+          "state": "value"
+        },
+        {
+          "column_id": "c3",
+          "value": "600",
+          "state": "value"
+        },
+        {
+          "column_id": "c4",
+          "value": "440",
+          "state": "value"
+        },
+        {
+          "column_id": "c5",
+          "value": "350",
+          "state": "value"
+        },
+        {
+          "column_id": "c6",
+          "value": "1050",
+          "state": "value"
+        },
+        {
+          "column_id": "c7",
+          "value": "210",
+          "state": "value"
+        },
+        {
+          "column_id": "c8",
+          "value": "165",
+          "state": "value"
+        },
+        {
+          "column_id": "c9",
+          "value": "42",
+          "state": "value"
+        },
+        {
+          "column_id": "c10",
+          "value": "10",
+          "state": "value"
+        },
+        {
+          "column_id": "c11",
+          "value": "II",
+          "state": "value"
+        }
+      ],
+      "after": [
+        {
+          "column_id": "c1",
+          "value": "ОСК 8-35-Б-2",
+          "state": "value"
+        },
+        {
+          "column_id": "c2",
+          "value": "8",
+          "state": "value"
+        },
+        {
+          "column_id": "c3",
+          "value": "600",
+          "state": "value"
+        },
+        {
+          "column_id": "c4",
+          "value": "440",
+          "state": "value"
+        },
+        {
+          "column_id": "c5",
+          "value": "350",
+          "state": "value"
+        },
+        {
+          "column_id": "c6",
+          "value": "1050",
+          "state": "value"
+        },
+        {
+          "column_id": "c7",
+          "value": "210",
+          "state": "value"
+        },
+        {
+          "column_id": "c8",
+          "value": "165",
+          "state": "value"
+        },
+        {
+          "column_id": "c9",
+          "value": "120",
+          "state": "value"
+        },
+        {
+          "column_id": "c10",
+          "value": "42",
+          "state": "value"
+        },
+        {
+          "column_id": "c11",
+          "value": "10",
+          "state": "value"
+        },
+        {
+          "column_id": "c12",
+          "value": "II",
+          "state": "value"
+        }
+      ]
+    },
+    {
+      "path": "tables[0].rows[2].cells",
+      "before": [
+        {
+          "column_id": "c1",
+          "value": "ОСК 8-35-Д-2",
+          "state": "value"
+        },
+        {
+          "column_id": "c2",
+          "value": "8",
+          "state": "value"
+        },
+        {
+          "column_id": "c3",
+          "value": "600",
+          "state": "value"
+        },
+        {
+          "column_id": "c4",
+          "value": "420",
+          "state": "value"
+        },
+        {
+          "column_id": "c5",
+          "value": "350",
+          "state": "value"
+        },
+        {
+          "column_id": "c6",
+          "value": "1050",
+          "state": "value"
+        },
+        {
+          "column_id": "c7",
+          "value": "210",
+          "state": "value"
+        },
+        {
+          "column_id": "c8",
+          "value": "165",
+          "state": "value"
+        },
+        {
+          "column_id": "c9",
+          "value": "42",
+          "state": "value"
+        },
+        {
+          "column_id": "c10",
+          "value": "10",
+          "state": "value"
+        },
+        {
+          "column_id": "c11",
+          "value": "II",
+          "state": "value"
+        }
+      ],
+      "after": [
+        {
+          "column_id": "c1",
+          "value": "ОСК 8-35-Д-2",
+          "state": "value"
+        },
+        {
+          "column_id": "c2",
+          "value": "8",
+          "state": "value"
+        },
+        {
+          "column_id": "c3",
+          "value": "600",
+          "state": "value"
+        },
+        {
+          "column_id": "c4",
+          "value": "420",
+          "state": "value"
+        },
+        {
+          "column_id": "c5",
+          "value": "350",
+          "state": "value"
+        },
+        {
+          "column_id": "c6",
+          "value": "1050",
+          "state": "value"
+        },
+        {
+          "column_id": "c7",
+          "value": "210",
+          "state": "value"
+        },
+        {
+          "column_id": "c8",
+          "value": "165",
+          "state": "value"
+        },
+        {
+          "column_id": "c9",
+          "value": "120",
+          "state": "value"
+        },
+        {
+          "column_id": "c10",
+          "value": "42",
+          "state": "value"
+        },
+        {
+          "column_id": "c11",
+          "value": "10",
+          "state": "value"
+        },
+        {
+          "column_id": "c12",
+          "value": "II",
+          "state": "value"
+        }
+      ]
+    },
+    {
+      "path": "tables[0].rows[3].cells",
+      "before": [
+        {
+          "column_id": "c1",
+          "value": "ОСК 8-35-Е-2",
+          "state": "value"
+        },
+        {
+          "column_id": "c2",
+          "value": "8",
+          "state": "value"
+        },
+        {
+          "column_id": "c3",
+          "value": "600",
+          "state": "value"
+        },
+        {
+          "column_id": "c4",
+          "value": "423",
+          "state": "value"
+        },
+        {
+          "column_id": "c5",
+          "value": "350",
+          "state": "value"
+        },
+        {
+          "column_id": "c6",
+          "value": "1050",
+          "state": "value"
+        },
+        {
+          "column_id": "c7",
+          "value": "210",
+          "state": "value"
+        },
+        {
+          "column_id": "c8",
+          "value": "165",
+          "state": "value"
+        },
+        {
+          "column_id": "c9",
+          "value": "42",
+          "state": "value"
+        },
+        {
+          "column_id": "c10",
+          "value": "10",
+          "state": "value"
+        },
+        {
+          "column_id": "c11",
+          "value": "II",
+          "state": "value"
+        }
+      ],
+      "after": [
+        {
+          "column_id": "c1",
+          "value": "ОСК 8-35-Е-2",
+          "state": "value"
+        },
+        {
+          "column_id": "c2",
+          "value": "8",
+          "state": "value"
+        },
+        {
+          "column_id": "c3",
+          "value": "600",
+          "state": "value"
+        },
+        {
+          "column_id": "c4",
+          "value": "423",
+          "state": "value"
+        },
+        {
+          "column_id": "c5",
+          "value": "350",
+          "state": "value"
+        },
+        {
+          "column_id": "c6",
+          "value": "1050",
+          "state": "value"
+        },
+        {
+          "column_id": "c7",
+          "value": "210",
+          "state": "value"
+        },
+        {
+          "column_id": "c8",
+          "value": "165",
+          "state": "value"
+        },
+        {
+          "column_id": "c9",
+          "value": "120",
+          "state": "value"
+        },
+        {
+          "column_id": "c10",
+          "value": "42",
+          "state": "value"
+        },
+        {
+          "column_id": "c11",
+          "value": "10",
+          "state": "value"
+        },
+        {
+          "column_id": "c12",
+          "value": "II",
+          "state": "value"
+        }
+      ]
+    },
+    {
+      "path": "tables[0].rows[4].cells",
+      "before": [
+        {
+          "column_id": "c1",
+          "value": "ОСК 8-35-В-3",
+          "state": "value"
+        },
+        {
+          "column_id": "c2",
+          "value": "8",
+          "state": "value"
+        },
+        {
+          "column_id": "c3",
+          "value": "600",
+          "state": "value"
+        },
+        {
+          "column_id": "c4",
+          "value": "475",
+          "state": "value"
+        },
+        {
+          "column_id": "c5",
+          "value": "425",
+          "state": "value"
+        },
+        {
+          "column_id": "c6",
+          "value": "1160",
+          "state": "value"
+        },
+        {
+          "column_id": "c7",
+          "value": "240",
+          "state": "value"
+        },
+        {
+          "column_id": "c8",
+          "value": "190",
+          "state": "value"
+        },
+        {
+          "column_id": "c9",
+          "value": "42",
+          "state": "value"
+        },
+        {
+          "column_id": "c10",
+          "value": "30",
+          "state": "value"
+        },
+        {
+          "column_id": "c11",
+          "value": "III",
+          "state": "value"
+        }
+      ],
+      "after": [
+        {
+          "column_id": "c1",
+          "value": "ОСК 8-35-В-3",
+          "state": "value"
+        },
+        {
+          "column_id": "c2",
+          "value": "8",
+          "state": "value"
+        },
+        {
+          "column_id": "c3",
+          "value": "600",
+          "state": "value"
+        },
+        {
+          "column_id": "c4",
+          "value": "475",
+          "state": "value"
+        },
+        {
+          "column_id": "c5",
+          "value": "425",
+          "state": "value"
+        },
+        {
+          "column_id": "c6",
+          "value": "1160",
+          "state": "value"
+        },
+        {
+          "column_id": "c7",
+          "value": "240",
+          "state": "value"
+        },
+        {
+          "column_id": "c8",
+          "value": "190",
+          "state": "value"
+        },
+        {
+          "column_id": "c9",
+          "value": "135",
+          "state": "value"
+        },
+        {
+          "column_id": "c10",
+          "value": "42",
+          "state": "value"
+        },
+        {
+          "column_id": "c11",
+          "value": "30",
+          "state": "value"
+        },
+        {
+          "column_id": "c12",
+          "value": "III",
+          "state": "value"
+        }
+      ]
+    },
+    {
+      "path": "tables[0].rows[5].cells",
+      "before": [
+        {
+          "column_id": "c1",
+          "value": "ОСК 8-35-Г-3",
+          "state": "value"
+        },
+        {
+          "column_id": "c2",
+          "value": "8",
+          "state": "value"
+        },
+        {
+          "column_id": "c3",
+          "value": "600",
+          "state": "value"
+        },
+        {
+          "column_id": "c4",
+          "value": "500",
+          "state": "value"
+        },
+        {
+          "column_id": "c5",
+          "value": "425",
+          "state": "value"
+        },
+        {
+          "column_id": "c6",
+          "value": "1160",
+          "state": "value"
+        },
+        {
+          "column_id": "c7",
+          "value": "240",
+          "state": "value"
+        },
+        {
+          "column_id": "c8",
+          "value": "190",
+          "state": "value"
+        },
+        {
+          "column_id": "c9",
+          "value": "42",
+          "state": "value"
+        },
+        {
+          "column_id": "c10",
+          "value": "30",
+          "state": "value"
+        },
+        {
+          "column_id": "c11",
+          "value": "III",
+          "state": "value"
+        }
+      ],
+      "after": [
+        {
+          "column_id": "c1",
+          "value": "ОСК 8-35-Г-3",
+          "state": "value"
+        },
+        {
+          "column_id": "c2",
+          "value": "8",
+          "state": "value"
+        },
+        {
+          "column_id": "c3",
+          "value": "600",
+          "state": "value"
+        },
+        {
+          "column_id": "c4",
+          "value": "500",
+          "state": "value"
+        },
+        {
+          "column_id": "c5",
+          "value": "425",
+          "state": "value"
+        },
+        {
+          "column_id": "c6",
+          "value": "1160",
+          "state": "value"
+        },
+        {
+          "column_id": "c7",
+          "value": "240",
+          "state": "value"
+        },
+        {
+          "column_id": "c8",
+          "value": "190",
+          "state": "value"
+        },
+        {
+          "column_id": "c9",
+          "value": "135",
+          "state": "value"
+        },
+        {
+          "column_id": "c10",
+          "value": "42",
+          "state": "value"
+        },
+        {
+          "column_id": "c11",
+          "value": "30",
+          "state": "value"
+        },
+        {
+          "column_id": "c12",
+          "value": "III",
+          "state": "value"
+        }
+      ]
+    },
+    {
+      "path": "tables[0].rows[6].cells",
+      "before": [
+        {
+          "column_id": "c1",
+          "value": "ОСК 10-35-А-2",
+          "state": "value"
+        },
+        {
+          "column_id": "c2",
+          "value": "10",
+          "state": "value"
+        },
+        {
+          "column_id": "c3",
+          "value": "600",
+          "state": "value"
+        },
+        {
+          "column_id": "c4",
+          "value": "400",
+          "state": "value"
+        },
+        {
+          "column_id": "c5",
+          "value": "350",
+          "state": "value"
+        },
+        {
+          "column_id": "c6",
+          "value": "1050",
+          "state": "value"
+        },
+        {
+          "column_id": "c7",
+          "value": "210",
+          "state": "value"
+        },
+        {
+          "column_id": "c8",
+          "value": "165",
+          "state": "value"
+        },
+        {
+          "column_id": "c9",
+          "value": "42",
+          "state": "value"
+        },
+        {
+          "column_id": "c10",
+          "value": "10",
+          "state": "value"
+        },
+        {
+          "column_id": "c11",
+          "value": "II",
+          "state": "value"
+        }
+      ],
+      "after": [
+        {
+          "column_id": "c1",
+          "value": "ОСК 10-35-А-2",
+          "state": "value"
+        },
+        {
+          "column_id": "c2",
+          "value": "10",
+          "state": "value"
+        },
+        {
+          "column_id": "c3",
+          "value": "600",
+          "state": "value"
+        },
+        {
+          "column_id": "c4",
+          "value": "400",
+          "state": "value"
+        },
+        {
+          "column_id": "c5",
+          "value": "350",
+          "state": "value"
+        },
+        {
+          "column_id": "c6",
+          "value": "1050",
+          "state": "value"
+        },
+        {
+          "column_id": "c7",
+          "value": "210",
+          "state": "value"
+        },
+        {
+          "column_id": "c8",
+          "value": "165",
+          "state": "value"
+        },
+        {
+          "column_id": "c9",
+          "value": "120",
+          "state": "value"
+        },
+        {
+          "column_id": "c10",
+          "value": "42",
+          "state": "value"
+        },
+        {
+          "column_id": "c11",
+          "value": "10",
+          "state": "value"
+        },
+        {
+          "column_id": "c12",
+          "value": "II",
+          "state": "value"
+        }
+      ]
+    },
+    {
+      "path": "tables[0].rows[7].cells",
+      "before": [
+        {
+          "column_id": "c1",
+          "value": "ОСК 10-35-Б-2",
+          "state": "value"
+        },
+        {
+          "column_id": "c2",
+          "value": "10",
+          "state": "value"
+        },
+        {
+          "column_id": "c3",
+          "value": "600",
+          "state": "value"
+        },
+        {
+          "column_id": "c4",
+          "value": "440",
+          "state": "value"
+        },
+        {
+          "column_id": "c5",
+          "value": "350",
+          "state": "value"
+        },
+        {
+          "column_id": "c6",
+          "value": "1050",
+          "state": "value"
+        },
+        {
+          "column_id": "c7",
+          "value": "210",
+          "state": "value"
+        },
+        {
+          "column_id": "c8",
+          "value": "165",
+          "state": "value"
+        },
+        {
+          "column_id": "c9",
+          "value": "42",
+          "state": "value"
+        },
+        {
+          "column_id": "c10",
+          "value": "10",
+          "state": "value"
+        },
+        {
+          "column_id": "c11",
+          "value": "II",
+          "state": "value"
+        }
+      ],
+      "after": [
+        {
+          "column_id": "c1",
+          "value": "ОСК 10-35-Б-2",
+          "state": "value"
+        },
+        {
+          "column_id": "c2",
+          "value": "10",
+          "state": "value"
+        },
+        {
+          "column_id": "c3",
+          "value": "600",
+          "state": "value"
+        },
+        {
+          "column_id": "c4",
+          "value": "440",
+          "state": "value"
+        },
+        {
+          "column_id": "c5",
+          "value": "350",
+          "state": "value"
+        },
+        {
+          "column_id": "c6",
+          "value": "1050",
+          "state": "value"
+        },
+        {
+          "column_id": "c7",
+          "value": "210",
+          "state": "value"
+        },
+        {
+          "column_id": "c8",
+          "value": "165",
+          "state": "value"
+        },
+        {
+          "column_id": "c9",
+          "value": "120",
+          "state": "value"
+        },
+        {
+          "column_id": "c10",
+          "value": "42",
+          "state": "value"
+        },
+        {
+          "column_id": "c11",
+          "value": "10",
+          "state": "value"
+        },
+        {
+          "column_id": "c12",
+          "value": "II",
+          "state": "value"
+        }
+      ]
+    },
+    {
+      "path": "tables[0].rows[8].cells",
+      "before": [
+        {
+          "column_id": "c1",
+          "value": "ОСК 10-35-Д-2",
+          "state": "value"
+        },
+        {
+          "column_id": "c2",
+          "value": "10",
+          "state": "value"
+        },
+        {
+          "column_id": "c3",
+          "value": "600",
+          "state": "value"
+        },
+        {
+          "column_id": "c4",
+          "value": "420",
+          "state": "value"
+        },
+        {
+          "column_id": "c5",
+          "value": "350",
+          "state": "value"
+        },
+        {
+          "column_id": "c6",
+          "value": "1050",
+          "state": "value"
+        },
+        {
+          "column_id": "c7",
+          "value": "210",
+          "state": "value"
+        },
+        {
+          "column_id": "c8",
+          "value": "165",
+          "state": "value"
+        },
+        {
+          "column_id": "c9",
+          "value": "42",
+          "state": "value"
+        },
+        {
+          "column_id": "c10",
+          "value": "10",
+          "state": "value"
+        },
+        {
+          "column_id": "c11",
+          "value": "II",
+          "state": "value"
+        }
+      ],
+      "after": [
+        {
+          "column_id": "c1",
+          "value": "ОСК 10-35-Д-2",
+          "state": "value"
+        },
+        {
+          "column_id": "c2",
+          "value": "10",
+          "state": "value"
+        },
+        {
+          "column_id": "c3",
+          "value": "600",
+          "state": "value"
+        },
+        {
+          "column_id": "c4",
+          "value": "420",
+          "state": "value"
+        },
+        {
+          "column_id": "c5",
+          "value": "350",
+          "state": "value"
+        },
+        {
+          "column_id": "c6",
+          "value": "1050",
+          "state": "value"
+        },
+        {
+          "column_id": "c7",
+          "value": "210",
+          "state": "value"
+        },
+        {
+          "column_id": "c8",
+          "value": "165",
+          "state": "value"
+        },
+        {
+          "column_id": "c9",
+          "value": "120",
+          "state": "value"
+        },
+        {
+          "column_id": "c10",
+          "value": "42",
+          "state": "value"
+        },
+        {
+          "column_id": "c11",
+          "value": "10",
+          "state": "value"
+        },
+        {
+          "column_id": "c12",
+          "value": "II",
+          "state": "value"
+        }
+      ]
+    },
+    {
+      "path": "tables[0].rows[9].cells",
+      "before": [
+        {
+          "column_id": "c1",
+          "value": "ОСК 10-35-Е-2",
+          "state": "value"
+        },
+        {
+          "column_id": "c2",
+          "value": "10",
+          "state": "value"
+        },
+        {
+          "column_id": "c3",
+          "value": "600",
+          "state": "value"
+        },
+        {
+          "column_id": "c4",
+          "value": "423",
+          "state": "value"
+        },
+        {
+          "column_id": "c5",
+          "value": "350",
+          "state": "value"
+        },
+        {
+          "column_id": "c6",
+          "value": "1050",
+          "state": "value"
+        },
+        {
+          "column_id": "c7",
+          "value": "210",
+          "state": "value"
+        },
+        {
+          "column_id": "c8",
+          "value": "165",
+          "state": "value"
+        },
+        {
+          "column_id": "c9",
+          "value": "42",
+          "state": "value"
+        },
+        {
+          "column_id": "c10",
+          "value": "10",
+          "state": "value"
+        },
+        {
+          "column_id": "c11",
+          "value": "II",
+          "state": "value"
+        }
+      ],
+      "after": [
+        {
+          "column_id": "c1",
+          "value": "ОСК 10-35-Е-2",
+          "state": "value"
+        },
+        {
+          "column_id": "c2",
+          "value": "10",
+          "state": "value"
+        },
+        {
+          "column_id": "c3",
+          "value": "600",
+          "state": "value"
+        },
+        {
+          "column_id": "c4",
+          "value": "423",
+          "state": "value"
+        },
+        {
+          "column_id": "c5",
+          "value": "350",
+          "state": "value"
+        },
+        {
+          "column_id": "c6",
+          "value": "1050",
+          "state": "value"
+        },
+        {
+          "column_id": "c7",
+          "value": "210",
+          "state": "value"
+        },
+        {
+          "column_id": "c8",
+          "value": "165",
+          "state": "value"
+        },
+        {
+          "column_id": "c9",
+          "value": "120",
+          "state": "value"
+        },
+        {
+          "column_id": "c10",
+          "value": "42",
+          "state": "value"
+        },
+        {
+          "column_id": "c11",
+          "value": "10",
+          "state": "value"
+        },
+        {
+          "column_id": "c12",
+          "value": "II",
+          "state": "value"
+        }
+      ]
+    },
+    {
+      "path": "tables[0].rows[10].cells",
+      "before": [
+        {
+          "column_id": "c1",
+          "value": "ОСК 10-35-В-3",
+          "state": "value"
+        },
+        {
+          "column_id": "c2",
+          "value": "10",
+          "state": "value"
+        },
+        {
+          "column_id": "c3",
+          "value": "600",
+          "state": "value"
+        },
+        {
+          "column_id": "c4",
+          "value": "475",
+          "state": "value"
+        },
+        {
+          "column_id": "c5",
+          "value": "425",
+          "state": "value"
+        },
+        {
+          "column_id": "c6",
+          "value": "1160",
+          "state": "value"
+        },
+        {
+          "column_id": "c7",
+          "value": "240",
+          "state": "value"
+        },
+        {
+          "column_id": "c8",
+          "value": "190",
+          "state": "value"
+        },
+        {
+          "column_id": "c9",
+          "value": "42",
+          "state": "value"
+        },
+        {
+          "column_id": "c10",
+          "value": "30",
+          "state": "value"
+        },
+        {
+          "column_id": "c11",
+          "value": "III",
+          "state": "value"
+        }
+      ],
+      "after": [
+        {
+          "column_id": "c1",
+          "value": "ОСК 10-35-В-3",
+          "state": "value"
+        },
+        {
+          "column_id": "c2",
+          "value": "10",
+          "state": "value"
+        },
+        {
+          "column_id": "c3",
+          "value": "600",
+          "state": "value"
+        },
+        {
+          "column_id": "c4",
+          "value": "475",
+          "state": "value"
+        },
+        {
+          "column_id": "c5",
+          "value": "425",
+          "state": "value"
+        },
+        {
+          "column_id": "c6",
+          "value": "1160",
+          "state": "value"
+        },
+        {
+          "column_id": "c7",
+          "value": "240",
+          "state": "value"
+        },
+        {
+          "column_id": "c8",
+          "value": "190",
+          "state": "value"
+        },
+        {
+          "column_id": "c9",
+          "value": "135",
+          "state": "value"
+        },
+        {
+          "column_id": "c10",
+          "value": "42",
+          "state": "value"
+        },
+        {
+          "column_id": "c11",
+          "value": "30",
+          "state": "value"
+        },
+        {
+          "column_id": "c12",
+          "value": "III",
+          "state": "value"
+        }
+      ]
+    },
+    {
+      "path": "tables[0].rows[11].cells",
+      "before": [
+        {
+          "column_id": "c1",
+          "value": "ОСК 10-35-Г-3",
+          "state": "value"
+        },
+        {
+          "column_id": "c2",
+          "value": "10",
+          "state": "value"
+        },
+        {
+          "column_id": "c3",
+          "value": "600",
+          "state": "value"
+        },
+        {
+          "column_id": "c4",
+          "value": "500",
+          "state": "value"
+        },
+        {
+          "column_id": "c5",
+          "value": "425",
+          "state": "value"
+        },
+        {
+          "column_id": "c6",
+          "value": "1160",
+          "state": "value"
+        },
+        {
+          "column_id": "c7",
+          "value": "240",
+          "state": "value"
+        },
+        {
+          "column_id": "c8",
+          "value": "190",
+          "state": "value"
+        },
+        {
+          "column_id": "c9",
+          "value": "42",
+          "state": "value"
+        },
+        {
+          "column_id": "c10",
+          "value": "30",
+          "state": "value"
+        },
+        {
+          "column_id": "c11",
+          "value": "III",
+          "state": "value"
+        }
+      ],
+      "after": [
+        {
+          "column_id": "c1",
+          "value": "ОСК 10-35-Г-3",
+          "state": "value"
+        },
+        {
+          "column_id": "c2",
+          "value": "10",
+          "state": "value"
+        },
+        {
+          "column_id": "c3",
+          "value": "600",
+          "state": "value"
+        },
+        {
+          "column_id": "c4",
+          "value": "500",
+          "state": "value"
+        },
+        {
+          "column_id": "c5",
+          "value": "425",
+          "state": "value"
+        },
+        {
+          "column_id": "c6",
+          "value": "1160",
+          "state": "value"
+        },
+        {
+          "column_id": "c7",
+          "value": "240",
+          "state": "value"
+        },
+        {
+          "column_id": "c8",
+          "value": "190",
+          "state": "value"
+        },
+        {
+          "column_id": "c9",
+          "value": "135",
+          "state": "value"
+        },
+        {
+          "column_id": "c10",
+          "value": "42",
+          "state": "value"
+        },
+        {
+          "column_id": "c11",
+          "value": "30",
+          "state": "value"
+        },
+        {
+          "column_id": "c12",
+          "value": "III",
+          "state": "value"
+        }
+      ]
+    },
+    {
+      "path": "tables[0].rows[12].cells",
+      "before": [
+        {
+          "column_id": "c1",
+          "value": "ОСК 12,5-35-А-2",
+          "state": "value"
+        },
+        {
+          "column_id": "c2",
+          "value": "12,5",
+          "state": "value"
+        },
+        {
+          "column_id": "c3",
+          "value": "600",
+          "state": "value"
+        },
+        {
+          "column_id": "c4",
+          "value": "400",
+          "state": "value"
+        },
+        {
+          "column_id": "c5",
+          "value": "350",
+          "state": "value"
+        },
+        {
+          "column_id": "c6",
+          "value": "1050",
+          "state": "value"
+        },
+        {
+          "column_id": "c7",
+          "value": "210",
+          "state": "value"
+        },
+        {
+          "column_id": "c8",
+          "value": "165",
+          "state": "value"
+        },
+        {
+          "column_id": "c9",
+          "value": "42",
+          "state": "value"
+        },
+        {
+          "column_id": "c10",
+          "value": "10",
+          "state": "value"
+        },
+        {
+          "column_id": "c11",
+          "value": "II",
+          "state": "value"
+        }
+      ],
+      "after": [
+        {
+          "column_id": "c1",
+          "value": "ОСК 12,5-35-А-2",
+          "state": "value"
+        },
+        {
+          "column_id": "c2",
+          "value": "12,5",
+          "state": "value"
+        },
+        {
+          "column_id": "c3",
+          "value": "600",
+          "state": "value"
+        },
+        {
+          "column_id": "c4",
+          "value": "400",
+          "state": "value"
+        },
+        {
+          "column_id": "c5",
+          "value": "350",
+          "state": "value"
+        },
+        {
+          "column_id": "c6",
+          "value": "1050",
+          "state": "value"
+        },
+        {
+          "column_id": "c7",
+          "value": "210",
+          "state": "value"
+        },
+        {
+          "column_id": "c8",
+          "value": "165",
+          "state": "value"
+        },
+        {
+          "column_id": "c9",
+          "value": "120",
+          "state": "value"
+        },
+        {
+          "column_id": "c10",
+          "value": "42",
+          "state": "value"
+        },
+        {
+          "column_id": "c11",
+          "value": "10",
+          "state": "value"
+        },
+        {
+          "column_id": "c12",
+          "value": "II",
+          "state": "value"
+        }
+      ]
+    },
+    {
+      "path": "tables[0].rows[13].cells",
+      "before": [
+        {
+          "column_id": "c1",
+          "value": "ОСК 12,5-35-Б-2",
+          "state": "value"
+        },
+        {
+          "column_id": "c2",
+          "value": "12,5",
+          "state": "value"
+        },
+        {
+          "column_id": "c3",
+          "value": "600",
+          "state": "value"
+        },
+        {
+          "column_id": "c4",
+          "value": "440",
+          "state": "value"
+        },
+        {
+          "column_id": "c5",
+          "value": "350",
+          "state": "value"
+        },
+        {
+          "column_id": "c6",
+          "value": "1050",
+          "state": "value"
+        },
+        {
+          "column_id": "c7",
+          "value": "210",
+          "state": "value"
+        },
+        {
+          "column_id": "c8",
+          "value": "165",
+          "state": "value"
+        },
+        {
+          "column_id": "c9",
+          "value": "42",
+          "state": "value"
+        },
+        {
+          "column_id": "c10",
+          "value": "10",
+          "state": "value"
+        },
+        {
+          "column_id": "c11",
+          "value": "II",
+          "state": "value"
+        }
+      ],
+      "after": [
+        {
+          "column_id": "c1",
+          "value": "ОСК 12,5-35-Б-2",
+          "state": "value"
+        },
+        {
+          "column_id": "c2",
+          "value": "12,5",
+          "state": "value"
+        },
+        {
+          "column_id": "c3",
+          "value": "600",
+          "state": "value"
+        },
+        {
+          "column_id": "c4",
+          "value": "440",
+          "state": "value"
+        },
+        {
+          "column_id": "c5",
+          "value": "350",
+          "state": "value"
+        },
+        {
+          "column_id": "c6",
+          "value": "1050",
+          "state": "value"
+        },
+        {
+          "column_id": "c7",
+          "value": "210",
+          "state": "value"
+        },
+        {
+          "column_id": "c8",
+          "value": "165",
+          "state": "value"
+        },
+        {
+          "column_id": "c9",
+          "value": "120",
+          "state": "value"
+        },
+        {
+          "column_id": "c10",
+          "value": "42",
+          "state": "value"
+        },
+        {
+          "column_id": "c11",
+          "value": "10",
+          "state": "value"
+        },
+        {
+          "column_id": "c12",
+          "value": "II",
+          "state": "value"
+        }
+      ]
+    },
+    {
+      "path": "tables[0].rows[14].cells",
+      "before": [
+        {
+          "column_id": "c1",
+          "value": "ОСК 12,5-35-Д-2",
+          "state": "value"
+        },
+        {
+          "column_id": "c2",
+          "value": "12,5",
+          "state": "value"
+        },
+        {
+          "column_id": "c3",
+          "value": "600",
+          "state": "value"
+        },
+        {
+          "column_id": "c4",
+          "value": "420",
+          "state": "value"
+        },
+        {
+          "column_id": "c5",
+          "value": "350",
+          "state": "value"
+        },
+        {
+          "column_id": "c6",
+          "value": "1050",
+          "state": "value"
+        },
+        {
+          "column_id": "c7",
+          "value": "210",
+          "state": "value"
+        },
+        {
+          "column_id": "c8",
+          "value": "165",
+          "state": "value"
+        },
+        {
+          "column_id": "c9",
+          "value": "42",
+          "state": "value"
+        },
+        {
+          "column_id": "c10",
+          "value": "10",
+          "state": "value"
+        },
+        {
+          "column_id": "c11",
+          "value": "II",
+          "state": "value"
+        }
+      ],
+      "after": [
+        {
+          "column_id": "c1",
+          "value": "ОСК 12,5-35-Д-2",
+          "state": "value"
+        },
+        {
+          "column_id": "c2",
+          "value": "12,5",
+          "state": "value"
+        },
+        {
+          "column_id": "c3",
+          "value": "600",
+          "state": "value"
+        },
+        {
+          "column_id": "c4",
+          "value": "420",
+          "state": "value"
+        },
+        {
+          "column_id": "c5",
+          "value": "350",
+          "state": "value"
+        },
+        {
+          "column_id": "c6",
+          "value": "1050",
+          "state": "value"
+        },
+        {
+          "column_id": "c7",
+          "value": "210",
+          "state": "value"
+        },
+        {
+          "column_id": "c8",
+          "value": "165",
+          "state": "value"
+        },
+        {
+          "column_id": "c9",
+          "value": "120",
+          "state": "value"
+        },
+        {
+          "column_id": "c10",
+          "value": "42",
+          "state": "value"
+        },
+        {
+          "column_id": "c11",
+          "value": "10",
+          "state": "value"
+        },
+        {
+          "column_id": "c12",
+          "value": "II",
+          "state": "value"
+        }
+      ]
+    },
+    {
+      "path": "tables[0].rows[15].cells",
+      "before": [
+        {
+          "column_id": "c1",
+          "value": "ОСК 12,5-35-Е-2",
+          "state": "value"
+        },
+        {
+          "column_id": "c2",
+          "value": "12,5",
+          "state": "value"
+        },
+        {
+          "column_id": "c3",
+          "value": "600",
+          "state": "value"
+        },
+        {
+          "column_id": "c4",
+          "value": "423",
+          "state": "value"
+        },
+        {
+          "column_id": "c5",
+          "value": "350",
+          "state": "value"
+        },
+        {
+          "column_id": "c6",
+          "value": "1050",
+          "state": "value"
+        },
+        {
+          "column_id": "c7",
+          "value": "210",
+          "state": "value"
+        },
+        {
+          "column_id": "c8",
+          "value": "165",
+          "state": "value"
+        },
+        {
+          "column_id": "c9",
+          "value": "42",
+          "state": "value"
+        },
+        {
+          "column_id": "c10",
+          "value": "10",
+          "state": "value"
+        },
+        {
+          "column_id": "c11",
+          "value": "II",
+          "state": "value"
+        }
+      ],
+      "after": [
+        {
+          "column_id": "c1",
+          "value": "ОСК 12,5-35-Е-2",
+          "state": "value"
+        },
+        {
+          "column_id": "c2",
+          "value": "12,5",
+          "state": "value"
+        },
+        {
+          "column_id": "c3",
+          "value": "600",
+          "state": "value"
+        },
+        {
+          "column_id": "c4",
+          "value": "423",
+          "state": "value"
+        },
+        {
+          "column_id": "c5",
+          "value": "350",
+          "state": "value"
+        },
+        {
+          "column_id": "c6",
+          "value": "1050",
+          "state": "value"
+        },
+        {
+          "column_id": "c7",
+          "value": "210",
+          "state": "value"
+        },
+        {
+          "column_id": "c8",
+          "value": "165",
+          "state": "value"
+        },
+        {
+          "column_id": "c9",
+          "value": "120",
+          "state": "value"
+        },
+        {
+          "column_id": "c10",
+          "value": "42",
+          "state": "value"
+        },
+        {
+          "column_id": "c11",
+          "value": "10",
+          "state": "value"
+        },
+        {
+          "column_id": "c12",
+          "value": "II",
+          "state": "value"
+        }
+      ]
+    },
+    {
+      "path": "tables[0].rows[16].cells",
+      "before": [
+        {
+          "column_id": "c1",
+          "value": "ОСК 12,5-35-В-3",
+          "state": "value"
+        },
+        {
+          "column_id": "c2",
+          "value": "12,5",
+          "state": "value"
+        },
+        {
+          "column_id": "c3",
+          "value": "600",
+          "state": "value"
+        },
+        {
+          "column_id": "c4",
+          "value": "475",
+          "state": "value"
+        },
+        {
+          "column_id": "c5",
+          "value": "425",
+          "state": "value"
+        },
+        {
+          "column_id": "c6",
+          "value": "1160",
+          "state": "value"
+        },
+        {
+          "column_id": "c7",
+          "value": "240",
+          "state": "value"
+        },
+        {
+          "column_id": "c8",
+          "value": "190",
+          "state": "value"
+        },
+        {
+          "column_id": "c9",
+          "value": "42",
+          "state": "value"
+        },
+        {
+          "column_id": "c10",
+          "value": "30",
+          "state": "value"
+        },
+        {
+          "column_id": "c11",
+          "value": "III",
+          "state": "value"
+        }
+      ],
+      "after": [
+        {
+          "column_id": "c1",
+          "value": "ОСК 12,5-35-В-3",
+          "state": "value"
+        },
+        {
+          "column_id": "c2",
+          "value": "12,5",
+          "state": "value"
+        },
+        {
+          "column_id": "c3",
+          "value": "600",
+          "state": "value"
+        },
+        {
+          "column_id": "c4",
+          "value": "475",
+          "state": "value"
+        },
+        {
+          "column_id": "c5",
+          "value": "425",
+          "state": "value"
+        },
+        {
+          "column_id": "c6",
+          "value": "1160",
+          "state": "value"
+        },
+        {
+          "column_id": "c7",
+          "value": "240",
+          "state": "value"
+        },
+        {
+          "column_id": "c8",
+          "value": "190",
+          "state": "value"
+        },
+        {
+          "column_id": "c9",
+          "value": "135",
+          "state": "value"
+        },
+        {
+          "column_id": "c10",
+          "value": "42",
+          "state": "value"
+        },
+        {
+          "column_id": "c11",
+          "value": "30",
+          "state": "value"
+        },
+        {
+          "column_id": "c12",
+          "value": "III",
+          "state": "value"
+        }
+      ]
+    },
+    {
+      "path": "tables[0].rows[17].cells",
+      "before": [
+        {
+          "column_id": "c1",
+          "value": "ОСК 12,5-35-Г-3",
+          "state": "value"
+        },
+        {
+          "column_id": "c2",
+          "value": "12,5",
+          "state": "value"
+        },
+        {
+          "column_id": "c3",
+          "value": "600",
+          "state": "value"
+        },
+        {
+          "column_id": "c4",
+          "value": "500",
+          "state": "value"
+        },
+        {
+          "column_id": "c5",
+          "value": "425",
+          "state": "value"
+        },
+        {
+          "column_id": "c6",
+          "value": "1160",
+          "state": "value"
+        },
+        {
+          "column_id": "c7",
+          "value": "240",
+          "state": "value"
+        },
+        {
+          "column_id": "c8",
+          "value": "190",
+          "state": "value"
+        },
+        {
+          "column_id": "c9",
+          "value": "42",
+          "state": "value"
+        },
+        {
+          "column_id": "c10",
+          "value": "30",
+          "state": "value"
+        },
+        {
+          "column_id": "c11",
+          "value": "III",
+          "state": "value"
+        }
+      ],
+      "after": [
+        {
+          "column_id": "c1",
+          "value": "ОСК 12,5-35-Г-3",
+          "state": "value"
+        },
+        {
+          "column_id": "c2",
+          "value": "12,5",
+          "state": "value"
+        },
+        {
+          "column_id": "c3",
+          "value": "600",
+          "state": "value"
+        },
+        {
+          "column_id": "c4",
+          "value": "500",
+          "state": "value"
+        },
+        {
+          "column_id": "c5",
+          "value": "425",
+          "state": "value"
+        },
+        {
+          "column_id": "c6",
+          "value": "1160",
+          "state": "value"
+        },
+        {
+          "column_id": "c7",
+          "value": "240",
+          "state": "value"
+        },
+        {
+          "column_id": "c8",
+          "value": "190",
+          "state": "value"
+        },
+        {
+          "column_id": "c9",
+          "value": "135",
+          "state": "value"
+        },
+        {
+          "column_id": "c10",
+          "value": "42",
+          "state": "value"
+        },
+        {
+          "column_id": "c11",
+          "value": "30",
+          "state": "value"
+        },
+        {
+          "column_id": "c12",
+          "value": "III",
+          "state": "value"
+        }
+      ]
+    },
+    {
+      "path": "figures[0].description",
+      "before": "Главный вид изолятора с фланцами на концах; вертикальные размеры: H±2 — полная строительная высота между наружными поверхностями фланцев, L — изоляционная высота между внутренними торцами фланцев; Ø130 — максимальный диаметр юбки. Справа два вида по направлению стрелок А и Б (вид сверху и снизу): для верхнего крепления 4 отверстия диаметра d1 на окружности D1, для нижнего — 4 отверстия диаметра d2 на окружности D2.",
+      "after": "Продольный вид с условным волнистым разрывом: H±2 — полная высота между внешними торцевыми плоскостями фланцев; L — между обращёнными внутрь концами металлических обойм; Ø130 — наружный диаметр больших рёбер. А и Б — направления видов верхнего и нижнего фланцев, не разрезы А–Б. На обоих торцевых видах D1/D2 проведены через штриховые окружности центров четырёх крепёжных отверстий, а d1/d2 с «4 отв.» относятся к самим отверстиям. Числовые значения D1/D2/d1/d2 на данном листе не напечатаны; Ø130 указан числом."
+    },
+    {
+      "path": "source_notes",
+      "before": [
+        "Общий заголовок «Выдерживаемое напряжение, кВ» в источнике напечатан над группой столбцов, включая строительную и изоляционную высоту (в мм); сохранён как группа с исходными единицами столбцов.",
+        "В обозначениях типоразмеров кириллическая буква «Е» (ОСК …-Е-2) набрана в шрифте, визуально близком к латинской E; сохранён кириллический вариант согласно остальному русскому тексту источника.",
+        "Чертёж не содержит числовых значений для Ø130, d1/D1, d2/D2, кроме числа отверстий 4."
+      ],
+      "after": [
+        "Группа «Выдерживаемое напряжение, кВ» объединяет только три столбца: грозового импульса, 50 Гц в сухом состоянии, 50 Гц под дождем. Высоты H/L и путь утечки в мм к этой группе не относятся. Пропущенный native столбец под дождём восстановлен: 120 кВ для А/Б/Д/Е, 135 кВ для В/Г во всех трёх сериях.",
+        "В обозначениях типоразмеров кириллическая буква «Е» (ОСК …-Е-2) набрана в шрифте, визуально близком к латинской E; сохранён кириллический вариант согласно остальному русскому тексту источника.",
+        "В таблице нет числовых присоединительных D1/D2/d1/d2, но на рисунке прямо напечатан Ø130. Строительная H и изоляционная L имеют единицу мм; отдельного условия не более/не менее для этих двух столбцов на листе нет.",
+        "Все 216 ячеек 18×12 сверены. Число600 действительно напечатано в общем столбце нормированного разрушающего крутящего момента, кН·м, на все 18 строк; оно сохранено без исправления по инженерному ожиданию. Разрядное 42 общее, значения 10/II и 30/III распространяются по отдельным четырём/двум строкам каждой серии."
+      ]
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "independent_review_required": true,
+  "independent_review_status": "pending",
+  "separate_model_review_of_root_edits": null,
+  "unresolved_issues": [
+    "Нужна независимая проверка авторского разбора и инженерных отношений."
+  ],
+  "completed_at": "2026-10-14T15:44:30.316673+00:00",
+  "supersedes": {
+    "output": ".tmp/root-tail-review-20261014/shard-mod1/innovations-70-reviewed.json",
+    "sha256": "8d2a540ffa333fd1358295e74a1d68c25f947eb917bc697ac577168152386781",
+    "source_review": ".tmp/root-tail-review-20261014/shard-mod1/innovations-70-source-review.json",
+    "source_review_sha256": "369cb248cfe4180705b1e13007b29418f382155a5e1539fce14a694ff23553ee"
+  },
+  "revision_reason": "Только читаемые пробелы и запись связей величин в авторском пояснении. Все таблицы, исходные марки и значения, условия и размерные связи неизменны.",
+  "revision_corrections": [
+    {
+      "path": "page_context.source_evidence[0].observation",
+      "before": "Полный лист: назначение и нормативы, две ТУ без пояснения их истории, главный вид с условным разрывом и H±2/L/Ø130, торцевые виды А/Б с D1/D2/d1/d2, все 216 ячеек 18×12, включая 50 Гц под дождем, бренды и контакты страницы70.",
+      "after": "Полный лист: назначение и нормативы, две ТУ без пояснения их истории, главный вид с условным разрывом и H±2/L/Ø130, торцевые виды А/Б с D1/D2/d1/d2, все 216 ячеек 18×12, включая 50 Гц под дождем, бренды и контакты страницы 70."
+    },
+    {
+      "path": "source_notes[0]",
+      "before": "Группа «Выдерживаемое напряжение, кВ» объединяет только три столбца: грозового импульса, 50 Гц в сухом состоянии, 50 Гц под дождем. Высоты H/L и путь утечки в мм к этой группе не относятся. Пропущенный native столбец под дождём восстановлен: 120 кВ для А/Б/Д/Е,135 кВ для В/Г во всех трёх сериях.",
+      "after": "Группа «Выдерживаемое напряжение, кВ» объединяет только три столбца: грозового импульса, 50 Гц в сухом состоянии, 50 Гц под дождем. Высоты H/L и путь утечки в мм к этой группе не относятся. Пропущенный native столбец под дождём восстановлен: 120 кВ для А/Б/Д/Е, 135 кВ для В/Г во всех трёх сериях."
+    },
+    {
+      "path": "source_notes[3]",
+      "before": "Все 216 ячеек 18×12 сверены. Число600 действительно напечатано в общем столбце нормированного разрушающего крутящего момента, кН·м, на все18строк; оно сохранено без исправления по инженерному ожиданию. Разрядное42 общее, значения10/II и30/III распространяются по отдельным четырём/двум строкам каждой серии.",
+      "after": "Все 216 ячеек 18×12 сверены. Число600 действительно напечатано в общем столбце нормированного разрушающего крутящего момента, кН·м, на все 18 строк; оно сохранено без исправления по инженерному ожиданию. Разрядное 42 общее, значения 10/II и 30/III распространяются по отдельным четырём/двум строкам каждой серии."
+    }
+  ],
+  "private_original_receipt_sha256": "347c47a20f07db60b0f5c22c65b8efa2099a3586f83fe0ae08b026515ef4c505"
+}

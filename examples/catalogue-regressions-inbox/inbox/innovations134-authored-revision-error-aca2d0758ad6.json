@@ -1,0 +1,36 @@
+{
+  "id": "innovations134-authored-revision-error-aca2d0758ad6",
+  "status": "pending_adjudication",
+  "category": "independent-review-catches-authored-error",
+  "title": "innovations,страница134:независимая проверка исправила ошибку автора",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 134
+  },
+  "review_basis": "[{\"path\": \"page_context.summary\", \"finding\": \"Прессовый и неразъёмный монтаж ШРЦ, а также общее исключение зажимов из комплекта противоречат исходному назначению и правильным text_blocks.\", \"required_correction\": \"Указать разъёмные комплектные ШРЦ без опрессования при монтаже; внешние натяжные зажимы вне комплекта.\", \"evidence\": \"Полный innovations-134-source.png: абзацы назначения/преимущества.\"}, {\"path\": \"figures[0].description\", \"finding\": \"Размер5 выдан за зазор между торцами проводников без указания заштрихованной осевой изоляционной перемычки, связанной с оболочкой.\", \"required_correction\": \"Передать осевую толщину перемычки; не описывать пустой зазор.\", \"evidence\": \"innovations-134-drawing.png и тот же конструктивный стык на130/126-axial5.png\"}] Фактический автор {\"harness\": \"codex\", \"session_id\": \"01a12c30-e58f-7861-8a2d-966c92630163\", \"version\": \"root-tail-source-review-2026-10-14.r1\", \"model_id\": \"Current native Codex session; exact provider identifier not exported.\"}. Сохранены точные ошибочные авторские байты и новая source-corrected версия; это НЕ результат MiniMax/GLM и не автоматическое золото.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/aca2d0758ad656a8a2f275c1e1c3912b421ec1f624f22709ca277e65022265bb.json",
+      "sha256": "aca2d0758ad656a8a2f275c1e1c3912b421ec1f624f22709ca277e65022265bb",
+      "bytes": 31359,
+      "role": "actual-authored-failure",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/fb9fb121e6328b0cf6a7280759851c9c127b0e53918d3db5425f44dae8ce4b1e.json",
+      "sha256": "fb9fb121e6328b0cf6a7280759851c9c127b0e53918d3db5425f44dae8ce4b1e",
+      "bytes": 31249,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r2"
+    },
+    {
+      "path": "objects/448d67213cc4fbdd11b2189b433f0e8a05cecf4b4f7976835d18cdbdbe0a59cc.json",
+      "sha256": "448d67213cc4fbdd11b2189b433f0e8a05cecf4b4f7976835d18cdbdbe0a59cc",
+      "bytes": 8300,
+      "role": "independent-source-review",
+      "program_version": "native-codex-independent-review-20261014"
+    }
+  ]
+}

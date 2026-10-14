@@ -1,0 +1,73 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 106,
+  "printed_page": "106",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "a5cc63486f99260d5524885d6f68efe3ec249fa773d19ec1c0d6c0c75bc8a3c8",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.3",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "531e9bea963ef7592a9a09035761b155f81fbf1ba43027dc5c7017c55e9693fe",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "a5cc63486f99260d5524885d6f68efe3ec249fa773d19ec1c0d6c0c75bc8a3c8",
+      "source_bound_save": true,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 106,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "3b4165e5e56d3a8455b883aea55738aa0e06f3159a60ba01bc9d5ccabf1f6d10",
+      "receipt": "calls/bcfd5dc6fe7b4ad49b2c276680501b1c/result.json",
+      "started_at": 1791939803.683856,
+      "finished_at": 1791939935.474622
+    }
+  },
+  "output": {
+    "file": "innovations-106-reviewed.json",
+    "sha256": "7cc8c2dabe30720f54ad8a9e81bb2d59c3ab1d6d12bffe6fd8c7c9e92e48d6b4"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "e2b5818ebf45c5cee7e4cdb6f30f71927427e7c5619898e5509b409256351c3a",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      10
+    ],
+    "column_counts": [
+      10
+    ],
+    "cells_checked": 100
+  },
+  "source_findings": "Все100значений/state10×10сохранены,включаянастоящуюнеобычную70/72,масс5безвыдуманногодесятичногоразряда,125/26,5/161длявсехтрёхстроксреднейгруппы.",
+  "corrections": [
+    "Ложная неизвестная позиция5 разрешена как настоящий осевой размер изоляционной перемычки; исправлены базыL₃ и принадлежностьdвкладышу.",
+    "Оба конца одногошлейфа и реальные направления отделены от двухзеркальныхвидов.",
+    "ДляL₁/L₂/L₃/D/d восстановлена общая напечатаннаяединицаммизшапки."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T18:33:01.368999+03:00",
+  "private_original_receipt_sha256": "b602e160e3f5a3934f53ff43a47c27d8bbad049fd5ba3cc515b47355dfd8ca43"
+}

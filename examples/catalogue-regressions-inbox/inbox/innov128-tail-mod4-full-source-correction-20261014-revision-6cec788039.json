@@ -1,0 +1,36 @@
+{
+  "id": "innov128-tail-mod4-full-source-correction-20261014-revision-6cec788039",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 128: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 128
+  },
+  "review_basis": "[\"Верхняя граница evidence[1] расширена до .54, включая первую строку шапки таблицы около .545. Верная геометрия L₄ из r2 полностью сохранена.\", \"Полные оригиналы ранее лично проверены; точечная ревизия повторно сопоставлена с их сохранёнными изображениями. Таблицы и числовые факты не менялись.\"] Исправления: [\"Верхняя граница evidence[1] расширена до .54, включая первую строку шапки таблицы около .545. Верная геометрия L₄ из r2 полностью сохранена.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/b745d7d1c6660ec8225bb4a1dc42ce3fac47772327f39355c9edf86b9911a047.json",
+      "sha256": "b745d7d1c6660ec8225bb4a1dc42ce3fac47772327f39355c9edf86b9911a047",
+      "bytes": 38766,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/6cec78803947cbdb772326dd90a0da04116393fd7e6cb199270d8eeef439c131.json",
+      "sha256": "6cec78803947cbdb772326dd90a0da04116393fd7e6cb199270d8eeef439c131",
+      "bytes": 38743,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r1"
+    },
+    {
+      "path": "objects/d13c27f6fb20243f0a55ee44b969b0a53422b3b2a8eeac99f5213440f1704202.json",
+      "sha256": "d13c27f6fb20243f0a55ee44b969b0a53422b3b2a8eeac99f5213440f1704202",
+      "bytes": 3785,
+      "role": "source-review",
+      "program_version": "tail-mod0-20261014.r1"
+    }
+  ]
+}

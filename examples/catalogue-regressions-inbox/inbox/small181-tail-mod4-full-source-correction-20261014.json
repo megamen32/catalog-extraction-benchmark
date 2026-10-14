@@ -1,0 +1,36 @@
+{
+  "id": "small181-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "small, страница 181: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Malyj-katalog.pdf",
+    "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_page": 181
+  },
+  "review_basis": "[\"Полный оригинал просмотрен до candidate; каждый размер сверён по собственным крупным кропам. Все значения/состояния/единицы/условия и объединения таблиц подтверждены.\", \"Исходные необычные числа и буквенные коды не исправлялись по инженерному ожиданию.\"] Исправления: [\"H исправлена с наружных граней креплений на оси проводов; D относится к проводу, не шарнирным отверстиям. L/2 связаны с каждым корпусом.\", \"Исправлены ложные номера строк объединения H/D и добавлен полный контекст;98 ячеек неизменны.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/f1e409caad7e926cfc7a63204807f7070d16914b2c6cb75ed55ee62bb830eb23.json",
+      "sha256": "f1e409caad7e926cfc7a63204807f7070d16914b2c6cb75ed55ee62bb830eb23",
+      "bytes": 20350,
+      "role": "native-candidate",
+      "program_version": "1.4.15"
+    },
+    {
+      "path": "objects/4b87f54c16046f0b272c54197ce992d696ac9d69fb541e6eca881f8dc45842b7.json",
+      "sha256": "4b87f54c16046f0b272c54197ce992d696ac9d69fb541e6eca881f8dc45842b7",
+      "bytes": 20627,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-remaining-small-20261014.r4"
+    },
+    {
+      "path": "objects/b166fc1defe6bb8690ed2e697091abdbd12c3a9a5fc25e4d62eb04235d695476.json",
+      "sha256": "b166fc1defe6bb8690ed2e697091abdbd12c3a9a5fc25e4d62eb04235d695476",
+      "bytes": 13097,
+      "role": "source-review",
+      "program_version": "tail-mod3-remaining-small-20261014.r4"
+    }
+  ]
+}

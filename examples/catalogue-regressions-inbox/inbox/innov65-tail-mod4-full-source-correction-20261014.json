@@ -1,0 +1,36 @@
+{
+  "id": "innov65-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 65: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 65
+  },
+  "review_basis": "Все56ячеек8×7сверены,6500/5900первые4;7000/6350следующие2;10000/9350последние2,утечка10900/16000/16500/19500,сжатие1всем8;13,0÷40,0не13÷40,0,концевойсуффиксГнастоящий. Исправления: [\"Удалены посторонние китайские символы/выдуманныефланцы,определены действительные базыH/400/диаметры крупныхэлементов.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/fda0e09f75a2f6a837eb61972b7f257b0a746693e7607b24e3c5402a9d2d9d5f.json",
+      "sha256": "fda0e09f75a2f6a837eb61972b7f257b0a746693e7607b24e3c5402a9d2d9d5f",
+      "bytes": 15723,
+      "role": "native-candidate",
+      "program_version": "1.4.15"
+    },
+    {
+      "path": "objects/c9d4e7cfcef876786e5f9ea62680bf3ea569b4accdfea92573946e3adc52f910.json",
+      "sha256": "c9d4e7cfcef876786e5f9ea62680bf3ea569b4accdfea92573946e3adc52f910",
+      "bytes": 16313,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/4c856b43a2d8833e0a32e8008ae91d975ae0cb178c3d2c5c8fd27d7b0c43c22a.json",
+      "sha256": "4c856b43a2d8833e0a32e8008ae91d975ae0cb178c3d2c5c8fd27d7b0c43c22a",
+      "bytes": 4255,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

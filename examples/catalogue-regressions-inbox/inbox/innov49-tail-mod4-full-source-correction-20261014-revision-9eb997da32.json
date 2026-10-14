@@ -1,0 +1,36 @@
+{
+  "id": "innov49-tail-mod4-full-source-correction-20261014-revision-9eb997da32",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 49: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 49
+  },
+  "review_basis": "Все264ячейки24×11сверены:70/120кНгруппы,собственныеразныеH305/330…630,изолирующая185…485,все7электрических/загрязняющихколонок,сноска10оконцевателейреальны. ТУ2006/100Гц/−60…+50/ГОСТ15150/28856/55189/МЭК61109подтверждены. Исправления: [\"Hпривязанакосиверхнегоотверстияиплоскостипестика;детализацияØ65/90рёбра/Ø300экран. Неподтверждённыйзнак+1,3невыданкакпроверенный.\", \"Десятичные точки всех чертёжных допусков сохранены буквально; неподтверждённыйплюсперед1.3удалёниспискаподписей. Неясныйзнакисходникаостаётсянеизвестным.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/128396159fb8601b31eb2486e92f6ea4aaafe05c1ab6abfb6e6bc29abbe9135e.json",
+      "sha256": "128396159fb8601b31eb2486e92f6ea4aaafe05c1ab6abfb6e6bc29abbe9135e",
+      "bytes": 43599,
+      "role": "native-candidate",
+      "program_version": "1.4.15"
+    },
+    {
+      "path": "objects/9eb997da32f710ffb2ebb98dc798666e553f381666bb7778f77fd36e9631a69c.json",
+      "sha256": "9eb997da32f710ffb2ebb98dc798666e553f381666bb7778f77fd36e9631a69c",
+      "bytes": 45401,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r2"
+    },
+    {
+      "path": "objects/6dbc5af6e302a72bfd8912592b4975f76a0f14b9900d0515cc042aa87c9ab31c.json",
+      "sha256": "6dbc5af6e302a72bfd8912592b4975f76a0f14b9900d0515cc042aa87c9ab31c",
+      "bytes": 5112,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r2"
+    }
+  ]
+}

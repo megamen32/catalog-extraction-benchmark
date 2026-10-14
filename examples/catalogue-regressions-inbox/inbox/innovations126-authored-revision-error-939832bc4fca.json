@@ -1,0 +1,36 @@
+{
+  "id": "innovations126-authored-revision-error-939832bc4fca",
+  "status": "pending_adjudication",
+  "category": "independent-review-catches-authored-error",
+  "title": "innovations,страница126:независимая проверка исправила ошибку автора",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 126
+  },
+  "review_basis": "[{\"path\": \"page_context.summary\", \"finding\": \"Сохранился зажим наливного типа НАС, хотя источник натяжной.\", \"required_correction\": \"Натяжной зажим НАС.\", \"evidence\": \"innovations-126-source.png\"}, {\"path\": \"figures[0].description\", \"finding\": \"L₁ верхняя база ошибочно у начала плоской лапки. Выносная проходит через ось НИЖНЕГО ряда болтов.\", \"required_correction\": \"От оси нижнего ряда болтов до отмеченной плоскости осевой перемычки5.\", \"evidence\": \"innovations-126-drawing.png\"}, {\"path\": \"figures[0].description; page_context.source_evidence[0].observation\", \"finding\": \"5 назван зазором, но область заштрихована и связана с продольной оболочкой.\", \"required_correction\": \"Осевая толщина заштрихованной изоляционной перемычки между торцами проводников, не пустой зазор.\", \"evidence\": \"innovations-126-axial5.png\"}, {\"path\": \"source_notes[0]\", \"finding\": \"Выдуман перенос Размеры,мм как Разме+ры,мм; исходная шапка одной строкой.\", \"required_correction\": \"Удалить ложное примечание.\", \"evidence\": \"innovations-126-table.png\"}] Фактический автор {\"harness\": \"codex\", \"session_id\": \"01a12c30-e58f-7861-8a2d-966c92630163\", \"version\": \"root-tail-source-review-2026-10-14.r1\", \"model_id\": \"Current native Codex session; exact provider identifier not exported.\"}. Сохранены точные ошибочные авторские байты и новая source-corrected версия; это НЕ результат MiniMax/GLM и не автоматическое золото.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/939832bc4fca60ea73842eb35794b6126859e3ea73f48743e883fc0f2527f8e5.json",
+      "sha256": "939832bc4fca60ea73842eb35794b6126859e3ea73f48743e883fc0f2527f8e5",
+      "bytes": 27903,
+      "role": "actual-authored-failure",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/91abe43bac5e501be4040142452e907508c924bd6d9b6833ea9b8527fb57f0f8.json",
+      "sha256": "91abe43bac5e501be4040142452e907508c924bd6d9b6833ea9b8527fb57f0f8",
+      "bytes": 27715,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r3"
+    },
+    {
+      "path": "objects/d6175d7bbeafae5881168013a3488911bb1330b4e869b73ae16abc2c75cce7aa.json",
+      "sha256": "d6175d7bbeafae5881168013a3488911bb1330b4e869b73ae16abc2c75cce7aa",
+      "bytes": 10323,
+      "role": "independent-source-review",
+      "program_version": "native-codex-independent-review-20261014"
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "small",
+  "source_filename": "Malyj-katalog.pdf",
+  "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+  "physical_page": 181,
+  "printed_page": "180",
+  "status": "awaiting_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod3",
+    "task": "/root/catalog_tail_mod3",
+    "version": "tail-mod3-remaining-small-20261014.r4",
+    "model_id": "Current native Codex worker session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "small-181-candidate.json",
+    "sha256": "f1e409caad7e926cfc7a63204807f7070d16914b2c6cb75ed55ee62bb830eb23",
+    "canonical_sha256": "4cc4098172fc5485ea617f5b24b9c12d9bf5cbf703c2ec46277e1af033dafed3",
+    "producer": {
+      "program": {
+        "package_version": "1.4.15",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+        "python_version": "3.12.13",
+        "components": {
+          "agent_logic": {
+            "package_version": "1.4.2",
+            "git_revision": null,
+            "dirty": null,
+            "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+            "python_version": "3.12.13"
+          },
+          "catalog_tools": {
+            "package_version": "1.4.8",
+            "git_revision": null,
+            "dirty": null,
+            "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+            "python_version": "3.12.13"
+          },
+          "legacy_skills": {
+            "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+            "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+          },
+          "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+          "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+          "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+          "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+        }
+      },
+      "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+      "physical_page": 181,
+      "attempt": 0,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf",
+      "artifact_sha256": "f1e409caad7e926cfc7a63204807f7070d16914b2c6cb75ed55ee62bb830eb23",
+      "started_at": 1791855503.2254152,
+      "finished_at": 1791855576.5592012,
+      "provider_rate_limit_events": 0,
+      "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46",
+      "status": "receipt_verified",
+      "source_bound_save": true,
+      "receipt": ".tmp/full-digitization/staged-best-v1.4.8/small/page-0181/calls/2e4c197c18d14b30b6e7c9e0e27b6abc/result.json",
+      "frozen_receipt": "small-181-native-receipt.json",
+      "frozen_receipt_sha256": "b365d3bb64d9ad12a7a722e4a59e8a30ab2488e65e2d70c99c76df89d30a7e58"
+    }
+  },
+  "output": {
+    "file": "small-181-reviewed.json",
+    "sha256": "4b87f54c16046f0b272c54197ce992d696ac9d69fb541e6eca881f8dc45842b7",
+    "canonical_sha256": "34fcab2dbfbffa067be54b63ce415337a4d81061a8c0e790ffeafadca2b117a1"
+  },
+  "full_original_image_review": true,
+  "original_image": "small-181.png",
+  "original_image_sha256": "2b319973fedade3fea8dd4547cfc4864f744ee11cb47e53946c7ea64f81a082c",
+  "own_source_observation": "small-181-own-source-observation.json",
+  "own_source_observation_sha256": "d9b78bd679d4e0f3b2f5f21d85b2cfa8e9c627f688d74eb71eb521490fa2eebc",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "page_content_schema": true
+  },
+  "tables": {
+    "row_counts": [
+      14
+    ],
+    "column_counts": [
+      7
+    ],
+    "cells_checked": 98
+  },
+  "source_findings": [
+    "Полный оригинал просмотрен до candidate; каждый размер сверён по собственным крупным кропам. Все значения/состояния/единицы/условия и объединения таблиц подтверждены.",
+    "Исходные необычные числа и буквенные коды не исправлялись по инженерному ожиданию."
+  ],
+  "corrections": [
+    "H исправлена с наружных граней креплений на оси проводов; D относится к проводу, не шарнирным отверстиям. L/2 связаны с каждым корпусом.",
+    "Исправлены ложные номера строк объединения H/D и добавлен полный контекст;98 ячеек неизменны."
+  ],
+  "complete_leaf_diff": [
+    {
+      "path": ".figures[0].description",
+      "before": "Чертёж межфазной изолирующей распорки типа РМИ: симметричная конструкция с двумя крайними металлическими пластинами-креплениями (каждая с двумя болтами на сторону — всего 4 отверстия с болтами на виде), двумя симметричными изоляторами с гофрированными (ребристыми) юбками, двумя шарнирными/петлевыми узлами с круглыми отверстиями (D) у краёв и двумя центральными стяжными болтами с гайками на стыке. Осевая штрихпунктирная линия проходит через весь узел. Общая габаритная длина задаётся размером «H±5» (верхняя размерная линия между наружными гранями крайних пластин). Изоляционная длина разделена на две равные половины, каждая из которых промаркирована размером «L/2» (по одной размерной линии над каждым из двух изоляторов). У нижних краёв рисунка, у основания каждой крайней пластины, стоят две одинаковые отметки «D» (размер диаметра провода). Подпись под чертежом: «Рекомендуется устанавливать с применением протектора.» Других размеров, допусков и обозначений отверстий на чертеже не указано.",
+      "after": "Рисунок 3: два отдельных ребристых изоляционных корпуса, центральный участок с двумя поперечными болтами и концевые зажимы на вертикально показанных проводах. Круглые шарниры соединяют корпуса с концевыми кронштейнами. H±5 — между осями двух крайних проводов, не наружный габарит креплений. Каждая L/2 ограничена отмеченными торцами соответствующего изоляционного корпуса; сумма этих частей соответствует обозначению L таблицы. D — наружный диаметр провода у каждого конца, не отверстие шарнира. Протектор рекомендован, и по сноске* следует учитывать его диаметр. Волнистые линии на корпусах и центральном участке обозначают условные разрывы, не пустые зазоры."
+    },
+    {
+      "path": ".page_context",
+      "before": null,
+      "after": {
+        "kind": "catalogue_product_data",
+        "summary": "Межфазные изолирующие распорки РМИ10–35 кВ, рисунок 3 с двумя ребристыми изоляционными частями и центральным болтовым участком. Таблица14×7 связывает марки, строительную длину H, изоляционную L, путь утечки, СЗ, силу на сжатие и диапазоны провода. H по выбору заказчика; протектор рекомендован и его диаметр следует учитывать. На странице заявлена аттестация ПАО «Россети».",
+        "source_evidence": [
+          {
+            "kind": "catalogue_product_data",
+            "box": [
+              0.05,
+              0.01,
+              0.95,
+              0.985
+            ],
+            "observation": "Полный исходный лист просмотрен до candidate и затем сверён с собственными крупными кропами: все 98 ячеек, состояния, объединения, шапки, единицы и условия, марки, подписи, размерные базы, бренды, контакты и печатный номер. Необычные печатные значения сохранены без инженерной нормализации.",
+            "transcription": "literal"
+          }
+        ]
+      }
+    },
+    {
+      "path": ".source_notes",
+      "before": [
+        "Заголовок таблицы в источнике набран без пробела: «Таблица к рис.3».",
+        "В заголовке колонки «Строительная длина» символ Н — кириллица (U+041D), а в размерной надписи на чертеже РИС. 3 тот же параметр набран латинской H (U+0048) — расхождение сохранено как в источнике.",
+        "Обозначение диаметра в колонке «Диаметр провода D*,мм» — латинская D (U+0044); в значениях диапазонов использован знак деления «÷» и тире «–».",
+        "Строки 2–4 и 10–12, а также 6–7 и 14 в колонке «Строительная длина» и вся колонка «Диаметр провода D*,мм» образуют в источнике объединённые ячейки; значения показаны в первой строке объединения.",
+        "Логотипы «ФОРЭНЕРГО производственное объединение» и «FORENERGO® manufacturing association» — графические изображения, подписи переданы по видимому тексту.",
+        "Знак «±» в размерной надписи «H±5» отделён от буквы без пробела."
+      ],
+      "after": [
+        "H** в таблице — строительная длина по выбору заказчика, H±5 на рисунке сохранена отдельно.",
+        "В каждой группе РМИ25/РМИ30 значения H900–2500 охватывают три строки20 кВ, H1250–3000 две последние строки35 кВ. Диапазон D объединён по семи строкам соответствующей группы.",
+        "П1 соответствует6,4÷12,6 мм; П2 —13,5÷19,6 мм, П3 —18÷28 мм. При применении протектора учитывается его диаметр.",
+        "Все 98 значений/состояний проверены; номера рисунка/таблицы и аттестационный знак соответствуют листу."
+      ]
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independent_review_required": true,
+  "unresolved_issues": [],
+  "acceptance_note": "No self PASS. Corrected author content and engineering dimension ownership require independent source review. Frozen native bytes and actual receipt retained separately.",
+  "completed_at": "2026-10-14T19:17:26.151812+03:00",
+  "private_original_receipt_sha256": "f95e0bbd36a2d9c971f24eb65aec79dffbc7581ba2318c3fa7332975902b9507"
+}

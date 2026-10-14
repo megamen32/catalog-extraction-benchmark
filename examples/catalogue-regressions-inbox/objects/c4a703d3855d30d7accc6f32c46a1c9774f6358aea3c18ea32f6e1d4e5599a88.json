@@ -1,0 +1,95 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 63,
+  "printed_page": "63",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "9341abb33dfee46b31ad978266fea76b51a9067e21011a0c1777bb116480e61f",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.4.15",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+        "python_version": "3.12.13",
+        "components": {
+          "agent_logic": {
+            "package_version": "1.4.2",
+            "git_revision": null,
+            "dirty": null,
+            "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+            "python_version": "3.12.13"
+          },
+          "catalog_tools": {
+            "package_version": "1.4.8",
+            "git_revision": null,
+            "dirty": null,
+            "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+            "python_version": "3.12.13"
+          },
+          "legacy_skills": {
+            "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+            "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+          },
+          "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+          "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+          "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+          "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+        }
+      },
+      "artifact_sha256": "9341abb33dfee46b31ad978266fea76b51a9067e21011a0c1777bb116480e61f",
+      "source_bound_save": true,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 63,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf",
+      "receipt": "calls/f5cd33f9a34045ea8afefa21480817a8/result.json",
+      "started_at": 1791907040.375686,
+      "finished_at": 1791907085.2501929
+    }
+  },
+  "output": {
+    "file": "innovations-63-reviewed.json",
+    "sha256": "b4f5542adc749d84bf3cf33b6e8fd1b9e72ad2c0f5748c9f8c36b20f826f4cca"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "3469d4a65c5f79d246ab0aa8a98604854e9ef1ee0924bf511f569c3e7ee92eb5",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      8
+    ],
+    "column_counts": [
+      6
+    ],
+    "cells_checked": 48
+  },
+  "source_findings": "Все48ячеек8×6сверены:950–2500/1270–2500/1270–3000/1450–3000,Lтире/370/370/770,утечка730/1400/1400/2340дважды,сжатие1,0всем,диапазоныП1/П2/П3/ТУ2009/сноскизаказчикаипротектора.",
+  "corrections": [
+    "Hуточнён как межосевое крайнихпроводов;Ø90рёбра,Dпровод,разрывыусловные."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T19:09:56.661355+03:00",
+  "private_original_receipt_sha256": "d3ff69c69bffa954d9be61f89754030806c54e86b4711b959d2041e74b103a04"
+}

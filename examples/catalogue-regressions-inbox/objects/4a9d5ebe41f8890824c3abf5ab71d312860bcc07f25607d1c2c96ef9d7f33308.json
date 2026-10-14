@@ -1,0 +1,142 @@
+{
+  "schema_version": "catalogue-independent-source-review/1",
+  "catalog": "innovations",
+  "source_filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 110,
+  "exact_reviewed_path": "innovations-110-reviewed.json",
+  "exact_reviewed_sha256": "394c6b9d6e83b8570140f4a07f296a70358dd674239598fc82ee15f1c7916a30",
+  "frozen_reviewed_path": "frozen-root-innovations-110.json",
+  "independent_author": "catalog_tail_mod3",
+  "origin_author": "root",
+  "version": "root-independence-mod3-innovations-20261014.block4.r1",
+  "harness": "codex",
+  "is_glm_receipt": false,
+  "source_first": true,
+  "full_original_image_review": true,
+  "original_image": "innovations-110-source.png",
+  "original_image_sha256": "0a0881daa74ca3384ee5dbec552800e7c961c0301eb22ff17048004b51b396e2",
+  "own_source_observation": "innovations-110-own-source-observation.json",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": false,
+    "source_provenance": true
+  },
+  "observed_table_count": 1,
+  "observed_row_counts": [
+    9
+  ],
+  "observed_column_counts": [
+    9
+  ],
+  "cells_checked": 81,
+  "technical_and_meaning_review": "Полный оригинал и собственные увеличенные кропы просмотрены до открытия исправленного JSON. Все значения, состояния, объединения, единицы, условия, коды и размерные выноски сверены. Выявлены указанные содержательные ошибки автора; остальные поля подтверждены.",
+  "per_figure_dimension_ownership": [
+    {
+      "figure_index": 0,
+      "source_bbox": [
+        0.055,
+        0.065,
+        0.94,
+        0.495
+      ],
+      "dimensions": [
+        {
+          "literal_label": "D / d",
+          "actual_target": "Наружный диаметр втулки / внутренний проход",
+          "source_bbox": [
+            0.258,
+            0.287,
+            0.349,
+            0.359
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "мм в таблице"
+        },
+        {
+          "literal_label": "L₁",
+          "actual_target": "Длина втулки между торцами",
+          "source_bbox": [
+            0.229,
+            0.316,
+            0.321,
+            0.377
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "мм в таблице"
+        },
+        {
+          "literal_label": "L₂",
+          "actual_target": "Отдельная плоскость ВНУТРИ втулки до верхней границы перемычки5",
+          "source_bbox": [
+            0.606,
+            0.32,
+            0.758,
+            0.429
+          ],
+          "arrow_start": "Плоскость внутри втулки, выше нижнего уступа",
+          "arrow_end": "Верхняя граница осевой перемычки",
+          "units": "мм в таблице"
+        },
+        {
+          "literal_label": "5",
+          "actual_target": "Осевая заштрихованная изоляционная перемычка",
+          "source_bbox": [
+            0.614,
+            0.4,
+            0.711,
+            0.452
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "На рисунке единица не напечатана; по масштабу не измерено."
+        },
+        {
+          "literal_label": "L",
+          "actual_target": "Общая длина проводника через разрыв",
+          "source_bbox": [
+            0.565,
+            0.437,
+            0.658,
+            0.489
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "На рисунке единица не напечатана; по масштабу не измерено."
+        }
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "path": "figures[0].description",
+      "actual": "Верхняя база L₂ — отдельная плоскость внутри втулки, выше её нижнего торца.",
+      "incorrect": "От этого нижнего уступа.",
+      "source_bbox": [
+        0.606,
+        0.32,
+        0.758,
+        0.429
+      ],
+      "evidence": "innovations-110-joint.png"
+    }
+  ],
+  "nonblocking_observations": [
+    "Местами авторские пояснения требуют пробелов; смысл однозначен, это не блокирует проверку."
+  ],
+  "uncertainties": [],
+  "verdict": "revise",
+  "reviewed_at": "2026-10-14T19:00:45.688709+03:00",
+  "private_review_artifact_sha256": "e71170368f6c3a0389c2b197d5798ae4ebb6026e7e309f7f46cbca0d709b4db4",
+  "actual_author_producer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  }
+}

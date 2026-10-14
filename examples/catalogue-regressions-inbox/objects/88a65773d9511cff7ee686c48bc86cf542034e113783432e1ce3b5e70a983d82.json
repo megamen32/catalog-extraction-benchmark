@@ -1,0 +1,72 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 26,
+  "printed_page": "26",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "c4ba83c7ec4685443b330afc9cc598c268f1af2e9e23570bbc2d26bd5a2e0024",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.23",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "9149f67edeac9814da5291cad899361e9512ccff01cd4d049e4d5f1a28fa8fdd",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "c4ba83c7ec4685443b330afc9cc598c268f1af2e9e23570bbc2d26bd5a2e0024",
+      "source_bound_save": true,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 26,
+      "attempt": 2,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "867b3f790ecc8921609cf97aa738eda3b36ee55598d694455416842fad03be98",
+      "receipt": "calls/8df719c7dfc341fbba918790e0e99fd5/result.json",
+      "started_at": 1791992379.3184972,
+      "finished_at": 1791992795.1221704
+    }
+  },
+  "output": {
+    "file": "innovations-26-reviewed.json",
+    "sha256": "8818dd31b23a1a6fb248ddc922024ecc8a9c2beac070fa8a8ba2d6b5c70406ee"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "6b637a8bed6575a2fca0932f0005a7c8c570fdaaa32ae060d4a8dd7fcdad06d6",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      8
+    ],
+    "column_counts": [
+      21
+    ],
+    "cells_checked": 168
+  },
+  "source_findings": "Все168ячеек8×21построчносверены с новымнативным23кандидатом,не старым1.4.20. Реальные445/470/468и545/560/555/570,парырадиопомехиусловиемассынеболее сохранены. Назначение1000В/100Гц/−60…+50/УХЛ1/ТУ2009/ГОСТ6490-2017/МЭК60383 и печатная26правильны. В таблице не найдено дефекта физического смысла;значениянеисправлялисьподожидаемые.",
+  "corrections": [
+    "По собственному7×оригиналу исправлены обе базыH:внутренняяверхняяплоскость гнезда→переходшейкивголовкупестика. Убраны выдуманные цельнолитаяподножка/материалы неподписанныхобластей.",
+    "Восстановлен настоящий printed_page26и буквальный футер26."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T19:04:10.733953+03:00",
+  "private_original_receipt_sha256": "40f90a5acd8f5f74aa855f687ff130a95beaa08a2506a89e095664bcddd6c759"
+}

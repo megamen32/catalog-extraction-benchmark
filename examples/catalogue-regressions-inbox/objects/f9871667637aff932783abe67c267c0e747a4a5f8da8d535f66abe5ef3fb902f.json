@@ -1,0 +1,111 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 72,
+  "printed_page": "72",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r2",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "innovations-0072-native-candidate.json",
+    "sha256": "cb9a3f8c09dff7ea8d4295e05fa95b01c2e9fc3c0c66a426b51d332a3c5255e3",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.4.15",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+        "python_version": "3.12.13",
+        "components": {
+          "agent_logic": {
+            "package_version": "1.4.2",
+            "git_revision": null,
+            "dirty": null,
+            "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+            "python_version": "3.12.13"
+          },
+          "catalog_tools": {
+            "package_version": "1.4.8",
+            "git_revision": null,
+            "dirty": null,
+            "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+            "python_version": "3.12.13"
+          },
+          "legacy_skills": {
+            "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+            "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+          },
+          "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+          "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+          "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+          "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+        }
+      },
+      "artifact_sha256": "cb9a3f8c09dff7ea8d4295e05fa95b01c2e9fc3c0c66a426b51d332a3c5255e3",
+      "source_bound_save": true,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 72,
+      "attempt": 0,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf",
+      "receipt": "calls/e09afee1fe284b2cbc8f47efce3a374c/result.json",
+      "started_at": 1791858036.2259576,
+      "finished_at": 1791858127.8030746
+    }
+  },
+  "output": {
+    "file": "innovations-0072-reviewed-r2.json",
+    "sha256": "77bb6e0beda9e945ad14d632ac66e3df4524df02b514d508e65350013963557d"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "186c02f2f3f8cd413fbba132dde3455a170f7b25e7b0948c0eaa5d1db2118e55",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      4,
+      4
+    ],
+    "column_counts": [
+      13,
+      6
+    ],
+    "cells_checked": 76
+  },
+  "source_findings": [
+    "Лично просмотрен полный оригинал и увеличенный чертёж. Проверены все 76 ячеек: 4×13 и 4×6. Общие значения 1,0/538/1500/250/165/120/42/30/IV/10 действуют на все четыре строки; силы 8 и 10 — на соответствующие пары. Н 570/560 чередуется.",
+    "Присоединительные строки полностью совпадают: для Н-4 верх Ø140/4М12 и низ Ø198 (□140)/4Ø18, для В-4 верх и низ Ø127/4М16. Общий признак «не менее» относится к изоляционной высоте, пути утечки и разрядному напряжению; «не более» — к строительной высоте и массе. Все марки, условия, ТУ, ГОСТ, бренд и контакты сверены.",
+    "Ø140 проверен по краям большого ребра. D1/D2 проверены по концам наклонных размерных линий на окружностях центров отверстий; d1/d2 по стрелкам к самим отверстиям. Н±2 охватывает наружные плоскости двух фланцев, L — границы изоляционной оболочки.",
+    "Точечная авторская ревизия по независимому замечанию mod1; таблицы, тексты и геометрия структурно неизменны, изменено только указанное поле."
+  ],
+  "corrections": [
+    "Исправлено ошибочное описание торцевых видов А/Б как поперечных сечений и «разреза А-Б»: на оригинале нет штриховки разреза, стрелки задают направления взгляда. Явно привязаны D1/D2 к окружностям центров отверстий, d1/d2 к самим отверстиям и Н±2/L к соответствующим плоскостям.",
+    "Добавлен отсутствующий page_context с исходными областями и назначением страницы; буквенная размерная подпись Н±2 сохранена кириллицей.",
+    "Evidence нижней таблицы расширен вниз до .98, чтобы включить заявленные контакты и номер72 на y≈.968–.974."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T16:04:10.688788+00:00",
+  "previous_output": {
+    "file": "innovations-0072-reviewed.json",
+    "sha256": "e9255be795e6d3d733925d2ece2522b9ea2038b0a51871669139d5fa1fdacb59"
+  },
+  "private_original_receipt_sha256": "26e3adf73806e51a8179e93d41d5c671441c5dd791fe96cc8f96f78aa66860f2"
+}

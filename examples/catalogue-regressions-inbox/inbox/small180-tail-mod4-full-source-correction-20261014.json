@@ -1,0 +1,36 @@
+{
+  "id": "small180-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "small, страница 180: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Malyj-katalog.pdf",
+    "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_page": 180
+  },
+  "review_basis": "[\"Полный оригинал просмотрен до candidate; каждый размер сверён по собственным крупным кропам. Все значения/состояния/единицы/условия и объединения таблиц подтверждены.\", \"Исходные необычные числа и буквенные коды не исправлялись по инженерному ожиданию.\"] Исправления: [\"Убраны реальный зазор и недоказанный подсчёт рёбер; H/L получили действительные базы.\", \"Убрана внутренняя ссылка на парсер, добавлен source context;84 ячейки неизменны.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/600c8cfd2a6ce42b061d91bdc956b9fc540a3739a45762187f0730b02ddde66d.json",
+      "sha256": "600c8cfd2a6ce42b061d91bdc956b9fc540a3739a45762187f0730b02ddde66d",
+      "bytes": 17957,
+      "role": "native-candidate",
+      "program_version": "1.4.15"
+    },
+    {
+      "path": "objects/3e5d64f9731000c10e6ee80615dc582ad5778155d3b3ba814029729bea416eba.json",
+      "sha256": "3e5d64f9731000c10e6ee80615dc582ad5778155d3b3ba814029729bea416eba",
+      "bytes": 19178,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-remaining-small-20261014.r4"
+    },
+    {
+      "path": "objects/82f4cc5b3d9ae29849ea471c979f90599adafc16f2ae4cecf8d520ff8993dff2.json",
+      "sha256": "82f4cc5b3d9ae29849ea471c979f90599adafc16f2ae4cecf8d520ff8993dff2",
+      "bytes": 11195,
+      "role": "source-review",
+      "program_version": "tail-mod3-remaining-small-20261014.r4"
+    }
+  ]
+}

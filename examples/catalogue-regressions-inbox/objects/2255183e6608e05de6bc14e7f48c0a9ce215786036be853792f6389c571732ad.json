@@ -1,0 +1,75 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 92,
+  "printed_page": "92",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "innovations-0092-native-candidate.json",
+    "sha256": "ee1d3ba2ea2ecc8815d2ae8035f65b283ff15e9c0a6c39355d63c17ae8211e5d",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.3",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "531e9bea963ef7592a9a09035761b155f81fbf1ba43027dc5c7017c55e9693fe",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "ee1d3ba2ea2ecc8815d2ae8035f65b283ff15e9c0a6c39355d63c17ae8211e5d",
+      "source_bound_save": true,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 92,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "3b4165e5e56d3a8455b883aea55738aa0e06f3159a60ba01bc9d5ccabf1f6d10",
+      "receipt": "calls/158fabbc07564d8095885ba69174d662/result.json",
+      "started_at": 1791939025.7987087,
+      "finished_at": 1791939130.048046
+    }
+  },
+  "output": {
+    "file": "innovations-0092-reviewed.json",
+    "sha256": "1a6624443b98ed23ea6b07f270e9e2e05d0c4d356316a11dd70f1f741c91d05d"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "187b08eca867f81da7795a9ee348eba75ee7f6cada07e2f4305c26204164b487",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [],
+    "column_counts": [],
+    "cells_checked": 0
+  },
+  "source_findings": [
+    "Полный оригинал и четыре вида увеличены. Все числовые подписи850/600/35/60 первого вида,610/600/35/60 второго, два850/600/630 плана и490/610/35/60 нижнего вида сохранены и связаны с собственными выносными. Таблиц нет.",
+    "Текст6–750кВ, материал, монтаж/ветровые колебания,СТО34.01-2.2-011-2015,ТУ3449-001-52819896-2013, одобрение Союза охраны птиц, подписиУЗП-АП2-УК/УЗП-АП2-2-УК, отсутствие модели у нижнего вида, контакты и номер92 сверены."
+  ],
+  "corrections": [
+    "Удалены вымышленные монтаж фотографии на траверсе/опора и острые концы: в оригинале отдельная сборка на белом фоне с закруглёнными утолщениями.",
+    "Дополнены конкретные базы всех35/60: межосевой шаг крепёжных отверстий и наружная ширина планки; высоты600/610 проверены до нижнего края планки.",
+    "Evidence заголовка расширен вверх, чертёжной зоны влево на второй фронтальный вид, фото/бренда вверх на фактический логотип."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T18:43:53.798522+03:00",
+  "private_original_receipt_sha256": "01189767770cde5edf9f8939649f54faba08ae8ec45097e233b8601034eef280"
+}

@@ -1,0 +1,78 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 88,
+  "printed_page": "88",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "innovations-0088-native-candidate.json",
+    "sha256": "bb05f2c1352d3404fa9188b540e73fb53e8a5de72a2b6d0edefea9b5cad474e4",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.3",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "531e9bea963ef7592a9a09035761b155f81fbf1ba43027dc5c7017c55e9693fe",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "bb05f2c1352d3404fa9188b540e73fb53e8a5de72a2b6d0edefea9b5cad474e4",
+      "source_bound_save": true,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 88,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "3b4165e5e56d3a8455b883aea55738aa0e06f3159a60ba01bc9d5ccabf1f6d10",
+      "receipt": "calls/ccb7aa8a2fcc4cf4967be8c9c478b330/result.json",
+      "started_at": 1791938914.7336488,
+      "finished_at": 1791938962.3877463
+    }
+  },
+  "output": {
+    "file": "innovations-0088-reviewed.json",
+    "sha256": "b9ac4856d1a278f0945f7424eddc301809838ce167b01b859f77dbe784146e64"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "fa9143c2b3bd0b26692c5b240b27ec00b005c6756347becaaf6a3c57f8f6e305",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      4
+    ],
+    "column_counts": [
+      6
+    ],
+    "cells_checked": 24
+  },
+  "source_findings": [
+    "Просмотрен полный оригинал. Все24 ячейки4×6 совпали: общий6-110кВ/I-VII/УХЛ1, D16/20/24/32 и массы0,57/0,56/0,55/0,53 с условием «не более».",
+    "Проверены45 от основания до верха центрального узла,385 между крайними кромками и D внутреннего посадочного отверстия. Весь текст монтажа,СТО34.01-2.2-011-2015,ТУ3449-001-52819896-2013, пять преимуществ, FV(ПВ)-0/ГОСТ28779,40лет, одобрение, бренд и контакты совпали."
+  ],
+  "corrections": [
+    "В фотографии и чертеже исправлена выдуманная планка, проходящая через центральное отверстие: продольные крепёжные элементы присоединены к наружному узлу, посадочный проход открыт.",
+    "Рубрика исправлена с footer на heading; evidence левой колонки расширен на одобрение и больше не приписывает ей отдельный правый патентный знак. Термин «прайс-лист» заменён на таблицу исполнений, поскольку цен нет."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T18:45:01.187485+03:00",
+  "private_original_receipt_sha256": "07299081465e31800e313613607402d7e34257eac3572490a204eece2a715eab"
+}

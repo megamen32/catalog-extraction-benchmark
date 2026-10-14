@@ -1,0 +1,192 @@
+{
+  "schema_version": "catalogue-independent-source-review/1",
+  "catalog": "innovations",
+  "source_filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 134,
+  "exact_reviewed_path": "innovations-134-reviewed.json",
+  "exact_reviewed_sha256": "aca2d0758ad656a8a2f275c1e1c3912b421ec1f624f22709ca277e65022265bb",
+  "frozen_reviewed_path": "frozen-root-innovations-134.json",
+  "independent_author": "catalog_tail_mod3",
+  "origin_author": "root",
+  "version": "root-independence-mod3-innovations-20261014.block3",
+  "harness": "codex",
+  "is_glm_receipt": false,
+  "source_first": true,
+  "full_original_image_review": true,
+  "original_image": "innovations-134-source.png",
+  "original_image_sha256": "d146cd55013526334452fabad99ff25718bb39adf311d94aed721b884fcfe0d4",
+  "own_source_observation": "innovations-134-own-source-observation.json",
+  "checks": {
+    "all_text_and_meaning": false,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": false,
+    "source_provenance": true
+  },
+  "observed_table_count": 1,
+  "observed_row_counts": [
+    18
+  ],
+  "observed_column_counts": [
+    9
+  ],
+  "cells_checked": 162,
+  "technical_and_meaning_review": "Полный оригинал изучен до JSON. Все поля, таблицы, марки, числа, единицы, условия, сноски, объединения и пустоты сверены. Свежие6×/12× кропы подтверждают владельцев повторяющихся диаметров, прямые базы лапок, осевые перемычки5 и две реальные пустые ячейки126. Все522 ячейки блока верны. Перечисленные содержательные ошибки требуют отдельной авторской ревизии.",
+  "per_figure_dimension_ownership": [
+    {
+      "figure_index": 0,
+      "source_bbox": [
+        0.07,
+        0.09,
+        0.935,
+        0.338
+      ],
+      "dimensions": [
+        {
+          "literal_label": "D",
+          "actual_target": "Наружный диаметр цилиндрического корпуса ШРЦ",
+          "source_bbox": [
+            0.6,
+            0.18,
+            0.715,
+            0.215
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "мм в таблице"
+        },
+        {
+          "literal_label": "d",
+          "actual_target": "Внутренний посадочный проход ШРЦ, отдельный от фактического диаметра провода",
+          "source_bbox": [
+            0.26,
+            0.17,
+            0.32,
+            0.205
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "мм в таблице"
+        },
+        {
+          "literal_label": "S",
+          "actual_target": "Размер между плоскими гранями верхней гайки под ключ",
+          "source_bbox": [
+            0.65,
+            0.18,
+            0.74,
+            0.21
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "мм в таблице"
+        },
+        {
+          "literal_label": "L₂",
+          "actual_target": "Длина цангового узла ШРЦ между отмеченными торцевыми плоскостями",
+          "source_bbox": [
+            0.63,
+            0.18,
+            0.75,
+            0.25
+          ],
+          "arrow_start": "Верхний наружный торец ШРЦ",
+          "arrow_end": "Нижний торец нижнего кольца ШРЦ",
+          "units": "мм в таблице"
+        },
+        {
+          "literal_label": "L₁",
+          "actual_target": "Продольный участок от нижнего кольца ШРЦ до плоскости осевой перемычки5",
+          "source_bbox": [
+            0.6,
+            0.235,
+            0.7,
+            0.292
+          ],
+          "arrow_start": "Нижний торец кольца ШРЦ",
+          "arrow_end": "Отмеченная плоскость у осевой перемычки5",
+          "units": "мм в таблице"
+        },
+        {
+          "literal_label": "5",
+          "actual_target": "Осевая толщина заштрихованной изоляционной перемычки на стыке, связанной с оболочкой",
+          "source_bbox": [
+            0.568,
+            0.243,
+            0.645,
+            0.289
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "На рисунке единица не напечатана; по масштабу не измерено."
+        },
+        {
+          "literal_label": "L",
+          "actual_target": "Длина изолированного проводника через условный разрыв",
+          "source_bbox": [
+            0.5,
+            0.28,
+            0.62,
+            0.334
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "На рисунке единица не напечатана; по масштабу не измерено."
+        },
+        {
+          "literal_label": "1 / 2",
+          "actual_target": "ШРЦ / изолированный проводник",
+          "source_bbox": [
+            0.07,
+            0.16,
+            0.71,
+            0.338
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "На рисунке единица не напечатана; по масштабу не измерено."
+        },
+        {
+          "literal_label": "Зажимы не входят в комплект поставки шлейфа",
+          "actual_target": "Только внешние пунктирные натяжные спиральные зажимы",
+          "source_bbox": [
+            0.07,
+            0.09,
+            0.935,
+            0.19
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "На рисунке единица не напечатана; по масштабу не измерено."
+        }
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "path": "page_context.summary",
+      "finding": "Прессовый и неразъёмный монтаж ШРЦ, а также общее исключение зажимов из комплекта противоречат исходному назначению и правильным text_blocks.",
+      "required_correction": "Указать разъёмные комплектные ШРЦ без опрессования при монтаже; внешние натяжные зажимы вне комплекта.",
+      "evidence": "Полный innovations-134-source.png: абзацы назначения/преимущества."
+    },
+    {
+      "path": "figures[0].description",
+      "finding": "Размер5 выдан за зазор между торцами проводников без указания заштрихованной осевой изоляционной перемычки, связанной с оболочкой.",
+      "required_correction": "Передать осевую толщину перемычки; не описывать пустой зазор.",
+      "evidence": "innovations-134-drawing.png и тот же конструктивный стык на130/126-axial5.png"
+    }
+  ],
+  "nonblocking_observations": [],
+  "uncertainties": [],
+  "verdict": "revise",
+  "reviewed_at": "2026-10-14T18:27:11.158613+03:00",
+  "private_review_artifact_sha256": "934a1950d992e97cfd05937b16207dd765b6314845ee4750d1a383729944790d",
+  "actual_author_producer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "innovations162-authored-revision-error-b2789c41ad5b",
+  "status": "pending_adjudication",
+  "category": "independent-review-catches-authored-error",
+  "title": "innovations,страница162:независимая проверка исправила ошибку автора",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 162
+  },
+  "review_basis": "[{\"path\": \"source_notes[0], title, page_context.summary, text_blocks[1]\", \"finding\": \"Источник содержит кириллические АС, но JSON использует латинские AC и утверждает, что латиница подтверждена текстовым слоем.\", \"evidence\": \"Прямой pymupdf.open(original)[161].get_text(): Поддерживающая арматура для провода АС, последние знаки U+0410/U+0421.\", \"required_correction\": \"Воспроизвести АС кириллицей в соответствующих полях; убрать ложное утверждение о латинице.\"}] Фактический автор {\"harness\": \"codex\", \"session_id\": \"01a12c30-e58f-7861-8a2d-966c92630163\", \"version\": \"root-tail-source-review-2026-10-14.r1\", \"model_id\": \"Current native Codex session; exact provider identifier not exported.\"}. Сохранены точные ошибочные авторские байты и новая source-corrected версия; это НЕ результат MiniMax/GLM и не автоматическое золото.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/b2789c41ad5b292933e00caa8cb2f3918f9d9c9e1d6de4f78a39ee78b2a7709e.json",
+      "sha256": "b2789c41ad5b292933e00caa8cb2f3918f9d9c9e1d6de4f78a39ee78b2a7709e",
+      "bytes": 10003,
+      "role": "actual-authored-failure",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/de065700d052308aca254980207f7214a72546c00903a2fa436bac5caaa128be.json",
+      "sha256": "de065700d052308aca254980207f7214a72546c00903a2fa436bac5caaa128be",
+      "bytes": 9905,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r2"
+    },
+    {
+      "path": "objects/edb56b945710e2c91053b4f0fac9d0201b568964758dde3c7e830a359892a7bd.json",
+      "sha256": "edb56b945710e2c91053b4f0fac9d0201b568964758dde3c7e830a359892a7bd",
+      "bytes": 10021,
+      "role": "independent-source-review",
+      "program_version": "native-codex-independent-review-20261014"
+    }
+  ]
+}

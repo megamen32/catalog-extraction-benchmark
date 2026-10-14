@@ -1,0 +1,151 @@
+{
+  "schema_version": "catalogue-independent-source-review/1",
+  "catalog": "innovations",
+  "source_filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 202,
+  "exact_reviewed_path": "innovations-202-reviewed.json",
+  "exact_reviewed_sha256": "c4c466b77d2cb0719c1c1325a93d44eaeaede64bbd990d1dca02545c6e63a379",
+  "frozen_reviewed_path": "frozen-root-innovations-202.json",
+  "independent_author": "catalog_tail_mod3",
+  "origin_author": "root",
+  "version": "root-independence-mod3-innovations-20261014.block1",
+  "harness": "codex",
+  "is_glm_receipt": false,
+  "source_first": true,
+  "full_original_image_review": true,
+  "original_image": "innovations-202-source.png",
+  "original_image_sha256": "460c76e02262089b58337037eba2462c901f73f69c700a5ba1c1558942c92d6c",
+  "own_source_observation": "innovations-202-own-source-observation.json",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": false,
+    "source_provenance": true
+  },
+  "observed_table_count": 1,
+  "observed_row_counts": [
+    14
+  ],
+  "observed_column_counts": [
+    17
+  ],
+  "cells_checked": 238,
+  "source_physical_row_counts": [
+    14
+  ],
+  "technical_and_meaning_review": "Все заголовки, текст, марки, числа, единицы, условия, объединения, состояния ячеек, реквизиты, рисунки и области source_evidence сопоставлены с полным оригиналом и собственными 6× кропами. Все значения таблиц верны. Требуется только указанное исправление размерных баз.",
+  "per_figure_dimension_ownership": [
+    {
+      "figure_index": 0,
+      "source_bbox": [
+        0.35,
+        0.16,
+        0.94,
+        0.5
+      ],
+      "source_crop": "innovations-202-drawing.png",
+      "dimensions": [
+        {
+          "literal_label": "L",
+          "actual_target": "Полная продольная длина",
+          "arrow_start": "Крайняя левая наружная точка проушины",
+          "arrow_end": "Правый торец корпуса",
+          "units": "мм в таблице; размер рисунка не вычислен по масштабу"
+        },
+        {
+          "literal_label": "L₄",
+          "actual_target": "Продольный размер от оси отверстия",
+          "arrow_start": "Ось отверстия проушины",
+          "arrow_end": "Правый торец корпуса",
+          "units": "мм в таблице; размер рисунка не вычислен по масштабу"
+        },
+        {
+          "literal_label": "L₂",
+          "actual_target": "Между отдельными отмеченными плоскостями",
+          "arrow_start": "Отдельная плоскость внутри прямого анкера правее шейки проушины",
+          "arrow_end": "Отдельная плоскость внутри прямого корпуса правее окончания наружного изгиба",
+          "units": "мм в таблице; размер рисунка не вычислен по масштабу"
+        },
+        {
+          "literal_label": "L₁",
+          "actual_target": "От правой базы L₂ до правого торца",
+          "arrow_start": "Отдельная внутренняя плоскость прямого корпуса",
+          "arrow_end": "Правый торец",
+          "units": "мм в таблице; размер рисунка не вычислен по масштабу"
+        },
+        {
+          "literal_label": "L₃",
+          "actual_target": "Длина прямого наклонного участка",
+          "arrow_start": "Верхняя отмеченная поперечная плоскость на наклонной части",
+          "arrow_end": "Нижний торец корпуса",
+          "units": "мм в таблице; размер рисунка не вычислен по масштабу"
+        },
+        {
+          "literal_label": "D₂ / d₂",
+          "actual_target": "Наружный диаметр проушины / диаметр её свободного отверстия",
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "мм в таблице; размер рисунка не вычислен по масштабу"
+        },
+        {
+          "literal_label": "D₁ / d₁",
+          "actual_target": "Наружная толщина прямого анкера / внутренний продольный канал",
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "мм в таблице; размер рисунка не вычислен по масштабу"
+        },
+        {
+          "literal_label": "D / d",
+          "actual_target": "Наружный диаметр горизонтальной трубы корпуса / внутренний посадочный проход справа",
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "мм в таблице; размер рисунка не вычислен по масштабу"
+        },
+        {
+          "literal_label": "b",
+          "actual_target": "Толщина плоской проушины на нижнем виде",
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "мм в таблице; размер рисунка не вычислен по масштабу"
+        },
+        {
+          "literal_label": "Анкер / Корпус",
+          "actual_target": "Левая проушина с прямым анкером / окружающая его изогнутая трубчатая деталь",
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "мм в таблице; размер рисунка не вычислен по масштабу"
+        },
+        {
+          "literal_label": "Направление опрессования",
+          "actual_target": "Две стрелки вправо вдоль анкера и корпуса, наклонная вниз влево вдоль своей ветви",
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "мм в таблице; размер рисунка не вычислен по масштабу"
+        }
+      ],
+      "role": "Технический чертёж; каждая буквенная/числовая выноска сопоставлена с собственным оригинальным увеличением"
+    }
+  ],
+  "issues": [
+    {
+      "path": "figures[0].description",
+      "finding": "Правая база L₂ / левая база L₁ названа плоскостью начала прямого корпуса. Выносная проходит внутри прямого корпуса, правее окончания наружного изгиба.",
+      "required_correction": "Заменить обе привязки к началу корпуса на отдельную отмеченную поперечную плоскость внутри прямого корпуса. Левая база L₂ уже правильно отдельная внутренняя плоскость анкера.",
+      "evidence": "innovations-202-drawing.png"
+    }
+  ],
+  "nonblocking_observations": [],
+  "uncertainties": [],
+  "verdict": "revise",
+  "reviewed_at": "2026-10-14T18:05:38.432148+03:00",
+  "private_review_artifact_sha256": "a0a76d77e68ce9834a940e0e9e77301ba2e9648554341bd79f8291e9740f3ae0",
+  "actual_author_producer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  }
+}

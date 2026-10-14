@@ -1,0 +1,73 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 122,
+  "printed_page": "122",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r2",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "114501517f533f77fab48c0c77d55c6893fadce9f0e8f47f5f878d2e90695c46",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.4",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "03d94c1397ffd39d50a89db0b4d9ae29d17f13e5293b2fcbda6e8b4ec34d8c0c",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "114501517f533f77fab48c0c77d55c6893fadce9f0e8f47f5f878d2e90695c46",
+      "source_bound_save": true,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 122,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4d5faa2b87b39793b899bfd40ccb8b7b4ff5223f5cfe2aed7fb1c9e3580c2e6b",
+      "receipt": "calls/a7818454a776479e8ab7326201dec774/result.json",
+      "started_at": 1791940592.0727708,
+      "finished_at": 1791940719.3917851
+    }
+  },
+  "output": {
+    "file": "innovations-122-reviewed-r2.json",
+    "sha256": "b84ac3c730329c52d4304e3de8ac74c8c8e91a7ce1564259ee0a39d378e05604"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "a6e7719d8acd3e961b30110f7e538882a05dffe9e9e95596c9a6f4bf283ca5e7",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      27
+    ],
+    "column_counts": [
+      12
+    ],
+    "cells_checked": 324
+  },
+  "source_findings": "Все324ячейки27×12совпали:13верхнихстрок287/200/70/S₂10,14нижних337/230/80/S₂14;массы10,3…28,6;различныеНАСигруппыА4АБсохранены. Назначение/болтовой монтаж/отсутствиеопрессования/утопленныеболты/корона/радиопомехи/контактыполностью прочитаны.",
+  "corrections": [
+    "Вместо пропуска всей размерной геометрии внесены связиL₁–L₄/S₁/S₂/17,5/80/45/5/L с реальными узлами и видомА.",
+    "По собственному7×видуА и независимому замечанию исправленL₃:между осями верхнего/нижнего правых болтов,не от оси до торца корпуса."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T19:01:44.803106+03:00",
+  "supersedes_output_sha256": "d466fdd1ebf584adc640995e61378d59798393d68770a90530cd92f4b6ca303b",
+  "private_original_receipt_sha256": "a936c68409f227dc0f2b5e1982e5c81c51f2217f7613c06cf374f5e3e1a2041a"
+}

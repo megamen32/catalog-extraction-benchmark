@@ -1,0 +1,85 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 60,
+  "printed_page": "60",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r2",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "innovations-0060-native-candidate.json",
+    "sha256": "2e9fba9420756aa326cb01ede29e1aa8aa2eb3f904ab9989a3ad8b9c8e0d1373",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.3",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "531e9bea963ef7592a9a09035761b155f81fbf1ba43027dc5c7017c55e9693fe",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "2e9fba9420756aa326cb01ede29e1aa8aa2eb3f904ab9989a3ad8b9c8e0d1373",
+      "source_bound_save": true,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 60,
+      "attempt": 3,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "3b4165e5e56d3a8455b883aea55738aa0e06f3159a60ba01bc9d5ccabf1f6d10",
+      "receipt": "calls/cf6ef0413f194c0d9e07bc56a940212c/result.json",
+      "started_at": 1791938297.2184114,
+      "finished_at": 1791938365.498727
+    }
+  },
+  "output": {
+    "file": "innovations-0060-reviewed-r2.json",
+    "sha256": "bd72a770057dd0e374ba2d5f70faf6efaa5b9f519f5bb8d4db292cc452cd0c36"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "3ba4d76e8deefa113ac0573708972cb084e93b19c049b0ed27577a54dec14f08",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      2
+    ],
+    "column_counts": [
+      12
+    ],
+    "cells_checked": 24
+  },
+  "source_findings": [
+    "Просмотрен весь оригинал, отдельно увеличены оба чертежа. Все 24 ячейки 2×12 совпали: обе марки, общие 220/III/60/8/45/45/5550/1070/655/620/220; объединения числовых параметров на две строки сохранены.",
+    "Проверен весь раздел условных обозначений: ТФТ/ТФТУ, 220, направления GXX/TXX/RXX/CXX, буквальные 4 и Ж/С/М, диаметр железобетонной стойки, изменение прочности по согласованию. Кириллическая Т в конкретных марках и латинская T в обозначении TXX сохранены по исходному текстовому слою. Условия 100 Гц, -60…+50 °С, УХЛ 1, ГОСТ 15150 и контакты совпали.",
+    "Размеры обоих чертежей лично сверены по стрелкам и выносным линиям: 1820,2060,33°/20°,5°/3°,1500,2675±10/4260±10,O33.3. Значения и опечатки не исправлялись по геометрическому правдоподобию."
+  ],
+  "corrections": [
+    "Числовая ошибка первого чертежа исправлена: 23°→33°, подтверждено крупным оригиналом и текстовым слоем. Углы 5°/3° привязаны к наклону нижних ветвей относительно горизонтали, а не к тяге.",
+    "1500 исправлен с высоты «от оси стойки до верхней точки» на разность уровней центров верхнего и нижнего креплений. Горизонтальные 2675±10/4260±10 явно между вертикальной осью стойки и осью подвесного пальца; 1820/2060 — отдельные изоляторы, а не полные ветви с удлинителями.",
+    "Неверное слово «многорастерных/многорастерной» заменено буквальным «многогранных/многогранной». Подпись оси «Ось ствола опры» и буквальный знак O33.3 восстановлены для обоих рисунков. Несогласованность -3/III и цифры 4 в расшифровке отмечена как печатная.",
+    "В summary удалено оставшееся неподтверждённое «группа расцветки»: источник расшифровывает максимальную степень загрязнения. Числа и остальные поля неизменны."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T16:07:28.907563+00:00",
+  "previous_output": {
+    "file": "innovations-0060-reviewed.json",
+    "sha256": "a0efa2bf35682d6a8d932143c8d4d6aa0de128f4c0459336ce30a633b1ab8509"
+  },
+  "private_original_receipt_sha256": "ce78a560a04c00691f52ddba7a88413283c445ce986d6a660609c8c265bcb9b4"
+}

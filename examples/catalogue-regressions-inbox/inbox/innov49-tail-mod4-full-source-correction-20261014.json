@@ -1,0 +1,36 @@
+{
+  "id": "innov49-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 49: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 49
+  },
+  "review_basis": "Все264ячейки24×11сверены:70/120кНгруппы,собственныеразныеH305/330…630,изолирующая185…485,все7электрических/загрязняющихколонок,сноска10оконцевателейреальны. ТУ2006/100Гц/−60…+50/ГОСТ15150/28856/55189/МЭК61109подтверждены. Исправления: [\"Hпривязанакосиверхнегоотверстияиплоскостипестика;детализацияØ65/90рёбра/Ø300экран. Неподтверждённыйзнак+1,3невыданкакпроверенный.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/128396159fb8601b31eb2486e92f6ea4aaafe05c1ab6abfb6e6bc29abbe9135e.json",
+      "sha256": "128396159fb8601b31eb2486e92f6ea4aaafe05c1ab6abfb6e6bc29abbe9135e",
+      "bytes": 43599,
+      "role": "native-candidate",
+      "program_version": "1.4.15"
+    },
+    {
+      "path": "objects/c41e5a47c9502eec405c2f32684c0e8b769515875afd7cec0f3887bf180de2dc.json",
+      "sha256": "c41e5a47c9502eec405c2f32684c0e8b769515875afd7cec0f3887bf180de2dc",
+      "bytes": 45127,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/1fd155387ca01f21dfdeba66759da98d57d0c05cfe5604beaa81e1270d4dc993.json",
+      "sha256": "1fd155387ca01f21dfdeba66759da98d57d0c05cfe5604beaa81e1270d4dc993",
+      "bytes": 4711,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}
