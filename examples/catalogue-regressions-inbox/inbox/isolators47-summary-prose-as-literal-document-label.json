@@ -1,0 +1,25 @@
+{
+  "id": "isolators47-summary-prose-as-literal-document-label",
+  "status": "pending_adjudication",
+  "category": "supporting_context_false_literal_label",
+  "title": "Reviewer promotes document summary prose into literal missing-label defect",
+  "source": {
+    "filename": "Katalog-IZOLJaTORY.pdf",
+    "sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+    "physical_page": 47
+  },
+  "review_basis": "Original47 was visually audited in prior turns as factory prose, eight attestations and two project title sheets. New native1515review29 stores synthesized combined label strings «протоколы2018–2019»/«заключения2020», then treats their absence as a candidate defect. Actual reviewer attempt is still in flight; selected file-tool refusal is retained, not a successful final review.",
+  "failure_oracle": "Keep document roles/factory facts distinct from product dimensions. Summary prose belongs in description, not invented literal labels. Preserve genuine legible codes and values; mark truly unreadable non-engineering metadata faithfully without inventing digits. Independent original source review remains mandatory; no automatic PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/3c8e12feb2d80057f0bf1b8740c437511c80eb75f9e277a3f72460b0634fc30d.json",
+      "sha256": "3c8e12feb2d80057f0bf1b8740c437511c80eb75f9e277a3f72460b0634fc30d",
+      "bytes": 975,
+      "role": "selected_native_file_tool_refusal",
+      "program_version": "1.5.15",
+      "model": "zai.glm-5.3-flash?reasoning=low",
+      "native_attempt_status": "inflight_not_accepted"
+    }
+  ]
+}

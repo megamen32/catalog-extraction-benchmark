@@ -1,0 +1,40 @@
+{
+  "id": "innov200-caption-case-misses-real-part-name",
+  "status": "pending_adjudication",
+  "category": "false_issue_and_missed_engineering_semantics",
+  "title": "Review demands lowercase OCR caption while missing wrong protector name",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 200
+  },
+  "review_basis": "Root viewed original200 and5x original top-right figure crop. Visible leader says «Протектор», but candidate and independent observation say «Промежутор». Review only asks to change uppercase figure caption to lowercase PDF text-layer letters, despite uppercase being visible in original. This revise is not a drawing PASS. The166front-view baseline also needs actual arrow/extension/axis ownership, not generic height wording.",
+  "failure_oracle": "Preserve visible ПГАСТ product captions and actual Протектор component/leader relation. Do not force native text-layer casing over original. Do not count15recorded numeric relations as proven drawing accuracy. Independently inspect166lower extension and real measured feature; no fuzzy code equivalence or invented dimensions.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/51fb8b6d5ab900c2dbef9c9e3d7851f256f705fc36ef32c7de40ef708abd041d.json",
+      "sha256": "51fb8b6d5ab900c2dbef9c9e3d7851f256f705fc36ef32c7de40ef708abd041d",
+      "bytes": 10838,
+      "role": "extractor",
+      "program_version": "1.5.8",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium"
+    },
+    {
+      "path": "objects/d168bba3b5ed3b2a041426584bf356276e77e69bb5765ac00570228eda68f603.json",
+      "sha256": "d168bba3b5ed3b2a041426584bf356276e77e69bb5765ac00570228eda68f603",
+      "bytes": 5124,
+      "role": "reviewer",
+      "program_version": "1.5.13",
+      "model": "zai.glm-5.3-flash?reasoning=low"
+    },
+    {
+      "path": "objects/aa8a20b824fe2a0843489415f9842c10a770b3bf68a8189c13ae0e33b7e86243.json",
+      "sha256": "aa8a20b824fe2a0843489415f9842c10a770b3bf68a8189c13ae0e33b7e86243",
+      "bytes": 3620,
+      "role": "independent_source_observation",
+      "program_version": "1.5.13",
+      "model": "zai.glm-5.3-flash?reasoning=low"
+    }
+  ]
+}

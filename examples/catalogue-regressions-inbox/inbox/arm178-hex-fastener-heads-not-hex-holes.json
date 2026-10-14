@@ -1,0 +1,24 @@
+{
+  "id": "arm178-hex-fastener-heads-not-hex-holes",
+  "status": "pending_adjudication",
+  "category": "unsupported_drawing_feature_shape",
+  "title": "Four hexagonal fastener heads become hexagonal holes",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 178
+  },
+  "review_basis": "Root viewed original178 and5x original viewA crop. Four hexagonal outlines with center crosses are fastener head/nut symbols on the bolt connection. Candidate3 says four hexagonal holes. Earlier dimension5-as-hole-count and crimp-direction wording are now corrected, which does not certify this new shape claim.",
+  "failure_oracle": "Describe visible fasteners without inventing hexagonal drilled-hole geometry. Preserve true80/45/17.5dimensions, linear5, product row values, and corrected crimp direction. Independent review must verify all feature ownership before PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/357926226d32763d9f805794f4ae0b4896892a42825cb51b35a848e805042e6a.json",
+      "sha256": "357926226d32763d9f805794f4ae0b4896892a42825cb51b35a848e805042e6a",
+      "bytes": 47261,
+      "role": "extractor",
+      "program_version": "1.5.15",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium"
+    }
+  ]
+}

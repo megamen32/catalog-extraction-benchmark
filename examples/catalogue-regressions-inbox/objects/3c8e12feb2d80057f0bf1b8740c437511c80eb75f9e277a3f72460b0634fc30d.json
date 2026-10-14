@@ -1,0 +1,21 @@
+{
+  "source_physical_page": 47,
+  "program_version": "1.5.15",
+  "role": "reviewer",
+  "attempt": 29,
+  "native_attempt_status": "inflight_not_accepted",
+  "selected_file_tool_refusals": [
+    {
+      "message_index": 20,
+      "file_tool_result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"saved\": false,\n  \"error\": \"Independent source observations contradict the claimed pass. Resolve or report these defects before collecting final PASS geometry.\",\n  \"differences\": [\n    {\n      \"path\": \"figures[0].labels\",\n      \"source_observation\": \"протоколы 2018–2019\",\n      \"candidate\": \"missing or changed label/tolerance\"\n    },\n    {\n      \"path\": \"figures[0].labels\",\n      \"source_observation\": \"заключения 2020\",\n      \"candidate\": \"missing or changed label/tolerance\"\n    }\n  ]\n}"
+          }
+        ]
+      }
+    }
+  ],
+  "raw_transcript_published": false
+}
