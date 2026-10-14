@@ -1,0 +1,149 @@
+{
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "candidate_sha256": "149d78d5e5ac4d8fc77eba9e76a62ab0bcf3912beff41aa2b875da96b1de385e",
+  "physical_page": 168,
+  "attempt": 1,
+  "relations": [
+    {
+      "source_figure_index": 0,
+      "source_label_index": 2,
+      "figure_index": 1,
+      "label_index": 0,
+      "view": "чертёж АНЦ, верхний вид",
+      "relation": "linear",
+      "source_box": [
+        0.42,
+        0.24,
+        0.95,
+        0.4
+      ],
+      "feature_box": [
+        0.44,
+        0.26,
+        0.57,
+        0.38
+      ],
+      "tip_points": [
+        [
+          0.456,
+          0.272
+        ],
+        [
+          0.456,
+          0.352
+        ]
+      ],
+      "path_ids": [],
+      "source_feature": "H1 — вертикальная размерная линия болтового узла (до верха узла с гайкой) на верхнем виде",
+      "candidate_feature_quote": "H1 — от оси до наибольшей высоты узла",
+      "agrees_with_candidate": true,
+      "evidence": "Zoom [0.42,0.24,0.95,0.4]: H1 — вертикальная размерная линия у болтового узла верхнего вида; острия на выносных линиях узла совпадают с описанием.",
+      "correction_reason": "",
+      "candidate_sha256": "149d78d5e5ac4d8fc77eba9e76a62ab0bcf3912beff41aa2b875da96b1de385e",
+      "observation_sha256": "2b74dea9773eccbcff78157d08f3b305af13a0d968866aab1ae3e3bc357ebda8",
+      "source_label": "H1",
+      "source_figure_title": "Чертёж зажима АНЦ",
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 168,
+      "attempt": 1,
+      "candidate_label": "H1",
+      "figure_title": "Чертёж зажима АНЦ (два вида)",
+      "basis": "vision",
+      "limits": "Source-grounded reviewer assertion; coordinate coverage does not certify semantic ownership."
+    },
+    {
+      "source_figure_index": 0,
+      "source_label_index": 3,
+      "figure_index": 1,
+      "label_index": 1,
+      "view": "чертёж АНЦ, верхний вид",
+      "relation": "linear",
+      "source_box": [
+        0.42,
+        0.24,
+        0.95,
+        0.4
+      ],
+      "feature_box": [
+        0.44,
+        0.27,
+        0.57,
+        0.38
+      ],
+      "tip_points": [
+        [
+          0.463,
+          0.284
+        ],
+        [
+          0.463,
+          0.345
+        ]
+      ],
+      "path_ids": [],
+      "source_feature": "H2 — вертикальная размерная линия болтового узла (до меньшей высоты, ниже H1) на верхнем виде",
+      "candidate_feature_quote": "H2 — до меньшей высоты",
+      "agrees_with_candidate": true,
+      "evidence": "Zoom [0.42,0.24,0.95,0.4]: H2 — вертикальная размерная линия меньшей высоты болтового узла ниже H1 на верхнем виде.",
+      "correction_reason": "",
+      "candidate_sha256": "149d78d5e5ac4d8fc77eba9e76a62ab0bcf3912beff41aa2b875da96b1de385e",
+      "observation_sha256": "2b74dea9773eccbcff78157d08f3b305af13a0d968866aab1ae3e3bc357ebda8",
+      "source_label": "H2",
+      "source_figure_title": "Чертёж зажима АНЦ",
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 168,
+      "attempt": 1,
+      "candidate_label": "H2",
+      "figure_title": "Чертёж зажима АНЦ (два вида)",
+      "basis": "vision",
+      "limits": "Source-grounded reviewer assertion; coordinate coverage does not certify semantic ownership."
+    },
+    {
+      "source_figure_index": 0,
+      "source_label_index": 5,
+      "figure_index": 1,
+      "label_index": 4,
+      "view": "чертёж АНЦ, нижний вид (вид сверху)",
+      "relation": "linear",
+      "source_box": [
+        0.42,
+        0.3,
+        0.95,
+        0.55
+      ],
+      "feature_box": [
+        0.44,
+        0.31,
+        0.93,
+        0.42
+      ],
+      "tip_points": [
+        [
+          0.455,
+          0.335
+        ],
+        [
+          0.897,
+          0.335
+        ]
+      ],
+      "path_ids": [],
+      "source_feature": "L1 — верхняя горизонтальная размерная линия нижнего вида (вида сверху), от оси болта до правого конца",
+      "candidate_feature_quote": "L1 (верхняя размерная линия, от оси болта до конца)",
+      "agrees_with_candidate": true,
+      "evidence": "Zoom [0.42,0.3,0.95,0.55]: нижний вид — L1 верхняя горизонтальная размерная линия от оси болта слева до правого конца зажима; острия стрелок на обоих концах видны.",
+      "correction_reason": "",
+      "candidate_sha256": "149d78d5e5ac4d8fc77eba9e76a62ab0bcf3912beff41aa2b875da96b1de385e",
+      "observation_sha256": "2b74dea9773eccbcff78157d08f3b305af13a0d968866aab1ae3e3bc357ebda8",
+      "source_label": "L1",
+      "source_figure_title": "Чертёж зажима АНЦ",
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 168,
+      "attempt": 1,
+      "candidate_label": "L1",
+      "figure_title": "Чертёж зажима АНЦ (два вида)",
+      "basis": "vision",
+      "limits": "Source-grounded reviewer assertion; coordinate coverage does not certify semantic ownership."
+    }
+  ]
+}

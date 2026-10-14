@@ -1,0 +1,69 @@
+{
+  "id": "innov168-observer-context-null-false-revisions-and-h1-axis",
+  "status": "pending_adjudication",
+  "category": "independent-observer-context-and-dimension-ownership",
+  "title": "Неполный контекст наблюдателя создаёт ложные правки; настоящая ошибка H1 от оси остаётся",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 168
+  },
+  "review_basis": "Root full original plus5x bolt crop14Oct2026; exact installed native17 MCP replay accepts retained revise with null independent context,0modelcalls. Two distinct findings: false feedback and actual source geometry error.",
+  "failure_oracle": {
+    "false_feedback": "A missing independent page_context must be repaired by reviewer, never appended as candidate error; faithful prose paraphrases are not numeric data defects.",
+    "true_geometry": "H1 spans both outer vertical extremities of bolt assembly, not axis→top. Independently inspect H2 and all other real relationships.",
+    "not_certified": "No entire-page truth or drawing score asserted. All table values, codes, units and other geometry still need independent review."
+  },
+  "assertions": [],
+  "coverage_note": "Pending saved-error case, excluded from500/520 and drawing accuracy totals.",
+  "artifacts": [
+    {
+      "path": "objects/149d78d5e5ac4d8fc77eba9e76a62ab0bcf3912beff41aa2b875da96b1de385e.json",
+      "sha256": "149d78d5e5ac4d8fc77eba9e76a62ab0bcf3912beff41aa2b875da96b1de385e",
+      "bytes": 41758,
+      "role": "extractor",
+      "program_version": "1.5.5",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium"
+    },
+    {
+      "path": "objects/8baa54ba5338fbf43700c51ac98daa7463a6e2450ca60f98a32d22a544745e41.json",
+      "sha256": "8baa54ba5338fbf43700c51ac98daa7463a6e2450ca60f98a32d22a544745e41",
+      "bytes": 40030,
+      "role": "extractor",
+      "program_version": "1.5.17",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium"
+    },
+    {
+      "path": "objects/8dc00cc77ee43a5d3b841282460b36d729cbfdb1dba8a779a555da0a80e5a438.json",
+      "sha256": "8dc00cc77ee43a5d3b841282460b36d729cbfdb1dba8a779a555da0a80e5a438",
+      "bytes": 12478,
+      "role": "reviewer",
+      "program_version": "1.5.17",
+      "model": "zai.glm-5.3-flash?reasoning=low"
+    },
+    {
+      "path": "objects/c6ecff7ecc8915394efe66435eb1dc548004720fdf9ab3403b733a1da48e022f.json",
+      "sha256": "c6ecff7ecc8915394efe66435eb1dc548004720fdf9ab3403b733a1da48e022f",
+      "bytes": 33715,
+      "role": "blind_source_observation",
+      "program_version": "1.5.17",
+      "model": "zai.glm-5.3-flash?reasoning=low"
+    },
+    {
+      "path": "objects/9905907289fec56f5878d376bef4a85432487458448948af2fb01fb43ee162cb.json",
+      "sha256": "9905907289fec56f5878d376bef4a85432487458448948af2fb01fb43ee162cb",
+      "bytes": 32453,
+      "role": "corrected_source_observation",
+      "program_version": "1.5.17",
+      "model": "zai.glm-5.3-flash?reasoning=low"
+    },
+    {
+      "path": "objects/a75fa62158895640ae34f3ccc8b53b7561df4912f8195867f500e2f811696e1b.json",
+      "sha256": "a75fa62158895640ae34f3ccc8b53b7561df4912f8195867f500e2f811696e1b",
+      "bytes": 5766,
+      "role": "partial_dimension_evidence",
+      "program_version": "1.5.17",
+      "model": "zai.glm-5.3-flash?reasoning=low"
+    }
+  ]
+}
