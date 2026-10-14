@@ -1,0 +1,28 @@
+{
+  "id": "innov10-supporting-photo-unsupported-forklift-description",
+  "status": "pending_adjudication",
+  "category": "supporting-photo-semantic-overclaim",
+  "title": "Вспомогательная фотография испытаний получила неподтверждённый погрузчик",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 10
+  },
+  "review_basis": "Root original full page and six laboratory photos14Oct2026; source standards checked independently. Auxiliary photo machine identity requires review, not a dimension certificate.",
+  "assertions": [],
+  "coverage_note": "Pending source lead; no exact candidate veto solely from ambiguous image, no automatic oracle and no500/520score change.",
+  "failure_oracle": {
+    "verify": "Describe visible laboratory activity and equipment without asserting a forklift identity unsupported by source. Preserve independently correct standard lists and source facts.",
+    "scope": "This does not certify the whole page or every photograph."
+  },
+  "artifacts": [
+    {
+      "path": "objects/793f28338de0bc88c13c951aed438f7dee6b328f0c53622e9b2c0c3e968d161c.json",
+      "sha256": "793f28338de0bc88c13c951aed438f7dee6b328f0c53622e9b2c0c3e968d161c",
+      "bytes": 24216,
+      "role": "extractor",
+      "program_version": "1.5.17",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium"
+    }
+  ]
+}
