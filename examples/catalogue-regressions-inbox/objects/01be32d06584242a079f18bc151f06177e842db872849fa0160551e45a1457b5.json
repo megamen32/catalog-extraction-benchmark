@@ -1,0 +1,39 @@
+{
+  "status": "failed_focused_review_canary",
+  "program_version": "1.5.2",
+  "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+  "physical_page": 4,
+  "accepted": false,
+  "candidate_saved": true,
+  "candidate_sha256": "ddf68fba8617791615afa2d672ab7239fcc4c1154f8a3ee0122d7dab6b60927a",
+  "models": {
+    "extractor": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+    "reviewer": "zai.glm-5.3-flash?reasoning=low"
+  },
+  "tool_counts": {
+    "extractor:load_skill": 2,
+    "extractor:view_page": 3,
+    "extractor:extract_direct": 1,
+    "extractor:view_region": 12,
+    "extractor:save_page_json": 1,
+    "reviewer:load_skill": 1,
+    "reviewer:view_page": 1,
+    "reviewer:view_region": 6,
+    "reviewer:save_source_observation": 1,
+    "reviewer:read_page_json": 3,
+    "reviewer:enable_helpers": 10,
+    "reviewer:save_review": 1,
+    "extractor:read_review": 1,
+    "extractor:read_page_json": 1
+  },
+  "observed_unix": 1791936463.3736248,
+  "failures": [
+    "load_skill full reviewer payload24371bytes truncated to first/last8000bytes; semantic middle instructions lost",
+    "Wrong source-observation schema caused literal example-cell repairs before demo-scope rejection",
+    "Native reviewer enabled helpers10 times without usable new callable schemas; later saved review and extractor began repair. Canary checkpointed after that review to apply the demonstrated transport/source-scope fixes; the saved review is retained."
+  ],
+  "preserved_private_native_history": true,
+  "full_production_untouched": true,
+  "review_saved": true,
+  "review_verdict": "revise"
+}

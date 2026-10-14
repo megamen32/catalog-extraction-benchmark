@@ -1,0 +1,25 @@
+{
+  "status": "pending_adjudication",
+  "priority": "high",
+  "category": "review_regression",
+  "source": {
+    "filename": "Malyj-katalog.pdf",
+    "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_page": 4
+  },
+  "review_basis": "Actual native1.5.2 FastAgent reviewer history and manually viewed PDF. Reviewer ultimately saved revise for real ВЛ→ВИМ semantic error; repair checkpointed while transport/scope fixes applied. Full raw transcripts kept private; exact diagnostic JSON retained.",
+  "artifacts": [
+    {
+      "path": "objects/01be32d06584242a079f18bc151f06177e842db872849fa0160551e45a1457b5.json",
+      "sha256": "01be32d06584242a079f18bc151f06177e842db872849fa0160551e45a1457b5",
+      "bytes": 1624,
+      "role": "root_diagnostic_from_retained_native_history",
+      "program_version": "1.5.2",
+      "model": "zai.glm-5.3-flash?reasoning=low"
+    }
+  ],
+  "assertions": [],
+  "id": "reviewer-demo-scope-before-cell-format",
+  "title": "Reject example-table scope before repairing irrelevant cell fields",
+  "failure_oracle": "Source observer correctly labels software_demo but submits demo table with missing cell values. Report semantic tables=[] scope first, not a long missing-value list that sends it to repair fake catalogue cells."
+}
