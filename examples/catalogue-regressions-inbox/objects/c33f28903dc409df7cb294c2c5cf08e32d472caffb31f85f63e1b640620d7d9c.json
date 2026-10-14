@@ -1,0 +1,752 @@
+{
+  "case": {
+    "kind": "content_value_or_scope_candidate",
+    "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_pages": [
+      64
+    ],
+    "ours": [
+      {
+        "side": "ours",
+        "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+        "catalog": "small",
+        "physical_pages": [
+          64
+        ],
+        "kind": "model_parameter",
+        "pointer": "/catalogs/2/pages/63/content/tables/0/rows/1/cells/8",
+        "owner": "BIC 50.90",
+        "name": "Разрушающая нагрузка, кН",
+        "value": null,
+        "unit": "кН",
+        "condition": null,
+        "table_index": 0,
+        "row_index": 1,
+        "column_index": 8,
+        "table_title": "Сравнение кабельных зажимов АРМАТЕХ НИЛЕД, ЭНЕРВИК (ENSTO), МЗВА-ЧЭМЗ",
+        "column": {
+          "id": "c9",
+          "label": "Разрушающая нагрузка, кН",
+          "unit": "кН",
+          "group": "МЗВА-ЧЭМЗ",
+          "qualifier": null
+        },
+        "row_values": [
+          "BIC 50-90",
+          "D25-62",
+          "–",
+          "SO75.100",
+          "D45-100",
+          "–",
+          "BIC 50.90",
+          "D 25-62",
+          null
+        ],
+        "owner_column_index": 6,
+        "owner_scope": "МЗВА-ЧЭМЗ",
+        "candidate_sha256": "1d2b721f1e89283d6ebc9205790022db6fb97b2a181291e3e267f452a67ad6ae",
+        "fact_id": "O-112c97cf7f6fe058aaacb5b8",
+        "full_input_fact_sha256": "0b04cb0d5e19509cef5ad952ada31eb4f101be43fdf0107baef8cbd4058497df",
+        "raw_semantic_context": {
+          "state": "blank"
+        }
+      },
+      {
+        "side": "ours",
+        "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+        "catalog": "small",
+        "physical_pages": [
+          64
+        ],
+        "kind": "model_parameter",
+        "pointer": "/catalogs/2/pages/63/content/tables/0/rows/2/cells/2",
+        "owner": "BIC 120",
+        "name": "Разрушающая нагрузка, кН",
+        "value": null,
+        "unit": "кН",
+        "condition": null,
+        "table_index": 0,
+        "row_index": 2,
+        "column_index": 2,
+        "table_title": "Сравнение кабельных зажимов АРМАТЕХ НИЛЕД, ЭНЕРВИК (ENSTO), МЗВА-ЧЭМЗ",
+        "column": {
+          "id": "c3",
+          "label": "Разрушающая нагрузка, кН",
+          "unit": "кН",
+          "group": "АРМАТЕХ НИЛЕД",
+          "qualifier": null
+        },
+        "row_values": [
+          "BIC 120",
+          "D25-62",
+          null,
+          null,
+          null,
+          null,
+          "BIC 120",
+          "D 25-62",
+          "–"
+        ],
+        "owner_column_index": 0,
+        "owner_scope": "АРМАТЕХ НИЛЕД",
+        "candidate_sha256": "1d2b721f1e89283d6ebc9205790022db6fb97b2a181291e3e267f452a67ad6ae",
+        "fact_id": "O-aab5016f34fd77f4060a17ec",
+        "full_input_fact_sha256": "52100d5d78d4416d43e3e0ff85ed161699d511fa918b7a8ceb94cad054a3f926",
+        "raw_semantic_context": {
+          "state": "blank"
+        }
+      }
+    ],
+    "oleg": [
+      {
+        "side": "oleg",
+        "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+        "catalog": "small",
+        "physical_pages": [
+          64
+        ],
+        "kind": "model_parameter",
+        "pointer": "characteristics.jsonl:6976/raw",
+        "owner": "BIC 50.90",
+        "name": "Разрушающая нагрузка",
+        "value": "–",
+        "unit": "кН",
+        "condition": "",
+        "observation_id": "C-f495e479b514228cb79dab91",
+        "window_id": "W-461e7ceb8e5a1a02a91ddd20",
+        "group_id": "G-e131f9410ce812789d9c869d",
+        "product_id": "P-213c4e64ca9e2025178fefe4",
+        "group_title": "Дистанционный фиксатор",
+        "raw_value_present": true,
+        "fact_id": "L-3e14bbf042a06000c8821831",
+        "full_input_fact_sha256": "b79c914c03565cc1e861b25e48b08ea3c54d8fa0c53c26294432b1feee1ca61b",
+        "raw_semantic_context": {
+          "name": "Разрушающая нагрузка",
+          "raw_value": "–",
+          "unit": "кН",
+          "condition": "",
+          "scope": "МЗВА-ЧЭМЗ; BIC 50.90",
+          "scope_evidence": "Значение в строке или видимой объединённой ячейке таблицы; столбец МЗВА-ЧЭМЗ",
+          "header_path": [
+            {
+              "raw_text": "МЗВА-ЧЭМЗ",
+              "role": "group",
+              "unit": "",
+              "condition": "",
+              "evidence": [
+                {
+                  "page": 64,
+                  "region": [
+                    0.562,
+                    0.05,
+                    0.86,
+                    0.167
+                  ]
+                }
+              ]
+            },
+            {
+              "raw_text": "Разрушающая нагрузка, кН",
+              "role": "column",
+              "unit": "кН",
+              "condition": "",
+              "evidence": [
+                {
+                  "page": 64,
+                  "region": [
+                    0.766,
+                    0.05,
+                    0.86,
+                    0.167
+                  ]
+                }
+              ]
+            }
+          ],
+          "value_state": "explicit_dash",
+          "origin": "table_cell"
+        }
+      },
+      {
+        "side": "oleg",
+        "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+        "catalog": "small",
+        "physical_pages": [
+          64
+        ],
+        "kind": "model_parameter",
+        "pointer": "characteristics.jsonl:6990/raw",
+        "owner": "BIC 120",
+        "name": "Разрушающая нагрузка",
+        "value": "–",
+        "unit": "кН",
+        "condition": "",
+        "observation_id": "C-db8db0a59931838d58da2b07",
+        "window_id": "W-461e7ceb8e5a1a02a91ddd20",
+        "group_id": "G-e131f9410ce812789d9c869d",
+        "product_id": "P-9bd2304ba9014d5f3ad0e36b",
+        "group_title": "Дистанционный фиксатор",
+        "raw_value_present": true,
+        "fact_id": "L-f5bad707d6f412bc9ea507b3",
+        "full_input_fact_sha256": "ae63783f8823aecd80c7e1b6f5bb0280f7e8e6710c14603b0c07190dcec2ee5e",
+        "raw_semantic_context": {
+          "name": "Разрушающая нагрузка",
+          "raw_value": "–",
+          "unit": "кН",
+          "condition": "",
+          "scope": "АРМАТЕХ НИЛЕД; BIC 120",
+          "scope_evidence": "Значение в строке или видимой объединённой ячейке таблицы; столбец АРМАТЕХ НИЛЕД",
+          "header_path": [
+            {
+              "raw_text": "АРМАТЕХ НИЛЕД",
+              "role": "group",
+              "unit": "",
+              "condition": "",
+              "evidence": [
+                {
+                  "page": 64,
+                  "region": [
+                    0,
+                    0.05,
+                    0.237,
+                    0.167
+                  ]
+                }
+              ]
+            },
+            {
+              "raw_text": "Разрушающая нагрузка, кН",
+              "role": "column",
+              "unit": "кН",
+              "condition": "",
+              "evidence": [
+                {
+                  "page": 64,
+                  "region": [
+                    0.176,
+                    0.05,
+                    0.237,
+                    0.167
+                  ]
+                }
+              ]
+            }
+          ],
+          "value_state": "explicit_dash",
+          "origin": "table_cell"
+        }
+      }
+    ],
+    "original_ledger_links": [
+      {
+        "ours_fact_id": "O-112c97cf7f6fe058aaacb5b8",
+        "oleg_fact_ids": [
+          "L-3e14bbf042a06000c8821831"
+        ]
+      },
+      {
+        "ours_fact_id": "O-aab5016f34fd77f4060a17ec",
+        "oleg_fact_ids": [
+          "L-f5bad707d6f412bc9ea507b3"
+        ]
+      }
+    ],
+    "question": "Проверь по оригиналу ВСЕ перечисленные модели, колонки, условия и объединения. Отличи ошибку значения/кода от различия списка/подстрок, алфавита, формы и условий. Если обе записи относятся к разным контекстам — both с явным разделением; пропуски — только по полной объединённой ячейке. Не считай видимые похожие буквы автоматически взаимозаменяемыми. Выбери ours/oleg/equivalent/both без selected_value, если принимаешь исходные записи; neither/unresolved если правильного однозначного выбора нет.",
+    "case_id": "C-9f7df9e58974c021c27074c0"
+  },
+  "previous_actual_codex_vote": {
+    "schema_version": "catalogue-consensus-vote/1",
+    "pack_id": "content-small-64-9f7df9e58974c021c27074c0",
+    "pack_sha256": "bc8cebb99e7e9bdd52d5f50d6c34865baf94202dd42ecd747ba7be8cf0fd57d0",
+    "identity": {
+      "role": "codex",
+      "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+      "model": "native Codex root; exact provider model ID unavailable",
+      "runtime": "Codex Desktop native root",
+      "source_review_completed_at": "2026-10-14T20:20:49.824975+00:00",
+      "source_image": "reviews/codex/current-content/small-64.png"
+    },
+    "payload": {
+      "pack_id": "content-small-64-9f7df9e58974c021c27074c0",
+      "verdicts": [
+        {
+          "case_id": "C-9f7df9e58974c021c27074c0",
+          "case_sha256": "5b4b3d5bc098f24f0472f9ea8049f660b09ca80693f83ea26dce2eb4634188a4",
+          "decision": "oleg",
+          "reason": "Лично сверены BIC50.90 в полосеМЗВА иBIC120вполосеНИЛЕД: обе соответствующие клетки нагрузки содержат напечатанные прочерки. Выбор Олега сохраняет source-explicit-dash вместо нашего sourceblank; производители не смешиваются.",
+          "source_evidence": [
+            {
+              "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+              "page": 64,
+              "bbox": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "observation": "Лично сверены BIC50.90 в полосеМЗВА иBIC120вполосеНИЛЕД: обе соответствующие клетки нагрузки содержат напечатанные прочерки. Выбор Олега сохраняет source-explicit-dash вместо нашего sourceblank; производители не смешиваются."
+            }
+          ]
+        }
+      ]
+    },
+    "source_manifest": [
+      {
+        "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+        "page_count": 228
+      },
+      {
+        "sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+        "page_count": 60
+      },
+      {
+        "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+        "page_count": 216
+      },
+      {
+        "sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+        "page_count": 162
+      },
+      {
+        "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+        "page_count": 314
+      }
+    ],
+    "saved_at": "2026-10-14T20:20:50.025864+00:00",
+    "round_number": 1,
+    "receipt_sha256": "da1b3654c8bf39e725287b7677b5d3f6e062a5c39472d6b2aecc6f9359a315f8"
+  },
+  "corrected_actual_codex_vote": {
+    "schema_version": "catalogue-consensus-vote/1",
+    "pack_id": "content-small-64-9f7df9e58974c021c27074c0",
+    "pack_sha256": "bc8cebb99e7e9bdd52d5f50d6c34865baf94202dd42ecd747ba7be8cf0fd57d0",
+    "identity": {
+      "role": "codex",
+      "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+      "model": "native Codex root; exact provider model ID unavailable",
+      "runtime": "Codex Desktop native root",
+      "review_phase": "Actual post-independent source review; own earlier error preserved",
+      "source_image": "/home/roomhacker/apps/catalog-to-json/.tmp/oleg-consensus-20261014/reviews/codex/source-discussion-v2/small64.png",
+      "recorded_at": "2026-10-14T21:46:41.824034+00:00"
+    },
+    "payload": {
+      "pack_id": "content-small-64-9f7df9e58974c021c27074c0",
+      "verdicts": [
+        {
+          "case_id": "C-9f7df9e58974c021c27074c0",
+          "case_sha256": "5b4b3d5bc098f24f0472f9ea8049f660b09ca80693f83ea26dce2eb4634188a4",
+          "decision": "ours",
+          "reason": "Лично проверил оригинал64 с повторяющимися колонками производителей: у правого МЗВА BIC50.90 клетка нагрузки пустая между строками с тире; у левого АРМАТЕХ BIC120 клетка нагрузки тоже пуста, хотя правый BIC120 имеет тире. Нельзя переносить знак между производителями. Подтверждаю обе наши null. Моё прежнее oleg возникло от другого производителя/соседней строки.",
+          "source_evidence": [
+            {
+              "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+              "page": 64,
+              "bbox": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "observation": "Лично проверил оригинал64 с повторяющимися колонками производителей: у правого МЗВА BIC50.90 клетка нагрузки пустая между строками с тире; у левого АРМАТЕХ BIC120 клетка нагрузки тоже пуста, хотя правый BIC120 имеет тире. Нельзя переносить знак между производителями. Подтверждаю обе наши null. Моё прежнее oleg возникло от другого производителя/соседней строки."
+            }
+          ]
+        }
+      ]
+    },
+    "source_manifest": [
+      {
+        "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+        "page_count": 228
+      },
+      {
+        "sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+        "page_count": 60
+      },
+      {
+        "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+        "page_count": 216
+      },
+      {
+        "sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+        "page_count": 162
+      },
+      {
+        "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+        "page_count": 314
+      }
+    ],
+    "saved_at": "2026-10-14T21:46:41.825226+00:00",
+    "round_number": 2,
+    "receipt_sha256": "b797650e6b4050d0147cdd59f5c8d7fadb676714e9467c9baf76e8c3b2e90326"
+  },
+  "current_three_party_case": {
+    "case_id": "C-9f7df9e58974c021c27074c0",
+    "case_sha256": "5b4b3d5bc098f24f0472f9ea8049f660b09ca80693f83ea26dce2eb4634188a4",
+    "pack_sha256": "bc8cebb99e7e9bdd52d5f50d6c34865baf94202dd42ecd747ba7be8cf0fd57d0",
+    "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_pages": [
+      64
+    ],
+    "accepted": true,
+    "all_three_present": true,
+    "decision": "ours",
+    "ours": [
+      {
+        "side": "ours",
+        "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+        "catalog": "small",
+        "physical_pages": [
+          64
+        ],
+        "kind": "model_parameter",
+        "pointer": "/catalogs/2/pages/63/content/tables/0/rows/1/cells/8",
+        "owner": "BIC 50.90",
+        "name": "Разрушающая нагрузка, кН",
+        "value": null,
+        "unit": "кН",
+        "condition": null,
+        "table_index": 0,
+        "row_index": 1,
+        "column_index": 8,
+        "table_title": "Сравнение кабельных зажимов АРМАТЕХ НИЛЕД, ЭНЕРВИК (ENSTO), МЗВА-ЧЭМЗ",
+        "column": {
+          "id": "c9",
+          "label": "Разрушающая нагрузка, кН",
+          "unit": "кН",
+          "group": "МЗВА-ЧЭМЗ",
+          "qualifier": null
+        },
+        "row_values": [
+          "BIC 50-90",
+          "D25-62",
+          "–",
+          "SO75.100",
+          "D45-100",
+          "–",
+          "BIC 50.90",
+          "D 25-62",
+          null
+        ],
+        "owner_column_index": 6,
+        "owner_scope": "МЗВА-ЧЭМЗ",
+        "candidate_sha256": "1d2b721f1e89283d6ebc9205790022db6fb97b2a181291e3e267f452a67ad6ae",
+        "fact_id": "O-112c97cf7f6fe058aaacb5b8",
+        "full_input_fact_sha256": "0b04cb0d5e19509cef5ad952ada31eb4f101be43fdf0107baef8cbd4058497df",
+        "raw_semantic_context": {
+          "state": "blank"
+        }
+      },
+      {
+        "side": "ours",
+        "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+        "catalog": "small",
+        "physical_pages": [
+          64
+        ],
+        "kind": "model_parameter",
+        "pointer": "/catalogs/2/pages/63/content/tables/0/rows/2/cells/2",
+        "owner": "BIC 120",
+        "name": "Разрушающая нагрузка, кН",
+        "value": null,
+        "unit": "кН",
+        "condition": null,
+        "table_index": 0,
+        "row_index": 2,
+        "column_index": 2,
+        "table_title": "Сравнение кабельных зажимов АРМАТЕХ НИЛЕД, ЭНЕРВИК (ENSTO), МЗВА-ЧЭМЗ",
+        "column": {
+          "id": "c3",
+          "label": "Разрушающая нагрузка, кН",
+          "unit": "кН",
+          "group": "АРМАТЕХ НИЛЕД",
+          "qualifier": null
+        },
+        "row_values": [
+          "BIC 120",
+          "D25-62",
+          null,
+          null,
+          null,
+          null,
+          "BIC 120",
+          "D 25-62",
+          "–"
+        ],
+        "owner_column_index": 0,
+        "owner_scope": "АРМАТЕХ НИЛЕД",
+        "candidate_sha256": "1d2b721f1e89283d6ebc9205790022db6fb97b2a181291e3e267f452a67ad6ae",
+        "fact_id": "O-aab5016f34fd77f4060a17ec",
+        "full_input_fact_sha256": "52100d5d78d4416d43e3e0ff85ed161699d511fa918b7a8ceb94cad054a3f926",
+        "raw_semantic_context": {
+          "state": "blank"
+        }
+      }
+    ],
+    "oleg": [
+      {
+        "side": "oleg",
+        "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+        "catalog": "small",
+        "physical_pages": [
+          64
+        ],
+        "kind": "model_parameter",
+        "pointer": "characteristics.jsonl:6976/raw",
+        "owner": "BIC 50.90",
+        "name": "Разрушающая нагрузка",
+        "value": "–",
+        "unit": "кН",
+        "condition": "",
+        "observation_id": "C-f495e479b514228cb79dab91",
+        "window_id": "W-461e7ceb8e5a1a02a91ddd20",
+        "group_id": "G-e131f9410ce812789d9c869d",
+        "product_id": "P-213c4e64ca9e2025178fefe4",
+        "group_title": "Дистанционный фиксатор",
+        "raw_value_present": true,
+        "fact_id": "L-3e14bbf042a06000c8821831",
+        "full_input_fact_sha256": "b79c914c03565cc1e861b25e48b08ea3c54d8fa0c53c26294432b1feee1ca61b",
+        "raw_semantic_context": {
+          "name": "Разрушающая нагрузка",
+          "raw_value": "–",
+          "unit": "кН",
+          "condition": "",
+          "scope": "МЗВА-ЧЭМЗ; BIC 50.90",
+          "scope_evidence": "Значение в строке или видимой объединённой ячейке таблицы; столбец МЗВА-ЧЭМЗ",
+          "header_path": [
+            {
+              "raw_text": "МЗВА-ЧЭМЗ",
+              "role": "group",
+              "unit": "",
+              "condition": "",
+              "evidence": [
+                {
+                  "page": 64,
+                  "region": [
+                    0.562,
+                    0.05,
+                    0.86,
+                    0.167
+                  ]
+                }
+              ]
+            },
+            {
+              "raw_text": "Разрушающая нагрузка, кН",
+              "role": "column",
+              "unit": "кН",
+              "condition": "",
+              "evidence": [
+                {
+                  "page": 64,
+                  "region": [
+                    0.766,
+                    0.05,
+                    0.86,
+                    0.167
+                  ]
+                }
+              ]
+            }
+          ],
+          "value_state": "explicit_dash",
+          "origin": "table_cell"
+        }
+      },
+      {
+        "side": "oleg",
+        "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+        "catalog": "small",
+        "physical_pages": [
+          64
+        ],
+        "kind": "model_parameter",
+        "pointer": "characteristics.jsonl:6990/raw",
+        "owner": "BIC 120",
+        "name": "Разрушающая нагрузка",
+        "value": "–",
+        "unit": "кН",
+        "condition": "",
+        "observation_id": "C-db8db0a59931838d58da2b07",
+        "window_id": "W-461e7ceb8e5a1a02a91ddd20",
+        "group_id": "G-e131f9410ce812789d9c869d",
+        "product_id": "P-9bd2304ba9014d5f3ad0e36b",
+        "group_title": "Дистанционный фиксатор",
+        "raw_value_present": true,
+        "fact_id": "L-f5bad707d6f412bc9ea507b3",
+        "full_input_fact_sha256": "ae63783f8823aecd80c7e1b6f5bb0280f7e8e6710c14603b0c07190dcec2ee5e",
+        "raw_semantic_context": {
+          "name": "Разрушающая нагрузка",
+          "raw_value": "–",
+          "unit": "кН",
+          "condition": "",
+          "scope": "АРМАТЕХ НИЛЕД; BIC 120",
+          "scope_evidence": "Значение в строке или видимой объединённой ячейке таблицы; столбец АРМАТЕХ НИЛЕД",
+          "header_path": [
+            {
+              "raw_text": "АРМАТЕХ НИЛЕД",
+              "role": "group",
+              "unit": "",
+              "condition": "",
+              "evidence": [
+                {
+                  "page": 64,
+                  "region": [
+                    0,
+                    0.05,
+                    0.237,
+                    0.167
+                  ]
+                }
+              ]
+            },
+            {
+              "raw_text": "Разрушающая нагрузка, кН",
+              "role": "column",
+              "unit": "кН",
+              "condition": "",
+              "evidence": [
+                {
+                  "page": 64,
+                  "region": [
+                    0.176,
+                    0.05,
+                    0.237,
+                    0.167
+                  ]
+                }
+              ]
+            }
+          ],
+          "value_state": "explicit_dash",
+          "origin": "table_cell"
+        }
+      }
+    ],
+    "reviewers": {
+      "codex": {
+        "role": "codex",
+        "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+        "model": "native Codex root; exact provider model ID unavailable",
+        "round_number": 2,
+        "receipt_sha256": "b797650e6b4050d0147cdd59f5c8d7fadb676714e9467c9baf76e8c3b2e90326",
+        "program_contract_sha256": null,
+        "opinion": {
+          "case_id": "C-9f7df9e58974c021c27074c0",
+          "case_sha256": "5b4b3d5bc098f24f0472f9ea8049f660b09ca80693f83ea26dce2eb4634188a4",
+          "decision": "ours",
+          "reason": "Лично проверил оригинал64 с повторяющимися колонками производителей: у правого МЗВА BIC50.90 клетка нагрузки пустая между строками с тире; у левого АРМАТЕХ BIC120 клетка нагрузки тоже пуста, хотя правый BIC120 имеет тире. Нельзя переносить знак между производителями. Подтверждаю обе наши null. Моё прежнее oleg возникло от другого производителя/соседней строки.",
+          "source_evidence": [
+            {
+              "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+              "page": 64,
+              "bbox": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "observation": "Лично проверил оригинал64 с повторяющимися колонками производителей: у правого МЗВА BIC50.90 клетка нагрузки пустая между строками с тире; у левого АРМАТЕХ BIC120 клетка нагрузки тоже пуста, хотя правый BIC120 имеет тире. Нельзя переносить знак между производителями. Подтверждаю обе наши null. Моё прежнее oleg возникло от другого производителя/соседней строки."
+            }
+          ]
+        }
+      },
+      "zcode": {
+        "role": "zcode",
+        "session_id": "sess_0dd4a3ee-bc7d-4008-b9fa-c25146ec5392",
+        "model": "account:zai-individual-coding-plan/GLM-5.3-Flash$max",
+        "round_number": 1,
+        "receipt_sha256": "aae0c03de26efb81f0217d14f5b90842cfd44de05d1bf59b779a476fff444022",
+        "program_contract_sha256": null,
+        "opinion": {
+          "case_id": "C-9f7df9e58974c021c27074c0",
+          "case_sha256": "5b4b3d5bc098f24f0472f9ea8049f660b09ca80693f83ea26dce2eb4634188a4",
+          "decision": "ours",
+          "reason": "Таблица стр.64, строка BIC 50.90 МЗВА-ЧЭМЗ@y155: напечатаны BIC@338, 50.90@351, D@415, 25-62@422; колонка «Разрушающая нагрузка, кН» (шапка x473–483) в этой строке ПУСТА — –@481 напечатан на СОСЕДНИХ строках (y136, y174), а в строке y155 полоса x470–495 чиста. Наша запись None точна; explicit_dash Олега взят из соседней строки.",
+          "source_evidence": [
+            {
+              "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+              "page": 64,
+              "bbox": [
+                0.7811,
+                0.1782,
+                0.8399,
+                0.1948
+              ],
+              "observation": "ячейка нагрузки МЗВА строки BIC 50.90: пустая; –@481 есть только у соседних строк y136/y174"
+            },
+            {
+              "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+              "page": 64,
+              "bbox": [
+                0.5543,
+                0.152,
+                0.8399,
+                0.2162
+              ],
+              "observation": "контекст: BIC 15.50@136 (–@481), BIC 50.90@155 (пусто), BIC 120@174 (–@481)"
+            }
+          ]
+        }
+      },
+      "minimax": {
+        "role": "minimax",
+        "session_id": "38d0b461-1e00-4bf7-ae0f-529731124ff9",
+        "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+        "round_number": 1,
+        "receipt_sha256": "06f149dc0917313d038624c37f88835b25ab9dfab496a2dc278ac428784dfa1d",
+        "program_contract_sha256": "eaa3745c9737c05f470df2eecd1aed8a6b715e03690b8d85b0128636d2e9d339",
+        "opinion": {
+          "case_id": "C-9f7df9e58974c021c27074c0",
+          "decision": "ours",
+          "reason": "Обе спорные ячейки в оригинале пусты (без знака «–»), как и записала сторона ours (value=null). 1) МЗВА-ЧЭМЗ, BIC 50.90, «Разрушающая нагрузка, кН»: в полосе строки (y≈0.1777–0.2013) нативных слов нет; «–» есть только в строках BIC 15.50 (y≈0.1611–0.1725) и BIC 120 (y≈0.2064–0.2179). Горизонтальные линии-разделители строк идут через весь столбец (y=0.1555, 0.1777, 0.2013, 0.2226 при x 0.767–0.862), т.е. объединённой ячейки, перекрывающей соседние строки, нет — пропуск подтверждён по полной ячейке. 2) АРМАТЕХ НИЛЕД, BIC 120: в третьем столбце (x 0.1766–0.2384) слова только «BIC», «120», «D25-62»; «–» присутствует в строках BIC 15.50 и BIC 50-90, а разделитель y=0.2013 проходит через весь столбец, поэтому ячейка BIC 120 не объединена с соседней и пуста. Следовательно oleg в обоих случаях записал несуществующий в источнике явный прочерк (value_state=explicit_dash), что является ошибкой значения, а не различием формы/списка; ours точен.",
+          "source_evidence": [
+            {
+              "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+              "page": 64,
+              "bbox": [
+                0.77,
+                0.15,
+                0.9,
+                0.225
+              ],
+              "observation": "Столбец «Разрушающая нагрузка, кН» группы МЗВА-ЧЭМЗ: нативные слова «–» только в строке BIC 15.50 (y≈0.1611–0.1725) и BIC 120 (y≈0.2064–0.2179); в строке BIC 50.90 (полоса y 0.1777–0.2013) слов нет. Горизонтальные отрезки 0.1555/0.1777/0.2013/0.2226 проходят через всю ширину столбца (0.767–0.862) — ячейка BIC 50.90 визуально пуста."
+            },
+            {
+              "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+              "page": 64,
+              "bbox": [
+                0.176,
+                0.15,
+                0.239,
+                0.225
+              ],
+              "observation": "Третий столбец группы АРМАТЕХ НИЛЕД: слова «–» только в строках BIC 15.50 (y≈0.1611) и BIC 50-90 (y≈0.1840); горизонтальный отрезок на y=0.2013 проходит через весь столбец (0.1766–0.2367), а вертикали 0.1766 и 0.2384 замкнуты — ячейка BIC 120 (y 0.2013–0.2226) отделена и пуста."
+            },
+            {
+              "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+              "page": 64,
+              "bbox": [
+                0.0,
+                0.15,
+                1.0,
+                0.24
+              ],
+              "observation": "Просмотр исходного изображения: в строках BIC 50.90 (МЗВА-ЧЭМЗ) и BIC 120 (АРМАТЕХ НИЛЕД) прочерки в столбцах «Разрушающая нагрузка, кН» отсутствуют, тогда как у соседних моделей они видны."
+            }
+          ],
+          "case_sha256": "5b4b3d5bc098f24f0472f9ea8049f660b09ca80693f83ea26dce2eb4634188a4"
+        }
+      }
+    },
+    "actual_rounds": {
+      "codex": 2,
+      "zcode": 1,
+      "minimax": 1
+    },
+    "resolved": true,
+    "joint_resolution": null,
+    "materialization_proof_sha256": null
+  },
+  "source_review_basis": "Лично проверил оригинал64 с повторяющимися колонками производителей: у правого МЗВА BIC50.90 клетка нагрузки пустая между строками с тире; у левого АРМАТЕХ BIC120 клетка нагрузки тоже пуста, хотя правый BIC120 имеет тире. Нельзя переносить знак между производителями. Подтверждаю обе наши null. Моё прежнее oleg возникло от другого производителя/соседней строки.",
+  "not_new_model_benchmark": true
+}

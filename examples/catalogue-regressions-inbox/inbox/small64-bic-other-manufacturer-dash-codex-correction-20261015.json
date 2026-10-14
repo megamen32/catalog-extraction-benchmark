@@ -1,0 +1,28 @@
+{
+  "id": "small64-bic-other-manufacturer-dash-codex-correction-20261015",
+  "status": "pending_adjudication",
+  "category": "false-source-objection-cross-row-or-manufacturer",
+  "title": "Лично проверил оригинал64 с повторяющимися колонками производителей: у правого МЗВА BIC50.90 клетка нагрузки пустая между строками",
+  "source": {
+    "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_page": 64
+  },
+  "review_basis": "Лично проверил оригинал64 с повторяющимися колонками производителей: у правого МЗВА BIC50.90 клетка нагрузки пустая между строками с тире; у левого АРМАТЕХ BIC120 клетка нагрузки тоже пуста, хотя правый BIC120 имеет тире. Нельзя переносить знак между производителями. Подтверждаю обе наши null. Моё прежнее oleg возникло от другого производителя/соседней строки.",
+  "producer": {
+    "program_git_commit": "1d7d55b",
+    "role": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "model": "native Codex root; exact provider model ID unavailable",
+    "earlier_receipt_sha256": "da1b3654c8bf39e725287b7677b5d3f6e062a5c39472d6b2aecc6f9359a315f8",
+    "corrected_receipt_sha256": "b797650e6b4050d0147cdd59f5c8d7fadb676714e9467c9baf76e8c3b2e90326"
+  },
+  "expected_behavior": "Не переносить прочерк из другой физической строки или группы производителя в пустую ячейку. Группы одного CD-35 сохранять различимыми.",
+  "assertions": [],
+  "coverage_note": "Pending source-bound consensus regression, excluded from historical500/520 accuracy totals.",
+  "artifacts": [
+    {
+      "path": "objects/c33f28903dc409df7cb294c2c5cf08e32d472caffb31f85f63e1b640620d7d9c.json",
+      "sha256": "c33f28903dc409df7cb294c2c5cf08e32d472caffb31f85f63e1b640620d7d9c"
+    }
+  ]
+}

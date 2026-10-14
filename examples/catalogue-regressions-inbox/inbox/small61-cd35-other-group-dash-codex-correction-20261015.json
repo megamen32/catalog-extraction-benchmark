@@ -1,0 +1,28 @@
+{
+  "id": "small61-cd35-other-group-dash-codex-correction-20261015",
+  "status": "pending_adjudication",
+  "category": "false-source-objection-cross-row-or-manufacturer",
+  "title": "Пересмотрел оригинал61, всю таблицу и исходный row_values. Для группы «Плашечный зажим для соединения заземляющих проводников», CD",
+  "source": {
+    "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_page": 61
+  },
+  "review_basis": "Пересмотрел оригинал61, всю таблицу и исходный row_values. Для группы «Плашечный зажим для соединения заземляющих проводников», CD-35, клетка разрушающей нагрузки МЗВА физически пуста; тире напечатано в строке выше ПС-1-1А и ниже в ДРУГОЙ группе «Ответвительный плашечный зажим». Моё прежнее oleg ошибочно переносило тире соседнего CD-35. Подтверждаю ours null. Одна из четырёх альтернатив Олега относится к другой группе и сохраняется отдельно, не объявляется ошибкой по этому факту.",
+  "producer": {
+    "program_git_commit": "1d7d55b",
+    "role": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "model": "native Codex root; exact provider model ID unavailable",
+    "earlier_receipt_sha256": "cd9df66a2ae069df5340c2dffcb45ff215d8149d17308449c083ad4bbcfbb47e",
+    "corrected_receipt_sha256": "7466ba3a9f03b8f1ce277a602eb3fa9acfca7fa8ff6978cbb1121628e0fd9fa5"
+  },
+  "expected_behavior": "Не переносить прочерк из другой физической строки или группы производителя в пустую ячейку. Группы одного CD-35 сохранять различимыми.",
+  "assertions": [],
+  "coverage_note": "Pending source-bound consensus regression, excluded from historical500/520 accuracy totals.",
+  "artifacts": [
+    {
+      "path": "objects/ddf8f6d7113d982ba9ab2126a270522f1880cf681cdf9544084b69d9eaefc230.json",
+      "sha256": "ddf8f6d7113d982ba9ab2126a270522f1880cf681cdf9544084b69d9eaefc230"
+    }
+  ]
+}

@@ -1,0 +1,509 @@
+{
+  "case": {
+    "kind": "content_value_or_scope_candidate",
+    "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_pages": [
+      217
+    ],
+    "ours": [
+      {
+        "side": "ours",
+        "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+        "catalog": "small",
+        "physical_pages": [
+          217
+        ],
+        "kind": "model_parameter",
+        "pointer": "/catalogs/2/pages/216/content/tables/0/rows/37/cells/6",
+        "owner": "SIMPI",
+        "name": "Рабочая нагрузка",
+        "value": null,
+        "unit": "кН",
+        "condition": null,
+        "table_index": 0,
+        "row_index": 37,
+        "column_index": 6,
+        "table_title": "Монтажный и ручной инструмент: МЗВА, TYCO / SIMEL, NILED / BK — диаметр провода и рабочая нагрузка",
+        "column": {
+          "id": "c7",
+          "label": "Рабочая нагрузка",
+          "unit": "кН",
+          "group": "TYCO / SIMEL",
+          "qualifier": null
+        },
+        "row_values": [
+          "Пресс механический",
+          "ПМК-240",
+          "-",
+          "70",
+          "SIMPI",
+          "7",
+          null,
+          null,
+          "-",
+          "-"
+        ],
+        "owner_column_index": 4,
+        "owner_scope": "TYCO / SIMEL",
+        "candidate_sha256": "cad456ba6aa5c1bb64d710ff856deb2e483b09d554bd52ea3950c114bd027900",
+        "fact_id": "O-73c8a0091e446846ea74dacf",
+        "full_input_fact_sha256": "393696290c88fed7e5bfb0c077c6bff0de07c3c253c5ea1bd9db835438449bfe",
+        "raw_semantic_context": {
+          "state": "blank"
+        }
+      }
+    ],
+    "oleg": [
+      {
+        "side": "oleg",
+        "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+        "catalog": "small",
+        "physical_pages": [
+          217
+        ],
+        "kind": "model_parameter",
+        "pointer": "characteristics.jsonl:65820/raw",
+        "owner": "SIMPI",
+        "name": "Рабочая нагрузка, кН",
+        "value": "-",
+        "unit": "кН",
+        "condition": "",
+        "observation_id": "C-d9a53f1f17221e1576e9f9ca",
+        "window_id": "W-a49387b1bcab408e9d246e5e",
+        "group_id": "G-51f6fae6abc784e6cccc3eeb",
+        "product_id": "P-4fd993646a980648e901fe2f",
+        "group_title": "Пресс механический",
+        "raw_value_present": true,
+        "fact_id": "L-5571479aca10031af2b70136",
+        "full_input_fact_sha256": "d36280dba61ddde9b741a9ab0cd797f5b577976982e90dfb845a73f56db4431f",
+        "raw_semantic_context": {
+          "name": "Рабочая нагрузка, кН",
+          "raw_value": "-",
+          "unit": "кН",
+          "condition": "",
+          "scope": "",
+          "scope_evidence": "",
+          "header_path": [
+            {
+              "raw_text": "TYCO / SIMEL",
+              "role": "group",
+              "unit": "",
+              "condition": "",
+              "evidence": [
+                {
+                  "page": 217,
+                  "region": [
+                    0,
+                    0,
+                    1,
+                    1
+                  ]
+                }
+              ]
+            },
+            {
+              "raw_text": "Рабочая нагрузка, кН",
+              "role": "column",
+              "unit": "кН",
+              "condition": "",
+              "evidence": [
+                {
+                  "page": 217,
+                  "region": [
+                    0,
+                    0,
+                    1,
+                    1
+                  ]
+                }
+              ]
+            }
+          ],
+          "value_state": "explicit_dash",
+          "origin": "table_cell"
+        }
+      }
+    ],
+    "original_ledger_links": [
+      {
+        "ours_fact_id": "O-73c8a0091e446846ea74dacf",
+        "oleg_fact_ids": [
+          "L-5571479aca10031af2b70136"
+        ]
+      }
+    ],
+    "question": "Проверь по оригиналу ВСЕ перечисленные модели, колонки, условия и объединения. Отличи ошибку значения/кода от различия списка/подстрок, алфавита, формы и условий. Если обе записи относятся к разным контекстам — both с явным разделением; пропуски — только по полной объединённой ячейке. Не считай видимые похожие буквы автоматически взаимозаменяемыми. Выбери ours/oleg/equivalent/both без selected_value, если принимаешь исходные записи; neither/unresolved если правильного однозначного выбора нет.",
+    "case_id": "C-49fe748a1282a26820b064e2"
+  },
+  "previous_actual_codex_vote": {
+    "schema_version": "catalogue-consensus-vote/1",
+    "pack_id": "content-small-217-49fe748a1282a26820b064e2",
+    "pack_sha256": "ce85759cf2be302724f5fd32b388d738ab594d719bb938403368562be36836cb",
+    "identity": {
+      "role": "codex",
+      "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+      "model": "native Codex root; exact provider model ID unavailable",
+      "runtime": "Codex Desktop native root",
+      "source_review_completed_at": "2026-10-14T20:20:49.824975+00:00",
+      "source_image": "reviews/codex/current-content/small-217.png"
+    },
+    "payload": {
+      "pack_id": "content-small-217-49fe748a1282a26820b064e2",
+      "verdicts": [
+        {
+          "case_id": "C-49fe748a1282a26820b064e2",
+          "case_sha256": "f5679368d14b22eab4cb25f8055222a03d7bb36ec512d3082d6ba9f3f06d1637",
+          "decision": "oleg",
+          "reason": "Лично сверена полосаTYCO/SIMEL в блоке механических прессов: SIMECA70кН, нижеSIMPI с напечатанным прочерком. У нашей строкиSIMPI blankтеряет явный знак отсутствия значения; не подставлять70из предыдущей строки.",
+          "source_evidence": [
+            {
+              "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+              "page": 217,
+              "bbox": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "observation": "Лично сверена полосаTYCO/SIMEL в блоке механических прессов: SIMECA70кН, нижеSIMPI с напечатанным прочерком. У нашей строкиSIMPI blankтеряет явный знак отсутствия значения; не подставлять70из предыдущей строки."
+            }
+          ]
+        }
+      ]
+    },
+    "source_manifest": [
+      {
+        "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+        "page_count": 228
+      },
+      {
+        "sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+        "page_count": 60
+      },
+      {
+        "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+        "page_count": 216
+      },
+      {
+        "sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+        "page_count": 162
+      },
+      {
+        "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+        "page_count": 314
+      }
+    ],
+    "saved_at": "2026-10-14T20:20:50.103639+00:00",
+    "round_number": 1,
+    "receipt_sha256": "30a8c3556007f1ab3e553ac932acae7509490d4c7b9380d379eb6770cc753ea1"
+  },
+  "corrected_actual_codex_vote": {
+    "schema_version": "catalogue-consensus-vote/1",
+    "pack_id": "content-small-217-49fe748a1282a26820b064e2",
+    "pack_sha256": "ce85759cf2be302724f5fd32b388d738ab594d719bb938403368562be36836cb",
+    "identity": {
+      "role": "codex",
+      "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+      "model": "native Codex root; exact provider model ID unavailable",
+      "runtime": "Codex Desktop native root",
+      "review_phase": "Actual post-independent source review; own earlier error preserved",
+      "source_image": "/home/roomhacker/apps/catalog-to-json/.tmp/oleg-consensus-20261014/reviews/codex/source-discussion-v2/small217.png",
+      "recorded_at": "2026-10-14T21:46:41.839223+00:00"
+    },
+    "payload": {
+      "pack_id": "content-small-217-49fe748a1282a26820b064e2",
+      "verdicts": [
+        {
+          "case_id": "C-49fe748a1282a26820b064e2",
+          "case_sha256": "f5679368d14b22eab4cb25f8055222a03d7bb36ec512d3082d6ba9f3f06d1637",
+          "decision": "ours",
+          "reason": "Лично перечитал оригинал217, группу «Пресс механический»: SIMPI находится в TYCO/SIMEL, справа от диаметра7 его рабочая нагрузка пуста. Прочерки в тех же строках относятся к соседним МЗВА/NILED-BK, а не к SIMPI. Подтверждаю наш null; моё прежнее oleg было ошибкой принадлежности прочерка.",
+          "source_evidence": [
+            {
+              "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+              "page": 217,
+              "bbox": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "observation": "Лично перечитал оригинал217, группу «Пресс механический»: SIMPI находится в TYCO/SIMEL, справа от диаметра7 его рабочая нагрузка пуста. Прочерки в тех же строках относятся к соседним МЗВА/NILED-BK, а не к SIMPI. Подтверждаю наш null; моё прежнее oleg было ошибкой принадлежности прочерка."
+            }
+          ]
+        }
+      ]
+    },
+    "source_manifest": [
+      {
+        "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+        "page_count": 228
+      },
+      {
+        "sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+        "page_count": 60
+      },
+      {
+        "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+        "page_count": 216
+      },
+      {
+        "sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+        "page_count": 162
+      },
+      {
+        "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+        "page_count": 314
+      }
+    ],
+    "saved_at": "2026-10-14T21:46:41.840149+00:00",
+    "round_number": 2,
+    "receipt_sha256": "16580c29ef479fe73f93bd7d31f0461b433fda14b089376807f43716e33c5cc0"
+  },
+  "current_three_party_case": {
+    "case_id": "C-49fe748a1282a26820b064e2",
+    "case_sha256": "f5679368d14b22eab4cb25f8055222a03d7bb36ec512d3082d6ba9f3f06d1637",
+    "pack_sha256": "ce85759cf2be302724f5fd32b388d738ab594d719bb938403368562be36836cb",
+    "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_pages": [
+      217
+    ],
+    "accepted": true,
+    "all_three_present": true,
+    "decision": "ours",
+    "ours": [
+      {
+        "side": "ours",
+        "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+        "catalog": "small",
+        "physical_pages": [
+          217
+        ],
+        "kind": "model_parameter",
+        "pointer": "/catalogs/2/pages/216/content/tables/0/rows/37/cells/6",
+        "owner": "SIMPI",
+        "name": "Рабочая нагрузка",
+        "value": null,
+        "unit": "кН",
+        "condition": null,
+        "table_index": 0,
+        "row_index": 37,
+        "column_index": 6,
+        "table_title": "Монтажный и ручной инструмент: МЗВА, TYCO / SIMEL, NILED / BK — диаметр провода и рабочая нагрузка",
+        "column": {
+          "id": "c7",
+          "label": "Рабочая нагрузка",
+          "unit": "кН",
+          "group": "TYCO / SIMEL",
+          "qualifier": null
+        },
+        "row_values": [
+          "Пресс механический",
+          "ПМК-240",
+          "-",
+          "70",
+          "SIMPI",
+          "7",
+          null,
+          null,
+          "-",
+          "-"
+        ],
+        "owner_column_index": 4,
+        "owner_scope": "TYCO / SIMEL",
+        "candidate_sha256": "cad456ba6aa5c1bb64d710ff856deb2e483b09d554bd52ea3950c114bd027900",
+        "fact_id": "O-73c8a0091e446846ea74dacf",
+        "full_input_fact_sha256": "393696290c88fed7e5bfb0c077c6bff0de07c3c253c5ea1bd9db835438449bfe",
+        "raw_semantic_context": {
+          "state": "blank"
+        }
+      }
+    ],
+    "oleg": [
+      {
+        "side": "oleg",
+        "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+        "catalog": "small",
+        "physical_pages": [
+          217
+        ],
+        "kind": "model_parameter",
+        "pointer": "characteristics.jsonl:65820/raw",
+        "owner": "SIMPI",
+        "name": "Рабочая нагрузка, кН",
+        "value": "-",
+        "unit": "кН",
+        "condition": "",
+        "observation_id": "C-d9a53f1f17221e1576e9f9ca",
+        "window_id": "W-a49387b1bcab408e9d246e5e",
+        "group_id": "G-51f6fae6abc784e6cccc3eeb",
+        "product_id": "P-4fd993646a980648e901fe2f",
+        "group_title": "Пресс механический",
+        "raw_value_present": true,
+        "fact_id": "L-5571479aca10031af2b70136",
+        "full_input_fact_sha256": "d36280dba61ddde9b741a9ab0cd797f5b577976982e90dfb845a73f56db4431f",
+        "raw_semantic_context": {
+          "name": "Рабочая нагрузка, кН",
+          "raw_value": "-",
+          "unit": "кН",
+          "condition": "",
+          "scope": "",
+          "scope_evidence": "",
+          "header_path": [
+            {
+              "raw_text": "TYCO / SIMEL",
+              "role": "group",
+              "unit": "",
+              "condition": "",
+              "evidence": [
+                {
+                  "page": 217,
+                  "region": [
+                    0,
+                    0,
+                    1,
+                    1
+                  ]
+                }
+              ]
+            },
+            {
+              "raw_text": "Рабочая нагрузка, кН",
+              "role": "column",
+              "unit": "кН",
+              "condition": "",
+              "evidence": [
+                {
+                  "page": 217,
+                  "region": [
+                    0,
+                    0,
+                    1,
+                    1
+                  ]
+                }
+              ]
+            }
+          ],
+          "value_state": "explicit_dash",
+          "origin": "table_cell"
+        }
+      }
+    ],
+    "reviewers": {
+      "codex": {
+        "role": "codex",
+        "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+        "model": "native Codex root; exact provider model ID unavailable",
+        "round_number": 2,
+        "receipt_sha256": "16580c29ef479fe73f93bd7d31f0461b433fda14b089376807f43716e33c5cc0",
+        "program_contract_sha256": null,
+        "opinion": {
+          "case_id": "C-49fe748a1282a26820b064e2",
+          "case_sha256": "f5679368d14b22eab4cb25f8055222a03d7bb36ec512d3082d6ba9f3f06d1637",
+          "decision": "ours",
+          "reason": "Лично перечитал оригинал217, группу «Пресс механический»: SIMPI находится в TYCO/SIMEL, справа от диаметра7 его рабочая нагрузка пуста. Прочерки в тех же строках относятся к соседним МЗВА/NILED-BK, а не к SIMPI. Подтверждаю наш null; моё прежнее oleg было ошибкой принадлежности прочерка.",
+          "source_evidence": [
+            {
+              "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+              "page": 217,
+              "bbox": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "observation": "Лично перечитал оригинал217, группу «Пресс механический»: SIMPI находится в TYCO/SIMEL, справа от диаметра7 его рабочая нагрузка пуста. Прочерки в тех же строках относятся к соседним МЗВА/NILED-BK, а не к SIMPI. Подтверждаю наш null; моё прежнее oleg было ошибкой принадлежности прочерка."
+            }
+          ]
+        }
+      },
+      "zcode": {
+        "role": "zcode",
+        "session_id": "sess_0dd4a3ee-bc7d-4008-b9fa-c25146ec5392",
+        "model": "account:zai-individual-coding-plan/GLM-5.3-Flash$max",
+        "round_number": 1,
+        "receipt_sha256": "5b1d8b721bf2c27858bef9544f5af17310c55d2bcee63611da55812edaf8472e",
+        "program_contract_sha256": null,
+        "opinion": {
+          "case_id": "C-49fe748a1282a26820b064e2",
+          "case_sha256": "f5679368d14b22eab4cb25f8055222a03d7bb36ec512d3082d6ba9f3f06d1637",
+          "decision": "ours",
+          "reason": "Таблица стр.217, строка «Пресс механический», модель SIMPI@y661: напечатаны ПМК-240@153, -@230, 70@269 (МЗВА), SIMPI@326, 7@393 (SIMEL/SIMEL-TYCO диаметр); колонка «Рабочая нагрузка, кН» SIMEL (шапка x433) в этой строке ПУСТА — между 7@393 и –@541 (колонка BK) значений и прочерков нет. Наша запись None точна; печатные прочерки строки (–@541, –@582) принадлежат колонкам BK/NILED, explicit_dash Олега для SIMPI не подтверждён.",
+          "source_evidence": [
+            {
+              "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+              "page": 217,
+              "bbox": [
+                0.7055,
+                0.7792,
+                0.7811,
+                0.7958
+              ],
+              "observation": "ячейка «Рабочая нагрузка» SIMEL строки SIMPI: пустая"
+            },
+            {
+              "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+              "page": 217,
+              "bbox": [
+                0.2352,
+                0.778,
+                0.9995,
+                0.7958
+              ],
+              "observation": "вся строка SIMPI: –@541/582 — колонки BK/NILED, не SIMEL"
+            }
+          ]
+        }
+      },
+      "minimax": {
+        "role": "minimax",
+        "session_id": "a5035b4f-d837-4c02-ba71-1b331976d78b",
+        "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+        "round_number": 1,
+        "receipt_sha256": "32ab7762856713f91f763ed02894a8c221f3dd8e3d440d9f912930ece4d7c30c",
+        "program_contract_sha256": "eaa3745c9737c05f470df2eecd1aed8a6b715e03690b8d85b0128636d2e9d339",
+        "opinion": {
+          "case_id": "C-49fe748a1282a26820b064e2",
+          "decision": "ours",
+          "reason": "В строке «Пресс механический» → ПМК-240 / TYCO-SIMEL «SIMPI» ячейка колонки «Рабочая нагрузка, кН» (группа TYCO / SIMEL) физически пуста: ни изображения, ни нативных слов в столбце между x≈0.699 и x≈0.769 для этой полосы строки нет (соседние ячейки — «7» и пусто). Ячейка не объединена с другими строками: горизонтальные линейки проходят по границам строки, текста выше/ниже в этом столбце нет. Oleg записал «-» (explicit_dash), чего в оригинале нет; ours верно отмечает пустую ячейку.",
+          "source_evidence": [
+            {
+              "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+              "page": 217,
+              "bbox": [
+                0.49,
+                0.78,
+                0.85,
+                0.82
+              ],
+              "observation": "Строка SIMPI: «SIMPI | 7 | <пусто>»; ниже AUTOPRESS 55+BAT+CH+CR: «11 | 50». В колонке «Рабочая нагрузка, кН» группы TYCO / SIMEL у SIMPI прочерк отсутствует, ячейка чистая."
+            },
+            {
+              "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+              "page": 217,
+              "bbox": [
+                0.66,
+                0.785,
+                0.79,
+                0.82
+              ],
+              "observation": "inspect_layout: в полосе строки SIMPI (y≈0.7855–0.7954) есть только слово «7» (x 0.661–0.666); в интервале x 0.699–0.769 ни одного native word нет. Горизонтальные отрезки на y=0.7975 и 0.8117 ограничивают ячейку по строкам — объединения по вертикали нет."
+            }
+          ],
+          "case_sha256": "f5679368d14b22eab4cb25f8055222a03d7bb36ec512d3082d6ba9f3f06d1637"
+        }
+      }
+    },
+    "actual_rounds": {
+      "codex": 2,
+      "zcode": 1,
+      "minimax": 1
+    },
+    "resolved": true,
+    "joint_resolution": null,
+    "materialization_proof_sha256": null
+  },
+  "source_review_basis": "Лично перечитал оригинал217, группу «Пресс механический»: SIMPI находится в TYCO/SIMEL, справа от диаметра7 его рабочая нагрузка пуста. Прочерки в тех же строках относятся к соседним МЗВА/NILED-BK, а не к SIMPI. Подтверждаю наш null; моё прежнее oleg было ошибкой принадлежности прочерка.",
+  "not_new_model_benchmark": true
+}

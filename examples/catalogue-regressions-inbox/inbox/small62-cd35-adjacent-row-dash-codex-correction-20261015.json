@@ -1,0 +1,28 @@
+{
+  "id": "small62-cd35-adjacent-row-dash-codex-correction-20261015",
+  "status": "pending_adjudication",
+  "category": "false-source-objection-cross-row-or-manufacturer",
+  "title": "Лично перечитал оригинал62: в правой группе МЗВА обе клетки CD-35 разрушающей нагрузки пусты, в первом и втором блоках. Тире есть ",
+  "source": {
+    "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_page": 62
+  },
+  "review_basis": "Лично перечитал оригинал62: в правой группе МЗВА обе клетки CD-35 разрушающей нагрузки пусты, в первом и втором блоках. Тире есть у соседних ПС-1-1А и РС150, отделённых горизонтальными границами. Мой прежний выбор oleg был переносом соседнего знака. Два наших null подтверждаю; прочерки не дописывать.",
+  "producer": {
+    "program_git_commit": "1d7d55b",
+    "role": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "model": "native Codex root; exact provider model ID unavailable",
+    "earlier_receipt_sha256": "d36b2a745dae3fd4fe190e794b62fb2e0b84db0ba752074fe4e95957c1d83004",
+    "corrected_receipt_sha256": "f19eb14fd4c96249a0f825365d8a955a19be3c033884ec42fcfd91ded63bcf94"
+  },
+  "expected_behavior": "Не переносить прочерк из другой физической строки или группы производителя в пустую ячейку. Группы одного CD-35 сохранять различимыми.",
+  "assertions": [],
+  "coverage_note": "Pending source-bound consensus regression, excluded from historical500/520 accuracy totals.",
+  "artifacts": [
+    {
+      "path": "objects/61216adfaafd037b0d707ae61303234e8d8163b20224c5620105bb7fbb39ca2c.json",
+      "sha256": "61216adfaafd037b0d707ae61303234e8d8163b20224c5620105bb7fbb39ca2c"
+    }
+  ]
+}

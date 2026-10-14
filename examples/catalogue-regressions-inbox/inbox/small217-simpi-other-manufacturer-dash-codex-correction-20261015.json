@@ -1,0 +1,28 @@
+{
+  "id": "small217-simpi-other-manufacturer-dash-codex-correction-20261015",
+  "status": "pending_adjudication",
+  "category": "false-source-objection-cross-row-or-manufacturer",
+  "title": "Лично перечитал оригинал217, группу «Пресс механический»: SIMPI находится в TYCO/SIMEL, справа от диаметра7 его рабочая нагрузка п",
+  "source": {
+    "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_page": 217
+  },
+  "review_basis": "Лично перечитал оригинал217, группу «Пресс механический»: SIMPI находится в TYCO/SIMEL, справа от диаметра7 его рабочая нагрузка пуста. Прочерки в тех же строках относятся к соседним МЗВА/NILED-BK, а не к SIMPI. Подтверждаю наш null; моё прежнее oleg было ошибкой принадлежности прочерка.",
+  "producer": {
+    "program_git_commit": "1d7d55b",
+    "role": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "model": "native Codex root; exact provider model ID unavailable",
+    "earlier_receipt_sha256": "30a8c3556007f1ab3e553ac932acae7509490d4c7b9380d379eb6770cc753ea1",
+    "corrected_receipt_sha256": "16580c29ef479fe73f93bd7d31f0461b433fda14b089376807f43716e33c5cc0"
+  },
+  "expected_behavior": "Не переносить прочерк из другой физической строки или группы производителя в пустую ячейку. Группы одного CD-35 сохранять различимыми.",
+  "assertions": [],
+  "coverage_note": "Pending source-bound consensus regression, excluded from historical500/520 accuracy totals.",
+  "artifacts": [
+    {
+      "path": "objects/b799d5c058db2d085694b375490f0b58c5118024751802a37ceec5b2582d7d50.json",
+      "sha256": "b799d5c058db2d085694b375490f0b58c5118024751802a37ceec5b2582d7d50"
+    }
+  ]
+}

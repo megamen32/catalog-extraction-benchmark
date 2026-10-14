@@ -1,0 +1,765 @@
+{
+  "case": {
+    "kind": "content_value_or_scope_candidate",
+    "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_pages": [
+      62
+    ],
+    "ours": [
+      {
+        "side": "ours",
+        "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+        "catalog": "small",
+        "physical_pages": [
+          62
+        ],
+        "kind": "model_parameter",
+        "pointer": "/catalogs/2/pages/61/content/tables/0/rows/21/cells/8",
+        "owner": "CD-35",
+        "name": "Разрушающая нагрузка, кН",
+        "value": null,
+        "unit": "кН",
+        "condition": null,
+        "table_index": 0,
+        "row_index": 21,
+        "column_index": 8,
+        "table_title": "Сравнение сечения/диаметра и разрушающей нагрузки для зажимов АРМАТЕХ НИЛЕД, ЭНЕРВИК (ENSTO) и МЗВА-ЧЭМЗ",
+        "column": {
+          "id": "c9",
+          "label": "Разрушающая нагрузка, кН",
+          "unit": "кН",
+          "group": "МЗВА-ЧЭМЗ",
+          "qualifier": null
+        },
+        "row_values": [
+          "СD35",
+          "10–50/\n10–50",
+          "–",
+          "–",
+          "–",
+          "–",
+          "CD-35",
+          "10-50/10-50",
+          null
+        ],
+        "owner_column_index": 6,
+        "owner_scope": "МЗВА-ЧЭМЗ",
+        "candidate_sha256": "8cb33a8ef8b454ff430f36a5f32aba14dd2e7afa8a31e279d9096eb636382ef9",
+        "fact_id": "O-fdce2a9b1421d55df1eae7f6",
+        "full_input_fact_sha256": "4c2f0d1a04c108f76072aa1a0ba2edbeeec771441d92555ab7487efcfebccc73",
+        "raw_semantic_context": {
+          "state": "blank"
+        }
+      },
+      {
+        "side": "ours",
+        "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+        "catalog": "small",
+        "physical_pages": [
+          62
+        ],
+        "kind": "model_parameter",
+        "pointer": "/catalogs/2/pages/61/content/tables/0/rows/26/cells/8",
+        "owner": "CD-35",
+        "name": "Разрушающая нагрузка, кН",
+        "value": null,
+        "unit": "кН",
+        "condition": null,
+        "table_index": 0,
+        "row_index": 26,
+        "column_index": 8,
+        "table_title": "Сравнение сечения/диаметра и разрушающей нагрузки для зажимов АРМАТЕХ НИЛЕД, ЭНЕРВИК (ENSTO) и МЗВА-ЧЭМЗ",
+        "column": {
+          "id": "c9",
+          "label": "Разрушающая нагрузка, кН",
+          "unit": "кН",
+          "group": "МЗВА-ЧЭМЗ",
+          "qualifier": null
+        },
+        "row_values": [
+          "СD35",
+          "10–50/\n10–50",
+          "–",
+          "–",
+          "–",
+          "–",
+          "CD-35",
+          "10-50/10-50",
+          null
+        ],
+        "owner_column_index": 6,
+        "owner_scope": "МЗВА-ЧЭМЗ",
+        "candidate_sha256": "8cb33a8ef8b454ff430f36a5f32aba14dd2e7afa8a31e279d9096eb636382ef9",
+        "fact_id": "O-34678bbf4805d709b1dfe4c5",
+        "full_input_fact_sha256": "569e387a816729f885686f2e9cb00a629887567be5284b19adf781ad70705e67",
+        "raw_semantic_context": {
+          "state": "blank"
+        }
+      }
+    ],
+    "oleg": [
+      {
+        "side": "oleg",
+        "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+        "catalog": "small",
+        "physical_pages": [
+          62
+        ],
+        "kind": "model_parameter",
+        "pointer": "characteristics.jsonl:6886/raw",
+        "owner": "CD-35",
+        "name": "Разрушающая нагрузка",
+        "value": "–",
+        "unit": "кН",
+        "condition": "",
+        "observation_id": "C-2de5113c707757921f6fba96",
+        "window_id": "W-461e7ceb8e5a1a02a91ddd20",
+        "group_id": "G-9d16178587a4b24dc86999de",
+        "product_id": "P-72f6d2844c73a4b3dcfb78fe",
+        "group_title": "Плашечный зажим для соединения заземляющих проводников",
+        "raw_value_present": true,
+        "fact_id": "L-19f2da0e757798fbf01c4d97",
+        "full_input_fact_sha256": "a4015898673daa05739d6a0a85566047bba14c9aedb15c7d16d775d1200c954b",
+        "raw_semantic_context": {
+          "name": "Разрушающая нагрузка",
+          "raw_value": "–",
+          "unit": "кН",
+          "condition": "",
+          "scope": "МЗВА-ЧЭМЗ; CD-35",
+          "scope_evidence": "Значение в строке или видимой объединённой ячейке таблицы; столбец МЗВА-ЧЭМЗ",
+          "header_path": [
+            {
+              "raw_text": "МЗВА-ЧЭМЗ",
+              "role": "group",
+              "unit": "",
+              "condition": "",
+              "evidence": [
+                {
+                  "page": 62,
+                  "region": [
+                    0.562,
+                    0.05,
+                    0.86,
+                    0.167
+                  ]
+                }
+              ]
+            },
+            {
+              "raw_text": "Разрушающая нагрузка, кН",
+              "role": "column",
+              "unit": "кН",
+              "condition": "",
+              "evidence": [
+                {
+                  "page": 62,
+                  "region": [
+                    0.766,
+                    0.05,
+                    0.86,
+                    0.167
+                  ]
+                }
+              ]
+            }
+          ],
+          "value_state": "explicit_dash",
+          "origin": "table_cell"
+        }
+      },
+      {
+        "side": "oleg",
+        "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+        "catalog": "small",
+        "physical_pages": [
+          62
+        ],
+        "kind": "model_parameter",
+        "pointer": "characteristics.jsonl:6898/raw",
+        "owner": "CD-35",
+        "name": "Разрушающая нагрузка",
+        "value": "–",
+        "unit": "кН",
+        "condition": "",
+        "observation_id": "C-ab20f92c32390669d073a3a3",
+        "window_id": "W-461e7ceb8e5a1a02a91ddd20",
+        "group_id": "G-e0218361630206c1f01ab115",
+        "product_id": "P-251b6f3cf97d93d9b07fe142",
+        "group_title": "Ответвительный плашечный зажим",
+        "raw_value_present": true,
+        "fact_id": "L-9dac63d6748bc06333a249d5",
+        "full_input_fact_sha256": "4f3e62104d2caffe4d26bda044dd75030ea84d0794cbe53da0da5c4303f004c1",
+        "raw_semantic_context": {
+          "name": "Разрушающая нагрузка",
+          "raw_value": "–",
+          "unit": "кН",
+          "condition": "",
+          "scope": "МЗВА-ЧЭМЗ; CD-35",
+          "scope_evidence": "Значение в строке или видимой объединённой ячейке таблицы; столбец МЗВА-ЧЭМЗ",
+          "header_path": [
+            {
+              "raw_text": "МЗВА-ЧЭМЗ",
+              "role": "group",
+              "unit": "",
+              "condition": "",
+              "evidence": [
+                {
+                  "page": 62,
+                  "region": [
+                    0.562,
+                    0.05,
+                    0.86,
+                    0.167
+                  ]
+                }
+              ]
+            },
+            {
+              "raw_text": "Разрушающая нагрузка, кН",
+              "role": "column",
+              "unit": "кН",
+              "condition": "",
+              "evidence": [
+                {
+                  "page": 62,
+                  "region": [
+                    0.766,
+                    0.05,
+                    0.86,
+                    0.167
+                  ]
+                }
+              ]
+            }
+          ],
+          "value_state": "explicit_dash",
+          "origin": "table_cell"
+        }
+      }
+    ],
+    "original_ledger_links": [
+      {
+        "ours_fact_id": "O-fdce2a9b1421d55df1eae7f6",
+        "oleg_fact_ids": [
+          "L-19f2da0e757798fbf01c4d97",
+          "L-9dac63d6748bc06333a249d5"
+        ]
+      },
+      {
+        "ours_fact_id": "O-34678bbf4805d709b1dfe4c5",
+        "oleg_fact_ids": [
+          "L-19f2da0e757798fbf01c4d97",
+          "L-9dac63d6748bc06333a249d5"
+        ]
+      }
+    ],
+    "question": "Проверь по оригиналу ВСЕ перечисленные модели, колонки, условия и объединения. Отличи ошибку значения/кода от различия списка/подстрок, алфавита, формы и условий. Если обе записи относятся к разным контекстам — both с явным разделением; пропуски — только по полной объединённой ячейке. Не считай видимые похожие буквы автоматически взаимозаменяемыми. Выбери ours/oleg/equivalent/both без selected_value, если принимаешь исходные записи; neither/unresolved если правильного однозначного выбора нет.",
+    "case_id": "C-527d53ebadefdcc294113e54"
+  },
+  "previous_actual_codex_vote": {
+    "schema_version": "catalogue-consensus-vote/1",
+    "pack_id": "content-small-62-527d53ebadefdcc294113e54",
+    "pack_sha256": "c9251cb5911a688e0dac95113183db169fa941aeb9b10a4fc60411f059ba9d53",
+    "identity": {
+      "role": "codex",
+      "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+      "model": "native Codex root; exact provider model ID unavailable",
+      "runtime": "Codex Desktop native root",
+      "source_review_completed_at": "2026-10-14T20:20:49.824975+00:00",
+      "source_image": "reviews/codex/current-content/small-62.png"
+    },
+    "payload": {
+      "pack_id": "content-small-62-527d53ebadefdcc294113e54",
+      "verdicts": [
+        {
+          "case_id": "C-527d53ebadefdcc294113e54",
+          "case_sha256": "1aca158f9b68fadb8f7df80020b91066ec53cc32635da7b541779d9ee035ef92",
+          "decision": "oleg",
+          "reason": "Лично сверена правая полоса МЗВА-ЧЭМЗ, обе строкиCD-35, колонка разрушающей нагрузки: напечатан прочерк. Наш blankне сохраняет явный знак; численную нагрузку не придумывать.",
+          "source_evidence": [
+            {
+              "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+              "page": 62,
+              "bbox": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "observation": "Лично сверена правая полоса МЗВА-ЧЭМЗ, обе строкиCD-35, колонка разрушающей нагрузки: напечатан прочерк. Наш blankне сохраняет явный знак; численную нагрузку не придумывать."
+            }
+          ]
+        }
+      ]
+    },
+    "source_manifest": [
+      {
+        "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+        "page_count": 228
+      },
+      {
+        "sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+        "page_count": 60
+      },
+      {
+        "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+        "page_count": 216
+      },
+      {
+        "sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+        "page_count": 162
+      },
+      {
+        "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+        "page_count": 314
+      }
+    ],
+    "saved_at": "2026-10-14T20:20:50.011004+00:00",
+    "round_number": 1,
+    "receipt_sha256": "d36b2a745dae3fd4fe190e794b62fb2e0b84db0ba752074fe4e95957c1d83004"
+  },
+  "corrected_actual_codex_vote": {
+    "schema_version": "catalogue-consensus-vote/1",
+    "pack_id": "content-small-62-527d53ebadefdcc294113e54",
+    "pack_sha256": "c9251cb5911a688e0dac95113183db169fa941aeb9b10a4fc60411f059ba9d53",
+    "identity": {
+      "role": "codex",
+      "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+      "model": "native Codex root; exact provider model ID unavailable",
+      "runtime": "Codex Desktop native root",
+      "review_phase": "Actual post-independent source review; own earlier error preserved",
+      "source_image": "/home/roomhacker/apps/catalog-to-json/.tmp/oleg-consensus-20261014/reviews/codex/source-discussion-v2/small62.png",
+      "recorded_at": "2026-10-14T21:46:41.808498+00:00"
+    },
+    "payload": {
+      "pack_id": "content-small-62-527d53ebadefdcc294113e54",
+      "verdicts": [
+        {
+          "case_id": "C-527d53ebadefdcc294113e54",
+          "case_sha256": "1aca158f9b68fadb8f7df80020b91066ec53cc32635da7b541779d9ee035ef92",
+          "decision": "ours",
+          "reason": "Лично перечитал оригинал62: в правой группе МЗВА обе клетки CD-35 разрушающей нагрузки пусты, в первом и втором блоках. Тире есть у соседних ПС-1-1А и РС150, отделённых горизонтальными границами. Мой прежний выбор oleg был переносом соседнего знака. Два наших null подтверждаю; прочерки не дописывать.",
+          "source_evidence": [
+            {
+              "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+              "page": 62,
+              "bbox": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "observation": "Лично перечитал оригинал62: в правой группе МЗВА обе клетки CD-35 разрушающей нагрузки пусты, в первом и втором блоках. Тире есть у соседних ПС-1-1А и РС150, отделённых горизонтальными границами. Мой прежний выбор oleg был переносом соседнего знака. Два наших null подтверждаю; прочерки не дописывать."
+            }
+          ]
+        }
+      ]
+    },
+    "source_manifest": [
+      {
+        "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+        "page_count": 228
+      },
+      {
+        "sha256": "300f06a65b18b1656c589e85c94eb29486aaf6d16a5c10b0544dbdc51666adc2",
+        "page_count": 60
+      },
+      {
+        "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+        "page_count": 216
+      },
+      {
+        "sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+        "page_count": 162
+      },
+      {
+        "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+        "page_count": 314
+      }
+    ],
+    "saved_at": "2026-10-14T21:46:41.809159+00:00",
+    "round_number": 2,
+    "receipt_sha256": "f19eb14fd4c96249a0f825365d8a955a19be3c033884ec42fcfd91ded63bcf94"
+  },
+  "current_three_party_case": {
+    "case_id": "C-527d53ebadefdcc294113e54",
+    "case_sha256": "1aca158f9b68fadb8f7df80020b91066ec53cc32635da7b541779d9ee035ef92",
+    "pack_sha256": "c9251cb5911a688e0dac95113183db169fa941aeb9b10a4fc60411f059ba9d53",
+    "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_pages": [
+      62
+    ],
+    "accepted": true,
+    "all_three_present": true,
+    "decision": "ours",
+    "ours": [
+      {
+        "side": "ours",
+        "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+        "catalog": "small",
+        "physical_pages": [
+          62
+        ],
+        "kind": "model_parameter",
+        "pointer": "/catalogs/2/pages/61/content/tables/0/rows/21/cells/8",
+        "owner": "CD-35",
+        "name": "Разрушающая нагрузка, кН",
+        "value": null,
+        "unit": "кН",
+        "condition": null,
+        "table_index": 0,
+        "row_index": 21,
+        "column_index": 8,
+        "table_title": "Сравнение сечения/диаметра и разрушающей нагрузки для зажимов АРМАТЕХ НИЛЕД, ЭНЕРВИК (ENSTO) и МЗВА-ЧЭМЗ",
+        "column": {
+          "id": "c9",
+          "label": "Разрушающая нагрузка, кН",
+          "unit": "кН",
+          "group": "МЗВА-ЧЭМЗ",
+          "qualifier": null
+        },
+        "row_values": [
+          "СD35",
+          "10–50/\n10–50",
+          "–",
+          "–",
+          "–",
+          "–",
+          "CD-35",
+          "10-50/10-50",
+          null
+        ],
+        "owner_column_index": 6,
+        "owner_scope": "МЗВА-ЧЭМЗ",
+        "candidate_sha256": "8cb33a8ef8b454ff430f36a5f32aba14dd2e7afa8a31e279d9096eb636382ef9",
+        "fact_id": "O-fdce2a9b1421d55df1eae7f6",
+        "full_input_fact_sha256": "4c2f0d1a04c108f76072aa1a0ba2edbeeec771441d92555ab7487efcfebccc73",
+        "raw_semantic_context": {
+          "state": "blank"
+        }
+      },
+      {
+        "side": "ours",
+        "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+        "catalog": "small",
+        "physical_pages": [
+          62
+        ],
+        "kind": "model_parameter",
+        "pointer": "/catalogs/2/pages/61/content/tables/0/rows/26/cells/8",
+        "owner": "CD-35",
+        "name": "Разрушающая нагрузка, кН",
+        "value": null,
+        "unit": "кН",
+        "condition": null,
+        "table_index": 0,
+        "row_index": 26,
+        "column_index": 8,
+        "table_title": "Сравнение сечения/диаметра и разрушающей нагрузки для зажимов АРМАТЕХ НИЛЕД, ЭНЕРВИК (ENSTO) и МЗВА-ЧЭМЗ",
+        "column": {
+          "id": "c9",
+          "label": "Разрушающая нагрузка, кН",
+          "unit": "кН",
+          "group": "МЗВА-ЧЭМЗ",
+          "qualifier": null
+        },
+        "row_values": [
+          "СD35",
+          "10–50/\n10–50",
+          "–",
+          "–",
+          "–",
+          "–",
+          "CD-35",
+          "10-50/10-50",
+          null
+        ],
+        "owner_column_index": 6,
+        "owner_scope": "МЗВА-ЧЭМЗ",
+        "candidate_sha256": "8cb33a8ef8b454ff430f36a5f32aba14dd2e7afa8a31e279d9096eb636382ef9",
+        "fact_id": "O-34678bbf4805d709b1dfe4c5",
+        "full_input_fact_sha256": "569e387a816729f885686f2e9cb00a629887567be5284b19adf781ad70705e67",
+        "raw_semantic_context": {
+          "state": "blank"
+        }
+      }
+    ],
+    "oleg": [
+      {
+        "side": "oleg",
+        "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+        "catalog": "small",
+        "physical_pages": [
+          62
+        ],
+        "kind": "model_parameter",
+        "pointer": "characteristics.jsonl:6886/raw",
+        "owner": "CD-35",
+        "name": "Разрушающая нагрузка",
+        "value": "–",
+        "unit": "кН",
+        "condition": "",
+        "observation_id": "C-2de5113c707757921f6fba96",
+        "window_id": "W-461e7ceb8e5a1a02a91ddd20",
+        "group_id": "G-9d16178587a4b24dc86999de",
+        "product_id": "P-72f6d2844c73a4b3dcfb78fe",
+        "group_title": "Плашечный зажим для соединения заземляющих проводников",
+        "raw_value_present": true,
+        "fact_id": "L-19f2da0e757798fbf01c4d97",
+        "full_input_fact_sha256": "a4015898673daa05739d6a0a85566047bba14c9aedb15c7d16d775d1200c954b",
+        "raw_semantic_context": {
+          "name": "Разрушающая нагрузка",
+          "raw_value": "–",
+          "unit": "кН",
+          "condition": "",
+          "scope": "МЗВА-ЧЭМЗ; CD-35",
+          "scope_evidence": "Значение в строке или видимой объединённой ячейке таблицы; столбец МЗВА-ЧЭМЗ",
+          "header_path": [
+            {
+              "raw_text": "МЗВА-ЧЭМЗ",
+              "role": "group",
+              "unit": "",
+              "condition": "",
+              "evidence": [
+                {
+                  "page": 62,
+                  "region": [
+                    0.562,
+                    0.05,
+                    0.86,
+                    0.167
+                  ]
+                }
+              ]
+            },
+            {
+              "raw_text": "Разрушающая нагрузка, кН",
+              "role": "column",
+              "unit": "кН",
+              "condition": "",
+              "evidence": [
+                {
+                  "page": 62,
+                  "region": [
+                    0.766,
+                    0.05,
+                    0.86,
+                    0.167
+                  ]
+                }
+              ]
+            }
+          ],
+          "value_state": "explicit_dash",
+          "origin": "table_cell"
+        }
+      },
+      {
+        "side": "oleg",
+        "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+        "catalog": "small",
+        "physical_pages": [
+          62
+        ],
+        "kind": "model_parameter",
+        "pointer": "characteristics.jsonl:6898/raw",
+        "owner": "CD-35",
+        "name": "Разрушающая нагрузка",
+        "value": "–",
+        "unit": "кН",
+        "condition": "",
+        "observation_id": "C-ab20f92c32390669d073a3a3",
+        "window_id": "W-461e7ceb8e5a1a02a91ddd20",
+        "group_id": "G-e0218361630206c1f01ab115",
+        "product_id": "P-251b6f3cf97d93d9b07fe142",
+        "group_title": "Ответвительный плашечный зажим",
+        "raw_value_present": true,
+        "fact_id": "L-9dac63d6748bc06333a249d5",
+        "full_input_fact_sha256": "4f3e62104d2caffe4d26bda044dd75030ea84d0794cbe53da0da5c4303f004c1",
+        "raw_semantic_context": {
+          "name": "Разрушающая нагрузка",
+          "raw_value": "–",
+          "unit": "кН",
+          "condition": "",
+          "scope": "МЗВА-ЧЭМЗ; CD-35",
+          "scope_evidence": "Значение в строке или видимой объединённой ячейке таблицы; столбец МЗВА-ЧЭМЗ",
+          "header_path": [
+            {
+              "raw_text": "МЗВА-ЧЭМЗ",
+              "role": "group",
+              "unit": "",
+              "condition": "",
+              "evidence": [
+                {
+                  "page": 62,
+                  "region": [
+                    0.562,
+                    0.05,
+                    0.86,
+                    0.167
+                  ]
+                }
+              ]
+            },
+            {
+              "raw_text": "Разрушающая нагрузка, кН",
+              "role": "column",
+              "unit": "кН",
+              "condition": "",
+              "evidence": [
+                {
+                  "page": 62,
+                  "region": [
+                    0.766,
+                    0.05,
+                    0.86,
+                    0.167
+                  ]
+                }
+              ]
+            }
+          ],
+          "value_state": "explicit_dash",
+          "origin": "table_cell"
+        }
+      }
+    ],
+    "reviewers": {
+      "codex": {
+        "role": "codex",
+        "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+        "model": "native Codex root; exact provider model ID unavailable",
+        "round_number": 2,
+        "receipt_sha256": "f19eb14fd4c96249a0f825365d8a955a19be3c033884ec42fcfd91ded63bcf94",
+        "program_contract_sha256": null,
+        "opinion": {
+          "case_id": "C-527d53ebadefdcc294113e54",
+          "case_sha256": "1aca158f9b68fadb8f7df80020b91066ec53cc32635da7b541779d9ee035ef92",
+          "decision": "ours",
+          "reason": "Лично перечитал оригинал62: в правой группе МЗВА обе клетки CD-35 разрушающей нагрузки пусты, в первом и втором блоках. Тире есть у соседних ПС-1-1А и РС150, отделённых горизонтальными границами. Мой прежний выбор oleg был переносом соседнего знака. Два наших null подтверждаю; прочерки не дописывать.",
+          "source_evidence": [
+            {
+              "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+              "page": 62,
+              "bbox": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "observation": "Лично перечитал оригинал62: в правой группе МЗВА обе клетки CD-35 разрушающей нагрузки пусты, в первом и втором блоках. Тире есть у соседних ПС-1-1А и РС150, отделённых горизонтальными границами. Мой прежний выбор oleg был переносом соседнего знака. Два наших null подтверждаю; прочерки не дописывать."
+            }
+          ]
+        }
+      },
+      "zcode": {
+        "role": "zcode",
+        "session_id": "sess_0dd4a3ee-bc7d-4008-b9fa-c25146ec5392",
+        "model": "account:zai-individual-coding-plan/GLM-5.3-Flash$max",
+        "round_number": 1,
+        "receipt_sha256": "e3432de251cb0e050f8b1768f53a6c46eee1f5e79b787888e03d2c23fc63a5b3",
+        "program_contract_sha256": null,
+        "opinion": {
+          "case_id": "C-527d53ebadefdcc294113e54",
+          "case_sha256": "1aca158f9b68fadb8f7df80020b91066ec53cc32635da7b541779d9ee035ef92",
+          "decision": "ours",
+          "reason": "Таблица стр.62, строка CD-35 МЗВА-ЧЭМЗ@y546: напечатаны CD-35@338 и 10-50/10-50@408; колонка «Разрушающая нагрузка, кН» (шапка x473–482) в этой строке ПУСТА — прочерков в полосе x460–500 нет (соседняя строка ПС-1-1А@525 имеет –@480). Наша запись None точна; explicit_dash Олега не подтверждён источником.",
+          "source_evidence": [
+            {
+              "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+              "page": 62,
+              "bbox": [
+                0.7643,
+                0.6414,
+                0.8399,
+                0.6604
+              ],
+              "observation": "ячейка нагрузки МЗВА строки CD-35: пустая (нет ни значения, ни прочерка)"
+            },
+            {
+              "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+              "page": 62,
+              "bbox": [
+                0.5543,
+                0.6153,
+                0.8399,
+                0.6557
+              ],
+              "observation": "контекст: ПС-1-1А@525 c –@480, CD-35@546 без прочерка в этой полосе"
+            }
+          ]
+        }
+      },
+      "minimax": {
+        "role": "minimax",
+        "session_id": "808da0c6-aa70-4a41-a47c-2eba16885a1b",
+        "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+        "round_number": 1,
+        "receipt_sha256": "4ad492a0dbd41461ca2d73b97fb2d254486ae80105210f296e6d8b5f4fb536c1",
+        "program_contract_sha256": "eaa3745c9737c05f470df2eecd1aed8a6b715e03690b8d85b0128636d2e9d339",
+        "opinion": {
+          "case_id": "C-527d53ebadefdcc294113e54",
+          "decision": "ours",
+          "reason": "Обе ячейки CD-35 (строки 21 и 26) в столбце «Разрушающая нагрузка, кН» группы МЗВА-ЧЭМЗ на стр. 62 физически ПУСТЫ: ни тире, ни цифр. В первой ячейке тире «–» принадлежит строке выше — ПС-1-1А (16–35/16–35), во второй — строке PC 150; обе границы ячеек CD-35 отрисованы отдельными горизонтальными отрезками (y≈0.641 и y≈0.668; y≈0.731 и y≈0.759), поэтому объединения с соседними строками нет. Oleg приписал значение «–» (explicit_dash) обеим CD-35, ошибочно перенося тире из соседних строк; ours корректно фиксирует пустую ячейку (value null).",
+          "source_evidence": [
+            {
+              "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+              "page": 62,
+              "bbox": [
+                0.55,
+                0.615,
+                1.0,
+                0.67
+              ],
+              "observation": "Строка ПС-1-1А | 16–35/ 16–35 | «–»; ниже отдельная строка CD-35 | 10-50/10-50 | пустая ячейка нагрузки."
+            },
+            {
+              "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+              "page": 62,
+              "bbox": [
+                0.76,
+                0.6,
+                0.99,
+                0.68
+              ],
+              "observation": "Native words: «20,0» (y≈0.596–0.608) и «–» (y≈0.623–0.635); ни одного слова между 0.641 и 0.668 — ячейка CD-35 пуста. Горизонтальные отрезки по y=0.6167, 0.6410, 0.6679 проходят через весь столбец 0.766–0.860."
+            },
+            {
+              "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+              "page": 62,
+              "bbox": [
+                0.55,
+                0.72,
+                1.0,
+                0.775
+              ],
+              "observation": "Блок CD150 | PC 150 с тире «–» в нагрузке; ниже отдельная строка CD-35 | 10-50/10-50 с пустой ячейкой нагрузки."
+            },
+            {
+              "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+              "page": 62,
+              "bbox": [
+                0.76,
+                0.7,
+                0.99,
+                0.78
+              ],
+              "observation": "Native words: «–» (y≈0.694–0.705, строка PC 150) и «–» (y≈0.767–0.779, строка UZK-5); между 0.731 и 0.759 слов нет — ячейка CD-35 пуста; отрезки по y=0.7311 и y=0.7590 делят столбец 0.766–0.860."
+            }
+          ],
+          "case_sha256": "1aca158f9b68fadb8f7df80020b91066ec53cc32635da7b541779d9ee035ef92"
+        }
+      }
+    },
+    "actual_rounds": {
+      "codex": 2,
+      "zcode": 1,
+      "minimax": 1
+    },
+    "resolved": true,
+    "joint_resolution": null,
+    "materialization_proof_sha256": null
+  },
+  "source_review_basis": "Лично перечитал оригинал62: в правой группе МЗВА обе клетки CD-35 разрушающей нагрузки пусты, в первом и втором блоках. Тире есть у соседних ПС-1-1А и РС150, отделённых горизонтальными границами. Мой прежний выбор oleg был переносом соседнего знака. Два наших null подтверждаю; прочерки не дописывать.",
+  "not_new_model_benchmark": true
+}
