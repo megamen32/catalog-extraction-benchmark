@@ -1,0 +1,175 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "isolators",
+  "source_filename": "Katalog-IZOLJaTORY.pdf",
+  "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+  "physical_page": 158,
+  "printed_page": "157",
+  "status": "author_source_review_complete_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod1",
+    "task": "/root/catalog_tail_mod1",
+    "version": "tail-mod1-20261014.r1",
+    "model_id": "Current native Codex session;exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "isolators-158-actual-native-candidate.json",
+    "sha256": "cabe022ec0cac3debed97575363162cd7601ec3f14a02222ba9894d65c5184a4",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.4.2",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "cabe022ec0cac3debed97575363162cd7601ec3f14a02222ba9894d65c5184a4",
+      "source_bound_save": true,
+      "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+      "physical_page": 158,
+      "attempt": 0,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "aa97a446c59b5a207fd1ab84542de68a56c8d05e595fabde973e24da9ccc405d",
+      "receipt": "calls/e02f3bc86d8d4850a10f7d41d8acbf7d/result.json",
+      "started_at": 1791826370.805749,
+      "finished_at": 1791826443.8811715
+    },
+    "receipt_file": "isolators-158-producer-receipt.json",
+    "receipt_sha256": "9b62892c5bcddf8fda7741c648ed54251d3d37a10781a894b987f010c6677df7",
+    "receipt_artifact_equals_candidate": true,
+    "saved_runtime_candidate": "isolators-158-candidate.json",
+    "saved_runtime_candidate_sha256": "f560ca5cf3e997b8de5a80fb536344878e8e208c9fe52cbd03a378592692328b",
+    "runtime_schema_normalization": "Exact PageContent schema normalization of raw producer artifact equals saved current runtime candidate; raw bytes retained separately when nullable defaults were inserted."
+  },
+  "output": {
+    "file": "isolators-158-reviewed.json",
+    "sha256": "a0f6d9e2796d7b55a2cf33e5f227b1e4b19c5acc4b3e2b00516ac84a078ceb30",
+    "author": "catalog_tail_mod1"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "e54129c62bfd39e7af7e62962bd3f9534a1ec814f0a645d7591d4a6b150202df",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "pagecontent_schema_valid": true
+  },
+  "tables": {
+    "row_counts": [
+      3,
+      3
+    ],
+    "column_counts": [
+      14,
+      11
+    ],
+    "cells_checked": 75
+  },
+  "source_findings": [
+    "Лично просмотрен полный оригинал. Проверены все 75 ячеек (3×14 и 3×11), все семь общих значений, два рисунка по строкам, прочерки и обе сноски; табличные значения не изменены. Верхнее M12 и нижнее М12 первой строки сохранены в исходной кодировке.",
+    "Исправлены принадлежности размеров: ØA ребра, ØD окружности центров отверстий, B межосевой, □B1 наружный квадрат, H наружная высота, L внутренние плоскости фланцев. Главный рисунок — совмещённый вид с полуразрезом, не сплошной продольный разрез."
+  ],
+  "corrections": [
+    {
+      "path": "text_blocks[3].kind",
+      "before": "paragraph",
+      "after": "heading"
+    },
+    {
+      "path": "figures[1].title",
+      "before": "Чертёж изолятора: продольный разрез с размерами",
+      "after": "Совмещённый главный вид и продольный полуразрез изолятора"
+    },
+    {
+      "path": "figures[1].description",
+      "before": "Продольный разрез изолятора с ребрами, верхним и нижним фланцами; слева указаны габаритные высоты H (строительная высота) и L (изоляционная высота), сверху — диаметр верхнего фланца øA. Числовые значения размеров на чертеже не проставлены, они даны в таблице.",
+      "after": "Слева показан наружный вид, справа продольный полуразрез с условным обрывом. H — полная высота между наружными торцевыми плоскостями металлических фланцев. ØA — наружный диаметр фарфорового ребра. L — расстояние между обращёнными внутренними плоскостями фланцев у фарфорового корпуса. Числа приведены в таблице; отдельные допуски на этом рисунке не напечатаны."
+    },
+    {
+      "path": "figures[2].description",
+      "before": "Вид сверху на фланец с четырьмя скруглёнными выступами и четырьмя отверстиями; обозначены наружный диаметр øD, диаметры отверстий ød1 и размер между выступами B по горизонтали. Допуски и предельные отклонения на чертеже не указаны.",
+      "after": "Рис. 1 — торцевой вид кругового фланца с четырьмя округлыми выступами и четырьмя отверстиями. ØD обозначает штрихпунктирную окружность центров отверстий. Ød1 относится к самим отверстиям, в первом исполнении заданным резьбой. B — горизонтальное расстояние между осями соседних отверстий."
+    },
+    {
+      "path": "figures[3].description",
+      "before": "Вид сверху на квадратный фланец со скруглёнными углами и четырьмя отверстиями по углам; обозначены диаметры отверстий ød1, сторона по вертикали B1 и сторона по горизонтали B. Допуски и предельные отклонения на чертеже не указаны.",
+      "after": "Рис. 2 — торцевой вид квадратного фланца со скруглёнными углами. Ød1 — четыре угловых отверстия. □B1 — полный наружный вертикальный размер квадратного фланца. B — горизонтальный шаг между осями соседних отверстий, не наружная сторона фланца."
+    },
+    {
+      "path": "figures[3].labels[2]",
+      "before": "B1",
+      "after": "□B1"
+    },
+    {
+      "path": "source_notes[0]",
+      "before": "Колонки «Номинальное напряжение», «Минимальный разрушающий крутящий момент», «Испытательное напряжение полного грозового импульса», «Одноминутное испытательное напряжение частоты 50 Гц в сухом состоянии», «Среднее разрядное переменное напряжение под дождем», «Допускаемая степень загрязнения (СЗ) по ПУЭ» и «Сейсмостойкость по шкале MSK-64» объединены в одну ячейку на все три строки (значения 35; 2; 190; 95; 80; II; 9); объединение подтверждено геометрией, значения отнесены ко всем трём строкам.",
+      "after": "В каждой из семи колонок общие значения 35; 2; 190; 95; 80; II; 9 находятся в собственной объединённой ячейке на три строки. Каждое значение отнесено ко всем трём исполнениям; остальные значения проверены по отдельным строкам."
+    },
+    {
+      "path": "source_notes[2]",
+      "before": "Значение «II» в колонке «Допускаемая степень загрязнения (СЗ) по ПУЭ» набрано прописными буквами без различия кириллицы/латиницы; сохранено буквально как в источнике.",
+      "after": "Значение степени загрязнения II сохранено буквально; шапка прямо отсылает к ПУЭ."
+    },
+    {
+      "path": "source_notes[3]",
+      "before": "Обозначения «H» (строительная высота), «L» (изоляционная высота) и «А» (диаметр ребер) визуально идентичны кириллическим Н, Л, А; сохранены в написании источника.",
+      "after": "Буквенные обозначения H, L и A связаны с соответствующими колонками таблицы. Шрифт рисунка не используется для выдуманного отождествления латинской L с кириллической Л."
+    },
+    {
+      "path": "page_context",
+      "before": null,
+      "after": {
+        "kind": "catalogue_product_data",
+        "summary": "Фарфоровые опорные ИОС-35: три исполнения 500-01, 1000 и 2000 УХЛ 1. Назначение свыше 1000 В, до 100 Гц и до 1000 м над уровнем моря; ТУ КДОП.757522.001ТУ и ГОСТ Р 52034-2008. Фотография, совмещённый вид с полуразрезом и два варианта фланцев. Все 75 ячеек, общие значения, прочерки, масса с ±10% и обе сноски сохранены.",
+        "source_evidence": [
+          {
+            "kind": "catalogue_product_data",
+            "box": [
+              0.07,
+              0.015,
+              0.925,
+              0.335
+            ],
+            "observation": "Рубрика, логотипы, заголовок ИОС-35, полное назначение и нормативы; фотография и чертежи."
+          },
+          {
+            "kind": "catalogue_product_data",
+            "box": [
+              0.53,
+              0.115,
+              0.91,
+              0.335
+            ],
+            "observation": "H — наружная высота, ØA — ребро, L — между внутренними плоскостями фланцев. Рис. 1: ØD окружности центров, d1 отверстий и B шага; рис. 2: □B1 наружного квадрата и B шага отверстий."
+          },
+          {
+            "kind": "catalogue_product_data",
+            "box": [
+              0.075,
+              0.42,
+              0.925,
+              0.98
+            ],
+            "observation": "Таблицы 3×14 и 3×11, общие ячейки, все прочерки, сноски * и **, контакты ВОЛЬТА и печатная страница 157."
+          }
+        ]
+      }
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "independent_review_required": true,
+  "independent_review_status": "pending",
+  "separate_model_review_of_root_edits": null,
+  "unresolved_issues": [
+    "Нужна независимая проверка авторского разбора и инженерных отношений."
+  ],
+  "completed_at": "2026-10-14T19:43:28.579614+03:00",
+  "private_original_receipt_sha256": "4a20fe32282eb5b7423549c88f1dc7acbff081911cb4ed1693f70595de998d3d"
+}

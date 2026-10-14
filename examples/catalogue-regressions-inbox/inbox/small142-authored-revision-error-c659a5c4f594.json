@@ -1,0 +1,36 @@
+{
+  "id": "small142-authored-revision-error-c659a5c4f594",
+  "status": "pending_adjudication",
+  "category": "independent-review-catches-authored-error",
+  "title": "small,страница142:независимая проверка исправила ошибку автора",
+  "source": {
+    "filename": "Malyj-katalog.pdf",
+    "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_page": 142
+  },
+  "review_basis": "[{\"check\": \"figures_and_relationships\", \"path\": \"figures[0].description\", \"finding\": \"H±5 на полных рис1/2 начинается на отдельной плоскости шейкиØ50 — общей с нижней базой45±2. Автор ошибочно пишет от оси верхнего круглого желоба.\", \"correction\": \"Указать собственную плоскость шейки; таблицы не менять.\"}, {\"check\": \"figures_and_relationships\", \"path\": \"figures[1].description;source_notes[7]\", \"finding\": \"В модификацииВ верхняя базаH по отмеченной верхней горизонтальной плоскости корпуса под прижимной планкой. Она ниже оси провода; «по оси провода» неверно.\", \"correction\": \"Исправить базуВ в описании и повторе примечания.\"}] Фактический автор {\"harness\": \"codex\", \"session_id\": \"catalog_tail_mod3\", \"task\": \"/root/catalog_tail_mod3\", \"version\": \"tail-mod3-remaining-small-20261014.r6\", \"model_id\": \"Current native Codex worker session; exact provider identifier not exported.\"}. Сохранены точные ошибочные авторские байты и новая source-corrected версия; это НЕ результат MiniMax/GLM и не автоматическое золото.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/c659a5c4f5943c829582317764548a8ee9eaa5159d61337b5ffcc953b2b5cc5f.json",
+      "sha256": "c659a5c4f5943c829582317764548a8ee9eaa5159d61337b5ffcc953b2b5cc5f",
+      "bytes": 39904,
+      "role": "actual-authored-failure",
+      "program_version": "tail-mod3-remaining-small-20261014.r6"
+    },
+    {
+      "path": "objects/77df7f33d9ba26e2b8cec2fb864fd74947af9dc5de74be7dee1f030a2a875842.json",
+      "sha256": "77df7f33d9ba26e2b8cec2fb864fd74947af9dc5de74be7dee1f030a2a875842",
+      "bytes": 40736,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-small142158-20261014.r2"
+    },
+    {
+      "path": "objects/da6973718090686bc3136c16a2db3ef7741c91b197e6d9acad6c16c492d93788.json",
+      "sha256": "da6973718090686bc3136c16a2db3ef7741c91b197e6d9acad6c16c492d93788",
+      "bytes": 7998,
+      "role": "independent-source-review",
+      "program_version": "native-codex-independent-review-20261014"
+    }
+  ]
+}

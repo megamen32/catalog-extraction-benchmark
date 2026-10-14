@@ -1,0 +1,286 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "isolators",
+  "source_filename": "Katalog-IZOLJaTORY.pdf",
+  "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+  "physical_page": 156,
+  "printed_page": "155",
+  "status": "author_source_review_complete_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod1",
+    "task": "/root/catalog_tail_mod1",
+    "version": "tail-mod1-20261014.r1",
+    "model_id": "Current native Codex session;exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "isolators-156-actual-native-candidate.json",
+    "sha256": "50a7270935edd61bb870c44b992bf0e97c8d5ddda1e4bb08910171b87341faa7",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.4.2",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "50a7270935edd61bb870c44b992bf0e97c8d5ddda1e4bb08910171b87341faa7",
+      "source_bound_save": true,
+      "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+      "physical_page": 156,
+      "attempt": 0,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "aa97a446c59b5a207fd1ab84542de68a56c8d05e595fabde973e24da9ccc405d",
+      "receipt": "calls/67af1c5d42b4405aa309401e61afa26b/result.json",
+      "started_at": 1791826345.8928561,
+      "finished_at": 1791826395.1032467
+    },
+    "receipt_file": "isolators-156-producer-receipt.json",
+    "receipt_sha256": "5feeb13b8b73297fc1b2c06ab94df101d150b2f9c3d1d6163770c9b0d7669bb9",
+    "receipt_artifact_equals_candidate": true,
+    "saved_runtime_candidate": "isolators-156-candidate.json",
+    "saved_runtime_candidate_sha256": "6dd143e7287c5775e6a5aae37f7298e1b26e25942465e5304041377b19b1c551",
+    "runtime_schema_normalization": "Exact PageContent schema normalization of raw producer artifact equals saved current runtime candidate; raw bytes retained separately when nullable defaults were inserted."
+  },
+  "output": {
+    "file": "isolators-156-reviewed.json",
+    "sha256": "d6bf984650f5d419f2a6ebb11f252b31de8b0546304bdb5d52f10b6dd2f569d5",
+    "author": "catalog_tail_mod1"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "a742bdd1b4b9c049d302dd7562446da2b7f09855c4ba18ba9159f94f083e5335",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "pagecontent_schema_valid": true
+  },
+  "tables": {
+    "row_counts": [
+      1,
+      1
+    ],
+    "column_counts": [
+      14,
+      9
+    ],
+    "cells_checked": 23
+  },
+  "source_findings": [
+    "Полный оригинал до current candidate. Все23ячейки1×14+1×9проверены иvaluesunchanged:ИОС10-2000МУХЛ1/10/200/20/2/284/170/150/75/42/28/I/9/18,2;обаDпрочерк,d1=18/B160/B1=200дляобоихфланцев. Условия±10%массы,минимум/*механики/крутящего,**сейсмостойкости/протоколы иcontactsВОЛЬТА сверены.",
+    "ØAисправлен сфланца надиаметрребра,□B1наружныйквадрат/Bмежосевой/Ød1отверстие,Lвнутренниеплоскости,Hневыдуманкакlabelеслинеподписан. Удалён ложныйдублирующийparagraph **ОООВОЛЬТА**."
+  ],
+  "corrections": [
+    {
+      "path": "text_blocks",
+      "before": [
+        {
+          "kind": "branding",
+          "text": "ФОРЭНЕРГО производственное объединение"
+        },
+        {
+          "kind": "branding",
+          "text": "FORENERGO industrial group"
+        },
+        {
+          "kind": "heading",
+          "text": "ИЗОЛЯТОРЫ / ИЗОЛЯТОРЫ ОПОРНЫЕ СТЕРЖНЕВЫЕ ФАРФОРОВЫЕ"
+        },
+        {
+          "kind": "heading",
+          "text": "Изоляторы опорные стержневые фарфоровые типа ИОС-10"
+        },
+        {
+          "kind": "heading",
+          "text": "НАЗНАЧЕНИЕ:"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Предназначены для изоляции и крепления токоведущих частей в электрических аппаратах, распределительных устройствах электрических станций и подстанций, комплектных распределительных устройствах, токопроводах переменного тока напряжением свыше 1000 В частоты до 100 Гц, расположенных на высоте до 1000 м над уровнем моря."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Изготавливаются по ТУ КДОП.757522.001ТУ."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Соответствуют ГОСТ Р 52034-2008."
+        },
+        {
+          "kind": "heading",
+          "text": "Присоединительные размеры изоляторов"
+        },
+        {
+          "kind": "paragraph",
+          "text": "* Протоколы испытаний, подтверждающие превосходящие значения параметров изоляторов ВОЛЬТА относительно нормируемых по ГОСТу предоставляются изготовителем по дополнительному запросу."
+        },
+        {
+          "kind": "paragraph",
+          "text": "** Протоколы испытания на сейсмостойкость предоставляются изготовителем по дополнительному запросу"
+        },
+        {
+          "kind": "paragraph",
+          "text": "**ООО «ВОЛЬТА»**"
+        },
+        {
+          "kind": "footer",
+          "text": "ООО «ВОЛЬТА»"
+        },
+        {
+          "kind": "footer",
+          "text": "Тел./ факс: +7 (351) 344-22-44, e-mail: info@volta-electro.ru"
+        },
+        {
+          "kind": "footer",
+          "text": "www.volta-electro.ru"
+        },
+        {
+          "kind": "footer",
+          "text": "155"
+        }
+      ],
+      "after": [
+        {
+          "kind": "branding",
+          "text": "ФОРЭНЕРГО производственное объединение"
+        },
+        {
+          "kind": "branding",
+          "text": "FORENERGO industrial group"
+        },
+        {
+          "kind": "heading",
+          "text": "ИЗОЛЯТОРЫ / ИЗОЛЯТОРЫ ОПОРНЫЕ СТЕРЖНЕВЫЕ ФАРФОРОВЫЕ"
+        },
+        {
+          "kind": "heading",
+          "text": "Изоляторы опорные стержневые фарфоровые типа ИОС-10"
+        },
+        {
+          "kind": "heading",
+          "text": "НАЗНАЧЕНИЕ:"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Предназначены для изоляции и крепления токоведущих частей в электрических аппаратах, распределительных устройствах электрических станций и подстанций, комплектных распределительных устройствах, токопроводах переменного тока напряжением свыше 1000 В частоты до 100 Гц, расположенных на высоте до 1000 м над уровнем моря."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Изготавливаются по ТУ КДОП.757522.001ТУ."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Соответствуют ГОСТ Р 52034-2008."
+        },
+        {
+          "kind": "heading",
+          "text": "Присоединительные размеры изоляторов"
+        },
+        {
+          "kind": "paragraph",
+          "text": "* Протоколы испытаний, подтверждающие превосходящие значения параметров изоляторов ВОЛЬТА относительно нормируемых по ГОСТу предоставляются изготовителем по дополнительному запросу."
+        },
+        {
+          "kind": "paragraph",
+          "text": "** Протоколы испытания на сейсмостойкость предоставляются изготовителем по дополнительному запросу"
+        },
+        {
+          "kind": "footer",
+          "text": "ООО «ВОЛЬТА»"
+        },
+        {
+          "kind": "footer",
+          "text": "Тел./ факс: +7 (351) 344-22-44, e-mail: info@volta-electro.ru"
+        },
+        {
+          "kind": "footer",
+          "text": "www.volta-electro.ru"
+        },
+        {
+          "kind": "footer",
+          "text": "155"
+        }
+      ]
+    },
+    {
+      "path": "figures[0].description",
+      "before": "Фотография опорного стержневого фарфорового изолятора с верхним и нижним квадратными фланцами с отверстиями и тремя промежуточными ребрами (усеченными конусами) на центральном стержне.",
+      "after": "Фотография ИОС-10: фарфоровый оребрённый корпус и квадратные металлические фланцы по концам с крепёжными отверстиями. Неподписанные микрометки и точное число рёбер по фотографии не назначены параметрами."
+    },
+    {
+      "path": "figures[1].description",
+      "before": "Два вида: слева — продольный разрез (в разрезе показана штриховка фарфорового тела и металлической арматуры фланцев) с размерами диаметра верхнего фланца и вертикального размера; справа — план (вид сверху) квадратного фланца со скруглёнными углами и четырьмя отверстиями, с размерами по сторонам и диаметром отверстия. Числовые значения размеров на чертеже не проставлены (только обозначения).",
+      "after": "Слева совмещены наружный вид и правый продольный полуразрез, а не два полных разреза. Верхний ØA относится к наружному диаметру изоляционного ребра: его выносные совмещены с краями ребра, не наружными краями квадратного фланца. L — между обращёнными внутренними плоскостями верхнего и нижнего фланцев у фарфорового корпуса. Слева есть отдельная полная высотная размерная линия между наружными торцами фланцев; буквенная подпись у неё на этом изображении не читается и не добавлена как отдельный label. Справа торцевой вид квадратного фланца: □B1 — полный наружный вертикальный размер квадрата, B — горизонтальное расстояние между центрами соседних отверстий, Ød1 — одно из четырёх крепёжных отверстий. Числовые номиналы взяты из своих колонок таблицы, отдельная единица на рисунке не напечатана."
+    },
+    {
+      "path": "figures[1].labels[0]",
+      "before": "Ø A",
+      "after": "ØA"
+    },
+    {
+      "path": "figures[1].labels[2]",
+      "before": "B1",
+      "after": "□B1"
+    },
+    {
+      "path": "figures[1].labels[4]",
+      "before": "Ø d1",
+      "after": "Ød1"
+    },
+    {
+      "path": "page_context",
+      "before": null,
+      "after": {
+        "kind": "catalogue_product_data",
+        "summary": "Фарфоровый опорный стержневой ИОС-10-2000 М УХЛ1: назначение для токоведущих частей свыше 1000 В / до 100 Гц / до 1000 м, ТУ КДОП.757522.001ТУ/ГОСТ Р 52034-2008; фотография, совмещённый вид/полуразрез и торцевой вид квадратного фланца. Даны 14 технических параметров и 9 присоединительных ячеек; A — диаметр ребра, B межосевой, □B1 наружный размер, d1 отверстия.",
+        "source_evidence": [
+          {
+            "kind": "catalogue_product_data",
+            "box": [
+              0.07,
+              0.015,
+              0.925,
+              0.335
+            ],
+            "observation": "Рубрика/логотипы/ИОС10, полное назначение и нормативы; фото и собственный чертёж."
+          },
+          {
+            "kind": "catalogue_product_data",
+            "box": [
+              0.375,
+              0.105,
+              0.97,
+              0.28
+            ],
+            "observation": "Фото без присвоения точного числа рёбер; совмещённый вид/полуразрез сØAребра,Lмеждувнутреннимиплоскостями фланцев;торцевой□B1/B/Ød1."
+          },
+          {
+            "kind": "catalogue_product_data",
+            "box": [
+              0.075,
+              0.435,
+              0.925,
+              0.94
+            ],
+            "observation": "Обе таблицы1×14+1×9, два реальныхпрочеркаD; две сноскипротоколов */**, ВОЛЬТАиfooter155."
+          }
+        ]
+      }
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "independent_review_required": true,
+  "independent_review_status": "pending",
+  "separate_model_review_of_root_edits": null,
+  "unresolved_issues": [
+    "Нужна независимая проверка авторского разбора и инженерных отношений."
+  ],
+  "completed_at": "2026-10-14T19:37:49.983624+03:00",
+  "private_original_receipt_sha256": "a75b25617532581013f0cfd6ebab42b970f6c8f4c30023f2a4d729fe937e71a1"
+}

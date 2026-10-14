@@ -1,0 +1,128 @@
+{
+  "schema_version": "catalogue-independent-source-review/1",
+  "catalog": "small",
+  "source_filename": "Malyj-katalog.pdf",
+  "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+  "physical_page": 142,
+  "printed_page": "141",
+  "reviewed_json": "small-142-reviewed.json",
+  "reviewed_json_sha256": "c659a5c4f5943c829582317764548a8ee9eaa5159d61337b5ffcc953b2b5cc5f",
+  "reviewed_input_frozen": "small-142-reviewed-input-frozen.json",
+  "independent_author": "catalog_tail_mod1",
+  "origin_author": "catalog_tail_mod3",
+  "time": "2026-10-14T19:51:40.343372+03:00",
+  "verdict": "revise",
+  "full_original_image_review": true,
+  "original_image": "small-142-original.png",
+  "original_image_sha256": "feb4bbcb6357b9ecefa77d1a97c9379d992ec05239bc33f8ef1e68da52748a03",
+  "checks": {
+    "all_text_and_meaning": {
+      "passed": true,
+      "evidence": "Полный оригинал до JSON; собственные10× main/variants. Все172ячейки16×8+4×11 сверены; H220 у6-10-В-4 действительно напечатано; обе пустоты разрушающей силы растяжения реальны,10только12,5кН; резьбы/сноски/исполнения/стандарты/ТУ и контакты верны. На рисунках обнаружены две ложные базыH, остальные размеры и отношения верны."
+    },
+    "all_table_cells": {
+      "passed": true,
+      "evidence": "Полный оригинал до JSON; собственные10× main/variants. Все172ячейки16×8+4×11 сверены; H220 у6-10-В-4 действительно напечатано; обе пустоты разрушающей силы растяжения реальны,10только12,5кН; резьбы/сноски/исполнения/стандарты/ТУ и контакты верны. На рисунках обнаружены две ложные базыH, остальные размеры и отношения верны."
+    },
+    "headers_units_conditions": {
+      "passed": true,
+      "evidence": "Полный оригинал до JSON; собственные10× main/variants. Все172ячейки16×8+4×11 сверены; H220 у6-10-В-4 действительно напечатано; обе пустоты разрушающей силы растяжения реальны,10только12,5кН; резьбы/сноски/исполнения/стандарты/ТУ и контакты верны. На рисунках обнаружены две ложные базыH, остальные размеры и отношения верны."
+    },
+    "merged_cells_and_blanks": {
+      "passed": true,
+      "evidence": "Полный оригинал до JSON; собственные10× main/variants. Все172ячейки16×8+4×11 сверены; H220 у6-10-В-4 действительно напечатано; обе пустоты разрушающей силы растяжения реальны,10только12,5кН; резьбы/сноски/исполнения/стандарты/ТУ и контакты верны. На рисунках обнаружены две ложные базыH, остальные размеры и отношения верны."
+    },
+    "figures_and_relationships": {
+      "passed": false,
+      "evidence": "Полный оригинал до JSON; собственные10× main/variants. Все172ячейки16×8+4×11 сверены; H220 у6-10-В-4 действительно напечатано; обе пустоты разрушающей силы растяжения реальны,10только12,5кН; резьбы/сноски/исполнения/стандарты/ТУ и контакты верны. На рисунках обнаружены две ложные базыH, остальные размеры и отношения верны."
+    },
+    "source_provenance": {
+      "passed": true,
+      "evidence": "Полный оригинал до JSON; собственные10× main/variants. Все172ячейки16×8+4×11 сверены; H220 у6-10-В-4 действительно напечатано; обе пустоты разрушающей силы растяжения реальны,10только12,5кН; резьбы/сноски/исполнения/стандарты/ТУ и контакты верны. На рисунках обнаружены две ложные базыH, остальные размеры и отношения верны."
+    }
+  },
+  "observed_row_counts": [
+    16,
+    4
+  ],
+  "observed_column_counts": [
+    8,
+    11
+  ],
+  "total_cells_checked": 172,
+  "dimension_ownership": [
+    {
+      "literal": "H±5",
+      "actual_target": "Полные рис1/2:отмеченная плоскость шейкиØ50, общаяснижнейбазой45±2→нижняяопорнаяплоскостьфланца; неосьжелоба",
+      "source_bbox": [
+        0.35,
+        0.117,
+        0.595,
+        0.348
+      ],
+      "bbox_units": "normalized_page",
+      "units_as_printed": null
+    },
+    {
+      "literal": "45±2;26;Ø50;R10",
+      "actual_target": "45оськруглогожелоба→плоскостьшейки;26открытыйвход;первый50внутреннийжелоб/второй50наружнаяшейка;R10переход",
+      "source_bbox": [
+        0.36,
+        0.12,
+        0.59,
+        0.195
+      ],
+      "bbox_units": "normalized_page",
+      "units_as_printed": null
+    },
+    {
+      "literal": "L±2;Ød;h;D",
+      "actual_target": "Lторцыизолирующегокорпуса;dребро75/100/115поименам;hнизфланца→конецшпильки;Dрезьба20/24",
+      "source_bbox": [
+        0.35,
+        0.18,
+        0.595,
+        0.348
+      ],
+      "bbox_units": "normalized_page",
+      "units_as_printed": null
+    },
+    {
+      "literal": "H±5, модификацииА/Б/В",
+      "actual_target": "А/Ботмеченнаяплоскостьшейки;Вотмеченнаяверхняяплоскостькорпусаподпланкой,неосьпровода",
+      "source_bbox": [
+        0.61,
+        0.145,
+        0.92,
+        0.235
+      ],
+      "bbox_units": "normalized_page",
+      "units_as_printed": null
+    }
+  ],
+  "issues": [
+    {
+      "check": "figures_and_relationships",
+      "path": "figures[0].description",
+      "finding": "H±5 на полных рис1/2 начинается на отдельной плоскости шейкиØ50 — общей с нижней базой45±2. Автор ошибочно пишет от оси верхнего круглого желоба.",
+      "correction": "Указать собственную плоскость шейки; таблицы не менять."
+    },
+    {
+      "check": "figures_and_relationships",
+      "path": "figures[1].description;source_notes[7]",
+      "finding": "В модификацииВ верхняя базаH по отмеченной верхней горизонтальной плоскости корпуса под прижимной планкой. Она ниже оси провода; «по оси провода» неверно.",
+      "correction": "Исправить базуВ в описании и повторе примечания."
+    }
+  ],
+  "uncertainties": [],
+  "native_glm_receipt": false,
+  "author_outputs_modified": false,
+  "private_review_artifact_sha256": "bb0312e8f4b5249e213213ba868178dc607b665c3c7ea3fb74a7ecae8959ea89",
+  "actual_author_producer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod3",
+    "task": "/root/catalog_tail_mod3",
+    "version": "tail-mod3-remaining-small-20261014.r6",
+    "model_id": "Current native Codex worker session; exact provider identifier not exported."
+  }
+}

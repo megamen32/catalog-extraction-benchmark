@@ -1,0 +1,191 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "isolators",
+  "source_filename": "Katalog-IZOLJaTORY.pdf",
+  "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+  "physical_page": 159,
+  "printed_page": "158",
+  "status": "author_source_review_complete_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod1",
+    "task": "/root/catalog_tail_mod1",
+    "version": "tail-mod1-20261014.r1",
+    "model_id": "Current native Codex session;exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "isolators-159-actual-native-candidate.json",
+    "sha256": "11cadcc2b8b7afa45888e6b25255d9d2010b702dc1dc6e5f9942125c582fc3cb",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.4.2",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "11cadcc2b8b7afa45888e6b25255d9d2010b702dc1dc6e5f9942125c582fc3cb",
+      "source_bound_save": true,
+      "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+      "physical_page": 159,
+      "attempt": 0,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "aa97a446c59b5a207fd1ab84542de68a56c8d05e595fabde973e24da9ccc405d",
+      "receipt": "calls/acc8cd19477546c69869f4ee5780ede2/result.json",
+      "started_at": 1791826392.167137,
+      "finished_at": 1791826501.6335423
+    },
+    "receipt_file": "isolators-159-producer-receipt.json",
+    "receipt_sha256": "a21702a30c3b1eba302fbe3c8735e62b4aa5b701c00efb658704032f13771da4",
+    "receipt_artifact_equals_candidate": true,
+    "saved_runtime_candidate": "isolators-159-candidate.json",
+    "saved_runtime_candidate_sha256": "4952af461198bc12ad9b5060bdbf6d9a7fc35c0984222e7c83c336c9cecdd58b",
+    "runtime_schema_normalization": "Exact PageContent schema normalization of raw producer artifact equals saved current runtime candidate; raw bytes retained separately when nullable defaults were inserted."
+  },
+  "output": {
+    "file": "isolators-159-reviewed.json",
+    "sha256": "419210973ce196a6f4c6855a75a308d14a1aba143a6e0ee3bcb04a07f8384e07",
+    "author": "catalog_tail_mod1"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "c085078c8dc4b54dff8203a79ab47c940a3f0028b67bae311347b7a5a891764b",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "pagecontent_schema_valid": true
+  },
+  "tables": {
+    "row_counts": [
+      11,
+      11
+    ],
+    "column_counts": [
+      13,
+      11
+    ],
+    "cells_checked": 264
+  },
+  "source_findings": [
+    "Лично просмотрен полный оригинал и проверены все 264 ячейки 11×13 и 11×11. Все числовые значения и порядок строк сохранены, включая собственный порядок нижней таблицы М/МУ/М-01; общие значения, все прочерки, ±10% массы, обе сноски и реквизиты сверены.",
+    "Восстановлен отсутствовавший ØA и точные базы H/L. ØD — окружность центров рис. 1, не центральное отверстие рис. 2; B — межосевой шаг, □B1 — наружная сторона квадрата. Удалены ложное утверждение о прочерке D обоих фланцев у всех исполнений и неподтверждённая единица на рисунках."
+  ],
+  "corrections": [
+    {
+      "path": "figures[1].title",
+      "before": "Рис.1",
+      "after": "Главный вид с полуразрезом и круговой фланец — рис. 1"
+    },
+    {
+      "path": "figures[1].description",
+      "before": "Слева — продольный полуразрез изолятора с верхним и нижним фланцами; вертикальные размерные линии обозначены H (габаритная строительная высота, от нижней до верхней грани фланцев) и L (изоляционная высота). Справа — вид на верхний фланец (с торца) с обозначением диаметра D и диаметра монтажных отверстий d1, четырьмя отверстиями по углам и размером B. Числовых значений размеров и допусков на рисунке нет — они приведены в таблице «Присоединительные размеры изоляторов».",
+      "after": "Главный вид слева совмещён с правым продольным полуразрезом и условным обрывом. H — между наружными торцевыми плоскостями фланцев; L — между обращёнными внутренними плоскостями фланцев; ØA — наружный диаметр фарфорового ребра. Справа рис. 1 — круговой фланец с четырьмя выступами: ØD относится к штрихпунктирной окружности центров четырёх отверстий, Ød1 — к самим отверстиям, B — горизонтальный шаг между соседними осями. Рис. 1 не обозначает весь главный полуразрез. Числа даны в таблицах."
+    },
+    {
+      "path": "figures[1].labels",
+      "before": [
+        "Рис.1",
+        "H",
+        "L",
+        "D",
+        "d1",
+        "B"
+      ],
+      "after": [
+        "H",
+        "L",
+        "ØA",
+        "Рис.1",
+        "ØD",
+        "Ød1",
+        "B"
+      ]
+    },
+    {
+      "path": "figures[2].description",
+      "before": "Вид на нижний фланец (с торца): четыре отверстия по углам, обозначения диаметра центрального отверстия D, диаметра монтажных отверстий d1 и размеров сторон фланца B и B1. Числовые значения приведены в таблице.",
+      "after": "Рис. 2 — квадратный фланец с четырьмя угловыми отверстиями Ød1. □B1 — полный наружный вертикальный размер квадрата; B — горизонтальный шаг между осями соседних отверстий. D на рис. 2 не подписан и центральное отверстие размером D не показано. Рис. 2 используется и для верхнего, и для нижнего фланца в соответствии с отдельными колонками таблицы."
+    },
+    {
+      "path": "figures[2].labels",
+      "before": [
+        "Рис.2",
+        "D",
+        "d1",
+        "B",
+        "B1"
+      ],
+      "after": [
+        "Рис.2",
+        "Ød1",
+        "B",
+        "□B1"
+      ]
+    },
+    {
+      "path": "source_notes[0]",
+      "before": "В таблице присоединительных размеров символ «-» напечатан в источнике как прочерк (значения B1 верхнего фланца для ИОС-110-400 и D обоих фланцев для всех изоляторов) и перенесён буквально.",
+      "after": "Прочерки сохранены буквально: B1 верхнего фланца первых трёх исполнений, D верхнего фланца всех исполнений кроме первых трёх и D нижнего фланца всех одиннадцати исполнений. Верхнее D первых трёх строк равно 170, не прочерку."
+    },
+    {
+      "path": "source_notes[1]",
+      "before": "Единицы измерения в таблице «Присоединительные размеры изоляторов» в источнике не указаны; размеры D, d1, B, B1 подразумеваются в мм по чертежам Рис.1 и Рис.2.",
+      "after": "Отдельная единица измерения в таблице присоединительных размеров и на рисунках не напечатана; пустые unit сохранены без добавления предположения. Общие значения 110, 450, 230, 230 и 9, а также все остальные объединения развёрнуты по своим строкам. Порядок М/МУ/М-01 в нижней таблице отличается от верхней и сохранён."
+    },
+    {
+      "path": "page_context",
+      "before": null,
+      "after": {
+        "kind": "catalogue_product_data",
+        "summary": "Фарфоровые опорные изоляторы ИОС-110: одиннадцать исполнений и две таблицы характеристик и присоединительных размеров, всего 264 ячейки. Назначение свыше 1000 В, до 100 Гц и до 1000 м; ТУ КДОП.757522.001ТУ, ГОСТ Р 52034-2008. H — наружная высота, L — между внутренними плоскостями фланцев, ØA — ребро. Рисунки 1 и 2 задают круговой и квадратный фланцы; соответствие верхнего и нижнего фланцев определяется отдельными колонками таблицы.",
+        "source_evidence": [
+          {
+            "kind": "catalogue_product_data",
+            "box": [
+              0.07,
+              0.015,
+              0.925,
+              0.305
+            ],
+            "observation": "Рубрика, логотипы, ИОС-110, полное назначение и нормативы; фото, совмещённый вид с полуразрезом и два рисунка фланцев."
+          },
+          {
+            "kind": "catalogue_product_data",
+            "box": [
+              0.61,
+              0.055,
+              0.91,
+              0.265
+            ],
+            "observation": "H наружной высоты, L между внутренними плоскостями, ØA ребра; ØD окружности центров четырёх отверстий на рис. 1, B шага, □B1 наружного квадрата на рис. 2."
+          },
+          {
+            "kind": "catalogue_product_data",
+            "box": [
+              0.075,
+              0.32,
+              0.925,
+              0.98
+            ],
+            "observation": "Таблицы 11×13 и 11×11; самостоятельный порядок исполнений в каждой, все объединения и прочерки, обе сноски и контакты ВОЛЬТА, печатная страница 158."
+          }
+        ]
+      }
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "independent_review_required": true,
+  "independent_review_status": "pending",
+  "separate_model_review_of_root_edits": null,
+  "unresolved_issues": [
+    "Нужна независимая проверка авторского разбора и инженерных отношений."
+  ],
+  "completed_at": "2026-10-14T19:44:14.219556+03:00",
+  "private_original_receipt_sha256": "6ab30dbd09fc721c6413610817e87245138c8db40bbcc5e1a28156da9e2eeb6d"
+}

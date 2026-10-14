@@ -1,0 +1,36 @@
+{
+  "id": "armature40-authored-revision-error-ef6bf5358a4f",
+  "status": "pending_adjudication",
+  "category": "independent-review-catches-authored-error",
+  "title": "armature,страница40:независимая проверка исправила ошибку автора",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 40
+  },
+  "review_basis": "[{\"path\": \"page_context.summary\", \"checks\": [\"all_text_and_meaning\"], \"problem\": \"Фраза «Контур,ккоторомуотноситсяØ278…остаётсянеоднозначным»устарелаипротиворечитновойсвереннойгеометрии,notes/uncertainties. Удалитьтолькостароеутверждение;числаиразмерныесвязинеизменять.\", \"source_bbox\": [0.67, 0.31, 0.85, 0.44]}] Фактический автор {\"harness\": \"codex\", \"session_id\": \"catalog_tail_mod0\", \"version\": \"tail-mod0-20261014.r3\"}. Сохранены точные ошибочные авторские байты и новая source-corrected версия; это НЕ результат MiniMax/GLM и не автоматическое золото.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/ef6bf5358a4f5f06fa38b1bf6ad2323074386335f1c5f62404340154bfa8be06.json",
+      "sha256": "ef6bf5358a4f5f06fa38b1bf6ad2323074386335f1c5f62404340154bfa8be06",
+      "bytes": 25832,
+      "role": "actual-authored-failure",
+      "program_version": "tail-mod0-20261014.r3"
+    },
+    {
+      "path": "objects/3fbaa52bc3f992f8ccad6a3d7a04ed4a4e7ad0d00a77db324c89fa61ecac6d90.json",
+      "sha256": "3fbaa52bc3f992f8ccad6a3d7a04ed4a4e7ad0d00a77db324c89fa61ecac6d90",
+      "bytes": 25700,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r4"
+    },
+    {
+      "path": "objects/8d1e2996f36a6cf127020daf72892bce64ba4622297f0e750b31a4448c92a170.json",
+      "sha256": "8d1e2996f36a6cf127020daf72892bce64ba4622297f0e750b31a4448c92a170",
+      "bytes": 11876,
+      "role": "independent-source-review",
+      "program_version": "native-codex-independent-review-20261014"
+    }
+  ]
+}

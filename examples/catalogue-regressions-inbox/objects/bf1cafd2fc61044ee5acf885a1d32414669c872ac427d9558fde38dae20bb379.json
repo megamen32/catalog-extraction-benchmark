@@ -1,0 +1,191 @@
+{
+  "schema_version": "catalogue-independent-source-review/1",
+  "catalog": "armature",
+  "source_filename": "Katalog-ARMATURA.pdf",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 205,
+  "exact_reviewed_path": "armature-205-reviewed.json",
+  "exact_reviewed_sha256": "55f57378245a877c9d2504e1a28c187092071772de0ea6fea8a5ca9043179c94",
+  "frozen_reviewed_path": "frozen-mod1-armature-205-current.json",
+  "independent_author": "catalog_tail_mod3",
+  "origin_author": "catalog_tail_mod1",
+  "version": "peer-mod3-current-armature-20261014.r1",
+  "harness": "codex",
+  "is_glm_receipt": false,
+  "source_first": true,
+  "full_original_image_review": true,
+  "original_image": "armature-205-current-original.png",
+  "original_image_sha256": "551c5ec78b5a1954c5f39c74c12df8a7c8a4b4663d2f5461cb3232c44c6f5a8b",
+  "own_source_observation": "armature-205-current-own-observation.json",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": false,
+    "source_provenance": false
+  },
+  "observed_table_count": 1,
+  "observed_row_counts": [
+    3
+  ],
+  "observed_column_counts": [
+    11
+  ],
+  "cells_checked": 33,
+  "technical_and_meaning_review": "Новый полный собственный source-first контроль фактически выбранного root resolver r1. Старый mod0PASS относился к другому r2SHA; его не переносили. Все текстовые условия, бренды/контакты, марки и33ячейки205 (на217таблицнет) сверены. Выявлены отдельные внутренние размерные базы, ранее пропущенные и в r2; новые инженерные ошибки блокируют приёмку.",
+  "per_figure_dimension_ownership": [
+    {
+      "figure_index": 0,
+      "source_bbox": [
+        0.36,
+        0.43,
+        0.91,
+        0.79
+      ],
+      "dimensions": [
+        {
+          "literal_label": "L₁",
+          "actual_target": "От отдельной внутренней поперечной плоскости прямого корпуса правее конца скоса до правого наружного торца корпуса",
+          "source_bbox": [
+            0.59,
+            0.435,
+            0.82,
+            0.59
+          ],
+          "arrow_start": "Отдельная внутренняя плоскость, не конец скоса",
+          "arrow_end": "Правый торец корпуса",
+          "units": "мм в таблице"
+        },
+        {
+          "literal_label": "L₂",
+          "actual_target": "От левого наружного торца лапки до начала наклонного перехода",
+          "source_bbox": [
+            0.42,
+            0.5,
+            0.55,
+            0.59
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "мм в таблице"
+        },
+        {
+          "literal_label": "S",
+          "actual_target": "Толщина плоской контактной лапки",
+          "source_bbox": [
+            0.37,
+            0.537,
+            0.44,
+            0.608
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "мм в таблице"
+        },
+        {
+          "literal_label": "B",
+          "actual_target": "Наружная ширина плоской лапки",
+          "source_bbox": [
+            0.365,
+            0.65,
+            0.44,
+            0.73
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "мм в таблице"
+        },
+        {
+          "literal_label": "A",
+          "actual_target": "Расстояние между осями двух отверстий",
+          "source_bbox": [
+            0.44,
+            0.685,
+            0.525,
+            0.766
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "мм в таблице"
+        },
+        {
+          "literal_label": "d",
+          "actual_target": "Диаметр крепёжного отверстия лапки",
+          "source_bbox": [
+            0.42,
+            0.612,
+            0.52,
+            0.73
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "мм в таблице"
+        },
+        {
+          "literal_label": "L",
+          "actual_target": "Полная длина корпуса без выступающего провода",
+          "source_bbox": [
+            0.42,
+            0.72,
+            0.82,
+            0.78
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "мм в таблице"
+        },
+        {
+          "literal_label": "направление опрессования",
+          "actual_target": "Вправо вдоль прямого корпуса к проводу",
+          "source_bbox": [
+            0.6,
+            0.48,
+            0.75,
+            0.51
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "мм в таблице"
+        }
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "path": "figures[0].description",
+      "error": "L₁ ошибочно назван от конца наклонного перехода; исходная размерная выносная находится правее, на отдельной внутренней плоскости прямого корпуса.",
+      "source_bbox": [
+        0.585,
+        0.44,
+        0.825,
+        0.59
+      ],
+      "evidence": "Собственный6× armature-205-current-drawing.png различает конец скоса и отдельную вертикальную линию L₁ правее него."
+    },
+    {
+      "path": "page_context.source_evidence[0].box",
+      "error": "Заявленная рубрика раздела на y≈.03–.045 находится выше box y0.07. Нужен верх0.025 либо убрать рубрику из observation.",
+      "source_bbox": [
+        0.085,
+        0.025,
+        0.6,
+        0.05
+      ]
+    }
+  ],
+  "nonblocking_observations": [
+    "Косметические склейки пробелов в авторских пояснениях не являются причиной REVISE."
+  ],
+  "uncertainties": [],
+  "verdict": "revise",
+  "reviewed_at": "2026-10-14T19:50:08.132670+03:00",
+  "private_review_artifact_sha256": "d19d6f6a7f6cf7c5d98dec6367810cf960f77af1871e3188a22b1022f2ef3e27",
+  "actual_author_producer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod1",
+    "task": "/root/catalog_tail_mod1",
+    "version": "tail-mod1-20261014.r1",
+    "model_id": "Current native Codex session;exact provider identifier not exported."
+  }
+}

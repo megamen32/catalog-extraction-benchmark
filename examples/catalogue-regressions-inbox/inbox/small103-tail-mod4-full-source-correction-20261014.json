@@ -1,0 +1,36 @@
+{
+  "id": "small103-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "small, страница 103: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Malyj-katalog.pdf",
+    "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_page": 103
+  },
+  "review_basis": "[\"Новый текущий candidate сопоставлен с полным оригиналом и собственными увеличениями, все таблицы проверены.\"] Исправления: [\"Уточнены H/H₁ по внутренней плоскости гнезда/оси пальца и наружным границам; D/D₁/d и B/b/B₁/B₂ распределены по своим деталям.\", \"Убраны ложная прижимная скоба и контргайка; числовой H₁140,5 и все88values/state сохранены.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/5e510f41fcc3390c1d01ec9eb89f0b50b4f5c0e6b0844c77d24ab194aca8c7ad.json",
+      "sha256": "5e510f41fcc3390c1d01ec9eb89f0b50b4f5c0e6b0844c77d24ab194aca8c7ad",
+      "bytes": 23672,
+      "role": "native-candidate",
+      "program_version": "1.4.15"
+    },
+    {
+      "path": "objects/af1ea4a9e020c87b74ec9e8216341f12eca34666ede84732feef9255fa174094.json",
+      "sha256": "af1ea4a9e020c87b74ec9e8216341f12eca34666ede84732feef9255fa174094",
+      "bytes": 28594,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-remaining-small-20261014.r9"
+    },
+    {
+      "path": "objects/afed303dbbd66a5674e03f6d99a9764dc9c7fdd89f89d05f07837d9b5c20d96f.json",
+      "sha256": "afed303dbbd66a5674e03f6d99a9764dc9c7fdd89f89d05f07837d9b5c20d96f",
+      "bytes": 18542,
+      "role": "source-review",
+      "program_version": "tail-mod3-remaining-small-20261014.r9"
+    }
+  ]
+}

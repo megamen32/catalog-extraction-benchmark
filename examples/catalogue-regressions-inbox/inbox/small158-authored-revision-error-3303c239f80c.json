@@ -1,0 +1,36 @@
+{
+  "id": "small158-authored-revision-error-3303c239f80c",
+  "status": "pending_adjudication",
+  "category": "independent-review-catches-authored-error",
+  "title": "small,страница158:независимая проверка исправила ошибку автора",
+  "source": {
+    "filename": "Malyj-katalog.pdf",
+    "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_page": 158
+  },
+  "review_basis": "[{\"check\": \"all_text_and_meaning\", \"path\": \"source_notes[1]\", \"finding\": \"Примечание утверждает сохранение 105/105 в собственных ячейках, но на этом листе обе строки импульса буквально 110/110. 105/105 есть на соседнем157, не на158. Все42 табличные ячейки верны.\", \"correction\": \"Убрать «либо105/105» из примечания, таблицу не менять.\"}] Фактический автор {\"harness\": \"codex\", \"session_id\": \"catalog_tail_mod3\", \"task\": \"/root/catalog_tail_mod3\", \"version\": \"tail-mod3-remaining-small-20261014.r6\", \"model_id\": \"Current native Codex worker session; exact provider identifier not exported.\"}. Сохранены точные ошибочные авторские байты и новая source-corrected версия; это НЕ результат MiniMax/GLM и не автоматическое золото.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/3303c239f80c044bdccfcb85db57dc7f705a97636249f75683bb48d546505739.json",
+      "sha256": "3303c239f80c044bdccfcb85db57dc7f705a97636249f75683bb48d546505739",
+      "bytes": 17866,
+      "role": "actual-authored-failure",
+      "program_version": "tail-mod3-remaining-small-20261014.r6"
+    },
+    {
+      "path": "objects/76c402a76ae2558c8ba50dbb24cc06807832a7bd809fdb0ae56c0be97857a4ae.json",
+      "sha256": "76c402a76ae2558c8ba50dbb24cc06807832a7bd809fdb0ae56c0be97857a4ae",
+      "bytes": 17953,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-small142158-20261014.r2"
+    },
+    {
+      "path": "objects/e83afac0a510df4896a1141530b0e06a78902f9e866918d9581447fe57ae711c.json",
+      "sha256": "e83afac0a510df4896a1141530b0e06a78902f9e866918d9581447fe57ae711c",
+      "bytes": 8165,
+      "role": "independent-source-review",
+      "program_version": "native-codex-independent-review-20261014"
+    }
+  ]
+}

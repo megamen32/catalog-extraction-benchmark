@@ -1,0 +1,36 @@
+{
+  "id": "innov28-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 28: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 28
+  },
+  "review_basis": "[\"Полный лист, крупные чертёж/таблица сверены source-first. Четыре пары радиопомех и все42ячейки верны; требуются смысловые исправления рисунка и page_context.\"] Исправления: [\"Исправлено ошибочное фарфоровое тело на прямо напечатанное стеклянное; материалы неподписанных внутренних деталей не додуманы.\", \"H исправлена с наружного верха арматуры/средней зоны юбки на отмеченные внутренние базы сферического сопряжения; d связан с нижней шейкой.\", \"Восстановлено printed_page28 из реального колонтитула, page_context/evidence полностью согласованы с исправленным рисунком. Все42values/state неизменны.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/7c8c0e3e8892b9d318fad86953069e3890017ebb939dd4f3794039e30a36dc1f.json",
+      "sha256": "7c8c0e3e8892b9d318fad86953069e3890017ebb939dd4f3794039e30a36dc1f",
+      "bytes": 23716,
+      "role": "native-candidate",
+      "program_version": "1.5.24"
+    },
+    {
+      "path": "objects/1ceebaae30f1a9c69dc97343c76115ceef4c187791c43bb18358b85c130f61ce.json",
+      "sha256": "1ceebaae30f1a9c69dc97343c76115ceef4c187791c43bb18358b85c130f61ce",
+      "bytes": 18372,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-innovations-extra-20261014.r1"
+    },
+    {
+      "path": "objects/dbc681cb2fe30d29b3f6831ce54ce9f50aef685f202d7592dd0f00c66996ab95.json",
+      "sha256": "dbc681cb2fe30d29b3f6831ce54ce9f50aef685f202d7592dd0f00c66996ab95",
+      "bytes": 23752,
+      "role": "source-review",
+      "program_version": "tail-mod3-innovations-extra-20261014.r1"
+    }
+  ]
+}

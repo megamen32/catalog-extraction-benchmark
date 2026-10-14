@@ -1,0 +1,36 @@
+{
+  "id": "small142-tail-mod4-full-source-correction-20261014-revision-77df7f33d9",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "small, страница 142: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Malyj-katalog.pdf",
+    "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_page": 142
+  },
+  "review_basis": "[\"Полный оригинал, собственные увеличения, все таблицы, тексты и связи размеров проверены до авторского выпуска.\", \"Независимые замечания mod1 перепроверены собственным оригиналом; выпущена отдельная ревизия, исходныеbytes неизменны.\"] Исправления: [\"Исправлены две ошибочные верхние базы H: основные виды — плоскость шейки Ø50, общая с нижней базой 45±2; модификация В — отмеченная верхняя горизонтальная плоскость корпуса под планкой.\", \"Source_notes согласованы с исправленными figures; все172табличных значений/состояний неизменны.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/95c61b182527cb0fd1daa9bd219b5d3d3131b2619f1f50e47a8af14024c0ab14.json",
+      "sha256": "95c61b182527cb0fd1daa9bd219b5d3d3131b2619f1f50e47a8af14024c0ab14",
+      "bytes": 36626,
+      "role": "native-candidate",
+      "program_version": "1.4.15"
+    },
+    {
+      "path": "objects/77df7f33d9ba26e2b8cec2fb864fd74947af9dc5de74be7dee1f030a2a875842.json",
+      "sha256": "77df7f33d9ba26e2b8cec2fb864fd74947af9dc5de74be7dee1f030a2a875842",
+      "bytes": 40736,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-small142158-20261014.r2"
+    },
+    {
+      "path": "objects/6461cab95475a2be8da4605ad57b90b6d00cfbfd1d3d42736e99167b11b53a8a.json",
+      "sha256": "6461cab95475a2be8da4605ad57b90b6d00cfbfd1d3d42736e99167b11b53a8a",
+      "bytes": 29100,
+      "role": "source-review",
+      "program_version": "tail-mod3-small142158-20261014.r2"
+    }
+  ]
+}

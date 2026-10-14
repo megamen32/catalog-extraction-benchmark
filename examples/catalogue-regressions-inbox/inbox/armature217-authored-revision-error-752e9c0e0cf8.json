@@ -1,0 +1,36 @@
+{
+  "id": "armature217-authored-revision-error-752e9c0e0cf8",
+  "status": "pending_adjudication",
+  "category": "independent-review-catches-authored-error",
+  "title": "armature,страница217:независимая проверка исправила ошибку автора",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 217
+  },
+  "review_basis": "[{\"path\": \"figures[1].description\", \"error\": \"110 ошибочно назван от начала прямого участка. Верхняя/левая выносная относится к отдельной внутренней поперечной плоскости правее конца перехода; это не полная длина прямого корпуса.\", \"source_bbox\": [0.795, 0.56, 0.88, 0.628], \"evidence\": \"Собственный6× armature-217-current-lower.png показывает конец перехода левее отдельной плоскости110.\"}, {\"path\": \"figures[0].description\", \"error\": \"Уточнить самостоятельные верхние базы всех трёх140: отдельные поперечные плоскости внутри прямых гильз после изгиба; не связывать с началом прямых наружных участков.\", \"source_bbox\": [0.48, 0.355, 0.84, 0.455], \"severity\": \"clarification_with_dimension_fix\"}] Фактический автор {\"harness\": \"codex\", \"session_id\": \"catalog_tail_mod1\", \"task\": \"/root/catalog_tail_mod1\", \"version\": \"tail-mod1-20261014.r1\", \"model_id\": \"Current native Codex session;exact provider identifier not exported.\"}. Сохранены точные ошибочные авторские байты и новая source-corrected версия; это НЕ результат MiniMax/GLM и не автоматическое золото.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/752e9c0e0cf8421558892f5c243c7187d3cd180ed01f18212724dc55fd131fae.json",
+      "sha256": "752e9c0e0cf8421558892f5c243c7187d3cd180ed01f18212724dc55fd131fae",
+      "bytes": 9757,
+      "role": "actual-authored-failure",
+      "program_version": "tail-mod1-20261014.r1"
+    },
+    {
+      "path": "objects/4bf22db5abeb69509f138a3b58dea40beaefd526de2ced83267bc99ff6d7471f.json",
+      "sha256": "4bf22db5abeb69509f138a3b58dea40beaefd526de2ced83267bc99ff6d7471f",
+      "bytes": 10548,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod1-20261014.r3"
+    },
+    {
+      "path": "objects/5b7934a53857781473eb3295ca5bbabd1003fd02396e35b21a182015001146e3.json",
+      "sha256": "5b7934a53857781473eb3295ca5bbabd1003fd02396e35b21a182015001146e3",
+      "bytes": 10355,
+      "role": "independent-source-review",
+      "program_version": "native-codex-independent-review-20261014"
+    }
+  ]
+}

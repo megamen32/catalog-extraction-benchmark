@@ -1,0 +1,36 @@
+{
+  "id": "small105-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "small, страница 105: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Malyj-katalog.pdf",
+    "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_page": 105
+  },
+  "review_basis": "[\"Новый текущий candidate сопоставлен с полным оригиналом и собственными увеличениями, все таблицы проверены.\"] Исправления: [\"Восстановлены printed_page104 и реальные бренды, отсутствовавшие в текущем native candidate.\", \"Исправлены d с ширины блока на диаметр пальца, B₁ с полного блока на внутренний просвет, b с раскрытия паза на наружную толщину.\", \"Прежние геометрические uncertainties сняты собственной исходной сверкой; все70values/state неизменны.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/311ed0dc5136e86b859c886d786de42dea2a007be4c0e1ea35409bf1974e2ad6.json",
+      "sha256": "311ed0dc5136e86b859c886d786de42dea2a007be4c0e1ea35409bf1974e2ad6",
+      "bytes": 23695,
+      "role": "native-candidate",
+      "program_version": "1.5.24"
+    },
+    {
+      "path": "objects/b5f31f063f01c811d26ff9e0bab1b943073a5634ce769f3e1d446950fb83f705.json",
+      "sha256": "b5f31f063f01c811d26ff9e0bab1b943073a5634ce769f3e1d446950fb83f705",
+      "bytes": 21425,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-remaining-small-20261014.r9"
+    },
+    {
+      "path": "objects/ec59b0e89393e6be80a00bfd91a954dfb113419b09fe123d3ef814922936bea2.json",
+      "sha256": "ec59b0e89393e6be80a00bfd91a954dfb113419b09fe123d3ef814922936bea2",
+      "bytes": 22497,
+      "role": "source-review",
+      "program_version": "tail-mod3-remaining-small-20261014.r9"
+    }
+  ]
+}

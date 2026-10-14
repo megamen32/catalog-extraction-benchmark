@@ -1,0 +1,36 @@
+{
+  "id": "innov105-tail-mod4-full-source-correction-20261014-revision-cc23e0e4f2",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 105: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 105
+  },
+  "review_basis": "[\"Полный оригинал просмотрен; сверены весь текст назначения, ТУ 3449-004-52819896-2018, условия изготовления, два преимущества защитной изоляции, все пять полей примера ШСИП-35-(8-9)-1-7, три плашки и контакты. Таблиц и размерных чертежей нет.\", \"Исправлено смешение на фотографии: шлейф является изогнутым проводником, а не подвешенной гирляндой изоляторов. Исправлены рамки доказательств заголовка и текстовой плашки.\", \"Область примера заказа расширена вверх до .55 на полный заголовок «Пример обозначения для заказа:», лично подтверждённый свежим кропом.\"] Исправления: [{\"path\": \"page_context.source_evidence[0].box[0]\", \"before\": 0.06, \"after\": 0.075}, {\"path\": \"page_context.source_evidence[0].box[1]\", \"before\": 0.17, \"after\": 0.07}, {\"path\": \"page_context.source_evidence[0].box[2]\", \"before\": 0.28, \"after\": 0.285}, {\"path\": \"page_context.source_evidence[0].box[3]\", \"before\": 0.62, \"after\": 0.505}, {\"path\": \"page_context.source_evidence[1].box[1]\", \"before\": 0.42, \"after\": 0.395}, {\"path\": \"page_context.source_evidence[1].box[3]\", \"before\": 0.54, \"after\": 0.523}, {\"path\": \"page_context.source_evidence[2].box[1]\", \"before\": 0.56, \"after\": 0.55}, {\"path\": \"figures[0].description\", \"before\": \"Чёрно-белая фотография металлической анкерной опоры (ферменная конструкция) с проводами ВЛ; видны установленные на опоре изолированные шлейфы — подвешенные гирлянды изоляторов с защитной изоляцией провода. Подписей, размерных линий, знаков и иных обозначений на фотографии нет.\", \"after\": \"Чёрно-белая фотография ферменной металлической опоры ВЛ с проводами и гирляндами изоляторов. Изолированный шлейф — проходящий изогнутой дугой проводник, соединяющий участки магистрального провода; гирлянды изоляторов видны отдельно. На фотографии нет размерных линий или позиционных подписей.\"}] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/d4ce9aa69fd1dfdeb9138393633f21b6d5e700e836c98859483350c0b45019c2.json",
+      "sha256": "d4ce9aa69fd1dfdeb9138393633f21b6d5e700e836c98859483350c0b45019c2",
+      "bytes": 8315,
+      "role": "native-candidate",
+      "program_version": "1.5.3"
+    },
+    {
+      "path": "objects/cc23e0e4f21f00441a0ca3d2deb4bfd590501dd3c8e7c57f5f9c1bb9e23ba998.json",
+      "sha256": "cc23e0e4f21f00441a0ca3d2deb4bfd590501dd3c8e7c57f5f9c1bb9e23ba998",
+      "bytes": 8352,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod1-20261014.r2"
+    },
+    {
+      "path": "objects/31d4b4db86c91c2b996f9f2eb2c924d58f30b7a95e0b04b8c8a4b65f05667be6.json",
+      "sha256": "31d4b4db86c91c2b996f9f2eb2c924d58f30b7a95e0b04b8c8a4b65f05667be6",
+      "bytes": 7001,
+      "role": "source-review",
+      "program_version": "tail-mod1-20261014.r2"
+    }
+  ]
+}

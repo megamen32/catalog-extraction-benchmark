@@ -1,0 +1,238 @@
+{
+  "schema_version": "catalogue-independent-source-review/1",
+  "catalog": "armature",
+  "source_filename": "Katalog-ARMATURA.pdf",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 217,
+  "exact_reviewed_path": "armature-217-reviewed.json",
+  "exact_reviewed_sha256": "752e9c0e0cf8421558892f5c243c7187d3cd180ed01f18212724dc55fd131fae",
+  "frozen_reviewed_path": "frozen-mod1-armature-217-current.json",
+  "independent_author": "catalog_tail_mod3",
+  "origin_author": "catalog_tail_mod1",
+  "version": "peer-mod3-current-armature-20261014.r1",
+  "harness": "codex",
+  "is_glm_receipt": false,
+  "source_first": true,
+  "full_original_image_review": true,
+  "original_image": "armature-217-current-original.png",
+  "original_image_sha256": "ee3cb91f45ca7fcd374c0897c8dc0cfdcaf224521354a6b9295a9c94e5f01b23",
+  "own_source_observation": "armature-217-current-own-observation.json",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": false,
+    "source_provenance": true
+  },
+  "observed_table_count": 0,
+  "observed_row_counts": [],
+  "observed_column_counts": [],
+  "cells_checked": 0,
+  "technical_and_meaning_review": "Новый полный собственный source-first контроль фактически выбранного root resolver r1. Старый mod0PASS относился к другому r2SHA; его не переносили. Все текстовые условия, бренды/контакты, марки и33ячейки205 (на217таблицнет) сверены. Выявлены отдельные внутренние размерные базы, ранее пропущенные и в r2; новые инженерные ошибки блокируют приёмку.",
+  "per_figure_dimension_ownership": [
+    {
+      "figure_index": 0,
+      "source_bbox": [
+        0.47,
+        0.165,
+        0.85,
+        0.52
+      ],
+      "dimensions": [
+        {
+          "literal_label": "L",
+          "actual_target": "Между центрами левого и верхнего торцевых проходов",
+          "source_bbox": [
+            0.53,
+            0.165,
+            0.675,
+            0.258
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "Отдельная единица на рисунке не напечатана; по масштабу не измерено."
+        },
+        {
+          "literal_label": "L₁",
+          "actual_target": "Между центрами левого и правого торцевых проходов",
+          "source_bbox": [
+            0.555,
+            0.235,
+            0.77,
+            0.3
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "Отдельная единица на рисунке не напечатана; по масштабу не измерено."
+        },
+        {
+          "literal_label": "60 / 60 / 60",
+          "actual_target": "Два горизонтальных шага колонок болтов и вертикальный шаг двух рядов",
+          "source_bbox": [
+            0.615,
+            0.298,
+            0.72,
+            0.355
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "Отдельная единица на рисунке не напечатана; по масштабу не измерено."
+        },
+        {
+          "literal_label": "140 ×3",
+          "actual_target": "На каждом конце от отдельной плоскости внутри прямой гильзы после изгиба до наружного торца у выхода провода",
+          "source_bbox": [
+            0.48,
+            0.355,
+            0.84,
+            0.455
+          ],
+          "arrow_start": "Отдельная внутренняя плоскость в прямом участке",
+          "arrow_end": "Наружный торец гильзы",
+          "units": "Отдельная единица на рисунке не напечатана; по масштабу не измерено."
+        },
+        {
+          "literal_label": "направление опрессования ×3",
+          "actual_target": "От контактного узла к проводу вдоль каждой гильзы вниз/наклонно вниз",
+          "source_bbox": [
+            0.48,
+            0.36,
+            0.84,
+            0.455
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "Отдельная единица на рисунке не напечатана; по масштабу не измерено."
+        }
+      ]
+    },
+    {
+      "figure_index": 1,
+      "source_bbox": [
+        0.32,
+        0.56,
+        0.92,
+        0.88
+      ],
+      "dimensions": [
+        {
+          "literal_label": "Ø680",
+          "actual_target": "Окружность через центры пяти торцевых проводных проходов, не болтовой окружности центрального крепления",
+          "source_bbox": [
+            0.325,
+            0.6,
+            0.68,
+            0.845
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "Отдельная единица на рисунке не напечатана; по масштабу не измерено."
+        },
+        {
+          "literal_label": "60 / 60",
+          "actual_target": "Горизонтальные межосевые шаги трёх колонок центральных болтов",
+          "source_bbox": [
+            0.475,
+            0.707,
+            0.557,
+            0.755
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "Отдельная единица на рисунке не напечатана; по масштабу не измерено."
+        },
+        {
+          "literal_label": "45",
+          "actual_target": "Между осями двух верхних болтов правого отдельного узла",
+          "source_bbox": [
+            0.748,
+            0.588,
+            0.796,
+            0.62
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "Отдельная единица на рисунке не напечатана; по масштабу не измерено."
+        },
+        {
+          "literal_label": "110",
+          "actual_target": "От отдельной внутренней поперечной плоскости прямого корпуса правее конца перехода до наружного торца у выхода провода",
+          "source_bbox": [
+            0.795,
+            0.56,
+            0.88,
+            0.628
+          ],
+          "arrow_start": "Отдельная внутренняя плоскость, не начало прямого участка",
+          "arrow_end": "Правый торец корпуса",
+          "units": "Отдельная единица на рисунке не напечатана; по масштабу не измерено."
+        },
+        {
+          "literal_label": "60",
+          "actual_target": "Между осями нижних двух болтов правого вида",
+          "source_bbox": [
+            0.75,
+            0.72,
+            0.79,
+            0.746
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "Отдельная единица на рисунке не напечатана; по масштабу не измерено."
+        },
+        {
+          "literal_label": "направление опрессования",
+          "actual_target": "Вправо к проводу",
+          "source_bbox": [
+            0.805,
+            0.58,
+            0.88,
+            0.601
+          ],
+          "arrow_start": null,
+          "arrow_end": null,
+          "units": "Отдельная единица на рисунке не напечатана; по масштабу не измерено."
+        }
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "path": "figures[1].description",
+      "error": "110 ошибочно назван от начала прямого участка. Верхняя/левая выносная относится к отдельной внутренней поперечной плоскости правее конца перехода; это не полная длина прямого корпуса.",
+      "source_bbox": [
+        0.795,
+        0.56,
+        0.88,
+        0.628
+      ],
+      "evidence": "Собственный6× armature-217-current-lower.png показывает конец перехода левее отдельной плоскости110."
+    },
+    {
+      "path": "figures[0].description",
+      "error": "Уточнить самостоятельные верхние базы всех трёх140: отдельные поперечные плоскости внутри прямых гильз после изгиба; не связывать с началом прямых наружных участков.",
+      "source_bbox": [
+        0.48,
+        0.355,
+        0.84,
+        0.455
+      ],
+      "severity": "clarification_with_dimension_fix"
+    }
+  ],
+  "nonblocking_observations": [
+    "Косметические склейки пробелов в авторских пояснениях не являются причиной REVISE."
+  ],
+  "uncertainties": [],
+  "verdict": "revise",
+  "reviewed_at": "2026-10-14T19:50:08.134922+03:00",
+  "private_review_artifact_sha256": "8187d4ddae38e9793c6347367a097545ef348a91c584502ea29647b4eb7ba6a2",
+  "actual_author_producer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod1",
+    "task": "/root/catalog_tail_mod1",
+    "version": "tail-mod1-20261014.r1",
+    "model_id": "Current native Codex session;exact provider identifier not exported."
+  }
+}

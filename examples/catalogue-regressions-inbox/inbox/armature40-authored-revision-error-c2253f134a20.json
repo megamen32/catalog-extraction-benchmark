@@ -1,0 +1,36 @@
+{
+  "id": "armature40-authored-revision-error-c2253f134a20",
+  "status": "pending_adjudication",
+  "category": "independent-review-catches-authored-error",
+  "title": "armature,страница40:независимая проверка исправила ошибку автора",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 40
+  },
+  "review_basis": "[{\"check\": \"figures_and_relationships\", \"path\": \"figures[3].description\", \"finding\": \"Утверждение D=толщина прутка требует дополнительной проверки: на увеличенном оригинале одиночная выноска направлена внутрь верхней вытянутой петли, без пары стрелок через толщину ветви. Однозначную принадлежность толщине по ней не подтверждаю.\", \"correction\": \"Уточнить окончание выноски по источнику; до подтверждения сохранить принадлежность D как неопределённую, число в таблице не менять.\"}] Фактический автор {\"harness\": \"codex\", \"session_id\": \"catalog_tail_mod0\", \"version\": \"tail-mod0-20261014.r1\", \"model_id\": \"Current native Codex session; exact provider identifier not exported.\"}. Сохранены точные ошибочные авторские байты и новая source-corrected версия; это НЕ результат MiniMax/GLM и не автоматическое золото.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/c2253f134a20629629538d3c5e1aaa3ee5895c2aecfe7fe3a780c6bc7b8ebf0b.json",
+      "sha256": "c2253f134a20629629538d3c5e1aaa3ee5895c2aecfe7fe3a780c6bc7b8ebf0b",
+      "bytes": 25586,
+      "role": "actual-authored-failure",
+      "program_version": "tail-mod0-20261014.r1"
+    },
+    {
+      "path": "objects/3fbaa52bc3f992f8ccad6a3d7a04ed4a4e7ad0d00a77db324c89fa61ecac6d90.json",
+      "sha256": "3fbaa52bc3f992f8ccad6a3d7a04ed4a4e7ad0d00a77db324c89fa61ecac6d90",
+      "bytes": 25700,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r4"
+    },
+    {
+      "path": "objects/d4bd62a478640797bbacddae8455586db4a54d231dddaf54ac8235098c11bb8e.json",
+      "sha256": "d4bd62a478640797bbacddae8455586db4a54d231dddaf54ac8235098c11bb8e",
+      "bytes": 10349,
+      "role": "independent-source-review",
+      "program_version": "native-codex-independent-review-20261014"
+    }
+  ]
+}

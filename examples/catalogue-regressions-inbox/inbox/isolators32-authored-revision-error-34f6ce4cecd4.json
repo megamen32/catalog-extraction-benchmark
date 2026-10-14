@@ -1,0 +1,36 @@
+{
+  "id": "isolators32-authored-revision-error-34f6ce4cecd4",
+  "status": "pending_adjudication",
+  "category": "independent-review-catches-authored-error",
+  "title": "isolators,страница32:независимая проверка исправила ошибку автора",
+  "source": {
+    "filename": "Katalog-IZOLJaTORY.pdf",
+    "sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+    "physical_page": 32
+  },
+  "review_basis": "[{\"path\": \"figures[0].description\", \"checks\": [\"figures_and_relationships\"], \"problem\": \"Верхняя базаHосновныхвидовошибочнопривязана к осижелоба; это плоскостьшейкиØ50,общаяснижнейбазой45±2.\", \"source_bbox\": [0.5, 0.08, 0.85, 0.33]}, {\"path\": \"figures[1].description\", \"checks\": [\"figures_and_relationships\"], \"problem\": \"ВерхняябазаHмод.Вошибочнопривязана к осипровода; это отмеченная горизонтальная плоскость корпусаподприжимнойпланкой.\", \"source_bbox\": [0.73, 0.4, 0.83, 0.46]}] Фактический автор {\"harness\": \"codex\", \"session_id\": \"catalog_tail_mod3\", \"task\": \"/root/catalog_tail_mod3\", \"version\": \"tail-mod3-additional-residues02-20261014.r1\", \"model_id\": \"Current native Codex worker session; exact provider identifier not exported.\"}. Сохранены точные ошибочные авторские байты и новая source-corrected версия; это НЕ результат MiniMax/GLM и не автоматическое золото.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/34f6ce4cecd43f3dd850ffc9bd5bbde359d65e79bdfb624dcc6c450a1f69ca9c.json",
+      "sha256": "34f6ce4cecd43f3dd850ffc9bd5bbde359d65e79bdfb624dcc6c450a1f69ca9c",
+      "bytes": 30598,
+      "role": "actual-authored-failure",
+      "program_version": "tail-mod3-additional-residues02-20261014.r1"
+    },
+    {
+      "path": "objects/45f428e1b3e099825d7269b46891550ea94c0380d2ce8378526fd52a70b78977.json",
+      "sha256": "45f428e1b3e099825d7269b46891550ea94c0380d2ce8378526fd52a70b78977",
+      "bytes": 30844,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-isolators32-20261014.r2"
+    },
+    {
+      "path": "objects/fa3c9a95e163e0b30a1aa9765942c506dc74773df92e68cae3311fb0826a4e2f.json",
+      "sha256": "fa3c9a95e163e0b30a1aa9765942c506dc74773df92e68cae3311fb0826a4e2f",
+      "bytes": 10408,
+      "role": "independent-source-review",
+      "program_version": "native-codex-independent-review-20261014"
+    }
+  ]
+}

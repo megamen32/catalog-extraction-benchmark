@@ -1,0 +1,36 @@
+{
+  "id": "small158-tail-mod4-full-source-correction-20261014-revision-76c402a76a",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "small, страница 158: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Malyj-katalog.pdf",
+    "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_page": 158
+  },
+  "review_basis": "[\"Полный оригинал, собственные увеличения, все таблицы, тексты и связи размеров проверены до авторского выпуска.\", \"Независимые замечания mod1 перепроверены собственным оригиналом; выпущена отдельная ревизия, исходныеbytes неизменны.\"] Исправления: [\"Убрано ошибочно перенесённое упоминание105/105 из source_notes; на реальном листе обе строки110/110. Все42ячейки и остальные поля неизменны.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/d0dec6637827a13ab68e50fd70b5c9bee88d546a711f297d59a16797ec5d83ea.json",
+      "sha256": "d0dec6637827a13ab68e50fd70b5c9bee88d546a711f297d59a16797ec5d83ea",
+      "bytes": 15845,
+      "role": "native-candidate",
+      "program_version": "1.4.15"
+    },
+    {
+      "path": "objects/76c402a76ae2558c8ba50dbb24cc06807832a7bd809fdb0ae56c0be97857a4ae.json",
+      "sha256": "76c402a76ae2558c8ba50dbb24cc06807832a7bd809fdb0ae56c0be97857a4ae",
+      "bytes": 17953,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-small142158-20261014.r2"
+    },
+    {
+      "path": "objects/6947b6e4555e9ef71a04fb036dd64353d1b024f0e0c0817dc4c7a70fbf48e9d8.json",
+      "sha256": "6947b6e4555e9ef71a04fb036dd64353d1b024f0e0c0817dc4c7a70fbf48e9d8",
+      "bytes": 14522,
+      "role": "source-review",
+      "program_version": "tail-mod3-small142158-20261014.r2"
+    }
+  ]
+}

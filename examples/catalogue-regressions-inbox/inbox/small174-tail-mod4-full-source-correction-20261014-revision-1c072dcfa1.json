@@ -1,0 +1,36 @@
+{
+  "id": "small174-tail-mod4-full-source-correction-20261014-revision-1c072dcfa1",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "small, страница 174: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Malyj-katalog.pdf",
+    "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_page": 174
+  },
+  "review_basis": "[\"Полный оригинал просмотрен до candidate; каждый размер сверён по собственным крупным кропам. Все значения/состояния/единицы/условия и объединения таблиц подтверждены.\", \"Исходные необычные числа и буквенные коды не исправлялись по инженерному ожиданию.\", \"Независимый mod0 выявил недоказанный минус. Собственные40×/18×кропы подтвердили неразрешимый вертикальный штрих и буквальные десятичные точки.\"] Исправления: [\"Снят неподтверждённый знак верхнего допуска Ø17 во всех авторских повторах; добавлена честная uncertainty.\", \"Десятичные запятые чертежа исправлены на буквальные точки; все240табличных значений и состояний неизменны.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/cbe3a12263cbc15305c3e63f9798dcdb405095ee2dc11ed1bde514c1e032f9cd.json",
+      "sha256": "cbe3a12263cbc15305c3e63f9798dcdb405095ee2dc11ed1bde514c1e032f9cd",
+      "bytes": 43091,
+      "role": "native-candidate",
+      "program_version": "1.4.15"
+    },
+    {
+      "path": "objects/1c072dcfa1078d90034c9de06fb6ec35fb52a83fc3c3fcdd6bb115d89a33b7b9.json",
+      "sha256": "1c072dcfa1078d90034c9de06fb6ec35fb52a83fc3c3fcdd6bb115d89a33b7b9",
+      "bytes": 43411,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-small174-20261014.r2"
+    },
+    {
+      "path": "objects/ee88b159a72d5fba58e5c6d2d2e3005186252f3636c1a20ff00ce7946562a5ee.json",
+      "sha256": "ee88b159a72d5fba58e5c6d2d2e3005186252f3636c1a20ff00ce7946562a5ee",
+      "bytes": 27898,
+      "role": "source-review",
+      "program_version": "tail-mod3-small174-20261014.r2"
+    }
+  ]
+}
