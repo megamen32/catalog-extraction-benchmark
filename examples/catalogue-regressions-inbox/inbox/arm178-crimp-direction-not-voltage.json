@@ -1,0 +1,24 @@
+{
+  "id": "arm178-crimp-direction-not-voltage",
+  "status": "pending_adjudication",
+  "category": "drawing_semantic_hallucination",
+  "title": "Направление опрессования becomes Напряжение опрессования after repeated drawing inspection",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 178
+  },
+  "review_basis": "Root viewed full page and separate5x original crop; printed process direction is clear. Retained159 candidate completed862.9s after repeated crops. Reviewer has not accepted it.",
+  "failure_oracle": "Preserve actual process-direction meaning, table and dimensional relationships. Do not turn Направление into Напряжение, and do not declare a source inconsistency solely because D lacks a diameter symbol in a table header. Independent source verification still required.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/e2f88b55a68e82f070579b3f7176a59b9ba58cabdbe3746ed2349ce109f1ce9e.json",
+      "sha256": "e2f88b55a68e82f070579b3f7176a59b9ba58cabdbe3746ed2349ce109f1ce9e",
+      "bytes": 45259,
+      "role": "extractor",
+      "program_version": "1.5.9",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium"
+    }
+  ]
+}

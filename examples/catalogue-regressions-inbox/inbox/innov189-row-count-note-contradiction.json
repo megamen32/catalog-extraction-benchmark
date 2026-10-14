@@ -1,0 +1,30 @@
+{
+  "id": "innov189-row-count-note-contradiction",
+  "status": "pending_adjudication",
+  "category": "accepted_metadata_contradiction",
+  "title": "Candidate source note and passing review claim18 rows while source and saved table have17",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 189
+  },
+  "review_basis": "Root viewed full original page twice and table region; manually enumerated17 source rows including both240/39 and240/56 variants, checked all68 saved cells. No missing data row; defect is explanation/merge prose. Independent159 PASS has observed_row_counts17 but prose18.",
+  "failure_oracle": "Preserve17 correct data rows and all values; correct the false source-note row/merge explanation, then independently review. Never pad/remove rows to match mistaken prose.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/92b805b9fec05d1c051c4e9e7295972c312566d58b45bae46f42142e25ae7aba.json",
+      "sha256": "92b805b9fec05d1c051c4e9e7295972c312566d58b45bae46f42142e25ae7aba",
+      "bytes": 20684,
+      "role": "extractor",
+      "program_version": "1.5.8"
+    },
+    {
+      "path": "objects/88de64c2d9fa681e886ad08c4f45faa9c9ed5e7f210dfc99c026b4bb91ed6f7f.json",
+      "sha256": "88de64c2d9fa681e886ad08c4f45faa9c9ed5e7f210dfc99c026b4bb91ed6f7f",
+      "bytes": 5989,
+      "role": "reviewer",
+      "program_version": "1.5.9"
+    }
+  ]
+}
