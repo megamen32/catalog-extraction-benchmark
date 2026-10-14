@@ -1,0 +1,25 @@
+{
+  "id": "arm86-repair-skips-source-audit",
+  "status": "pending_adjudication",
+  "priority": "high",
+  "category": "repair_lead_consumption",
+  "title": "A repair repeats rejected four-roller description without reading the supplied original-source lead",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 86
+  },
+  "review_basis": "Native155 repair2 completed65.9s, still saysfour rollers for П6Р and logged0 read_external_audit calls. Root previously viewed5x source withsix separate axes. Exact candidate2 vetoed too. This case is separate from the first154 extraction error and retains its new actual version.",
+  "artifacts": [
+    {
+      "path": "objects/4bb2c7d42f3dd084f0b6934c4659435b67d13a211ce5c8980d96c1fb1fbe00e9.json",
+      "sha256": "4bb2c7d42f3dd084f0b6934c4659435b67d13a211ce5c8980d96c1fb1fbe00e9",
+      "bytes": 17299,
+      "role": "extractor",
+      "program_version": "1.5.5",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium"
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "An extractor must consume current source-bound audit bytes before saving, independently verify original counts, and not copy rejected text. Known-vetoed bytes should be repaired without a paid reviewer call; no false review artifact may be invented."
+}
