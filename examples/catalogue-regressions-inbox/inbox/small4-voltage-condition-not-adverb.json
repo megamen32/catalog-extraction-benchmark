@@ -1,0 +1,33 @@
+{
+  "id": "small4-voltage-condition-not-adverb",
+  "status": "pending_adjudication",
+  "priority": "high",
+  "category": "catalogue_meaning",
+  "title": "Preserve the meaning of a voltage category instead of a plausible unrelated adverb",
+  "source": {
+    "filename": "Malyj-katalog.pdf",
+    "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_page": 4
+  },
+  "review_basis": "Original manually viewed. Native independent GLM1.5.3 reviewer explicitly rejected figures[1] description after comparing the original; first source observation saved without schema retries and helper activation loops.",
+  "artifacts": [
+    {
+      "path": "objects/9f5ab5987eba06ec1a27602c3b2c9e8f8c74fc65bac20751c85e1c1d58b10924.json",
+      "sha256": "9f5ab5987eba06ec1a27602c3b2c9e8f8c74fc65bac20751c85e1c1d58b10924",
+      "bytes": 11078,
+      "role": "extractor",
+      "program_version": "1.5.3",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium"
+    },
+    {
+      "path": "objects/f2f83fc28184d48487f6ef350999f2bd14223173f6327d2ce37ebfe15e711a35.json",
+      "sha256": "f2f83fc28184d48487f6ef350999f2bd14223173f6327d2ce37ebfe15e711a35",
+      "bytes": 6979,
+      "role": "reviewer",
+      "program_version": "1.5.3",
+      "model": "zai.glm-5.3-flash?reasoning=low"
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "«Оборудование на напряжение до1000В» is a voltage/upper-bound category. «Оборудование напрямую до1000В» changes its meaning. Faithful paraphrase is allowed, unsupported adverbs are not. Do not count template X-count or Э/З in a dummy stamp as additional engineering-accuracy gains."
+}
