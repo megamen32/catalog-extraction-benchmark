@@ -1,0 +1,85 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 180,
+  "printed_page": "180",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "innovations-0180-native-candidate.json",
+    "sha256": "d167124a8328e430c2f4a2e4b4b37ee5314c634687aedfec0c5189f2f0e5dd47",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.6",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "ca9cb343d7402f9bdb421b4fc5bc0b77ee1cff94b255122f592b3fda0e12f0b3",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "d167124a8328e430c2f4a2e4b4b37ee5314c634687aedfec0c5189f2f0e5dd47",
+      "source_bound_save": true,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 180,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "3031f54101971a2d9729b048304180edaaf22cda716b98c15339c8c61c45fa7b",
+      "receipt": "calls/623ad068b8db48c8a037080fc6c621ea/result.json",
+      "started_at": 1791943546.5827205,
+      "finished_at": 1791943636.8707402
+    }
+  },
+  "output": {
+    "file": "innovations-0180-reviewed-r2.json",
+    "sha256": "ef7eb826d2ec37f59c194635cd529b3dc13ff24eb73de9a337147cbc35e56947"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "e03410658a86633354a76f10514d31ff1e5dbc995300e23ff156a6a98a808d55",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      7
+    ],
+    "column_counts": [
+      6
+    ],
+    "cells_checked": 42
+  },
+  "source_findings": [
+    "Замечание независимого mod1 повторно сопоставлено с оригинальным изображением и уже полностью сверенной таблицей. Изменены только перечисленные поля; все таблицы побайтно сохранены.",
+    "Нижняя граница evidence[1] расширена с .64 до .65, чтобы полностью охватить слово «установки.» в конце блока преимуществ. Остальное unchanged."
+  ],
+  "corrections": [
+    "Нижняя граница evidence[1] расширена с .64 до .65, чтобы полностью охватить слово «установки.» в конце блока преимуществ. Остальное unchanged."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T14:46:08.136867+00:00",
+  "previous_reviewed_output": {
+    "file": "innovations-0180-reviewed.json",
+    "sha256": "0883458ab7cce969cf44a2b4ea18417de7dfae3a4fed10a5fed1b6690b679066"
+  },
+  "supersedes_source_review": {
+    "file": "innovations-0180-source-review.json",
+    "sha256": "911622bda062c1c6df13a1ce79763d1b297c836e2aa8480a73bf452a601f76a1"
+  },
+  "private_original_receipt_sha256": "27078f495915341f91847382d671219f433eb958b841d119f6b820624eb3f1da"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "innov104-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 104: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 104
+  },
+  "review_basis": "[\"Полный оригинал просмотрен целиком. Три пункта преимуществ, включая защиту птиц через предметы для гнездообразования и оба условия коротких замыканий, полностью совпали.\", \"Таблиц, размеров и изображений нет; бренд manufacturing association, ООО «МЗВА», телефон, info@mzva.ru, сайт и номер 104 сверены.\"] Исправления: [\"Общее пояснение раздела без марок и параметров отнесено к supporting_material во всех контекстных повторах.\", \"Evidence расширен вверх на заявленную рубрику; удалено ложное утверждение, что в текстовых блоках сохранены разрывы переносов.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/0487b483de55f8a5b9e9ac3190b010d0f5a54ca22b5ed3f8871a5ed7d4e88532.json",
+      "sha256": "0487b483de55f8a5b9e9ac3190b010d0f5a54ca22b5ed3f8871a5ed7d4e88532",
+      "bytes": 5084,
+      "role": "native-candidate",
+      "program_version": "1.5.3"
+    },
+    {
+      "path": "objects/d0150f852647c2eb6c2aab5bc80217fd8efc4c99dc47bbb7f4dc781dbf867b0c.json",
+      "sha256": "d0150f852647c2eb6c2aab5bc80217fd8efc4c99dc47bbb7f4dc781dbf867b0c",
+      "bytes": 4119,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r1"
+    },
+    {
+      "path": "objects/8f6ddfe252c09bc96d45c1a741122b75b41b4e0318854da3eaaffa3a74cb9ebb.json",
+      "sha256": "8f6ddfe252c09bc96d45c1a741122b75b41b4e0318854da3eaaffa3a74cb9ebb",
+      "bytes": 3585,
+      "role": "source-review",
+      "program_version": "tail-mod0-20261014.r1"
+    }
+  ]
+}

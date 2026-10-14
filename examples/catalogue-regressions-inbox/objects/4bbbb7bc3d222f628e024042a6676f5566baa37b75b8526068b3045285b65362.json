@@ -1,0 +1,72 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 158,
+  "printed_page": "158",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "df5117769e7bd2a62d55dc92cb7bc41f7ed69156fb308689be9e3c1211a43427",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.4",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "03d94c1397ffd39d50a89db0b4d9ae29d17f13e5293b2fcbda6e8b4ec34d8c0c",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "df5117769e7bd2a62d55dc92cb7bc41f7ed69156fb308689be9e3c1211a43427",
+      "source_bound_save": true,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 158,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4d5faa2b87b39793b899bfd40ccb8b7b4ff5223f5cfe2aed7fb1c9e3580c2e6b",
+      "receipt": "calls/fd077f2603674e319ab59194ea2443aa/result.json",
+      "started_at": 1791941858.776844,
+      "finished_at": 1791941888.9678257
+    }
+  },
+  "output": {
+    "file": "innovations-158-reviewed.json",
+    "sha256": "5369761585bf5c84abf4733010608db0af32803e5989918e8547108244372e04"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "4dfe242bc4b0f9121a922a845d896d9aa1a45bcc9d9d6460411132b6fd329d47",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      5
+    ],
+    "column_counts": [
+      2
+    ],
+    "cells_checked": 10
+  },
+  "source_findings": "Все10 ячеек5×2,диапазоны13,0–16,8/17,1–19,8/21,6–26,6/27,5–30,6/31,5–37,7,L400/500/600,ТУ2015 и4функции сохранены.",
+  "corrections": [
+    "Шесть выдуманных ветвей/клипс заменены на настоящие пять; L — между соседними центрами проводов.",
+    "Исправлена ложная русская подпись логотипа «производственная ассоциация»."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T18:04:00.329909+03:00",
+  "private_original_receipt_sha256": "3bec2171dfbdf59561510d55aa2b064dd5ee4ecb9c9ae67400666b44d53c9de4"
+}

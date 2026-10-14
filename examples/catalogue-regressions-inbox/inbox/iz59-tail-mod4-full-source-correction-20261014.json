@@ -1,0 +1,36 @@
+{
+  "id": "iz59-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "isolators, страница 59: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-IZOLJaTORY.pdf",
+    "sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+    "physical_page": 59
+  },
+  "review_basis": "[\"Все 168 значений таблицы верны, включая пары напряжения/радиопомех, знаки / и тире в МЭК.\", \"Native неверно задал H как полный габарит, выдумал поперечный болтовой шарнир, отдельную шайбу и неподписанную цементную заделку; текстовый слой cтроительная реально присутствует.\"] Исправления: [\"Восстановлены присоединительные базы H/D/d и нейтральное описание неподписанных слоёв/фиксатора.\", \"Исправлено утверждение о наличии текста в исходном слое; все табличные поля неизменны.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/d741dd1b8498a31be48893b71305f288e40ed3e54876f8fb42169db31af4cf70.json",
+      "sha256": "d741dd1b8498a31be48893b71305f288e40ed3e54876f8fb42169db31af4cf70",
+      "bytes": 32801,
+      "role": "native-candidate",
+      "program_version": "1.4.2"
+    },
+    {
+      "path": "objects/2e6e4e30a84bc0371c10b2b9fbcf4d0bf471c623f81e44d3f72b06b6ba1d1175.json",
+      "sha256": "2e6e4e30a84bc0371c10b2b9fbcf4d0bf471c623f81e44d3f72b06b6ba1d1175",
+      "bytes": 35187,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-isolators-20261014.r2"
+    },
+    {
+      "path": "objects/7f086f65b511373d5a4f17d8fedee4ff6571af6edea922e35bc608b4cb261b24.json",
+      "sha256": "7f086f65b511373d5a4f17d8fedee4ff6571af6edea922e35bc608b4cb261b24",
+      "bytes": 15024,
+      "role": "source-review",
+      "program_version": "tail-mod3-isolators-20261014.r2"
+    }
+  ]
+}

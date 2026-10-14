@@ -1,0 +1,74 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 190,
+  "printed_page": "190",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "2fd965237dbb4a14b3387917d5a2d112634d7f894d5180b39cc8c288a8bbee5d",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.8",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "56b47ab11c142fdd0d89ade636eb52fff30220c3425401678e2bf74c18b69c62",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "2fd965237dbb4a14b3387917d5a2d112634d7f894d5180b39cc8c288a8bbee5d",
+      "source_bound_save": true,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 190,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "ad43db8eeb96f6a5b1aab82eb07fb8d999a3c90cd9e1f094a41f378634f1d7ae",
+      "receipt": "calls/a1bf3990c41e4866ae8c885cc6bd4509/result.json",
+      "started_at": 1791944482.918279,
+      "finished_at": 1791944569.2036324
+    }
+  },
+  "output": {
+    "file": "innovations-190-reviewed.json",
+    "sha256": "35cc4c33abb5bdbf9909afbb235da908dbed099aef58af077d86fadf536af2d5"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "fc986637e47446e22d18d71205f28e367da5d5269d18c0e77dff8a93d73f7332",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      15
+    ],
+    "column_counts": [
+      4
+    ],
+    "cells_checked": 60
+  },
+  "source_findings": [
+    "Сверены60 ячеек15×4, объединённая120,0кН на все строки, разные массы20,0/20,10/20,15…20,45 и смешанные АСку/АСк2у не потеряны."
+  ],
+  "corrections": [
+    "Ø22 восстановлен как диаметр прутка,65/38 привязаны к касательной протектора и плоскости пластины, не выдуманной ширине проёма.",
+    "Убрано ложное название нижнего блока «протектор»;17/249/300 получили собственные элементы."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T17:51:46.882383+03:00",
+  "private_original_receipt_sha256": "de5b73532c1f3d1eb76f15faa357c44d9df3e8902d79a5d5a877712dbcd505c6"
+}

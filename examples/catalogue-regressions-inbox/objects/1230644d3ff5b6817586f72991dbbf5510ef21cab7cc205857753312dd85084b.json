@@ -1,0 +1,96 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 71,
+  "printed_page": "71",
+  "status": "awaiting_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod3",
+    "task": "/root/catalog_tail_mod3",
+    "version": "tail-mod3-innovations71-20261014.r2",
+    "model_id": "Current native Codex worker session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "innovations-71-candidate.json",
+    "sha256": "834258a7e0b62613bae521426d2b42d6b5b717a8d10f0fc33386344c5c52e28e",
+    "canonical_sha256": "573f4e12d1f137e61d5fe4e5d524092d8f7d0cb001c7f438c615e3412c91f335",
+    "producer": {
+      "program": {
+        "package_version": "1.5.3",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "531e9bea963ef7592a9a09035761b155f81fbf1ba43027dc5c7017c55e9693fe",
+        "python_version": "3.12.13"
+      },
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 71,
+      "attempt": 2,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "3b4165e5e56d3a8455b883aea55738aa0e06f3159a60ba01bc9d5ccabf1f6d10",
+      "artifact_sha256": "834258a7e0b62613bae521426d2b42d6b5b717a8d10f0fc33386344c5c52e28e",
+      "started_at": 1791938518.6168737,
+      "finished_at": 1791938634.7459254,
+      "provider_rate_limit_events": 0,
+      "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46",
+      "status": "receipt_verified",
+      "source_bound_save": true,
+      "receipt": ".tmp/full-digitization/staged-best-v1.4.8/innovations/page-0071/calls/70d1e166a88a4861875f2669b502bd93/result.json",
+      "frozen_receipt": "innovations-71-native-receipt.json",
+      "frozen_receipt_sha256": "7748546987afa925e50e0ddc83772312c0f59d3ce9ff4344bdcbfcffb755a868"
+    }
+  },
+  "output": {
+    "file": "innovations-71-reviewed-r2.json",
+    "sha256": "f1b62716b2d4471513396283923d51df3bd4277f5f7ea7c22c518f56b9c176c0",
+    "canonical_sha256": "6c6b34035bc06c507fb6fffb6f872bb787d639af5404e112620210236a0bf236"
+  },
+  "full_original_image_review": true,
+  "original_image": "innovations-71.png",
+  "original_image_sha256": "873ef72e742c4e6004428cc19eb092caed3b727289ff9ad380dc9bbb70f95f7f",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "page_content_schema": true
+  },
+  "tables": {
+    "row_counts": [
+      48
+    ],
+    "column_counts": [
+      6
+    ],
+    "cells_checked": 288
+  },
+  "source_findings": [
+    "Оригинал целиком и два собственных 5× кропа таблицы просмотрены. Все 288 ячеек 48×6 и все марки подтверждены. Три группы по 16 исполнений действительно совпадают по присоединительным значениям; высоты 400/440/475 имеют только реальные объединения, 420/423/500 отдельные.",
+    "Резьбовые 4М12/4М16 и гладкие 4Ø13/4Ø14/4Ø18 сохранены различно. Ø225(□160) дан в обоих столбцах D1/D2 трёх Г04-3; наружный габарит из этой записи не вычислялся.",
+    "Текст, бренды, единицы, контакты, печатная 71 и отсутствие рисунков подтверждены. Native candidate канонически и побайтно сохранён без изменений.",
+    "После независимого замечания mod1 повторно просмотрен полный оригинал71: заголовок подраздела на y≈0.071–0.096 выше прежней области evidence. Верхняя граница первой области расширена с0.11 до0.065; таблица и все остальные поля неизменны."
+  ],
+  "corrections": [
+    "Только page_context.source_evidence[0].box[1]: 0.11 → 0.065."
+  ],
+  "complete_leaf_diff": [
+    {
+      "path": ".page_context.source_evidence[0].box[1]",
+      "before": 0.11,
+      "after": 0.065
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independent_review_required": true,
+  "unresolved_issues": [],
+  "acceptance_note": "No self PASS. Native candidate and actual MiniMax receipt unchanged; separate Codex correction requires independent delta verification.",
+  "completed_at": "2026-10-14T18:18:37.030333+03:00",
+  "private_original_receipt_sha256": "83ce6815c09a36d2a765daba4b7f204c74ad699f27e47cb42a7916395418bbc8"
+}

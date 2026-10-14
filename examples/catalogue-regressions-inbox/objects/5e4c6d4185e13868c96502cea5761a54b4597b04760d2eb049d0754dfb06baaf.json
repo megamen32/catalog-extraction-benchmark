@@ -1,0 +1,73 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 166,
+  "printed_page": "166",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "12e6d7b4a31f1f23a5419ddfffe249456820534d4733118bb3b60ec3dd517915",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.6",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "ca9cb343d7402f9bdb421b4fc5bc0b77ee1cff94b255122f592b3fda0e12f0b3",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "12e6d7b4a31f1f23a5419ddfffe249456820534d4733118bb3b60ec3dd517915",
+      "source_bound_save": true,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 166,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "3031f54101971a2d9729b048304180edaaf22cda716b98c15339c8c61c45fa7b",
+      "receipt": "calls/28409ce812464eb3bdb8e8e553822a7a/result.json",
+      "started_at": 1791942988.1868455,
+      "finished_at": 1791943088.1139636
+    }
+  },
+  "output": {
+    "file": "innovations-166-reviewed.json",
+    "sha256": "5b37a114fbd306c33aa9d25800783d7a257077fc8ca22ab908c68597a9b1d44b"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "1427f928d10070030a08681c819da332722afd54c39b7d1bf9959e4b06f7f3da",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      8
+    ],
+    "column_counts": [
+      9
+    ],
+    "cells_checked": 72
+  },
+  "source_findings": "Все72 ячейки8×9,объединенияH/H₁/B/d/диапазонов/нагрузок иразные массы1,66/1,67…5,00/5,01 сохранены.",
+  "corrections": [
+    "d у рисунков1/3 восстановлен как пруток скобы; B/d рисунка5 — внутренний просвет/поперечный палец.",
+    "H₁ и65 привязаны к собственным границам; Ø10/12 — диаметры выступающих стержней, не отверстий.",
+    "Уточнена общая для60/100кН привязка рисунков5/6 без ложного назначения рисунка6 базовому Л."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T18:04:00.326251+03:00",
+  "private_original_receipt_sha256": "878d664aeaadd28bdcee8194c1974bce469d61f3257240ce2e0b65a3c7e5a6c3"
+}

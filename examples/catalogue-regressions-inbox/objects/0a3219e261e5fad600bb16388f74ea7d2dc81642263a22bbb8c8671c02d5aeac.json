@@ -1,0 +1,87 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 26,
+  "printed_page": "25",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r3",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "691a09fb69c222a170d7522f0bb23c179d0136421e003eb0c3055f14142af299",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.3",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "531e9bea963ef7592a9a09035761b155f81fbf1ba43027dc5c7017c55e9693fe",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "691a09fb69c222a170d7522f0bb23c179d0136421e003eb0c3055f14142af299",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 26,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "3b4165e5e56d3a8455b883aea55738aa0e06f3159a60ba01bc9d5ccabf1f6d10",
+      "receipt": "calls/c149f7f9e0df49f8841fe1a27b3eb3ad/result.json",
+      "started_at": 1791938648.951039,
+      "finished_at": 1791938739.8995333
+    }
+  },
+  "output": {
+    "file": "armature-26-reviewed-r3.json",
+    "sha256": "5338d0263cf2a21eec7a948238c307d4819d27cec65173e63351572372356560"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "dc7620984af409ffa20c54d5e4d263263a048c495233be61ddb37cdae993b42a",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      12
+    ],
+    "column_counts": [
+      11
+    ],
+    "cells_checked": 132
+  },
+  "source_findings": [
+    "Все132 ячейки сверены, включая УСК-12-16 d₁32 иH90 удвух разных УСК.",
+    "УСкрепит защитную арматуру,УСК короче и не предназначен для неё;ТУ/назначение сохранены."
+  ],
+  "corrections": [
+    "Перестановка ошибочно назначенных рисункам1/2 типоразмеров устранена по таблице.",
+    "d₁max свободный проход,dгнутый палец,Dвнутренняя шейка; H внутренние поверхности,H₁полный.",
+    "Удалены выдуманные уже установленные скобыСК/коромысло и заклёпанная пластина.",
+    "Размерные мм общей шапки перенесены в графы; табличные значения прежние.",
+    "Устранено противоречие: d₁ max в примечании относится к свободному проходу, а не к диаметру шарнирного пальца.",
+    "Пояснения и описания записаны с нормальными пробелами; буквальные маркировки и табличные поля сохранены.",
+    "Пять оставшихся склеек в пояснительном тексте разделены пробелами; смысл и все табличные значения прежние."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T17:44:38.754015+03:00",
+  "previous_author_revision": {
+    "content": "armature-26-reviewed-r2.json",
+    "content_sha256": "82e5e4f8654ded1b1aa421beee279ef08d13df153a56d26e6bd3e7cc2e37dedf",
+    "receipt": "armature-26-source-review-r2.json",
+    "receipt_sha256": "d3192540bad01891a514b891b670954b3147372a65833b79568a82657428693f"
+  },
+  "revision": 3,
+  "private_original_receipt_sha256": "3370b7c8e396cbc8efbb3c8bd287f9bfb9bd9d657fe9950120a2ce6098eb2260"
+}

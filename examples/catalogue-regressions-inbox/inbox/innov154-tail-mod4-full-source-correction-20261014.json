@@ -1,0 +1,36 @@
+{
+  "id": "innov154-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 154: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 154
+  },
+  "review_basis": "Полный оригинал154 прочитан и неизменный native совпадает по смыслу:крутильная жёсткость противгололёда,зажим/особыйтрос/дваразномассовыхгруза иразныеотрезки,дополнительное виброгашение,бесплатные схемыпоопроснымлистам,П/П1протекторы,статические/динамические деформации,изгибная жёсткость/усталость,спирали/склеенные пряди.Все контакты верны,числовых таблиц/чертежей нет. Исправления: [\"Исправлены реальные области двух заголовков и всего пояснения, обоих логотипов и неверная буквальная расшифровка подписи ФОРЭНЕРГО; основные тексты сохранены.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/2ac6106a1ab4c190930f9bd64ae2e92ccf78c1318a601c7273e8fe3638c75d45.json",
+      "sha256": "2ac6106a1ab4c190930f9bd64ae2e92ccf78c1318a601c7273e8fe3638c75d45",
+      "bytes": 7411,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/548686d4ade5d4ba388b269966debb532d7bc3b41eebcb5f54f186b6802acbc5.json",
+      "sha256": "548686d4ade5d4ba388b269966debb532d7bc3b41eebcb5f54f186b6802acbc5",
+      "bytes": 7352,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r2"
+    },
+    {
+      "path": "objects/0a8f3b6f1dfaec172466783cd946bca6609ac908a5cf15f70d3a5fc10127702c.json",
+      "sha256": "0a8f3b6f1dfaec172466783cd946bca6609ac908a5cf15f70d3a5fc10127702c",
+      "bytes": 3580,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r2"
+    }
+  ]
+}

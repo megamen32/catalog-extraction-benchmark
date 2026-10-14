@@ -1,0 +1,80 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 156,
+  "printed_page": "156",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "innovations-0156-native-candidate.json",
+    "sha256": "e11525546aa396c4040da22eccdbf028cc6696e81274ca3f74c9f0a23c617caa",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.4",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "03d94c1397ffd39d50a89db0b4d9ae29d17f13e5293b2fcbda6e8b4ec34d8c0c",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "e11525546aa396c4040da22eccdbf028cc6696e81274ca3f74c9f0a23c617caa",
+      "source_bound_save": true,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 156,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4d5faa2b87b39793b899bfd40ccb8b7b4ff5223f5cfe2aed7fb1c9e3580c2e6b",
+      "receipt": "calls/5b15b91535cf40e686acc7cd669e15b3/result.json",
+      "started_at": 1791941782.9734113,
+      "finished_at": 1791941863.3802543
+    }
+  },
+  "output": {
+    "file": "innovations-0156-reviewed.json",
+    "sha256": "3619ac359f049f6e0f5eb32d9ceaf94245a84f295dc4c4feba320552860d7660"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "63facb437f550e440aa97bbbec2f7d87476a1f6832cd7845e8ac1fa498b526bf",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      5
+    ],
+    "column_counts": [
+      2
+    ],
+    "cells_checked": 10
+  },
+  "source_findings": [
+    "Полный оригинал и крупная маркировка просмотрены. Все 10 ячеек 5×2 совпали: пять моделей и диапазонов 13,0–16,8 …31,5–37,7. Строка L=400мм,500мм,600мм сохранена в исходном виде.",
+    "Три L проверены между осями проводов, D по внутреннему каналу правого верхнего зажима. Все четыре функции, ТУ 3449-005-52819896-2015, ВЕРХ со стрелками, логотипы и контакты сверены. Нечитаемые дополнительные знаки не угаданы."
+  ],
+  "corrections": [
+    "Исправлена подпись ФОРЭНЕРГО на «производственное объединение», верхняя область охватывает рубрику.",
+    "Удалено необоснованное объявление «эоловой» опечаткой; убрано утверждение о несущественности нечитаемой маркировки, остаток честно вынесен в uncertainties."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [
+    "Дополнительные мелкие знаки рядом с повёрнутой маркировкой 3РГД на корпусе не прочитаны полностью: увеличенный исходный растр не даёт уверенного буквального чтения."
+  ],
+  "completed_at": "2026-10-14T17:48:12.936847+03:00",
+  "private_original_receipt_sha256": "831f21bd7bd7bff05f004f88d79f06d0d2a85c26cdb8750a762f5636e9c72189"
+}

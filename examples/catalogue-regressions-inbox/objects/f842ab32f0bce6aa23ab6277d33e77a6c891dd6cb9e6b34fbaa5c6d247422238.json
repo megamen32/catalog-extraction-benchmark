@@ -1,0 +1,99 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_filename": "Katalog-ARMATURA.pdf",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 21,
+  "printed_page": "20",
+  "status": "author_source_review_complete_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod1",
+    "task": "/root/catalog_tail_mod1",
+    "version": "tail-mod1-20261014.r2",
+    "model_id": "Current native Codex session;exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-21-candidate.json",
+    "sha256": "7b29f5dffd5d72d06d0bf8f5b4056936ce97d6f9e51657bbceca9560d11f994d",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.3",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "531e9bea963ef7592a9a09035761b155f81fbf1ba43027dc5c7017c55e9693fe",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "7b29f5dffd5d72d06d0bf8f5b4056936ce97d6f9e51657bbceca9560d11f994d",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 21,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "3b4165e5e56d3a8455b883aea55738aa0e06f3159a60ba01bc9d5ccabf1f6d10",
+      "receipt": "calls/cb27f43aaac5470e9a41239689b4ffc2/result.json",
+      "started_at": 1791938460.4219635,
+      "finished_at": 1791938501.2174976
+    },
+    "receipt_file": "armature-21-producer-receipt.json",
+    "receipt_sha256": "dff3411e4df7b029b35f2ca2925233fc755e759071b86202daec7917fd7f17d1",
+    "receipt_artifact_equals_candidate": true
+  },
+  "output": {
+    "file": "armature-21-reviewed-r2.json",
+    "sha256": "909a9ab933696cd184dc294457d726eb8c99f149fee80cf137aed0d66a7b7273",
+    "author": "catalog_tail_mod1"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "7affa26b3bdfc829a047af3490e4fc7771222fb8edb14a3b76bc2613aec2660e",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "pagecontent_schema_valid": true
+  },
+  "tables": {
+    "row_counts": [],
+    "column_counts": [],
+    "cells_checked": 0
+  },
+  "source_findings": [
+    "Полный оригинал сверён построчно: вводная фраза,СК-70-1Б/СК-120-1Б,СРД,УД и заключение об изолирующих подвесках полностью совпадают; таблиц/чертежей нет. Брендинг,номер20 и все контакты сохранены. Изменений native candidate не требуется; producer и completed receipt доказаны."
+  ],
+  "corrections": [
+    {
+      "path": "page_context.source_evidence[0].observation",
+      "before": "Основной текстовый блок под заголовком «.../ АРМАТУРА СЦЕПНАЯ»: вводная фраза о включении новых изделий в раздел «Сцепная арматура», маркированный перечень скоб СК-70-1Б и СК-120-1Б, серег СРД и ушек УД, заключение о применении в современных проектных решениях изолирующих подвесок. Типографика — каталог (логотип производителя, колонтитул поставщика ООО «МЗВА-ЧЭМЗ», печатный номер страницы 20); ни программного интерфейса, ни заполненной ведомости, ни чертежа на странице нет.",
+      "after": "Основной текстовый блок под заголовком «.../ АРМАТУРА СЦЕПНАЯ»: вводная фраза о включении новых изделий в раздел «Сцепная арматура», маркированный перечень скоб СК-70-1Б и СК-120-1Б, серег СРД и ушек УД, заключение о применении в современных проектных решениях изолирующих подвесок. ни программного интерфейса, ни заполненной ведомости, ни чертежа на странице нет."
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "independent_review_required": true,
+  "independent_review_status": "pending",
+  "separate_model_review_of_root_edits": null,
+  "unresolved_issues": [
+    "Нужна независимая проверка авторского разбора и инженерных отношений."
+  ],
+  "completed_at": "2026-10-14T14:54:44.285896+00:00",
+  "supersedes": {
+    "output": "armature-21-reviewed.json",
+    "sha256": "7b29f5dffd5d72d06d0bf8f5b4056936ce97d6f9e51657bbceca9560d11f994d",
+    "source_review": "armature-21-source-review.json",
+    "source_review_sha256": "0b62665a536cbb7386dacf9d7d3d1f66ac2afdfa1f434acd05c0a4e8f8bae2f1"
+  },
+  "revision_reason": "Из наблюдения основного перечня убраны расположенные вне его области логотип и нижний колонтитул; они сохранены в отдельных правильных evidence.",
+  "revision_corrections": [
+    {
+      "path": "page_context.source_evidence[0].observation",
+      "before": "Основной текстовый блок под заголовком «.../ АРМАТУРА СЦЕПНАЯ»: вводная фраза о включении новых изделий в раздел «Сцепная арматура», маркированный перечень скоб СК-70-1Б и СК-120-1Б, серег СРД и ушек УД, заключение о применении в современных проектных решениях изолирующих подвесок. Типографика — каталог (логотип производителя, колонтитул поставщика ООО «МЗВА-ЧЭМЗ», печатный номер страницы 20); ни программного интерфейса, ни заполненной ведомости, ни чертежа на странице нет.",
+      "after": "Основной текстовый блок под заголовком «.../ АРМАТУРА СЦЕПНАЯ»: вводная фраза о включении новых изделий в раздел «Сцепная арматура», маркированный перечень скоб СК-70-1Б и СК-120-1Б, серег СРД и ушек УД, заключение о применении в современных проектных решениях изолирующих подвесок. ни программного интерфейса, ни заполненной ведомости, ни чертежа на странице нет."
+    }
+  ],
+  "private_original_receipt_sha256": "f594e58fe5a5937cddaedd9624f22aabf404e175063f9388835a39850aabc9fe"
+}

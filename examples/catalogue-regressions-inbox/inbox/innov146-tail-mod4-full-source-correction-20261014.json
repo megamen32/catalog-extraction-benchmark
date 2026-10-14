@@ -1,0 +1,36 @@
+{
+  "id": "innov146-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 146: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 146
+  },
+  "review_basis": "Полностью прочитаны220кВ, назначение отвода электрической дуги,ТУ3449-001-52819896-2010 и все шесть выносок. Все пять размерных значений сверены по собственному5×оригиналу. Исправления: [\"Исправлена ложная расшифровка бренда.\", \"Ø380 отнесён к изолятору, R245 к наружной дуге, устранена путаница колец и расстояния между экранами.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/cf91734b28fd4a172eadd565152943c0128cf7ecf7c781b708b7f5755b8b1eb4.json",
+      "sha256": "cf91734b28fd4a172eadd565152943c0128cf7ecf7c781b708b7f5755b8b1eb4",
+      "bytes": 8025,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/a5ae8b413c8e873240b69065044d068bebcadcd95eb5e29ec6ce1a1faa87d782.json",
+      "sha256": "a5ae8b413c8e873240b69065044d068bebcadcd95eb5e29ec6ce1a1faa87d782",
+      "bytes": 6071,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/3e63ec3b9a557c215afb016faafb6b48ef4a8216b1a4c6007120b1e56e257104.json",
+      "sha256": "3e63ec3b9a557c215afb016faafb6b48ef4a8216b1a4c6007120b1e56e257104",
+      "bytes": 3045,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

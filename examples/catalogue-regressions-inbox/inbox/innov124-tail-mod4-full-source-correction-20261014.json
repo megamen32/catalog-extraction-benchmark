@@ -1,0 +1,36 @@
+{
+  "id": "innov124-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 124: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 124
+  },
+  "review_basis": "[\"Полный оригинал просмотрен целиком. Весь текст назначения, ТУ3449-001-52819896-2018, обе заявленные функции защиты, изготовление по проектной документации и пример ШСИП-220-(21-22,5)-1-7 с пятью расшифровками совпали.\", \"Таблиц и размерных чертежей нет. Фотография не объявлена инженерным чертежом; три рекламных знака, бренд manufacturing association, e-mail info@mzva.ru и номер124 сверены.\"] Исправления: [\"Evidence заголовка и назначения перенесён на фактическую левую колонку; прежняя область начиналась ниже заголовка и захватывала фотографию.\", \"В описании фотографии убрано неподтверждённое определение опоры как анкерной/портальной и слово «стренговыми»; сохранены видимые конструкции и гирлянды изоляторов.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/34e65bb788d7ede6a5f9440af95615ca888c7cc9425732409b3c01119b66eed1.json",
+      "sha256": "34e65bb788d7ede6a5f9440af95615ca888c7cc9425732409b3c01119b66eed1",
+      "bytes": 9025,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/f946728f455d9c0238661220d098270bcd41a1739f9f6fb396e1ce54e1c941aa.json",
+      "sha256": "f946728f455d9c0238661220d098270bcd41a1739f9f6fb396e1ce54e1c941aa",
+      "bytes": 8956,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r1"
+    },
+    {
+      "path": "objects/fc1ffc30fd81ac64e4ac62c5efa0ae9a2470eb16d3389f5cec9eb0118d5b39bc.json",
+      "sha256": "fc1ffc30fd81ac64e4ac62c5efa0ae9a2470eb16d3389f5cec9eb0118d5b39bc",
+      "bytes": 3864,
+      "role": "source-review",
+      "program_version": "tail-mod0-20261014.r1"
+    }
+  ]
+}

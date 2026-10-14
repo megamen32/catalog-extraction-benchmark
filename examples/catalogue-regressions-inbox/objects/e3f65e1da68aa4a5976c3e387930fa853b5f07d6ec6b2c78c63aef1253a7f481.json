@@ -1,0 +1,85 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 152,
+  "printed_page": "152",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "innovations-0152-native-candidate.json",
+    "sha256": "292f0bca64ec0063643202db740c2ca9f20e188a6c7578b60fc8d368304a362a",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.21",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "2301687f1a836b45b5310748b9eff0562539e6ca5d5cae7237a5b8e7ae0f4f91",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "292f0bca64ec0063643202db740c2ca9f20e188a6c7578b60fc8d368304a362a",
+      "source_bound_save": true,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 152,
+      "attempt": 2,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "867b3f790ecc8921609cf97aa738eda3b36ee55598d694455416842fad03be98",
+      "receipt": "calls/bb09209b026745069c6f16f2f0294eb1/result.json",
+      "started_at": 1791987330.4542162,
+      "finished_at": 1791987436.6637495
+    }
+  },
+  "output": {
+    "file": "innovations-0152-reviewed-r2.json",
+    "sha256": "c7402a218a9db92bf236ef18ec10bdcc433f50d692cffc6a40bdc7863a16bb46"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "8eb08c533677b67cfb17521d831e72e291b4a92c7957d04ca5bc6a7eb4151966",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      4
+    ],
+    "column_counts": [
+      7
+    ],
+    "cells_checked": 28
+  },
+  "source_findings": [
+    "Замечания независимого mod1 сопоставлены с полным оригиналом и крупными исходными фрагментами. Все таблицы и числовые значения сохранены; изменены только перечисленные смысловые/геометрические поля или области доказательства.",
+    "Нижняя граница evidence[3] расширена до .60, чтобы полностью охватить нижнюю размерную линию L до y≈.5862."
+  ],
+  "corrections": [
+    "Нижняя граница evidence[3] расширена до .60, чтобы полностью охватить нижнюю размерную линию L до y≈.5862."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T15:19:46.616958+00:00",
+  "previous_reviewed_output": {
+    "file": "innovations-0152-reviewed.json",
+    "sha256": "c7fbd443ae943089b01f142bfd3c814fc7accb8a0fee5f37c4ea0bb370304fa8"
+  },
+  "supersedes_source_review": {
+    "file": "innovations-0152-source-review.json",
+    "sha256": "1f21040441333562bf30c9e6d9e41b83c0f367fe258537077ddc66e43c9f0b97"
+  },
+  "private_original_receipt_sha256": "45ba45b35037097de5b9004e8eec98aa55d2c67d52e427aeabb67395a4305864"
+}

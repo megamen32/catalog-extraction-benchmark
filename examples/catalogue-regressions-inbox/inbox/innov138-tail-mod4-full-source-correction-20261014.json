@@ -1,0 +1,36 @@
+{
+  "id": "innov138-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 138: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 138
+  },
+  "review_basis": "Полная пустая страница-разделитель, только рубрика/логотип/контакты/138; supporting_material, никаких товарных параметров и таблиц. Исправления: [\"В буквальном evidence восстановлено «АРМАТУРА СЦЕПНАЯ» вместо «СЛЕПНАЯ».\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/981f6d5f3ff1d9a64239eec2662e5ec80f1d8bbf2d59fe39f1955a0283de410f.json",
+      "sha256": "981f6d5f3ff1d9a64239eec2662e5ec80f1d8bbf2d59fe39f1955a0283de410f",
+      "bytes": 5311,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/62b6a3905417afbda97b9fb8248a94fb419ef367d2b9efc288ec99eaa49f3b11.json",
+      "sha256": "62b6a3905417afbda97b9fb8248a94fb419ef367d2b9efc288ec99eaa49f3b11",
+      "bytes": 3559,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/75a619ca377df81d43ae3ddabbefbb63362d723426fd3b94219c2c0dc41ddb74.json",
+      "sha256": "75a619ca377df81d43ae3ddabbefbb63362d723426fd3b94219c2c0dc41ddb74",
+      "bytes": 2841,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

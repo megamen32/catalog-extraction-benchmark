@@ -1,0 +1,36 @@
+{
+  "id": "innov130-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 130: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 130
+  },
+  "review_basis": "Все234 ячейки18×13,четыре объединённые группы3/6/5/4строк,матрицыМШ33,8/36,4/41,6,массы16,1/19,45/22,8/26,0 и ГОСТ839-2019 совпали; значения/состояния/единицы таблицы сохранены. Исправления: [\"Модификация6 восстановлена вместо буквыб; видБ отделён от выдуманного разрезаБ–Б.\", \"Определены реальные L₁/L₂/L₃/L₄, толщиныS/S₁, внутренний5 и дуговаяL,все направления опрессования.\", \"Исправлена ложная расшифровка русской подписи бренда.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/00c774bb17ab124792545f95479bd643ba5d421c9aac2a276d34631ddefa9007.json",
+      "sha256": "00c774bb17ab124792545f95479bd643ba5d421c9aac2a276d34631ddefa9007",
+      "bytes": 45069,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/cf03c19b4bda547892abca71cc1587ddc772998b3f61dccde9f6b76acb4185f7.json",
+      "sha256": "cf03c19b4bda547892abca71cc1587ddc772998b3f61dccde9f6b76acb4185f7",
+      "bytes": 42666,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/c827a215fe82f2756d2761a27a99a940b764eeebb153002130a4fee902a9b1b1.json",
+      "sha256": "c827a215fe82f2756d2761a27a99a940b764eeebb153002130a4fee902a9b1b1",
+      "bytes": 3247,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

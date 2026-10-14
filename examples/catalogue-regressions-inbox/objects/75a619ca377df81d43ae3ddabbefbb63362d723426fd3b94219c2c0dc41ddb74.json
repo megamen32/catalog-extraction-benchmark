@@ -1,0 +1,67 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 138,
+  "printed_page": "138",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "981f6d5f3ff1d9a64239eec2662e5ec80f1d8bbf2d59fe39f1955a0283de410f",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.4",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "03d94c1397ffd39d50a89db0b4d9ae29d17f13e5293b2fcbda6e8b4ec34d8c0c",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "981f6d5f3ff1d9a64239eec2662e5ec80f1d8bbf2d59fe39f1955a0283de410f",
+      "source_bound_save": true,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 138,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4d5faa2b87b39793b899bfd40ccb8b7b4ff5223f5cfe2aed7fb1c9e3580c2e6b",
+      "receipt": "calls/2c55d0aa79714c5d9764e0725c18b60b/result.json",
+      "started_at": 1791941169.0116608,
+      "finished_at": 1791941208.4864113
+    }
+  },
+  "output": {
+    "file": "innovations-138-reviewed.json",
+    "sha256": "62b6a3905417afbda97b9fb8248a94fb419ef367d2b9efc288ec99eaa49f3b11"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "212fec8874f1f11a85eb058d2e27afa11817f761927c135594980809c9ed94ec",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [],
+    "column_counts": [],
+    "cells_checked": 0
+  },
+  "source_findings": "Полная пустая страница-разделитель, только рубрика/логотип/контакты/138; supporting_material, никаких товарных параметров и таблиц.",
+  "corrections": [
+    "В буквальном evidence восстановлено «АРМАТУРА СЦЕПНАЯ» вместо «СЛЕПНАЯ»."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T18:21:54.607252+03:00",
+  "private_original_receipt_sha256": "6d01dde029084d75d585371861c974ac8f5b8df3a8552c3d0611de4794e37c57"
+}

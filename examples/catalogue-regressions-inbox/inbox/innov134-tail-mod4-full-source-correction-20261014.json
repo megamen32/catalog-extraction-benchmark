@@ -1,0 +1,36 @@
+{
+  "id": "innov134-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 134: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 134
+  },
+  "review_basis": "Все162 ячейки18×9, восемь объединённых типоразмеров и18сечений совпали с оригиналом. Подтверждены разные300/450/400/500сечения,массы14,8/17,9/21,1/21/24,3 и условиеL=7м. Исходные values/state таблицы неизменны;правка только метаданных единицы и смысла рисунка. Исправления: [\"Исправлены спиральный/стропильный и клиносочленённый, разделены комплектные ШРЦ и внешние натяжные зажимы.\", \"РазмерамD/d/S/L₁/L₂/5/L даны реальные детали и базы; восстановлена явная общая единица мм из шапки таблицы.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/780249711057d1ef9aefce6df65c3653c3a6af567003cd2440da2573f891db82.json",
+      "sha256": "780249711057d1ef9aefce6df65c3653c3a6af567003cd2440da2573f891db82",
+      "bytes": 31630,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/aca2d0758ad656a8a2f275c1e1c3912b421ec1f624f22709ca277e65022265bb.json",
+      "sha256": "aca2d0758ad656a8a2f275c1e1c3912b421ec1f624f22709ca277e65022265bb",
+      "bytes": 31359,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/3700eaa6b647733db20336be189c6ed6ac67f8d024b774770b9a85a5fb85456a.json",
+      "sha256": "3700eaa6b647733db20336be189c6ed6ac67f8d024b774770b9a85a5fb85456a",
+      "bytes": 3347,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

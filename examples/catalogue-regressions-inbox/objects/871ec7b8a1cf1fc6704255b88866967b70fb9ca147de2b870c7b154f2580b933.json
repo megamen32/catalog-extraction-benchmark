@@ -1,0 +1,82 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 202,
+  "printed_page": "стр. 202",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r2",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "e4a83dc0e8f15e084b39f8a9a528c0cc27baa9fcd903541efb3416783d93017e",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.21",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "2301687f1a836b45b5310748b9eff0562539e6ca5d5cae7237a5b8e7ae0f4f91",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "e4a83dc0e8f15e084b39f8a9a528c0cc27baa9fcd903541efb3416783d93017e",
+      "source_bound_save": true,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 202,
+      "attempt": 2,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "867b3f790ecc8921609cf97aa738eda3b36ee55598d694455416842fad03be98",
+      "receipt": "calls/b4d5452ee938426a85d19c3b9f9f7ee8/result.json",
+      "started_at": 1791975427.7731583,
+      "finished_at": 1791975710.7972088
+    }
+  },
+  "output": {
+    "file": "innovations-202-reviewed-r2.json",
+    "sha256": "d2bb71edf0a5142c092dcde91803c7e0226f671a958e3ea1acea584fbd827b39"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "2736ed4d0814fa956eff2a6d3af1a708300698af6f0e17f7d58a56ff60643cf4",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      14
+    ],
+    "column_counts": [
+      17
+    ],
+    "cells_checked": 238
+  },
+  "source_findings": [
+    "Все238 ячеек14×17 сверены, в том числе D₂=30 у120.1/120.2, D₂=40 у150.1–150.3, d₁=8,5 только150.3, L₄373/378 и разные массы185.1/185.3 сохранены."
+  ],
+  "corrections": [
+    "L₄ исправлен с торца проушины на ось её отверстия; L₂ — на отдельную внутреннюю плоскость прямого анкера.",
+    "d₁ восстановлен как внутренний канал анкера, d — проход корпуса, b — толщина проушины вместо конического корпуса.",
+    "L₁/L₂ связаны с отдельными отмеченными плоскостями ВНУТРИ прямых участков, не с фактической границей окончания изгиба."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T18:04:56.981341+03:00",
+  "revision": 2,
+  "previous_author_revision": {
+    "content": "innovations-202-reviewed.json",
+    "content_sha256": "c4c466b77d2cb0719c1c1325a93d44eaeaede64bbd990d1dca02545c6e63a379",
+    "receipt": "innovations-202-source-review.json",
+    "receipt_sha256": "f406eb3f6b2838da6509df3c3a8b4f93db3112da1a56b9843eba5f8179ca657f"
+  },
+  "private_original_receipt_sha256": "f6dafc9fa14a44581faca834ccb283d9591217d7014ed42ababe5a0dc3cf6875"
+}

@@ -1,0 +1,85 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 128,
+  "printed_page": "128",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "innovations-0128-native-candidate.json",
+    "sha256": "b745d7d1c6660ec8225bb4a1dc42ce3fac47772327f39355c9edf86b9911a047",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.4",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "03d94c1397ffd39d50a89db0b4d9ae29d17f13e5293b2fcbda6e8b4ec34d8c0c",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "b745d7d1c6660ec8225bb4a1dc42ce3fac47772327f39355c9edf86b9911a047",
+      "source_bound_save": true,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 128,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4d5faa2b87b39793b899bfd40ccb8b7b4ff5223f5cfe2aed7fb1c9e3580c2e6b",
+      "receipt": "calls/10007ae36d8d4089b39bf461f3b3f946/result.json",
+      "started_at": 1791940749.2251835,
+      "finished_at": 1791940843.0819016
+    }
+  },
+  "output": {
+    "file": "innovations-0128-reviewed-r2.json",
+    "sha256": "18c5468cec47c13500ee93ef05c1d2c24357d914d627468a6b9d5660906c3e11"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "64c19cdf98e1163c8a640323117e81750636ae13b4848521bc1fb4952c5484d7",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      18
+    ],
+    "column_counts": [
+      11
+    ],
+    "cells_checked": 198
+  },
+  "source_findings": [
+    "Замечания независимого mod1 сопоставлены с полным оригиналом и крупными исходными фрагментами. Все таблицы и числовые значения сохранены; изменены только перечисленные смысловые/геометрические поля или области доказательства.",
+    "Исправлена моя ошибочная привязка верхней базы L₄ в первом reviewed: общий исходный выносной от нижнего торца НАС связывает верх L₄ с низом L₁, а не с верхней внутренней базой L₁. Нижняя база L₄ — верхняя граница перемычки 5. Это авторская ревизия собственного описания, не новый native receipt."
+  ],
+  "corrections": [
+    "Исправлена моя ошибочная привязка верхней базы L₄ в первом reviewed: общий исходный выносной от нижнего торца НАС связывает верх L₄ с низом L₁, а не с верхней внутренней базой L₁. Нижняя база L₄ — верхняя граница перемычки 5. Это авторская ревизия собственного описания, не новый native receipt."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T15:19:46.637783+00:00",
+  "previous_reviewed_output": {
+    "file": "innovations-0128-reviewed.json",
+    "sha256": "e75ec806227eab8a9ad833b4ccd11033be3ddf066b1260a04146348a8c1591a9"
+  },
+  "supersedes_source_review": {
+    "file": "innovations-0128-source-review.json",
+    "sha256": "0ebe309a086c83d76f24dcefd72bd9ee5f40cc5b1e73390a9161a366e5456750"
+  },
+  "private_original_receipt_sha256": "6a0bb8d8b7caf1c3b2d67b01af8076d6a9bae9cb90d0797d7619d99a5164fef7"
+}

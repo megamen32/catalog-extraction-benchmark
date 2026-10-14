@@ -1,0 +1,73 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 130,
+  "printed_page": "130",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "00c774bb17ab124792545f95479bd643ba5d421c9aac2a276d34631ddefa9007",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.4",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "03d94c1397ffd39d50a89db0b4d9ae29d17f13e5293b2fcbda6e8b4ec34d8c0c",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "00c774bb17ab124792545f95479bd643ba5d421c9aac2a276d34631ddefa9007",
+      "source_bound_save": true,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 130,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4d5faa2b87b39793b899bfd40ccb8b7b4ff5223f5cfe2aed7fb1c9e3580c2e6b",
+      "receipt": "calls/04434e1e3b0a42e6bc8e217a16c0c3cd/result.json",
+      "started_at": 1791940831.712854,
+      "finished_at": 1791940903.0589364
+    }
+  },
+  "output": {
+    "file": "innovations-130-reviewed.json",
+    "sha256": "cf03c19b4bda547892abca71cc1587ddc772998b3f61dccde9f6b76acb4185f7"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "40f55c56211467a866af1d7bef6d18dde5d60c1ba05b508ed719eadb6fdf6d6b",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      18
+    ],
+    "column_counts": [
+      13
+    ],
+    "cells_checked": 234
+  },
+  "source_findings": "Все234 ячейки18×13,четыре объединённые группы3/6/5/4строк,матрицыМШ33,8/36,4/41,6,массы16,1/19,45/22,8/26,0 и ГОСТ839-2019 совпали; значения/состояния/единицы таблицы сохранены.",
+  "corrections": [
+    "Модификация6 восстановлена вместо буквыб; видБ отделён от выдуманного разрезаБ–Б.",
+    "Определены реальные L₁/L₂/L₃/L₄, толщиныS/S₁, внутренний5 и дуговаяL,все направления опрессования.",
+    "Исправлена ложная расшифровка русской подписи бренда."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T18:21:54.614355+03:00",
+  "private_original_receipt_sha256": "5201c1ff1c0a399470a236b092669c4d05fd3aa5a052916676997222e26f4377"
+}

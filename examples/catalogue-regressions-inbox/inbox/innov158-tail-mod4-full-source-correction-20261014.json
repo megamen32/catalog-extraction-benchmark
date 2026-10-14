@@ -1,0 +1,36 @@
+{
+  "id": "innov158-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 158: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 158
+  },
+  "review_basis": "Все10 ячеек5×2,диапазоны13,0–16,8/17,1–19,8/21,6–26,6/27,5–30,6/31,5–37,7,L400/500/600,ТУ2015 и4функции сохранены. Исправления: [\"Шесть выдуманных ветвей/клипс заменены на настоящие пять; L — между соседними центрами проводов.\", \"Исправлена ложная русская подпись логотипа «производственная ассоциация».\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/df5117769e7bd2a62d55dc92cb7bc41f7ed69156fb308689be9e3c1211a43427.json",
+      "sha256": "df5117769e7bd2a62d55dc92cb7bc41f7ed69156fb308689be9e3c1211a43427",
+      "bytes": 10119,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/5369761585bf5c84abf4733010608db0af32803e5989918e8547108244372e04.json",
+      "sha256": "5369761585bf5c84abf4733010608db0af32803e5989918e8547108244372e04",
+      "bytes": 7429,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/4bbbb7bc3d222f628e024042a6676f5566baa37b75b8526068b3045285b65362.json",
+      "sha256": "4bbbb7bc3d222f628e024042a6676f5566baa37b75b8526068b3045285b65362",
+      "bytes": 3002,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

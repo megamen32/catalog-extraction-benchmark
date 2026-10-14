@@ -1,0 +1,36 @@
+{
+  "id": "innov152-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 152: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 152
+  },
+  "review_basis": "[\"Полный оригинал просмотрен. Все 28 ячеек 4×7 совпали, включая 8,31 на смежных границах, 11,72/11,73, 14,22/14,23 и массы. Печатное расхождение 1050+260 против 1300 у ГВС-12 сохранено.\", \"Фотография, установка на проводе и реальный размерный чертёж сверены раздельно. Прочитаны весь текст, диаметры 12-16 мм и до 20 мм, ТУ 3449-009-52819896-2020, безвозмездный подбор ООО «ФОРЭНЕРГО-ИНЖИНИРИНГ», все контакты.\"] Исправления: [\"Печатный номер исправлен с «page 152» на «152», рубрика отмечена как heading, область доказательства расширена до рубрики.\", \"Длины L/L₁/L₂ явно связаны с торцами и общей плоскостью перехода, без вывода размеров по масштабу.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/292f0bca64ec0063643202db740c2ca9f20e188a6c7578b60fc8d368304a362a.json",
+      "sha256": "292f0bca64ec0063643202db740c2ca9f20e188a6c7578b60fc8d368304a362a",
+      "bytes": 15157,
+      "role": "native-candidate",
+      "program_version": "1.5.21"
+    },
+    {
+      "path": "objects/c7fbd443ae943089b01f142bfd3c814fc7accb8a0fee5f37c4ea0bb370304fa8.json",
+      "sha256": "c7fbd443ae943089b01f142bfd3c814fc7accb8a0fee5f37c4ea0bb370304fa8",
+      "bytes": 14833,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r1"
+    },
+    {
+      "path": "objects/e57b445022a8cbd6b629e6695672a0ef4a46d879dd211c45d07da366a166e214.json",
+      "sha256": "e57b445022a8cbd6b629e6695672a0ef4a46d879dd211c45d07da366a166e214",
+      "bytes": 3750,
+      "role": "source-review",
+      "program_version": "tail-mod0-20261014.r1"
+    }
+  ]
+}

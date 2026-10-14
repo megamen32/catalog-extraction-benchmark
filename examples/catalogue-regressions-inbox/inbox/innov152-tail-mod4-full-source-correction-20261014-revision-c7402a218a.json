@@ -1,0 +1,36 @@
+{
+  "id": "innov152-tail-mod4-full-source-correction-20261014-revision-c7402a218a",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 152: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 152
+  },
+  "review_basis": "[\"Замечания независимого mod1 сопоставлены с полным оригиналом и крупными исходными фрагментами. Все таблицы и числовые значения сохранены; изменены только перечисленные смысловые/геометрические поля или области доказательства.\", \"Нижняя граница evidence[3] расширена до .60, чтобы полностью охватить нижнюю размерную линию L до y≈.5862.\"] Исправления: [\"Нижняя граница evidence[3] расширена до .60, чтобы полностью охватить нижнюю размерную линию L до y≈.5862.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/292f0bca64ec0063643202db740c2ca9f20e188a6c7578b60fc8d368304a362a.json",
+      "sha256": "292f0bca64ec0063643202db740c2ca9f20e188a6c7578b60fc8d368304a362a",
+      "bytes": 15157,
+      "role": "native-candidate",
+      "program_version": "1.5.21"
+    },
+    {
+      "path": "objects/c7402a218a9db92bf236ef18ec10bdcc433f50d692cffc6a40bdc7863a16bb46.json",
+      "sha256": "c7402a218a9db92bf236ef18ec10bdcc433f50d692cffc6a40bdc7863a16bb46",
+      "bytes": 14832,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r1"
+    },
+    {
+      "path": "objects/e3f65e1da68aa4a5976c3e387930fa853b5f07d6ec6b2c78c63aef1253a7f481.json",
+      "sha256": "e3f65e1da68aa4a5976c3e387930fa853b5f07d6ec6b2c78c63aef1253a7f481",
+      "bytes": 3794,
+      "role": "source-review",
+      "program_version": "tail-mod0-20261014.r1"
+    }
+  ]
+}

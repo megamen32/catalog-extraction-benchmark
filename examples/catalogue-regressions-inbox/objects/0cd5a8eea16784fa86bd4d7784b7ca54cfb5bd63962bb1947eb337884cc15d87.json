@@ -1,0 +1,77 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 144,
+  "printed_page": "144",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "innovations-0144-native-candidate.json",
+    "sha256": "c6dc1999534a292ab6d1eeb6718ad88c45343890fa2149647b2e311467708bfb",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.4",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "03d94c1397ffd39d50a89db0b4d9ae29d17f13e5293b2fcbda6e8b4ec34d8c0c",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "c6dc1999534a292ab6d1eeb6718ad88c45343890fa2149647b2e311467708bfb",
+      "source_bound_save": true,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 144,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4d5faa2b87b39793b899bfd40ccb8b7b4ff5223f5cfe2aed7fb1c9e3580c2e6b",
+      "receipt": "calls/a6aa205f0a66432dbaf47f6cb549d447/result.json",
+      "started_at": 1791941338.6201468,
+      "finished_at": 1791941414.6862774
+    }
+  },
+  "output": {
+    "file": "innovations-0144-reviewed.json",
+    "sha256": "764ef58a9d800bfe0561c89f6d0a39a0fdc8138e3cebc1b74ac423fc3b5e0b16"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "3475bcda3e49b18e52b4cde163c2e9279c2df093a1931cd8492d80a6400f884f",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [],
+    "column_counts": [],
+    "cells_checked": 0
+  },
+  "source_findings": [
+    "Полный оригинал и обе увеличенные схемы просмотрены. Таблиц нет. Проверены все марки ЭРВ/ЭРН, серьги и ушка, стрелки А/Б и соответствующие А-А/Б-Б.",
+    "Два Ø400, два Ø515 и четыре подписи Ø255-290 связаны с конкретными контурами. У А-А контур изолятора присутствует, но отдельная подпись Ø255-290 отсутствует. В нижнем зажиме показан провод. Тексты 220 кВ/ТУ, логотипы и контакты сверены."
+  ],
+  "corrections": [
+    "Исправлена функция нижнего зажима: он удерживает провод. Трубчатые экраны больше не названы козырьками.",
+    "Убрано вымышленное повторение подписи Ø255-290 в А-А; этот размер реально указан в сборочных видах и Б-Б.",
+    "Неоднозначное 3/З в подписи марки зажима явно вынесено в uncertainties."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [
+    "В растровой подписи нижнего зажима второго варианта знак между «5-» и «Р» не позволяет уверенно отличить цифру 3 от кириллической З: ПГН-5-[3/З]Р. Полная марка не исправлялась по аналогии с другими страницами."
+  ],
+  "completed_at": "2026-10-14T17:50:13.763215+03:00",
+  "private_original_receipt_sha256": "728fb6c147818580f3e8f46537ae10b58dd3809f40162d70a9e000fa170c6387"
+}

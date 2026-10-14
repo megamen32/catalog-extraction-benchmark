@@ -1,0 +1,36 @@
+{
+  "id": "innov162-tail-mod4-full-source-correction-20261014-revision-de065700d0",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 162: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 162
+  },
+  "review_basis": "Полностью прочитаны четыре абзаца преимуществ:защита выходапровода,статические/динамические деформации,изгибная жёсткость и усталость,спирали/склеенные пряди,исключение пересортицы.Чертежи сопоставлены с собственными6×кропами,таблицнет. Исправления: [\"19,2 восстановлен как внутренний проход,158 — до касательной протектора,300 — лодочка.\", \"Во втором чертеже исправлены Ø22 как пруток,65/38 как расстояния к касательной протектора и плоскости пластины.\", \"Восстановлена кириллическая марка провода АС и удалено ложное утверждение о латинице в текстовом слое.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/85059d1010dea797468170e7da32fbf711f0a6671dff7802b645fac8459d1334.json",
+      "sha256": "85059d1010dea797468170e7da32fbf711f0a6671dff7802b645fac8459d1334",
+      "bytes": 13914,
+      "role": "native-candidate",
+      "program_version": "1.5.5"
+    },
+    {
+      "path": "objects/de065700d052308aca254980207f7214a72546c00903a2fa436bac5caaa128be.json",
+      "sha256": "de065700d052308aca254980207f7214a72546c00903a2fa436bac5caaa128be",
+      "bytes": 9905,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r2"
+    },
+    {
+      "path": "objects/3d029bbdd810e5d18eff1e937d6eb14fdfd114134114df576a8d03d4fcbbc98b.json",
+      "sha256": "3d029bbdd810e5d18eff1e937d6eb14fdfd114134114df576a8d03d4fcbbc98b",
+      "bytes": 3595,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r2"
+    }
+  ]
+}

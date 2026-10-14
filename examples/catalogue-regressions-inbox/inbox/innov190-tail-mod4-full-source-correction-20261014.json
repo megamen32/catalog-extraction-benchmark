@@ -1,0 +1,36 @@
+{
+  "id": "innov190-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 190: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 190
+  },
+  "review_basis": "[\"Сверены60 ячеек15×4, объединённая120,0кН на все строки, разные массы20,0/20,10/20,15…20,45 и смешанные АСку/АСк2у не потеряны.\"] Исправления: [\"Ø22 восстановлен как диаметр прутка,65/38 привязаны к касательной протектора и плоскости пластины, не выдуманной ширине проёма.\", \"Убрано ложное название нижнего блока «протектор»;17/249/300 получили собственные элементы.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/2fd965237dbb4a14b3387917d5a2d112634d7f894d5180b39cc8c288a8bbee5d.json",
+      "sha256": "2fd965237dbb4a14b3387917d5a2d112634d7f894d5180b39cc8c288a8bbee5d",
+      "bytes": 18771,
+      "role": "native-candidate",
+      "program_version": "1.5.8"
+    },
+    {
+      "path": "objects/35cc4c33abb5bdbf9909afbb235da908dbed099aef58af077d86fadf536af2d5.json",
+      "sha256": "35cc4c33abb5bdbf9909afbb235da908dbed099aef58af077d86fadf536af2d5",
+      "bytes": 17623,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/1d13cfabfa0c3e91ef41735fceb1c68c52423f2043c2130817d7535c739c1fe7.json",
+      "sha256": "1d13cfabfa0c3e91ef41735fceb1c68c52423f2043c2130817d7535c739c1fe7",
+      "bytes": 3130,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

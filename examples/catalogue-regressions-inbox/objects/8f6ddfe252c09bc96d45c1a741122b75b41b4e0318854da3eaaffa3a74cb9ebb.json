@@ -1,0 +1,74 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 104,
+  "printed_page": "104",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "innovations-0104-native-candidate.json",
+    "sha256": "0487b483de55f8a5b9e9ac3190b010d0f5a54ca22b5ed3f8871a5ed7d4e88532",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.3",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "531e9bea963ef7592a9a09035761b155f81fbf1ba43027dc5c7017c55e9693fe",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "0487b483de55f8a5b9e9ac3190b010d0f5a54ca22b5ed3f8871a5ed7d4e88532",
+      "source_bound_save": true,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 104,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "3b4165e5e56d3a8455b883aea55738aa0e06f3159a60ba01bc9d5ccabf1f6d10",
+      "receipt": "calls/8f2270c404cc4bde9ad833fa8e164d17/result.json",
+      "started_at": 1791939745.7678628,
+      "finished_at": 1791939770.5422094
+    }
+  },
+  "output": {
+    "file": "innovations-0104-reviewed.json",
+    "sha256": "d0150f852647c2eb6c2aab5bc80217fd8efc4c99dc47bbb7f4dc781dbf867b0c"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "a88cf706b591a56f7a0656424ccf19d266164a393e81f334941b6bb3f550293f",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [],
+    "column_counts": [],
+    "cells_checked": 0
+  },
+  "source_findings": [
+    "Полный оригинал просмотрен целиком. Три пункта преимуществ, включая защиту птиц через предметы для гнездообразования и оба условия коротких замыканий, полностью совпали.",
+    "Таблиц, размеров и изображений нет; бренд manufacturing association, ООО «МЗВА», телефон, info@mzva.ru, сайт и номер 104 сверены."
+  ],
+  "corrections": [
+    "Общее пояснение раздела без марок и параметров отнесено к supporting_material во всех контекстных повторах.",
+    "Evidence расширен вверх на заявленную рубрику; удалено ложное утверждение, что в текстовых блоках сохранены разрывы переносов."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T18:09:44.832115+03:00",
+  "private_original_receipt_sha256": "b967841af9b7307f1cd800c54daa5b653c065c4e9be51e6a26b14201c379954d"
+}

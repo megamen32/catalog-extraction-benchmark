@@ -1,0 +1,36 @@
+{
+  "id": "innov178-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 178: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 178
+  },
+  "review_basis": "[\"Сверены36 ячеек6×6, общиеD/S28/24,35/30,42/36; L130 на первые2 строки и150 на последние4. Марки проводов/ГОСТ839-2019/назначение/преимущества сохранены.\"] Исправления: [\"Восстановлено потерянное130 во второй строке L по настоящей объединённой ячейке.\", \"S восстановлен как размер между плоскими гранями под ключ, удалён выдуманный © под чертежом.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/eee80292447194ec1f082ea2d28aa59779575c2710048090d986ac261978b81d.json",
+      "sha256": "eee80292447194ec1f082ea2d28aa59779575c2710048090d986ac261978b81d",
+      "bytes": 15260,
+      "role": "native-candidate",
+      "program_version": "1.5.6"
+    },
+    {
+      "path": "objects/bd870cd4181c640e5a0bcca956e65969d4d021e371b4033665958d8d0995414f.json",
+      "sha256": "bd870cd4181c640e5a0bcca956e65969d4d021e371b4033665958d8d0995414f",
+      "bytes": 13481,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/a7997f050101d5f7e14ac46abd0e255e7176380c7179a5d690b34a1c690ecb50.json",
+      "sha256": "a7997f050101d5f7e14ac46abd0e255e7176380c7179a5d690b34a1c690ecb50",
+      "bytes": 3093,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

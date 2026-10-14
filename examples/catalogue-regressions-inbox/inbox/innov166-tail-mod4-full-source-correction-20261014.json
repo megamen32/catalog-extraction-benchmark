@@ -1,0 +1,36 @@
+{
+  "id": "innov166-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 166: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 166
+  },
+  "review_basis": "Все72 ячейки8×9,объединенияH/H₁/B/d/диапазонов/нагрузок иразные массы1,66/1,67…5,00/5,01 сохранены. Исправления: [\"d у рисунков1/3 восстановлен как пруток скобы; B/d рисунка5 — внутренний просвет/поперечный палец.\", \"H₁ и65 привязаны к собственным границам; Ø10/12 — диаметры выступающих стержней, не отверстий.\", \"Уточнена общая для60/100кН привязка рисунков5/6 без ложного назначения рисунка6 базовому Л.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/12e6d7b4a31f1f23a5419ddfffe249456820534d4733118bb3b60ec3dd517915.json",
+      "sha256": "12e6d7b4a31f1f23a5419ddfffe249456820534d4733118bb3b60ec3dd517915",
+      "bytes": 23661,
+      "role": "native-candidate",
+      "program_version": "1.5.6"
+    },
+    {
+      "path": "objects/5b37a114fbd306c33aa9d25800783d7a257077fc8ca22ab908c68597a9b1d44b.json",
+      "sha256": "5b37a114fbd306c33aa9d25800783d7a257077fc8ca22ab908c68597a9b1d44b",
+      "bytes": 23968,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/5e4c6d4185e13868c96502cea5761a54b4597b04760d2eb049d0754dfb06baaf.json",
+      "sha256": "5e4c6d4185e13868c96502cea5761a54b4597b04760d2eb049d0754dfb06baaf",
+      "bytes": 3199,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

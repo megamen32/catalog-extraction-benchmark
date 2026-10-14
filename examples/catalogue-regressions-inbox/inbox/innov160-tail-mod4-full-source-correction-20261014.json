@@ -1,0 +1,36 @@
+{
+  "id": "innov160-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 160: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 160
+  },
+  "review_basis": "[\"Полный оригинал просмотрен. Все 14 ячеек двух таблиц 5×2 и 2×2 совпали. Проверены обе вертикальные связи: новый ПГ-25/6-12 для двух старых аналогов и старый ПГ-2-11 (А,Б,Д) для двух ПГГ.\", \"Все четыре абзаца преимуществ и числа 30%, 4/8, необычное ПГГ-25/612А, бренды и контакты сверены. Таблицы не исправлялись, чертежей нет.\"] Исправления: [\"Исправлен бренд «производственная компания» на фактическое «производственное объединение».\", \"Все три области evidence перенесены к реальным блокам: текст .075–.26, таблицы .29–.383/.345. Прежние координаты таблиц попадали в пустую область. Убрано внутреннее имя парсера из заметки.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/3284b826988279b35339b4264314ca6d11b7caea232a9b49fd7cd93779fcc3b1.json",
+      "sha256": "3284b826988279b35339b4264314ca6d11b7caea232a9b49fd7cd93779fcc3b1",
+      "bytes": 9881,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/3a8201b4eaee7a4a84c1611ecbf35a69249ed0a23703fcf73f7c19229b8369a9.json",
+      "sha256": "3a8201b4eaee7a4a84c1611ecbf35a69249ed0a23703fcf73f7c19229b8369a9",
+      "bytes": 10166,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r1"
+    },
+    {
+      "path": "objects/025b8aaf14d6de8d502d92d2461ee498aca95054316279d1964c65da9057106b.json",
+      "sha256": "025b8aaf14d6de8d502d92d2461ee498aca95054316279d1964c65da9057106b",
+      "bytes": 3758,
+      "role": "source-review",
+      "program_version": "tail-mod0-20261014.r1"
+    }
+  ]
+}

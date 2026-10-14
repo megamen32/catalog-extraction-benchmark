@@ -1,0 +1,36 @@
+{
+  "id": "iz51-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "isolators, страница 51: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-IZOLJaTORY.pdf",
+    "sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+    "physical_page": 51
+  },
+  "review_basis": "[\"Все 168 ячеек и буквальные заголовки верны, включая настоящую опечатку «остоянии», тире/переносы МЭК и дробные записи высот.\", \"Native выдумал болтовое соединение, флажок и назвал H полным наружным габаритом, d диаметром сферы; рисунок этого не подтверждает.\"] Исправления: [\"Восстановлены присоединительные базы H/D/d и видимые элементы без ненапечатанных материалов и механизмов.\", \"Уточнено происхождение Unicode c и удалено утверждение о фиктивном пустом ряде; таблица неизменна.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/68dcc6ed8eda5d40c6b3ccc14f5b39677f700df863ce637c8e055e5ebe5d3fe2.json",
+      "sha256": "68dcc6ed8eda5d40c6b3ccc14f5b39677f700df863ce637c8e055e5ebe5d3fe2",
+      "bytes": 35670,
+      "role": "native-candidate",
+      "program_version": "1.4.15"
+    },
+    {
+      "path": "objects/58d55f76e1b9255ea14e6e72e38eb3b22504494cf3f802d2fbae0e6a4dd0cdd5.json",
+      "sha256": "58d55f76e1b9255ea14e6e72e38eb3b22504494cf3f802d2fbae0e6a4dd0cdd5",
+      "bytes": 37474,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-isolators-20261014.r1"
+    },
+    {
+      "path": "objects/c850f6b4778f9171bb6e4419036aa57dbf8cdf7e524f95a7ed95ede5ac801f08.json",
+      "sha256": "c850f6b4778f9171bb6e4419036aa57dbf8cdf7e524f95a7ed95ede5ac801f08",
+      "bytes": 13103,
+      "role": "source-review",
+      "program_version": "tail-mod3-isolators-20261014.r1"
+    }
+  ]
+}

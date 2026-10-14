@@ -1,0 +1,36 @@
+{
+  "id": "arm75-tail-mod4-full-source-correction-20261014-revision-3f1ae56719",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 75: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 75
+  },
+  "review_basis": "Все16 ячеек4×4 совпадают:24–33,2 для первых двух,34,5;37,5 для третьей,45/37 для последней;61,5/41,5/42,9/33,8кг и300/300/300/240кН. Два собственных6×кропа проверяют каждую стрелку; сохранены506,5/346/68/571/638 и оба34. Различие З/3 установлено по исходному текстовому слою, не исправлено по догадке. Root независимо обнаружил противоречие: в моём text_blocks[6] подписи рисунков ошибочно начинались с буквы З. На оригинале подписи и таблица имеют цифру 3, как уже правильно записано в source_notes и figures. Групповой заголовок с З не меняется. Исправления: [{\"path\": \"branding/figures/source_notes/page_context\", \"reason\": \"Исправлены владельцы диаметров прутков и высот, восстановлен68, два34 не исправлялись по масштабу. Глухие не названы неразъёмными.\"}, \"Исправлены только два префикса в text_blocks[6]; все 16 ячеек, все размеры и остальные поля PageContent неизменны.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/1b8053cd0531b4d121f1dc92764c0b9a4647e235b055af01b20f05844f70c54a.json",
+      "sha256": "1b8053cd0531b4d121f1dc92764c0b9a4647e235b055af01b20f05844f70c54a",
+      "bytes": 12258,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/3f1ae56719c3f0400fe94c3fd67a03df257ffc4103010b817c40a1cef95ec466.json",
+      "sha256": "3f1ae56719c3f0400fe94c3fd67a03df257ffc4103010b817c40a1cef95ec466",
+      "bytes": 10954,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-armature-20261014.r2-peer8775"
+    },
+    {
+      "path": "objects/92d6c59da03f40a586749c3e2314828ff8c75d8fbf7be8eff674f0c816921c8c.json",
+      "sha256": "92d6c59da03f40a586749c3e2314828ff8c75d8fbf7be8eff674f0c816921c8c",
+      "bytes": 19422,
+      "role": "source-review",
+      "program_version": "tail-mod3-armature-20261014.r2-peer8775"
+    }
+  ]
+}

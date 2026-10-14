@@ -1,0 +1,68 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 146,
+  "printed_page": "146",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "cf91734b28fd4a172eadd565152943c0128cf7ecf7c781b708b7f5755b8b1eb4",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.4",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "03d94c1397ffd39d50a89db0b4d9ae29d17f13e5293b2fcbda6e8b4ec34d8c0c",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "cf91734b28fd4a172eadd565152943c0128cf7ecf7c781b708b7f5755b8b1eb4",
+      "source_bound_save": true,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 146,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4d5faa2b87b39793b899bfd40ccb8b7b4ff5223f5cfe2aed7fb1c9e3580c2e6b",
+      "receipt": "calls/997b7f2247fb4954811bcc554fbd0518/result.json",
+      "started_at": 1791941415.4743261,
+      "finished_at": 1791941471.2320616
+    }
+  },
+  "output": {
+    "file": "innovations-146-reviewed.json",
+    "sha256": "a5ae8b413c8e873240b69065044d068bebcadcd95eb5e29ec6ce1a1faa87d782"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "cdecaf8d314bacef8707c13b25747a1285df847b1f97a1369c1fd8df141c3273",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [],
+    "column_counts": [],
+    "cells_checked": 0
+  },
+  "source_findings": "Полностью прочитаны220кВ, назначение отвода электрической дуги,ТУ3449-001-52819896-2010 и все шесть выносок. Все пять размерных значений сверены по собственному5×оригиналу.",
+  "corrections": [
+    "Исправлена ложная расшифровка бренда.",
+    "Ø380 отнесён к изолятору, R245 к наружной дуге, устранена путаница колец и расстояния между экранами."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T18:21:54.604628+03:00",
+  "private_original_receipt_sha256": "d500b2ca33724235f69cc803b81f5401816c942ef809bd9ab51dfe399ccc9367"
+}

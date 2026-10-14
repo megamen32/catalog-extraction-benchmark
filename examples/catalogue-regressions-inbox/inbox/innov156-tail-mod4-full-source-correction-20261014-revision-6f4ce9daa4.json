@@ -1,0 +1,36 @@
+{
+  "id": "innov156-tail-mod4-full-source-correction-20261014-revision-6f4ce9daa4",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 156: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 156
+  },
+  "review_basis": "[\"Замечания независимого mod1 сопоставлены с полным оригиналом и крупными исходными фрагментами. Все таблицы и числовые значения сохранены; изменены только перечисленные смысловые/геометрические поля или области доказательства.\", \"Область строки L = 400мм, 500мм, 600мм перенесена на y=.93–.945; область таблицы — на .84–.93, включая все пять строк. Нечитаемая микромаркировка остаётся pending.\"] Исправления: [\"Область строки L = 400мм, 500мм, 600мм перенесена на y=.93–.945; область таблицы — на .84–.93, включая все пять строк. Нечитаемая микромаркировка остаётся pending.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/e11525546aa396c4040da22eccdbf028cc6696e81274ca3f74c9f0a23c617caa.json",
+      "sha256": "e11525546aa396c4040da22eccdbf028cc6696e81274ca3f74c9f0a23c617caa",
+      "bytes": 10751,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/6f4ce9daa4c81a75b01b799e90e23a813b37aebee888ee4440d8cedabbb60bd2.json",
+      "sha256": "6f4ce9daa4c81a75b01b799e90e23a813b37aebee888ee4440d8cedabbb60bd2",
+      "bytes": 10215,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r1"
+    },
+    {
+      "path": "objects/877ee09cd53cac247f053f92edff83959341be4b2770269e11230280ea0a9ba1.json",
+      "sha256": "877ee09cd53cac247f053f92edff83959341be4b2770269e11230280ea0a9ba1",
+      "bytes": 4292,
+      "role": "source-review",
+      "program_version": "tail-mod0-20261014.r1"
+    }
+  ]
+}

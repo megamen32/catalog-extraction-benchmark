@@ -1,0 +1,36 @@
+{
+  "id": "innov210-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 210: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 210
+  },
+  "review_basis": "[\"Сверены204 ячейки17×12. Сохранены объединения120.12/150.13/185.13/240.13 и настоящий код РОСТ-185.4 без А; 70/72 и95/141 не исправлялись по предположению.\"] Исправления: [\"Искажённое название материала восстановлено: сталеалюминиевые провода.\", \"L₂ привязан к отдельной внутренней плоскости прямого участка; сечение и H₁ уточнены, декоративный знак не выдан за сертификат.\", \"L₁/L₂ связаны с отдельными отмеченными плоскостями ВНУТРИ прямых участков, не с фактической границей окончания изгиба.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/14420d50b2b3ffeefd58e708d8dafafe272cf0e4b347f6e2e4fffd45ab64d095.json",
+      "sha256": "14420d50b2b3ffeefd58e708d8dafafe272cf0e4b347f6e2e4fffd45ab64d095",
+      "bytes": 37561,
+      "role": "native-candidate",
+      "program_version": "1.5.8"
+    },
+    {
+      "path": "objects/2b58aabc95ffe2f8a346e788fc0e6dd1199eeef6f57eef9d0b05475ccff3885c.json",
+      "sha256": "2b58aabc95ffe2f8a346e788fc0e6dd1199eeef6f57eef9d0b05475ccff3885c",
+      "bytes": 36236,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r2"
+    },
+    {
+      "path": "objects/f1877991037390ae31f07f7866772a735094265978c5b003b9e12fb37a717bf3.json",
+      "sha256": "f1877991037390ae31f07f7866772a735094265978c5b003b9e12fb37a717bf3",
+      "bytes": 3707,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r2"
+    }
+  ]
+}

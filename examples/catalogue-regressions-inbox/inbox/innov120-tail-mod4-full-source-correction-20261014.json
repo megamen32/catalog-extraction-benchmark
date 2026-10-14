@@ -1,0 +1,36 @@
+{
+  "id": "innov120-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 120: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 120
+  },
+  "review_basis": "[\"Просмотрены полный оригинал и крупный чертёж. Все 378 ячеек 27×14 совпали, включая шесть буквальных пустот L₅/S у240/56 и L₁–L₄ у330/43, непрерывные объединения L₅/S на188/12,198/12,203/12, а также8,0,7,65/10,35/12,05/12,15/14,95/17,75/20,85.\", \"Все марки ШСИП/НАС-Б/НАС-В, матрицы, ГОСТ839-2019, состав и способ монтажа, ремонтное преимущество, info@mzva.ru, бренд manufacturing association и печатный номер120 сверены. Единицы и условие массы L=7м сохранены.\"] Исправления: [\"Два конца одного шлейфа больше не названы двумя вариантами конструкции.\", \"Убрано выдуманное отверстие Ø на виде Б; добавлены все размерные подписи и их реальные базы: L₁/L₄, L₂/L₃ на повёрнутом виде Б, L₅ по оси нижнего ряда болтов, два осевых размера5, S, два80, два межосевых45 и17,5 до верхнего ряда болтов.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/ae5aac2638b3b7fe6c5a2c5b62a8beb66947d1c5221c4e15d04a3af266edb3eb.json",
+      "sha256": "ae5aac2638b3b7fe6c5a2c5b62a8beb66947d1c5221c4e15d04a3af266edb3eb",
+      "bytes": 62810,
+      "role": "native-candidate",
+      "program_version": "1.5.21"
+    },
+    {
+      "path": "objects/f6c455a71e362d78fb7d8bf62e7690300a80e2381989ba9d4cb10084c04cf9b0.json",
+      "sha256": "f6c455a71e362d78fb7d8bf62e7690300a80e2381989ba9d4cb10084c04cf9b0",
+      "bytes": 62735,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r1"
+    },
+    {
+      "path": "objects/80ba2ed3db173390bc83996a63c4d72e67ef60e10979c255832526dd149f68e7.json",
+      "sha256": "80ba2ed3db173390bc83996a63c4d72e67ef60e10979c255832526dd149f68e7",
+      "bytes": 3953,
+      "role": "source-review",
+      "program_version": "tail-mod0-20261014.r1"
+    }
+  ]
+}

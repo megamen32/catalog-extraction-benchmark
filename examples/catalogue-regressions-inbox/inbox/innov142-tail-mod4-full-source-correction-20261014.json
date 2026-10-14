@@ -1,0 +1,36 @@
+{
+  "id": "innov142-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 142: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 142
+  },
+  "review_basis": "Лично сверены обе группы целиком по двум5×фрагментам, все марки/скобочные варианты СР/У1/ПРТ,ТУ2010,назначение110кВ и контакты. Таблиц нет. Исправления: [\"Во всех изображениях Ø380/Ø255–290 отделены от кольцевых контуров экранов и от продольного расстояния между экранами.\", \"Уточнены наружные Ø480/Ø380 только там, где реальные стрелки ведут к кольцу.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/e867ba3fe092d72b335de0a669e622a028394935295a1164dafd7f4200ceb6d4.json",
+      "sha256": "e867ba3fe092d72b335de0a669e622a028394935295a1164dafd7f4200ceb6d4",
+      "bytes": 9888,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/2514e9acac58708c8804354b341f2450ce08ba8627d0aea86e562febefbba1c3.json",
+      "sha256": "2514e9acac58708c8804354b341f2450ce08ba8627d0aea86e562febefbba1c3",
+      "bytes": 6203,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/f2cddcf7a109277c3af6d1684ee34196fa986f329d3031a8ed0c13714a2f57f9.json",
+      "sha256": "f2cddcf7a109277c3af6d1684ee34196fa986f329d3031a8ed0c13714a2f57f9",
+      "bytes": 3089,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

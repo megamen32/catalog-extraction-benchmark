@@ -1,0 +1,36 @@
+{
+  "id": "iz55-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "isolators, страница 55: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-IZOLJaTORY.pdf",
+    "sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+    "physical_page": 55
+  },
+  "review_basis": "[\"Все 16 значений ячеек правильны, включая 127/146 и 125/125.\", \"Native выдумал металлический цемент, гайку сферопружины, винтовые рёбра и крепёжный болт, неверно задал H как наружную высоту и d как диаметр сферы.\", \"Повёрнутый 10× кроп подтвердил печатное «в сухом остоянии»; необычное слово сохранено. Утверждения о парсерах и технологическом ряде не являются печатными фактами.\"] Исправления: [\"Восстановлены реальные базы H/D/d, простое описание фотографии и классификация.\", \"Все 16 значений и буквальные заголовки таблицы сохранены; удалены недоказанные процессные утверждения.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/c6253f4eb734859a423f8c36313e7b3c8beaaa60546789f44037ef42a08607b2.json",
+      "sha256": "c6253f4eb734859a423f8c36313e7b3c8beaaa60546789f44037ef42a08607b2",
+      "bytes": 16474,
+      "role": "native-candidate",
+      "program_version": "1.4.2"
+    },
+    {
+      "path": "objects/e273bdcdd7125005e8271dce7bce7bea80bb7b45f1d032f03a9cddfc892cf84e.json",
+      "sha256": "e273bdcdd7125005e8271dce7bce7bea80bb7b45f1d032f03a9cddfc892cf84e",
+      "bytes": 18216,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-isolators-20261014.r1"
+    },
+    {
+      "path": "objects/a136c9abd04226e297261a010fc8f16ddf6a4ff476a4a3e42d778839f7e765e7.json",
+      "sha256": "a136c9abd04226e297261a010fc8f16ddf6a4ff476a4a3e42d778839f7e765e7",
+      "bytes": 14853,
+      "role": "source-review",
+      "program_version": "tail-mod3-isolators-20261014.r1"
+    }
+  ]
+}

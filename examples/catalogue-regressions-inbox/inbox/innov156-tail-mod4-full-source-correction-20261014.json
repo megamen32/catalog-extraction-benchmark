@@ -1,0 +1,36 @@
+{
+  "id": "innov156-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 156: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 156
+  },
+  "review_basis": "[\"Полный оригинал и крупная маркировка просмотрены. Все 10 ячеек 5×2 совпали: пять моделей и диапазонов 13,0–16,8 …31,5–37,7. Строка L=400мм,500мм,600мм сохранена в исходном виде.\", \"Три L проверены между осями проводов, D по внутреннему каналу правого верхнего зажима. Все четыре функции, ТУ 3449-005-52819896-2015, ВЕРХ со стрелками, логотипы и контакты сверены. Нечитаемые дополнительные знаки не угаданы.\"] Исправления: [\"Исправлена подпись ФОРЭНЕРГО на «производственное объединение», верхняя область охватывает рубрику.\", \"Удалено необоснованное объявление «эоловой» опечаткой; убрано утверждение о несущественности нечитаемой маркировки, остаток честно вынесен в uncertainties.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/e11525546aa396c4040da22eccdbf028cc6696e81274ca3f74c9f0a23c617caa.json",
+      "sha256": "e11525546aa396c4040da22eccdbf028cc6696e81274ca3f74c9f0a23c617caa",
+      "bytes": 10751,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/3619ac359f049f6e0f5eb32d9ceaf94245a84f295dc4c4feba320552860d7660.json",
+      "sha256": "3619ac359f049f6e0f5eb32d9ceaf94245a84f295dc4c4feba320552860d7660",
+      "bytes": 10218,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r1"
+    },
+    {
+      "path": "objects/b6e992a0c3ac0a538e3fcabc1e89f5205b4f92a831afda1de54ad9a1d52d19c2.json",
+      "sha256": "b6e992a0c3ac0a538e3fcabc1e89f5205b4f92a831afda1de54ad9a1d52d19c2",
+      "bytes": 4164,
+      "role": "source-review",
+      "program_version": "tail-mod0-20261014.r1"
+    }
+  ]
+}

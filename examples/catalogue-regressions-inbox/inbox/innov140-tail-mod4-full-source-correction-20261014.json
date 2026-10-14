@@ -1,0 +1,36 @@
+{
+  "id": "innov140-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 140: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 140
+  },
+  "review_basis": "[\"Полный оригинал и текстовый слой сопоставлены. Все 15 ячеек 5×3 совпали: 9/13,37/52,23/31,3/4,28/0; ноль не заменён пустотой. Проценты относятся к общему потоку отказов и обоим числовым столбцам.\", \"Проверены весь текст ОРГРЭС/50-х годов, 110-220 кВ, название Положения как печатное утверждение источника, ПС/ПСВ/ПСД/U120BA, безвозмездная разработка схем, бренды и контакты. Чертежей нет.\"] Исправления: [\"Обоим числовым столбцам явно передана общая единица %, вместо ошибочно пустых unit.\", \"Области вводного текста и таблицы расширены до последних строк. Восстановлены полные формулировки абзацев; пояснение о латинской U убрано из буквального текста в source_notes. Рубрика и реальные подписи бренда разделены.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/68f136ce74eef466e198778adcf6659626371af12f61cbfd9249ae517ffd5d44.json",
+      "sha256": "68f136ce74eef466e198778adcf6659626371af12f61cbfd9249ae517ffd5d44",
+      "bytes": 15284,
+      "role": "native-candidate",
+      "program_version": "1.5.13"
+    },
+    {
+      "path": "objects/db8f32147012f832ef791c0044dc36bb9b0144f38e5f056135e9b30a0bb3aaa0.json",
+      "sha256": "db8f32147012f832ef791c0044dc36bb9b0144f38e5f056135e9b30a0bb3aaa0",
+      "bytes": 14892,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r1"
+    },
+    {
+      "path": "objects/77599f5ddd4d72766428bc75c6f214a755d249adbbabc07fff082e5886ed0938.json",
+      "sha256": "77599f5ddd4d72766428bc75c6f214a755d249adbbabc07fff082e5886ed0938",
+      "bytes": 3899,
+      "role": "source-review",
+      "program_version": "tail-mod0-20261014.r1"
+    }
+  ]
+}

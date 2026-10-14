@@ -1,0 +1,80 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 14,
+  "printed_page": "13",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "6b9f6dfa8da4555aa06a9be31c118a956b4094924a399e5161df8c27ece2ec84",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.4",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "03d94c1397ffd39d50a89db0b4d9ae29d17f13e5293b2fcbda6e8b4ec34d8c0c",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "6b9f6dfa8da4555aa06a9be31c118a956b4094924a399e5161df8c27ece2ec84",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 14,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4d5faa2b87b39793b899bfd40ccb8b7b4ff5223f5cfe2aed7fb1c9e3580c2e6b",
+      "receipt": "calls/b8783b5ccb2d4562a33ba7612dadb6f8/result.json",
+      "started_at": 1791940128.4626942,
+      "finished_at": 1791940203.6641674
+    }
+  },
+  "output": {
+    "file": "armature-14-reviewed-r2.json",
+    "sha256": "239db28bfcbe9f45df40b673b19b7bbbf1b1f517575ac7c23321ef989ddf1114"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "942cad3c5e55f470fdb1f1d49eaf631e0b4fdfa13b0c0af86323e4e3994469e2",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [],
+    "column_counts": [],
+    "cells_checked": 0
+  },
+  "source_findings": [
+    "Полный оригинал13 просмотрен: производственные инжекционные машины, третье/четвёртое поколение, более5млн, тройка производителей СНГ; все исходные количественные утверждения сохранены как слова производителя.",
+    "Сверены 618900, г. Лысьва, Каракулова2,8(34249)6-47-48,sales@zaoinsta.ru и обе региональные территории/телефоны/адреса/сайты."
+  ],
+  "corrections": [
+    "Исправлена неверная роль «задней страницы»: это справочное представление производителя внутри каталога.",
+    "На фото восстановлено различие кириллической ИНСТА и латинской INSTA вместо двух латинских INSTA.",
+    "Удалено неподтверждённое сравнение телефона с якобы обычным кодом города; настоящий номер сохранён.",
+    "Область evidence предприятия расширена до всей цитируемой части, включая описание технологии и объёма производства."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T17:52:22.782175+03:00",
+  "revision": 2,
+  "previous_author_revision": {
+    "content": "armature-14-reviewed.json",
+    "content_sha256": "1f2d05572912effa33f3b3e1298b417aa451be0ed6dd318f36f90d4b3b075c3b",
+    "receipt": "armature-14-source-review.json",
+    "receipt_sha256": "e6e2c8cfaebfe8a9804572aa694dfa7c81f7241aea9b007c8bfa0cf58847c7cc"
+  },
+  "private_original_receipt_sha256": "3baad08615154b0809b0c2e3a0bff7d48ead10e0009da903ff18613b38c98813"
+}

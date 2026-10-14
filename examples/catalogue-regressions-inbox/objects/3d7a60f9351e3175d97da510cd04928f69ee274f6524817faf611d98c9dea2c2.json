@@ -1,0 +1,87 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 132,
+  "printed_page": "132",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "innovations-0132-native-candidate.json",
+    "sha256": "460586d4b6d777739b0edca682c1f17ed6a1190ce2510aa7930303156a43928c",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.4",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "03d94c1397ffd39d50a89db0b4d9ae29d17f13e5293b2fcbda6e8b4ec34d8c0c",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "460586d4b6d777739b0edca682c1f17ed6a1190ce2510aa7930303156a43928c",
+      "source_bound_save": true,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 132,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4d5faa2b87b39793b899bfd40ccb8b7b4ff5223f5cfe2aed7fb1c9e3580c2e6b",
+      "receipt": "calls/24a69704c8104fa9859744cd94220887/result.json",
+      "started_at": 1791940930.1057725,
+      "finished_at": 1791941072.025457
+    }
+  },
+  "output": {
+    "file": "innovations-0132-reviewed-r2.json",
+    "sha256": "9bca3d7d9915f2b659674a7f6655ecc89df47e1490c928c2247d6faf5546d38e"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "927e6494cb88ec178bee83c3a30f1ff1816ed50f856d0d61c428012bfff34000",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      18
+    ],
+    "column_counts": [
+      10
+    ],
+    "cells_checked": 180
+  },
+  "source_findings": [
+    "Замечания независимого mod1 сопоставлены с полным оригиналом и крупными исходными фрагментами. Все таблицы и числовые значения сохранены; изменены только перечисленные смысловые/геометрические поля или области доказательства.",
+    "После повторного просмотра полного оригинала и крупного исходного фрагмента подтверждена верхняя база L₂ на пересечении осей основного провода и наклонного окончания; разрешённая неопределённость снята.",
+    "В заголовке второй фигуры исправлен оставшийся «разрез А» на «вид А», в согласии с исходной стрелкой и верным основным описанием."
+  ],
+  "corrections": [
+    "После повторного просмотра полного оригинала и крупного исходного фрагмента подтверждена верхняя база L₂ на пересечении осей основного провода и наклонного окончания; разрешённая неопределённость снята.",
+    "В заголовке второй фигуры исправлен оставшийся «разрез А» на «вид А», в согласии с исходной стрелкой и верным основным описанием."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T15:19:46.628507+00:00",
+  "previous_reviewed_output": {
+    "file": "innovations-0132-reviewed.json",
+    "sha256": "6c64565b34699520b4742c2e125c1cbb7ecaf344de94dd6c7816bc26011ac850"
+  },
+  "supersedes_source_review": {
+    "file": "innovations-0132-source-review.json",
+    "sha256": "c993ec53e75ff0f0d233da7615ab2012b8393ffa8858c3d0d324dcab793b2592"
+  },
+  "private_original_receipt_sha256": "4da7653c545e5d9a886555f58cb781afb5dc128cddf0544a0d7de1a755285626"
+}

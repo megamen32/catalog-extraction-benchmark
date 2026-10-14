@@ -1,0 +1,36 @@
+{
+  "id": "arm18-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 18: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 18
+  },
+  "review_basis": "[\"Полный оригинал17 просмотрен: VOLTA, четыре фарфоровых изолятора и группа полимерных изделий без марок/размеров.\", \"Все реквизиты и территории двух представительств сверены: 457040/111398, ул. Заводская3/Лазо9, телефоны, forenergo-trade.ru/uik.ru. Исходные текстовые значения сохранены.\"] Исправления: [\"Устранено ложное утверждение о совпадении телефонов предприятия и представительства: в оригинале номера различны.\", \"Обзор предприятия и контакты классифицированы как справочная страница каталога, без выдуманных товарных параметров.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/ef517fc346cc80da558a110e32abb9ce8fe5d8ae2b9ba555a054fa40504f77da.json",
+      "sha256": "ef517fc346cc80da558a110e32abb9ce8fe5d8ae2b9ba555a054fa40504f77da",
+      "bytes": 8626,
+      "role": "native-candidate",
+      "program_version": "1.5.3"
+    },
+    {
+      "path": "objects/28c58038b4836953f67d97ba497697c8a67ab55821a0178b34b765d0effbd6a3.json",
+      "sha256": "28c58038b4836953f67d97ba497697c8a67ab55821a0178b34b765d0effbd6a3",
+      "bytes": 8719,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/ebdf537971aa88b201cf7677afa340ebf6e4042887b58f5e690efe60120880d8.json",
+      "sha256": "ebdf537971aa88b201cf7677afa340ebf6e4042887b58f5e690efe60120880d8",
+      "bytes": 3413,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

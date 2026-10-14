@@ -1,0 +1,78 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 140,
+  "printed_page": "140",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "innovations-0140-native-candidate.json",
+    "sha256": "68f136ce74eef466e198778adcf6659626371af12f61cbfd9249ae517ffd5d44",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.13",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "388e4b7dea7fc75a16d8aeee3f64f722f70d0518bda21b5ea9121fd690d0cc26",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "68f136ce74eef466e198778adcf6659626371af12f61cbfd9249ae517ffd5d44",
+      "source_bound_save": true,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 140,
+      "attempt": 2,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4dfdf43954cb8adf1b11456ab3262a152d1ef2fea7fdfb31ebca498d2e6cbeb7",
+      "receipt": "calls/1fea825983d8405abddba700be0948d4/result.json",
+      "started_at": 1791955088.5277247,
+      "finished_at": 1791955214.881028
+    }
+  },
+  "output": {
+    "file": "innovations-0140-reviewed.json",
+    "sha256": "db8f32147012f832ef791c0044dc36bb9b0144f38e5f056135e9b30a0bb3aaa0"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "4a0f3dc9df762005dc562cd34f8bdd9fdbcdf33a8b1406632344bae65020d63d",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      5
+    ],
+    "column_counts": [
+      3
+    ],
+    "cells_checked": 15
+  },
+  "source_findings": [
+    "Полный оригинал и текстовый слой сопоставлены. Все 15 ячеек 5×3 совпали: 9/13,37/52,23/31,3/4,28/0; ноль не заменён пустотой. Проценты относятся к общему потоку отказов и обоим числовым столбцам.",
+    "Проверены весь текст ОРГРЭС/50-х годов, 110-220 кВ, название Положения как печатное утверждение источника, ПС/ПСВ/ПСД/U120BA, безвозмездная разработка схем, бренды и контакты. Чертежей нет."
+  ],
+  "corrections": [
+    "Обоим числовым столбцам явно передана общая единица %, вместо ошибочно пустых unit.",
+    "Области вводного текста и таблицы расширены до последних строк. Восстановлены полные формулировки абзацев; пояснение о латинской U убрано из буквального текста в source_notes. Рубрика и реальные подписи бренда разделены."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T17:51:05.391801+03:00",
+  "private_original_receipt_sha256": "25d72453114c2097c851f68eb7658931083bb9c58711c1ff3d348ca1516371a9"
+}

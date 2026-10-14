@@ -1,0 +1,71 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 174,
+  "printed_page": "174",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "13c045e78897144d61e7639449085be37a19fff38cce754ac661cae4d1d8984c",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.6",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "ca9cb343d7402f9bdb421b4fc5bc0b77ee1cff94b255122f592b3fda0e12f0b3",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "13c045e78897144d61e7639449085be37a19fff38cce754ac661cae4d1d8984c",
+      "source_bound_save": true,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 174,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "3031f54101971a2d9729b048304180edaaf22cda716b98c15339c8c61c45fa7b",
+      "receipt": "calls/fe8c7dae6762474b9a81ac732c917e83/result.json",
+      "started_at": 1791943249.7145388,
+      "finished_at": 1791943317.3512378
+    }
+  },
+  "output": {
+    "file": "innovations-174-reviewed.json",
+    "sha256": "19081bc67ea4d71a0f58e586ac124012d8ad1068f76382da390fdc2f7fda4f98"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "ae2839c45f30fc18e277e490e5ba5e5671983d63029f6d09c702908ec4080d19",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      3
+    ],
+    "column_counts": [
+      2
+    ],
+    "cells_checked": 6
+  },
+  "source_findings": "Все6 ячеек3×2:Ш-300L*,Ш-400L*,Ш-500L* и300/400/500мм², сноскаLвметрах,вдвое меньше времени/монтажболтами/НАС-В/ТУ2010 сохранены.",
+  "corrections": [
+    "Условный разрыв провода восстановлен вместо «лома», описание чертежа и заказной L записано без неподтверждённых технологических деталей."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T18:04:00.321402+03:00",
+  "private_original_receipt_sha256": "c494d9d125169fa7311d0963b940b463b0b0937296f521592806c55624dc4f68"
+}

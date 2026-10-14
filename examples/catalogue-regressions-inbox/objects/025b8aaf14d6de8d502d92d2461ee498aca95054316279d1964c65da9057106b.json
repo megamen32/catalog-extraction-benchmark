@@ -1,0 +1,80 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 160,
+  "printed_page": "160",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "innovations-0160-native-candidate.json",
+    "sha256": "3284b826988279b35339b4264314ca6d11b7caea232a9b49fd7cd93779fcc3b1",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.4",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "03d94c1397ffd39d50a89db0b4d9ae29d17f13e5293b2fcbda6e8b4ec34d8c0c",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "3284b826988279b35339b4264314ca6d11b7caea232a9b49fd7cd93779fcc3b1",
+      "source_bound_save": true,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 160,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4d5faa2b87b39793b899bfd40ccb8b7b4ff5223f5cfe2aed7fb1c9e3580c2e6b",
+      "receipt": "calls/6c74c6b0b9204862b8578eb799f53e10/result.json",
+      "started_at": 1791941910.1746209,
+      "finished_at": 1791942002.599404
+    }
+  },
+  "output": {
+    "file": "innovations-0160-reviewed.json",
+    "sha256": "3a8201b4eaee7a4a84c1611ecbf35a69249ed0a23703fcf73f7c19229b8369a9"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "31d8abdebbb28dba83477c411c60347238f1b66db3a8734c7bcf618fd072d490",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      5,
+      2
+    ],
+    "column_counts": [
+      2,
+      2
+    ],
+    "cells_checked": 14
+  },
+  "source_findings": [
+    "Полный оригинал просмотрен. Все 14 ячеек двух таблиц 5×2 и 2×2 совпали. Проверены обе вертикальные связи: новый ПГ-25/6-12 для двух старых аналогов и старый ПГ-2-11 (А,Б,Д) для двух ПГГ.",
+    "Все четыре абзаца преимуществ и числа 30%, 4/8, необычное ПГГ-25/612А, бренды и контакты сверены. Таблицы не исправлялись, чертежей нет."
+  ],
+  "corrections": [
+    "Исправлен бренд «производственная компания» на фактическое «производственное объединение».",
+    "Все три области evidence перенесены к реальным блокам: текст .075–.26, таблицы .29–.383/.345. Прежние координаты таблиц попадали в пустую область. Убрано внутреннее имя парсера из заметки."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T17:47:12.418185+03:00",
+  "private_original_receipt_sha256": "62e69fd1867286b722afdaf3c6f84304c535723c483b7a2329dc8e74d45466ee"
+}

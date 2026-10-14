@@ -1,0 +1,36 @@
+{
+  "id": "arm87-tail-mod4-full-source-correction-20261014-revision-18637f47ae",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 87: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 87
+  },
+  "review_basis": "Весь текст и все три группы чертежей проверены собственными 5× кропами. Сохранены буквально 2П6Р-30-1, 2П6Р-30-2А, 3П6Р-30-1 и все 30 печатных числовых/буквенных размерных подписей, включая повторные600/450/300. Таблиц нет. Назначение для стальных канатов, сталеалюминиевых, бронзовых и сталебронзовых проводов, плавный перегиб и ТУ2010 совпадают. Root независимо обнаружил, собственный 8× кроп подтвердил: верхняя база 95 выше осей верхнего ряда отверстий. Моя r1 ошибочно называла сами оси, число и нижняя база верны. Исправления: [{\"path\": \"title/figures/source_notes/uncertainties/page_context\", \"reason\": \"Ø34 отнесён к горизонтальному стержню, уточнены 24/36, 95, 340/260/519 и габариты L. Убраны выдуманные единицы; L как нормальный буквенный параметр не назван утратой числа.\"}, \"В figures[1].description исправлена только верхняя база 95, остальные поля PageContent неизменны.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/24904b20b84b65becdc18b0f1e451151dc57e1c76d0846c4d5128055f27e854f.json",
+      "sha256": "24904b20b84b65becdc18b0f1e451151dc57e1c76d0846c4d5128055f27e854f",
+      "bytes": 10805,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/18637f47aebcbd7fbca25b318acbec9008f849d96bc7a95f3ca23604d14afe3d.json",
+      "sha256": "18637f47aebcbd7fbca25b318acbec9008f849d96bc7a95f3ca23604d14afe3d",
+      "bytes": 9739,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-armature-20261014.r2-peer8775"
+    },
+    {
+      "path": "objects/d10f7831ea2e1abea5c4a164476077f2167b71dba3fe6ac2832f2464b7df5956.json",
+      "sha256": "d10f7831ea2e1abea5c4a164476077f2167b71dba3fe6ac2832f2464b7df5956",
+      "bytes": 21283,
+      "role": "source-review",
+      "program_version": "tail-mod3-armature-20261014.r2-peer8775"
+    }
+  ]
+}

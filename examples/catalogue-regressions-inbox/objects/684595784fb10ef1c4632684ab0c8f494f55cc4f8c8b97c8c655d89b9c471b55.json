@@ -1,0 +1,144 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_filename": "Katalog-ARMATURA.pdf",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 9,
+  "printed_page": "8",
+  "status": "author_source_review_complete_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod1",
+    "task": "/root/catalog_tail_mod1",
+    "version": "tail-mod1-20261014.r3",
+    "model_id": "Current native Codex session;exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-9-candidate.json",
+    "sha256": "aa5c3e3e5eb16680a8fac90ac60288497973ecd95d4cf44cae49ededcb602603",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.21",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "2301687f1a836b45b5310748b9eff0562539e6ca5d5cae7237a5b8e7ae0f4f91",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "aa5c3e3e5eb16680a8fac90ac60288497973ecd95d4cf44cae49ededcb602603",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 9,
+      "attempt": 2,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "867b3f790ecc8921609cf97aa738eda3b36ee55598d694455416842fad03be98",
+      "receipt": "calls/f52d322134b24ab5878cf1dd3688a6a0/result.json",
+      "started_at": 1791980597.4638987,
+      "finished_at": 1791980786.9452322
+    },
+    "receipt_file": "armature-9-producer-receipt.json",
+    "receipt_sha256": "5a3a75e580409280304044cdd38e644475e27f4b338fc815c67c12fb6c961a91",
+    "receipt_artifact_equals_candidate": true
+  },
+  "output": {
+    "file": "armature-9-reviewed-r3.json",
+    "sha256": "80fe62e8a4a835feef0cfbfceb639efd49944122cedc56444956f57a92577816",
+    "author": "catalog_tail_mod1"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "a27515a74bbf23d5be99a2dad3d86a7a10296956f09f66d678d0135f44d5ec66",
+  "checks": {
+    "all_text_and_meaning": false,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": false,
+    "source_provenance": true,
+    "pagecontent_schema_valid": true
+  },
+  "tables": {
+    "row_counts": [],
+    "column_counts": [],
+    "cells_checked": 0
+  },
+  "source_findings": [
+    "Полностью сверены основной исторический текст1998/2000/2009,все организации,12 годовых блоков наград2005–2024,классы напряжений и разработки, пять подписей иллюстраций; основной текст совпадает.",
+    "По увеличенному оригиналу2018/2017 в левой группе дипломов читаются полностью, не обрезаны; исправлено противоположное утверждение native. Правые годы2009/2011/2012 совпадают.",
+    "Мелкие тексты встроенных дипломов/медалей не прочитаны полностью; неопределённость указана явно, не объявленаPASS."
+  ],
+  "corrections": [
+    {
+      "path": "page_context.source_evidence[0].box[1]",
+      "before": 0.13,
+      "after": 0.105
+    },
+    {
+      "path": "page_context.source_evidence[1].box[3]",
+      "before": 0.74,
+      "after": 0.755
+    },
+    {
+      "path": "page_context.source_evidence[2].box[3]",
+      "before": 0.93,
+      "after": 0.96
+    },
+    {
+      "path": "figures[1].description",
+      "before": "Фотография: две стопки дипломов выставки — в левой стопке три диплома (на верхнем различим только конец года «…018», на среднем — «…017»: первые цифры обрезаны краем фотографии; год на нижнем закрыт листом и не читается), в правой стопке годы 2009, 2011 и 2012 читаются полностью; ниже шесть медалей выставки с изображением опоры — пять золотых и одна серебряная.",
+      "after": "Группа дипломов и шести медалей выставки «Электрические сети России». В левой группе верхние два диплома имеют видимые годы 2018 и 2017; у нижнего год не установлен. В правой группе видны 2009, 2011 и 2012. Снизу пять золотистых и одна серебристая медаль с изображениями опор. Полные тексты дипломов в исходных растровых иллюстрациях надёжно не читаются."
+    },
+    {
+      "path": "figures[4].description",
+      "before": "Фотография: две бронзовые медали салона (на одной различима надпись о Московском международном Салоне изобретений и инновационных технологий) и грамота с гербом и подписями.",
+      "after": "Иллюстрация награды салона «Архимед»: две медали и диплом с гербом и подписями. Крупно видны «АРХИМЕД 2024», «ДИПЛОМ» и «БРОНЗОВОЙ МЕДАЛЬЮ»; подпись под группой говорит о бронзовой медали Московского международного салона. Цвет обеих медалей и полные мелкие реквизиты по изображению не классифицируются."
+    },
+    {
+      "path": "source_notes[1]",
+      "before": "На второй фотографии годы на дипломах левой стопки обрезаны краем снимка — видны только «…018» и «…017»; год на нижнем дипломе закрыт листом и не читается. Годы правой стопки (2009, 2011, 2012) читаются полностью.",
+      "after": "По увеличенному оригинальному фрагменту верхние два года левой группы дипломов читаются 2018 и 2017; первые цифры не обрезаны. Нижний год не установлен. В правой группе читаются 2009, 2011, 2012."
+    },
+    {
+      "path": "uncertainties",
+      "before": [],
+      "after": [
+        "Полные мелкие тексты дипломов и круговые надписи всех медалей не читаются надёжно в исходных растровых иллюстрациях; нижний год левой группы дипломов не установлен."
+      ]
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "independent_review_required": true,
+  "independent_review_status": "pending",
+  "separate_model_review_of_root_edits": null,
+  "unresolved_issues": [
+    "Нужна независимая проверка авторского разбора и инженерных отношений.",
+    "Полные мелкие тексты дипломов и круговые надписи всех медалей не читаются надёжно в исходных растровых иллюстрациях; нижний год левой группы дипломов не установлен."
+  ],
+  "completed_at": "2026-10-14T15:05:51.003343+00:00",
+  "supersedes": {
+    "output": "armature-9-reviewed-r2.json",
+    "sha256": "e401766550cd0a7f93015917b9357604b22c6fe259b234b9386527954a5ade04",
+    "source_review": "armature-9-source-review-r2.json",
+    "source_review_sha256": "e840eab538e3ada0803e41acf46e416477883aea498f066cdbd39210fbd7f011"
+  },
+  "revision_corrections": [
+    {
+      "path": "page_context.source_evidence[0].box[1]",
+      "before": 0.13,
+      "after": 0.105
+    },
+    {
+      "path": "page_context.source_evidence[1].box[3]",
+      "before": 0.74,
+      "after": 0.755
+    },
+    {
+      "path": "page_context.source_evidence[2].box[3]",
+      "before": 0.93,
+      "after": 0.96
+    }
+  ],
+  "revision_reason": "Области истории, достижений и наград включают заголовок/1998 год, окончание абзаца 2024 года и все нижние подписи. Прежняя ревизия читаемых пробелов и неопределённости микротекста сохранены.",
+  "private_original_receipt_sha256": "f09f4f528e7a6d1703d1b6c0890337a95314f070e571447670dad27ddbc1641f"
+}

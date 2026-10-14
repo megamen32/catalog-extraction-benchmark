@@ -1,0 +1,36 @@
+{
+  "id": "innov194-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 194: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 194
+  },
+  "review_basis": "[\"Сверены96 ячеек8×12: групповые марки проводов не превращены в отдельные изделия; АСку и АСк2у сохранены внутри собственных строк, матрицы и массы прежние.\"] Исправления: [\"Устранены ложные равенство H₁=D, база L₂ на оси магистрали и вертикальное направление горизонтального опрессования.\", \"L₁/L₂ связаны с отдельными отмеченными плоскостями ВНУТРИ прямых участков, не с фактической границей окончания изгиба.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/79349a05e6a07d5cc659033decf18f3e6226dcc0768933d7acbb1f5934d7770c.json",
+      "sha256": "79349a05e6a07d5cc659033decf18f3e6226dcc0768933d7acbb1f5934d7770c",
+      "bytes": 24157,
+      "role": "native-candidate",
+      "program_version": "1.5.8"
+    },
+    {
+      "path": "objects/c2e57f2bb12f77fe5bf32ff8cb4114dd2875556ceba902d56b18e99ed35e059d.json",
+      "sha256": "c2e57f2bb12f77fe5bf32ff8cb4114dd2875556ceba902d56b18e99ed35e059d",
+      "bytes": 22364,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r2"
+    },
+    {
+      "path": "objects/1e352b0f18cda0ea65addd543817f3c586f78c7ad096aa5bf4c639e36dd8b8fa.json",
+      "sha256": "1e352b0f18cda0ea65addd543817f3c586f78c7ad096aa5bf4c639e36dd8b8fa",
+      "bytes": 3584,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r2"
+    }
+  ]
+}

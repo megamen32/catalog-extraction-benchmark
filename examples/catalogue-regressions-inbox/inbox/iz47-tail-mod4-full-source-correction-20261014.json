@@ -1,0 +1,36 @@
+{
+  "id": "iz47-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "isolators, страница 47: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-IZOLJaTORY.pdf",
+    "sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+    "physical_page": 47
+  },
+  "review_basis": "[\"Таблиц и размерных чертежей нет; 5 миллионов и 10% — заводские показатели. Все восемь сканов и оба титула просмотрены собственными кропами.\", \"Native выдумал штыревые изоляторы для прокладок линий и ±14 В уровня заземления. Реально речь о подвесных тарельчатых изоляторах, аэродинамическом профиле и IV степени загрязнения.\", \"Расхождение 2017 в основном тексте и 2023 на титулах реально; сохранено. Часть мелких реквизитов исходно неразборчива, внесена честная uncertainty.\"] Исправления: [\"Восстановлены реальный класс оборудования и условие загрязнения, убраны неподтверждённые буквы/номера из малых сканов.\", \"Приведён печатный номер 46; показатели завода и типовые проекты оставлены supporting_material.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/2a44a075a0c0be80da35ccfefc088e61613dd37ccee9258b69bf6f870c4f4729.json",
+      "sha256": "2a44a075a0c0be80da35ccfefc088e61613dd37ccee9258b69bf6f870c4f4729",
+      "bytes": 22036,
+      "role": "native-candidate",
+      "program_version": "1.5.21"
+    },
+    {
+      "path": "objects/a47addbe20dbdc9ce53f8e6f89a9d4a8e00a0ebc0f2dbb0b6b18a5d4932c90ab.json",
+      "sha256": "a47addbe20dbdc9ce53f8e6f89a9d4a8e00a0ebc0f2dbb0b6b18a5d4932c90ab",
+      "bytes": 23726,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-isolators-20261014.r1"
+    },
+    {
+      "path": "objects/145f41d001599f8c7b9314d507d1c5929aff24c7a2af918344853f70b161d4c0.json",
+      "sha256": "145f41d001599f8c7b9314d507d1c5929aff24c7a2af918344853f70b161d4c0",
+      "bytes": 36983,
+      "role": "source-review",
+      "program_version": "tail-mod3-isolators-20261014.r1"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 194,
+  "printed_page": "194",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r2",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "79349a05e6a07d5cc659033decf18f3e6226dcc0768933d7acbb1f5934d7770c",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.8",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "56b47ab11c142fdd0d89ade636eb52fff30220c3425401678e2bf74c18b69c62",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "79349a05e6a07d5cc659033decf18f3e6226dcc0768933d7acbb1f5934d7770c",
+      "source_bound_save": true,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 194,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "ad43db8eeb96f6a5b1aab82eb07fb8d999a3c90cd9e1f094a41f378634f1d7ae",
+      "receipt": "calls/ce9da62e700344f48ee8987ae00be79c/result.json",
+      "started_at": 1791944923.4637012,
+      "finished_at": 1791946034.2044508
+    }
+  },
+  "output": {
+    "file": "innovations-194-reviewed-r2.json",
+    "sha256": "c2e57f2bb12f77fe5bf32ff8cb4114dd2875556ceba902d56b18e99ed35e059d"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "c6e7480236c1f9e6207ff617dc718575ccb111a8ca582bfe4fa7cefa809efb8d",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      8
+    ],
+    "column_counts": [
+      12
+    ],
+    "cells_checked": 96
+  },
+  "source_findings": [
+    "Сверены96 ячеек8×12: групповые марки проводов не превращены в отдельные изделия; АСку и АСк2у сохранены внутри собственных строк, матрицы и массы прежние."
+  ],
+  "corrections": [
+    "Устранены ложные равенство H₁=D, база L₂ на оси магистрали и вертикальное направление горизонтального опрессования.",
+    "L₁/L₂ связаны с отдельными отмеченными плоскостями ВНУТРИ прямых участков, не с фактической границей окончания изгиба."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T18:04:56.978343+03:00",
+  "revision": 2,
+  "previous_author_revision": {
+    "content": "innovations-194-reviewed.json",
+    "content_sha256": "f3243811ef67331e3a2fbcf6287b8d56955716727adb3d2571cf45d4a4aac97b",
+    "receipt": "innovations-194-source-review.json",
+    "receipt_sha256": "c9c14acea6585b4b79f924d55bfceaf1962847a4e6b724d02418f460052f4403"
+  },
+  "private_original_receipt_sha256": "ab4a1e5dc72430ac40753a1fbfee01d10d2a2dae296f55cce68e1ca589ecbe83"
+}

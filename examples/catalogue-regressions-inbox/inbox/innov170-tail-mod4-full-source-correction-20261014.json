@@ -1,0 +1,36 @@
+{
+  "id": "innov170-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 170: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 170
+  },
+  "review_basis": "Весь связный текст проверен,не менее95%,шестигранныеvsкруглые матрицы,круглыйалюминиевыйпрофиль/стальнойанкер,позднее присоединениешлейфа,вдвое меньше времени,безпрессового оборудования,заказнаядлина сохранены;таблиц/рисунковнет. Исправления: [\"Сравнение с традиционными зажимами уточнено в summary без абсолютного неподтверждённого обещания отсутствия разворота.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/b6b78a3e503cb5340fdb0f4d59d4dc3818fe1ed2e464cd1eea971744b75a073a.json",
+      "sha256": "b6b78a3e503cb5340fdb0f4d59d4dc3818fe1ed2e464cd1eea971744b75a073a",
+      "bytes": 13404,
+      "role": "native-candidate",
+      "program_version": "1.5.6"
+    },
+    {
+      "path": "objects/d806b95d102c420f2e6730d3714ef972f81cdeb2202b00262e47df48ba90d50c.json",
+      "sha256": "d806b95d102c420f2e6730d3714ef972f81cdeb2202b00262e47df48ba90d50c",
+      "bytes": 10201,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/a3f9a8c650e431731f42e6b808e1fa23016535612bddf6f1b758ddb0f44586af.json",
+      "sha256": "a3f9a8c650e431731f42e6b808e1fa23016535612bddf6f1b758ddb0f44586af",
+      "bytes": 3139,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

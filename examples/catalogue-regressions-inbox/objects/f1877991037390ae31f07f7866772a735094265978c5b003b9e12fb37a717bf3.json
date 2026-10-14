@@ -1,0 +1,82 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 210,
+  "printed_page": "210",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r2",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "14420d50b2b3ffeefd58e708d8dafafe272cf0e4b347f6e2e4fffd45ab64d095",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.8",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "56b47ab11c142fdd0d89ade636eb52fff30220c3425401678e2bf74c18b69c62",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "14420d50b2b3ffeefd58e708d8dafafe272cf0e4b347f6e2e4fffd45ab64d095",
+      "source_bound_save": true,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 210,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "ad43db8eeb96f6a5b1aab82eb07fb8d999a3c90cd9e1f094a41f378634f1d7ae",
+      "receipt": "calls/cbabc05c8c1e439c97beeca508e132c2/result.json",
+      "started_at": 1791946674.5597324,
+      "finished_at": 1791946769.0598695
+    }
+  },
+  "output": {
+    "file": "innovations-210-reviewed-r2.json",
+    "sha256": "2b58aabc95ffe2f8a346e788fc0e6dd1199eeef6f57eef9d0b05475ccff3885c"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "fddf9e7936cd44adc40b675e3550f808e606d6d540e340164ce6df1c51dbddf5",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      17
+    ],
+    "column_counts": [
+      12
+    ],
+    "cells_checked": 204
+  },
+  "source_findings": [
+    "Сверены204 ячейки17×12. Сохранены объединения120.12/150.13/185.13/240.13 и настоящий код РОСТ-185.4 без А; 70/72 и95/141 не исправлялись по предположению."
+  ],
+  "corrections": [
+    "Искажённое название материала восстановлено: сталеалюминиевые провода.",
+    "L₂ привязан к отдельной внутренней плоскости прямого участка; сечение и H₁ уточнены, декоративный знак не выдан за сертификат.",
+    "L₁/L₂ связаны с отдельными отмеченными плоскостями ВНУТРИ прямых участков, не с фактической границей окончания изгиба."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T18:04:56.976380+03:00",
+  "revision": 2,
+  "previous_author_revision": {
+    "content": "innovations-210-reviewed.json",
+    "content_sha256": "8294ae7e4cbeaa1a1f8a9537911e4cb24871ed466194a8bbcfacdf4108537050",
+    "receipt": "innovations-210-source-review.json",
+    "receipt_sha256": "164001335a3b7cdcc35c574c197d359d34df726db5ec9cdca4d13baa98bfea17"
+  },
+  "private_original_receipt_sha256": "7abf7008a68975261ebb1e1758f4af5260da9bab4e8d37ec88ad5eaaf2e566a0"
+}

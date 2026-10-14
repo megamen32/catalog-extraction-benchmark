@@ -1,0 +1,36 @@
+{
+  "id": "innov214-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 214: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 214
+  },
+  "review_basis": "[\"Сверены 203 ячейки 29×7; реальные сечения70/72,95/141,185/128,300/204, разные матрицы150.1/150.3, массы и все размеры сохранены.\"] Исправления: [\"Восстановлены сталеалюминиевые провода и желобообразные алюминиевые профили вместо выдуманных «железообразных».\", \"Описания деталей сечения и расходящихся направлений опрессования уточнены по оригиналу.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/e8fc29c469024bcbed1419add3941fa40bc5f5723d65bab593f2c0d199c06402.json",
+      "sha256": "e8fc29c469024bcbed1419add3941fa40bc5f5723d65bab593f2c0d199c06402",
+      "bytes": 37409,
+      "role": "native-candidate",
+      "program_version": "1.5.8"
+    },
+    {
+      "path": "objects/38001d590fab8e5fedeca048984e240dfe25123f7d5b157456b24996f97dc3bf.json",
+      "sha256": "38001d590fab8e5fedeca048984e240dfe25123f7d5b157456b24996f97dc3bf",
+      "bytes": 34920,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/18511f816e3f541b3106809578d709339c116aee67a86a33690aa95d452bc1b6.json",
+      "sha256": "18511f816e3f541b3106809578d709339c116aee67a86a33690aa95d452bc1b6",
+      "bytes": 3108,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

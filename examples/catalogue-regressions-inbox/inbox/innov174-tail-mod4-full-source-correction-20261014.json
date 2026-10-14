@@ -1,0 +1,36 @@
+{
+  "id": "innov174-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 174: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 174
+  },
+  "review_basis": "Все6 ячеек3×2:Ш-300L*,Ш-400L*,Ш-500L* и300/400/500мм², сноскаLвметрах,вдвое меньше времени/монтажболтами/НАС-В/ТУ2010 сохранены. Исправления: [\"Условный разрыв провода восстановлен вместо «лома», описание чертежа и заказной L записано без неподтверждённых технологических деталей.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/13c045e78897144d61e7639449085be37a19fff38cce754ac661cae4d1d8984c.json",
+      "sha256": "13c045e78897144d61e7639449085be37a19fff38cce754ac661cae4d1d8984c",
+      "bytes": 12776,
+      "role": "native-candidate",
+      "program_version": "1.5.6"
+    },
+    {
+      "path": "objects/19081bc67ea4d71a0f58e586ac124012d8ad1068f76382da390fdc2f7fda4f98.json",
+      "sha256": "19081bc67ea4d71a0f58e586ac124012d8ad1068f76382da390fdc2f7fda4f98",
+      "bytes": 9402,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/bd31c3c0263dfa30d7e301bcbac859d47b4f47af1f1e45f7d8a930e73d99130f.json",
+      "sha256": "bd31c3c0263dfa30d7e301bcbac859d47b4f47af1f1e45f7d8a930e73d99130f",
+      "bytes": 2974,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

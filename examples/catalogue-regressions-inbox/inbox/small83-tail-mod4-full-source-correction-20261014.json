@@ -1,0 +1,36 @@
+{
+  "id": "small83-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "small, страница 83: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Malyj-katalog.pdf",
+    "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_page": 83
+  },
+  "review_basis": "[\"Полный текст, все числа, АВ, контакты и печатная 82 верны. Таблиц нет.\", \"Native неверно назвал провод сдвоенным, ОПН расположенным между электродами и приписал кожуху АВ без подписи.\", \"Source_notes ошибочно утверждали отсутствие сказуемого «отражается» и отсутствие расшифровки L, хотя она есть в легенде. Bbox evidence не охватывали все названные абзацы.\"] Исправления: [\"Исправлены роли позиций 1–6, расположение ограничителя и искрового промежутка, описание комплекта.\", \"Убраны ложные примечания о грамматике и нераскрытом L, evidence охватывает полный лист; текстовые числа не менялись.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/6c798111e0aed103d259cfd3b2aa6407e566dd48295089b09608c6b5232e0cb6.json",
+      "sha256": "6c798111e0aed103d259cfd3b2aa6407e566dd48295089b09608c6b5232e0cb6",
+      "bytes": 19504,
+      "role": "native-candidate",
+      "program_version": "1.5.21"
+    },
+    {
+      "path": "objects/7c50f0c1e68b1aee9f8840fb1e2ae8f5fae1d657763f30ad91dad0a919f49adf.json",
+      "sha256": "7c50f0c1e68b1aee9f8840fb1e2ae8f5fae1d657763f30ad91dad0a919f49adf",
+      "bytes": 17404,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-small-20261014.r1"
+    },
+    {
+      "path": "objects/d6da4d1cea616d6192f0d169025913d4f16e5cb592d640fb841945b472fb700a.json",
+      "sha256": "d6da4d1cea616d6192f0d169025913d4f16e5cb592d640fb841945b472fb700a",
+      "bytes": 19865,
+      "role": "source-review",
+      "program_version": "tail-mod3-small-20261014.r1"
+    }
+  ]
+}

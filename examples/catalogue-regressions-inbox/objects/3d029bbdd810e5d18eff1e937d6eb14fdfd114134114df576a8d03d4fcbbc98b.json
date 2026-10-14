@@ -1,0 +1,70 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 162,
+  "printed_page": "162",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r2",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "85059d1010dea797468170e7da32fbf711f0a6671dff7802b645fac8459d1334",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.5",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "2eacc79c9c9f59a9e1a1a95991de134de55c945cd252d9dffac288e3b2a29fff",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "85059d1010dea797468170e7da32fbf711f0a6671dff7802b645fac8459d1334",
+      "source_bound_save": true,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 162,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "1f47648c2a9640c6f2038f8a21a0cbb9c7a3757278e70e3926ce465237fae267",
+      "receipt": "calls/c0ae0b1994e64381a25abc877ff99e68/result.json",
+      "started_at": 1791942116.7577522,
+      "finished_at": 1791942207.7433612
+    }
+  },
+  "output": {
+    "file": "innovations-162-reviewed-r2.json",
+    "sha256": "de065700d052308aca254980207f7214a72546c00903a2fa436bac5caaa128be"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "bed418d48e4f73e106c2a12eb3c7b36afc5867515c49466a9823f495df405ed0",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [],
+    "column_counts": [],
+    "cells_checked": 0
+  },
+  "source_findings": "Полностью прочитаны четыре абзаца преимуществ:защита выходапровода,статические/динамические деформации,изгибная жёсткость и усталость,спирали/склеенные пряди,исключение пересортицы.Чертежи сопоставлены с собственными6×кропами,таблицнет.",
+  "corrections": [
+    "19,2 восстановлен как внутренний проход,158 — до касательной протектора,300 — лодочка.",
+    "Во втором чертеже исправлены Ø22 как пруток,65/38 как расстояния к касательной протектора и плоскости пластины.",
+    "Восстановлена кириллическая марка провода АС и удалено ложное утверждение о латинице в текстовом слое."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T18:15:26.075619+03:00",
+  "supersedes_output_sha256": "b2789c41ad5b292933e00caa8cb2f3918f9d9c9e1d6de4f78a39ee78b2a7709e",
+  "private_original_receipt_sha256": "7838d634ff4773201aaca7aa63ed79aa4b7b8c2f637817b8c9b107b1c9035f66"
+}

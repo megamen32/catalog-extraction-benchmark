@@ -1,0 +1,36 @@
+{
+  "id": "innov202-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 202: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 202
+  },
+  "review_basis": "[\"Все238 ячеек14×17 сверены, в том числе D₂=30 у120.1/120.2, D₂=40 у150.1–150.3, d₁=8,5 только150.3, L₄373/378 и разные массы185.1/185.3 сохранены.\"] Исправления: [\"L₄ исправлен с торца проушины на ось её отверстия; L₂ — на отдельную внутреннюю плоскость прямого анкера.\", \"d₁ восстановлен как внутренний канал анкера, d — проход корпуса, b — толщина проушины вместо конического корпуса.\", \"L₁/L₂ связаны с отдельными отмеченными плоскостями ВНУТРИ прямых участков, не с фактической границей окончания изгиба.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/e4a83dc0e8f15e084b39f8a9a528c0cc27baa9fcd903541efb3416783d93017e.json",
+      "sha256": "e4a83dc0e8f15e084b39f8a9a528c0cc27baa9fcd903541efb3416783d93017e",
+      "bytes": 42242,
+      "role": "native-candidate",
+      "program_version": "1.5.21"
+    },
+    {
+      "path": "objects/d2bb71edf0a5142c092dcde91803c7e0226f671a958e3ea1acea584fbd827b39.json",
+      "sha256": "d2bb71edf0a5142c092dcde91803c7e0226f671a958e3ea1acea584fbd827b39",
+      "bytes": 40672,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r2"
+    },
+    {
+      "path": "objects/871ec7b8a1cf1fc6704255b88866967b70fb9ca147de2b870c7b154f2580b933.json",
+      "sha256": "871ec7b8a1cf1fc6704255b88866967b70fb9ca147de2b870c7b154f2580b933",
+      "bytes": 3721,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r2"
+    }
+  ]
+}

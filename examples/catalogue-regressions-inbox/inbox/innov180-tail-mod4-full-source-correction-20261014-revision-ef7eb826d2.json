@@ -1,0 +1,36 @@
+{
+  "id": "innov180-tail-mod4-full-source-correction-20261014-revision-ef7eb826d2",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 180: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 180
+  },
+  "review_basis": "[\"Замечание независимого mod1 повторно сопоставлено с оригинальным изображением и уже полностью сверенной таблицей. Изменены только перечисленные поля; все таблицы побайтно сохранены.\", \"Нижняя граница evidence[1] расширена с .64 до .65, чтобы полностью охватить слово «установки.» в конце блока преимуществ. Остальное unchanged.\"] Исправления: [\"Нижняя граница evidence[1] расширена с .64 до .65, чтобы полностью охватить слово «установки.» в конце блока преимуществ. Остальное unchanged.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/d167124a8328e430c2f4a2e4b4b37ee5314c634687aedfec0c5189f2f0e5dd47.json",
+      "sha256": "d167124a8328e430c2f4a2e4b4b37ee5314c634687aedfec0c5189f2f0e5dd47",
+      "bytes": 15730,
+      "role": "native-candidate",
+      "program_version": "1.5.6"
+    },
+    {
+      "path": "objects/ef7eb826d2ec37f59c194635cd529b3dc13ff24eb73de9a337147cbc35e56947.json",
+      "sha256": "ef7eb826d2ec37f59c194635cd529b3dc13ff24eb73de9a337147cbc35e56947",
+      "bytes": 15407,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r1"
+    },
+    {
+      "path": "objects/3af1604c392e3cb32e70741301b0375c8675091cd32a40f2fc2e128d8f7026a5.json",
+      "sha256": "3af1604c392e3cb32e70741301b0375c8675091cd32a40f2fc2e128d8f7026a5",
+      "bytes": 3830,
+      "role": "source-review",
+      "program_version": "tail-mod0-20261014.r1"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "innov172-tail-mod4-full-source-correction-20261014-revision-3b87117859",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 172: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 172
+  },
+  "review_basis": "[\"Замечание независимого mod1 повторно сопоставлено с оригинальным изображением и уже полностью сверенной таблицей. Изменены только перечисленные поля; все таблицы побайтно сохранены.\", \"Исправлена противоречащая верной таблице фраза notes[0]: у корпуса d числовой и d₁ прочерк, у анкера d прочерк и d₁ числовой. Все таблицы и чертежи unchanged относительно r2.\"] Исправления: [\"Исправлена противоречащая верной таблице фраза notes[0]: у корпуса d числовой и d₁ прочерк, у анкера d прочерк и d₁ числовой. Все таблицы и чертежи unchanged относительно r2.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/e338c91bbeaa962c198981b64dd151c4504a7fdc2738d14fa1c2e4cf76d54d18.json",
+      "sha256": "e338c91bbeaa962c198981b64dd151c4504a7fdc2738d14fa1c2e4cf76d54d18",
+      "bytes": 85560,
+      "role": "native-candidate",
+      "program_version": "1.5.6"
+    },
+    {
+      "path": "objects/3b87117859f68c7fffd6c1d3587eb84875d7185866a78b3e55755b75507a53a4.json",
+      "sha256": "3b87117859f68c7fffd6c1d3587eb84875d7185866a78b3e55755b75507a53a4",
+      "bytes": 85503,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r2"
+    },
+    {
+      "path": "objects/3faaeb150929db2da7897b141ea0b249d03d9a8663e835eef1cc6b4b6c8933fe.json",
+      "sha256": "3faaeb150929db2da7897b141ea0b249d03d9a8663e835eef1cc6b4b6c8933fe",
+      "bytes": 4054,
+      "role": "source-review",
+      "program_version": "tail-mod0-20261014.r2"
+    }
+  ]
+}

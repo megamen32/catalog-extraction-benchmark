@@ -1,0 +1,36 @@
+{
+  "id": "innov126-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 126: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 126
+  },
+  "review_basis": "Все126 ячеек18×7 проверены. Две настоящие пустые ячейки зажима для300/48 и300/67 сохранены blank,не расширены от соседей. Общие3/6/5/4группы и конкретные НАС240/330/300/400/450/600/500,массы15,4/18,3/21,1/24,3 совпали. Исправления: [\"Натяжной НАС восстановлен вместо наливного,исправлена ложная русская подпись бренда.\", \"S восстановлен как толщина лапки,5 как внутренний зазор проводников; уточнены реальные базыL₁ и плоской площадки80.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/4a1b3eeee6c27987579870d7f03dba0e774c350ec259e831c45f334a9fc9f4cc.json",
+      "sha256": "4a1b3eeee6c27987579870d7f03dba0e774c350ec259e831c45f334a9fc9f4cc",
+      "bytes": 30208,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/939832bc4fca60ea73842eb35794b6126859e3ea73f48743e883fc0f2527f8e5.json",
+      "sha256": "939832bc4fca60ea73842eb35794b6126859e3ea73f48743e883fc0f2527f8e5",
+      "bytes": 27903,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/372475ff5d827f0a7e5f7e8ba203c1821e64019aa72d024f593422172ac2a694.json",
+      "sha256": "372475ff5d827f0a7e5f7e8ba203c1821e64019aa72d024f593422172ac2a694",
+      "bytes": 3230,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

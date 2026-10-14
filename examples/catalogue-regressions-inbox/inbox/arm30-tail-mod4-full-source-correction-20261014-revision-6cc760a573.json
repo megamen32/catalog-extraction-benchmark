@@ -1,0 +1,36 @@
+{
+  "id": "arm30-tail-mod4-full-source-correction-20261014-revision-6cc760a573",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 30: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 30
+  },
+  "review_basis": "[\"Все266 ячеек сверены,числа/тире не менялись.\", \"Рисунки1–4 не перенесены на чужую страницу; связь через колонкуРис. и соседний источник явно описана.\", \"Сохранены настоящее ТУ52814896 и ветровое условие отклонения до60°.\"] Исправления: [\"D восстановлен как диаметр прутка, H₁ — до внутреннего низа скобы; удалены выдуманные провод/наклонённые пластины внутри рисунка6.\", \"Сняты ложные неопределённости Smin/max и B/d после сверки схемы присоединения и соседнего полного листа29; реальные ограничения и прочерки сохранены.\", \"Пояснения и описания записаны с нормальными пробелами; буквальные маркировки и табличные поля сохранены.\", \"Пять оставшихся склеек в пояснительном тексте разделены пробелами; смысл и все табличные значения прежние.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/80510d0fea80c7943ac95f5e506ed074f57b59a9b3951493d6ab2cbb2df0ae09.json",
+      "sha256": "80510d0fea80c7943ac95f5e506ed074f57b59a9b3951493d6ab2cbb2df0ae09",
+      "bytes": 49746,
+      "role": "native-candidate",
+      "program_version": "1.5.3"
+    },
+    {
+      "path": "objects/6cc760a57346c296512057fef345756c835b55de61e4561d41cad752ce303b6e.json",
+      "sha256": "6cc760a57346c296512057fef345756c835b55de61e4561d41cad752ce303b6e",
+      "bytes": 46707,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r3"
+    },
+    {
+      "path": "objects/45bd0ada4601064c4de8f9d3614b94aafa4f9eedbe22649af16e2d82efbf3d71.json",
+      "sha256": "45bd0ada4601064c4de8f9d3614b94aafa4f9eedbe22649af16e2d82efbf3d71",
+      "bytes": 4168,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r3"
+    }
+  ]
+}

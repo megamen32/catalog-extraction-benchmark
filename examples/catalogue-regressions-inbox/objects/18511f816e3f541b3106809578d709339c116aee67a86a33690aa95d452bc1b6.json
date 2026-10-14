@@ -1,0 +1,74 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "innovations",
+  "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+  "physical_page": 214,
+  "printed_page": "214",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "e8fc29c469024bcbed1419add3941fa40bc5f5723d65bab593f2c0d199c06402",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.8",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "56b47ab11c142fdd0d89ade636eb52fff30220c3425401678e2bf74c18b69c62",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "e8fc29c469024bcbed1419add3941fa40bc5f5723d65bab593f2c0d199c06402",
+      "source_bound_save": true,
+      "source_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+      "physical_page": 214,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "ad43db8eeb96f6a5b1aab82eb07fb8d999a3c90cd9e1f094a41f378634f1d7ae",
+      "receipt": "calls/7ebbc26ce76c4d80ac7e7182e7e8943f/result.json",
+      "started_at": 1791946826.523825,
+      "finished_at": 1791946956.1560001
+    }
+  },
+  "output": {
+    "file": "innovations-214-reviewed.json",
+    "sha256": "38001d590fab8e5fedeca048984e240dfe25123f7d5b157456b24996f97dc3bf"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "78cde307147751ef54e3401af8ae8418a9f11be5101de80e0938eeb12622c655",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      29
+    ],
+    "column_counts": [
+      7
+    ],
+    "cells_checked": 203
+  },
+  "source_findings": [
+    "Сверены 203 ячейки 29×7; реальные сечения70/72,95/141,185/128,300/204, разные матрицы150.1/150.3, массы и все размеры сохранены."
+  ],
+  "corrections": [
+    "Восстановлены сталеалюминиевые провода и желобообразные алюминиевые профили вместо выдуманных «железообразных».",
+    "Описания деталей сечения и расходящихся направлений опрессования уточнены по оригиналу."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T17:51:46.856201+03:00",
+  "private_original_receipt_sha256": "50f5bfe216f04b176df1bb9a6d7c71b2f154cd85d23823c5be7e3fa32308b7f4"
+}

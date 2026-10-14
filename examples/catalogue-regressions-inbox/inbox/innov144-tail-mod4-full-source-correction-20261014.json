@@ -1,0 +1,36 @@
+{
+  "id": "innov144-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "innovations, страница 144: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 144
+  },
+  "review_basis": "[\"Полный оригинал и обе увеличенные схемы просмотрены. Таблиц нет. Проверены все марки ЭРВ/ЭРН, серьги и ушка, стрелки А/Б и соответствующие А-А/Б-Б.\", \"Два Ø400, два Ø515 и четыре подписи Ø255-290 связаны с конкретными контурами. У А-А контур изолятора присутствует, но отдельная подпись Ø255-290 отсутствует. В нижнем зажиме показан провод. Тексты 220 кВ/ТУ, логотипы и контакты сверены.\"] Исправления: [\"Исправлена функция нижнего зажима: он удерживает провод. Трубчатые экраны больше не названы козырьками.\", \"Убрано вымышленное повторение подписи Ø255-290 в А-А; этот размер реально указан в сборочных видах и Б-Б.\", \"Неоднозначное 3/З в подписи марки зажима явно вынесено в uncertainties.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/c6dc1999534a292ab6d1eeb6718ad88c45343890fa2149647b2e311467708bfb.json",
+      "sha256": "c6dc1999534a292ab6d1eeb6718ad88c45343890fa2149647b2e311467708bfb",
+      "bytes": 7152,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/764ef58a9d800bfe0561c89f6d0a39a0fdc8138e3cebc1b74ac423fc3b5e0b16.json",
+      "sha256": "764ef58a9d800bfe0561c89f6d0a39a0fdc8138e3cebc1b74ac423fc3b5e0b16",
+      "bytes": 7194,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r1"
+    },
+    {
+      "path": "objects/0cd5a8eea16784fa86bd4d7784b7ca54cfb5bd63962bb1947eb337884cc15d87.json",
+      "sha256": "0cd5a8eea16784fa86bd4d7784b7ca54cfb5bd63962bb1947eb337884cc15d87",
+      "bytes": 4224,
+      "role": "source-review",
+      "program_version": "tail-mod0-20261014.r1"
+    }
+  ]
+}

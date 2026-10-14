@@ -1,0 +1,36 @@
+{
+  "id": "arm14-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 14: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 14
+  },
+  "review_basis": "[\"Полный оригинал13 просмотрен: производственные инжекционные машины, третье/четвёртое поколение, более5млн, тройка производителей СНГ; все исходные количественные утверждения сохранены как слова производителя.\", \"Сверены 618900, г. Лысьва, Каракулова2,8(34249)6-47-48,sales@zaoinsta.ru и обе региональные территории/телефоны/адреса/сайты.\"] Исправления: [\"Исправлена неверная роль «задней страницы»: это справочное представление производителя внутри каталога.\", \"На фото восстановлено различие кириллической ИНСТА и латинской INSTA вместо двух латинских INSTA.\", \"Удалено неподтверждённое сравнение телефона с якобы обычным кодом города; настоящий номер сохранён.\", \"Область evidence предприятия расширена до всей цитируемой части, включая описание технологии и объёма производства.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/6b9f6dfa8da4555aa06a9be31c118a956b4094924a399e5161df8c27ece2ec84.json",
+      "sha256": "6b9f6dfa8da4555aa06a9be31c118a956b4094924a399e5161df8c27ece2ec84",
+      "bytes": 10514,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/239db28bfcbe9f45df40b673b19b7bbbf1b1f517575ac7c23321ef989ddf1114.json",
+      "sha256": "239db28bfcbe9f45df40b673b19b7bbbf1b1f517575ac7c23321ef989ddf1114",
+      "bytes": 10485,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/128be688fc60ccd8e4309893223dbea0efafe372250d0171344d2f79de44a12c.json",
+      "sha256": "128be688fc60ccd8e4309893223dbea0efafe372250d0171344d2f79de44a12c",
+      "bytes": 4190,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

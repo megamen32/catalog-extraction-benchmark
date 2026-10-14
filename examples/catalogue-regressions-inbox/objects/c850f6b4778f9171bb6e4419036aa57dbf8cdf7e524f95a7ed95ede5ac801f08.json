@@ -1,0 +1,155 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "isolators",
+  "source_filename": "Katalog-IZOLJaTORY.pdf",
+  "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+  "physical_page": 51,
+  "printed_page": "50",
+  "status": "awaiting_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod3",
+    "task": "/root/catalog_tail_mod3",
+    "version": "tail-mod3-isolators-20261014.r1",
+    "model_id": "Current native Codex worker session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "isolators-51-candidate.json",
+    "sha256": "68dcc6ed8eda5d40c6b3ccc14f5b39677f700df863ce637c8e055e5ebe5d3fe2",
+    "canonical_sha256": "c93a1c6ba99066ba351d0fa0d6cda40b01fd49ff59a105f42223d01383ac93a9",
+    "producer": {
+      "program": {
+        "package_version": "1.4.15",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+        "python_version": "3.12.13",
+        "components": {
+          "agent_logic": {
+            "package_version": "1.4.2",
+            "git_revision": null,
+            "dirty": null,
+            "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+            "python_version": "3.12.13"
+          },
+          "catalog_tools": {
+            "package_version": "1.4.8",
+            "git_revision": null,
+            "dirty": null,
+            "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+            "python_version": "3.12.13"
+          },
+          "legacy_skills": {
+            "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+            "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+          },
+          "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+          "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+          "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+          "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+        }
+      },
+      "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+      "physical_page": 51,
+      "attempt": 5,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf",
+      "artifact_sha256": "68dcc6ed8eda5d40c6b3ccc14f5b39677f700df863ce637c8e055e5ebe5d3fe2",
+      "started_at": 1791851025.765762,
+      "finished_at": 1791851090.528933,
+      "provider_rate_limit_events": 0,
+      "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46",
+      "status": "receipt_verified",
+      "source_bound_save": true,
+      "receipt": ".tmp/full-digitization/staged-best-v1.4.8/isolators/page-0051/calls/981c8e2d82454b5eab8364c7c44b6f64/result.json",
+      "frozen_receipt": "isolators-51-native-receipt.json",
+      "frozen_receipt_sha256": "4f326d2b0bcdf8c1b923f226b43c718f4da27a0e2a9083c8dbec1a596505705e"
+    }
+  },
+  "output": {
+    "file": "isolators-51-reviewed.json",
+    "sha256": "58d55f76e1b9255ea14e6e72e38eb3b22504494cf3f802d2fbae0e6a4dd0cdd5",
+    "canonical_sha256": "ddd7b3892e6b7f223063d1700e2f1a4b40f56b3a080daa0c90cfccc2297393a5"
+  },
+  "full_original_image_review": true,
+  "original_image": "isolators-51.png",
+  "original_image_sha256": "f55705e7cde241efa8d286e5873da8a016fac13eb763fd1459b91b98a2382e43",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "page_content_schema": true
+  },
+  "tables": {
+    "row_counts": [
+      8
+    ],
+    "column_counts": [
+      21
+    ],
+    "cells_checked": 168
+  },
+  "source_findings": [
+    "Все 168 ячеек и буквальные заголовки верны, включая настоящую опечатку «остоянии», тире/переносы МЭК и дробные записи высот.",
+    "Native выдумал болтовое соединение, флажок и назвал H полным наружным габаритом, d диаметром сферы; рисунок этого не подтверждает."
+  ],
+  "corrections": [
+    "Восстановлены присоединительные базы H/D/d и видимые элементы без ненапечатанных материалов и механизмов.",
+    "Уточнено происхождение Unicode c и удалено утверждение о фиктивном пустом ряде; таблица неизменна."
+  ],
+  "complete_leaf_diff": [
+    {
+      "path": ".figures[0].description",
+      "before": "Один продольный чертёж изолятора, выполненный как совмещённый вид и разрез: слева контур внешнего вида изолятора с опорной площадкой (флажком) внизу, справа — разрез с заштрихованными стенками, полыми рёбрами тарельчатой части и закрашенной точкой цементной заделкой под металлической шапкой с отверстием и шарниром (болтовым соединением) на оси. По вертикали проведена штрихпунктирная осевая линия. Слева вертикальный размер Н с двусторонними стрелками (от верха металлической шапки до низа опорной площадки); внизу горизонтальный размер D с двусторонними стрелками по ширине тарельчатой части; у оси, на уровне шарнира, горизонтальный размер d с одной стрелкой вправо — диаметр сферического соединения. Других размеров, отверстий, знаков Ø и числовых значений размеров на чертеже не напечатано; допусков и знаков ± нет.",
+      "after": "Совмещённый наружный вид с частичным осевым разрезом изоляционной тарелки и центрального соединения. Верхняя шапка показана наружным контуром с внутренним гнездом и поперечной фиксирующей деталью, без обозначения резьбового болтового соединения. Справа видны нижние концентрические рёбра тарелки и центральный пестик. Материалы неподписанных прослоек по штриховке не назначались. H — строительная высота от отмеченной верхней опорной плоскости внутри шейки верхнего гнезда до плоскости перехода шейки нижнего пестика в расширенную головку; не от наружного верха шапки до низа тарелки. D — наружный диаметр тарелки между крайними контурами. d — указание на шейку пестика; в таблице это стандартное сферическое соединение по ГОСТ 27396 (МЭК 120-84), значения 16/20. Размер расширенной головки пестика отдельно не задан. Знаков Ø, чисел, допусков и единиц у этих трёх обозначений на рисунке нет."
+    },
+    {
+      "path": ".page_context",
+      "before": null,
+      "after": {
+        "kind": "catalogue_product_data",
+        "summary": "Стеклянные подвесные тарельчатые ПСВ с увеличенным вылетом ребра АО «ЮМЭК». Изоляция и крепление проводов и грозотросов ВЛ и распределительных устройств свыше 1000 В, до 100 Гц, от −60 до +50 °C, УХЛ1. ТУ 3493-004-99267582-2009, ГОСТ 6490-2017, МЭК 60383-1-2023, ГОСТ 27661-2017, МЭК 60305-2021. Совмещённый вид с частичным разрезом и таблица восьми марок, размеров, прочности, испытаний и радиопомех.",
+        "source_evidence": [
+          {
+            "kind": "catalogue_product_data",
+            "box": [
+              0.05,
+              0,
+              0.98,
+              0.995
+            ],
+            "observation": "Весь лист: бренды, назначение/нормы, чертёж H/D/d, все 168 ячеек 8×21 и полная многоярусная шапка, контакты и печатная 50. H — между присоединительными уровнями, не полный габарит; d направлен на шейку нижнего пестика. Три пары напряжения/радиопомех проверены раздельно; необычное «в сухом остоянии» подтверждено собственным повёрнутым 10× кропом.",
+            "transcription": "literal"
+          }
+        ]
+      }
+    },
+    {
+      "path": ".source_notes[0]",
+      "before": "В заголовке столбца 7 слово набрано со смешанными алфавитами: «cтроительная» — первая буква латинская c (U+0063), остальные кириллические (текстовый слой; подтверждено зумом оригинала). Сохранено буквально; обозначение высоты «Н» — кириллическая (U+041D).",
+      "after": "В исходном текстовом слое в «cтроительная» первая c латинская; визуально она совпадает с кириллической с. Эта кодовая особенность сохранена, но не выдаётся за визуально различимую опечатку."
+    },
+    {
+      "path": ".source_notes[1]",
+      "before": "В заголовке столбца 11 в источнике опечатка: напечатано «в сухом остоянии» (пропущена буква «с»); текст сохранён буквально по текстовому слою и зуму оригинала.",
+      "after": "Настоящее печатное «в сухом остоянии» без первой с подтверждено отдельным повёрнутым 10× кропом и сохранено буквально."
+    },
+    {
+      "path": ".source_notes[13]",
+      "before": "Нижняя граница сетки таблицы даёт в прямом чтении одну пустую строку под восемью строками данных; в источнике это не строка таблицы, а артефакт границы области чтения — сохранены только 8 строк данных.",
+      "after": "Все 168 ячеек 8×21 сверены по двум собственным 6× кропам. Значения 127/146, 146/170, 170/ 195 и 125/125, 140/140 сохранены буквально, без создания дополнительных строк; пробел после / в двух последних высотах присутствует. Реальных объединений данных нет. Нагрузки 70/120/160/210, остаточные 56/96/128/168, длины утечки 445/445/470/468/545/560/555/570 и массы 5,7/5,7/5,7/5,7/8,0/8,3/9,2/9,5 проверены отдельно."
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independent_review_required": true,
+  "unresolved_issues": [],
+  "acceptance_note": "No PASS issued. Corrected content, engineering drawing relations, and uncertainties require independent source review.",
+  "completed_at": "2026-10-14T17:41:30.439168+03:00",
+  "private_original_receipt_sha256": "2f62d4c7b24f2c90a42f2c6ec80a24c1f8c16991ee8fbb06e6ce0abe6491cddf"
+}
