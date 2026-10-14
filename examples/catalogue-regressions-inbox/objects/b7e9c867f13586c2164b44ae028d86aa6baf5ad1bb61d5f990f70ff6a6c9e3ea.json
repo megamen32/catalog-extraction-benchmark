@@ -1,0 +1,80 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 128,
+  "printed_page": "127",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-0128-native-candidate.json",
+    "sha256": "f6ec244003372d7291f4573db98dabcc752719218aed19141dc9728189b31da3",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.6",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "ca9cb343d7402f9bdb421b4fc5bc0b77ee1cff94b255122f592b3fda0e12f0b3",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "f6ec244003372d7291f4573db98dabcc752719218aed19141dc9728189b31da3",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 128,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "3031f54101971a2d9729b048304180edaaf22cda716b98c15339c8c61c45fa7b",
+      "receipt": "calls/f581a4e7130a47a3b195b70a51cbc2ec/result.json",
+      "started_at": 1791943796.8783228,
+      "finished_at": 1791943959.6443717
+    }
+  },
+  "output": {
+    "file": "armature-0128-reviewed.json",
+    "sha256": "253b5283fac3a238f0c88fe988509349d04e9349132f43e8e1ed2904fa1d9c32"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "2b97f53b9f91d98d40696f5618f6f3c1cb55cbb1f5afd9e2bfafed74eb2040e8",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      41
+    ],
+    "column_counts": [
+      10
+    ],
+    "cells_checked": 410
+  },
+  "source_findings": [
+    "Полная оригинальная страница, увеличенные чертёж и вся таблица просмотрены. Сверены 410 ячеек 41×10, каждая марка, каждый диаметр, D / d / L / L1, матрица, S, масса и реальные многострочные объединения. Значения native верны.",
+    "В источнике действительно напечатаны СГТК20-0134-15,0 без косой черты в первом столбце и СГТК20-416/129-30,2; эти написания сохранены. Единицы мм и кг напечатаны только у диаметра троса и массы, к D / d / L / L1 / S не приписаны.",
+    "Два внутренних конца L1 различимы на увеличении; 30°, 10, Rz320, +3, +8 / -4 и d+0,4 сверены буквально по стрелкам. Назначение, ТУ, контакты info@mzva.ru и печатная 127 совпадают."
+  ],
+  "corrections": [
+    "L1 ошибочно описаны как размеры до середины: их внутренние выносные разнесены по сторонам центральной зоны.",
+    "Уточнена принадлежность Rz320 к показанным торцевым образующим; звёздочке D не приписан отсутствующий смысл.",
+    "Исправлена обратная иерархия табличной шапки матрицы: «Опрессовывать матрицей» — общая группа, «Обозначение» и S — подколонки.",
+    "Добавлен видимый, но пропущенный брендинг ФОРЭНЕРГО / FORENERGO."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T15:10:49.614354+03:00",
+  "private_original_receipt_sha256": "6d26198ff3fd184e56c678345bfce0e0789bb4ed28f390223833aaccc0224d42"
+}

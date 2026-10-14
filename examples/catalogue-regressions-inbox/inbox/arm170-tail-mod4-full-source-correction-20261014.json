@@ -1,0 +1,36 @@
+{
+  "id": "arm170-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 170: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 170
+  },
+  "review_basis": "[\"Все243 ячейки27×9 сверены; объединённые диапазоны1/1/2/3/3/2/1/4/2/2/2/2/2строки.\", \"Масса приL7м:4,8/6,3/7,3/8,2/10,1/11,5/11,8/14,3/14,2/17,2/17,5/17,6/20,7. Числа не менялись.\", \"Собственный6×кроп показывает S поперёк граней,5 внутри изоляции; выноски комплектности относятся к внешним натяжным зажимам.\"] Исправления: [\"Устранена ложная комплектность ШРЦ: внешние натяжные зажимы исключены, ШРЦ включены.\", \"Спиральный зажим восстановлен вместо справального; бренд приведён к источнику.\", \"S определён как поперечный размер под ключ, L1/L2 — по настоящим границам,5 — осевая изоляционная перемычка.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/80113ea267e9afb06f9539a369e31fa2c2d1773e7c8e1231895350a2846f111f.json",
+      "sha256": "80113ea267e9afb06f9539a369e31fa2c2d1773e7c8e1231895350a2846f111f",
+      "bytes": 45190,
+      "role": "native-candidate",
+      "program_version": "1.5.9"
+    },
+    {
+      "path": "objects/61364af08fa53d994bc2ac53c271ec7783f7c799c95428ea7ac8a776f2a1f50e.json",
+      "sha256": "61364af08fa53d994bc2ac53c271ec7783f7c799c95428ea7ac8a776f2a1f50e",
+      "bytes": 42468,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/2babde35a0d558ef45043bcc22e4ec9090ce82af525192c42e5d7f6c2a536733.json",
+      "sha256": "2babde35a0d558ef45043bcc22e4ec9090ce82af525192c42e5d7f6c2a536733",
+      "bytes": 3522,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

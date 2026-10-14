@@ -1,0 +1,88 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 164,
+  "printed_page": "163",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r2",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-0164-native-candidate.json",
+    "sha256": "c9a2274b879dec14ffa4bfe20dc732fd411dfbb7c87ec21b98464f1383d2f692",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.17",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "250a5f879c4c07bb339e5791b2e6b59062426df6bcef56df7b50cb0af47cfc87",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "c9a2274b879dec14ffa4bfe20dc732fd411dfbb7c87ec21b98464f1383d2f692",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 164,
+      "attempt": 2,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "5f66dfaacd6c43b74ca531095c704b2a738db593b26901fc493f46c9409796e6",
+      "receipt": "calls/73420fd1697b46028054dc685c9ec122/result.json",
+      "started_at": 1791960893.0334456,
+      "finished_at": 1791961291.4320767
+    }
+  },
+  "output": {
+    "file": "armature-0164-reviewed-r2.json",
+    "sha256": "e186eab38c242b375a41dfc96e51aa829b4b4d9c7bf48bd39d4fa1c002edd129"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "33ebe8b2c0ac7bd33503f149f89053c4dc8ff9d1bc50c022be5bb81a01c347e9",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      27
+    ],
+    "column_counts": [
+      11
+    ],
+    "cells_checked": 297
+  },
+  "source_findings": [
+    "Полная страница и увеличенный чертёж повторно просмотрены. У размеров нет знака справочности; evidence теперь описывает просто размеры. Размер 5 ограничивает осевую перемычку изоляционного стыка.",
+    "Все 297 ячеек таблицы и остальные привязки чертежа равны ранее полностью сверенной версии."
+  ],
+  "corrections": [
+    "Из evidence удалено слово «справочные»: исходник не обозначает эти размеры специальной сноской.",
+    "5 уточнён как осевая толщина изоляционной перемычки на стыке продольной оболочки."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T11:52:49.103857+00:00",
+  "previous_reviewed_output": {
+    "file": "armature-0164-reviewed.json",
+    "sha256": "1381a7269e3fa93c4385d1759ce2f01bb0263580946dceea49ce6be524fc84a7"
+  },
+  "revision_trigger": "Independent source review by catalog_tail_mod1, followed by personal source-image recheck by catalog_tail_mod0.",
+  "revision_evidence_images": [
+    {
+      "file": "armature-0164-dimensions.png",
+      "sha256": "deea822fd723de84f7ec4d5a2fce2e0333062a05db1e2242a9a4f85d43c3cde7"
+    }
+  ],
+  "private_original_receipt_sha256": "a0cb8aea7d00316d64161563bc076622285c37c2ccd2fd6ff9476d5736e9cbf0"
+}

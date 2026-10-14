@@ -1,0 +1,29 @@
+{
+  "id": "arm311-manual-author-revision-error-20261014",
+  "status": "pending_adjudication",
+  "category": "manual-author-and-reviewer-failure",
+  "title": "Арматура 311: подтверждённая ошибка ручного автора",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 311
+  },
+  "review_basis": "Автор root ранее, как и native кандидат, ошибочно привязал2,3мм/20кВ и3,5мм/35кВ к подгруппам сечений. Это два условных общих значения для всех9сечений; r2 разделяет их в20/35кВ колонки. Нельзя выдавать первый ручной осмотр за доказанный PASS. Ответственный за ошибочный артефакт — native Codex, а не MiniMax илиGLM. Старые шкалы500/520не меняются, модельных перезапусков нет. Исправленные авторские файлы всё равно требуют независимого exact-SHAreview.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/1223eaa69e185912c4a42e39805e62ba64a4e30d5fe973bf2650c90923f3e52e.json",
+      "sha256": "1223eaa69e185912c4a42e39805e62ba64a4e30d5fe973bf2650c90923f3e52e",
+      "bytes": 29944,
+      "role": "manual-author-output-with-confirmed-error",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/02daca0d43a5b373e97bec3ef28a190dad76e7bd0046240c8618c81b3682109c.json",
+      "sha256": "02daca0d43a5b373e97bec3ef28a190dad76e7bd0046240c8618c81b3682109c",
+      "bytes": 29280,
+      "role": "source-checked-manual-revision",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

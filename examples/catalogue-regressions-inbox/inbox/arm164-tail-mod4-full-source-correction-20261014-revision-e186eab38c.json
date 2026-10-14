@@ -1,0 +1,36 @@
+{
+  "id": "arm164-tail-mod4-full-source-correction-20261014-revision-e186eab38c",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 164: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 164
+  },
+  "review_basis": "[\"Полная страница и увеличенный чертёж повторно просмотрены. У размеров нет знака справочности; evidence теперь описывает просто размеры. Размер 5 ограничивает осевую перемычку изоляционного стыка.\", \"Все 297 ячеек таблицы и остальные привязки чертежа равны ранее полностью сверенной версии.\"] Исправления: [\"Из evidence удалено слово «справочные»: исходник не обозначает эти размеры специальной сноской.\", \"5 уточнён как осевая толщина изоляционной перемычки на стыке продольной оболочки.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/c9a2274b879dec14ffa4bfe20dc732fd411dfbb7c87ec21b98464f1383d2f692.json",
+      "sha256": "c9a2274b879dec14ffa4bfe20dc732fd411dfbb7c87ec21b98464f1383d2f692",
+      "bytes": 53186,
+      "role": "native-candidate",
+      "program_version": "1.5.17"
+    },
+    {
+      "path": "objects/e186eab38c242b375a41dfc96e51aa829b4b4d9c7bf48bd39d4fa1c002edd129.json",
+      "sha256": "e186eab38c242b375a41dfc96e51aa829b4b4d9c7bf48bd39d4fa1c002edd129",
+      "bytes": 50694,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r2"
+    },
+    {
+      "path": "objects/bd73cfb6a91cabb8dffd597713115f553e9b39a8a2037ea930958331ef1c78ba.json",
+      "sha256": "bd73cfb6a91cabb8dffd597713115f553e9b39a8a2037ea930958331ef1c78ba",
+      "bytes": 3937,
+      "role": "source-review",
+      "program_version": "tail-mod0-20261014.r2"
+    }
+  ]
+}

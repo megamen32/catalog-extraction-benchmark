@@ -1,0 +1,80 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 140,
+  "printed_page": "139",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-0140-native-candidate.json",
+    "sha256": "cbf8046a6894e16e5efe8ee57392f5da6e1273c9d1d1397095d09947ca788e22",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.9",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "f5f0879481c5c45730d168c7edf956c8a1784eeed1c5ea6bcad7d8c4355101b0",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "cbf8046a6894e16e5efe8ee57392f5da6e1273c9d1d1397095d09947ca788e22",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 140,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "89126eb717d25da53e59e93c52197380a6660b24bec70eea7e46df1f2cfa0e5e",
+      "receipt": "calls/9762bbff9b004f88b5b45d4c5894af91/result.json",
+      "started_at": 1791947974.0283585,
+      "finished_at": 1791949048.7940702
+    }
+  },
+  "output": {
+    "file": "armature-0140-reviewed.json",
+    "sha256": "269affdfec4318a5eb3126e989541adb3851d072c173af9dea0be79266bf466d"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "0255516267b8172e70ca412a73ceab29ea8536e90872abd037a9a220b5835084",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      14
+    ],
+    "column_counts": [
+      9
+    ],
+    "cells_checked": 126
+  },
+  "source_findings": [
+    "Полная страница, увеличенные чертежи и таблица просмотрены. Проверены 126 ячеек 14×9: семь исполнений по две строки, количества 3 / 2, все лапки, диаметры, матрицы, H / L / L1, массы, условия «не более» и реальные парные объединения.",
+    "Все числовые значения native сохранены, включая необычные А2А-400 3 Т, А2АП-500 2 Т, 45/37 и А-59 для ППР-6 Т, а также L1=85 у нижней строки ППР-8 Т. Не исправлялись по аналогии с другими строками.",
+    "На обоих чертежах 45 действительно напечатано; верхняя стрелка опрессования вверх, нижняя вниз. Назначение перехода с двух проводов на три в шлейфе анкерной опоры, ТУ 3449-001-52819896-2010, легенда Т, реквизиты и печатная 139 сверены."
+  ],
+  "corrections": [
+    "Удалена выдуманная расшифровка бренда «терминальное оборудование».",
+    "Удалено неподтверждённое описание штриховки проводов как сварки.",
+    "Уточнены три верхние и две нижние лапки, границы H, межосевые L / L/2 и 45. Удалены неподписанные мм у 45 и ложное утверждение, что на чертеже нет числовых размеров.",
+    "printed_page приведён к буквальному 139."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T15:05:25.168905+03:00",
+  "private_original_receipt_sha256": "f3b01b8940461de95a58c797a23dbf964020886264e7579d099d120d1c118edd"
+}

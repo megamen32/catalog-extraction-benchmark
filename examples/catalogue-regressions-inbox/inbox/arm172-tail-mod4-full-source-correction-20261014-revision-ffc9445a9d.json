@@ -1,0 +1,36 @@
+{
+  "id": "arm172-tail-mod4-full-source-correction-20261014-revision-ffc9445a9d",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 172: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 172
+  },
+  "review_basis": "[\"Повторно просмотрен увеличенный оригинальный правый фрагмент: размер 5 задан вдоль оси между двумя поперечными границами заштрихованной изоляционной перемычки. Это не радиальная толщина стенки и не пустой зазор.\", \"Таблица 18×10, все 180 ячеек и остальные подтверждённые привязки равны ранее полностью сверенной версии.\"] Исправления: [\"Исправлено оставшееся source_note, ошибочно отрицавшее числовые размеры при наличии 5.\", \"5 уточнён как осевая толщина изоляционной перемычки на стыке продольной оболочки.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/28452c06e9f5cbc5274dd5d1208ecba340b3f4d8790da9114f1b04d77788fe32.json",
+      "sha256": "28452c06e9f5cbc5274dd5d1208ecba340b3f4d8790da9114f1b04d77788fe32",
+      "bytes": 36155,
+      "role": "native-candidate",
+      "program_version": "1.5.9"
+    },
+    {
+      "path": "objects/ffc9445a9d3fabe2800a0663211b111824c33996670f4cfee13f5bce69e9d5d2.json",
+      "sha256": "ffc9445a9d3fabe2800a0663211b111824c33996670f4cfee13f5bce69e9d5d2",
+      "bytes": 35976,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r2"
+    },
+    {
+      "path": "objects/c0152b7179fe002ceef64a8b08c88d3de5f5e7ded0f99cfe5b86a9a3c3ba1b47.json",
+      "sha256": "c0152b7179fe002ceef64a8b08c88d3de5f5e7ded0f99cfe5b86a9a3c3ba1b47",
+      "bytes": 3973,
+      "role": "source-review",
+      "program_version": "tail-mod0-20261014.r2"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "arm79-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 79: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 79
+  },
+  "review_basis": "Все342 ячейки57×6 проверены по полному оригиналу и двум5× кропам. Все57 марок и индивидуальные нагрузки/массы совпадают. Семь групп D21,6/22,4/23,1/24,0/24,1/24,5/24,8 с настоящими объединениями и2300 сохранены. Необычные ПГН-5-6-П без ведущей2, отсутствие дефиса передП у3ПГН2-5-4П(24,5хL), масса30,08 у2ПГН-5-10-П(24,8хL),185/128 и мм² в диаметре оставлены буквально. Исправления: [{\"path\": \"text_blocks[1]/page_context.source_evidence\", \"reason\": \"Выдуманное профессиональное оборудование заменено реальным производственным объединением; evidence расширено на весь исходник с примечаниями и footer.\"}] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/3b554de104c1e41ee8d1ca9c87ebac3f4a57011d76b20b4f7ca42efcf41e9abb.json",
+      "sha256": "3b554de104c1e41ee8d1ca9c87ebac3f4a57011d76b20b4f7ca42efcf41e9abb",
+      "bytes": 55165,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/173fad15f571f8a0a777dd6fe0ba850417153c61294dde5b767c8ad50563601f.json",
+      "sha256": "173fad15f571f8a0a777dd6fe0ba850417153c61294dde5b767c8ad50563601f",
+      "bytes": 53275,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-20261014.r9"
+    },
+    {
+      "path": "objects/7627ecc1ad0b332b82ca6b9f6050c0f53f531f8699e0e0d8747cf994669a9734.json",
+      "sha256": "7627ecc1ad0b332b82ca6b9f6050c0f53f531f8699e0e0d8747cf994669a9734",
+      "bytes": 8450,
+      "role": "source-review",
+      "program_version": "tail-mod3-20261014.r9"
+    }
+  ]
+}

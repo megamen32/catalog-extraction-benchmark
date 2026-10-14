@@ -1,0 +1,106 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_filename": "Katalog-ARMATURA.pdf",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 69,
+  "printed_page": "68",
+  "status": "author_source_review_complete_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod1",
+    "task": "/root/catalog_tail_mod1",
+    "version": "tail-mod1-20261014.r1",
+    "model_id": "Current native Codex session;exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-69-candidate.json",
+    "sha256": "a7be15df3563d3cea01163c2b928830187ae91f95ab1ad63eb795196d9a67844",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.4",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "03d94c1397ffd39d50a89db0b4d9ae29d17f13e5293b2fcbda6e8b4ec34d8c0c",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "a7be15df3563d3cea01163c2b928830187ae91f95ab1ad63eb795196d9a67844",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 69,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4d5faa2b87b39793b899bfd40ccb8b7b4ff5223f5cfe2aed7fb1c9e3580c2e6b",
+      "receipt": "calls/0174b238961546eba89e7cabb44566ce/result.json",
+      "started_at": 1791940599.7055168,
+      "finished_at": 1791940677.5631876
+    },
+    "receipt_file": "armature-69-producer-receipt.json",
+    "receipt_sha256": "f158caad30ecefd6eb3c14f54a148b8d807df2dc0f6ceb00a8532430b02599ef",
+    "receipt_artifact_equals_candidate": true
+  },
+  "output": {
+    "file": "armature-69-reviewed.json",
+    "sha256": "b04627ff0ba35d7b119fedbc15b5594108da62795a615cf5ea378cd229bdd547",
+    "author": "catalog_tail_mod1"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "0420bf088bbcb6fbc32777043aae52a3a9af1b9afaaea105f2a5a828bd7c44fd",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "pagecontent_schema_valid": true
+  },
+  "tables": {
+    "row_counts": [
+      5
+    ],
+    "column_counts": [
+      7
+    ],
+    "cells_checked": 35
+  },
+  "source_findings": [
+    "Полностью сверены35 клеток таблицы, объединённые пары диаметров/нагрузки, три напечатанных тире Н. Числа сохранены.",
+    "Исправлены ложные отверстия Ø16/Ø22/Ø30: размерные стрелки показывают диаметры прутков гнутых подвесных деталей. Н верхней сборки имеет верхнюю границу у внутреннего изгиба и нижнюю по нижней образующей провода.",
+    "В первой сборке два провода, а не один. Исправлен брендинг «промышленное оборудование»."
+  ],
+  "corrections": [
+    {
+      "path": "text_blocks[1].text",
+      "before": "ФОРЭНЕРГО — промышленное оборудование; FORENERGO Industrial Group",
+      "after": "ФОРЭНЕРГО — производственное объединение / FORENERGO industrial group"
+    },
+    {
+      "path": "figures[0].description",
+      "before": "Два вида (продольный и фронтальный с разрезом) глухого поддерживающего зажима на одном проводе в фазе. Продольный вид: радиус скругления верхней дуги стойки R14, диаметр отверстия в верхней части стойки Ø16 (выноска указывает на штриховое отверстие в теле дуги), расстояние между осями крепёжных болтов 95, общая длина L. Вид спереди: высота до низа провода H, полная высота H₁, расстояние между проводами 120, общая ширина 174. Конкретные значения L, H, H₁ по маркам приведены в таблице.",
+      "after": "2ПГН-5-1 и 2ПГН-5-1М, два вида двухпроводного зажима с местными разрезами. На продольном виде R14 — внутренний радиус верхнего изгиба, Ø16 — диаметр круглого прутка гнутой подвесной детали, а не отверстия. 95 — между осями двух нижних крепёжных болтов; L — наружная продольная длина корпуса. На торцевом виде Н задан от нижней границы верхнего кругового сечения прутка, соответствующей внутренней точке верхнего изгиба, до нижней образующей провода. Н₁ — полный вертикальный габарит от вершины прутка до нижнего конца крепежа. 120 — между осями двух проводов; 174 — наружная ширина по крайним корпусам. Размеры L/Н/Н₁ по моделям заданы таблицей."
+    },
+    {
+      "path": "figures[1].description",
+      "before": "Двухпроводный глухой поддерживающий зажим (вид спереди с разрезом и вид сбоку). Вид спереди: общая ширина 514, расстояние между осями зажимных скоб 400, радиус скругления верхней дуги стойки R15, диаметр отверстия в стойке Ø22, расстояние между осями крепёжных отверстий основания 260. Вид сбоку: высота H₁ и длина L (значения — по таблице).",
+      "after": "2ПГН-5-7 и 2ПГН-5-7М, главный и боковой виды двухпроводной сборки. 514 — полная наружная ширина, 400 — между осями проводов, 260 — между осями двух крайних отверстий нижней поперечины. R15 — внутренний радиус верхнего изгиба, Ø22 — диаметр круглого прутка подвесной детали. На боковом виде Н₁ — полный вертикальный габарит, L — продольная длина корпуса; значения для двух модификаций различаются по таблице."
+    },
+    {
+      "path": "figures[2].description",
+      "before": "Двухпроводный глухой поддерживающий зажим (вид спереди с разрезом и вид сбоку). Вид спереди: общая ширина 530, расстояние между осями зажимных скоб 400, радиус скругления вершины стойки R18, диаметр отверстия в стойке Ø30, расстояние между осями крепёжных отверстий основания 260. Вид сбоку: длина L (верхняя горизонтальная размерная линия) и высота H₁.",
+      "after": "2ПГН-5-10, главный и боковой виды двухпроводной сборки. 530 — полная наружная ширина, 400 — между осями проводов, 260 — между осями крайних крепёжных отверстий нижней поперечины. R18 — внутренний радиус вершины гнутой подвесной детали; Ø30 — диаметр её круглого прутка, а не отверстия. На боковом виде L — продольная длина корпуса, Н₁ — полный вертикальный габарит."
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "independent_review_required": true,
+  "independent_review_status": "pending",
+  "separate_model_review_of_root_edits": null,
+  "unresolved_issues": [
+    "Нужна независимая проверка авторского разбора и инженерных отношений."
+  ],
+  "completed_at": "2026-10-14T15:10:40.994056+03:00",
+  "private_original_receipt_sha256": "482a0ad065c069cd4ac2fa91cb450fcd1fa7d6b6f70aee65dd623e693e44b025"
+}

@@ -1,0 +1,91 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_filename": "Katalog-ARMATURA.pdf",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 57,
+  "printed_page": "56",
+  "status": "author_source_review_complete_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod1",
+    "task": "/root/catalog_tail_mod1",
+    "version": "tail-mod1-20261014.r1",
+    "model_id": "Current native Codex session;exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-57-candidate.json",
+    "sha256": "38b496a0bbaa30b057c6c44ff61c015cdac400a2708677b23e40d6d7edcf2ee4",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.4",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "03d94c1397ffd39d50a89db0b4d9ae29d17f13e5293b2fcbda6e8b4ec34d8c0c",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "38b496a0bbaa30b057c6c44ff61c015cdac400a2708677b23e40d6d7edcf2ee4",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 57,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4d5faa2b87b39793b899bfd40ccb8b7b4ff5223f5cfe2aed7fb1c9e3580c2e6b",
+      "receipt": "calls/00a6d84677f04ca4ac80745e323aedef/result.json",
+      "started_at": 1791940141.767496,
+      "finished_at": 1791940190.7403276
+    },
+    "receipt_file": "armature-57-producer-receipt.json",
+    "receipt_sha256": "83f7fd0d4032d1a6d525d93dc90fa0d05147261d98a2d104ceded872da0a8a9e",
+    "receipt_artifact_equals_candidate": true
+  },
+  "output": {
+    "file": "armature-57-reviewed.json",
+    "sha256": "25325312322bd5d875482a44aa2006455acf7b49dd283dbabe78b4352a8635e0",
+    "author": "catalog_tail_mod1"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "a49fadb8e316c75cacf20551cc3677aea96e86f282adc3cac3cf03ac1ef45787",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "pagecontent_schema_valid": true
+  },
+  "tables": {
+    "row_counts": [],
+    "column_counts": [],
+    "cells_checked": 0
+  },
+  "source_findings": [
+    "Полный оригинал сверён: все четыре пункта, ПГ/ПГГ/ПГН/ПГНП/ПВС, АСку/АСк2у/АСТ, вводное предложение, номер56 и контакты сохранены; таблиц и инженерных рисунков нет.",
+    "Исправлена выдуманная подпись логотипа «производительные технологии» на «производственное объединение»."
+  ],
+  "corrections": [
+    {
+      "path": "page_context.source_evidence[2].observation",
+      "before": "В правом верхнем углу шапки напечатаны логотипы «ФОРЭНЕРГО / FORENERGO» с подписью «производительные технологии» — элемент брендинга издателя.",
+      "after": "В правом верхнем углу логотипы ФОРЭНЕРГО с подписью «производственное объединение» и FORENERGO с подписью industrial group."
+    },
+    {
+      "path": "text_blocks[6].text",
+      "before": "Логотипы ФОРЭНЕРГО / FORENERGO (производительные технологии) в правом верхнем углу",
+      "after": "ФОРЭНЕРГО — производственное объединение / FORENERGO industrial group"
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "independent_review_required": true,
+  "independent_review_status": "pending",
+  "separate_model_review_of_root_edits": null,
+  "unresolved_issues": [
+    "Нужна независимая проверка авторского разбора и инженерных отношений."
+  ],
+  "completed_at": "2026-10-14T15:16:20.892824+03:00",
+  "private_original_receipt_sha256": "64f268567de96b61924277c51d52fb49384aad30367dd2898a2b1b40a7732d8e"
+}

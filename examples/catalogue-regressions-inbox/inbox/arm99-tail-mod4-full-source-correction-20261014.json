@@ -1,0 +1,36 @@
+{
+  "id": "arm99-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 99: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 99
+  },
+  "review_basis": "Все 115 ячеек 23×5 сверены: шесть строк НБ-60/11-16, 17 строк НБ-60/5,6-16, общий 60,0, массы 0,65 и 0,70. Все марки А/АС/М, пять СИП-3 во второй группе, три в первой и реальные прочерки совпадают. Последний прочерк действительно объединён на десять строк А35…М120. Чертёж проверен собственным 6× кропом, размер 93 от оси, 149 без концов провода. Исправления: [{\"path\": \"branding/figures/source_notes/page_context\", \"reason\": \"Восстановлен реальный бренд; условные крестики исключены из буквенных labels, размеры привязаны к поверхности корпуса и оси проушины. Необычный ТУ сохранён.\"}] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/dc985b89e9d1aead52f70f74c89b696117968b7c60cc9070b52efefae30b71f1.json",
+      "sha256": "dc985b89e9d1aead52f70f74c89b696117968b7c60cc9070b52efefae30b71f1",
+      "bytes": 26096,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/165109059d1ce0696957eae18251c84fb5656cdcd69f83c4e36fb7583bdd25a8.json",
+      "sha256": "165109059d1ce0696957eae18251c84fb5656cdcd69f83c4e36fb7583bdd25a8",
+      "bytes": 24301,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-20261014.r9"
+    },
+    {
+      "path": "objects/09e3c9e5c2f6084f592c403c5ccdeb6ec7717baa5585786a70884925aed03f26.json",
+      "sha256": "09e3c9e5c2f6084f592c403c5ccdeb6ec7717baa5585786a70884925aed03f26",
+      "bytes": 16078,
+      "role": "source-review",
+      "program_version": "tail-mod3-20261014.r9"
+    }
+  ]
+}

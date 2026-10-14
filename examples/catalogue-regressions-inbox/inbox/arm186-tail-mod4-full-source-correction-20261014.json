@@ -1,0 +1,36 @@
+{
+  "id": "arm186-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 186: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 186
+  },
+  "review_basis": "[\"Все112 ячеек14×8 и объединения L1 проверены:60 первые5,70 две,80две,90одна,100две,120/140поодной.\", \"Стрелки опрессования от изгиба к концам вправо/вниз, не навстречу изгибу.\", \"Исходный диапазон6,4–6.9 с точкой сохранён буквально, матрицы А/A не нормализованы молча.\"] Исправления: [\"Бренд передан как напечатанное производственное объединение, номер185 без добавленной стр.\", \"Уточнены обе координаты L и начало прямых участков L1, внутреннийd и наружныйD.\", \"Контекст и области evidence согласованы со всем листом.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/acb4e589c5e64f045d950ea191be63aa8de56840e4843f9af93565d224b39e79.json",
+      "sha256": "acb4e589c5e64f045d950ea191be63aa8de56840e4843f9af93565d224b39e79",
+      "bytes": 24344,
+      "role": "native-candidate",
+      "program_version": "1.5.9"
+    },
+    {
+      "path": "objects/309e2f0befa4cb8f8b23ded2403fb21cbe54b49d06c8c392a1633f1d7d63a7b5.json",
+      "sha256": "309e2f0befa4cb8f8b23ded2403fb21cbe54b49d06c8c392a1633f1d7d63a7b5",
+      "bytes": 21449,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/a6c36dd38de58c1904629f95160052e4843e3a1dd5debb14e38bd22ee4b7d8d3.json",
+      "sha256": "a6c36dd38de58c1904629f95160052e4843e3a1dd5debb14e38bd22ee4b7d8d3",
+      "bytes": 3402,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

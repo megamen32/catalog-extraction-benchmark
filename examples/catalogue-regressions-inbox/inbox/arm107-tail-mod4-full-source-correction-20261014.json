@@ -1,0 +1,36 @@
+{
+  "id": "arm107-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 107: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 107
+  },
+  "review_basis": "Проверены 195 логических ячеек 13×15 и все многострочные параметры двух деталей. Сохранены d9,0 у анкера первой группы и прочерки дальше; настоящий blank нагрузки у АС300/48+АС330/43, разные 116,0/113,2 соседних подстрок. Все L484/531,5/519/514/550/590,5/608,5/668 и связанные L1/L2/L3/H, матрицы, нагрузки и массы совпадают. Нагрузка 99,95 у 330-2Б не заменена 99,96 с другой страницы. Оба направления опрессования лично сверены. Исправления: [{\"path\": \"figures/page_context.source_evidence\", \"reason\": \"Наклонный участок правильно отнесён к корпусу, анкер — к правой проушине; L/L1/L2, H, направления опрессования и толщинаb привязаны к своим деталям. Убрано ложное доказательство footer узкой областью знака.\"}] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/a92f1dfc2e1196a308845c9f5cf2e0a0d8c364a783137f74eaa5bd8a08674f23.json",
+      "sha256": "a92f1dfc2e1196a308845c9f5cf2e0a0d8c364a783137f74eaa5bd8a08674f23",
+      "bytes": 37862,
+      "role": "native-candidate",
+      "program_version": "1.5.5"
+    },
+    {
+      "path": "objects/dc4b9aeaf9826aa2bd632ecf27f5b77ed8df5a90884aeda65c8c234939e1bb3e.json",
+      "sha256": "dc4b9aeaf9826aa2bd632ecf27f5b77ed8df5a90884aeda65c8c234939e1bb3e",
+      "bytes": 35897,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-20261014.r8"
+    },
+    {
+      "path": "objects/8c3cd709778fd353151732c2ce0b1c83204ae287d650e5c4c90d80ab680c1c49.json",
+      "sha256": "8c3cd709778fd353151732c2ce0b1c83204ae287d650e5c4c90d80ab680c1c49",
+      "bytes": 16387,
+      "role": "source-review",
+      "program_version": "tail-mod3-20261014.r8"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "arm150-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 150: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 150
+  },
+  "review_basis": "[\"119ячеек17×7 сверены построчно; исходноеL1=80уРАСТ400.5приL560 действительно напечатано и сохранено,не заменено на280.\", \"Массы500.1/500.2различны1,90/1,95,750.1/800.1размеры790/395и800/400;МШ52не смешана сМШ56,2.\", \"Реальных чертежейнастранице нет,подписиразмеров не додуманы из соседних листов.\"] Исправления: [\"Восстановлен содержательный заголовок вместо именифайла;бренд раскрыт по оригиналу.\", \"Единица сечениямм² и условие массы отделены в поля;цифры не менялись.\", \"Областьsource_evidence включает весь реально упомянутый набор признаков.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/346dfac69551e3d7f69f910c88c5ef1b71e6a38fc32c8489a6047640625b8cf6.json",
+      "sha256": "346dfac69551e3d7f69f910c88c5ef1b71e6a38fc32c8489a6047640625b8cf6",
+      "bytes": 21359,
+      "role": "native-candidate",
+      "program_version": "1.5.8"
+    },
+    {
+      "path": "objects/cbcf2e9a7f90bdbe36c002657025476fe53b44bee02f6241c54447a042217b59.json",
+      "sha256": "cbcf2e9a7f90bdbe36c002657025476fe53b44bee02f6241c54447a042217b59",
+      "bytes": 20367,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/a2007979803bf1074a88361ce206d2191a3190e5de22998f0aefe2d85934a805.json",
+      "sha256": "a2007979803bf1074a88361ce206d2191a3190e5de22998f0aefe2d85934a805",
+      "bytes": 3437,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

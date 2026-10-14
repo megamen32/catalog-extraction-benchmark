@@ -1,0 +1,36 @@
+{
+  "id": "arm123-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 123: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 123
+  },
+  "review_basis": "Проверены 204 ячейки 17×12, все многострочные марки и реальные объединения. Сохранены САСку-150/19-1 с АСку 120/19 и 150/19;150/24 с 120/27 и 150/24; матрица втулки МШ33,8 у 185/43; L610/L1 300/L2 80 у 400/51. Значения обоих диаметров деталей, длин, матриц и массы 0,8…2,35 совпадают. У240/32 и 240/39 обе матрицы действительно объединены. Чертёж лично увеличен 5×. Исправления: [{\"path\": \"branding/figures/page_context\", \"reason\": \"Удалён выдуманный партнёр федеральной энергосистемы;17 строк и 15 изделий вместо 19; L1 отделён от торцов втулки.\"}] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/3881b9996b87e27ad267fe4b8a3e67ec012ef49f15bb08015b21844c62db232a.json",
+      "sha256": "3881b9996b87e27ad267fe4b8a3e67ec012ef49f15bb08015b21844c62db232a",
+      "bytes": 38019,
+      "role": "native-candidate",
+      "program_version": "1.5.6"
+    },
+    {
+      "path": "objects/4966e02040b9768dba3cc6d8a9804e2fd385cb4db31a1820bc2dafd1664b15be.json",
+      "sha256": "4966e02040b9768dba3cc6d8a9804e2fd385cb4db31a1820bc2dafd1664b15be",
+      "bytes": 35388,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-20261014.r8"
+    },
+    {
+      "path": "objects/550a560fcfaf350b9f8da648272b2342b6bb001dd5703dcbbb76efd5938c70e1.json",
+      "sha256": "550a560fcfaf350b9f8da648272b2342b6bb001dd5703dcbbb76efd5938c70e1",
+      "bytes": 13461,
+      "role": "source-review",
+      "program_version": "tail-mod3-20261014.r8"
+    }
+  ]
+}

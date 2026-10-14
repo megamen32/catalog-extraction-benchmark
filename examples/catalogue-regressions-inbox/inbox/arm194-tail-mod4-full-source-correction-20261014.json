@@ -1,0 +1,36 @@
+{
+  "id": "arm194-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 194: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 194
+  },
+  "review_basis": "[\"Все276 ячеек23×12 сверены с исходными объединениями.\", \"Матрицы шлейфа и пролёта различаются: первая группаМШ-36,6/МШ-39,8, последняяМШ-52/МШ-55,4; не унифицированы.\", \"Таблица численно корректна, рисунков нет.\"] Исправления: [\"Убрана выдуманная расшифровка ФОРЭНЕРГО как производства силовых трансформаторов.\", \"Размерные единицы мм раскрыты из групповой шапки, сечение мм² сохранено с надстрочной двойкой.\", \"Контекст не ссылается на footer за пределами узкой верхней области.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/0df9b2506b63b1c715b42cafc9e27c0a4de6d3307fccd67634f35f87a97912f4.json",
+      "sha256": "0df9b2506b63b1c715b42cafc9e27c0a4de6d3307fccd67634f35f87a97912f4",
+      "bytes": 42433,
+      "role": "native-candidate",
+      "program_version": "1.5.13"
+    },
+    {
+      "path": "objects/0c320bc064099501dfd8892cb5f6f41b6571ac223df443a3289521c6a2812298.json",
+      "sha256": "0c320bc064099501dfd8892cb5f6f41b6571ac223df443a3289521c6a2812298",
+      "bytes": 41069,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/11c40cb997ae5e33ad6fe1654e61ec8676f32bbc8b531e94f30d28202d6fb182.json",
+      "sha256": "11c40cb997ae5e33ad6fe1654e61ec8676f32bbc8b531e94f30d28202d6fb182",
+      "bytes": 3356,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

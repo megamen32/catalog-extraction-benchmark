@@ -1,0 +1,79 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 311,
+  "printed_page": "стр. 310",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "1223eaa69e185912c4a42e39805e62ba64a4e30d5fe973bf2650c90923f3e52e",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.17",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "250a5f879c4c07bb339e5791b2e6b59062426df6bcef56df7b50cb0af47cfc87",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "1223eaa69e185912c4a42e39805e62ba64a4e30d5fe973bf2650c90923f3e52e",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 311,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "5f66dfaacd6c43b74ca531095c704b2a738db593b26901fc493f46c9409796e6",
+      "receipt": "calls/863c4f70a72b4d66b9570551b9927ea2/result.json",
+      "started_at": 1791965254.2396884,
+      "finished_at": 1791965961.3643184
+    }
+  },
+  "output": {
+    "file": "armature-311-reviewed-r2.json",
+    "sha256": "02daca0d43a5b373e97bec3ef28a190dad76e7bd0046240c8618c81b3682109c"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "910bf6f36cbb71c88c867ca07e1bb1d8d55015bb01d79aa6f48c9967b87439d8",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      16,
+      9
+    ],
+    "column_counts": [
+      4,
+      10
+    ],
+    "cells_checked": 154
+  },
+  "source_findings": "Независимый reviewer обнаружил смысловую ошибку предыдущей собственной проверки: два условия толщины в одном физическом столбце нельзя ограничить высотой соседних строк. Root повторно просмотрел полный оригинал:2,3для20кВ и3,5для35кВ глобально по всем сечениям. Все остальные145 исходных числовых полей/условий сверены, первая таблица без изменений; новая логическая таблица154ячеек.",
+  "corrections": [
+    "Исправлена ошибочная зависимость толщины изоляции от сечения: обе условные толщины доступны в каждой строке.",
+    "Физический столбец с двумя общими условиями разложен на20кВ/35кВ в группе Толщинаизоляции; прежние значения сохранены, условия не потеряны.",
+    "Исправлены противоречащие evidence/source_notes и номер310."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T15:08:03.861853+03:00",
+  "previous_authored_output": {
+    "file": "armature-311-reviewed.json",
+    "sha256": "1223eaa69e185912c4a42e39805e62ba64a4e30d5fe973bf2650c90923f3e52e"
+  },
+  "private_original_receipt_sha256": "00ea4740cca8bfce48b601499606f681ddfa441445aebeb72c5ebb1e9c2b9d6e"
+}

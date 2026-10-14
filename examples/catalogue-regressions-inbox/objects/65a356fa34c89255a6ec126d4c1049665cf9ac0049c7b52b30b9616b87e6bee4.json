@@ -1,0 +1,78 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 182,
+  "printed_page": "181",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "dd88fbe665154b44492fa755d90d459098ad1ecfa6d333081701093d69b606c9",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.9",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "f5f0879481c5c45730d168c7edf956c8a1784eeed1c5ea6bcad7d8c4355101b0",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "dd88fbe665154b44492fa755d90d459098ad1ecfa6d333081701093d69b606c9",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 182,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "89126eb717d25da53e59e93c52197380a6660b24bec70eea7e46df1f2cfa0e5e",
+      "receipt": "calls/e3e530cb543a43c1b1592e2cb57754a4/result.json",
+      "started_at": 1791949069.228532,
+      "finished_at": 1791949179.1878662
+    }
+  },
+  "output": {
+    "file": "armature-182-reviewed.json",
+    "sha256": "6954428114efd881944974560b98427fb36c4d2fa3ab9b5963341ab1cfb2ba56"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "02f55e4346833585e0fb461ec8716704c0affeb5129931c59a7caa42ffc461b6",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      3
+    ],
+    "column_counts": [
+      2
+    ],
+    "cells_checked": 6
+  },
+  "source_findings": [
+    "Все6 ячеек3×2 сверены; сноска не создана отдельным товаром.",
+    "Один шлейф и два конца, не два независимых изделия.",
+    "Контакты info@mzva.ru и номер181 сохранены фактически с этой страницы."
+  ],
+  "corrections": [
+    "Ø14 — отверстия присоединения, не резьба болтов.",
+    "Удалена неподтверждённая завальцовка усиленных гильз.",
+    "Общий текст разделён на осмысленные заголовки, назначение, сноску и реквизиты; бренд исправлен по печатному.",
+    "L связан с заказной длиной в метрах,80/45 с контактной пластиной, не смешаны."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T15:02:49.940797+03:00",
+  "private_original_receipt_sha256": "46607626fee63a77e31c409db40ed868e4ee3aa643236859f162231e0fd332cb"
+}

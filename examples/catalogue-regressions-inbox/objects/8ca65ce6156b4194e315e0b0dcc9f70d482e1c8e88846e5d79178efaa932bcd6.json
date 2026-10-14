@@ -1,0 +1,79 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 190,
+  "printed_page": "189",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "b39ec8cd1a7022418a488491353d3322c344af79bda942282fada91c24c69bfd",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.9",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "f5f0879481c5c45730d168c7edf956c8a1784eeed1c5ea6bcad7d8c4355101b0",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "b39ec8cd1a7022418a488491353d3322c344af79bda942282fada91c24c69bfd",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 190,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "89126eb717d25da53e59e93c52197380a6660b24bec70eea7e46df1f2cfa0e5e",
+      "receipt": "calls/524607daba2b4d0bb37d863728e5d40b/result.json",
+      "started_at": 1791949296.523051,
+      "finished_at": 1791949428.5021956
+    }
+  },
+  "output": {
+    "file": "armature-190-reviewed.json",
+    "sha256": "5ab71539c26ef6703eab50d7d9267e66a6961fc87bf1678a962a22bf927987f9"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "72d01154e420a3ec77ca5e5f3a28868ebc926e9a292c90618266f8c73b60cb6e",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      1
+    ],
+    "column_counts": [
+      14
+    ],
+    "cells_checked": 14
+  },
+  "source_findings": [
+    "Все14 ячеек1×14 сверены:58/65/47, l140, масса9,87, остальные размерные поля — реальные прочерки.",
+    "На source Ø80 нанесён между гранями правого защитного экрана; защитные экраны не разнесены на80.",
+    "Сварка зажимов и термодинамическое напыление меди подтверждены назначением; свойства не приписаны отдельным другим деталям."
+  ],
+  "corrections": [
+    "Ø80 связан с одним защитным экраном, не расстоянием между двумя.",
+    "l140 отделён от диаметра трубыØ140;10 — толщина стенки трубы.",
+    "d — внутренний проход, B/D — наружные размеры шестигранной опрессовки, не наружныйd.",
+    "Удалён неподтверждённый способ сварки экранов; сварка зажимов сохранена по тексту.",
+    "Исправлены бренд, printed_page189, единицы из шапки и буквальные подписи размеров."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T15:01:15.990724+03:00",
+  "private_original_receipt_sha256": "72f0e9c9a1bdee4067f8aacfd3fb69e1d18e4248bc3c57853f13b0bc529f438d"
+}

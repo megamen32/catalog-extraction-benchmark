@@ -1,0 +1,36 @@
+{
+  "id": "arm95-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 95: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 95
+  },
+  "review_basis": "Все 30 ячеек 6×5 совпадают, включая общие НК-1-1 и 43,9, отдельные массы каждого клина и пары А16/А25…М70/М95. Собственный 6× кроп подтверждает Ø16 на пальце, 21 между щеками и 56 по наружным торцам крепежа. Процент 95 относится к прочности заделки, а 43,9 кН к разрушению зажима. Исправления: [{\"path\": \"figures/page_context.source_evidence\", \"reason\": \"Ø16 перенесён с ошибочного провода на фактический поперечный палец; 56/21/51 и две продольные длины привязаны к настоящим выносным линиям.\"}] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/f9466fc73d74ed40ec5109df9edf050356acf2bd4546ef493e5cc10fe970855e.json",
+      "sha256": "f9466fc73d74ed40ec5109df9edf050356acf2bd4546ef493e5cc10fe970855e",
+      "bytes": 13520,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/5d5023ffa4024e4c4d0eb49f9f9c88fc94ab53c9bf291a9625ca6ebbb041d0d7.json",
+      "sha256": "5d5023ffa4024e4c4d0eb49f9f9c88fc94ab53c9bf291a9625ca6ebbb041d0d7",
+      "bytes": 12119,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-20261014.r9"
+    },
+    {
+      "path": "objects/6b7c982bbe369762a28521492ac7d0b75a6980e4c9ac7910152eca43bc3059a4.json",
+      "sha256": "6b7c982bbe369762a28521492ac7d0b75a6980e4c9ac7910152eca43bc3059a4",
+      "bytes": 11327,
+      "role": "source-review",
+      "program_version": "tail-mod3-20261014.r9"
+    }
+  ]
+}

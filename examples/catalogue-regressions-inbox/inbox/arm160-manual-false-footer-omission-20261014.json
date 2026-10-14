@@ -1,0 +1,29 @@
+{
+  "id": "arm160-manual-false-footer-omission-20261014",
+  "status": "pending_adjudication",
+  "category": "manual-author-and-reviewer-failure",
+  "title": "Арматура 160: подтверждённая ошибка ручного проверяющего",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 160
+  },
+  "review_basis": "Ложный ручной review mod1 требовал удалить существующие контакты. Root увеличил низ оригинала5×: ООО, телефон,info@mzva.ru,www и159 присутствуют. Автор review отозвал замечание новым immutablePASS к тем же bytes; удаление не выполнялось. Ответственный за ошибочный артефакт — native Codex, а не MiniMax илиGLM. Старые шкалы500/520не меняются, модельных перезапусков нет. Исправленные авторские файлы всё равно требуют независимого exact-SHAreview.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/64fee1b406cd035cd3c18cdf40f47f3d1609a8af43e94a904d6a9ac6bd1bee8e.json",
+      "sha256": "64fee1b406cd035cd3c18cdf40f47f3d1609a8af43e94a904d6a9ac6bd1bee8e",
+      "bytes": 5457,
+      "role": "manual-review-with-confirmed-error",
+      "program_version": "catalogue-independent-source-review/1"
+    },
+    {
+      "path": "objects/9dea1826bd7d202c080530e9a66e1de711cd6c81890fafd3bbd9c24ceed1c022.json",
+      "sha256": "9dea1826bd7d202c080530e9a66e1de711cd6c81890fafd3bbd9c24ceed1c022",
+      "bytes": 7279,
+      "role": "source-checked-manual-revision",
+      "program_version": "catalogue-independent-source-review/1"
+    }
+  ]
+}

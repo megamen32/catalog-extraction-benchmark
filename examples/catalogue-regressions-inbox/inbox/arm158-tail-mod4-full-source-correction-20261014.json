@@ -1,0 +1,36 @@
+{
+  "id": "arm158-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 158: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 158
+  },
+  "review_basis": "[\"Все135 ячеек9×15 сверены;6типоразмеров с объединениями1/1/1/1/2/3.\", \"Разные матрицыВ–В/А–А первых2строк16/19,9 сохранены. L4:122/127/141/161/161/175; массы3,15/3,35/4,5/5,3/5,85/6,9.\", \"Собственный6×кроп показывает S иS1 между гранями двух соединённых пластин;полный оригинал сохраняет масштаб1:1 и контакты.\"] Исправления: [\"Различены концы одной сборки и направления опрессования.\", \"Выдуманная позиция5 заменена осевой изоляционной перемычкой;L4/L5 связаны с её границей.\", \"S/S1 определены как толщины пластин;d — внутренний проход, L2/L3 — поперечные ширины.\", \"Исправлен бренд и опечатка чертыж.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/5f576deb5558598db5723cd1cf01ed6b962558f4244a93a0f13511afd3bf8154.json",
+      "sha256": "5f576deb5558598db5723cd1cf01ed6b962558f4244a93a0f13511afd3bf8154",
+      "bytes": 31783,
+      "role": "native-candidate",
+      "program_version": "1.5.8"
+    },
+    {
+      "path": "objects/b75f6d9a34ff9600b03e0f0a165f7d6b1a961cb1bb30db9a5a9084d91a47cfee.json",
+      "sha256": "b75f6d9a34ff9600b03e0f0a165f7d6b1a961cb1bb30db9a5a9084d91a47cfee",
+      "bytes": 30028,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/a848a601c5d75efa3435795ac91daf2a2651dd4999b8d36ae7cf9492cb1643fd.json",
+      "sha256": "a848a601c5d75efa3435795ac91daf2a2651dd4999b8d36ae7cf9492cb1643fd",
+      "bytes": 3528,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

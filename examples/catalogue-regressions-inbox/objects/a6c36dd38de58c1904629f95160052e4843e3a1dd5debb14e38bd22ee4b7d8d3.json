@@ -1,0 +1,77 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 186,
+  "printed_page": "185",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "acb4e589c5e64f045d950ea191be63aa8de56840e4843f9af93565d224b39e79",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.9",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "f5f0879481c5c45730d168c7edf956c8a1784eeed1c5ea6bcad7d8c4355101b0",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "acb4e589c5e64f045d950ea191be63aa8de56840e4843f9af93565d224b39e79",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 186,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "89126eb717d25da53e59e93c52197380a6660b24bec70eea7e46df1f2cfa0e5e",
+      "receipt": "calls/82f582129acd42b3a988b706523685fd/result.json",
+      "started_at": 1791949230.8070686,
+      "finished_at": 1791949407.9663045
+    }
+  },
+  "output": {
+    "file": "armature-186-reviewed.json",
+    "sha256": "309e2f0befa4cb8f8b23ded2403fb21cbe54b49d06c8c392a1633f1d7d63a7b5"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "f1f820a30f4eccbbe337d1af40bb10b1d0b1e2d1ed35938c93dbd4aab3b2c4d4",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      14
+    ],
+    "column_counts": [
+      8
+    ],
+    "cells_checked": 112
+  },
+  "source_findings": [
+    "Все112 ячеек14×8 и объединения L1 проверены:60 первые5,70 две,80две,90одна,100две,120/140поодной.",
+    "Стрелки опрессования от изгиба к концам вправо/вниз, не навстречу изгибу.",
+    "Исходный диапазон6,4–6.9 с точкой сохранён буквально, матрицы А/A не нормализованы молча."
+  ],
+  "corrections": [
+    "Бренд передан как напечатанное производственное объединение, номер185 без добавленной стр.",
+    "Уточнены обе координаты L и начало прямых участков L1, внутреннийd и наружныйD.",
+    "Контекст и области evidence согласованы со всем листом."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T15:02:03.558981+03:00",
+  "private_original_receipt_sha256": "b0b6597a609a92e9177635f9cdddd0009bee04e47ca471635ec57c2a4fa5a98f"
+}

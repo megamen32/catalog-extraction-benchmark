@@ -1,0 +1,161 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_filename": "Katalog-ARMATURA.pdf",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 95,
+  "printed_page": "94",
+  "status": "awaiting_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod3",
+    "task": "/root/catalog_tail_mod3",
+    "version": "tail-mod3-20261014.r9",
+    "model_id": "Current native Codex worker session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-95-candidate.json",
+    "sha256": "f9466fc73d74ed40ec5109df9edf050356acf2bd4546ef493e5cc10fe970855e",
+    "canonical_sha256": "18c2ea04a7fd8489b6719a8ff61f9af90c10eba44fd1b0a89c67a4a35db603c0",
+    "producer": {
+      "program": {
+        "package_version": "1.5.4",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "03d94c1397ffd39d50a89db0b4d9ae29d17f13e5293b2fcbda6e8b4ec34d8c0c",
+        "python_version": "3.12.13"
+      },
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 95,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4d5faa2b87b39793b899bfd40ccb8b7b4ff5223f5cfe2aed7fb1c9e3580c2e6b",
+      "artifact_sha256": "f9466fc73d74ed40ec5109df9edf050356acf2bd4546ef493e5cc10fe970855e",
+      "started_at": 1791941497.5757523,
+      "finished_at": 1791941571.479753,
+      "provider_rate_limit_events": 0,
+      "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46",
+      "status": "receipt_verified",
+      "source_bound_save": true,
+      "receipt": ".tmp/full-digitization/staged-best-v1.4.8/armature/page-0095/calls/a2c21756abc94f94b33da6639c4ef3b2/result.json",
+      "frozen_receipt": "armature-95-native-receipt.json",
+      "frozen_receipt_sha256": "58430e676fd368a55e08c0616e16e3fdb6d8e0a35e7a6673dbb3215037102b99"
+    }
+  },
+  "output": {
+    "file": "armature-95-reviewed.json",
+    "sha256": "5d5023ffa4024e4c4d0eb49f9f9c88fc94ab53c9bf291a9625ca6ebbb041d0d7",
+    "canonical_sha256": "781fe2d1cc4262b08ec95568831079a657f8c96df6a54c607f9c9fb065455ee8"
+  },
+  "full_original_image_review": true,
+  "original_image": "armature-95.png",
+  "original_image_sha256": "d7cccfa54adc93b8112cb6320592f56c94d097555fbb43db83cc18721a1e6645",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "page_content_schema": true
+  },
+  "tables": {
+    "row_counts": [
+      6
+    ],
+    "column_counts": [
+      5
+    ],
+    "cells_checked": 30
+  },
+  "source_findings": "Все 30 ячеек 6×5 совпадают, включая общие НК-1-1 и 43,9, отдельные массы каждого клина и пары А16/А25…М70/М95. Собственный 6× кроп подтверждает Ø16 на пальце, 21 между щеками и 56 по наружным торцам крепежа. Процент 95 относится к прочности заделки, а 43,9 кН к разрушению зажима.",
+  "corrections": [
+    {
+      "path": "figures/page_context.source_evidence",
+      "reason": "Ø16 перенесён с ошибочного провода на фактический поперечный палец; 56/21/51 и две продольные длины привязаны к настоящим выносным линиям."
+    }
+  ],
+  "complete_leaf_diff": [
+    {
+      "path": ".figures[0].description",
+      "before": "Продольный разрез зажима: слева проушина с отверстием (поперечная осевая линия со штрихпунктиром), далее наклонный корпус с двумя оконными проёмами и двумя клиновыми пазами (штриховка сечения), под ними зажатый провод, показанный «крестиками» между двумя зажимными пластинами; справа провод выходит из зажима пунктиром. Размеры: 225 — от вертикальной оси отверстия проушины до правого конца зажима; 247,5 — от левого края проушины до правого конца зажима (габаритная длина изделия).",
+      "after": "Продольный вид с частичным разрезом: слева присоединительная проушина, справа корпус с клиновой деталью над проходящим проводом. Два незаштрихованных окна находятся внутри единой заштрихованной детали; их не следует называть двумя отдельными клиновыми пазами. Провод отмечен крестиками, справа выходит из корпуса, слева огибает нижнюю часть. Размер 225 идёт от оси отверстия проушины до правой торцевой границы корпуса, 247,5 — от крайней левой наружной точки проушины до той же правой границы. Концы провода в размеры не включены. Единицы на чертеже не напечатаны."
+    },
+    {
+      "path": ".figures[1].description",
+      "before": "Поперечный вид зажима: две вертикальные щёки (пластины зажима), центральный клин, стяжные шпильки с гайками и шайбами по обеим сторонам, в нижней части — зажатый провод (сечение заштриховано «крестиками»). Размеры: 56 — полная ширина зажима по наружным шайбам; 21 — ширина нижнего паза (окна) под провод; 51 — высота зажима; Ø16 — диаметр провода, указанный выносной линией со знаком диаметра на зажатый провод в пазу.",
+      "after": "Поперечный вид: две боковые щеки, горизонтальный соединительный палец с крепежом и нижний канал с показанным проводом. Ø16 относится к горизонтальному поперечному пальцу: наклонная выноска заканчивается у его нижней образующей, а не у провода. Размер 56 задан между крайними наружными торцами поперечного крепежа. Размер 21 — просвет между внутренними обращёнными гранями щёк; 51 — от верхних торцов щёк до нижнего наружного края показанного корпуса. Ø16 не является диаметром применяемого провода. Единицы на чертеже не напечатаны."
+    },
+    {
+      "path": ".page_context.source_evidence",
+      "before": [
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.07,
+            0.055,
+            0.95,
+            0.28
+          ],
+          "observation": "Заголовок раздела каталога, наименование типа изделия и блок «НАЗНАЧЕНИЕ» с указанием области применения (изолирующие подвески анкерных, анкерно-угловых и концевых опор), процентом прочности заделки и номером ТУ изготовления — типичное товарное описание изделия, а не отчёт программы.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.28,
+            0.315,
+            0.95,
+            0.445
+          ],
+          "observation": "Чертёж зажима НК-1-1: продольный разрез с проушиной и двумя клиновыми пазами и поперечный вид со стяжными шпильками; габаритные размеры привязаны к конкретным контурам. Схема изделия, не скриншот ПО.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.07,
+            0.823,
+            0.94,
+            0.945
+          ],
+          "observation": "Таблица технических характеристик изделия: шесть вариантов номера клина с марками провода по ГОСТ 839-80, постоянная разрушающая нагрузка 43,9 кН (объединённая ячейка) и масса по вариантам. Данные относятся к самому изделию, а не к объекту стройки.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.07,
+            0.955,
+            0.94,
+            0.975
+          ],
+          "observation": "Колонтитул издателя: ООО «МЗВА-ЧЭМЗ», контакты и сайт www.mzva.ru — подтверждает каталожный, а не проектный характер страницы.",
+          "transcription": "literal"
+        }
+      ],
+      "after": [
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.06,
+            0.02,
+            0.96,
+            0.98
+          ],
+          "observation": "НК-1-1 для неизолированных проводов, прочность заделки 95% разрывного усилия провода, ТУ 3449-001-52819896-2010. Таблица шести клиньев 1/1А/2/2А/3/3А даёт общие 43,9 кН и массы 1,0/1,2 кг. Две проекции задают размеры корпуса и пальца Ø16, не диаметр провода.",
+          "transcription": "literal"
+        }
+      ]
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independent_review_required": true,
+  "unresolved_issues": [],
+  "acceptance_note": "No PASS issued. Corrected content, engineering drawing relations, and uncertainties require independent source review.",
+  "completed_at": "2026-10-14T15:10:43.932608+03:00",
+  "private_original_receipt_sha256": "d47076d2bea83a6b16abe0ab2a71333eeabfa0a2579f2d28e933c36a04eecf0d"
+}

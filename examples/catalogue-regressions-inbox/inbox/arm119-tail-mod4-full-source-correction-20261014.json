@@ -1,0 +1,36 @@
+{
+  "id": "arm119-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 119: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 119
+  },
+  "review_basis": "Сверены 120 логических ячеек 12×10 и каждое число внутри пар размеров корпуса/втулки. Все 12 марок,25 строк применимых проводов, четыре буквально перечисленные матрицы у САС-330-1, С26 без дефиса у 600-1, массы 2,338/2,445/2,524/3,112/3,125/4,218/4,324/6,625 сохранены. D/В профили, d проходы, L обеих деталей и отдельные L1 проверены. Явная неоднозначность связи четырёх матриц с подстроками 330 не заменена выдуманной привязкой. Исправления: [{\"path\": \"figures/source_notes[0]/page_context.source_evidence\", \"reason\": \"Убрана ложная языковая поправка врасплет→вразлет, произвольная линия опрессования и смешение L1 с торцами втулки; область доказательств охватывает весь текст и колонтитул.\"}] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/c037c0315e01105b75c25fcb7bbec2a66b9fab89904b09406e02330aab0b38e3.json",
+      "sha256": "c037c0315e01105b75c25fcb7bbec2a66b9fab89904b09406e02330aab0b38e3",
+      "bytes": 30078,
+      "role": "native-candidate",
+      "program_version": "1.5.6"
+    },
+    {
+      "path": "objects/3b5b5487ced834da144e1a6311a31f9f2e87e0c12e9bf5635bcf7d902fd318ec.json",
+      "sha256": "3b5b5487ced834da144e1a6311a31f9f2e87e0c12e9bf5635bcf7d902fd318ec",
+      "bytes": 26579,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-20261014.r8"
+    },
+    {
+      "path": "objects/31adbe394b74b343287d6fbda3a18df1fc1edb3e374c9ae4511f53f9227d6ab2.json",
+      "sha256": "31adbe394b74b343287d6fbda3a18df1fc1edb3e374c9ae4511f53f9227d6ab2",
+      "bytes": 13671,
+      "role": "source-review",
+      "program_version": "tail-mod3-20261014.r8"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "arm174-manual-author-revision-error-20261014",
+  "status": "pending_adjudication",
+  "category": "manual-author-and-reviewer-failure",
+  "title": "Арматура 174: подтверждённая ошибка ручного автора",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 174
+  },
+  "review_basis": "Ошибка ручного автора root: направления опрессования были развёрнуты внутрь. Независимый второй автор и свежий кроп показывают влево слева и вправо справа, наружу в пролёт. Ответственный за ошибочный артефакт — native Codex, а не MiniMax илиGLM. Старые шкалы500/520не меняются, модельных перезапусков нет. Исправленные авторские файлы всё равно требуют независимого exact-SHAreview.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/1bc7f1d5080eee93f461e48d4519dc8497be268e3d058a3437356279955086fd.json",
+      "sha256": "1bc7f1d5080eee93f461e48d4519dc8497be268e3d058a3437356279955086fd",
+      "bytes": 36814,
+      "role": "manual-author-output-with-confirmed-error",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/a48ea839057c1eca92b6c1b8d5aac88ea77ddace629d7216e30bde1749540ae9.json",
+      "sha256": "a48ea839057c1eca92b6c1b8d5aac88ea77ddace629d7216e30bde1749540ae9",
+      "bytes": 36844,
+      "role": "source-checked-manual-revision",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

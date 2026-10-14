@@ -1,0 +1,199 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 227,
+  "printed_page": "226",
+  "status": "awaiting_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod3",
+    "task": "/root/catalog_tail_mod3",
+    "version": "tail-mod3-20261014.r2-geometry-prose",
+    "model_id": "Current native Codex worker session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-227-candidate.json",
+    "sha256": "fe76357f2b42abb2042fc9ccdd0f6f28fc84a9cb38bf0466a23bff9561492d71",
+    "canonical_sha256": "0d6951069949a334c63403f1cc48f7f8a016c99473050c8f7101a40e61577ced",
+    "producer": {
+      "program": {
+        "package_version": "1.5.15",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "8242b10480ab5cbc00eb6b6de0abd40b182977e4018be71b2df47b3ed98da688",
+        "python_version": "3.12.13"
+      },
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 227,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "9b513ece12e8465355ea77e5b966812a92866ab89a8f614335298647034f48bf",
+      "artifact_sha256": "fe76357f2b42abb2042fc9ccdd0f6f28fc84a9cb38bf0466a23bff9561492d71",
+      "started_at": 1791957276.1844883,
+      "finished_at": 1791957423.6061327,
+      "provider_rate_limit_events": 0,
+      "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46",
+      "status": "receipt_verified",
+      "source_bound_save": true,
+      "receipt": ".tmp/full-digitization/staged-best-v1.4.8/armature/page-0227/calls/39d9641b9a8a486abe90bfaaa2837183/result.json",
+      "frozen_receipt": "armature-227-native-receipt.json",
+      "frozen_receipt_sha256": "82c634b877eb0fc97c2ccc1a837b8bca7b78a01f2cd1ac0fbd8cf9d2c3a690b3"
+    }
+  },
+  "output": {
+    "file": "armature-227-reviewed-r2.json",
+    "sha256": "9b950fe1e37265f68f394613418ddeaf7628d8f8e25bb998e290cd10befba7c2",
+    "canonical_sha256": "af4b00613c0370d764163db9d1ad7e1bf1d0bbcc95441b7d11006a8e6f5a4f27"
+  },
+  "full_original_image_review": true,
+  "original_image": "armature-227.png",
+  "original_image_sha256": "2a7c1e0be8c74bec18cc35b6f8db346a5247ecf5f09a5f56b2095416fda136c5",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "page_content_schema": true
+  },
+  "tables": {
+    "row_counts": [
+      8
+    ],
+    "column_counts": [
+      4
+    ],
+    "cells_checked": 32
+  },
+  "source_findings": "Все32ячейки8×4 проверены:сергиСР-7-16/СР-12-16,ушкиУ1/УС/У2,ПГН-5-3Р/ПГН-5-4Р и8марокЭРВ/ЭРН. Сохранены напечатанныеопечаткисерги/зажиы,255–290/380мм и массы2,5/3/2,5/2,5/2,4/3,1/3,1/3кгнеболее. Исправлены226,логотип ипринадлежностьверхнегоØ380;все подписи/стрелкиА/Б покрыты. Повторно просмотрен оригинал и собственный 5× кроп. Исправлен владелец Ø380 на Б–Б в figures и source_notes: внутренний контур изолятора, а не кольцо экрана. Все 32 ячейки и числовые подписи неизменны.",
+  "corrections": [
+    {
+      "path": "printed_page/text_blocks",
+      "reason": "Восстановлен226 иреальныйлоготип вместо промышленногооборудования."
+    },
+    {
+      "path": "figures[0]",
+      "reason": "ВерхнийØ380 ошибочно отнесён native кэкрануЭРВ,вместо тонкого контура изолятора;Ø480 иØ380 нижних экранов сохранены."
+    },
+    {
+      "path": "figures/source_notes",
+      "reason": "Повторно просмотрен оригинал и собственный 5× кроп. Исправлен владелец Ø380 на Б–Б в figures и source_notes: внутренний контур изолятора, а не кольцо экрана. Все 32 ячейки и числовые подписи неизменны."
+    }
+  ],
+  "complete_leaf_diff": [
+    {
+      "path": ".figures[0].description",
+      "before": "Чертёж из двух сборочных видов сбоку и двух поперечных разрезов. Слева — экран ЭРВ-110-2, закреплённый на двух серьгах типа СР-12-16, стянутых болтами; у кронштейна две стрелки «А», указывающие положение разреза А-А. Справа — экран ЭРН-110-3 на ушке типа У1-12-16 со стяжной подвеской: видны звено промежуточное ПРТ-12-1 и зажим натяжной; у кронштейна две стрелки «Б» к разрезу Б-Б. Между видами проходит вертикальная размерная линия «Ø380» с двусторонними стрелками, выносные линии которой отходят от прямых вертикальных участков пластины экрана ЭРВ-110-2, то есть размер относится к этому экрану. Внизу: разрез А-А (круг с концентрическими окружностями экрана и центральной арматурой) с диаметральной размерной линией «Ø480», проведённой через центр с обеими стрелками, и разрез Б-Б с такой же диаметральной линией «Ø380»; обе линии относятся к контурам экранов соответствующих видов. Других числовых размеров на чертеже нет.",
+      "after": "Две боковые сборочные проекции и виды А–А/Б–Б. Слева экран ЭРВ-110-2 с серьгой СР-12-16; справа экран ЭРН-110-3, ушко У1-12-16, промежуточное звено ПРТ-12-1 и натяжной зажим. Стрелки А и Б связывают сборки с нижними видами. Верхний вертикальный Ø380 задан между верхним и нижним уровнями контура изолятора, показанного тонкой линией. На нижнем А–А Ø480 относится к кольцевому экрану ЭРВ-110-2. На Б–Б стрелки Ø380 касаются внутренней окружности контура изолятора, расположенной внутри кольцевого экрана; этот размер не задаёт диаметр кольца экрана ЭРН-110-3. Других числовых размеров нет."
+    },
+    {
+      "path": ".printed_page",
+      "before": null,
+      "after": "226"
+    },
+    {
+      "path": ".source_notes[2]",
+      "before": "На разрезах А-А и Б-Б указаны только диаметральные размеры Ø480 и Ø380; какая из концентрических окружностей экрана является наружной, на странице не оговорено и в описание не вносится.",
+      "after": "На видах А–А и Б–Б напечатаны Ø480 и Ø380. Ø480 относится к кольцевому экрану слева; Ø380 справа относится к внутреннему круговому контуру изолятора. Разные владельцы размеров установлены по фактическим концам стрелок, а не по масштабу."
+    },
+    {
+      "path": ".text_blocks",
+      "before": [
+        {
+          "kind": "heading",
+          "text": "ЛИНЕЙНАЯ АРМАТУРА ДЛЯ ВЛ / АРМАТУРА ЗАЩИТНАЯ"
+        },
+        {
+          "kind": "branding",
+          "text": "ФОРЭНЕРГО / FORENERGO® — промышленное оборудование / INDUSTRIAL GROUP"
+        },
+        {
+          "kind": "heading",
+          "text": "Экраны защитные типа ЭРВ и ЭРН на напряжение 110 кВ"
+        },
+        {
+          "kind": "paragraph",
+          "text": "НАЗНАЧЕНИЕ:"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Предназначены для обеспечения сохранности и защиты изолирующих подвесок ВЛ 110 кВ путем отвода от изоляторов электрической дуги. Изготавливаются по ТУ 3449-001-52819896-2010."
+        },
+        {
+          "kind": "footer",
+          "text": "ООО «МЗВА-ЧЭМЗ»"
+        },
+        {
+          "kind": "footer",
+          "text": "Тел./ факс: +7 (495) 780-51-65, e-mail: zakaz@mzva.ru"
+        },
+        {
+          "kind": "footer",
+          "text": "www.mzva.ru"
+        }
+      ],
+      "after": [
+        {
+          "kind": "heading",
+          "text": "ЛИНЕЙНАЯ АРМАТУРА ДЛЯ ВЛ / АРМАТУРА ЗАЩИТНАЯ"
+        },
+        {
+          "kind": "branding",
+          "text": "ФОРЭНЕРГО производственное объединение / FORENERGO® industrial group"
+        },
+        {
+          "kind": "heading",
+          "text": "Экраны защитные типа ЭРВ и ЭРН на напряжение 110 кВ"
+        },
+        {
+          "kind": "paragraph",
+          "text": "НАЗНАЧЕНИЕ:"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Предназначены для обеспечения сохранности и защиты изолирующих подвесок ВЛ 110 кВ путем отвода от изоляторов электрической дуги. Изготавливаются по ТУ 3449-001-52819896-2010."
+        },
+        {
+          "kind": "footer",
+          "text": "ООО «МЗВА-ЧЭМЗ»"
+        },
+        {
+          "kind": "footer",
+          "text": "Тел./ факс: +7 (495) 780-51-65, e-mail: zakaz@mzva.ru"
+        },
+        {
+          "kind": "footer",
+          "text": "www.mzva.ru"
+        },
+        {
+          "kind": "footer",
+          "text": "226"
+        }
+      ]
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independent_review_required": true,
+  "unresolved_issues": [],
+  "acceptance_note": "No PASS issued. Corrected content, engineering drawing relations, and uncertainties require independent source review.",
+  "completed_at": "2026-10-14T15:05:50.361357+03:00",
+  "source_filename": "Katalog-ARMATURA.pdf",
+  "prior_output": {
+    "file": "armature-227-reviewed.json",
+    "sha256": "406d634fe75fd3147a4ddb4f8060b2c12293723aff3438f43518ad81bdeee907"
+  },
+  "revision_reason": "Повторно просмотрен оригинал и собственный 5× кроп. Исправлен владелец Ø380 на Б–Б в figures и source_notes: внутренний контур изолятора, а не кольцо экрана. Все 32 ячейки и числовые подписи неизменны.",
+  "revision_source_crops": [
+    {
+      "file": "armature-227-diameters-r2.png",
+      "sha256": "d56baba4d858dfff67db8845c54974d34e08f6e321a9b2b13e3602ad53c55a98",
+      "scale": 5
+    }
+  ],
+  "private_original_receipt_sha256": "cee24eea59ac149e1967baec6b192c6be64ce5cbee81c122e21604ba4b90984d"
+}

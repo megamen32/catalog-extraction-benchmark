@@ -1,0 +1,85 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 178,
+  "printed_page": "177",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "ef0d972e35d211858af362e4e8c9a23d7e4697451b406e09a074694805b69d85",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.21",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "2301687f1a836b45b5310748b9eff0562539e6ca5d5cae7237a5b8e7ae0f4f91",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "ef0d972e35d211858af362e4e8c9a23d7e4697451b406e09a074694805b69d85",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 178,
+      "attempt": 5,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "867b3f790ecc8921609cf97aa738eda3b36ee55598d694455416842fad03be98",
+      "receipt": "calls/4b90addde5864fb9a69bbd13b715f82f/result.json",
+      "started_at": 1791973135.979999,
+      "finished_at": 1791973629.2900705
+    }
+  },
+  "output": {
+    "file": "armature-178-reviewed-r2.json",
+    "sha256": "361be168ae7c2163a57b433eb29078e820709ce96032fef1dd96e209ffb102d1"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "3802723a2a970b9e18fddb16cd09ad5d5350610085a07195cade55f5f246c3dd",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      18
+    ],
+    "column_counts": [
+      14
+    ],
+    "cells_checked": 252
+  },
+  "source_findings": [
+    "Полная страница и четыре увеличения: все252 ячейки18×14 и все размерные отношения сверены.",
+    "7× L5S показывает170/12 на первых3 строках;183/14 продолжаются через300 и330 блоки, несмотря на другую границу соседнегоD.",
+    "7× стык подтверждает заштрихованную осевую перемычку5. ВидБ содержит частичное продольное раскрытие, не поперечное сечение."
+  ],
+  "corrections": [
+    "Восстановлены5 ошибочно пустых ячеек по геометрии объединений: L5=170 у240/56; L5=183 иS=14 у330/30 и330/43.",
+    "Размер5 описан как осевая изоляционная перемычка; D относится к штырю, L2/L3 — разным осевым участкам.",
+    "А/Б — дополнительные виды, не выдуманные сеченияА–А/Б–Б.",
+    "Внешние НАС отделены от входящих в шлейф наконечников1/2.",
+    "Исправлены выдуманный бренд и противоречивые source_notes об объединениях.",
+    "Исправлена собственная ошибка автора: верхняя выноснаяL5(178)/L1(162) проходит через уровень оси нижнего ряда болтов, не нижний торец лапки; лично перепроверен увеличенный оригинал."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T15:20:02.729590+03:00",
+  "previous_authored_output": {
+    "file": "armature-178-reviewed.json",
+    "sha256": "08f45186c0d2f96fb13d9452ec4b2cdc76b7dc72c5c60e81732ca64f61e40f2c"
+  },
+  "independent_revision_basis": "catalog_tail_mod3 source-first review178 and own162 source recheck",
+  "private_original_receipt_sha256": "9f5f3b8c3008a5a875dd3fefbf21279e0462a7bb764d279eea78409e0bf3923d"
+}

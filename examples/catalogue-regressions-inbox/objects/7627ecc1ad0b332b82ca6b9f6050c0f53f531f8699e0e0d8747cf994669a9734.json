@@ -1,0 +1,145 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_filename": "Katalog-ARMATURA.pdf",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 79,
+  "printed_page": "78",
+  "status": "awaiting_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod3",
+    "task": "/root/catalog_tail_mod3",
+    "version": "tail-mod3-20261014.r9",
+    "model_id": "Current native Codex worker session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-79-candidate.json",
+    "sha256": "3b554de104c1e41ee8d1ca9c87ebac3f4a57011d76b20b4f7ca42efcf41e9abb",
+    "canonical_sha256": "c310ad592d376b83d71517387b1e966706f15fe54a6e9982753d85ba2f11a144",
+    "producer": {
+      "program": {
+        "package_version": "1.5.4",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "03d94c1397ffd39d50a89db0b4d9ae29d17f13e5293b2fcbda6e8b4ec34d8c0c",
+        "python_version": "3.12.13"
+      },
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 79,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4d5faa2b87b39793b899bfd40ccb8b7b4ff5223f5cfe2aed7fb1c9e3580c2e6b",
+      "artifact_sha256": "3b554de104c1e41ee8d1ca9c87ebac3f4a57011d76b20b4f7ca42efcf41e9abb",
+      "started_at": 1791940933.067625,
+      "finished_at": 1791941044.267656,
+      "provider_rate_limit_events": 0,
+      "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46",
+      "status": "receipt_verified",
+      "source_bound_save": true,
+      "receipt": ".tmp/full-digitization/staged-best-v1.4.8/armature/page-0079/calls/4558b6fba07248c48868ebeffa4a6791/result.json",
+      "frozen_receipt": "armature-79-native-receipt.json",
+      "frozen_receipt_sha256": "b27a7cd2a0fb23de85aa6be5f38b4970d4be7d205164ffd58d0d9e25f73751f0"
+    }
+  },
+  "output": {
+    "file": "armature-79-reviewed.json",
+    "sha256": "173fad15f571f8a0a777dd6fe0ba850417153c61294dde5b767c8ad50563601f",
+    "canonical_sha256": "3461b123dacffdd3c29f4dcf55c108f0105eb2cf461fafb32f1e4ec46d6de0c4"
+  },
+  "full_original_image_review": true,
+  "original_image": "armature-79.png",
+  "original_image_sha256": "613976b11e6b58807ade48fa34965cf032643dc59f00db8ccbc8935ade2c92a6",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "page_content_schema": true
+  },
+  "tables": {
+    "row_counts": [
+      57
+    ],
+    "column_counts": [
+      6
+    ],
+    "cells_checked": 342
+  },
+  "source_findings": "Все342 ячейки57×6 проверены по полному оригиналу и двум5× кропам. Все57 марок и индивидуальные нагрузки/массы совпадают. Семь групп D21,6/22,4/23,1/24,0/24,1/24,5/24,8 с настоящими объединениями и2300 сохранены. Необычные ПГН-5-6-П без ведущей2, отсутствие дефиса передП у3ПГН2-5-4П(24,5хL), масса30,08 у2ПГН-5-10-П(24,8хL),185/128 и мм² в диаметре оставлены буквально.",
+  "corrections": [
+    {
+      "path": "text_blocks[1]/page_context.source_evidence",
+      "reason": "Выдуманное профессиональное оборудование заменено реальным производственным объединением; evidence расширено на весь исходник с примечаниями и footer."
+    }
+  ],
+  "complete_leaf_diff": [
+    {
+      "path": ".page_context.source_evidence",
+      "before": [
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.06,
+            0.02,
+            0.95,
+            0.08
+          ],
+          "observation": "Заголовок страницы относит её к разделу каталога: «Линейная арматура для ВЛ / арматура поддерживающая». Рядом логотипы производителя (ФОРЭНЕРГО / FORENERGO), в подвале — реквизиты ООО «МЗВА-ЧЭМЗ», www.mzva.ru. Это товарная страница каталога, не спецификация проекта и не скриншот ПО.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.08,
+            0.075,
+            0.93,
+            0.87
+          ],
+          "observation": "Единая таблица из 57 позиций: наименование зажима, объединённые по группам значения сечения и диаметра провода, рекомендуемая длина протектора 2300 для всех групп, индивидуальные разрушающая нагрузка (60…300 кН) и масса (6,3…65,28 кг). Объединение ячеек подтверждено геометрией: значение «240/32; 240/39» относится ко всем восьми строкам группы D=21,6 и т. д. Названий стройки, чертежных штампов и привязки к объекту на странице нет.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.06,
+            0.875,
+            0.95,
+            0.93
+          ],
+          "observation": "Условия и примечания под таблицей: D — диаметр провода; L* — длина протектора 800 мм — 3000 мм, длину протектора определяет Заказчик; ** масса указана с протектором рекомендованной длины; характеристики поддерживающих глухих зажимов с интегрированным спиральным защитным протектором для четырех и пяти проводов в фазе предоставляются по запросу. Это подтверждает, что приведённые строки — заявленные заводские характеристики с условиями применимости.",
+          "transcription": "literal"
+        }
+      ],
+      "after": [
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.06,
+            0.02,
+            0.96,
+            0.98
+          ],
+          "observation": "Таблица 57 строк ПГН/2ПГН/3ПГН/3ПГН2 с семью группами диаметра и рекомендуемой длиной2300; все условия массы и нагрузки, D как диаметр, L*800–3000мм по заказчику и данные четырёх/пяти проводов по запросу сохранены. В шапке диаметра буквально мм², эта печатная единица не исправлена по предположению. Нижние реквизиты издателя подтверждают каталог.",
+          "transcription": "literal"
+        }
+      ]
+    },
+    {
+      "path": ".text_blocks[1].text",
+      "before": "ФОРЭНЕРГО · профессиональное оборудование · FORENERGO INDUSTRIAL GROUP",
+      "after": "ФОРЭНЕРГО — производственное объединение / FORENERGO industrial group"
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independent_review_required": true,
+  "unresolved_issues": [],
+  "acceptance_note": "No PASS issued. Corrected content, engineering drawing relations, and uncertainties require independent source review.",
+  "completed_at": "2026-10-14T15:10:43.949984+03:00",
+  "private_original_receipt_sha256": "b06669b20b3fe2e7682dac6e5d0d1a8e84e2ceace17edc680b8e29eed7ad5f26"
+}

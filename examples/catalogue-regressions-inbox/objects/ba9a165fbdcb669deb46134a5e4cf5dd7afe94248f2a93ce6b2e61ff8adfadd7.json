@@ -1,0 +1,85 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 174,
+  "printed_page": "173",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "6274607b3f2e9e14c4fee820e17f237c994e8e8c69ab4111409e1dfab68ca330",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.9",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "f5f0879481c5c45730d168c7edf956c8a1784eeed1c5ea6bcad7d8c4355101b0",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "6274607b3f2e9e14c4fee820e17f237c994e8e8c69ab4111409e1dfab68ca330",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 174,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "89126eb717d25da53e59e93c52197380a6660b24bec70eea7e46df1f2cfa0e5e",
+      "receipt": "calls/7dc054259d2e4413a7e604886c196bdc/result.json",
+      "started_at": 1791948221.0187247,
+      "finished_at": 1791948647.1149337
+    }
+  },
+  "output": {
+    "file": "armature-174-reviewed-r2.json",
+    "sha256": "a48ea839057c1eca92b6c1b8d5aac88ea77ddace629d7216e30bde1749540ae9"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "bf09bfa47bc18d7a58b1cc3f3cf84f996fb932e2e141b0645ad14e4352a37fa8",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      18
+    ],
+    "column_counts": [
+      12
+    ],
+    "cells_checked": 216
+  },
+  "source_findings": [
+    "Полностью сверены216 ячеек18×12: группировки3/6/5/4 строки, размеры180/210/235/245,L235/39/44/43,L3290/309/321/326, массы17,05/20,45/23,8/27,0.",
+    "СечениеА–А действительно напечатано; Б обозначает повёрнутый вид. S иS1 индивидуальные толщины контактных пластин.",
+    "На этой странице нет номераТУ: он не добавлен с соседних листов."
+  ],
+  "corrections": [
+    "Одна сборка шлейфа с двумя концами вместо двух отдельных встречных изображений; явно сохранена комплектность зажимов.",
+    "Указаны реальные владельцы L1/L2/L3,D/d,S/S1 и направления опрессования; L2 поперечный размер сечения, не осевая длина.",
+    "Добавлена осевая изоляционная перемычка5; Б — дополнительный вид, не выдуманное сечение.",
+    "Полные цифровые подписи видаБ восстановлены; условие массы L7м вынесено в qualifier.",
+    "Выдуманный бренд заменён печатным производственным объединением.",
+    "Независимый проверяющий нашёл ошибку автора: направления опрессования были перевёрнуты. Обе стрелки перепроверены свежим6×кропом; исправлены на наружу в пролёт."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T15:19:46.879002+03:00",
+  "previous_authored_output": {
+    "file": "armature-174-reviewed.json",
+    "sha256": "1bc7f1d5080eee93f461e48d4519dc8497be268e3d058a3437356279955086fd"
+  },
+  "independent_revision_basis": "catalog_tail_mod3 source-first194…174 review and own162 follow-up source recheck",
+  "private_original_receipt_sha256": "8979ee03151b8eb5ab14c28784d3bc004ee38b800a61dfe63cc48eddd100cec9"
+}

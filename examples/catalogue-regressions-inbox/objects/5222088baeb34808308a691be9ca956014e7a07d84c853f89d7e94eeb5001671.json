@@ -1,0 +1,80 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 132,
+  "printed_page": "131",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-0132-native-candidate.json",
+    "sha256": "49e102e0c63c7eb0f813562a16af09e4038c44866a40e0a750ba3e0d4455297a",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.8",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "56b47ab11c142fdd0d89ade636eb52fff30220c3425401678e2bf74c18b69c62",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "49e102e0c63c7eb0f813562a16af09e4038c44866a40e0a750ba3e0d4455297a",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 132,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "ad43db8eeb96f6a5b1aab82eb07fb8d999a3c90cd9e1f094a41f378634f1d7ae",
+      "receipt": "calls/a37e12d802c14bc99fc6a7f70f5036b4/result.json",
+      "started_at": 1791944488.9517217,
+      "finished_at": 1791944559.9155004
+    }
+  },
+  "output": {
+    "file": "armature-0132-reviewed.json",
+    "sha256": "836aed82a7d56778b71801c9491e9eaf18469c55589e2adeec7285ed5ff78d64"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "2b7dee5f2628e3ed03fc791618afff8c9a419edacfadbffe8cf66b22aff359cb",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      10
+    ],
+    "column_counts": [
+      6
+    ],
+    "cells_checked": 60
+  },
+  "source_findings": [
+    "Полная оригинальная страница, увеличенные фото, чертёж и текст преимуществ просмотрены. Все 60 ячеек таблицы 10×6 сверены, включая общие D / L / S и отдельные d. Значения native совпадают.",
+    "Строка ШРЦ-АС-400-28 действительно содержит провод 400/18; строки с 150/19, 150/24 и другими списками сохранены полностью. Ни один размер не вычислялся по форме фото.",
+    "L исключает провода, D относится к наружному поперечному контуру; d и S на чертеже не подписаны. Назначение, ТУ 3449-001-52819896-2020, четыре абзаца преимуществ, плашки, реквизиты info@mzva.ru и печатная 131 сверены."
+  ],
+  "corrections": [
+    "«Термонагонов» исправлено на буквальное «термопатронов» во всех повторениях.",
+    "В заголовке преимуществ восстановлено «цанговых» при «цапковые» в верхнем наименовании; разница источника отмечена.",
+    "Удалена выдуманная расшифровка бренда «фазированные силовые кабельные линии», добавлена пропущенная рубрика раздела.",
+    "На фото удалён неподтверждённый установленный провод; описаны реально показанные собранное изделие и разнесённые резьбовые детали."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T15:09:05.494293+03:00",
+  "private_original_receipt_sha256": "ec7fcc67c9f28c5805be28bce1b4670a8ab7775acf98d214820717b23993a7b0"
+}

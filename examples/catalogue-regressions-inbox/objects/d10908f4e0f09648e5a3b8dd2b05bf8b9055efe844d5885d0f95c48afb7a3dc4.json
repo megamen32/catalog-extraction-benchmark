@@ -1,0 +1,77 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 166,
+  "printed_page": "165",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "9c131a7a3d113bad0a3623f17b1f63bbcb8f31034cb4337ce8fc3013bc777b94",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.8",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "56b47ab11c142fdd0d89ade636eb52fff30220c3425401678e2bf74c18b69c62",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "9c131a7a3d113bad0a3623f17b1f63bbcb8f31034cb4337ce8fc3013bc777b94",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 166,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "ad43db8eeb96f6a5b1aab82eb07fb8d999a3c90cd9e1f094a41f378634f1d7ae",
+      "receipt": "calls/c4df14124e02455991b34a806d6f6130/result.json",
+      "started_at": 1791947387.2772176,
+      "finished_at": 1791947562.6941152
+    }
+  },
+  "output": {
+    "file": "armature-166-reviewed.json",
+    "sha256": "b67f5ac50d5080364c9873ccdaa73c0f0918b54665826b4187902ebcda08488c"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "3294249c3e8ae484344829c68f57a4f57a171b3625df2148a655d21cd8a22254",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      27
+    ],
+    "column_counts": [
+      15
+    ],
+    "cells_checked": 405
+  },
+  "source_findings": [
+    "Полностью сверены405 ячеек27×15; объединения1/1/2/3/3/3/6/5/3строки.",
+    "Массы5,4/7,0/7,8/9,05/10,5/12,45/15,55/18,6/21,5 сохранены; марки МШ25/24,2/28,6/33,8/36,4/41,6 различены.",
+    "Собственный4× кроп охватывает весь чертёж с концами размерных линий."
+  ],
+  "corrections": [
+    "Различены два разных конца одной сборки; слева нет болтового соединения лапок.",
+    "S/S1 присвоены контактным пластинам, L2/L3 поперечным сечениям, L4/L5 кончаются на изоляционных перемычках.",
+    "Число5 восстановлено как осевой размер, поворот видаБ отделён от крепежа."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T15:18:01.869072+03:00",
+  "private_original_receipt_sha256": "6e2753df9db9106a42b40622ce17501557527c51ce1173be6b2aed02e5d386a1"
+}

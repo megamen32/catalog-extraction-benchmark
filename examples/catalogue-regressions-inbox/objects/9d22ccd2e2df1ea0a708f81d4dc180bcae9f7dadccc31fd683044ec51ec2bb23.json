@@ -1,0 +1,84 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 162,
+  "printed_page": "161",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "3f420a5edb456ab4688a1753fd0242ad2418920d301b7a36d17753c48e54b29a",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.8",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "56b47ab11c142fdd0d89ade636eb52fff30220c3425401678e2bf74c18b69c62",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "3f420a5edb456ab4688a1753fd0242ad2418920d301b7a36d17753c48e54b29a",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 162,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "ad43db8eeb96f6a5b1aab82eb07fb8d999a3c90cd9e1f094a41f378634f1d7ae",
+      "receipt": "calls/19659714bd5247b4b2134778344a91f2/result.json",
+      "started_at": 1791947285.1217024,
+      "finished_at": 1791947402.0843763
+    }
+  },
+  "output": {
+    "file": "armature-162-reviewed-r2.json",
+    "sha256": "9cd7df4299c457650b72e0fcbf390d7c353d45671ca5289ea9cc346f0096220c"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "7bcc70ca1a80916f4e1c101b5de624751f529f31bceb27db58b8b0c3db46af01",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      27
+    ],
+    "column_counts": [
+      7
+    ],
+    "cells_checked": 189
+  },
+  "source_findings": [
+    "Все189 ячеек27×7 полностью сверены. В185/24 и185/29 общаяНАС240-1В, в185/43 отдельная240-2В.",
+    "В группе300/39…330/43 совместимость330-1В/300-1В/400-1В/330-3В сохранена только в своих объединениях; в400группеНАС400-1В первых2строк,450-1В последних3.",
+    "Печатный номер161 и e-mailinfo@mzva.ru; различие НАС1В в абзаце и конкретных кодов таблицы сохранено."
+  ],
+  "corrections": [
+    "Два зеркальных изображения заменены смыслом одной сборки с двумя концами.",
+    "L1 привязан к контактной лапке и перемычке5; S — толщина лапки.",
+    "А восстановлен как дополнительный вид, шестигранники — крепёж, а не форма отверстий.",
+    "Единица сечения приведена к печатному мм².",
+    "Исправлена собственная ошибка автора: верхняя выноснаяL5(178)/L1(162) проходит через уровень оси нижнего ряда болтов, не нижний торец лапки; лично перепроверен увеличенный оригинал."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T15:20:02.732138+03:00",
+  "previous_authored_output": {
+    "file": "armature-162-reviewed.json",
+    "sha256": "20239655c51ab88cd5c246e424980969aca9cb1cb07536e945be441e55c4f7ab"
+  },
+  "independent_revision_basis": "catalog_tail_mod3 source-first review178 and own162 source recheck",
+  "private_original_receipt_sha256": "51a2423808ed77b716d5b2b39b99c557e236f9c39312d34bb70e74c7fa810637"
+}

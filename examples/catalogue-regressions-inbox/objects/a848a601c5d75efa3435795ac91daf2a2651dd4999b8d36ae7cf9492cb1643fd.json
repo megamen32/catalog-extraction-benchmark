@@ -1,0 +1,78 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 158,
+  "printed_page": "157",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "5f576deb5558598db5723cd1cf01ed6b962558f4244a93a0f13511afd3bf8154",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.8",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "56b47ab11c142fdd0d89ade636eb52fff30220c3425401678e2bf74c18b69c62",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "5f576deb5558598db5723cd1cf01ed6b962558f4244a93a0f13511afd3bf8154",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 158,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "ad43db8eeb96f6a5b1aab82eb07fb8d999a3c90cd9e1f094a41f378634f1d7ae",
+      "receipt": "calls/2360ffa510294ddd87b9aaeaa58344bc/result.json",
+      "started_at": 1791947100.1115258,
+      "finished_at": 1791947264.9225838
+    }
+  },
+  "output": {
+    "file": "armature-158-reviewed.json",
+    "sha256": "b75f6d9a34ff9600b03e0f0a165f7d6b1a961cb1bb30db9a5a9084d91a47cfee"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "632fa20372f9bdac4a674d4b6f7b4d9584d845ec461b146ada509e8a87545719",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      9
+    ],
+    "column_counts": [
+      15
+    ],
+    "cells_checked": 135
+  },
+  "source_findings": [
+    "Все135 ячеек9×15 сверены;6типоразмеров с объединениями1/1/1/1/2/3.",
+    "Разные матрицыВ–В/А–А первых2строк16/19,9 сохранены. L4:122/127/141/161/161/175; массы3,15/3,35/4,5/5,3/5,85/6,9.",
+    "Собственный6×кроп показывает S иS1 между гранями двух соединённых пластин;полный оригинал сохраняет масштаб1:1 и контакты."
+  ],
+  "corrections": [
+    "Различены концы одной сборки и направления опрессования.",
+    "Выдуманная позиция5 заменена осевой изоляционной перемычкой;L4/L5 связаны с её границей.",
+    "S/S1 определены как толщины пластин;d — внутренний проход, L2/L3 — поперечные ширины.",
+    "Исправлен бренд и опечатка чертыж."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T15:19:23.409415+03:00",
+  "private_original_receipt_sha256": "b64fa92c2640dcd8f2179297dd9746637ee85908357e5fa60914c52363b47c0d"
+}

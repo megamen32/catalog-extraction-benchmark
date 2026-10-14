@@ -1,0 +1,77 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 150,
+  "printed_page": "149",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "346dfac69551e3d7f69f910c88c5ef1b71e6a38fc32c8489a6047640625b8cf6",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.8",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "56b47ab11c142fdd0d89ade636eb52fff30220c3425401678e2bf74c18b69c62",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "346dfac69551e3d7f69f910c88c5ef1b71e6a38fc32c8489a6047640625b8cf6",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 150,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "ad43db8eeb96f6a5b1aab82eb07fb8d999a3c90cd9e1f094a41f378634f1d7ae",
+      "receipt": "calls/1e8fc7b6879e490e9ef20847898f6dca/result.json",
+      "started_at": 1791946606.1664586,
+      "finished_at": 1791946687.060928
+    }
+  },
+  "output": {
+    "file": "armature-150-reviewed.json",
+    "sha256": "cbcf2e9a7f90bdbe36c002657025476fe53b44bee02f6241c54447a042217b59"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "292bc6aca291fef554470f1133d8af888926df9cd729f8b08f38efa426d3e74d",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      17
+    ],
+    "column_counts": [
+      7
+    ],
+    "cells_checked": 119
+  },
+  "source_findings": [
+    "119ячеек17×7 сверены построчно; исходноеL1=80уРАСТ400.5приL560 действительно напечатано и сохранено,не заменено на280.",
+    "Массы500.1/500.2различны1,90/1,95,750.1/800.1размеры790/395и800/400;МШ52не смешана сМШ56,2.",
+    "Реальных чертежейнастранице нет,подписиразмеров не додуманы из соседних листов."
+  ],
+  "corrections": [
+    "Восстановлен содержательный заголовок вместо именифайла;бренд раскрыт по оригиналу.",
+    "Единица сечениямм² и условие массы отделены в поля;цифры не менялись.",
+    "Областьsource_evidence включает весь реально упомянутый набор признаков."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T15:21:24.282493+03:00",
+  "private_original_receipt_sha256": "3119fab8e1cdfcdc7ba8dfc8baf9fe7c2633021fd4b7cd095d400dc0fa0e723b"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "arm178-manual-author-revision-error-20261014",
+  "status": "pending_adjudication",
+  "category": "manual-author-and-reviewer-failure",
+  "title": "Арматура 178: подтверждённая ошибка ручного автора",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 178
+  },
+  "review_basis": "Ошибка ручного автора root: L5 был отнесён к нижнему торцу лапки. Свежий9×кроп другого автора показывает верхнюю выносную по оси нижнего ряда болтов. Ответственный за ошибочный артефакт — native Codex, а не MiniMax илиGLM. Старые шкалы500/520не меняются, модельных перезапусков нет. Исправленные авторские файлы всё равно требуют независимого exact-SHAreview.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/08f45186c0d2f96fb13d9452ec4b2cdc76b7dc72c5c60e81732ca64f61e40f2c.json",
+      "sha256": "08f45186c0d2f96fb13d9452ec4b2cdc76b7dc72c5c60e81732ca64f61e40f2c",
+      "bytes": 46094,
+      "role": "manual-author-output-with-confirmed-error",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/361be168ae7c2163a57b433eb29078e820709ce96032fef1dd96e209ffb102d1.json",
+      "sha256": "361be168ae7c2163a57b433eb29078e820709ce96032fef1dd96e209ffb102d1",
+      "bytes": 46127,
+      "role": "source-checked-manual-revision",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

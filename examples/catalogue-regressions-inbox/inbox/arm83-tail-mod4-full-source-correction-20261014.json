@@ -1,0 +1,36 @@
+{
+  "id": "arm83-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 83: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 83
+  },
+  "review_basis": "Все 30 ячеек10×3 совпадают: массы54,36/32,4/80,36/80,26/83,7/264,0, диапазоны21,6–26,6/27,5–30,6/31,5–37,7 и одиночный37,5. Два собственных 5× кропа подтверждают5400 между петлями,9500 между кронштейнами,два600 между проводными осями. Сохранены буквальные7030/6900/3450 и четыре2750 без арифметических поправок. Исправления: [{\"path\": \"title/figures/page_context\", \"reason\": \"5400/9500 привязаны к присоединительным петлям/отверстиям; наклонный600 к двум проводным осям; Ø16 к прутку петли. Убраны ошибочные длины консоли и общей сборки.\"}] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/9e7a2a3ef6811cca7b2fb0168420e6f1ccdc57582a5168f961b47c539e976b7b.json",
+      "sha256": "9e7a2a3ef6811cca7b2fb0168420e6f1ccdc57582a5168f961b47c539e976b7b",
+      "bytes": 15095,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/931ead6a5578592c53125b642977c46207d249df4d8d85ceb6e5a5fadfb80d74.json",
+      "sha256": "931ead6a5578592c53125b642977c46207d249df4d8d85ceb6e5a5fadfb80d74",
+      "bytes": 13073,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-20261014.r9"
+    },
+    {
+      "path": "objects/03949d1d8452b281f28264bb47e11c1a11e15c67276f5859c66e817514406c39.json",
+      "sha256": "03949d1d8452b281f28264bb47e11c1a11e15c67276f5859c66e817514406c39",
+      "bytes": 13751,
+      "role": "source-review",
+      "program_version": "tail-mod3-20261014.r9"
+    }
+  ]
+}

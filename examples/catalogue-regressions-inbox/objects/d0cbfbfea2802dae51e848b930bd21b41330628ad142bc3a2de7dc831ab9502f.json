@@ -1,0 +1,151 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 115,
+  "printed_page": "114",
+  "status": "awaiting_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod3",
+    "task": "/root/catalog_tail_mod3",
+    "version": "tail-mod3-20261014.r8",
+    "model_id": "Current native Codex worker session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-115-candidate.json",
+    "sha256": "14af861ad9c4982e64be2c75988dd90480b7748e14bad96c729e2aac2fd7dc37",
+    "canonical_sha256": "5ffe08314aa6d810d2bfd27cb723ecad15e99926925202e64d186c12811d1685",
+    "producer": {
+      "program": {
+        "package_version": "1.5.6",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "ca9cb343d7402f9bdb421b4fc5bc0b77ee1cff94b255122f592b3fda0e12f0b3",
+        "python_version": "3.12.13"
+      },
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 115,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "3031f54101971a2d9729b048304180edaaf22cda716b98c15339c8c61c45fa7b",
+      "artifact_sha256": "14af861ad9c4982e64be2c75988dd90480b7748e14bad96c729e2aac2fd7dc37",
+      "started_at": 1791943181.0367854,
+      "finished_at": 1791943231.4992266,
+      "provider_rate_limit_events": 0,
+      "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46",
+      "status": "receipt_verified",
+      "source_bound_save": true,
+      "receipt": ".tmp/full-digitization/staged-best-v1.4.8/armature/page-0115/calls/101baa65ab4245c1b61f776ef3423e52/result.json",
+      "frozen_receipt": "armature-115-native-receipt.json",
+      "frozen_receipt_sha256": "5c3a6aecd898ee393c8eab5d00062bb2b6d92179b694a27658c2bc5ecb9e12b9"
+    }
+  },
+  "output": {
+    "file": "armature-115-reviewed.json",
+    "sha256": "f419dbc9807feb841395dd1b2de8445f2ac328d2ff963131544ae1f337b6873a",
+    "canonical_sha256": "be2c86023780c97ba479548da02baef37c2d6f1051ea14d0553c18a5bb578ce7"
+  },
+  "full_original_image_review": true,
+  "original_image": "armature-115.png",
+  "original_image_sha256": "993370cc30355a23b2674b5a1967507b229c1420295eae1f8d07c6bb150b8e84",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "page_content_schema": true
+  },
+  "tables": {
+    "row_counts": [],
+    "column_counts": [],
+    "cells_checked": 0
+  },
+  "source_findings": "Таблиц и рисунков нет. Полностью проверены пять пунктов перечня, один болт, диапазон 35–220 к В, марки новых проводов и зажимов. Условия 95% в пролёте и 20% в шлейфах — оба не менее, от разрывного усилия провода/троса. Печатная опечатка предназаначенная и латинское PC сохранены. Номер 114, производственное объединение и все реквизиты совпадают.",
+  "corrections": [
+    {
+      "path": "page_context.source_evidence",
+      "reason": "Прежние узкие области обрезали длинный перечень и не охватывали нижний колонтитул; новое доказательство охватывает все утверждения. Значения и исходный текст сохранены."
+    }
+  ],
+  "complete_leaf_diff": [
+    {
+      "path": ".page_context.source_evidence",
+      "before": [
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.0926,
+            0.0804,
+            0.6072,
+            0.178
+          ],
+          "observation": "Вводный абзац и маркированный перечень новых изделий раздела «Соединительная арматура» с областями применения (ВЛ 35-220 кВ, канаты и заземляющие проводники). Описание номенклатуры каталога, а не пример выдачи ПО и не проектная спецификация.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.0926,
+            0.2061,
+            0.9074,
+            0.2898
+          ],
+          "observation": "Два абзаца нормируют механическую прочность соединительной арматуры относительно разрывного усилия провода (троса): 95% для соединения в пролёте и 20% для соединения в шлейфах; «не менее» — условие требования, единица — процент от разрывного усилия.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.7062,
+            0.0246,
+            0.9078,
+            0.0424
+          ],
+          "observation": "Логотипы издателя: «ФОРЭНЕРГО производственное объединение» и «FORENERGO® industrial group», подтверждают принадлежность страницы каталогу арматуры.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.0744,
+            0.9654,
+            0.9066,
+            0.9771
+          ],
+          "observation": "Колонтитул: печатный номер 114, издатель ООО «МЗВА-ЧЭМЗ», контакты и сайт www.mzva.ru.",
+          "transcription": "literal"
+        }
+      ],
+      "after": [
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.06,
+            0.02,
+            0.96,
+            0.98
+          ],
+          "observation": "Вводная страница соединительной арматуры: пять групп новых изделий PC/ПС модификации А, ШСИП35–220 к В, зажимы для АСку/АСк2у/АСТ, ШП/ШРП/ШЦ/ШРЦ и АСЦ. Один болт у PC/ПС упрощает монтаж при необходимой прочности. Для соединений в пролёте требуется не менее 95% разрывного усилия провода, в шлейфах не менее 20%. Заголовок, логотипы и нижние реквизиты относятся к каталогу.",
+          "transcription": "literal"
+        }
+      ]
+    },
+    {
+      "path": ".page_context.summary",
+      "before": "Каталожная страница раздела «Линейная арматура для ВЛ» издания ООО «МЗВА-ЧЭМЗ» (бренд ФОРЭНЕРГО). Сообщается, что в подраздел «Соединительная арматура» включены новые изделия: зажимы типа PC и ПС модификации «А» (один болт упрощает и ускоряет монтаж, сохраняя требуемую прочность заделки канатов и заземляющих проводников), изолированные шлейфы типа ШСИП для ВЛ 35-220 кВ, аппаратные зажимы для проводов новых типов АСку, АСк2у и АСТ, соединительные шлейфовые зажимы типов ШП, ШРП, ШЦ, ШРЦ и автоматические соединительные зажимы типа АСЦ. Указаны требования по механической прочности: арматура для соединения проводов (тросов) в пролёте — не менее 95% от разрывного усилия провода, арматура для соединения в шлейфах — не менее 20%. Таблиц, чертежей и проектных данных на странице нет.",
+      "after": "Каталожная страница раздела «Линейная арматура для ВЛ» издания ООО «МЗВА-ЧЭМЗ» (бренд ФОРЭНЕРГО). Сообщается, что в подраздел «Соединительная арматура» включены новые изделия: зажимы типа PC и ПС модификации «А» (один болт упрощает и ускоряет монтаж, сохраняя требуемую прочность заделки канатов и заземляющих проводников), изолированные шлейфы типа ШСИП для ВЛ 35-220 к В, аппаратные зажимы для проводов новых типов АСку, АСк2у и АСТ, соединительные шлейфовые зажимы типов ШП, ШРП, ШЦ, ШРЦ и автоматические соединительные зажимы типа АСЦ. Указаны требования по механической прочности: арматура для соединения проводов (тросов) в пролёте — не менее 95% от разрывного усилия провода, арматура для соединения в шлейфах — не менее 20%. Таблиц, чертежей и проектных данных на странице нет."
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independent_review_required": true,
+  "unresolved_issues": [],
+  "acceptance_note": "No PASS issued. Corrected content, engineering drawing relations, and uncertainties require independent source review.",
+  "completed_at": "2026-10-14T14:52:08.338708+03:00",
+  "private_original_receipt_sha256": "81be1a3db2314ccde567bb0c31fbd85f42d4443e8112fb2c14e544bb523909f0"
+}

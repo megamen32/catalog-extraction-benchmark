@@ -1,0 +1,36 @@
+{
+  "id": "arm91-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 91: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 91
+  },
+  "review_basis": "Полностью просмотрен оригинал: центральное поле пустое; таблиц нет, только заголовок, реальные логотипы и полный колонтитул 90 с ООО, телефоном, e-mail и сайтом. Логотипная figure не превращена в технический рисунок. Исправления: [{\"path\": \"page_context.source_evidence\", \"reason\": \"Область доказательства охватывает также цитируемый сайт в правой части footer, ранее исключённый xmax 0.84.\"}] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/e59c665accc136fd1409304b2233becd944a42b13624445b782a1783e5ca226b.json",
+      "sha256": "e59c665accc136fd1409304b2233becd944a42b13624445b782a1783e5ca226b",
+      "bytes": 4719,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/026805eeaa0d2e7eafbabad95119ed5214faa4441194d62e0565048722a7f8f4.json",
+      "sha256": "026805eeaa0d2e7eafbabad95119ed5214faa4441194d62e0565048722a7f8f4",
+      "bytes": 3654,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-20261014.r9"
+    },
+    {
+      "path": "objects/72352778a576612725b2cf075fd40f5981c2a7ef6cdd1b394ff06ddfed783b74.json",
+      "sha256": "72352778a576612725b2cf075fd40f5981c2a7ef6cdd1b394ff06ddfed783b74",
+      "bytes": 6546,
+      "role": "source-review",
+      "program_version": "tail-mod3-20261014.r9"
+    }
+  ]
+}

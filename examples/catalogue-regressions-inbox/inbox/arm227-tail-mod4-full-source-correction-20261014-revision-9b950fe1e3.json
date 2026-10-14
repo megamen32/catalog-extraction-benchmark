@@ -1,0 +1,36 @@
+{
+  "id": "arm227-tail-mod4-full-source-correction-20261014-revision-9b950fe1e3",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 227: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 227
+  },
+  "review_basis": "Все32ячейки8×4 проверены:сергиСР-7-16/СР-12-16,ушкиУ1/УС/У2,ПГН-5-3Р/ПГН-5-4Р и8марокЭРВ/ЭРН. Сохранены напечатанныеопечаткисерги/зажиы,255–290/380мм и массы2,5/3/2,5/2,5/2,4/3,1/3,1/3кгнеболее. Исправлены226,логотип ипринадлежностьверхнегоØ380;все подписи/стрелкиА/Б покрыты. Повторно просмотрен оригинал и собственный 5× кроп. Исправлен владелец Ø380 на Б–Б в figures и source_notes: внутренний контур изолятора, а не кольцо экрана. Все 32 ячейки и числовые подписи неизменны. Исправления: [{\"path\": \"printed_page/text_blocks\", \"reason\": \"Восстановлен226 иреальныйлоготип вместо промышленногооборудования.\"}, {\"path\": \"figures[0]\", \"reason\": \"ВерхнийØ380 ошибочно отнесён native кэкрануЭРВ,вместо тонкого контура изолятора;Ø480 иØ380 нижних экранов сохранены.\"}, {\"path\": \"figures/source_notes\", \"reason\": \"Повторно просмотрен оригинал и собственный 5× кроп. Исправлен владелец Ø380 на Б–Б в figures и source_notes: внутренний контур изолятора, а не кольцо экрана. Все 32 ячейки и числовые подписи неизменны.\"}] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/fe76357f2b42abb2042fc9ccdd0f6f28fc84a9cb38bf0466a23bff9561492d71.json",
+      "sha256": "fe76357f2b42abb2042fc9ccdd0f6f28fc84a9cb38bf0466a23bff9561492d71",
+      "bytes": 12981,
+      "role": "native-candidate",
+      "program_version": "1.5.15"
+    },
+    {
+      "path": "objects/9b950fe1e37265f68f394613418ddeaf7628d8f8e25bb998e290cd10befba7c2.json",
+      "sha256": "9b950fe1e37265f68f394613418ddeaf7628d8f8e25bb998e290cd10befba7c2",
+      "bytes": 12507,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-20261014.r2-geometry-prose"
+    },
+    {
+      "path": "objects/8dfb9d066f17cd6955530f0edabb6d12fbdec7e3f49b2a968271a906c7c15d78.json",
+      "sha256": "8dfb9d066f17cd6955530f0edabb6d12fbdec7e3f49b2a968271a906c7c15d78",
+      "bytes": 12263,
+      "role": "source-review",
+      "program_version": "tail-mod3-20261014.r2-geometry-prose"
+    }
+  ]
+}

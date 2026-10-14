@@ -1,0 +1,36 @@
+{
+  "id": "arm154-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 154: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 154
+  },
+  "review_basis": "[\"Все63 ячейки9×7 сверены;общиеячейки120/19–120/27 и150/19–150/24–150/34 восстановлены строго в своих группах.\", \"L1:138/143/148/163/163/173; массы3,25/3,3/4,15/5,2/5,8/6,5. Все исходные числа совпадают.\", \"Собственный6×кроп L1 показывает верхнюю базу по оси нижнего болтового ряда,а не нижнему торцу лапки;80/45/17,5 сохранены.\"] Исправления: [\"L1 привязан к оси нижнего болтового ряда и перемычке5; S восстановлен как толщина лапки вместо зазора.\", \"Ложный радиусC заменён дуговой длинойL,5 — осевая перемычка вместо вылета изгиба.\", \"А — дополнительный вид, крепёжные головки не названы шестигранными отверстиями.\", \"Собственные опрессованные корпуса отделены от внешнихНАС в комплектности; единицы разнесены по полям.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/7e7861124152e4aafb88dbc7e226aa44e17c0250db7ab054100e2624a2b8cdac.json",
+      "sha256": "7e7861124152e4aafb88dbc7e226aa44e17c0250db7ab054100e2624a2b8cdac",
+      "bytes": 20843,
+      "role": "native-candidate",
+      "program_version": "1.5.8"
+    },
+    {
+      "path": "objects/6c3dec1e612ecf1f4328d7c0047326b34638b73e4bb013feff2e27415613598c.json",
+      "sha256": "6c3dec1e612ecf1f4328d7c0047326b34638b73e4bb013feff2e27415613598c",
+      "bytes": 17489,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/44367f6b5077c5c8ba7f59b9c9f7540ef4b3dc6b561bcbceb1ff59b888d542ca.json",
+      "sha256": "44367f6b5077c5c8ba7f59b9c9f7540ef4b3dc6b561bcbceb1ff59b888d542ca",
+      "bytes": 3735,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

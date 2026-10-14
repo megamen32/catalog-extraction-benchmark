@@ -1,0 +1,29 @@
+{
+  "id": "arm162-manual-author-revision-error-20261014",
+  "status": "pending_adjudication",
+  "category": "manual-author-and-reviewer-failure",
+  "title": "Арматура 162: подтверждённая ошибка ручного автора",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 162
+  },
+  "review_basis": "Собственная ошибка root найдена при перепроверке аналогичного чертежа: верхняя базаL1 — ось нижнего ряда болтов, не нижний торец лапки. Ответственный за ошибочный артефакт — native Codex, а не MiniMax илиGLM. Старые шкалы500/520не меняются, модельных перезапусков нет. Исправленные авторские файлы всё равно требуют независимого exact-SHAreview.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/20239655c51ab88cd5c246e424980969aca9cb1cb07536e945be441e55c4f7ab.json",
+      "sha256": "20239655c51ab88cd5c246e424980969aca9cb1cb07536e945be441e55c4f7ab",
+      "bytes": 34153,
+      "role": "manual-author-output-with-confirmed-error",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/9cd7df4299c457650b72e0fcbf390d7c353d45671ca5289ea9cc346f0096220c.json",
+      "sha256": "9cd7df4299c457650b72e0fcbf390d7c353d45671ca5289ea9cc346f0096220c",
+      "bytes": 34184,
+      "role": "source-checked-manual-revision",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "arm311-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 311: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 311
+  },
+  "review_basis": "Независимый reviewer обнаружил смысловую ошибку предыдущей собственной проверки: два условия толщины в одном физическом столбце нельзя ограничить высотой соседних строк. Root повторно просмотрел полный оригинал:2,3для20кВ и3,5для35кВ глобально по всем сечениям. Все остальные145 исходных числовых полей/условий сверены, первая таблица без изменений; новая логическая таблица154ячеек. Исправления: [\"Исправлена ошибочная зависимость толщины изоляции от сечения: обе условные толщины доступны в каждой строке.\", \"Физический столбец с двумя общими условиями разложен на20кВ/35кВ в группе Толщинаизоляции; прежние значения сохранены, условия не потеряны.\", \"Исправлены противоречащие evidence/source_notes и номер310.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/1223eaa69e185912c4a42e39805e62ba64a4e30d5fe973bf2650c90923f3e52e.json",
+      "sha256": "1223eaa69e185912c4a42e39805e62ba64a4e30d5fe973bf2650c90923f3e52e",
+      "bytes": 29944,
+      "role": "native-candidate",
+      "program_version": "1.5.17"
+    },
+    {
+      "path": "objects/02daca0d43a5b373e97bec3ef28a190dad76e7bd0046240c8618c81b3682109c.json",
+      "sha256": "02daca0d43a5b373e97bec3ef28a190dad76e7bd0046240c8618c81b3682109c",
+      "bytes": 29280,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/ab4569dc84e4076826335a648897e7be9798b650a0487e71d9cb888b47c598cc.json",
+      "sha256": "ab4569dc84e4076826335a648897e7be9798b650a0487e71d9cb888b47c598cc",
+      "bytes": 3953,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

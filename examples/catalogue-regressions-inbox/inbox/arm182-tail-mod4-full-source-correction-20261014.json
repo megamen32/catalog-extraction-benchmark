@@ -1,0 +1,36 @@
+{
+  "id": "arm182-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 182: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 182
+  },
+  "review_basis": "[\"Все6 ячеек3×2 сверены; сноска не создана отдельным товаром.\", \"Один шлейф и два конца, не два независимых изделия.\", \"Контакты info@mzva.ru и номер181 сохранены фактически с этой страницы.\"] Исправления: [\"Ø14 — отверстия присоединения, не резьба болтов.\", \"Удалена неподтверждённая завальцовка усиленных гильз.\", \"Общий текст разделён на осмысленные заголовки, назначение, сноску и реквизиты; бренд исправлен по печатному.\", \"L связан с заказной длиной в метрах,80/45 с контактной пластиной, не смешаны.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/dd88fbe665154b44492fa755d90d459098ad1ecfa6d333081701093d69b606c9.json",
+      "sha256": "dd88fbe665154b44492fa755d90d459098ad1ecfa6d333081701093d69b606c9",
+      "bytes": 9030,
+      "role": "native-candidate",
+      "program_version": "1.5.9"
+    },
+    {
+      "path": "objects/6954428114efd881944974560b98427fb36c4d2fa3ab9b5963341ab1cfb2ba56.json",
+      "sha256": "6954428114efd881944974560b98427fb36c4d2fa3ab9b5963341ab1cfb2ba56",
+      "bytes": 6519,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/65a356fa34c89255a6ec126d4c1049665cf9ac0049c7b52b30b9616b87e6bee4.json",
+      "sha256": "65a356fa34c89255a6ec126d4c1049665cf9ac0049c7b52b30b9616b87e6bee4",
+      "bytes": 3395,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

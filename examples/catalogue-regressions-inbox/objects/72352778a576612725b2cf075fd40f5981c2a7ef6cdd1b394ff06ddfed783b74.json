@@ -1,0 +1,136 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_filename": "Katalog-ARMATURA.pdf",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 91,
+  "printed_page": "90",
+  "status": "awaiting_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod3",
+    "task": "/root/catalog_tail_mod3",
+    "version": "tail-mod3-20261014.r9",
+    "model_id": "Current native Codex worker session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-91-candidate.json",
+    "sha256": "e59c665accc136fd1409304b2233becd944a42b13624445b782a1783e5ca226b",
+    "canonical_sha256": "c77515ce6ad8ffbbe8f5ab563ec9ba4aff89b957812a9054ed0966b2cdb50b78",
+    "producer": {
+      "program": {
+        "package_version": "1.5.4",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "03d94c1397ffd39d50a89db0b4d9ae29d17f13e5293b2fcbda6e8b4ec34d8c0c",
+        "python_version": "3.12.13"
+      },
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 91,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4d5faa2b87b39793b899bfd40ccb8b7b4ff5223f5cfe2aed7fb1c9e3580c2e6b",
+      "artifact_sha256": "e59c665accc136fd1409304b2233becd944a42b13624445b782a1783e5ca226b",
+      "started_at": 1791941349.7676065,
+      "finished_at": 1791941387.342797,
+      "provider_rate_limit_events": 0,
+      "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46",
+      "status": "receipt_verified",
+      "source_bound_save": true,
+      "receipt": ".tmp/full-digitization/staged-best-v1.4.8/armature/page-0091/calls/4e47c07b822e4334b4b3200c60c7da86/result.json",
+      "frozen_receipt": "armature-91-native-receipt.json",
+      "frozen_receipt_sha256": "c668e66d423f8e7b56097059c631c4a960fd05da17787eb5c240704263774f29"
+    }
+  },
+  "output": {
+    "file": "armature-91-reviewed.json",
+    "sha256": "026805eeaa0d2e7eafbabad95119ed5214faa4441194d62e0565048722a7f8f4",
+    "canonical_sha256": "0b2fcae00a0ef8b60195af361b72ce7c435a15171d72192658ded39bab681f81"
+  },
+  "full_original_image_review": true,
+  "original_image": "armature-91.png",
+  "original_image_sha256": "c52e5c31a6f8407817d25fa776aabcbe29aba2e992a335e694ec2a9228f9cfb6",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "page_content_schema": true
+  },
+  "tables": {
+    "row_counts": [],
+    "column_counts": [],
+    "cells_checked": 0
+  },
+  "source_findings": "Полностью просмотрен оригинал: центральное поле пустое; таблиц нет, только заголовок, реальные логотипы и полный колонтитул 90 с ООО, телефоном, e-mail и сайтом. Логотипная figure не превращена в технический рисунок.",
+  "corrections": [
+    {
+      "path": "page_context.source_evidence",
+      "reason": "Область доказательства охватывает также цитируемый сайт в правой части footer, ранее исключённый xmax 0.84."
+    }
+  ],
+  "complete_leaf_diff": [
+    {
+      "path": ".page_context.source_evidence",
+      "before": [
+        {
+          "kind": "supporting_material",
+          "box": [
+            0.09,
+            0.025,
+            0.84,
+            0.06
+          ],
+          "observation": "Единственный содержательный элемент — колонтитул-заголовок раздела, отделённый горизонтальной линией от пустого тела страницы; задаёт тему последующих страниц, а не параметры изделия.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "supporting_material",
+          "box": [
+            0.6,
+            0.01,
+            0.95,
+            0.06
+          ],
+          "observation": "Фирменные знаки издателя в правом верхнем углу: кириллический логотип с подписью «производственное объединение», круглая эмблема и латинский логотип с подписью «industrial group». Это реквизиты бренда, а не технические данные.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "supporting_material",
+          "box": [
+            0.07,
+            0.945,
+            0.84,
+            0.97
+          ],
+          "observation": "Нижний колонтитул с печатным номером страницы, наименованием ООО «МЗВА-ЧЭМЗ», телефоном/факсом +7 (495) 780-51-65, e-mail zakaz@mzva.ru и сайтом www.mzva.ru — контактные реквизиты издателя.",
+          "transcription": "literal"
+        }
+      ],
+      "after": [
+        {
+          "kind": "supporting_material",
+          "box": [
+            0.06,
+            0.02,
+            0.96,
+            0.98
+          ],
+          "observation": "Пустая центральная область, рубрика ЛИНЕЙНАЯ АРМАТУРА ДЛЯ ВЛ / АРМАТУРА ПОДДЕРЖИВАЮЩАЯ, реальный бренд ФОРЭНЕРГО / FORENERGO industrial group и нижний контактный колонтитул с номером 90. Таблиц, чертежей изделий и размерных данных нет.",
+          "transcription": "literal"
+        }
+      ]
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independent_review_required": true,
+  "unresolved_issues": [],
+  "acceptance_note": "No PASS issued. Corrected content, engineering drawing relations, and uncertainties require independent source review.",
+  "completed_at": "2026-10-14T15:10:43.934834+03:00",
+  "private_original_receipt_sha256": "49e19c9ababe9cd412b9e77a252aa288557301cbc6db9bff5e900680ce3eb786"
+}

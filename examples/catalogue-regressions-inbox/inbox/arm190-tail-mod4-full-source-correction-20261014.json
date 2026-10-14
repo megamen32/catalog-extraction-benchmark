@@ -1,0 +1,36 @@
+{
+  "id": "arm190-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 190: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 190
+  },
+  "review_basis": "[\"Все14 ячеек1×14 сверены:58/65/47, l140, масса9,87, остальные размерные поля — реальные прочерки.\", \"На source Ø80 нанесён между гранями правого защитного экрана; защитные экраны не разнесены на80.\", \"Сварка зажимов и термодинамическое напыление меди подтверждены назначением; свойства не приписаны отдельным другим деталям.\"] Исправления: [\"Ø80 связан с одним защитным экраном, не расстоянием между двумя.\", \"l140 отделён от диаметра трубыØ140;10 — толщина стенки трубы.\", \"d — внутренний проход, B/D — наружные размеры шестигранной опрессовки, не наружныйd.\", \"Удалён неподтверждённый способ сварки экранов; сварка зажимов сохранена по тексту.\", \"Исправлены бренд, printed_page189, единицы из шапки и буквальные подписи размеров.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/b39ec8cd1a7022418a488491353d3322c344af79bda942282fada91c24c69bfd.json",
+      "sha256": "b39ec8cd1a7022418a488491353d3322c344af79bda942282fada91c24c69bfd",
+      "bytes": 14347,
+      "role": "native-candidate",
+      "program_version": "1.5.9"
+    },
+    {
+      "path": "objects/5ab71539c26ef6703eab50d7d9267e66a6961fc87bf1678a962a22bf927987f9.json",
+      "sha256": "5ab71539c26ef6703eab50d7d9267e66a6961fc87bf1678a962a22bf927987f9",
+      "bytes": 11221,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/8ca65ce6156b4194e315e0b0dcc9f70d482e1c8e88846e5d79178efaa932bcd6.json",
+      "sha256": "8ca65ce6156b4194e315e0b0dcc9f70d482e1c8e88846e5d79178efaa932bcd6",
+      "bytes": 3785,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

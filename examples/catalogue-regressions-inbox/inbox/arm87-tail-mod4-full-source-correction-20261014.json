@@ -1,0 +1,36 @@
+{
+  "id": "arm87-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "armature, страница 87: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 87
+  },
+  "review_basis": "Весь текст и все три группы чертежей проверены собственными 5× кропами. Сохранены буквально 2П6Р-30-1, 2П6Р-30-2А, 3П6Р-30-1 и все 30 печатных числовых/буквенных размерных подписей, включая повторные600/450/300. Таблиц нет. Назначение для стальных канатов, сталеалюминиевых, бронзовых и сталебронзовых проводов, плавный перегиб и ТУ2010 совпадают. Исправления: [{\"path\": \"title/figures/source_notes/uncertainties/page_context\", \"reason\": \"Ø34 отнесён к горизонтальному стержню, уточнены 24/36, 95, 340/260/519 и габариты L. Убраны выдуманные единицы; L как нормальный буквенный параметр не назван утратой числа.\"}] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/24904b20b84b65becdc18b0f1e451151dc57e1c76d0846c4d5128055f27e854f.json",
+      "sha256": "24904b20b84b65becdc18b0f1e451151dc57e1c76d0846c4d5128055f27e854f",
+      "bytes": 10805,
+      "role": "native-candidate",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/0dbc1c4d9ed9c83d0ef1366149a237b450a78b10c40302d6ddea01dc5b3423de.json",
+      "sha256": "0dbc1c4d9ed9c83d0ef1366149a237b450a78b10c40302d6ddea01dc5b3423de",
+      "bytes": 9615,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-20261014.r9"
+    },
+    {
+      "path": "objects/66dee841f0fd9d64fb41301dbab058a593a02d1586201133178708fb2a66ca9f.json",
+      "sha256": "66dee841f0fd9d64fb41301dbab058a593a02d1586201133178708fb2a66ca9f",
+      "bytes": 17145,
+      "role": "source-review",
+      "program_version": "tail-mod3-20261014.r9"
+    }
+  ]
+}
