@@ -1,0 +1,47 @@
+{
+  "id": "isolators47-heading-probe-falsely-completes-extraction",
+  "status": "pending_adjudication",
+  "category": "artifact-integrity",
+  "title": "Тест схемы probe ошибочно завершил извлечение страницы47 без содержимого каталога",
+  "source": {
+    "filename": "Katalog-IZOLJaTORY.pdf",
+    "sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+    "physical_page": 47
+  },
+  "review_basis": "Root лично просмотрел исходную страницу целиком и восемь миниатюр документов. В оригинале текст ЮМЭК, протоколы/заключения и два титула проектов, а native candidate30 содержит только title/heading probe. Точный19MCP replay принял его,20MCP replay отказал; реальные производственные байты не менялись,0модельных запросов. Это дефект завершения extraction, не принятый полноценный каталог и не процент точности. Полный ручной разбор автора Codex сохраняется отдельно и ещё требует независимой проверки.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/db493b6cb9fd147c13b03f5b07e46e5508494bc52fe2c732ca9c624793047035.json",
+      "sha256": "db493b6cb9fd147c13b03f5b07e46e5508494bc52fe2c732ca9c624793047035",
+      "bytes": 232,
+      "role": "native-placeholder-candidate",
+      "program_version": "1.5.19",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium"
+    },
+    {
+      "path": "objects/aaf91aa0fced89c6e2a3989d7a5979553f2f8d5c6459a06e2b9ce9414b383561.json",
+      "sha256": "aaf91aa0fced89c6e2a3989d7a5979553f2f8d5c6459a06e2b9ce9414b383561",
+      "bytes": 1185,
+      "role": "native-extractor-receipt",
+      "program_version": "1.5.19",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium"
+    },
+    {
+      "path": "objects/07e430f19c94a795b79bc7e8cfcef940e6b1f6d174c4f086f1c3bbe8b2b79fde.json",
+      "sha256": "07e430f19c94a795b79bc7e8cfcef940e6b1f6d174c4f086f1c3bbe8b2b79fde",
+      "bytes": 708,
+      "role": "retained-native-tool-replay-before",
+      "program_version": "1.5.19",
+      "model": "no model calls; native MCP tool replay"
+    },
+    {
+      "path": "objects/076c9fd7d5607808307967df5bfbaf50520339e81290408d2566976748091232.json",
+      "sha256": "076c9fd7d5607808307967df5bfbaf50520339e81290408d2566976748091232",
+      "bytes": 912,
+      "role": "retained-native-tool-replay-after",
+      "program_version": "1.5.20",
+      "model": "no model calls; native MCP tool replay"
+    }
+  ]
+}
