@@ -1,0 +1,65 @@
+{
+  "id": "arm27-false-pass-rz8-radius-symbolic-dimensions-uncovered",
+  "status": "pending_adjudication",
+  "category": "false-pass-engineering-semantics-and-unicode-coverage",
+  "title": "Ложный PASS: Rz8 назван радиусом,17 других буквенных/индексных размеров не требовали evidence",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 27,
+    "printed_page": "26"
+  },
+  "review_basis": "Root original page27 including two roughness symbols and full drawing. Official Mitutoyo roughness guide supports Rz as surface parameter; no literal catalogue data edited. Exact candidate/review/evidence retained.",
+  "references": [
+    "https://www.mitutoyo.com/webfoo/wp-content/uploads/Surface_Roughness_Measurement.pdf"
+  ],
+  "assertions": [],
+  "coverage_note": "Pending engineering regression, not included in old500/520accuracy or independent drawing score. Retained17PASS is invalidated by exact source-bound root veto.",
+  "failure_oracle": {
+    "semantics": "Rz8 with surface texture symbol must not be described as a geometric radius.",
+    "coverage": "L/F/R subscript indices and bare dimension symbols L,R,S,T,V require source-bound relationship evidence; their absence cannot be concealed by Unicode typography.",
+    "retained_input": "Candidate labels21, two section annotations excluded,19source/destination dimension targets expected rather than old2. Complete existing table still strictly compared."
+  },
+  "artifacts": [
+    {
+      "path": "objects/5bfff69585b4f0bce0c8fc9e96969887731a8a0508263445d2d33a82b337b6a4.json",
+      "sha256": "5bfff69585b4f0bce0c8fc9e96969887731a8a0508263445d2d33a82b337b6a4",
+      "bytes": 30811,
+      "role": "extractor",
+      "program_version": "1.5.8",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium"
+    },
+    {
+      "path": "objects/9f4b01608fa202040df3fb409013e4e02df6c79821d3dabfce44ffbe1bc1b1cc.json",
+      "sha256": "9f4b01608fa202040df3fb409013e4e02df6c79821d3dabfce44ffbe1bc1b1cc",
+      "bytes": 5933,
+      "role": "reviewer",
+      "program_version": "1.5.17",
+      "model": "zai.glm-5.3-flash?reasoning=low"
+    },
+    {
+      "path": "objects/0142f6fba7d572f15e1741f0fd46a266f25a605b503242f0a6f5cdc605632f7b.json",
+      "sha256": "0142f6fba7d572f15e1741f0fd46a266f25a605b503242f0a6f5cdc605632f7b",
+      "bytes": 4482,
+      "role": "source_relationship_assertions",
+      "program_version": "1.5.17",
+      "model": "zai.glm-5.3-flash?reasoning=low"
+    },
+    {
+      "path": "objects/0347798013d8881e96b38d9baca7d105f12cf4d5db5bfdbb459bf8bff5c810d2.json",
+      "sha256": "0347798013d8881e96b38d9baca7d105f12cf4d5db5bfdbb459bf8bff5c810d2",
+      "bytes": 25320,
+      "role": "blind_source_observation",
+      "program_version": "1.5.17",
+      "model": "zai.glm-5.3-flash?reasoning=low"
+    },
+    {
+      "path": "objects/9f892e22e28f235af772c6becc6ed7faf7213bd72a7f9e35129e9f9c0024918d.json",
+      "sha256": "9f892e22e28f235af772c6becc6ed7faf7213bd72a7f9e35129e9f9c0024918d",
+      "bytes": 26184,
+      "role": "corrected_source_observation",
+      "program_version": "1.5.17",
+      "model": "zai.glm-5.3-flash?reasoning=low"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "candidate_sha256": "5bfff69585b4f0bce0c8fc9e96969887731a8a0508263445d2d33a82b337b6a4",
+  "physical_page": 27,
+  "attempt": 2,
+  "relations": [
+    {
+      "source_figure_index": 0,
+      "source_label_index": 20,
+      "figure_index": 0,
+      "label_index": 14,
+      "view": "main",
+      "relation": "leader",
+      "source_box": [
+        0.62,
+        0.19,
+        0.95,
+        0.46
+      ],
+      "feature_box": [
+        0.72,
+        0.28,
+        0.85,
+        0.4
+      ],
+      "tip_points": [
+        [
+          0.8,
+          0.316
+        ],
+        [
+          0.68,
+          0.44
+        ]
+      ],
+      "path_ids": [],
+      "source_feature": "Выноска RZ8 к штриховым линиям торца верхней разведённой ветви замка (и аналогичная у нижней)",
+      "candidate_feature_quote": "Rz8 — радиус, указанный выносками у верхнего и нижнего разведённых концов",
+      "agrees_with_candidate": true,
+      "evidence": "Zoom [0.62,0.19,0.95,0.46]: выноска с наклонным лидером от повернутой надписи RZ8 указывает на штриховые (пунктирные) линии среза у конца верхней разведённой полосы; вторая такая же выноска у конца нижней полосы. Кандидат связал метку с разведёнными концами — согласуется.",
+      "correction_reason": "",
+      "candidate_sha256": "5bfff69585b4f0bce0c8fc9e96969887731a8a0508263445d2d33a82b337b6a4",
+      "observation_sha256": "9f892e22e28f235af772c6becc6ed7faf7213bd72a7f9e35129e9f9c0024918d",
+      "source_label": "Rz8",
+      "source_figure_title": "V-образный замок",
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 27,
+      "attempt": 2,
+      "candidate_label": "Rz8",
+      "figure_title": "Чертёж V-образного замка (главный вид и вынесенное сечение А–А)",
+      "basis": "vision",
+      "limits": "Source-grounded reviewer assertion; coordinate coverage does not certify semantic ownership."
+    },
+    {
+      "source_figure_index": 0,
+      "source_label_index": 19,
+      "figure_index": 0,
+      "label_index": 20,
+      "view": "main",
+      "relation": "linear",
+      "source_box": [
+        0.62,
+        0.19,
+        0.95,
+        0.46
+      ],
+      "feature_box": [
+        0.68,
+        0.25,
+        0.9,
+        0.35
+      ],
+      "tip_points": [
+        [
+          0.765,
+          0.274
+        ],
+        [
+          0.811,
+          0.283
+        ]
+      ],
+      "path_ids": [],
+      "source_feature": "Угловой размер 38°-50°: дуга со стрелками между выносной вертикалью и направлением разведённой ветви замка",
+      "candidate_feature_quote": "угол развода концов указан как 38°–50°",
+      "agrees_with_candidate": true,
+      "evidence": "Zoom [0.62,0.19,0.95,0.46]: размерная дуга со стрелками между вертикальной выносной линией от конца верхней полосы и направлением её оси — угловой размер развода концов 38°-50°; кандидат описал его как угол развода концов — согласуется.",
+      "correction_reason": "",
+      "candidate_sha256": "5bfff69585b4f0bce0c8fc9e96969887731a8a0508263445d2d33a82b337b6a4",
+      "observation_sha256": "9f892e22e28f235af772c6becc6ed7faf7213bd72a7f9e35129e9f9c0024918d",
+      "source_label": "38°–50°",
+      "source_figure_title": "V-образный замок",
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 27,
+      "attempt": 2,
+      "candidate_label": "38°–50°",
+      "figure_title": "Чертёж V-образного замка (главный вид и вынесенное сечение А–А)",
+      "basis": "vision",
+      "limits": "Source-grounded reviewer assertion; coordinate coverage does not certify semantic ownership."
+    }
+  ]
+}
