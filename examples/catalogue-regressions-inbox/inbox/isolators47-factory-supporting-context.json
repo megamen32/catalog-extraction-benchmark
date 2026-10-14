@@ -1,0 +1,32 @@
+{
+  "id": "isolators47-factory-supporting-context",
+  "status": "pending_adjudication",
+  "category": "catalogue_page_purpose",
+  "title": "Factory capabilities and certificate thumbnails are classified as a product datasheet",
+  "source": {
+    "filename": "Katalog-IZOLJaTORY.pdf",
+    "sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+    "physical_page": 47
+  },
+  "review_basis": "Root re-viewed full original: three factory paragraphs,8attestation scans,2project title sheets, no product parameter table or engineering drawing. Native1512 blind observer independently chosemixed, while158candidate27 hasproduct scope. Production capacity is a factory fact, not one insulator rating.",
+  "failure_oracle": "Preserve all factory facts and document roles; independently choose supporting_material or justifiedmixed instead of treating this as product characteristics. Do not rewrite blind context just to forcePASS or demand dimension arrows for certificate metadata. Pending case, not a scored gold category.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/768181a7351b9dc40f499704542a621f0590530b862b1f64d05b7b91f674c557.json",
+      "sha256": "768181a7351b9dc40f499704542a621f0590530b862b1f64d05b7b91f674c557",
+      "bytes": 41093,
+      "role": "extractor",
+      "program_version": "1.5.8",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium"
+    },
+    {
+      "path": "objects/65384a8ed58a37bee22a7654e56ee1cf7cb3c690b3265186c21d0f1830680bd2.json",
+      "sha256": "65384a8ed58a37bee22a7654e56ee1cf7cb3c690b3265186c21d0f1830680bd2",
+      "bytes": 9441,
+      "role": "native_blind_source_observation",
+      "program_version": "1.5.12",
+      "model": "zai.glm-5.3-flash?reasoning=low"
+    }
+  ]
+}

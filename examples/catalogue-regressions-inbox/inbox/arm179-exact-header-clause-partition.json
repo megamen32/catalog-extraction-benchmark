@@ -1,0 +1,32 @@
+{
+  "id": "arm179-exact-header-clause-partition",
+  "status": "pending_adjudication",
+  "category": "false_metadata_representation_conflict",
+  "title": "Same mass/L=7m/upper-bound clauses split across label and qualifier become three false issues",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 179
+  },
+  "review_basis": "Original physical179 drawing/table inspected. Header says mass at L=7m, not more than, kg. Saved native source keeps comma clauses in label; candidate places exact same clauses in qualifier. Actual missing merged values in same table remain genuine failures.",
+  "failure_oracle": "Permit exact comma-clause repartition only with same primary parameter, parent group and declared unit. Preserve case, decimal boundaries, clause multiplicity and every condition byte. Different bound/length/unit/extra or missing condition remains fatal; all real missing cells remain failures.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/f2efb2fab4fdc1f7ec54bb9210560cb0034a36e75d048be7c2b08dadbe02d951.json",
+      "sha256": "f2efb2fab4fdc1f7ec54bb9210560cb0034a36e75d048be7c2b08dadbe02d951",
+      "bytes": 33496,
+      "role": "independent_source_observation",
+      "program_version": "1.5.11",
+      "model": "zai.glm-5.3-flash?reasoning=low"
+    },
+    {
+      "path": "objects/584c48cd5d7937d595ca8f21879629ca582e5df38abba89c128e0055544031e2.json",
+      "sha256": "584c48cd5d7937d595ca8f21879629ca582e5df38abba89c128e0055544031e2",
+      "bytes": 35870,
+      "role": "extractor",
+      "program_version": "1.5.9",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium"
+    }
+  ]
+}
