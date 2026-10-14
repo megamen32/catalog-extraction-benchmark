@@ -1,0 +1,21 @@
+{
+  "program_version": "1.5.4",
+  "physical_page": 47,
+  "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+  "native_outcome": "1200s timeout, no review artifact; PASS with2warnings and5candidate uncertainties first asked for geometry that could never make it acceptable",
+  "compact_same_record_metrics": [
+    {
+      "records": 1,
+      "expanded_bytes": 728,
+      "compact_bytes": 755,
+      "reduction_percent": -3.7
+    },
+    {
+      "records": 2,
+      "expanded_bytes": 1329,
+      "compact_bytes": 1101,
+      "reduction_percent": 17.2
+    }
+  ],
+  "guards": "All ordinary per-relation validation retained; only PASS requires complete geometry. A revise report remains unaccepted."
+}

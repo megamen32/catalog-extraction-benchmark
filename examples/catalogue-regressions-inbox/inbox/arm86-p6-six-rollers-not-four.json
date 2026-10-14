@@ -1,0 +1,24 @@
+{
+  "id": "arm86-p6-six-rollers-not-four",
+  "status": "pending_adjudication",
+  "priority": "high",
+  "category": "drawing_semantic_count",
+  "title": "Do not copy the four-roller description from П4Р into the six-roller П6Р view",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 86
+  },
+  "review_basis": "Root inspected original full page and5x lower main view. Six distinct roller arcs/circles with six vertical axes are visible; candidate1 figures[2] says four. All four table rows visually compared and values match; no claim of whole drawing certification. Exact-candidate source veto installed for native repair.",
+  "artifacts": [
+    {
+      "path": "objects/15ff081cad297752a4dc2fb2734e9f43f87a395d0628cfae79e7b872e70f92cc.json",
+      "sha256": "15ff081cad297752a4dc2fb2734e9f43f87a395d0628cfae79e7b872e70f92cc",
+      "bytes": 19850,
+      "role": "extractor",
+      "program_version": "1.5.4"
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "П6Р lower main view has six rollers; П4Р upper view has four. Preserve view/variant distinction, numeric D/L/R table values,260/320/R33 relations; model/type name alone is not evidence of a count."
+}

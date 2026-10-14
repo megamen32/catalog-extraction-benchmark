@@ -1,0 +1,38 @@
+{
+  "id": "isolators47-pass-ineligibility-before-geometry",
+  "status": "pending_adjudication",
+  "priority": "high",
+  "category": "review_delivery_order",
+  "title": "Surface unresolved candidate facts before requesting a geometry certificate for an impossible PASS",
+  "source": {
+    "filename": "Katalog-IZOLJaTORY.pdf",
+    "sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+    "physical_page": 47
+  },
+  "review_basis": "Full new native154 history2610140410 audited after1200s timeout. Native attempted PASS contained2warning issues and exact retained candidate had5uncertainties; save tool requested geometry first. Root viewed original supporting scans previously. This is an ordering/efficiency regression; glyph correctness is not automatically adjudicated.",
+  "artifacts": [
+    {
+      "path": "objects/ededc4667a55463efd2c87498cf517b1196b8aaf8181af5a081c4342fe827028.json",
+      "sha256": "ededc4667a55463efd2c87498cf517b1196b8aaf8181af5a081c4342fe827028",
+      "bytes": 8363,
+      "role": "native_unsaved_review_argument",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/5f4645632d3853660bdc713fd5b2297843275d9ca7ef432a88db98ef3dd96efa.json",
+      "sha256": "5f4645632d3853660bdc713fd5b2297843275d9ca7ef432a88db98ef3dd96efa",
+      "bytes": 730,
+      "role": "transcript_diagnostic",
+      "program_version": "1.5.4"
+    },
+    {
+      "path": "objects/ff2ec925880fdb495974da2039c17d85ea353645895e4b8d0fbdb1da62c03590.json",
+      "sha256": "ff2ec925880fdb495974da2039c17d85ea353645895e4b8d0fbdb1da62c03590",
+      "bytes": 41238,
+      "role": "extractor",
+      "program_version": "1.5.3"
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "Reject impossible PASS with actual uncertainties/issues before expensive geometry. Permit unaccepted revise checkpoint to request repair; final PASS still needs complete geometry/source evidence. Compact form expands into identical individually validated records."
+}
