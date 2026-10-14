@@ -1,0 +1,75 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 252,
+  "printed_page": "251",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-0252-native-candidate.json",
+    "sha256": "7712ce857bc399ee71a3b808b16f92c6f3bec27468de77dd881144b0f878f854",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.15",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "8242b10480ab5cbc00eb6b6de0abd40b182977e4018be71b2df47b3ed98da688",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "7712ce857bc399ee71a3b808b16f92c6f3bec27468de77dd881144b0f878f854",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 252,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "9b513ece12e8465355ea77e5b966812a92866ab89a8f614335298647034f48bf",
+      "receipt": "calls/49b87f01b308434d8315731c985c7f60/result.json",
+      "started_at": 1791959680.2738388,
+      "finished_at": 1791959897.466012
+    }
+  },
+  "output": {
+    "file": "armature-0252-reviewed.json",
+    "sha256": "bd6a0cdf66f18ca9614b8ddec3bcae8f2a063d1987b7baf9e56df78967ff132a"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "ea5fe994e060716da4a700de15511bb1db331ce215e622863611435b04c551bf",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      13
+    ],
+    "column_counts": [
+      6
+    ],
+    "cells_checked": 78
+  },
+  "source_findings": "Проверены78ячеек(13×6),включая все марки,диаметры проводов,D/d/L,массы не более. ПрочеркиD не пустые; объединённый прочерк покрывает пять строк4РС-3-400М…4РС-3-925АМ. Сохранены источниковые особенности:21,6–2,66 для5РС-2-450А;L600 у4РС-3-400М иL400 у4РС-4-600М. D680/769/765/800,d30/25/30/46,L400/450/450/400,массы7,6/5,8/8,28/28,0 последних4строк сверены. Назначение труб48/88мм,УКЭ,ТУ52819896-2010,немагнитная арматура проверены. Увеличения center4/lower-drawings подтверждают все L/D/d/Ø48/90/44/30/R24,5 и владельцев. Декоративные элементы не заменяют размерные стрелки.",
+  "corrections": [
+    "Повёрнутая вертикальная L на4РС-400-1 ошибочно записана J; исправлены текст и labels.",
+    "Размер30 отдельного вида ошибочно назван вертикальной высотой; это горизонтальная ширина стержня.",
+    "R24,5 связан с центральной посадкой обоймы; в summary исправлена подпись5РС-2/3-450А."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T13:30:33.619037+03:00",
+  "private_original_receipt_sha256": "55e1c72cd88c609c5c6f0be8f15381168e5dc6c08c3e5446374449c06868011b"
+}

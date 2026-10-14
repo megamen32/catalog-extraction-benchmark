@@ -1,0 +1,36 @@
+{
+  "id": "arm274-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "Арматура274: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 274
+  },
+  "review_basis": "Полный оригинал лично сверён:5табличных ячеек,6-110кВ/I-VII/УХЛ1/1,0кгнеболее,5преимуществ,диапазон-60…+50°С,FV(ПВ)-0/ГОСТ28779,не менее40лет,ODS/DN. Относительно10элементов источник имеет неоднозначную формулировку, она сохранена буквально без пересчёта.555 по торцам корпуса;400/504 по концам элементов;95/104/69 по границам корпуса своих видов. Исправления: [\"Убрано выведенное без основания распределение10элементов по5на каждую половину.\", \"555 привязан к торцам корпуса, не к крайним вертикальным антиприсадным элементам.\", \"104/69 связаны с шириной частей корпуса на другом виде; снят недоказанный факт установки ODSна фото.\", \"Сохранены видимые касание/антиприсадных и смешанное KЗ-ODS таблицы; выдуманный бренд снят.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/cb29e8fcab1759681902df58370a6eda67b73e7ed56a736d93fe00bbc2b92bc9.json",
+      "sha256": "cb29e8fcab1759681902df58370a6eda67b73e7ed56a736d93fe00bbc2b92bc9",
+      "bytes": 11098,
+      "role": "native-candidate",
+      "program_version": "1.5.17"
+    },
+    {
+      "path": "objects/afabafb269fae1b44a28bbcd3e92c5ef56740f514b3f9c9cfe8156e7c5ef1996.json",
+      "sha256": "afabafb269fae1b44a28bbcd3e92c5ef56740f514b3f9c9cfe8156e7c5ef1996",
+      "bytes": 11397,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/ef6155b2ba3579d408d387554eb0c028eaba1d2c873a5694e8514e1057404b98.json",
+      "sha256": "ef6155b2ba3579d408d387554eb0c028eaba1d2c873a5694e8514e1057404b98",
+      "bytes": 3758,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

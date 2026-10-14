@@ -1,0 +1,131 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 253,
+  "printed_page": "252",
+  "status": "author_source_review_complete_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod1",
+    "task": "/root/catalog_tail_mod1",
+    "version": "tail-mod1-20261014.r1",
+    "model_id": "Current native Codex session;exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-253-candidate.json",
+    "sha256": "c9c914fee988fb91568f4d8710f584026b6ba5b308b3108ac23f6b56960b3f31",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.15",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "8242b10480ab5cbc00eb6b6de0abd40b182977e4018be71b2df47b3ed98da688",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "c9c914fee988fb91568f4d8710f584026b6ba5b308b3108ac23f6b56960b3f31",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 253,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "9b513ece12e8465355ea77e5b966812a92866ab89a8f614335298647034f48bf",
+      "receipt": "calls/06c6fc17600e4919ac8b8be9449128c3/result.json",
+      "started_at": 1791959525.6094356,
+      "finished_at": 1791959693.902683
+    },
+    "receipt_file": "armature-253-producer-receipt.json",
+    "receipt_sha256": "2ca95ad729e40cfcb57ba78872782e6786dae078b600880a08cd8da4c07bb7d7",
+    "receipt_artifact_equals_candidate": true
+  },
+  "output": {
+    "file": "armature-253-reviewed.json",
+    "sha256": "981af3bef9997aeff9e90be3028c5a8f1524a198474a9d4b9988fad719cb9793",
+    "author": "catalog_tail_mod1"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "edfc02830bfdd0c1ae0bba0a727197f2e767c4779c9c80cfb61bd181fc783d2a",
+  "checks": {
+    "all_text_and_meaning": false,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "pagecontent_schema_valid": true
+  },
+  "tables": {
+    "row_counts": [
+      5,
+      5
+    ],
+    "column_counts": [
+      2,
+      2
+    ],
+    "cells_checked": 20
+  },
+  "source_findings": "Проверены5×2+5×2=20 ячеек,пять диапазоновD13,0–16,8/17,1–19,8/21,6–26,6/27,5–30,6/31,5–37,7мм у2РГД и3РГД. L=400/500/600мм для обоих типов. Все4 назначения иТУ3449-005-52819896-2015 сохранены. ПровереныL между осями зажимов иD в обоих рисунках;у3РГД триL между тремя парами центров. Наклонная маркировка рамы на исходном растровом рисунке полностью не читается;полное содержание не объявляется проверенным.",
+  "corrections": [
+    {
+      "path": "printed_page",
+      "before": null,
+      "after": "252",
+      "reason": "Номер видим в колонтитуле."
+    },
+    {
+      "path": "text_blocks[0].text",
+      "before": "ФОРЭНЕРГО — Производственная компания / FORENERGO® INDUSTRIAL GROUP",
+      "after": "ФОРЭНЕРГО производственное объединение / FORENERGO® industrial group",
+      "reason": "Исходник не «производственная компания»."
+    },
+    {
+      "path": "text_blocks[0]",
+      "before": null,
+      "after": {
+        "kind": "heading",
+        "text": "ЛИНЕЙНАЯ АРМАТУРА ДЛЯ ВЛ / АРМАТУРА ЗАЩИТНАЯ"
+      },
+      "reason": "Восстановлена пропущенная видимая рубрика."
+    },
+    {
+      "path": "page_context.source_evidence[0].observation",
+      "before": "Верхний колонтитул страницы: рубрика «ЛИНЕЙНАЯ АРМАТУРА ДЛЯ ВЛ / АРМАТУРА ЗАЩИТНАЯ» и логотип производственной компании ФОРЭНЕРГО (FORENERGO). Это рубрикация каталога, определяющая страницу как товарный раздел каталога.",
+      "after": "Верхний колонтитул страницы: рубрика «ЛИНЕЙНАЯ АРМАТУРА ДЛЯ ВЛ / АРМАТУРА ЗАЩИТНАЯ» и логотип производственного объединения ФОРЭНЕРГО (FORENERGO). Это рубрикация каталога, определяющая страницу как товарный раздел каталога.",
+      "reason": "Согласовано с видимым слоганом."
+    },
+    {
+      "path": "figures[1].title",
+      "before": "Распорка дистанционная демпфирующая типа 3РГД (развёртка)",
+      "after": "Распорка дистанционная демпфирующая типа3РГД",
+      "reason": "Источник показывает вид изделия,не развёртку поверхности."
+    },
+    {
+      "path": "figures[1].description",
+      "before": "Вид распорки типа 3РГД в развёртке: трёхлучевая конструкция из трёх одинаковых зажимов-крюков с круглыми отверстиями на концах, соединённых через три круглые каретки с болтовыми креплениями и облегчёнными (перфорированными) окнами в планках. В центре площадка с маркировкой «ВЕРХ» и двумя стрелками вверх. Размерные линии: L — верхняя горизонтальная между центрами двух верхних отверстий и две наклонные L — от нижнего отверстия к левому и правому верхним отверстиям; D — выносная линия от верхнего правого отверстия, его диаметр. На планке между верхней левой кареткой и рамой имеется повернутая наклонная маркировка/штамп изделия, текст которой неразборчив в исходном изображении.",
+      "after": "Вид распорки типа 3РГД: трёхлучевая конструкция из трёх одинаковых зажимов-крюков с круглыми отверстиями на концах, соединённых через три круглые каретки с болтовыми креплениями и облегчёнными (перфорированными) окнами в планках. В центре площадка с маркировкой «ВЕРХ» и двумя стрелками вверх. Размерные линии: L — верхняя горизонтальная между центрами двух верхних отверстий и две наклонные L — от нижнего отверстия к левому и правому верхним отверстиям; D — выносная линия от верхнего правого отверстия, его диаметр. На планке между верхней левой кареткой и рамой имеется повернутая наклонная маркировка/штамп изделия, текст которой неразборчив в исходном изображении.",
+      "reason": "Удалён необоснованный тип чертёжного представления."
+    },
+    {
+      "path": "uncertainties",
+      "before": [],
+      "after": [
+        "Наклонная маркировка на раме3РГД возле верхнего левого круглого узла не читается полностью в исходном растровом рисунке даже при увеличении;текст не восстановлен. РазмерыL,D,марки таблиц и функция изделия читаются."
+      ],
+      "reason": "Нельзя объявлять всё содержание проверенным при неразобранной маркировке."
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independent_review_required": true,
+  "independent_review_status": "pending",
+  "unresolved_issues": [
+    "Нужна независимая проверка всех авторских изменений и инженерных чертежей.",
+    "Наклонная маркировка на раме3РГД возле верхнего левого круглого узла не читается полностью в исходном растровом рисунке даже при увеличении;текст не восстановлен. РазмерыL,D,марки таблиц и функция изделия читаются."
+  ],
+  "completed_at": "2026-10-14T13:34:35.940048+03:00",
+  "private_original_receipt_sha256": "59aaa65c3786e086080a32c5112d65c7a75324b035948ab8a32eea85df515f56"
+}

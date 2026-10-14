@@ -1,0 +1,76 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 280,
+  "printed_page": "279",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-0280-native-candidate.json",
+    "sha256": "2ccfd313ec77c2fe20c9bf9f140b633b6483599257f10890a78982048d73be46",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.17",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "250a5f879c4c07bb339e5791b2e6b59062426df6bcef56df7b50cb0af47cfc87",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "2ccfd313ec77c2fe20c9bf9f140b633b6483599257f10890a78982048d73be46",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 280,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "5f66dfaacd6c43b74ca531095c704b2a738db593b26901fc493f46c9409796e6",
+      "receipt": "calls/501186a7c478494487a873945cb7005a/result.json",
+      "started_at": 1791962581.2807186,
+      "finished_at": 1791963774.3913128
+    }
+  },
+  "output": {
+    "file": "armature-0280-reviewed.json",
+    "sha256": "f8ca73be1dc4f891840d8eb637b23da0fb93bd9e012649b1790f191080f7c840"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "419ee80803dd4a59575777a98a797532f42dc01b7ff91f3731ec83d1cab384a4",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      6
+    ],
+    "column_counts": [
+      7
+    ],
+    "cells_checked": 42
+  },
+  "source_findings": "Все 42 ячейки (6×7) сверены. Марки -1…-6 и рисунки 1/1/2/2/3/3; общий диапазон 6–750 кВ, провод 4–25 мм, I–VII, УХЛ1; массы 0,83/0,63/0,74/0,54/0,72/0,52 кг, не более. Объединения рисунков по две строки и общих параметров на шесть строк сохранены. Цвета и все шесть вариантов крепления/катафотов сверены. Увеличение drawing.png показывает точные выносные линии всех четырёх размеров. Исправленное описание чертежа требует независимого просмотра.",
+  "corrections": [
+    "224 ошибочно привязан к наружным концам всех зажимов; выносные линии идут от коротких выступов корпуса и исключают дальние отрезки провода.",
+    "201 ошибочно назван диаметром сферы: нижняя граница проходит по нижнему выступу. MAX 250 относится к показанному разнесённому виду.",
+    "Маркировка «ММ-01-4/25-К» и отдельное «5» сохранены без выдуманного дефиса перед 5.",
+    "Исправлено выдуманное пояснение бренда; заполнен printed_page=279; удалено ложное положительное утверждение из uncertainties."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T13:25:27.312087+03:00",
+  "private_original_receipt_sha256": "37d316d491784f37952ae80e7848ee889e85de4abc5751c3c413c33c3eb0fe53"
+}

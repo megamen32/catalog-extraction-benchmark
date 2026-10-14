@@ -1,0 +1,22 @@
+{
+  "id": "arm281-false-reviewer-reject-preschenii-20261014",
+  "status": "pending_adjudication",
+  "category": "false-reviewer-remark",
+  "title": "Проверяющий требует переписать буквальную опечатку источника при пресечении",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 281
+  },
+  "review_basis": "Reviewer требует заменить «пресечении» на«пересечении», хотя оригинал реально «при пре-»/«сечении». Снять перенос и сохранить напечатанную опечатку«пресечении»; не отвергать точный кандидат и не нормализовать источник по смыслу. Полный оригинал и увеличенный фрагмент лично сверены catalog_tail_mod1; reviewerGLM1.5.19 receipt сохранён локально. Необходимость исправлять реальные чертежи на этой странице остаётся отдельной задачей.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/8eb3e65ec3ceece3b8affaf087d034ee5245eba425a7e410da9a4b6fa731899a.json",
+      "sha256": "8eb3e65ec3ceece3b8affaf087d034ee5245eba425a7e410da9a4b6fa731899a",
+      "bytes": 6350,
+      "role": "native-review",
+      "program_version": "1.5.19"
+    }
+  ]
+}

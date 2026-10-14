@@ -1,0 +1,118 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 293,
+  "printed_page": "292",
+  "status": "author_source_review_complete_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod1",
+    "task": "/root/catalog_tail_mod1",
+    "version": "tail-mod1-20261014.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-293-candidate.json",
+    "sha256": "ef4620e02207f9b4d9fc0f2c4c7bfae6bbf6258072ae023821a5b407fd366fc4",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.17",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "250a5f879c4c07bb339e5791b2e6b59062426df6bcef56df7b50cb0af47cfc87",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "ef4620e02207f9b4d9fc0f2c4c7bfae6bbf6258072ae023821a5b407fd366fc4",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 293,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "5f66dfaacd6c43b74ca531095c704b2a738db593b26901fc493f46c9409796e6",
+      "receipt": "calls/f838d01e7f754a188a656b7d2a24492a/result.json",
+      "started_at": 1791964206.267996,
+      "finished_at": 1791964846.9048994
+    },
+    "receipt_file": "armature-293-producer-receipt.json",
+    "receipt_sha256": "f2bc8138451949e367578542354a93159660506e42dfb4f755dd7d3eb7e5b5d4",
+    "receipt_artifact_equals_candidate": true
+  },
+  "output": {
+    "file": "armature-293-reviewed.json",
+    "sha256": "3db617ab163cb301be5f67a6b94802800bc6cd2e7bafa1f1ce178c22ab60f904",
+    "author": "catalog_tail_mod1"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "bf7de4832ee314f60e025d90c090870abf0b2254babe4e58069869185d3be1ac",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "pagecontent_schema_valid": true
+  },
+  "tables": {
+    "row_counts": [
+      23,
+      10
+    ],
+    "column_counts": [
+      5,
+      5
+    ],
+    "cells_checked": 165
+  },
+  "source_findings": "Полностью проверены таблица 8 (23×5) и таблица 9 (10×5), всего165 ячеек. Повторяющиеся диапазоны 23,5-25,5 /25,5-27,5 /27,5-29,5 сохранены; диаметры проволоки 3/3, 3/4,5, 3/6,28 и последние 21,5-22,0 переписаны буквально. Условия изготовлений по согласованию с заказчиком присутствуют. Восстановлен видимый номер292; объяснение его пропуска ограничением схемы было необоснованным.",
+  "corrections": [
+    {
+      "path": "printed_page",
+      "before": null,
+      "after": "292",
+      "reason": "Видимый номер страницы пропущен."
+    },
+    {
+      "path": "text_blocks[last]",
+      "before": null,
+      "after": {
+        "kind": "footer",
+        "text": "292"
+      },
+      "reason": "Восстановлен видимый колонтитул."
+    },
+    {
+      "path": "source_notes",
+      "before": [
+        "Таблица 8: строки 10 и 11 имеют одинаковый диапазон 23,5-25,5 (марки ПЗС-24,1-53 и ПЗС-24,5-53), строки 12-13 и 14-16 — повторяющиеся диапазоны; в источнике так.",
+        "Таблица 9, строка 10: диапазон напечатан как «21,5-22,0» с конечным нулём (в источнике так).",
+        "Номер печатной страницы «292» (левый нижний колонтитул) не перенесён как текстовый блок: значение, состоящее только из цифр, не проходит проверку строкового типа при сохранении.",
+        "В логотипе ФОРЭНЕРГО мелкий подстрочный слоган неразборчив — существенного инженерного факта он не несёт."
+      ],
+      "after": [
+        "Таблица 8: строки 10 и 11 имеют одинаковый диапазон 23,5-25,5 (марки ПЗС-24,1-53 и ПЗС-24,5-53), строки 12-13 и 14-16 — повторяющиеся диапазоны; в источнике так.",
+        "Таблица 9, строка 10: диапазон напечатан как «21,5-22,0» с конечным нулём (в источнике так)."
+      ],
+      "reason": "Удалены ложное объяснение невозможности сохранения номера и недоказанное утверждение о неразборчивости слогана."
+    },
+    {
+      "path": "text_blocks[1].text",
+      "before": "ФОРЭНЕРГО / FORENERGO INDUSTRIAL GROUP",
+      "after": "ФОРЭНЕРГО производственное объединение / FORENERGO® industrial group",
+      "reason": "Полный видимый брендинг."
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independent_review_required": true,
+  "independent_review_status": "pending",
+  "unresolved_issues": [
+    "Нужна независимая проверка авторских исправлений."
+  ],
+  "completed_at": "2026-10-14T13:29:23.249325+03:00",
+  "private_original_receipt_sha256": "1fab5f76e743847b5fd201717c322e1a4178c50167e29951b38dfe78920680a8"
+}

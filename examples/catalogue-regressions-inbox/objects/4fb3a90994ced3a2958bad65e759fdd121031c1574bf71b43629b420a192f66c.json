@@ -1,0 +1,75 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 272,
+  "printed_page": "271",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-0272-native-candidate.json",
+    "sha256": "a23a208954157e8d2eeb73b4bda8fe0d3af1a6c8fa3ae41d801ba8859955ce76",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.17",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "250a5f879c4c07bb339e5791b2e6b59062426df6bcef56df7b50cb0af47cfc87",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "a23a208954157e8d2eeb73b4bda8fe0d3af1a6c8fa3ae41d801ba8859955ce76",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 272,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "5f66dfaacd6c43b74ca531095c704b2a738db593b26901fc493f46c9409796e6",
+      "receipt": "calls/79402be999b345a5b07bd86cbea2a055/result.json",
+      "started_at": 1791961753.4520864,
+      "finished_at": 1791962504.7616916
+    }
+  },
+  "output": {
+    "file": "armature-0272-reviewed.json",
+    "sha256": "321e7a930697925da7c9b86a3b40648dbc690b580fd8e9500b6f85980012f941"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "510b795751fa268cb355ccb151e1dd1b2f64c493e1a04052e4c7c94d2e82864d",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      7
+    ],
+    "column_counts": [
+      5
+    ],
+    "cells_checked": 35
+  },
+  "source_findings": "Проверены 35 ячеек: ЗП-АП2/-2/-2У, ЗП-АП3, ЗП-АП4, ЗП-АП5/-2; массы 1,4/2,1/2,2/1,2/1,2/1,38/2,05 кг не более. Общие 6–750 кВ, I–VII, УХЛ1 объединены на все семь строк. Текст о закруглениях, ПУЭ, УФ-гарантии 40 лет, диапазоне −60…+50 °С, покрытии, зоне и струбцине сверён. Проверены все 420/540,723/526,516/534,35/60,740/730,520/560 и30. Увеличения drawings/cross-view подтверждают геометрическую принадлежность. Рисунки реальные; исправленное описание требует независимого review.",
+  "corrections": [
+    "Перекрёстный вид ЗП-АП5-2 ошибочно назван траверсой: изображены две плоскости элементов самого устройства.",
+    "35 и 60 разделены как межосевой размер креплений и ширина опоры; 30 не толщина траверсы, его выносные линии проверены по увеличению.",
+    "Удалён недоказанный шарнир и исправлено выдуманное русское описание бренда."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T13:30:33.604811+03:00",
+  "private_original_receipt_sha256": "1711199919bafa9ea1a9c6ad4bb0786a2653fb9306e04ee1875515437c9917d1"
+}

@@ -1,0 +1,74 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 274,
+  "printed_page": "273",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "cb29e8fcab1759681902df58370a6eda67b73e7ed56a736d93fe00bbc2b92bc9",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.17",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "250a5f879c4c07bb339e5791b2e6b59062426df6bcef56df7b50cb0af47cfc87",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "cb29e8fcab1759681902df58370a6eda67b73e7ed56a736d93fe00bbc2b92bc9",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 274,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "5f66dfaacd6c43b74ca531095c704b2a738db593b26901fc493f46c9409796e6",
+      "receipt": "calls/f86692c7ca87433090534744b92f27fe/result.json",
+      "started_at": 1791962383.9621637,
+      "finished_at": 1791962581.4347591
+    }
+  },
+  "output": {
+    "file": "armature-274-reviewed.json",
+    "sha256": "afabafb269fae1b44a28bbcd3e92c5ef56740f514b3f9c9cfe8156e7c5ef1996"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "66d6e51f78ffa7d5627d700b4ae1d231c425aa86279602d664e038f89a70f738",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      1
+    ],
+    "column_counts": [
+      5
+    ],
+    "cells_checked": 5
+  },
+  "source_findings": "Полный оригинал лично сверён:5табличных ячеек,6-110кВ/I-VII/УХЛ1/1,0кгнеболее,5преимуществ,диапазон-60…+50°С,FV(ПВ)-0/ГОСТ28779,не менее40лет,ODS/DN. Относительно10элементов источник имеет неоднозначную формулировку, она сохранена буквально без пересчёта.555 по торцам корпуса;400/504 по концам элементов;95/104/69 по границам корпуса своих видов.",
+  "corrections": [
+    "Убрано выведенное без основания распределение10элементов по5на каждую половину.",
+    "555 привязан к торцам корпуса, не к крайним вертикальным антиприсадным элементам.",
+    "104/69 связаны с шириной частей корпуса на другом виде; снят недоказанный факт установки ODSна фото.",
+    "Сохранены видимые касание/антиприсадных и смешанное KЗ-ODS таблицы; выдуманный бренд снят."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T13:32:41.372542+03:00",
+  "private_original_receipt_sha256": "f76310ca919364bea51961204560c658e1aa04500763516db9a534e5c2443e91"
+}

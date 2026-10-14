@@ -1,0 +1,36 @@
+{
+  "id": "arm298-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "Арматура298: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 298
+  },
+  "review_basis": "Лично сверены все45строк×15колонок, каждый код ОТМ-1,11групп усилий, массовое условие13м, две матрицы, номера рисунков. В строке ОТМ-1-13-L-4.1-222,9 исходное36,1 сохранено. L1=111 не распространяется на13,0; d2/H2 и матрица объединены по фактическим границам. Чертежей на странице нет. Исправлен только английский бренд и добавлен контекст, native bytes сохранены. Исправления: [\"Ошибочное FORENERGO manufacturing association заменено видимым industrial group.\", \"Добавлен явный смысловой контекст сортамента и границы раскрытых объединений; значения всех675ячеек сохранены.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/22dd512e18a4a86bab1ff393fece18657aef7083903936523648e645fe5e2485.json",
+      "sha256": "22dd512e18a4a86bab1ff393fece18657aef7083903936523648e645fe5e2485",
+      "bytes": 90713,
+      "role": "native-candidate",
+      "program_version": "1.4.15"
+    },
+    {
+      "path": "objects/b489598dd10fee55be54b68f601bd4304010b8f7c30a3dbff6efd6827bff02c5.json",
+      "sha256": "b489598dd10fee55be54b68f601bd4304010b8f7c30a3dbff6efd6827bff02c5",
+      "bytes": 92160,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/b1d77924e97a8c00bcd875b31bce7adae9460f01155cfce43f5818a1ebef1130.json",
+      "sha256": "b1d77924e97a8c00bcd875b31bce7adae9460f01155cfce43f5818a1ebef1130",
+      "bytes": 4720,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "arm244-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "Арматура244: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 244
+  },
+  "review_basis": "Все256ячеек32×8 сверены. Сохранены реальныеblank:В уРГУ-5-400/-600 иd уРГУ-4-970М.ОбщийH44до5серии,H65на2строки5серии;В25/30всвоихгруппах,33,5на4строки рис.2;d11,4/16/20/25/30/36/46посвоимобъединениям.Диапазоны,Lимассы всех32позиций проверены впорядке исходника,включая разныеРГУ-2-850М(рис.1масса3,05/рис.2масса3,07)иРГУ-3-850М(3,10/3,12).Впоследних4строках L850объединённа3строки,970отдельно;d36непокрываетпоследнююпустуюячейку.Увеличенияtable-lower/digit6 доказываютblankинимимическое6.Назначение,ТУ,патентипреимуществопередРГсверены.Инженерныеисправленияожидаютнезависимогоreview. Исправления: [\"Число6 на рис.1 ошибочно извлечено как строчная кириллическаяб; исправленыdescription,labels,source_evidence,source_notes.\", \"H/В/L/d привязаны к своим контурам иосям;мм из общей шапки перенесены вunit четырёх размерных столбцов.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/4a5b0d26034df4b9da42671a141a7cf96baeb06f6f472991db398ceafcf58d45.json",
+      "sha256": "4a5b0d26034df4b9da42671a141a7cf96baeb06f6f472991db398ceafcf58d45",
+      "bytes": 43898,
+      "role": "native-candidate",
+      "program_version": "1.5.15"
+    },
+    {
+      "path": "objects/e98a74fd4da94616c3fedeaf4c27b02e302e3f1d79bb1d1871325721e791d8b9.json",
+      "sha256": "e98a74fd4da94616c3fedeaf4c27b02e302e3f1d79bb1d1871325721e791d8b9",
+      "bytes": 43376,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r1"
+    },
+    {
+      "path": "objects/0a0a15aec88c3a06aaaf22bd3c894fe2f0936cfc4534dc458dbff02cc1893e2a.json",
+      "sha256": "0a0a15aec88c3a06aaaf22bd3c894fe2f0936cfc4534dc458dbff02cc1893e2a",
+      "bytes": 3945,
+      "role": "source-review",
+      "program_version": "tail-mod0-20261014.r1"
+    }
+  ]
+}

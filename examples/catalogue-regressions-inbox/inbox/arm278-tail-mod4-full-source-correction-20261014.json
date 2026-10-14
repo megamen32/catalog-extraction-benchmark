@@ -1,0 +1,36 @@
+{
+  "id": "arm278-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "Арматура278: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 278
+  },
+  "review_basis": "Лично проверены12×6=72ячейки,8строкМС1/4МС2,границы диаметров4,45…31,50/7,0…21,81,длины180…470/1000,масса0,045…0,600. Рис.1один установочный участок,Рис.2два;Lв обоих полный горизонтальный габарит,350во втором поперечный габарит крупных витков. Исходные пресечении/гасителя/спиральное не исправлены редакторски. Числа таблиц неизменны. Исправления: [\"Напечатанные единицы мм/кг восстановлены вместо фиктивного /.\", \"Восстановлен printed_page277.\", \"Верхнее одно изображение с двумя концами и два нижних косых вида описаны раздельно; сняты выдуманные текстовые labels, добавлен реальный350.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/3727d0742da639d972790678a18824567073c7b92234ec011a5dabef105541fa.json",
+      "sha256": "3727d0742da639d972790678a18824567073c7b92234ec011a5dabef105541fa",
+      "bytes": 22280,
+      "role": "native-candidate",
+      "program_version": "1.5.17"
+    },
+    {
+      "path": "objects/7a67c94c655a71b031a78f682b5327f52d816bd0395f7a283c4720ddfe88b46a.json",
+      "sha256": "7a67c94c655a71b031a78f682b5327f52d816bd0395f7a283c4720ddfe88b46a",
+      "bytes": 22306,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/4ee72557982e544687bae2821eea4a19cd1dea577b75120b4c4b1c61412bee7e.json",
+      "sha256": "4ee72557982e544687bae2821eea4a19cd1dea577b75120b4c4b1c61412bee7e",
+      "bytes": 3515,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

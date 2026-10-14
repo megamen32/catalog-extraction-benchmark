@@ -1,0 +1,36 @@
+{
+  "id": "arm294-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "Арматура294: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 294
+  },
+  "review_basis": "Лично просмотрен полный оригинал: один заголовок и фото решётчатой опоры с двумя стойками, изоляторами и проводами. Таблиц/размеров/марок/номера нет. Нельзя считать все видимые провода комплектами ОТМ только по тематике раздела. Исправления: [\"Снято недоказанное распознавание всех проводов как провисающих оттяжек от траверс и назначения оттяжек как крепления проводов; сохранено видимое фото опор ВЛ.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/21ef554e131f1892326b2330e3392cc51d5e5bc9cdb67e0997414ba14c3ff7ab.json",
+      "sha256": "21ef554e131f1892326b2330e3392cc51d5e5bc9cdb67e0997414ba14c3ff7ab",
+      "bytes": 4000,
+      "role": "native-candidate",
+      "program_version": "1.5.17"
+    },
+    {
+      "path": "objects/413dce017ad66856dcf24beae882b0c30b5900a69d96c5a8335b76342b631a4d.json",
+      "sha256": "413dce017ad66856dcf24beae882b0c30b5900a69d96c5a8335b76342b631a4d",
+      "bytes": 2835,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/68e95c8602c90f0cd2042b89fd991820e1fae33352bed256059f10fa524c2331.json",
+      "sha256": "68e95c8602c90f0cd2042b89fd991820e1fae33352bed256059f10fa524c2331",
+      "bytes": 3199,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

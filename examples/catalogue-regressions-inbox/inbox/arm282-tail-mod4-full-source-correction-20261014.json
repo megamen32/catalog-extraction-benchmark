@@ -1,0 +1,36 @@
+{
+  "id": "arm282-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "Арматура282: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 282
+  },
+  "review_basis": "Лично сверены полный оригинал,6ячеек,размеры302/max330по выносным границам,полные тексты/5преимуществ/сноска220кВ/цвета/ТУ. В оригинале при пресечении,не заменено пересечении;в течении сохранено как печатный текст. Единицы рисунка не добавлены. Ошибка количества изделий исправлена. Исправления: [\"Два алюминиевых шара исправлено на один корпус из двух полусфер; функция отверстий не выведена по фото.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/643aa42d2855f2d4b388321ec847294c7a7374c575e156035e8a48818e98cf6f.json",
+      "sha256": "643aa42d2855f2d4b388321ec847294c7a7374c575e156035e8a48818e98cf6f",
+      "bytes": 15292,
+      "role": "native-candidate",
+      "program_version": "1.5.17"
+    },
+    {
+      "path": "objects/ff4a8e90019bfab98396b9ab714d048c9c7dd955e5e9b09e5dd9b1553b85a71d.json",
+      "sha256": "ff4a8e90019bfab98396b9ab714d048c9c7dd955e5e9b09e5dd9b1553b85a71d",
+      "bytes": 14732,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/b7a5ab3baf41bc45dd121fd63794529b42d6db973b3a9bef25e5a271768459b4.json",
+      "sha256": "b7a5ab3baf41bc45dd121fd63794529b42d6db973b3a9bef25e5a271768459b4",
+      "bytes": 3211,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

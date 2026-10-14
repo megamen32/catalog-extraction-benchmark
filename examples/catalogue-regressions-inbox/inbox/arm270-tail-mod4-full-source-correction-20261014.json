@@ -1,0 +1,36 @@
+{
+  "id": "arm270-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "Арматура270: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 270
+  },
+  "review_basis": "Лично полностью просмотрен оригинал:две строки×5колонок=10ячеек,общие35–750/I–VII/УХЛ1иразные1,1/0,98.450отверхадугидокронштейна,100/100*отузласхождениядоверхаоснования,35межосевоеболтов/60ширинакронштейна,R300дуга.Звёздочка100*толькоЗПК-1,сноскинастраницедействительнонет. Всё назначение/ТУ/патент/заказные размеры сохранены. Исправления: [\"Убрано выдуманное пояснение бренда и наличие отдельной опоры на верхнем изображении.\", \"R300 описан как радиус дуги построения по концам элементов;450 не включает концы болтов.\", \"Снято недоказанное назначение ХХкакдаты.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/f867c39fa48247d16282e28190bdf08f75b4c0e7041b213c48bcea4893b87070.json",
+      "sha256": "f867c39fa48247d16282e28190bdf08f75b4c0e7041b213c48bcea4893b87070",
+      "bytes": 14713,
+      "role": "native-candidate",
+      "program_version": "1.5.17"
+    },
+    {
+      "path": "objects/e61d5a43eef199b5d869131b8089a7e67973a6bf69884bec753821d2593f104b.json",
+      "sha256": "e61d5a43eef199b5d869131b8089a7e67973a6bf69884bec753821d2593f104b",
+      "bytes": 15286,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/2c9abc8c25a4aed708e22d80929b8127f3e3d9398df227ef31fb019fb9d87162.json",
+      "sha256": "2c9abc8c25a4aed708e22d80929b8127f3e3d9398df227ef31fb019fb9d87162",
+      "bytes": 3500,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

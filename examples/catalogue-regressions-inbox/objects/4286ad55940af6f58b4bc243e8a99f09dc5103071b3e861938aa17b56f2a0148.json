@@ -1,0 +1,98 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 281,
+  "printed_page": "280",
+  "status": "author_source_review_complete_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod1",
+    "task": "/root/catalog_tail_mod1",
+    "version": "tail-mod1-20261014.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-281-candidate.json",
+    "sha256": "9f6a499d1cd321c11d740b0a356f28d4a4422574699f3cb284d4fef26fb26304",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.17",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "250a5f879c4c07bb339e5791b2e6b59062426df6bcef56df7b50cb0af47cfc87",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "9f6a499d1cd321c11d740b0a356f28d4a4422574699f3cb284d4fef26fb26304",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 281,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "5f66dfaacd6c43b74ca531095c704b2a738db593b26901fc493f46c9409796e6",
+      "receipt": "calls/652f89c95aa047ec9c60e9a7a005b6f5/result.json",
+      "started_at": 1791965658.765253,
+      "finished_at": 1791966215.1061695
+    },
+    "receipt_file": "armature-281-producer-receipt.json",
+    "receipt_sha256": "e80aff510a6639fa5b05d9a26796656aae403f466e691473709c81118b6d5c6b",
+    "receipt_artifact_equals_candidate": true
+  },
+  "output": {
+    "file": "armature-281-reviewed.json",
+    "sha256": "2092f6903290d8769e2210069e74898608d6ba6e1bdafb8cc1b14e3a730e4cde",
+    "author": "catalog_tail_mod1"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "5c68ede7bda0876976f704b408490b10034870b8ec72e258045d003b97c1d518",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "pagecontent_schema_valid": true
+  },
+  "tables": {
+    "row_counts": [
+      18
+    ],
+    "column_counts": [
+      7
+    ],
+    "cells_checked": 126
+  },
+  "source_findings": "Полностью проверены18×7=126 ячеек. Общие6-750кВ/I-VII/600м/УХЛ1 соответствуют вертикальным объединениям18 строк. Масса1,71 в1-й;1,72 во2–10-й;1,73 в11–18-й. КодыО/К/Б/С кириллические; последняя марка32,1/34 при диаметре32,1-34,0 сохранена. На изображении оригинала реально «при пре- / сечении ВЛ»; сохранённое «пресечении» верно, reviewer требовал несуществующее «пересечении». Проверены фотография, вид на проводе сD и вид оболочки с310,310 без указанной единицы. Исправлено ложное примечание о точках в наименованиях.",
+  "corrections": [
+    {
+      "path": "source_notes",
+      "before": [
+        "На чертеже размеры D и 310 приведены без единиц измерения; единица D (мм) установлена по заголовку столбца таблицы «Диаметр провода (троса) ВЛ, D, мм».",
+        "В наименованиях первое значение диапазона записано с точкой («ММ-02-6/6,5», «ММ-02-30,0/32,0»), второе — с запятой; в последнем наименовании второе значение без запятой («ММ-02-32,1/34»), тогда как в столбце диаметров оно указано как «32,1-34,0». Сохранено как в источнике.",
+        "«I-VII» в столбце ветрового и гололедного района записано римскими цифрами; различение I/І по Юникоду текстовым слоем не подтверждено, сохранено буквальное написание.",
+        "Символ степени в «-60 ⁰С» и «+50 ⁰С» набран в источнике надстрочным нулём; сохранён видимый вид."
+      ],
+      "after": [
+        "На чертеже размеры D и 310 приведены без единиц измерения; единица D (мм) установлена по заголовку столбца таблицы «Диаметр провода (троса) ВЛ, D, мм».",
+        "Наименования содержат десятичные запятые, а не точки; последняя марка «ММ-02-32,1/34-О/К/Б/С» имеет34 без«,0», тогда как в столбце диаметров указано«32,1-34,0». Различие источника сохранено.",
+        "«I-VII» в столбце ветрового и гололедного района записано римскими цифрами; различение I/І по Юникоду текстовым слоем не подтверждено, сохранено буквальное написание.",
+        "Символ степени в «-60 ⁰С» и «+50 ⁰С» набран в источнике надстрочным нулём; сохранён видимый вид.",
+        "В назначении напечатано «при пре-» / «сечении ВЛ»; после снятия переноса получается «при пресечении ВЛ», сохранено буквально. Нельзя молча заменять на «пересечении»."
+      ],
+      "reason": "Исправлено ложное примечание о точках; зафиксирована опечатка источника, противоречащая прежнему reviewer."
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independent_review_required": true,
+  "independent_review_status": "pending",
+  "unresolved_issues": [
+    "Нужна независимая проверка авторских исправлений и всех инженерных чертежей."
+  ],
+  "completed_at": "2026-10-14T13:29:23.489158+03:00",
+  "private_original_receipt_sha256": "c328a8ddc685eb7638f145367d35d201feb1e7ccd492cafba1fc1d74194a56f1"
+}

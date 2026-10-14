@@ -1,0 +1,141 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 297,
+  "printed_page": "296",
+  "status": "author_source_review_complete_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod1",
+    "task": "/root/catalog_tail_mod1",
+    "version": "tail-mod1-20261014.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-297-candidate.json",
+    "sha256": "94b28d736c1dc501e5d9584add8740c70aadc9f4493f03082171821a5f11f6da",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.4.15",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+        "python_version": "3.12.13",
+        "components": {
+          "agent_logic": {
+            "package_version": "1.4.2",
+            "git_revision": null,
+            "dirty": null,
+            "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+            "python_version": "3.12.13"
+          },
+          "catalog_tools": {
+            "package_version": "1.4.8",
+            "git_revision": null,
+            "dirty": null,
+            "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+            "python_version": "3.12.13"
+          },
+          "legacy_skills": {
+            "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+            "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+          },
+          "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+          "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+          "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+          "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+        }
+      },
+      "artifact_sha256": "94b28d736c1dc501e5d9584add8740c70aadc9f4493f03082171821a5f11f6da",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 297,
+      "attempt": 0,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf",
+      "receipt": "calls/324e9a0a788d4406ab948337de32168e/result.json",
+      "started_at": 1791909845.5364392,
+      "finished_at": 1791909920.00773
+    },
+    "receipt_file": "armature-297-producer-receipt.json",
+    "receipt_sha256": "ee80b2d3c279cdb629485848d722dcf85e6300c337855cdd28bc0dcb5ac8fd5b",
+    "receipt_artifact_equals_candidate": true
+  },
+  "output": {
+    "file": "armature-297-reviewed.json",
+    "sha256": "c8129ae74b77f8e3562127de1e142921e4fc0cb692f51b166953fa0ec578e3b1",
+    "author": "catalog_tail_mod1"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "e991e7db9b5a4c9467f1125f5727cde68697b9de73831b63b64bb06a6ea58047",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "pagecontent_schema_valid": true
+  },
+  "tables": {
+    "row_counts": [
+      42
+    ],
+    "column_counts": [
+      15
+    ],
+    "cells_checked": 630
+  },
+  "source_findings": "Проверены все 42×15=630 ячеек. Объединения усилия по 3/5 строкам и L1/L2/d/d2/H2/матриц по фактическим границам сохранены. d3 и H3 — отдельные колонки с прочерком, каждая объединена на всю высоту. H1 и d1 у исполнения 6 — прочерк. Особые массы 30,15 и 28,15 для 157,0 сохранены. Заголовок действительно «Опрессовать матрицей»; отдельного пустого 16-го столбца в исходной таблице нет. Это продолжение каталожной таблицы оттяжек, а не спецификация проекта.",
+  "corrections": [
+    {
+      "path": "source_notes",
+      "before": [
+        "Заголовок группы столбцов в исходнике набран с переносом: «Опрессоват» + «ь» над двумя подзаголовками «Обозначение» и «S» — восстановлено как «Опрессовать матрицей».",
+        "Крайний узкий столбец сетки (16-й по геометрии) не имеет подписи и данных и в JSON не перенесён.",
+        "Столбцы d3 и H3 — одна физическая объединённая ячейка «-» на всю высоту таблицы; значение размножено по всем покрываемым строкам."
+      ],
+      "after": [
+        "Столбцы d3 и H3 — отдельные физические колонки; в каждой одна объединённая ячейка «-» на всю высоту таблицы, значение раскрыто на все42 строки.",
+        "Значения геометрических столбцов имеют обозначения L1,L2,d,d1,d2,d3,H1,H2,H3,S; единицы этих столбцов на данной странице не напечатаны.",
+        "Для ОТМ-1-11-L-3.2-157,0 масса30,15кг и для ОТМ-1-11-L-6-157,0 масса28,15кг — буквальные значения источника при длине каната13м."
+      ],
+      "reason": "Удалены выдуманные примечания о разрыве заголовка и пустом16-м столбце."
+    },
+    {
+      "path": "page_context",
+      "before": null,
+      "after": {
+        "kind": "catalogue_product_data",
+        "summary": "Продолжение каталожной таблицы оттяжек ОТМ:42 обозначения с разрывным усилием каната, геометрическими параметрами, массой при длине каната13м, матрицей опрессования и номером рисунка. Геометрические обозначения без указания единиц на этой странице. Типовые изделия, не проектная спецификация.",
+        "source_evidence": [
+          {
+            "kind": "catalogue_product_data",
+            "box": [
+              0.09,
+              0.08,
+              0.91,
+              0.93
+            ],
+            "observation": "Рубрика «ЛИНЕЙНАЯ АРМАТУРА ДЛЯ ВЛ / ОТТЯЖКИ» и таблица42 типоразмеров ОТМ с условием массы при13м и графами матрицы опрессования.",
+            "transcription": "literal"
+          }
+        ]
+      },
+      "reason": "Независимо установлено назначение страницы по оригиналу."
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independent_review_required": true,
+  "independent_review_status": "pending",
+  "unresolved_issues": [
+    "Нужна независимая проверка авторских исправлений."
+  ],
+  "completed_at": "2026-10-14T13:29:23.153187+03:00",
+  "private_original_receipt_sha256": "a4d48dde127c6fec1014e888cd8e4bd64166f5d7c43c2a183766cbc0c49ffaee"
+}

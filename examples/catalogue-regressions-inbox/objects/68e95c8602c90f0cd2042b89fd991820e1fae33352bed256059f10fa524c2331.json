@@ -1,0 +1,67 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 294,
+  "printed_page": null,
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "21ef554e131f1892326b2330e3392cc51d5e5bc9cdb67e0997414ba14c3ff7ab",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.17",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "250a5f879c4c07bb339e5791b2e6b59062426df6bcef56df7b50cb0af47cfc87",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "21ef554e131f1892326b2330e3392cc51d5e5bc9cdb67e0997414ba14c3ff7ab",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 294,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "5f66dfaacd6c43b74ca531095c704b2a738db593b26901fc493f46c9409796e6",
+      "receipt": "calls/7bb06a88c82b442393384f320f1adcb7/result.json",
+      "started_at": 1791964249.2057993,
+      "finished_at": 1791964329.5380054
+    }
+  },
+  "output": {
+    "file": "armature-294-reviewed.json",
+    "sha256": "413dce017ad66856dcf24beae882b0c30b5900a69d96c5a8335b76342b631a4d"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "d870a5687dc16a07976b9529f83c0c9ffb2f45032df8b807b228bcd71227f0a0",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [],
+    "column_counts": [],
+    "cells_checked": 0
+  },
+  "source_findings": "Лично просмотрен полный оригинал: один заголовок и фото решётчатой опоры с двумя стойками, изоляторами и проводами. Таблиц/размеров/марок/номера нет. Нельзя считать все видимые провода комплектами ОТМ только по тематике раздела.",
+  "corrections": [
+    "Снято недоказанное распознавание всех проводов как провисающих оттяжек от траверс и назначения оттяжек как крепления проводов; сохранено видимое фото опор ВЛ."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T13:27:25.265942+03:00",
+  "private_original_receipt_sha256": "667a07eabbce8e98a24d73d83b939ac5d8aaed557ec282ee54c6256e6d9043f8"
+}

@@ -1,0 +1,73 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 228,
+  "printed_page": "227",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-0228-native-candidate.json",
+    "sha256": "67315fdef15487927774db764fb1d3fc25950d39921bd39103456a0a3c2dd117",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.13",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "388e4b7dea7fc75a16d8aeee3f64f722f70d0518bda21b5ea9121fd690d0cc26",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "67315fdef15487927774db764fb1d3fc25950d39921bd39103456a0a3c2dd117",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 228,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4dfdf43954cb8adf1b11456ab3262a152d1ef2fea7fdfb31ebca498d2e6cbeb7",
+      "receipt": "calls/d83f7a821e964fceb3aaf6d150494c23/result.json",
+      "started_at": 1791956683.0674603,
+      "finished_at": 1791956792.6424487
+    }
+  },
+  "output": {
+    "file": "armature-0228-reviewed.json",
+    "sha256": "2e202784219e3cc2d4facf14b94138c3d2a394309f583f2de86e9334d7d0faa6"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "567e7f69b94dd44976907c6e849131c64efb214e065040c4ae4167143e602305",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [],
+    "column_counts": [],
+    "cells_checked": 0
+  },
+  "source_findings": "Таблицнет.ПросмотреныобаобщихвидаичетыреА–А/Б–Б,всевыноскиСерьгаСР-7-16(СР-12-16),ЭРВ-220/500-1,ЭРН-220-2/-1,ушкоУ1-12-16(УС-12-16),зажимпровода.Увеличениеupper-diametersпрямопоказываетØ255-290междукраямитарелкиивнутреннююокружностьизолятора,отдельноØ515внешнегокольца;Ø400своегоА–Апроверен.Зажимlabelувеличенвclamp-label.png;глиф3/Зневыбранпоправдоподобиюиоставленunresolved.Назначение220кВ/дуга/ТУ52819896-2010сверены.Инженерныеисправлениянеобъявляютсянезависимопринятыми.",
+  "corrections": [
+    "Ø255-290ошибочноназвандиаметромкольцаэкрана:эторазмертарелкиизолятора;кольцаимеютØ400/Ø515.",
+    "ДвавариантаошибочноназванывариантомЭРВивариантомЭРН:каждыйсодержитверхнийЭРВинижнийЭРН.",
+    "Удаленанеподтверждённаяразницазнака÷противдефиса,исправленбренд,добавленprinted_page227."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [
+    "ВкодовомобозначениизажимаПГН-5-[3/З]Родинобводочныйглифможетбытьцифрой3иликириллическойЗ;nativeчтениеЗнеобъявленопроверенным.Нужнанезависимаясверкаэтогоодногознака."
+  ],
+  "completed_at": "2026-10-14T13:37:41.458850+03:00",
+  "private_original_receipt_sha256": "c3cf52b51d3205e60728cfc09fc93355bed688213dff52313993358d6af9c20f"
+}

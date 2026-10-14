@@ -1,0 +1,36 @@
+{
+  "id": "arm290-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "Арматура290: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 290
+  },
+  "review_basis": "Полный оригинал лично проверен:42×7 и5×5=319товарных ячеек. Первые6оцинкованных2,1/прочерки, далее2,8/3/3;длины350до20,500до29,700с30. Строка29 источник содержит несовпадение с маркой; №3x не переименован31. Пять тросовых строк и дискретная сноска длин сохранены. Размерных чертежей нет. Исправления: [\"Строка29: диапазон22,5-23,5 исправлен на фактически напечатанный21,5-22,5, хотя марка остаётся ПЗС-22,5-23,5-11.\", \"Удалена дублированная строка шапки из товарных строк второй таблицы.\", \"Выдуманное определение бренда снято; выбрации исправлено на видимое вибрации.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/2e891c11a79c149f5361920a6eb2c958e9e440baff892f0531e8d0605149a24b.json",
+      "sha256": "2e891c11a79c149f5361920a6eb2c958e9e440baff892f0531e8d0605149a24b",
+      "bytes": 52243,
+      "role": "native-candidate",
+      "program_version": "1.5.17"
+    },
+    {
+      "path": "objects/352a0946f74027f8e659948319282fbf700397e9b60ed368b2b17f7bb6eba812.json",
+      "sha256": "352a0946f74027f8e659948319282fbf700397e9b60ed368b2b17f7bb6eba812",
+      "bytes": 51552,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/4e4ac9db11aa2247b6daa4adeb2808fffe5cc65619f3e62fc76c9611c2af76ab.json",
+      "sha256": "4e4ac9db11aa2247b6daa4adeb2808fffe5cc65619f3e62fc76c9611c2af76ab",
+      "bytes": 3494,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

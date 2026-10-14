@@ -1,0 +1,78 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 240,
+  "printed_page": "239",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-0240-native-candidate.json",
+    "sha256": "edfc0136e958d0b77da86f595652b2aa2d7703a49be40916e4cf43d2b6b20e8a",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.15",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "8242b10480ab5cbc00eb6b6de0abd40b182977e4018be71b2df47b3ed98da688",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "edfc0136e958d0b77da86f595652b2aa2d7703a49be40916e4cf43d2b6b20e8a",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 240,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "9b513ece12e8465355ea77e5b966812a92866ab89a8f614335298647034f48bf",
+      "receipt": "calls/913bf160652043c187df4f7e0a456b8f/result.json",
+      "started_at": 1791958683.7062595,
+      "finished_at": 1791958929.6661463
+    }
+  },
+  "output": {
+    "file": "armature-0240-reviewed.json",
+    "sha256": "c453fea97f6ffe1693b2c2b991f8e16b9101a3f3c7c2f0dd4dd678d274c195ca"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "8039ae2185774edb1a51fa8af62e69cd00742d1b432e343030fd2d704cd700eb",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      10,
+      14
+    ],
+    "column_counts": [
+      3,
+      11
+    ],
+    "cells_checked": 184
+  },
+  "source_findings": "Сверены30ячеек нормализованнойтаблицыхарактеристик(10×3)и154ячейкиноменклатуры(14×11),184всего. Четырепары№плашки10–13/16–20/23–31/32–46сd1 9,0–15,0/14,5–22,0/20,1–32,0/29,0–46,0сохраненывявнойсвязи. Условиеприбавлять6,0ммдляП/П1,Пдляпровода/ОКГТиП1длятроса/ОКСНсверено.Сохраненыисточниковые1,6вперечнебольшихгрузови2,2вграфегруза2приобозначениимарки2,8/2,3.Все14марок,групповыеL/d/R/D/массыгрузов,индивидуальныеH/B/общаямассасверены.Примечания*и**сохранены.Увеличениеdrawing.pngдоказываетDнижнегогруза,dверхнеготроса,Rдуги,Bплашки,Hгабарита,15°наклона.",
+  "corrections": [
+    "Dошибочно отнесён к верхней ветви троса:он показывает поперечный диаметр нижнего участка груза;d—тросдемпфера.",
+    "Вложенные номера плашек и диапазоныd1 были разорваны на несвязанные списки/служебную строку;восстановлены4явныхсоответствия в отдельныхстроках.",
+    "Заполненыunitмм/кгвразмерных/массовыхколонках из общейшапки;уточнён структурныйblankпункта5.",
+    "Исправлено выдуманное пояснение бренда."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T13:37:41.448607+03:00",
+  "private_original_receipt_sha256": "32ef48b067c01f3e07d3779e6912dc6e40384265d2591ec947adc11e8597b708"
+}

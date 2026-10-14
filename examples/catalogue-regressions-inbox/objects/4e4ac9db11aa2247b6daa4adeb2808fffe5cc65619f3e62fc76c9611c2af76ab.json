@@ -1,0 +1,75 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 290,
+  "printed_page": "289",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "2e891c11a79c149f5361920a6eb2c958e9e440baff892f0531e8d0605149a24b",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.17",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "250a5f879c4c07bb339e5791b2e6b59062426df6bcef56df7b50cb0af47cfc87",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "2e891c11a79c149f5361920a6eb2c958e9e440baff892f0531e8d0605149a24b",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 290,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "5f66dfaacd6c43b74ca531095c704b2a738db593b26901fc493f46c9409796e6",
+      "receipt": "calls/54fe573d2fec4a698f90da709b605dd7/result.json",
+      "started_at": 1791964052.8963816,
+      "finished_at": 1791964591.7945423
+    }
+  },
+  "output": {
+    "file": "armature-290-reviewed.json",
+    "sha256": "352a0946f74027f8e659948319282fbf700397e9b60ed368b2b17f7bb6eba812"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "c3226e4d3c842b8515d8134bef977edc2d123a1578624568823d3c583620ece0",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      42,
+      5
+    ],
+    "column_counts": [
+      7,
+      5
+    ],
+    "cells_checked": 319
+  },
+  "source_findings": "Полный оригинал лично проверен:42×7 и5×5=319товарных ячеек. Первые6оцинкованных2,1/прочерки, далее2,8/3/3;длины350до20,500до29,700с30. Строка29 источник содержит несовпадение с маркой; №3x не переименован31. Пять тросовых строк и дискретная сноска длин сохранены. Размерных чертежей нет.",
+  "corrections": [
+    "Строка29: диапазон22,5-23,5 исправлен на фактически напечатанный21,5-22,5, хотя марка остаётся ПЗС-22,5-23,5-11.",
+    "Удалена дублированная строка шапки из товарных строк второй таблицы.",
+    "Выдуманное определение бренда снято; выбрации исправлено на видимое вибрации."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T13:27:56.987028+03:00",
+  "private_original_receipt_sha256": "7e6012c912d91b4556b8885cf73d3d8b615f984edf85a6b4baadb0259cfd2e53"
+}

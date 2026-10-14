@@ -1,0 +1,105 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 265,
+  "printed_page": "264",
+  "status": "author_source_review_complete_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod1",
+    "task": "/root/catalog_tail_mod1",
+    "version": "tail-mod1-20261014.r1",
+    "model_id": "Current native Codex session;exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-265-candidate.json",
+    "sha256": "9a06a0cd834dbd2ec0895a72fa8121efffd73ece410971324781dd37848e6f66",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.17",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "250a5f879c4c07bb339e5791b2e6b59062426df6bcef56df7b50cb0af47cfc87",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "9a06a0cd834dbd2ec0895a72fa8121efffd73ece410971324781dd37848e6f66",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 265,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "5f66dfaacd6c43b74ca531095c704b2a738db593b26901fc493f46c9409796e6",
+      "receipt": "calls/735c9906599141a9a2655e92286728b6/result.json",
+      "started_at": 1791961180.9236248,
+      "finished_at": 1791961325.4965913
+    },
+    "receipt_file": "armature-265-producer-receipt.json",
+    "receipt_sha256": "ba25cd753e3efcb5653f9ac69566fbaeba5abd25fccb62364e78ac947ca02732",
+    "receipt_artifact_equals_candidate": true
+  },
+  "output": {
+    "file": "armature-265-reviewed.json",
+    "sha256": "ddb69b53f728c730e456de1848a46f16f4e113cf61af83294b890d54bca896e9",
+    "author": "catalog_tail_mod1"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "76e17c852fa0fd7ff080e57c5e27a72c307bc34e8ef2af460a96cb07353b9fcf",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "pagecontent_schema_valid": true
+  },
+  "tables": {
+    "row_counts": [
+      4
+    ],
+    "column_counts": [
+      6
+    ],
+    "cells_checked": 24
+  },
+  "source_findings": "Проверены4×6=24 ячейки:ЭЗ-385-1…4,D16/20/24/32мм,массы0,57/0,56/0,55/0,53кг не более,общие6-110кВ/I-VII/УХЛ1. Фотография отдельно лежащего изделия не доказывает установленное состояние на опоре. Все выноскиØ52/45/D/Ø385 проверены по исходным линиям; диагональная линия в плане — размерØ385,не ось. Назначение,посадка,нормативы,материалы и срок не менее40лет проверены.",
+  "corrections": [
+    {
+      "path": "tables[0].title",
+      "before": "Сводная таблица заказов ЭЗ-385",
+      "after": "ЭЗ-385:типовые технические характеристики",
+      "reason": "Это каталог исполнений,не таблица заказов."
+    },
+    {
+      "path": "figures[0].title",
+      "before": "Фотография защитного устройства ЭЗ-385 на опоре",
+      "after": "Фотография устройства ЭЗ-385",
+      "reason": "Опора на фотографии отсутствует."
+    },
+    {
+      "path": "figures[0].description",
+      "before": "Фотография установленного на опоре дискового защитного устройства: тарель (диск) с конической (защищённой) поверхностью, закреплённая на траверсе/опоре болтовыми зажимами. Подписи и размеров на фотографии нет.",
+      "after": "Отдельно показан дисковый защитный экран с приподнятой центральной втулкой,двумя небольшими выпуклыми элементами на поверхности и крепёжными узлами вдоль линии разъёма. Опора,траверса и установленный изолятор на фотографии не показаны;подписей и размеров нет.",
+      "reason": "Устранено выдуманное установленное состояние."
+    },
+    {
+      "path": "figures[1].description",
+      "before": "Верхний вид — боковой профиль: коническая (защищённая) тарель с приподнятым центральным узлом и двумя полусферическими отбойниками. Размер Ø52 относится к ширине центрального узла (зажимов), размер 45 — к общей высоте изделия от нижней плоскости тарели до верхней грани центрального узла. Нижний вид — план: круглая тарель диаметром Ø385 с центральным посадочным отверстием, выноска D указывает именно на это центральное отверстие; через центр проходит диагональная ось с двумя малыми отверстиями, симметричными относительно центра; по краям тарели имеются болтовые зажимы. Допуски и знаки ± на чертеже не указаны.",
+      "after": "Два ортогональных видаЭЗ-385. Верхний — профиль дискового экрана с приподнятой центральной втулкой и двумя выпуклыми элементами на поверхности.Ø52 — наружный диаметр верхней центральной втулки;45 — вертикальный габарит от нижней плоскости края диска до верхней плоскости этой втулки. Нижний — круглый диск в плане:Ø385 — диаметр наружного контура,задан диагональной размерной линией через центр со стрелками на противоположных краях;это размерная линия,не ось. D — диаметр центрального посадочного прохода по выноске;значенияD16/20/24/32мм даны в таблице. По линии поперёк диска видны крепёжные узлы,а по диагонали — два симметричных круглых элемента,отдельных размеров им не задано. Единицы45/Ø52/Ø385 отдельно на рисунке не напечатаны.",
+      "reason": "Исправлены диаметральная линия и принадлежностьØ52;удалены недоказанные отбойники."
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independent_review_required": true,
+  "independent_review_status": "pending",
+  "unresolved_issues": [
+    "Нужна независимая проверка всех авторских изменений и инженерных чертежей."
+  ],
+  "completed_at": "2026-10-14T13:34:35.683032+03:00",
+  "private_original_receipt_sha256": "8b8ae93382b8ac34c8e0f9e091a89e41a5884f1e79ce2758edcf7ea1a020a44a"
+}

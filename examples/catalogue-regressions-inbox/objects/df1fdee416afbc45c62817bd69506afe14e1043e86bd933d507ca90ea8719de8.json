@@ -1,0 +1,74 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 276,
+  "printed_page": "275",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-0276-native-candidate.json",
+    "sha256": "3482ebeff49724c9bc13ee02a5aa3d728aa06e0e922e748a53a36ce8affc63fb",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.17",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "250a5f879c4c07bb339e5791b2e6b59062426df6bcef56df7b50cb0af47cfc87",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "3482ebeff49724c9bc13ee02a5aa3d728aa06e0e922e748a53a36ce8affc63fb",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 276,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "5f66dfaacd6c43b74ca531095c704b2a738db593b26901fc493f46c9409796e6",
+      "receipt": "calls/dac994227919433788989a350b3ae0ba/result.json",
+      "started_at": 1791962495.4415364,
+      "finished_at": 1791962821.036638
+    }
+  },
+  "output": {
+    "file": "armature-0276-reviewed.json",
+    "sha256": "82a7c0efdcd2f8d801b00d855d06e98c05e1f2079c25147d9151d26e94d2c92b"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "03c382ab9943c59ae8004c278ec8d9a6bcf533fa024113a265e0d83cdd22089c",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      2
+    ],
+    "column_counts": [
+      3
+    ],
+    "cells_checked": 6
+  },
+  "source_findings": "Проверены 6 ячеек: ЗП-КП1/ЗП-КП2, объединённый класс 6–20 кВ, массы погонного метра не более 0,33/0,45 кг. Полностью сверены назначение, СТО 34.01-2.2-011-2015, ТУ 3449-001-52819896-2013, бухты по 6 м, кремнийорганическая смесь, гидрофобность не ниже 1 класса ГОСТ Р 55189, трекингостойкость не ниже 1А 3,5 ГОСТ Р 27474, FV(ПВ)-0 ГОСТ 28779, монтаж по несколько штук. Фото отдельно от двух поперечных профилей. На сечениях проверены 40/25 и 67/40 с собственными выносными линиями. Нижний крючок — часть геометрии замка, не указатель направления. Единицы у размеров не выдуманы.",
+  "corrections": [
+    "Форма замкового соединения в сечении ошибочно названа стрелкой направления; удалена эта инженерная интерпретация.",
+    "Убраны выдуманные «промышленность и оборудование» и роль FORENERGO как дистрибьютора; заполнен printed_page=275."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T13:25:27.313987+03:00",
+  "private_original_receipt_sha256": "29ed207ce757fbc420a1d5314311514e88e1ddb701d5948c1bd76e4637f0ee1f"
+}
