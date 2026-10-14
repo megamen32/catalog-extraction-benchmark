@@ -1,0 +1,78 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 202,
+  "printed_page": "201",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "8566905d3f131a00ada710779ea781df20e87f625fa0c6356123e3f8875765f2",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.13",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "388e4b7dea7fc75a16d8aeee3f64f722f70d0518bda21b5ea9121fd690d0cc26",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "8566905d3f131a00ada710779ea781df20e87f625fa0c6356123e3f8875765f2",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 202,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4dfdf43954cb8adf1b11456ab3262a152d1ef2fea7fdfb31ebca498d2e6cbeb7",
+      "receipt": "calls/509663526643481f907ef9b7eebb1b2b/result.json",
+      "started_at": 1791955241.1558452,
+      "finished_at": 1791955555.473311
+    }
+  },
+  "output": {
+    "file": "armature-202-reviewed.json",
+    "sha256": "86c6895e884fd18b317ebf9ac162a7a8021e2195ca7dcdf36b19a93b8202056e"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "4e9d73f056ab7c88fdd9a76164ec2d96ecc17e390ca81f892bf4edf7f2a5b8cc",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      23
+    ],
+    "column_counts": [
+      10
+    ],
+    "cells_checked": 230
+  },
+  "source_findings": [
+    "Все230 ячеек23×10 сверены с объединениями соответствующих исполнений.",
+    "Крупный исходный чертёж подтверждает: S1 плоская часть; L1/L2 разные начала; опрессование вправо.",
+    "D/d — наружный/внутренний диаметры трубки, а не диаметры присоединительных отверстий; последниеØ14,4шт."
+  ],
+  "corrections": [
+    "Убрана выдуманная федеральная сетевая компания в расшифровке ФОРЭНЕРГО.",
+    "80 и S1 отнесены к плоской контактной части, а не к опрессованной цилиндрической части/её стенке.",
+    "L1 задан от начала прямой внутренней полости, L2 от отдельной границы опрессования; разные базы явно разделены.",
+    "Восстановлены printed_page201, точная подпись и квалификатор массы не более."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T14:39:00.837836+03:00",
+  "private_original_receipt_sha256": "42abef274c6f88321a764d17acff26bbf0069aa8dd068d2b33281189da1911d8"
+}

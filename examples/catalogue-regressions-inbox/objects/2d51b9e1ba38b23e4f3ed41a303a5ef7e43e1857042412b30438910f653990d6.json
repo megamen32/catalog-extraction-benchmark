@@ -1,0 +1,89 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 176,
+  "printed_page": "175",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r2",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-0176-native-candidate.json",
+    "sha256": "84ec42dc1cc6757410254d2ed21a76230e41c47545f62f0ac1bc2b8f3bc5c826",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.9",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "f5f0879481c5c45730d168c7edf956c8a1784eeed1c5ea6bcad7d8c4355101b0",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "84ec42dc1cc6757410254d2ed21a76230e41c47545f62f0ac1bc2b8f3bc5c826",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 176,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "89126eb717d25da53e59e93c52197380a6660b24bec70eea7e46df1f2cfa0e5e",
+      "receipt": "calls/db8e04ee6a0c455990105cbb47ba394c/result.json",
+      "started_at": 1791948389.6911848,
+      "finished_at": 1791948647.172819
+    }
+  },
+  "output": {
+    "file": "armature-0176-reviewed-r2.json",
+    "sha256": "22f02104b9d2382b5af6dc50f333b0bb21bb9c7dbc29d4421b8f276bed39b784"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "1b63b2dd0118afecff2977a7c172c302cd633bc215abfe24d8804dab089cd86e",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      18
+    ],
+    "column_counts": [
+      9
+    ],
+    "cells_checked": 162
+  },
+  "source_findings": [
+    "Повторно просмотрены полная страница и увеличенный конец L2: выносная линия идёт от стыка изоляции 5, оболочка продолжается ниже. Слово «клиносочлененного» читается в исходном абзаце с переносом; верхний брендинг имеется.",
+    "Все 162 ячейки таблицы и остальные размеры равны ранее полностью сверенной версии. Позиции 1 / 2, комплектность, направления опрессования и монтаж на проводе после натяжного зажима сохранены."
+  ],
+  "corrections": [
+    "Конец L2 исправлен с конца всей оболочки на поперечную границу изоляционного стыка у размера 5.",
+    "Восстановлено буквальное «клиносочлененного», добавлен пропущенный брендинг ФОРЭНЕРГО / FORENERGO.",
+    "Исправлены слитные слова и числа в evidence, summary и описании."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T11:38:16.636004+00:00",
+  "previous_reviewed_output": {
+    "file": "armature-0176-reviewed.json",
+    "sha256": "e8211918712eeedc0fb3d32934b3a494d873f484754f54301d30b83ec406d758"
+  },
+  "revision_trigger": "Independent source review by catalog_tail_mod1, followed by personal source-image recheck by catalog_tail_mod0.",
+  "revision_evidence_images": [
+    {
+      "file": "armature-0176-r2-length.png",
+      "sha256": "51bd9da6aee69e8a2e5391d338514cb0523fa77f9dbd73ccd83d3d09dd00f922"
+    }
+  ],
+  "private_original_receipt_sha256": "3d486b53ed0796d5dc5c36f2c4c489d6c2e024b7e4b074ec56d0ecbc033b8e4b"
+}

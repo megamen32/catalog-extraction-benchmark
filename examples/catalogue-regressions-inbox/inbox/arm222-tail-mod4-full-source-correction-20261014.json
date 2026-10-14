@@ -1,0 +1,36 @@
+{
+  "id": "arm222-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "Арматура222: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 222
+  },
+  "review_basis": "[\"Полная страница и пять крупных областей просмотрены; все шесть чертежей сопоставлены по отдельности.\", \"ЭЗ-500-1А:85 между болтовыми осями; ЭЗ-750-2:обычный размер200 и Ø80 сечения кольца.\", \"Числовой таблицы нет; D не вычисляется по картинке.\"] Исправления: [\"Исправлены цифровые ошибки:86→85 у ЭЗ-500-1А; R200→200 и Ø250→Ø80 у ЭЗ-750-2.\", \"Ø60 отнесён к сечению кольца, не распорки;85/42/200 связаны с осями стяжных болтов.\", \"Удалены выдуманные замкнутый виток, спираль и повёрнутый вид другого исполнения.\", \"Уточнены базы D,50,20,30 и назначение местного разреза А; исправлен бренд и контекст.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/a6381edcc94a3db4553879afe7fd9092e36f34c2d10bbd02ba20a4b64d6e8d86.json",
+      "sha256": "a6381edcc94a3db4553879afe7fd9092e36f34c2d10bbd02ba20a4b64d6e8d86",
+      "bytes": 9809,
+      "role": "native-candidate",
+      "program_version": "1.5.13"
+    },
+    {
+      "path": "objects/c963850412b3f16377c6afc9c3c3763e5e8655a21133b2f905a9fc4c7acee61d.json",
+      "sha256": "c963850412b3f16377c6afc9c3c3763e5e8655a21133b2f905a9fc4c7acee61d",
+      "bytes": 8500,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/4fa950452fccb01e937aa0c70269f4f0c68a81609654644f6f1e956f92b90699.json",
+      "sha256": "4fa950452fccb01e937aa0c70269f4f0c68a81609654644f6f1e956f92b90699",
+      "bytes": 3503,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

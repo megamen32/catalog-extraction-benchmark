@@ -1,0 +1,73 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 266,
+  "printed_page": "265",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "d47fcf784c31579a2de2ea04f22755f17964aed58432ffb0f70b4c24fcf38dfd",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.17",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "250a5f879c4c07bb339e5791b2e6b59062426df6bcef56df7b50cb0af47cfc87",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "d47fcf784c31579a2de2ea04f22755f17964aed58432ffb0f70b4c24fcf38dfd",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 266,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "5f66dfaacd6c43b74ca531095c704b2a738db593b26901fc493f46c9409796e6",
+      "receipt": "calls/3d8d2c13e09d41559d6bb88ce3c8faae/result.json",
+      "started_at": 1791961234.856907,
+      "finished_at": 1791961752.2537086
+    }
+  },
+  "output": {
+    "file": "armature-266-reviewed.json",
+    "sha256": "ef6786914282a073ff42781be13931365e860599ed36e965d2f8f69bf9be913a"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "f86e2db600efe3d149e2181acc5fbd1d4de4b4d875fa2c77941361ab5323f205",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      6
+    ],
+    "column_counts": [
+      7
+    ],
+    "cells_checked": 42
+  },
+  "source_findings": "Лично полный оригинал просмотрен:6×7=42ячейки,диаметры300/470,d24/32и16/20/24/32,классы6-110/6-750,массы0,9/0,9/2,1/2,0/1,9/1,8,всеусловиямонтажа70/120/160/210кНи110-220кВ,4преимущества. НаЭПЗУ-300 dпосадка,300наружныйдиаметр,40высотапрофиля;ЭПЗУ-47051отнизадискадоверхнейцентральнойграни,Ø52центральнаячасть,Ø470наружныйконтур,dцентральноеотверстие. Неизвестныефункцииконтуровневыдуманы.",
+  "corrections": [
+    "Снято выдуманное производственнаякомпания,восстановлен видимый подлоготипныйтекст.",
+    "ЭПЗУ-470:планка проходит через центр междукраями;неподтверждённые отверстия у периметра/рёбра сняты,сохранены реальные круглые контуры.",
+    "Printedpage265 и буквальные размерные labels восстановлены."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T13:49:03.699771+03:00",
+  "private_original_receipt_sha256": "6fc441dd59627de7f4eaed9b8ee31b6f5ba2790cabb7d05ad026d1660af9983f"
+}

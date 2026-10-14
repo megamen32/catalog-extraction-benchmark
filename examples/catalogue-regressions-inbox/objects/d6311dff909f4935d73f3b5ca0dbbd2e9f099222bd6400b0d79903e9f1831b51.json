@@ -1,0 +1,76 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 248,
+  "printed_page": "247",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-0248-native-candidate.json",
+    "sha256": "6e1671e11ec9864abf297b99d40b31a7dbe2877f530a2ad59f96688212695f72",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.15",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "8242b10480ab5cbc00eb6b6de0abd40b182977e4018be71b2df47b3ed98da688",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "6e1671e11ec9864abf297b99d40b31a7dbe2877f530a2ad59f96688212695f72",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 248,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "9b513ece12e8465355ea77e5b966812a92866ab89a8f614335298647034f48bf",
+      "receipt": "calls/3d68b4d3a5d848afaca9247f9ea3c53e/result.json",
+      "started_at": 1791959158.7650487,
+      "finished_at": 1791959297.208955
+    }
+  },
+  "output": {
+    "file": "armature-0248-reviewed.json",
+    "sha256": "3ed842fdbf07549237d155b69fa13d0e0710ca93c1ef1e66d232aaa534f55c33"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "747ef96a92417b34ffc7d0da78ffde384a071b9752641ba619a803893f156001",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      2
+    ],
+    "column_counts": [
+      5
+    ],
+    "cells_checked": 10
+  },
+  "source_findings": "Все 10 ячеек сверены: 8РГ-2-400БМ, 21,6–26,6 мм, 20,8 кг; 8РГ-3-400БМ, 27,5–30,6 мм, 20,6 кг; D=1045 общий. d=25/30 физически в общей ячейке — это неоднозначность источника, не подтверждённая ошибка native; значения не переназначены. Увеличение table.png фиксирует отсутствие разделительной линии D/d. Проверены назначение для восьми проводов и ОРУ, ТУ 3449-001-52819896-2010, патент, оба размера 400, D и d. Неоднозначность d оставлена unresolved; автоматическая приёмка исключена.",
+  "corrections": [
+    "Добавлен пропущенный печатный номер 247.",
+    "Удалены недоказанные восьмигранная форма рамы и усиленные угловые накладки; d обозначает отверстие, дополнительный знак Ø перед d не выдуман."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [
+    "Источник объединяет ячейку d и печатает в ней 25/30 на высотах двух строк. Native общий текст сохранён; индивидуальное распределение d=25/30 по моделям требует независимого решения по оригиналу, без вывода из диапазонов проводов."
+  ],
+  "completed_at": "2026-10-14T13:37:41.435383+03:00",
+  "private_original_receipt_sha256": "280509c112c118d6fca83d56df4511ee085dabf606a0fb71bd69ba6557e3c8db"
+}

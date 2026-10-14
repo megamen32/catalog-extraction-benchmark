@@ -1,0 +1,36 @@
+{
+  "id": "arm175-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "Арматура175: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 175
+  },
+  "review_basis": "Все198ячеек18×11 сверены,включая разныеНАСпо240/32/39/56,300/39/48/66/67,330/30/43,400/18/22/51/64/93,450/56,500/64/26/27. ВсеМШ33,8/34,6/39,8/41,6/44,2/47,6,массы14,4/14,5/17,3/17,4/20,2/20,3/23,8 и размеры по группам сохранены. Необычные L3=165>L4=160 последней группы не исправлялись. Поставка безНАС,новое строительство/реконструкция с заменой провода,монтаж опрессованием подтверждены;правильные владельцыL1/L2/L3/L4/D установлены по кропу. Исправления: [{\"path\": \"branding/printed_page/figures/evidence/source_notes\", \"reason\": \"Восстановлены174 и реальныйлоготип,L4 идуговоеL,5какразмер, Dсамогоштыря;НАС отличены от концевых зажимов в составе шлейфа.\"}] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/e291cc44c2edbf985a8f961f5f2b49ce7a75b3f425c66948915577f45890e1db.json",
+      "sha256": "e291cc44c2edbf985a8f961f5f2b49ce7a75b3f425c66948915577f45890e1db",
+      "bytes": 38990,
+      "role": "native-candidate",
+      "program_version": "1.5.9"
+    },
+    {
+      "path": "objects/a0b439d612cd483e3dc878f267ac9b6145ab802b892e32e8245bd4a437c1cbc0.json",
+      "sha256": "a0b439d612cd483e3dc878f267ac9b6145ab802b892e32e8245bd4a437c1cbc0",
+      "bytes": 39059,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-20261014.r5"
+    },
+    {
+      "path": "objects/6ebbd5127f2e009e2c154ebea5e1eae4cb92be698580045497b4296b364ada2d.json",
+      "sha256": "6ebbd5127f2e009e2c154ebea5e1eae4cb92be698580045497b4296b364ada2d",
+      "bytes": 14959,
+      "role": "source-review",
+      "program_version": "tail-mod3-20261014.r5"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "arm241-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "Арматура241: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 241
+  },
+  "review_basis": "Полностью проверены11×5=55 ячеек,все диапазоны6,5…45,0мм,длины4050/4110/4210/4390/4540/4650/4800/4800/4900/5180/5300мм,массы0,43/0,45/1,00/1,05/1,90/1,95/2,60/2,65/2,70/4,35/4,40кг. ШапкиМинимальный/Максимальный относятся к общиммм;единицы внесены явно. Назначение,ПВХ10–25мм,4–5,3м,провода6,5–45мм,ВЛ6–220кВ,20–30%пролёта,ФОРЭНЕРГО-ИНЖИНИРИНГ иТУ2020 сверены. Рисунок без подписей,пустыеlabels вместо выдуманной подписи об отсутствии подписей. Исправления: [{\"path\": \"printed_page\", \"before\": \"стр. 240\", \"after\": \"240\"}, {\"path\": \"tables[0].columns[1].unit\", \"before\": null, \"after\": \"мм\"}, {\"path\": \"tables[0].columns[2].unit\", \"before\": null, \"after\": \"мм\"}, {\"path\": \"figures[0].labels\", \"before\": [\"подписей и обозначений на рисунке нет\"], \"after\": []}] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/401da3de31964155d5e7da466090b595766c4614a3833b05961d3d060324c807.json",
+      "sha256": "401da3de31964155d5e7da466090b595766c4614a3833b05961d3d060324c807",
+      "bytes": 15163,
+      "role": "native-candidate",
+      "program_version": "1.5.15"
+    },
+    {
+      "path": "objects/17ed524726610bd07696f40a2f256591e95f1d1c4a7c4f00e8d96b7d14e94db1.json",
+      "sha256": "17ed524726610bd07696f40a2f256591e95f1d1c4a7c4f00e8d96b7d14e94db1",
+      "bytes": 15072,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod1-20261014.r1"
+    },
+    {
+      "path": "objects/eff6860ca8705af3b3a02386ab72f4a7dd17915daf25facbe779a0832f62dbfc.json",
+      "sha256": "eff6860ca8705af3b3a02386ab72f4a7dd17915daf25facbe779a0832f62dbfc",
+      "bytes": 4252,
+      "role": "source-review",
+      "program_version": "tail-mod1-20261014.r1"
+    }
+  ]
+}

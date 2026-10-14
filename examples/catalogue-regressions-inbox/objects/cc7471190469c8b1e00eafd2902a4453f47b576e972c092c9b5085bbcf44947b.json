@@ -1,0 +1,75 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 188,
+  "printed_page": "187",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-0188-native-candidate.json",
+    "sha256": "63d281468a0c297e6cdf5f94fe2795b873b7dd9266fa6e0f093225ecbf3f5569",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.9",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "f5f0879481c5c45730d168c7edf956c8a1784eeed1c5ea6bcad7d8c4355101b0",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "63d281468a0c297e6cdf5f94fe2795b873b7dd9266fa6e0f093225ecbf3f5569",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 188,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "89126eb717d25da53e59e93c52197380a6660b24bec70eea7e46df1f2cfa0e5e",
+      "receipt": "calls/22c9ac406798456f8234919895d9730e/result.json",
+      "started_at": 1791949256.7203724,
+      "finished_at": 1791949466.3906124
+    }
+  },
+  "output": {
+    "file": "armature-0188-reviewed.json",
+    "sha256": "dd8d78ea4fb3cc9dbddc951b97ff9621324b444644814686c25ab8296f36c5e9"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "fab191aa74dda61b4e0e7382f44ffe16c4b9248078ab884c94e30df675762e20",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      3
+    ],
+    "column_counts": [
+      14
+    ],
+    "cells_checked": 42
+  },
+  "source_findings": "Проверены42ячейки3×14:ОАП-500-1/640-1/640-1А,ПА500/640,А-59/МШ-70,B58/–/–,D65/80/80,d47/60/60,L478/650/580,L1265/392/375,L2315/452/425,l350/450/400,l1175/225/200,l2140/200/blank,l395/100/125,массы5,19/11,45/8,2.ОбъединенияПА640/МШ-70/B/D/dна2строкисохранены.Назначениеполыхалюминиевыхпроводов,ТУ3449-001-52819896-2010иТУ16-505-397-72,номера187иреквизитысверены.Обаобщихвидаисеченияпросмотрены,размерыL/L1/L2/l/l1/l2/l3,D/d/Випресc-направлениясоотнесенысвидимымилиниямибезмасштабныхвычислений.",
+  "corrections": [
+    "Литера В сечения ошибочно названа греческой β; исправлены описание и labels.",
+    "Убрано неподтверждённое слово «поворотный» для гнутого корпуса; каждый L/l с индексом связан со своими торцами и переходами.",
+    "Прочерк B отделён от настоящей пустой ячейки l2 последней строки."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T14:04:20.524725+03:00",
+  "private_original_receipt_sha256": "0d7a3ba58c90e3ddd50aa24316a046a934ea82678d88363f447d342187e19a46"
+}

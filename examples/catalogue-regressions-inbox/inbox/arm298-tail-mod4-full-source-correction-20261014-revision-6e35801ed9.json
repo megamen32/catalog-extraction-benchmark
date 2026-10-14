@@ -1,0 +1,36 @@
+{
+  "id": "arm298-tail-mod4-full-source-correction-20261014-revision-6e35801ed9",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "Арматура298: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 298
+  },
+  "review_basis": "Лично сверены все45строк×15колонок, каждый код ОТМ-1,11групп усилий, массовое условие13м, две матрицы, номера рисунков. В строке ОТМ-1-13-L-4.1-222,9 исходное36,1 сохранено. L1=111 не распространяется на13,0; d2/H2 и матрица объединены по фактическим границам. Чертежей на странице нет. Исправлен только английский бренд и добавлен контекст, native bytes сохранены. Исправления: [\"Ошибочное FORENERGO manufacturing association заменено видимым industrial group.\", \"Добавлен явный смысловой контекст сортамента и границы раскрытых объединений; значения всех675ячеек сохранены.\", \"Английская подпись бренда исправлена по оригиналу: manufacturing association.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/22dd512e18a4a86bab1ff393fece18657aef7083903936523648e645fe5e2485.json",
+      "sha256": "22dd512e18a4a86bab1ff393fece18657aef7083903936523648e645fe5e2485",
+      "bytes": 90713,
+      "role": "native-candidate",
+      "program_version": "1.4.15"
+    },
+    {
+      "path": "objects/6e35801ed9d54c7c73d483c0b21b8a1a4174251cb7e78daf986d641433cdd004.json",
+      "sha256": "6e35801ed9d54c7c73d483c0b21b8a1a4174251cb7e78daf986d641433cdd004",
+      "bytes": 92169,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/c4a66fc13a2dcbe0ccde904d008610cb2d4cf4c45514d63f9558e383fabb2fb4.json",
+      "sha256": "c4a66fc13a2dcbe0ccde904d008610cb2d4cf4c45514d63f9558e383fabb2fb4",
+      "bytes": 5146,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "arm207-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "Арматура207: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 207
+  },
+  "review_basis": "30ячеек5×6полностьюпроверены,ПА-640общий,А-74напервые4строки,АШ-70напоследнюю. L341/311/340/320/380имассы5,81/5,51/6,06/5,90/3,37сохранены. Триконструкциис140,385,60/60/60/100,М16,20min,24min,Ø18проверены;позицииРис1/2неперепутаны. Убранафантазияорезьбенаконцепровода;номер206восстановлен. Исправления: [{\"path\": \"figures/printed_page/source_notes\", \"reason\": \"Уточненытолщины20/24min иL;убранывыдуманныерезьбовойхвостовик/гайка,служебныйтекстосохраненииlabels.\"}] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/8103d245b6100162ef415755d98b643ff5135c8e4bc96c65eb1dcae22ea3e001.json",
+      "sha256": "8103d245b6100162ef415755d98b643ff5135c8e4bc96c65eb1dcae22ea3e001",
+      "bytes": 16299,
+      "role": "native-candidate",
+      "program_version": "1.5.13"
+    },
+    {
+      "path": "objects/d3e1d83bfb1c12b998e267acde40c5eba99e5119a80ac278ff86d7f8b2ec5ead.json",
+      "sha256": "d3e1d83bfb1c12b998e267acde40c5eba99e5119a80ac278ff86d7f8b2ec5ead",
+      "bytes": 15735,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-20261014.r4"
+    },
+    {
+      "path": "objects/216142377b5146c3a89cee5e9c5d18fc18ea5cf8cf5c737749e564adc9e86e78.json",
+      "sha256": "216142377b5146c3a89cee5e9c5d18fc18ea5cf8cf5c737749e564adc9e86e78",
+      "bytes": 17711,
+      "role": "source-review",
+      "program_version": "tail-mod3-20261014.r4"
+    }
+  ]
+}

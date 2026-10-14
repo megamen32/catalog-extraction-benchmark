@@ -1,0 +1,74 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 238,
+  "printed_page": "237",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r2",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "8d050fe8de3a3aa31476c254100c7b741e5b11c1dfff0548e04bed2567e12f0f",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.15",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "8242b10480ab5cbc00eb6b6de0abd40b182977e4018be71b2df47b3ed98da688",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "8d050fe8de3a3aa31476c254100c7b741e5b11c1dfff0548e04bed2567e12f0f",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 238,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "9b513ece12e8465355ea77e5b966812a92866ab89a8f614335298647034f48bf",
+      "receipt": "calls/ccc0ec0e2efc4d88bee6c05ef56fc614/result.json",
+      "started_at": 1791958559.2056284,
+      "finished_at": 1791958662.264876
+    }
+  },
+  "output": {
+    "file": "armature-238-reviewed-r2.json",
+    "sha256": "32246be7e8f5ffcabaeea1e157974ee46ff9bc4d24ce5ece6bca5375ae20439f"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "6c3222935ff5449678554c955981930c5d97d397cf4f59a3606445914f9ef9e5",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      4
+    ],
+    "column_counts": [
+      7
+    ],
+    "cells_checked": 28
+  },
+  "source_findings": "Полныйоригиналличносверён:4×7=28ячеек,ГВС-8/11/14/19,D6,35–8,31/8,31–11,72/11,73–14,22/14,23–19,32,L1240/1300/1350/1550,L1990/1050/1065/1240,L2250/260/285/310,массы0,24/0,30/0,36/0,54. L1левыйучасток,L2правыйустановочный,Lполнаядлина. Назначение/ТУ009-52819896-2020/композит12–16/специалистыФОРЭНЕРГО-ИНЖИНИРИНГпоопроснымлистамсохранены.",
+  "corrections": [
+    "Нижнееизображениеданокакнаружныйвидгасителянапроводе,а непоперечныйразрезпровода.",
+    "Контекстпересобранпооригиналусразличениемдиаметрастержня12–16ипроводадо20;исходноенесовпадение1300/1050+260сохранено.",
+    "Описание оформлено читаемыми предложениями с пробелами; численные и геометрические факты не изменялись."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T14:17:28.511926+03:00",
+  "prior_author_output_sha256": "ed7a2403e3ae87658745b7b8f9a3f66c5e84d870c62b551b9b1ce41aa04d6db5",
+  "private_original_receipt_sha256": "21d847a7d252d478e4fd1b6b109d61a7b3df866bd07c6b0568122e7025aca243"
+}

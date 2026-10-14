@@ -1,0 +1,133 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 203,
+  "printed_page": "202",
+  "status": "awaiting_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod3",
+    "task": "/root/catalog_tail_mod3",
+    "version": "tail-mod3-20261014.r4",
+    "model_id": "Current native Codex worker session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-203-candidate.json",
+    "sha256": "8363d308d7215217c0e844d7dd259e2d1f7d21b52f61b4a01b4b00b566f8077f",
+    "canonical_sha256": "fdcc1cbf26208735729e3391ed3bd15d590463f35dd9cd3a1a13a1798ea9ece0",
+    "producer": {
+      "program": {
+        "package_version": "1.5.13",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "388e4b7dea7fc75a16d8aeee3f64f722f70d0518bda21b5ea9121fd690d0cc26",
+        "python_version": "3.12.13"
+      },
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 203,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4dfdf43954cb8adf1b11456ab3262a152d1ef2fea7fdfb31ebca498d2e6cbeb7",
+      "artifact_sha256": "8363d308d7215217c0e844d7dd259e2d1f7d21b52f61b4a01b4b00b566f8077f",
+      "started_at": 1791955396.3271983,
+      "finished_at": 1791955507.2501893,
+      "provider_rate_limit_events": 0,
+      "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46",
+      "status": "receipt_verified",
+      "source_bound_save": true,
+      "receipt": ".tmp/full-digitization/staged-best-v1.4.8/armature/page-0203/calls/572387952f7e49e8a875f86f87cb6b29/result.json",
+      "frozen_receipt": "armature-203-native-receipt.json",
+      "frozen_receipt_sha256": "256e789c650904b901142a5f8c6e4e572ba0f7a4dd5a2eac73a76709ddf32e95"
+    }
+  },
+  "output": {
+    "file": "armature-203-reviewed.json",
+    "sha256": "0af4e032d40550769f5dc1241eeb594a3797549cbe76c508d986f12ee7130e30",
+    "canonical_sha256": "a23408685e96ba010798cf0e82e1d09b17e16fb3747e545a33502fe02b6bf5af"
+  },
+  "full_original_image_review": true,
+  "original_image": "armature-203.png",
+  "original_image_sha256": "afd97cea7f4e9a174c239f1560e63569ff84ea884751ef546a15d097d94c0ebe",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "page_content_schema": true
+  },
+  "tables": {
+    "row_counts": [
+      10
+    ],
+    "column_counts": [
+      10
+    ],
+    "cells_checked": 100
+  },
+  "source_findings": "Проверены100ячеек10×10сучётомтрёхподстрокА4АСк2у-330/43-1;ихобщие42/26/210/95/90/12/МШ36,4/0,5сохранены. Все8группмарокпроводов,включаяАСк2у240/39и240/56вА4АСку-240/56-1,двойноепечатноеАСкувназначении,50лет иТУ проверены. СохраненыМШ41,1/43,3,88*,φ5,φ14четыреотверстия,80/45/45,S1,D/d/L/L1/L2. Наследованныеединицымм/кгсделаныявными.",
+  "corrections": [
+    {
+      "path": "branding/columns/figures",
+      "reason": "Восстановленреальныйлоготип,явныеединицыгруппы/массы,размерыφ5/L1/L2привязаныбезвыдуманныхназначений."
+    }
+  ],
+  "complete_leaf_diff": [
+    {
+      "path": ".figures[0].description",
+      "before": "Три вида на одном поле. Верхний вид — продольный разрез зажима: слева плоская контактная пластина, справа цилиндрический корпус с конической переходной частью; показаны размеры 88* (длина пластины со звёздочкой), S1 (толщина пластины), ф5, L1 (длина цилиндрической части) и линия разреза A-A с обозначениями «A». Справа отдельный круговой вид «A-A» — концентрические окружности с обозначениями d (внутренняя) и D (внешняя). Нижний вид — вид на опрессовываемую часть зажима: прямоугольная плита с четырьмя отверстиями (два ряда по два), обозначение «ф14 4 отв.» с выносной линией к отверстию; размеры 80 (высота плиты), 45 (вертикальное расстояние между рядами отверстий) и 45 (горизонтальное расстояние между колонками отверстий), справа цилиндрическая часть с обозначениями L2 и общей длиной L; стрелка «Направление опрессования» направлена вправо.",
+      "after": "ДвеосновныепроекцииикруглоесечениеА–А. Верхнийпродольныйполуразрез:88*—длинаплоскойконтактнойчастидоначалаперехода,S1—еётолщина,L1—длинацилиндрическогокорпусаотлевоготорцапосадкидоегоправоготорца. φ5—малоеотверстиевзоненачалацилиндрическойчасти,а не диаметрвсеговводногохвостовика. СечениеА–А:внутреннийдиаметрd,наружныйD. Нижнийплан:80ширинаконтактнойпластины,4отверстияφ14,межосевые45вдольи45поперёк. L—общаядлина, L2—длинаототдельнойпоказаннойвыноснойуначалапрямойцилиндрическойчастидоправоготорца;L1 иL2различаютсяивтаблиценеподменяютсядругдругом. Стрелканаправлениеопрессованиявправо.88*сосноскойбезтекстапояснения."
+    },
+    {
+      "path": ".tables[0].columns[2].unit",
+      "before": null,
+      "after": "мм"
+    },
+    {
+      "path": ".tables[0].columns[3].unit",
+      "before": null,
+      "after": "мм"
+    },
+    {
+      "path": ".tables[0].columns[4].unit",
+      "before": null,
+      "after": "мм"
+    },
+    {
+      "path": ".tables[0].columns[5].unit",
+      "before": null,
+      "after": "мм"
+    },
+    {
+      "path": ".tables[0].columns[6].unit",
+      "before": null,
+      "after": "мм"
+    },
+    {
+      "path": ".tables[0].columns[7].unit",
+      "before": null,
+      "after": "мм"
+    },
+    {
+      "path": ".tables[0].columns[9].unit",
+      "before": null,
+      "after": "кг"
+    },
+    {
+      "path": ".text_blocks[1].text",
+      "before": "ФОРЭНЕРГО — ФОРЭНЕРГО INDUSTRIAL GROUP",
+      "after": "ФОРЭНЕРГО производственное объединение / FORENERGO® industrial group"
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independent_review_required": true,
+  "unresolved_issues": [],
+  "acceptance_note": "No PASS issued. Corrected content, engineering drawing relations, and uncertainties require independent source review.",
+  "completed_at": "2026-10-14T14:00:48.523747+03:00",
+  "private_original_receipt_sha256": "d80ffab297349ceaf6e1d7f19499ebb68c4c594431e37336dc9a043ce96034bf"
+}

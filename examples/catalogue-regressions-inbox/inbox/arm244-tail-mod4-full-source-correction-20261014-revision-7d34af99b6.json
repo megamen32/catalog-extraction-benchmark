@@ -1,0 +1,36 @@
+{
+  "id": "arm244-tail-mod4-full-source-correction-20261014-revision-7d34af99b6",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "Арматура244: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 244
+  },
+  "review_basis": "[\"Повторно просмотрены полная страница и увеличенная нижняя таблица. Колонка В не разделена линией между РГУ-4-850М и строками РГУ-5, поэтому общий 30 покрывает обе строки.\", \"Все 256 ячеек повторно сопоставлены с предыдущей сверкой; изменены только две ошибочные пустоты. Пустой d у РГУ-4-970М действительно остаётся отдельной пустой ячейкой. Числовой размер 6 имеется на рис. 1.\"] Исправления: [\"Восстановлено В=30 в двух последних строках блока рис. 1 вместо ложных blank.\", \"Исправлена source_note о покрытии общей ячейки 30 и противоречивое утверждение об отсутствии числовых размеров при наличии 6.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/4a5b0d26034df4b9da42671a141a7cf96baeb06f6f472991db398ceafcf58d45.json",
+      "sha256": "4a5b0d26034df4b9da42671a141a7cf96baeb06f6f472991db398ceafcf58d45",
+      "bytes": 43898,
+      "role": "native-candidate",
+      "program_version": "1.5.15"
+    },
+    {
+      "path": "objects/7d34af99b6121a0c4d086f6bafe7c2301fa0692b25e941d753a28ec11d1dd8c7.json",
+      "sha256": "7d34af99b6121a0c4d086f6bafe7c2301fa0692b25e941d753a28ec11d1dd8c7",
+      "bytes": 43464,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r2"
+    },
+    {
+      "path": "objects/ea6a4d6ac2f5ca3c0c5ba56f33d47787135339073f1dcae8f27670d44480c781.json",
+      "sha256": "ea6a4d6ac2f5ca3c0c5ba56f33d47787135339073f1dcae8f27670d44480c781",
+      "bytes": 4114,
+      "role": "source-review",
+      "program_version": "tail-mod0-20261014.r2"
+    }
+  ]
+}

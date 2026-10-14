@@ -1,0 +1,36 @@
+{
+  "id": "arm160-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "Арматура160: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 160
+  },
+  "review_basis": "[\"Полная оригинальная страница просмотрена. Таблиц и размерных чертежей нет. Все абзацы назначения, два защитных эффекта, изготовление по проектным размерам, ТУ 3449-001-52819896-2018 и пример ШСИП-110-(10,5-12)-1-7 с пятью расшифровками сверены.\", \"Все фирменные плашки, кириллические и латинские надписи, производитель, телефон, e-mail info@mzva.ru, сайт и печатная 159 сохранены. Фото не даёт оснований для определения конкретной операции человека.\"] Исправления: [\"Исправлен почти нулевой bbox заголовка изделия.\", \"Фотография отнесена к supporting_material; удалены неподтверждённые утверждения о сидящем человеке, работе на проводе и распространении всех плашек на издателя в целом.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/997bfecf388adfeed39fa618bd32b154b19d3f5292ad4005af84663b2214e0b9.json",
+      "sha256": "997bfecf388adfeed39fa618bd32b154b19d3f5292ad4005af84663b2214e0b9",
+      "bytes": 10996,
+      "role": "native-candidate",
+      "program_version": "1.5.8"
+    },
+    {
+      "path": "objects/21a7c2f6b8a5a66a6d66f4e57e2158a455cfa9c0fe1fb4a5f34c17a22eb81ee8.json",
+      "sha256": "21a7c2f6b8a5a66a6d66f4e57e2158a455cfa9c0fe1fb4a5f34c17a22eb81ee8",
+      "bytes": 11214,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r1"
+    },
+    {
+      "path": "objects/3857a3e7d4c8cb1c1e6890138995852e7e63a769b79b1ff79ced5119e9ab8d4d.json",
+      "sha256": "3857a3e7d4c8cb1c1e6890138995852e7e63a769b79b1ff79ced5119e9ab8d4d",
+      "bytes": 3733,
+      "role": "source-review",
+      "program_version": "tail-mod0-20261014.r1"
+    }
+  ]
+}

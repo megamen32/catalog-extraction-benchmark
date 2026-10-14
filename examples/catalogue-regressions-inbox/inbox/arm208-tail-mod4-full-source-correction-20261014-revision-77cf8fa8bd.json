@@ -1,0 +1,36 @@
+{
+  "id": "arm208-tail-mod4-full-source-correction-20261014-revision-77cf8fa8bd",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "Арматура208: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 208
+  },
+  "review_basis": "[\"Повторно просмотрена полная страница и увеличенный контактный узел. Верхняя выносная 15 проходит по нижней внутренней грани верхней пластины, нижняя — по верхней внутренней грани нижней; наружные грани пластин находятся за пределами этого размера.\", \"Число 15 сохранено, все остальные размеры и 12 ячеек таблицы не изменены и соответствуют первоначальной полной сверке.\"] Исправления: [\"Для всех трёх исполнений 15 исправлен с толщины отдельной пластины на зазор между внутренними гранями двух пластин.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/a50e3f1f97e3a0de2311722beb30f62eb75523804014f484d79c84caf5c3892f.json",
+      "sha256": "a50e3f1f97e3a0de2311722beb30f62eb75523804014f484d79c84caf5c3892f",
+      "bytes": 10902,
+      "role": "native-candidate",
+      "program_version": "1.5.13"
+    },
+    {
+      "path": "objects/77cf8fa8bda4f615f2706db4a92879beba8bfc3711a5e628506c15dc13e23f62.json",
+      "sha256": "77cf8fa8bda4f615f2706db4a92879beba8bfc3711a5e628506c15dc13e23f62",
+      "bytes": 11585,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r2"
+    },
+    {
+      "path": "objects/4b39f178997f1a4e989854fb56882c385828f56b58cc806e5754985eef59c29d.json",
+      "sha256": "4b39f178997f1a4e989854fb56882c385828f56b58cc806e5754985eef59c29d",
+      "bytes": 3966,
+      "role": "source-review",
+      "program_version": "tail-mod0-20261014.r2"
+    }
+  ]
+}

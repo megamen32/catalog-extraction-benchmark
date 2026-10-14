@@ -1,0 +1,71 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 220,
+  "printed_page": null,
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-0220-native-candidate.json",
+    "sha256": "faa62822563bdac575eb7a896632bee21f9469e28ea218e7fbfca9862dfa7175",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.13",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "388e4b7dea7fc75a16d8aeee3f64f722f70d0518bda21b5ea9121fd690d0cc26",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "faa62822563bdac575eb7a896632bee21f9469e28ea218e7fbfca9862dfa7175",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 220,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4dfdf43954cb8adf1b11456ab3262a152d1ef2fea7fdfb31ebca498d2e6cbeb7",
+      "receipt": "calls/b8c55ae90ee24bdba63bfb548da03b7b/result.json",
+      "started_at": 1791956039.453769,
+      "finished_at": 1791956128.446809
+    }
+  },
+  "output": {
+    "file": "armature-0220-reviewed.json",
+    "sha256": "a4abbf79223f21a5c6280eff82ba036bb8837998fb723636a706cfa5d85a0855"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "b748a3e519e5911ffc53401ab39c87bbd35e8cc3e8e2a2e7141b4bc1310a651e",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [],
+    "column_counts": [],
+    "cells_checked": 0
+  },
+  "source_findings": "Полностью проверена вся страница: единственный текст «АРМАТУРА ЗАЩИТНАЯ», верхняя фотография и четыре нижние фотографии. Таблиц, печатного номера, кодов, единиц, чисел и размерных линий нет. Фотографии не объявлены чертежами, формы без подписей не превращены в технические характеристики. Смысл страницы — разделитель и обзорные иллюстрации.",
+  "corrections": [
+    "Разделитель без товарных данных классифицирован как supporting_material.",
+    "Ступени подъёма на опоре ошибочно названы птицезащитной оболочкой с шипами.",
+    "Первое нижнее фото ошибочно описано как винтовой зажим для провода; убраны неподтверждённые функции всех неподписанных деталей."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T13:50:23.920166+03:00",
+  "private_original_receipt_sha256": "6edc932e6f6197a9c59266c62e13eb26c0f3917f3114cae3869d5dd5a7de33bd"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "arm238-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "Арматура238: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 238
+  },
+  "review_basis": "Полныйоригиналличносверён:4×7=28ячеек,ГВС-8/11/14/19,D6,35–8,31/8,31–11,72/11,73–14,22/14,23–19,32,L1240/1300/1350/1550,L1990/1050/1065/1240,L2250/260/285/310,массы0,24/0,30/0,36/0,54. L1левыйучасток,L2правыйустановочный,Lполнаядлина. Назначение/ТУ009-52819896-2020/композит12–16/специалистыФОРЭНЕРГО-ИНЖИНИРИНГпоопроснымлистамсохранены. Исправления: [\"Нижнееизображениеданокакнаружныйвидгасителянапроводе,а непоперечныйразрезпровода.\", \"Контекстпересобранпооригиналусразличениемдиаметрастержня12–16ипроводадо20;исходноенесовпадение1300/1050+260сохранено.\", \"Описание оформлено читаемыми предложениями с пробелами; численные и геометрические факты не изменялись.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/8d050fe8de3a3aa31476c254100c7b741e5b11c1dfff0548e04bed2567e12f0f.json",
+      "sha256": "8d050fe8de3a3aa31476c254100c7b741e5b11c1dfff0548e04bed2567e12f0f",
+      "bytes": 15137,
+      "role": "native-candidate",
+      "program_version": "1.5.15"
+    },
+    {
+      "path": "objects/32246be7e8f5ffcabaeea1e157974ee46ff9bc4d24ce5ece6bca5375ae20439f.json",
+      "sha256": "32246be7e8f5ffcabaeea1e157974ee46ff9bc4d24ce5ece6bca5375ae20439f",
+      "bytes": 12270,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r2"
+    },
+    {
+      "path": "objects/acf2241ce48dacbff74f8ae0e9ffceb1fc0352eb3448c5220fafa21a8ee4f3e5.json",
+      "sha256": "acf2241ce48dacbff74f8ae0e9ffceb1fc0352eb3448c5220fafa21a8ee4f3e5",
+      "bytes": 3699,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r2"
+    }
+  ]
+}

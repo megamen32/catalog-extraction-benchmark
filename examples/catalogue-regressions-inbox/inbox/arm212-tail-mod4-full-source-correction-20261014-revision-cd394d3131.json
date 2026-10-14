@@ -1,0 +1,36 @@
+{
+  "id": "arm212-tail-mod4-full-source-correction-20261014-revision-cd394d3131",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "Арматура212: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 212
+  },
+  "review_basis": "[\"Полная страница и увеличенный узел повторно просмотрены: стрелки A ограничивают просвет между пластинами, а собственная толщина каждой пластины находится снаружи размерных границ.\", \"Все 40 ячеек таблицы, A=15 / 12, оба шага 60, L и L1, марки, единицы и условия сохранены после полной сверки.\"] Исправления: [\"A на обоих рисунках исправлен с толщины отдельной пластины на зазор между внутренними гранями двух контактных пластин.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/ae4b65e2a1d1a4d865e3ccfcb5e8780aaf2176725d46a2e834244e0d47a7edbc.json",
+      "sha256": "ae4b65e2a1d1a4d865e3ccfcb5e8780aaf2176725d46a2e834244e0d47a7edbc",
+      "bytes": 16184,
+      "role": "native-candidate",
+      "program_version": "1.5.13"
+    },
+    {
+      "path": "objects/cd394d313130cd2d6369bab3a1343a84ce604a0351718514239bebcf1ee65032.json",
+      "sha256": "cd394d313130cd2d6369bab3a1343a84ce604a0351718514239bebcf1ee65032",
+      "bytes": 16744,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r2"
+    },
+    {
+      "path": "objects/30354f1a9b6bf2374f75a25ae0331e3a78fae96a3775ed0a2a68c20bca0e9f53.json",
+      "sha256": "30354f1a9b6bf2374f75a25ae0331e3a78fae96a3775ed0a2a68c20bca0e9f53",
+      "bytes": 3812,
+      "role": "source-review",
+      "program_version": "tail-mod0-20261014.r2"
+    }
+  ]
+}

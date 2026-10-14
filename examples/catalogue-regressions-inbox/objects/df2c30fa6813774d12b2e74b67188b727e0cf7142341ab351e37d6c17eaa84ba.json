@@ -1,0 +1,78 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 206,
+  "printed_page": "205",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "76c38b6d9ebbdbe173caa210cc9deed6791e7af27d5e008e55532c81de425669",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.13",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "388e4b7dea7fc75a16d8aeee3f64f722f70d0518bda21b5ea9121fd690d0cc26",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "76c38b6d9ebbdbe173caa210cc9deed6791e7af27d5e008e55532c81de425669",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 206,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4dfdf43954cb8adf1b11456ab3262a152d1ef2fea7fdfb31ebca498d2e6cbeb7",
+      "receipt": "calls/583b1c90aeae4cd59645007df5088c42/result.json",
+      "started_at": 1791955526.3251555,
+      "finished_at": 1791955604.2151546
+    }
+  },
+  "output": {
+    "file": "armature-206-reviewed.json",
+    "sha256": "b7e90e88331bf2b8d208f3a5bc9d7991d9d93f67dcd04e31e8488c16f4f7c360"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "d005592776cdbcdcbcb9bb641ff1d5139e0ce27eb1544268c2702b7d2ff30bc0",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      2
+    ],
+    "column_counts": [
+      11
+    ],
+    "cells_checked": 22
+  },
+  "source_findings": [
+    "Все22 ячейки2×11 сверены, массы1,5/3,0; S14/24, L240/320, L1110/140, L280/100.",
+    "Медь нанесена на поверхность, не является отдельной жилой; source purpose явно указывает алюминиевый полый провод.",
+    "L2 не указывает участок опрессования; стрелка расположена над L1 справа."
+  ],
+  "corrections": [
+    "Исправлены перепутанные контактная и опрессовываемая части: плита слева, полый алюминиевый провод справа.",
+    "Удалён выдуманный медный проводник.",
+    "S — толщина контактной плиты; L2 — её длина; L1 — правая опрессовываемая часть, направление вправо.",
+    "Уточнены общий L, A/B/d, номер205 и типы текстовых блоков."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T14:37:04.638315+03:00",
+  "private_original_receipt_sha256": "dacd2537292928dd12aaec87bd87555016e96eea35c21dabd541ab012f3cddeb"
+}

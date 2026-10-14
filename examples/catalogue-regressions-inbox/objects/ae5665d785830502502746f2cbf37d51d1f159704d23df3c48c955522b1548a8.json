@@ -1,0 +1,78 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 198,
+  "printed_page": "197",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "0902d162f5a68407bfba720c115fc44f3a0e2657e8965893bf1a5c2d291a5ef4",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.13",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "388e4b7dea7fc75a16d8aeee3f64f722f70d0518bda21b5ea9121fd690d0cc26",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "0902d162f5a68407bfba720c115fc44f3a0e2657e8965893bf1a5c2d291a5ef4",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 198,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4dfdf43954cb8adf1b11456ab3262a152d1ef2fea7fdfb31ebca498d2e6cbeb7",
+      "receipt": "calls/43da2939dde8423cb0130daea6f3de37/result.json",
+      "started_at": 1791955394.504032,
+      "finished_at": 1791955710.539687
+    }
+  },
+  "output": {
+    "file": "armature-198-reviewed.json",
+    "sha256": "9c4bea39e27a9c0e54c5de7c96cd9ff9504830d93180bbb9f7d2bc5f55c0aaab"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "195588ab9275c73bd6a338dd44e0e63e5bc1d41d2dfdbc76e67b552356ef51c3",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      11
+    ],
+    "column_counts": [
+      10
+    ],
+    "cells_checked": 110
+  },
+  "source_findings": [
+    "Все110 ячеек11×10 сверены, в том числе реальные странности АС70/72,AC95/141,AC205/27 без исправления по ожиданию.",
+    "S — толщина контактной пластины; D — наружный диаметр трубки; Ø14 — отверстия, не эти параметры.",
+    "L1 начинается правее перехода на отдельной отметке, общий L включает плоскую часть."
+  ],
+  "corrections": [
+    "Убрано выдуманное федеральное государственное унитарное предприятие.",
+    "Пинта заменена контактной пластиной; L1 привязан к отдельной отметке участка опрессования, не полной цилиндрической части.",
+    "Единицы группы Размеры,мм раскрыты в колонках.",
+    "Отсутствие отдельной единицы у80 вынесено в source_note, не выдано за неразрешимую неопределённость."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T14:39:37.795702+03:00",
+  "private_original_receipt_sha256": "280bbfdbb583c3e8680e13855041a49d0822b2e77310f215795c1e8a7d64f6f4"
+}

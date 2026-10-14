@@ -1,0 +1,98 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 215,
+  "printed_page": "214",
+  "status": "awaiting_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod3",
+    "task": "/root/catalog_tail_mod3",
+    "version": "tail-mod3-20261014.r4",
+    "model_id": "Current native Codex worker session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-215-candidate.json",
+    "sha256": "3b2a7d411140f27c666d868332ba5895f2035547f3cd89981afd01ebf3176754",
+    "canonical_sha256": "535324d9723d5386f547549e03a44387b8b2e6f2949fd05a0c8410ab70fff909",
+    "producer": {
+      "program": {
+        "package_version": "1.5.13",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "388e4b7dea7fc75a16d8aeee3f64f722f70d0518bda21b5ea9121fd690d0cc26",
+        "python_version": "3.12.13"
+      },
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 215,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4dfdf43954cb8adf1b11456ab3262a152d1ef2fea7fdfb31ebca498d2e6cbeb7",
+      "artifact_sha256": "3b2a7d411140f27c666d868332ba5895f2035547f3cd89981afd01ebf3176754",
+      "started_at": 1791955870.8441775,
+      "finished_at": 1791955973.7962255,
+      "provider_rate_limit_events": 0,
+      "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46",
+      "status": "receipt_verified",
+      "source_bound_save": true,
+      "receipt": ".tmp/full-digitization/staged-best-v1.4.8/armature/page-0215/calls/edfd5d63ab304b7e9c6f0c389d91aad2/result.json",
+      "frozen_receipt": "armature-215-native-receipt.json",
+      "frozen_receipt_sha256": "10d938118bc2ee3d56536ec450ca8d143fa7810894eb97cd2e7ce64257a3f521"
+    }
+  },
+  "output": {
+    "file": "armature-215-reviewed.json",
+    "sha256": "904bb47eb36c4c54a177b0fc26acde37b247a4ba4d26fe286333fc2294921b3d",
+    "canonical_sha256": "a6fdad24023e47a460d1a15eda7f1fc17775318351be3cf1798dffac3ff084e3"
+  },
+  "full_original_image_review": true,
+  "original_image": "armature-215.png",
+  "original_image_sha256": "4247009e8916abc7f624d0d0e3d3ac0cc4ca05a2a72d497950900c4bc696d326",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "page_content_schema": true
+  },
+  "tables": {
+    "row_counts": [
+      6
+    ],
+    "column_counts": [
+      6
+    ],
+    "cells_checked": 36
+  },
+  "source_findings": "36ячеек6×6свереныцеликом,включаявсемаркипроводовГОСТ839-80,МШ36,4/41,6/44,2,L80/85/95,массы6,4/7,0/7,3/7,6/8,5/9,1. Печатныйдубль3А4А-600-3Т(Д)в3-йи6-йстрокахсохранён,600-2Тневыдуман. ПровереныТУ,медноепокрытиеТ,50лет,дренажД,двепарывидовс120/340/60/L. Исправленысмыслпроводныхвходовипривязкиразмеров.",
+  "corrections": [
+    {
+      "path": "figures",
+      "reason": "Вводыпроводовнепроушины;уточненыL,340,120,60 инаправленияопрессования."
+    }
+  ],
+  "complete_leaf_diff": [
+    {
+      "path": ".figures[0].description",
+      "before": "Чертёж аппаратного прессуемого зажима типа 3А4А в исполнении 2Т: фронтальный вид с тремя контактными пакетами в ряд. Шаг между центрами пакетов 120 и 120, общая ширина корпуса 340. В каждом пакете четыре отверстия под болты с шестигранными головками в два ряда по два — всего 12 болтов; вертикальный шаг рядов 60, горизонтальный шаг между болтами 60. Размер L отсчитывается по вертикали от верха пакета до границы опрессовываемого участка (в таблице L = 80/85/95 мм). Вдоль оси пакетов показана стрелка «направление опрессования». Знаков допуска на виде нет.",
+      "after": "3А4А-2Т:трицилиндрическихопрессовываемыхввода,переходящиевобщуюплоскуюконтактнуючастьс12крепежами,порасположению4накаждыйпроводнойучасток.120и120—межосевые вводов;340—общаяширинаконтактнойчасти;60/60—шагкрепежейвдвухнаправлениях. L—длинапрямойцилиндрическойзоныопрессованияотверхнеготорцадолинииначалаперехода. Стрелканаправлениеопрессованияидётвнизвдольвводов."
+    },
+    {
+      "path": ".figures[1].description",
+      "before": "Чертёж аппаратного прессуемого зажима типа 3А4А в исполнении 3Т, два вида. Фронтальный вид: три пакета в ряд с шагом 120 и 120 и общей шириной 340; в каждом пакете четыре отверстия под болты с шестигранными головками в два ряда (вертикальный шаг 60, горизонтальный 60) — всего 12 болтов, а выше каждый пакет имеет круглый выступ-проушину с отверстием (три таких отверстия в верхней части). Боковой вид: изогнутый корпус с двумя болтами на пластине и выходной цилиндрической частью; размер L отсчитывается по горизонтали как длина опрессовываемого участка, стрелка «направление опрессования» направлена вправо вдоль оси выхода. Знаков допуска на видах нет.",
+      "after": "3А4А-3т:двавидатрёхпроводногозажима. Планс12крепежами,120/120междуосямивводов,340общаяширина,60/60межоскрепежей. Трикруглыхконтуравверхнейчасти—входывцилиндрическиепроводныепосадки,неподписанныепроушины. Справабоковойвидс90-градуснымизгибом;L—длинагоризонтальнойпрямойопрессовываемойчасти,стрелканаправлениеопрессованиявправо. Чертёжнаяподпись3А4А-3тсострочнойтсохранена."
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independent_review_required": true,
+  "unresolved_issues": [],
+  "acceptance_note": "No PASS issued. Corrected content, engineering drawing relations, and uncertainties require independent source review.",
+  "completed_at": "2026-10-14T14:00:48.512708+03:00",
+  "private_original_receipt_sha256": "18443dbab1199a61e7a89c741894e83c2ba49a20d0b64d0fb76cfd166e7f8643"
+}

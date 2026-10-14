@@ -1,0 +1,128 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 243,
+  "printed_page": "242",
+  "status": "awaiting_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod3",
+    "task": "/root/catalog_tail_mod3",
+    "version": "tail-mod3-20261014.r3",
+    "model_id": "Current native Codex worker session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-243-candidate.json",
+    "sha256": "98e38c9b4f8caf23b967217a45e23613636805d10ec4807394cc4c00355dbe28",
+    "canonical_sha256": "baa95942f663b7bf31bc85122104d93f8d99bc7111dad1362d9bf3930c402e14",
+    "producer": {
+      "program": {
+        "package_version": "1.5.17",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "250a5f879c4c07bb339e5791b2e6b59062426df6bcef56df7b50cb0af47cfc87",
+        "python_version": "3.12.13"
+      },
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 243,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "5f66dfaacd6c43b74ca531095c704b2a738db593b26901fc493f46c9409796e6",
+      "artifact_sha256": "98e38c9b4f8caf23b967217a45e23613636805d10ec4807394cc4c00355dbe28",
+      "started_at": 1791960642.4717865,
+      "finished_at": 1791961257.7934983,
+      "provider_rate_limit_events": 0,
+      "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46",
+      "status": "receipt_verified",
+      "source_bound_save": true,
+      "receipt": ".tmp/full-digitization/staged-best-v1.4.8/armature/page-0243/calls/68873fac9013469b895650fa8318942a/result.json",
+      "frozen_receipt": "armature-243-native-receipt.json",
+      "frozen_receipt_sha256": "105a7af1c7b923429cb412f8166b5a91ddfd562ed1e61897d0bdd79350a1932e"
+    }
+  },
+  "output": {
+    "file": "armature-243-reviewed.json",
+    "sha256": "daac075775276a84053db72905e1e673f8381e56883909c27763035318e23589",
+    "canonical_sha256": "3abfb5b5c09e6b114289fc7805d9ceef150a308b11e3a67f42b4285cbd952516"
+  },
+  "full_original_image_review": true,
+  "original_image": "armature-243.png",
+  "original_image_sha256": "8b4960e2a9c784573a207644a768f9445c83f34d11488043a03b135dff967fe7",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "page_content_schema": true
+  },
+  "tables": {
+    "row_counts": [
+      23
+    ],
+    "column_counts": [
+      7
+    ],
+    "cells_checked": 161
+  },
+  "source_findings": "Сверены161ячейка23×7 и все23марки. H44 объединено на22первые строки,H65—толькоРГ-6-400. Сохранены пустыеДиаметр/D уРГ-3-650М,масса1,98,а также59/51,5,D58,0,масса2,4 дляРГ-6-400 безМ. Проверены сложные объединенияВ25/30 и группD/диаметров;все значенияL и масс сохранены. Чертёж6—толщина полосы,В—ширина полосы,D—посадка,L—межосевое проводов. Логотип исправлен.",
+  "corrections": [
+    {
+      "path": "text_blocks[4]",
+      "reason": "Удалена выдуманная территориально промышленная компания."
+    },
+    {
+      "path": "figures[0]",
+      "reason": "6 вместоЗ,восстановленаВ,исправленыD иL по их концам."
+    }
+  ],
+  "complete_leaf_diff": [
+    {
+      "path": ".figures[0].description",
+      "before": "Чертёж изделия: верхний вид (зажим в разрезе с контактным прижимным элементом и двумя проводами расщеплённой фазы) и нижний вид с зажимами на опорных конструкциях. Обозначенные размеры: D — выносная на контактный прижимной элемент зажима; З — расстояние между двумя проводами расщеплённой фазы; H — высота корпуса зажима; L — расстояние между опорными плоскостями крепления.",
+      "after": "Два вида распоркиРГ. Верхняя проекция с частичным разрезом:выноскаD указывает на круг поперечного сечения провода в зажиме,то есть посадочный диаметр,а не прижимной контактный элемент. Размер6 стрелками поперёк средней тонкой полосы относится к толщине этой полосы;это цифра6,а не букваЗ и не расстояние между двумя проводами. Нижняя проекция:В—поперечный размер соединительной полосы между её верхней и нижней гранями,H—поперечный габарит корпуса левого зажима,L—расстояние между осями двух проводов/посадок. D,В,H,L связаны с колонками таблицы;для6 отдельной колонки нет."
+    },
+    {
+      "path": ".figures[0].labels",
+      "before": [
+        "D",
+        "З",
+        "H",
+        "L"
+      ],
+      "after": [
+        "D",
+        "6",
+        "В",
+        "H",
+        "L"
+      ]
+    },
+    {
+      "path": ".page_context.source_evidence[2].observation",
+      "before": "Чертёж: верхний вид с выносной D на контактный прижимной элемент зажима и вертикальным размером З между двумя проводами расщеплённой фазы; нижний вид с размером H по высоте корпуса зажима и размером L между опорными плоскостями крепления.",
+      "after": "Два вида распоркиРГ. Верхняя проекция с частичным разрезом:выноскаD указывает на круг поперечного сечения провода в зажиме,то есть посадочный диаметр,а не прижимной контактный элемент. Размер6 стрелками поперёк средней тонкой полосы относится к толщине этой полосы;это цифра6,а не букваЗ и не расстояние между двумя проводами. Нижняя проекция:В—поперечный размер соединительной полосы между её верхней и нижней гранями,H—поперечный габарит корпуса левого зажима,L—расстояние между осями двух проводов/посадок. D,В,H,L связаны с колонками таблицы;для6 отдельной колонки нет."
+    },
+    {
+      "path": ".page_context.summary",
+      "before": "Страница каталога производителя ООО «МЗВА-ЧЭМЗ» (бренд ФОРЭНЕРГО) с товарными данными линейной арматуры для воздушных линий электропередачи: дистанционные глухие распорки типа РГ. Назначение — фиксация двух алюминиевых/сталеалюминиевых проводов расщеплённой фазы на заданном расстоянии; изготовление по ТУ 3449-001-52819896-2010. Приведён чертёж с размерами D, З, H, L и таблица подбора по диаметру проводов с размерами и массой 23 типоразмеров (РГ-01-300…РГ-6-400).",
+      "after": "Страница каталога производителя ООО «МЗВА-ЧЭМЗ» (бренд ФОРЭНЕРГО) с товарными данными линейной арматуры для воздушных линий электропередачи: дистанционные глухие распорки типа РГ. Назначение — фиксация двух алюминиевых/сталеалюминиевых проводов расщеплённой фазы на заданном расстоянии; изготовление по ТУ 3449-001-52819896-2010. Приведён чертёж с размерами D, 6, В, H, L и таблица подбора по диаметру проводов с размерами и массой 23 типоразмеров (РГ-01-300…РГ-6-400)."
+    },
+    {
+      "path": ".text_blocks[4].text",
+      "before": "ФОРЭНЕРГО / FORENERGO — территориально промышленная компания",
+      "after": "ФОРЭНЕРГО производственное объединение / FORENERGO® industrial group"
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independent_review_required": true,
+  "unresolved_issues": [],
+  "acceptance_note": "No PASS issued. Corrected content, engineering drawing relations, and uncertainties require independent source review.",
+  "completed_at": "2026-10-14T13:50:41.592499+03:00",
+  "private_original_receipt_sha256": "4741d1c22fd13cf2b9e7df63f9f3f602084ccd3f160b25aa895bcae639549b53"
+}

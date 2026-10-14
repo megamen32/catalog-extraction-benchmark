@@ -1,0 +1,76 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 278,
+  "printed_page": "277",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r2",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "3727d0742da639d972790678a18824567073c7b92234ec011a5dabef105541fa",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.17",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "250a5f879c4c07bb339e5791b2e6b59062426df6bcef56df7b50cb0af47cfc87",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "3727d0742da639d972790678a18824567073c7b92234ec011a5dabef105541fa",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 278,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "5f66dfaacd6c43b74ca531095c704b2a738db593b26901fc493f46c9409796e6",
+      "receipt": "calls/7edcbbf236944cdc85661a70bb5ed340/result.json",
+      "started_at": 1791962531.9647474,
+      "finished_at": 1791962984.5473447
+    }
+  },
+  "output": {
+    "file": "armature-278-reviewed-r2.json",
+    "sha256": "320bf838e8ebde2e0883bfb5b76c1f2ed3a96b21a0feeabb34c93775194bccf4"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "917e9ce7701a363bcd44b1e78fea60c22ae1974f04bf074096ebc86ce60d17a4",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      12
+    ],
+    "column_counts": [
+      6
+    ],
+    "cells_checked": 72
+  },
+  "source_findings": "Лично проверены12×6=72ячейки,8строкМС1/4МС2,границы диаметров4,45…31,50/7,0…21,81,длины180…470/1000,масса0,045…0,600. Рис.1один установочный участок,Рис.2два;Lв обоих полный горизонтальный габарит,350во втором поперечный габарит крупных витков. Исходные пресечении/гасителя/спиральное не исправлены редакторски. Числа таблиц неизменны.",
+  "corrections": [
+    "Напечатанные единицы мм/кг восстановлены вместо фиктивного /.",
+    "Восстановлен printed_page277.",
+    "Верхнее одно изображение с двумя концами и два нижних косых вида описаны раздельно; сняты выдуманные текстовые labels, добавлен реальный350.",
+    "Крайние участки спирали названы витыми,непрямыми."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T14:00:44.744251+03:00",
+  "prior_author_output_sha256": "7a67c94c655a71b031a78f682b5327f52d816bd0395f7a283c4720ddfe88b46a",
+  "revision_basis": "Independent full source review catalog_tail_mod3 exact old output; figures/dimension numerical facts retained.",
+  "private_original_receipt_sha256": "f04af34325e5c880b5b8dd85f55accc01691aa0eeeee69bd9584400a7f7f1612"
+}

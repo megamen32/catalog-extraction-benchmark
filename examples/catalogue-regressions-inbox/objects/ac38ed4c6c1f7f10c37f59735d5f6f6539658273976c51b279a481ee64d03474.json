@@ -1,0 +1,75 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 200,
+  "printed_page": "199",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-0200-native-candidate.json",
+    "sha256": "92ebfe66e568610f5d3ed6bdda16b68059542c3c9b5ba28865ec7f37b7ca73c3",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.13",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "388e4b7dea7fc75a16d8aeee3f64f722f70d0518bda21b5ea9121fd690d0cc26",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "92ebfe66e568610f5d3ed6bdda16b68059542c3c9b5ba28865ec7f37b7ca73c3",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 200,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4dfdf43954cb8adf1b11456ab3262a152d1ef2fea7fdfb31ebca498d2e6cbeb7",
+      "receipt": "calls/4486a9cf78544acc84aa818a8dd0ab5e/result.json",
+      "started_at": 1791955227.389127,
+      "finished_at": 1791955406.5248122
+    }
+  },
+  "output": {
+    "file": "armature-0200-reviewed.json",
+    "sha256": "c6609c9d233842be37581d38808a3d140aa18e7ecb19595e8207ba917d415425"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "a4f25cac5424a789e324609823fb1ab0ebec5a637b4f1a6e94582dc51e674f9a",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      14
+    ],
+    "column_counts": [
+      9
+    ],
+    "cells_checked": 126
+  },
+  "source_findings": "Проверены все 126 ячеек (14×9), включая длинные списки проводов и все пары 2Т/3Т. Сохранены особенности источника АШ-36,4 в строке240, отсутствующий разделитель АС185/29 АС185/43, пробел в последнем 3 Т(Д). Размеры L/L1/S/D и массы каждой позиции сверены; объединения марок, диапазонов и общих размеров не расширены на соседние группы. ТУ, ГОСТ839-80, напылениеТ, до50лет, дренажД, реквизиты и199 сверены. Два комплекта L/S/80/Ø5/D/L1/80/45/Ø14(4отв.) проверены по трём видам; drain-hole.png подтверждает поперечное Ø5. Смешанные символы кодов сверены дополнительно с текстовым слоем оригинала.",
+  "corrections": [
+    "Ø5 ошибочно назван осевым каналом под провод: это малое поперечное отверстие стенки у перехода к гильзе.",
+    "Подписи рисунков приведены к фактическим A4A и строчной (д); таблица сохраняет А4А/(Д).",
+    "В марке А185 восстановлена кириллическая А; мм внесены в unit размерных столбцов."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T14:04:20.510887+03:00",
+  "private_original_receipt_sha256": "d3238264639da18c3f1af5892b9a10d6b22f352e787333c64db6fb7ab18fe651"
+}

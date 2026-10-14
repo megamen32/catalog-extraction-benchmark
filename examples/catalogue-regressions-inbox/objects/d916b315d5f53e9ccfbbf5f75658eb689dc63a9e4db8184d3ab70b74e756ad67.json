@@ -1,0 +1,74 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 282,
+  "printed_page": "281",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r2",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "643aa42d2855f2d4b388321ec847294c7a7374c575e156035e8a48818e98cf6f",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.17",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "250a5f879c4c07bb339e5791b2e6b59062426df6bcef56df7b50cb0af47cfc87",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "643aa42d2855f2d4b388321ec847294c7a7374c575e156035e8a48818e98cf6f",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 282,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "5f66dfaacd6c43b74ca531095c704b2a738db593b26901fc493f46c9409796e6",
+      "receipt": "calls/e3e00d71e4814ddca9c10b18f0a0b8b1/result.json",
+      "started_at": 1791962940.993347,
+      "finished_at": 1791963802.6498125
+    }
+  },
+  "output": {
+    "file": "armature-282-reviewed-r2.json",
+    "sha256": "432c03b4fd8070926b8a3a2d26b47438351e11b4c65d3a16d768c800160440fe"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "bbe4e4ec637f4f55321c20b287b0b566cff76c831e7c589f89fc382dcc6fc391",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      1
+    ],
+    "column_counts": [
+      6
+    ],
+    "cells_checked": 6
+  },
+  "source_findings": "Лично сверены полный оригинал,6ячеек,размеры302/max330по выносным границам,полные тексты/5преимуществ/сноска220кВ/цвета/ТУ. В оригинале при пресечении,не заменено пересечении;в течении сохранено как печатный текст. Единицы рисунка не добавлены. Ошибка количества изделий исправлена.",
+  "corrections": [
+    "Два алюминиевых шара исправлено на один корпус из двух полусфер; функция отверстий не выведена по фото.",
+    "Из page_context снято недоказанное назначение видимых верхних элементов как дренажных отверстий."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T14:00:44.745324+03:00",
+  "prior_author_output_sha256": "ff4a8e90019bfab98396b9ab714d048c9c7dd955e5e9b09e5dd9b1553b85a71d",
+  "revision_basis": "Independent full source review catalog_tail_mod3 exact old output; figures/dimension numerical facts retained.",
+  "private_original_receipt_sha256": "c3c5bf7943783bfe28cbb5c2879c90d621dea14abaab6bd37366b9b4f6c08658"
+}

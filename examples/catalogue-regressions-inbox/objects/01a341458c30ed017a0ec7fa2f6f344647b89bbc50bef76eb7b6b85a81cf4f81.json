@@ -1,0 +1,141 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 109,
+  "printed_page": "108",
+  "status": "author_source_review_complete_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod1",
+    "task": "/root/catalog_tail_mod1",
+    "version": "tail-mod1-20261014.r1",
+    "model_id": "Current native Codex session;exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-109-candidate.json",
+    "sha256": "7ea6a38820eae4c6a6201b3807c15c47a8a7b27ca6ad90e21200d961b54a91fa",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.5",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "2eacc79c9c9f59a9e1a1a95991de134de55c945cd252d9dffac288e3b2a29fff",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "7ea6a38820eae4c6a6201b3807c15c47a8a7b27ca6ad90e21200d961b54a91fa",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 109,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "1f47648c2a9640c6f2038f8a21a0cbb9c7a3757278e70e3926ce465237fae267",
+      "receipt": "calls/6a274574a2194ee2a47be80cbb076758/result.json",
+      "started_at": 1791942590.7437737,
+      "finished_at": 1791942636.9578335
+    },
+    "receipt_file": "armature-109-producer-receipt.json",
+    "receipt_sha256": "283195b32b7a4719f9614c98f728944cf56ee1612f1e5da1927ec99a82782975",
+    "receipt_artifact_equals_candidate": true
+  },
+  "output": {
+    "file": "armature-109-reviewed.json",
+    "sha256": "ff8974d34b8c8bc70cf47f2499d3a3340ac332e6891384eb747a3f971648c514",
+    "author": "catalog_tail_mod1"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "afc360621907804979310ad12224b9cfad845e194979ba229d311a3c89b80874",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "pagecontent_schema_valid": true
+  },
+  "tables": {
+    "row_counts": [
+      2
+    ],
+    "column_counts": [
+      16
+    ],
+    "cells_checked": 32
+  },
+  "source_findings": [
+    "Полностью сверены 2×16=32 ячейки, матрицы А-59/АШ-70, прочность, разрушающая нагрузка «не менее», массы, прочерк B1 и все размеры. Числовых исправлений нет.",
+    "Исправлены L/L1 как одна полная длина, H от оси, B как ширина, d1 как диагональ и B1 как высота отверстия. Выносные подтверждают разные элементы и внешние/внутренние контуры. Удалён вымышленный федеральный холдинг."
+  ],
+  "corrections": [
+    {
+      "path": "text_blocks[1].text",
+      "before": "ФОРЭНЕРГО / FORENERGO INDUSTRIAL GROUP — федеральный холдинг (логотип производителя)",
+      "after": "ФОРЭНЕРГО — производственное объединение / FORENERGO industrial group"
+    },
+    {
+      "path": "figures[0].title",
+      "before": "Зажим натяжной прессуемый типа НАП",
+      "after": "Зажим НАП: главный вид, толщина проушины и А–А двух исполнений"
+    },
+    {
+      "path": "figures[0].description",
+      "before": "Чертёж зажима с продольным видом и обозначениями размеров: L и L1 — полная длина зажима, L2 — длина опрессовываемого участка прямого плеча (соответствует длине запрессовки присадочной части провода), L3 — длина отклонённого плеча, H — высота отклонённого плеча относительно оси прямого плеча, B — ширина зажима в узкой части прямого плеча (отдельный вид слева), d1 — диагональ отверстия в соединительном ухе (проушине) на конце прямого плеча. Две стрелки «направление опрессования» — вдоль оси прямого плеча и вдоль оси отклонённого плеча; внизу разрез А-А для обоих типоразмеров. У сечения А-А типоразмера НАП-500-3 показаны d (внутренний диаметр под провод, выносная линия указывает на внутреннюю окружность), B1 (высота овального отверстия по вертикали) и D (ширина по горизонтали). У сечения А-А типоразмера НАП-640-1 показаны только d и D, что согласуется с прочерком по размеру B1 в таблице для этого типоразмера.",
+      "after": "Разветвлённый прессуемый зажим для полого провода. L — между крайней левой наружной границей проушины и показанным правым торцом выступающей вставки. L1 начинается на оси отверстия проушины и заканчивается торцом прямого корпуса, поэтому не совпадает с L. L2 — длина прямого прессуемого участка до этого торца. L3 — длина показанного прямого участка наклонной ветви, не вся ветвь вместе с изгибом. H — вертикально от верхнего наружного уровня прямого корпуса до показанного нижнего уровня наклонной ветви, не от продольной оси. B на отдельном коротком виде — толщина плоской проушины; d1 — диаметр её круглого отверстия, не диагональ. Направления опрессования показаны вдоль прямого и наклонного участков. В А–А НАП-500-3 D — наружный горизонтальный габарит, B1 — наружная высота между плоскими гранями корпуса, d — внутреннее отверстие. В А–А НАП-640-1 D наружный диаметр и d внутренний; B1 не нанесён, в таблице тире. Все табличные размеры в мм."
+    },
+    {
+      "path": "figures[0].labels",
+      "before": [
+        "L",
+        "L1",
+        "L2",
+        "L3",
+        "H",
+        "B",
+        "d",
+        "d1",
+        "направление опрессования",
+        "А-А",
+        "НАП-500-3",
+        "НАП-640-1"
+      ],
+      "after": [
+        "L",
+        "L1",
+        "L2",
+        "L3",
+        "H",
+        "B",
+        "B1",
+        "D",
+        "d",
+        "d1",
+        "Направление опрессования",
+        "А–А",
+        "НАП-500-3",
+        "НАП-640-1"
+      ]
+    },
+    {
+      "path": "source_notes",
+      "before": [],
+      "after": [
+        "L/L1 имеют разные начальные и конечные выносные. L включает выступающую вставку, L1 идёт от оси отверстия проушины до торца корпуса.",
+        "В таблице НАП-640-1 напечатана матрица АШ-70; сохранена как есть. B1 у этого исполнения — напечатанное тире, не пропуск.",
+        "Прочность заделки и разрушающая нагрузка имеют самостоятельные условия «не менее», массы без такого условия."
+      ]
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "independent_review_required": true,
+  "independent_review_status": "pending",
+  "separate_model_review_of_root_edits": null,
+  "unresolved_issues": [
+    "Нужна независимая проверка авторского разбора и инженерных отношений."
+  ],
+  "completed_at": "2026-10-14T14:33:59.377572+03:00",
+  "private_original_receipt_sha256": "0a2d6e2efb6765693a1f69aa07422fa435a547b8d9dcc7830d684406cfe9b2df"
+}

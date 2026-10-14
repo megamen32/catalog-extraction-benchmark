@@ -1,0 +1,36 @@
+{
+  "id": "arm143-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "Арматура143: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 143
+  },
+  "review_basis": "Все 65 ячеек 5×13 и полные многострочные списки сечений сверены. Все строки ПАМ-2-1…ПАМ-6-1, группы рисунков 1/2, диапазоны меди 5,1–7,5…19,9–22,1 и алюминиевых проводов 5,1–11,4…24,8–30,6 совпадают. А30/37/40/45/52; В46/56/65/75/90; H62/79/84/84/84; L88/102/112/124/194; R6,0/7,5/9,0/11,0/14,5; r4,0/5,5/6,5/9,0/11,5; все массы 0,475…2,021 проверены. Исправления: [{\"path\": \"branding/figures/page_context.source_evidence\", \"reason\": \"Восстановлен реальный логотип; три/четыре болта принадлежат одному зажиму, r/R относятся к проводным посадкам разных материалов.\"}] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/923dde1d2eba64782f730edbb7ce091d9aaf4baf1e887d780a122da4cb6b41eb.json",
+      "sha256": "923dde1d2eba64782f730edbb7ce091d9aaf4baf1e887d780a122da4cb6b41eb",
+      "bytes": 19850,
+      "role": "native-candidate",
+      "program_version": "1.5.8"
+    },
+    {
+      "path": "objects/77a9c119d27ba8e41d80eec8f5488491d87f631bd20fde112c1fc254e41a1b11.json",
+      "sha256": "77a9c119d27ba8e41d80eec8f5488491d87f631bd20fde112c1fc254e41a1b11",
+      "bytes": 18937,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-20261014.r7"
+    },
+    {
+      "path": "objects/f21f4d981d0c6168c09d01b0c7f4b10b8a0a01bafe4dd36e9d2b24e563eb5dab.json",
+      "sha256": "f21f4d981d0c6168c09d01b0c7f4b10b8a0a01bafe4dd36e9d2b24e563eb5dab",
+      "bytes": 12325,
+      "role": "source-review",
+      "program_version": "tail-mod3-20261014.r7"
+    }
+  ]
+}

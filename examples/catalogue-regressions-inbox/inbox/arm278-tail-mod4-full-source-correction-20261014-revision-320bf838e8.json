@@ -1,0 +1,36 @@
+{
+  "id": "arm278-tail-mod4-full-source-correction-20261014-revision-320bf838e8",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "Арматура278: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 278
+  },
+  "review_basis": "Лично проверены12×6=72ячейки,8строкМС1/4МС2,границы диаметров4,45…31,50/7,0…21,81,длины180…470/1000,масса0,045…0,600. Рис.1один установочный участок,Рис.2два;Lв обоих полный горизонтальный габарит,350во втором поперечный габарит крупных витков. Исходные пресечении/гасителя/спиральное не исправлены редакторски. Числа таблиц неизменны. Исправления: [\"Напечатанные единицы мм/кг восстановлены вместо фиктивного /.\", \"Восстановлен printed_page277.\", \"Верхнее одно изображение с двумя концами и два нижних косых вида описаны раздельно; сняты выдуманные текстовые labels, добавлен реальный350.\", \"Крайние участки спирали названы витыми,непрямыми.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/3727d0742da639d972790678a18824567073c7b92234ec011a5dabef105541fa.json",
+      "sha256": "3727d0742da639d972790678a18824567073c7b92234ec011a5dabef105541fa",
+      "bytes": 22280,
+      "role": "native-candidate",
+      "program_version": "1.5.17"
+    },
+    {
+      "path": "objects/320bf838e8ebde2e0883bfb5b76c1f2ed3a96b21a0feeabb34c93775194bccf4.json",
+      "sha256": "320bf838e8ebde2e0883bfb5b76c1f2ed3a96b21a0feeabb34c93775194bccf4",
+      "bytes": 22324,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r2"
+    },
+    {
+      "path": "objects/ff2c931890e6afb465259eaae3ed9eac93d7723b1442b623314a0f07a4391d4b.json",
+      "sha256": "ff2c931890e6afb465259eaae3ed9eac93d7723b1442b623314a0f07a4391d4b",
+      "bytes": 3852,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r2"
+    }
+  ]
+}

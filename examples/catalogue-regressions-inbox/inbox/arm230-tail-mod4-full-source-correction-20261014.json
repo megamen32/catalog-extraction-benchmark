@@ -1,0 +1,36 @@
+{
+  "id": "arm230-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "Арматура230: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 230
+  },
+  "review_basis": "[\"Вся таблица 10×4 сверена с оригиналом; опечатки серги и зажиы сохранены как напечатано.\", \"Верхние Ø380 и нижние Ø320 Max относятся к изоляторам, а не к экрану. Ø490/Ø430/Ø545 и R245 относятся к экранам.\", \"Размер605 включает нижний конец удлинённой части;490 — наружная ширина кольца.\"] Исправления: [\"Удалена выдуманная расшифровка бренда как федерального сетевого объединения.\", \"Убраны неподтверждённые приваренная серьга и наклонная штанга.\", \"Диаметры изоляторов отделены от размеров экранов; явно указана принадлежность размеров в каждой проекции и сечении.\", \"Контекст заменён проверенным описанием всей страницы без противоречащих выносок.\", \"Нижняя граница source_evidence0.97 включает колонтитул, перечисленный в observation.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/41c330a236cf51a90266c87d9c2972a7219d84d3c8153ab9ac5f456d1e3a6aa0.json",
+      "sha256": "41c330a236cf51a90266c87d9c2972a7219d84d3c8153ab9ac5f456d1e3a6aa0",
+      "bytes": 14948,
+      "role": "native-candidate",
+      "program_version": "1.5.17"
+    },
+    {
+      "path": "objects/84f641cf1833502e741a2eafe08ff5aaa2e80886d07f04ad74a14061c933e903.json",
+      "sha256": "84f641cf1833502e741a2eafe08ff5aaa2e80886d07f04ad74a14061c933e903",
+      "bytes": 13271,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/895de6881fbd713c9ca610bc9ac6a5018663b3012d4e0accee827d762f45e434.json",
+      "sha256": "895de6881fbd713c9ca610bc9ac6a5018663b3012d4e0accee827d762f45e434",
+      "bytes": 3965,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

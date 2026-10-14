@@ -1,0 +1,36 @@
+{
+  "id": "arm152-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "Арматура152: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 152
+  },
+  "review_basis": "[\"Полная оригинальная страница просмотрена. Таблиц и инженерных чертежей нет. Назначение для ВЛ 35 кВ, защита от замыканий из-за ветра и посторонних предметов, два эффекта применения, изготовление по проектным размерам и ТУ 3449-004-52819896-2018 сверены.\", \"Пример ШСИП-35-(8-9)-1-7 и все пять расшифровок, брендовые плашки, производитель, телефон, e-mail info@mzva.ru, сайт и печатная 151 совпадают. Снимок не содержит размерных данных.\"] Исправления: [\"В описании фотографии ошибочно утверждалось прохождение провода через изоляторы; исправлена реальная видимая компоновка.\", \"Фотография классифицирована как supporting_material, уточнена принадлежность текстов в source_evidence.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/3a7a06f083ba75475db15dafd64956645b8027bf750c862e7300d1e79d4d3713.json",
+      "sha256": "3a7a06f083ba75475db15dafd64956645b8027bf750c862e7300d1e79d4d3713",
+      "bytes": 10185,
+      "role": "native-candidate",
+      "program_version": "1.5.8"
+    },
+    {
+      "path": "objects/61e5d0a1c8520ed5b19924ab5a43782c817f659773f850e752e8cd0ff979a288.json",
+      "sha256": "61e5d0a1c8520ed5b19924ab5a43782c817f659773f850e752e8cd0ff979a288",
+      "bytes": 10639,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r1"
+    },
+    {
+      "path": "objects/46c0c2b1aa408223ece5b5e956f05e3d8c9b4cfc90d0c6032e570c76ab46a169.json",
+      "sha256": "46c0c2b1aa408223ece5b5e956f05e3d8c9b4cfc90d0c6032e570c76ab46a169",
+      "bytes": 3716,
+      "role": "source-review",
+      "program_version": "tail-mod0-20261014.r1"
+    }
+  ]
+}

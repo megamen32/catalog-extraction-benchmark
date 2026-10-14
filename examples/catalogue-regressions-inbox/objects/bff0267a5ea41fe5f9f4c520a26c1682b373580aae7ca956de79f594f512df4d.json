@@ -1,0 +1,667 @@
+{
+  "title": "Линейная арматура для ВЛ — соединительные овальные зажимы типов СОА и СОМ",
+  "page_context": {
+    "kind": "catalogue_product_data",
+    "summary": "Страница каталога производителя соединительной арматуры для воздушных линий электропередачи: два самостоятельных товарных раздела — соединительные овальные зажимы типа СОА (для алюминиевых проводов марки А по ГОСТ 839-90) и типа СОМ (для медных проводов марки М по ГОСТ 839-90). Для каждого типа приведено назначение, условие изготовления по ТУ 3449-001-52819896-2010, чертёж с размерами и таблица типоразмеров с маркой провода, диаметром/сечением, габаритными размерами и массой. Данные относятся к изделиям каталога, а не к конкретному проекту и не являются примером выдачи программы.",
+    "source_evidence": [
+      {
+        "kind": "catalogue_product_data",
+        "box": [
+          0.08,
+          0.07,
+          0.93,
+          0.3
+        ],
+        "observation": "Заголовочная строка раздела «Зажимы соединительные овальные типа СОА» с блоком «НАЗНАЧЕНИЕ» (соединение алюминиевых проводов методом местного обжатия, изготовление по ТУ) и чертежом зажима с размерами A, B, L, S и сечением А–А. Это описание конкретного изделия каталога, а не выгрузка отчёта ПО.",
+        "transcription": "literal"
+      },
+      {
+        "kind": "catalogue_product_data",
+        "box": [
+          0.08,
+          0.455,
+          0.93,
+          0.66
+        ],
+        "observation": "Раздел «Зажимы соединительные овальные типа СОМ»: назначение — соединение медных проводов методом местного обжатия, монтаж клещами МИ-19А, изготовление по ТУ; рядом чертёж с размерами L и сечением А–А с размерами A, a, B, b.",
+        "transcription": "literal"
+      },
+      {
+        "kind": "catalogue_product_data",
+        "box": [
+          0.09,
+          0.36,
+          0.93,
+          0.93
+        ],
+        "observation": "Две независимые таблицы типоразмеров под заголовками «Провод марки А по ГОСТ 839-90» и «Провод марки М по ГОСТ 839-90» с наименованиями изделий (СОА-…-1, СОМ-…-1) и массой «не более»: типовой каталогный перечень, без привязки к объекту, заказу или программному отчёту.",
+        "transcription": "literal"
+      }
+    ]
+  },
+  "printed_page": "116",
+  "text_blocks": [
+    {
+      "kind": "heading",
+      "text": "ЛИНЕЙНАЯ АРМАТУРА ДЛЯ ВЛ / АРМАТУРА СОЕДИНИТЕЛЬНАЯ"
+    },
+    {
+      "kind": "branding",
+      "text": "ФОРЭНЕРГО — производственное объединение / FORENERGO industrial group"
+    },
+    {
+      "kind": "heading",
+      "text": "Зажимы соединительные овальные типа СОА"
+    },
+    {
+      "kind": "paragraph",
+      "text": "НАЗНАЧЕНИЕ: предназначены для соединения алюминиевых проводов методом местного обжатия. Изготавливаются по ТУ 3449-001-52819896-2010."
+    },
+    {
+      "kind": "heading",
+      "text": "Зажимы соединительные овальные типа СОМ"
+    },
+    {
+      "kind": "paragraph",
+      "text": "НАЗНАЧЕНИЕ: предназначены для соединения медных проводов методом местного обжатия. Монтаж осуществляется при помощи клещей МИ-19А. Изготавливаются по ТУ 3449-001-52819896-2010."
+    },
+    {
+      "kind": "footer",
+      "text": "ООО «МЗВА-ЧЭМЗ», тел./факс: +7 (495) 780-51-65, e-mail: info@mzva.ru, www.mzva.ru"
+    }
+  ],
+  "tables": [
+    {
+      "id": "t_soa",
+      "title": "Зажимы соединительные овальные типа СОА — типоразмеры",
+      "columns": [
+        {
+          "id": "name",
+          "label": "Наименование",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "wire_diameter",
+          "label": "Диаметр",
+          "unit": "мм",
+          "group": "Провод марки А по ГОСТ 839-90",
+          "qualifier": null
+        },
+        {
+          "id": "wire_mark",
+          "label": "Марка",
+          "unit": null,
+          "group": "Провод марки А по ГОСТ 839-90",
+          "qualifier": null
+        },
+        {
+          "id": "A",
+          "label": "А",
+          "unit": "мм",
+          "group": "Размеры, мм",
+          "qualifier": null
+        },
+        {
+          "id": "B",
+          "label": "В",
+          "unit": "мм",
+          "group": "Размеры, мм",
+          "qualifier": null
+        },
+        {
+          "id": "L",
+          "label": "L",
+          "unit": "мм",
+          "group": "Размеры, мм",
+          "qualifier": null
+        },
+        {
+          "id": "S",
+          "label": "S",
+          "unit": "мм",
+          "group": "Размеры, мм",
+          "qualifier": null
+        },
+        {
+          "id": "mass",
+          "label": "Масса",
+          "unit": "кг",
+          "group": null,
+          "qualifier": "не более"
+        }
+      ],
+      "rows": [
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "СОА-120-1",
+              "state": "value"
+            },
+            {
+              "column_id": "wire_diameter",
+              "value": "14,0",
+              "state": "value"
+            },
+            {
+              "column_id": "wire_mark",
+              "value": "А-120",
+              "state": "value"
+            },
+            {
+              "column_id": "A",
+              "value": "30",
+              "state": "value"
+            },
+            {
+              "column_id": "B",
+              "value": "15",
+              "state": "value"
+            },
+            {
+              "column_id": "L",
+              "value": "294",
+              "state": "value"
+            },
+            {
+              "column_id": "S",
+              "value": "2",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "0,15",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "СОА-150-1",
+              "state": "value"
+            },
+            {
+              "column_id": "wire_diameter",
+              "value": "15,8",
+              "state": "value"
+            },
+            {
+              "column_id": "wire_mark",
+              "value": "А-150",
+              "state": "value"
+            },
+            {
+              "column_id": "A",
+              "value": "34",
+              "state": "value"
+            },
+            {
+              "column_id": "B",
+              "value": "17",
+              "state": "value"
+            },
+            {
+              "column_id": "L",
+              "value": "312",
+              "state": "value"
+            },
+            {
+              "column_id": "S",
+              "value": "2",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "0,16",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "СОА-185-1",
+              "state": "value"
+            },
+            {
+              "column_id": "wire_diameter",
+              "value": "17,5",
+              "state": "value"
+            },
+            {
+              "column_id": "wire_mark",
+              "value": "А-185",
+              "state": "value"
+            },
+            {
+              "column_id": "A",
+              "value": "39",
+              "state": "value"
+            },
+            {
+              "column_id": "B",
+              "value": "19",
+              "state": "value"
+            },
+            {
+              "column_id": "L",
+              "value": "332",
+              "state": "value"
+            },
+            {
+              "column_id": "S",
+              "value": "2",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "0,31",
+              "state": "value"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t_som",
+      "title": "Зажимы соединительные овальные типа СОМ — типоразмеры",
+      "columns": [
+        {
+          "id": "name",
+          "label": "Наименование",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        {
+          "id": "wire_section",
+          "label": "Номинальное сечение",
+          "unit": "мм²",
+          "group": "Провод марки М по ГОСТ 839-90",
+          "qualifier": null
+        },
+        {
+          "id": "wire_diameter",
+          "label": "Диаметр провода",
+          "unit": "мм",
+          "group": "Провод марки М по ГОСТ 839-90",
+          "qualifier": null
+        },
+        {
+          "id": "A",
+          "label": "А",
+          "unit": "мм",
+          "group": "Размеры, мм",
+          "qualifier": null
+        },
+        {
+          "id": "a",
+          "label": "а",
+          "unit": "мм",
+          "group": "Размеры, мм",
+          "qualifier": null
+        },
+        {
+          "id": "B",
+          "label": "В",
+          "unit": "мм",
+          "group": "Размеры, мм",
+          "qualifier": null
+        },
+        {
+          "id": "b",
+          "label": "b",
+          "unit": "мм",
+          "group": "Размеры, мм",
+          "qualifier": null
+        },
+        {
+          "id": "L",
+          "label": "L",
+          "unit": "мм",
+          "group": "Размеры, мм",
+          "qualifier": null
+        },
+        {
+          "id": "mass",
+          "label": "Масса",
+          "unit": "кг",
+          "group": null,
+          "qualifier": "не более"
+        }
+      ],
+      "rows": [
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "СОМ-35-1",
+              "state": "value"
+            },
+            {
+              "column_id": "wire_section",
+              "value": "35",
+              "state": "value"
+            },
+            {
+              "column_id": "wire_diameter",
+              "value": "7,5",
+              "state": "value"
+            },
+            {
+              "column_id": "A",
+              "value": "20,4",
+              "state": "value"
+            },
+            {
+              "column_id": "a",
+              "value": "17,0",
+              "state": "value"
+            },
+            {
+              "column_id": "B",
+              "value": "11,9",
+              "state": "value"
+            },
+            {
+              "column_id": "b",
+              "value": "8,5",
+              "state": "value"
+            },
+            {
+              "column_id": "L",
+              "value": "122",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "0,097",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "СОМ-50-1",
+              "state": "value"
+            },
+            {
+              "column_id": "wire_section",
+              "value": "50",
+              "state": "value"
+            },
+            {
+              "column_id": "wire_diameter",
+              "value": "9,0",
+              "state": "value"
+            },
+            {
+              "column_id": "A",
+              "value": "23,4",
+              "state": "value"
+            },
+            {
+              "column_id": "a",
+              "value": "20,0",
+              "state": "value"
+            },
+            {
+              "column_id": "B",
+              "value": "13,4",
+              "state": "value"
+            },
+            {
+              "column_id": "b",
+              "value": "10,0",
+              "state": "value"
+            },
+            {
+              "column_id": "L",
+              "value": "173",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "0,151",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "СОМ-70-1",
+              "state": "value"
+            },
+            {
+              "column_id": "wire_section",
+              "value": "70",
+              "state": "value"
+            },
+            {
+              "column_id": "wire_diameter",
+              "value": "10,7",
+              "state": "value"
+            },
+            {
+              "column_id": "A",
+              "value": "26,6",
+              "state": "value"
+            },
+            {
+              "column_id": "a",
+              "value": "23,2",
+              "state": "value"
+            },
+            {
+              "column_id": "B",
+              "value": "15,0",
+              "state": "value"
+            },
+            {
+              "column_id": "b",
+              "value": "11,6",
+              "state": "value"
+            },
+            {
+              "column_id": "L",
+              "value": "193",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "0,195",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "СОМ-95-1",
+              "state": "value"
+            },
+            {
+              "column_id": "wire_section",
+              "value": "95",
+              "state": "value"
+            },
+            {
+              "column_id": "wire_diameter",
+              "value": "12,6",
+              "state": "value"
+            },
+            {
+              "column_id": "A",
+              "value": "30,2",
+              "state": "value"
+            },
+            {
+              "column_id": "a",
+              "value": "26,8",
+              "state": "value"
+            },
+            {
+              "column_id": "B",
+              "value": "16,8",
+              "state": "value"
+            },
+            {
+              "column_id": "b",
+              "value": "13,4",
+              "state": "value"
+            },
+            {
+              "column_id": "L",
+              "value": "258",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "0,295",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "СОМ-120-1",
+              "state": "value"
+            },
+            {
+              "column_id": "wire_section",
+              "value": "120",
+              "state": "value"
+            },
+            {
+              "column_id": "wire_diameter",
+              "value": "14,0",
+              "state": "value"
+            },
+            {
+              "column_id": "A",
+              "value": "34,0",
+              "state": "value"
+            },
+            {
+              "column_id": "a",
+              "value": "30,0",
+              "state": "value"
+            },
+            {
+              "column_id": "B",
+              "value": "19,0",
+              "state": "value"
+            },
+            {
+              "column_id": "b",
+              "value": "15,0",
+              "state": "value"
+            },
+            {
+              "column_id": "L",
+              "value": "280",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "0,420",
+              "state": "value"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column_id": "name",
+              "value": "СОМ-150-1",
+              "state": "value"
+            },
+            {
+              "column_id": "wire_section",
+              "value": "150",
+              "state": "value"
+            },
+            {
+              "column_id": "wire_diameter",
+              "value": "15,8",
+              "state": "value"
+            },
+            {
+              "column_id": "A",
+              "value": "38,0",
+              "state": "value"
+            },
+            {
+              "column_id": "a",
+              "value": "34,0",
+              "state": "value"
+            },
+            {
+              "column_id": "B",
+              "value": "21,0",
+              "state": "value"
+            },
+            {
+              "column_id": "b",
+              "value": "17,0",
+              "state": "value"
+            },
+            {
+              "column_id": "L",
+              "value": "300",
+              "state": "value"
+            },
+            {
+              "column_id": "mass",
+              "value": "0,510",
+              "state": "value"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "figures": [
+    {
+      "title": "СОА: продольный вид и А–А",
+      "description": "Овальная трубчатая соединительная гильза без показанного провода. L — длина между торцевыми выносными. На главном виде местное раскрытие штриховкой показывает стенку, S — её толщина, не глубина фрезерованного паза. В сечении А–А А — внутренняя высота овального прохода, В — его внутренняя ширина: выносные стоят на внутренних поверхностях, а не на наружном контуре. Два малых креста внутри овала — осевые метки, не отдельные отверстия. Размеры А/В/L/S имеют мм по таблице.",
+      "labels": [
+        "L",
+        "S",
+        "А–А",
+        "А",
+        "В"
+      ]
+    },
+    {
+      "title": "СОМ: продольный вид и А–А",
+      "description": "Продольный вид овальной гильзы с условными короткими поперечными отметками и местным раскрытием стенки справа, не с рифлёной полосой обжатия. L — полная длина между торцевыми выносными. В сечении А–А А/В — наружные высота и ширина, а/b — внутренние высота и ширина прохода. Это отличается от системы А/В у СОА, где обозначены внутренние габариты. Все табличные размеры в мм.",
+      "labels": [
+        "L",
+        "А–А",
+        "А",
+        "а",
+        "В",
+        "b"
+      ]
+    }
+  ],
+  "source_notes": [
+    "В шапках таблиц размер «В» набран кириллической буквой (U+0412), а «b» в таблице СОМ — латинской (U+0062); это разные обозначения и в чертеже они относятся к разным размерам (наружная ширина В и внутренняя ширина b).",
+    "Шапка таблицы СОА: групповой заголовок «Размеры, мм» не содержит отдельной строки единицы для каждого размера, единица мм вынесена в группу; масса приведена с ограничением «не более».",
+    "В СОА размеры А/В относятся к внутреннему овальному проходу, S к толщине стенки; в СОМ А/В наружные, а/b внутренние. Это проверено по концам выносных, без расчёта по диаметрам проводов."
+  ],
+  "uncertainties": []
+}

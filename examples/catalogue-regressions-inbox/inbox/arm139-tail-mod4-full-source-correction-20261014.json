@@ -1,0 +1,36 @@
+{
+  "id": "arm139-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "Арматура139: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 139
+  },
+  "review_basis": "Все 32 ячейки 4×8 сверены. ППТ-1 Т: А2А-300-3Т,3 лапки,24,0–26,6/МШ36,5/H300/L1 80/2,85 кг; ППТ-2 Т: А2А-400-3Т,3 лапки,27,5–30,6/МШ41,6/H310/L1 85/3,1 кг. ППТ-3 Т объединяет А2А-700-3Т с 1 лапкой и А2А-240-3Т с 2 лапками, разные диапазоны 36,2–37,7/21,6–23,1, матрицы 50,2/30,3, L1 110/75 при общем H343 и массе 3,6. Все чертёжные связи подтверждены. Исправления: [{\"path\": \"branding/figures/page_context\", \"reason\": \"L1 отнесён к прямой зоне опрессования,45 к осям болтов; восстановлены оба направления опрессования и реальный текст знака.\"}] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/a619767d13d16ba25798cdaf1e81c8b6681fb64da472b3fffe8e55306f0b0ce9.json",
+      "sha256": "a619767d13d16ba25798cdaf1e81c8b6681fb64da472b3fffe8e55306f0b0ce9",
+      "bytes": 12697,
+      "role": "native-candidate",
+      "program_version": "1.5.8"
+    },
+    {
+      "path": "objects/b513349af70d25b479c318d1bc0f6f9a2cebdfd2e3862b7cc2f5bf06739e9e83.json",
+      "sha256": "b513349af70d25b479c318d1bc0f6f9a2cebdfd2e3862b7cc2f5bf06739e9e83",
+      "bytes": 11902,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-20261014.r7"
+    },
+    {
+      "path": "objects/32502d4291f762b28e483226528dccb09744b380b4f48d9563da7b573b81a25a.json",
+      "sha256": "32502d4291f762b28e483226528dccb09744b380b4f48d9563da7b573b81a25a",
+      "bytes": 13092,
+      "role": "source-review",
+      "program_version": "tail-mod3-20261014.r7"
+    }
+  ]
+}

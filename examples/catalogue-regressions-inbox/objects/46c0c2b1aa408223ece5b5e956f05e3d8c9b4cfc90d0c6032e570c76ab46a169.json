@@ -1,0 +1,73 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 152,
+  "printed_page": "151",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-0152-native-candidate.json",
+    "sha256": "3a7a06f083ba75475db15dafd64956645b8027bf750c862e7300d1e79d4d3713",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.8",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "56b47ab11c142fdd0d89ade636eb52fff30220c3425401678e2bf74c18b69c62",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "3a7a06f083ba75475db15dafd64956645b8027bf750c862e7300d1e79d4d3713",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 152,
+      "attempt": 2,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "ad43db8eeb96f6a5b1aab82eb07fb8d999a3c90cd9e1f094a41f378634f1d7ae",
+      "receipt": "calls/9f31ea163e81462cb58545905e9818a3/result.json",
+      "started_at": 1791946703.7171397,
+      "finished_at": 1791946780.688665
+    }
+  },
+  "output": {
+    "file": "armature-0152-reviewed.json",
+    "sha256": "61e5d0a1c8520ed5b19924ab5a43782c817f659773f850e752e8cd0ff979a288"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "eb159b6a6573bc1088d37f52824efa826ce850e4fb28ba1cf60f34af29aa0d62",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [],
+    "column_counts": [],
+    "cells_checked": 0
+  },
+  "source_findings": [
+    "Полная оригинальная страница просмотрена. Таблиц и инженерных чертежей нет. Назначение для ВЛ 35 кВ, защита от замыканий из-за ветра и посторонних предметов, два эффекта применения, изготовление по проектным размерам и ТУ 3449-004-52819896-2018 сверены.",
+    "Пример ШСИП-35-(8-9)-1-7 и все пять расшифровок, брендовые плашки, производитель, телефон, e-mail info@mzva.ru, сайт и печатная 151 совпадают. Снимок не содержит размерных данных."
+  ],
+  "corrections": [
+    "В описании фотографии ошибочно утверждалось прохождение провода через изоляторы; исправлена реальная видимая компоновка.",
+    "Фотография классифицирована как supporting_material, уточнена принадлежность текстов в source_evidence."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T14:29:36.012970+03:00",
+  "private_original_receipt_sha256": "eabd6cc6859620ee822e7edd0a5af6b399a55201ba46187df13d0465eb98843f"
+}

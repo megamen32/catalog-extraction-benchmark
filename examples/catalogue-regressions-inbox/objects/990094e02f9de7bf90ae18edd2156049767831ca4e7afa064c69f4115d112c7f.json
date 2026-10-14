@@ -1,0 +1,78 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 218,
+  "printed_page": "217",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "44f174d4631a407734ae18eb497c5fb9e639ec96a101f79aa69890f6f8108a50",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.13",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "388e4b7dea7fc75a16d8aeee3f64f722f70d0518bda21b5ea9121fd690d0cc26",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "44f174d4631a407734ae18eb497c5fb9e639ec96a101f79aa69890f6f8108a50",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 218,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4dfdf43954cb8adf1b11456ab3262a152d1ef2fea7fdfb31ebca498d2e6cbeb7",
+      "receipt": "calls/eb8c7d4fed774ef28d5797e0a30013b7/result.json",
+      "started_at": 1791956018.8799813,
+      "finished_at": 1791956223.9671285
+    }
+  },
+  "output": {
+    "file": "armature-218-reviewed.json",
+    "sha256": "6905ed645719ed31897814af1fb961f32635783ea10ac2ffc416d65e77815516"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "8df8f1e77ad457d83edded8fd5fcd2a6805973dd638304838a70c99a0dd47fee",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      7
+    ],
+    "column_counts": [
+      6
+    ],
+    "cells_checked": 42
+  },
+  "source_findings": [
+    "Все42 ячейки7×6 сверены. Масса67 первой строки и прочерки сохранены.",
+    "ПА500/А-59 охватывают первые шесть строк;ПА640/А-74 последнюю. L/L1 общие400/400 и400/420 раскрыты в соответствующих двух строках.",
+    "Верхние60/60 относятся к трём отверстиямØ17;320 к осям труб,610 к их наружным границам."
+  ],
+  "corrections": [
+    "Исправлена выдуманная расшифровка ФОРЭНЕРГО.",
+    "450 заканчивается на наружной правой границе, не на оси.",
+    "Вертикальный60 относится к осям отверстий, не высоте полки.",
+    "Описание двух проекций не превращено в неподтверждённый двухпроводный вариант; уточнены базы200 и L."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T14:33:00.347330+03:00",
+  "private_original_receipt_sha256": "9290120c826dae5e04ab223fea038de6e3ad82a2df8755c6ade55eb9b3f292fd"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "arm260-tail-mod4-full-source-correction-20261014-revision-d0a1f41874",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "Арматура260: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 260
+  },
+  "review_basis": "[\"Полная страница и увеличенный нижний узел повторно просмотрены. Верхняя выносная линия 102,5 проходит внутри головки ниже наружной вершины, нижняя — через ось пальца.\", \"Все 35 ячеек, марки, единицы, объединения и остальные размеры ранее полностью сверены и сохранены; изменение касается только одной фактической привязки.\"] Исправления: [\"База 102,5 исправлена с внешней вершины на верхнюю горизонтальную линию внутри контура головки.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/5fc56094e1f6d5b5621a882b6c98052479becf3cb5bb887a26b466bd0620db82.json",
+      "sha256": "5fc56094e1f6d5b5621a882b6c98052479becf3cb5bb887a26b466bd0620db82",
+      "bytes": 16011,
+      "role": "native-candidate",
+      "program_version": "1.5.17"
+    },
+    {
+      "path": "objects/d0a1f41874794d35ef26905c242b936013dd71548a5adc21c3cdf8d9ae4b95b8.json",
+      "sha256": "d0a1f41874794d35ef26905c242b936013dd71548a5adc21c3cdf8d9ae4b95b8",
+      "bytes": 17238,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r2"
+    },
+    {
+      "path": "objects/1586b54f95b5b940135a0f3e7c8cca697a144592c1545b14d847a5c1e872fa1d.json",
+      "sha256": "1586b54f95b5b940135a0f3e7c8cca697a144592c1545b14d847a5c1e872fa1d",
+      "bytes": 3843,
+      "role": "source-review",
+      "program_version": "tail-mod0-20261014.r2"
+    }
+  ]
+}

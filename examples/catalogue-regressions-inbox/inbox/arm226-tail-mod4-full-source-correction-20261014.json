@@ -1,0 +1,36 @@
+{
+  "id": "arm226-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "Арматура226: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 226
+  },
+  "review_basis": "[\"Полная страница и крупный Б–Б просмотрены; верхний Ø380 упирается во внутренний круг изолятора.\", \"Все типы арматуры и обозначения сечений сверены с оригиналом.\", \"Таблиц нет; все цифровые подписи перечислены в figures.labels.\"] Исправления: [\"Восстановлен печатный номер225 и точный текст бренда.\", \"Исправлена подмена диаметров изоляторов расстоянием между экранами.\", \"Убраны неподтверждённые подсчёты головок крепежа.\", \"Обновлены противоречивые контекст и source_notes.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/e0b48db693bf9a39d021ee114c734c3b1d34b9d50f69f9a5b042a47a4562c4dc.json",
+      "sha256": "e0b48db693bf9a39d021ee114c734c3b1d34b9d50f69f9a5b042a47a4562c4dc",
+      "bytes": 9274,
+      "role": "native-candidate",
+      "program_version": "1.5.13"
+    },
+    {
+      "path": "objects/84f8d5316e8ea11211011d2c605e1c96185e55f6a905a239be0e7d53df30b2b5.json",
+      "sha256": "84f8d5316e8ea11211011d2c605e1c96185e55f6a905a239be0e7d53df30b2b5",
+      "bytes": 5749,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/48ce6ed3a364483758052acda8fd951ac0a7ed50c6f6195459ff4bd8b8b6bbea.json",
+      "sha256": "48ce6ed3a364483758052acda8fd951ac0a7ed50c6f6195459ff4bd8b8b6bbea",
+      "bytes": 3320,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

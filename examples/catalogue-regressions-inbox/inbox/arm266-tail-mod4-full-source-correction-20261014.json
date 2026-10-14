@@ -1,0 +1,36 @@
+{
+  "id": "arm266-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "Арматура266: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 266
+  },
+  "review_basis": "Лично полный оригинал просмотрен:6×7=42ячейки,диаметры300/470,d24/32и16/20/24/32,классы6-110/6-750,массы0,9/0,9/2,1/2,0/1,9/1,8,всеусловиямонтажа70/120/160/210кНи110-220кВ,4преимущества. НаЭПЗУ-300 dпосадка,300наружныйдиаметр,40высотапрофиля;ЭПЗУ-47051отнизадискадоверхнейцентральнойграни,Ø52центральнаячасть,Ø470наружныйконтур,dцентральноеотверстие. Неизвестныефункцииконтуровневыдуманы. Исправления: [\"Снято выдуманное производственнаякомпания,восстановлен видимый подлоготипныйтекст.\", \"ЭПЗУ-470:планка проходит через центр междукраями;неподтверждённые отверстия у периметра/рёбра сняты,сохранены реальные круглые контуры.\", \"Printedpage265 и буквальные размерные labels восстановлены.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/d47fcf784c31579a2de2ea04f22755f17964aed58432ffb0f70b4c24fcf38dfd.json",
+      "sha256": "d47fcf784c31579a2de2ea04f22755f17964aed58432ffb0f70b4c24fcf38dfd",
+      "bytes": 17525,
+      "role": "native-candidate",
+      "program_version": "1.5.17"
+    },
+    {
+      "path": "objects/ef6786914282a073ff42781be13931365e860599ed36e965d2f8f69bf9be913a.json",
+      "sha256": "ef6786914282a073ff42781be13931365e860599ed36e965d2f8f69bf9be913a",
+      "bytes": 17386,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/2f1002486a03d6896e2909d472831e6590a7edae25bd6a7120aedfca6ffde5de.json",
+      "sha256": "2f1002486a03d6896e2909d472831e6590a7edae25bd6a7120aedfca6ffde5de",
+      "bytes": 3675,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

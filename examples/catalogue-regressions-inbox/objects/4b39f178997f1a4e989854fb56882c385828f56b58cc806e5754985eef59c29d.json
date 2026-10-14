@@ -1,0 +1,87 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 208,
+  "printed_page": "207",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r2",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-0208-native-candidate.json",
+    "sha256": "a50e3f1f97e3a0de2311722beb30f62eb75523804014f484d79c84caf5c3892f",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.13",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "388e4b7dea7fc75a16d8aeee3f64f722f70d0518bda21b5ea9121fd690d0cc26",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "a50e3f1f97e3a0de2311722beb30f62eb75523804014f484d79c84caf5c3892f",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 208,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4dfdf43954cb8adf1b11456ab3262a152d1ef2fea7fdfb31ebca498d2e6cbeb7",
+      "receipt": "calls/82ca26be04aa45d3a665da4ff7ac5ab3/result.json",
+      "started_at": 1791955614.7439806,
+      "finished_at": 1791956329.7870228
+    }
+  },
+  "output": {
+    "file": "armature-0208-reviewed-r2.json",
+    "sha256": "77cf8fa8bda4f615f2706db4a92879beba8bfc3711a5e628506c15dc13e23f62"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "8d985622ce6e89193c5cf63568c52e6c96cc83459d96ae6cab537b1ae29e3a70",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      3
+    ],
+    "column_counts": [
+      4
+    ],
+    "cells_checked": 12
+  },
+  "source_findings": [
+    "Повторно просмотрена полная страница и увеличенный контактный узел. Верхняя выносная 15 проходит по нижней внутренней грани верхней пластины, нижняя — по верхней внутренней грани нижней; наружные грани пластин находятся за пределами этого размера.",
+    "Число 15 сохранено, все остальные размеры и 12 ячеек таблицы не изменены и соответствуют первоначальной полной сверке."
+  ],
+  "corrections": [
+    "Для всех трёх исполнений 15 исправлен с толщины отдельной пластины на зазор между внутренними гранями двух пластин."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T11:36:38.520933+00:00",
+  "previous_reviewed_output": {
+    "file": "armature-0208-reviewed.json",
+    "sha256": "9aa91382803bef35f54698e9e42531b65df0d3213d1821e45f1bdca5fcee5956"
+  },
+  "revision_trigger": "Independent source review by catalog_tail_mod1, followed by personal source-image recheck by catalog_tail_mod0.",
+  "revision_evidence_images": [
+    {
+      "file": "armature-0208-r2-15.png",
+      "sha256": "d3f466d7b82ec74fec107db37f9380d7ea3ce641701ca7657dbc9c3c5b01f0fe"
+    }
+  ],
+  "private_original_receipt_sha256": "1a07eb3b9e68610d11979cc99107e90cdf623591708707648e50f5ab65995639"
+}

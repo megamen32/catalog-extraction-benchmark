@@ -1,0 +1,36 @@
+{
+  "id": "arm244-tail-mod4-full-source-correction-20261014-revision-cf5c115613",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "Арматура244: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 244
+  },
+  "review_basis": "Все 256 ячеек (32×8) сверены. Сохранены реальные blank: В у РГУ-5-400/-600 и d у РГУ-4-970М. Общий H=44 до серии 5, H=65 на двух строках серии 5; В=25/30 в своих группах, 33,5 на четырёх строках рис. 2; d=11,4/16/20/25/30/36/46 в своих объединениях. Диапазоны, L и массы всех 32 позиций проверены, включая РГУ-2-850М: рис. 1 — 3,05; рис. 2 — 3,07; РГУ-3-850М: 3,10/3,12. В последних четырёх строках L=850 объединён на три строки, 970 отдельно; d=36 не покрывает последнюю пустую ячейку. Увеличения table-lower/digit6 показывают blank и число 6. Назначение, ТУ, патент и отличие от РГ сверены. Исправленное инженерное описание ждёт независимой проверки. Исправления: [\"Число 6 на рис. 1 ошибочно извлечено как строчная кириллическая б; исправлены описание, labels, source_evidence и source_notes.\", \"H/В/L/d привязаны к контурам и осям; мм из общей шапки внесены в unit четырёх размерных столбцов.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/4a5b0d26034df4b9da42671a141a7cf96baeb06f6f472991db398ceafcf58d45.json",
+      "sha256": "4a5b0d26034df4b9da42671a141a7cf96baeb06f6f472991db398ceafcf58d45",
+      "bytes": 43898,
+      "role": "native-candidate",
+      "program_version": "1.5.15"
+    },
+    {
+      "path": "objects/cf5c115613f8f31111ca8145381ee122a51cf5e0e0aa3f869e9c0377e6013df9.json",
+      "sha256": "cf5c115613f8f31111ca8145381ee122a51cf5e0e0aa3f869e9c0377e6013df9",
+      "bytes": 43411,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r1"
+    },
+    {
+      "path": "objects/f32a1abe6ecadd443b6b02e084a3e854afac0653fa8cf74863ccd11593317f1b.json",
+      "sha256": "f32a1abe6ecadd443b6b02e084a3e854afac0653fa8cf74863ccd11593317f1b",
+      "bytes": 4003,
+      "role": "source-review",
+      "program_version": "tail-mod0-20261014.r1"
+    }
+  ]
+}

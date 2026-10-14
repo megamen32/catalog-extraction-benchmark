@@ -1,0 +1,36 @@
+{
+  "id": "arm191-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "Арматура191: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 191
+  },
+  "review_basis": "Все70ячеек7×10 сверены. Сохранены15,2-15,4 дляРОА-120-1,37,7 без диапазона иМШ56 без дефиса дляРОА-500-1,альтернативныеМШ39,8илиА40,5/МШ43,3илиА45,всеВ/D/d/L/l/l1/массы. ТУ2010,ответвление без разрезания провода,сечениеА–А и обе стрелки проверены. l1 относится к прямой вертикальной зоне,не к полной высоте изгиба. Исправления: [{\"path\": \"branding/printed_page/figures[0]\", \"reason\": \"Исправлены логотип и190;верхняя границаl1 находится у начала прямого участка, а не у врезки в магистраль.\"}] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/1007421d9c7f3427f54ad61d8d811897685586f5a376d09b4ddc5460be6c8fb2.json",
+      "sha256": "1007421d9c7f3427f54ad61d8d811897685586f5a376d09b4ddc5460be6c8fb2",
+      "bytes": 19748,
+      "role": "native-candidate",
+      "program_version": "1.5.13"
+    },
+    {
+      "path": "objects/d99f8e0221f6fff46a408038b77884942d9fe63f613970cfc513981da37c1f86.json",
+      "sha256": "d99f8e0221f6fff46a408038b77884942d9fe63f613970cfc513981da37c1f86",
+      "bytes": 18664,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-20261014.r5"
+    },
+    {
+      "path": "objects/f0faadbca7d385db70031eb60ee3a65b9111927c262e575a4744f496e8c7bc8d.json",
+      "sha256": "f0faadbca7d385db70031eb60ee3a65b9111927c262e575a4744f496e8c7bc8d",
+      "bytes": 10539,
+      "role": "source-review",
+      "program_version": "tail-mod3-20261014.r5"
+    }
+  ]
+}

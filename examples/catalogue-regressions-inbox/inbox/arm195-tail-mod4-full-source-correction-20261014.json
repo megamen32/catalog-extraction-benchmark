@@ -1,0 +1,36 @@
+{
+  "id": "arm195-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "Арматура195: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 195
+  },
+  "review_basis": "Все12ячеек3×4 и все14 пар сечение/диаметр внутри многострочных ячеек сверены. Сохранены185/24→18,9 и185/29→18,8,массы2,2/2,15/2,1. ОРУ без разрезания и без опрессовочного агрегата,ТУ2010,напыление меди и до50лет подтверждены. Все три проекции и200/190/111/70/45/45/Ø14 сверены по концам линий. Исправления: [{\"path\": \"branding/printed_page/evidence/figures\", \"reason\": \"Убраны выдуманный логотип, два провода и шпилька;200 габарит,45 межосевые,70 между рядами крепежей; bbox шапки исправлена.\"}] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/d5cd29a0c52ffbebf2ab330f34dc3ab957ffc8e150a2890a6cea0e5b93c58f21.json",
+      "sha256": "d5cd29a0c52ffbebf2ab330f34dc3ab957ffc8e150a2890a6cea0e5b93c58f21",
+      "bytes": 11142,
+      "role": "native-candidate",
+      "program_version": "1.5.13"
+    },
+    {
+      "path": "objects/b589fc66243ac317a5c74ba8004981510e59ee46d8b3e0c096a94d6533eda24a.json",
+      "sha256": "b589fc66243ac317a5c74ba8004981510e59ee46d8b3e0c096a94d6533eda24a",
+      "bytes": 10783,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-20261014.r5"
+    },
+    {
+      "path": "objects/fe09ab7c947714902d60e6d164bce353ec1685bb60fb51ff71088d1d4da907b6.json",
+      "sha256": "fe09ab7c947714902d60e6d164bce353ec1685bb60fb51ff71088d1d4da907b6",
+      "bytes": 8726,
+      "role": "source-review",
+      "program_version": "tail-mod3-20261014.r5"
+    }
+  ]
+}

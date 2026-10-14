@@ -1,0 +1,73 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 258,
+  "printed_page": "257",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "47f9f2f5f046ed54ed72833c31bf453b2f70672d9e0d1beb8dde38c1332644b7",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.15",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "8242b10480ab5cbc00eb6b6de0abd40b182977e4018be71b2df47b3ed98da688",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "47f9f2f5f046ed54ed72833c31bf453b2f70672d9e0d1beb8dde38c1332644b7",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 258,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "9b513ece12e8465355ea77e5b966812a92866ab89a8f614335298647034f48bf",
+      "receipt": "calls/71c0eb1845e7483c85d45dca163d6be3/result.json",
+      "started_at": 1791959909.2325897,
+      "finished_at": 1791960199.6001394
+    }
+  },
+  "output": {
+    "file": "armature-258-reviewed.json",
+    "sha256": "fd2ace2ec69d8d697dd05459dd8fc641d43e30cc02095c30d4c676d895f68a79"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "0d802b0a43fdf2ea3d94a15eb6c7abf209eb1fb14df7f9f8c18829969eba9343",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      10
+    ],
+    "column_counts": [
+      6
+    ],
+    "cells_checked": 60
+  },
+  "source_findings": "Полный оригинал и5xчертёж просмотрены лично.10×6=60ячеек,пятьперечнейушковпопарно,Н248первые8/315последние2.РРН-940имеетL951,5/l970висточнике,ненормализовано.42междуосямиболтов,82отлевасгибадоправоготорцаверхнегооснования,Hисключаетнижнююпластинуиконцыболтов. L/lслеваимеютразныеконечныеграницы.",
+  "corrections": [
+    "82перепривязан с нижней ответной пластины к полному габариту верхнего загнутого основания.",
+    "Круглыйторецнеобъявленотдельнымнаконечником;labelsбуквальные,ненапечатанныеединицы42/82невыводятсяизтаблицыH/L/l.",
+    "Выдуманнаяфедеральнаякомпанияснята,printedpage257восстановлен."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T13:52:52.040807+03:00",
+  "private_original_receipt_sha256": "25700e073b4fa5d971596e6ca84e7b5320faabe2c6b119a5d524736aab8d4762"
+}

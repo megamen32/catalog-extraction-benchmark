@@ -1,0 +1,36 @@
+{
+  "id": "arm243-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "Арматура243: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 243
+  },
+  "review_basis": "Сверены161ячейка23×7 и все23марки. H44 объединено на22первые строки,H65—толькоРГ-6-400. Сохранены пустыеДиаметр/D уРГ-3-650М,масса1,98,а также59/51,5,D58,0,масса2,4 дляРГ-6-400 безМ. Проверены сложные объединенияВ25/30 и группD/диаметров;все значенияL и масс сохранены. Чертёж6—толщина полосы,В—ширина полосы,D—посадка,L—межосевое проводов. Логотип исправлен. Исправления: [{\"path\": \"text_blocks[4]\", \"reason\": \"Удалена выдуманная территориально промышленная компания.\"}, {\"path\": \"figures[0]\", \"reason\": \"6 вместоЗ,восстановленаВ,исправленыD иL по их концам.\"}] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/98e38c9b4f8caf23b967217a45e23613636805d10ec4807394cc4c00355dbe28.json",
+      "sha256": "98e38c9b4f8caf23b967217a45e23613636805d10ec4807394cc4c00355dbe28",
+      "bytes": 28619,
+      "role": "native-candidate",
+      "program_version": "1.5.17"
+    },
+    {
+      "path": "objects/daac075775276a84053db72905e1e673f8381e56883909c27763035318e23589.json",
+      "sha256": "daac075775276a84053db72905e1e673f8381e56883909c27763035318e23589",
+      "bytes": 29619,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-20261014.r3"
+    },
+    {
+      "path": "objects/17aa9c95f96dca4259eed7a5eef57580f0741f689f7cff1836cde797e66d5ba1.json",
+      "sha256": "17aa9c95f96dca4259eed7a5eef57580f0741f689f7cff1836cde797e66d5ba1",
+      "bytes": 10033,
+      "role": "source-review",
+      "program_version": "tail-mod3-20261014.r3"
+    }
+  ]
+}

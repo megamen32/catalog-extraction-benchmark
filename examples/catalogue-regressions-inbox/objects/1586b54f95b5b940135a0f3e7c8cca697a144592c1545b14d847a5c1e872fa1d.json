@@ -1,0 +1,87 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 260,
+  "printed_page": "259",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r2",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-0260-native-candidate.json",
+    "sha256": "5fc56094e1f6d5b5621a882b6c98052479becf3cb5bb887a26b466bd0620db82",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.17",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "250a5f879c4c07bb339e5791b2e6b59062426df6bcef56df7b50cb0af47cfc87",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "5fc56094e1f6d5b5621a882b6c98052479becf3cb5bb887a26b466bd0620db82",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 260,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "5f66dfaacd6c43b74ca531095c704b2a738db593b26901fc493f46c9409796e6",
+      "receipt": "calls/33b7dfc8c345410681185fceca6e2dd0/result.json",
+      "started_at": 1791960663.3571784,
+      "finished_at": 1791960871.5705388
+    }
+  },
+  "output": {
+    "file": "armature-0260-reviewed-r2.json",
+    "sha256": "d0a1f41874794d35ef26905c242b936013dd71548a5adc21c3cdf8d9ae4b95b8"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "cc74bb3798660ec235d56d2196ed08818f2bc3f29c7a8ab3bbfcbf8c36159ae2",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      5
+    ],
+    "column_counts": [
+      7
+    ],
+    "cells_checked": 35
+  },
+  "source_findings": [
+    "Полная страница и увеличенный нижний узел повторно просмотрены. Верхняя выносная линия 102,5 проходит внутри головки ниже наружной вершины, нижняя — через ось пальца.",
+    "Все 35 ячеек, марки, единицы, объединения и остальные размеры ранее полностью сверены и сохранены; изменение касается только одной фактической привязки."
+  ],
+  "corrections": [
+    "База 102,5 исправлена с внешней вершины на верхнюю горизонтальную линию внутри контура головки."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T11:36:38.513868+00:00",
+  "previous_reviewed_output": {
+    "file": "armature-0260-reviewed.json",
+    "sha256": "3e298e5c31fe0d72d6b8dd8c6f97b1b573bd258cf6aedba26c4664314aa84b74"
+  },
+  "revision_trigger": "Independent source review by catalog_tail_mod1, followed by personal source-image recheck by catalog_tail_mod0.",
+  "revision_evidence_images": [
+    {
+      "file": "armature-0260-r2-lower102.png",
+      "sha256": "171851ace9b1f77c0849be2f1feff7a1fb4dd8ce727c42c52977b7c78deb4294"
+    }
+  ],
+  "private_original_receipt_sha256": "bb84d94544d96a644b6b05e042889c1e0c6a8669eb43ecac817f6d6560884abb"
+}

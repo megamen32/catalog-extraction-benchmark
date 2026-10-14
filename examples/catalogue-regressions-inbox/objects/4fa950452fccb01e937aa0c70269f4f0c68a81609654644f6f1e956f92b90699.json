@@ -1,0 +1,74 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 222,
+  "printed_page": "221",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "a6381edcc94a3db4553879afe7fd9092e36f34c2d10bbd02ba20a4b64d6e8d86",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.13",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "388e4b7dea7fc75a16d8aeee3f64f722f70d0518bda21b5ea9121fd690d0cc26",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "a6381edcc94a3db4553879afe7fd9092e36f34c2d10bbd02ba20a4b64d6e8d86",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 222,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4dfdf43954cb8adf1b11456ab3262a152d1ef2fea7fdfb31ebca498d2e6cbeb7",
+      "receipt": "calls/03b88c26d5514708aa062f01d5de8522/result.json",
+      "started_at": 1791956125.3654113,
+      "finished_at": 1791956200.817663
+    }
+  },
+  "output": {
+    "file": "armature-222-reviewed.json",
+    "sha256": "c963850412b3f16377c6afc9c3c3763e5e8655a21133b2f905a9fc4c7acee61d"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "9ccdec73e1aa281bc52e409ac75e77fd2cd768c5a396388679f2e0863578988c",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [],
+    "column_counts": [],
+    "cells_checked": 0
+  },
+  "source_findings": [
+    "Полная страница и пять крупных областей просмотрены; все шесть чертежей сопоставлены по отдельности.",
+    "ЭЗ-500-1А:85 между болтовыми осями; ЭЗ-750-2:обычный размер200 и Ø80 сечения кольца.",
+    "Числовой таблицы нет; D не вычисляется по картинке."
+  ],
+  "corrections": [
+    "Исправлены цифровые ошибки:86→85 у ЭЗ-500-1А; R200→200 и Ø250→Ø80 у ЭЗ-750-2.",
+    "Ø60 отнесён к сечению кольца, не распорки;85/42/200 связаны с осями стяжных болтов.",
+    "Удалены выдуманные замкнутый виток, спираль и повёрнутый вид другого исполнения.",
+    "Уточнены базы D,50,20,30 и назначение местного разреза А; исправлен бренд и контекст."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T14:25:18.065689+03:00",
+  "private_original_receipt_sha256": "535526f0befa86307d549c69f9628cc3114623d339a5c5f99c1144e6f7f63884"
+}

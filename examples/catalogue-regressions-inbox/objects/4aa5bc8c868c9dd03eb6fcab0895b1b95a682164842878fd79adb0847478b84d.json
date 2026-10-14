@@ -1,0 +1,127 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 245,
+  "printed_page": "244",
+  "status": "author_source_review_complete_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod1",
+    "task": "/root/catalog_tail_mod1",
+    "version": "tail-mod1-20261014.r1",
+    "model_id": "Current native Codex session;exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-245-candidate.json",
+    "sha256": "eee61bc163779c0e6f6ff3d182a4d105ca77c5c4abe2362ac864eaad6eed4508",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.15",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "8242b10480ab5cbc00eb6b6de0abd40b182977e4018be71b2df47b3ed98da688",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "eee61bc163779c0e6f6ff3d182a4d105ca77c5c4abe2362ac864eaad6eed4508",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 245,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "9b513ece12e8465355ea77e5b966812a92866ab89a8f614335298647034f48bf",
+      "receipt": "calls/01331d82a20b47a6950e3567fa7cdaec/result.json",
+      "started_at": 1791958988.9860303,
+      "finished_at": 1791959138.970986
+    },
+    "receipt_file": "armature-245-producer-receipt.json",
+    "receipt_sha256": "ae5aa568947aeba0e9e8d333b75c6ea66e312369456fae9dc3e62f66a738ba5f",
+    "receipt_artifact_equals_candidate": true
+  },
+  "output": {
+    "file": "armature-245-reviewed.json",
+    "sha256": "5697404cb32d5f2aff3f74adaa8a8db346ed1a6e9da32e095c5e668d5dd482df",
+    "author": "catalog_tail_mod1"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "66138e0a57c14c808a1bfc25cda43fee3b85e27127685ad812ef8cf64c77485b",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "pagecontent_schema_valid": true
+  },
+  "tables": {
+    "row_counts": [
+      2
+    ],
+    "column_counts": [
+      6
+    ],
+    "cells_checked": 12
+  },
+  "source_findings": "Проверены2×6=12 ячеек,марки3РГ-3-400АМ/3РГ-5-1А,d30/46,L400/400,H30/65мм,массы3,11/4,55кг. Исправлено многократное«повода»вместо«провода». L — межосевое расстояние,не общий габарит;d отдельный размер посадочного места,не равен диапазону провода. Все размерные выноски,патент,ТУ2010 проверены.",
+  "corrections": [
+    {
+      "path": "page_context.summary",
+      "before": "Каталожная страница производителя ООО «МЗВА-ЧЭМЗ» о глухих трёхлучевых распорках линейной арматуры для воздушных линий электропередачи типа 3РГ (патентная конструкция). Приведено назначение, чертёж с габаритными размерами и таблица двух типоразмеров с диаметром повода, габаритами d/L/H и массой.",
+      "after": "Каталожная страница производителя ООО «МЗВА-ЧЭМЗ» о глухих трёхлучевых распорках линейной арматуры для воздушных линий электропередачи типа 3РГ (патентная конструкция). Приведено назначение, чертёж с габаритными размерами и таблица двух типоразмеров с диаметром провода, габаритами d/L/H и массой."
+    },
+    {
+      "path": "page_context.source_evidence[1].observation",
+      "before": "Единственная таблица страницы: типоразмеры 3РГ-3-400АМ и 3РГ-5-1А с диапазонами диаметра повода, габаритами и массой — типовой каталожный ряд изделия, а не позиции проекта.",
+      "after": "Единственная таблица страницы: типоразмеры 3РГ-3-400АМ и 3РГ-5-1А с диапазонами диаметра провода, габаритами и массой — типовой каталожный ряд изделия, а не позиции проекта."
+    },
+    {
+      "path": "printed_page",
+      "before": null,
+      "after": "244"
+    },
+    {
+      "path": "tables[0].title",
+      "before": "Распорки глухие трехлучевые типа 3РГ: типоразмеры, диаметр повода, размеры и масса",
+      "after": "Распорки глухие трехлучевые типа 3РГ: типоразмеры, диаметр провода, размеры и масса"
+    },
+    {
+      "path": "tables[0].columns[1].label",
+      "before": "Диаметр повода, мм",
+      "after": "Диаметр провода, мм"
+    },
+    {
+      "path": "figures[0].description",
+      "before": "Чертёж изделия: три разнесённые клипсные каретки на разборном трехлучевом (Y-образном) каркасе, вид спереди и вид сбоку с установленным проводом. Размер L — общая длина (расстояние между крайними каретками), указанная также наклонной размерной линией слева. Размер d на виде спереди отнесён к зажимной (клипсной) части и соответствует диаметру зажимаемого повода, совпадающему с графой «Диаметр повода» таблицы. На виде сбоку 30 — ширина узкой верхней прижимной пластины, H — ширина нижней зажимной (крепёжной) части распорки.",
+      "after": "Главный вид трёхлучевой распорки3РГ и меньший ортогональный вид справа. На главном виде три зажимных узла на трёхлучевой соединительной конструкции. Два размераL между осями посадочных мест:горизонтальный между верхними двумя и наклонный между верхним левым и нижним;это не наружный габарит. d — диаметр круглого посадочного места правого верхнего зажима;размерd30/46мм дан отдельно от диаметра проводов27,5–30,6/45мм. На правом виде30 — ширина верхнего узкого участка между вертикальными выносными линиями,H — поперечный наружный габарит нижней зажимной части. Дляd/L/H единицымм даны таблицей;единица30 отдельно у рисунка не напечатана."
+    },
+    {
+      "path": "figures[0].labels",
+      "before": [
+        "L",
+        "d",
+        "30 мм",
+        "H"
+      ],
+      "after": [
+        "L",
+        "L",
+        "d",
+        "30",
+        "H"
+      ]
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "independent_review_required": true,
+  "independent_review_status": "pending",
+  "separate_model_review_of_root_edits": null,
+  "unresolved_issues": [
+    "Нужна независимая проверка авторского разбора и инженерных отношений."
+  ],
+  "completed_at": "2026-10-14T13:49:45.479191+03:00",
+  "private_original_receipt_sha256": "840c3b1606dff5310eeafe39a6432eb6fce7d60f9ed7810caf4babf85d7fd2d4"
+}

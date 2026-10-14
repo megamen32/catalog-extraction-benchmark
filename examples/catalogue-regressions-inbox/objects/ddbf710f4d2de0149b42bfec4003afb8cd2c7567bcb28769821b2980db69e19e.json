@@ -1,0 +1,78 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 214,
+  "printed_page": "213",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "775224a5d5de92b0df50f7b649d6623f1a303de1baa6c1249507f99daf42b654",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.13",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "388e4b7dea7fc75a16d8aeee3f64f722f70d0518bda21b5ea9121fd690d0cc26",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "775224a5d5de92b0df50f7b649d6623f1a303de1baa6c1249507f99daf42b654",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 214,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4dfdf43954cb8adf1b11456ab3262a152d1ef2fea7fdfb31ebca498d2e6cbeb7",
+      "receipt": "calls/f72a51e5c6f44258a856b963f99d0bb2/result.json",
+      "started_at": 1791955894.3696208,
+      "finished_at": 1791956013.7028894
+    }
+  },
+  "output": {
+    "file": "armature-214-reviewed.json",
+    "sha256": "3455e0837f9a3dcf889dc0f11eb709a79001c2594c07238141ff6a2ffbdc9f17"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "6d83aa421cf9323548627d60203460d06521e76dad3d1e765b3d01b7e12894ef",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      6
+    ],
+    "column_counts": [
+      9
+    ],
+    "cells_checked": 54
+  },
+  "source_findings": [
+    "Все54 ячейки6×9 проверены. Повторная марка3А2А-500-4Т с другим проводом/массой сохранена.",
+    "Последняя строка L300/L1466, а не400/400; масса6,2. В строках500 исходный300/204 сохранён буквально.",
+    "Наклонные L и горизонтальный L1 относятся к осям круглых проходов, L2 к прямой опрессовываемой части."
+  ],
+  "corrections": [
+    "Исправлена подмена цифры3 кириллическойЗ в марках3А2А и противоречащее source_note.",
+    "Исправлена выдуманная расшифровка бренда; восстановлена printed_page213.",
+    "Убраны неподтверждённые зенковки и разворачивающийся механизм; L2 привязан к прямому участку опрессования.",
+    "Единицы мм из шапки присвоены L/L1/L2, а к буквальным подписям60 не добавлены."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T14:34:27.946578+03:00",
+  "private_original_receipt_sha256": "729c2e8ba013d4a4299bc8ccc7e3c81dbf9cf4edd7e285093ae1b074a29feb67"
+}

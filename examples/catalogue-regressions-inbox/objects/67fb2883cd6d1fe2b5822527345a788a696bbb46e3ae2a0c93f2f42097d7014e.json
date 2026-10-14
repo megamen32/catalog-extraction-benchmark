@@ -1,0 +1,76 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 270,
+  "printed_page": "269",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r2",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "f867c39fa48247d16282e28190bdf08f75b4c0e7041b213c48bcea4893b87070",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.17",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "250a5f879c4c07bb339e5791b2e6b59062426df6bcef56df7b50cb0af47cfc87",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "f867c39fa48247d16282e28190bdf08f75b4c0e7041b213c48bcea4893b87070",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 270,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "5f66dfaacd6c43b74ca531095c704b2a738db593b26901fc493f46c9409796e6",
+      "receipt": "calls/4c14fa23e88a4a62a6866a672bc0798f/result.json",
+      "started_at": 1791961346.2305365,
+      "finished_at": 1791962397.1372778
+    }
+  },
+  "output": {
+    "file": "armature-270-reviewed-r2.json",
+    "sha256": "13b8788f12ade0c3511904a3f7a73996451b8c59f99929455d590d2b072733ec"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "319242cbae724faecba5ed64b32af95fc8dde6df7798b8063294bcc96f0d336a",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      2
+    ],
+    "column_counts": [
+      5
+    ],
+    "cells_checked": 10
+  },
+  "source_findings": "Лично полностью просмотрен оригинал:две строки×5колонок=10ячеек,общие35–750/I–VII/УХЛ1иразные1,1/0,98.450отверхадугидокронштейна,100/100*отузласхождениядоверхаоснования,35межосевоеболтов/60ширинакронштейна,R300дуга.Звёздочка100*толькоЗПК-1,сноскинастраницедействительнонет. Всё назначение/ТУ/патент/заказные размеры сохранены.",
+  "corrections": [
+    "Убрано выдуманное пояснение бренда и наличие отдельной опоры на верхнем изображении.",
+    "R300 описан как радиус дуги построения по концам элементов;450 не включает концы болтов.",
+    "Снято недоказанное назначение ХХкакдаты.",
+    "Из page_context удалена неподтверждённая трактовка ХХкакдаты."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T14:00:44.742720+03:00",
+  "prior_author_output_sha256": "e61d5a43eef199b5d869131b8089a7e67973a6bf69884bec753821d2593f104b",
+  "revision_basis": "Independent full source review catalog_tail_mod3 exact old output; figures/dimension numerical facts retained.",
+  "private_original_receipt_sha256": "2efd9a0c9b4d829ebf4ef6f0ef9d1366c83cd036a8b910363299be4e6099a06d"
+}

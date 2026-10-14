@@ -1,0 +1,36 @@
+{
+  "id": "arm185-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "Арматура185: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 185
+  },
+  "review_basis": "Полностью сверены шесть пунктов новых изделий:Т,ТДсдренажомдлявертикальнойустановки,проводаАСку/АСк2у/АСТ,А4АБ,ОАБ,разъёмныеответвительныепрессуемые. РегистрАСку/АСк2у проверен текстовым слоем,сохранён. Таблиц/чертежейнет. Исправлен выдуманный слоган«промышленная энергетика»;колонтитул184. Исправления: [{\"path\": \"text_blocks[1].text\", \"before\": \"ФОРЭНЕРГО промышленная энергетика FORENERGO industrial group (логотип в правом верхнем углу)\", \"after\": \"ФОРЭНЕРГО производственное объединение / FORENERGO industrial group\"}] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/3942dfd7f7f21d847bf510ac672a82ee431415999eec17cce78231ae80554db8.json",
+      "sha256": "3942dfd7f7f21d847bf510ac672a82ee431415999eec17cce78231ae80554db8",
+      "bytes": 5409,
+      "role": "native-candidate",
+      "program_version": "1.5.9"
+    },
+    {
+      "path": "objects/86330dc1226dc4411945641fc961c4130efb4900fc3d56a0c1f7aa01df3ee2e5.json",
+      "sha256": "86330dc1226dc4411945641fc961c4130efb4900fc3d56a0c1f7aa01df3ee2e5",
+      "bytes": 5364,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod1-20261014.r1"
+    },
+    {
+      "path": "objects/1ded9987fc85d172d2f8dd9ef387930b19c101e88c528babd31fea454b202edb.json",
+      "sha256": "1ded9987fc85d172d2f8dd9ef387930b19c101e88c528babd31fea454b202edb",
+      "bytes": 3934,
+      "role": "source-review",
+      "program_version": "tail-mod1-20261014.r1"
+    }
+  ]
+}

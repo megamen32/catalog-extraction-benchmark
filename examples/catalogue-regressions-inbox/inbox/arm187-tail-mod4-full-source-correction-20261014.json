@@ -1,0 +1,36 @@
+{
+  "id": "arm187-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "Арматура187: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 187
+  },
+  "review_basis": "Сверены154ячейки14×11. Все маркиОА-10…ОА-600,диаметры,матрицыМШ/А,массы0,27…2,14,размеры и объединенияА36на8строк/37на1/60на5;L1 иS по своим группам сохранены. Печатные значения L184,5 для300,d16,3 для120,D47/52/58 последних исполнений не исправлялись. ТУ2010,напылениеТ,до50лет,все связи рисунка проверены. Исправления: [{\"path\": \"branding/figures/source_notes\", \"reason\": \"Убран выдуманный федеральный глобальный проект;15 правильно связан с зазором, S с толщиной, L1 с прямой зоной; ненапечатанные мм у15/45 сняты.\"}] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/653d4521b25265c3f739320607027ae3bb683a3fe6c4ee2c615a04008f8c39c7.json",
+      "sha256": "653d4521b25265c3f739320607027ae3bb683a3fe6c4ee2c615a04008f8c39c7",
+      "bytes": 30420,
+      "role": "native-candidate",
+      "program_version": "1.5.9"
+    },
+    {
+      "path": "objects/59ac6bf421d32d58b6f4a1364d8d2af380349b61b01061403f38264f25fb4038.json",
+      "sha256": "59ac6bf421d32d58b6f4a1364d8d2af380349b61b01061403f38264f25fb4038",
+      "bytes": 30186,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-20261014.r5"
+    },
+    {
+      "path": "objects/6bc6d24faf9018c6093675597be52e62a63f3d3e8d5caeb9d0f00379c13fe31a.json",
+      "sha256": "6bc6d24faf9018c6093675597be52e62a63f3d3e8d5caeb9d0f00379c13fe31a",
+      "bytes": 8419,
+      "role": "source-review",
+      "program_version": "tail-mod3-20261014.r5"
+    }
+  ]
+}

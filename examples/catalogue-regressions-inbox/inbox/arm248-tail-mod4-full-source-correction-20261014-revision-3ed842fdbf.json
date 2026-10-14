@@ -1,0 +1,36 @@
+{
+  "id": "arm248-tail-mod4-full-source-correction-20261014-revision-3ed842fdbf",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "Арматура248: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 248
+  },
+  "review_basis": "Все 10 ячеек сверены: 8РГ-2-400БМ, 21,6–26,6 мм, 20,8 кг; 8РГ-3-400БМ, 27,5–30,6 мм, 20,6 кг; D=1045 общий. d=25/30 физически в общей ячейке — это неоднозначность источника, не подтверждённая ошибка native; значения не переназначены. Увеличение table.png фиксирует отсутствие разделительной линии D/d. Проверены назначение для восьми проводов и ОРУ, ТУ 3449-001-52819896-2010, патент, оба размера 400, D и d. Неоднозначность d оставлена unresolved; автоматическая приёмка исключена. Исправления: [\"Добавлен пропущенный печатный номер 247.\", \"Удалены недоказанные восьмигранная форма рамы и усиленные угловые накладки; d обозначает отверстие, дополнительный знак Ø перед d не выдуман.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/6e1671e11ec9864abf297b99d40b31a7dbe2877f530a2ad59f96688212695f72.json",
+      "sha256": "6e1671e11ec9864abf297b99d40b31a7dbe2877f530a2ad59f96688212695f72",
+      "bytes": 9254,
+      "role": "native-candidate",
+      "program_version": "1.5.15"
+    },
+    {
+      "path": "objects/3ed842fdbf07549237d155b69fa13d0e0710ca93c1ef1e66d232aaa534f55c33.json",
+      "sha256": "3ed842fdbf07549237d155b69fa13d0e0710ca93c1ef1e66d232aaa534f55c33",
+      "bytes": 9302,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r1"
+    },
+    {
+      "path": "objects/d6311dff909f4935d73f3b5ca0dbbd2e9f099222bd6400b0d79903e9f1831b51.json",
+      "sha256": "d6311dff909f4935d73f3b5ca0dbbd2e9f099222bd6400b0d79903e9f1831b51",
+      "bytes": 4122,
+      "role": "source-review",
+      "program_version": "tail-mod0-20261014.r1"
+    }
+  ]
+}

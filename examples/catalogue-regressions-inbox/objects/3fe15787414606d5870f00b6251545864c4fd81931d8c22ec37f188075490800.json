@@ -1,0 +1,160 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 135,
+  "printed_page": "134",
+  "status": "awaiting_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod3",
+    "task": "/root/catalog_tail_mod3",
+    "version": "tail-mod3-20261014.r7",
+    "model_id": "Current native Codex worker session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-135-candidate.json",
+    "sha256": "680512d339518563187523823c9925175fa455850909d21491082e6e141baefb",
+    "canonical_sha256": "26e8832a9d7f559c30c28313dab085ce5983145c611d014386b841cc4d4c3782",
+    "producer": {
+      "program": {
+        "package_version": "1.5.8",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "56b47ab11c142fdd0d89ade636eb52fff30220c3425401678e2bf74c18b69c62",
+        "python_version": "3.12.13"
+      },
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 135,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "ad43db8eeb96f6a5b1aab82eb07fb8d999a3c90cd9e1f094a41f378634f1d7ae",
+      "artifact_sha256": "680512d339518563187523823c9925175fa455850909d21491082e6e141baefb",
+      "started_at": 1791944745.7751157,
+      "finished_at": 1791944816.4859824,
+      "provider_rate_limit_events": 0,
+      "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46",
+      "status": "receipt_verified",
+      "source_bound_save": true,
+      "receipt": ".tmp/full-digitization/staged-best-v1.4.8/armature/page-0135/calls/7ad2bee5986e434fa1bebf86fdf8ea30/result.json",
+      "frozen_receipt": "armature-135-native-receipt.json",
+      "frozen_receipt_sha256": "de814f6c725859d70c2cb0723b36bfc8b7fd9313d55569ecda65bb88481fac0e"
+    }
+  },
+  "output": {
+    "file": "armature-135-reviewed.json",
+    "sha256": "f8e23707999d0348579aa47944517d6d881d0b88cc92bf7fd537e630afc6a1f9",
+    "canonical_sha256": "2b4ce358ffe2ef8e4a1e535cc6a2e11bd1fb509e361e809594a24fe85f56dbbe"
+  },
+  "full_original_image_review": true,
+  "original_image": "armature-135.png",
+  "original_image_sha256": "b28dfc504698dc26377b8236f437bb4283ca4e3cc49376f62a19d650892fa32e",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "page_content_schema": true
+  },
+  "tables": {
+    "row_counts": [
+      6
+    ],
+    "column_counts": [
+      7
+    ],
+    "cells_checked": 42
+  },
+  "source_findings": "Все 42 ячейки 6×7 сверены. ПАС-120/240/300/400/600/700-2 Т*, диаметры 14,0–15,8…36,2–37,7, матрицы МШ20,8/30,3/36,4/41,6/44,2 и буквальное A-57,0, длины L200/285/315/325/345/400, L1 41/75/80/85/95/110, массы 0,69/0,78/1,15/1,3/1,5/2,5 совпадают. Пять прочерков В и последнее В60 сохранены. Оба ТУ и звёздочка проверены.",
+  "corrections": [
+    {
+      "path": "branding/figures/page_context.source_evidence",
+      "reason": "Убрана выдуманная подпись производства оборудования; уточнены два болта одного узла и ширина В прямого участка, области доказательств охватывают назначение и подзаголовок."
+    }
+  ],
+  "complete_leaf_diff": [
+    {
+      "path": ".figures[0].description",
+      "before": "Векторный чертёж из двух видов. Верхний вид (продольный): зажим с двумя болтовыми зажимами (гайка, шайба, шпилька) на обойме, установленной на проводе шлейфа анкерно-угловой опоры; провод показан осевой линией (штрихпунктир) и косой засечкой. Две стрелки «направление опрессования» — влево и вправо от центра зажима; размеры L₁ отмеряют длину опрессовываемых участков у левого и правого концов обоймы (выносные линии совпадают с границами опрессовки), L — полную длину зажима от левого до правого конца обоймы. Нижний вид (вид сверху): корпус зажима на проводе с двумя отверстиями под болты (видны гайки с шайбами); 45 — расстояние между осями крепежа (размерная линия с выносными от осей), В — поперечный размер корпуса зажима, показанный слева повёрнутым текстом с вертикальной размерной линией по высоте корпуса. Допусков и знаков отклонений на чертеже нет.",
+      "after": "Две проекции разъёмного переходного зажима ПАС. Два концевых корпуса с проводами смещены относительно друг друга и соединены контактными частями с двумя стяжными болтами. Это один узел, а не два самостоятельных болтовых зажима. L — расстояние между крайними торцами корпусов, без выступающих проводов. Два размера L1 показывают прямые зоны опрессования у левого и правого концов: от наружного торца до линии начала переходной части. Стрелки опрессования направлены от внутренних границ этих зон наружу, влево и вправо. На нижнем плане 45 — межосевое двух болтов. В — поперечная ширина прямого концевого участка, размерная линия проходит у его внутреннего торца; это не высота всего узла по головкам болтов. На рисунке нет допусков."
+    },
+    {
+      "path": ".page_context.source_evidence",
+      "before": [
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.09,
+            0.28,
+            0.4,
+            0.36
+          ],
+          "observation": "Блок «НАЗНАЧЕНИЕ» описывает применение изделия (разъемное соединение алюминиевых и сталеалюминиевых проводов в шлейфе анкерно-угловых опор, отпайки на ОРУ) и указывает стандарт изготовления — типовой заводской каталог с характеристиками изделия.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.09,
+            0.81,
+            0.92,
+            0.94
+          ],
+          "observation": "Единая таблица с шапкой «Наименование / Диаметр проводов, мм / Матрица опрессования / Размеры, мм (В, L, L1) / Масса, кг, не более» и шестью типоразмерами серии ПАС-120-2 Т … ПАС-700-2 Т* — типовой ряд каталога, без привязки к конкретному объекту.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.09,
+            0.03,
+            0.65,
+            0.06
+          ],
+          "observation": "Заголовок раздела «ЛИНЕЙНАЯ АРМАТУРА ДЛЯ ВЛ / АРМАТУРА СОЕДИНИТЕЛЬНАЯ» и товарный подзаголовок «Зажимы петлевые переходные типа ПАС» задают каталожный, а не проектный характер страницы.",
+          "transcription": "literal"
+        },
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.24,
+            0.38,
+            0.93,
+            0.63
+          ],
+          "observation": "Векторный чертёж из двух видов с обозначениями направления опрессования, размеров L, L1, В и 45 — типовой чертёж изделия из того же товарного раздела.",
+          "transcription": "literal"
+        }
+      ],
+      "after": [
+        {
+          "kind": "catalogue_product_data",
+          "box": [
+            0.06,
+            0.02,
+            0.96,
+            0.97
+          ],
+          "observation": "Петлевые переходные зажимы ПАС для разъёмного соединения проводов в шлейфах анкерно-угловых опор и отпаек на ОРУ. Индекс Т — медное напыление. ТУ 3449-001-52819896-2010; звёздочка последнего исполнения отсылает к ТУ 34 13 10116-86. Шесть типоразмеров, диаметры, матрицы, В/L/L1 и масса не более, рисунок с опрессованием. Это серийные товарные сведения.",
+          "transcription": "literal"
+        }
+      ]
+    },
+    {
+      "path": ".text_blocks[1].text",
+      "before": "ФОРЭНЕРГО — производство оборудования",
+      "after": "ФОРЭНЕРГО — производственное объединение"
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independent_review_required": true,
+  "unresolved_issues": [],
+  "acceptance_note": "No PASS issued. Corrected content, engineering drawing relations, and uncertainties require independent source review.",
+  "completed_at": "2026-10-14T14:39:30.864742+03:00",
+  "private_original_receipt_sha256": "59e69a37ac6cd3f2b9e0a6a886b11cb18e7b91a8d24dab9665d17898f5741996"
+}

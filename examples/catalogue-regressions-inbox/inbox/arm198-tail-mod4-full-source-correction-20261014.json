@@ -1,0 +1,36 @@
+{
+  "id": "arm198-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "Арматура198: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 198
+  },
+  "review_basis": "[\"Все110 ячеек11×10 сверены, в том числе реальные странности АС70/72,AC95/141,AC205/27 без исправления по ожиданию.\", \"S — толщина контактной пластины; D — наружный диаметр трубки; Ø14 — отверстия, не эти параметры.\", \"L1 начинается правее перехода на отдельной отметке, общий L включает плоскую часть.\"] Исправления: [\"Убрано выдуманное федеральное государственное унитарное предприятие.\", \"Пинта заменена контактной пластиной; L1 привязан к отдельной отметке участка опрессования, не полной цилиндрической части.\", \"Единицы группы Размеры,мм раскрыты в колонках.\", \"Отсутствие отдельной единицы у80 вынесено в source_note, не выдано за неразрешимую неопределённость.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/0902d162f5a68407bfba720c115fc44f3a0e2657e8965893bf1a5c2d291a5ef4.json",
+      "sha256": "0902d162f5a68407bfba720c115fc44f3a0e2657e8965893bf1a5c2d291a5ef4",
+      "bytes": 28173,
+      "role": "native-candidate",
+      "program_version": "1.5.13"
+    },
+    {
+      "path": "objects/9c4bea39e27a9c0e54c5de7c96cd9ff9504830d93180bbb9f7d2bc5f55c0aaab.json",
+      "sha256": "9c4bea39e27a9c0e54c5de7c96cd9ff9504830d93180bbb9f7d2bc5f55c0aaab",
+      "bytes": 23953,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/ae5665d785830502502746f2cbf37d51d1f159704d23df3c48c955522b1548a8.json",
+      "sha256": "ae5665d785830502502746f2cbf37d51d1f159704d23df3c48c955522b1548a8",
+      "bytes": 3682,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

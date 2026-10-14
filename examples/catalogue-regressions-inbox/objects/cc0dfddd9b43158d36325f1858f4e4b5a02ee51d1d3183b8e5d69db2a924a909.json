@@ -1,0 +1,98 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 211,
+  "printed_page": "210",
+  "status": "awaiting_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod3",
+    "task": "/root/catalog_tail_mod3",
+    "version": "tail-mod3-20261014.r4",
+    "model_id": "Current native Codex worker session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-211-candidate.json",
+    "sha256": "87fb4f3d9ca0e742a8cc6a30171e5cb45e65cdcba5469de0f654beb19da6d979",
+    "canonical_sha256": "1c5ca96d225d1376cd79b01fe0e3c65a75012031c51603410e1985fd84c890e0",
+    "producer": {
+      "program": {
+        "package_version": "1.5.13",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "388e4b7dea7fc75a16d8aeee3f64f722f70d0518bda21b5ea9121fd690d0cc26",
+        "python_version": "3.12.13"
+      },
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 211,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4dfdf43954cb8adf1b11456ab3262a152d1ef2fea7fdfb31ebca498d2e6cbeb7",
+      "artifact_sha256": "87fb4f3d9ca0e742a8cc6a30171e5cb45e65cdcba5469de0f654beb19da6d979",
+      "started_at": 1791955734.2156968,
+      "finished_at": 1791955825.830275,
+      "provider_rate_limit_events": 0,
+      "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46",
+      "status": "receipt_verified",
+      "source_bound_save": true,
+      "receipt": ".tmp/full-digitization/staged-best-v1.4.8/armature/page-0211/calls/24238aaa98db4a7481584b9ebb40a651/result.json",
+      "frozen_receipt": "armature-211-native-receipt.json",
+      "frozen_receipt_sha256": "4f810cd69dc008daac861432a01302ba2ad2d6a76735fc5f6854e1a39afef931"
+    }
+  },
+  "output": {
+    "file": "armature-211-reviewed.json",
+    "sha256": "b7c0beb8a8d2720582fc4a6b01486bf918d01a23d37f3a3c730b078ae4aad1cd",
+    "canonical_sha256": "a0d218154459501ef8ab57b60b5c48ecf95377d9ab6d51ee07b1e5cffbeb6629"
+  },
+  "full_original_image_review": true,
+  "original_image": "armature-211.png",
+  "original_image_sha256": "659d4b901d88bbd2c54b1797f31e251db2df05cbc5decb5f453fc1eba258b2e4",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "page_content_schema": true
+  },
+  "tables": {
+    "row_counts": [
+      1
+    ],
+    "column_counts": [
+      4
+    ],
+    "cells_checked": 4
+  },
+  "source_findings": "Все4ячейки2А4АП-500-1Т(Д)/ПА500/А–59/5,0сверены;ТУ16-505-397-72вшапке,покрытиеТ,двеполыепроводныеветви,ОРУ,до50лет,дренажД,ТУизготовления2010. Чертёж400межосевоевводов,110двепрямыезоны,60×60крепёж,15зазормеждупластинами,стрелкивверх. Размер15неподменёнсуммартолщиной,видыправильносвязаны.",
+  "corrections": [
+    {
+      "path": "figures[0]/page_context.source_evidence[2]",
+      "reason": "Вместотрёхвидовдвепроекцииодногоизделия;15—зазор,110—прямаяцилиндрическаязона. Уточненосвежимкропом15."
+    }
+  ],
+  "complete_leaf_diff": [
+    {
+      "path": ".figures[0].description",
+      "before": "Изделие показано в трёх видах: два главных вида П-образного зажима с двумя вертикальными выводами (правый — с частичным продольным разрезом и штриховкой материала) и вид сверху (план) на болтовом пакете внизу. Размеры и их привязка: 400 — горизонтальная размерная линия между вертикальными осями симметрии левого и правого выводов (выносные линии совпадают с их штрихпунктирными осями); 110 — вертикальный размер левого вывода, от верхнего торца его прямой части до штрихпунктирной оси нижней горизонтальной части зажима, такой же 110 у правого вывода; 60 — горизонтальный размер между осями двух верхних болтов болтового пакета; 60 — вертикальный размер между рядами осей болтов этого же пакета (шаг квадрата из четырёх отверстий 60 на 60); 15 — на виде сверху вертикальный размер суммарной толщины пакета прижимных планок (стрелки от верхней грани верхней планки до нижней грани нижней планки, через которые проходят два показанных болта). У каждого из двух главных видов вертикальная надпись «направление опрессования» со стрелкой вверх, направленной вдоль соответствующего вывода. Знаков диаметра и предельных отклонений на чертёже не показано; обозначений видов и штампа на странице нет.",
+      "after": "ДвеортогональныепроекцииодногоП-образногодвухпроводногозажима,не дваотдельныхглавныхвида. Верхняяпроекцияпоказываетдвеветвисобщейконтактнойчастью;праваяветвьсчастичнымразрезом.400—междуосямидвухвертикальныхпроводныхвводов.110накаждойветви—длинапрямойцилиндрическойзоныотверхнеготорцадолинииначалаизгиба,а недоосинижнейгоризонтальнойчасти.60/60—межосевыерасстояния4крепежейконтактнойплощадки. Нижняяпроекция:15—зазормеждунижнейвнутреннейповерхностьюверхнейконтактнойпластиныиверхнейвнутреннейповерхностьюнижнейпластины;стрелкинеохватываюттолщинусамихпластин. Направлениеопрессования—вверхпообоимвводам. Другихчисловыхразмеровилиединицначертеженет."
+    },
+    {
+      "path": ".page_context.source_evidence[2].observation",
+      "before": "Чертёж зажима: два главных вида (один с частичным разрезом) и вид сверху на болтовом пакете, габаритные размеры 400, 110, 110, 60, 60, 15 и указатели «направление опрессования» — чертёж того же каталожного изделия.",
+      "after": "ДвеортогональныепроекцииодногоП-образногодвухпроводногозажима:верхняясправачастичноразрезана,нижняяпоказываетдвеконтактныепластины.400,110/110,60/60,15инаправленияопрессованиясвязанысконкретнымиэлементами."
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independent_review_required": true,
+  "unresolved_issues": [],
+  "acceptance_note": "No PASS issued. Corrected content, engineering drawing relations, and uncertainties require independent source review.",
+  "completed_at": "2026-10-14T14:00:48.515383+03:00",
+  "private_original_receipt_sha256": "39ff5bd3ceedaf25a7b698045559d7a2e5b61efecbb5b613473c1b0991c54698"
+}

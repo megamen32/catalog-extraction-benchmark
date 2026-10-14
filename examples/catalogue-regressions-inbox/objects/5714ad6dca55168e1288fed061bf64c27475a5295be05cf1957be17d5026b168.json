@@ -1,0 +1,77 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 234,
+  "printed_page": "233",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "5187a4bf2e6954b88b003db78222b815ebe3e6f2499831e828e0aa27b1a008b6",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.15",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "8242b10480ab5cbc00eb6b6de0abd40b182977e4018be71b2df47b3ed98da688",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "5187a4bf2e6954b88b003db78222b815ebe3e6f2499831e828e0aa27b1a008b6",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 234,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "9b513ece12e8465355ea77e5b966812a92866ab89a8f614335298647034f48bf",
+      "receipt": "calls/5df55b303f4448f1a77a34687060c329/result.json",
+      "started_at": 1791958018.3840058,
+      "finished_at": 1791958273.0806806
+    }
+  },
+  "output": {
+    "file": "armature-234-reviewed.json",
+    "sha256": "3e5e140f19af5969968332c9f092e216d7ef330778e133f5c1d46b9b79797589"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "e6098c3238a5de0ed0d8a780a4b34f8c6bfb7e57c688837f5bd155e8931011f0",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      8,
+      4,
+      5
+    ],
+    "column_counts": [
+      3,
+      4,
+      2
+    ],
+    "cells_checked": 50
+  },
+  "source_findings": "Полный оригинал просмотрен лично:все8позиций расшифровки,4×4вложенные параметры плашек и5×2массы. Номера10–13/16–20/23–31/32–46,D9,0–15,0/14,5–22,0/20,1–32,0/29,0–46,0,H50,0/65,5/85,0/157,0,L145/45/50/50. Массы грузов0,8/1,6/2,4/3,2/4,0 и гасителя2,07–2,15/3,95–4,11/5,58–5,92/7,48–7,60/8,34–8,68сверены. Все значения сохранены;изменилась логическая структура искусственно раскрытой вложенной сетки.",
+  "corrections": [
+    "П-образные грузы отделены от гибкого троса демпфера;ошибочные пружинные петли/шестигранное отверстие сняты.",
+    "Смешанная таблица разделена на расшифровку8позиций и отдельные4пары плашек,D,H,L1;массы и диаметры больше не попадают под колонку №плашки.",
+    "Сохранено условие+6,0мм дляП/П1;Hмежосевое двух разных тросов,Lполный габарит,L1ширина зажима."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T14:18:18.122520+03:00",
+  "private_original_receipt_sha256": "e392cf111c9402ad16ddf0f662e389c3799e17cdcfb04a5aeea71c56ab9d786d"
+}

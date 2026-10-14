@@ -1,0 +1,36 @@
+{
+  "id": "arm215-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "Арматура215: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 215
+  },
+  "review_basis": "36ячеек6×6свереныцеликом,включаявсемаркипроводовГОСТ839-80,МШ36,4/41,6/44,2,L80/85/95,массы6,4/7,0/7,3/7,6/8,5/9,1. Печатныйдубль3А4А-600-3Т(Д)в3-йи6-йстрокахсохранён,600-2Тневыдуман. ПровереныТУ,медноепокрытиеТ,50лет,дренажД,двепарывидовс120/340/60/L. Исправленысмыслпроводныхвходовипривязкиразмеров. Исправления: [{\"path\": \"figures\", \"reason\": \"Вводыпроводовнепроушины;уточненыL,340,120,60 инаправленияопрессования.\"}] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/3b2a7d411140f27c666d868332ba5895f2035547f3cd89981afd01ebf3176754.json",
+      "sha256": "3b2a7d411140f27c666d868332ba5895f2035547f3cd89981afd01ebf3176754",
+      "bytes": 15951,
+      "role": "native-candidate",
+      "program_version": "1.5.13"
+    },
+    {
+      "path": "objects/904bb47eb36c4c54a177b0fc26acde37b247a4ba4d26fe286333fc2294921b3d.json",
+      "sha256": "904bb47eb36c4c54a177b0fc26acde37b247a4ba4d26fe286333fc2294921b3d",
+      "bytes": 15173,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-20261014.r4"
+    },
+    {
+      "path": "objects/9c98a2e4facd2dab9e9b0d4ac74a78d583c678efa7540b1862238ee75669defe.json",
+      "sha256": "9c98a2e4facd2dab9e9b0d4ac74a78d583c678efa7540b1862238ee75669defe",
+      "bytes": 7822,
+      "role": "source-review",
+      "program_version": "tail-mod3-20261014.r4"
+    }
+  ]
+}

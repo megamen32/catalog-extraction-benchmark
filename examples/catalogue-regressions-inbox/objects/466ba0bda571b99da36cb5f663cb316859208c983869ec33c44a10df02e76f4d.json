@@ -1,0 +1,129 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 129,
+  "printed_page": "128",
+  "status": "author_source_review_complete_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod1",
+    "task": "/root/catalog_tail_mod1",
+    "version": "tail-mod1-20261014.r1",
+    "model_id": "Current native Codex session;exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-129-candidate.json",
+    "sha256": "244bd2d56119c45cd2b7916a0beae58b1270bb85bb344de2af516ee2235980cf",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.6",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "ca9cb343d7402f9bdb421b4fc5bc0b77ee1cff94b255122f592b3fda0e12f0b3",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "244bd2d56119c45cd2b7916a0beae58b1270bb85bb344de2af516ee2235980cf",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 129,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "3031f54101971a2d9729b048304180edaaf22cda716b98c15339c8c61c45fa7b",
+      "receipt": "calls/2fd665045fab4358a1404c3070f4b1c0/result.json",
+      "started_at": 1791943821.1346633,
+      "finished_at": 1791943960.384019
+    },
+    "receipt_file": "armature-129-producer-receipt.json",
+    "receipt_sha256": "84426e2891f4514212dfa75029c44126e3fe037e48e094eb99b588cd544adde4",
+    "receipt_artifact_equals_candidate": true
+  },
+  "output": {
+    "file": "armature-129-reviewed.json",
+    "sha256": "25a5629e496a54da5a45dde2b7ebf57867bcf4f39aaaaeb99355537a3e80cf30",
+    "author": "catalog_tail_mod1"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "c077854460c9b020080803d632870bcf7cdb54c7f3173851552ee618077b6ee2",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "pagecontent_schema_valid": true
+  },
+  "tables": {
+    "row_counts": [
+      14
+    ],
+    "column_counts": [
+      6
+    ],
+    "cells_checked": 84
+  },
+  "source_findings": [
+    "Полностью сверены 14×6=84 ячейки, включая все многозначные списки проводов и необычные АС70/72,АС95/141,L230 у ШП-АС-400. В evidence исправлено 15→14 строк. Других числовых ошибок нет.",
+    "Исправлены вымышленная подпись бренда, буквальная маркировка xxx, название стрелок опрессования размерами и недоказанные конические торцы на фотографии. В текст возвращено буквальное «их сварки»."
+  ],
+  "corrections": [
+    {
+      "path": "page_context.source_evidence[3].observation",
+      "before": "Единая таблица типоразмеров: шапка «Наименование | Марка провода по ГОСТ 839-80 | Диапазон диаметров, мм | Матрица опрессования | L, мм | Масса, кг» и 15 строк ШП-АС-25 … ШП-АС-650; ни проектного объекта, ни программного обеспечения, ни снимка интерфейса ПО на странице нет.",
+      "after": "Единая таблица типоразмеров: шапка «Наименование | Марка провода по ГОСТ 839-80 | Диапазон диаметров, мм | Матрица опрессования | L, мм | Масса, кг» и 14 строк ШП-АС-25 … ШП-АС-650; ни проектного объекта, ни программного обеспечения, ни снимка интерфейса ПО на странице нет."
+    },
+    {
+      "path": "text_blocks[0].text",
+      "before": "ФОРЭНЕРГО — FORENERGO INDUSTRIAL GROUP (производственная компания)",
+      "after": "ФОРЭНЕРГО — производственное объединение / FORENERGO industrial group"
+    },
+    {
+      "path": "text_blocks[8].text",
+      "before": "Зажимы обеспечивают высокое качество электрического контакта при соединении проводов без применения сварки с использованием термопатронов.",
+      "after": "Зажимы обеспечивают высокое качество электрического контакта при соединении проводов без применения их сварки с использованием термопатронов."
+    },
+    {
+      "path": "figures[0].description",
+      "before": "Фотография алюминиевого цилиндрического соединительного зажима (трубка с коническими торцами) на белом фоне; маркировка на поверхности не читается.",
+      "after": "Фотография цилиндрического трубчатого зажима на белом фоне. Текст страницы называет материал высокопрочным алюминиевым сплавом; маркировка на фотографии не читается."
+    },
+    {
+      "path": "figures[1].title",
+      "before": "Схема зажима ШП-АС",
+      "after": "Продольная схема ШП-АС"
+    },
+    {
+      "path": "figures[1].description",
+      "before": "Продольная схема цилиндрического зажима: осевая штрихпунктирная линия, корпус с фасками на торцах и более тонкие выступающие участки (концы опрессовываемого провода) с каждой стороны с отметками «xxx». Две вертикальные границы делят корпус на три участка. Под корпусом два размера «направление опрессования»: каждый выполнен от границы участка стрелкой наружу — к соответствующему торцу, то есть опрессовка идёт от середины зажима к обоим концам. Ниже — общий размер «L» между крайними границами корпуса. Числовых значений размеров и допусков на схеме нет; значение L берётся из таблицы типоразмеров.",
+      "after": "Трубчатый корпус с осевой линией, торцевыми фасками и выходящими с обеих сторон проводами с условными штрихами. Две вертикальные линии ограничивают центральную часть. Подписи «направление опрессования» со стрелками задают движение от границ центральной части наружу к левому и правому торцам; эти стрелки не размерные. L — полная длина корпуса между его торцами без выступающих проводов, в таблице дан в мм. Числовых значений на схеме нет. Условные крестики на проводах не являются буквальной маркировкой xxx."
+    },
+    {
+      "path": "figures[1].labels",
+      "before": [
+        "направление опрессования",
+        "направление опрессования",
+        "L",
+        "xxx",
+        "xxx"
+      ],
+      "after": [
+        "Направление опрессования",
+        "Направление опрессования",
+        "L"
+      ]
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "independent_review_required": true,
+  "independent_review_status": "pending",
+  "separate_model_review_of_root_edits": null,
+  "unresolved_issues": [
+    "Нужна независимая проверка авторского разбора и инженерных отношений."
+  ],
+  "completed_at": "2026-10-14T14:26:32.828354+03:00",
+  "private_original_receipt_sha256": "935c0037dff367bc5ae542f95524d906b549383b7f49dbcc4c7cc1ba0238f57b"
+}

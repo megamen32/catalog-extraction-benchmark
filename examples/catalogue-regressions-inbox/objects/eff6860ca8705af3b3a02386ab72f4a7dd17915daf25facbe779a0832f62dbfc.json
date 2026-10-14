@@ -1,0 +1,103 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 241,
+  "printed_page": "240",
+  "status": "author_source_review_complete_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod1",
+    "task": "/root/catalog_tail_mod1",
+    "version": "tail-mod1-20261014.r1",
+    "model_id": "Current native Codex session;exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-241-candidate.json",
+    "sha256": "401da3de31964155d5e7da466090b595766c4614a3833b05961d3d060324c807",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.15",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "8242b10480ab5cbc00eb6b6de0abd40b182977e4018be71b2df47b3ed98da688",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "401da3de31964155d5e7da466090b595766c4614a3833b05961d3d060324c807",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 241,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "9b513ece12e8465355ea77e5b966812a92866ab89a8f614335298647034f48bf",
+      "receipt": "calls/658096f355ea44e3b283e59e65ed40fd/result.json",
+      "started_at": 1791958791.7522285,
+      "finished_at": 1791958959.2186732
+    },
+    "receipt_file": "armature-241-producer-receipt.json",
+    "receipt_sha256": "555d200a515fc3f241b9ace3e5b4bd844f8dfc70011a03797e29c195736888a1",
+    "receipt_artifact_equals_candidate": true
+  },
+  "output": {
+    "file": "armature-241-reviewed.json",
+    "sha256": "17ed524726610bd07696f40a2f256591e95f1d1c4a7c4f00e8d96b7d14e94db1",
+    "author": "catalog_tail_mod1"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "c082e16c8da34c64a6d23c2377504a784d11daddc33cdcae4df69cdc24550c13",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "pagecontent_schema_valid": true
+  },
+  "tables": {
+    "row_counts": [
+      11
+    ],
+    "column_counts": [
+      5
+    ],
+    "cells_checked": 55
+  },
+  "source_findings": "Полностью проверены11×5=55 ячеек,все диапазоны6,5…45,0мм,длины4050/4110/4210/4390/4540/4650/4800/4800/4900/5180/5300мм,массы0,43/0,45/1,00/1,05/1,90/1,95/2,60/2,65/2,70/4,35/4,40кг. ШапкиМинимальный/Максимальный относятся к общиммм;единицы внесены явно. Назначение,ПВХ10–25мм,4–5,3м,провода6,5–45мм,ВЛ6–220кВ,20–30%пролёта,ФОРЭНЕРГО-ИНЖИНИРИНГ иТУ2020 сверены. Рисунок без подписей,пустыеlabels вместо выдуманной подписи об отсутствии подписей.",
+  "corrections": [
+    {
+      "path": "printed_page",
+      "before": "стр. 240",
+      "after": "240"
+    },
+    {
+      "path": "tables[0].columns[1].unit",
+      "before": null,
+      "after": "мм"
+    },
+    {
+      "path": "tables[0].columns[2].unit",
+      "before": null,
+      "after": "мм"
+    },
+    {
+      "path": "figures[0].labels",
+      "before": [
+        "подписей и обозначений на рисунке нет"
+      ],
+      "after": []
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "independent_review_required": true,
+  "independent_review_status": "pending",
+  "separate_model_review_of_root_edits": null,
+  "unresolved_issues": [
+    "Нужна независимая проверка авторского разбора и инженерных отношений."
+  ],
+  "completed_at": "2026-10-14T13:49:45.483912+03:00",
+  "private_original_receipt_sha256": "5769c4b3d4b362dd64ed6443af45a37ec790d95e238f5606cd3a95ae3f62e70f"
+}

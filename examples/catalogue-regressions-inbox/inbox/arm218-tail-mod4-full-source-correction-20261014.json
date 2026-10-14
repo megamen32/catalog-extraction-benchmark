@@ -1,0 +1,36 @@
+{
+  "id": "arm218-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "Арматура218: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 218
+  },
+  "review_basis": "[\"Все42 ячейки7×6 сверены. Масса67 первой строки и прочерки сохранены.\", \"ПА500/А-59 охватывают первые шесть строк;ПА640/А-74 последнюю. L/L1 общие400/400 и400/420 раскрыты в соответствующих двух строках.\", \"Верхние60/60 относятся к трём отверстиямØ17;320 к осям труб,610 к их наружным границам.\"] Исправления: [\"Исправлена выдуманная расшифровка ФОРЭНЕРГО.\", \"450 заканчивается на наружной правой границе, не на оси.\", \"Вертикальный60 относится к осям отверстий, не высоте полки.\", \"Описание двух проекций не превращено в неподтверждённый двухпроводный вариант; уточнены базы200 и L.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/44f174d4631a407734ae18eb497c5fb9e639ec96a101f79aa69890f6f8108a50.json",
+      "sha256": "44f174d4631a407734ae18eb497c5fb9e639ec96a101f79aa69890f6f8108a50",
+      "bytes": 14762,
+      "role": "native-candidate",
+      "program_version": "1.5.13"
+    },
+    {
+      "path": "objects/6905ed645719ed31897814af1fb961f32635783ea10ac2ffc416d65e77815516.json",
+      "sha256": "6905ed645719ed31897814af1fb961f32635783ea10ac2ffc416d65e77815516",
+      "bytes": 13016,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/990094e02f9de7bf90ae18edd2156049767831ca4e7afa064c69f4115d112c7f.json",
+      "sha256": "990094e02f9de7bf90ae18edd2156049767831ca4e7afa064c69f4115d112c7f",
+      "bytes": 3514,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

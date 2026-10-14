@@ -1,0 +1,1575 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 239,
+  "printed_page": "238",
+  "status": "awaiting_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod3",
+    "task": "/root/catalog_tail_mod3",
+    "version": "tail-mod3-20261014.r3",
+    "model_id": "Current native Codex worker session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-239-candidate.json",
+    "sha256": "30198f99568621b1944a777c9a417b70016ca52ff2ff3c87c2e929ff3c2b566f",
+    "canonical_sha256": "bbf867a5c3f0c357d6035c97e4ef7afb9008d91d6532a8af1c09f2d06cf722be",
+    "producer": {
+      "program": {
+        "package_version": "1.5.15",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "8242b10480ab5cbc00eb6b6de0abd40b182977e4018be71b2df47b3ed98da688",
+        "python_version": "3.12.13"
+      },
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 239,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "9b513ece12e8465355ea77e5b966812a92866ab89a8f614335298647034f48bf",
+      "artifact_sha256": "30198f99568621b1944a777c9a417b70016ca52ff2ff3c87c2e929ff3c2b566f",
+      "started_at": 1791958675.6176085,
+      "finished_at": 1791959125.3736734,
+      "provider_rate_limit_events": 0,
+      "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46",
+      "status": "receipt_verified",
+      "source_bound_save": true,
+      "receipt": ".tmp/full-digitization/staged-best-v1.4.8/armature/page-0239/calls/ca9add269d6c43a8a783f3e2e07ab168/result.json",
+      "frozen_receipt": "armature-239-native-receipt.json",
+      "frozen_receipt_sha256": "11f1b64b49c8733d3556bd99e4e85799e290d578cce3b83ca6396f7de5050277"
+    }
+  },
+  "output": {
+    "file": "armature-239-reviewed.json",
+    "sha256": "85eb80eb08462343ee16393b6939b9cb283428965011a2bd575df02c4405707e",
+    "canonical_sha256": "3dfdf10aad67119bb3c2592159a8740a7d3ffded42c471b81f565813808f4610"
+  },
+  "full_original_image_review": true,
+  "original_image": "armature-239.png",
+  "original_image_sha256": "09b4fc628ff9b3de3d67c59f373007b6817ab313ce542ff9882f9f9d56e6a156",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "page_content_schema": true
+  },
+  "tables": {
+    "row_counts": [
+      5,
+      4,
+      14
+    ],
+    "column_counts": [
+      3,
+      2,
+      5
+    ],
+    "cells_checked": 93
+  },
+  "source_findings": "Проверены физическая таблица обозначения целиком и14×5=70ячеек марок;после семантической нормализации5×3+4×2+14×5=93ячейки. Плашки10–13/16–20/23–31/32–46 связаны сD9,0–15,0/14,5–22,0/20,1–32,0/29,0–46,0. СохраненыП/П1,прибавка6,0мм,протектор500мм поумолчанию,примеры сП(15,2),опечаткаМаркаОГК,всеH и массы. L175/350/410/425 и3,7/8,47/13,15/18,38 проверены по группам3/3/4/4строки. Исправлены обрывкислов,единицы,смысл цилиндрического груза иномер238.",
+  "corrections": [
+    {
+      "path": "printed_page",
+      "reason": "Восстановлен видимый номер238."
+    },
+    {
+      "path": "tables",
+      "reason": "Устранены обрывки слов/ложные колонки единиц;все5полей обозначения и4пары плашек сохранены в двух связанных таблицах. Нижние14строк неизменны."
+    },
+    {
+      "path": "figures[0]",
+      "reason": "Исправлена подмена груза протектором и принадлежностьL."
+    }
+  ],
+  "complete_leaf_diff": [
+    {
+      "path": ".figures[0].description",
+      "before": "Чертёж: верхний вид — изделие сбоку на проводе, провод с осевой линией проходит через цилиндрический защитный протектор, по краям две зажимные плашки с болтами; слева вертикальный габаритный размер «H» — полная высота изделия от верхнего края плашки до низа протектора; справа отдельный вид узла зажима с выносной ссылкой «D», указывающей на посадочный диаметр провода (троса/кабеля) в пазу плашки, ниже изображение поперечного сечения провода с центральными осями; нижний вид — изделие с другой стороны, под ним горизонтальный размер «L» — длина защитного протектора между внутренними торцами зажимных плашек, волнистая линия обозначает разрыв изображения. Числовых значений размеров на чертеже нет — они приведены в таблице типовых марок. Фотография изделия: светлое металлическое изделие с двумя зажимными плашками и цилиндрическим протектором между ними, вид сбоку.",
+      "after": "Два проекционных вида и боковой видОГП,рядом фотография. Устройство включает два верхних проводных зажима,соединения к нижнему протяжённому цилиндрическому грузу. Называть этот груз интегрированным протектором нельзя:протектор является отдельной модификациейП/П1,его материал/контур здесь не подписан. H—от верхнего уровня зажима до нижней точки груза;L—осевая длина нижнего цилиндрического груза между его торцевыми плоскостями,не между внутренними сторонами верхних зажимов. D—выноска к круглой посадке проводника вверху бокового вида. Условные разрывы сокращают длинный груз. Фотография показывает те же два зажима и нижний цилиндрический груз."
+    },
+    {
+      "path": ".printed_page",
+      "before": null,
+      "after": "238"
+    },
+    {
+      "path": ".source_notes",
+      "before": [
+        "Номер печатной страницы в колонтитуле источника: 238.",
+        "В верхней таблице заголовок «Технические характеристики» — одна объединённая ячейка верхней строки, но текстовый слой делит её между двумя физическими колонками («Технические х» + «арактеристики»), поэтому сохранено буквально по сетке.",
+        "Ячейки п. 3 («1»), п. 4 (П/П1) и п. 5 печатаются по центру горизонтального объединения двух колонок; текстовый слой разносит их слова по колонкам («Внимание! При использо / вании ОГП модификации…», «П — модификация для у / становки на провод или…», «Точное обозначение диа / метра провода…»). Значения сохранены в сетке как есть; при чтении строки образуют цельный текст: примечание «Внимание! При использовании ОГП модификации П или П1 для выбора № плашки необходимо прибавлять 6,0 мм к диаметру (D) провода, троса или кабеля», П — модификация для установки на провод или ОКГТ, П1 — модификация для установки на трос или ОКСН, п. 5 — точное обозначение диаметра провода, троса или кабеля, на который устанавливается изделие, мм.",
+        "Ячейки «№ п/п» и «Наименование» п. 2 вертикально объединены на три физические строки (подтверждено геометрией merged_cells); значение повторено во всех трёх строках.",
+        "В нижней таблице ячейки L и «Масса, кг, не более» вертикально объединены группами (175 / 3,7 — строки 1–3; 350 / 8,47 — 4–6; 410 / 13,15 — 7–10; 425 / 18,38 — 11–14); значение повторено в каждой покрытой строке.",
+        "Единица измерения «мм» в нижней таблице задана группой заголовка «Основные размеры, мм»; «не более» оставлено в заголовке колонки массы как условие.",
+        "Заголовок «Марка ОГК» набран кириллицей (О, Г, К), хотя в обозначениях изделий используется аббревиатура ОГП — расхождение сохранено как в источнике.",
+        "Источник печатает «П1— модификация» без пробела перед тире — сохранено буквально.",
+        "Сноска к нижней таблице содержит опечатку «см. пример обозначения и. пп. 4, 5» — сохранена буквально."
+      ],
+      "after": [
+        "Номер печатной страницы в колонтитуле источника: 238.",
+        "В нижней таблице ячейки L и «Масса, кг, не более» вертикально объединены группами (175 / 3,7 — строки 1–3; 350 / 8,47 — 4–6; 410 / 13,15 — 7–10; 425 / 18,38 — 11–14); значение повторено в каждой покрытой строке.",
+        "Единица измерения «мм» в нижней таблице задана группой заголовка «Основные размеры, мм»; «не более» оставлено в заголовке колонки массы как условие.",
+        "Заголовок «Марка ОГК» набран кириллицей (О, Г, К), хотя в обозначениях изделий используется аббревиатура ОГП — расхождение сохранено как в источнике.",
+        "Источник печатает «П1— модификация» без пробела перед тире — сохранено буквально.",
+        "Сноска к нижней таблице содержит опечатку «см. пример обозначения и. пп. 4, 5» — сохранена буквально.",
+        "Верхняя физическая таблица с вложенной сеткой нормализована:5полей обозначения в3колонки и4строки плашек в2колонки. В позиции5 текст объединён по двум правым физическим областям;отдельного значения справа нет,поэтому cells.c2 blank. Общие заголовки и длинные слова не разрезаются на отдельные факты."
+      ]
+    },
+    {
+      "path": ".tables",
+      "before": [
+        {
+          "id": "t0",
+          "title": "Расшифровка обозначения ОГП",
+          "columns": [
+            {
+              "id": "c0",
+              "label": "№ п/п",
+              "unit": null,
+              "group": null,
+              "qualifier": null
+            },
+            {
+              "id": "c1",
+              "label": "Наименование",
+              "unit": null,
+              "group": null,
+              "qualifier": null
+            },
+            {
+              "id": "c2",
+              "label": "Технические характеристики",
+              "unit": null,
+              "group": null,
+              "qualifier": null
+            },
+            {
+              "id": "c3",
+              "label": "Технические характеристики",
+              "unit": "мм",
+              "group": null,
+              "qualifier": null
+            }
+          ],
+          "rows": [
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "№ п/п",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "Наименование",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": "Технические х",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": "арактеристики",
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "1",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "Типономинал изделия",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": "ОГП-1, ОГП-3,",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": "ОГП-5, ОГП-7",
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "2",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "№ плашки,\nобозначающий\nпосадочный диаметр\nпровода, троса или\nкабеля (D)",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": "№ плашки",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": "Диаметр, D, мм",
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "2",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "№ плашки,\nобозначающий\nпосадочный диаметр\nпровода, троса или\nкабеля (D)",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": "10 – 13\n16 – 20\n23 – 31\n32 – 46",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": "9,0 – 15,0\n14,5 – 22,0\n20,1 – 32,0\n29,0 – 46,0",
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "2",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "№ плашки,\nобозначающий\nпосадочный диаметр\nпровода, троса или\nкабеля (D)",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": "Внимание! При использо\nП или П1 для выбора\nприбавлять 6,0 мм к диа\nили к",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": "вании ОГП модификации\n№ плашки необходимо\nметру (D) провода, троса\nабеля",
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "3",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "Модификация изделия",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": "1",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": null,
+                  "state": "blank"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "4",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "Буквенное обозначение\nмодификации ОГП\nс интегрированным\nпротектором",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": "П — модификация для у\nОК\nП1— модификация для ус",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": "становки на провод или\nГТ\nтановки на трос или ОКСН",
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "5",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "Точное обозначение диа\nуста",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": "метра провода, троса ил\nнавливается изделие, м",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": "и кабеля, на который\nм",
+                  "state": "value"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "t1",
+          "title": "Типовые марки ОГП: основные размеры и масса",
+          "columns": [
+            {
+              "id": "c0",
+              "label": "№",
+              "unit": null,
+              "group": null,
+              "qualifier": null
+            },
+            {
+              "id": "c1",
+              "label": "Марка ОГК",
+              "unit": null,
+              "group": null,
+              "qualifier": null
+            },
+            {
+              "id": "c2",
+              "label": "L",
+              "unit": "мм",
+              "group": "Основные размеры, мм",
+              "qualifier": null
+            },
+            {
+              "id": "c3",
+              "label": "Н",
+              "unit": "мм",
+              "group": "Основные размеры, мм",
+              "qualifier": null
+            },
+            {
+              "id": "c4",
+              "label": "Масса",
+              "unit": "кг",
+              "group": null,
+              "qualifier": "не более"
+            }
+          ],
+          "rows": [
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "1",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "ОГП-1-10/13-1*",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": "175",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": "120",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c4",
+                  "value": "3,7",
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "2",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "ОГП-1-16/20-1*",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": "175",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": "129",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c4",
+                  "value": "3,7",
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "3",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "ОГП-1-23/31-1*",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": "175",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": "166",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c4",
+                  "value": "3,7",
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "4",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "ОГП-3-10/13-1*",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": "350",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": "129",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c4",
+                  "value": "8,47",
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "5",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "ОГП-3-16/20-1*",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": "350",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": "138",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c4",
+                  "value": "8,47",
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "6",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "ОГП-3-23/31-1*",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": "350",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": "175",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c4",
+                  "value": "8,47",
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "7",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "ОГП-5-16/20-1*",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": "410",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": "147",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c4",
+                  "value": "13,15",
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "8",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "ОГП-5-23/31-1*",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": "410",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": "184",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c4",
+                  "value": "13,15",
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "9",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "ОГП-5-23/35-1*",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": "410",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": "184",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c4",
+                  "value": "13,15",
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "10",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "ОГП-5-32/46-1*",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": "410",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": "219",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c4",
+                  "value": "13,15",
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "11",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "ОГП-7-16/20-1*",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": "425",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": "158",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c4",
+                  "value": "18,38",
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "12",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "ОГП-7-23/31-1*",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": "425",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": "195",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c4",
+                  "value": "18,38",
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "13",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "ОГП-7-23/35-1*",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": "425",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": "195",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c4",
+                  "value": "18,38",
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "14",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "ОГП-7-32/46-1*",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": "425",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": "230",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c4",
+                  "value": "18,38",
+                  "state": "value"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "after": [
+        {
+          "id": "designation",
+          "title": "Расшифровка обозначения ОГП",
+          "columns": [
+            {
+              "id": "c0",
+              "label": "№ п/п",
+              "unit": null,
+              "group": null,
+              "qualifier": null
+            },
+            {
+              "id": "c1",
+              "label": "Наименование",
+              "unit": null,
+              "group": null,
+              "qualifier": null
+            },
+            {
+              "id": "c2",
+              "label": "Технические характеристики",
+              "unit": null,
+              "group": null,
+              "qualifier": null
+            }
+          ],
+          "rows": [
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "1",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "Типономинал изделия",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": "ОГП-1, ОГП-3, ОГП-5, ОГП-7",
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "2",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "№ плашки, обозначающий посадочный диаметр провода, троса или кабеля (D)",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": "Диапазоны приведены в таблице плашек. Внимание! При использовании ОГП модификации П или П1 для выбора № плашки необходимо прибавлять 6,0 мм к диаметру (D) провода, троса или кабеля.",
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "3",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "Модификация изделия",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": "1",
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "4",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "Буквенное обозначение модификации ОГП с интегрированным протектором",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": "П — модификация для установки на провод или ОКГТ. П1— модификация для установки на трос или ОКСН.",
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "5",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "Точное обозначение диаметра провода, троса или кабеля, на который устанавливается изделие, мм",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": null,
+                  "state": "blank"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "jaws",
+          "title": "Позиция2 расшифровки обозначения ОГП: посадочные диаметры",
+          "columns": [
+            {
+              "id": "c0",
+              "label": "№ плашки",
+              "unit": null,
+              "group": null,
+              "qualifier": null
+            },
+            {
+              "id": "c1",
+              "label": "Диаметр, D",
+              "unit": "мм",
+              "group": null,
+              "qualifier": null
+            }
+          ],
+          "rows": [
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "10 – 13",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "9,0 – 15,0",
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "16 – 20",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "14,5 – 22,0",
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "23 – 31",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "20,1 – 32,0",
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "32 – 46",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "29,0 – 46,0",
+                  "state": "value"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "t1",
+          "title": "Типовые марки ОГП: основные размеры и масса",
+          "columns": [
+            {
+              "id": "c0",
+              "label": "№",
+              "unit": null,
+              "group": null,
+              "qualifier": null
+            },
+            {
+              "id": "c1",
+              "label": "Марка ОГК",
+              "unit": null,
+              "group": null,
+              "qualifier": null
+            },
+            {
+              "id": "c2",
+              "label": "L",
+              "unit": "мм",
+              "group": "Основные размеры, мм",
+              "qualifier": null
+            },
+            {
+              "id": "c3",
+              "label": "Н",
+              "unit": "мм",
+              "group": "Основные размеры, мм",
+              "qualifier": null
+            },
+            {
+              "id": "c4",
+              "label": "Масса",
+              "unit": "кг",
+              "group": null,
+              "qualifier": "не более"
+            }
+          ],
+          "rows": [
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "1",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "ОГП-1-10/13-1*",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": "175",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": "120",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c4",
+                  "value": "3,7",
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "2",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "ОГП-1-16/20-1*",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": "175",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": "129",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c4",
+                  "value": "3,7",
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "3",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "ОГП-1-23/31-1*",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": "175",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": "166",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c4",
+                  "value": "3,7",
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "4",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "ОГП-3-10/13-1*",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": "350",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": "129",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c4",
+                  "value": "8,47",
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "5",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "ОГП-3-16/20-1*",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": "350",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": "138",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c4",
+                  "value": "8,47",
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "6",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "ОГП-3-23/31-1*",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": "350",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": "175",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c4",
+                  "value": "8,47",
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "7",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "ОГП-5-16/20-1*",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": "410",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": "147",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c4",
+                  "value": "13,15",
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "8",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "ОГП-5-23/31-1*",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": "410",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": "184",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c4",
+                  "value": "13,15",
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "9",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "ОГП-5-23/35-1*",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": "410",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": "184",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c4",
+                  "value": "13,15",
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "10",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "ОГП-5-32/46-1*",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": "410",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": "219",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c4",
+                  "value": "13,15",
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "11",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "ОГП-7-16/20-1*",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": "425",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": "158",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c4",
+                  "value": "18,38",
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "12",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "ОГП-7-23/31-1*",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": "425",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": "195",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c4",
+                  "value": "18,38",
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "13",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "ОГП-7-23/35-1*",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": "425",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": "195",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c4",
+                  "value": "18,38",
+                  "state": "value"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "column_id": "c0",
+                  "value": "14",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c1",
+                  "value": "ОГП-7-32/46-1*",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c2",
+                  "value": "425",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c3",
+                  "value": "230",
+                  "state": "value"
+                },
+                {
+                  "column_id": "c4",
+                  "value": "18,38",
+                  "state": "value"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": ".text_blocks",
+      "before": [
+        {
+          "kind": "heading",
+          "text": "ЛИНЕЙНАЯ АРМАТУРА ДЛЯ ВЛ / АРМАТУРА ЗАЩИТНАЯ"
+        },
+        {
+          "kind": "branding",
+          "text": "ФОРЭНЕРГО — Производственное объединение"
+        },
+        {
+          "kind": "branding",
+          "text": "FORENERGO INDUSTRIAL GROUP"
+        },
+        {
+          "kind": "heading",
+          "text": "Ограничители гололедообразования и пляски типа ОГП"
+        },
+        {
+          "kind": "heading",
+          "text": "НАЗНАЧЕНИЕ:"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Предназначены для уменьшения массы гололеда на проводах, тросах и оптических кабелях связи на ВЛ, а также уменьшения вероятности возникновения пляски, вызванной ветром. Изготавливаются по ТУ 3449-002-52819896-2022."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Пример обозначения: ОГП - 3 - 23/31 - 1 (позиции расшифровываются по пп. 1, 2, 3)"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Пример обозначения с интегрированным протектором: ОГП - 3 - 23/31 - 1 - П(15,2) (дополнительные позиции 4 и 5 — буква модификации и точное обозначение диаметра провода)"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Сноска к таблице: при обозначении ОГП с интегрированным протектором к наименованию добавляется «П» или «П1» и диаметр провода, троса или кабеля, см. пример обозначения и. пп. 4, 5. По умолчанию изделие комплектуется протектором длиной 500 мм."
+        },
+        {
+          "kind": "footer",
+          "text": "Колонтитул: ООО «МЗВА-ЧЭМЗ»"
+        },
+        {
+          "kind": "footer",
+          "text": "Тел./ факс: +7 (495) 780-51-65, e-mail: zakaz@mzva.ru"
+        },
+        {
+          "kind": "footer",
+          "text": "www.mzva.ru"
+        }
+      ],
+      "after": [
+        {
+          "kind": "heading",
+          "text": "ЛИНЕЙНАЯ АРМАТУРА ДЛЯ ВЛ / АРМАТУРА ЗАЩИТНАЯ"
+        },
+        {
+          "kind": "branding",
+          "text": "ФОРЭНЕРГО — Производственное объединение"
+        },
+        {
+          "kind": "branding",
+          "text": "FORENERGO INDUSTRIAL GROUP"
+        },
+        {
+          "kind": "heading",
+          "text": "Ограничители гололедообразования и пляски типа ОГП"
+        },
+        {
+          "kind": "heading",
+          "text": "НАЗНАЧЕНИЕ:"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Предназначены для уменьшения массы гололеда на проводах, тросах и оптических кабелях связи на ВЛ, а также уменьшения вероятности возникновения пляски, вызванной ветром. Изготавливаются по ТУ 3449-002-52819896-2022."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Пример обозначения: ОГП - 3 - 23/31 - 1 (позиции расшифровываются по пп. 1, 2, 3)"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Пример обозначения с интегрированным протектором: ОГП - 3 - 23/31 - 1 - П(15,2) (дополнительные позиции 4 и 5 — буква модификации и точное обозначение диаметра провода)"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Сноска к таблице: при обозначении ОГП с интегрированным протектором к наименованию добавляется «П» или «П1» и диаметр провода, троса или кабеля, см. пример обозначения и. пп. 4, 5. По умолчанию изделие комплектуется протектором длиной 500 мм."
+        },
+        {
+          "kind": "footer",
+          "text": "ООО «МЗВА-ЧЭМЗ»"
+        },
+        {
+          "kind": "footer",
+          "text": "Тел./ факс: +7 (495) 780-51-65, e-mail: zakaz@mzva.ru"
+        },
+        {
+          "kind": "footer",
+          "text": "www.mzva.ru"
+        },
+        {
+          "kind": "footer",
+          "text": "238"
+        }
+      ]
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independent_review_required": true,
+  "unresolved_issues": [],
+  "acceptance_note": "No PASS issued. Corrected content, engineering drawing relations, and uncertainties require independent source review.",
+  "completed_at": "2026-10-14T13:50:41.596817+03:00",
+  "private_original_receipt_sha256": "14fa2b4d12d05c50bd86e064857ee1fca0dfe690b6723ff14c84595e726ca64b"
+}

@@ -1,0 +1,73 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 160,
+  "printed_page": "159",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-0160-native-candidate.json",
+    "sha256": "997bfecf388adfeed39fa618bd32b154b19d3f5292ad4005af84663b2214e0b9",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.8",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "56b47ab11c142fdd0d89ade636eb52fff30220c3425401678e2bf74c18b69c62",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "997bfecf388adfeed39fa618bd32b154b19d3f5292ad4005af84663b2214e0b9",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 160,
+      "attempt": 2,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "ad43db8eeb96f6a5b1aab82eb07fb8d999a3c90cd9e1f094a41f378634f1d7ae",
+      "receipt": "calls/55b85ef532f6438bb7c149dbdda21cfa/result.json",
+      "started_at": 1791947230.7806067,
+      "finished_at": 1791947313.2092514
+    }
+  },
+  "output": {
+    "file": "armature-0160-reviewed.json",
+    "sha256": "21a7c2f6b8a5a66a6d66f4e57e2158a455cfa9c0fe1fb4a5f34c17a22eb81ee8"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "4835cee83c46d6a4e52687838cf543f10ff689398fab93a6c3362b8531e68290",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [],
+    "column_counts": [],
+    "cells_checked": 0
+  },
+  "source_findings": [
+    "Полная оригинальная страница просмотрена. Таблиц и размерных чертежей нет. Все абзацы назначения, два защитных эффекта, изготовление по проектным размерам, ТУ 3449-001-52819896-2018 и пример ШСИП-110-(10,5-12)-1-7 с пятью расшифровками сверены.",
+    "Все фирменные плашки, кириллические и латинские надписи, производитель, телефон, e-mail info@mzva.ru, сайт и печатная 159 сохранены. Фото не даёт оснований для определения конкретной операции человека."
+  ],
+  "corrections": [
+    "Исправлен почти нулевой bbox заголовка изделия.",
+    "Фотография отнесена к supporting_material; удалены неподтверждённые утверждения о сидящем человеке, работе на проводе и распространении всех плашек на издателя в целом."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T14:27:13.813908+03:00",
+  "private_original_receipt_sha256": "78f915fde83e0fd3524dc75356a677df2b3cf4d319efd47ba7295dbfc62ee3b2"
+}

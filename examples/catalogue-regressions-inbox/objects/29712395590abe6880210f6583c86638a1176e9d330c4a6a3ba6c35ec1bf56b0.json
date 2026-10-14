@@ -1,0 +1,80 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 156,
+  "printed_page": "155",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-0156-native-candidate.json",
+    "sha256": "90ff32ce5c4a45af1d1757af15c437e3fe48d35164ad665f62545d62c211cd19",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.8",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "56b47ab11c142fdd0d89ade636eb52fff30220c3425401678e2bf74c18b69c62",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "90ff32ce5c4a45af1d1757af15c437e3fe48d35164ad665f62545d62c211cd19",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 156,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "ad43db8eeb96f6a5b1aab82eb07fb8d999a3c90cd9e1f094a41f378634f1d7ae",
+      "receipt": "calls/794b3d5f44994200b859c1e06ffa0b3e/result.json",
+      "started_at": 1791947047.5000248,
+      "finished_at": 1791947264.425244
+    }
+  },
+  "output": {
+    "file": "armature-0156-reviewed.json",
+    "sha256": "c41f38de4eb460e2f63cfc3628fcf54efcc4e49579e6de69cba28aa9f11e6acc"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "c5dd8477c903ecaf6cda2e908a189cf2703264bd4e554434bc614574808e08ec",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      9
+    ],
+    "column_counts": [
+      11
+    ],
+    "cells_checked": 99
+  },
+  "source_findings": [
+    "Полная страница и увеличенный правый фрагмент просмотрены; все 99 ячеек 9×11 сверены. Значения МШ-26, МШ-25, МШ-29,4 и НАС-50-1Б / 95-1Б / 120-1Б / 150-1Б, все размеры и массы native совпадают и сохранены.",
+    "Объединения строк 120/19 / 120/27 и 150/19 / 150/24 / 150/34 подтверждены границами ячеек. Единицы мм², мм, кг и ограничение массы при L=7 м, не более, сверены.",
+    "Все стрелки, выноски 1 / 2, размер 5, дуговая L, вид A и принадлежность D проверены по контурам; ТУ на странице нет, не добавлялось. Назначение, монтаж НАС-1Б, контакты info@mzva.ru и печатная 155 сверены."
+  ],
+  "corrections": [
+    "Размер 5 ошибочно объявлен позицией снятой изоляции; он задаёт толщину изоляции.",
+    "Два конца одного шлейфа ошибочно названы зеркальными видами, а натяжные НАС смешаны с концевыми зажимами шлейфа.",
+    "Исправлены базы L1 / L4 и L2 / L3, диаметр D принадлежит штырю, а не проводнику. Знак поворота вида A распознан.",
+    "Выдуманная расшифровка бренда «промышленная электроника» удалена; подпись «Направление опрессования» приведена к источнику."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T14:29:00.171353+03:00",
+  "private_original_receipt_sha256": "0691708d7ba76f5f170416a75ebc997df0b58d5e6da44c7a464db09a9b15f66d"
+}

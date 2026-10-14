@@ -1,0 +1,36 @@
+{
+  "id": "arm214-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "Арматура214: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 214
+  },
+  "review_basis": "[\"Все54 ячейки6×9 проверены. Повторная марка3А2А-500-4Т с другим проводом/массой сохранена.\", \"Последняя строка L300/L1466, а не400/400; масса6,2. В строках500 исходный300/204 сохранён буквально.\", \"Наклонные L и горизонтальный L1 относятся к осям круглых проходов, L2 к прямой опрессовываемой части.\"] Исправления: [\"Исправлена подмена цифры3 кириллическойЗ в марках3А2А и противоречащее source_note.\", \"Исправлена выдуманная расшифровка бренда; восстановлена printed_page213.\", \"Убраны неподтверждённые зенковки и разворачивающийся механизм; L2 привязан к прямому участку опрессования.\", \"Единицы мм из шапки присвоены L/L1/L2, а к буквальным подписям60 не добавлены.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/775224a5d5de92b0df50f7b649d6623f1a303de1baa6c1249507f99daf42b654.json",
+      "sha256": "775224a5d5de92b0df50f7b649d6623f1a303de1baa6c1249507f99daf42b654",
+      "bytes": 17626,
+      "role": "native-candidate",
+      "program_version": "1.5.13"
+    },
+    {
+      "path": "objects/3455e0837f9a3dcf889dc0f11eb709a79001c2594c07238141ff6a2ffbdc9f17.json",
+      "sha256": "3455e0837f9a3dcf889dc0f11eb709a79001c2594c07238141ff6a2ffbdc9f17",
+      "bytes": 14952,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/ddbf710f4d2de0149b42bfec4003afb8cd2c7567bcb28769821b2980db69e19e.json",
+      "sha256": "ddbf710f4d2de0149b42bfec4003afb8cd2c7567bcb28769821b2980db69e19e",
+      "bytes": 3651,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

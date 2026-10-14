@@ -1,0 +1,85 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 288,
+  "printed_page": "287",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r2",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-0288-native-candidate.json",
+    "sha256": "982d0c87cfd46f40206d7cf979841788180f64b1fe544690b2c230c54140a9a5",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.17",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "250a5f879c4c07bb339e5791b2e6b59062426df6bcef56df7b50cb0af47cfc87",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "982d0c87cfd46f40206d7cf979841788180f64b1fe544690b2c230c54140a9a5",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 288,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "5f66dfaacd6c43b74ca531095c704b2a738db593b26901fc493f46c9409796e6",
+      "receipt": "calls/3130cc04f099422c99e89090d57c39bf/result.json",
+      "started_at": 1791963809.2087963,
+      "finished_at": 1791964164.9703398
+    }
+  },
+  "output": {
+    "file": "armature-0288-reviewed-r2.json",
+    "sha256": "55d620f0e28159807caebf1df2b6e22f6997748baf70d7855b8b68ca072eba73"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "e4fb74113fe2f543b2bb1474eb49b96ed80452159b9ae115f5031c77ca33c7ae",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      9
+    ],
+    "column_counts": [
+      6
+    ],
+    "cells_checked": 54
+  },
+  "source_findings": "Все 54 ячейки (9×6) сверены: диапазоны 8–12…37,1–40, масса 14,45 для первых двух строк, затем 14,40/14,35/14,25/14,20/14,15/14,05/14,00. Общие вертикальные объединения 35–750, I–VII, УХЛ1 распространены на девять строк; масса первых двух строк объединена. Единица для класса напряжения в шапке отсутствует и не добавлена. Проверены СТО, ИКАО, ТУ, перечень цветов, преимущества и примечание о пластиковых маркерах на ВЛ 220 кВ и выше. Фото отделено от реального чертежа; размерные привязки подтверждены drawing.png. Исправленный чертёж не объявляется независимо принятым. Повторно просмотрен полный оригинал для ревизии r2. В summary и source_evidence[0] исправлено оставшееся описание «фрагментов крепления»: изображено увеличение нижнего светильника того же единственного шара. Согласовано с уже исправленным figures.",
+  "corrections": [
+    "Фото одного изделия ошибочно описывалось как два шара с увеличениями креплений; исправлено на один шар и увеличение нижнего светильника.",
+    "Ø650 ошибочно относился к сфере; привязан к крайним точкам экваториального пояса. min 600 и min 705 связаны со сферой и полным габаритом со светильником.",
+    "Выноска D проверена на увеличении: центральное сечение провода; устранена прежняя неопределённость.",
+    "Исправлено выдуманное русское пояснение бренда.",
+    "В summary и source_evidence[0] исправлено оставшееся описание «фрагментов крепления»: изображено увеличение нижнего светильника того же единственного шара. Согласовано с уже исправленным figures."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T10:57:50.392498+00:00",
+  "revision": {
+    "number": 2,
+    "previous_output_file": "armature-0288-reviewed.json",
+    "previous_output_sha256": "58ca67a79d87b7431c8dc96524b71a4dcc1ea6a0e9a7caa248e729412c47bc33",
+    "previous_source_review_file": "armature-0288-source-review.json",
+    "trigger": "Independent original-image review by catalog_tail_mod1",
+    "correction": "В summary и source_evidence[0] исправлено оставшееся описание «фрагментов крепления»: изображено увеличение нижнего светильника того же единственного шара. Согласовано с уже исправленным figures."
+  },
+  "private_original_receipt_sha256": "5743665afb8b97454de2b21cc441dbd0f337511b62b776c8716730aaddc2f080"
+}

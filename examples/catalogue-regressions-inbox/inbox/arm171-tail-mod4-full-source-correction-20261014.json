@@ -1,0 +1,36 @@
+{
+  "id": "arm171-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "Арматура171: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 171
+  },
+  "review_basis": "Целиком сверены назначение, оба преимущества изоляции, ТУ 2018 и пример заказа с диапазоном 21–22,5, классом 220, модификацией 1 и длиной7 м. Фото и три знака проверены. Таблиц и чертёжных размеров нет. Номер170 и контакты с info@mzva.ru совпадают. Исправления: [{\"path\": \"text_blocks/figures/source_notes/page_context.source_evidence\", \"reason\": \"Убраны два отсутствующих логотипа и выдуманная петля изолятора; область доказательства охватывает все утверждения.\"}] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/7e42a2bc8e0d8e0f97a89029148ded146a4186f6bca081c3d772c7d8207a8faf.json",
+      "sha256": "7e42a2bc8e0d8e0f97a89029148ded146a4186f6bca081c3d772c7d8207a8faf",
+      "bytes": 9562,
+      "role": "native-candidate",
+      "program_version": "1.5.9"
+    },
+    {
+      "path": "objects/8f2f1fad6692d1e3042dfa71eb903bc83ffaf59d2c077f90283350f5d9f903e0.json",
+      "sha256": "8f2f1fad6692d1e3042dfa71eb903bc83ffaf59d2c077f90283350f5d9f903e0",
+      "bytes": 7907,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-20261014.r6"
+    },
+    {
+      "path": "objects/f8436384dcb8a95f671496b07c79749e6accca69f7b137c93c43cf568f0fe797.json",
+      "sha256": "f8436384dcb8a95f671496b07c79749e6accca69f7b137c93c43cf568f0fe797",
+      "bytes": 19007,
+      "role": "source-review",
+      "program_version": "tail-mod3-20261014.r6"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 195,
+  "printed_page": "194",
+  "status": "awaiting_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod3",
+    "task": "/root/catalog_tail_mod3",
+    "version": "tail-mod3-20261014.r5",
+    "model_id": "Current native Codex worker session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-195-candidate.json",
+    "sha256": "d5cd29a0c52ffbebf2ab330f34dc3ab957ffc8e150a2890a6cea0e5b93c58f21",
+    "canonical_sha256": "29278948e1e8e0dcf4221682e8f895a4318f2d24b7b854f79189fac6a963b675",
+    "producer": {
+      "program": {
+        "package_version": "1.5.13",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "388e4b7dea7fc75a16d8aeee3f64f722f70d0518bda21b5ea9121fd690d0cc26",
+        "python_version": "3.12.13"
+      },
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 195,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4dfdf43954cb8adf1b11456ab3262a152d1ef2fea7fdfb31ebca498d2e6cbeb7",
+      "artifact_sha256": "d5cd29a0c52ffbebf2ab330f34dc3ab957ffc8e150a2890a6cea0e5b93c58f21",
+      "started_at": 1791954285.2723377,
+      "finished_at": 1791954341.4818547,
+      "provider_rate_limit_events": 0,
+      "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46",
+      "status": "receipt_verified",
+      "source_bound_save": true,
+      "receipt": ".tmp/full-digitization/staged-best-v1.4.8/armature/page-0195/calls/112a4ce097a54823bdf1f85d80190e24/result.json",
+      "frozen_receipt": "armature-195-native-receipt.json",
+      "frozen_receipt_sha256": "c066a0504dc1adb4f19545044366de07688d39e7a0bd6247c92d7ca008109951"
+    }
+  },
+  "output": {
+    "file": "armature-195-reviewed.json",
+    "sha256": "b589fc66243ac317a5c74ba8004981510e59ee46d8b3e0c096a94d6533eda24a",
+    "canonical_sha256": "9a93761042765d789433bfcc202648a9dfea98e09634ff9b20413f84cb35c295"
+  },
+  "full_original_image_review": true,
+  "original_image": "armature-195.png",
+  "original_image_sha256": "d526a18094c83b49448cbece744ec06238797310a187ab13af1ebe955af10228",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "page_content_schema": true
+  },
+  "tables": {
+    "row_counts": [
+      3
+    ],
+    "column_counts": [
+      4
+    ],
+    "cells_checked": 12
+  },
+  "source_findings": "Все12ячеек3×4 и все14 пар сечение/диаметр внутри многострочных ячеек сверены. Сохранены185/24→18,9 и185/29→18,8,массы2,2/2,15/2,1. ОРУ без разрезания и без опрессовочного агрегата,ТУ2010,напыление меди и до50лет подтверждены. Все три проекции и200/190/111/70/45/45/Ø14 сверены по концам линий.",
+  "corrections": [
+    {
+      "path": "branding/printed_page/evidence/figures",
+      "reason": "Убраны выдуманный логотип, два провода и шпилька;200 габарит,45 межосевые,70 между рядами крепежей; bbox шапки исправлена."
+    }
+  ],
+  "complete_leaf_diff": [
+    {
+      "path": ".figures[0].description",
+      "before": "Верхний левый вид: зажим на пакете из двух параллельных алюминиевых проводов (показаны штрихпунктиром, с участками «x x x» по краям), три болтовых зажима; под корпусом наклонная ответвительная пластина с четырьмя круглыми отверстиями диаметра 14 мм (4 отв.). Размер 200 — расстояние между крайними болтами по верхней стороне зажима; два размера 45 — ширины верхней и нижней наклонных сторон пластины. Справа вид с торца: зажим на проводе, вертикальная шпилька с гайкой вниз, вертикальный размер 190 — полная высота зажима со шпилькой. Нижний вид (план): корпус с тремя верхними круглыми болтовыми головками (концентрические окружности) и тремя нижними шестигранными головками, в центре прямоугольная пластина с отверстием по оси провода; слева две вертикальные размерные линии: 111 — полная ширина корпуса, 70 — расстояние между осями крайних верхних болтов. Чертёж выполнен линиями, без указания базисов и класса точности.",
+      "after": "Три ортогональных вида ОАБ на одном магистральном проводе; две параллельные границы его изображения не означают два провода. 200 — полная продольная ширина корпуса между крайними выносными, а не расстояние между осями крайних болтов. На ответвительной контактной пластине четыре отверстия Ø14; два размера45 — межосевые отверстий в двух взаимно перпендикулярных направлениях, а не ширины краёв пластины. Торцевой вид справа:190 от верхнего контура корпуса до нижнего края контактной пластины, видимой ребром; выступающая сверху головка болта не входит в190, длинная нижняя часть не названа шпилькой. Нижний план:111 — полный поперечный габарит корпуса,70 — расстояние между осями верхнего и нижнего ряда крепежей. Явных единиц у этих рисунковых чисел не напечатано."
+    },
+    {
+      "path": ".figures[0].labels",
+      "before": [
+        "размер 200",
+        "размер 190",
+        "размер 45",
+        "размер 45",
+        "Ø14",
+        "4 отв.",
+        "размер 111",
+        "размер 70",
+        "x x x x x x"
+      ],
+      "after": [
+        "200",
+        "190",
+        "45",
+        "45",
+        "Ø14",
+        "4 отв.",
+        "111",
+        "70"
+      ]
+    },
+    {
+      "path": ".page_context.source_evidence[0].box[1]",
+      "before": 0.115,
+      "after": 0.02
+    },
+    {
+      "path": ".page_context.source_evidence[0].box[2]",
+      "before": 0.32,
+      "after": 0.92
+    },
+    {
+      "path": ".page_context.source_evidence[0].box[3]",
+      "before": 0.23,
+      "after": 0.115
+    },
+    {
+      "path": ".printed_page",
+      "before": "стр. 194",
+      "after": "194"
+    },
+    {
+      "path": ".text_blocks[1].text",
+      "before": "ФОРЭНЕРГО — промышленность и оборудование | FORENERGO industrial group",
+      "after": "ФОРЭНЕРГО производственное объединение / FORENERGO® industrial group"
+    },
+    {
+      "path": ".text_blocks[3].text",
+      "before": "МЗВА НОВОГО ПОКОЛЕНИЯ",
+      "after": "МЗВА ЧЭМЗ — АРМАТУРА НОВОГО ПОКОЛЕНИЯ"
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independent_review_required": true,
+  "unresolved_issues": [],
+  "acceptance_note": "No PASS issued. Corrected content, engineering drawing relations, and uncertainties require independent source review.",
+  "completed_at": "2026-10-14T14:13:40.891150+03:00",
+  "private_original_receipt_sha256": "09d196e5a930c98553d09bafcaed47db35171444392847862904066e9ee9bb74"
+}

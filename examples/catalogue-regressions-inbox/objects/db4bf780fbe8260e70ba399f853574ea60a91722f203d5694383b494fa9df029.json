@@ -1,0 +1,125 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 197,
+  "printed_page": "196",
+  "status": "author_source_review_complete_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod1",
+    "task": "/root/catalog_tail_mod1",
+    "version": "tail-mod1-20261014.r1",
+    "model_id": "Current native Codex session;exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-197-candidate.json",
+    "sha256": "e1da3a9bd5aa0e2a565fe42dc7566e12c4825397fc2ef2eedc6c8950b0f73827",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.13",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "388e4b7dea7fc75a16d8aeee3f64f722f70d0518bda21b5ea9121fd690d0cc26",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "e1da3a9bd5aa0e2a565fe42dc7566e12c4825397fc2ef2eedc6c8950b0f73827",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 197,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4dfdf43954cb8adf1b11456ab3262a152d1ef2fea7fdfb31ebca498d2e6cbeb7",
+      "receipt": "calls/b6a73dce9c1845bdb9f662a902543e43/result.json",
+      "started_at": 1791954977.5962334,
+      "finished_at": 1791955073.3013084
+    },
+    "receipt_file": "armature-197-producer-receipt.json",
+    "receipt_sha256": "11a80e57ca83e2ce2fff6de927d7dc96c5f3b56aa8242112dd78570808101713",
+    "receipt_artifact_equals_candidate": true
+  },
+  "output": {
+    "file": "armature-197-reviewed.json",
+    "sha256": "feb6c3abfd52b8728d3b028bff752ce3ddd9e165d3059a447ec142564b52c6c9",
+    "author": "catalog_tail_mod1"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "96af2d883c5ba42f7e95ba46607b8b3ddc87ed2a0bc53ee1bed73ac191d7ff25",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "pagecontent_schema_valid": true
+  },
+  "tables": {
+    "row_counts": [
+      8
+    ],
+    "column_counts": [
+      9
+    ],
+    "cells_checked": 72
+  },
+  "source_findings": "Проверены все 8×9=72 ячейки. Смешанные кириллица/латиница марок проводов подтверждены текстовым слоем;6,4–6.9 сохранено буквально. Все L/L₁/S/D и массы0,039/0,040/0,039/0,041/0,043/0,044/0,057/0,074кг верны. Шапка мм действительно покрывает L/L₁/S,неD. Главная ошибка:плоская контактная лапка была названа цилиндрическим хвостовиком,Sдиаметром;исправлены владельцы45/38/41/Ø5/Ø14. Ложный слоган и выдуманная подписьL₁ удалены. Назначение одного провода,Т/Д,50лет,ТУ2010 проверены.",
+  "corrections": [
+    {
+      "path": "printed_page",
+      "before": null,
+      "after": "196"
+    },
+    {
+      "path": "text_blocks[1].text",
+      "before": "ФОРЭНЕРГО — федеральная сетевая компания; FORENERGO® industrial group",
+      "after": "ФОРЭНЕРГО производственное объединение / FORENERGO® industrial group"
+    },
+    {
+      "path": "figures[0].description",
+      "before": "Верхний вид — продольный разрез зажима: слева цилиндрический опрессовываемый хвостовик (в него вводится провод) диаметра S длиной 45 от торца до начала корпуса; справа корпус в штриховке с внутренним каналом и выходным торцом диаметра D. Размерные линии: S — диаметр хвостовика, 45 — длина хвостовика, L — полная длина зажима, D — диаметр выходного торца корпуса; осевая линия штрих-пунктирная. Нижний вид — план слева: корпус шириной 38 с круглым отверстием Ø14 на оси и со стороны опрессовки примыкает прямоугольная часть длиной 41; у края корпуса перед этой частью — круглое отверстие Ø5 (дренажное), вынесенное ломаной линией со стрелками. Стрелкой вправо указано «Направление опрессования». Допусков, указателей на вид и обозначений количества отверстий на чертеже нет; обозначения L, L₁, S, D, 38, 41, 45, Ø5, Ø14 соответствуют обозначениям и размерам таблицы типоразмеров.",
+      "after": "Два вида А1А. Верхний — продольный разрез: слева плоская контактная лапка, справа цилиндрическая гильза с посадочным каналом. S — толщина лапки, не диаметр хвостовика; 45 — длина её прямого плоского участка от левого торца до начала наклонного перехода. L — полный продольный габарит зажима; D — наружный диаметр гильзы. Нижний вид: ширина плоской контактной части 38, крепёжное отверстие Ø14, малое дренажное отверстие Ø5 перед прямой частью гильзы. 41 — длина прямого прессуемого участка справа от отверстия Ø5 до торца гильзы; стрелка опрессования вправо. L₁ напечатан в таблице, но на этом рисунке вместо него стоит фиксированный размер 41; отдельной метки L₁ на чертеже нет. Единицы L, L₁, S указаны в таблице как мм; D вынесен за пределы групповой шапки, отдельной единицы у него нет. Единицы фиксированных 45, 38, 41, Ø5, Ø14 отдельно не проставлены."
+    },
+    {
+      "path": "figures[0].labels",
+      "before": [
+        "S",
+        "L",
+        "L₁",
+        "D",
+        "Ø14",
+        "Ø5",
+        "Направление опрессования",
+        "размеры: 45 (хвостовик), 38 (ширина корпуса), 41 (опрессовываемая часть)"
+      ],
+      "after": [
+        "S",
+        "45",
+        "L",
+        "D",
+        "38",
+        "Ø14",
+        "Ø5",
+        "41",
+        "Направление опрессования"
+      ]
+    },
+    {
+      "path": "source_notes[4]",
+      "before": "Чертёж не содержит допусков, технических требований и указателей на вид; чисто числовые подписи (45, 38, 41) приведены в тексте описания фигуры, а не в списке текстовых меток.",
+      "after": "На рисунке только S,45,L,D,38,41,Ø5,Ø14 и стрелка опрессования. L₁ присутствует в таблице; приписывать его как буквальную подпись рисунка нельзя."
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "independent_review_required": true,
+  "independent_review_status": "pending",
+  "separate_model_review_of_root_edits": null,
+  "unresolved_issues": [
+    "Нужна независимая проверка авторского разбора и инженерных отношений."
+  ],
+  "completed_at": "2026-10-14T14:08:44.927185+03:00",
+  "private_original_receipt_sha256": "f00e44b88af354a52ae2b99b18fe7f166f303791d8b420074e960df3380fb6c0"
+}

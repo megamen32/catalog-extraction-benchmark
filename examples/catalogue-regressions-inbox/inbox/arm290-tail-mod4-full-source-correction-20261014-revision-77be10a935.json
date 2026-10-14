@@ -1,0 +1,36 @@
+{
+  "id": "arm290-tail-mod4-full-source-correction-20261014-revision-77be10a935",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "Арматура290: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 290
+  },
+  "review_basis": "Полный оригинал лично проверен:42×7 и5×5=319товарных ячеек. Первые6оцинкованных2,1/прочерки, далее2,8/3/3;длины350до20,500до29,700с30. Строка29 источник содержит несовпадение с маркой; №3x не переименован31. Пять тросовых строк и дискретная сноска длин сохранены. Размерных чертежей нет. Исправления: [\"Строка29: диапазон22,5-23,5 исправлен на фактически напечатанный21,5-22,5, хотя марка остаётся ПЗС-22,5-23,5-11.\", \"Удалена дублированная строка шапки из товарных строк второй таблицы.\", \"Выдуманное определение бренда снято; выбрации исправлено на видимое вибрации.\", \"Область source_evidence расширена на весь лист и согласована с перечисленными признаками.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/2e891c11a79c149f5361920a6eb2c958e9e440baff892f0531e8d0605149a24b.json",
+      "sha256": "2e891c11a79c149f5361920a6eb2c958e9e440baff892f0531e8d0605149a24b",
+      "bytes": 52243,
+      "role": "native-candidate",
+      "program_version": "1.5.17"
+    },
+    {
+      "path": "objects/77be10a93556f1222c2e82083ae2bc31bb7fa941325f4beea3ce92c5ec0cf01d.json",
+      "sha256": "77be10a93556f1222c2e82083ae2bc31bb7fa941325f4beea3ce92c5ec0cf01d",
+      "bytes": 50784,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/e4e70d1afb580d331086cfd3ca1820a2f6870fb8b76ce8120762f3bb5de5531f.json",
+      "sha256": "e4e70d1afb580d331086cfd3ca1820a2f6870fb8b76ce8120762f3bb5de5531f",
+      "bytes": 3951,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

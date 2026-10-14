@@ -1,0 +1,36 @@
+{
+  "id": "arm219-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "Арматура219: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 219
+  },
+  "review_basis": "Полностьюсверены108ячеек12×9,не13позиций. Рис1/2объединены2/2/6/2строки,H/B/D/массыпарныхрезьбовыхисполненийпроверены. S18толькоАШМ-5-2,S12остальные;L175впоследних8строках. Сохраненывсеd,включаяМ16х1,5/М20х1,5/М22х1,5. Чертежипластина60/80,отверстияØ12,5,45,85,S,L,D,d,H,В иА–А проверены;никакихшлицевнепридумано. Исправления: [{\"path\": \"text_blocks[1]\", \"reason\": \"Удаленавыдуманнаяфедеральнаясетеваякомпания.\"}, {\"path\": \"figures\", \"reason\": \"Пластинавместоштыря,штриховкавместовыдуманныхрадиальныхшлицев,подтверждены85/S иd/D.\"}] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/092853a3b5b37f2f24e35ccca2695f16ce6cfdc56ae267406825d9af3ac40ca0.json",
+      "sha256": "092853a3b5b37f2f24e35ccca2695f16ce6cfdc56ae267406825d9af3ac40ca0",
+      "bytes": 23422,
+      "role": "native-candidate",
+      "program_version": "1.5.13"
+    },
+    {
+      "path": "objects/f5887c62c402c747ad2d93bb6afa5f25e244218d9b9d0a5a2fe05470ab454845.json",
+      "sha256": "f5887c62c402c747ad2d93bb6afa5f25e244218d9b9d0a5a2fe05470ab454845",
+      "bytes": 23394,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-20261014.r4"
+    },
+    {
+      "path": "objects/c2b50237837addd84bd0cfa8564c0fad8dee3dbdb455628d7f688e196514b8df.json",
+      "sha256": "c2b50237837addd84bd0cfa8564c0fad8dee3dbdb455628d7f688e196514b8df",
+      "bytes": 10752,
+      "role": "source-review",
+      "program_version": "tail-mod3-20261014.r4"
+    }
+  ]
+}

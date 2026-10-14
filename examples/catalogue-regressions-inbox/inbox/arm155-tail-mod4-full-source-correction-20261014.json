@@ -1,0 +1,36 @@
+{
+  "id": "arm155-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "Арматура155: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 155
+  },
+  "review_basis": "Все 108 ячеек9×12 сверены. Шесть наименований:35/6,2;50/8;70/11;95/16;120/19+120/27;150/19+150/24+150/34. МатрицыМШ19,9/24,2/28,6, все размеры и массы4,05/4,1/5/6,1/6,7/7,6 совпадают. Рисунок не содержит позиции5; это размер. Высота размерной зоны лапки60, ширина 80, шаги45/45, отступ 17,5. Реальные объединения таблицы сохранены. Исправления: [{\"path\": \"branding/text_blocks/figures/page_context\", \"reason\": \"Восстановлены реальный логотип, один шлейф, владельцы L2/S/S1/d, дуговое L, линейный5 и повёрнутый вид Б; убраны выдуманные шестигранные отверстия и позиция5.\"}] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/d51111b11d09f83da0dfe8fb36122c39af91405909e108c9841a898de27c42b3.json",
+      "sha256": "d51111b11d09f83da0dfe8fb36122c39af91405909e108c9841a898de27c42b3",
+      "bytes": 27996,
+      "role": "native-candidate",
+      "program_version": "1.5.8"
+    },
+    {
+      "path": "objects/e8a9179cf0b1175030248be17762573344d7dc113a866d08d93eee90731b6449.json",
+      "sha256": "e8a9179cf0b1175030248be17762573344d7dc113a866d08d93eee90731b6449",
+      "bytes": 25835,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-20261014.r6"
+    },
+    {
+      "path": "objects/4a04bf5b15f222dd79b855de8d34c86e7e1e539ef9a9a97b417fb8e5445712a8.json",
+      "sha256": "4a04bf5b15f222dd79b855de8d34c86e7e1e539ef9a9a97b417fb8e5445712a8",
+      "bytes": 21106,
+      "role": "source-review",
+      "program_version": "tail-mod3-20261014.r6"
+    }
+  ]
+}

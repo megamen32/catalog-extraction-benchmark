@@ -1,0 +1,78 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 210,
+  "printed_page": "209",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "acbf4dfcecd82e2c07cc4290d56f74ffd42d6b91d1f4f3b6b8d4c943a63e2b9b",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.13",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "388e4b7dea7fc75a16d8aeee3f64f722f70d0518bda21b5ea9121fd690d0cc26",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "acbf4dfcecd82e2c07cc4290d56f74ffd42d6b91d1f4f3b6b8d4c943a63e2b9b",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 210,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4dfdf43954cb8adf1b11456ab3262a152d1ef2fea7fdfb31ebca498d2e6cbeb7",
+      "receipt": "calls/6f1ace057a7b4cb79ace2f709d5938db/result.json",
+      "started_at": 1791955726.5830984,
+      "finished_at": 1791955851.1202137
+    }
+  },
+  "output": {
+    "file": "armature-210-reviewed.json",
+    "sha256": "86cd40ce094bc2db70918ff5828c4b53f15d1ebdb189bce73d75174207919529"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "4909482d97771a540b2864c3154f7f51353ac390eb035ac6b1435d7cabd0f8ed",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      6
+    ],
+    "column_counts": [
+      7
+    ],
+    "cells_checked": 42
+  },
+  "source_findings": [
+    "Все42 ячейки6×7 сверены, включая отличающиеся5,3 и5,05.",
+    "Оба изображения15 имеют выносные линии от внутренних поверхностей разнесённых пластин.",
+    "ГОСТ839-80, ТУ2010, до50лет, Т иД сохранены."
+  ],
+  "corrections": [
+    "15 однозначно отнесён к зазору между контактными пластинами, не толщине.",
+    "Уточнены L/L1, стрелки опрессования и межосевые60.",
+    "Исправлен бренд и противоречащее source_note с постоянным L1=80.",
+    "Контекст заменён проверенным описанием страницы целиком."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T14:36:37.069356+03:00",
+  "private_original_receipt_sha256": "a97315ca667f583d6e0c7ba2356d7ee5195afe7879092056e60be590fbe3a2e5"
+}

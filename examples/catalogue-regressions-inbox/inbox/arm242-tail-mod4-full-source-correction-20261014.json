@@ -1,0 +1,36 @@
+{
+  "id": "arm242-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "Арматура242: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 242
+  },
+  "review_basis": "Личносверенполныйоригинал,3×4=12ячеек,d25/30/36безявнойединицы,диапазоны21,6–26,6/27,5–30,6/31,5–37,7ммимассы7,45/7,78/7,82кг.400междуосямипроводов,dвзажиме,60/44двупроекционныегабаритыкорпуса,Ø48груз. ТУ001-52819896-2010,назначениедлядвухпроводовишлейфовполностьюсохранены. Исправления: [\"400исправленсдлиныутяжелителянамежосевоепроводов.\", \"dописанкакпосадказажима,неподменёнчисломдиаметрапровода;60/44/Ø48привязанылокально.\", \"Убранывыдуманныепроизводительотводоизоляторов,прорезнаяшайбаинедоказанноерезьбовоесоединение.\", \"Описание оформлено читаемыми предложениями с пробелами; численные и геометрические факты не изменялись.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/1cb4ae205212f556d41382d312f99ba7bad3d0e0a187fa4e68c826908ef41ce4.json",
+      "sha256": "1cb4ae205212f556d41382d312f99ba7bad3d0e0a187fa4e68c826908ef41ce4",
+      "bytes": 9562,
+      "role": "native-candidate",
+      "program_version": "1.5.15"
+    },
+    {
+      "path": "objects/84232698299cd547d9f77a68cd80dbbdc49b87db5e2a3fd91aab178de53e6d09.json",
+      "sha256": "84232698299cd547d9f77a68cd80dbbdc49b87db5e2a3fd91aab178de53e6d09",
+      "bytes": 7970,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r2"
+    },
+    {
+      "path": "objects/7ddf1b818cd78bad1f6624e8163ab4776a8ddbcc821e97300cef9e58e038c7a1.json",
+      "sha256": "7ddf1b818cd78bad1f6624e8163ab4776a8ddbcc821e97300cef9e58e038c7a1",
+      "bytes": 3723,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r2"
+    }
+  ]
+}

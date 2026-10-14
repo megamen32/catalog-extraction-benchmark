@@ -1,0 +1,76 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 196,
+  "printed_page": "195",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-0196-native-candidate.json",
+    "sha256": "fdea1b3b434fba73e94ae64d5ab16b3486e3093ecf642f52ac32b5e9b487e3e5",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.21",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "2301687f1a836b45b5310748b9eff0562539e6ca5d5cae7237a5b8e7ae0f4f91",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "fdea1b3b434fba73e94ae64d5ab16b3486e3093ecf642f52ac32b5e9b487e3e5",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 196,
+      "attempt": 2,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "867b3f790ecc8921609cf97aa738eda3b36ee55598d694455416842fad03be98",
+      "receipt": "calls/3604614374dd499a9be2b722f3cd4a83/result.json",
+      "started_at": 1791974547.155444,
+      "finished_at": 1791974655.0965629
+    }
+  },
+  "output": {
+    "file": "armature-0196-reviewed.json",
+    "sha256": "9a8513dccdd7cef474ad82eaf8c61113c87ef6d6171cb447863223c8389a38d3"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "15f9c64c646b4e5ff276c50531d59b81f985f79538ab1201217d2df31dd2920c",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      3
+    ],
+    "column_counts": [
+      6
+    ],
+    "cells_checked": 18
+  },
+  "source_findings": "Все18ячеек3×6сверены:АОА-3/2Т,АОА-3/3Т,АОА-4/3-1Т;общиеА-59,В58,D65,d47;массы18,56/19,71/26,20.НазначениеПА500,Т/медноенапыление,до50лет,ТУ34 27.10208-81,брендинг,патент,195проверены. На3/2проверены478/350/450/347/465/400/45×2/140/В/D;на3/3—478/350/45×2/140/346×2/400×2/В/D/d;на4/3—400×2/688/45×2/350/479/140/В/D/d.Увеличенияupper-detail/lower-detailпрямопоказываютосевой347,наружный465ипределы479.Числаикомпоновканевыведеныизназваниймоделей.",
+  "corrections": [
+    "347 ошибочно отнесён от верхней поверхности до оси: фактически между осями горизонтальных ветвей.",
+    "465 ошибочно назван межосевым: это полная наружная ширина;400 имеет межосевые пределы.",
+    "479 не полная ширина всех деталей: уточнены показанные торцы. Уточнены 450/688 и остальные межосевые/прессуемые размеры.",
+    "Убрано неверное утверждение о кириллице всех размерных символов."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T14:04:20.515061+03:00",
+  "private_original_receipt_sha256": "b4eb56423e17cb4aef39247d3a1d60493901299737d6c381b05c8d138ecf9115"
+}

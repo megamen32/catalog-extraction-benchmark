@@ -1,0 +1,36 @@
+{
+  "id": "arm147-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "Арматура147: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 147
+  },
+  "review_basis": "Сверены все 24 ячейки 4×6 и все 12 перечисленных номинальных сечений. Сохранены необычные 70/72 и 95/141. D24,5/27,0/33,0/35,0; массы 0,242/0,268/0,402/0,432; диапазоны 13,5/15,2–15,4/16,8–17,5/18,8–19,8; матрицы МШ18,5/20,8/25/27 совпадают. Размеры 200 и 400 и обе стрелки проверены; номер 146 и контакты верны. Исправления: [{\"path\": \"branding/figures/source_notes/page_context.source_evidence\", \"reason\": \"Убран выдуманный статус электросетевой компании и ложная буква D в заголовке диапазона проводов; стрелки опрессования отделены от размерных линий.\"}] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/d486df3b046fc1e3076e41887d0d6b57823a7933cf1e87dd83d74486efc9eeac.json",
+      "sha256": "d486df3b046fc1e3076e41887d0d6b57823a7933cf1e87dd83d74486efc9eeac",
+      "bytes": 13932,
+      "role": "native-candidate",
+      "program_version": "1.5.8"
+    },
+    {
+      "path": "objects/9a592988a4eaeae180147acc8f81dac6cb34579dfa0eb36b8d3edc9bdb7e0071.json",
+      "sha256": "9a592988a4eaeae180147acc8f81dac6cb34579dfa0eb36b8d3edc9bdb7e0071",
+      "bytes": 11534,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-20261014.r7"
+    },
+    {
+      "path": "objects/077563149b8332d4fa8e975449f4a118d8decd9ff0d2bcdd0904d2289fb8db12.json",
+      "sha256": "077563149b8332d4fa8e975449f4a118d8decd9ff0d2bcdd0904d2289fb8db12",
+      "bytes": 12031,
+      "role": "source-review",
+      "program_version": "tail-mod3-20261014.r7"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 244,
+  "printed_page": "243",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r2",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-0244-native-candidate.json",
+    "sha256": "4a5b0d26034df4b9da42671a141a7cf96baeb06f6f472991db398ceafcf58d45",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.15",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "8242b10480ab5cbc00eb6b6de0abd40b182977e4018be71b2df47b3ed98da688",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "4a5b0d26034df4b9da42671a141a7cf96baeb06f6f472991db398ceafcf58d45",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 244,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "9b513ece12e8465355ea77e5b966812a92866ab89a8f614335298647034f48bf",
+      "receipt": "calls/3899629b0dbf4bbb8e2d3f822b26b65f/result.json",
+      "started_at": 1791958983.883373,
+      "finished_at": 1791959726.0290525
+    }
+  },
+  "output": {
+    "file": "armature-0244-reviewed-r2.json",
+    "sha256": "7d34af99b6121a0c4d086f6bafe7c2301fa0692b25e941d753a28ec11d1dd8c7"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "6410079a105770b39666121070e6f6910d4d0d31b4ec6363cbe1f2028ac0caa9",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      32
+    ],
+    "column_counts": [
+      8
+    ],
+    "cells_checked": 256
+  },
+  "source_findings": [
+    "Повторно просмотрены полная страница и увеличенная нижняя таблица. Колонка В не разделена линией между РГУ-4-850М и строками РГУ-5, поэтому общий 30 покрывает обе строки.",
+    "Все 256 ячеек повторно сопоставлены с предыдущей сверкой; изменены только две ошибочные пустоты. Пустой d у РГУ-4-970М действительно остаётся отдельной пустой ячейкой. Числовой размер 6 имеется на рис. 1."
+  ],
+  "corrections": [
+    "Восстановлено В=30 в двух последних строках блока рис. 1 вместо ложных blank.",
+    "Исправлена source_note о покрытии общей ячейки 30 и противоречивое утверждение об отсутствии числовых размеров при наличии 6."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T11:36:38.517472+00:00",
+  "previous_reviewed_output": {
+    "file": "armature-0244-reviewed.json",
+    "sha256": "cf5c115613f8f31111ca8145381ee122a51cf5e0e0aa3f869e9c0377e6013df9"
+  },
+  "revision_trigger": "Independent source review by catalog_tail_mod1, followed by personal source-image recheck by catalog_tail_mod0.",
+  "revision_evidence_images": [
+    {
+      "file": "armature-0244-r2-table.png",
+      "sha256": "6d93c5f802f7599d845beba036850a0486f650feba7ed2857562a69548dde677"
+    }
+  ],
+  "private_original_receipt_sha256": "62d3059c52a7ced208ec8a927ec4243f19b284715b08023b23dfa44ded5d5648"
+}

@@ -1,0 +1,75 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 250,
+  "printed_page": null,
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r2",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "c01602477d46ba0d80a541e2d99177f67d95512e403f12d18cf15ce6ca935152",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.15",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "8242b10480ab5cbc00eb6b6de0abd40b182977e4018be71b2df47b3ed98da688",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "c01602477d46ba0d80a541e2d99177f67d95512e403f12d18cf15ce6ca935152",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 250,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "9b513ece12e8465355ea77e5b966812a92866ab89a8f614335298647034f48bf",
+      "receipt": "calls/ef36c293788c4bbeaa83472323bfc02c/result.json",
+      "started_at": 1791959314.707033,
+      "finished_at": 1791959633.6975071
+    }
+  },
+  "output": {
+    "file": "armature-250-reviewed-r2.json",
+    "sha256": "404e6d5f2fb62d3b8798e978eee68c5d7f12812bcaf8126b6656bd29a8c17407"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "54818796e0b603a4dcfbeb5cf300bc19062997d33d3ae82f8212ebdad6825f5b",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      18
+    ],
+    "column_counts": [
+      7
+    ],
+    "cells_checked": 126
+  },
+  "source_findings": "Полныйоригинал,18×7=126ячеек,всеобъединения13,0–15,67/16,8–19,8/21,6–26,6/27,5–30,6/31,5–37,8иH44первые17/H65последняя. d1:14длякоротких400/500,18длядлинных600/800/850/1000;последняяРГИФ-5-800безМ,провод46,5/d46сохранены. Lмеждуосямипроводов,dпосадказажима,d1наружныйдиаметрсоединительногостержня,Hпоперечныйнаружныйгабариткорпуса.",
+  "corrections": [
+    "Дляd/d1/L/Hдобавленыточныесвязиспосадкой,стержнем,осямипроводовигабаритомзажима;ранееописаниенеопределялопринадлежностьразмеров.",
+    "ИзнапечатаннойгруппыРазмеры,ммвосстановленыявныеunitполячисленныхколонок.",
+    "Исправленподлоготипныйтекстбезсменычисел.",
+    "По независимой сверке удалены оставшиеся противоречия старого page_context и восстановлен printed_page; геометрические и численные исправления сохранены."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T14:10:21.642242+03:00",
+  "prior_author_output_sha256": "11af40528b5673173d50c53ef68242597c87ffd385b62d1ce33e8cff1f9c5946",
+  "private_original_receipt_sha256": "cfcf8f35238d59cd1d921dc9c6817776e032865b7fa342ba98caa845c64a9f1d"
+}

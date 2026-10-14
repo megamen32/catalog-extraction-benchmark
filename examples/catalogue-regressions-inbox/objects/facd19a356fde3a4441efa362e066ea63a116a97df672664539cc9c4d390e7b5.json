@@ -1,0 +1,82 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 221,
+  "printed_page": "220",
+  "status": "author_source_review_complete_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod1",
+    "task": "/root/catalog_tail_mod1",
+    "version": "tail-mod1-20261014.r1",
+    "model_id": "Current native Codex session;exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-221-candidate.json",
+    "sha256": "01620ccc00b1dac332efb7d7a01f9216c7ca1e1847466d40a27be6d9d46d243d",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.13",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "388e4b7dea7fc75a16d8aeee3f64f722f70d0518bda21b5ea9121fd690d0cc26",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "01620ccc00b1dac332efb7d7a01f9216c7ca1e1847466d40a27be6d9d46d243d",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 221,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4dfdf43954cb8adf1b11456ab3262a152d1ef2fea7fdfb31ebca498d2e6cbeb7",
+      "receipt": "calls/0fa8bdb56f88464a94162600dfa3bab1/result.json",
+      "started_at": 1791956123.008207,
+      "finished_at": 1791956266.7250092
+    },
+    "receipt_file": "armature-221-producer-receipt.json",
+    "receipt_sha256": "0b676c381c144da69cf388622a514d02545760540a1cc1ab83acef10575ca64a",
+    "receipt_artifact_equals_candidate": true
+  },
+  "output": {
+    "file": "armature-221-reviewed.json",
+    "sha256": "2790d2c5c515c3aab9f90b80bdb21a1c17ec86da91adc44441bc3b7439f4c54d",
+    "author": "catalog_tail_mod1"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "eae16062b15bf3ad1dcb0b965c93d9a1756d1bca382156932d6d59ed42fa3659",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "pagecontent_schema_valid": true
+  },
+  "tables": {
+    "row_counts": [],
+    "column_counts": [],
+    "cells_checked": 0
+  },
+  "source_findings": "Полностью сверены16пунктов перечня новых изделий,включаяГВПБ/ГВС/ОГК/СВ/РИ/ЗП-АПК/УЗП-УЗД/УЗП-БТ700и800/ЭЗ-385/ММ-02/МС/ЭЗШ/2РГД/3РГД/5РГД/ЭРВ/ЭРН/3БЛ-1400-4А→3ПГН2-5-1/МБ-01/СМБ-01.110/220кВ относятся кэкранам;таблиц,чертежей итиповыхпараметровнет. Исправлен неверный счёт17пунктовна16.",
+  "corrections": [
+    {
+      "path": "page_context.source_evidence[1].observation",
+      "before": "Вводящая фраза «В раздел „Защитная арматура“ включены следующие новые изделия:» прямо объявляет перечень новых позиций каталога, после которого идут 17 пунктов с типами изделий. Эта формулировка определяет назначение страницы — перечень номенклатуры. Признаков проектной спецификации (объект, стройка, количества, привязка к пролёту) и признаков демонстрации ПО (снимки экрана, пример сформированного отчёта) на странице нет.",
+      "after": "Вводящая фраза «В раздел „Защитная арматура“ включены следующие новые изделия:» прямо объявляет перечень новых позиций каталога, после которого идут 16 пунктов с типами изделий. Эта формулировка определяет назначение страницы — перечень номенклатуры. Признаков проектной спецификации (объект, стройка, количества, привязка к пролёту) и признаков демонстрации ПО (снимки экрана, пример сформированного отчёта) на странице нет."
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "independent_review_required": true,
+  "independent_review_status": "pending",
+  "separate_model_review_of_root_edits": null,
+  "unresolved_issues": [
+    "Нужна независимая проверка авторского разбора и инженерных отношений."
+  ],
+  "completed_at": "2026-10-14T13:57:36.571179+03:00",
+  "private_original_receipt_sha256": "2c86a04a7e333acce7895eb291f7e1ea4a6a5a829009d0f7561f930eebf4a506"
+}

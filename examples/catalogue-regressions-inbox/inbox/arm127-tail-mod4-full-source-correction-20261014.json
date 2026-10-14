@@ -1,0 +1,36 @@
+{
+  "id": "arm127-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "Арматура127: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 127
+  },
+  "review_basis": "Все 429 ячеек 39×11 сверены. Три марки троса 1770/1870/1970 у каждой группы, необычный порядок СМЗ-85-1/85-3/85-2 сохранён. Прочерки В и исполнение 1 на первых 27 строках, В43/45/51/57 и исполнение 2 на последних 12; размеры, все матрицы МШ/С, массы 1/1,58/2,25/2,17/4,52/4,52/4,93/6,35/6,42/12,8/14,87/22,1/27,6 совпадают. Объединения через группы 70/85,110/120 и 160/180 сверены. МШ22,8/S23,4 группы 60 не исправлялись. Чертёж полностью просмотрен на 6× увеличении. Исправления: [{\"path\": \"branding/figures/page_context/source_notes/tables[0].columns[-1]\", \"reason\": \"Сняты выдуманные материал алюминия, установленный канат/сердечник и половинное L1; d — проход,10 осевая длина скоса, угол 30° имеет единицу. Масса нормализована с unit кг.\"}] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/0f94c9ec002c644181223db5498f1f65b2a7e5169d6452cefa1bf4625cff45f0.json",
+      "sha256": "0f94c9ec002c644181223db5498f1f65b2a7e5169d6452cefa1bf4625cff45f0",
+      "bytes": 68110,
+      "role": "native-candidate",
+      "program_version": "1.5.6"
+    },
+    {
+      "path": "objects/d637999ec8cd2f95e255f6070950da9434d414d6ac8217712ed76ef21043cb01.json",
+      "sha256": "d637999ec8cd2f95e255f6070950da9434d414d6ac8217712ed76ef21043cb01",
+      "bytes": 65187,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-20261014.r7"
+    },
+    {
+      "path": "objects/e859a8f1466d42f00df6aa16f1634ef7de6a1256a3ddd98f6829622d36e02015.json",
+      "sha256": "e859a8f1466d42f00df6aa16f1634ef7de6a1256a3ddd98f6829622d36e02015",
+      "bytes": 17814,
+      "role": "source-review",
+      "program_version": "tail-mod3-20261014.r7"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 246,
+  "printed_page": "245",
+  "status": "source_verified",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "version": "root-tail-source-review-2026-10-14.r2",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "sha256": "209ff3bf1d91693e378f09e84488a9da8f31b7c61ba4f9409931c859a64fc769",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.15",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "8242b10480ab5cbc00eb6b6de0abd40b182977e4018be71b2df47b3ed98da688",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "209ff3bf1d91693e378f09e84488a9da8f31b7c61ba4f9409931c859a64fc769",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 246,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "9b513ece12e8465355ea77e5b966812a92866ab89a8f614335298647034f48bf",
+      "receipt": "calls/bd82905d7aac4d958b70ac148718e694/result.json",
+      "started_at": 1791959035.9674118,
+      "finished_at": 1791959213.3814213
+    }
+  },
+  "output": {
+    "file": "armature-246-reviewed-r2.json",
+    "sha256": "49a8c9189ff0c640eecf74ff5c5d1bac2407b65766cb3ec1422c2a94cbf81219"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "768395425283fb691d21c9dae9a68c33ef08a1d7581eb160de756ecf93d24ef6",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      5
+    ],
+    "column_counts": [
+      6
+    ],
+    "cells_checked": 30
+  },
+  "source_findings": "Полныйоригиналличносверён:5×6=30ячеек,парыдиаметров27,5–30,6/d30и31,5–37,7/d36,последняя59/51,5/d58,L400/600,H44первые4и65последняя,массы4,54/6,98/4,50/5,82/6,8. Все4зажима,дваLмеждуосями, dподпровод,видАсоответствуетстрелке,Hгабаритзажима,30ширинапланки. Числатаблицсохранены.",
+  "corrections": [
+    "Апереклассифицированизнеизвестногоразмера в обозначение направления/вида.",
+    "ВертикальныйLидётмеждудвумялевымипроводами,неподдиагонали;Hи30уточненыпосвоимграницам.",
+    "Четыреххлучевыеисправленонапечатноечетырехлучевые.",
+    "По независимой сверке удалены оставшиеся противоречия старого page_context и восстановлен printed_page; геометрические и численные исправления сохранены."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T14:10:21.643362+03:00",
+  "prior_author_output_sha256": "a2e580b25e3b9a7f7f7f96e34848fafbba375e66a8682e6491fdc36163da669f",
+  "private_original_receipt_sha256": "14600fbf37c2dc80d12a05b8f9fe5d326b955a23d10ccece800405fce4a28b75"
+}

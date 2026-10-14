@@ -1,0 +1,91 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 193,
+  "printed_page": "192",
+  "status": "author_source_review_complete_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod1",
+    "task": "/root/catalog_tail_mod1",
+    "version": "tail-mod1-20261014.r1",
+    "model_id": "Current native Codex session;exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-193-candidate.json",
+    "sha256": "4000089f0e31adcc31b43415570ea77a2cb71dc95915d6281b5c1ee88a401f85",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.13",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "388e4b7dea7fc75a16d8aeee3f64f722f70d0518bda21b5ea9121fd690d0cc26",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "4000089f0e31adcc31b43415570ea77a2cb71dc95915d6281b5c1ee88a401f85",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 193,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4dfdf43954cb8adf1b11456ab3262a152d1ef2fea7fdfb31ebca498d2e6cbeb7",
+      "receipt": "calls/4e27d61f899f4b22972f104cc94a3c70/result.json",
+      "started_at": 1791954621.8619761,
+      "finished_at": 1791954780.295296
+    },
+    "receipt_file": "armature-193-producer-receipt.json",
+    "receipt_sha256": "b62a95f7da225c7a56658a3442630e360ff722316f59689d508f5745c4e97b9c",
+    "receipt_artifact_equals_candidate": true
+  },
+  "output": {
+    "file": "armature-193-reviewed.json",
+    "sha256": "a926d0189fa380eef101e04af69737d105317cf2bb80e07de14062b3b1963d2e",
+    "author": "catalog_tail_mod1"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "b311a32e511f47f9f10849e23ce1bccf5b626770ea0808a827f68790baea64e7",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "pagecontent_schema_valid": true
+  },
+  "tables": {
+    "row_counts": [
+      17
+    ],
+    "column_counts": [
+      12
+    ],
+    "cells_checked": 204
+  },
+  "source_findings": "Все17×12=204ячейки и группы120.12/150.13/185.13/240.13 полностью проверены. Сохранены70/72,95/141,РОСТ-185.4 безА. Все размеры,две разные матрицыШлейф/Пролёт и массы0,20…1,10кг не более верны. Исправлен L₁:отначала прямого горизонтального участка,не отоси ответвления. L₂прямой вертикальный участок;D/d/H₁разнесены по двум реальным сечениям. Вкладыш иКорпус проверены по увеличению. БезразрезанияАСТ70мм²ивыше,ТУпровода2009/изделия2020,шестигранные матрицы сохранены.",
+  "corrections": [
+    {
+      "path": "figures[0].description",
+      "before": "Чертёж в трёх видах. Главный вид: угловой зажим, охватывающий горизонтально проложенный магистральный провод (заполнение «xxx»), и ответвительный провод, входящий снизу вертикально; две стрелки с подписью «Направление опрессования» — вдоль магистрали вправо и вдоль ответвления вниз. Обозначены габаритные размеры: L — полная длина горизонтальной (магистральной) части зажима; L₁ — длина по горизонтали от вертикальной оси до правого торца; H — полная высота зажима; L₂ — высота вертикальной (ответвительной) части. Разрезы: А–А поперёк магистральной части (справа, вверху) и Б–Б поперёк вертикальной части (внизу). В разрезе А–А показаны концентрические окружности с обозначениями D (наружный диаметр, вынос внизу) и d (внутренний диаметр под провод), размер H₁ по вертикали справа, а также выноски «Вкладыш» (верхние скобы) и «Корпус». В разрезе Б–Б — концентрические окружности с выносками D и d. Числовых значений размеров на чертеже нет: все значения D, d, H, H₁, L, L₁, L₂ даны в таблице типоразмеров; отверстия, допуски и их количество не указаны.",
+      "after": "Главный вид РОАСТ и два поперечных сечения. Горизонтальная магистраль проходит через разъёмный зажим, ответвительная часть изгибается вниз. L — горизонтальный габарит корпуса от левой наружной границы изгиба до правого торца; H — вертикальный габарит от верхней границы горизонтального корпуса до нижнего торца ответвления. L₁ начинается у перехода изгиба в прямой горизонтальный участок и заканчивается на правом торце, не начинается от оси вертикального ответвления. L₂ — длина прямого вертикального участка от конца изгиба до нижнего торца. Стрелки опрессования направлены вправо по магистрали и вниз по ответвлению. А-А: корпус и отдельно подписанный вкладыш, открытый верхний профиль; d — внутренний посадочный проход, D — поперечный наружный габарит корпуса по нижней размерной линии, H₁ — высота по правой вертикальной размерной линии от верха узла до нижнего контура. Б-Б: внутренний проход d и наружный диаметр D вертикального ответвления. Все буквенные размеры в мм приведены в таблице; чисел на чертеже нет."
+    },
+    {
+      "path": "source_notes[4]",
+      "before": "На чертеже заполнение «xxx» обозначает провод на главном виде, в разрезе А–А и в разрезе Б–Б.",
+      "after": "На главном виде провод показан условными знаками х в зонах обрыва; на А-А/Б-Б осевые и диаметральные линии не являются заполнением провода знаками х."
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "independent_review_required": true,
+  "independent_review_status": "pending",
+  "separate_model_review_of_root_edits": null,
+  "unresolved_issues": [
+    "Нужна независимая проверка авторского разбора и инженерных отношений."
+  ],
+  "completed_at": "2026-10-14T14:08:44.933558+03:00",
+  "private_original_receipt_sha256": "809697e8d194ea1fab50a0c5dbdcc873eb753124db15a19f6751d805aff6a7ed"
+}

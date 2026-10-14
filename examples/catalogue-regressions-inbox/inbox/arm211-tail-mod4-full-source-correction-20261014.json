@@ -1,0 +1,36 @@
+{
+  "id": "arm211-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "Арматура211: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 211
+  },
+  "review_basis": "Все4ячейки2А4АП-500-1Т(Д)/ПА500/А–59/5,0сверены;ТУ16-505-397-72вшапке,покрытиеТ,двеполыепроводныеветви,ОРУ,до50лет,дренажД,ТУизготовления2010. Чертёж400межосевоевводов,110двепрямыезоны,60×60крепёж,15зазормеждупластинами,стрелкивверх. Размер15неподменёнсуммартолщиной,видыправильносвязаны. Исправления: [{\"path\": \"figures[0]/page_context.source_evidence[2]\", \"reason\": \"Вместотрёхвидовдвепроекцииодногоизделия;15—зазор,110—прямаяцилиндрическаязона. Уточненосвежимкропом15.\"}] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/87fb4f3d9ca0e742a8cc6a30171e5cb45e65cdcba5469de0f654beb19da6d979.json",
+      "sha256": "87fb4f3d9ca0e742a8cc6a30171e5cb45e65cdcba5469de0f654beb19da6d979",
+      "bytes": 10206,
+      "role": "native-candidate",
+      "program_version": "1.5.13"
+    },
+    {
+      "path": "objects/b7c0beb8a8d2720582fc4a6b01486bf918d01a23d37f3a3c730b078ae4aad1cd.json",
+      "sha256": "b7c0beb8a8d2720582fc4a6b01486bf918d01a23d37f3a3c730b078ae4aad1cd",
+      "bytes": 9308,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-20261014.r4"
+    },
+    {
+      "path": "objects/cc0dfddd9b43158d36325f1858f4e4b5a02ee51d1d3183b8e5d69db2a924a909.json",
+      "sha256": "cc0dfddd9b43158d36325f1858f4e4b5a02ee51d1d3183b8e5d69db2a924a909",
+      "bytes": 8587,
+      "role": "source-review",
+      "program_version": "tail-mod3-20261014.r4"
+    }
+  ]
+}

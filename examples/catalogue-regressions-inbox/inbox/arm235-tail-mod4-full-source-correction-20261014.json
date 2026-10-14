@@ -1,0 +1,36 @@
+{
+  "id": "arm235-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "Арматура235: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 235
+  },
+  "review_basis": "Сверены все7полей обозначения,16ячеек плашек и10ячеек масс;нормализованный объём47ячеек. Все значения масс грузов0,8/1,6/2,4/3,2/4,0,троса9,1/11,0/13,0,длин300…650,размеровH50,0/65,5/85,0/157,0,L145/45/50/50,прибавка6,0мм иП/П1 сохранены. Массыгасителя2,07–2,15;3,95–4,11;5,58–5,92;7,48–7,60;8,34–8,68 и сноска строго проверены. L/d/D/H/В привязаны к соответствующим частям,парыединиц не смешаны. Исправления: [{\"path\": \"tables\", \"reason\": \"Исправлены четырёхкратное дублирование объединённых характеристик и ложные единицымм у масс. Сноска убрана изчисловой строки и сохранена какусловие.\"}, {\"path\": \"figures[0]\", \"reason\": \"Убраны выдуманные разные способы крепления концов.\"}] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/02921a4ed37aeda0eac3d25e01202e42e957b49e2365bd5313c9626556810ca1.json",
+      "sha256": "02921a4ed37aeda0eac3d25e01202e42e957b49e2365bd5313c9626556810ca1",
+      "bytes": 28464,
+      "role": "native-candidate",
+      "program_version": "1.5.15"
+    },
+    {
+      "path": "objects/89093c8fe93e0255a860556bef146881c3effb963a06e21e9481e73d22a6fd96.json",
+      "sha256": "89093c8fe93e0255a860556bef146881c3effb963a06e21e9481e73d22a6fd96",
+      "bytes": 21252,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-20261014.r3"
+    },
+    {
+      "path": "objects/cc915d9fd4cc1bd2cca553bdc5ab38b0cdcbee7eb28283323554a66c52a04556.json",
+      "sha256": "cc915d9fd4cc1bd2cca553bdc5ab38b0cdcbee7eb28283323554a66c52a04556",
+      "bytes": 47981,
+      "role": "source-review",
+      "program_version": "tail-mod3-20261014.r3"
+    }
+  ]
+}

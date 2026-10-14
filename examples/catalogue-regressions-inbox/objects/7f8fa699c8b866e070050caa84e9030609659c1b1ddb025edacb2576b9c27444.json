@@ -1,0 +1,88 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 180,
+  "printed_page": "179",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r2",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-0180-native-candidate.json",
+    "sha256": "ee3f2db817eeb7975f228e6c0224a14d39933ddb833cd6c8c11866f64ce54b4f",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.9",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "f5f0879481c5c45730d168c7edf956c8a1784eeed1c5ea6bcad7d8c4355101b0",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "ee3f2db817eeb7975f228e6c0224a14d39933ddb833cd6c8c11866f64ce54b4f",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 180,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "89126eb717d25da53e59e93c52197380a6660b24bec70eea7e46df1f2cfa0e5e",
+      "receipt": "calls/112c1398adf345afa6e687a19efb38a5/result.json",
+      "started_at": 1791948674.1406832,
+      "finished_at": 1791949257.4851332
+    }
+  },
+  "output": {
+    "file": "armature-0180-reviewed-r2.json",
+    "sha256": "91ce020a32192d9e0e22f765bdafb6497286212422528cbe1ca2b41da6d6bfb2"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "7644f7ee40e3082825df15c1418fd59bf211423dea20645a6c8f102485da30d7",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      18
+    ],
+    "column_counts": [
+      12
+    ],
+    "cells_checked": 216
+  },
+  "source_findings": [
+    "Полная страница и увеличенный конец L4 повторно просмотрены. Нижняя выносная линия L4 совпадает с линией стыка, отмеченного размером 5; оболочка продолжается ниже этой линии.",
+    "Все 216 ячеек таблицы, в том числе общий S2=14 для последних 15 строк, остались равны ранее сверенной версии. Остальные размерные привязки не изменены."
+  ],
+  "corrections": [
+    "Конец L4 исправлен с нижнего конца всей оболочки на поперечную границу изоляционного стыка у размера 5.",
+    "Восстановлены обычные пробелы в описаниях и source_notes."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T11:38:16.632784+00:00",
+  "previous_reviewed_output": {
+    "file": "armature-0180-reviewed.json",
+    "sha256": "8aacb49b97ffc0d9a46852ff86ed5f5e772e27f65312a576279163a5bbcbbd3f"
+  },
+  "revision_trigger": "Independent source review by catalog_tail_mod1, followed by personal source-image recheck by catalog_tail_mod0.",
+  "revision_evidence_images": [
+    {
+      "file": "armature-0180-r2-length.png",
+      "sha256": "eed94e837f7e15945340fbc0646e81cc129cd710139fccaa941214bf64051937"
+    }
+  ],
+  "private_original_receipt_sha256": "1bdad37035f2cafdd228c80c6a855e621854dbee87a9f556e836bb461213806d"
+}

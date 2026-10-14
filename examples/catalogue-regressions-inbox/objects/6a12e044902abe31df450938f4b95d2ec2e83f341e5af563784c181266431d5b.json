@@ -1,0 +1,82 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 168,
+  "printed_page": "167",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-0168-native-candidate.json",
+    "sha256": "059f2591c6778c0791a1f3691ef061c20bd5beba562981f7b0fd3063b11ffd76",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.8",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "56b47ab11c142fdd0d89ade636eb52fff30220c3425401678e2bf74c18b69c62",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "059f2591c6778c0791a1f3691ef061c20bd5beba562981f7b0fd3063b11ffd76",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 168,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "ad43db8eeb96f6a5b1aab82eb07fb8d999a3c90cd9e1f094a41f378634f1d7ae",
+      "receipt": "calls/b2c5ad181b7845d792152798f543e4b7/result.json",
+      "started_at": 1791947427.7025826,
+      "finished_at": 1791947581.0632553
+    }
+  },
+  "output": {
+    "file": "armature-0168-reviewed.json",
+    "sha256": "7dd5480f3a1a542661b38f38378a25c2e24260ddf50f48b3e2ea13e0c37bd4bb"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "8f18acc10732ea61d94392a0f2ebdf63953e5d94f2c6d5cc3d12075dc4157478",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      27
+    ],
+    "column_counts": [
+      10
+    ],
+    "cells_checked": 270
+  },
+  "source_findings": [
+    "Полная оригинальная страница, увеличенные чертёж и таблица сверены. Проверены 270 ячеек таблицы 27×10, все отдельные натяжные зажимы и реальные объединения.",
+    "Последняя строка группы 24-25,5 — 330/43 — явно присутствует. НАС-300-1Б объединён на 300/66 и 300/67; НАС-330-2Б относится к 330/30, НАС-330-3Б к 330/43.",
+    "Четыре отверстия, обе размерные линии 45, ширина лапки 80, отступ 17,5, толщина изоляции 5, вид A с толщинами S1 / S2 и действительные конечные точки L1 / L2 просмотрены по выносным линиям.",
+    "Назначение модификации «8», монтаж ОАБ после натяжных зажимов, возможность повторного демонтажа, отсутствие короны и радиопомех, реквизиты, e-mail info@mzva.ru и печатная 167 сверены."
+  ],
+  "corrections": [
+    "Пропущена целая строка 330/43; добавлена с совместимым зажимом НАС-330-3Б.",
+    "Для 300/67 ошибочно указан НАС-330-2Б вместо НАС-300-1Б, для 330/30 — НАС-330-3Б вместо НАС-330-2Б.",
+    "Две физически пустые отдельные ячейки наименования при 150/24 и 150/34 ошибочно заполнены повтором; восстановлены пустоты с явной связью группы в source_notes.",
+    "ФОРЭНЕРГО ошибочно назван федеральной сетевой компанией.",
+    "Исправлены ошибочные описание двух вариантов, включение пунктирных НАС в комплект, разрез A-A вместо вида A и привязки L2, 80, 17,5, 5."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T14:24:31.816818+03:00",
+  "private_original_receipt_sha256": "7251af6719de71a73f3c299d2a84183c9808c5e7a25893eea0808c62ee6ec3fd"
+}

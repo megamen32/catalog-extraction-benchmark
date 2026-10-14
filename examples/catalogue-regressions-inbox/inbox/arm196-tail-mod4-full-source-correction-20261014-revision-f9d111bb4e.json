@@ -1,0 +1,36 @@
+{
+  "id": "arm196-tail-mod4-full-source-correction-20261014-revision-f9d111bb4e",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "Арматура196: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 196
+  },
+  "review_basis": "[\"Полная оригинальная страница повторно просмотрена. Дефект касается читаемости предложений, а не фактов. Таблица 3×6, все 18 ячеек, геометрические связи и размерные числа равны ранее сверенной версии.\"] Исправления: [\"Восстановлены пробелы в описаниях чертежей; подтверждённые числа, марки и привязки не изменены.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/fdea1b3b434fba73e94ae64d5ab16b3486e3093ecf642f52ac32b5e9b487e3e5.json",
+      "sha256": "fdea1b3b434fba73e94ae64d5ab16b3486e3093ecf642f52ac32b5e9b487e3e5",
+      "bytes": 15175,
+      "role": "native-candidate",
+      "program_version": "1.5.21"
+    },
+    {
+      "path": "objects/f9d111bb4ef3ced62b2d224b7e8a3397cba7605ff92792c95217b5feae991f58.json",
+      "sha256": "f9d111bb4ef3ced62b2d224b7e8a3397cba7605ff92792c95217b5feae991f58",
+      "bytes": 14520,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r2"
+    },
+    {
+      "path": "objects/320ceae4f68f606eb02ba0d43097d31316fc18396af606717d0592a1985d0d2f.json",
+      "sha256": "320ceae4f68f606eb02ba0d43097d31316fc18396af606717d0592a1985d0d2f",
+      "bytes": 3475,
+      "role": "source-review",
+      "program_version": "tail-mod0-20261014.r2"
+    }
+  ]
+}

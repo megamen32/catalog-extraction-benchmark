@@ -1,0 +1,82 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 185,
+  "printed_page": "184",
+  "status": "author_source_review_complete_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod1",
+    "task": "/root/catalog_tail_mod1",
+    "version": "tail-mod1-20261014.r1",
+    "model_id": "Current native Codex session;exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-185-candidate.json",
+    "sha256": "3942dfd7f7f21d847bf510ac672a82ee431415999eec17cce78231ae80554db8",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.9",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "f5f0879481c5c45730d168c7edf956c8a1784eeed1c5ea6bcad7d8c4355101b0",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "3942dfd7f7f21d847bf510ac672a82ee431415999eec17cce78231ae80554db8",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 185,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "89126eb717d25da53e59e93c52197380a6660b24bec70eea7e46df1f2cfa0e5e",
+      "receipt": "calls/16109593e1d848a39bca7790fa5d7ff4/result.json",
+      "started_at": 1791949204.846566,
+      "finished_at": 1791949271.5282211
+    },
+    "receipt_file": "armature-185-producer-receipt.json",
+    "receipt_sha256": "7a18485c8b0cadc9210c5850afd6421cd4d2b0b02d9dd1bd35cef82303d7cfa1",
+    "receipt_artifact_equals_candidate": true
+  },
+  "output": {
+    "file": "armature-185-reviewed.json",
+    "sha256": "86330dc1226dc4411945641fc961c4130efb4900fc3d56a0c1f7aa01df3ee2e5",
+    "author": "catalog_tail_mod1"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "994a1744189f7bf63fde16f3763473fa6d622b7ec94524fd7daad5375ad1ed61",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "pagecontent_schema_valid": true
+  },
+  "tables": {
+    "row_counts": [],
+    "column_counts": [],
+    "cells_checked": 0
+  },
+  "source_findings": "Полностью сверены шесть пунктов новых изделий:Т,ТДсдренажомдлявертикальнойустановки,проводаАСку/АСк2у/АСТ,А4АБ,ОАБ,разъёмныеответвительныепрессуемые. РегистрАСку/АСк2у проверен текстовым слоем,сохранён. Таблиц/чертежейнет. Исправлен выдуманный слоган«промышленная энергетика»;колонтитул184.",
+  "corrections": [
+    {
+      "path": "text_blocks[1].text",
+      "before": "ФОРЭНЕРГО промышленная энергетика FORENERGO industrial group (логотип в правом верхнем углу)",
+      "after": "ФОРЭНЕРГО производственное объединение / FORENERGO industrial group"
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "independent_review_required": true,
+  "independent_review_status": "pending",
+  "separate_model_review_of_root_edits": null,
+  "unresolved_issues": [
+    "Нужна независимая проверка авторского разбора и инженерных отношений."
+  ],
+  "completed_at": "2026-10-14T14:08:44.939006+03:00",
+  "private_original_receipt_sha256": "1fc44684e1d775ca2f73b76a2bb5f2b031a7bca51890e24fa5ed5ef1521c0ee0"
+}

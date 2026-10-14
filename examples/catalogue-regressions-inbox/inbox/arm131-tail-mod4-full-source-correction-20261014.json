@@ -1,0 +1,36 @@
+{
+  "id": "arm131-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "Арматура131: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 131
+  },
+  "review_basis": "Все 78 ячеек 13×6 сверены. Сохранены ШЦ-АС-50-9/10,70-11/12,400-28→400/18, разные две марки 400. Проверены все реальные объединения D24/28/35/42/50/55/60,L130 на 5 строк/150 на 4/145 на 1/160 на 3,S22/24/30/36/41/46/46/55. d8/9/10/12/14/16/18/20/23/25,5/26,5/27,5/29 совпадают. Текст прямо говорит термопатронов, а не термонаконечников; все три знака и ТУ2020 подтверждены. Исправления: [{\"path\": \"text_blocks/figures/page_context\", \"reason\": \"Исправлены реальные логотипы и ПОТЕРЬ вместо ПОТОК, термопатроны вместо термонаконечников; S связан с гранями под ключ, торцевой вид не назван сечением.\"}] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/9f192381764525e86f0cafa338ad671385f3414c5d873c65a1a28c405f585a4f.json",
+      "sha256": "9f192381764525e86f0cafa338ad671385f3414c5d873c65a1a28c405f585a4f",
+      "bytes": 21589,
+      "role": "native-candidate",
+      "program_version": "1.5.8"
+    },
+    {
+      "path": "objects/fd30ac04d2224c35df4d8190ad2bbcac2bd878ad7d7e0c5cca9fa2dd152037fe.json",
+      "sha256": "fd30ac04d2224c35df4d8190ad2bbcac2bd878ad7d7e0c5cca9fa2dd152037fe",
+      "bytes": 19631,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-20261014.r7"
+    },
+    {
+      "path": "objects/bdea29f9f13c0e8ec4d42beb0eda998f121b019201318065b7b52699131357c7.json",
+      "sha256": "bdea29f9f13c0e8ec4d42beb0eda998f121b019201318065b7b52699131357c7",
+      "bytes": 15671,
+      "role": "source-review",
+      "program_version": "tail-mod3-20261014.r7"
+    }
+  ]
+}

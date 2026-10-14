@@ -1,0 +1,36 @@
+{
+  "id": "arm203-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "Арматура203: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 203
+  },
+  "review_basis": "Проверены100ячеек10×10сучётомтрёхподстрокА4АСк2у-330/43-1;ихобщие42/26/210/95/90/12/МШ36,4/0,5сохранены. Все8группмарокпроводов,включаяАСк2у240/39и240/56вА4АСку-240/56-1,двойноепечатноеАСкувназначении,50лет иТУ проверены. СохраненыМШ41,1/43,3,88*,φ5,φ14четыреотверстия,80/45/45,S1,D/d/L/L1/L2. Наследованныеединицымм/кгсделаныявными. Исправления: [{\"path\": \"branding/columns/figures\", \"reason\": \"Восстановленреальныйлоготип,явныеединицыгруппы/массы,размерыφ5/L1/L2привязаныбезвыдуманныхназначений.\"}] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/8363d308d7215217c0e844d7dd259e2d1f7d21b52f61b4a01b4b00b566f8077f.json",
+      "sha256": "8363d308d7215217c0e844d7dd259e2d1f7d21b52f61b4a01b4b00b566f8077f",
+      "bytes": 23068,
+      "role": "native-candidate",
+      "program_version": "1.5.13"
+    },
+    {
+      "path": "objects/0af4e032d40550769f5dc1241eeb594a3797549cbe76c508d986f12ee7130e30.json",
+      "sha256": "0af4e032d40550769f5dc1241eeb594a3797549cbe76c508d986f12ee7130e30",
+      "bytes": 22798,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-20261014.r4"
+    },
+    {
+      "path": "objects/6c2b3ef1ca292ac1e3532e66d09e79692be5adb70caeb3be2b2dd70393911073.json",
+      "sha256": "6c2b3ef1ca292ac1e3532e66d09e79692be5adb70caeb3be2b2dd70393911073",
+      "bytes": 7968,
+      "role": "source-review",
+      "program_version": "tail-mod3-20261014.r4"
+    }
+  ]
+}

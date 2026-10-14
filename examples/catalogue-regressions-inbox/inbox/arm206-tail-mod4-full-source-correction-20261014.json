@@ -1,0 +1,36 @@
+{
+  "id": "arm206-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "Арматура206: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 206
+  },
+  "review_basis": "[\"Все22 ячейки2×11 сверены, массы1,5/3,0; S14/24, L240/320, L1110/140, L280/100.\", \"Медь нанесена на поверхность, не является отдельной жилой; source purpose явно указывает алюминиевый полый провод.\", \"L2 не указывает участок опрессования; стрелка расположена над L1 справа.\"] Исправления: [\"Исправлены перепутанные контактная и опрессовываемая части: плита слева, полый алюминиевый провод справа.\", \"Удалён выдуманный медный проводник.\", \"S — толщина контактной плиты; L2 — её длина; L1 — правая опрессовываемая часть, направление вправо.\", \"Уточнены общий L, A/B/d, номер205 и типы текстовых блоков.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/76c38b6d9ebbdbe173caa210cc9deed6791e7af27d5e008e55532c81de425669.json",
+      "sha256": "76c38b6d9ebbdbe173caa210cc9deed6791e7af27d5e008e55532c81de425669",
+      "bytes": 14120,
+      "role": "native-candidate",
+      "program_version": "1.5.13"
+    },
+    {
+      "path": "objects/b7e90e88331bf2b8d208f3a5bc9d7991d9d93f67dcd04e31e8488c16f4f7c360.json",
+      "sha256": "b7e90e88331bf2b8d208f3a5bc9d7991d9d93f67dcd04e31e8488c16f4f7c360",
+      "bytes": 11092,
+      "role": "source-checked-reference",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    },
+    {
+      "path": "objects/df2c30fa6813774d12b2e74b67188b727e0cf7142341ab351e37d6c17eaa84ba.json",
+      "sha256": "df2c30fa6813774d12b2e74b67188b727e0cf7142341ab351e37d6c17eaa84ba",
+      "bytes": 3526,
+      "role": "source-review",
+      "program_version": "root-tail-source-review-2026-10-14.r1"
+    }
+  ]
+}

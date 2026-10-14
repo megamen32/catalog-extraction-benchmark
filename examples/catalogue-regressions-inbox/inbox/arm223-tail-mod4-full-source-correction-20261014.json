@@ -1,0 +1,36 @@
+{
+  "id": "arm223-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "Арматура223: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 223
+  },
+  "review_basis": "Таблицнет. Все6марок иполныйтекст проверены. Источникпредназначает защиту отКОРОНЫ;подмена коррозиейисправлена. СохраненыØ80,Ø60,D,30,42,202,5,узелА;2200/1660/450/85/143;2260/1660/275/162/163;1060/880/50/490;Ø48/85/80/30последнейсхемы. Уточнены связи/направленияразмеров;Dбезчисла не угадывался. Исправления: [{\"path\": \"text_blocks/page_context\", \"reason\": \"Принципиально исправлено от коррозии→от короны по оригиналу.\"}, {\"path\": \"figures/uncertainties\", \"reason\": \"Сверены4элемента первойсхемы,275/85/30 по направлениям;буквенныйD безчисла не является ошибкой извлечения.\"}] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/d466bc41d6d32906436c2181ad212cfa361d72ae589be5dff36d2f2c7f176914.json",
+      "sha256": "d466bc41d6d32906436c2181ad212cfa361d72ae589be5dff36d2f2c7f176914",
+      "bytes": 12182,
+      "role": "native-candidate",
+      "program_version": "1.5.13"
+    },
+    {
+      "path": "objects/d8d56c985835b1812e3ec1e4ce201582a5ced28122de04f1726123a1fc4b6a59.json",
+      "sha256": "d8d56c985835b1812e3ec1e4ce201582a5ced28122de04f1726123a1fc4b6a59",
+      "bytes": 12513,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod3-20261014.r3"
+    },
+    {
+      "path": "objects/e1c48d0a8ef5bc02ffeecb9a210c1797508e1c9ecb69727de628499ecb721135.json",
+      "sha256": "e1c48d0a8ef5bc02ffeecb9a210c1797508e1c9ecb69727de628499ecb721135",
+      "bytes": 16018,
+      "role": "source-review",
+      "program_version": "tail-mod3-20261014.r3"
+    }
+  ]
+}

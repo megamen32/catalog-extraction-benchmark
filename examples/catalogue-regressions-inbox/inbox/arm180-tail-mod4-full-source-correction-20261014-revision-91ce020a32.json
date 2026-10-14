@@ -1,0 +1,36 @@
+{
+  "id": "arm180-tail-mod4-full-source-correction-20261014-revision-91ce020a32",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "Арматура180: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 180
+  },
+  "review_basis": "[\"Полная страница и увеличенный конец L4 повторно просмотрены. Нижняя выносная линия L4 совпадает с линией стыка, отмеченного размером 5; оболочка продолжается ниже этой линии.\", \"Все 216 ячеек таблицы, в том числе общий S2=14 для последних 15 строк, остались равны ранее сверенной версии. Остальные размерные привязки не изменены.\"] Исправления: [\"Конец L4 исправлен с нижнего конца всей оболочки на поперечную границу изоляционного стыка у размера 5.\", \"Восстановлены обычные пробелы в описаниях и source_notes.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/ee3f2db817eeb7975f228e6c0224a14d39933ddb833cd6c8c11866f64ce54b4f.json",
+      "sha256": "ee3f2db817eeb7975f228e6c0224a14d39933ddb833cd6c8c11866f64ce54b4f",
+      "bytes": 42019,
+      "role": "native-candidate",
+      "program_version": "1.5.9"
+    },
+    {
+      "path": "objects/91ce020a32192d9e0e22f765bdafb6497286212422528cbe1ca2b41da6d6bfb2.json",
+      "sha256": "91ce020a32192d9e0e22f765bdafb6497286212422528cbe1ca2b41da6d6bfb2",
+      "bytes": 42065,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r2"
+    },
+    {
+      "path": "objects/7f8fa699c8b866e070050caa84e9030609659c1b1ddb025edacb2576b9c27444.json",
+      "sha256": "7f8fa699c8b866e070050caa84e9030609659c1b1ddb025edacb2576b9c27444",
+      "bytes": 3962,
+      "role": "source-review",
+      "program_version": "tail-mod0-20261014.r2"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 248,
+  "printed_page": "247",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r2",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-0248-native-candidate.json",
+    "sha256": "6e1671e11ec9864abf297b99d40b31a7dbe2877f530a2ad59f96688212695f72",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.15",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "8242b10480ab5cbc00eb6b6de0abd40b182977e4018be71b2df47b3ed98da688",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "6e1671e11ec9864abf297b99d40b31a7dbe2877f530a2ad59f96688212695f72",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 248,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "9b513ece12e8465355ea77e5b966812a92866ab89a8f614335298647034f48bf",
+      "receipt": "calls/3d68b4d3a5d848afaca9247f9ea3c53e/result.json",
+      "started_at": 1791959158.7650487,
+      "finished_at": 1791959297.208955
+    }
+  },
+  "output": {
+    "file": "armature-0248-reviewed-r2.json",
+    "sha256": "6f931e0802351d410ee0fb5cb236f59e32c4dad292ba389a30cb110bf14906e1"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "747ef96a92417b34ffc7d0da78ffde384a071b9752641ba619a803893f156001",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      2
+    ],
+    "column_counts": [
+      5
+    ],
+    "cells_checked": 10
+  },
+  "source_findings": [
+    "На полном оригинале и увеличенной таблице числа 25 / 30 имеют те же строковые базы, что две марки, диаметры провода и массы. Отсутствие горизонтальной линии сохранено как особенность печати, но не стирает индивидуальную строковую связь.",
+    "Все 10 ячеек и четыре размерные линии чертежа сверены. D=1045 остаётся общим, массы 20,8 / 20,6 сохранены. Никакие диаметры не вычислялись по масштабу или правдоподобию."
+  ],
+  "corrections": [
+    "Общий текст 25\\n30 в обеих строках заменён индивидуальными d=25 и d=30 по фактическому выравниванию строк.",
+    "Прежняя неопределённость распределения снята после повторной проверки полного изображения, увеличения и независимого подтверждения."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T11:36:38.519270+00:00",
+  "previous_reviewed_output": {
+    "file": "armature-0248-reviewed.json",
+    "sha256": "3ed842fdbf07549237d155b69fa13d0e0710ca93c1ef1e66d232aaa534f55c33"
+  },
+  "revision_trigger": "Independent source review by catalog_tail_mod1, followed by personal source-image recheck by catalog_tail_mod0.",
+  "revision_evidence_images": [
+    {
+      "file": "armature-0248-r2-table.png",
+      "sha256": "3e76d3bd94361ed54c64c1aa6ddf34320eded879fdcb097d0a811a46246f8feb"
+    }
+  ],
+  "private_original_receipt_sha256": "ba9eb35daba80e9d513efc9395c917ba1777bcd05f2c312000c8fed57714ded0"
+}

@@ -1,0 +1,76 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 224,
+  "printed_page": "223",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r1",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-0224-native-candidate.json",
+    "sha256": "8c79e63d21a1ab9d5909b1e0c139d9b43344aa76384b8210157fc15335894894",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.13",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "388e4b7dea7fc75a16d8aeee3f64f722f70d0518bda21b5ea9121fd690d0cc26",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "8c79e63d21a1ab9d5909b1e0c139d9b43344aa76384b8210157fc15335894894",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 224,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4dfdf43954cb8adf1b11456ab3262a152d1ef2fea7fdfb31ebca498d2e6cbeb7",
+      "receipt": "calls/c47e5404959640bb94699b7a7b5c4670/result.json",
+      "started_at": 1791956220.8851418,
+      "finished_at": 1791956376.5690484
+    }
+  },
+  "output": {
+    "file": "armature-0224-reviewed.json",
+    "sha256": "91f77780d8d3a3ed9bcb729d2c537ee22f602875ad75092183d9dc4c2d22f9f0"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "0f6196c6874805b306117e54557a78dc5e8ef5c24baef31369b1f634bca533db",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      16
+    ],
+    "column_counts": [
+      4
+    ],
+    "cells_checked": 64
+  },
+  "source_findings": "Сверены все 64 ячейки (16×4): марки ЭЗ-500/750/1150, применяемая арматура, диаметры D и массы. Тире для шести исполнений сохранены как значения. Массы 4,48/1,3/4,33/11,5/11,17/11,15/12,81/15,21/22,03/22,51/11,38/16,8/24,55/17,29/12,15/29,7 проверены. ТУ, назначение, реквизиты и номер 223 сверены. Увеличения upper-detail/lower-detail подтверждают 82, 450, Ø80/143/960, 59, Ø120/235/42/D. Все размерные линии связаны с собственными элементами; прежние uncertainties о диаметрах устранены прямым просмотром. Исправленный чертёж ждёт независимой проверки.",
+  "corrections": [
+    "82 ошибочно прочитано как 38.",
+    "Ø80/Ø120 — диаметры трубы; 143/235 — полная глубина с выступающим креплением, их владельцы уточнены по двум контурам.",
+    "59 ошибочно описан от оси до края; размер ограничен обеими гранями центрального узла.",
+    "Исправлено выдуманное пояснение бренда."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T13:50:23.914126+03:00",
+  "private_original_receipt_sha256": "624c16252c73ca22d49a92f25318b0fe090d355c25b6013a832f97dc759e7427"
+}

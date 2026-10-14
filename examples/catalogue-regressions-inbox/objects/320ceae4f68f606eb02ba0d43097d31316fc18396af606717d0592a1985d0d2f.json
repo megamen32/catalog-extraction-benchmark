@@ -1,0 +1,81 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 196,
+  "printed_page": "195",
+  "status": "source_corrected_pending_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod0",
+    "version": "tail-mod0-20261014.r2",
+    "model_id": "Current native Codex session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-0196-native-candidate.json",
+    "sha256": "fdea1b3b434fba73e94ae64d5ab16b3486e3093ecf642f52ac32b5e9b487e3e5",
+    "producer": {
+      "status": "receipt_verified",
+      "program": {
+        "package_version": "1.5.21",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "2301687f1a836b45b5310748b9eff0562539e6ca5d5cae7237a5b8e7ae0f4f91",
+        "python_version": "3.12.13"
+      },
+      "artifact_sha256": "fdea1b3b434fba73e94ae64d5ab16b3486e3093ecf642f52ac32b5e9b487e3e5",
+      "source_bound_save": true,
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 196,
+      "attempt": 2,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "867b3f790ecc8921609cf97aa738eda3b36ee55598d694455416842fad03be98",
+      "receipt": "calls/3604614374dd499a9be2b722f3cd4a83/result.json",
+      "started_at": 1791974547.155444,
+      "finished_at": 1791974655.0965629
+    }
+  },
+  "output": {
+    "file": "armature-0196-reviewed-r2.json",
+    "sha256": "f9d111bb4ef3ced62b2d224b7e8a3397cba7605ff92792c95217b5feae991f58"
+  },
+  "full_original_image_review": true,
+  "original_image_sha256": "15f9c64c646b4e5ff276c50531d59b81f985f79538ab1201217d2df31dd2920c",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true
+  },
+  "tables": {
+    "row_counts": [
+      3
+    ],
+    "column_counts": [
+      6
+    ],
+    "cells_checked": 18
+  },
+  "source_findings": [
+    "Полная оригинальная страница повторно просмотрена. Дефект касается читаемости предложений, а не фактов. Таблица 3×6, все 18 ячеек, геометрические связи и размерные числа равны ранее сверенной версии."
+  ],
+  "corrections": [
+    "Восстановлены пробелы в описаниях чертежей; подтверждённые числа, марки и привязки не изменены."
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independently_accepted": false,
+  "unresolved_issues": [],
+  "completed_at": "2026-10-14T11:38:16.628729+00:00",
+  "previous_reviewed_output": {
+    "file": "armature-0196-reviewed.json",
+    "sha256": "9a8513dccdd7cef474ad82eaf8c61113c87ef6d6171cb447863223c8389a38d3"
+  },
+  "revision_trigger": "Independent source review by catalog_tail_mod1, followed by personal source-image recheck by catalog_tail_mod0.",
+  "revision_evidence_images": [],
+  "private_original_receipt_sha256": "aef325f13e6588c8bbe35f3b2cbee5e39b1b327f8090c92cf172b2254f463358"
+}

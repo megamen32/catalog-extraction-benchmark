@@ -1,0 +1,36 @@
+{
+  "id": "arm220-tail-mod4-full-source-correction-20261014",
+  "status": "pending_adjudication",
+  "category": "source-meaning-and-drawing-ownership",
+  "title": "Арматура220: ошибки полного разбора, выявленные независимой сверкой оригинала",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 220
+  },
+  "review_basis": "Полностью проверена вся страница: единственный текст «АРМАТУРА ЗАЩИТНАЯ», верхняя фотография и четыре нижние фотографии. Таблиц, печатного номера, кодов, единиц, чисел и размерных линий нет. Фотографии не объявлены чертежами, формы без подписей не превращены в технические характеристики. Смысл страницы — разделитель и обзорные иллюстрации. Исправления: [\"Разделитель без товарных данных классифицирован как supporting_material.\", \"Ступени подъёма на опоре ошибочно названы птицезащитной оболочкой с шипами.\", \"Первое нижнее фото ошибочно описано как винтовой зажим для провода; убраны неподтверждённые функции всех неподписанных деталей.\"] Исправленный разбор не имеет автоматического независимого PASS.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/faa62822563bdac575eb7a896632bee21f9469e28ea218e7fbfca9862dfa7175.json",
+      "sha256": "faa62822563bdac575eb7a896632bee21f9469e28ea218e7fbfca9862dfa7175",
+      "bytes": 5221,
+      "role": "native-candidate",
+      "program_version": "1.5.13"
+    },
+    {
+      "path": "objects/a4abbf79223f21a5c6280eff82ba036bb8837998fb723636a706cfa5d85a0855.json",
+      "sha256": "a4abbf79223f21a5c6280eff82ba036bb8837998fb723636a706cfa5d85a0855",
+      "bytes": 4520,
+      "role": "source-checked-reference",
+      "program_version": "tail-mod0-20261014.r1"
+    },
+    {
+      "path": "objects/63d99443c66110aedd88c597d017ee36f932ca443bc93372a6110655c3a00acc.json",
+      "sha256": "63d99443c66110aedd88c597d017ee36f932ca443bc93372a6110655c3a00acc",
+      "bytes": 3703,
+      "role": "source-review",
+      "program_version": "tail-mod0-20261014.r1"
+    }
+  ]
+}

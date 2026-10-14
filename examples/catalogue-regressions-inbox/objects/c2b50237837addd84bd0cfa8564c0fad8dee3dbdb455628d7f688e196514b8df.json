@@ -1,0 +1,142 @@
+{
+  "schema_version": "catalogue-source-review/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 219,
+  "printed_page": "218",
+  "status": "awaiting_independent_review",
+  "reviewer": {
+    "harness": "codex",
+    "session_id": "catalog_tail_mod3",
+    "task": "/root/catalog_tail_mod3",
+    "version": "tail-mod3-20261014.r4",
+    "model_id": "Current native Codex worker session; exact provider identifier not exported."
+  },
+  "basis_candidate": {
+    "file": "armature-219-candidate.json",
+    "sha256": "092853a3b5b37f2f24e35ccca2695f16ce6cfdc56ae267406825d9af3ac40ca0",
+    "canonical_sha256": "39ffe4c243ff6919db7e555a1455c6637729831004553ad3e4f66a9b2950da14",
+    "producer": {
+      "program": {
+        "package_version": "1.5.13",
+        "git_revision": null,
+        "dirty": null,
+        "source_code_sha256": "388e4b7dea7fc75a16d8aeee3f64f722f70d0518bda21b5ea9121fd690d0cc26",
+        "python_version": "3.12.13"
+      },
+      "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+      "physical_page": 219,
+      "attempt": 1,
+      "role": "extractor",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+      "contract_sha256": "4dfdf43954cb8adf1b11456ab3262a152d1ef2fea7fdfb31ebca498d2e6cbeb7",
+      "artifact_sha256": "092853a3b5b37f2f24e35ccca2695f16ce6cfdc56ae267406825d9af3ac40ca0",
+      "started_at": 1791956037.8406198,
+      "finished_at": 1791956208.1986089,
+      "provider_rate_limit_events": 0,
+      "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46",
+      "status": "receipt_verified",
+      "source_bound_save": true,
+      "receipt": ".tmp/full-digitization/staged-best-v1.4.8/armature/page-0219/calls/2d9950b006ab4628ac49eff11e6d56bf/result.json",
+      "frozen_receipt": "armature-219-native-receipt.json",
+      "frozen_receipt_sha256": "e42b0b2046610425eb0f7d5cf7daf92745b36ccd93907b51446b9f9498662119"
+    }
+  },
+  "output": {
+    "file": "armature-219-reviewed.json",
+    "sha256": "f5887c62c402c747ad2d93bb6afa5f25e244218d9b9d0a5a2fe05470ab454845",
+    "canonical_sha256": "0615189cfd06ea97ad466940c2e08f3d49c0430d2229c2f5958a4ecff61ee8fe"
+  },
+  "full_original_image_review": true,
+  "original_image": "armature-219.png",
+  "original_image_sha256": "fbdf7921cb08a3d8802af36a9e73458636ff6e82a890ec0ed5d1b360c1875e54",
+  "checks": {
+    "all_text_and_meaning": true,
+    "all_table_cells": true,
+    "headers_units_conditions": true,
+    "merged_cells_and_blanks": true,
+    "figures_and_relationships": true,
+    "source_provenance": true,
+    "page_content_schema": true
+  },
+  "tables": {
+    "row_counts": [
+      12
+    ],
+    "column_counts": [
+      9
+    ],
+    "cells_checked": 108
+  },
+  "source_findings": "Полностьюсверены108ячеек12×9,не13позиций. Рис1/2объединены2/2/6/2строки,H/B/D/массыпарныхрезьбовыхисполненийпроверены. S18толькоАШМ-5-2,S12остальные;L175впоследних8строках. Сохраненывсеd,включаяМ16х1,5/М20х1,5/М22х1,5. Чертежипластина60/80,отверстияØ12,5,45,85,S,L,D,d,H,В иА–А проверены;никакихшлицевнепридумано.",
+  "corrections": [
+    {
+      "path": "text_blocks[1]",
+      "reason": "Удаленавыдуманнаяфедеральнаясетеваякомпания."
+    },
+    {
+      "path": "figures",
+      "reason": "Пластинавместоштыря,штриховкавместовыдуманныхрадиальныхшлицев,подтверждены85/S иd/D."
+    }
+  ],
+  "complete_leaf_diff": [
+    {
+      "path": ".figures[0].description",
+      "before": "Зажим аппаратный штыревой типа АШМ, рисунок 1 (двухотверстное исполнение). Слева вверху — вид спереди: пластина высотой 60 с двумя круглыми отверстиями, одно из которых обозначено Ø12,5; расстояние между отверстиями по горизонтали 45; справа зажимной блок с двумя шестигранными болтами, его габарит по высоте обозначен В. Внизу — вид сбоку: длина штыря от торца до начала зажимного блока 85, толщина штыря S, общая длина зажима L, диаметр зажимного блока D; линия разреза «А» отмечена сверху и снизу. Справа вверху — поперечный разрез «А-А» с обозначениями диаметра втулки d и высоты зажимного блока H: по сторонам стяжные болты, в центре втулка с радиальными шлицами.",
+      "after": "РИС.1:контактнаяпластина слева сдва отверстияØ12,5,межосевое45 по горизонтали;поперечнаяширинапластины60. Справацилиндрическийзажимнойузелсдвумястяжнымиболтами,его наружный поперечныйгабаритВ. Нижнийвид:S—толщинаплоскойконтактнойпластины,85—длинапрямогоучасткапластиныдоначалаперехода,а нештыря;L—общаядлина до крайнейправойвыносной,D—наружныйдиаметрцилиндрическогопосадочногоузла. СечениеА–А связанострелкамиА:внутреннеепосадочноеотверстиеобозначеноd;H—поперечныйнаружныйгабаритконтуровкорпусавсечении. Штриховкаматериалавсечениинеозначаетрадиальныешлицы. Числа/резьбыd берутсяизодноимённойколонкитаблицы."
+    },
+    {
+      "path": ".figures[1].description",
+      "before": "Зажим аппаратный штыревой типа АШМ, рисунок 2 (четырёхотверстное исполнение). Слева вверху — вид спереди: пластина высотой 80 с четырьмя круглыми отверстиями, верхнее правое из которых обозначено Ø12,5; вертикальное расстояние между рядами отверстий 45 и горизонтальное между столбцами 45; справа зажимной блок с верхним шестигранным болтом и нижним круглым отверстием, его габарит обозначен В. Внизу — вид сбоку: длина штыря до начала зажимного блока 85, толщина штыря S, общая длина L, диаметр блока D, линия разреза «А» сверху и снизу. Справа вверху — поперечный разрез «А-А» с обозначениями d и H: в центре круглая втулка с радиальными шлицами, по сторонам болты.",
+      "after": "РИС.2:контактнаяпластина слева счетыре отверстияØ12,5,межосевое45 по вертикали и45 по горизонтали;поперечнаяширинапластины80. Справацилиндрическийзажимнойузелсдвумястяжнымиболтами,его наружный поперечныйгабаритВ. Нижнийвид:S—толщинаплоскойконтактнойпластины,85—длинапрямогоучасткапластиныдоначалаперехода,а нештыря;L—общаядлина до крайнейправойвыносной,D—наружныйдиаметрцилиндрическогопосадочногоузла. СечениеА–А связанострелкамиА:внутреннеепосадочноеотверстиеобозначеноd;H—поперечныйнаружныйгабаритконтуровкорпусавсечении. Штриховкаматериалавсечениинеозначаетрадиальныешлицы. Числа/резьбыd берутсяизодноимённойколонкитаблицы."
+    },
+    {
+      "path": ".page_context.source_evidence[1].observation",
+      "before": "Единая таблица типоразмеров АШМ (13 позиций) с колонкой рисунка и группой «Размеры, мм» — товарные данные изделия, а не спецификация отдельной стройки.",
+      "after": "Единая таблица типоразмеров АШМ (12 позиций) с колонкой рисунка и группой «Размеры, мм» — товарные данные изделия, а не спецификация отдельной стройки."
+    },
+    {
+      "path": ".tables[0].columns[2].unit",
+      "before": null,
+      "after": "мм"
+    },
+    {
+      "path": ".tables[0].columns[3].unit",
+      "before": null,
+      "after": "мм"
+    },
+    {
+      "path": ".tables[0].columns[4].unit",
+      "before": null,
+      "after": "мм"
+    },
+    {
+      "path": ".tables[0].columns[5].unit",
+      "before": null,
+      "after": "мм"
+    },
+    {
+      "path": ".tables[0].columns[6].unit",
+      "before": null,
+      "after": "мм"
+    },
+    {
+      "path": ".tables[0].columns[7].unit",
+      "before": null,
+      "after": "мм"
+    },
+    {
+      "path": ".text_blocks[1].text",
+      "before": "ФОРЭНЕРГО — федеральная сетевая компания",
+      "after": "ФОРЭНЕРГО производственное объединение"
+    }
+  ],
+  "unchanged_native_candidate": false,
+  "independent_from_initial_extractor": true,
+  "separate_model_review_of_root_edits": null,
+  "independent_review_required": true,
+  "unresolved_issues": [],
+  "acceptance_note": "No PASS issued. Corrected content, engineering drawing relations, and uncertainties require independent source review.",
+  "completed_at": "2026-10-14T14:00:48.508831+03:00",
+  "private_original_receipt_sha256": "13b01816e261dbe21e311de455c605166e43da263d309fef7757fdb0ba406fce"
+}
