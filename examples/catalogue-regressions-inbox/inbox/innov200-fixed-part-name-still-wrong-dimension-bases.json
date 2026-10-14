@@ -1,0 +1,24 @@
+{
+  "id": "innov200-fixed-part-name-still-wrong-dimension-bases",
+  "status": "pending_adjudication",
+  "category": "part_name_repaired_dimension_ownership_still_wrong",
+  "title": "Corrected protector name does not certify dimension166/177 bases",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 200
+  },
+  "review_basis": "Root inspected original physical200 again after native1517repair2. Protector name now correct. In first two front sections lower166extension is below conductor axis, which candidate calls its base. In third front section177 lower extension is above bottom outer-body envelope; candidate calls it total body height. Actual original extension endpoints, not generic height prose, must decide measured feature.",
+  "failure_oracle": "Root повторно сверил оригинал physical200. Исправленное название «Протектор» сохраняйте: это подтверждённое улучшение candidate2. Но в figures0/1 description нижняя база166 названа осью провода: на оригинале размерная стрелка/выносная линия находится ниже оси. В figure2 размер177 назван общей высотой корпуса, хотя его нижняя база выше нижнего габаритного контура. Независимо проследите обе стрелки, выносные линии и точный измеряемый элемент для каждого вида/исполнения; не заменяйте базу общими словами про высоту. Числа166/177,300,196/216,5,147,19,2 не меняйте ради согласования. Новый JSON не является PASS без исправления геометрического смысла.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/3d17c5e1756c6c531f303aa4a276a3c23773025571dc0ad35271a65cd6fc2817.json",
+      "sha256": "3d17c5e1756c6c531f303aa4a276a3c23773025571dc0ad35271a65cd6fc2817",
+      "bytes": 11580,
+      "role": "extractor",
+      "program_version": "1.5.17",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium"
+    }
+  ]
+}
