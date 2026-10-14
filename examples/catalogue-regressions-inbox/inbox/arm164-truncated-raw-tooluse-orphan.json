@@ -1,0 +1,24 @@
+{
+  "id": "arm164-truncated-raw-tooluse-orphan",
+  "status": "pending_adjudication",
+  "category": "native_sdk_truncated_tool_lifecycle",
+  "title": "Raw truncated tool_use survives SDK history but is never executed",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 164
+  },
+  "review_basis": "Follow-up to failed400 diagnostic: examined native raw content block types without publishing reasoning/payload, pinned SDK stop dispatch and AnthropicConverter raw-content precedence. Actual boundary has one raw save_page_json tool_use and zero executed tool_calls; next user is plain text.",
+  "failure_oracle": "Refuse second provider generation on maxTokens plus unexecuted raw tool_use; never fabricate tool_result or execute incomplete arguments. Retain original attempt and checkpoints. Plain text boundary remains resumable.",
+  "assertions": [],
+  "artifacts": [
+    {
+      "path": "objects/93bff20e96acd7fa35dbe9f23d8805d4db7197a29845ece7daaf9a5bcc80342f.json",
+      "sha256": "93bff20e96acd7fa35dbe9f23d8805d4db7197a29845ece7daaf9a5bcc80342f",
+      "bytes": 1086,
+      "role": "sanitized_native_root_cause",
+      "program_version": "1.5.13",
+      "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "program_version": "1.5.13",
+  "physical_page": 164,
+  "history_sha256": "a662128eef12966c564bc4f9f59d85185edeebdbb2cf8183b7d043c34698a6ce",
+  "stop_reason": "maxTokens",
+  "raw_content_block_types": [
+    "thinking",
+    "text",
+    "tool_use"
+  ],
+  "raw_tool_use": [
+    {
+      "id": "call_01a138d8ebaf740db05fe01f",
+      "name": "catalog__save_page_json",
+      "input_top_level_keys": [
+        "page",
+        "data"
+      ]
+    }
+  ],
+  "executed_native_tool_calls_at_boundary": 0,
+  "next_user_message_has_tool_results": false,
+  "root_cause": "SDK _anthropic_stop_result(max_tokens) skips tool execution, while AnthropicConverter.from_multipart reuses raw assistant tool_use. generate_until_saved sends an ordinary missing-file continuation, leaving the raw tool_use without any result. MiniMax rejects history400/2013.",
+  "fix": "Stop this truncated-tool attempt before a second generate; no artificial result, no execution of partial payload; retain artifacts. Ordinary text token boundaries and genuine source repairs continue.",
+  "raw_transcript_published": false
+}
