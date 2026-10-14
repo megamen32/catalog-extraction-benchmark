@@ -1,0 +1,24 @@
+{
+  "status": "pending_adjudication",
+  "priority": "high",
+  "assertions": [],
+  "id": "innov100-branding-crop-neighbor-page-number",
+  "category": "false_literal_quote_conflict",
+  "title": "Adjacent page number in the viewed branding region falsely rejects an otherwise exact quote",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 100
+  },
+  "review_basis": "Retained native155 reviewer rejected the full correct manufacturer/footer quote because source box also contained page100. Adding100 only to visible_quote was then correctly rejected as differing from its actual block. Exact arguments and responses retained, without raw transcript.",
+  "failure_oracle": "Corroborate the complete unchanged quote within a viewed native region with adjacent text allowed. Never accept word fragments, translation, missing words or changed numbers/operators as matching.",
+  "artifacts": [
+    {
+      "path": "objects/41fde1b81ac4325539a3905cdb991839dccc9351641ebaba182afb0bb7e97299.json",
+      "sha256": "41fde1b81ac4325539a3905cdb991839dccc9351641ebaba182afb0bb7e97299",
+      "bytes": 27118,
+      "role": "diagnostic",
+      "program_version": "1.5.5"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "status": "pending_adjudication",
+  "priority": "high",
+  "assertions": [],
+  "id": "arm86-six-versus-eight-description",
+  "category": "drawing_semantic_contradiction",
+  "title": "Repair says six rollers but describes two at each end plus four in the middle",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 86
+  },
+  "review_basis": "Root inspected original enlarged lower П6Р drawing: six separate roller axes. Native156 repair3 consumed source audit but changed four to six while retaining an inconsistent distribution (2+2+4=8). Exact candidate3 is vetoed; no manual extracted-value edits.",
+  "failure_oracle": "The count and spatial description must both agree with the original. A keyword six alone cannot pass a semantic drawing review.",
+  "artifacts": [
+    {
+      "path": "objects/0859e98906982a5a0fbcf86fabffbac6b64f0c6449e4726d9f89291f837d65d0.json",
+      "sha256": "0859e98906982a5a0fbcf86fabffbac6b64f0c6449e4726d9f89291f837d65d0",
+      "bytes": 17936,
+      "role": "extractor",
+      "program_version": "1.5.6"
+    }
+  ]
+}
