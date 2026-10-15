@@ -1,0 +1,25 @@
+{
+  "id": "armature230-clamp-word-loss-merge-20261015",
+  "status": "pending_adjudication",
+  "priority": "high",
+  "category": "semantic_scope",
+  "title": "В нашем поле совместимости пропущена буква в слове зажимы",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 230
+  },
+  "review_basis": "Codex native original-image comparison of existing frozen extraction variants; owner merge, final independent oracle review deferred; no extraction or benchmark.",
+  "artifacts": [
+    {
+      "path": "objects/058fb2dd2d2f89107e718e3e685f44d3bcb1bb72e71ff824c9e857434f6cf214.json",
+      "sha256": "058fb2dd2d2f89107e718e3e685f44d3bcb1bb72e71ff824c9e857434f6cf214",
+      "bytes": 5480,
+      "role": "merge-adjudicator",
+      "program_version": "1.5.26",
+      "model": "gpt-6.1-sol"
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "ERN220-1 installation is source зажимы типа ПГН-5-3Р, ПГН-5-4Р, not ours зажиы. Choose exactexistingOlegtypedstring; retain both duplicate observations and rejectedours."
+}

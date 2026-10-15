@@ -1,0 +1,25 @@
+{
+  "id": "armature227-clamp-word-loss-two-models-merge-20261015",
+  "status": "pending_adjudication",
+  "priority": "high",
+  "category": "semantic_scope",
+  "title": "В двух наших полях совместимости пропущена буква в слове зажимы",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 227
+  },
+  "review_basis": "Codex native original-image comparison of existing frozen extraction variants; owner merge, final independent oracle review deferred; no extraction or benchmark.",
+  "artifacts": [
+    {
+      "path": "objects/2d3f5ae49834e20947e2a18e2a5686f52fad7f0ac4df129f63546f063737004a.json",
+      "sha256": "2d3f5ae49834e20947e2a18e2a5686f52fad7f0ac4df129f63546f063737004a",
+      "bytes": 9562,
+      "role": "merge-adjudicator",
+      "program_version": "1.5.26",
+      "model": "gpt-6.1-sol"
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "ERN110-2 and ERN110-4 have exactsourceclampcompatibility зажимы типа ПГН-5-3Р, ПГН-5-4Р. Our зажиы missingм must notremainprimary when Olegcorrectexistingtext is selected. Retain all original observations."
+}

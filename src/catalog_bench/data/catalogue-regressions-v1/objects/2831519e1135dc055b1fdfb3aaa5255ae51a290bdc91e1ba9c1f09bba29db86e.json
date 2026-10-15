@@ -1,0 +1,110 @@
+{
+  "schema_version": "catalogue-owner-merge-regression-evidence/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 232,
+  "input_fact_store_sha256": "05409d87f09123705fc1a0f21aa20727961dcf4351128d29497a0660978eec8d",
+  "input_ledger_sha256": "1d1fe979355d046a91ac2f619ed52e174a3ffe563fa7eba4ff7625bd91b19cb8",
+  "work_packet_sha256": "08604324bae93c49bee2d67ba410c525e1abf5f789fee01d1cbfa0b942198ac1",
+  "work_sha256": "ed7cd5e31631c96ed14dd2eab1bb7820b2c352dc34a5c82f128a74ea8eddbe2f",
+  "actual_merge_producer": {
+    "role": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "model": "gpt-6.1-sol",
+    "runtime": "Codex native differences-only merge",
+    "program_version": "1.5.26"
+  },
+  "source_evidence": [
+    {
+      "bbox": [
+        0.08,
+        0.07,
+        0.93,
+        0.94
+      ],
+      "observation": "UKE14fullmodels, installationcompatibilityownfieldnotdesignation. UKE4D/L/othersourceexplicittabledashesnotmissingvalues. FourUKE6variants L514/464/564/664 andL1430/380/480/580 remainbound. DrawingUKE4sideAprinted30and3literalnot300/30; sideB600differentview, main4500/1100/2700andboresØ88/89/36ownparts. UKE7Ø14/85/866/982/42andUKE12Ø48/400/21/42differentdimensions."
+    }
+  ],
+  "original_typed_facts": [
+    {
+      "fact_index": 27,
+      "fact_id": "L-e9413a79d29fa98c2091f879",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:69194/raw",
+      "owner": "УКЭ-1Б",
+      "name": "А",
+      "value": "",
+      "unit": "мм",
+      "condition": "",
+      "physical_pages": [
+        232
+      ],
+      "input_fact_sha256": "873254bb953c1ec7ac178487da14555580a5a1f2466c351ee05f2733f45c384c",
+      "input_line": 78569,
+      "raw_context": "raw-2999a511bf5dd265804c8ff030815171eef7156c63d73404ffdceeb0e959d227",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-fe297382665b10a2359a838e",
+        "window_id": "W-4cd4da919f7f6fe80809f644",
+        "group_id": "G-9a992cf6d12c8199cd2f8084",
+        "product_id": "P-8ef91701859489c22cc75b13",
+        "group_title": "Узлы крепления экранов",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 114,
+      "fact_id": "O-dc2a3784079f06b79e3a2ef5",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/231/content/tables/0/rows/2/cells/2",
+      "owner": "УКЭ-1Б",
+      "name": "А",
+      "value": 135,
+      "unit": "мм",
+      "condition": null,
+      "physical_pages": [
+        232
+      ],
+      "input_fact_sha256": "4e1a07d7edace95ee44994c8c311b85b053f8858c714a2260d428e78415e1165",
+      "input_line": 187089,
+      "row_context": "row-2eb1ce564a190c683a39899006f891fdec14435ac48b2122ce94f7e3010de6db",
+      "raw_context": "raw-aea573e874b57f99b922d00a4c5d5ba1110c3b4a5a54f5496024d4f449d13d43",
+      "metadata": {
+        "raw_value_type": "int",
+        "table_index": 0,
+        "row_index": 2,
+        "column_index": 2,
+        "table_title": "Узлы крепления экранов",
+        "column": {
+          "id": "c3",
+          "label": "А",
+          "unit": "мм",
+          "group": "Размеры, мм",
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "210470f8145a24f310143293766ce2a97a51e3c5346c2a5bad82fe7cd2b977e9",
+        "previously_accepted": true
+      }
+    }
+  ],
+  "owner_groups": [
+    {
+      "fact_indices": [
+        27,
+        114
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Общая исходная ячейка A=135 перекрывает первые три строки УКЭ-1А/1В/1Б. У Олега для1Б ошибочный пропуск, выбрано существующее наше135; альтернативный пустой ввод сохранён.",
+      "evidence_refs": [
+        0
+      ]
+    }
+  ]
+}
