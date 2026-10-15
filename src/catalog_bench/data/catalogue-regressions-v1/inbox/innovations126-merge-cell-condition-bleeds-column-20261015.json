@@ -1,0 +1,38 @@
+{
+  "id": "innovations126-merge-cell-condition-bleeds-column-20261015",
+  "status": "pending_adjudication",
+  "priority": "high",
+  "category": "delivery_materialization",
+  "title": "Условие одной ячейки ошибочно стало общим заголовком столбца",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 126
+  },
+  "review_basis": "Сохранённые исходные факты двух извлечений, точный source SHA и физическая страница; direct_visual_pdf_review_2026-10-15 из source-bound amendments. Старый ZIP и фактический автор выбора сохранены; переизвлечение и модельные вызовы не выполнялись. Для SCT6–14 сохраняется неоднозначность печатного размещения, без автоматического эталона.",
+  "artifacts": [
+    {
+      "path": "objects/f64bc732258ff0f79fbb6d4a7acd1469f60a22774fba6f631543c985de0f4ea1.json",
+      "sha256": "f64bc732258ff0f79fbb6d4a7acd1469f60a22774fba6f631543c985de0f4ea1",
+      "bytes": 498748,
+      "role": "exact-retained-dual-extraction-input",
+      "program_version": "1.5.26",
+      "selection_model": "account:zai-individual-coding-plan/GLM-5.3-Flash$high",
+      "selection_runtime": "zcode native",
+      "materializer_git_commit": "3191c424a166bcf39949ca330b7a924a2258fff4"
+    },
+    {
+      "path": "objects/bfcf1af5b159abfcb61c3106ec75b82097528e0dbc064301f5422e453d7f6af2.json",
+      "sha256": "bfcf1af5b159abfcb61c3106ec75b82097528e0dbc064301f5422e453d7f6af2",
+      "bytes": 30467,
+      "role": "source-bound-old-merge-output-and-amendments",
+      "program_version": "1.5.26",
+      "selection_model": "account:zai-individual-coding-plan/GLM-5.3-Flash$high",
+      "selection_runtime": "zcode native",
+      "materializer_git_commit": "3191c424a166bcf39949ca330b7a924a2258fff4"
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "Условия марки провода 300/39, 300/48, 300/66 и 300/67 должны оставаться у конкретных характеристик. Изменение одного clamp cell не изменяет table.columns[3].qualifier для всего столбца. JSON и Excel выводятся из одного набора характеристик; заголовок D1 не приписывает всем строкам последнее условие 300/67.",
+  "coverage_note": "Pending regression only; excluded from frozen500/520-fact accuracy denominators; no model rerun."
+}

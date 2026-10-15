@@ -1,0 +1,38 @@
+{
+  "id": "small218-merge-range-duplicated-diameter-load-20261015",
+  "status": "pending_adjudication",
+  "priority": "high",
+  "category": "source_layout_ambiguity",
+  "title": "Один диапазон одновременно принят за диаметр и рабочую нагрузку",
+  "source": {
+    "filename": "Malyj-katalog.pdf",
+    "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_page": 218
+  },
+  "review_basis": "Сохранённые исходные факты двух извлечений, точный source SHA и физическая страница; direct_visual_pdf_review_2026-10-15 из source-bound amendments. Старый ZIP и фактический автор выбора сохранены; переизвлечение и модельные вызовы не выполнялись. Для SCT6–14 сохраняется неоднозначность печатного размещения, без автоматического эталона.",
+  "artifacts": [
+    {
+      "path": "objects/b5bfa27b07c8c39bdc346cd25cea7383c0ceaf6f5702ae17af81729f479f78b8.json",
+      "sha256": "b5bfa27b07c8c39bdc346cd25cea7383c0ceaf6f5702ae17af81729f479f78b8",
+      "bytes": 702258,
+      "role": "exact-retained-dual-extraction-input",
+      "program_version": null,
+      "selection_model": "account:zai-individual-coding-plan/GLM-5.3-Flash$max",
+      "selection_runtime": "zcode native",
+      "materializer_git_commit": "3191c424a166bcf39949ca330b7a924a2258fff4"
+    },
+    {
+      "path": "objects/3ebeff564806536c3b289400c21c6d35fecc7be07104fdfe8daa47cebd9e0eb4.json",
+      "sha256": "3ebeff564806536c3b289400c21c6d35fecc7be07104fdfe8daa47cebd9e0eb4",
+      "bytes": 56493,
+      "role": "source-bound-old-merge-output-and-amendments",
+      "program_version": null,
+      "selection_model": "account:zai-individual-coding-plan/GLM-5.3-Flash$max",
+      "selection_runtime": "zcode native",
+      "materializer_git_commit": "3191c424a166bcf39949ca330b7a924a2258fff4"
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "Не утверждать одновременно 6,0–14,0 мм и 6,0–14,0 кН. В PDF диапазон физически напечатан в колонке нагрузки; трактовка как диаметра является явно отмеченной интерпретацией, а нагрузка остаётся неизвестной. Этот случай pending и не становится автоматическим gold по контекстной правдоподобности.",
+  "coverage_note": "Pending regression only; excluded from frozen500/520-fact accuracy denominators; no model rerun."
+}

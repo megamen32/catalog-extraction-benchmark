@@ -1,0 +1,2749 @@
+{
+  "schema": "retained-merge-regression-evidence/1",
+  "archive": {
+    "filename": "catalogues-unified.zip",
+    "sha256": "0f4f272a4cc55407ae767b41694fc5f4d822986e8eb84dbe3008049a20aa2726",
+    "member": "catalogue.json"
+  },
+  "source": {
+    "catalog": "small",
+    "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_page": 174
+  },
+  "failure_stage": "source_selection_and_materialization",
+  "actual_selection_receipt": {
+    "saved_at": "2026-10-14T23:01:44.485335+00:00",
+    "work_sha256": "7bdad30e7bb7a8837e6c1e2463a1a70283618ab727a4cd7f865e8006656b2038",
+    "identity": {
+      "role": "zcode",
+      "session_id": "sess_0dd4a3ee-bc7d-4008-b9fa-c25146ec5392",
+      "model": "account:zai-individual-coding-plan/GLM-5.3-Flash$max",
+      "runtime": "zcode native"
+    },
+    "receipt_path": ".tmp/oleg-consensus-20261014/reviews/zcode/full-work/small-0174-page-work-sem2.json"
+  },
+  "candidate_producer": {
+    "status": "manual_source_checked",
+    "harness": "codex",
+    "session_id": "catalog_tail_mod3",
+    "model": "Current native Codex worker session; exact provider identifier not exported.",
+    "program": {
+      "package_version": "tail-mod3-small174-20261014.r2",
+      "source_code_sha256": null
+    },
+    "method": "Full original-page visual check by independently assigned Codex author",
+    "artifact_sha256": "1c072dcfa1078d90034c9de06fb6ec35fb52a83fc3c3fcdd6bb115d89a33b7b9",
+    "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_page": 174,
+    "authored_at": "2026-10-14T19:46:42.536935+03:00",
+    "native_basis_sha256": "cbe3a12263cbc15305c3e63f9798dcdb405095ee2dc11ed1bde514c1e032f9cd"
+  },
+  "actual_materializer": {
+    "name": "owner-merge-exporter",
+    "git_commit": "3191c424a166bcf39949ca330b7a924a2258fff4",
+    "source_sha256": "bc2c8b7558547972713109d69732ac6ffe03f4330d0426422f1fb851bb6ca431"
+  },
+  "original_source_extraction_version_for_oleg": null,
+  "source_version_note": "Версия программы Олега в полученных JSONL не объявлена; не присваивается версия нашего экспортёра. Фактический выбор и материализатор указаны отдельно.",
+  "affected_fact_ids": [
+    "L-141616d7a12208664009a636",
+    "L-306d2e0edbaa025d6bf21261",
+    "L-32655f7f39eb2f1d1122d158",
+    "L-331009fb352736d28ca6df16",
+    "L-33264772d925915ecca34e07",
+    "L-35ef0b2762b6158db36dcfb9",
+    "L-3c49ba11d63ad5ead8d74371",
+    "L-3daa6507641ff4b308f9ffb7",
+    "L-42049ef86ab14bc0fcf9a827",
+    "L-691f0577d3eefb3d40edc490",
+    "L-6cece697cad44d3efd4e423d",
+    "L-9bfe34d5be0bb7dd7d8564a0",
+    "L-a60925edbaaf8daba0ffcc7a",
+    "L-a7401f83f3dc248421e8fdec",
+    "L-c0ddee8942d6d624ad2cef92",
+    "L-c7d4c0abf7e39798ea4e4331",
+    "L-c917c7de4a1b4d433dcd5b1e",
+    "L-e21a0e3c5b389d8027ebce45",
+    "L-ea5523b5106ebf138b4748b3",
+    "L-f002dc3ba2d53cb4aac2d9f4",
+    "O-14d37be16b6f515b657feb6e",
+    "O-171c11597dbfd9019a800f4d",
+    "O-21a8b53002a8b86ef1c1d57b",
+    "O-2a26897c3585d95760509ef2",
+    "O-2bac48b2ffb095a0b4e0096c",
+    "O-46fe0c36cb85b8db7fe20e0d",
+    "O-62c4368fd1c842eb38e7847f",
+    "O-63cbe2728fd35b2b37b2a701",
+    "O-686c0b7371af0be1d4dc74be",
+    "O-68f51322089c7b2606163dc3",
+    "O-6ec627d4ad5d9dd4608b4746",
+    "O-73073de218fe12d1879f8d0f",
+    "O-94465bc5373bc13c3909c596",
+    "O-985502c84f769ee3619a202a",
+    "O-9c489ee19bfb3c115f121fc6",
+    "O-a0cb93a39162754713699156",
+    "O-a62e94f1521ae1a2c351fa06",
+    "O-b0d9a15a008d4aed9240bda9",
+    "O-b0f09224e0643ef7036df36e",
+    "O-fd07adb87b2d25ae03dab1b2"
+  ],
+  "old_selected_facts": [
+    {
+      "fact_id": "L-306d2e0edbaa025d6bf21261",
+      "side": "oleg",
+      "kind": "model_parameter",
+      "owner": "ЛКП 70/10-И-3 СП*",
+      "name": "Масса",
+      "unit": "кг",
+      "condition": "не более",
+      "value": "+",
+      "value_state": null,
+      "pointer": "characteristics.jsonl:55075/raw",
+      "provenance": {
+        "input_fact_sha256": "0e5ffc2e915e4104f5ad2ef7d7f85b56999c28d7fb785554ebea61e50d654962",
+        "kept": "oleg",
+        "selected_by_role": "zcode",
+        "work_sha256": "7bdad30e7bb7a8837e6c1e2463a1a70283618ab727a4cd7f865e8006656b2038"
+      }
+    },
+    {
+      "fact_id": "L-35ef0b2762b6158db36dcfb9",
+      "side": "oleg",
+      "kind": "model_parameter",
+      "owner": "ЛКП 70/10-И-4 СП",
+      "name": "Масса",
+      "unit": "кг",
+      "condition": "не более",
+      "value": "+",
+      "value_state": null,
+      "pointer": "characteristics.jsonl:55086/raw",
+      "provenance": {
+        "input_fact_sha256": "33542d7c8b9c6be8ed1f6ca22765348d6c9c424296c37ff3d6ce93fbdef3b38d",
+        "kept": "oleg",
+        "selected_by_role": "zcode",
+        "work_sha256": "7bdad30e7bb7a8837e6c1e2463a1a70283618ab727a4cd7f865e8006656b2038"
+      }
+    },
+    {
+      "fact_id": "L-141616d7a12208664009a636",
+      "side": "oleg",
+      "kind": "model_parameter",
+      "owner": "ЛКП 70/10-ИГ-6 СП",
+      "name": "Масса",
+      "unit": "кг",
+      "condition": "не более",
+      "value": "+",
+      "value_state": null,
+      "pointer": "characteristics.jsonl:55097/raw",
+      "provenance": {
+        "input_fact_sha256": "c52c4d7009b70205a5207ed1ea54f5b5081f655fb09ff463c3a024dfac8ae66e",
+        "kept": "oleg",
+        "selected_by_role": "zcode",
+        "work_sha256": "7bdad30e7bb7a8837e6c1e2463a1a70283618ab727a4cd7f865e8006656b2038"
+      }
+    },
+    {
+      "fact_id": "L-331009fb352736d28ca6df16",
+      "side": "oleg",
+      "kind": "model_parameter",
+      "owner": "ЛКП 70/20-И-2 СП",
+      "name": "Масса",
+      "unit": "кг",
+      "condition": "не более",
+      "value": "+",
+      "value_state": null,
+      "pointer": "characteristics.jsonl:55108/raw",
+      "provenance": {
+        "input_fact_sha256": "ea4c3574f6625422b7d1cafa3cbc49d0065b3c2c9fb9fa18a32c4f49e5013b91",
+        "kept": "oleg",
+        "selected_by_role": "zcode",
+        "work_sha256": "7bdad30e7bb7a8837e6c1e2463a1a70283618ab727a4cd7f865e8006656b2038"
+      }
+    },
+    {
+      "fact_id": "L-f002dc3ba2d53cb4aac2d9f4",
+      "side": "oleg",
+      "kind": "model_parameter",
+      "owner": "ЛКП 70/20-И-3 СП",
+      "name": "Масса",
+      "unit": "кг",
+      "condition": "не более",
+      "value": "+",
+      "value_state": null,
+      "pointer": "characteristics.jsonl:55119/raw",
+      "provenance": {
+        "input_fact_sha256": "2630e54f248d522a9661f13842a89e6959b7a2556c16744ef97b307a3ac2020b",
+        "kept": "oleg",
+        "selected_by_role": "zcode",
+        "work_sha256": "7bdad30e7bb7a8837e6c1e2463a1a70283618ab727a4cd7f865e8006656b2038"
+      }
+    },
+    {
+      "fact_id": "L-691f0577d3eefb3d40edc490",
+      "side": "oleg",
+      "kind": "model_parameter",
+      "owner": "ЛКП 70/20-И-4 СП",
+      "name": "Масса",
+      "unit": "кг",
+      "condition": "не более",
+      "value": "+",
+      "value_state": null,
+      "pointer": "characteristics.jsonl:55130/raw",
+      "provenance": {
+        "input_fact_sha256": "0223079046f4a56762be9ba0f5510d531cc8166632054e3936e1e42bbe3d23d5",
+        "kept": "oleg",
+        "selected_by_role": "zcode",
+        "work_sha256": "7bdad30e7bb7a8837e6c1e2463a1a70283618ab727a4cd7f865e8006656b2038"
+      }
+    },
+    {
+      "fact_id": "L-c917c7de4a1b4d433dcd5b1e",
+      "side": "oleg",
+      "kind": "model_parameter",
+      "owner": "ЛКП 70/20-ИГ-6 СП",
+      "name": "Масса",
+      "unit": "кг",
+      "condition": "не более",
+      "value": "+",
+      "value_state": null,
+      "pointer": "characteristics.jsonl:55141/raw",
+      "provenance": {
+        "input_fact_sha256": "abf26703e4d6780e2962443612ce57ec7bd5e7a8219a7e6e140b2c934d90259d",
+        "kept": "oleg",
+        "selected_by_role": "zcode",
+        "work_sha256": "7bdad30e7bb7a8837e6c1e2463a1a70283618ab727a4cd7f865e8006656b2038"
+      }
+    },
+    {
+      "fact_id": "L-ea5523b5106ebf138b4748b3",
+      "side": "oleg",
+      "kind": "model_parameter",
+      "owner": "ЛКП 70/35-И-2 СП",
+      "name": "Масса",
+      "unit": "кг",
+      "condition": "не более",
+      "value": "+",
+      "value_state": null,
+      "pointer": "characteristics.jsonl:55152/raw",
+      "provenance": {
+        "input_fact_sha256": "631bd2c817e9f9c1b73e7f64fd73b777e713c4138d746dcf47c84303ea61d44c",
+        "kept": "oleg",
+        "selected_by_role": "zcode",
+        "work_sha256": "7bdad30e7bb7a8837e6c1e2463a1a70283618ab727a4cd7f865e8006656b2038"
+      }
+    },
+    {
+      "fact_id": "L-3daa6507641ff4b308f9ffb7",
+      "side": "oleg",
+      "kind": "model_parameter",
+      "owner": "ЛКП 70/35-И-3 СП",
+      "name": "Масса",
+      "unit": "кг",
+      "condition": "не более",
+      "value": "+",
+      "value_state": null,
+      "pointer": "characteristics.jsonl:55163/raw",
+      "provenance": {
+        "input_fact_sha256": "fa41917e2b7e330f0e0666dbce5627e544fea6d07df63c5c80bf19d610394ce2",
+        "kept": "oleg",
+        "selected_by_role": "zcode",
+        "work_sha256": "7bdad30e7bb7a8837e6c1e2463a1a70283618ab727a4cd7f865e8006656b2038"
+      }
+    },
+    {
+      "fact_id": "L-32655f7f39eb2f1d1122d158",
+      "side": "oleg",
+      "kind": "model_parameter",
+      "owner": "ЛКП 70/35-И-4 СП",
+      "name": "Масса",
+      "unit": "кг",
+      "condition": "не более",
+      "value": "+",
+      "value_state": null,
+      "pointer": "characteristics.jsonl:55174/raw",
+      "provenance": {
+        "input_fact_sha256": "586248c75b845ec46c5d22bf8188a5ad70b1b1b53090c55a37077a8d0cb95643",
+        "kept": "oleg",
+        "selected_by_role": "zcode",
+        "work_sha256": "7bdad30e7bb7a8837e6c1e2463a1a70283618ab727a4cd7f865e8006656b2038"
+      }
+    },
+    {
+      "fact_id": "L-6cece697cad44d3efd4e423d",
+      "side": "oleg",
+      "kind": "model_parameter",
+      "owner": "ЛКП 120/10-И-3 СП",
+      "name": "Масса",
+      "unit": "кг",
+      "condition": "не более",
+      "value": "+",
+      "value_state": null,
+      "pointer": "characteristics.jsonl:55185/raw",
+      "provenance": {
+        "input_fact_sha256": "3df0802dd418f05ee650d9a2dd887aa76c75781afd3c6543b85d0cfac4ace32a",
+        "kept": "oleg",
+        "selected_by_role": "zcode",
+        "work_sha256": "7bdad30e7bb7a8837e6c1e2463a1a70283618ab727a4cd7f865e8006656b2038"
+      }
+    },
+    {
+      "fact_id": "L-e21a0e3c5b389d8027ebce45",
+      "side": "oleg",
+      "kind": "model_parameter",
+      "owner": "ЛКП 120/10-И-4 СП",
+      "name": "Масса",
+      "unit": "кг",
+      "condition": "не более",
+      "value": "+",
+      "value_state": null,
+      "pointer": "characteristics.jsonl:55196/raw",
+      "provenance": {
+        "input_fact_sha256": "b5815691060d9fbd787118ba6af8493f266895ed330775a6fee59a7ed13733a9",
+        "kept": "oleg",
+        "selected_by_role": "zcode",
+        "work_sha256": "7bdad30e7bb7a8837e6c1e2463a1a70283618ab727a4cd7f865e8006656b2038"
+      }
+    },
+    {
+      "fact_id": "L-c7d4c0abf7e39798ea4e4331",
+      "side": "oleg",
+      "kind": "model_parameter",
+      "owner": "ЛКП 120/10-ИГ-6 СП",
+      "name": "Масса",
+      "unit": "кг",
+      "condition": "не более",
+      "value": "+",
+      "value_state": null,
+      "pointer": "characteristics.jsonl:55207/raw",
+      "provenance": {
+        "input_fact_sha256": "dd69590f57ee5c3aa20d2df4eee22d1877fb6d51a818c30490d6048891c9bc8f",
+        "kept": "oleg",
+        "selected_by_role": "zcode",
+        "work_sha256": "7bdad30e7bb7a8837e6c1e2463a1a70283618ab727a4cd7f865e8006656b2038"
+      }
+    },
+    {
+      "fact_id": "L-9bfe34d5be0bb7dd7d8564a0",
+      "side": "oleg",
+      "kind": "model_parameter",
+      "owner": "ЛКП 120/20-И-2 СП",
+      "name": "Масса",
+      "unit": "кг",
+      "condition": "не более",
+      "value": "+",
+      "value_state": null,
+      "pointer": "characteristics.jsonl:55218/raw",
+      "provenance": {
+        "input_fact_sha256": "87edb1c95d68ffc8b55bab663392134b9182afdf06a9036594fb44d0406af9a5",
+        "kept": "oleg",
+        "selected_by_role": "zcode",
+        "work_sha256": "7bdad30e7bb7a8837e6c1e2463a1a70283618ab727a4cd7f865e8006656b2038"
+      }
+    },
+    {
+      "fact_id": "L-42049ef86ab14bc0fcf9a827",
+      "side": "oleg",
+      "kind": "model_parameter",
+      "owner": "ЛКП 120/20-И-3 СП",
+      "name": "Масса",
+      "unit": "кг",
+      "condition": "не более",
+      "value": "+",
+      "value_state": null,
+      "pointer": "characteristics.jsonl:55229/raw",
+      "provenance": {
+        "input_fact_sha256": "9d41a6132e09880edbf1db6a2b757a8fd95a0e8f16a11008dab1698eb8355bca",
+        "kept": "oleg",
+        "selected_by_role": "zcode",
+        "work_sha256": "7bdad30e7bb7a8837e6c1e2463a1a70283618ab727a4cd7f865e8006656b2038"
+      }
+    },
+    {
+      "fact_id": "L-a60925edbaaf8daba0ffcc7a",
+      "side": "oleg",
+      "kind": "model_parameter",
+      "owner": "ЛКП 120/20-И-4 СП",
+      "name": "Масса",
+      "unit": "кг",
+      "condition": "не более",
+      "value": "+",
+      "value_state": null,
+      "pointer": "characteristics.jsonl:55240/raw",
+      "provenance": {
+        "input_fact_sha256": "3181b99bd432c4c821c26846825a77d2f8effab9cc728229ca0fe72d2d6a525c",
+        "kept": "oleg",
+        "selected_by_role": "zcode",
+        "work_sha256": "7bdad30e7bb7a8837e6c1e2463a1a70283618ab727a4cd7f865e8006656b2038"
+      }
+    },
+    {
+      "fact_id": "L-3c49ba11d63ad5ead8d74371",
+      "side": "oleg",
+      "kind": "model_parameter",
+      "owner": "ЛКП 120/20-ИГ-6 СП",
+      "name": "Масса",
+      "unit": "кг",
+      "condition": "не более",
+      "value": "+",
+      "value_state": null,
+      "pointer": "characteristics.jsonl:55251/raw",
+      "provenance": {
+        "input_fact_sha256": "d5827d3501a266f80590d1ad6e745b15147f791bae5bce4b9a3fb899385e0c94",
+        "kept": "oleg",
+        "selected_by_role": "zcode",
+        "work_sha256": "7bdad30e7bb7a8837e6c1e2463a1a70283618ab727a4cd7f865e8006656b2038"
+      }
+    },
+    {
+      "fact_id": "L-a7401f83f3dc248421e8fdec",
+      "side": "oleg",
+      "kind": "model_parameter",
+      "owner": "ЛКП 120/35-И-2 СП",
+      "name": "Масса",
+      "unit": "кг",
+      "condition": "не более",
+      "value": "+",
+      "value_state": null,
+      "pointer": "characteristics.jsonl:55262/raw",
+      "provenance": {
+        "input_fact_sha256": "02f914e2dd9c5d69a826061f8630eb05509347453d8d09aab3876aa293d7770a",
+        "kept": "oleg",
+        "selected_by_role": "zcode",
+        "work_sha256": "7bdad30e7bb7a8837e6c1e2463a1a70283618ab727a4cd7f865e8006656b2038"
+      }
+    },
+    {
+      "fact_id": "L-c0ddee8942d6d624ad2cef92",
+      "side": "oleg",
+      "kind": "model_parameter",
+      "owner": "ЛКП 120/35-И-3 СП",
+      "name": "Масса",
+      "unit": "кг",
+      "condition": "не более",
+      "value": "+",
+      "value_state": null,
+      "pointer": "characteristics.jsonl:55273/raw",
+      "provenance": {
+        "input_fact_sha256": "ae7605b6c94ea5ae320bce3a2120022a37bd54f8dcccec4fabf7e839af1e0a6a",
+        "kept": "oleg",
+        "selected_by_role": "zcode",
+        "work_sha256": "7bdad30e7bb7a8837e6c1e2463a1a70283618ab727a4cd7f865e8006656b2038"
+      }
+    },
+    {
+      "fact_id": "L-33264772d925915ecca34e07",
+      "side": "oleg",
+      "kind": "model_parameter",
+      "owner": "ЛКП 120/35-И-4 СП",
+      "name": "Масса",
+      "unit": "кг",
+      "condition": "не более",
+      "value": "+",
+      "value_state": null,
+      "pointer": "characteristics.jsonl:55284/raw",
+      "provenance": {
+        "input_fact_sha256": "823f3aa8a67970f7de62419d157147a979839a1b8a7d2191a42ba6bf5e5efefc",
+        "kept": "oleg",
+        "selected_by_role": "zcode",
+        "work_sha256": "7bdad30e7bb7a8837e6c1e2463a1a70283618ab727a4cd7f865e8006656b2038"
+      }
+    },
+    {
+      "fact_id": "O-62c4368fd1c842eb38e7847f",
+      "side": "ours",
+      "kind": "model_parameter",
+      "owner": "ЛКП 70/10-И-3 СП*",
+      "name": "Аттестация ПАО «Россети»",
+      "unit": null,
+      "condition": null,
+      "value": "+",
+      "value_state": null,
+      "pointer": "/catalogs/2/pages/173/content/tables/0/rows/0/cells/11",
+      "provenance": {
+        "input_fact_sha256": "148ead318e0732669d24b79894bf24d6254772fb70539a3a28939af2fac0f86e",
+        "kept": "ours",
+        "selected_by_role": "zcode",
+        "work_sha256": "7bdad30e7bb7a8837e6c1e2463a1a70283618ab727a4cd7f865e8006656b2038"
+      }
+    },
+    {
+      "fact_id": "O-a0cb93a39162754713699156",
+      "side": "ours",
+      "kind": "model_parameter",
+      "owner": "ЛКП 70/10-И-4 СП",
+      "name": "Аттестация ПАО «Россети»",
+      "unit": null,
+      "condition": null,
+      "value": "+",
+      "value_state": null,
+      "pointer": "/catalogs/2/pages/173/content/tables/0/rows/1/cells/11",
+      "provenance": {
+        "input_fact_sha256": "49ed583b9f82b297045a9068ae3036ac6227ab6b4e66b6c8a84461cb5832df1b",
+        "kept": "ours",
+        "selected_by_role": "zcode",
+        "work_sha256": "7bdad30e7bb7a8837e6c1e2463a1a70283618ab727a4cd7f865e8006656b2038"
+      }
+    },
+    {
+      "fact_id": "O-2a26897c3585d95760509ef2",
+      "side": "ours",
+      "kind": "model_parameter",
+      "owner": "ЛКП 70/10-ИГ-6 СП",
+      "name": "Аттестация ПАО «Россети»",
+      "unit": null,
+      "condition": null,
+      "value": "+",
+      "value_state": null,
+      "pointer": "/catalogs/2/pages/173/content/tables/0/rows/2/cells/11",
+      "provenance": {
+        "input_fact_sha256": "d8daa245e6964da0a14b6fedc8e74dc9c4e1d689953a5a4e12136ab1f6f95069",
+        "kept": "ours",
+        "selected_by_role": "zcode",
+        "work_sha256": "7bdad30e7bb7a8837e6c1e2463a1a70283618ab727a4cd7f865e8006656b2038"
+      }
+    },
+    {
+      "fact_id": "O-6ec627d4ad5d9dd4608b4746",
+      "side": "ours",
+      "kind": "model_parameter",
+      "owner": "ЛКП 70/20-И-2 СП",
+      "name": "Аттестация ПАО «Россети»",
+      "unit": null,
+      "condition": null,
+      "value": "+",
+      "value_state": null,
+      "pointer": "/catalogs/2/pages/173/content/tables/0/rows/3/cells/11",
+      "provenance": {
+        "input_fact_sha256": "52e0fe43a8e3db9292817dd6d3b48cef4ed4aad036a6dbc4e0c9d4fb1750dd67",
+        "kept": "ours",
+        "selected_by_role": "zcode",
+        "work_sha256": "7bdad30e7bb7a8837e6c1e2463a1a70283618ab727a4cd7f865e8006656b2038"
+      }
+    },
+    {
+      "fact_id": "O-fd07adb87b2d25ae03dab1b2",
+      "side": "ours",
+      "kind": "model_parameter",
+      "owner": "ЛКП 70/20-И-3 СП",
+      "name": "Аттестация ПАО «Россети»",
+      "unit": null,
+      "condition": null,
+      "value": "+",
+      "value_state": null,
+      "pointer": "/catalogs/2/pages/173/content/tables/0/rows/4/cells/11",
+      "provenance": {
+        "input_fact_sha256": "3f48b2f54d9c12ff04bcddbc98c6fadc8c6a35b1aa835dad86260b2b220f5c30",
+        "kept": "ours",
+        "selected_by_role": "zcode",
+        "work_sha256": "7bdad30e7bb7a8837e6c1e2463a1a70283618ab727a4cd7f865e8006656b2038"
+      }
+    },
+    {
+      "fact_id": "O-171c11597dbfd9019a800f4d",
+      "side": "ours",
+      "kind": "model_parameter",
+      "owner": "ЛКП 70/20-И-4 СП",
+      "name": "Аттестация ПАО «Россети»",
+      "unit": null,
+      "condition": null,
+      "value": "+",
+      "value_state": null,
+      "pointer": "/catalogs/2/pages/173/content/tables/0/rows/5/cells/11",
+      "provenance": {
+        "input_fact_sha256": "391705ed65148c4456f0b504219b3e85735d2e4c62c7b9269650a5181f7a095e",
+        "kept": "ours",
+        "selected_by_role": "zcode",
+        "work_sha256": "7bdad30e7bb7a8837e6c1e2463a1a70283618ab727a4cd7f865e8006656b2038"
+      }
+    },
+    {
+      "fact_id": "O-73073de218fe12d1879f8d0f",
+      "side": "ours",
+      "kind": "model_parameter",
+      "owner": "ЛКП 70/20-ИГ-6 СП",
+      "name": "Аттестация ПАО «Россети»",
+      "unit": null,
+      "condition": null,
+      "value": "+",
+      "value_state": null,
+      "pointer": "/catalogs/2/pages/173/content/tables/0/rows/6/cells/11",
+      "provenance": {
+        "input_fact_sha256": "c571a0b1fce00e4bede95a308122350d2ba062ac3bbceff3ebf4bcd7189510dc",
+        "kept": "ours",
+        "selected_by_role": "zcode",
+        "work_sha256": "7bdad30e7bb7a8837e6c1e2463a1a70283618ab727a4cd7f865e8006656b2038"
+      }
+    },
+    {
+      "fact_id": "O-21a8b53002a8b86ef1c1d57b",
+      "side": "ours",
+      "kind": "model_parameter",
+      "owner": "ЛКП 70/35-И-2 СП",
+      "name": "Аттестация ПАО «Россети»",
+      "unit": null,
+      "condition": null,
+      "value": "+",
+      "value_state": null,
+      "pointer": "/catalogs/2/pages/173/content/tables/0/rows/7/cells/11",
+      "provenance": {
+        "input_fact_sha256": "d00da445d3497a7cd94700d2e18e2b68a87491f1790549d3b81ee46e9aabc85f",
+        "kept": "ours",
+        "selected_by_role": "zcode",
+        "work_sha256": "7bdad30e7bb7a8837e6c1e2463a1a70283618ab727a4cd7f865e8006656b2038"
+      }
+    },
+    {
+      "fact_id": "O-9c489ee19bfb3c115f121fc6",
+      "side": "ours",
+      "kind": "model_parameter",
+      "owner": "ЛКП 70/35-И-3 СП",
+      "name": "Аттестация ПАО «Россети»",
+      "unit": null,
+      "condition": null,
+      "value": "+",
+      "value_state": null,
+      "pointer": "/catalogs/2/pages/173/content/tables/0/rows/8/cells/11",
+      "provenance": {
+        "input_fact_sha256": "1e1bfb98eb9590e88a216ed254b6b933de49592d5c3f5f179206883390a0e09d",
+        "kept": "ours",
+        "selected_by_role": "zcode",
+        "work_sha256": "7bdad30e7bb7a8837e6c1e2463a1a70283618ab727a4cd7f865e8006656b2038"
+      }
+    },
+    {
+      "fact_id": "O-14d37be16b6f515b657feb6e",
+      "side": "ours",
+      "kind": "model_parameter",
+      "owner": "ЛКП 70/35-И-4 СП",
+      "name": "Аттестация ПАО «Россети»",
+      "unit": null,
+      "condition": null,
+      "value": "+",
+      "value_state": null,
+      "pointer": "/catalogs/2/pages/173/content/tables/0/rows/9/cells/11",
+      "provenance": {
+        "input_fact_sha256": "5cc10ac33e0f59c7ebfa64e0c83152458463559bb9b4fe20dd7c989d5ff5582b",
+        "kept": "ours",
+        "selected_by_role": "zcode",
+        "work_sha256": "7bdad30e7bb7a8837e6c1e2463a1a70283618ab727a4cd7f865e8006656b2038"
+      }
+    },
+    {
+      "fact_id": "O-63cbe2728fd35b2b37b2a701",
+      "side": "ours",
+      "kind": "model_parameter",
+      "owner": "ЛКП 120/10-И-3 СП",
+      "name": "Аттестация ПАО «Россети»",
+      "unit": null,
+      "condition": null,
+      "value": "+",
+      "value_state": null,
+      "pointer": "/catalogs/2/pages/173/content/tables/0/rows/10/cells/11",
+      "provenance": {
+        "input_fact_sha256": "228633f2bd33555bb588bf608838f0a84978c75e0ea5bccba0c3a52e04a6e46c",
+        "kept": "ours",
+        "selected_by_role": "zcode",
+        "work_sha256": "7bdad30e7bb7a8837e6c1e2463a1a70283618ab727a4cd7f865e8006656b2038"
+      }
+    },
+    {
+      "fact_id": "O-b0f09224e0643ef7036df36e",
+      "side": "ours",
+      "kind": "model_parameter",
+      "owner": "ЛКП 120/10-И-4 СП",
+      "name": "Аттестация ПАО «Россети»",
+      "unit": null,
+      "condition": null,
+      "value": "+",
+      "value_state": null,
+      "pointer": "/catalogs/2/pages/173/content/tables/0/rows/11/cells/11",
+      "provenance": {
+        "input_fact_sha256": "7d30d71ca5faf128793ab6cd1bb6b393b717ce1a387dffc3e563efffc742d831",
+        "kept": "ours",
+        "selected_by_role": "zcode",
+        "work_sha256": "7bdad30e7bb7a8837e6c1e2463a1a70283618ab727a4cd7f865e8006656b2038"
+      }
+    },
+    {
+      "fact_id": "O-2bac48b2ffb095a0b4e0096c",
+      "side": "ours",
+      "kind": "model_parameter",
+      "owner": "ЛКП 120/10-ИГ-6 СП",
+      "name": "Аттестация ПАО «Россети»",
+      "unit": null,
+      "condition": null,
+      "value": "+",
+      "value_state": null,
+      "pointer": "/catalogs/2/pages/173/content/tables/0/rows/12/cells/11",
+      "provenance": {
+        "input_fact_sha256": "40be3263ddc6f0ae63bd423a2caa732a824f1f5e135f82f6771d0906ea5609d7",
+        "kept": "ours",
+        "selected_by_role": "zcode",
+        "work_sha256": "7bdad30e7bb7a8837e6c1e2463a1a70283618ab727a4cd7f865e8006656b2038"
+      }
+    },
+    {
+      "fact_id": "O-b0d9a15a008d4aed9240bda9",
+      "side": "ours",
+      "kind": "model_parameter",
+      "owner": "ЛКП 120/20-И-2 СП",
+      "name": "Аттестация ПАО «Россети»",
+      "unit": null,
+      "condition": null,
+      "value": "+",
+      "value_state": null,
+      "pointer": "/catalogs/2/pages/173/content/tables/0/rows/13/cells/11",
+      "provenance": {
+        "input_fact_sha256": "59be6d01d7bdad3661e1523887cc23742813e3aeb44610fc095ed73140977686",
+        "kept": "ours",
+        "selected_by_role": "zcode",
+        "work_sha256": "7bdad30e7bb7a8837e6c1e2463a1a70283618ab727a4cd7f865e8006656b2038"
+      }
+    },
+    {
+      "fact_id": "O-a62e94f1521ae1a2c351fa06",
+      "side": "ours",
+      "kind": "model_parameter",
+      "owner": "ЛКП 120/20-И-3 СП",
+      "name": "Аттестация ПАО «Россети»",
+      "unit": null,
+      "condition": null,
+      "value": "+",
+      "value_state": null,
+      "pointer": "/catalogs/2/pages/173/content/tables/0/rows/14/cells/11",
+      "provenance": {
+        "input_fact_sha256": "126cae912414159aa2fbd2408d47fb446357260fd6be4ff75e4374eeed7460a8",
+        "kept": "ours",
+        "selected_by_role": "zcode",
+        "work_sha256": "7bdad30e7bb7a8837e6c1e2463a1a70283618ab727a4cd7f865e8006656b2038"
+      }
+    },
+    {
+      "fact_id": "O-985502c84f769ee3619a202a",
+      "side": "ours",
+      "kind": "model_parameter",
+      "owner": "ЛКП 120/20-И-4 СП",
+      "name": "Аттестация ПАО «Россети»",
+      "unit": null,
+      "condition": null,
+      "value": "+",
+      "value_state": null,
+      "pointer": "/catalogs/2/pages/173/content/tables/0/rows/15/cells/11",
+      "provenance": {
+        "input_fact_sha256": "9d0c144d5af6127d529fd2b74c45589af92bf38340c5064185a4a54087aa0c93",
+        "kept": "ours",
+        "selected_by_role": "zcode",
+        "work_sha256": "7bdad30e7bb7a8837e6c1e2463a1a70283618ab727a4cd7f865e8006656b2038"
+      }
+    },
+    {
+      "fact_id": "O-94465bc5373bc13c3909c596",
+      "side": "ours",
+      "kind": "model_parameter",
+      "owner": "ЛКП 120/20-ИГ-6 СП",
+      "name": "Аттестация ПАО «Россети»",
+      "unit": null,
+      "condition": null,
+      "value": "+",
+      "value_state": null,
+      "pointer": "/catalogs/2/pages/173/content/tables/0/rows/16/cells/11",
+      "provenance": {
+        "input_fact_sha256": "adba5ef599b50bdb4505b0b7002c34feeeb70c397cf6ac029c66d6ced1d95d78",
+        "kept": "ours",
+        "selected_by_role": "zcode",
+        "work_sha256": "7bdad30e7bb7a8837e6c1e2463a1a70283618ab727a4cd7f865e8006656b2038"
+      }
+    },
+    {
+      "fact_id": "O-46fe0c36cb85b8db7fe20e0d",
+      "side": "ours",
+      "kind": "model_parameter",
+      "owner": "ЛКП 120/35-И-2 СП",
+      "name": "Аттестация ПАО «Россети»",
+      "unit": null,
+      "condition": null,
+      "value": "+",
+      "value_state": null,
+      "pointer": "/catalogs/2/pages/173/content/tables/0/rows/17/cells/11",
+      "provenance": {
+        "input_fact_sha256": "1590d2b7789f35a78be8f40921a0126173de3ea2e58f4c9a9c076218098718c6",
+        "kept": "ours",
+        "selected_by_role": "zcode",
+        "work_sha256": "7bdad30e7bb7a8837e6c1e2463a1a70283618ab727a4cd7f865e8006656b2038"
+      }
+    },
+    {
+      "fact_id": "O-68f51322089c7b2606163dc3",
+      "side": "ours",
+      "kind": "model_parameter",
+      "owner": "ЛКП 120/35-И-3 СП",
+      "name": "Аттестация ПАО «Россети»",
+      "unit": null,
+      "condition": null,
+      "value": "+",
+      "value_state": null,
+      "pointer": "/catalogs/2/pages/173/content/tables/0/rows/18/cells/11",
+      "provenance": {
+        "input_fact_sha256": "000aebd10c9a4a4006c33a8f2f801ed5f2c4e71a75459f372389f3918465fb7b",
+        "kept": "ours",
+        "selected_by_role": "zcode",
+        "work_sha256": "7bdad30e7bb7a8837e6c1e2463a1a70283618ab727a4cd7f865e8006656b2038"
+      }
+    },
+    {
+      "fact_id": "O-686c0b7371af0be1d4dc74be",
+      "side": "ours",
+      "kind": "model_parameter",
+      "owner": "ЛКП 120/35-И-4 СП",
+      "name": "Аттестация ПАО «Россети»",
+      "unit": null,
+      "condition": null,
+      "value": "+",
+      "value_state": null,
+      "pointer": "/catalogs/2/pages/173/content/tables/0/rows/19/cells/11",
+      "provenance": {
+        "input_fact_sha256": "8581622093f5b75dc98109d20eb23e1f29c16041121cadccac09e0a2814d2fa6",
+        "kept": "ours",
+        "selected_by_role": "zcode",
+        "work_sha256": "7bdad30e7bb7a8837e6c1e2463a1a70283618ab727a4cd7f865e8006656b2038"
+      }
+    }
+  ],
+  "old_content_table": {
+    "id": "t0",
+    "title": "Технические характеристики изоляторов ЛКП 70(120)/10(20, 35)-И(ИГ)",
+    "columns": [
+      {
+        "id": "c0",
+        "label": "Наименование",
+        "unit": null,
+        "group": null,
+        "qualifier": null
+      },
+      {
+        "id": "c1",
+        "label": "Класс изолятора",
+        "unit": "кН/кВ",
+        "group": null,
+        "qualifier": null
+      },
+      {
+        "id": "c2",
+        "label": "Строительная высота Н",
+        "unit": "мм",
+        "group": null,
+        "qualifier": "не более"
+      },
+      {
+        "id": "c3",
+        "label": "Изоляционная высота L",
+        "unit": "мм",
+        "group": null,
+        "qualifier": "не менее"
+      },
+      {
+        "id": "c4",
+        "label": "Длина пути тока утечки",
+        "unit": "мм",
+        "group": null,
+        "qualifier": "не менее"
+      },
+      {
+        "id": "c5",
+        "label": "полного грозового импульса",
+        "unit": "кВ",
+        "group": "Выдерживаемое напряжение, кВ",
+        "qualifier": null
+      },
+      {
+        "id": "c6",
+        "label": "50 Гц в сухом состоянии",
+        "unit": "кВ",
+        "group": "Выдерживаемое напряжение, кВ",
+        "qualifier": null
+      },
+      {
+        "id": "c7",
+        "label": "50 Гц под дождем",
+        "unit": "кВ",
+        "group": "Выдерживаемое напряжение, кВ",
+        "qualifier": null
+      },
+      {
+        "id": "c8",
+        "label": "Разрядное напряжение 50 Гц в загрязненном и увлажненном состоянии",
+        "unit": "кВ",
+        "group": null,
+        "qualifier": "не менее"
+      },
+      {
+        "id": "c9",
+        "label": "Нормированная удельная поверхностная проводимость слоя загрязнения",
+        "unit": "мкСм",
+        "group": null,
+        "qualifier": null
+      },
+      {
+        "id": "c10",
+        "label": "Допустимая степень загрязнения (СЗ) по ГОСТ 9920",
+        "unit": null,
+        "group": null,
+        "qualifier": null
+      },
+      {
+        "id": "c11",
+        "label": "Аттестация ПАО «Россети»",
+        "unit": null,
+        "group": null,
+        "qualifier": null
+      }
+    ],
+    "rows": [
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "ЛКП 70/10-И-3 СП*",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "70/10",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "305",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "185",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "360",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "170",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": "90",
+            "state": "value"
+          },
+          {
+            "column_id": "c7",
+            "value": "55",
+            "state": "value"
+          },
+          {
+            "column_id": "c8",
+            "value": "13",
+            "state": "value"
+          },
+          {
+            "column_id": "c9",
+            "value": "20",
+            "state": "value"
+          },
+          {
+            "column_id": "c10",
+            "value": "III",
+            "state": "value"
+          },
+          {
+            "column_id": "c11",
+            "value": "+",
+            "state": "value"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "ЛКП 70/10-И-4 СП",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "70/10",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "305",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "185",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "420",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "170",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": "90",
+            "state": "value"
+          },
+          {
+            "column_id": "c7",
+            "value": "55",
+            "state": "value"
+          },
+          {
+            "column_id": "c8",
+            "value": "13",
+            "state": "value"
+          },
+          {
+            "column_id": "c9",
+            "value": "30",
+            "state": "value"
+          },
+          {
+            "column_id": "c10",
+            "value": "IV",
+            "state": "value"
+          },
+          {
+            "column_id": "c11",
+            "value": "+",
+            "state": "value"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "ЛКП 70/10-ИГ-6 СП",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "70/10",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "355",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "235",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "565",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "215",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": "105",
+            "state": "value"
+          },
+          {
+            "column_id": "c7",
+            "value": "65",
+            "state": "value"
+          },
+          {
+            "column_id": "c8",
+            "value": "13",
+            "state": "value"
+          },
+          {
+            "column_id": "c9",
+            "value": "50",
+            "state": "value"
+          },
+          {
+            "column_id": "c10",
+            "value": "≥IV",
+            "state": "value"
+          },
+          {
+            "column_id": "c11",
+            "value": "+",
+            "state": "value"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "ЛКП 70/20-И-2 СП",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "70/20",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "405",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "285",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "710",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "215",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": "105",
+            "state": "value"
+          },
+          {
+            "column_id": "c7",
+            "value": "65",
+            "state": "value"
+          },
+          {
+            "column_id": "c8",
+            "value": "26",
+            "state": "value"
+          },
+          {
+            "column_id": "c9",
+            "value": "10",
+            "state": "value"
+          },
+          {
+            "column_id": "c10",
+            "value": "II",
+            "state": "value"
+          },
+          {
+            "column_id": "c11",
+            "value": "+",
+            "state": "value"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "ЛКП 70/20-И-3 СП",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "70/20",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "430",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "310",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "715",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "215",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": "105",
+            "state": "value"
+          },
+          {
+            "column_id": "c7",
+            "value": "65",
+            "state": "value"
+          },
+          {
+            "column_id": "c8",
+            "value": "26",
+            "state": "value"
+          },
+          {
+            "column_id": "c9",
+            "value": "20",
+            "state": "value"
+          },
+          {
+            "column_id": "c10",
+            "value": "III",
+            "state": "value"
+          },
+          {
+            "column_id": "c11",
+            "value": "+",
+            "state": "value"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "ЛКП 70/20-И-4 СП",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "70/20",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "430",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "310",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "800",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "215",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": "105",
+            "state": "value"
+          },
+          {
+            "column_id": "c7",
+            "value": "65",
+            "state": "value"
+          },
+          {
+            "column_id": "c8",
+            "value": "26",
+            "state": "value"
+          },
+          {
+            "column_id": "c9",
+            "value": "30",
+            "state": "value"
+          },
+          {
+            "column_id": "c10",
+            "value": "IV",
+            "state": "value"
+          },
+          {
+            "column_id": "c11",
+            "value": "+",
+            "state": "value"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "ЛКП 70/20-ИГ-6 СП",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "70/20",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "480",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "360",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "880",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "275",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": "130",
+            "state": "value"
+          },
+          {
+            "column_id": "c7",
+            "value": "110",
+            "state": "value"
+          },
+          {
+            "column_id": "c8",
+            "value": "26",
+            "state": "value"
+          },
+          {
+            "column_id": "c9",
+            "value": "50",
+            "state": "value"
+          },
+          {
+            "column_id": "c10",
+            "value": "≥IV",
+            "state": "value"
+          },
+          {
+            "column_id": "c11",
+            "value": "+",
+            "state": "value"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "ЛКП 70/35-И-2 СП",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "70/35",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "505",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "385",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "895",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "295",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": "150",
+            "state": "value"
+          },
+          {
+            "column_id": "c7",
+            "value": "115",
+            "state": "value"
+          },
+          {
+            "column_id": "c8",
+            "value": "42",
+            "state": "value"
+          },
+          {
+            "column_id": "c9",
+            "value": "10",
+            "state": "value"
+          },
+          {
+            "column_id": "c10",
+            "value": "II",
+            "state": "value"
+          },
+          {
+            "column_id": "c11",
+            "value": "+",
+            "state": "value"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "ЛКП 70/35-И-3 СП",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "70/35",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "505",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "385",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "1020",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "295",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": "150",
+            "state": "value"
+          },
+          {
+            "column_id": "c7",
+            "value": "115",
+            "state": "value"
+          },
+          {
+            "column_id": "c8",
+            "value": "42",
+            "state": "value"
+          },
+          {
+            "column_id": "c9",
+            "value": "30",
+            "state": "value"
+          },
+          {
+            "column_id": "c10",
+            "value": "IV",
+            "state": "value"
+          },
+          {
+            "column_id": "c11",
+            "value": "+",
+            "state": "value"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "ЛКП 70/35-И-4 СП",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "70/35",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "605",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "485",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "1350",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "340",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": "180",
+            "state": "value"
+          },
+          {
+            "column_id": "c7",
+            "value": "150",
+            "state": "value"
+          },
+          {
+            "column_id": "c8",
+            "value": "42",
+            "state": "value"
+          },
+          {
+            "column_id": "c9",
+            "value": "50",
+            "state": "value"
+          },
+          {
+            "column_id": "c10",
+            "value": "≥IV",
+            "state": "value"
+          },
+          {
+            "column_id": "c11",
+            "value": "+",
+            "state": "value"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "ЛКП 120/10-И-3 СП",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "120/10",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "330",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "185",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "360",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "170",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": "90",
+            "state": "value"
+          },
+          {
+            "column_id": "c7",
+            "value": "55",
+            "state": "value"
+          },
+          {
+            "column_id": "c8",
+            "value": "13",
+            "state": "value"
+          },
+          {
+            "column_id": "c9",
+            "value": "20",
+            "state": "value"
+          },
+          {
+            "column_id": "c10",
+            "value": "III",
+            "state": "value"
+          },
+          {
+            "column_id": "c11",
+            "value": "+",
+            "state": "value"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "ЛКП 120/10-И-4 СП",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "120/10",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "330",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "185",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "420",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "170",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": "90",
+            "state": "value"
+          },
+          {
+            "column_id": "c7",
+            "value": "55",
+            "state": "value"
+          },
+          {
+            "column_id": "c8",
+            "value": "13",
+            "state": "value"
+          },
+          {
+            "column_id": "c9",
+            "value": "30",
+            "state": "value"
+          },
+          {
+            "column_id": "c10",
+            "value": "IV",
+            "state": "value"
+          },
+          {
+            "column_id": "c11",
+            "value": "+",
+            "state": "value"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "ЛКП 120/10-ИГ-6 СП",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "120/10",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "380",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "235",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "565",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "215",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": "105",
+            "state": "value"
+          },
+          {
+            "column_id": "c7",
+            "value": "65",
+            "state": "value"
+          },
+          {
+            "column_id": "c8",
+            "value": "13",
+            "state": "value"
+          },
+          {
+            "column_id": "c9",
+            "value": "50",
+            "state": "value"
+          },
+          {
+            "column_id": "c10",
+            "value": "≥IV",
+            "state": "value"
+          },
+          {
+            "column_id": "c11",
+            "value": "+",
+            "state": "value"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "ЛКП 120/20-И-2 СП",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "120/20",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "430",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "285",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "710",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "215",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": "105",
+            "state": "value"
+          },
+          {
+            "column_id": "c7",
+            "value": "65",
+            "state": "value"
+          },
+          {
+            "column_id": "c8",
+            "value": "26",
+            "state": "value"
+          },
+          {
+            "column_id": "c9",
+            "value": "10",
+            "state": "value"
+          },
+          {
+            "column_id": "c10",
+            "value": "II",
+            "state": "value"
+          },
+          {
+            "column_id": "c11",
+            "value": "+",
+            "state": "value"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "ЛКП 120/20-И-3 СП",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "120/20",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "455",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "310",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "715",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "215",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": "105",
+            "state": "value"
+          },
+          {
+            "column_id": "c7",
+            "value": "65",
+            "state": "value"
+          },
+          {
+            "column_id": "c8",
+            "value": "26",
+            "state": "value"
+          },
+          {
+            "column_id": "c9",
+            "value": "20",
+            "state": "value"
+          },
+          {
+            "column_id": "c10",
+            "value": "III",
+            "state": "value"
+          },
+          {
+            "column_id": "c11",
+            "value": "+",
+            "state": "value"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "ЛКП 120/20-И-4 СП",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "120/20",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "455",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "310",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "800",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "215",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": "105",
+            "state": "value"
+          },
+          {
+            "column_id": "c7",
+            "value": "65",
+            "state": "value"
+          },
+          {
+            "column_id": "c8",
+            "value": "26",
+            "state": "value"
+          },
+          {
+            "column_id": "c9",
+            "value": "30",
+            "state": "value"
+          },
+          {
+            "column_id": "c10",
+            "value": "IV",
+            "state": "value"
+          },
+          {
+            "column_id": "c11",
+            "value": "+",
+            "state": "value"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "ЛКП 120/20-ИГ-6 СП",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "120/20",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "505",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "360",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "880",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "275",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": "130",
+            "state": "value"
+          },
+          {
+            "column_id": "c7",
+            "value": "110",
+            "state": "value"
+          },
+          {
+            "column_id": "c8",
+            "value": "26",
+            "state": "value"
+          },
+          {
+            "column_id": "c9",
+            "value": "50",
+            "state": "value"
+          },
+          {
+            "column_id": "c10",
+            "value": "≥IV",
+            "state": "value"
+          },
+          {
+            "column_id": "c11",
+            "value": "+",
+            "state": "value"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "ЛКП 120/35-И-2 СП",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "120/35",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "530",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "385",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "895",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "295",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": "150",
+            "state": "value"
+          },
+          {
+            "column_id": "c7",
+            "value": "115",
+            "state": "value"
+          },
+          {
+            "column_id": "c8",
+            "value": "42",
+            "state": "value"
+          },
+          {
+            "column_id": "c9",
+            "value": "10",
+            "state": "value"
+          },
+          {
+            "column_id": "c10",
+            "value": "II",
+            "state": "value"
+          },
+          {
+            "column_id": "c11",
+            "value": "+",
+            "state": "value"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "ЛКП 120/35-И-3 СП",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "120/35",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "530",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "385",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "1020",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "295",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": "150",
+            "state": "value"
+          },
+          {
+            "column_id": "c7",
+            "value": "115",
+            "state": "value"
+          },
+          {
+            "column_id": "c8",
+            "value": "42",
+            "state": "value"
+          },
+          {
+            "column_id": "c9",
+            "value": "30",
+            "state": "value"
+          },
+          {
+            "column_id": "c10",
+            "value": "IV",
+            "state": "value"
+          },
+          {
+            "column_id": "c11",
+            "value": "+",
+            "state": "value"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "ЛКП 120/35-И-4 СП",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "120/35",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "630",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "485",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "1350",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "340",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": "180",
+            "state": "value"
+          },
+          {
+            "column_id": "c7",
+            "value": "150",
+            "state": "value"
+          },
+          {
+            "column_id": "c8",
+            "value": "42",
+            "state": "value"
+          },
+          {
+            "column_id": "c9",
+            "value": "50",
+            "state": "value"
+          },
+          {
+            "column_id": "c10",
+            "value": "≥IV",
+            "state": "value"
+          },
+          {
+            "column_id": "c11",
+            "value": "+",
+            "state": "value"
+          }
+        ]
+      }
+    ]
+  },
+  "source_bound_amendments": [
+    {
+      "source_fact_id": "L-306d2e0edbaa025d6bf21261",
+      "action": "reject",
+      "catalog": "small",
+      "page": 174,
+      "original_value": "+",
+      "original_unit": "кг",
+      "original_name": "Масса",
+      "source_pointer": "characteristics.jsonl:55075/raw",
+      "input_fact_sha256": "0e5ffc2e915e4104f5ad2ef7d7f85b56999c28d7fb785554ebea61e50d654962",
+      "reason": "Последний столбец источника — аттестация ПАО «Россети», не масса. Правильная существующая аттестация уже выбрана; ложный дубликат массы исключён.",
+      "source_proof": {
+        "pdf_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+        "physical_page": 174,
+        "method": "direct_visual_pdf_review_2026-10-15",
+        "render": "small-174.png"
+      },
+      "existing_receipt_groups": [
+        {
+          "group_index": 27,
+          "keep": "oleg",
+          "relation": "oleg_only"
+        }
+      ],
+      "replacement_source_fact_ids": [
+        "O-62c4368fd1c842eb38e7847f"
+      ]
+    },
+    {
+      "source_fact_id": "L-35ef0b2762b6158db36dcfb9",
+      "action": "reject",
+      "catalog": "small",
+      "page": 174,
+      "original_value": "+",
+      "original_unit": "кг",
+      "original_name": "Масса",
+      "source_pointer": "characteristics.jsonl:55086/raw",
+      "input_fact_sha256": "33542d7c8b9c6be8ed1f6ca22765348d6c9c424296c37ff3d6ce93fbdef3b38d",
+      "reason": "Последний столбец источника — аттестация ПАО «Россети», не масса. Правильная существующая аттестация уже выбрана; ложный дубликат массы исключён.",
+      "source_proof": {
+        "pdf_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+        "physical_page": 174,
+        "method": "direct_visual_pdf_review_2026-10-15",
+        "render": "small-174.png"
+      },
+      "existing_receipt_groups": [
+        {
+          "group_index": 35,
+          "keep": "oleg",
+          "relation": "oleg_only"
+        }
+      ],
+      "replacement_source_fact_ids": [
+        "O-a0cb93a39162754713699156"
+      ]
+    },
+    {
+      "source_fact_id": "L-141616d7a12208664009a636",
+      "action": "reject",
+      "catalog": "small",
+      "page": 174,
+      "original_value": "+",
+      "original_unit": "кг",
+      "original_name": "Масса",
+      "source_pointer": "characteristics.jsonl:55097/raw",
+      "input_fact_sha256": "c52c4d7009b70205a5207ed1ea54f5b5081f655fb09ff463c3a024dfac8ae66e",
+      "reason": "Последний столбец источника — аттестация ПАО «Россети», не масса. Правильная существующая аттестация уже выбрана; ложный дубликат массы исключён.",
+      "source_proof": {
+        "pdf_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+        "physical_page": 174,
+        "method": "direct_visual_pdf_review_2026-10-15",
+        "render": "small-174.png"
+      },
+      "existing_receipt_groups": [
+        {
+          "group_index": 43,
+          "keep": "oleg",
+          "relation": "oleg_only"
+        }
+      ],
+      "replacement_source_fact_ids": [
+        "O-2a26897c3585d95760509ef2"
+      ]
+    },
+    {
+      "source_fact_id": "L-331009fb352736d28ca6df16",
+      "action": "reject",
+      "catalog": "small",
+      "page": 174,
+      "original_value": "+",
+      "original_unit": "кг",
+      "original_name": "Масса",
+      "source_pointer": "characteristics.jsonl:55108/raw",
+      "input_fact_sha256": "ea4c3574f6625422b7d1cafa3cbc49d0065b3c2c9fb9fa18a32c4f49e5013b91",
+      "reason": "Последний столбец источника — аттестация ПАО «Россети», не масса. Правильная существующая аттестация уже выбрана; ложный дубликат массы исключён.",
+      "source_proof": {
+        "pdf_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+        "physical_page": 174,
+        "method": "direct_visual_pdf_review_2026-10-15",
+        "render": "small-174.png"
+      },
+      "existing_receipt_groups": [
+        {
+          "group_index": 51,
+          "keep": "oleg",
+          "relation": "oleg_only"
+        }
+      ],
+      "replacement_source_fact_ids": [
+        "O-6ec627d4ad5d9dd4608b4746"
+      ]
+    },
+    {
+      "source_fact_id": "L-f002dc3ba2d53cb4aac2d9f4",
+      "action": "reject",
+      "catalog": "small",
+      "page": 174,
+      "original_value": "+",
+      "original_unit": "кг",
+      "original_name": "Масса",
+      "source_pointer": "characteristics.jsonl:55119/raw",
+      "input_fact_sha256": "2630e54f248d522a9661f13842a89e6959b7a2556c16744ef97b307a3ac2020b",
+      "reason": "Последний столбец источника — аттестация ПАО «Россети», не масса. Правильная существующая аттестация уже выбрана; ложный дубликат массы исключён.",
+      "source_proof": {
+        "pdf_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+        "physical_page": 174,
+        "method": "direct_visual_pdf_review_2026-10-15",
+        "render": "small-174.png"
+      },
+      "existing_receipt_groups": [
+        {
+          "group_index": 59,
+          "keep": "oleg",
+          "relation": "oleg_only"
+        }
+      ],
+      "replacement_source_fact_ids": [
+        "O-fd07adb87b2d25ae03dab1b2"
+      ]
+    },
+    {
+      "source_fact_id": "L-691f0577d3eefb3d40edc490",
+      "action": "reject",
+      "catalog": "small",
+      "page": 174,
+      "original_value": "+",
+      "original_unit": "кг",
+      "original_name": "Масса",
+      "source_pointer": "characteristics.jsonl:55130/raw",
+      "input_fact_sha256": "0223079046f4a56762be9ba0f5510d531cc8166632054e3936e1e42bbe3d23d5",
+      "reason": "Последний столбец источника — аттестация ПАО «Россети», не масса. Правильная существующая аттестация уже выбрана; ложный дубликат массы исключён.",
+      "source_proof": {
+        "pdf_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+        "physical_page": 174,
+        "method": "direct_visual_pdf_review_2026-10-15",
+        "render": "small-174.png"
+      },
+      "existing_receipt_groups": [
+        {
+          "group_index": 67,
+          "keep": "oleg",
+          "relation": "oleg_only"
+        }
+      ],
+      "replacement_source_fact_ids": [
+        "O-171c11597dbfd9019a800f4d"
+      ]
+    },
+    {
+      "source_fact_id": "L-c917c7de4a1b4d433dcd5b1e",
+      "action": "reject",
+      "catalog": "small",
+      "page": 174,
+      "original_value": "+",
+      "original_unit": "кг",
+      "original_name": "Масса",
+      "source_pointer": "characteristics.jsonl:55141/raw",
+      "input_fact_sha256": "abf26703e4d6780e2962443612ce57ec7bd5e7a8219a7e6e140b2c934d90259d",
+      "reason": "Последний столбец источника — аттестация ПАО «Россети», не масса. Правильная существующая аттестация уже выбрана; ложный дубликат массы исключён.",
+      "source_proof": {
+        "pdf_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+        "physical_page": 174,
+        "method": "direct_visual_pdf_review_2026-10-15",
+        "render": "small-174.png"
+      },
+      "existing_receipt_groups": [
+        {
+          "group_index": 75,
+          "keep": "oleg",
+          "relation": "oleg_only"
+        }
+      ],
+      "replacement_source_fact_ids": [
+        "O-73073de218fe12d1879f8d0f"
+      ]
+    },
+    {
+      "source_fact_id": "L-ea5523b5106ebf138b4748b3",
+      "action": "reject",
+      "catalog": "small",
+      "page": 174,
+      "original_value": "+",
+      "original_unit": "кг",
+      "original_name": "Масса",
+      "source_pointer": "characteristics.jsonl:55152/raw",
+      "input_fact_sha256": "631bd2c817e9f9c1b73e7f64fd73b777e713c4138d746dcf47c84303ea61d44c",
+      "reason": "Последний столбец источника — аттестация ПАО «Россети», не масса. Правильная существующая аттестация уже выбрана; ложный дубликат массы исключён.",
+      "source_proof": {
+        "pdf_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+        "physical_page": 174,
+        "method": "direct_visual_pdf_review_2026-10-15",
+        "render": "small-174.png"
+      },
+      "existing_receipt_groups": [
+        {
+          "group_index": 83,
+          "keep": "oleg",
+          "relation": "oleg_only"
+        }
+      ],
+      "replacement_source_fact_ids": [
+        "O-21a8b53002a8b86ef1c1d57b"
+      ]
+    },
+    {
+      "source_fact_id": "L-3daa6507641ff4b308f9ffb7",
+      "action": "reject",
+      "catalog": "small",
+      "page": 174,
+      "original_value": "+",
+      "original_unit": "кг",
+      "original_name": "Масса",
+      "source_pointer": "characteristics.jsonl:55163/raw",
+      "input_fact_sha256": "fa41917e2b7e330f0e0666dbce5627e544fea6d07df63c5c80bf19d610394ce2",
+      "reason": "Последний столбец источника — аттестация ПАО «Россети», не масса. Правильная существующая аттестация уже выбрана; ложный дубликат массы исключён.",
+      "source_proof": {
+        "pdf_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+        "physical_page": 174,
+        "method": "direct_visual_pdf_review_2026-10-15",
+        "render": "small-174.png"
+      },
+      "existing_receipt_groups": [
+        {
+          "group_index": 91,
+          "keep": "oleg",
+          "relation": "oleg_only"
+        }
+      ],
+      "replacement_source_fact_ids": [
+        "O-9c489ee19bfb3c115f121fc6"
+      ]
+    },
+    {
+      "source_fact_id": "L-32655f7f39eb2f1d1122d158",
+      "action": "reject",
+      "catalog": "small",
+      "page": 174,
+      "original_value": "+",
+      "original_unit": "кг",
+      "original_name": "Масса",
+      "source_pointer": "characteristics.jsonl:55174/raw",
+      "input_fact_sha256": "586248c75b845ec46c5d22bf8188a5ad70b1b1b53090c55a37077a8d0cb95643",
+      "reason": "Последний столбец источника — аттестация ПАО «Россети», не масса. Правильная существующая аттестация уже выбрана; ложный дубликат массы исключён.",
+      "source_proof": {
+        "pdf_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+        "physical_page": 174,
+        "method": "direct_visual_pdf_review_2026-10-15",
+        "render": "small-174.png"
+      },
+      "existing_receipt_groups": [
+        {
+          "group_index": 99,
+          "keep": "oleg",
+          "relation": "oleg_only"
+        }
+      ],
+      "replacement_source_fact_ids": [
+        "O-14d37be16b6f515b657feb6e"
+      ]
+    },
+    {
+      "source_fact_id": "L-6cece697cad44d3efd4e423d",
+      "action": "reject",
+      "catalog": "small",
+      "page": 174,
+      "original_value": "+",
+      "original_unit": "кг",
+      "original_name": "Масса",
+      "source_pointer": "characteristics.jsonl:55185/raw",
+      "input_fact_sha256": "3df0802dd418f05ee650d9a2dd887aa76c75781afd3c6543b85d0cfac4ace32a",
+      "reason": "Последний столбец источника — аттестация ПАО «Россети», не масса. Правильная существующая аттестация уже выбрана; ложный дубликат массы исключён.",
+      "source_proof": {
+        "pdf_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+        "physical_page": 174,
+        "method": "direct_visual_pdf_review_2026-10-15",
+        "render": "small-174.png"
+      },
+      "existing_receipt_groups": [
+        {
+          "group_index": 107,
+          "keep": "oleg",
+          "relation": "oleg_only"
+        }
+      ],
+      "replacement_source_fact_ids": [
+        "O-63cbe2728fd35b2b37b2a701"
+      ]
+    },
+    {
+      "source_fact_id": "L-e21a0e3c5b389d8027ebce45",
+      "action": "reject",
+      "catalog": "small",
+      "page": 174,
+      "original_value": "+",
+      "original_unit": "кг",
+      "original_name": "Масса",
+      "source_pointer": "characteristics.jsonl:55196/raw",
+      "input_fact_sha256": "b5815691060d9fbd787118ba6af8493f266895ed330775a6fee59a7ed13733a9",
+      "reason": "Последний столбец источника — аттестация ПАО «Россети», не масса. Правильная существующая аттестация уже выбрана; ложный дубликат массы исключён.",
+      "source_proof": {
+        "pdf_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+        "physical_page": 174,
+        "method": "direct_visual_pdf_review_2026-10-15",
+        "render": "small-174.png"
+      },
+      "existing_receipt_groups": [
+        {
+          "group_index": 115,
+          "keep": "oleg",
+          "relation": "oleg_only"
+        }
+      ],
+      "replacement_source_fact_ids": [
+        "O-b0f09224e0643ef7036df36e"
+      ]
+    },
+    {
+      "source_fact_id": "L-c7d4c0abf7e39798ea4e4331",
+      "action": "reject",
+      "catalog": "small",
+      "page": 174,
+      "original_value": "+",
+      "original_unit": "кг",
+      "original_name": "Масса",
+      "source_pointer": "characteristics.jsonl:55207/raw",
+      "input_fact_sha256": "dd69590f57ee5c3aa20d2df4eee22d1877fb6d51a818c30490d6048891c9bc8f",
+      "reason": "Последний столбец источника — аттестация ПАО «Россети», не масса. Правильная существующая аттестация уже выбрана; ложный дубликат массы исключён.",
+      "source_proof": {
+        "pdf_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+        "physical_page": 174,
+        "method": "direct_visual_pdf_review_2026-10-15",
+        "render": "small-174.png"
+      },
+      "existing_receipt_groups": [
+        {
+          "group_index": 123,
+          "keep": "oleg",
+          "relation": "oleg_only"
+        }
+      ],
+      "replacement_source_fact_ids": [
+        "O-2bac48b2ffb095a0b4e0096c"
+      ]
+    },
+    {
+      "source_fact_id": "L-9bfe34d5be0bb7dd7d8564a0",
+      "action": "reject",
+      "catalog": "small",
+      "page": 174,
+      "original_value": "+",
+      "original_unit": "кг",
+      "original_name": "Масса",
+      "source_pointer": "characteristics.jsonl:55218/raw",
+      "input_fact_sha256": "87edb1c95d68ffc8b55bab663392134b9182afdf06a9036594fb44d0406af9a5",
+      "reason": "Последний столбец источника — аттестация ПАО «Россети», не масса. Правильная существующая аттестация уже выбрана; ложный дубликат массы исключён.",
+      "source_proof": {
+        "pdf_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+        "physical_page": 174,
+        "method": "direct_visual_pdf_review_2026-10-15",
+        "render": "small-174.png"
+      },
+      "existing_receipt_groups": [
+        {
+          "group_index": 131,
+          "keep": "oleg",
+          "relation": "oleg_only"
+        }
+      ],
+      "replacement_source_fact_ids": [
+        "O-b0d9a15a008d4aed9240bda9"
+      ]
+    },
+    {
+      "source_fact_id": "L-42049ef86ab14bc0fcf9a827",
+      "action": "reject",
+      "catalog": "small",
+      "page": 174,
+      "original_value": "+",
+      "original_unit": "кг",
+      "original_name": "Масса",
+      "source_pointer": "characteristics.jsonl:55229/raw",
+      "input_fact_sha256": "9d41a6132e09880edbf1db6a2b757a8fd95a0e8f16a11008dab1698eb8355bca",
+      "reason": "Последний столбец источника — аттестация ПАО «Россети», не масса. Правильная существующая аттестация уже выбрана; ложный дубликат массы исключён.",
+      "source_proof": {
+        "pdf_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+        "physical_page": 174,
+        "method": "direct_visual_pdf_review_2026-10-15",
+        "render": "small-174.png"
+      },
+      "existing_receipt_groups": [
+        {
+          "group_index": 139,
+          "keep": "oleg",
+          "relation": "oleg_only"
+        }
+      ],
+      "replacement_source_fact_ids": [
+        "O-a62e94f1521ae1a2c351fa06"
+      ]
+    },
+    {
+      "source_fact_id": "L-a60925edbaaf8daba0ffcc7a",
+      "action": "reject",
+      "catalog": "small",
+      "page": 174,
+      "original_value": "+",
+      "original_unit": "кг",
+      "original_name": "Масса",
+      "source_pointer": "characteristics.jsonl:55240/raw",
+      "input_fact_sha256": "3181b99bd432c4c821c26846825a77d2f8effab9cc728229ca0fe72d2d6a525c",
+      "reason": "Последний столбец источника — аттестация ПАО «Россети», не масса. Правильная существующая аттестация уже выбрана; ложный дубликат массы исключён.",
+      "source_proof": {
+        "pdf_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+        "physical_page": 174,
+        "method": "direct_visual_pdf_review_2026-10-15",
+        "render": "small-174.png"
+      },
+      "existing_receipt_groups": [
+        {
+          "group_index": 147,
+          "keep": "oleg",
+          "relation": "oleg_only"
+        }
+      ],
+      "replacement_source_fact_ids": [
+        "O-985502c84f769ee3619a202a"
+      ]
+    },
+    {
+      "source_fact_id": "L-3c49ba11d63ad5ead8d74371",
+      "action": "reject",
+      "catalog": "small",
+      "page": 174,
+      "original_value": "+",
+      "original_unit": "кг",
+      "original_name": "Масса",
+      "source_pointer": "characteristics.jsonl:55251/raw",
+      "input_fact_sha256": "d5827d3501a266f80590d1ad6e745b15147f791bae5bce4b9a3fb899385e0c94",
+      "reason": "Последний столбец источника — аттестация ПАО «Россети», не масса. Правильная существующая аттестация уже выбрана; ложный дубликат массы исключён.",
+      "source_proof": {
+        "pdf_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+        "physical_page": 174,
+        "method": "direct_visual_pdf_review_2026-10-15",
+        "render": "small-174.png"
+      },
+      "existing_receipt_groups": [
+        {
+          "group_index": 155,
+          "keep": "oleg",
+          "relation": "oleg_only"
+        }
+      ],
+      "replacement_source_fact_ids": [
+        "O-94465bc5373bc13c3909c596"
+      ]
+    },
+    {
+      "source_fact_id": "L-a7401f83f3dc248421e8fdec",
+      "action": "reject",
+      "catalog": "small",
+      "page": 174,
+      "original_value": "+",
+      "original_unit": "кг",
+      "original_name": "Масса",
+      "source_pointer": "characteristics.jsonl:55262/raw",
+      "input_fact_sha256": "02f914e2dd9c5d69a826061f8630eb05509347453d8d09aab3876aa293d7770a",
+      "reason": "Последний столбец источника — аттестация ПАО «Россети», не масса. Правильная существующая аттестация уже выбрана; ложный дубликат массы исключён.",
+      "source_proof": {
+        "pdf_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+        "physical_page": 174,
+        "method": "direct_visual_pdf_review_2026-10-15",
+        "render": "small-174.png"
+      },
+      "existing_receipt_groups": [
+        {
+          "group_index": 163,
+          "keep": "oleg",
+          "relation": "oleg_only"
+        }
+      ],
+      "replacement_source_fact_ids": [
+        "O-46fe0c36cb85b8db7fe20e0d"
+      ]
+    },
+    {
+      "source_fact_id": "L-c0ddee8942d6d624ad2cef92",
+      "action": "reject",
+      "catalog": "small",
+      "page": 174,
+      "original_value": "+",
+      "original_unit": "кг",
+      "original_name": "Масса",
+      "source_pointer": "characteristics.jsonl:55273/raw",
+      "input_fact_sha256": "ae7605b6c94ea5ae320bce3a2120022a37bd54f8dcccec4fabf7e839af1e0a6a",
+      "reason": "Последний столбец источника — аттестация ПАО «Россети», не масса. Правильная существующая аттестация уже выбрана; ложный дубликат массы исключён.",
+      "source_proof": {
+        "pdf_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+        "physical_page": 174,
+        "method": "direct_visual_pdf_review_2026-10-15",
+        "render": "small-174.png"
+      },
+      "existing_receipt_groups": [
+        {
+          "group_index": 171,
+          "keep": "oleg",
+          "relation": "oleg_only"
+        }
+      ],
+      "replacement_source_fact_ids": [
+        "O-68f51322089c7b2606163dc3"
+      ]
+    },
+    {
+      "source_fact_id": "L-33264772d925915ecca34e07",
+      "action": "reject",
+      "catalog": "small",
+      "page": 174,
+      "original_value": "+",
+      "original_unit": "кг",
+      "original_name": "Масса",
+      "source_pointer": "characteristics.jsonl:55284/raw",
+      "input_fact_sha256": "823f3aa8a67970f7de62419d157147a979839a1b8a7d2191a42ba6bf5e5efefc",
+      "reason": "Последний столбец источника — аттестация ПАО «Россети», не масса. Правильная существующая аттестация уже выбрана; ложный дубликат массы исключён.",
+      "source_proof": {
+        "pdf_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+        "physical_page": 174,
+        "method": "direct_visual_pdf_review_2026-10-15",
+        "render": "small-174.png"
+      },
+      "existing_receipt_groups": [
+        {
+          "group_index": 179,
+          "keep": "oleg",
+          "relation": "oleg_only"
+        }
+      ],
+      "replacement_source_fact_ids": [
+        "O-686c0b7371af0be1d4dc74be"
+      ]
+    }
+  ],
+  "new_source_audit_issues": [],
+  "original_unresolved_count_unchanged": 42,
+  "expected_behavior": "Последний исходный столбец — аттестация ПАО «Россети». Сохранить существующие 20 аттестаций и отклонить 20 ложных фактов массы со значением плюс. Не преобразовывать плюс в число или массу."
+}

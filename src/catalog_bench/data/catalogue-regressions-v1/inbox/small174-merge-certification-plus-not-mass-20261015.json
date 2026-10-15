@@ -1,0 +1,38 @@
+{
+  "id": "small174-merge-certification-plus-not-mass-20261015",
+  "status": "pending_adjudication",
+  "priority": "high",
+  "category": "engineering_ownership",
+  "title": "20 отметок аттестации ошибочно включены в каталог как «Масса = + кг»",
+  "source": {
+    "filename": "Malyj-katalog.pdf",
+    "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_page": 174
+  },
+  "review_basis": "Сохранённые исходные факты двух извлечений, точный source SHA и физическая страница; direct_visual_pdf_review_2026-10-15 из source-bound amendments. Старый ZIP и фактический автор выбора сохранены; переизвлечение и модельные вызовы не выполнялись. Для SCT6–14 сохраняется неоднозначность печатного размещения, без автоматического эталона.",
+  "artifacts": [
+    {
+      "path": "objects/860e9329a4c567868cdae80000c24512cc74992f4b695e870c19a176962b14ae.json",
+      "sha256": "860e9329a4c567868cdae80000c24512cc74992f4b695e870c19a176962b14ae",
+      "bytes": 719226,
+      "role": "exact-retained-dual-extraction-input",
+      "program_version": null,
+      "selection_model": "account:zai-individual-coding-plan/GLM-5.3-Flash$max",
+      "selection_runtime": "zcode native",
+      "materializer_git_commit": "3191c424a166bcf39949ca330b7a924a2258fff4"
+    },
+    {
+      "path": "objects/4afd6d51c5e689062a0c57665c01768f2221dad91017128332a8d48eb63cf8e1.json",
+      "sha256": "4afd6d51c5e689062a0c57665c01768f2221dad91017128332a8d48eb63cf8e1",
+      "bytes": 84261,
+      "role": "source-bound-old-merge-output-and-amendments",
+      "program_version": null,
+      "selection_model": "account:zai-individual-coding-plan/GLM-5.3-Flash$max",
+      "selection_runtime": "zcode native",
+      "materializer_git_commit": "3191c424a166bcf39949ca330b7a924a2258fff4"
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "Последний исходный столбец — аттестация ПАО «Россети». Сохранить существующие 20 аттестаций и отклонить 20 ложных фактов массы со значением плюс. Не преобразовывать плюс в число или массу.",
+  "coverage_note": "Pending regression only; excluded from frozen500/520-fact accuracy denominators; no model rerun."
+}

@@ -1,0 +1,2352 @@
+{
+  "schema": "retained-merge-regression-evidence/1",
+  "archive": {
+    "filename": "catalogues-unified.zip",
+    "sha256": "0f4f272a4cc55407ae767b41694fc5f4d822986e8eb84dbe3008049a20aa2726",
+    "member": "catalogue.json"
+  },
+  "source": {
+    "catalog": "small",
+    "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_page": 218
+  },
+  "failure_stage": "source_selection_and_materialization",
+  "actual_selection_receipt": {
+    "saved_at": "2026-10-14T22:53:16.878739+00:00",
+    "work_sha256": "bb9a0c4791e31a06f3ec6dbeb7a051929f3a1fd8d25a107722869d688382b344",
+    "identity": {
+      "role": "zcode",
+      "session_id": "sess_0dd4a3ee-bc7d-4008-b9fa-c25146ec5392",
+      "model": "account:zai-individual-coding-plan/GLM-5.3-Flash$max",
+      "runtime": "zcode native"
+    },
+    "receipt_path": ".tmp/oleg-consensus-20261014/reviews/zcode/full-work/small-0218-page-work.json"
+  },
+  "candidate_producer": {
+    "status": "receipt_verified",
+    "program": {
+      "package_version": "1.4.15",
+      "git_revision": null,
+      "dirty": null,
+      "source_code_sha256": "f7ee07327271ca2dea80e46d77036e425ecee02333c065c0df72ecfd5e3e7aff",
+      "python_version": "3.12.13",
+      "components": {
+        "agent_logic": {
+          "package_version": "1.4.2",
+          "git_revision": null,
+          "dirty": null,
+          "source_code_sha256": "fa8352a1a7f3632367a2ba02ff9290109c337113aa918a942093aa0cb8740a8b",
+          "python_version": "3.12.13"
+        },
+        "catalog_tools": {
+          "package_version": "1.4.8",
+          "git_revision": null,
+          "dirty": null,
+          "source_code_sha256": "3db63ecf26eacd9b1ba0e33e35d368eea1a6c5ce190cecf09d0c261b0766804b",
+          "python_version": "3.12.13"
+        },
+        "legacy_skills": {
+          "catalog-extract": "cb0ac951a01754366f2fa54f85fd8b5aed19e879549f5caa735e6aaea2f068a0",
+          "catalog-review": "200ea928b29b0d08bf3977bd4cfc92b039ede7621ceddd16a8fd3138ceef6942"
+        },
+        "catalog_server_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+        "role_worker_bridge_sha256": "6677033c2e5059410651b0ae57a0f8ad5c397ed5ba2616d691605276a434c66b",
+        "composition_bridge_sha256": "cfc42e91dd294672db23001aee5bf8444edd08b2839522c6d41668fafd197e97",
+        "delivery_adapter_sha256": "78e3d0119d4e6d1049466fe09e7ceec522ec0bde337465530f7371669682ec46"
+      }
+    },
+    "artifact_sha256": "b1ef7f67f693bcb5196612254f562cd7c0f0a8e2147ed560e8371f3f4bae277c",
+    "source_bound_save": true,
+    "source_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_page": 218,
+    "attempt": 3,
+    "role": "extractor",
+    "model": "anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium",
+    "contract_sha256": "d66b8b75acf1151cd7ddf759b8f2686bdbc7faf6bc17a6e2bd277a218060f9cf",
+    "receipt": "calls/9aa57ee9cdff4e28bc62ceeb46a072ba/result.json",
+    "started_at": 1791908021.7354894,
+    "finished_at": 1791908097.11126
+  },
+  "actual_materializer": {
+    "name": "owner-merge-exporter",
+    "git_commit": "3191c424a166bcf39949ca330b7a924a2258fff4",
+    "source_sha256": "bc2c8b7558547972713109d69732ac6ffe03f4330d0426422f1fb851bb6ca431"
+  },
+  "original_source_extraction_version_for_oleg": null,
+  "source_version_note": "Версия программы Олега в полученных JSONL не объявлена; не присваивается версия нашего экспортёра. Фактический выбор и материализатор указаны отдельно.",
+  "affected_fact_ids": [
+    "L-abd1ac73a5d99c5f5c417b3c",
+    "L-c1c57cb2d3fb4ff4cf3b76be",
+    "O-fcda9674d01f9b074f8c6183"
+  ],
+  "old_selected_facts": [
+    {
+      "fact_id": "L-c1c57cb2d3fb4ff4cf3b76be",
+      "side": "oleg",
+      "kind": "model_parameter",
+      "owner": "SCT 6-14",
+      "name": "Диаметр провода",
+      "unit": "мм",
+      "condition": "",
+      "value": "6,0-14,0",
+      "value_state": null,
+      "pointer": "characteristics.jsonl:66120/raw",
+      "provenance": {
+        "input_fact_sha256": "08b9d73bf20d385fb8f6919e76b8d6686fabf003655f3eebaa678408cad17ed9",
+        "kept": "oleg",
+        "selected_by_role": "zcode",
+        "work_sha256": "bb9a0c4791e31a06f3ec6dbeb7a051929f3a1fd8d25a107722869d688382b344"
+      }
+    },
+    {
+      "fact_id": "O-fcda9674d01f9b074f8c6183",
+      "side": "ours",
+      "kind": "model_parameter",
+      "owner": "SCT 6-14",
+      "name": "Рабочая нагрузка, кН",
+      "unit": "кН",
+      "condition": null,
+      "value": "6,0-14,0",
+      "value_state": null,
+      "pointer": "/catalogs/2/pages/217/content/tables/0/rows/14/cells/8",
+      "provenance": {
+        "input_fact_sha256": "e70c74b3fc449310b5e431cf0ca6f9a6076e74e71f9712a2f3dc763a8ab14d3f",
+        "kept": "ours",
+        "selected_by_role": "zcode",
+        "work_sha256": "bb9a0c4791e31a06f3ec6dbeb7a051929f3a1fd8d25a107722869d688382b344"
+      }
+    }
+  ],
+  "old_content_table": {
+    "id": "t218_1",
+    "title": "Сводная таблица SICAME / ENSTO / FEMAN: диаметр провода и рабочая нагрузка",
+    "columns": [
+      {
+        "id": "c0",
+        "label": "SICAME",
+        "unit": null,
+        "group": "SICAME",
+        "qualifier": null
+      },
+      {
+        "id": "c1",
+        "label": "Диаметр провода, мм",
+        "unit": "мм",
+        "group": "SICAME",
+        "qualifier": null
+      },
+      {
+        "id": "c2",
+        "label": "Рабочая нагрузка, кН",
+        "unit": "кН",
+        "group": "SICAME",
+        "qualifier": null
+      },
+      {
+        "id": "c3",
+        "label": "ENSTO",
+        "unit": null,
+        "group": "ENSTO",
+        "qualifier": null
+      },
+      {
+        "id": "c4",
+        "label": "Диаметр провода, мм",
+        "unit": "мм",
+        "group": "ENSTO",
+        "qualifier": null
+      },
+      {
+        "id": "c5",
+        "label": "Рабочая нагрузка, кН",
+        "unit": "кН",
+        "group": "ENSTO",
+        "qualifier": null
+      },
+      {
+        "id": "c6",
+        "label": "FEMAN",
+        "unit": null,
+        "group": "FEMAN",
+        "qualifier": null
+      },
+      {
+        "id": "c7",
+        "label": "Диаметр провода, мм",
+        "unit": "мм",
+        "group": "FEMAN",
+        "qualifier": null
+      },
+      {
+        "id": "c8",
+        "label": "Рабочая нагрузка, кН",
+        "unit": "кН",
+        "group": "FEMAN",
+        "qualifier": null
+      }
+    ],
+    "rows": [
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "A 5, TM 5",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "5",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "ST 112.1",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "10",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c7",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c8",
+            "value": null,
+            "state": "blank"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "A 10,TM 10",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "10",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "ST 112.2",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "20",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c7",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c8",
+            "value": null,
+            "state": "blank"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "A 20",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c2",
+            "value": "20",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c7",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c8",
+            "value": null,
+            "state": "blank"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "ST 112.3",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c5",
+            "value": "30",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c7",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c8",
+            "value": null,
+            "state": "blank"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c7",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c8",
+            "value": null,
+            "state": "blank"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "P-500",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "5",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "ST 116",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "7,5/15",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": "Лебедка",
+            "state": "value"
+          },
+          {
+            "column_id": "c7",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c8",
+            "value": "7,5/15",
+            "state": "value"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "P-1500",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "15",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "ST 116.3",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "5,0/10",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c7",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c8",
+            "value": null,
+            "state": "blank"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "ST 116.7",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "5,0/10",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c7",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c8",
+            "value": null,
+            "state": "blank"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "PINF,PCL W001",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "ST 42",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": "FZT",
+            "state": "value"
+          },
+          {
+            "column_id": "c7",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c8",
+            "value": null,
+            "state": "blank"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "ST 47",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c7",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c8",
+            "value": null,
+            "state": "blank"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "PO 800, KL-4, PDP\n1000",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "8",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "ST26.1 ST26.33",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "н/д",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": "FR-150/270/350",
+            "state": "value"
+          },
+          {
+            "column_id": "c7",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c8",
+            "value": "8/10",
+            "state": "value"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "PDP 1002",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "8",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "ST26.11",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "н/д",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c7",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c8",
+            "value": null,
+            "state": "blank"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "ST26.22 ST238",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "н/д",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c7",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c8",
+            "value": null,
+            "state": "blank"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c6",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c7",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c8",
+            "value": null,
+            "state": "blank"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "Middle-Grip",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "5,4-17,6",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "20",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "ST102.50; 95; 120",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "5,64-12,4",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "н/д",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": "SCT 6-14",
+            "state": "value"
+          },
+          {
+            "column_id": "c7",
+            "value": "6,0-14,0",
+            "state": "value"
+          },
+          {
+            "column_id": "c8",
+            "value": "6,0-14,0",
+            "state": "value"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c1",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c2",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c3",
+            "value": "CT102.501",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "7.8–13.5",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "20",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c7",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c8",
+            "value": null,
+            "state": "blank"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c1",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c2",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c3",
+            "value": "CT105.20",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "4,0-22",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "20",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c7",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c8",
+            "value": null,
+            "state": "blank"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c1",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c2",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c3",
+            "value": "CT102.1201",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "13.5–18.8",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "36",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c7",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c8",
+            "value": null,
+            "state": "blank"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "LD 2420",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "8",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c7",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c8",
+            "value": null,
+            "state": "blank"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "LD 2422 EMRC 22",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "15 40",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "CT 104",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "12",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c7",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c8",
+            "value": null,
+            "state": "blank"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "AM 1",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "ST187",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c7",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c8",
+            "value": null,
+            "state": "blank"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "ST188.1/ST188.2",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c7",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c8",
+            "value": null,
+            "state": "blank"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "CT196.16",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "8,0-28,0",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c7",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c8",
+            "value": null,
+            "state": "blank"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "ECART",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "CT 31",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": "IWS",
+            "state": "value"
+          },
+          {
+            "column_id": "c7",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c8",
+            "value": null,
+            "state": "blank"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "CIE 100",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "CT 192",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c7",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c8",
+            "value": null,
+            "state": "blank"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "MRK 34",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "34",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "CT 196.1",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "34",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": "FLK-325 A",
+            "state": "value"
+          },
+          {
+            "column_id": "c7",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c8",
+            "value": "15",
+            "state": "value"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "CT 196.3",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "52",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": "FLK-325",
+            "state": "value"
+          },
+          {
+            "column_id": "c7",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c8",
+            "value": "40",
+            "state": "value"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "ST 103.501",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "10 20",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "18",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c7",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c8",
+            "value": null,
+            "state": "blank"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "ST 103.502",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "10 20",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "11",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c7",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c8",
+            "value": null,
+            "state": "blank"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "CTR-PBT 25-35",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "25 35",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "CT103.35",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "20 30",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "22",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c7",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c8",
+            "value": null,
+            "state": "blank"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c7",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c8",
+            "value": null,
+            "state": "blank"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "CT103.50",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "30 40",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "36",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c7",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c8",
+            "value": null,
+            "state": "blank"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c7",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c8",
+            "value": null,
+            "state": "blank"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c7",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c8",
+            "value": null,
+            "state": "blank"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "CT103.95",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "40 50",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "54",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c7",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c8",
+            "value": null,
+            "state": "blank"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "CTR-PBT 50-70",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "50 70",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c7",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c8",
+            "value": null,
+            "state": "blank"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": "FRP-300C",
+            "state": "value"
+          },
+          {
+            "column_id": "c7",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c8",
+            "value": "-",
+            "state": "value"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c7",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c8",
+            "value": null,
+            "state": "blank"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "HVD 50-CP",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c2",
+            "value": "50",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "CT 120",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c5",
+            "value": "50",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": "FRHP-300",
+            "state": "value"
+          },
+          {
+            "column_id": "c7",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c8",
+            "value": null,
+            "state": "blank"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "HVD 51",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c2",
+            "value": "50",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c7",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c8",
+            "value": null,
+            "state": "blank"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "CT 18, CT 18.2",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c7",
+            "value": null,
+            "state": "blank"
+          },
+          {
+            "column_id": "c8",
+            "value": null,
+            "state": "blank"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "column_id": "c0",
+            "value": "SERCOL",
+            "state": "value"
+          },
+          {
+            "column_id": "c1",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c2",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c3",
+            "value": "ST214.2",
+            "state": "value"
+          },
+          {
+            "column_id": "c4",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c5",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c6",
+            "value": "CSB / FLY-600 L",
+            "state": "value"
+          },
+          {
+            "column_id": "c7",
+            "value": "-",
+            "state": "value"
+          },
+          {
+            "column_id": "c8",
+            "value": "-",
+            "state": "value"
+          }
+        ]
+      }
+    ]
+  },
+  "source_bound_amendments": [
+    {
+      "source_fact_id": "O-fcda9674d01f9b074f8c6183",
+      "action": "reject",
+      "catalog": "small",
+      "page": 218,
+      "original_value": "6,0-14,0",
+      "original_unit": "кН",
+      "original_name": "Рабочая нагрузка, кН",
+      "source_pointer": "/catalogs/2/pages/217/content/tables/0/rows/14/cells/8",
+      "input_fact_sha256": "e70c74b3fc449310b5e431cf0ca6f9a6076e74e71f9712a2f3dc763a8ab14d3f",
+      "reason": "Диапазон 6,0–14,0 ошибочно одновременно использован в двух физических величинах. Для практического каталога выбран существующий диаметральный факт Олега; нагрузка не установлена.",
+      "source_proof": {
+        "pdf_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+        "physical_page": 218,
+        "method": "direct_visual_pdf_review_2026-10-15",
+        "render": "small-218.png"
+      },
+      "existing_receipt_groups": [
+        {
+          "group_index": 110,
+          "keep": "ours",
+          "relation": "same_fact"
+        }
+      ],
+      "replacement_source_fact_ids": [
+        "L-abd1ac73a5d99c5f5c417b3c"
+      ]
+    },
+    {
+      "source_fact_id": "L-abd1ac73a5d99c5f5c417b3c",
+      "action": "select",
+      "catalog": "small",
+      "page": 218,
+      "original_value": "",
+      "original_unit": "кН",
+      "original_name": "Рабочая нагрузка",
+      "source_pointer": "characteristics.jsonl:66121/raw",
+      "input_fact_sha256": "922805dbb084baa7679d895a58b39bfdfc3b6144f47c4d6ca1a7db8c9e3c8557",
+      "reason": "Существующий пустой факт нагрузки; точная нагрузка не установлена и не выводится из диапазона диаметра.",
+      "source_proof": {
+        "pdf_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+        "physical_page": 218,
+        "method": "direct_visual_pdf_review_2026-10-15",
+        "render": "small-218.png"
+      },
+      "existing_receipt_groups": [
+        {
+          "group_index": 110,
+          "keep": "ours",
+          "relation": "same_fact"
+        }
+      ],
+      "replacement_source_fact_ids": [],
+      "canonical_scope": {
+        "state": "unknown"
+      }
+    },
+    {
+      "source_fact_id": "L-c1c57cb2d3fb4ff4cf3b76be",
+      "action": "select",
+      "catalog": "small",
+      "page": 218,
+      "original_value": "6,0-14,0",
+      "original_unit": "мм",
+      "original_name": "Диаметр провода",
+      "source_pointer": "characteristics.jsonl:66120/raw",
+      "input_fact_sha256": "08b9d73bf20d385fb8f6919e76b8d6686fabf003655f3eebaa678408cad17ed9",
+      "reason": "Существующая интерпретация диаметра 6,0–14,0 мм для SCT6–14 выбрана без изменения значения; противоречивое расположение в PDF отражено отдельно в audit issue.",
+      "source_proof": {
+        "pdf_sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+        "physical_page": 218,
+        "method": "direct_visual_pdf_review_2026-10-15",
+        "render": "small-218.png"
+      },
+      "existing_receipt_groups": [
+        {
+          "group_index": 109,
+          "keep": "oleg",
+          "relation": "same_fact"
+        }
+      ],
+      "replacement_source_fact_ids": []
+    }
+  ],
+  "new_source_audit_issues": [
+    {
+      "id": "SOURCE-LAYOUT-SCT-218",
+      "catalog": "small",
+      "page": 218,
+      "model": "SCT 6-14",
+      "source_fact_ids": [
+        "L-c1c57cb2d3fb4ff4cf3b76be",
+        "L-abd1ac73a5d99c5f5c417b3c",
+        "O-4f1f35d0f0bf82d5f9c02633",
+        "O-fcda9674d01f9b074f8c6183"
+      ],
+      "status": "interpretation_with_unresolved_load",
+      "message": "В PDF диапазон 6,0–14,0 физически напечатан в колонке нагрузки. Интерпретация диаметра соответствует имени SCT6–14 и соседним монтажным зажимам, но внешний паспорт не проверялся. Диаметр выбран из существующего Олегова факта, нагрузка оставлена неизвестной. Это отдельная неоднозначность разметки источника, исходные42 не меняются."
+    }
+  ],
+  "original_unresolved_count_unchanged": 42,
+  "expected_behavior": "Не утверждать одновременно 6,0–14,0 мм и 6,0–14,0 кН. В PDF диапазон физически напечатан в колонке нагрузки; трактовка как диаметра является явно отмеченной интерпретацией, а нагрузка остаётся неизвестной. Этот случай pending и не становится автоматическим gold по контекстной правдоподобности."
+}

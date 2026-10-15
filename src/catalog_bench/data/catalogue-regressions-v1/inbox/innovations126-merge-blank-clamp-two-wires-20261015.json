@@ -1,0 +1,38 @@
+{
+  "id": "innovations126-merge-blank-clamp-two-wires-20261015",
+  "status": "pending_adjudication",
+  "priority": "high",
+  "category": "merged_cells",
+  "title": "Сведение заполнило две пустые ячейки зажимом из соседней строки",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 126
+  },
+  "review_basis": "Сохранённые исходные факты двух извлечений, точный source SHA и физическая страница; direct_visual_pdf_review_2026-10-15 из source-bound amendments. Старый ZIP и фактический автор выбора сохранены; переизвлечение и модельные вызовы не выполнялись. Для SCT6–14 сохраняется неоднозначность печатного размещения, без автоматического эталона.",
+  "artifacts": [
+    {
+      "path": "objects/f64bc732258ff0f79fbb6d4a7acd1469f60a22774fba6f631543c985de0f4ea1.json",
+      "sha256": "f64bc732258ff0f79fbb6d4a7acd1469f60a22774fba6f631543c985de0f4ea1",
+      "bytes": 498748,
+      "role": "exact-retained-dual-extraction-input",
+      "program_version": "1.5.26",
+      "selection_model": "account:zai-individual-coding-plan/GLM-5.3-Flash$high",
+      "selection_runtime": "zcode native",
+      "materializer_git_commit": "3191c424a166bcf39949ca330b7a924a2258fff4"
+    },
+    {
+      "path": "objects/878085e02733d8a42b4f599a8478a504ba0e5ff661416003cc75690177ec0b2f.json",
+      "sha256": "878085e02733d8a42b4f599a8478a504ba0e5ff661416003cc75690177ec0b2f",
+      "bytes": 29683,
+      "role": "source-bound-old-merge-output-and-amendments",
+      "program_version": "1.5.26",
+      "selection_model": "account:zai-individual-coding-plan/GLM-5.3-Flash$high",
+      "selection_runtime": "zcode native",
+      "materializer_git_commit": "3191c424a166bcf39949ca330b7a924a2258fff4"
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "Не переносить НАС-300-1В в пустые ячейки проводов 300/48 и 300/67. Существующие исходные null сохраняются отдельно по реальной марке провода; повторные окна одного Олегова наблюдения не создают третье исправление.",
+  "coverage_note": "Pending regression only; excluded from frozen500/520-fact accuracy denominators; no model rerun."
+}
