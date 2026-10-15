@@ -232,19 +232,23 @@ def main():
 
 
 def render(manifest):
+    product_directory = read("docs/tool-products.json")
     lines = ["# Общий рейтинг инструментов — Project X включён", "",
         "**Одинаковые 15 страниц, 500 инженерных фактов, один оценщик 0.3.2 для всех.** Это общая часть сохранённых испытаний. Project X участвует как инструмент: без Vision, с GLM и с MiniMax. Наш агент, вызывающий инструменты, в этот рейтинг не включён.", "",
         "Новых вызовов парсеров или моделей не было: переоценены сохранённые JSON. Рейтинг — по наблюдаемому среднему проценту инженерных фактов. У Project X три раунда каждой конфигурации; у остальных инструментов пока по одному. Поэтому место в таблице не доказывает статистически устойчивого превосходства.", "",
-        "| Место | Инструмент / конфигурация | Режим / модель | Раундов | Раунд 1 | Раунд 2 | Раунд 3 | Среднее по 0.3.2 | SD, п.п. | Валидных страниц | Время раундов, с |",
-        "|---|---|---|---|---|---|---|---|---|---|---|"]
+        "[Скачать и установить инструменты](PRODUCTS-RU.md). Название инструмента ведёт на продукт; последний столбец — на манифест результатов.", "",
+        "| Место | Инструмент / конфигурация | Режим / модель | Раундов | Раунд 1 | Раунд 2 | Раунд 3 | Среднее по 0.3.2 | SD, п.п. | Валидных страниц | Время раундов, с | Манифест |",
+        "|---|---|---|---|---|---|---|---|---|---|---|---|"]
     for row in manifest["rows"]:
+        product = product_directory["products"][product_directory["configurations"][row["id"]]]
         scores = [f"{r['correct']['0.3.2']}/500" for r in row["rounds"]]
         scores += ["не проводился"] * (3 - len(scores))
         sd = f"{row['sample_sd_pp']:.2f}" if row["sample_sd_pp"] is not None else "не измерен"
         pages = "; ".join(f"{r['valid_pages']}/15" for r in row["rounds"])
         times = "; ".join(f"{r['elapsed_seconds_sum']:.1f}" if r["elapsed_seconds_sum"] is not None else "не полностью измерено" for r in row["rounds"])
-        lines.append("| " + " | ".join([str(row["rank"]), f"[{row['label']}]({BASE}{row['source_receipt']})",
-            row["model_or_mode"], str(row["rounds_count"]), *scores, f"{row['mean_percent']:.2f}%", sd, pages, times]) + " |")
+        lines.append("| " + " | ".join([str(row["rank"]), f"[{row['label']}]({product['url']})",
+            row["model_or_mode"], str(row["rounds_count"]), *scores, f"{row['mean_percent']:.2f}%", sd, pages, times,
+            f"[Результаты]({BASE}{row['source_receipt']})"]) + " |")
     lines += ["", "## Что именно сравнивается", "",
         "- У всех строк одинаковые страницы, исходные PDF и неизменённые эталоны. 15 страниц буквально входят в текущий набор v2. Здесь исключены новые страницы 27 и 39, для которых у большинства старых парсеров нет сохранённого ответа.",
         "- Полный основной бенчмарк остаётся на 17 страницах / 520 фактах +21 проверке чертежей. Эта таблица даёт сопоставимый общий рейтинг старых результатов и не заменяет расширенный бенчмарк.",
@@ -264,7 +268,15 @@ def render(manifest):
         "uv pip install --python .tmp/regrade-v030/bin/python https://github.com/megamen32/catalog-extraction-benchmark/releases/download/v0.3.0/catalog_extraction_benchmark-0.3.0-py3-none-any.whl",
         ".tmp/regrade-v030/bin/python -I ops/render-tool-leaderboard.py", "```", "",
         "Скрипт проверяет отпечатки обоих алгоритмов и неизменность кандидатов. Он не запускает парсеры, не вызывает модели и не меняет исходные файлы оценки.", ""]
-    (ROOT / "docs/TOOL-LEADERBOARD-RU.md").write_text("\n".join(lines), encoding="utf-8")
+    document = "\n".join(lines).replace("Project X", "Catalog Vision Backend")
+    document = document.replace("Исходный код и настоящее название не публикуются.",
+                                "Исходный код остаётся в приватном репозитории.")
+    heading, body = document.split("\n", 1)
+    notice = ("> [Catalog Vision Backend](CATALOG-VISION-BACKEND.md) — наша закрытая адаптация; "
+              "репозиторий приватный, доступ по запросу владельцу; планируем предоставлять бесплатно. Оценки ниже относятся к сохранённым "
+              "конфигурациям испытаний, а не к новому запуску переименованного форка.")
+    document = heading + "\n\n" + notice + "\n\n" + body.lstrip("\n")
+    (ROOT / "docs/TOOL-LEADERBOARD-RU.md").write_text(document, encoding="utf-8")
 
 
 if __name__ == "__main__":

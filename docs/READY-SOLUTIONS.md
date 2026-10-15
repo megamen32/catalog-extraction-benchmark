@@ -2,6 +2,8 @@
 
 [The researched list of 24 options](https://github.com/megamen32/catalog-to-json/blob/main/docs/READY-PARSERS.md) includes complete local pipelines, hosted document processors, and existing agent MCP/skill packages. The two independent researchers checked upstream sources on 2026-10-12. Catalogue engineering accuracy is established separately by this benchmark.
 
+[Скачать и установить все измеренные инструменты](PRODUCTS-RU.md) · [Общий рейтинг с отдельными ссылками на продукты и манифесты](TOOL-LEADERBOARD-RU.md)
+
 ## Completed direct-parser experiment
 
 Dataset engineering-catalogs-v1 1.0.0; benchmark implementation v0.2.0 (db192cd); all 15 cases and 500 selected engineering facts. These are joint product/parameter/unit/condition/value assertions, not full-page accuracy.

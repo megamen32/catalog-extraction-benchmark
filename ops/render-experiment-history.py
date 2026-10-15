@@ -397,6 +397,12 @@ def main() -> None:
                           "v2": {"pages": 17, "engineering": 520, "drawing": 21}},
              "additional_model_or_parser_calls": 0, "source_receipts": SOURCES,
              "experiments": experiments, "focused_probes": PROBES}
+    document = document.replace("Project X", "Catalog Vision Backend")
+    heading, body = document.split("\n", 1)
+    notice = ("> [Catalog Vision Backend](CATALOG-VISION-BACKEND.md) — наша закрытая адаптация; "
+              "репозиторий приватный, доступ по запросу владельцу; планируем предоставлять бесплатно. Оценки ниже относятся к сохранённым "
+              "конфигурациям испытаний, а не к новому запуску переименованного форка.")
+    document = heading + "\n\n" + notice + "\n\n" + body.lstrip("\n")
     (ROOT / "docs/EXPERIMENT-HISTORY-RU.md").write_text(document, encoding="utf-8")
     (ROOT / "examples/experiment-history.json").write_text(
         json.dumps(index, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

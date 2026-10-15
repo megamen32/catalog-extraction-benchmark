@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "purpose": "Product/download navigation only; not new benchmark evidence or measured versions.",
+  "products": {
+    "catalog-vision-backend": {
+      "name": "Catalog Vision Backend",
+      "url": "https://github.com/megamen32/catalog-vision-backend",
+      "access": "Приватное решение, доступ по запросу. Планируем предоставлять бесплатно."
+    },
+    "docling": {
+      "name": "Docling",
+      "url": "https://github.com/docling-project/docling",
+      "access": "Открытый репозиторий; установка по README."
+    },
+    "mineru": {
+      "name": "MinerU",
+      "url": "https://github.com/opendatalab/MinerU",
+      "access": "Открытый репозиторий; basic/standard/advanced и CPU/GPU/Metal — разные конфигурации."
+    },
+    "gmft": {
+      "name": "gmft",
+      "url": "https://github.com/conjuncts/gmft",
+      "access": "Открытый репозиторий; установка по README."
+    },
+    "img2table": {
+      "name": "img2table",
+      "url": "https://github.com/xavctn/img2table",
+      "access": "Открытый репозиторий; установка по README."
+    },
+    "marker": {
+      "name": "Marker",
+      "url": "https://github.com/datalab-to/marker",
+      "access": "Открытый репозиторий; зависимости и условия моделей — в документации проекта."
+    },
+    "camelot": {
+      "name": "Camelot",
+      "url": "https://github.com/camelot-dev/camelot",
+      "access": "Открытый репозиторий; lattice и stream — разные режимы."
+    },
+    "tabula": {
+      "name": "Tabula Java",
+      "url": "https://github.com/tabulapdf/tabula-java",
+      "access": "Открытый репозиторий; готовые JAR — в Releases."
+    },
+    "pymupdf4llm": {
+      "name": "PyMuPDF4LLM",
+      "url": "https://github.com/pymupdf/pymupdf4llm",
+      "access": "Открытый репозиторий; установка по README."
+    },
+    "unstructured": {
+      "name": "Unstructured",
+      "url": "https://github.com/Unstructured-IO/unstructured",
+      "access": "Открытый репозиторий; здесь измерен локальный hi-res."
+    },
+    "pdfplumber": {
+      "name": "pdfplumber",
+      "url": "https://github.com/jsvine/pdfplumber",
+      "access": "Открытый репозиторий; установка по README."
+    },
+    "liteparse": {
+      "name": "LiteParse",
+      "url": "https://github.com/run-llama/liteparse",
+      "access": "Открытый репозиторий; установка по README."
+    },
+    "pdf-capture-mcp": {
+      "name": "PDF Capture MCP",
+      "url": "https://github.com/ChenHongYu2026/pdf-capture-mcp",
+      "access": "Доступен upstream. Частная options-поправка измеренной patched-конфигурации не опубликована; upstream не равен измеренному форку."
+    },
+    "pdf-mcp": {
+      "name": "pdf-mcp",
+      "url": "https://github.com/jztan/pdf-mcp",
+      "access": "Открытый репозиторий; установка MCP по README."
+    },
+    "tableshot": {
+      "name": "TableShot",
+      "url": "https://github.com/Bespoke34/tableshot",
+      "access": "Открытый репозиторий; установка MCP по README."
+    },
+    "paddle": {
+      "name": "PaddleOCR",
+      "url": "https://github.com/PaddlePaddle/PaddleOCR",
+      "access": "Открытый репозиторий; измеренный CUDA-режим — отдельная конфигурация."
+    },
+    "xberg": {
+      "name": "Xberg",
+      "url": "https://github.com/xberg-io/xberg",
+      "access": "Открытый репозиторий; готовые платформенные пакеты — в Releases."
+    }
+  },
+  "configurations": {
+    "project-x-glm-5.3-flash": "catalog-vision-backend",
+    "docling": "docling",
+    "mineru-advanced-metal": "mineru",
+    "project-x-MiniMax-M3.1-Flash-Preview": "catalog-vision-backend",
+    "gmft": "gmft",
+    "img2table": "img2table",
+    "marker-balanced-mac-metal": "marker",
+    "mineru-standard-metal": "mineru",
+    "mineru-vulkan-gpu44": "mineru",
+    "camelot-lattice": "camelot",
+    "tabula-lattice": "tabula",
+    "mineru-basic": "mineru",
+    "project-x-direct": "catalog-vision-backend",
+    "pymupdf4llm": "pymupdf4llm",
+    "unstructured-hi-res": "unstructured",
+    "pdfplumber": "pdfplumber",
+    "liteparse": "liteparse",
+    "pdf-capture-mcp-patched": "pdf-capture-mcp",
+    "pdf-mcp": "pdf-mcp",
+    "tableshot": "tableshot",
+    "camelot-stream": "camelot",
+    "paddle-cuda-gpu44": "paddle",
+    "tabula-stream": "tabula",
+    "xberg": "xberg"
+  }
+}

@@ -1,5 +1,7 @@
 # Separate offline regrading with supported symbol/language aliases 0.3.2
 
+> [Catalog Vision Backend](../../../docs/CATALOG-VISION-BACKEND.md) — наша закрытая адаптация; репозиторий приватный, доступ по запросу владельцу; планируем предоставлять бесплатно. Оценки ниже относятся к сохранённым конфигурациям испытаний, а не к новому запуску переименованного форка.
+
 The exact published model outputs were regraded without model calls. Source fixture bytes, physical 17-page denominator and previous 030/031 scores remain unchanged. Independent scorer version/digest, input hashes and every corrected score are included. This corrects a known grading bias; it does not repair model content.
 
 | Integration | Round | Valid outputs | Engineering | Drawing | Combined selected accuracy |
@@ -13,7 +15,7 @@ The exact published model outputs were regraded without model calls. Source fixt
 | project-x/MiniMax-M3.1-Flash-Preview | round-2 | 5/17 | 160/520 | 0/21 | 29.57% |
 | project-x/MiniMax-M3.1-Flash-Preview | round-3 | 4/17 | 247/520 | 2/21 | 46.03% |
 
-Our row is first extractor pass before GLM review/repair. Project X rows are its native Vision integration outputs with declared settings, not the same agent pipeline. Missing/failed outputs are zero on 520+21. Our accepted delivery remains a separate running cohort. This compares integrations with different prompts/tools/parsers/contracts, not pure model capability; three-round spread is only shown when three complete saved rounds exist. Historical 144/146 profiles have no fresh 17-page expanded test and remain separately labelled 15/500 history.
+Our row is first extractor pass before GLM review/repair. Catalog Vision Backend rows are its native Vision integration outputs with declared settings, not the same agent pipeline. Missing/failed outputs are zero on 520+21. Our accepted delivery remains a separate running cohort. This compares integrations with different prompts/tools/parsers/contracts, not pure model capability; three-round spread is only shown when three complete saved rounds exist. Historical 144/146 profiles have no fresh 17-page expanded test and remain separately labelled 15/500 history.
 
 Supported English geometry and physical A/А or unit-symbol aliases are scoped. Product identifiers stay exact; source 4М16 versus dimensional 4M16 and contextual pollution-header С3-for-СЗ are explicitly literal differences. Raw literal metrics remain exact. Composite voltage headers remain invalid. A tube-diameter claim for Ø500 remains wrong; generic 274 endpoints can remain missing. Strict unsupported_material_reference flags material mentions including porcelain-style appearance analogies; it must not be misreported as a factual made-of-material claim. H+2 versus H±2 remains a future v3 case outside these 21 drawing checks.
 

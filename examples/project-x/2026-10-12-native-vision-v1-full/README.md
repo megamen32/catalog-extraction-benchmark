@@ -1,4 +1,6 @@
-# Project X: three repeated Vision rounds per model
+# Catalog Vision Backend: three repeated Vision rounds per model
+
+> [Catalog Vision Backend](../../../docs/CATALOG-VISION-BACKEND.md) — наша закрытая адаптация; репозиторий приватный, доступ по запросу владельцу; планируем предоставлять бесплатно. Оценки ниже относятся к сохранённым конфигурациям испытаний, а не к новому запуску переименованного форка.
 
 **Complete: 102 fresh attempts, six model-rounds.** Each configuration ran three sequential rounds of the same expanded17-page benchmark:520 selected engineering checks and21 scoped drawing checks. No page78 preview or prior answer was reused. Invalid and failed outputs count zero against the fixed denominator.
 
@@ -19,7 +21,7 @@ The modified native Vision integration uses a generic catalogue task, whole-page
 
 Round subprocess time sums are1990.310;2874.598;2460.509s for GLM and1158.802;1482.897;1084.316s for MiniMax. Imports, preparation and admission waiting are included; provider timing is separate. Usage includes native repair and failed responses where counters were returned. Missing counters are unknown. Monetary cost was not measured.
 
-Our comparable initial first round scores399/520+5/21; Project X GLM's first round is411/520+6/21. Our three-round reviewed pipeline remains a separate experiment. This does not support a stable overall winner or a claim that our program is much better. Historical500-check scores are not ranked against these520+21 results.
+Our comparable initial first round scores399/520+5/21; Catalog Vision Backend GLM's first round is411/520+6/21. Our three-round reviewed pipeline remains a separate experiment. This does not support a stable overall winner or a claim that our program is much better. Historical500-check scores are not ranked against these520+21 results.
 
 GLM round3 page78 failed the catalogue contract because useful merged_cell_notes extensions were disallowed. Its original delivery remains zero. The separate [offline format diagnostic](format-diagnostic/README.md) retains those notes and evaluates unchanged cells/columns/figures, scoring98/140; it is not a cohort score or a new model run.
 

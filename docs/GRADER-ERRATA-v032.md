@@ -1,5 +1,7 @@
 # Offline grader 0.3.2: supported symbol/language aliases, exact raw data retained
 
+> [Catalog Vision Backend](CATALOG-VISION-BACKEND.md) — наша закрытая адаптация; репозиторий приватный, доступ по запросу владельцу; планируем предоставлять бесплатно. Оценки ниже относятся к сохранённым конфигурациям испытаний, а не к новому запуску переименованного форка.
+
 Frozen 0.3.0 and numeric-scope correction 0.3.1 can falsely reject physically equivalent Latin A versus Cyrillic А current conditions, English unit symbols, and supported English drawing relations. The old algorithm can also miss an explicit English contradiction such as Ø500 being called a cross-arm tube diameter. This separate offline component corrects those matching rules after inference. It changes no fixture, candidate, native program or model context, and retains both previous scores.
 
 Supported aliases are scoped: physical units and numeric current conditions in column metadata; drawing view markers and a documented vocabulary in figure prose; quantity+M+thread diameter only in dimensional fields d1/d2/d3 after every explicit identity/field/unit/bounds/frequency/state condition passed. Product identifiers remain exact. A full pollution-degree header whose meaning and Roman values are intact may carry a contextual С3-for-СЗ abbreviation typo; that typo remains visible in literal_format_differences. Composite lightning-impulse/dry50Hz headers remain invalid independent of aliases.
@@ -17,4 +19,4 @@ catalog-bench dataset --dataset engineering-catalogs-v2 --export dataset-v2
 python catalog-language-grader-v0.3.2.py --fixture dataset-v2/fixtures/catalog-1-page-039.json catalogue-page.json --output score-v0.3.2.json
 ```
 
-Regraded outputs are published separately under examples/offline-regrading/2026-10-12-v032; original 030/031 results and exact model outputs are retained. The profile comparison is between complete integrations with different parsers, prompts, tools and output contracts, not a pure model A/B. In particular, an advertised JSON-object option is not sent in Project X's Anthropic request body; declared settings alone do not establish identical provider requests.
+Regraded outputs are published separately under examples/offline-regrading/2026-10-12-v032; original 030/031 results and exact model outputs are retained. The profile comparison is between complete integrations with different parsers, prompts, tools and output contracts, not a pure model A/B. In particular, an advertised JSON-object option is not sent in Catalog Vision Backend's Anthropic request body; declared settings alone do not establish identical provider requests.

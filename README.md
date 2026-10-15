@@ -1,5 +1,7 @@
 # Catalog Extraction Benchmark
 
+> [Catalog Vision Backend](docs/CATALOG-VISION-BACKEND.md) — наша закрытая адаптация; репозиторий приватный, доступ по запросу владельцу; планируем предоставлять бесплатно. Оценки ниже относятся к сохранённым конфигурациям испытаний, а не к новому запуску переименованного форка.
+
 Compare PDF catalogue parsers against independently reviewed engineering facts.
 
 - **17 difficult pages** from five catalogues, including the rotated tables on page 78.
@@ -11,7 +13,9 @@ Compare PDF catalogue parsers against independently reviewed engineering facts.
 
 **[Единая история всех испытаний: версии, три раунда, разброс, время и параллельные оценки](docs/EXPERIMENT-HISTORY-RU.md)** · [JSON-сводка](examples/experiment-history.json)
 
-**[Общий рейтинг инструментов, включая Project X с GLM и MiniMax](docs/TOOL-LEADERBOARD-RU.md)** — одинаковые 15 страниц и один оценщик для всех; наш агент в этом рейтинге не участвует.
+**[Общий рейтинг инструментов, включая Catalog Vision Backend с GLM и MiniMax](docs/TOOL-LEADERBOARD-RU.md)** — одинаковые 15 страниц и один оценщик для всех; наш агент в этом рейтинге не участвует.
+
+[Скачать и установить инструменты из рейтинга](docs/PRODUCTS-RU.md): ссылки на продукты отдельно от манифестов результатов. Catalog Vision Backend — приватное решение, доступ по запросу; планируем предоставлять бесплатно.
 
 ## Install
 

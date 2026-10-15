@@ -1,4 +1,6 @@
-# Project X: preliminary native Vision integration
+# Catalog Vision Backend: preliminary native Vision integration
+
+> [Catalog Vision Backend](../../../docs/CATALOG-VISION-BACKEND.md) — наша закрытая адаптация; репозиторий приватный, доступ по запросу владельцу; планируем предоставлять бесплатно. Оценки ниже относятся к сохранённым конфигурациям испытаний, а не к новому запуску переименованного форка.
 
 Both GLM 5.3 Flash and MiniMax M3.1 Flash Preview produced artifacts accepted by the native visual-analysis service on catalogue page 78. A private provider adapter supplies the native JSON contract to the models and renders vector pages as three source-bound images. A generic catalogue transcription task stores tables in the native analysis metadata. The upstream source and adapter code remain private.
 
@@ -19,4 +21,4 @@ The 140 selected checks do **not** establish full drawing accuracy. Both outputs
 
 Separate MiniMax probes on pages 27 and 39 failed native JSON parsing after the native model-assisted syntax repair. All four actual calls, their time and reported token usage are included in [results.json](results.json); the failed attempts are not omitted. Raw provider responses, reasoning and request histories remain private. Earlier successful GLM transport smokes did not satisfy the native analysis contract and are not included as accepted outputs.
 
-The [results and artifact hashes](results.json) retain the accepted native analyses, exported page JSON and full grader reports. Source values were not manually corrected. All public participant labels are **Project X**.
+The [results and artifact hashes](results.json) retain the accepted native analyses, exported page JSON and full grader reports. Source values were not manually corrected. All public participant labels are **Catalog Vision Backend**.
