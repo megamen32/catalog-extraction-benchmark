@@ -1,0 +1,25 @@
+{
+  "id": "armature046-tiny-zoom-repeat-loop-20261015",
+  "status": "pending_adjudication",
+  "priority": "high",
+  "category": "tool_behavior",
+  "title": "Узкий crop не увеличивал размер подписи и провоцировал повторные просмотры",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 46
+  },
+  "review_basis": "Confirmed source-tool regression from retained real tool PNG dimensions, private call counts and local original-source canary; content glyph46/48 remains unresolved. No benchmark model rerun or frozen score change.",
+  "artifacts": [
+    {
+      "path": "objects/0e19d88db2cc4aa507c6ba9636493d0f33df80459b3616ff2a959dcb02a731f8.json",
+      "sha256": "0e19d88db2cc4aa507c6ba9636493d0f33df80459b3616ff2a959dcb02a731f8",
+      "bytes": 1469,
+      "role": "source-tool-debug",
+      "program_version": "1.5.26",
+      "model": "native Codex and retained MiniMax-M3.1-Flash-Preview evidence"
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "Narrow source regions enlarge within the bounded image size. Source blur must remain explicit uncertainty; no forced46/48 decision."
+}

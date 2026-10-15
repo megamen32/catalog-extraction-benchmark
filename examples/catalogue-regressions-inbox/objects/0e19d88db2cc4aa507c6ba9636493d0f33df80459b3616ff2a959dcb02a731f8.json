@@ -1,0 +1,48 @@
+{
+  "schema_version": "catalogue-source-tool-regression/1",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 46,
+  "tool": "view_region",
+  "box": [
+    0.68,
+    0.302,
+    0.712,
+    0.318
+  ],
+  "old_program_version": "1.5.25",
+  "old_image": {
+    "pixels": [
+      118,
+      83
+    ],
+    "png_sha256": "ae07673fdc3fa194cc78f65b6d025aa6d6b4b7a819bc06567fc787a6a5a832e3"
+  },
+  "new_program_version": "1.5.26",
+  "new_image": {
+    "pixels": [
+      960,
+      674
+    ],
+    "png_sha256": "15d7fb7488568bee64be188872933c0813b3d1a4ae7100da2c90448660f2b3d5"
+  },
+  "new_source_revision": "509aacc",
+  "actual_old_model": "MiniMax-M3.1-Flash-Preview",
+  "old_tool_counts": {
+    "page-work__get_work_page": 2,
+    "page-work__view_page": 6,
+    "page-work__read_work_items": 10,
+    "page-work__view_region": 96,
+    "page-work__read_source_layout": 2,
+    "page-work__extract_direct": 1,
+    "page-work__trace_dimension_candidates": 2,
+    "page-work__inspect_layout": 1,
+    "page-work__read_source_table": 1,
+    "page-work__read_source_artifact": 1,
+    "page-work__add_source_evidence": 3,
+    "page-work__stage_work_groups": 31
+  },
+  "old_held_emergency_seconds": 1200,
+  "oracle": "Narrow source regions enlarge within the bounded image size. Source blur must remain explicit uncertainty; no forced46/48 decision.",
+  "independent_final_review_complete": false,
+  "raw_transcripts_published": false
+}
