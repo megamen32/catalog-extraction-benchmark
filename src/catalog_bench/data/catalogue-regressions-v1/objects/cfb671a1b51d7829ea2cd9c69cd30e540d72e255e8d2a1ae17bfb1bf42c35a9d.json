@@ -1,0 +1,969 @@
+{
+  "schema_version": "catalogue-owner-merge-regression-evidence/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 261,
+  "input_fact_store_sha256": "05409d87f09123705fc1a0f21aa20727961dcf4351128d29497a0660978eec8d",
+  "input_ledger_sha256": "1d1fe979355d046a91ac2f619ed52e174a3ffe563fa7eba4ff7625bd91b19cb8",
+  "work_packet_sha256": "bd841bb493e91d319f6fee759ac5cd89144fafdbb37c7366303699507a841713",
+  "work_sha256": "c0dfe0f6507a77382a191231ab06cf03adb5dd8073f8f922537cf837a26d1cf3",
+  "actual_merge_producer": {
+    "role": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "model": "gpt-6.1-sol",
+    "runtime": "Codex native differences-only merge",
+    "program_version": "1.5.26"
+  },
+  "source_evidence": [
+    {
+      "bbox": [
+        0.08,
+        0.07,
+        0.93,
+        0.94
+      ],
+      "observation": "BL-M3fullmodels. Four unnamedphysicalsubcolumns under massadjustmentkg contain10/20/30/40 as DATA cells, not columnheaders. Oleg made those firstrowdata into names; choose existingours groupedlabel plus originalcolumnindex to preservecolumnposition. A/B/Lmmheader excludesL1/L2, do notinventtheirunit. Mass50.9sharedlasttworows, explicitdashesL1/L2firstrow, clampcompatibility eachrow."
+    }
+  ],
+  "original_typed_facts": [
+    {
+      "fact_index": 8,
+      "fact_id": "L-4c304148941704b7ae9aed31",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:70554/raw",
+      "owner": "БЛ-100-1М",
+      "name": "10",
+      "value": "10",
+      "unit": "кг",
+      "condition": "",
+      "physical_pages": [
+        261
+      ],
+      "input_fact_sha256": "fc73714c782a2fc8f5dacb8874c9b4513037c0d3917706d24239c34f50a70ed4",
+      "input_line": 79929,
+      "raw_context": "raw-69c335b3da1c33fe5a1c8b1b65d8b1c6bc0d4e8f411999449ca45913691a3871",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-b9dcbc6a3aa34160a5a48240",
+        "window_id": "W-a9e1078195a110d3043f9ece",
+        "group_id": "G-37815f8742364d2b32dbf817",
+        "product_id": "P-e0a85076b238ef07a8f3cdba",
+        "group_title": "Балласты к поддерживающим зажимам для одного провода типа БЛ-М",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 9,
+      "fact_id": "L-18ca891df14ed5596233add0",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:70555/raw",
+      "owner": "БЛ-100-1М",
+      "name": "20",
+      "value": "20",
+      "unit": "кг",
+      "condition": "",
+      "physical_pages": [
+        261
+      ],
+      "input_fact_sha256": "f638508604d0efe1ec2ccf9016305ec694b978208610dda97436b764d42b81a9",
+      "input_line": 79930,
+      "raw_context": "raw-e7eabd3b624cbf217d4a5479aa235b0147d0eb71d8f726caa62aef4a4cfe3ba5",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-edcad5dbc3b73a782d45f242",
+        "window_id": "W-a9e1078195a110d3043f9ece",
+        "group_id": "G-37815f8742364d2b32dbf817",
+        "product_id": "P-e0a85076b238ef07a8f3cdba",
+        "group_title": "Балласты к поддерживающим зажимам для одного провода типа БЛ-М",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 10,
+      "fact_id": "L-764cb13f4d1194c1a51f16c6",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:70556/raw",
+      "owner": "БЛ-100-1М",
+      "name": "30",
+      "value": "30",
+      "unit": "кг",
+      "condition": "",
+      "physical_pages": [
+        261
+      ],
+      "input_fact_sha256": "cf3e45cf4e6908dbe2a49b1e24817c7f98a0f90c7fca5fff97877564cc3edd87",
+      "input_line": 79931,
+      "raw_context": "raw-e6e7bc90f563b5a3c3971d4d079601b54b8bf32515187c92b22bd2c61a70c12c",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-681677bab196477070a51afe",
+        "window_id": "W-a9e1078195a110d3043f9ece",
+        "group_id": "G-37815f8742364d2b32dbf817",
+        "product_id": "P-e0a85076b238ef07a8f3cdba",
+        "group_title": "Балласты к поддерживающим зажимам для одного провода типа БЛ-М",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 11,
+      "fact_id": "L-53206993b9c4aedbbd05938f",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:70557/raw",
+      "owner": "БЛ-100-1М",
+      "name": "40",
+      "value": "40",
+      "unit": "кг",
+      "condition": "",
+      "physical_pages": [
+        261
+      ],
+      "input_fact_sha256": "42e7f994dfeefde525514557e0d9447fcbf9268aae255b553b7336a9ee885b83",
+      "input_line": 79932,
+      "raw_context": "raw-6dcdf223bd6aa0901475c8d31ca85f1e621583e54d01aa3197df946c3709b78d",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-f6204b42f9182a2384893586",
+        "window_id": "W-a9e1078195a110d3043f9ece",
+        "group_id": "G-37815f8742364d2b32dbf817",
+        "product_id": "P-e0a85076b238ef07a8f3cdba",
+        "group_title": "Балласты к поддерживающим зажимам для одного провода типа БЛ-М",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 19,
+      "fact_id": "L-edadf6eeada2ee3f3f997d71",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:70565/raw",
+      "owner": "БЛ-200-1М",
+      "name": "10",
+      "value": "10",
+      "unit": "кг",
+      "condition": "",
+      "physical_pages": [
+        261
+      ],
+      "input_fact_sha256": "43f17200047f49165a7d4ab518ae0e90f6c79153499df9ee1629f410aaa86a17",
+      "input_line": 79940,
+      "raw_context": "raw-9a73f46e003d1b2c1cab5cd930b61fb8f3f5cbd4f23ba11300e63229042c912f",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-37dd8f167cd1799b257cbd73",
+        "window_id": "W-a9e1078195a110d3043f9ece",
+        "group_id": "G-37815f8742364d2b32dbf817",
+        "product_id": "P-128d46c6f0aa5e5d1033023b",
+        "group_title": "Балласты к поддерживающим зажимам для одного провода типа БЛ-М",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 20,
+      "fact_id": "L-0ec0169d84e5b8072466434c",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:70566/raw",
+      "owner": "БЛ-200-1М",
+      "name": "20",
+      "value": "20",
+      "unit": "кг",
+      "condition": "",
+      "physical_pages": [
+        261
+      ],
+      "input_fact_sha256": "d418a2748f700018924c1c85be74f7f12df8d2b665ebb56eef83e125f16000b6",
+      "input_line": 79941,
+      "raw_context": "raw-03834f874e09fe6211221ce5291e8192075a4d1576ea972cc4c43b761a1eadce",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-f40c8546bc00765bab0dade2",
+        "window_id": "W-a9e1078195a110d3043f9ece",
+        "group_id": "G-37815f8742364d2b32dbf817",
+        "product_id": "P-128d46c6f0aa5e5d1033023b",
+        "group_title": "Балласты к поддерживающим зажимам для одного провода типа БЛ-М",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 21,
+      "fact_id": "L-1649fdabb70405ce58a724cd",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:70567/raw",
+      "owner": "БЛ-200-1М",
+      "name": "30",
+      "value": "30",
+      "unit": "кг",
+      "condition": "",
+      "physical_pages": [
+        261
+      ],
+      "input_fact_sha256": "2866f6f909498b227472246254e651e8d0d60912b9dac1c130568fbce9ff8e05",
+      "input_line": 79942,
+      "raw_context": "raw-efd99a386e7f5d61c8e77df12110808e590fbd95c5dea140f84cc53a806682be",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-e7ab6c1cd610323e88f92346",
+        "window_id": "W-a9e1078195a110d3043f9ece",
+        "group_id": "G-37815f8742364d2b32dbf817",
+        "product_id": "P-128d46c6f0aa5e5d1033023b",
+        "group_title": "Балласты к поддерживающим зажимам для одного провода типа БЛ-М",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 22,
+      "fact_id": "L-4a7e972ab9663c50e5981803",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:70568/raw",
+      "owner": "БЛ-200-1М",
+      "name": "40",
+      "value": "40",
+      "unit": "кг",
+      "condition": "",
+      "physical_pages": [
+        261
+      ],
+      "input_fact_sha256": "18e6a886e0679d2a7b023ab8f389d58b8ad81cc0721723a7828f58cce50fcabd",
+      "input_line": 79943,
+      "raw_context": "raw-b6650c198c95338bfc277b2723d1624e8b8cb1949de1c8320c3926cfb4f15d72",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-be15b5b4233c95b929767016",
+        "window_id": "W-a9e1078195a110d3043f9ece",
+        "group_id": "G-37815f8742364d2b32dbf817",
+        "product_id": "P-128d46c6f0aa5e5d1033023b",
+        "group_title": "Балласты к поддерживающим зажимам для одного провода типа БЛ-М",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 30,
+      "fact_id": "L-f69c974bc2ef19a12d5e3d7b",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:70576/raw",
+      "owner": "БЛ-200-2М",
+      "name": "10",
+      "value": "10",
+      "unit": "кг",
+      "condition": "",
+      "physical_pages": [
+        261
+      ],
+      "input_fact_sha256": "cb60f79b666d3d91da23d7e1873f516c2c2899210a0ce80dc5fff0e855028b49",
+      "input_line": 79951,
+      "raw_context": "raw-b07d0510aa17a34ec8aa2dbf15a934baf8e8c63b52143769bce31274d7bfc637",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-3fcac5011eac1088366d770d",
+        "window_id": "W-a9e1078195a110d3043f9ece",
+        "group_id": "G-37815f8742364d2b32dbf817",
+        "product_id": "P-623b11432582cb0f1ceaa322",
+        "group_title": "Балласты к поддерживающим зажимам для одного провода типа БЛ-М",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 31,
+      "fact_id": "L-e490a07323501cce454800de",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:70577/raw",
+      "owner": "БЛ-200-2М",
+      "name": "20",
+      "value": "20",
+      "unit": "кг",
+      "condition": "",
+      "physical_pages": [
+        261
+      ],
+      "input_fact_sha256": "853adbf24a8bb82fea8b8d76b2f47d24619f4ff8b24cd1ef272cca757bf8033d",
+      "input_line": 79952,
+      "raw_context": "raw-5cae6aa9543608a4e64124eac31d3ebd3ba6ed5eea70a1e89d13a11e24af106a",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-13bfa62e5bde4d18b81d5e59",
+        "window_id": "W-a9e1078195a110d3043f9ece",
+        "group_id": "G-37815f8742364d2b32dbf817",
+        "product_id": "P-623b11432582cb0f1ceaa322",
+        "group_title": "Балласты к поддерживающим зажимам для одного провода типа БЛ-М",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 32,
+      "fact_id": "L-723dba59b4899788bdc99c5f",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:70578/raw",
+      "owner": "БЛ-200-2М",
+      "name": "30",
+      "value": "30",
+      "unit": "кг",
+      "condition": "",
+      "physical_pages": [
+        261
+      ],
+      "input_fact_sha256": "0d88f8ded1f267224954aaaf60ad1c8481106155c8112bbc86d23d1fdb22b0ac",
+      "input_line": 79953,
+      "raw_context": "raw-745fd8308e046d43b3e3b74336be1e4b148759892d611d9cc2b470263bf356a2",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-9e1fd5ea69574c2000c6e2ac",
+        "window_id": "W-a9e1078195a110d3043f9ece",
+        "group_id": "G-37815f8742364d2b32dbf817",
+        "product_id": "P-623b11432582cb0f1ceaa322",
+        "group_title": "Балласты к поддерживающим зажимам для одного провода типа БЛ-М",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 33,
+      "fact_id": "L-507b26440d5f2d301d3e92c2",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:70579/raw",
+      "owner": "БЛ-200-2М",
+      "name": "40",
+      "value": "40",
+      "unit": "кг",
+      "condition": "",
+      "physical_pages": [
+        261
+      ],
+      "input_fact_sha256": "f0922449960f9044e1cbbf7e68beff0af243cde1deba0a7888f38ab92350974a",
+      "input_line": 79954,
+      "raw_context": "raw-874ac1740f70a124897ece1ce9d426cda79bc86da7573b92e06e2446ffc24fc6",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-145753233f53a04083643365",
+        "window_id": "W-a9e1078195a110d3043f9ece",
+        "group_id": "G-37815f8742364d2b32dbf817",
+        "product_id": "P-623b11432582cb0f1ceaa322",
+        "group_title": "Балласты к поддерживающим зажимам для одного провода типа БЛ-М",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 44,
+      "fact_id": "O-86c20ec7ec5bcfb8eb2d2598",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/260/content/tables/0/rows/0/cells/6",
+      "owner": "БЛ-100-1М",
+      "name": "Ступени регулировки массы балласта",
+      "value": "10",
+      "unit": "кг",
+      "condition": null,
+      "physical_pages": [
+        261
+      ],
+      "input_fact_sha256": "e39e24dd51595a14bcfa16c619e5163bb3558604efb3bafc869b6f8eae16889a",
+      "input_line": 189308,
+      "row_context": "row-7191aeb5ea6378941de53506c94e3a81feaaa722af2bd98724f84403935787f0",
+      "raw_context": "raw-acef0917c58f9ce2843010713442e89a7a8e8fb557b5f3420b16ee3bedfd6ec0",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 0,
+        "column_index": 6,
+        "table_title": "Балласты БЛ: размеры, ступени регулировки массы балласта, зажимы, масса",
+        "column": {
+          "id": "c6",
+          "label": "Ступени регулировки массы балласта",
+          "unit": "кг",
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "a71ee2d05443697b48f23129b8c3660943b381dbdb08836693a14944b4c183ff",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 45,
+      "fact_id": "O-cd7df0fdc5311efe616955a8",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/260/content/tables/0/rows/0/cells/7",
+      "owner": "БЛ-100-1М",
+      "name": "Ступени регулировки массы балласта",
+      "value": "20",
+      "unit": "кг",
+      "condition": null,
+      "physical_pages": [
+        261
+      ],
+      "input_fact_sha256": "6141c694258df18d4e482acd5152b51c39c3951ccfc1d3fe5dfdf649fee9be3f",
+      "input_line": 189309,
+      "row_context": "row-7191aeb5ea6378941de53506c94e3a81feaaa722af2bd98724f84403935787f0",
+      "raw_context": "raw-f8c34b1b8d0e896104c6ddaea3d62523f042782cc76d8c3eb2b8d5ae542c22b3",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 0,
+        "column_index": 7,
+        "table_title": "Балласты БЛ: размеры, ступени регулировки массы балласта, зажимы, масса",
+        "column": {
+          "id": "c7",
+          "label": "Ступени регулировки массы балласта",
+          "unit": "кг",
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "a71ee2d05443697b48f23129b8c3660943b381dbdb08836693a14944b4c183ff",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 46,
+      "fact_id": "O-396d1604b145e85f31dce6aa",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/260/content/tables/0/rows/0/cells/8",
+      "owner": "БЛ-100-1М",
+      "name": "Ступени регулировки массы балласта",
+      "value": "30",
+      "unit": "кг",
+      "condition": null,
+      "physical_pages": [
+        261
+      ],
+      "input_fact_sha256": "d5461cafae198561b597df641162ffda6afb89d457494b660f5ca4b88a7a4c83",
+      "input_line": 189310,
+      "row_context": "row-7191aeb5ea6378941de53506c94e3a81feaaa722af2bd98724f84403935787f0",
+      "raw_context": "raw-e500d52270c825370ce683f3953c0526e1f8d23b17bba5b52a657e7a72d85c25",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 0,
+        "column_index": 8,
+        "table_title": "Балласты БЛ: размеры, ступени регулировки массы балласта, зажимы, масса",
+        "column": {
+          "id": "c8",
+          "label": "Ступени регулировки массы балласта",
+          "unit": "кг",
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "a71ee2d05443697b48f23129b8c3660943b381dbdb08836693a14944b4c183ff",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 47,
+      "fact_id": "O-f3e46fd0e88fbf414ec89c13",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/260/content/tables/0/rows/0/cells/9",
+      "owner": "БЛ-100-1М",
+      "name": "Ступени регулировки массы балласта",
+      "value": "40",
+      "unit": "кг",
+      "condition": null,
+      "physical_pages": [
+        261
+      ],
+      "input_fact_sha256": "474a56b01d5df064772547291e7fad0badfaebd6c442c1609403009f33e1a776",
+      "input_line": 189311,
+      "row_context": "row-7191aeb5ea6378941de53506c94e3a81feaaa722af2bd98724f84403935787f0",
+      "raw_context": "raw-6ae2fbe7a0d87c44aeaa369bd591c5c11f26e23e9e2c802e59d9220572e6825d",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 0,
+        "column_index": 9,
+        "table_title": "Балласты БЛ: размеры, ступени регулировки массы балласта, зажимы, масса",
+        "column": {
+          "id": "c9",
+          "label": "Ступени регулировки массы балласта",
+          "unit": "кг",
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "a71ee2d05443697b48f23129b8c3660943b381dbdb08836693a14944b4c183ff",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 56,
+      "fact_id": "O-4acb0397dcd6c0ddc0f6e387",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/260/content/tables/0/rows/1/cells/6",
+      "owner": "БЛ-200-1М",
+      "name": "Ступени регулировки массы балласта",
+      "value": "10",
+      "unit": "кг",
+      "condition": null,
+      "physical_pages": [
+        261
+      ],
+      "input_fact_sha256": "46a43228d9cfefc85dba31c6ed3979698a2002833510b08a203ba1ef422f6e52",
+      "input_line": 189320,
+      "row_context": "row-6ef86a14273904b1a52b99cc4cd2803322112a8643474060906344f34a7ac1b9",
+      "raw_context": "raw-acef0917c58f9ce2843010713442e89a7a8e8fb557b5f3420b16ee3bedfd6ec0",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 1,
+        "column_index": 6,
+        "table_title": "Балласты БЛ: размеры, ступени регулировки массы балласта, зажимы, масса",
+        "column": {
+          "id": "c6",
+          "label": "Ступени регулировки массы балласта",
+          "unit": "кг",
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "a71ee2d05443697b48f23129b8c3660943b381dbdb08836693a14944b4c183ff",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 57,
+      "fact_id": "O-d703acc0dc017072e1039a98",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/260/content/tables/0/rows/1/cells/7",
+      "owner": "БЛ-200-1М",
+      "name": "Ступени регулировки массы балласта",
+      "value": "20",
+      "unit": "кг",
+      "condition": null,
+      "physical_pages": [
+        261
+      ],
+      "input_fact_sha256": "45d74b50d0d24a6f6ca2f2ceb40c5d2d13e4c2d60078b86ac889872a2d780409",
+      "input_line": 189321,
+      "row_context": "row-6ef86a14273904b1a52b99cc4cd2803322112a8643474060906344f34a7ac1b9",
+      "raw_context": "raw-f8c34b1b8d0e896104c6ddaea3d62523f042782cc76d8c3eb2b8d5ae542c22b3",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 1,
+        "column_index": 7,
+        "table_title": "Балласты БЛ: размеры, ступени регулировки массы балласта, зажимы, масса",
+        "column": {
+          "id": "c7",
+          "label": "Ступени регулировки массы балласта",
+          "unit": "кг",
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "a71ee2d05443697b48f23129b8c3660943b381dbdb08836693a14944b4c183ff",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 58,
+      "fact_id": "O-8a676144dfd7d740d9483bc8",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/260/content/tables/0/rows/1/cells/8",
+      "owner": "БЛ-200-1М",
+      "name": "Ступени регулировки массы балласта",
+      "value": "30",
+      "unit": "кг",
+      "condition": null,
+      "physical_pages": [
+        261
+      ],
+      "input_fact_sha256": "0458bebc86d10d103a806e5a0e0344eea77cb677538daf456dd3ccd0ad4862ee",
+      "input_line": 189322,
+      "row_context": "row-6ef86a14273904b1a52b99cc4cd2803322112a8643474060906344f34a7ac1b9",
+      "raw_context": "raw-e500d52270c825370ce683f3953c0526e1f8d23b17bba5b52a657e7a72d85c25",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 1,
+        "column_index": 8,
+        "table_title": "Балласты БЛ: размеры, ступени регулировки массы балласта, зажимы, масса",
+        "column": {
+          "id": "c8",
+          "label": "Ступени регулировки массы балласта",
+          "unit": "кг",
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "a71ee2d05443697b48f23129b8c3660943b381dbdb08836693a14944b4c183ff",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 59,
+      "fact_id": "O-8a287b37c74f27cb176cf5a6",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/260/content/tables/0/rows/1/cells/9",
+      "owner": "БЛ-200-1М",
+      "name": "Ступени регулировки массы балласта",
+      "value": "40",
+      "unit": "кг",
+      "condition": null,
+      "physical_pages": [
+        261
+      ],
+      "input_fact_sha256": "a90c61ebc07f2a5af975c8e2155a1df5979a7fa63e82d2ee52c16a641643b911",
+      "input_line": 189323,
+      "row_context": "row-6ef86a14273904b1a52b99cc4cd2803322112a8643474060906344f34a7ac1b9",
+      "raw_context": "raw-6ae2fbe7a0d87c44aeaa369bd591c5c11f26e23e9e2c802e59d9220572e6825d",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 1,
+        "column_index": 9,
+        "table_title": "Балласты БЛ: размеры, ступени регулировки массы балласта, зажимы, масса",
+        "column": {
+          "id": "c9",
+          "label": "Ступени регулировки массы балласта",
+          "unit": "кг",
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "a71ee2d05443697b48f23129b8c3660943b381dbdb08836693a14944b4c183ff",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 68,
+      "fact_id": "O-059abb4bc7316badaf0dfef0",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/260/content/tables/0/rows/2/cells/6",
+      "owner": "БЛ-200-2М",
+      "name": "Ступени регулировки массы балласта",
+      "value": "10",
+      "unit": "кг",
+      "condition": null,
+      "physical_pages": [
+        261
+      ],
+      "input_fact_sha256": "dbd465e2fc923a8a725470733fcd30d17a14a4dc322a030d1e87b7a4f89deb40",
+      "input_line": 189332,
+      "row_context": "row-f2aeaad333743c290079eef70b0637b4b5fef166351657c28436be2e7d38058d",
+      "raw_context": "raw-acef0917c58f9ce2843010713442e89a7a8e8fb557b5f3420b16ee3bedfd6ec0",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 2,
+        "column_index": 6,
+        "table_title": "Балласты БЛ: размеры, ступени регулировки массы балласта, зажимы, масса",
+        "column": {
+          "id": "c6",
+          "label": "Ступени регулировки массы балласта",
+          "unit": "кг",
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "a71ee2d05443697b48f23129b8c3660943b381dbdb08836693a14944b4c183ff",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 69,
+      "fact_id": "O-37e00b864a4a653f3f8f0fe3",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/260/content/tables/0/rows/2/cells/7",
+      "owner": "БЛ-200-2М",
+      "name": "Ступени регулировки массы балласта",
+      "value": "20",
+      "unit": "кг",
+      "condition": null,
+      "physical_pages": [
+        261
+      ],
+      "input_fact_sha256": "f6e4c2f56b956955ee0448eeb171bfc951cfc8fee083e95052abb5354c2a5b8d",
+      "input_line": 189333,
+      "row_context": "row-f2aeaad333743c290079eef70b0637b4b5fef166351657c28436be2e7d38058d",
+      "raw_context": "raw-f8c34b1b8d0e896104c6ddaea3d62523f042782cc76d8c3eb2b8d5ae542c22b3",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 2,
+        "column_index": 7,
+        "table_title": "Балласты БЛ: размеры, ступени регулировки массы балласта, зажимы, масса",
+        "column": {
+          "id": "c7",
+          "label": "Ступени регулировки массы балласта",
+          "unit": "кг",
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "a71ee2d05443697b48f23129b8c3660943b381dbdb08836693a14944b4c183ff",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 70,
+      "fact_id": "O-8e782607cfaf629b3a4a9afa",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/260/content/tables/0/rows/2/cells/8",
+      "owner": "БЛ-200-2М",
+      "name": "Ступени регулировки массы балласта",
+      "value": "30",
+      "unit": "кг",
+      "condition": null,
+      "physical_pages": [
+        261
+      ],
+      "input_fact_sha256": "5a7927bdcb111407c7a447e895c11ad4b5508f1d5fbdf4829ea1a0ec9b44a930",
+      "input_line": 189334,
+      "row_context": "row-f2aeaad333743c290079eef70b0637b4b5fef166351657c28436be2e7d38058d",
+      "raw_context": "raw-e500d52270c825370ce683f3953c0526e1f8d23b17bba5b52a657e7a72d85c25",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 2,
+        "column_index": 8,
+        "table_title": "Балласты БЛ: размеры, ступени регулировки массы балласта, зажимы, масса",
+        "column": {
+          "id": "c8",
+          "label": "Ступени регулировки массы балласта",
+          "unit": "кг",
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "a71ee2d05443697b48f23129b8c3660943b381dbdb08836693a14944b4c183ff",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 71,
+      "fact_id": "O-cd5283d4cc03abfeb915760a",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/260/content/tables/0/rows/2/cells/9",
+      "owner": "БЛ-200-2М",
+      "name": "Ступени регулировки массы балласта",
+      "value": "40",
+      "unit": "кг",
+      "condition": null,
+      "physical_pages": [
+        261
+      ],
+      "input_fact_sha256": "bac6b6430a0758cdb26267f9b24422f2033a71d58b0cc54f65e4cba565387967",
+      "input_line": 189335,
+      "row_context": "row-f2aeaad333743c290079eef70b0637b4b5fef166351657c28436be2e7d38058d",
+      "raw_context": "raw-6ae2fbe7a0d87c44aeaa369bd591c5c11f26e23e9e2c802e59d9220572e6825d",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 2,
+        "column_index": 9,
+        "table_title": "Балласты БЛ: размеры, ступени регулировки массы балласта, зажимы, масса",
+        "column": {
+          "id": "c9",
+          "label": "Ступени регулировки массы балласта",
+          "unit": "кг",
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "a71ee2d05443697b48f23129b8c3660943b381dbdb08836693a14944b4c183ff",
+        "previously_accepted": true
+      }
+    }
+  ],
+  "owner_groups": [
+    {
+      "fact_indices": [
+        8,
+        44
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Ошибка заголовка у Олега:10/20/30/40 — данные четырёх физических подколонок, не их названия. Выбрано существующее наше именованное поле «Ступени регулировки массы балласта» с кг и собственным column_index; порядок и все исходные значения/альтернативы сохранены.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        9,
+        45
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Ошибка заголовка у Олега:10/20/30/40 — данные четырёх физических подколонок, не их названия. Выбрано существующее наше именованное поле «Ступени регулировки массы балласта» с кг и собственным column_index; порядок и все исходные значения/альтернативы сохранены.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        10,
+        46
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Ошибка заголовка у Олега:10/20/30/40 — данные четырёх физических подколонок, не их названия. Выбрано существующее наше именованное поле «Ступени регулировки массы балласта» с кг и собственным column_index; порядок и все исходные значения/альтернативы сохранены.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        11,
+        47
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Ошибка заголовка у Олега:10/20/30/40 — данные четырёх физических подколонок, не их названия. Выбрано существующее наше именованное поле «Ступени регулировки массы балласта» с кг и собственным column_index; порядок и все исходные значения/альтернативы сохранены.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        19,
+        56
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Ошибка заголовка у Олега:10/20/30/40 — данные четырёх физических подколонок, не их названия. Выбрано существующее наше именованное поле «Ступени регулировки массы балласта» с кг и собственным column_index; порядок и все исходные значения/альтернативы сохранены.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        20,
+        57
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Ошибка заголовка у Олега:10/20/30/40 — данные четырёх физических подколонок, не их названия. Выбрано существующее наше именованное поле «Ступени регулировки массы балласта» с кг и собственным column_index; порядок и все исходные значения/альтернативы сохранены.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        21,
+        58
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Ошибка заголовка у Олега:10/20/30/40 — данные четырёх физических подколонок, не их названия. Выбрано существующее наше именованное поле «Ступени регулировки массы балласта» с кг и собственным column_index; порядок и все исходные значения/альтернативы сохранены.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        22,
+        59
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Ошибка заголовка у Олега:10/20/30/40 — данные четырёх физических подколонок, не их названия. Выбрано существующее наше именованное поле «Ступени регулировки массы балласта» с кг и собственным column_index; порядок и все исходные значения/альтернативы сохранены.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        30,
+        68
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Ошибка заголовка у Олега:10/20/30/40 — данные четырёх физических подколонок, не их названия. Выбрано существующее наше именованное поле «Ступени регулировки массы балласта» с кг и собственным column_index; порядок и все исходные значения/альтернативы сохранены.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        31,
+        69
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Ошибка заголовка у Олега:10/20/30/40 — данные четырёх физических подколонок, не их названия. Выбрано существующее наше именованное поле «Ступени регулировки массы балласта» с кг и собственным column_index; порядок и все исходные значения/альтернативы сохранены.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        32,
+        70
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Ошибка заголовка у Олега:10/20/30/40 — данные четырёх физических подколонок, не их названия. Выбрано существующее наше именованное поле «Ступени регулировки массы балласта» с кг и собственным column_index; порядок и все исходные значения/альтернативы сохранены.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        33,
+        71
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Ошибка заголовка у Олега:10/20/30/40 — данные четырёх физических подколонок, не их названия. Выбрано существующее наше именованное поле «Ступени регулировки массы балласта» с кг и собственным column_index; порядок и все исходные значения/альтернативы сохранены.",
+      "evidence_refs": [
+        0
+      ]
+    }
+  ],
+  "independent_final_review_complete": false
+}

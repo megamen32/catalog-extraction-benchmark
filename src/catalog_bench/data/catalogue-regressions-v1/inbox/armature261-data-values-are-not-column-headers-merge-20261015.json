@@ -1,0 +1,25 @@
+{
+  "id": "armature261-data-values-are-not-column-headers-merge-20261015",
+  "status": "pending_adjudication",
+  "priority": "high",
+  "category": "semantic_scope",
+  "title": "Значения первой строки ошибочно приняты за заголовки подколонок",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 261
+  },
+  "review_basis": "Native Codex inspected original PDF. Source four unlabelled subcolumns share one massadjustmentkgheader. Owner merge only, independent oracle audit deferred, no extraction/benchmark or frozen denominator change.",
+  "artifacts": [
+    {
+      "path": "objects/cfb671a1b51d7829ea2cd9c69cd30e540d72e255e8d2a1ae17bfb1bf42c35a9d.json",
+      "sha256": "cfb671a1b51d7829ea2cd9c69cd30e540d72e255e8d2a1ae17bfb1bf42c35a9d",
+      "bytes": 39587,
+      "role": "merge-adjudicator",
+      "program_version": "1.5.26",
+      "model": "gpt-6.1-sol"
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "The numbers10/20/30/40 under Ступени регулировки массы балласта кг are data in eachrow, not columnnames. Preserve massadjustmentproperty and physicalslot per fullmodel; do not turn datacells into headers or silently collapse the four physicalsubcolumns."
+}
