@@ -1,0 +1,25 @@
+{
+  "id": "innovations074-overlap-phantom-blank-merge-20261015",
+  "status": "pending_adjudication",
+  "priority": "high",
+  "category": "merged_cells",
+  "title": "Пустые поля частичного окна не отменяют полные значения другого",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 74
+  },
+  "review_basis": "Native Codex original-page and magnified boundary inspection; existing-input semantic merge. No new benchmark or frozen accuracy changes.",
+  "artifacts": [
+    {
+      "path": "objects/4bb6541791f3a18836016663deafddffeb415b89fbd86dfe9f3efec213e8892c.json",
+      "sha256": "4bb6541791f3a18836016663deafddffeb415b89fbd86dfe9f3efec213e8892c",
+      "bytes": 728350,
+      "role": "merge-adjudicator",
+      "program_version": "1.5.26",
+      "model": "gpt-6.1-sol"
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "TwoOlegwindowsoverlap,79blankplusfullvaluealternatives. Sourcefullflangerowsagreewithoursandfullwindow;phantomblanknotnewmissingvariant. RepeatedБ06sourcehasTWOrdistinctflangeconfigurationsandmustnotdedupe."
+}

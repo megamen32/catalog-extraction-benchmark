@@ -1,0 +1,25 @@
+{
+  "id": "innovations155-ogk-l716-row7-merge-20261015",
+  "status": "pending_adjudication",
+  "priority": "high",
+  "category": "merged_cells",
+  "title": "L716 охватывает строку7, не690",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 155
+  },
+  "review_basis": "Native Codex original-page and magnified boundary inspection; existing-input semantic merge. No new benchmark or frozen accuracy changes.",
+  "artifacts": [
+    {
+      "path": "objects/8373fec2cda24d3252685f210cdb549aac12341736108b571485a0da0abfd4f9.json",
+      "sha256": "8373fec2cda24d3252685f210cdb549aac12341736108b571485a0da0abfd4f9",
+      "bytes": 645608,
+      "role": "merge-adjudicator",
+      "program_version": "1.5.26",
+      "model": "gpt-6.1-sol"
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "Source4xcrop/vector654.8344showsL716rows4..7,690rows8..10. Olegrow7L690wrong;existingours716selected."
+}

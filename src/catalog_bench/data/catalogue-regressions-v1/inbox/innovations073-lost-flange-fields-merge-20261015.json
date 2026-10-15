@@ -1,0 +1,25 @@
+{
+  "id": "innovations073-lost-flange-fields-merge-20261015",
+  "status": "pending_adjudication",
+  "priority": "high",
+  "category": "merged_cells",
+  "title": "Пропущены70 заполненных полей фланцев",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 73
+  },
+  "review_basis": "Native Codex original-page and magnified boundary inspection; existing-input semantic merge. No new benchmark or frozen accuracy changes.",
+  "artifacts": [
+    {
+      "path": "objects/9e0b6d441e3ebf8ecd51b20a92e15756824963c90bb36de8a59a496774ca6e81.json",
+      "sha256": "9e0b6d441e3ebf8ecd51b20a92e15756824963c90bb36de8a59a496774ca6e81",
+      "bytes": 529547,
+      "role": "merge-adjudicator",
+      "program_version": "1.5.26",
+      "model": "gpt-6.1-sol"
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "Oleg73has70emptyflangeD1/d1/D2/d2fieldswhere sourcecellsarefilled;ourstwo-tablefullrowsretained. Suffixandthreadvariantsmustnotbejoined."
+}

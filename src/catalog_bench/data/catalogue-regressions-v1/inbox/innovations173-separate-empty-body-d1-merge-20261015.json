@@ -1,0 +1,25 @@
+{
+  "id": "innovations173-separate-empty-body-d1-merge-20261015",
+  "status": "pending_adjudication",
+  "priority": "high",
+  "category": "merged_cells",
+  "title": "d1 корпуса действительно пуста, а не прочерк",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 173
+  },
+  "review_basis": "Native Codex original-page and magnified boundary inspection; existing-input semantic merge. No new benchmark or frozen accuracy changes.",
+  "artifacts": [
+    {
+      "path": "objects/ef744150d0ba1eeefac38f62e8fa4d1f0f7aafec8e77caaa8e7d83d408e40cca.json",
+      "sha256": "ef744150d0ba1eeefac38f62e8fa4d1f0f7aafec8e77caaa8e7d83d408e40cca",
+      "bytes": 1171159,
+      "role": "merge-adjudicator",
+      "program_version": "1.5.26",
+      "model": "gpt-6.1-sol"
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "SourceNAS4501VАС45056bodyd1empty,notdash. Olegdashwrong;oursNonepreserved. Source23newline-dashboundarybelongsdifferentrows."
+}

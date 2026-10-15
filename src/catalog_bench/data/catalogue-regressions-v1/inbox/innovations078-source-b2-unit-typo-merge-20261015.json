@@ -1,0 +1,25 @@
+{
+  "id": "innovations078-source-b2-unit-typo-merge-20261015",
+  "status": "pending_adjudication",
+  "priority": "high",
+  "category": "source_unit_interpretation",
+  "title": "Опечатка единицы B2 в источнике требует явной интерпретации",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 78
+  },
+  "review_basis": "Native Codex original-page and magnified boundary inspection; existing-input semantic merge. No new benchmark or frozen accuracy changes.",
+  "artifacts": [
+    {
+      "path": "objects/21f3144e49a147ae5c162ab7b0838bb8d207359f5958d99cd6d6052806550be0.json",
+      "sha256": "21f3144e49a147ae5c162ab7b0838bb8d207359f5958d99cd6d6052806550be0",
+      "bytes": 420354,
+      "role": "merge-adjudicator",
+      "program_version": "1.5.26",
+      "model": "gpt-6.1-sol"
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "PrintedheaderB2мactualsource typo, oursrawunitмliteral;Olegmmsemanticchoice. SelectedexistingOlegmmfor160/180squaregridwith200mmboltcircleandneighborflanges;literalмandrawNone/emptyalternativesarchived, no numeralconversion. Independentgoldpending."
+}
