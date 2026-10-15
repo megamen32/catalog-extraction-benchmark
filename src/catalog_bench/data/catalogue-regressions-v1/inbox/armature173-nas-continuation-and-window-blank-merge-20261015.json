@@ -1,0 +1,25 @@
+{
+  "id": "armature173-nas-continuation-and-window-blank-merge-20261015",
+  "status": "pending_adjudication",
+  "priority": "high",
+  "category": "merged_cells",
+  "title": "Два продолжения НАС потеряны, окна имеют разные условия строк",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 173
+  },
+  "review_basis": "Native Codex original-page inspection and exact retained merge inputs. No model benchmark/frozen score changes; independent oracle deferred.",
+  "artifacts": [
+    {
+      "path": "objects/e399b166fd31ea07709b714421b302c28a4de68bdf5ba319446cdb5bf39ad92e.json",
+      "sha256": "e399b166fd31ea07709b714421b302c28a4de68bdf5ba319446cdb5bf39ad92e",
+      "bytes": 402043,
+      "role": "merge-adjudicator",
+      "program_version": "1.5.26",
+      "model": "gpt-6.1-sol"
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "SourceNAS3301Vcovers30039/30048andNAS3001V30066/30067. TwooursnullcorrectedfromexistingOlegsecondwindowfullcodes; itswrongblank30048archived, firstwindowrowconditionspreservedseparatelynotwholecolumn."
+}

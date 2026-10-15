@@ -1,0 +1,25 @@
+{
+  "id": "armature105-separate-body-bore-blank-merge-20261015",
+  "status": "pending_adjudication",
+  "priority": "high",
+  "category": "merged_cells",
+  "title": "Пустое d1 корпуса отличается от прочерка",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 105
+  },
+  "review_basis": "Native Codex original-page inspection and exact retained merge inputs. No model benchmark/frozen score changes; independent oracle deferred.",
+  "artifacts": [
+    {
+      "path": "objects/7a72fced0e76013b7bd55df7b73b1214ab5cb689ccd109b41bf856e3fe7d7c10.json",
+      "sha256": "7a72fced0e76013b7bd55df7b73b1214ab5cb689ccd109b41bf856e3fe7d7c10",
+      "bytes": 1088155,
+      "role": "merge-adjudicator",
+      "program_version": "1.5.26",
+      "model": "gpt-6.1-sol"
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "NAS4501V/АС45056bodyd1is separateempty, notdashfromotherrows; exactoursNonepreserved."
+}

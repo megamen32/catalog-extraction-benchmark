@@ -1,0 +1,25 @@
+{
+  "id": "armature188-last-l2-blank-merge-20261015",
+  "status": "pending_adjudication",
+  "priority": "high",
+  "category": "merged_cells",
+  "title": "Последняя l2 пуста, не200 из предыдущего изделия",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 188
+  },
+  "review_basis": "Native Codex original-page inspection and exact retained merge inputs. No model benchmark/frozen score changes; independent oracle deferred.",
+  "artifacts": [
+    {
+      "path": "objects/d5875612e55593d5ba8c7d063057a2bb1480acebd29d92ab080f5abb07d5aaa4.json",
+      "sha256": "d5875612e55593d5ba8c7d063057a2bb1480acebd29d92ab080f5abb07d5aaa4",
+      "bytes": 178339,
+      "role": "merge-adjudicator",
+      "program_version": "1.5.26",
+      "model": "gpt-6.1-sol"
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "OAP6401Alowerl2separateempty; Oleg200copiedfromOAP6401, exactoursNonepreserved."
+}

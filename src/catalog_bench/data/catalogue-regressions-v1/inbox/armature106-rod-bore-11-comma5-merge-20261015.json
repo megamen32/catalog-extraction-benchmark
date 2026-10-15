@@ -1,0 +1,25 @@
+{
+  "id": "armature106-rod-bore-11-comma5-merge-20261015",
+  "status": "pending_adjudication",
+  "priority": "high",
+  "category": "drawing_dimensions",
+  "title": "Диаметр11,5 ошибочно прочитан как11~5",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 106
+  },
+  "review_basis": "Native Codex original-page inspection and exact retained merge inputs. No model benchmark/frozen score changes; independent oracle deferred.",
+  "artifacts": [
+    {
+      "path": "objects/1533bd5cd28466d492687c7221f4d1f78298fbbdb056307d8b506adcdb2f8db4.json",
+      "sha256": "1533bd5cd28466d492687c7221f4d1f78298fbbdb056307d8b506adcdb2f8db4",
+      "bytes": 632944,
+      "role": "merge-adjudicator",
+      "program_version": "1.5.26",
+      "model": "gpt-6.1-sol"
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "TRAS450anker bore printed11,5, Oleg11~5wrong; existing ours11,5selected."
+}

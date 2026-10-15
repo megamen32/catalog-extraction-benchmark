@@ -1,0 +1,25 @@
+{
+  "id": "armature162-undefined-continuation-nas-merge-20261015",
+  "status": "pending_adjudication",
+  "priority": "high",
+  "category": "merged_cells",
+  "title": "undefined вместо объединённого НАС в продолжениях",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 162
+  },
+  "review_basis": "Native Codex original-page inspection and exact retained merge inputs. No model benchmark/frozen score changes; independent oracle deferred.",
+  "artifacts": [
+    {
+      "path": "objects/60e85939ad483fbbdcd1fe51dc96bd8aae49685707a3bda2f4c29c3b8e0b86da.json",
+      "sha256": "60e85939ad483fbbdcd1fe51dc96bd8aae49685707a3bda2f4c29c3b8e0b86da",
+      "bytes": 587397,
+      "role": "merge-adjudicator",
+      "program_version": "1.5.26",
+      "model": "gpt-6.1-sol"
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "FirstOlegwindowundefinedfor12027/15024/15034isnotprintedsourceblank; mergedNAS1201V/NAS1501Vcontinue. ExistingoursandsecondOlegwindowagreeandoursretained."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "armature066-protector-height-115-merge-20261015",
+  "status": "pending_adjudication",
+  "priority": "high",
+  "category": "drawing_dimensions",
+  "title": "Высота115 ошибочно прочитана116 в одном окне",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 66
+  },
+  "review_basis": "Native Codex original-page inspection and exact retained merge inputs. No model benchmark/frozen score changes; independent oracle deferred.",
+  "artifacts": [
+    {
+      "path": "objects/be11215ea3741b579709c584119138930def81386baaf20f020216d27e5d1272.json",
+      "sha256": "be11215ea3741b579709c584119138930def81386baaf20f020216d27e5d1272",
+      "bytes": 116497,
+      "role": "merge-adjudicator",
+      "program_version": "1.5.26",
+      "model": "gpt-6.1-sol"
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "FirstPGASTdrawing115, oneOlegwindow116wrongandother115correct. Source3.2xcrop and oursfullfigure115selected."
+}

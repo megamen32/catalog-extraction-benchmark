@@ -1,0 +1,25 @@
+{
+  "id": "armature168-model-continuations-and-wire24056-merge-20261015",
+  "status": "pending_adjudication",
+  "priority": "high",
+  "category": "merged_cells",
+  "title": "Потеря владельца продолжений модели и пропуск240/56",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 168
+  },
+  "review_basis": "Native Codex original-page inspection and exact retained merge inputs. No model benchmark/frozen score changes; independent oracle deferred.",
+  "artifacts": [
+    {
+      "path": "objects/a027d3f542d3857691bd240391b4faefe28c5e4041b4a1c41402a002217b74db.json",
+      "sha256": "a027d3f542d3857691bd240391b4faefe28c5e4041b4a1c41402a002217b74db",
+      "bytes": 645893,
+      "role": "merge-adjudicator",
+      "program_version": "1.5.26",
+      "model": "gpt-6.1-sol"
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "Ourmodelnullrows5/6continueSHSIP110(16-17.5)8L; selectexistingOlegdesignationandderiveonlysame-rowownerwithrawnullpreserved. Olegmissing24056in21-22.5family, keepours."
+}
