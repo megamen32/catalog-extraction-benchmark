@@ -1,0 +1,249 @@
+{
+  "schema_version": "catalogue-owner-merge-regression-evidence/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 297,
+  "input_fact_store_sha256": "05409d87f09123705fc1a0f21aa20727961dcf4351128d29497a0660978eec8d",
+  "input_ledger_sha256": "1d1fe979355d046a91ac2f619ed52e174a3ffe563fa7eba4ff7625bd91b19cb8",
+  "ours_snapshot_zip_sha256": "dcfdf4a64448a727766cc50ba31b01cf967b475744b9a6d6c5d065344c5061a7",
+  "oleg_input_zip_sha256": "b5febbcb5ab6f9dc7017304befd017bb8d7eab821459537804cfcb417cd98ceb",
+  "work_packet_sha256": "cc42cd099302a54bec9b848a998f8acbd5b6a1c17dd4e27d6a655c865d37e922",
+  "work_sha256": "97aeed40150d9e6c3a609fea58fccdb182fd376cbf608a0e708026c55bef37b6",
+  "actual_merge_producer": {
+    "role": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "model": "gpt-6.1-sol",
+    "runtime": "Codex native differences-only merge",
+    "program_version": "1.5.26"
+  },
+  "source_evidence": [
+    {
+      "bbox": [
+        0.09,
+        0.075,
+        0.92,
+        0.94
+      ],
+      "observation": "OTM1:42fullcodes8/9.2/10/11mm, L1/L2,d/d1/d2/d3,H1/H2/H3 separatephysicalcolumns. d3andH3 each explicitdash for42rows, not missing. Toolparent designation/S retained. Massat13m, literal30.15 and28.15 at11mm157.0. Duplicate Oleg windows mappedperrow, never sharednumeric coincidence."
+    }
+  ],
+  "original_typed_facts": [
+    {
+      "fact_index": 217,
+      "fact_id": "L-6f729730d1332500d9a3d4c7",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:73035/raw",
+      "owner": "ОТМ-1-9,2-L-1.1-99,6",
+      "name": "H1",
+      "value": "29",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        297
+      ],
+      "input_fact_sha256": "bef1937edbcb0eb373669fc616edd9e102e49fae8da8b20ec687502061c10393",
+      "input_line": 82410,
+      "raw_context": "raw-bfaa7c639cfa54b39f7444e219f1d3963dd5b2f6049325b19b1708fa662209f0",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-f6f7e04656db59c121bebc1b",
+        "window_id": "W-9d429eefbc7b12ccbb3ba274",
+        "group_id": "G-e3feb04d9827220a0460ac9d",
+        "product_id": "P-bcf64c68fbdfe9e91fd29e7b",
+        "group_title": "Модернизированные комплекты оттяжек типа ОТМ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 469,
+      "fact_id": "L-7769361d713e59bdec852dd6",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:73287/raw",
+      "owner": "ОТМ-1-11-L-2.1-141,1",
+      "name": "H1",
+      "value": "31",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        297
+      ],
+      "input_fact_sha256": "51af796b2312f882fb637361c8856658b2121a30ce84f6405e81215ed886535f",
+      "input_line": 82662,
+      "raw_context": "raw-bfaa7c639cfa54b39f7444e219f1d3963dd5b2f6049325b19b1708fa662209f0",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-de705e073472fb1938899772",
+        "window_id": "W-9d429eefbc7b12ccbb3ba274",
+        "group_id": "G-e3feb04d9827220a0460ac9d",
+        "product_id": "P-a7e2c80c54bcab707b87b0c3",
+        "group_title": "Модернизированные комплекты оттяжек типа ОТМ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 805,
+      "fact_id": "L-740378a12e0cf401da46c098",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:73623/raw",
+      "owner": "ОТМ-1-9,2-L-1.1-99,6",
+      "name": "H1",
+      "value": "23",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        297
+      ],
+      "input_fact_sha256": "1a566b7e3a40918ae5e6a90bd8e11605dc67f72fa9b9ccf267444c25286a3513",
+      "input_line": 82998,
+      "raw_context": "raw-1d8a187e3d924acac62f63e0d9629b0197163ca96b29acc0963a431e378c33f3",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-bb0ca0d0f1fb58c04c09f176",
+        "window_id": "W-0114f81f5c6a0ae5c0617a8f",
+        "group_id": "G-989d7fa3d3298db13d98d6c7",
+        "product_id": "P-157d141fcda42917b8b702ef",
+        "group_title": "Комплекты оттяжек типа ОТМ-1",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 1057,
+      "fact_id": "L-a9e7f9e7440191a1400053cf",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:73875/raw",
+      "owner": "ОТМ-1-11-L-2.1-141,1",
+      "name": "H1",
+      "value": "26",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        297
+      ],
+      "input_fact_sha256": "08a44807fbe151840e9f230da0da07cc2105c45eaf0a5055974477f0edf9b5fd",
+      "input_line": 83250,
+      "raw_context": "raw-f3ad315ac10b87acecaccf5787f87b1188131a2827f53b89756627414074aa1d",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-6d6a755538b494efc7cef470",
+        "window_id": "W-0114f81f5c6a0ae5c0617a8f",
+        "group_id": "G-989d7fa3d3298db13d98d6c7",
+        "product_id": "P-818006cf0c897253883f9cfc",
+        "group_title": "Комплекты оттяжек типа ОТМ-1",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 1403,
+      "fact_id": "O-9eedb6d4187497462727cd66",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/296/content/tables/0/rows/9/cells/8",
+      "owner": "ОТМ-1-9,2-L-1.1-99,6",
+      "name": "H1",
+      "value": "23",
+      "unit": null,
+      "condition": null,
+      "physical_pages": [
+        297
+      ],
+      "input_fact_sha256": "d13ce98c8d3bed31df3ef36d9d9074773a24c5400596fef9b082510c0fa17612",
+      "input_line": 192038,
+      "row_context": "row-83e4352abdb609f8cb3da9ad2d529d9867a641015854d5950b7b33662b13d1d4",
+      "raw_context": "raw-c7c54ebf6b44c238f254fc812ffdd60b5da5298633b6df7b0ff48b68fb7a6ee3",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 9,
+        "column_index": 8,
+        "table_title": "Линейная арматура для ВЛ / оттяжки",
+        "column": {
+          "id": "c9",
+          "label": "H1",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "c8129ae74b77f8e3562127de1e142921e4fc0cb692f51b166953fa0ec578e3b1",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 1673,
+      "fact_id": "O-377ec9e8b887ba8c74412ade",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/296/content/tables/0/rows/27/cells/8",
+      "owner": "ОТМ-1-11-L-2.1-141,1",
+      "name": "H1",
+      "value": "26",
+      "unit": null,
+      "condition": null,
+      "physical_pages": [
+        297
+      ],
+      "input_fact_sha256": "bd2ac8454641a6392efdc90252ab2d0a69efc1aaf5f10b3cb73b11fae06bc6b5",
+      "input_line": 192308,
+      "row_context": "row-e677d30bfa8a088564f51798458217eb205494c1aad9e8319d705945f7b742b7",
+      "raw_context": "raw-6b4e0f9db1ada14a8cfc1f887c5c976592869dbb7c8f3738c90e6010d14a4c6d",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 27,
+        "column_index": 8,
+        "table_title": "Линейная арматура для ВЛ / оттяжки",
+        "column": {
+          "id": "c9",
+          "label": "H1",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "c8129ae74b77f8e3562127de1e142921e4fc0cb692f51b166953fa0ec578e3b1",
+        "previously_accepted": true
+      }
+    }
+  ],
+  "owner_groups": [
+    {
+      "fact_indices": [
+        805,
+        217,
+        1403
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Ошибка Олега: в H1 одной строки скопирован соседний H2 (29 или31), тогда как исходная собственная H1 равна23 или26. Выбрано существующее наше значение соответствующей колонки и полной марки; альтернативы сохранены.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        1057,
+        469,
+        1673
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Ошибка Олега: в H1 одной строки скопирован соседний H2 (29 или31), тогда как исходная собственная H1 равна23 или26. Выбрано существующее наше значение соответствующей колонки и полной марки; альтернативы сохранены.",
+      "evidence_refs": [
+        0
+      ]
+    }
+  ],
+  "independent_final_review_complete": false
+}

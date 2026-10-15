@@ -1,0 +1,25 @@
+{
+  "id": "armature297-h2-copied-to-h1-merge-20261015",
+  "status": "pending_adjudication",
+  "priority": "high",
+  "category": "semantic_scope",
+  "title": "Соседний H2 ошибочно принят за H1",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 297
+  },
+  "review_basis": "Native Codex inspected original PDF and exact table/crop; owner merge only, independent oracle audit deferred. No new extraction/benchmark or frozen score change.",
+  "artifacts": [
+    {
+      "path": "objects/7b32c7a79883ac1affab8f06a05a9b5ea5230db2af45628f30966bb881741cf5.json",
+      "sha256": "7b32c7a79883ac1affab8f06a05a9b5ea5230db2af45628f30966bb881741cf5",
+      "bytes": 9312,
+      "role": "merge-adjudicator",
+      "program_version": "1.5.26",
+      "model": "gpt-6.1-sol"
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "OTM1-9.2-L1.1-99.6 hasH1=23 notH2=29; OTM1-11-L2.1-141.1 hasH1=26 notH2=31. Exact columns and full model ownership required."
+}

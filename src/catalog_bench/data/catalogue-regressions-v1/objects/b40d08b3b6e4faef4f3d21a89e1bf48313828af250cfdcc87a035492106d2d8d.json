@@ -1,0 +1,998 @@
+{
+  "schema_version": "catalogue-owner-merge-regression-evidence/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 300,
+  "input_fact_store_sha256": "05409d87f09123705fc1a0f21aa20727961dcf4351128d29497a0660978eec8d",
+  "input_ledger_sha256": "1d1fe979355d046a91ac2f619ed52e174a3ffe563fa7eba4ff7625bd91b19cb8",
+  "ours_snapshot_zip_sha256": "dcfdf4a64448a727766cc50ba31b01cf967b475744b9a6d6c5d065344c5061a7",
+  "oleg_input_zip_sha256": "b5febbcb5ab6f9dc7017304befd017bb8d7eab821459537804cfcb417cd98ceb",
+  "work_packet_sha256": "a73fa03bea53f90c8ffe5f2c54845197794abb1e138eba180e8b245cf721d903",
+  "work_sha256": "5eaa32433acd8b69247f4f7328428d5c8ee204a06f0f7de92d62e6795aae6f79",
+  "actual_merge_producer": {
+    "role": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "model": "gpt-6.1-sol",
+    "runtime": "Codex native differences-only merge",
+    "program_version": "1.5.26"
+  },
+  "source_evidence": [
+    {
+      "bbox": [
+        0.09,
+        0.075,
+        0.91,
+        0.94
+      ],
+      "observation": "OTM2:45 exact fullmarks diameter8/9/10/11/12mm,three -1/-2/-4variants per breakingsuffix. Shared breakingforce for3rows and rope diameter for9rows; D/R/H explicitdashes of -4 preserved. Mass at13m kg and figure1/2 strictly separate. Overlapping Oleg windows two observations per mark, with one duplicate fullcodeparameter only in one window."
+    }
+  ],
+  "original_typed_facts": [
+    {
+      "fact_index": 344,
+      "fact_id": "L-1668673762477aeb9dbd8098",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:74962/raw",
+      "owner": "ОТМ-2-12,5-L-1-182,4",
+      "name": "d",
+      "value": "12,5,0",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        300
+      ],
+      "input_fact_sha256": "24664cfdbe516c82c0a56d485a0c681c7454206317247b8c0e29cb41e00b618a",
+      "input_line": 84337,
+      "raw_context": "raw-e4564387e0f871645b4579e29c45e5a412157ab2e7199682c98b1d540bcad87d",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-4f99e4825de50fc508dbe62a",
+        "window_id": "W-0114f81f5c6a0ae5c0617a8f",
+        "group_id": "G-97ce0730f5438e44082e30bc",
+        "product_id": "P-b63c50d36f894883d5a925b2",
+        "group_title": "Комплекты оттяжек типа ОТМ-2",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 351,
+      "fact_id": "L-8982231d98a6b51d87c02646",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:74969/raw",
+      "owner": "ОТМ-2-12,5-L-2-182,4",
+      "name": "d",
+      "value": "12,5,0",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        300
+      ],
+      "input_fact_sha256": "ea9625e98070a1bd2fab3aa27c9666ee046fa1140a2355d8e1eaa3bc35cd90b7",
+      "input_line": 84344,
+      "raw_context": "raw-c70423dc08ecd8774b11e37fed43908ee3e989173211b85ba781444c3806fcec",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-772b41308be199c3e62dbfec",
+        "window_id": "W-0114f81f5c6a0ae5c0617a8f",
+        "group_id": "G-97ce0730f5438e44082e30bc",
+        "product_id": "P-78a77d2afaec6553b52325e9",
+        "group_title": "Комплекты оттяжек типа ОТМ-2",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 358,
+      "fact_id": "L-9bbdfe8ff0b41571f411f19b",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:74976/raw",
+      "owner": "ОТМ-2-12,5-L-4-182,4",
+      "name": "d",
+      "value": "12,5,0",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        300
+      ],
+      "input_fact_sha256": "46a1de20d03a4940edb62580156ba58f4d81bd34520eb8fcb803c4265ff7dcf4",
+      "input_line": 84351,
+      "raw_context": "raw-53ad0d026e1ea5bd11d2f693b5674f931889d863af1d1556b4df6aa6c9814e7b",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-3c8d8a4d9cda256717056619",
+        "window_id": "W-0114f81f5c6a0ae5c0617a8f",
+        "group_id": "G-97ce0730f5438e44082e30bc",
+        "product_id": "P-5f52da61f54b62a8d11b2528",
+        "group_title": "Комплекты оттяжек типа ОТМ-2",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 365,
+      "fact_id": "L-b1974a83daa675d749496200",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:74983/raw",
+      "owner": "ОТМ-2-12,5-L-1-192,8",
+      "name": "d",
+      "value": "12,5,0",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        300
+      ],
+      "input_fact_sha256": "27417585b79cfd2313c860f007391560320501190a6445b418231f4bb256fa85",
+      "input_line": 84358,
+      "raw_context": "raw-10c29855071765509f3598f43bed0e88ce0405dbe489255e52edf25f66381022",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-c6a5ca47dd0b262d06b3fa83",
+        "window_id": "W-0114f81f5c6a0ae5c0617a8f",
+        "group_id": "G-97ce0730f5438e44082e30bc",
+        "product_id": "P-7aa4438a4f0a25b6213c1b46",
+        "group_title": "Комплекты оттяжек типа ОТМ-2",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 372,
+      "fact_id": "L-c0fb1c626f05337b7b4633d2",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:74990/raw",
+      "owner": "ОТМ-2-12,5-L-2-192,8",
+      "name": "d",
+      "value": "12,5,0",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        300
+      ],
+      "input_fact_sha256": "7b6ba6931c03e2bf549745ebbe7be78239db5425829b5f628d396a45c5e1d4c5",
+      "input_line": 84365,
+      "raw_context": "raw-3c00a97e89369f9806fb463140d51562ef3e1d47f5b87fabcd6a17e37b019cbf",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-6bb33e14f43624ad0b2b344a",
+        "window_id": "W-0114f81f5c6a0ae5c0617a8f",
+        "group_id": "G-97ce0730f5438e44082e30bc",
+        "product_id": "P-9cde329ce73201cf32611cd6",
+        "group_title": "Комплекты оттяжек типа ОТМ-2",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 379,
+      "fact_id": "L-18b1b9177b1d434d10fcf154",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:74997/raw",
+      "owner": "ОТМ-2-12,5-L-4-192,8",
+      "name": "d",
+      "value": "12,5,0",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        300
+      ],
+      "input_fact_sha256": "11b544d7d0a0bf207b3846d724cc7f5aed49151b626866edbc80b74685baa87c",
+      "input_line": 84372,
+      "raw_context": "raw-055d4c021762c95190c5b0648782f6474d2b9814c78bfe325c7abc4541594736",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-344cf8b85a2cdbf9f30def52",
+        "window_id": "W-0114f81f5c6a0ae5c0617a8f",
+        "group_id": "G-97ce0730f5438e44082e30bc",
+        "product_id": "P-522227feced4962d5b2d238d",
+        "group_title": "Комплекты оттяжек типа ОТМ-2",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 386,
+      "fact_id": "L-922bb3f7fc3069d5e4fe6564",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:75004/raw",
+      "owner": "ОТМ-2-12,5-L-1-202,2",
+      "name": "d",
+      "value": "12,5,0",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        300
+      ],
+      "input_fact_sha256": "a54f97b54d8b06415132644ca8113de798076be186fc7af3e39a19b34473c4e5",
+      "input_line": 84379,
+      "raw_context": "raw-fab9f162a969934f6d706fbbc3088ab6728c641199b1aee37ddc65fa3b850b67",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-4479eb34c2714c38ffc18f3c",
+        "window_id": "W-0114f81f5c6a0ae5c0617a8f",
+        "group_id": "G-97ce0730f5438e44082e30bc",
+        "product_id": "P-21214b0dba0514b3d863d9ed",
+        "group_title": "Комплекты оттяжек типа ОТМ-2",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 393,
+      "fact_id": "L-407329d76cca7f27e6711811",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:75011/raw",
+      "owner": "ОТМ-2-12,5-L-2-202,2",
+      "name": "d",
+      "value": "12,5,0",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        300
+      ],
+      "input_fact_sha256": "98e29bfe3fe126a00b531394c7a42ed0c1025230ec491de320079e2471a1975e",
+      "input_line": 84386,
+      "raw_context": "raw-50e67fd5ffadb79dceb3640dc40f3ee5a611656ad358b5452d17c5c8aae9fed6",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-0aaf9568d37e0784928ee16b",
+        "window_id": "W-0114f81f5c6a0ae5c0617a8f",
+        "group_id": "G-97ce0730f5438e44082e30bc",
+        "product_id": "P-71d74e88f43be321e3ff21e7",
+        "group_title": "Комплекты оттяжек типа ОТМ-2",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 400,
+      "fact_id": "L-f15ede8609ac89a182f06d26",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:75018/raw",
+      "owner": "ОТМ-2-12,5-L-4-202,2",
+      "name": "d",
+      "value": "12,5,0",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        300
+      ],
+      "input_fact_sha256": "400e8c86d1814bca20e45653186f999c5db6b0c46ec4a25e822cdb90533dc9ea",
+      "input_line": 84393,
+      "raw_context": "raw-f423cc0ae102066353c14e694152b8ae441c595e573eba1973af5f3d67ae5e46",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-aba2e744b5d0687531b3e226",
+        "window_id": "W-0114f81f5c6a0ae5c0617a8f",
+        "group_id": "G-97ce0730f5438e44082e30bc",
+        "product_id": "P-c406f43ba3c03c7ddb96a906",
+        "group_title": "Комплекты оттяжек типа ОТМ-2",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 696,
+      "fact_id": "L-458c865e85566069f9d67f6c",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:75314/raw",
+      "owner": "ОТМ-2-12,5-L-1-182,4",
+      "name": "d",
+      "value": "12,5",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        300
+      ],
+      "input_fact_sha256": "d5d654176ce93aa66c382d1adcf07f0bedd8e03a0ce045d9937f76ff2bd764b4",
+      "input_line": 84689,
+      "raw_context": "raw-b4edf289f9b6fcbdd280b4c8b92ee57abb8db6e0cf4579fcf1afa15320e2e495",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-5ce16312d1dbadf7889e5023",
+        "window_id": "W-5dc966e0fe8a0271942dc92f",
+        "group_id": "G-6a2c34ed96f113bc7b3d3366",
+        "product_id": "P-515c07e3b24b4d19fd2d890a",
+        "group_title": "Комплекты оттяжек типа ОТМ-2",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 704,
+      "fact_id": "L-d10e7e103d04514546445e8d",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:75322/raw",
+      "owner": "ОТМ-2-12,5-L-2-182,4",
+      "name": "d",
+      "value": "12,5",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        300
+      ],
+      "input_fact_sha256": "1bf3b0b4937cc91d4136f06834d6dfc95a492c25bb9fec947f639f1f92c47547",
+      "input_line": 84697,
+      "raw_context": "raw-5839b17ab0196bcb211995435fdb9d05f32f10603e6c4bdc449d3818ffe106fb",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-2a8f18176b3e068cdce3509a",
+        "window_id": "W-5dc966e0fe8a0271942dc92f",
+        "group_id": "G-6a2c34ed96f113bc7b3d3366",
+        "product_id": "P-046b403f25ffc8feeb017647",
+        "group_title": "Комплекты оттяжек типа ОТМ-2",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 712,
+      "fact_id": "L-0a6ef86ba5a1adf3d64c543e",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:75330/raw",
+      "owner": "ОТМ-2-12,5-L-4-182,4",
+      "name": "d",
+      "value": "12,5",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        300
+      ],
+      "input_fact_sha256": "776b0906fdd9c0bf31d1bf35675c5538bbc3f5a5370438e476a7c2f1f452804c",
+      "input_line": 84705,
+      "raw_context": "raw-fb70036d2b84b963bf659d2752d3652cf7e799cf82f5815d2466b846394585a6",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-dd375aa6289dbf0eff5838b1",
+        "window_id": "W-5dc966e0fe8a0271942dc92f",
+        "group_id": "G-6a2c34ed96f113bc7b3d3366",
+        "product_id": "P-0d782700d04f892450666aac",
+        "group_title": "Комплекты оттяжек типа ОТМ-2",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 720,
+      "fact_id": "L-bd9ffeba1644a1936e35dac9",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:75338/raw",
+      "owner": "ОТМ-2-12,5-L-1-192,8",
+      "name": "d",
+      "value": "12,5",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        300
+      ],
+      "input_fact_sha256": "f1190ad17b28fd0bd1bf696122bd634548750f3d8d91e6268602c730856ef1a3",
+      "input_line": 84713,
+      "raw_context": "raw-56ff5f421e7d8bad5ec526a11340e5f1f0c8c8164b56157b573f331da2fbd09e",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-c54122e763cd5beb38ab3cf7",
+        "window_id": "W-5dc966e0fe8a0271942dc92f",
+        "group_id": "G-6a2c34ed96f113bc7b3d3366",
+        "product_id": "P-87f1baa36f520b1de9ffed32",
+        "group_title": "Комплекты оттяжек типа ОТМ-2",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 728,
+      "fact_id": "L-34b84b9ea1008263e6c879bb",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:75346/raw",
+      "owner": "ОТМ-2-12,5-L-2-192,8",
+      "name": "d",
+      "value": "12,5",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        300
+      ],
+      "input_fact_sha256": "d6b0f5a61d1774ed0570805ed0be707d1e024c3ea5298878da5d9bb07884d3ea",
+      "input_line": 84721,
+      "raw_context": "raw-b52392574d749b415687fb8748ef35af1834f04a1880f313eb540d692310f1b3",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-f46e0e8afb1ea00145ba1c78",
+        "window_id": "W-5dc966e0fe8a0271942dc92f",
+        "group_id": "G-6a2c34ed96f113bc7b3d3366",
+        "product_id": "P-fa759ff038af340c8cac73bc",
+        "group_title": "Комплекты оттяжек типа ОТМ-2",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 736,
+      "fact_id": "L-2bb9fe01e3092d129f5c4d6f",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:75354/raw",
+      "owner": "ОТМ-2-12,5-L-4-192,8",
+      "name": "d",
+      "value": "12,5",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        300
+      ],
+      "input_fact_sha256": "9ccc9a3c91485e4da1b63976e5d228608effe8558e78223115e058ea459beedb",
+      "input_line": 84729,
+      "raw_context": "raw-95892c0b4912d7b6e3413a78a2d912132bde82ace4defd9f52a5a560ca0b504c",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-fd8472315ad02c364cce32b3",
+        "window_id": "W-5dc966e0fe8a0271942dc92f",
+        "group_id": "G-6a2c34ed96f113bc7b3d3366",
+        "product_id": "P-bc91801474c6e6b7bfd7b506",
+        "group_title": "Комплекты оттяжек типа ОТМ-2",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 744,
+      "fact_id": "L-45d4ad2aeeea4d9f266de3e6",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:75362/raw",
+      "owner": "ОТМ-2-12,5-L-1-202,2",
+      "name": "d",
+      "value": "12,5",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        300
+      ],
+      "input_fact_sha256": "90de06669ea849eb8a37b17b7a1d615cc4e5d42e96e1cdaf1713eea3ea47336d",
+      "input_line": 84737,
+      "raw_context": "raw-9112e6a569fe285218e0f5c1dca0ee4fcfe18ba584e832188ca114266cab1ba8",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-6437e131d7b47feab0dacac8",
+        "window_id": "W-5dc966e0fe8a0271942dc92f",
+        "group_id": "G-6a2c34ed96f113bc7b3d3366",
+        "product_id": "P-743c00f10bd53990c52b8a20",
+        "group_title": "Комплекты оттяжек типа ОТМ-2",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 752,
+      "fact_id": "L-0e046e8b44f5ee9e8618c48d",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:75370/raw",
+      "owner": "ОТМ-2-12,5-L-2-202,2",
+      "name": "d",
+      "value": "12,5",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        300
+      ],
+      "input_fact_sha256": "680a96a18610c07c43cca2b4cebbad4295573b24d958a3063883959041593035",
+      "input_line": 84745,
+      "raw_context": "raw-54277562c8a5ca44f1893eb68258778a43e0e0a91ab3f3190a9afaaadb6bd366",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-54b002240eb602c03c0ad51c",
+        "window_id": "W-5dc966e0fe8a0271942dc92f",
+        "group_id": "G-6a2c34ed96f113bc7b3d3366",
+        "product_id": "P-e0ee5d0459990adab2b06093",
+        "group_title": "Комплекты оттяжек типа ОТМ-2",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 760,
+      "fact_id": "L-165778a8af7aba8edd4e3185",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:75378/raw",
+      "owner": "ОТМ-2-12,5-L-4-202,2",
+      "name": "d",
+      "value": "12,5",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        300
+      ],
+      "input_fact_sha256": "4a827ff021d16c89835bac8b9f68217025561d056af01e6689ab25d6813b6394",
+      "input_line": 84753,
+      "raw_context": "raw-deb4984caa45ab9a0c24e24125925114e32902a92b180321c4235cc0fc9e0f4c",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-fe0104e016b14156e6a62fd7",
+        "window_id": "W-5dc966e0fe8a0271942dc92f",
+        "group_id": "G-6a2c34ed96f113bc7b3d3366",
+        "product_id": "P-a9f9e7bff0b65fb674edd04d",
+        "group_title": "Комплекты оттяжек типа ОТМ-2",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 1056,
+      "fact_id": "O-71500482246e2d78ce67a438",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/299/content/tables/0/rows/36/cells/3",
+      "owner": "ОТМ-2-12,5-L-1-182,4",
+      "name": "d",
+      "value": "12,5",
+      "unit": null,
+      "condition": null,
+      "physical_pages": [
+        300
+      ],
+      "input_fact_sha256": "f160b7496d8d665affb93faf3c4e82cd54cdd5abdfa7a811396404975dfd3adc",
+      "input_line": 193530,
+      "row_context": "row-ed7692f39943d5a6847e546fb007bdfe332b1a37f9960b8fbbcd87f19029f36c",
+      "raw_context": "raw-018b46409ee2416f3b23761de600098ea3fa15d7976144f72fa479ea0abec0fc",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 36,
+        "column_index": 3,
+        "table_title": "",
+        "column": {
+          "id": "c4",
+          "label": "d",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "34e338db5b84d6d9695a5a53b075abb4a699055c87717cdf53111d5265eb8383",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 1064,
+      "fact_id": "O-bb26e4fb7d734aa121a6d94a",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/299/content/tables/0/rows/37/cells/3",
+      "owner": "ОТМ-2-12,5-L-2-182,4",
+      "name": "d",
+      "value": "12,5",
+      "unit": null,
+      "condition": null,
+      "physical_pages": [
+        300
+      ],
+      "input_fact_sha256": "00ba1a25872f61e9faf4721a358d4e198aa991900996a20d54b4d27f3a3504da",
+      "input_line": 193538,
+      "row_context": "row-4801227276987c0aeb765fe00e42286a1e33649dbb3b473da52c6bc426d72c2e",
+      "raw_context": "raw-018b46409ee2416f3b23761de600098ea3fa15d7976144f72fa479ea0abec0fc",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 37,
+        "column_index": 3,
+        "table_title": "",
+        "column": {
+          "id": "c4",
+          "label": "d",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "34e338db5b84d6d9695a5a53b075abb4a699055c87717cdf53111d5265eb8383",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 1072,
+      "fact_id": "O-66ea1e0fe23b3ff70be14d8b",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/299/content/tables/0/rows/38/cells/3",
+      "owner": "ОТМ-2-12,5-L-4-182,4",
+      "name": "d",
+      "value": "12,5",
+      "unit": null,
+      "condition": null,
+      "physical_pages": [
+        300
+      ],
+      "input_fact_sha256": "5bab0ca2e753c6e561fc37082f7f05937fe5947ceeb3bf1966187b875ea79f92",
+      "input_line": 193546,
+      "row_context": "row-c68c46ee3b80fcb7c393fbcbfcb2f85cdf19d42e423b25918df9748837c7d38d",
+      "raw_context": "raw-018b46409ee2416f3b23761de600098ea3fa15d7976144f72fa479ea0abec0fc",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 38,
+        "column_index": 3,
+        "table_title": "",
+        "column": {
+          "id": "c4",
+          "label": "d",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "34e338db5b84d6d9695a5a53b075abb4a699055c87717cdf53111d5265eb8383",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 1080,
+      "fact_id": "O-b02d252ee2f593b7389ef35e",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/299/content/tables/0/rows/39/cells/3",
+      "owner": "ОТМ-2-12,5-L-1-192,8",
+      "name": "d",
+      "value": "12,5",
+      "unit": null,
+      "condition": null,
+      "physical_pages": [
+        300
+      ],
+      "input_fact_sha256": "d44c181c61c3a89616a3f5830ca075c4939c8127f53468923ce05f036232af74",
+      "input_line": 193554,
+      "row_context": "row-8eadf824117443817b3f8cdd4188b45572fc9ec883ec123e87eac2cd2bcb59a0",
+      "raw_context": "raw-018b46409ee2416f3b23761de600098ea3fa15d7976144f72fa479ea0abec0fc",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 39,
+        "column_index": 3,
+        "table_title": "",
+        "column": {
+          "id": "c4",
+          "label": "d",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "34e338db5b84d6d9695a5a53b075abb4a699055c87717cdf53111d5265eb8383",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 1088,
+      "fact_id": "O-e6e505872c15195f034863b3",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/299/content/tables/0/rows/40/cells/3",
+      "owner": "ОТМ-2-12,5-L-2-192,8",
+      "name": "d",
+      "value": "12,5",
+      "unit": null,
+      "condition": null,
+      "physical_pages": [
+        300
+      ],
+      "input_fact_sha256": "55c36ff430c93fe1d2587981f28eb5059b97ac77d0dc5ed90db635053cb1726e",
+      "input_line": 193562,
+      "row_context": "row-e963cbe1a19538bf2cafb8728f68a2c46832bb7888ec9d2df666c8dfbbf32585",
+      "raw_context": "raw-018b46409ee2416f3b23761de600098ea3fa15d7976144f72fa479ea0abec0fc",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 40,
+        "column_index": 3,
+        "table_title": "",
+        "column": {
+          "id": "c4",
+          "label": "d",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "34e338db5b84d6d9695a5a53b075abb4a699055c87717cdf53111d5265eb8383",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 1096,
+      "fact_id": "O-7b18b6a4956040b7ec9f8fe8",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/299/content/tables/0/rows/41/cells/3",
+      "owner": "ОТМ-2-12,5-L-4-192,8",
+      "name": "d",
+      "value": "12,5",
+      "unit": null,
+      "condition": null,
+      "physical_pages": [
+        300
+      ],
+      "input_fact_sha256": "360bc0d83747875c207f6450083f6122d0bba7ef3ffbffd3a0109f0fc710d278",
+      "input_line": 193570,
+      "row_context": "row-dc60d9179fb3f497a992ed0fce2b86b28065cd5914b0e0d75b40a6d6061323fc",
+      "raw_context": "raw-018b46409ee2416f3b23761de600098ea3fa15d7976144f72fa479ea0abec0fc",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 41,
+        "column_index": 3,
+        "table_title": "",
+        "column": {
+          "id": "c4",
+          "label": "d",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "34e338db5b84d6d9695a5a53b075abb4a699055c87717cdf53111d5265eb8383",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 1104,
+      "fact_id": "O-5b12a6f750ab43f338b5b5e1",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/299/content/tables/0/rows/42/cells/3",
+      "owner": "ОТМ-2-12,5-L-1-202,2",
+      "name": "d",
+      "value": "12,5",
+      "unit": null,
+      "condition": null,
+      "physical_pages": [
+        300
+      ],
+      "input_fact_sha256": "c6c59faa11296ab3ddd1a4f80d71ccf2490bed18b8ef3427d1c4b4e53c338d49",
+      "input_line": 193578,
+      "row_context": "row-82ac9d7c4f9d90e08d213f2bffcb800f236c3e56e96e0af41deaf95be7b938b5",
+      "raw_context": "raw-018b46409ee2416f3b23761de600098ea3fa15d7976144f72fa479ea0abec0fc",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 42,
+        "column_index": 3,
+        "table_title": "",
+        "column": {
+          "id": "c4",
+          "label": "d",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "34e338db5b84d6d9695a5a53b075abb4a699055c87717cdf53111d5265eb8383",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 1112,
+      "fact_id": "O-9c25cbb5661f0c2241ddfd4e",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/299/content/tables/0/rows/43/cells/3",
+      "owner": "ОТМ-2-12,5-L-2-202,2",
+      "name": "d",
+      "value": "12,5",
+      "unit": null,
+      "condition": null,
+      "physical_pages": [
+        300
+      ],
+      "input_fact_sha256": "16510b9dc0509dfe748246695412cdcc37e259b3f7eec276e6bf4f5578060858",
+      "input_line": 193586,
+      "row_context": "row-b21de32c05f3e510651263b884b23a1889a89b73118ebbbafa006abfa108b07e",
+      "raw_context": "raw-018b46409ee2416f3b23761de600098ea3fa15d7976144f72fa479ea0abec0fc",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 43,
+        "column_index": 3,
+        "table_title": "",
+        "column": {
+          "id": "c4",
+          "label": "d",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "34e338db5b84d6d9695a5a53b075abb4a699055c87717cdf53111d5265eb8383",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 1120,
+      "fact_id": "O-bedd690d2c7f9f29ca16d522",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/299/content/tables/0/rows/44/cells/3",
+      "owner": "ОТМ-2-12,5-L-4-202,2",
+      "name": "d",
+      "value": "12,5",
+      "unit": null,
+      "condition": null,
+      "physical_pages": [
+        300
+      ],
+      "input_fact_sha256": "6a6b63ad375c1e0680c705dd4d3f5f4ede7c92184306e8fcae36ee6e72da77df",
+      "input_line": 193594,
+      "row_context": "row-2a3b32c5cec21887f8215cbeaf105a69f344c18223115db2d9724e5bc2f8d0fb",
+      "raw_context": "raw-018b46409ee2416f3b23761de600098ea3fa15d7976144f72fa479ea0abec0fc",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 44,
+        "column_index": 3,
+        "table_title": "",
+        "column": {
+          "id": "c4",
+          "label": "d",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "34e338db5b84d6d9695a5a53b075abb4a699055c87717cdf53111d5265eb8383",
+        "previously_accepted": true
+      }
+    }
+  ],
+  "owner_groups": [
+    {
+      "fact_indices": [
+        696,
+        344,
+        1056
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Ошибка Олега в одном из перекрывающихся окон: d=12,5,0 вместо напечатанного 12,5; затронуты9строк диаметра12,5. Выбрано существующее наше12,5 по исходной объединённой ячейке d. Ошибочный вариант Олега сохранён с происхождением, не исправлен вручную.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        704,
+        351,
+        1064
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Ошибка Олега в одном из перекрывающихся окон: d=12,5,0 вместо напечатанного 12,5; затронуты9строк диаметра12,5. Выбрано существующее наше12,5 по исходной объединённой ячейке d. Ошибочный вариант Олега сохранён с происхождением, не исправлен вручную.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        712,
+        358,
+        1072
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Ошибка Олега в одном из перекрывающихся окон: d=12,5,0 вместо напечатанного 12,5; затронуты9строк диаметра12,5. Выбрано существующее наше12,5 по исходной объединённой ячейке d. Ошибочный вариант Олега сохранён с происхождением, не исправлен вручную.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        720,
+        365,
+        1080
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Ошибка Олега в одном из перекрывающихся окон: d=12,5,0 вместо напечатанного 12,5; затронуты9строк диаметра12,5. Выбрано существующее наше12,5 по исходной объединённой ячейке d. Ошибочный вариант Олега сохранён с происхождением, не исправлен вручную.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        728,
+        372,
+        1088
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Ошибка Олега в одном из перекрывающихся окон: d=12,5,0 вместо напечатанного 12,5; затронуты9строк диаметра12,5. Выбрано существующее наше12,5 по исходной объединённой ячейке d. Ошибочный вариант Олега сохранён с происхождением, не исправлен вручную.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        736,
+        379,
+        1096
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Ошибка Олега в одном из перекрывающихся окон: d=12,5,0 вместо напечатанного 12,5; затронуты9строк диаметра12,5. Выбрано существующее наше12,5 по исходной объединённой ячейке d. Ошибочный вариант Олега сохранён с происхождением, не исправлен вручную.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        744,
+        386,
+        1104
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Ошибка Олега в одном из перекрывающихся окон: d=12,5,0 вместо напечатанного 12,5; затронуты9строк диаметра12,5. Выбрано существующее наше12,5 по исходной объединённой ячейке d. Ошибочный вариант Олега сохранён с происхождением, не исправлен вручную.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        752,
+        393,
+        1112
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Ошибка Олега в одном из перекрывающихся окон: d=12,5,0 вместо напечатанного 12,5; затронуты9строк диаметра12,5. Выбрано существующее наше12,5 по исходной объединённой ячейке d. Ошибочный вариант Олега сохранён с происхождением, не исправлен вручную.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        760,
+        400,
+        1120
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Ошибка Олега в одном из перекрывающихся окон: d=12,5,0 вместо напечатанного 12,5; затронуты9строк диаметра12,5. Выбрано существующее наше12,5 по исходной объединённой ячейке d. Ошибочный вариант Олега сохранён с происхождением, не исправлен вручную.",
+      "evidence_refs": [
+        0
+      ]
+    }
+  ],
+  "independent_final_review_complete": false
+}

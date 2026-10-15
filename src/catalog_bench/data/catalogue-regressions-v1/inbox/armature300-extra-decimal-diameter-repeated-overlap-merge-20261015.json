@@ -1,0 +1,25 @@
+{
+  "id": "armature300-extra-decimal-diameter-repeated-overlap-merge-20261015",
+  "status": "pending_adjudication",
+  "priority": "high",
+  "category": "semantic_scope",
+  "title": "Лишний десятичный фрагмент диаметра в перекрывающемся окне",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 300
+  },
+  "review_basis": "Native Codex inspected original PDF and exact table/crop; owner merge only, independent oracle audit deferred. No new extraction/benchmark or frozen score change.",
+  "artifacts": [
+    {
+      "path": "objects/b40d08b3b6e4faef4f3d21a89e1bf48313828af250cfdcc87a035492106d2d8d.json",
+      "sha256": "b40d08b3b6e4faef4f3d21a89e1bf48313828af250cfdcc87a035492106d2d8d",
+      "bytes": 36375,
+      "role": "merge-adjudicator",
+      "program_version": "1.5.26",
+      "model": "gpt-6.1-sol"
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "Do not emit12,5,0 for d: source mergedcell is12,5 for9rows of OTM2 diameter12.5. Preserve original alternative and choose sourceboundexisting12,5."
+}

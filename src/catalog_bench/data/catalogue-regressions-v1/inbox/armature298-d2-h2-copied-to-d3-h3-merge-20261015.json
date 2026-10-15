@@ -1,0 +1,25 @@
+{
+  "id": "armature298-d2-h2-copied-to-d3-h3-merge-20261015",
+  "status": "pending_adjudication",
+  "priority": "high",
+  "category": "semantic_scope",
+  "title": "Соседние размеры ошибочно перенесены в отдельные столбцы",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 298
+  },
+  "review_basis": "Native Codex inspected original PDF and exact table/crop; owner merge only, independent oracle audit deferred. No new extraction/benchmark or frozen score change.",
+  "artifacts": [
+    {
+      "path": "objects/c10a571b4789a44412b8a3737cbbb97bc635e9646eb0d1a3ca1cabfd7e84608b.json",
+      "sha256": "c10a571b4789a44412b8a3737cbbb97bc635e9646eb0d1a3ca1cabfd7e84608b",
+      "bytes": 89613,
+      "role": "merge-adjudicator",
+      "program_version": "1.5.26",
+      "model": "gpt-6.1-sol"
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "OTM1 diameter13: d2=28 andH2=35 are notd3/H3. Source d3/H3 are separate merged explicitdashes for15rows. Never propagate adjacentcolumnvalues into dashcolumns."
+}

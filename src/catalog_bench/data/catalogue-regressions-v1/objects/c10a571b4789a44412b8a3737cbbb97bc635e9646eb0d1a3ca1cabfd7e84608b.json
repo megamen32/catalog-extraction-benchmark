@@ -1,0 +1,2375 @@
+{
+  "schema_version": "catalogue-owner-merge-regression-evidence/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 298,
+  "input_fact_store_sha256": "05409d87f09123705fc1a0f21aa20727961dcf4351128d29497a0660978eec8d",
+  "input_ledger_sha256": "1d1fe979355d046a91ac2f619ed52e174a3ffe563fa7eba4ff7625bd91b19cb8",
+  "ours_snapshot_zip_sha256": "dcfdf4a64448a727766cc50ba31b01cf967b475744b9a6d6c5d065344c5061a7",
+  "oleg_input_zip_sha256": "b5febbcb5ab6f9dc7017304befd017bb8d7eab821459537804cfcb417cd98ceb",
+  "work_packet_sha256": "58c003175674be7ddea931d222e12dd1766d175ecbb11f6f907b9b205a00474f",
+  "work_sha256": "af2e96545e266c8e8647ca8ef6a5191d65c094b8566cb793dc24df86104c062e",
+  "actual_merge_producer": {
+    "role": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "model": "gpt-6.1-sol",
+    "runtime": "Codex native differences-only merge",
+    "program_version": "1.5.26"
+  },
+  "source_evidence": [
+    {
+      "bbox": [
+        0.09,
+        0.075,
+        0.92,
+        0.94
+      ],
+      "observation": "OTM1:45fullcodes12.5/13/14/15mm. L1/L2, d/d1/d2/d3,H1/H2/H3 separatephysicalcolumns. Pressingtoolchilddesignation distinctfromproductmark; S remainswithtoolparent. Fourfigurevariants1..4 and explicitdashes retained. Massat13m, literal36.1 for4.1-222.9, verticalmergedscopechecked."
+    }
+  ],
+  "original_typed_facts": [
+    {
+      "fact_index": 219,
+      "fact_id": "L-dc757a2bf102ebefa251403f",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:74252/raw",
+      "owner": "ОТМ-1-13-L-3.1-200,3",
+      "name": "d3",
+      "value": "28",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "46b3b804ed1525e977dfd10e90ce1d7e493b4e8737b3d79ce3895cb0539fdcf3",
+      "input_line": 83627,
+      "raw_context": "raw-ea3fccc69ca2b5eaef40080536a403c313ba2fdbcd577692be7f9952d826b48a",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-f832d50ff9b047440517caf1",
+        "window_id": "W-0114f81f5c6a0ae5c0617a8f",
+        "group_id": "G-989d7fa3d3298db13d98d6c7",
+        "product_id": "P-a8ad36969fe58e861ac6d782",
+        "group_title": "Комплекты оттяжек типа ОТМ-1",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 222,
+      "fact_id": "L-016738917809383ce3a43e0a",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:74255/raw",
+      "owner": "ОТМ-1-13-L-3.1-200,3",
+      "name": "H3",
+      "value": "35",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "87c2b67e24d7ff332906b11f537af83caa46d1bc1a59b951ccc11c01be77c5d1",
+      "input_line": 83630,
+      "raw_context": "raw-6763dbff56a796a12afe33110e8f77cd69b4f20c404b264964f0bbc4a2ac3c4b",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-7245b2cf370f9c76e75b486d",
+        "window_id": "W-0114f81f5c6a0ae5c0617a8f",
+        "group_id": "G-989d7fa3d3298db13d98d6c7",
+        "product_id": "P-a8ad36969fe58e861ac6d782",
+        "group_title": "Комплекты оттяжек типа ОТМ-1",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 233,
+      "fact_id": "L-f3c8e53a98023441b5f6aa3a",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:74266/raw",
+      "owner": "ОТМ-1-13-L-3.2-200,3",
+      "name": "d3",
+      "value": "28",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "9aaca0c6b537aec404740940645b0d23a53e8e13bfce2e24c80d0da350a7d31d",
+      "input_line": 83641,
+      "raw_context": "raw-3e91ed83dec24c522aa972d18cb8f2638a9f40622c0e7cf45fd5aa2737e12a1f",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-8e813dc585839c8eb3bf316a",
+        "window_id": "W-0114f81f5c6a0ae5c0617a8f",
+        "group_id": "G-989d7fa3d3298db13d98d6c7",
+        "product_id": "P-d25be3f62e06bb331f71f6f2",
+        "group_title": "Комплекты оттяжек типа ОТМ-1",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 236,
+      "fact_id": "L-1826d2637095819ddd17f64d",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:74269/raw",
+      "owner": "ОТМ-1-13-L-3.2-200,3",
+      "name": "H3",
+      "value": "35",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "34a4e5bef25949dfecc4ea5c40c5bb9b317b21708a93b1b29136257192328cd0",
+      "input_line": 83644,
+      "raw_context": "raw-39edd473afd398ab289a177395a69ea9acf5dc8bfe8f519707dd5369d2da1c6f",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-f4a21b94127e135ccda0d83f",
+        "window_id": "W-0114f81f5c6a0ae5c0617a8f",
+        "group_id": "G-989d7fa3d3298db13d98d6c7",
+        "product_id": "P-d25be3f62e06bb331f71f6f2",
+        "group_title": "Комплекты оттяжек типа ОТМ-1",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 247,
+      "fact_id": "L-f42c28985091fdd11d55f020",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:74280/raw",
+      "owner": "ОТМ-1-13-L-4.1-200,3",
+      "name": "d3",
+      "value": "28",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "3278a48d38c20f092fda11f90f616d03b9f586c0d84c8e732c2ae431bec15b67",
+      "input_line": 83655,
+      "raw_context": "raw-b7924a108b3471c705312ebcffc2a36deecbfb3691a2b540d8f11f187629015c",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-4180e24ff80c890ade0cfb40",
+        "window_id": "W-0114f81f5c6a0ae5c0617a8f",
+        "group_id": "G-989d7fa3d3298db13d98d6c7",
+        "product_id": "P-ba4f9eb649fceccf84b1d220",
+        "group_title": "Комплекты оттяжек типа ОТМ-1",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 250,
+      "fact_id": "L-e8f454e8d059eb5394d0c5cf",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:74283/raw",
+      "owner": "ОТМ-1-13-L-4.1-200,3",
+      "name": "H3",
+      "value": "35",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "efb98a46153ebfe99ee92c12f5712c054fd48bd5d92bda329ac2b387c3e14c45",
+      "input_line": 83658,
+      "raw_context": "raw-f972272143777ab9e43baf556615f37b3e347496bf5a819700c8ba97386ea385",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-8aa478f9fcf902ac49bc1a51",
+        "window_id": "W-0114f81f5c6a0ae5c0617a8f",
+        "group_id": "G-989d7fa3d3298db13d98d6c7",
+        "product_id": "P-ba4f9eb649fceccf84b1d220",
+        "group_title": "Комплекты оттяжек типа ОТМ-1",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 261,
+      "fact_id": "L-da238a2189a53f2615b7baa6",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:74294/raw",
+      "owner": "ОТМ-1-13-L-4.2-200,3",
+      "name": "d3",
+      "value": "28",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "e9d20d6d0fa4c4e21a5e9f4e44ded22a5f042a1e74edc49727390bf5a475a731",
+      "input_line": 83669,
+      "raw_context": "raw-25fa386f738281e8c5f8f4b7178ee283bb6ec6f986047fb1c128e082e638676b",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-4f2d0d6e8fb8933363542056",
+        "window_id": "W-0114f81f5c6a0ae5c0617a8f",
+        "group_id": "G-989d7fa3d3298db13d98d6c7",
+        "product_id": "P-0ed0b3ef9ca2c3aaba4e4621",
+        "group_title": "Комплекты оттяжек типа ОТМ-1",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 264,
+      "fact_id": "L-7c0d5e0f11d5306006eae18c",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:74297/raw",
+      "owner": "ОТМ-1-13-L-4.2-200,3",
+      "name": "H3",
+      "value": "35",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "fe987165e5e669776967ab3b147dbab78b8db63e9fb076cd2336cd4cb66b9d4f",
+      "input_line": 83672,
+      "raw_context": "raw-3137a2a6098da4be75cf65e3b22321acfc4919a9e571564432fe13c2e3f54db1",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-e1b2848911d3f26a5ad5db08",
+        "window_id": "W-0114f81f5c6a0ae5c0617a8f",
+        "group_id": "G-989d7fa3d3298db13d98d6c7",
+        "product_id": "P-0ed0b3ef9ca2c3aaba4e4621",
+        "group_title": "Комплекты оттяжек типа ОТМ-1",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 275,
+      "fact_id": "L-ff990b49ed0174c2767757e8",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:74308/raw",
+      "owner": "ОТМ-1-13-L-6-200,3",
+      "name": "d3",
+      "value": "28",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "400d2308efc9adccab377b81d620fcdf2bd8cf285c4bd4d10ca45462297bc1cb",
+      "input_line": 83683,
+      "raw_context": "raw-22f101fe8da40f5157c3b2d971b8f6ba43f7d58a74816337391a31d75aaa4a21",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-0d162e3a25ae5b265dce884f",
+        "window_id": "W-0114f81f5c6a0ae5c0617a8f",
+        "group_id": "G-989d7fa3d3298db13d98d6c7",
+        "product_id": "P-b4b3a12c52902159d82bf55b",
+        "group_title": "Комплекты оттяжек типа ОТМ-1",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 278,
+      "fact_id": "L-260671395ce0cba3d2b1d511",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:74311/raw",
+      "owner": "ОТМ-1-13-L-6-200,3",
+      "name": "H3",
+      "value": "35",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "5c70317ddf0cb8df5e03cf8e48e273a6ac6cda94e0099429a813b9ff49ce7f66",
+      "input_line": 83686,
+      "raw_context": "raw-bc4ffa0e37f5ad8b696b582d5561e419837d61ad7ee823a2dd1eb10463ee156d",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-e874fd451be4a247d85b8a66",
+        "window_id": "W-0114f81f5c6a0ae5c0617a8f",
+        "group_id": "G-989d7fa3d3298db13d98d6c7",
+        "product_id": "P-b4b3a12c52902159d82bf55b",
+        "group_title": "Комплекты оттяжек типа ОТМ-1",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 289,
+      "fact_id": "L-1f05e19525e230e46214b1d7",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:74322/raw",
+      "owner": "ОТМ-1-13-L-3.1-211,6",
+      "name": "d3",
+      "value": "28",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "5ab1aa1dd47749dfa2c68c94969c87840c6ac40ffe88a06a7615983ee350ca5f",
+      "input_line": 83697,
+      "raw_context": "raw-7d95de934146ff658cb3b7acd6159185ded4e5dee4528355d9b28a693482007b",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-5ce0cae3b23012d3fb58c95b",
+        "window_id": "W-0114f81f5c6a0ae5c0617a8f",
+        "group_id": "G-989d7fa3d3298db13d98d6c7",
+        "product_id": "P-d653359f7d1ddc1480da9e75",
+        "group_title": "Комплекты оттяжек типа ОТМ-1",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 292,
+      "fact_id": "L-9deb62f14274fff9afd96e67",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:74325/raw",
+      "owner": "ОТМ-1-13-L-3.1-211,6",
+      "name": "H3",
+      "value": "35",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "c4e2f9b9aa9ebf16170618cf648b4bb3727dfb8581fdd1cc6bae0e2b7617cabd",
+      "input_line": 83700,
+      "raw_context": "raw-fa5a8ad6a494986a3478460844a7f6a927fa0b621988d60fa7d9fed55c83daad",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-2fb9706b794e8916fc8b197f",
+        "window_id": "W-0114f81f5c6a0ae5c0617a8f",
+        "group_id": "G-989d7fa3d3298db13d98d6c7",
+        "product_id": "P-d653359f7d1ddc1480da9e75",
+        "group_title": "Комплекты оттяжек типа ОТМ-1",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 303,
+      "fact_id": "L-4a3d927ca5454e2ec6eacb36",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:74336/raw",
+      "owner": "ОТМ-1-13-L-3.2-211,6",
+      "name": "d3",
+      "value": "28",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "81630c8acf5b90b2f4ca2f4592fe094659d50ca0c5e0eff7b5706045bb452e9b",
+      "input_line": 83711,
+      "raw_context": "raw-a433f94b195110447fac93488e29c0b3ee11552217fd58664086cb9e834f8997",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-cf0a49e9cb17c3b96e3a7a67",
+        "window_id": "W-0114f81f5c6a0ae5c0617a8f",
+        "group_id": "G-989d7fa3d3298db13d98d6c7",
+        "product_id": "P-a5942507ae9acad4bece75f7",
+        "group_title": "Комплекты оттяжек типа ОТМ-1",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 306,
+      "fact_id": "L-2ba700821e880c82df769023",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:74339/raw",
+      "owner": "ОТМ-1-13-L-3.2-211,6",
+      "name": "H3",
+      "value": "35",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "9e2fe43e20c49114d790d6367d51bd8a184af02bc86b19d77fbb766053b3c93f",
+      "input_line": 83714,
+      "raw_context": "raw-2cbfc66c83ff40f3d14b1cbf3d371999123d78dcd1598d840c11fc362d2029fe",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-651f4fa0de86d1c6a1f20fe7",
+        "window_id": "W-0114f81f5c6a0ae5c0617a8f",
+        "group_id": "G-989d7fa3d3298db13d98d6c7",
+        "product_id": "P-a5942507ae9acad4bece75f7",
+        "group_title": "Комплекты оттяжек типа ОТМ-1",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 317,
+      "fact_id": "L-9b5e2d9713a67ca8207575fe",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:74350/raw",
+      "owner": "ОТМ-1-13-L-4.1-211,6",
+      "name": "d3",
+      "value": "28",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "fa249df80ab6851358fa3ab2676840022ef801bfcd399d1ec9275b11f04e605e",
+      "input_line": 83725,
+      "raw_context": "raw-605b48a5eec5c4ea6c2f35cc7e6131ecfac0b70afcc5d60aaa24d1570a6f7fda",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-d10394c3dd10166ace12964d",
+        "window_id": "W-0114f81f5c6a0ae5c0617a8f",
+        "group_id": "G-989d7fa3d3298db13d98d6c7",
+        "product_id": "P-2ffcfabbd6d54b054e22b19d",
+        "group_title": "Комплекты оттяжек типа ОТМ-1",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 320,
+      "fact_id": "L-bdb8068aa3502ec01eca353b",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:74353/raw",
+      "owner": "ОТМ-1-13-L-4.1-211,6",
+      "name": "H3",
+      "value": "35",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "98431075976dbd40ddffb19ee3e7c23465b2d9b06be5d8cef3e925b703686e6f",
+      "input_line": 83728,
+      "raw_context": "raw-7346b000dc6d979b8667c44c152c2378cbee39d17a841aae9a549bd6025e7b44",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-756d993bd35ec3e21fb3b563",
+        "window_id": "W-0114f81f5c6a0ae5c0617a8f",
+        "group_id": "G-989d7fa3d3298db13d98d6c7",
+        "product_id": "P-2ffcfabbd6d54b054e22b19d",
+        "group_title": "Комплекты оттяжек типа ОТМ-1",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 331,
+      "fact_id": "L-20b21c2b81ad5cabdb4da095",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:74364/raw",
+      "owner": "ОТМ-1-13-L-4.2-211,6",
+      "name": "d3",
+      "value": "28",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "e269beae385d03c621c347868c34f47e5ce5385feb040c9a5cfa05a3aa6284c9",
+      "input_line": 83739,
+      "raw_context": "raw-57d8d76b026b967778fb1b99c04051742ceab8f56355dbeead1978a341482a14",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-1dc2f5ef1bec770255c56970",
+        "window_id": "W-0114f81f5c6a0ae5c0617a8f",
+        "group_id": "G-989d7fa3d3298db13d98d6c7",
+        "product_id": "P-20a25f0156e2c60ab59b939f",
+        "group_title": "Комплекты оттяжек типа ОТМ-1",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 334,
+      "fact_id": "L-967f2c72a8bafe0a17d402a0",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:74367/raw",
+      "owner": "ОТМ-1-13-L-4.2-211,6",
+      "name": "H3",
+      "value": "35",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "0bda9fbea41544555c1f739e3e0c9c15fff9d78dc4e80cc103fcbd3e7d10cf3e",
+      "input_line": 83742,
+      "raw_context": "raw-9d062a14fe5378d0d3c2f93e88095ef731feae9ae936356d5d633a097d3bc73b",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-09a18a218a0154e52d3d4d9f",
+        "window_id": "W-0114f81f5c6a0ae5c0617a8f",
+        "group_id": "G-989d7fa3d3298db13d98d6c7",
+        "product_id": "P-20a25f0156e2c60ab59b939f",
+        "group_title": "Комплекты оттяжек типа ОТМ-1",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 345,
+      "fact_id": "L-7f676aa7818de24600b03514",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:74378/raw",
+      "owner": "ОТМ-1-13-L-6-211,6",
+      "name": "d3",
+      "value": "28",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "58561fdecfac704b591ba727878955794af09e1033bdefdee165352b95c0b433",
+      "input_line": 83753,
+      "raw_context": "raw-aec8f26d0ec1548d60435f85980bc42837af1e881c8450e11b163bff83060357",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-194755aecb471f459adfb233",
+        "window_id": "W-0114f81f5c6a0ae5c0617a8f",
+        "group_id": "G-989d7fa3d3298db13d98d6c7",
+        "product_id": "P-5effb89f96f7faae2a5db60f",
+        "group_title": "Комплекты оттяжек типа ОТМ-1",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 348,
+      "fact_id": "L-67f1c84366297022a915ebe3",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:74381/raw",
+      "owner": "ОТМ-1-13-L-6-211,6",
+      "name": "H3",
+      "value": "35",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "aed776734899b1103b411f12821296cad87fed4f8e958988f48251f6a685bd29",
+      "input_line": 83756,
+      "raw_context": "raw-1982fff2845d99e103117eb61a1d0d4a4ed88ff3a0b2188848bddf5211f0d097",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-9c39ea1f15fce60d07bd9637",
+        "window_id": "W-0114f81f5c6a0ae5c0617a8f",
+        "group_id": "G-989d7fa3d3298db13d98d6c7",
+        "product_id": "P-5effb89f96f7faae2a5db60f",
+        "group_title": "Комплекты оттяжек типа ОТМ-1",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 359,
+      "fact_id": "L-26407bdca95f5beb01419c6a",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:74392/raw",
+      "owner": "ОТМ-1-13-L-3.1-222,9",
+      "name": "d3",
+      "value": "28",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "eda2c6862ff398b585e2dc2c8202f0152d32374c930024eb71cefb7d772c73db",
+      "input_line": 83767,
+      "raw_context": "raw-42e9abf4109d0c219fb1f39462d6d6d18ee313815adf572042a2634c68450874",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-b429bcc79af3c65720c8ebbf",
+        "window_id": "W-0114f81f5c6a0ae5c0617a8f",
+        "group_id": "G-989d7fa3d3298db13d98d6c7",
+        "product_id": "P-5a11f838987c49a48e85970a",
+        "group_title": "Комплекты оттяжек типа ОТМ-1",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 362,
+      "fact_id": "L-80d89540e32bc861de19253d",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:74395/raw",
+      "owner": "ОТМ-1-13-L-3.1-222,9",
+      "name": "H3",
+      "value": "35",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "231962e866d8cd1da2ca2d3513a30fdd4b1d4685832612fc4674b05b5c0945f0",
+      "input_line": 83770,
+      "raw_context": "raw-0ddb2df84e41ebfa848d5c58e98c68afb749dc916c25e6aa2e1fcd9c2df87172",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-755c92a2f653e4324718c5b8",
+        "window_id": "W-0114f81f5c6a0ae5c0617a8f",
+        "group_id": "G-989d7fa3d3298db13d98d6c7",
+        "product_id": "P-5a11f838987c49a48e85970a",
+        "group_title": "Комплекты оттяжек типа ОТМ-1",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 373,
+      "fact_id": "L-8498efa99e7016432a7bdf62",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:74406/raw",
+      "owner": "ОТМ-1-13-L-3.2-222,9",
+      "name": "d3",
+      "value": "28",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "128b4dd833a67d5e484889ac7edb8b13f56a695f5627fecad0687e2edfd47247",
+      "input_line": 83781,
+      "raw_context": "raw-ef64f24ab81232a42076f8ae205845893ef4ee797deb361bde01d55900c7a20c",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-010ef9fb11c77cf47a42470c",
+        "window_id": "W-0114f81f5c6a0ae5c0617a8f",
+        "group_id": "G-989d7fa3d3298db13d98d6c7",
+        "product_id": "P-a5c0b270d7c39c0a4bb322ad",
+        "group_title": "Комплекты оттяжек типа ОТМ-1",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 376,
+      "fact_id": "L-72453fae8f404ae3e7e24c25",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:74409/raw",
+      "owner": "ОТМ-1-13-L-3.2-222,9",
+      "name": "H3",
+      "value": "35",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "8f216079194ceb4d84498e6ec2cfc5b500d19a822a1c6632b841eaf9039bc347",
+      "input_line": 83784,
+      "raw_context": "raw-b8d0a20055c79722f13099ecfd23c24a1c7a3ffdf15cd9b3a01d72c51e4fb679",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-a66cce1ce9a5cd03c099a526",
+        "window_id": "W-0114f81f5c6a0ae5c0617a8f",
+        "group_id": "G-989d7fa3d3298db13d98d6c7",
+        "product_id": "P-a5c0b270d7c39c0a4bb322ad",
+        "group_title": "Комплекты оттяжек типа ОТМ-1",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 387,
+      "fact_id": "L-3aac9772ac2e80699db0c8d0",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:74420/raw",
+      "owner": "ОТМ-1-13-L-4.1-222,9",
+      "name": "d3",
+      "value": "28",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "a6828f95d64fab96ce5d1fe4cec7aff1001e5c24bb23f996463d992a14bfd36c",
+      "input_line": 83795,
+      "raw_context": "raw-6134a5bdac25db49e91a7c70a4264c746091c1caa5363c6dc680272ea6b6e4d9",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-24cc1e4edaf073ed7cfe33f5",
+        "window_id": "W-0114f81f5c6a0ae5c0617a8f",
+        "group_id": "G-989d7fa3d3298db13d98d6c7",
+        "product_id": "P-935204912afe3504d70db9bf",
+        "group_title": "Комплекты оттяжек типа ОТМ-1",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 390,
+      "fact_id": "L-f9388e964174c54b2c2aa63d",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:74423/raw",
+      "owner": "ОТМ-1-13-L-4.1-222,9",
+      "name": "H3",
+      "value": "35",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "7597833f9f42895046da8509e1f5143c39afd2309fa9ab81d3f239c44994e83a",
+      "input_line": 83798,
+      "raw_context": "raw-c6188f62e10d237b7b6afa1062a778f724b20f03d2c1ba66c71bf51f587b93f9",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-781477cef7a25a93b7bc3485",
+        "window_id": "W-0114f81f5c6a0ae5c0617a8f",
+        "group_id": "G-989d7fa3d3298db13d98d6c7",
+        "product_id": "P-935204912afe3504d70db9bf",
+        "group_title": "Комплекты оттяжек типа ОТМ-1",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 401,
+      "fact_id": "L-0b59939498ee5536f2b36d9b",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:74434/raw",
+      "owner": "ОТМ-1-13-L-4.2-222,9",
+      "name": "d3",
+      "value": "28",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "e31073f322cf1598cf72b790815aac1ac4d83064f86caa897182af4de953d463",
+      "input_line": 83809,
+      "raw_context": "raw-8997495e71a61746d6a698b56e61d0df4e1a9602f849c19dccce4b8b7c854e83",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-417f477ca0e0cca0d27e913e",
+        "window_id": "W-0114f81f5c6a0ae5c0617a8f",
+        "group_id": "G-989d7fa3d3298db13d98d6c7",
+        "product_id": "P-bcd7de81401101cdc6710546",
+        "group_title": "Комплекты оттяжек типа ОТМ-1",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 404,
+      "fact_id": "L-7469a3a53878faf34790123b",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:74437/raw",
+      "owner": "ОТМ-1-13-L-4.2-222,9",
+      "name": "H3",
+      "value": "35",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "307da24a2c08d3b5f0e353d606b6c35df364784168a8cd1409322fe2da98ace5",
+      "input_line": 83812,
+      "raw_context": "raw-b6eda4b371f2ae113112fe90b03a2053d1077a24323d024e5d6c4bfcf6d251f4",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-69c147f3f8fb0f93eeab6110",
+        "window_id": "W-0114f81f5c6a0ae5c0617a8f",
+        "group_id": "G-989d7fa3d3298db13d98d6c7",
+        "product_id": "P-bcd7de81401101cdc6710546",
+        "group_title": "Комплекты оттяжек типа ОТМ-1",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 415,
+      "fact_id": "L-9df3394a689980ea9742324e",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:74448/raw",
+      "owner": "ОТМ-1-13-L-6-222,9",
+      "name": "d3",
+      "value": "28",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "0e2e95f8287b7bdc210126ba24c3c8798e600c247400fbe76d7a20d8c5a1d0f8",
+      "input_line": 83823,
+      "raw_context": "raw-bbb6059f282f48a69aeb074ccb778870d9014d290df257384c086f836b967cae",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-b7d2d5b2c6e136e280526648",
+        "window_id": "W-0114f81f5c6a0ae5c0617a8f",
+        "group_id": "G-989d7fa3d3298db13d98d6c7",
+        "product_id": "P-7520c50e605d182c1707aa60",
+        "group_title": "Комплекты оттяжек типа ОТМ-1",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 418,
+      "fact_id": "L-312d56fd0d33a72572e0aa04",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:74451/raw",
+      "owner": "ОТМ-1-13-L-6-222,9",
+      "name": "H3",
+      "value": "35",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "2ad0bd33d7c36838d682588354be0c56eaf98c51fb09c8053d057576b02102ff",
+      "input_line": 83826,
+      "raw_context": "raw-232f741a45e6e285eb32a4cac552c1832699f96f33552494d4b871e7f99292b5",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-b17ba7039db579c326d04350",
+        "window_id": "W-0114f81f5c6a0ae5c0617a8f",
+        "group_id": "G-989d7fa3d3298db13d98d6c7",
+        "product_id": "P-7520c50e605d182c1707aa60",
+        "group_title": "Комплекты оттяжек типа ОТМ-1",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 862,
+      "fact_id": "O-c08b59508b2cf90744544a6e",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/297/content/tables/0/rows/12/cells/7",
+      "owner": "ОТМ-1-13-L-3.1-200,3",
+      "name": "d3",
+      "value": "-",
+      "unit": null,
+      "condition": null,
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "7e1272bda0e57d2b7de763383a6b37fbc35584e2aaa8c7d49e689b47ee2bc254",
+      "input_line": 192721,
+      "row_context": "row-474647689df57f5d42fdad5322d558f666723ba5de48f0221a6f90b57aa34ff9",
+      "raw_context": "raw-0e5cca67c86f56409e00fa3bb56d5a9a0d0ca2bca953fdfd0cbe13fff1ce1030",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 12,
+        "column_index": 7,
+        "table_title": "Линейная арматура для ВЛ / оттяжки",
+        "column": {
+          "id": "c7",
+          "label": "d3",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "6e35801ed9d54c7c73d483c0b21b8a1a4174251cb7e78daf986d641433cdd004",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 865,
+      "fact_id": "O-4bc252ffb0cf0f0bbcce2699",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/297/content/tables/0/rows/12/cells/10",
+      "owner": "ОТМ-1-13-L-3.1-200,3",
+      "name": "H3",
+      "value": "-",
+      "unit": null,
+      "condition": null,
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "4b4869e9eb710f6824fdd44e5a59d28fd793c9e0a174d1c85ad38cb22ebbb8b3",
+      "input_line": 192724,
+      "row_context": "row-474647689df57f5d42fdad5322d558f666723ba5de48f0221a6f90b57aa34ff9",
+      "raw_context": "raw-01332db009db5f83069b8ed5ed0680901c6ae5f0d79839929193d4c888171832",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 12,
+        "column_index": 10,
+        "table_title": "Линейная арматура для ВЛ / оттяжки",
+        "column": {
+          "id": "c10",
+          "label": "H3",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "6e35801ed9d54c7c73d483c0b21b8a1a4174251cb7e78daf986d641433cdd004",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 877,
+      "fact_id": "O-8a4eb3a61e984b242d1accfe",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/297/content/tables/0/rows/13/cells/7",
+      "owner": "ОТМ-1-13-L-3.2-200,3",
+      "name": "d3",
+      "value": "-",
+      "unit": null,
+      "condition": null,
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "6acff7915b1f9f8c240b55192bf2be6219d0aba492ae21f70190525d729e2716",
+      "input_line": 192736,
+      "row_context": "row-303bd5f34ea56f02056f8d43860805ac711df235aadcdab96cbcfdacb991f237",
+      "raw_context": "raw-0e5cca67c86f56409e00fa3bb56d5a9a0d0ca2bca953fdfd0cbe13fff1ce1030",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 13,
+        "column_index": 7,
+        "table_title": "Линейная арматура для ВЛ / оттяжки",
+        "column": {
+          "id": "c7",
+          "label": "d3",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "6e35801ed9d54c7c73d483c0b21b8a1a4174251cb7e78daf986d641433cdd004",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 880,
+      "fact_id": "O-72871ef604f3b3a48551bbe4",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/297/content/tables/0/rows/13/cells/10",
+      "owner": "ОТМ-1-13-L-3.2-200,3",
+      "name": "H3",
+      "value": "-",
+      "unit": null,
+      "condition": null,
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "7d68f09cd36d0f51e2a56ba7165763482822fe5766219123d334873e1d870d00",
+      "input_line": 192739,
+      "row_context": "row-303bd5f34ea56f02056f8d43860805ac711df235aadcdab96cbcfdacb991f237",
+      "raw_context": "raw-01332db009db5f83069b8ed5ed0680901c6ae5f0d79839929193d4c888171832",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 13,
+        "column_index": 10,
+        "table_title": "Линейная арматура для ВЛ / оттяжки",
+        "column": {
+          "id": "c10",
+          "label": "H3",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "6e35801ed9d54c7c73d483c0b21b8a1a4174251cb7e78daf986d641433cdd004",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 892,
+      "fact_id": "O-b09f00f2ce8d95886ecdc87d",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/297/content/tables/0/rows/14/cells/7",
+      "owner": "ОТМ-1-13-L-4.1-200,3",
+      "name": "d3",
+      "value": "-",
+      "unit": null,
+      "condition": null,
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "dcd08073acc828583bf8e6a2d51eecc7b6f0bc712c7a65859f12af79b5200a80",
+      "input_line": 192751,
+      "row_context": "row-f823a8adbff950c3cdaed23d0e8345f6cb197bd1bcb2602dfc06684c30244638",
+      "raw_context": "raw-0e5cca67c86f56409e00fa3bb56d5a9a0d0ca2bca953fdfd0cbe13fff1ce1030",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 14,
+        "column_index": 7,
+        "table_title": "Линейная арматура для ВЛ / оттяжки",
+        "column": {
+          "id": "c7",
+          "label": "d3",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "6e35801ed9d54c7c73d483c0b21b8a1a4174251cb7e78daf986d641433cdd004",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 895,
+      "fact_id": "O-db0273f6b5ff9e0ce01aea32",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/297/content/tables/0/rows/14/cells/10",
+      "owner": "ОТМ-1-13-L-4.1-200,3",
+      "name": "H3",
+      "value": "-",
+      "unit": null,
+      "condition": null,
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "c1ddc3cbb40ecbfaadd46c2cc7fbb3d0a4dc71a18df41cf0f6d0ea6cdd0836bf",
+      "input_line": 192754,
+      "row_context": "row-f823a8adbff950c3cdaed23d0e8345f6cb197bd1bcb2602dfc06684c30244638",
+      "raw_context": "raw-01332db009db5f83069b8ed5ed0680901c6ae5f0d79839929193d4c888171832",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 14,
+        "column_index": 10,
+        "table_title": "Линейная арматура для ВЛ / оттяжки",
+        "column": {
+          "id": "c10",
+          "label": "H3",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "6e35801ed9d54c7c73d483c0b21b8a1a4174251cb7e78daf986d641433cdd004",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 907,
+      "fact_id": "O-106d0ac8e092b404901de721",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/297/content/tables/0/rows/15/cells/7",
+      "owner": "ОТМ-1-13-L-4.2-200,3",
+      "name": "d3",
+      "value": "-",
+      "unit": null,
+      "condition": null,
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "1b182abaf8f94cc2d01d52830be36f9cca6c78fe9244cf9be3e395ecd3c34141",
+      "input_line": 192766,
+      "row_context": "row-522c7d2700281fffa7f8aa00e0a74adc8a97d2499ce519c99222e01713cfebb3",
+      "raw_context": "raw-0e5cca67c86f56409e00fa3bb56d5a9a0d0ca2bca953fdfd0cbe13fff1ce1030",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 15,
+        "column_index": 7,
+        "table_title": "Линейная арматура для ВЛ / оттяжки",
+        "column": {
+          "id": "c7",
+          "label": "d3",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "6e35801ed9d54c7c73d483c0b21b8a1a4174251cb7e78daf986d641433cdd004",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 910,
+      "fact_id": "O-e44e2df32db4232ac9986214",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/297/content/tables/0/rows/15/cells/10",
+      "owner": "ОТМ-1-13-L-4.2-200,3",
+      "name": "H3",
+      "value": "-",
+      "unit": null,
+      "condition": null,
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "d5bef8f3a3cbb39055a7ce910bcf572062538b7a4ea9cb28ab6eb700b2b0a5d2",
+      "input_line": 192769,
+      "row_context": "row-522c7d2700281fffa7f8aa00e0a74adc8a97d2499ce519c99222e01713cfebb3",
+      "raw_context": "raw-01332db009db5f83069b8ed5ed0680901c6ae5f0d79839929193d4c888171832",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 15,
+        "column_index": 10,
+        "table_title": "Линейная арматура для ВЛ / оттяжки",
+        "column": {
+          "id": "c10",
+          "label": "H3",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "6e35801ed9d54c7c73d483c0b21b8a1a4174251cb7e78daf986d641433cdd004",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 922,
+      "fact_id": "O-a8e40e292e3f2b26398dcb25",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/297/content/tables/0/rows/16/cells/7",
+      "owner": "ОТМ-1-13-L-6-200,3",
+      "name": "d3",
+      "value": "-",
+      "unit": null,
+      "condition": null,
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "7eeb74c459cc828721eea57effa6bb1e0e99b6c987d7673ee593332c15769fa6",
+      "input_line": 192781,
+      "row_context": "row-3ae94156628a84193eb27c07beee9718d65ef01436b349292bbda2289343a2da",
+      "raw_context": "raw-0e5cca67c86f56409e00fa3bb56d5a9a0d0ca2bca953fdfd0cbe13fff1ce1030",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 16,
+        "column_index": 7,
+        "table_title": "Линейная арматура для ВЛ / оттяжки",
+        "column": {
+          "id": "c7",
+          "label": "d3",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "6e35801ed9d54c7c73d483c0b21b8a1a4174251cb7e78daf986d641433cdd004",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 925,
+      "fact_id": "O-0d90dfc5cca9802285b2aa6c",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/297/content/tables/0/rows/16/cells/10",
+      "owner": "ОТМ-1-13-L-6-200,3",
+      "name": "H3",
+      "value": "-",
+      "unit": null,
+      "condition": null,
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "614318a3e809932f8b17e43eb87da4dac388fbe797fa882d9f30d1f4432c869f",
+      "input_line": 192784,
+      "row_context": "row-3ae94156628a84193eb27c07beee9718d65ef01436b349292bbda2289343a2da",
+      "raw_context": "raw-01332db009db5f83069b8ed5ed0680901c6ae5f0d79839929193d4c888171832",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 16,
+        "column_index": 10,
+        "table_title": "Линейная арматура для ВЛ / оттяжки",
+        "column": {
+          "id": "c10",
+          "label": "H3",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "6e35801ed9d54c7c73d483c0b21b8a1a4174251cb7e78daf986d641433cdd004",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 937,
+      "fact_id": "O-6e32d71b22fd1846bc42c0df",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/297/content/tables/0/rows/17/cells/7",
+      "owner": "ОТМ-1-13-L-3.1-211,6",
+      "name": "d3",
+      "value": "-",
+      "unit": null,
+      "condition": null,
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "0d29acf2e5ad4e304205bd52d78dbb1d91f2ab76e277b0ed1b4786a2109cfb9e",
+      "input_line": 192796,
+      "row_context": "row-9cff423b5d0754bbcad63fe586805075ca934ea02934ed02cae61793eb32e708",
+      "raw_context": "raw-0e5cca67c86f56409e00fa3bb56d5a9a0d0ca2bca953fdfd0cbe13fff1ce1030",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 17,
+        "column_index": 7,
+        "table_title": "Линейная арматура для ВЛ / оттяжки",
+        "column": {
+          "id": "c7",
+          "label": "d3",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "6e35801ed9d54c7c73d483c0b21b8a1a4174251cb7e78daf986d641433cdd004",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 940,
+      "fact_id": "O-a68b97aea05520667539b95e",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/297/content/tables/0/rows/17/cells/10",
+      "owner": "ОТМ-1-13-L-3.1-211,6",
+      "name": "H3",
+      "value": "-",
+      "unit": null,
+      "condition": null,
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "eafc89ffa7af04e45597ef011ee55ae72f1bcc2936ec3d40f106f19bda87591e",
+      "input_line": 192799,
+      "row_context": "row-9cff423b5d0754bbcad63fe586805075ca934ea02934ed02cae61793eb32e708",
+      "raw_context": "raw-01332db009db5f83069b8ed5ed0680901c6ae5f0d79839929193d4c888171832",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 17,
+        "column_index": 10,
+        "table_title": "Линейная арматура для ВЛ / оттяжки",
+        "column": {
+          "id": "c10",
+          "label": "H3",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "6e35801ed9d54c7c73d483c0b21b8a1a4174251cb7e78daf986d641433cdd004",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 952,
+      "fact_id": "O-3bcbc555145e576d1785c581",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/297/content/tables/0/rows/18/cells/7",
+      "owner": "ОТМ-1-13-L-3.2-211,6",
+      "name": "d3",
+      "value": "-",
+      "unit": null,
+      "condition": null,
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "eccc632baae4585277f17361347835f459f982b3036c0b66a9b7243dc51d0c0d",
+      "input_line": 192811,
+      "row_context": "row-00cafef541b74d5f4447b38925160267a117e101064eee6c6c456e092bb63571",
+      "raw_context": "raw-0e5cca67c86f56409e00fa3bb56d5a9a0d0ca2bca953fdfd0cbe13fff1ce1030",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 18,
+        "column_index": 7,
+        "table_title": "Линейная арматура для ВЛ / оттяжки",
+        "column": {
+          "id": "c7",
+          "label": "d3",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "6e35801ed9d54c7c73d483c0b21b8a1a4174251cb7e78daf986d641433cdd004",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 955,
+      "fact_id": "O-4172e288184640344490ea73",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/297/content/tables/0/rows/18/cells/10",
+      "owner": "ОТМ-1-13-L-3.2-211,6",
+      "name": "H3",
+      "value": "-",
+      "unit": null,
+      "condition": null,
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "72a5676c1a7d492f59ae9e6d12475317d1146e838b18bdd5b4a85614b9a030a8",
+      "input_line": 192814,
+      "row_context": "row-00cafef541b74d5f4447b38925160267a117e101064eee6c6c456e092bb63571",
+      "raw_context": "raw-01332db009db5f83069b8ed5ed0680901c6ae5f0d79839929193d4c888171832",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 18,
+        "column_index": 10,
+        "table_title": "Линейная арматура для ВЛ / оттяжки",
+        "column": {
+          "id": "c10",
+          "label": "H3",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "6e35801ed9d54c7c73d483c0b21b8a1a4174251cb7e78daf986d641433cdd004",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 967,
+      "fact_id": "O-5a45486caa0005188d5f6ec0",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/297/content/tables/0/rows/19/cells/7",
+      "owner": "ОТМ-1-13-L-4.1-211,6",
+      "name": "d3",
+      "value": "-",
+      "unit": null,
+      "condition": null,
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "7f506cac1e41bf1892d2a9dbde6e3c3c71f1504a243d68a4a99aea035abae8bc",
+      "input_line": 192826,
+      "row_context": "row-9e9019bf6e22932e76f5ba4c5612e45657e8e21ebad8256eb4fdaa2029b150e7",
+      "raw_context": "raw-0e5cca67c86f56409e00fa3bb56d5a9a0d0ca2bca953fdfd0cbe13fff1ce1030",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 19,
+        "column_index": 7,
+        "table_title": "Линейная арматура для ВЛ / оттяжки",
+        "column": {
+          "id": "c7",
+          "label": "d3",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "6e35801ed9d54c7c73d483c0b21b8a1a4174251cb7e78daf986d641433cdd004",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 970,
+      "fact_id": "O-a36f64d424a742edf76cae30",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/297/content/tables/0/rows/19/cells/10",
+      "owner": "ОТМ-1-13-L-4.1-211,6",
+      "name": "H3",
+      "value": "-",
+      "unit": null,
+      "condition": null,
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "c59088152a3a856930f737a35b65483826897e78953e3f39c19d2e3b6b0da94b",
+      "input_line": 192829,
+      "row_context": "row-9e9019bf6e22932e76f5ba4c5612e45657e8e21ebad8256eb4fdaa2029b150e7",
+      "raw_context": "raw-01332db009db5f83069b8ed5ed0680901c6ae5f0d79839929193d4c888171832",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 19,
+        "column_index": 10,
+        "table_title": "Линейная арматура для ВЛ / оттяжки",
+        "column": {
+          "id": "c10",
+          "label": "H3",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "6e35801ed9d54c7c73d483c0b21b8a1a4174251cb7e78daf986d641433cdd004",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 982,
+      "fact_id": "O-b0c4ad7a3142eb1ee8d28475",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/297/content/tables/0/rows/20/cells/7",
+      "owner": "ОТМ-1-13-L-4.2-211,6",
+      "name": "d3",
+      "value": "-",
+      "unit": null,
+      "condition": null,
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "9a58b15e660236243fcda176163353ca59d567d98b01a63f72bed32fbebfe278",
+      "input_line": 192841,
+      "row_context": "row-cbae175e1ca128e84963c4751b2505ea83ff14cd5f5ac54c4369fc8e29354329",
+      "raw_context": "raw-0e5cca67c86f56409e00fa3bb56d5a9a0d0ca2bca953fdfd0cbe13fff1ce1030",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 20,
+        "column_index": 7,
+        "table_title": "Линейная арматура для ВЛ / оттяжки",
+        "column": {
+          "id": "c7",
+          "label": "d3",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "6e35801ed9d54c7c73d483c0b21b8a1a4174251cb7e78daf986d641433cdd004",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 985,
+      "fact_id": "O-099d3026a94806c26d479402",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/297/content/tables/0/rows/20/cells/10",
+      "owner": "ОТМ-1-13-L-4.2-211,6",
+      "name": "H3",
+      "value": "-",
+      "unit": null,
+      "condition": null,
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "468315bb25983c43b5ed2981b7fba158d74e2b9162cee36e9c6303f676f1ac63",
+      "input_line": 192844,
+      "row_context": "row-cbae175e1ca128e84963c4751b2505ea83ff14cd5f5ac54c4369fc8e29354329",
+      "raw_context": "raw-01332db009db5f83069b8ed5ed0680901c6ae5f0d79839929193d4c888171832",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 20,
+        "column_index": 10,
+        "table_title": "Линейная арматура для ВЛ / оттяжки",
+        "column": {
+          "id": "c10",
+          "label": "H3",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "6e35801ed9d54c7c73d483c0b21b8a1a4174251cb7e78daf986d641433cdd004",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 997,
+      "fact_id": "O-f67c639120749eb000380b70",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/297/content/tables/0/rows/21/cells/7",
+      "owner": "ОТМ-1-13-L-6-211,6",
+      "name": "d3",
+      "value": "-",
+      "unit": null,
+      "condition": null,
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "ad9472ebe744d5d76dc64bd06afaabb5c172a374a405dff44d2b862a3ddd0eb5",
+      "input_line": 192856,
+      "row_context": "row-b83943dc8642947ff2c8f4b6cdacef193ec4d825f5fdd00971c6f126342e8f68",
+      "raw_context": "raw-0e5cca67c86f56409e00fa3bb56d5a9a0d0ca2bca953fdfd0cbe13fff1ce1030",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 21,
+        "column_index": 7,
+        "table_title": "Линейная арматура для ВЛ / оттяжки",
+        "column": {
+          "id": "c7",
+          "label": "d3",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "6e35801ed9d54c7c73d483c0b21b8a1a4174251cb7e78daf986d641433cdd004",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 1000,
+      "fact_id": "O-9bed645f87fec0ef3c2940f4",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/297/content/tables/0/rows/21/cells/10",
+      "owner": "ОТМ-1-13-L-6-211,6",
+      "name": "H3",
+      "value": "-",
+      "unit": null,
+      "condition": null,
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "d645764a3df8c9b0493ced733f8ef87a0461683cfd952fbe554854527d228104",
+      "input_line": 192859,
+      "row_context": "row-b83943dc8642947ff2c8f4b6cdacef193ec4d825f5fdd00971c6f126342e8f68",
+      "raw_context": "raw-01332db009db5f83069b8ed5ed0680901c6ae5f0d79839929193d4c888171832",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 21,
+        "column_index": 10,
+        "table_title": "Линейная арматура для ВЛ / оттяжки",
+        "column": {
+          "id": "c10",
+          "label": "H3",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "6e35801ed9d54c7c73d483c0b21b8a1a4174251cb7e78daf986d641433cdd004",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 1012,
+      "fact_id": "O-b63e4e1405d5994beff72e6f",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/297/content/tables/0/rows/22/cells/7",
+      "owner": "ОТМ-1-13-L-3.1-222,9",
+      "name": "d3",
+      "value": "-",
+      "unit": null,
+      "condition": null,
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "5eeb70d9282ce7bd8d247a232e9535e63214b2582a5da6145dd7395e21e4c7d2",
+      "input_line": 192871,
+      "row_context": "row-0af5141bf6a4e399e67732856b0c6c48ef7e0ebf638973cc072c2ca9c82f48a8",
+      "raw_context": "raw-0e5cca67c86f56409e00fa3bb56d5a9a0d0ca2bca953fdfd0cbe13fff1ce1030",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 22,
+        "column_index": 7,
+        "table_title": "Линейная арматура для ВЛ / оттяжки",
+        "column": {
+          "id": "c7",
+          "label": "d3",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "6e35801ed9d54c7c73d483c0b21b8a1a4174251cb7e78daf986d641433cdd004",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 1015,
+      "fact_id": "O-62a58618c57fba17479487cc",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/297/content/tables/0/rows/22/cells/10",
+      "owner": "ОТМ-1-13-L-3.1-222,9",
+      "name": "H3",
+      "value": "-",
+      "unit": null,
+      "condition": null,
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "5b1d3ded29b9373ec75d85f05571ed09c6f7bc26b3077746cca5039b57ec67d6",
+      "input_line": 192874,
+      "row_context": "row-0af5141bf6a4e399e67732856b0c6c48ef7e0ebf638973cc072c2ca9c82f48a8",
+      "raw_context": "raw-01332db009db5f83069b8ed5ed0680901c6ae5f0d79839929193d4c888171832",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 22,
+        "column_index": 10,
+        "table_title": "Линейная арматура для ВЛ / оттяжки",
+        "column": {
+          "id": "c10",
+          "label": "H3",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "6e35801ed9d54c7c73d483c0b21b8a1a4174251cb7e78daf986d641433cdd004",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 1027,
+      "fact_id": "O-f89aa426f05a646449f81e3b",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/297/content/tables/0/rows/23/cells/7",
+      "owner": "ОТМ-1-13-L-3.2-222,9",
+      "name": "d3",
+      "value": "-",
+      "unit": null,
+      "condition": null,
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "a97cfc7ec543b087207918f15ef64a2efc0e6be86597efa110942370dfdfe5ad",
+      "input_line": 192886,
+      "row_context": "row-79497d9356fb3e01d56c5773bd5b60e63e9ace0bd9ddc7aee47dc05476af729c",
+      "raw_context": "raw-0e5cca67c86f56409e00fa3bb56d5a9a0d0ca2bca953fdfd0cbe13fff1ce1030",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 23,
+        "column_index": 7,
+        "table_title": "Линейная арматура для ВЛ / оттяжки",
+        "column": {
+          "id": "c7",
+          "label": "d3",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "6e35801ed9d54c7c73d483c0b21b8a1a4174251cb7e78daf986d641433cdd004",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 1030,
+      "fact_id": "O-15eeefb9db969cfcdb2068fc",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/297/content/tables/0/rows/23/cells/10",
+      "owner": "ОТМ-1-13-L-3.2-222,9",
+      "name": "H3",
+      "value": "-",
+      "unit": null,
+      "condition": null,
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "ba884f685e1502fef41e308023c2120dd8ae20acea32d457e483f3960327af5f",
+      "input_line": 192889,
+      "row_context": "row-79497d9356fb3e01d56c5773bd5b60e63e9ace0bd9ddc7aee47dc05476af729c",
+      "raw_context": "raw-01332db009db5f83069b8ed5ed0680901c6ae5f0d79839929193d4c888171832",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 23,
+        "column_index": 10,
+        "table_title": "Линейная арматура для ВЛ / оттяжки",
+        "column": {
+          "id": "c10",
+          "label": "H3",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "6e35801ed9d54c7c73d483c0b21b8a1a4174251cb7e78daf986d641433cdd004",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 1042,
+      "fact_id": "O-ed107ee5044a5632b62f8e9f",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/297/content/tables/0/rows/24/cells/7",
+      "owner": "ОТМ-1-13-L-4.1-222,9",
+      "name": "d3",
+      "value": "-",
+      "unit": null,
+      "condition": null,
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "848eae5919a415773690faeba6e2d661ff30ad961b625ebfe13db203735b35f1",
+      "input_line": 192901,
+      "row_context": "row-452047bbf7f6ad6a43da110cafcec34e889ef606663482aa935fe045406116c2",
+      "raw_context": "raw-0e5cca67c86f56409e00fa3bb56d5a9a0d0ca2bca953fdfd0cbe13fff1ce1030",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 24,
+        "column_index": 7,
+        "table_title": "Линейная арматура для ВЛ / оттяжки",
+        "column": {
+          "id": "c7",
+          "label": "d3",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "6e35801ed9d54c7c73d483c0b21b8a1a4174251cb7e78daf986d641433cdd004",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 1045,
+      "fact_id": "O-30cb403e0537d86369df67bb",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/297/content/tables/0/rows/24/cells/10",
+      "owner": "ОТМ-1-13-L-4.1-222,9",
+      "name": "H3",
+      "value": "-",
+      "unit": null,
+      "condition": null,
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "3409593e3fb91e48abf3e4603d9925a0f34e068f77a55a81972694866b6d9857",
+      "input_line": 192904,
+      "row_context": "row-452047bbf7f6ad6a43da110cafcec34e889ef606663482aa935fe045406116c2",
+      "raw_context": "raw-01332db009db5f83069b8ed5ed0680901c6ae5f0d79839929193d4c888171832",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 24,
+        "column_index": 10,
+        "table_title": "Линейная арматура для ВЛ / оттяжки",
+        "column": {
+          "id": "c10",
+          "label": "H3",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "6e35801ed9d54c7c73d483c0b21b8a1a4174251cb7e78daf986d641433cdd004",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 1057,
+      "fact_id": "O-bf2568f935c0983c31e8979a",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/297/content/tables/0/rows/25/cells/7",
+      "owner": "ОТМ-1-13-L-4.2-222,9",
+      "name": "d3",
+      "value": "-",
+      "unit": null,
+      "condition": null,
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "53f5652e76a7678e0fea58b5ee4a4c921ad6e157b28d9f921fb0a6cde7e5dcd5",
+      "input_line": 192916,
+      "row_context": "row-f3dfb4b3520f454c83c5bf2e07a3b8d56e84e28832676f08a37a9e9e4000a8e9",
+      "raw_context": "raw-0e5cca67c86f56409e00fa3bb56d5a9a0d0ca2bca953fdfd0cbe13fff1ce1030",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 25,
+        "column_index": 7,
+        "table_title": "Линейная арматура для ВЛ / оттяжки",
+        "column": {
+          "id": "c7",
+          "label": "d3",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "6e35801ed9d54c7c73d483c0b21b8a1a4174251cb7e78daf986d641433cdd004",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 1060,
+      "fact_id": "O-755aea203959c42300cca78d",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/297/content/tables/0/rows/25/cells/10",
+      "owner": "ОТМ-1-13-L-4.2-222,9",
+      "name": "H3",
+      "value": "-",
+      "unit": null,
+      "condition": null,
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "e8e7ffc50ca73ce218a48028018d2b37ae6f87ffc61180ff798bdffc3d9d16a8",
+      "input_line": 192919,
+      "row_context": "row-f3dfb4b3520f454c83c5bf2e07a3b8d56e84e28832676f08a37a9e9e4000a8e9",
+      "raw_context": "raw-01332db009db5f83069b8ed5ed0680901c6ae5f0d79839929193d4c888171832",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 25,
+        "column_index": 10,
+        "table_title": "Линейная арматура для ВЛ / оттяжки",
+        "column": {
+          "id": "c10",
+          "label": "H3",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "6e35801ed9d54c7c73d483c0b21b8a1a4174251cb7e78daf986d641433cdd004",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 1072,
+      "fact_id": "O-122c212e9a0cf2265529783c",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/297/content/tables/0/rows/26/cells/7",
+      "owner": "ОТМ-1-13-L-6-222,9",
+      "name": "d3",
+      "value": "-",
+      "unit": null,
+      "condition": null,
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "47df239ac7b47f572f4689ad55748d291522dd0ca00f495dec25d13cdae88ed6",
+      "input_line": 192931,
+      "row_context": "row-27e6eb2b285b7b1c5b026b11252fa0e6b12eb38106e3bdb4a15fc05d7a09693a",
+      "raw_context": "raw-0e5cca67c86f56409e00fa3bb56d5a9a0d0ca2bca953fdfd0cbe13fff1ce1030",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 26,
+        "column_index": 7,
+        "table_title": "Линейная арматура для ВЛ / оттяжки",
+        "column": {
+          "id": "c7",
+          "label": "d3",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "6e35801ed9d54c7c73d483c0b21b8a1a4174251cb7e78daf986d641433cdd004",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 1075,
+      "fact_id": "O-9a0a89fdfa2b4a93452126b3",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/297/content/tables/0/rows/26/cells/10",
+      "owner": "ОТМ-1-13-L-6-222,9",
+      "name": "H3",
+      "value": "-",
+      "unit": null,
+      "condition": null,
+      "physical_pages": [
+        298
+      ],
+      "input_fact_sha256": "efed0c7723b380d0393ad4112c626269df63ef4b770b38153c613faa4f87e56a",
+      "input_line": 192934,
+      "row_context": "row-27e6eb2b285b7b1c5b026b11252fa0e6b12eb38106e3bdb4a15fc05d7a09693a",
+      "raw_context": "raw-01332db009db5f83069b8ed5ed0680901c6ae5f0d79839929193d4c888171832",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 26,
+        "column_index": 10,
+        "table_title": "Линейная арматура для ВЛ / оттяжки",
+        "column": {
+          "id": "c10",
+          "label": "H3",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "6e35801ed9d54c7c73d483c0b21b8a1a4174251cb7e78daf986d641433cdd004",
+        "previously_accepted": true
+      }
+    }
+  ],
+  "owner_groups": [
+    {
+      "fact_indices": [
+        219,
+        862
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Ошибка Олега: значение соседнего d2=28 либо H2=35 ошибочно перенесено в d3/H3 для15строк группы13. В исходнике d3 и H3 остаются отдельными объединёнными ячейками с прочерком. Выбран существующий наш прочерк; исходные28/35 сохранены как отклонённые альтернативы.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        222,
+        865
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Ошибка Олега: значение соседнего d2=28 либо H2=35 ошибочно перенесено в d3/H3 для15строк группы13. В исходнике d3 и H3 остаются отдельными объединёнными ячейками с прочерком. Выбран существующий наш прочерк; исходные28/35 сохранены как отклонённые альтернативы.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        233,
+        877
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Ошибка Олега: значение соседнего d2=28 либо H2=35 ошибочно перенесено в d3/H3 для15строк группы13. В исходнике d3 и H3 остаются отдельными объединёнными ячейками с прочерком. Выбран существующий наш прочерк; исходные28/35 сохранены как отклонённые альтернативы.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        236,
+        880
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Ошибка Олега: значение соседнего d2=28 либо H2=35 ошибочно перенесено в d3/H3 для15строк группы13. В исходнике d3 и H3 остаются отдельными объединёнными ячейками с прочерком. Выбран существующий наш прочерк; исходные28/35 сохранены как отклонённые альтернативы.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        247,
+        892
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Ошибка Олега: значение соседнего d2=28 либо H2=35 ошибочно перенесено в d3/H3 для15строк группы13. В исходнике d3 и H3 остаются отдельными объединёнными ячейками с прочерком. Выбран существующий наш прочерк; исходные28/35 сохранены как отклонённые альтернативы.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        250,
+        895
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Ошибка Олега: значение соседнего d2=28 либо H2=35 ошибочно перенесено в d3/H3 для15строк группы13. В исходнике d3 и H3 остаются отдельными объединёнными ячейками с прочерком. Выбран существующий наш прочерк; исходные28/35 сохранены как отклонённые альтернативы.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        261,
+        907
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Ошибка Олега: значение соседнего d2=28 либо H2=35 ошибочно перенесено в d3/H3 для15строк группы13. В исходнике d3 и H3 остаются отдельными объединёнными ячейками с прочерком. Выбран существующий наш прочерк; исходные28/35 сохранены как отклонённые альтернативы.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        264,
+        910
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Ошибка Олега: значение соседнего d2=28 либо H2=35 ошибочно перенесено в d3/H3 для15строк группы13. В исходнике d3 и H3 остаются отдельными объединёнными ячейками с прочерком. Выбран существующий наш прочерк; исходные28/35 сохранены как отклонённые альтернативы.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        275,
+        922
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Ошибка Олега: значение соседнего d2=28 либо H2=35 ошибочно перенесено в d3/H3 для15строк группы13. В исходнике d3 и H3 остаются отдельными объединёнными ячейками с прочерком. Выбран существующий наш прочерк; исходные28/35 сохранены как отклонённые альтернативы.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        278,
+        925
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Ошибка Олега: значение соседнего d2=28 либо H2=35 ошибочно перенесено в d3/H3 для15строк группы13. В исходнике d3 и H3 остаются отдельными объединёнными ячейками с прочерком. Выбран существующий наш прочерк; исходные28/35 сохранены как отклонённые альтернативы.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        289,
+        937
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Ошибка Олега: значение соседнего d2=28 либо H2=35 ошибочно перенесено в d3/H3 для15строк группы13. В исходнике d3 и H3 остаются отдельными объединёнными ячейками с прочерком. Выбран существующий наш прочерк; исходные28/35 сохранены как отклонённые альтернативы.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        292,
+        940
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Ошибка Олега: значение соседнего d2=28 либо H2=35 ошибочно перенесено в d3/H3 для15строк группы13. В исходнике d3 и H3 остаются отдельными объединёнными ячейками с прочерком. Выбран существующий наш прочерк; исходные28/35 сохранены как отклонённые альтернативы.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        303,
+        952
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Ошибка Олега: значение соседнего d2=28 либо H2=35 ошибочно перенесено в d3/H3 для15строк группы13. В исходнике d3 и H3 остаются отдельными объединёнными ячейками с прочерком. Выбран существующий наш прочерк; исходные28/35 сохранены как отклонённые альтернативы.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        306,
+        955
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Ошибка Олега: значение соседнего d2=28 либо H2=35 ошибочно перенесено в d3/H3 для15строк группы13. В исходнике d3 и H3 остаются отдельными объединёнными ячейками с прочерком. Выбран существующий наш прочерк; исходные28/35 сохранены как отклонённые альтернативы.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        317,
+        967
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Ошибка Олега: значение соседнего d2=28 либо H2=35 ошибочно перенесено в d3/H3 для15строк группы13. В исходнике d3 и H3 остаются отдельными объединёнными ячейками с прочерком. Выбран существующий наш прочерк; исходные28/35 сохранены как отклонённые альтернативы.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        320,
+        970
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Ошибка Олега: значение соседнего d2=28 либо H2=35 ошибочно перенесено в d3/H3 для15строк группы13. В исходнике d3 и H3 остаются отдельными объединёнными ячейками с прочерком. Выбран существующий наш прочерк; исходные28/35 сохранены как отклонённые альтернативы.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        331,
+        982
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Ошибка Олега: значение соседнего d2=28 либо H2=35 ошибочно перенесено в d3/H3 для15строк группы13. В исходнике d3 и H3 остаются отдельными объединёнными ячейками с прочерком. Выбран существующий наш прочерк; исходные28/35 сохранены как отклонённые альтернативы.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        334,
+        985
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Ошибка Олега: значение соседнего d2=28 либо H2=35 ошибочно перенесено в d3/H3 для15строк группы13. В исходнике d3 и H3 остаются отдельными объединёнными ячейками с прочерком. Выбран существующий наш прочерк; исходные28/35 сохранены как отклонённые альтернативы.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        345,
+        997
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Ошибка Олега: значение соседнего d2=28 либо H2=35 ошибочно перенесено в d3/H3 для15строк группы13. В исходнике d3 и H3 остаются отдельными объединёнными ячейками с прочерком. Выбран существующий наш прочерк; исходные28/35 сохранены как отклонённые альтернативы.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        348,
+        1000
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Ошибка Олега: значение соседнего d2=28 либо H2=35 ошибочно перенесено в d3/H3 для15строк группы13. В исходнике d3 и H3 остаются отдельными объединёнными ячейками с прочерком. Выбран существующий наш прочерк; исходные28/35 сохранены как отклонённые альтернативы.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        359,
+        1012
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Ошибка Олега: значение соседнего d2=28 либо H2=35 ошибочно перенесено в d3/H3 для15строк группы13. В исходнике d3 и H3 остаются отдельными объединёнными ячейками с прочерком. Выбран существующий наш прочерк; исходные28/35 сохранены как отклонённые альтернативы.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        362,
+        1015
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Ошибка Олега: значение соседнего d2=28 либо H2=35 ошибочно перенесено в d3/H3 для15строк группы13. В исходнике d3 и H3 остаются отдельными объединёнными ячейками с прочерком. Выбран существующий наш прочерк; исходные28/35 сохранены как отклонённые альтернативы.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        373,
+        1027
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Ошибка Олега: значение соседнего d2=28 либо H2=35 ошибочно перенесено в d3/H3 для15строк группы13. В исходнике d3 и H3 остаются отдельными объединёнными ячейками с прочерком. Выбран существующий наш прочерк; исходные28/35 сохранены как отклонённые альтернативы.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        376,
+        1030
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Ошибка Олега: значение соседнего d2=28 либо H2=35 ошибочно перенесено в d3/H3 для15строк группы13. В исходнике d3 и H3 остаются отдельными объединёнными ячейками с прочерком. Выбран существующий наш прочерк; исходные28/35 сохранены как отклонённые альтернативы.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        387,
+        1042
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Ошибка Олега: значение соседнего d2=28 либо H2=35 ошибочно перенесено в d3/H3 для15строк группы13. В исходнике d3 и H3 остаются отдельными объединёнными ячейками с прочерком. Выбран существующий наш прочерк; исходные28/35 сохранены как отклонённые альтернативы.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        390,
+        1045
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Ошибка Олега: значение соседнего d2=28 либо H2=35 ошибочно перенесено в d3/H3 для15строк группы13. В исходнике d3 и H3 остаются отдельными объединёнными ячейками с прочерком. Выбран существующий наш прочерк; исходные28/35 сохранены как отклонённые альтернативы.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        401,
+        1057
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Ошибка Олега: значение соседнего d2=28 либо H2=35 ошибочно перенесено в d3/H3 для15строк группы13. В исходнике d3 и H3 остаются отдельными объединёнными ячейками с прочерком. Выбран существующий наш прочерк; исходные28/35 сохранены как отклонённые альтернативы.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        404,
+        1060
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Ошибка Олега: значение соседнего d2=28 либо H2=35 ошибочно перенесено в d3/H3 для15строк группы13. В исходнике d3 и H3 остаются отдельными объединёнными ячейками с прочерком. Выбран существующий наш прочерк; исходные28/35 сохранены как отклонённые альтернативы.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        415,
+        1072
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Ошибка Олега: значение соседнего d2=28 либо H2=35 ошибочно перенесено в d3/H3 для15строк группы13. В исходнике d3 и H3 остаются отдельными объединёнными ячейками с прочерком. Выбран существующий наш прочерк; исходные28/35 сохранены как отклонённые альтернативы.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        418,
+        1075
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Ошибка Олега: значение соседнего d2=28 либо H2=35 ошибочно перенесено в d3/H3 для15строк группы13. В исходнике d3 и H3 остаются отдельными объединёнными ячейками с прочерком. Выбран существующий наш прочерк; исходные28/35 сохранены как отклонённые альтернативы.",
+      "evidence_refs": [
+        0
+      ]
+    }
+  ],
+  "independent_final_review_complete": false
+}
