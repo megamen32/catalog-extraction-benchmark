@@ -1,0 +1,267 @@
+{
+  "schema_version": "catalogue-owner-merge-regression-evidence/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 243,
+  "input_fact_store_sha256": "05409d87f09123705fc1a0f21aa20727961dcf4351128d29497a0660978eec8d",
+  "input_ledger_sha256": "1d1fe979355d046a91ac2f619ed52e174a3ffe563fa7eba4ff7625bd91b19cb8",
+  "work_packet_sha256": "735d7d90e789904811641ba4d5553140d8e55d9b1d0058667edd0326a428cc00",
+  "work_sha256": "e46ec5064f41996e5b4ffa6ba5e6c4419241a41040827576205959f9eb074081",
+  "actual_merge_producer": {
+    "role": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "model": "gpt-6.1-sol",
+    "runtime": "Codex native differences-only merge",
+    "program_version": "1.5.26"
+  },
+  "source_evidence": [
+    {
+      "bbox": [
+        0.08,
+        0.07,
+        0.93,
+        0.94
+      ],
+      "observation": "RG23fullsourcecodeswithspaceM, lastRG6-400withoutM. DcapitalboreseparatefromwirediameterandB/H/L, fixed6figurethickness. BlankwireandDlastRG3-650Mmustnotinherit27.5–30.6/30.0fromrowabove; enlargedcropconfirmsphysicaldivider. B30isasharedcellcontinuingthroughlastRG6-400row, OlegemptyBincorrect. TUownfamilycontext."
+    }
+  ],
+  "original_typed_facts": [
+    {
+      "fact_index": 131,
+      "fact_id": "L-68e2c7657dcad3ca15619f87",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:69783/raw",
+      "owner": "РГ-3-650 М",
+      "name": "Диаметр проводов, мм",
+      "value": "27,5 – 30,6",
+      "unit": "мм",
+      "condition": "",
+      "physical_pages": [
+        243
+      ],
+      "input_fact_sha256": "7e95307bba3e91a89d4943eec7979e2ea2fa3ccadf982386c3f11ec299e1b1f1",
+      "input_line": 79158,
+      "raw_context": "raw-6e9a03259b20a2a00ae3b7767466a1489e331e3eba6e26560d1822f05b844a2a",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-37af45ee27082846bd5aa198",
+        "window_id": "W-c3e2f6ce4847d69d41c9eb79",
+        "group_id": "G-7bc4ba4200db08adcefcab3b",
+        "product_id": "P-92dd65a7f6a5d828ce1e61ae",
+        "group_title": "Распорки дистанционные глухие типа РГ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 289,
+      "fact_id": "O-e26391a563015411eb98a2e5",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/242/content/tables/0/rows/18/cells/1",
+      "owner": "РГ-3-650 М",
+      "name": "Диаметр проводов",
+      "value": null,
+      "unit": "мм",
+      "condition": null,
+      "physical_pages": [
+        243
+      ],
+      "input_fact_sha256": "b5b249ea59ac32a8605e32b429d70ee06870934798dc6654253779ad61d85260",
+      "input_line": 188125,
+      "row_context": "row-ad638d28ece691eb68e4793a2357ef877b9a8a80d6c3e18299ed5e527ae1388d",
+      "raw_context": "raw-a47f083ad5cdf8ea1e73e5874dc2f88fd7f58b486e6fae376074cd894644e9c5",
+      "metadata": {
+        "raw_value_type": "NoneType",
+        "table_index": 0,
+        "row_index": 18,
+        "column_index": 1,
+        "table_title": "Распорки дистанционные глухие типа РГ: диаметр проводов, размеры и масса",
+        "column": {
+          "id": "c2",
+          "label": "Диаметр проводов",
+          "unit": "мм",
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "daac075775276a84053db72905e1e673f8381e56883909c27763035318e23589",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 134,
+      "fact_id": "L-92efaab973374a36f287d699",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:69786/raw",
+      "owner": "РГ-3-650 М",
+      "name": "D",
+      "value": "30,0",
+      "unit": "мм",
+      "condition": "",
+      "physical_pages": [
+        243
+      ],
+      "input_fact_sha256": "2a096de67e71ecbad176169a5a11e94255a3432812e2178fcb61352d7dfc2973",
+      "input_line": 79161,
+      "raw_context": "raw-1ac7ce9d5ee4b31b8dfd02fa8b676cd538666c6cd4e5ca09dddd953dc8440fcb",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-9bbe374f921e81557956fef1",
+        "window_id": "W-c3e2f6ce4847d69d41c9eb79",
+        "group_id": "G-7bc4ba4200db08adcefcab3b",
+        "product_id": "P-92dd65a7f6a5d828ce1e61ae",
+        "group_title": "Распорки дистанционные глухие типа РГ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 292,
+      "fact_id": "O-5fbf8d5d692055b3fbe41f83",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/242/content/tables/0/rows/18/cells/4",
+      "owner": "РГ-3-650 М",
+      "name": "D",
+      "value": null,
+      "unit": "мм",
+      "condition": null,
+      "physical_pages": [
+        243
+      ],
+      "input_fact_sha256": "4dea834d80cb7770a1bb1b755f22f946f24ff5a9acf49cecbdad7333ab6839b9",
+      "input_line": 188128,
+      "row_context": "row-ad638d28ece691eb68e4793a2357ef877b9a8a80d6c3e18299ed5e527ae1388d",
+      "raw_context": "raw-54d7d1e05e29be7d168a2795c1948d29bf461d66961f45e32a5d8bd3b7025a28",
+      "metadata": {
+        "raw_value_type": "NoneType",
+        "table_index": 0,
+        "row_index": 18,
+        "column_index": 4,
+        "table_title": "Распорки дистанционные глухие типа РГ: диаметр проводов, размеры и масса",
+        "column": {
+          "id": "c5",
+          "label": "D",
+          "unit": "мм",
+          "group": "Размеры, мм",
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "daac075775276a84053db72905e1e673f8381e56883909c27763035318e23589",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 156,
+      "fact_id": "L-3c04951effc1b957f00c8ecb",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:69808/raw",
+      "owner": "РГ-6-400",
+      "name": "В",
+      "value": "",
+      "unit": "мм",
+      "condition": "",
+      "physical_pages": [
+        243
+      ],
+      "input_fact_sha256": "aa26deb12026918dc7549c3fe9349baba3682d905abcaf000ec3e126caff44ed",
+      "input_line": 79183,
+      "raw_context": "raw-d753cb82aef45a476e6dcd7f64a658affa8c7a3e96123b9f4c3e406f951cdaa7",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-70414bb0ee3357431f84ee63",
+        "window_id": "W-c3e2f6ce4847d69d41c9eb79",
+        "group_id": "G-7bc4ba4200db08adcefcab3b",
+        "product_id": "P-1fab03f8e194d18827cc4cf3",
+        "group_title": "Распорки дистанционные глухие типа РГ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 318,
+      "fact_id": "O-d7b170d744e2d25e915bb88e",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/242/content/tables/0/rows/22/cells/2",
+      "owner": "РГ-6-400",
+      "name": "В",
+      "value": "30",
+      "unit": "мм",
+      "condition": null,
+      "physical_pages": [
+        243
+      ],
+      "input_fact_sha256": "134ef472479d1b1367ea44e3bfa46c6ad5c9a61ef01fa33a410e238dbbc68d2c",
+      "input_line": 188154,
+      "row_context": "row-aab1969e54caf35a01fafedef786c39e5e28e6952ed0e43accce904bf7035df1",
+      "raw_context": "raw-ea24d19961c40b6125caf0fe6346e9724708f06d5f0ce20facb7c9e0105c7116",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 22,
+        "column_index": 2,
+        "table_title": "Распорки дистанционные глухие типа РГ: диаметр проводов, размеры и масса",
+        "column": {
+          "id": "c3",
+          "label": "В",
+          "unit": "мм",
+          "group": "Размеры, мм",
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "daac075775276a84053db72905e1e673f8381e56883909c27763035318e23589",
+        "previously_accepted": true
+      }
+    }
+  ],
+  "owner_groups": [
+    {
+      "fact_indices": [
+        131,
+        289
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Одна характеристика полной марки и своей физической строки/столбца; название с единицей/условием в шапке и отдельное поле обозначают одно свойство. Дочерние столбцы, разные индексы размеров и отдельные исполнения не смешивались. Выбрано существующее наше структурированное значение, исходные альтернативы Олега и типы сохранены.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        134,
+        292
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Одна характеристика полной марки и своей физической строки/столбца; название с единицей/условием в шапке и отдельное поле обозначают одно свойство. Дочерние столбцы, разные индексы размеров и отдельные исполнения не смешивались. Выбрано существующее наше структурированное значение, исходные альтернативы Олега и типы сохранены.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        156,
+        318
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Одна характеристика полной марки и своей физической строки/столбца; название с единицей/условием в шапке и отдельное поле обозначают одно свойство. Дочерние столбцы, разные индексы размеров и отдельные исполнения не смешивались. Выбрано существующее наше структурированное значение, исходные альтернативы Олега и типы сохранены.",
+      "evidence_refs": [
+        0
+      ]
+    }
+  ],
+  "independent_final_review_complete": false
+}

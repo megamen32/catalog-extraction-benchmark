@@ -1,0 +1,25 @@
+{
+  "id": "armature243-different-rowspan-boundaries-merge-20261015",
+  "status": "pending_adjudication",
+  "priority": "high",
+  "category": "semantic_scope",
+  "title": "Разные границы объединений перепутаны с пустыми ячейками",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 243
+  },
+  "review_basis": "Codex inspected native original and enlarged final table block; wire/D cells RГ3-650M separatedblank, B30 continues down through lastRG6-400. Owner merge only, final oracle review deferred.",
+  "artifacts": [
+    {
+      "path": "objects/2ef2ee07dee3fb46d00e6abfe8576bbed416b1b610e7d82aa110b6d83d4c69e9.json",
+      "sha256": "2ef2ee07dee3fb46d00e6abfe8576bbed416b1b610e7d82aa110b6d83d4c69e9",
+      "bytes": 11001,
+      "role": "merge-adjudicator",
+      "program_version": "1.5.26",
+      "model": "gpt-6.1-sol"
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "Three Oleg conflicts: RG3-650M wire andD must be sourceblank, not copied27.5–30.6/30.0; RG6-400 B must inherit existing shared30, not empty. Each column has its own horizontal boundaries; do not infer rowspan from adjacent column."
+}

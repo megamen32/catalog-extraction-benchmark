@@ -1,0 +1,111 @@
+{
+  "schema_version": "catalogue-owner-merge-regression-evidence/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 244,
+  "input_fact_store_sha256": "05409d87f09123705fc1a0f21aa20727961dcf4351128d29497a0660978eec8d",
+  "input_ledger_sha256": "1d1fe979355d046a91ac2f619ed52e174a3ffe563fa7eba4ff7625bd91b19cb8",
+  "work_packet_sha256": "0fd547633bf9bc8af62c4f2d31299ddded8cd93a63eca4bfc3ddd614ce3a8a24",
+  "work_sha256": "08c11407e9970bbed40fb01fa4a75aeaca839e7b8a23501dc66b3b731c3ff3ee",
+  "actual_merge_producer": {
+    "role": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "model": "gpt-6.1-sol",
+    "runtime": "Codex native differences-only merge",
+    "program_version": "1.5.26"
+  },
+  "source_evidence": [
+    {
+      "bbox": [
+        0.08,
+        0.07,
+        0.93,
+        0.94
+      ],
+      "observation": "RGU32sourcephysicalrows. Same2/3/4-850Mnames in figure1and2 are distinct executions, matched byfullmarkANDexplicitfigurecolumn. All values agree exceptlastfigure2RGU4-970M d: enlargedbottomcrop shows horizontalrule below36 at priorrowboundary, LASTdcell separatelyEMPTY. Oleg36copiedfromprecedingrow is rejected, existingoursNoneblank retained. SharedB30includesRGU5-400/600, B33.5onlyfigure2; H44except65twoRGU5rows. Sourcefigure1numeric6notletterb."
+    }
+  ],
+  "original_typed_facts": [
+    {
+      "fact_index": 253,
+      "fact_id": "L-c61a32dd3f47555cff9d92b5",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:70034/raw",
+      "owner": "РГУ-4-970М",
+      "name": "d",
+      "value": "36",
+      "unit": "мм",
+      "condition": "",
+      "physical_pages": [
+        244
+      ],
+      "input_fact_sha256": "9e4902b09c656b7bcfa6f9fc200a2d310ba25f500aa0ff17b212a8053d77759f",
+      "input_line": 79409,
+      "raw_context": "raw-1bee4ed33e24a4fe2b909ca7e93488bd7e45a81bbea49d8a723587953eed59f7",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-29161a6bf4e5cd3a6d6085be",
+        "window_id": "W-a5640f6c7599c477f8b6a1c9",
+        "group_id": "G-835b30917ddc075b09751514",
+        "product_id": "P-b711004f2dae7d8cb3ba4b37",
+        "group_title": "Распорки дистанционные глухие типа РГУ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 512,
+      "fact_id": "O-e33bc084cfb50ca7ae7eaf09",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/243/content/tables/0/rows/31/cells/5",
+      "owner": "РГУ-4-970М",
+      "name": "d",
+      "value": null,
+      "unit": "мм",
+      "condition": null,
+      "physical_pages": [
+        244
+      ],
+      "input_fact_sha256": "3bb8995647def9e2d3fa79236c2ccfd6d4ded6b63adaaab052efbc813500f899",
+      "input_line": 188421,
+      "row_context": "row-e3844c1d3deb643a3996d1c983367af215033eaf96725f73b0ebda1797c30194",
+      "raw_context": "raw-54d7d1e05e29be7d168a2795c1948d29bf461d66961f45e32a5d8bd3b7025a28",
+      "metadata": {
+        "raw_value_type": "NoneType",
+        "table_index": 0,
+        "row_index": 31,
+        "column_index": 5,
+        "table_title": "Сортамент распорок типа РГУ",
+        "column": {
+          "id": "c5",
+          "label": "d",
+          "unit": "мм",
+          "group": "Размеры",
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "7d34af99b6121a0c4d086f6bafe7c2301fa0692b25e941d753a28ec11d1dd8c7",
+        "previously_accepted": true
+      }
+    }
+  ],
+  "owner_groups": [
+    {
+      "fact_indices": [
+        253,
+        512
+      ],
+      "relation": "same_fact",
+      "keep": "ours",
+      "reason": "Увеличение нижней правой части исходной таблицы: под36 есть горизонтальная граница, последняя d-ячейка РГУ-4-970М отдельно пуста. Выбрано существующее наше None/blank; Олегово36 — перенос из предыдущей строки, сохранён только как отклонённая альтернатива.",
+      "evidence_refs": [
+        0
+      ]
+    }
+  ],
+  "independent_final_review_complete": false
+}

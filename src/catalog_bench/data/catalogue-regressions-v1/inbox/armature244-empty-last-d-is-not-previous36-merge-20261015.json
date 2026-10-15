@@ -1,0 +1,25 @@
+{
+  "id": "armature244-empty-last-d-is-not-previous36-merge-20261015",
+  "status": "pending_adjudication",
+  "priority": "high",
+  "category": "semantic_scope",
+  "title": "Значение36 ошибочно перенесено в отдельную пустую последнюю ячейку d",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 244
+  },
+  "review_basis": "Codex enlarged original lower-right table. Last d cell separated by horizontal rule is blank. Same names in figure1/2 are distinct executions. Owner merge, final independent review deferred.",
+  "artifacts": [
+    {
+      "path": "objects/4e17e4f4510d379cdb846477232868152fa137ca2a0f72f8d6200dc911caabb2.json",
+      "sha256": "4e17e4f4510d379cdb846477232868152fa137ca2a0f72f8d6200dc911caabb2",
+      "bytes": 4443,
+      "role": "merge-adjudicator",
+      "program_version": "1.5.26",
+      "model": "gpt-6.1-sol"
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "RGU4-970M figure2 last d cell is separately blank;36belongs topreviousRGU4-850M row, not a rowspan. Preserve oursNone/blank and rejectedOleg36withsourcepointers; do not conflate repeated names across figure1/2."
+}
