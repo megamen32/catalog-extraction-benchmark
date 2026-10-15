@@ -1,0 +1,25 @@
+{
+  "id": "isolators044-assembly-topology-unresolved-merge-20261015",
+  "status": "pending_adjudication",
+  "priority": "high",
+  "category": "semantic_geometry",
+  "title": "Две сборки: элементы ошибочно названы видами",
+  "source": {
+    "filename": "Katalog-IZOLJaTORY.pdf",
+    "sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+    "physical_page": 44
+  },
+  "review_basis": "Root personally viewed retained originals to settle remaining semantic/drawing differences; author merge selects existing typed values only. Final independent oracle review deferred. Frozen exact agreements reused, no new model benchmark.",
+  "artifacts": [
+    {
+      "path": "objects/579a9702e1724bd64c91fd5e17c7c6c54c571df987003a7c3f7db1cd3c93a910.json",
+      "sha256": "579a9702e1724bd64c91fd5e17c7c6c54c571df987003a7c3f7db1cd3c93a910",
+      "bytes": 271914,
+      "role": "merge-adjudicator",
+      "program_version": "1.5.26",
+      "model": "native Codex gpt-6.1-sol"
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "Upper/lower members of each assembly are not two projections/poses. Oleg retains captions only, no complete replacement dimensions: keep precise uncertainty and original alternatives, not a fabricated replacement."
+}

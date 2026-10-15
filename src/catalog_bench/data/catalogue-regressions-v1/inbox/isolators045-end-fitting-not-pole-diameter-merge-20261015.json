@@ -1,0 +1,25 @@
+{
+  "id": "isolators045-end-fitting-not-pole-diameter-merge-20261015",
+  "status": "pending_adjudication",
+  "priority": "high",
+  "category": "dimension_ownership",
+  "title": "Ø33.3 — концевое соединение, не диаметр стойки",
+  "source": {
+    "filename": "Katalog-IZOLJaTORY.pdf",
+    "sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+    "physical_page": 45
+  },
+  "review_basis": "Root personally viewed retained originals to settle remaining semantic/drawing differences; author merge selects existing typed values only. Final independent oracle review deferred. Frozen exact agreements reused, no new model benchmark.",
+  "artifacts": [
+    {
+      "path": "objects/eab8fa3e7b6d66c3a95a3102251a52a909704110f4c2d2631d3c9b678d6cf814.json",
+      "sha256": "eab8fa3e7b6d66c3a95a3102251a52a909704110f4c2d2631d3c9b678d6cf814",
+      "bytes": 229099,
+      "role": "merge-adjudicator",
+      "program_version": "1.5.26",
+      "model": "native Codex gpt-6.1-sol"
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "Source model suffix Zh490 is pole diameter context;Ø33.3 belongs to line-end fitting. Select retained Oleg source dimension records; do not call33.3 pole diameter."
+}
