@@ -1,0 +1,25 @@
+{
+  "id": "armature311-repeated-section-voltage-and-wire-count-scope-merge-20261015",
+  "status": "pending_adjudication",
+  "priority": "high",
+  "category": "semantic_scope",
+  "title": "Одинаковые сечения при разных напряжениях и числе проволок",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 311
+  },
+  "review_basis": "Native Codex inspected retained source and same-page contexts; owner merge only, final independent oracle audit deferred. No new extraction/benchmark or frozen score change.",
+  "artifacts": [
+    {
+      "path": "objects/6fb436fd392d97f6e8f21539da269a1617ed414d155a2bfd6c8e25a0e508747e.json",
+      "sha256": "6fb436fd392d97f6e8f21539da269a1617ed414d155a2bfd6c8e25a0e508747e",
+      "bytes": 614730,
+      "role": "merge-adjudicator",
+      "program_version": "1.5.26",
+      "model": "gpt-6.1-sol"
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "Do not merge SIP3 20kV and35kV rows by repeated1x35..1x240 labels; distinguish95mm2 with7/19wires using source row evidence. Thickness20/35kV and externaldiameter20/35kV are distinct parent headers. Preserve typed alternatives and explicit source applicability."
+}

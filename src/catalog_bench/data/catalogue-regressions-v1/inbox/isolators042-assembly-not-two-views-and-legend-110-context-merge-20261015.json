@@ -1,0 +1,25 @@
+{
+  "id": "isolators042-assembly-not-two-views-and-legend-110-context-merge-20261015",
+  "status": "pending_adjudication",
+  "priority": "high",
+  "category": "semantic_scope",
+  "title": "Одна сборка35кВ ошибочно названа двумя видами",
+  "source": {
+    "filename": "Katalog-IZOLJaTORY.pdf",
+    "sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+    "physical_page": 42
+  },
+  "review_basis": "Native Codex inspected retained source and selected existing typed values; independent oracle audit deferred; no new extraction/benchmark or frozen score change.",
+  "artifacts": [
+    {
+      "path": "objects/67b7aafd3700cf6072418f8d73682df3c67f3317bed8d8bb1b33fc44ad133c1d.json",
+      "sha256": "67b7aafd3700cf6072418f8d73682df3c67f3317bed8d8bb1b33fc44ad133c1d",
+      "bytes": 251331,
+      "role": "merge-adjudicator",
+      "program_version": "1.5.26",
+      "model": "gpt-6.1-sol"
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "Distinct tie and lower crossarm belong to one assembly, not two views. Source legend itself includes110kV examples on35kV page: retain them as supporting documentation, not extra catalogue offers or guessed35 replacements."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "isolators037-pollution-class-roman-ii-not-lowercase-ll-merge-20261015",
+  "status": "pending_adjudication",
+  "priority": "high",
+  "category": "semantic_scope",
+  "title": "Класс загрязненияII ошибочно записан ll",
+  "source": {
+    "filename": "Katalog-IZOLJaTORY.pdf",
+    "sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+    "physical_page": 37
+  },
+  "review_basis": "Native Codex inspected retained source and selected existing typed values; independent oracle audit deferred; no new extraction/benchmark or frozen score change.",
+  "artifacts": [
+    {
+      "path": "objects/7c0f88965ba3c483da2f528a7127fc50aa426853033cd793a727b6276d67dd59.json",
+      "sha256": "7c0f88965ba3c483da2f528a7127fc50aa426853033cd793a727b6276d67dd59",
+      "bytes": 192279,
+      "role": "merge-adjudicator",
+      "program_version": "1.5.26",
+      "model": "gpt-6.1-sol"
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "Pollution class is RomanII, not lowercase Latinll; choose existing OlegII; keep typed source alternatives."
+}
