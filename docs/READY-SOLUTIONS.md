@@ -2,7 +2,7 @@
 
 [The researched list of 24 options](https://github.com/megamen32/catalog-to-json/blob/main/docs/READY-PARSERS.md) includes complete local pipelines, hosted document processors, and existing agent MCP/skill packages. The two independent researchers checked upstream sources on 2026-10-12. Catalogue engineering accuracy is established separately by this benchmark.
 
-[Скачать и установить все измеренные инструменты](PRODUCTS-RU.md) · [Общий рейтинг с отдельными ссылками на продукты и манифесты](TOOL-LEADERBOARD-RU.md)
+[Скачать и установить все измеренные инструменты](PRODUCTS-RU.md) · [Общий рейтинг парсеров и catalog-to-json с отдельными ссылками на продукты и манифесты](TOOL-LEADERBOARD-RU.md)
 
 ## Completed direct-parser experiment
 

@@ -13,7 +13,7 @@ Compare PDF catalogue parsers against independently reviewed engineering facts.
 
 **[Единая история всех испытаний: версии, три раунда, разброс, время и параллельные оценки](docs/EXPERIMENT-HISTORY-RU.md)** · [JSON-сводка](examples/experiment-history.json)
 
-**[Общий рейтинг инструментов, включая Catalog Vision Backend с GLM и MiniMax](docs/TOOL-LEADERBOARD-RU.md)** — одинаковые 15 страниц и один оценщик для всех; наш агент в этом рейтинге не участвует.
+**[Общий рейтинг: catalog-to-json, Catalog Vision Backend и парсеры](docs/TOOL-LEADERBOARD-RU.md)** — одинаковые 15 страниц и один оценщик для всех; catalog-to-json включён с фактически испытанными версиями и моделями.
 
 [Скачать и установить инструменты из рейтинга](docs/PRODUCTS-RU.md): ссылки на продукты отдельно от манифестов результатов. Catalog Vision Backend — приватное решение, доступ по запросу; планируем предоставлять бесплатно.
 

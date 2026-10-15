@@ -1,0 +1,1042 @@
+{
+  "schema_version": "1.0",
+  "case_id": "catalog-1-page-026",
+  "metrics": {
+    "cells_literal": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "cells_numeric_equivalent": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "blank_cells": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "merged_cells": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "header_assertions": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "figure_labels": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "forbidden_label_absence": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    }
+  },
+  "structure": {
+    "expected_tables": 0,
+    "observed_tables": 2,
+    "extra_tables": null,
+    "tables": [],
+    "table_shape_scored": false
+  },
+  "drawing_assertions": {
+    "correct": 0,
+    "expected": 0,
+    "percent": null,
+    "checks": [],
+    "full_drawing_accuracy": false,
+    "method": "frozen scoped deterministic relation/claim assertions; unsupported wording is missing, never inferred"
+  },
+  "all_verified_checks_passed": false,
+  "coverage": {
+    "full_page_ground_truth": false,
+    "text_blocks_scored": false,
+    "diagram_relationships_scored": false,
+    "selected_drawing_assertions": 0,
+    "full_drawing_ground_truth": false,
+    "header_assertions": 0,
+    "figure_label_assertions": 0,
+    "forbidden_declared_label_assertions": 0,
+    "all_invented_labels_scored": false
+  },
+  "differences": [],
+  "engineering_facts": {
+    "correct": 14,
+    "expected": 15,
+    "percent": 93.33,
+    "statuses": {
+      "passed": 14,
+      "missing": 1
+    },
+    "checks": [
+      {
+        "id": "selected-01",
+        "expected": {
+          "location": "top table",
+          "entity": "ОПН-П-35/38/10/0,8-III УХЛ1",
+          "parameter": "наибольшее длительно допустимое рабочее напряжение",
+          "value": "38,0",
+          "unit": "кВ"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t26_1",
+            "row_index": 0,
+            "column_index": 1,
+            "column": {
+              "id": "c2",
+              "label": "Наибольшее длительно допустимое рабочее напряжение ограничителя",
+              "unit": "кВ",
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c2",
+              "value": "38,0",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОПН-П-35/38/10/0,8-III УХЛ1"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": false
+        }
+      },
+      {
+        "id": "selected-02",
+        "expected": {
+          "location": "top table",
+          "entity": "ОПН-П-35/38/10/0,8-III УХЛ1",
+          "parameter": "номинальное напряжение, не менее",
+          "value": "47,5",
+          "unit": "кВ"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t26_1",
+            "row_index": 0,
+            "column_index": 2,
+            "column": {
+              "id": "c3",
+              "label": "Номинальное напряжение ограничителя",
+              "unit": "кВ",
+              "group": null,
+              "qualifier": "не менее"
+            },
+            "cell": {
+              "column_id": "c3",
+              "value": "47,5",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОПН-П-35/38/10/0,8-III УХЛ1"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": false
+        }
+      },
+      {
+        "id": "selected-03",
+        "expected": {
+          "location": "top table",
+          "entity": "ОПН-П-35/38/10/0,8-III УХЛ1",
+          "parameter": "остающееся при 5 кА 8/20",
+          "value": "112,6",
+          "unit": "кВ"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t26_1",
+            "row_index": 0,
+            "column_index": 3,
+            "column": {
+              "id": "c4",
+              "label": "Остающееся напряжение (кВ), при грозовых импульсах тока длит. 8/20 величиной: 5 кА",
+              "unit": "кВ",
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c4",
+              "value": "112,6",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОПН-П-35/38/10/0,8-III УХЛ1"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": true
+        }
+      },
+      {
+        "id": "selected-04",
+        "expected": {
+          "location": "top table",
+          "entity": "ОПН-П-35/38/10/0,8-III УХЛ1",
+          "parameter": "остающееся при 125 А 30/60",
+          "value": "87,3",
+          "unit": "кВ"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t26_1",
+            "row_index": 0,
+            "column_index": 6,
+            "column": {
+              "id": "c7",
+              "label": "Остающееся напряжение (кВ), при следующих значениях коммутационных токов длительностью 30/60 мкс: 125 А",
+              "unit": "кВ",
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c7",
+              "value": "87,3",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОПН-П-35/38/10/0,8-III УХЛ1"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": true
+        }
+      },
+      {
+        "id": "selected-05",
+        "expected": {
+          "location": "top table",
+          "entity": "ОПН-П-35/38/10/0,8-III УХЛ1",
+          "parameter": "остающееся при 1000 А 30/60",
+          "value": "-",
+          "unit": "кВ"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t26_1",
+            "row_index": 0,
+            "column_index": 9,
+            "column": {
+              "id": "c10",
+              "label": "Остающееся напряжение (кВ), при следующих значениях коммутационных токов длительностью 30/60 мкс: 1000 А",
+              "unit": "кВ",
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c10",
+              "value": "-",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОПН-П-35/38/10/0,8-III УХЛ1"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": true
+        }
+      },
+      {
+        "id": "selected-06",
+        "expected": {
+          "location": "top table",
+          "entity": "ОПН-П-35/42/10/0,8-IV УХЛ1",
+          "parameter": "остающееся при 20 кА 8/20",
+          "value": "144,1",
+          "unit": "кВ"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t26_1",
+            "row_index": 5,
+            "column_index": 5,
+            "column": {
+              "id": "c6",
+              "label": "Остающееся напряжение (кВ), при грозовых импульсах тока длит. 8/20 величиной: 20 кА",
+              "unit": "кВ",
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c6",
+              "value": "144,1",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОПН-П-35/42/10/0,8-IV УХЛ1"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": true
+        }
+      },
+      {
+        "id": "selected-07",
+        "expected": {
+          "location": "top table",
+          "entity": "все 6 обозначений",
+          "parameter": "тепловой заряд, не менее",
+          "value": "1,1",
+          "unit": "Кл"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t26_1",
+            "row_index": 0,
+            "column_index": 14,
+            "column": {
+              "id": "c15",
+              "label": "Тепловой заряд",
+              "unit": "Кл",
+              "group": null,
+              "qualifier": "не менее"
+            },
+            "cell": {
+              "column_id": "c15",
+              "value": "1,1",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОПН-П-35/38/10/0,8-III УХЛ1"
+            ]
+          },
+          {
+            "table_index": 0,
+            "table_id": "t26_1",
+            "row_index": 1,
+            "column_index": 14,
+            "column": {
+              "id": "c15",
+              "label": "Тепловой заряд",
+              "unit": "Кл",
+              "group": null,
+              "qualifier": "не менее"
+            },
+            "cell": {
+              "column_id": "c15",
+              "value": "1,1",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОПН-П-35/38/10/0,8-IV УХЛ1"
+            ]
+          },
+          {
+            "table_index": 0,
+            "table_id": "t26_1",
+            "row_index": 2,
+            "column_index": 14,
+            "column": {
+              "id": "c15",
+              "label": "Тепловой заряд",
+              "unit": "Кл",
+              "group": null,
+              "qualifier": "не менее"
+            },
+            "cell": {
+              "column_id": "c15",
+              "value": "1,1",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОПН-П-35/40,5/10/0,8-III УХЛ1"
+            ]
+          },
+          {
+            "table_index": 0,
+            "table_id": "t26_1",
+            "row_index": 3,
+            "column_index": 14,
+            "column": {
+              "id": "c15",
+              "label": "Тепловой заряд",
+              "unit": "Кл",
+              "group": null,
+              "qualifier": "не менее"
+            },
+            "cell": {
+              "column_id": "c15",
+              "value": "1,1",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОПН-П-35/40,5/10/0,8-IV УХЛ1"
+            ]
+          },
+          {
+            "table_index": 0,
+            "table_id": "t26_1",
+            "row_index": 4,
+            "column_index": 14,
+            "column": {
+              "id": "c15",
+              "label": "Тепловой заряд",
+              "unit": "Кл",
+              "group": null,
+              "qualifier": "не менее"
+            },
+            "cell": {
+              "column_id": "c15",
+              "value": "1,1",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОПН-П-35/42/10/0,8-III УХЛ1"
+            ]
+          },
+          {
+            "table_index": 0,
+            "table_id": "t26_1",
+            "row_index": 5,
+            "column_index": 14,
+            "column": {
+              "id": "c15",
+              "label": "Тепловой заряд",
+              "unit": "Кл",
+              "group": null,
+              "qualifier": "не менее"
+            },
+            "cell": {
+              "column_id": "c15",
+              "value": "1,1",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОПН-П-35/42/10/0,8-IV УХЛ1"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": false
+        }
+      },
+      {
+        "id": "selected-08",
+        "expected": {
+          "location": "top table",
+          "entity": "все 6 обозначений",
+          "parameter": "тепловая энергия, не менее",
+          "value": "-",
+          "unit": "кДж/кВ"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t26_1",
+            "row_index": 0,
+            "column_index": 15,
+            "column": {
+              "id": "c16",
+              "label": "Тепловая энергия",
+              "unit": "кДж/кВ",
+              "group": null,
+              "qualifier": "не менее"
+            },
+            "cell": {
+              "column_id": "c16",
+              "value": "-",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОПН-П-35/38/10/0,8-III УХЛ1"
+            ]
+          },
+          {
+            "table_index": 0,
+            "table_id": "t26_1",
+            "row_index": 1,
+            "column_index": 15,
+            "column": {
+              "id": "c16",
+              "label": "Тепловая энергия",
+              "unit": "кДж/кВ",
+              "group": null,
+              "qualifier": "не менее"
+            },
+            "cell": {
+              "column_id": "c16",
+              "value": "-",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОПН-П-35/38/10/0,8-IV УХЛ1"
+            ]
+          },
+          {
+            "table_index": 0,
+            "table_id": "t26_1",
+            "row_index": 2,
+            "column_index": 15,
+            "column": {
+              "id": "c16",
+              "label": "Тепловая энергия",
+              "unit": "кДж/кВ",
+              "group": null,
+              "qualifier": "не менее"
+            },
+            "cell": {
+              "column_id": "c16",
+              "value": "-",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОПН-П-35/40,5/10/0,8-III УХЛ1"
+            ]
+          },
+          {
+            "table_index": 0,
+            "table_id": "t26_1",
+            "row_index": 3,
+            "column_index": 15,
+            "column": {
+              "id": "c16",
+              "label": "Тепловая энергия",
+              "unit": "кДж/кВ",
+              "group": null,
+              "qualifier": "не менее"
+            },
+            "cell": {
+              "column_id": "c16",
+              "value": "-",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОПН-П-35/40,5/10/0,8-IV УХЛ1"
+            ]
+          },
+          {
+            "table_index": 0,
+            "table_id": "t26_1",
+            "row_index": 4,
+            "column_index": 15,
+            "column": {
+              "id": "c16",
+              "label": "Тепловая энергия",
+              "unit": "кДж/кВ",
+              "group": null,
+              "qualifier": "не менее"
+            },
+            "cell": {
+              "column_id": "c16",
+              "value": "-",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОПН-П-35/42/10/0,8-III УХЛ1"
+            ]
+          },
+          {
+            "table_index": 0,
+            "table_id": "t26_1",
+            "row_index": 5,
+            "column_index": 15,
+            "column": {
+              "id": "c16",
+              "label": "Тепловая энергия",
+              "unit": "кДж/кВ",
+              "group": null,
+              "qualifier": "не менее"
+            },
+            "cell": {
+              "column_id": "c16",
+              "value": "-",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОПН-П-35/42/10/0,8-IV УХЛ1"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": false
+        }
+      },
+      {
+        "id": "selected-09",
+        "expected": {
+          "location": "lower table",
+          "entity": "ОПН-П-35/38/10/1,1-III УХЛ1",
+          "parameter": "остающееся при 125 А 30/60",
+          "value": "-",
+          "unit": "кВ"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 1,
+            "table_id": "t26_2",
+            "row_index": 0,
+            "column_index": 6,
+            "column": {
+              "id": "c7",
+              "label": "Остающееся напряжение (кВ), при следующих значениях коммутационных токов длительностью 30/60 мкс: 125 А",
+              "unit": "кВ",
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c7",
+              "value": "-",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОПН-П-35/38/10/1,1-III УХЛ1"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": true
+        }
+      },
+      {
+        "id": "selected-10",
+        "expected": {
+          "location": "lower table",
+          "entity": "ОПН-П-35/38/10/1,1-III УХЛ1",
+          "parameter": "остающееся при 250 А 30/60",
+          "value": "87,3",
+          "unit": "кВ"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 1,
+            "table_id": "t26_2",
+            "row_index": 0,
+            "column_index": 7,
+            "column": {
+              "id": "c8",
+              "label": "Остающееся напряжение (кВ), при следующих значениях коммутационных токов длительностью 30/60 мкс: 250 А",
+              "unit": "кВ",
+              "group": null,
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c8",
+              "value": "87,3",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОПН-П-35/38/10/1,1-III УХЛ1"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": true
+        }
+      },
+      {
+        "id": "selected-11",
+        "expected": {
+          "location": "lower table",
+          "entity": "все 6 обозначений",
+          "parameter": "тепловая энергия, не менее",
+          "value": "4,0",
+          "unit": "кДж/кВ"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 1,
+            "table_id": "t26_2",
+            "row_index": 0,
+            "column_index": 15,
+            "column": {
+              "id": "c16",
+              "label": "Тепловая энергия",
+              "unit": "кДж/кВ",
+              "group": null,
+              "qualifier": "не менее"
+            },
+            "cell": {
+              "column_id": "c16",
+              "value": "4,0",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОПН-П-35/38/10/1,1-III УХЛ1"
+            ]
+          },
+          {
+            "table_index": 1,
+            "table_id": "t26_2",
+            "row_index": 1,
+            "column_index": 15,
+            "column": {
+              "id": "c16",
+              "label": "Тепловая энергия",
+              "unit": "кДж/кВ",
+              "group": null,
+              "qualifier": "не менее"
+            },
+            "cell": {
+              "column_id": "c16",
+              "value": "4,0",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОПН-П-35/38/10/1,1-IV УХЛ1"
+            ]
+          },
+          {
+            "table_index": 1,
+            "table_id": "t26_2",
+            "row_index": 2,
+            "column_index": 15,
+            "column": {
+              "id": "c16",
+              "label": "Тепловая энергия",
+              "unit": "кДж/кВ",
+              "group": null,
+              "qualifier": "не менее"
+            },
+            "cell": {
+              "column_id": "c16",
+              "value": "4,0",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОПН-П-35/40,5/10/1,1-III УХЛ1"
+            ]
+          },
+          {
+            "table_index": 1,
+            "table_id": "t26_2",
+            "row_index": 3,
+            "column_index": 15,
+            "column": {
+              "id": "c16",
+              "label": "Тепловая энергия",
+              "unit": "кДж/кВ",
+              "group": null,
+              "qualifier": "не менее"
+            },
+            "cell": {
+              "column_id": "c16",
+              "value": "4,0",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОПН-П-35/40,5/10/1,1-IV УХЛ1"
+            ]
+          },
+          {
+            "table_index": 1,
+            "table_id": "t26_2",
+            "row_index": 4,
+            "column_index": 15,
+            "column": {
+              "id": "c16",
+              "label": "Тепловая энергия",
+              "unit": "кДж/кВ",
+              "group": null,
+              "qualifier": "не менее"
+            },
+            "cell": {
+              "column_id": "c16",
+              "value": "4,0",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОПН-П-35/42/10/1,1-III УХЛ1"
+            ]
+          },
+          {
+            "table_index": 1,
+            "table_id": "t26_2",
+            "row_index": 5,
+            "column_index": 15,
+            "column": {
+              "id": "c16",
+              "label": "Тепловая энергия",
+              "unit": "кДж/кВ",
+              "group": null,
+              "qualifier": "не менее"
+            },
+            "cell": {
+              "column_id": "c16",
+              "value": "4,0",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ОПН-П-35/42/10/1,1-IV УХЛ1"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": false
+        }
+      },
+      {
+        "id": "selected-12",
+        "expected": {
+          "location": "lower drawings",
+          "entity": "исполнения III и IV",
+          "parameter": "общая высота",
+          "value": "476",
+          "unit": null,
+          "unit_policy": "unscored_no_explicit_source_legend"
+        },
+        "status": "passed",
+        "reason": "Matching lower charge-group/execution/view figure contains selected dimension or hole tokens with source association; drawing unit accuracy explicitly unscored in source-v2.",
+        "candidate_evidence": [
+          {
+            "figure_index": 3,
+            "title": "ОПН 35 кВ, заряд 1,1 Кл — IV СЗ",
+            "labels": [
+              "IV СЗ",
+              "А",
+              "Б",
+              "476",
+              "465±1",
+              "Ø126",
+              "Болт заземления М10",
+              "Ø13 2 отв.",
+              "50",
+              "45",
+              "67,5",
+              "135",
+              "Ø116",
+              "Ø140",
+              "Ø11 4 отв."
+            ],
+            "description": "Сборочный чертёж ограничителя перенапряжения исполнения IV СЗ для заряда пропускной способности 1,1 Кл: главный вид с увеличенным числом юбок, вертикальные размеры 476 и 465±1, ссылка «Болт заземления М10», диаметр верхнего пояса Ø126, стрелка вида «А». Справа — вид сверху «А» на клеммную плиту: Ø13, 2 отв., размеры 50, 45, 67,5, 135. Ниже — круглый вид «Б»: Ø116, Ø140, «Ø11 4 отв.»."
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": "figure_dimension_association",
+        "unit_scoring_scope": "unscored_no_explicit_source_legend"
+      },
+      {
+        "id": "selected-13",
+        "expected": {
+          "location": "lower drawings",
+          "entity": "исполнения III и IV",
+          "parameter": "высота между размерными базами",
+          "value": "465±1",
+          "unit": null,
+          "unit_policy": "unscored_no_explicit_source_legend"
+        },
+        "status": "passed",
+        "reason": "Matching lower charge-group/execution/view figure contains selected dimension or hole tokens with source association; drawing unit accuracy explicitly unscored in source-v2.",
+        "candidate_evidence": [
+          {
+            "figure_index": 3,
+            "title": "ОПН 35 кВ, заряд 1,1 Кл — IV СЗ",
+            "labels": [
+              "IV СЗ",
+              "А",
+              "Б",
+              "476",
+              "465±1",
+              "Ø126",
+              "Болт заземления М10",
+              "Ø13 2 отв.",
+              "50",
+              "45",
+              "67,5",
+              "135",
+              "Ø116",
+              "Ø140",
+              "Ø11 4 отв."
+            ],
+            "description": "Сборочный чертёж ограничителя перенапряжения исполнения IV СЗ для заряда пропускной способности 1,1 Кл: главный вид с увеличенным числом юбок, вертикальные размеры 476 и 465±1, ссылка «Болт заземления М10», диаметр верхнего пояса Ø126, стрелка вида «А». Справа — вид сверху «А» на клеммную плиту: Ø13, 2 отв., размеры 50, 45, 67,5, 135. Ниже — круглый вид «Б»: Ø116, Ø140, «Ø11 4 отв.»."
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": "figure_dimension_association",
+        "unit_scoring_scope": "unscored_no_explicit_source_legend"
+      },
+      {
+        "id": "selected-14",
+        "expected": {
+          "location": "lower drawings вид А",
+          "entity": "верхняя планка",
+          "parameter": "отверстия",
+          "value": "Ø13; 2 отв.",
+          "unit": null,
+          "unit_policy": "unscored_no_explicit_source_legend"
+        },
+        "status": "passed",
+        "reason": "Matching lower charge-group/execution/view figure contains selected dimension or hole tokens with source association; drawing unit accuracy explicitly unscored in source-v2.",
+        "candidate_evidence": [
+          {
+            "figure_index": 2,
+            "title": "ОПН 35 кВ, заряд 1,1 Кл — III СЗ",
+            "labels": [
+              "III СЗ",
+              "А",
+              "Б",
+              "476",
+              "465±1",
+              "Ø98",
+              "Болт заземления М10",
+              "Ø13 2 отв.",
+              "50",
+              "45",
+              "67,5",
+              "135",
+              "Ø116",
+              "Ø140",
+              "Ø11 4 отв."
+            ],
+            "description": "Сборочный чертёж ограничителя перенапряжения исполнения III СЗ для заряда пропускной способности 1,1 Кл: главный вид с фарфоровым покровом из multiple юбок на основании; вертикальные габариты 476 и 465±1; выносная ссылка «Болт заземления М10» к нижней зажимной пластине; диаметр верхнего пояса Ø98; стрелка вида «А» у клеммной плиты. Справа — вид сверху «А» на клеммную плиту с двумя отверстиями Ø13 («Ø13 2 отв.»), размерами 50, 45, 67,5 и общим габаритом 135. Ниже — круглый вид «Б» снизу с Ø116, Ø140 и четырьмя отверстиями Ø11 («Ø11 4 отв.»)."
+          },
+          {
+            "figure_index": 3,
+            "title": "ОПН 35 кВ, заряд 1,1 Кл — IV СЗ",
+            "labels": [
+              "IV СЗ",
+              "А",
+              "Б",
+              "476",
+              "465±1",
+              "Ø126",
+              "Болт заземления М10",
+              "Ø13 2 отв.",
+              "50",
+              "45",
+              "67,5",
+              "135",
+              "Ø116",
+              "Ø140",
+              "Ø11 4 отв."
+            ],
+            "description": "Сборочный чертёж ограничителя перенапряжения исполнения IV СЗ для заряда пропускной способности 1,1 Кл: главный вид с увеличенным числом юбок, вертикальные размеры 476 и 465±1, ссылка «Болт заземления М10», диаметр верхнего пояса Ø126, стрелка вида «А». Справа — вид сверху «А» на клеммную плиту: Ø13, 2 отв., размеры 50, 45, 67,5, 135. Ниже — круглый вид «Б»: Ø116, Ø140, «Ø11 4 отв.»."
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": "figure_dimension_association",
+        "unit_scoring_scope": "unscored_no_explicit_source_legend"
+      },
+      {
+        "id": "selected-15",
+        "expected": {
+          "location": "lower drawings вид Б",
+          "entity": "нижний фланец",
+          "parameter": "отверстия",
+          "value": "Ø11; 4 отв.",
+          "unit": null,
+          "unit_policy": "unscored_no_explicit_source_legend"
+        },
+        "status": "missing",
+        "reason": "No matching model / parameter association.",
+        "candidate_evidence": [],
+        "literal_value_match": null,
+        "normalization": null
+      }
+    ],
+    "full_page_accuracy": false
+  },
+  "fixture_sha256": "f1defb41f76e7a075e441132a7d6c01200a1aff344064786b8e07cd64d7416b1",
+  "candidate_sha256": "519d32f00ced4c80a76fcbf315857ec4839bf6846c70dc5dffda021b5b3cf690",
+  "source_binding": "caller-selected plain page artifact",
+  "grader_sha256": "24b64859fd690d11afd8477c69a0f84336a28338ac0b49981e5300055364d57a"
+}

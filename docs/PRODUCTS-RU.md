@@ -6,6 +6,7 @@
 
 | Решение | Скачать / установить | Доступ и соответствие испытанию |
 |---|---|---|
+| catalog-to-json | [Публичный репозиторий и установка](https://github.com/megamen32/catalog-to-json) | FastAgent/CLI/Agent Plugin 1.0; отдельные версии и модели в рейтинге, без наследования оценок поздними выпусками. |
 | Catalog Vision Backend | [Репозиторий и установка](https://github.com/megamen32/catalog-vision-backend) | Приватное решение, доступ по запросу. Планируем предоставлять бесплатно. |
 | Docling | [Репозиторий и установка](https://github.com/docling-project/docling) | Открытый репозиторий; установка по README. |
 | MinerU | [Репозиторий и установка](https://github.com/opendatalab/MinerU) | Открытый репозиторий; basic/standard/advanced и CPU/GPU/Metal — разные конфигурации. |

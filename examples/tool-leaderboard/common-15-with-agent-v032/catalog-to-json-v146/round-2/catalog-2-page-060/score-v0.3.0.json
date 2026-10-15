@@ -1,0 +1,1024 @@
+{
+  "schema_version": "1.0",
+  "case_id": "catalog-2-page-060",
+  "metrics": {
+    "cells_literal": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "cells_numeric_equivalent": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "blank_cells": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "merged_cells": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "header_assertions": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "figure_labels": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    },
+    "forbidden_label_absence": {
+      "correct": 0,
+      "expected": 0,
+      "percent": null
+    }
+  },
+  "structure": {
+    "expected_tables": 0,
+    "observed_tables": 1,
+    "extra_tables": null,
+    "tables": [],
+    "table_shape_scored": false
+  },
+  "drawing_assertions": {
+    "correct": 0,
+    "expected": 0,
+    "percent": null,
+    "checks": [],
+    "full_drawing_accuracy": false,
+    "method": "frozen scoped deterministic relation/claim assertions; unsupported wording is missing, never inferred"
+  },
+  "all_verified_checks_passed": true,
+  "coverage": {
+    "full_page_ground_truth": false,
+    "text_blocks_scored": false,
+    "diagram_relationships_scored": false,
+    "selected_drawing_assertions": 0,
+    "full_drawing_ground_truth": false,
+    "header_assertions": 0,
+    "figure_label_assertions": 0,
+    "forbidden_declared_label_assertions": 0,
+    "all_invented_labels_scored": false
+  },
+  "differences": [],
+  "engineering_facts": {
+    "correct": 15,
+    "expected": 15,
+    "percent": 100.0,
+    "statuses": {
+      "passed": 15
+    },
+    "checks": [
+      {
+        "id": "selected-01",
+        "expected": {
+          "location": "upper manufacturer АРМАТЕХ НИЛЕД",
+          "entity": "ES1500C",
+          "parameter": "разрушающая нагрузка",
+          "value": "8,0",
+          "unit": "кН"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t60_1",
+            "row_index": 0,
+            "column_index": 2,
+            "column": {
+              "id": "c2",
+              "label": "Разрушающая нагрузка",
+              "unit": "кН",
+              "group": "АРМАТЕХ НИЛЕД",
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c2",
+              "value": "8,0",
+              "state": "value",
+              "original_composite_value": "8,0\n12,0",
+              "normalization_note": "source-cell ordered line pairing, names/value counts equal",
+              "matched_identity_line": 0
+            },
+            "row_identity_values": []
+          }
+        ],
+        "literal_value_match": false,
+        "normalization": [
+          "literal",
+          "source_ordered_line_pairing"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": false
+        }
+      },
+      {
+        "id": "selected-02",
+        "expected": {
+          "location": "upper manufacturer АРМАТЕХ НИЛЕД",
+          "entity": "ES 1500",
+          "parameter": "разрушающая нагрузка",
+          "value": "12,0",
+          "unit": "кН"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t60_1",
+            "row_index": 0,
+            "column_index": 2,
+            "column": {
+              "id": "c2",
+              "label": "Разрушающая нагрузка",
+              "unit": "кН",
+              "group": "АРМАТЕХ НИЛЕД",
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c2",
+              "value": "12,0",
+              "state": "value",
+              "original_composite_value": "8,0\n12,0",
+              "normalization_note": "source-cell ordered line pairing, names/value counts equal",
+              "matched_identity_line": 1
+            },
+            "row_identity_values": []
+          }
+        ],
+        "literal_value_match": false,
+        "normalization": [
+          "literal",
+          "source_ordered_line_pairing"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": false
+        }
+      },
+      {
+        "id": "selected-03",
+        "expected": {
+          "location": "upper manufacturer ЭНЕРВИК (ENSTO)",
+          "entity": "SO260",
+          "parameter": "сечение / диаметр (исходный смешанный столбец)",
+          "value": "25-95",
+          "unit": "мм² / мм",
+          "unit_policy": "faithful_original_combination"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t60_1",
+            "row_index": 0,
+            "column_index": 4,
+            "column": {
+              "id": "c4",
+              "label": "Сечение, мм² Диаметр, мм",
+              "unit": null,
+              "group": "ЭНЕРВИК (ENSTO)",
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c4",
+              "value": "25-95",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "SO260"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": true
+        }
+      },
+      {
+        "id": "selected-04",
+        "expected": {
+          "location": "upper manufacturer МЗВА-ЧЭМЗ",
+          "entity": "ES 1500.1",
+          "parameter": "сечение / диаметр (исходный смешанный столбец)",
+          "value": "16-120",
+          "unit": "мм² / мм",
+          "unit_policy": "faithful_original_combination"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t60_1",
+            "row_index": 0,
+            "column_index": 7,
+            "column": {
+              "id": "c7",
+              "label": "Сечение, мм² Диаметр, мм",
+              "unit": null,
+              "group": "МЗВА-ЧЭМЗ",
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c7",
+              "value": "16–120",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "ES 1500.1"
+            ]
+          }
+        ],
+        "literal_value_match": false,
+        "normalization": [
+          "dash_glyph_format"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": true
+        }
+      },
+      {
+        "id": "selected-05",
+        "expected": {
+          "location": "upper manufacturer МЗВА-ЧЭМЗ",
+          "entity": "PS 4x35",
+          "parameter": "сечение / диаметр (исходный смешанный столбец)",
+          "value": "4x35(2x50)",
+          "unit": "мм² / мм",
+          "unit_policy": "faithful_original_combination"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t60_1",
+            "row_index": 6,
+            "column_index": 7,
+            "column": {
+              "id": "c7",
+              "label": "Сечение, мм² Диаметр, мм",
+              "unit": null,
+              "group": "МЗВА-ЧЭМЗ",
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c7",
+              "value": "4x35(2x50)",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "PS 4x35"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": true
+        }
+      },
+      {
+        "id": "selected-06",
+        "expected": {
+          "location": "upper manufacturer ЭНЕРВИК (ENSTO)",
+          "entity": "SO 270",
+          "parameter": "разрушающая нагрузка",
+          "value": "7,0",
+          "unit": "кН"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t60_1",
+            "row_index": 6,
+            "column_index": 5,
+            "column": {
+              "id": "c5",
+              "label": "Разрушающая нагрузка",
+              "unit": "кН",
+              "group": "ЭНЕРВИК (ENSTO)",
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c5",
+              "value": "7,0",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "SO 270"
+            ]
+          },
+          {
+            "table_index": 0,
+            "table_id": "t60_1",
+            "row_index": 7,
+            "column_index": 5,
+            "column": {
+              "id": "c5",
+              "label": "Разрушающая нагрузка",
+              "unit": "кН",
+              "group": "ЭНЕРВИК (ENSTO)",
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c5",
+              "value": "7,0",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "SO 270"
+            ]
+          },
+          {
+            "table_index": 0,
+            "table_id": "t60_1",
+            "row_index": 8,
+            "column_index": 5,
+            "column": {
+              "id": "c5",
+              "label": "Разрушающая нагрузка",
+              "unit": "кН",
+              "group": "ЭНЕРВИК (ENSTO)",
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c5",
+              "value": "7,0",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "SO 270"
+            ]
+          },
+          {
+            "table_index": 0,
+            "table_id": "t60_1",
+            "row_index": 9,
+            "column_index": 5,
+            "column": {
+              "id": "c5",
+              "label": "Разрушающая нагрузка",
+              "unit": "кН",
+              "group": "ЭНЕРВИК (ENSTO)",
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c5",
+              "value": "7,0",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "SO 270"
+            ]
+          },
+          {
+            "table_index": 0,
+            "table_id": "t60_1",
+            "row_index": 10,
+            "column_index": 5,
+            "column": {
+              "id": "c5",
+              "label": "Разрушающая нагрузка",
+              "unit": "кН",
+              "group": "ЭНЕРВИК (ENSTO)",
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c5",
+              "value": "7,0",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "SO 270"
+            ]
+          },
+          {
+            "table_index": 0,
+            "table_id": "t60_1",
+            "row_index": 11,
+            "column_index": 5,
+            "column": {
+              "id": "c5",
+              "label": "Разрушающая нагрузка",
+              "unit": "кН",
+              "group": "ЭНЕРВИК (ENSTO)",
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c5",
+              "value": "7,0",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "SO 270"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": false
+        }
+      },
+      {
+        "id": "selected-07",
+        "expected": {
+          "location": "upper manufacturer МЗВА-ЧЭМЗ",
+          "entity": "PS 4x16-120",
+          "parameter": "разрушающая нагрузка",
+          "value": "10,0",
+          "unit": "кН"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t60_1",
+            "row_index": 11,
+            "column_index": 8,
+            "column": {
+              "id": "c8",
+              "label": "Разрушающая нагрузка",
+              "unit": "кН",
+              "group": "МЗВА-ЧЭМЗ",
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c8",
+              "value": "10,0",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "PS 4x16-120"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": false
+        }
+      },
+      {
+        "id": "selected-08",
+        "expected": {
+          "location": "upper manufacturer АРМАТЕХ НИЛЕД",
+          "entity": "CB 600",
+          "parameter": "разрушающая нагрузка",
+          "value": "3,75",
+          "unit": "кН"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t60_1",
+            "row_index": 18,
+            "column_index": 2,
+            "column": {
+              "id": "c2",
+              "label": "Разрушающая нагрузка",
+              "unit": "кН",
+              "group": "АРМАТЕХ НИЛЕД",
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c2",
+              "value": "3,75",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "CB 600"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": false
+        }
+      },
+      {
+        "id": "selected-09",
+        "expected": {
+          "location": "lower manufacturer ЭНЕРВИК (ENSTO)",
+          "entity": "SOT29.10",
+          "parameter": "разрушающая нагрузка",
+          "value": "17,8/12,5",
+          "unit": "кН"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t60_1",
+            "row_index": 21,
+            "column_index": 5,
+            "column": {
+              "id": "c5",
+              "label": "Разрушающая нагрузка",
+              "unit": "кН",
+              "group": "ЭНЕРВИК (ENSTO)",
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c5",
+              "value": "17,8/12,5",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "SOT29.10"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": false
+        }
+      },
+      {
+        "id": "selected-10",
+        "expected": {
+          "location": "lower manufacturer МЗВА-ЧЭМЗ",
+          "entity": "SOT 29.10",
+          "parameter": "разрушающая нагрузка",
+          "value": "12,5/17,8",
+          "unit": "кН"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t60_1",
+            "row_index": 21,
+            "column_index": 8,
+            "column": {
+              "id": "c8",
+              "label": "Разрушающая нагрузка",
+              "unit": "кН",
+              "group": "МЗВА-ЧЭМЗ",
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c8",
+              "value": "12,5/17,8",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "SOT 29.10"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": false
+        }
+      },
+      {
+        "id": "selected-11",
+        "expected": {
+          "location": "lower manufacturer ЭНЕРВИК (ENSTO)",
+          "entity": "PD2.3",
+          "parameter": "разрушающая нагрузка",
+          "value": "15,4/2,0",
+          "unit": "кН"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t60_1",
+            "row_index": 27,
+            "column_index": 5,
+            "column": {
+              "id": "c5",
+              "label": "Разрушающая нагрузка",
+              "unit": "кН",
+              "group": "ЭНЕРВИК (ENSTO)",
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c5",
+              "value": "15,4/2,0",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "PD2.3"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": false
+        }
+      },
+      {
+        "id": "selected-12",
+        "expected": {
+          "location": "lower manufacturer МЗВА-ЧЭМЗ",
+          "entity": "GK 16",
+          "parameter": "разрушающая нагрузка",
+          "value": "15,0/2,4",
+          "unit": "кН"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t60_1",
+            "row_index": 27,
+            "column_index": 8,
+            "column": {
+              "id": "c8",
+              "label": "Разрушающая нагрузка",
+              "unit": "кН",
+              "group": "МЗВА-ЧЭМЗ",
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c8",
+              "value": "15,0/2,4",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "GK 16"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": false
+        }
+      },
+      {
+        "id": "selected-13",
+        "expected": {
+          "location": "lower manufacturer ЭНЕРВИК (ENSTO)",
+          "entity": "SOT4.8;SOT4.9;SOT4.10;SOT4.5;SOT4.6;SOT4.7;SOT78",
+          "parameter": "разрушающая нагрузка (vertical shared cell)",
+          "value": "Н/Д",
+          "unit": "кН"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t60_1",
+            "row_index": 40,
+            "column_index": 5,
+            "column": {
+              "id": "c5",
+              "label": "Разрушающая нагрузка",
+              "unit": "кН",
+              "group": "ЭНЕРВИК (ENSTO)",
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c5",
+              "value": "Н/Д",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "SOT4.8"
+            ]
+          },
+          {
+            "table_index": 0,
+            "table_id": "t60_1",
+            "row_index": 41,
+            "column_index": 5,
+            "column": {
+              "id": "c5",
+              "label": "Разрушающая нагрузка",
+              "unit": "кН",
+              "group": "ЭНЕРВИК (ENSTO)",
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c5",
+              "value": "Н/Д",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "SOT4.9"
+            ]
+          },
+          {
+            "table_index": 0,
+            "table_id": "t60_1",
+            "row_index": 42,
+            "column_index": 5,
+            "column": {
+              "id": "c5",
+              "label": "Разрушающая нагрузка",
+              "unit": "кН",
+              "group": "ЭНЕРВИК (ENSTO)",
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c5",
+              "value": "Н/Д",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "SOT4.10"
+            ]
+          },
+          {
+            "table_index": 0,
+            "table_id": "t60_1",
+            "row_index": 43,
+            "column_index": 5,
+            "column": {
+              "id": "c5",
+              "label": "Разрушающая нагрузка",
+              "unit": "кН",
+              "group": "ЭНЕРВИК (ENSTO)",
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c5",
+              "value": "Н/Д",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "SOT4.5"
+            ]
+          },
+          {
+            "table_index": 0,
+            "table_id": "t60_1",
+            "row_index": 44,
+            "column_index": 5,
+            "column": {
+              "id": "c5",
+              "label": "Разрушающая нагрузка",
+              "unit": "кН",
+              "group": "ЭНЕРВИК (ENSTO)",
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c5",
+              "value": "Н/Д",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "SOT4.6"
+            ]
+          },
+          {
+            "table_index": 0,
+            "table_id": "t60_1",
+            "row_index": 45,
+            "column_index": 5,
+            "column": {
+              "id": "c5",
+              "label": "Разрушающая нагрузка",
+              "unit": "кН",
+              "group": "ЭНЕРВИК (ENSTO)",
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c5",
+              "value": "Н/Д",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "SOT4.7"
+            ]
+          },
+          {
+            "table_index": 0,
+            "table_id": "t60_1",
+            "row_index": 46,
+            "column_index": 5,
+            "column": {
+              "id": "c5",
+              "label": "Разрушающая нагрузка",
+              "unit": "кН",
+              "group": "ЭНЕРВИК (ENSTO)",
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c5",
+              "value": "Н/Д",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "SOT78"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": false
+        }
+      },
+      {
+        "id": "selected-14",
+        "expected": {
+          "location": "lower manufacturer МЗВА-ЧЭМЗ",
+          "entity": "MSH 20.240;MSH 20.280;MSH 20.360",
+          "parameter": "разрушающая нагрузка (vertical shared cell)",
+          "value": "55,0",
+          "unit": "кН"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t60_1",
+            "row_index": 43,
+            "column_index": 8,
+            "column": {
+              "id": "c8",
+              "label": "Разрушающая нагрузка",
+              "unit": "кН",
+              "group": "МЗВА-ЧЭМЗ",
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c8",
+              "value": "55,0",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "MSH 20.240"
+            ]
+          },
+          {
+            "table_index": 0,
+            "table_id": "t60_1",
+            "row_index": 44,
+            "column_index": 8,
+            "column": {
+              "id": "c8",
+              "label": "Разрушающая нагрузка",
+              "unit": "кН",
+              "group": "МЗВА-ЧЭМЗ",
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c8",
+              "value": "55,0",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "MSH 20.280"
+            ]
+          },
+          {
+            "table_index": 0,
+            "table_id": "t60_1",
+            "row_index": 45,
+            "column_index": 8,
+            "column": {
+              "id": "c8",
+              "label": "Разрушающая нагрузка",
+              "unit": "кН",
+              "group": "МЗВА-ЧЭМЗ",
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c8",
+              "value": "55,0",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "MSH 20.360"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": false
+        }
+      },
+      {
+        "id": "selected-15",
+        "expected": {
+          "location": "lower manufacturer МЗВА-ЧЭМЗ",
+          "entity": "RAS 16.234",
+          "parameter": "разрушающая нагрузка",
+          "value": "50,0",
+          "unit": "кН"
+        },
+        "status": "passed",
+        "reason": "Correct model/row, unambiguous parameter and condition, value/state and recoverable explicit unit.",
+        "candidate_evidence": [
+          {
+            "table_index": 0,
+            "table_id": "t60_1",
+            "row_index": 47,
+            "column_index": 8,
+            "column": {
+              "id": "c8",
+              "label": "Разрушающая нагрузка",
+              "unit": "кН",
+              "group": "МЗВА-ЧЭМЗ",
+              "qualifier": null
+            },
+            "cell": {
+              "column_id": "c8",
+              "value": "50,0",
+              "state": "value"
+            },
+            "row_identity_values": [
+              "RAS 16.234"
+            ]
+          }
+        ],
+        "literal_value_match": true,
+        "normalization": [
+          "literal"
+        ],
+        "schema_warnings": [],
+        "raw_semantic_recoverability": {
+          "value_and_identity": true,
+          "unit_in_header": false
+        }
+      }
+    ],
+    "full_page_accuracy": false
+  },
+  "fixture_sha256": "93cf32c6d3a26326831fb0bb6152f3bf62ffd6897c1a1af554a91a97e0a64c3a",
+  "candidate_sha256": "e4d7d97b03cfaea7121c480f96246c0cd3cbb386115884a62e02016953e6dd63",
+  "source_binding": "caller-selected plain page artifact",
+  "grader_sha256": "24b64859fd690d11afd8477c69a0f84336a28338ac0b49981e5300055364d57a"
+}

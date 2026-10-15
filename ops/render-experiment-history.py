@@ -351,11 +351,17 @@ def render(experiments: list[dict]) -> str:
     lines += ["", "Vision-пробы страницы 78 показывают старую строгую оценку: 108/140 и 136/140. Это отдельные ответы, а не первые раунды позднейшего полного испытания. Ранние 98,57% в переписке относились к 138/140 буквально прочитанным ячейкам одной страницы 78; это другой показатель, не точность всех каталогов.", "",
         "## Общий рейтинг инструментов — включая Project X", "",
         "[Таблица для отправки другу: Project X и остальные инструменты на одинаковых 15 страницах](TOOL-LEADERBOARD-RU.md). Все конфигурации ниже переоценены одним оценщиком 0.3.2, без новых запусков. Это общие 500 инженерных фактов сохранённых испытаний; основной расширенный набор 17/520+21 остаётся отдельным. Наш агент в рейтинге инструментов не участвует.", ""]
-    leaderboard_path = "examples/tool-leaderboard/common-15-v032/manifest.json"
+    leaderboard_path = "examples/tool-leaderboard/common-15-with-agent-v032/manifest.json"
+    if not (ROOT / leaderboard_path).exists():
+        leaderboard_path = "examples/tool-leaderboard/common-15-v032/manifest.json"
     if (ROOT / leaderboard_path).exists():
         leaderboard = read(leaderboard_path)
         assert leaderboard["primary_grader"] == "0.3.2" and leaderboard["engineering_facts_per_round"] == 500
-        assert not leaderboard["our_orchestrator_included"] and len(leaderboard["rows"]) == 24
+        expected_rows = 28 if leaderboard["our_orchestrator_included"] else 24
+        assert len(leaderboard["rows"]) == expected_rows
+        if leaderboard["our_orchestrator_included"]:
+            agent_rows = [r for r in leaderboard["rows"] if r["id"].startswith("catalog-to-json-")]
+            assert len(agent_rows) == 4 and all(r["stage"] == "first_pass" and not r["reviewer_run"] for r in agent_rows)
         lines += ["| Место | Инструмент / конфигурация | Режим / модель | Раундов | Раунд 1 | Раунд 2 | Раунд 3 | Среднее 0.3.2 | SD, п.п. |", "|---|---|---|---|---|---|---|---|---|"]
         for row in leaderboard["rows"]:
             values = [f"{r['correct']['0.3.2']}/500" for r in row["rounds"]]
@@ -398,6 +404,11 @@ def main() -> None:
              "additional_model_or_parser_calls": 0, "source_receipts": SOURCES,
              "experiments": experiments, "focused_probes": PROBES}
     document = document.replace("Project X", "Catalog Vision Backend")
+    if (ROOT / "examples/tool-leaderboard/common-15-with-agent-v032/manifest.json").exists():
+        document = document.replace("Наш агент в рейтинге инструментов не участвует.",
+            "catalog-to-json включён отдельными версиями и моделями; стадии первых ответов отмечены явно.")
+        document = document.replace("У Catalog Vision Backend три прогона каждого режима, у остальных пока по одному.",
+            "У Catalog Vision Backend по три прогона, у catalog-to-json по два или три; у остальных парсеров пока по одному. Серия 1.4.15 из двух раундов не завершена до требуемых трёх.")
     heading, body = document.split("\n", 1)
     notice = ("> [Catalog Vision Backend](CATALOG-VISION-BACKEND.md) — наша закрытая адаптация; "
               "репозиторий приватный, доступ по запросу владельцу; планируем предоставлять бесплатно. Оценки ниже относятся к сохранённым "
