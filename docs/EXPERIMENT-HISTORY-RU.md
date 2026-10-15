@@ -126,36 +126,40 @@ Vision-пробы страницы 78 показывают старую стро
 
 ## Общий рейтинг инструментов — включая Catalog Vision Backend
 
-[Таблица для отправки другу: Catalog Vision Backend и остальные инструменты на одинаковых 15 страницах](TOOL-LEADERBOARD-RU.md). Все конфигурации ниже переоценены одним оценщиком 0.3.2, без новых запусков. Это общие 500 инженерных фактов сохранённых испытаний; основной расширенный набор 17/520+21 остаётся отдельным. Наш агент в рейтинге инструментов не участвует.
+[Таблица для отправки другу: Catalog Vision Backend и остальные инструменты на одинаковых 15 страницах](TOOL-LEADERBOARD-RU.md). Все конфигурации ниже переоценены одним оценщиком 0.3.2, без новых запусков. Это общие 500 инженерных фактов сохранённых испытаний; основной расширенный набор 17/520+21 остаётся отдельным. catalog-to-json включён отдельными версиями и моделями; стадии первых ответов отмечены явно.
 
 | Место | Инструмент / конфигурация | Режим / модель | Раундов | Раунд 1 | Раунд 2 | Раунд 3 | Среднее 0.3.2 | SD, п.п. |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Catalog Vision Backend | Vision / glm-5.3-flash | 3 | 394/500 | 438/500 | 293/500 | 75.00% | 14.87 |
-| 2 | docling | сохранённый режим парсера | 1 | 266/500 | не проводился | не проводился | 53.20% | не измерен |
-| 3 | mineru-advanced-metal | сохранённый режим парсера | 1 | 207/500 | не проводился | не проводился | 41.40% | не измерен |
-| 4 | Catalog Vision Backend | Vision / MiniMax-M3.1-Flash-Preview | 3 | 212/500 | 160/500 | 244/500 | 41.07% | 8.48 |
-| 5 | gmft | сохранённый режим парсера | 1 | 141/500 | не проводился | не проводился | 28.20% | не измерен |
-| 6 | img2table | сохранённый режим парсера | 1 | 91/500 | не проводился | не проводился | 18.20% | не измерен |
-| 7 | marker-balanced-mac-metal | сохранённый режим парсера | 1 | 88/500 | не проводился | не проводился | 17.60% | не измерен |
-| 8 | mineru-standard-metal | сохранённый режим парсера | 1 | 52/500 | не проводился | не проводился | 10.40% | не измерен |
-| 8 | mineru-vulkan-gpu44 | сохранённый режим парсера | 1 | 52/500 | не проводился | не проводился | 10.40% | не измерен |
-| 10 | camelot-lattice | сохранённый режим парсера | 1 | 39/500 | не проводился | не проводился | 7.80% | не измерен |
-| 10 | tabula-lattice | сохранённый режим парсера | 1 | 39/500 | не проводился | не проводился | 7.80% | не измерен |
-| 12 | mineru-basic | сохранённый режим парсера | 1 | 22/500 | не проводился | не проводился | 4.40% | не измерен |
-| 13 | Catalog Vision Backend | PDF / без Vision | 3 | 15/500 | 15/500 | 15/500 | 3.00% | 0.00 |
-| 14 | pymupdf4llm | сохранённый режим парсера | 1 | 13/500 | не проводился | не проводился | 2.60% | не измерен |
-| 15 | unstructured-hi-res | сохранённый режим парсера | 1 | 6/500 | не проводился | не проводился | 1.20% | не измерен |
-| 16 | pdfplumber | сохранённый режим парсера | 1 | 5/500 | не проводился | не проводился | 1.00% | не измерен |
-| 17 | liteparse | сохранённый режим парсера | 1 | 1/500 | не проводился | не проводился | 0.20% | не измерен |
-| 17 | pdf-capture-mcp-patched | сохранённый режим парсера | 1 | 1/500 | не проводился | не проводился | 0.20% | не измерен |
-| 17 | pdf-mcp | сохранённый режим парсера | 1 | 1/500 | не проводился | не проводился | 0.20% | не измерен |
-| 17 | tableshot | сохранённый режим парсера | 1 | 1/500 | не проводился | не проводился | 0.20% | не измерен |
-| 21 | camelot-stream | сохранённый режим парсера | 1 | 0/500 | не проводился | не проводился | 0.00% | не измерен |
-| 21 | paddle-cuda-gpu44 | сохранённый режим парсера | 1 | 0/500 | не проводился | не проводился | 0.00% | не измерен |
-| 21 | tabula-stream | сохранённый режим парсера | 1 | 0/500 | не проводился | не проводился | 0.00% | не измерен |
-| 21 | xberg | сохранённый режим парсера | 1 | 0/500 | не проводился | не проводился | 0.00% | не измерен |
+| 1 | catalog-to-json 1.4.15 | первый проход / anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium | 2 | 472/500 | 470/500 | не проводился | 94.20% | 0.28 |
+| 2 | catalog-to-json 1.4.2 | первый проход / anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium | 3 | 483/500 | 463/500 | 466/500 | 94.13% | 2.16 |
+| 3 | catalog-to-json 1.4.6 | первый проход / anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium | 3 | 450/500 | 469/500 | 471/500 | 92.67% | 2.32 |
+| 4 | Catalog Vision Backend | Vision / glm-5.3-flash | 3 | 394/500 | 438/500 | 293/500 | 75.00% | 14.87 |
+| 5 | catalog-to-json 1.4.4 | первый проход / anthropic.MiniMax-M3.1-Flash-Preview?reasoning=medium | 3 | 368/500 | 341/500 | 345/500 | 70.27% | 2.91 |
+| 6 | docling | сохранённый режим парсера | 1 | 266/500 | не проводился | не проводился | 53.20% | не измерен |
+| 7 | mineru-advanced-metal | сохранённый режим парсера | 1 | 207/500 | не проводился | не проводился | 41.40% | не измерен |
+| 8 | Catalog Vision Backend | Vision / MiniMax-M3.1-Flash-Preview | 3 | 212/500 | 160/500 | 244/500 | 41.07% | 8.48 |
+| 9 | gmft | сохранённый режим парсера | 1 | 141/500 | не проводился | не проводился | 28.20% | не измерен |
+| 10 | img2table | сохранённый режим парсера | 1 | 91/500 | не проводился | не проводился | 18.20% | не измерен |
+| 11 | marker-balanced-mac-metal | сохранённый режим парсера | 1 | 88/500 | не проводился | не проводился | 17.60% | не измерен |
+| 12 | mineru-standard-metal | сохранённый режим парсера | 1 | 52/500 | не проводился | не проводился | 10.40% | не измерен |
+| 12 | mineru-vulkan-gpu44 | сохранённый режим парсера | 1 | 52/500 | не проводился | не проводился | 10.40% | не измерен |
+| 14 | camelot-lattice | сохранённый режим парсера | 1 | 39/500 | не проводился | не проводился | 7.80% | не измерен |
+| 14 | tabula-lattice | сохранённый режим парсера | 1 | 39/500 | не проводился | не проводился | 7.80% | не измерен |
+| 16 | mineru-basic | сохранённый режим парсера | 1 | 22/500 | не проводился | не проводился | 4.40% | не измерен |
+| 17 | Catalog Vision Backend | PDF / без Vision | 3 | 15/500 | 15/500 | 15/500 | 3.00% | 0.00 |
+| 18 | pymupdf4llm | сохранённый режим парсера | 1 | 13/500 | не проводился | не проводился | 2.60% | не измерен |
+| 19 | unstructured-hi-res | сохранённый режим парсера | 1 | 6/500 | не проводился | не проводился | 1.20% | не измерен |
+| 20 | pdfplumber | сохранённый режим парсера | 1 | 5/500 | не проводился | не проводился | 1.00% | не измерен |
+| 21 | liteparse | сохранённый режим парсера | 1 | 1/500 | не проводился | не проводился | 0.20% | не измерен |
+| 21 | pdf-capture-mcp-patched | сохранённый режим парсера | 1 | 1/500 | не проводился | не проводился | 0.20% | не измерен |
+| 21 | pdf-mcp | сохранённый режим парсера | 1 | 1/500 | не проводился | не проводился | 0.20% | не измерен |
+| 21 | tableshot | сохранённый режим парсера | 1 | 1/500 | не проводился | не проводился | 0.20% | не измерен |
+| 25 | camelot-stream | сохранённый режим парсера | 1 | 0/500 | не проводился | не проводился | 0.00% | не измерен |
+| 25 | paddle-cuda-gpu44 | сохранённый режим парсера | 1 | 0/500 | не проводился | не проводился | 0.00% | не измерен |
+| 25 | tabula-stream | сохранённый режим парсера | 1 | 0/500 | не проводился | не проводился | 0.00% | не измерен |
+| 25 | xberg | сохранённый режим парсера | 1 | 0/500 | не проводился | не проводился | 0.00% | не измерен |
 
-У Catalog Vision Backend три прогона каждого режима, у остальных пока по одному. Место отражает наблюдаемое среднее; статистически устойчивый победитель не доказан. Исходные ответы и прежние оценки сохранены отдельно.
+У Catalog Vision Backend по три прогона, у catalog-to-json по два или три; у остальных парсеров пока по одному. Серия 1.4.15 из двух раундов не завершена до требуемых трёх. Место отражает наблюдаемое среднее; статистически устойчивый победитель не доказан. Исходные ответы и прежние оценки сохранены отдельно.
 
 ## Сохранённая историческая оценка 21 парсера
 
@@ -213,12 +217,12 @@ Vision-пробы страницы 78 показывают старую стро
 | 2026-10-12T21:11:57+03:00 | [examples/offline-regrading/2026-10-12-v032/summary.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/offline-regrading/2026-10-12-v032/summary.json) |
 | 2026-10-13T00:00:19+03:00 | [examples/agent-routing/2026-10-12-corrected-v032/manifest.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-12-corrected-v032/manifest.json) |
 | 2026-10-13T00:34:22+03:00 | [examples/agent-routing/2026-10-12-corrected-v032/first-pass-round-1/round.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-12-corrected-v032/first-pass-round-1/round.json) |
-| 2026-10-13T00:43:28+03:00 | [examples/tool-leaderboard/common-15-v032/manifest.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/tool-leaderboard/common-15-v032/manifest.json) |
 | 2026-10-13T03:47:30+03:00 | [examples/agent-routing/2026-10-13-reviewer25-source-check/manifest.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-13-reviewer25-source-check/manifest.json) |
 | 2026-10-13T04:40:33+03:00 | [examples/agent-routing/2026-10-12-corrected-v032/round-1/round.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-12-corrected-v032/round-1/round.json) |
 | 2026-10-13T05:30:31+03:00 | [examples/agent-routing/2026-10-12-corrected-v032/first-pass-round-2/round.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-12-corrected-v032/first-pass-round-2/round.json) |
 | 2026-10-13T05:52:52+03:00 | [examples/supplemental-drawing-audit-v1/manifest.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/supplemental-drawing-audit-v1/manifest.json) |
 | 2026-10-13T06:06:02+03:00 | [examples/agent-routing/2026-10-13-drawing-v126/manifest.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-13-drawing-v126/manifest.json) |
 | 2026-10-13T09:19:05+03:00 | [examples/agent-routing/2026-10-12-corrected-v032/round-2/round.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/agent-routing/2026-10-12-corrected-v032/round-2/round.json) |
+| 2026-10-15T12:38:46+03:00 | [examples/tool-leaderboard/common-15-with-agent-v032/manifest.json](https://github.com/megamen32/catalog-extraction-benchmark/blob/main/examples/tool-leaderboard/common-15-with-agent-v032/manifest.json) |
 
 Воспроизвести индекс: `python3 ops/render-experiment-history.py`. Команда только читает опубликованные результаты и создаёт эту страницу и JSON-сводку; парсеры и модели не запускаются.

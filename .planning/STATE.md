@@ -82,3 +82,9 @@ Historical profile 1.4.2/parser plugin 0.2.1 remains above profile 1.4.6/plugin 
 ## Mixed-pipeline evaluation in progress,12Oct2026
 
 Dataset v2 contains17 pages,520 engineering facts and21 source-grounded drawing assertions. Original15fixtures unchanged. Three fresh sequential native142/parser0.2.1→148 GLM Coding Endpoint rounds use scheduler1.4.11 with no audit/gold context. Source fixture and grader independently reviewed. Ordinary checks66PASS7.90s/build. Official MiniMax subscription token quota is exhausted until18:00MSK; model calls wait before active budget starts. ALL980 catalogue queue is not stopped. New mixed accuracy is unknown until this cohort completes; source release alone is not task completion.
+
+## Common leaderboard including catalog-to-json,2026-10-15
+
+Direct owner request supersedes prior orchestrator exclusion. Added four first-pass profiles in a NEW common15/500 snapshot with pinned grader0.3.2:1.4.15 472/470(two rounds, incomplete series);1.4.2 483/463/466;1.4.6 450/469/471;1.4.4 368/341/345. Original24 rows unchanged except new ranks; old snapshot/candidates/gold/native receipts retained. Mean is observed selected-fact performance, not whole-page or final-reviewed accuracy. Current1.5.26 inherits no score. Full initial-extractor provenance excludes later repair substitution; no reviewer attribution.
+
+Focused offline reproduction passed19.883s in1CPU/1GiB/300s; no models/parsers invoked.28 configurations map to18 products/install links. GitHub main readback and all310 snapshot blob hashes verified after source commit f048b6a. History now uses the new snapshot with old fallback. Plan and evidence: `.planning/quick/261015-hcv-include-catalog-to-json-versioned-saved-/`.

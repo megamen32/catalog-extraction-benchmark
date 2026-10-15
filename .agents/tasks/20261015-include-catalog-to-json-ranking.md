@@ -7,3 +7,5 @@ Boundaries: public benchmark offline regrading and report/product navigation onl
 Plan: ../../.planning/quick/261015-hcv-include-catalog-to-json-versioned-saved-/261015-hcv-PLAN.md
 State: ../../.planning/STATE.md
 Acceptance: same15pages/500, pinned0.3.2, exact saved bytes, links to public code and score manifests, round counts and stage visible, pushed/read-back.
+
+Outcome: published28-row/18-product ranking and immutable new snapshot, source f048b6a; GitHub content readback and all310 snapshot blobs verified. Exact offline repeat19.883s. Original native results, failures and old24-row snapshot preserved. No new models/parsers or parent merge work. Final summary/history updated in this same slice.

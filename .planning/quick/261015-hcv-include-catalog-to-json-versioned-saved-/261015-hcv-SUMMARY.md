@@ -1,5 +1,5 @@
 ---
-status: awaiting-public-readback
+status: complete
 ---
 # Include catalog-to-json in the common leaderboard
 
@@ -9,4 +9,4 @@ The original24-configuration snapshot and all original candidate/receipt/gold by
 
 Focused integration: frozen released0.3.0 wheel plus pinned0.3.2 module; source/fixture/candidate hashes and fixed page sets checked; current first-pass SHA selects initial extractor call, never later repair. Exact reproduction of saved score bytes passed19.883s (expected30s, emergency300s,1 CPU/1GiB). Privacy and relative score links checked. Missing timing is unknown, not zero. Old rows are reused, not regraded.
 
-Awaiting scoped main publication and GitHub readback; history selects new snapshot with old fallback.
+Published source/snapshot commit `f048b6a`. GitHub main readback matches the ranking, product list and new manifest. All310 new snapshot files match their published GitHub blob hashes. History selects the new snapshot with the old one retained as fallback. No new model/parser executions.
