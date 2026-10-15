@@ -1,0 +1,1412 @@
+{
+  "schema": "retained-scope-merge-regression-evidence/1",
+  "source": {
+    "catalog": "innovations",
+    "physical_page": 186,
+    "pdf_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee"
+  },
+  "actual_bad_saved_builder": {
+    "git_revision": "b3fe396960058ddffe1b0d1079565d2335e5ea11",
+    "name": "canonical-merge",
+    "source_modified": true,
+    "source_sha256": "f5409d859cff7c1b998cafff589004f43ddafcf67beeb54b0b566d849edb5801",
+    "version": "1.0.0"
+  },
+  "actual_fixed_saved_builder": {
+    "git_revision": "602a9515485da958b700969234792cbcaf951512",
+    "name": "canonical-merge",
+    "source_modified": false,
+    "source_sha256": "aa6557f79d277fb9db5c08429bed59fab5420397e05e5db92eea2a20eac3481d",
+    "version": "1.0.0"
+  },
+  "bad_saved_artifact": {
+    "filename": "delivery-draft-002/catalogue.json",
+    "sha256": "39cb4a6c232bf194e5df857b272daf74893be45bdb6c7c83b35b02e0ffbed30f",
+    "records": [
+      {
+        "catalog": "innovations",
+        "condition": null,
+        "id": "C-03f7f0f321ba15659e985223",
+        "kind": "model_parameter",
+        "model": null,
+        "page": 186,
+        "parameter": "Сечение провода",
+        "part": "Сталеалюминиевый провод АС по ГОСТ 839-2019",
+        "producer_ref": "P-677c676eb8556199d695",
+        "source_fact_ids": [
+          "L-1573e3cf577f339ae545407c",
+          "L-16bf0228b48d6963010f1f02",
+          "L-1c00cd73c7d5f0c695c231f2",
+          "L-30fdf878f09d67589bb1d820",
+          "L-447f4eecfc87956343f8358d",
+          "L-4b0b343f561ea907dcba8d71",
+          "L-5542fd5eb690d3da02db3782",
+          "L-a5b8e9cae05f9f6ee21bc1eb",
+          "L-a6ed095d6b3dae787795d36a",
+          "L-c5d1f669f0519e4fa7ecb96a",
+          "L-e35e2c8bf17ca4f858ceb66b",
+          "O-27731f2bf285a433256c2f54",
+          "O-36c110c8c740a129ae96d592",
+          "O-3d730feb570d2fe37ef0267c",
+          "O-3fdb617b8fa478a6f861bfce",
+          "O-4f795dabb4abb6e838120987",
+          "O-55c4f9e1362c01d4e859c8ab",
+          "O-577d86c4fd5350a6db1d7a5b",
+          "O-622e29ed6fae74f622eebe22",
+          "O-a3924dc2cea170ecfd96986a",
+          "O-ba72f358c1621017b54a4ed5",
+          "O-e63bceb2825a342198b1490b"
+        ],
+        "state": "value",
+        "unit": "мм²",
+        "value": [
+          "АС95/16",
+          "АС120/19",
+          "АС120/27",
+          "АС150/24",
+          "АС150/34",
+          "АС185/24",
+          "АС185/29",
+          "АС185/43",
+          "АС240/32",
+          "АС240/39",
+          "АС240/56"
+        ]
+      },
+      {
+        "catalog": "innovations",
+        "condition": "Сталеалюминиевый провод АС по ГОСТ 839-2019; Сечение провода: АС185/29",
+        "id": "C-07ae802342058897a50bd22c",
+        "kind": "model_parameter",
+        "model": null,
+        "page": 186,
+        "parameter": "Диаметр",
+        "part": "Сталеалюминиевый провод АС по ГОСТ 839-2019",
+        "producer_ref": "P-677c676eb8556199d695",
+        "source_fact_ids": [
+          "O-076b3f31cbb81fb0421f2102",
+          "L-96f90651ec2f5308acf1677f"
+        ],
+        "state": "value",
+        "unit": "мм",
+        "value": "18,8"
+      },
+      {
+        "catalog": "innovations",
+        "condition": "Сталеалюминиевый провод АС по ГОСТ 839-2019; Сечение провода: АС185/43",
+        "id": "C-55276dd766a4f978503bc935",
+        "kind": "model_parameter",
+        "model": null,
+        "page": 186,
+        "parameter": "Диаметр",
+        "part": "Сталеалюминиевый провод АС по ГОСТ 839-2019",
+        "producer_ref": "P-677c676eb8556199d695",
+        "source_fact_ids": [
+          "O-0372f02918332a46a65d729d",
+          "L-84e337fed157f412dae75018"
+        ],
+        "state": "value",
+        "unit": "мм",
+        "value": "19,6"
+      },
+      {
+        "catalog": "innovations",
+        "condition": "Сталеалюминиевый провод АС по ГОСТ 839-2019; Сечение провода: АС120/27",
+        "id": "C-781585a8e9eefa1caff2fd77",
+        "kind": "model_parameter",
+        "model": null,
+        "page": 186,
+        "parameter": "Диаметр",
+        "part": "Сталеалюминиевый провод АС по ГОСТ 839-2019",
+        "producer_ref": "P-677c676eb8556199d695",
+        "source_fact_ids": [
+          "O-397b171432994dc42baec6fc",
+          "L-9f6b945a365f362521c2dce6"
+        ],
+        "state": "value",
+        "unit": "мм",
+        "value": "15,2"
+      },
+      {
+        "catalog": "innovations",
+        "condition": "Сталеалюминиевый провод АС по ГОСТ 839-2019; Сечение провода: АС150/24",
+        "id": "C-9c6353dd798fca06ade093a2",
+        "kind": "model_parameter",
+        "model": null,
+        "page": 186,
+        "parameter": "Диаметр",
+        "part": "Сталеалюминиевый провод АС по ГОСТ 839-2019",
+        "producer_ref": "P-677c676eb8556199d695",
+        "source_fact_ids": [
+          "O-86720c568a16f03b7418450b",
+          "L-0a55588653c96a77de381b01"
+        ],
+        "state": "value",
+        "unit": "мм",
+        "value": "17,1"
+      },
+      {
+        "catalog": "innovations",
+        "condition": "Сталеалюминиевый провод АС по ГОСТ 839-2019; Сечение провода: АС240/32",
+        "id": "C-a9ea4141c4d38193c3ea1273",
+        "kind": "model_parameter",
+        "model": null,
+        "page": 186,
+        "parameter": "Диаметр",
+        "part": "Сталеалюминиевый провод АС по ГОСТ 839-2019",
+        "producer_ref": "P-677c676eb8556199d695",
+        "source_fact_ids": [
+          "O-40baa3a5a39c0e8590d7dd8a",
+          "L-32b3b19dcf4e620275a01bc0"
+        ],
+        "state": "value",
+        "unit": "мм",
+        "value": "21,6"
+      },
+      {
+        "catalog": "innovations",
+        "condition": "Сталеалюминиевый провод АС по ГОСТ 839-2019; Сечение провода: АС150/34",
+        "id": "C-ab38a1ea83aaaf443e524373",
+        "kind": "model_parameter",
+        "model": null,
+        "page": 186,
+        "parameter": "Диаметр",
+        "part": "Сталеалюминиевый провод АС по ГОСТ 839-2019",
+        "producer_ref": "P-677c676eb8556199d695",
+        "source_fact_ids": [
+          "O-a6b662030b64705585b7238f",
+          "L-0d9a7c8ae7c02ecea63ead32"
+        ],
+        "state": "value",
+        "unit": "мм",
+        "value": "17,5"
+      },
+      {
+        "catalog": "innovations",
+        "condition": "Сталеалюминиевый провод АС по ГОСТ 839-2019; Сечение провода: АС120/19",
+        "id": "C-dca75f4a1a6a693b5fd55adf",
+        "kind": "model_parameter",
+        "model": null,
+        "page": 186,
+        "parameter": "Диаметр",
+        "part": "Сталеалюминиевый провод АС по ГОСТ 839-2019",
+        "producer_ref": "P-677c676eb8556199d695",
+        "source_fact_ids": [
+          "O-81b9de59568696debe64e48c",
+          "L-0bcbbc91ad5943d05d1cb0b2"
+        ],
+        "state": "value",
+        "unit": "мм",
+        "value": "15,2"
+      },
+      {
+        "catalog": "innovations",
+        "condition": "Сталеалюминиевый провод АС по ГОСТ 839-2019; Сечение провода: АС240/56",
+        "id": "C-de3326ddb042a7b18b7318bb",
+        "kind": "model_parameter",
+        "model": null,
+        "page": 186,
+        "parameter": "Диаметр",
+        "part": "Сталеалюминиевый провод АС по ГОСТ 839-2019",
+        "producer_ref": "P-677c676eb8556199d695",
+        "source_fact_ids": [
+          "O-12fd6a01059e418680ec8e07",
+          "L-4b50ce7a31d04fa174ca1b6a"
+        ],
+        "state": "value",
+        "unit": "мм",
+        "value": "22,4"
+      },
+      {
+        "catalog": "innovations",
+        "condition": "Сталеалюминиевый провод АС по ГОСТ 839-2019; Сечение провода: АС95/16",
+        "id": "C-ed4f5296e3329f35af1ff435",
+        "kind": "model_parameter",
+        "model": null,
+        "page": 186,
+        "parameter": "Диаметр",
+        "part": "Сталеалюминиевый провод АС по ГОСТ 839-2019",
+        "producer_ref": "P-677c676eb8556199d695",
+        "source_fact_ids": [
+          "O-eed6c7c205c9f853c6a07c62",
+          "L-6366c519437a6178b8c9f19e"
+        ],
+        "state": "value",
+        "unit": "мм",
+        "value": "13,5"
+      },
+      {
+        "catalog": "innovations",
+        "condition": "Сталеалюминиевый провод АС по ГОСТ 839-2019; Сечение провода: АС240/39",
+        "id": "C-f8053a4052c26a708e6cef15",
+        "kind": "model_parameter",
+        "model": null,
+        "page": 186,
+        "parameter": "Диаметр",
+        "part": "Сталеалюминиевый провод АС по ГОСТ 839-2019",
+        "producer_ref": "P-677c676eb8556199d695",
+        "source_fact_ids": [
+          "O-c9b34b5de0ff16c643d37eb1",
+          "L-b2c55f91b67f9ee98873d027"
+        ],
+        "state": "value",
+        "unit": "мм",
+        "value": "21,6"
+      },
+      {
+        "catalog": "innovations",
+        "condition": "Сталеалюминиевый провод АС по ГОСТ 839-2019; Сечение провода: АС185/24",
+        "id": "C-fdfa2e61dad0887d3332d4b2",
+        "kind": "model_parameter",
+        "model": null,
+        "page": 186,
+        "parameter": "Диаметр",
+        "part": "Сталеалюминиевый провод АС по ГОСТ 839-2019",
+        "producer_ref": "P-677c676eb8556199d695",
+        "source_fact_ids": [
+          "O-73e53d2593d06ca4f5f40c6f",
+          "L-ebf34e4c29707a319f5ebaf8"
+        ],
+        "state": "value",
+        "unit": "мм",
+        "value": "18,9"
+      }
+    ]
+  },
+  "fixed_saved_artifact": {
+    "filename": "build-final-002/catalogue.json",
+    "sha256": "c1f6f703e14801ba545283369d484255966d438d74c835b477f1709f40fe35ba",
+    "records": [
+      {
+        "catalog": "innovations",
+        "condition": "Сталеалюминиевый провод АС по ГОСТ 839-2019; Сечение провода: АС240/56",
+        "id": "C-0240bb379251708157495aed",
+        "kind": "model_parameter",
+        "model": "ОАБ 205-240",
+        "page": 186,
+        "parameter": "Диаметр",
+        "part": "Сталеалюминиевый провод АС по ГОСТ 839-2019",
+        "producer_ref": "P-677c676eb8556199d695",
+        "source_fact_ids": [
+          "O-12fd6a01059e418680ec8e07"
+        ],
+        "state": "value",
+        "unit": "мм",
+        "value": "22,4"
+      },
+      {
+        "catalog": "innovations",
+        "condition": "Сталеалюминиевый провод АС по ГОСТ 839-2019; Сечение провода: АС185/24",
+        "id": "C-1ffe8651fb08cb9a115e70ae",
+        "kind": "model_parameter",
+        "model": "ОАБ 150-185",
+        "page": 186,
+        "parameter": "Диаметр",
+        "part": "Сталеалюминиевый провод АС по ГОСТ 839-2019",
+        "producer_ref": "P-677c676eb8556199d695",
+        "source_fact_ids": [
+          "O-73e53d2593d06ca4f5f40c6f"
+        ],
+        "state": "value",
+        "unit": "мм",
+        "value": "18,9"
+      },
+      {
+        "catalog": "innovations",
+        "condition": "Сталеалюминиевый провод АС по ГОСТ 839-2019; Сечение провода: АС150/24",
+        "id": "C-241641ae5cdf21b1a0f3fcaf",
+        "kind": "model_parameter",
+        "model": "ОАБ 150-185",
+        "page": 186,
+        "parameter": "Диаметр",
+        "part": "Сталеалюминиевый провод АС по ГОСТ 839-2019",
+        "producer_ref": "P-677c676eb8556199d695",
+        "source_fact_ids": [
+          "O-86720c568a16f03b7418450b"
+        ],
+        "state": "value",
+        "unit": "мм",
+        "value": "17,1"
+      },
+      {
+        "catalog": "innovations",
+        "condition": "Для АС240/32",
+        "id": "C-399e32653b975dad2417a179",
+        "kind": "model_parameter",
+        "model": "ОАБ 205-240",
+        "page": 186,
+        "parameter": "Сечение провода",
+        "part": "Сталеалюминиевый провод АС по ГОСТ 839-2019",
+        "producer_ref": "P-677c676eb8556199d695",
+        "source_fact_ids": [
+          "O-ba72f358c1621017b54a4ed5",
+          "L-30fdf878f09d67589bb1d820"
+        ],
+        "state": "value",
+        "unit": "мм²",
+        "value": "АС240/32"
+      },
+      {
+        "catalog": "innovations",
+        "condition": "Сталеалюминиевый провод АС по ГОСТ 839-2019; Сечение провода: АС185/29",
+        "id": "C-3a5bbb47dbc706f0ff71510b",
+        "kind": "model_parameter",
+        "model": "ОАБ 150-185",
+        "page": 186,
+        "parameter": "Диаметр",
+        "part": "Сталеалюминиевый провод АС по ГОСТ 839-2019",
+        "producer_ref": "P-677c676eb8556199d695",
+        "source_fact_ids": [
+          "O-076b3f31cbb81fb0421f2102"
+        ],
+        "state": "value",
+        "unit": "мм",
+        "value": "18,8"
+      },
+      {
+        "catalog": "innovations",
+        "condition": "Для АС185/24",
+        "id": "C-437f61cc4f9ab97e9eded7da",
+        "kind": "model_parameter",
+        "model": "ОАБ 150-185",
+        "page": 186,
+        "parameter": "Сечение провода",
+        "part": "Сталеалюминиевый провод АС по ГОСТ 839-2019",
+        "producer_ref": "P-677c676eb8556199d695",
+        "source_fact_ids": [
+          "O-3d730feb570d2fe37ef0267c",
+          "L-a6ed095d6b3dae787795d36a"
+        ],
+        "state": "value",
+        "unit": "мм²",
+        "value": "АС185/24"
+      },
+      {
+        "catalog": "innovations",
+        "condition": "Сталеалюминиевый провод АС по ГОСТ 839-2019; Сечение провода: АС95/16",
+        "id": "C-4fe3aa5cd6b0018d5fd40ce0",
+        "kind": "model_parameter",
+        "model": "ОАБ 70-120",
+        "page": 186,
+        "parameter": "Диаметр",
+        "part": "Сталеалюминиевый провод АС по ГОСТ 839-2019",
+        "producer_ref": "P-677c676eb8556199d695",
+        "source_fact_ids": [
+          "O-eed6c7c205c9f853c6a07c62"
+        ],
+        "state": "value",
+        "unit": "мм",
+        "value": "13,5"
+      },
+      {
+        "catalog": "innovations",
+        "condition": "Для АС120/19",
+        "id": "C-513b024d408cea23a0656ee9",
+        "kind": "model_parameter",
+        "model": "ОАБ 70-120",
+        "page": 186,
+        "parameter": "Сечение провода",
+        "part": "Сталеалюминиевый провод АС по ГОСТ 839-2019",
+        "producer_ref": "P-677c676eb8556199d695",
+        "source_fact_ids": [
+          "O-55c4f9e1362c01d4e859c8ab",
+          "L-a5b8e9cae05f9f6ee21bc1eb"
+        ],
+        "state": "value",
+        "unit": "мм²",
+        "value": "АС120/19"
+      },
+      {
+        "catalog": "innovations",
+        "condition": "Сталеалюминиевый провод АС по ГОСТ 839-2019; Сечение провода: АС150/34",
+        "id": "C-6186ecbd84abbeb9a88c0aa5",
+        "kind": "model_parameter",
+        "model": "ОАБ 150-185",
+        "page": 186,
+        "parameter": "Диаметр",
+        "part": "Сталеалюминиевый провод АС по ГОСТ 839-2019",
+        "producer_ref": "P-677c676eb8556199d695",
+        "source_fact_ids": [
+          "O-a6b662030b64705585b7238f"
+        ],
+        "state": "value",
+        "unit": "мм",
+        "value": "17,5"
+      },
+      {
+        "catalog": "innovations",
+        "condition": "Для АС185/43",
+        "id": "C-930e2cfd4a29cdbc8d2d5082",
+        "kind": "model_parameter",
+        "model": "ОАБ 150-185",
+        "page": 186,
+        "parameter": "Сечение провода",
+        "part": "Сталеалюминиевый провод АС по ГОСТ 839-2019",
+        "producer_ref": "P-677c676eb8556199d695",
+        "source_fact_ids": [
+          "O-4f795dabb4abb6e838120987",
+          "L-1c00cd73c7d5f0c695c231f2"
+        ],
+        "state": "value",
+        "unit": "мм²",
+        "value": "АС185/43"
+      },
+      {
+        "catalog": "innovations",
+        "condition": "Для АС240/56",
+        "id": "C-a37b2c495167cb055752af33",
+        "kind": "model_parameter",
+        "model": "ОАБ 205-240",
+        "page": 186,
+        "parameter": "Сечение провода",
+        "part": "Сталеалюминиевый провод АС по ГОСТ 839-2019",
+        "producer_ref": "P-677c676eb8556199d695",
+        "source_fact_ids": [
+          "O-622e29ed6fae74f622eebe22",
+          "L-e35e2c8bf17ca4f858ceb66b"
+        ],
+        "state": "value",
+        "unit": "мм²",
+        "value": "АС240/56"
+      },
+      {
+        "catalog": "innovations",
+        "condition": "Для АС150/34",
+        "id": "C-a41a3c122193116ae2dfdd2c",
+        "kind": "model_parameter",
+        "model": "ОАБ 150-185",
+        "page": 186,
+        "parameter": "Сечение провода",
+        "part": "Сталеалюминиевый провод АС по ГОСТ 839-2019",
+        "producer_ref": "P-677c676eb8556199d695",
+        "source_fact_ids": [
+          "O-3fdb617b8fa478a6f861bfce",
+          "L-1573e3cf577f339ae545407c"
+        ],
+        "state": "value",
+        "unit": "мм²",
+        "value": "АС150/34"
+      },
+      {
+        "catalog": "innovations",
+        "condition": "Для АС120/27",
+        "id": "C-a6a9dd54243b2a1e484b70c8",
+        "kind": "model_parameter",
+        "model": "ОАБ 70-120",
+        "page": 186,
+        "parameter": "Сечение провода",
+        "part": "Сталеалюминиевый провод АС по ГОСТ 839-2019",
+        "producer_ref": "P-677c676eb8556199d695",
+        "source_fact_ids": [
+          "O-36c110c8c740a129ae96d592",
+          "L-c5d1f669f0519e4fa7ecb96a"
+        ],
+        "state": "value",
+        "unit": "мм²",
+        "value": "АС120/27"
+      },
+      {
+        "catalog": "innovations",
+        "condition": "Сталеалюминиевый провод АС по ГОСТ 839-2019; Сечение провода: АС240/39",
+        "id": "C-ac05305cc03c6931059ab69f",
+        "kind": "model_parameter",
+        "model": "ОАБ 205-240",
+        "page": 186,
+        "parameter": "Диаметр",
+        "part": "Сталеалюминиевый провод АС по ГОСТ 839-2019",
+        "producer_ref": "P-677c676eb8556199d695",
+        "source_fact_ids": [
+          "O-c9b34b5de0ff16c643d37eb1"
+        ],
+        "state": "value",
+        "unit": "мм",
+        "value": "21,6"
+      },
+      {
+        "catalog": "innovations",
+        "condition": "Для АС150/24",
+        "id": "C-aecdbe463b0055de6dc32cd9",
+        "kind": "model_parameter",
+        "model": "ОАБ 150-185",
+        "page": 186,
+        "parameter": "Сечение провода",
+        "part": "Сталеалюминиевый провод АС по ГОСТ 839-2019",
+        "producer_ref": "P-677c676eb8556199d695",
+        "source_fact_ids": [
+          "O-a3924dc2cea170ecfd96986a",
+          "L-16bf0228b48d6963010f1f02"
+        ],
+        "state": "value",
+        "unit": "мм²",
+        "value": "АС150/24"
+      },
+      {
+        "catalog": "innovations",
+        "condition": "Для АС240/39",
+        "id": "C-b7c3572d64489edfbb92c877",
+        "kind": "model_parameter",
+        "model": "ОАБ 205-240",
+        "page": 186,
+        "parameter": "Сечение провода",
+        "part": "Сталеалюминиевый провод АС по ГОСТ 839-2019",
+        "producer_ref": "P-677c676eb8556199d695",
+        "source_fact_ids": [
+          "O-27731f2bf285a433256c2f54",
+          "L-447f4eecfc87956343f8358d"
+        ],
+        "state": "value",
+        "unit": "мм²",
+        "value": "АС240/39"
+      },
+      {
+        "catalog": "innovations",
+        "condition": "Для АС95/16",
+        "id": "C-b905d2bef9b47501fcbe88a5",
+        "kind": "model_parameter",
+        "model": "ОАБ 70-120",
+        "page": 186,
+        "parameter": "Сечение провода",
+        "part": "Сталеалюминиевый провод АС по ГОСТ 839-2019",
+        "producer_ref": "P-677c676eb8556199d695",
+        "source_fact_ids": [
+          "O-577d86c4fd5350a6db1d7a5b",
+          "L-4b0b343f561ea907dcba8d71"
+        ],
+        "state": "value",
+        "unit": "мм²",
+        "value": "АС95/16"
+      },
+      {
+        "catalog": "innovations",
+        "condition": "Сталеалюминиевый провод АС по ГОСТ 839-2019; Сечение провода: АС185/43",
+        "id": "C-bc1b27c1e27bc8d600342626",
+        "kind": "model_parameter",
+        "model": "ОАБ 150-185",
+        "page": 186,
+        "parameter": "Диаметр",
+        "part": "Сталеалюминиевый провод АС по ГОСТ 839-2019",
+        "producer_ref": "P-677c676eb8556199d695",
+        "source_fact_ids": [
+          "O-0372f02918332a46a65d729d"
+        ],
+        "state": "value",
+        "unit": "мм",
+        "value": "19,6"
+      },
+      {
+        "catalog": "innovations",
+        "condition": "Сталеалюминиевый провод АС по ГОСТ 839-2019; Сечение провода: АС120/27",
+        "id": "C-c15a6b73eeb9d4111066da3f",
+        "kind": "model_parameter",
+        "model": "ОАБ 70-120",
+        "page": 186,
+        "parameter": "Диаметр",
+        "part": "Сталеалюминиевый провод АС по ГОСТ 839-2019",
+        "producer_ref": "P-677c676eb8556199d695",
+        "source_fact_ids": [
+          "O-397b171432994dc42baec6fc"
+        ],
+        "state": "value",
+        "unit": "мм",
+        "value": "15,2"
+      },
+      {
+        "catalog": "innovations",
+        "condition": "Сталеалюминиевый провод АС по ГОСТ 839-2019; Сечение провода: АС240/32",
+        "id": "C-d1d7629db4fc5d0f0ef37fef",
+        "kind": "model_parameter",
+        "model": "ОАБ 205-240",
+        "page": 186,
+        "parameter": "Диаметр",
+        "part": "Сталеалюминиевый провод АС по ГОСТ 839-2019",
+        "producer_ref": "P-677c676eb8556199d695",
+        "source_fact_ids": [
+          "O-40baa3a5a39c0e8590d7dd8a"
+        ],
+        "state": "value",
+        "unit": "мм",
+        "value": "21,6"
+      },
+      {
+        "catalog": "innovations",
+        "condition": "Для АС185/29",
+        "id": "C-d29c5f0fa25b68dd1acb204c",
+        "kind": "model_parameter",
+        "model": "ОАБ 150-185",
+        "page": 186,
+        "parameter": "Сечение провода",
+        "part": "Сталеалюминиевый провод АС по ГОСТ 839-2019",
+        "producer_ref": "P-677c676eb8556199d695",
+        "source_fact_ids": [
+          "O-e63bceb2825a342198b1490b",
+          "L-5542fd5eb690d3da02db3782"
+        ],
+        "state": "value",
+        "unit": "мм²",
+        "value": "АС185/29"
+      },
+      {
+        "catalog": "innovations",
+        "condition": "Сталеалюминиевый провод АС по ГОСТ 839-2019; Сечение провода: АС120/19",
+        "id": "C-da0c96359b5ddc683ee4532f",
+        "kind": "model_parameter",
+        "model": "ОАБ 70-120",
+        "page": 186,
+        "parameter": "Диаметр",
+        "part": "Сталеалюминиевый провод АС по ГОСТ 839-2019",
+        "producer_ref": "P-677c676eb8556199d695",
+        "source_fact_ids": [
+          "O-81b9de59568696debe64e48c"
+        ],
+        "state": "value",
+        "unit": "мм",
+        "value": "15,2"
+      }
+    ]
+  },
+  "source_bound_scope_profile": {
+    "filename": "scope-innov186.json",
+    "sha256": "37d337ae1c9e6d62510dee27923e89e706069945edf56afb86ee37056d108365",
+    "profile": {
+      "schema": "canonical-scope-overrides/1",
+      "overrides": {
+        "O-12fd6a01059e418680ec8e07": {
+          "patch": {
+            "model": "ОАБ 205-240"
+          },
+          "rule": "source_bounded_model_rowspan_186",
+          "evidence": {
+            "catalog": "innovations",
+            "page": 186,
+            "source_pdf_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+            "packet_sha256": "36f3d6cb5f2e238ee70343eb4f1e1ef9229514cd1bc30a453d3e96b4d4e10099",
+            "source_pointer": "/catalogs/3/pages/185/content/tables/0/rows/13/cells/2",
+            "model_anchor_fact_id": "O-eef06b3cbebbd23a08ae1cc2",
+            "model_anchor_pointer": "/catalogs/3/pages/185/content/tables/0/rows/10/cells/0",
+            "source_bounded_rowspan": {
+              "start_row": 10,
+              "end_row": 13,
+              "model": "ОАБ 205-240"
+            },
+            "source_row": [
+              null,
+              "АС240/56",
+              "22,4",
+              null
+            ],
+            "oleg_same_model_value_observation_ids": [
+              "L-4b50ce7a31d04fa174ca1b6a"
+            ],
+            "method": "direct_visual_pdf_review_2026-10-15",
+            "render": "review-innov186.png",
+            "explanation": "Source PDF explicitly merges the model cell over exactly this conductor group; the model boundaries are visible at the next filled model and full-width row separator. Only nonempty conductor section and diameter facts receive the source owner; no blank mass is promoted or numeric value changed."
+          }
+        },
+        "O-0372f02918332a46a65d729d": {
+          "patch": {
+            "model": "ОАБ 150-185"
+          },
+          "rule": "source_bounded_model_rowspan_186",
+          "evidence": {
+            "catalog": "innovations",
+            "page": 186,
+            "source_pdf_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+            "packet_sha256": "36f3d6cb5f2e238ee70343eb4f1e1ef9229514cd1bc30a453d3e96b4d4e10099",
+            "source_pointer": "/catalogs/3/pages/185/content/tables/0/rows/9/cells/2",
+            "model_anchor_fact_id": "O-1efd38f3caabf0f30d54e099",
+            "model_anchor_pointer": "/catalogs/3/pages/185/content/tables/0/rows/4/cells/0",
+            "source_bounded_rowspan": {
+              "start_row": 4,
+              "end_row": 9,
+              "model": "ОАБ 150-185"
+            },
+            "source_row": [
+              null,
+              "АС185/43",
+              "19,6",
+              null
+            ],
+            "oleg_same_model_value_observation_ids": [
+              "L-84e337fed157f412dae75018"
+            ],
+            "method": "direct_visual_pdf_review_2026-10-15",
+            "render": "review-innov186.png",
+            "explanation": "Source PDF explicitly merges the model cell over exactly this conductor group; the model boundaries are visible at the next filled model and full-width row separator. Only nonempty conductor section and diameter facts receive the source owner; no blank mass is promoted or numeric value changed."
+          }
+        },
+        "O-a6b662030b64705585b7238f": {
+          "patch": {
+            "model": "ОАБ 150-185"
+          },
+          "rule": "source_bounded_model_rowspan_186",
+          "evidence": {
+            "catalog": "innovations",
+            "page": 186,
+            "source_pdf_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+            "packet_sha256": "36f3d6cb5f2e238ee70343eb4f1e1ef9229514cd1bc30a453d3e96b4d4e10099",
+            "source_pointer": "/catalogs/3/pages/185/content/tables/0/rows/6/cells/2",
+            "model_anchor_fact_id": "O-1efd38f3caabf0f30d54e099",
+            "model_anchor_pointer": "/catalogs/3/pages/185/content/tables/0/rows/4/cells/0",
+            "source_bounded_rowspan": {
+              "start_row": 4,
+              "end_row": 9,
+              "model": "ОАБ 150-185"
+            },
+            "source_row": [
+              null,
+              "АС150/34",
+              "17,5",
+              null
+            ],
+            "oleg_same_model_value_observation_ids": [
+              "L-0d9a7c8ae7c02ecea63ead32"
+            ],
+            "method": "direct_visual_pdf_review_2026-10-15",
+            "render": "review-innov186.png",
+            "explanation": "Source PDF explicitly merges the model cell over exactly this conductor group; the model boundaries are visible at the next filled model and full-width row separator. Only nonempty conductor section and diameter facts receive the source owner; no blank mass is promoted or numeric value changed."
+          }
+        },
+        "O-622e29ed6fae74f622eebe22": {
+          "patch": {
+            "model": "ОАБ 205-240"
+          },
+          "rule": "source_bounded_model_rowspan_186",
+          "evidence": {
+            "catalog": "innovations",
+            "page": 186,
+            "source_pdf_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+            "packet_sha256": "36f3d6cb5f2e238ee70343eb4f1e1ef9229514cd1bc30a453d3e96b4d4e10099",
+            "source_pointer": "/catalogs/3/pages/185/content/tables/0/rows/13/cells/1",
+            "model_anchor_fact_id": "O-eef06b3cbebbd23a08ae1cc2",
+            "model_anchor_pointer": "/catalogs/3/pages/185/content/tables/0/rows/10/cells/0",
+            "source_bounded_rowspan": {
+              "start_row": 10,
+              "end_row": 13,
+              "model": "ОАБ 205-240"
+            },
+            "source_row": [
+              null,
+              "АС240/56",
+              "22,4",
+              null
+            ],
+            "oleg_same_model_value_observation_ids": [
+              "L-e35e2c8bf17ca4f858ceb66b"
+            ],
+            "method": "direct_visual_pdf_review_2026-10-15",
+            "render": "review-innov186.png",
+            "explanation": "Source PDF explicitly merges the model cell over exactly this conductor group; the model boundaries are visible at the next filled model and full-width row separator. Only nonempty conductor section and diameter facts receive the source owner; no blank mass is promoted or numeric value changed."
+          }
+        },
+        "O-eed6c7c205c9f853c6a07c62": {
+          "patch": {
+            "model": "ОАБ 70-120"
+          },
+          "rule": "source_bounded_model_rowspan_186",
+          "evidence": {
+            "catalog": "innovations",
+            "page": 186,
+            "source_pdf_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+            "packet_sha256": "36f3d6cb5f2e238ee70343eb4f1e1ef9229514cd1bc30a453d3e96b4d4e10099",
+            "source_pointer": "/catalogs/3/pages/185/content/tables/0/rows/1/cells/2",
+            "model_anchor_fact_id": "O-b281e51bc9f8985863d3984e",
+            "model_anchor_pointer": "/catalogs/3/pages/185/content/tables/0/rows/0/cells/0",
+            "source_bounded_rowspan": {
+              "start_row": 0,
+              "end_row": 3,
+              "model": "ОАБ 70-120"
+            },
+            "source_row": [
+              null,
+              "АС95/16",
+              "13,5",
+              null
+            ],
+            "oleg_same_model_value_observation_ids": [
+              "L-6366c519437a6178b8c9f19e"
+            ],
+            "method": "direct_visual_pdf_review_2026-10-15",
+            "render": "review-innov186.png",
+            "explanation": "Source PDF explicitly merges the model cell over exactly this conductor group; the model boundaries are visible at the next filled model and full-width row separator. Only nonempty conductor section and diameter facts receive the source owner; no blank mass is promoted or numeric value changed."
+          }
+        },
+        "O-577d86c4fd5350a6db1d7a5b": {
+          "patch": {
+            "model": "ОАБ 70-120"
+          },
+          "rule": "source_bounded_model_rowspan_186",
+          "evidence": {
+            "catalog": "innovations",
+            "page": 186,
+            "source_pdf_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+            "packet_sha256": "36f3d6cb5f2e238ee70343eb4f1e1ef9229514cd1bc30a453d3e96b4d4e10099",
+            "source_pointer": "/catalogs/3/pages/185/content/tables/0/rows/1/cells/1",
+            "model_anchor_fact_id": "O-b281e51bc9f8985863d3984e",
+            "model_anchor_pointer": "/catalogs/3/pages/185/content/tables/0/rows/0/cells/0",
+            "source_bounded_rowspan": {
+              "start_row": 0,
+              "end_row": 3,
+              "model": "ОАБ 70-120"
+            },
+            "source_row": [
+              null,
+              "АС95/16",
+              "13,5",
+              null
+            ],
+            "oleg_same_model_value_observation_ids": [
+              "L-4b0b343f561ea907dcba8d71"
+            ],
+            "method": "direct_visual_pdf_review_2026-10-15",
+            "render": "review-innov186.png",
+            "explanation": "Source PDF explicitly merges the model cell over exactly this conductor group; the model boundaries are visible at the next filled model and full-width row separator. Only nonempty conductor section and diameter facts receive the source owner; no blank mass is promoted or numeric value changed."
+          }
+        },
+        "O-397b171432994dc42baec6fc": {
+          "patch": {
+            "model": "ОАБ 70-120"
+          },
+          "rule": "source_bounded_model_rowspan_186",
+          "evidence": {
+            "catalog": "innovations",
+            "page": 186,
+            "source_pdf_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+            "packet_sha256": "36f3d6cb5f2e238ee70343eb4f1e1ef9229514cd1bc30a453d3e96b4d4e10099",
+            "source_pointer": "/catalogs/3/pages/185/content/tables/0/rows/3/cells/2",
+            "model_anchor_fact_id": "O-b281e51bc9f8985863d3984e",
+            "model_anchor_pointer": "/catalogs/3/pages/185/content/tables/0/rows/0/cells/0",
+            "source_bounded_rowspan": {
+              "start_row": 0,
+              "end_row": 3,
+              "model": "ОАБ 70-120"
+            },
+            "source_row": [
+              null,
+              "АС120/27",
+              "15,2",
+              null
+            ],
+            "oleg_same_model_value_observation_ids": [
+              "L-0bcbbc91ad5943d05d1cb0b2",
+              "L-9f6b945a365f362521c2dce6"
+            ],
+            "method": "direct_visual_pdf_review_2026-10-15",
+            "render": "review-innov186.png",
+            "explanation": "Source PDF explicitly merges the model cell over exactly this conductor group; the model boundaries are visible at the next filled model and full-width row separator. Only nonempty conductor section and diameter facts receive the source owner; no blank mass is promoted or numeric value changed."
+          }
+        },
+        "O-c9b34b5de0ff16c643d37eb1": {
+          "patch": {
+            "model": "ОАБ 205-240"
+          },
+          "rule": "source_bounded_model_rowspan_186",
+          "evidence": {
+            "catalog": "innovations",
+            "page": 186,
+            "source_pdf_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+            "packet_sha256": "36f3d6cb5f2e238ee70343eb4f1e1ef9229514cd1bc30a453d3e96b4d4e10099",
+            "source_pointer": "/catalogs/3/pages/185/content/tables/0/rows/12/cells/2",
+            "model_anchor_fact_id": "O-eef06b3cbebbd23a08ae1cc2",
+            "model_anchor_pointer": "/catalogs/3/pages/185/content/tables/0/rows/10/cells/0",
+            "source_bounded_rowspan": {
+              "start_row": 10,
+              "end_row": 13,
+              "model": "ОАБ 205-240"
+            },
+            "source_row": [
+              null,
+              "АС240/39",
+              "21,6",
+              null
+            ],
+            "oleg_same_model_value_observation_ids": [
+              "L-32b3b19dcf4e620275a01bc0",
+              "L-b2c55f91b67f9ee98873d027"
+            ],
+            "method": "direct_visual_pdf_review_2026-10-15",
+            "render": "review-innov186.png",
+            "explanation": "Source PDF explicitly merges the model cell over exactly this conductor group; the model boundaries are visible at the next filled model and full-width row separator. Only nonempty conductor section and diameter facts receive the source owner; no blank mass is promoted or numeric value changed."
+          }
+        },
+        "O-4f795dabb4abb6e838120987": {
+          "patch": {
+            "model": "ОАБ 150-185"
+          },
+          "rule": "source_bounded_model_rowspan_186",
+          "evidence": {
+            "catalog": "innovations",
+            "page": 186,
+            "source_pdf_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+            "packet_sha256": "36f3d6cb5f2e238ee70343eb4f1e1ef9229514cd1bc30a453d3e96b4d4e10099",
+            "source_pointer": "/catalogs/3/pages/185/content/tables/0/rows/9/cells/1",
+            "model_anchor_fact_id": "O-1efd38f3caabf0f30d54e099",
+            "model_anchor_pointer": "/catalogs/3/pages/185/content/tables/0/rows/4/cells/0",
+            "source_bounded_rowspan": {
+              "start_row": 4,
+              "end_row": 9,
+              "model": "ОАБ 150-185"
+            },
+            "source_row": [
+              null,
+              "АС185/43",
+              "19,6",
+              null
+            ],
+            "oleg_same_model_value_observation_ids": [
+              "L-1c00cd73c7d5f0c695c231f2"
+            ],
+            "method": "direct_visual_pdf_review_2026-10-15",
+            "render": "review-innov186.png",
+            "explanation": "Source PDF explicitly merges the model cell over exactly this conductor group; the model boundaries are visible at the next filled model and full-width row separator. Only nonempty conductor section and diameter facts receive the source owner; no blank mass is promoted or numeric value changed."
+          }
+        },
+        "O-e63bceb2825a342198b1490b": {
+          "patch": {
+            "model": "ОАБ 150-185"
+          },
+          "rule": "source_bounded_model_rowspan_186",
+          "evidence": {
+            "catalog": "innovations",
+            "page": 186,
+            "source_pdf_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+            "packet_sha256": "36f3d6cb5f2e238ee70343eb4f1e1ef9229514cd1bc30a453d3e96b4d4e10099",
+            "source_pointer": "/catalogs/3/pages/185/content/tables/0/rows/8/cells/1",
+            "model_anchor_fact_id": "O-1efd38f3caabf0f30d54e099",
+            "model_anchor_pointer": "/catalogs/3/pages/185/content/tables/0/rows/4/cells/0",
+            "source_bounded_rowspan": {
+              "start_row": 4,
+              "end_row": 9,
+              "model": "ОАБ 150-185"
+            },
+            "source_row": [
+              null,
+              "АС185/29",
+              "18,8",
+              null
+            ],
+            "oleg_same_model_value_observation_ids": [
+              "L-5542fd5eb690d3da02db3782"
+            ],
+            "method": "direct_visual_pdf_review_2026-10-15",
+            "render": "review-innov186.png",
+            "explanation": "Source PDF explicitly merges the model cell over exactly this conductor group; the model boundaries are visible at the next filled model and full-width row separator. Only nonempty conductor section and diameter facts receive the source owner; no blank mass is promoted or numeric value changed."
+          }
+        },
+        "O-86720c568a16f03b7418450b": {
+          "patch": {
+            "model": "ОАБ 150-185"
+          },
+          "rule": "source_bounded_model_rowspan_186",
+          "evidence": {
+            "catalog": "innovations",
+            "page": 186,
+            "source_pdf_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+            "packet_sha256": "36f3d6cb5f2e238ee70343eb4f1e1ef9229514cd1bc30a453d3e96b4d4e10099",
+            "source_pointer": "/catalogs/3/pages/185/content/tables/0/rows/5/cells/2",
+            "model_anchor_fact_id": "O-1efd38f3caabf0f30d54e099",
+            "model_anchor_pointer": "/catalogs/3/pages/185/content/tables/0/rows/4/cells/0",
+            "source_bounded_rowspan": {
+              "start_row": 4,
+              "end_row": 9,
+              "model": "ОАБ 150-185"
+            },
+            "source_row": [
+              null,
+              "АС150/24",
+              "17,1",
+              null
+            ],
+            "oleg_same_model_value_observation_ids": [
+              "L-0a55588653c96a77de381b01"
+            ],
+            "method": "direct_visual_pdf_review_2026-10-15",
+            "render": "review-innov186.png",
+            "explanation": "Source PDF explicitly merges the model cell over exactly this conductor group; the model boundaries are visible at the next filled model and full-width row separator. Only nonempty conductor section and diameter facts receive the source owner; no blank mass is promoted or numeric value changed."
+          }
+        },
+        "O-27731f2bf285a433256c2f54": {
+          "patch": {
+            "model": "ОАБ 205-240"
+          },
+          "rule": "source_bounded_model_rowspan_186",
+          "evidence": {
+            "catalog": "innovations",
+            "page": 186,
+            "source_pdf_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+            "packet_sha256": "36f3d6cb5f2e238ee70343eb4f1e1ef9229514cd1bc30a453d3e96b4d4e10099",
+            "source_pointer": "/catalogs/3/pages/185/content/tables/0/rows/12/cells/1",
+            "model_anchor_fact_id": "O-eef06b3cbebbd23a08ae1cc2",
+            "model_anchor_pointer": "/catalogs/3/pages/185/content/tables/0/rows/10/cells/0",
+            "source_bounded_rowspan": {
+              "start_row": 10,
+              "end_row": 13,
+              "model": "ОАБ 205-240"
+            },
+            "source_row": [
+              null,
+              "АС240/39",
+              "21,6",
+              null
+            ],
+            "oleg_same_model_value_observation_ids": [
+              "L-447f4eecfc87956343f8358d"
+            ],
+            "method": "direct_visual_pdf_review_2026-10-15",
+            "render": "review-innov186.png",
+            "explanation": "Source PDF explicitly merges the model cell over exactly this conductor group; the model boundaries are visible at the next filled model and full-width row separator. Only nonempty conductor section and diameter facts receive the source owner; no blank mass is promoted or numeric value changed."
+          }
+        },
+        "O-81b9de59568696debe64e48c": {
+          "patch": {
+            "model": "ОАБ 70-120"
+          },
+          "rule": "source_bounded_model_rowspan_186",
+          "evidence": {
+            "catalog": "innovations",
+            "page": 186,
+            "source_pdf_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+            "packet_sha256": "36f3d6cb5f2e238ee70343eb4f1e1ef9229514cd1bc30a453d3e96b4d4e10099",
+            "source_pointer": "/catalogs/3/pages/185/content/tables/0/rows/2/cells/2",
+            "model_anchor_fact_id": "O-b281e51bc9f8985863d3984e",
+            "model_anchor_pointer": "/catalogs/3/pages/185/content/tables/0/rows/0/cells/0",
+            "source_bounded_rowspan": {
+              "start_row": 0,
+              "end_row": 3,
+              "model": "ОАБ 70-120"
+            },
+            "source_row": [
+              null,
+              "АС120/19",
+              "15,2",
+              null
+            ],
+            "oleg_same_model_value_observation_ids": [
+              "L-0bcbbc91ad5943d05d1cb0b2",
+              "L-9f6b945a365f362521c2dce6"
+            ],
+            "method": "direct_visual_pdf_review_2026-10-15",
+            "render": "review-innov186.png",
+            "explanation": "Source PDF explicitly merges the model cell over exactly this conductor group; the model boundaries are visible at the next filled model and full-width row separator. Only nonempty conductor section and diameter facts receive the source owner; no blank mass is promoted or numeric value changed."
+          }
+        },
+        "O-ba72f358c1621017b54a4ed5": {
+          "patch": {
+            "model": "ОАБ 205-240"
+          },
+          "rule": "source_bounded_model_rowspan_186",
+          "evidence": {
+            "catalog": "innovations",
+            "page": 186,
+            "source_pdf_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+            "packet_sha256": "36f3d6cb5f2e238ee70343eb4f1e1ef9229514cd1bc30a453d3e96b4d4e10099",
+            "source_pointer": "/catalogs/3/pages/185/content/tables/0/rows/11/cells/1",
+            "model_anchor_fact_id": "O-eef06b3cbebbd23a08ae1cc2",
+            "model_anchor_pointer": "/catalogs/3/pages/185/content/tables/0/rows/10/cells/0",
+            "source_bounded_rowspan": {
+              "start_row": 10,
+              "end_row": 13,
+              "model": "ОАБ 205-240"
+            },
+            "source_row": [
+              null,
+              "АС240/32",
+              "21,6",
+              null
+            ],
+            "oleg_same_model_value_observation_ids": [
+              "L-30fdf878f09d67589bb1d820"
+            ],
+            "method": "direct_visual_pdf_review_2026-10-15",
+            "render": "review-innov186.png",
+            "explanation": "Source PDF explicitly merges the model cell over exactly this conductor group; the model boundaries are visible at the next filled model and full-width row separator. Only nonempty conductor section and diameter facts receive the source owner; no blank mass is promoted or numeric value changed."
+          }
+        },
+        "O-3fdb617b8fa478a6f861bfce": {
+          "patch": {
+            "model": "ОАБ 150-185"
+          },
+          "rule": "source_bounded_model_rowspan_186",
+          "evidence": {
+            "catalog": "innovations",
+            "page": 186,
+            "source_pdf_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+            "packet_sha256": "36f3d6cb5f2e238ee70343eb4f1e1ef9229514cd1bc30a453d3e96b4d4e10099",
+            "source_pointer": "/catalogs/3/pages/185/content/tables/0/rows/6/cells/1",
+            "model_anchor_fact_id": "O-1efd38f3caabf0f30d54e099",
+            "model_anchor_pointer": "/catalogs/3/pages/185/content/tables/0/rows/4/cells/0",
+            "source_bounded_rowspan": {
+              "start_row": 4,
+              "end_row": 9,
+              "model": "ОАБ 150-185"
+            },
+            "source_row": [
+              null,
+              "АС150/34",
+              "17,5",
+              null
+            ],
+            "oleg_same_model_value_observation_ids": [
+              "L-1573e3cf577f339ae545407c"
+            ],
+            "method": "direct_visual_pdf_review_2026-10-15",
+            "render": "review-innov186.png",
+            "explanation": "Source PDF explicitly merges the model cell over exactly this conductor group; the model boundaries are visible at the next filled model and full-width row separator. Only nonempty conductor section and diameter facts receive the source owner; no blank mass is promoted or numeric value changed."
+          }
+        },
+        "O-36c110c8c740a129ae96d592": {
+          "patch": {
+            "model": "ОАБ 70-120"
+          },
+          "rule": "source_bounded_model_rowspan_186",
+          "evidence": {
+            "catalog": "innovations",
+            "page": 186,
+            "source_pdf_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+            "packet_sha256": "36f3d6cb5f2e238ee70343eb4f1e1ef9229514cd1bc30a453d3e96b4d4e10099",
+            "source_pointer": "/catalogs/3/pages/185/content/tables/0/rows/3/cells/1",
+            "model_anchor_fact_id": "O-b281e51bc9f8985863d3984e",
+            "model_anchor_pointer": "/catalogs/3/pages/185/content/tables/0/rows/0/cells/0",
+            "source_bounded_rowspan": {
+              "start_row": 0,
+              "end_row": 3,
+              "model": "ОАБ 70-120"
+            },
+            "source_row": [
+              null,
+              "АС120/27",
+              "15,2",
+              null
+            ],
+            "oleg_same_model_value_observation_ids": [
+              "L-c5d1f669f0519e4fa7ecb96a"
+            ],
+            "method": "direct_visual_pdf_review_2026-10-15",
+            "render": "review-innov186.png",
+            "explanation": "Source PDF explicitly merges the model cell over exactly this conductor group; the model boundaries are visible at the next filled model and full-width row separator. Only nonempty conductor section and diameter facts receive the source owner; no blank mass is promoted or numeric value changed."
+          }
+        },
+        "O-40baa3a5a39c0e8590d7dd8a": {
+          "patch": {
+            "model": "ОАБ 205-240"
+          },
+          "rule": "source_bounded_model_rowspan_186",
+          "evidence": {
+            "catalog": "innovations",
+            "page": 186,
+            "source_pdf_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+            "packet_sha256": "36f3d6cb5f2e238ee70343eb4f1e1ef9229514cd1bc30a453d3e96b4d4e10099",
+            "source_pointer": "/catalogs/3/pages/185/content/tables/0/rows/11/cells/2",
+            "model_anchor_fact_id": "O-eef06b3cbebbd23a08ae1cc2",
+            "model_anchor_pointer": "/catalogs/3/pages/185/content/tables/0/rows/10/cells/0",
+            "source_bounded_rowspan": {
+              "start_row": 10,
+              "end_row": 13,
+              "model": "ОАБ 205-240"
+            },
+            "source_row": [
+              null,
+              "АС240/32",
+              "21,6",
+              null
+            ],
+            "oleg_same_model_value_observation_ids": [
+              "L-32b3b19dcf4e620275a01bc0",
+              "L-b2c55f91b67f9ee98873d027"
+            ],
+            "method": "direct_visual_pdf_review_2026-10-15",
+            "render": "review-innov186.png",
+            "explanation": "Source PDF explicitly merges the model cell over exactly this conductor group; the model boundaries are visible at the next filled model and full-width row separator. Only nonempty conductor section and diameter facts receive the source owner; no blank mass is promoted or numeric value changed."
+          }
+        },
+        "O-076b3f31cbb81fb0421f2102": {
+          "patch": {
+            "model": "ОАБ 150-185"
+          },
+          "rule": "source_bounded_model_rowspan_186",
+          "evidence": {
+            "catalog": "innovations",
+            "page": 186,
+            "source_pdf_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+            "packet_sha256": "36f3d6cb5f2e238ee70343eb4f1e1ef9229514cd1bc30a453d3e96b4d4e10099",
+            "source_pointer": "/catalogs/3/pages/185/content/tables/0/rows/8/cells/2",
+            "model_anchor_fact_id": "O-1efd38f3caabf0f30d54e099",
+            "model_anchor_pointer": "/catalogs/3/pages/185/content/tables/0/rows/4/cells/0",
+            "source_bounded_rowspan": {
+              "start_row": 4,
+              "end_row": 9,
+              "model": "ОАБ 150-185"
+            },
+            "source_row": [
+              null,
+              "АС185/29",
+              "18,8",
+              null
+            ],
+            "oleg_same_model_value_observation_ids": [
+              "L-96f90651ec2f5308acf1677f"
+            ],
+            "method": "direct_visual_pdf_review_2026-10-15",
+            "render": "review-innov186.png",
+            "explanation": "Source PDF explicitly merges the model cell over exactly this conductor group; the model boundaries are visible at the next filled model and full-width row separator. Only nonempty conductor section and diameter facts receive the source owner; no blank mass is promoted or numeric value changed."
+          }
+        },
+        "O-a3924dc2cea170ecfd96986a": {
+          "patch": {
+            "model": "ОАБ 150-185"
+          },
+          "rule": "source_bounded_model_rowspan_186",
+          "evidence": {
+            "catalog": "innovations",
+            "page": 186,
+            "source_pdf_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+            "packet_sha256": "36f3d6cb5f2e238ee70343eb4f1e1ef9229514cd1bc30a453d3e96b4d4e10099",
+            "source_pointer": "/catalogs/3/pages/185/content/tables/0/rows/5/cells/1",
+            "model_anchor_fact_id": "O-1efd38f3caabf0f30d54e099",
+            "model_anchor_pointer": "/catalogs/3/pages/185/content/tables/0/rows/4/cells/0",
+            "source_bounded_rowspan": {
+              "start_row": 4,
+              "end_row": 9,
+              "model": "ОАБ 150-185"
+            },
+            "source_row": [
+              null,
+              "АС150/24",
+              "17,1",
+              null
+            ],
+            "oleg_same_model_value_observation_ids": [
+              "L-16bf0228b48d6963010f1f02"
+            ],
+            "method": "direct_visual_pdf_review_2026-10-15",
+            "render": "review-innov186.png",
+            "explanation": "Source PDF explicitly merges the model cell over exactly this conductor group; the model boundaries are visible at the next filled model and full-width row separator. Only nonempty conductor section and diameter facts receive the source owner; no blank mass is promoted or numeric value changed."
+          }
+        },
+        "O-55c4f9e1362c01d4e859c8ab": {
+          "patch": {
+            "model": "ОАБ 70-120"
+          },
+          "rule": "source_bounded_model_rowspan_186",
+          "evidence": {
+            "catalog": "innovations",
+            "page": 186,
+            "source_pdf_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+            "packet_sha256": "36f3d6cb5f2e238ee70343eb4f1e1ef9229514cd1bc30a453d3e96b4d4e10099",
+            "source_pointer": "/catalogs/3/pages/185/content/tables/0/rows/2/cells/1",
+            "model_anchor_fact_id": "O-b281e51bc9f8985863d3984e",
+            "model_anchor_pointer": "/catalogs/3/pages/185/content/tables/0/rows/0/cells/0",
+            "source_bounded_rowspan": {
+              "start_row": 0,
+              "end_row": 3,
+              "model": "ОАБ 70-120"
+            },
+            "source_row": [
+              null,
+              "АС120/19",
+              "15,2",
+              null
+            ],
+            "oleg_same_model_value_observation_ids": [
+              "L-a5b8e9cae05f9f6ee21bc1eb"
+            ],
+            "method": "direct_visual_pdf_review_2026-10-15",
+            "render": "review-innov186.png",
+            "explanation": "Source PDF explicitly merges the model cell over exactly this conductor group; the model boundaries are visible at the next filled model and full-width row separator. Only nonempty conductor section and diameter facts receive the source owner; no blank mass is promoted or numeric value changed."
+          }
+        },
+        "O-73e53d2593d06ca4f5f40c6f": {
+          "patch": {
+            "model": "ОАБ 150-185"
+          },
+          "rule": "source_bounded_model_rowspan_186",
+          "evidence": {
+            "catalog": "innovations",
+            "page": 186,
+            "source_pdf_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+            "packet_sha256": "36f3d6cb5f2e238ee70343eb4f1e1ef9229514cd1bc30a453d3e96b4d4e10099",
+            "source_pointer": "/catalogs/3/pages/185/content/tables/0/rows/7/cells/2",
+            "model_anchor_fact_id": "O-1efd38f3caabf0f30d54e099",
+            "model_anchor_pointer": "/catalogs/3/pages/185/content/tables/0/rows/4/cells/0",
+            "source_bounded_rowspan": {
+              "start_row": 4,
+              "end_row": 9,
+              "model": "ОАБ 150-185"
+            },
+            "source_row": [
+              null,
+              "АС185/24",
+              "18,9",
+              null
+            ],
+            "oleg_same_model_value_observation_ids": [
+              "L-ebf34e4c29707a319f5ebaf8"
+            ],
+            "method": "direct_visual_pdf_review_2026-10-15",
+            "render": "review-innov186.png",
+            "explanation": "Source PDF explicitly merges the model cell over exactly this conductor group; the model boundaries are visible at the next filled model and full-width row separator. Only nonempty conductor section and diameter facts receive the source owner; no blank mass is promoted or numeric value changed."
+          }
+        },
+        "O-3d730feb570d2fe37ef0267c": {
+          "patch": {
+            "model": "ОАБ 150-185"
+          },
+          "rule": "source_bounded_model_rowspan_186",
+          "evidence": {
+            "catalog": "innovations",
+            "page": 186,
+            "source_pdf_sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+            "packet_sha256": "36f3d6cb5f2e238ee70343eb4f1e1ef9229514cd1bc30a453d3e96b4d4e10099",
+            "source_pointer": "/catalogs/3/pages/185/content/tables/0/rows/7/cells/1",
+            "model_anchor_fact_id": "O-1efd38f3caabf0f30d54e099",
+            "model_anchor_pointer": "/catalogs/3/pages/185/content/tables/0/rows/4/cells/0",
+            "source_bounded_rowspan": {
+              "start_row": 4,
+              "end_row": 9,
+              "model": "ОАБ 150-185"
+            },
+            "source_row": [
+              null,
+              "АС185/24",
+              "18,9",
+              null
+            ],
+            "oleg_same_model_value_observation_ids": [
+              "L-a6ed095d6b3dae787795d36a"
+            ],
+            "method": "direct_visual_pdf_review_2026-10-15",
+            "render": "review-innov186.png",
+            "explanation": "Source PDF explicitly merges the model cell over exactly this conductor group; the model boundaries are visible at the next filled model and full-width row separator. Only nonempty conductor section and diameter facts receive the source owner; no blank mass is promoted or numeric value changed."
+          }
+        }
+      }
+    }
+  },
+  "failed_closed_candidate_conflicts": [],
+  "affected_source_fact_ids": [
+    "O-0372f02918332a46a65d729d",
+    "O-076b3f31cbb81fb0421f2102",
+    "O-12fd6a01059e418680ec8e07",
+    "O-27731f2bf285a433256c2f54",
+    "O-36c110c8c740a129ae96d592",
+    "O-397b171432994dc42baec6fc",
+    "O-3d730feb570d2fe37ef0267c",
+    "O-3fdb617b8fa478a6f861bfce",
+    "O-40baa3a5a39c0e8590d7dd8a",
+    "O-4f795dabb4abb6e838120987",
+    "O-55c4f9e1362c01d4e859c8ab",
+    "O-577d86c4fd5350a6db1d7a5b",
+    "O-622e29ed6fae74f622eebe22",
+    "O-73e53d2593d06ca4f5f40c6f",
+    "O-81b9de59568696debe64e48c",
+    "O-86720c568a16f03b7418450b",
+    "O-a3924dc2cea170ecfd96986a",
+    "O-a6b662030b64705585b7238f",
+    "O-ba72f358c1621017b54a4ed5",
+    "O-c9b34b5de0ff16c643d37eb1",
+    "O-e63bceb2825a342198b1490b",
+    "O-eed6c7c205c9f853c6a07c62"
+  ],
+  "source_version_note": "Указана фактическая программа сведения сохранённых артефактов. Отдельным исходным версиям извлечения не присваивается версия нового merge builder.",
+  "expected_behavior": "Сохранять конкретную модель ОАБ 70-120 / ОАБ 150-185 / ОАБ 205-240 из явно ограниченных объединённых ячеек. Равное значение само по себе не разрешает терять model/part/condition/unit. Не переносить на другие модели и не выдумывать значения пустой массы.",
+  "new_model_calls": 0
+}

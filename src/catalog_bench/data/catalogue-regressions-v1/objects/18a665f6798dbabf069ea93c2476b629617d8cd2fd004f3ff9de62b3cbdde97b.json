@@ -1,0 +1,440 @@
+{
+  "schema": "retained-scope-merge-regression-evidence/1",
+  "source": {
+    "catalog": "armature",
+    "physical_page": 67,
+    "pdf_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e"
+  },
+  "actual_bad_saved_builder": {
+    "git_revision": "b3fe396960058ddffe1b0d1079565d2335e5ea11",
+    "name": "canonical-merge",
+    "source_modified": true,
+    "source_sha256": "f5409d859cff7c1b998cafff589004f43ddafcf67beeb54b0b566d849edb5801",
+    "version": "1.0.0"
+  },
+  "actual_fixed_saved_builder": {
+    "git_revision": "602a9515485da958b700969234792cbcaf951512",
+    "name": "canonical-merge",
+    "source_modified": false,
+    "source_sha256": "aa6557f79d277fb9db5c08429bed59fab5420397e05e5db92eea2a20eac3481d",
+    "version": "1.0.0"
+  },
+  "bad_saved_artifact": {
+    "filename": "delivery-draft-002/catalogue.json",
+    "sha256": "39cb4a6c232bf194e5df857b272daf74893be45bdb6c7c83b35b02e0ffbed30f",
+    "records": [
+      {
+        "catalog": "armature",
+        "condition": "не более; Провод марки АСТ, сечение: 205/27",
+        "id": "C-15a5ec716a6084eb42d5feeb",
+        "kind": "model_parameter",
+        "model": "ПГАСТ-60П(19,8)",
+        "page": 67,
+        "parameter": "Масса",
+        "part": null,
+        "producer_ref": "P-3130bfddaeebc3119662",
+        "source_fact_ids": [
+          "O-c710c928aa77f69e22f5dea7",
+          "L-3266f3d557e54ddbf185e78f"
+        ],
+        "state": "value",
+        "unit": "кг",
+        "value": "5,64"
+      },
+      {
+        "catalog": "armature",
+        "condition": "не более; Провод марки АСТ, сечение: 70/72",
+        "id": "C-52db7f11dcb7e3ee1180ab20",
+        "kind": "model_parameter",
+        "model": "ПГАСТ-60П(15,4)",
+        "page": 67,
+        "parameter": "Масса",
+        "part": null,
+        "producer_ref": "P-3130bfddaeebc3119662",
+        "source_fact_ids": [
+          "O-63fa12fe911ebc1a4aadf5f1",
+          "L-39d8e41faa2eef862e8c3086"
+        ],
+        "state": "value",
+        "unit": "кг",
+        "value": "5,52"
+      },
+      {
+        "catalog": "armature",
+        "condition": "не более; Провод марки АСТ, сечение: 120/27",
+        "id": "C-6530a0bf7fd6c205938b654d",
+        "kind": "model_parameter",
+        "model": "ПГАСТ-60П(15,4)",
+        "page": 67,
+        "parameter": "Масса",
+        "part": null,
+        "producer_ref": "P-3130bfddaeebc3119662",
+        "source_fact_ids": [
+          "O-51ee7ea3f99d00281c9749ba",
+          "L-bacd2d5022547fc81d336d71"
+        ],
+        "state": "value",
+        "unit": "кг",
+        "value": "5,54"
+      },
+      {
+        "catalog": "armature",
+        "condition": "не более; Провод марки АСТ, сечение: 95/141",
+        "id": "C-b2bac1ebf22abafbc901418f",
+        "kind": "model_parameter",
+        "model": "ПГАСТ-60П(19,8)",
+        "page": 67,
+        "parameter": "Масса",
+        "part": null,
+        "producer_ref": "P-3130bfddaeebc3119662",
+        "source_fact_ids": [
+          "O-f28d6319511bc49c86e70728",
+          "L-0a146d1567243a07f4d178cf"
+        ],
+        "state": "value",
+        "unit": "кг",
+        "value": "5,60"
+      }
+    ]
+  },
+  "fixed_saved_artifact": {
+    "filename": "build-final-002/catalogue.json",
+    "sha256": "c1f6f703e14801ba545283369d484255966d438d74c835b477f1709f40fe35ba",
+    "records": [
+      {
+        "catalog": "armature",
+        "condition": "не более; Провод марки АСТ, сечение: 205/27",
+        "id": "C-15a5ec716a6084eb42d5feeb",
+        "kind": "model_parameter",
+        "model": "ПГАСТ-60П(19,8)",
+        "page": 67,
+        "parameter": "Масса",
+        "part": null,
+        "producer_ref": "P-3130bfddaeebc3119662",
+        "source_fact_ids": [
+          "O-c710c928aa77f69e22f5dea7",
+          "L-3266f3d557e54ddbf185e78f"
+        ],
+        "state": "value",
+        "unit": "кг",
+        "value": "5,64"
+      },
+      {
+        "catalog": "armature",
+        "condition": "не более; Провод марки АСТ, сечение: 70/72",
+        "id": "C-52db7f11dcb7e3ee1180ab20",
+        "kind": "model_parameter",
+        "model": "ПГАСТ-60П(15,4)",
+        "page": 67,
+        "parameter": "Масса",
+        "part": null,
+        "producer_ref": "P-3130bfddaeebc3119662",
+        "source_fact_ids": [
+          "O-63fa12fe911ebc1a4aadf5f1",
+          "L-39d8e41faa2eef862e8c3086"
+        ],
+        "state": "value",
+        "unit": "кг",
+        "value": "5,52"
+      },
+      {
+        "catalog": "armature",
+        "condition": "не более; Провод марки АСТ, сечение: 120/27",
+        "id": "C-6530a0bf7fd6c205938b654d",
+        "kind": "model_parameter",
+        "model": "ПГАСТ-60П(15,4)",
+        "page": 67,
+        "parameter": "Масса",
+        "part": null,
+        "producer_ref": "P-3130bfddaeebc3119662",
+        "source_fact_ids": [
+          "O-51ee7ea3f99d00281c9749ba",
+          "L-bacd2d5022547fc81d336d71"
+        ],
+        "state": "value",
+        "unit": "кг",
+        "value": "5,54"
+      },
+      {
+        "catalog": "armature",
+        "condition": "не более; Провод марки АСТ, сечение: 95/141",
+        "id": "C-b2bac1ebf22abafbc901418f",
+        "kind": "model_parameter",
+        "model": "ПГАСТ-60П(19,8)",
+        "page": 67,
+        "parameter": "Масса",
+        "part": null,
+        "producer_ref": "P-3130bfddaeebc3119662",
+        "source_fact_ids": [
+          "O-f28d6319511bc49c86e70728",
+          "L-0a146d1567243a07f4d178cf"
+        ],
+        "state": "value",
+        "unit": "кг",
+        "value": "5,60"
+      }
+    ]
+  },
+  "source_bound_scope_profile": {
+    "filename": "scope-pgast-mass.json",
+    "sha256": "4f242946068162f4200d5559a80f326b0dedd1b8483f879ec2bbc82d56f21585",
+    "profile": {
+      "schema": "canonical-scope-amendments/1",
+      "overrides": {
+        "L-bacd2d5022547fc81d336d71": {
+          "patch": {
+            "condition": "не более; Провод марки АСТ, сечение: 120/27"
+          },
+          "rule": "Печатная таблица содержит повторённое наименование зажима с разными явно указанными проводами АСТ. Масса принадлежит своей строке провода; это реальная применимость, не противоречие масс и не искусственный номер строки. Число и единица не меняются.",
+          "evidence": {
+            "catalog": "armature",
+            "physical_page": 67,
+            "source_pdf_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+            "method": "direct_visual_pdf_crop_and_retained_product_row_context",
+            "render": "pgast-armature-67-table.png",
+            "mass_source_fact_id": "L-bacd2d5022547fc81d336d71",
+            "mass_source_pointer": "characteristics.jsonl:10667/raw",
+            "mass_original_value": "5,54",
+            "wire_source_fact_id": "L-6e0efe2bf9b6e0919aba1e2a",
+            "wire_original_value": "120/27",
+            "retained_same_row_ours_fact_id": "O-51ee7ea3f99d00281c9749ba",
+            "retained_row_values": [
+              "ПГАСТ-60П(15,4)",
+              "2",
+              "120/27",
+              "5,54",
+              "60,0"
+            ],
+            "source_mass_bbox": [
+              {
+                "page": 67,
+                "region": [
+                  0.492,
+                  0.18808207217694994,
+                  0.653,
+                  0.204860302677532
+                ]
+              }
+            ]
+          }
+        },
+        "L-0a146d1567243a07f4d178cf": {
+          "patch": {
+            "condition": "не более; Провод марки АСТ, сечение: 95/141"
+          },
+          "rule": "Печатная таблица содержит повторённое наименование зажима с разными явно указанными проводами АСТ. Масса принадлежит своей строке провода; это реальная применимость, не противоречие масс и не искусственный номер строки. Число и единица не меняются.",
+          "evidence": {
+            "catalog": "armature",
+            "physical_page": 67,
+            "source_pdf_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+            "method": "direct_visual_pdf_crop_and_retained_product_row_context",
+            "render": "pgast-armature-67-table.png",
+            "mass_source_fact_id": "L-0a146d1567243a07f4d178cf",
+            "mass_source_pointer": "characteristics.jsonl:10659/raw",
+            "mass_original_value": "5,60",
+            "wire_source_fact_id": "L-d485fa0d258d231de151ae2d",
+            "wire_original_value": "95/141",
+            "retained_same_row_ours_fact_id": "O-f28d6319511bc49c86e70728",
+            "retained_row_values": [
+              "ПГАСТ-60П(19,8)",
+              "2",
+              "95/141",
+              "5,60",
+              "60,0"
+            ],
+            "source_mass_bbox": [
+              {
+                "page": 67,
+                "region": [
+                  0.492,
+                  0.1545256111757858,
+                  0.653,
+                  0.17130384167636786
+                ]
+              }
+            ]
+          }
+        },
+        "L-39d8e41faa2eef862e8c3086": {
+          "patch": {
+            "condition": "не более; Провод марки АСТ, сечение: 70/72"
+          },
+          "rule": "Печатная таблица содержит повторённое наименование зажима с разными явно указанными проводами АСТ. Масса принадлежит своей строке провода; это реальная применимость, не противоречие масс и не искусственный номер строки. Число и единица не меняются.",
+          "evidence": {
+            "catalog": "armature",
+            "physical_page": 67,
+            "source_pdf_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+            "method": "direct_visual_pdf_crop_and_retained_product_row_context",
+            "render": "pgast-armature-67-table.png",
+            "mass_source_fact_id": "L-39d8e41faa2eef862e8c3086",
+            "mass_source_pointer": "characteristics.jsonl:10655/raw",
+            "mass_original_value": "5,52",
+            "wire_source_fact_id": "L-41508de6f221d1f4ef6f62ae",
+            "wire_original_value": "70/72",
+            "retained_same_row_ours_fact_id": "O-63fa12fe911ebc1a4aadf5f1",
+            "retained_row_values": [
+              "ПГАСТ-60П(15,4)",
+              "2",
+              "70/72",
+              "5,52",
+              "60,0"
+            ],
+            "source_mass_bbox": [
+              {
+                "page": 67,
+                "region": [
+                  0.492,
+                  0.13774738067520373,
+                  0.653,
+                  0.1545256111757858
+                ]
+              }
+            ]
+          }
+        },
+        "L-3266f3d557e54ddbf185e78f": {
+          "patch": {
+            "condition": "не более; Провод марки АСТ, сечение: 205/27"
+          },
+          "rule": "Печатная таблица содержит повторённое наименование зажима с разными явно указанными проводами АСТ. Масса принадлежит своей строке провода; это реальная применимость, не противоречие масс и не искусственный номер строки. Число и единица не меняются.",
+          "evidence": {
+            "catalog": "armature",
+            "physical_page": 67,
+            "source_pdf_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+            "method": "direct_visual_pdf_crop_and_retained_product_row_context",
+            "render": "pgast-armature-67-table.png",
+            "mass_source_fact_id": "L-3266f3d557e54ddbf185e78f",
+            "mass_source_pointer": "characteristics.jsonl:10699/raw",
+            "mass_original_value": "5,64",
+            "wire_source_fact_id": "L-043c348b92875817b59e1630",
+            "wire_original_value": "205/27",
+            "retained_same_row_ours_fact_id": "O-c710c928aa77f69e22f5dea7",
+            "retained_row_values": [
+              "ПГАСТ-60П(19,8)",
+              "2",
+              "205/27",
+              "5,64",
+              "60,0"
+            ],
+            "source_mass_bbox": [
+              {
+                "page": 67,
+                "region": [
+                  0.492,
+                  0.3223079161816065,
+                  0.653,
+                  0.33908614668218856
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "failed_closed_candidate_conflicts": [
+    {
+      "catalog": "armature",
+      "key": [
+        "armature",
+        "model_parameter",
+        "ПГАСТ-60П(15,4)",
+        "Масса, кг не более",
+        null,
+        "не более"
+      ],
+      "other": {
+        "catalog": "armature",
+        "condition": "не более",
+        "id": "C-96dc68472b99dc0844c0eb93",
+        "kind": "model_parameter",
+        "model": "ПГАСТ-60П(15,4)",
+        "page": 67,
+        "parameter": "Масса, кг не более",
+        "part": null,
+        "producer_ref": "P-3130bfddaeebc3119662",
+        "source_fact_ids": [
+          "L-bacd2d5022547fc81d336d71"
+        ],
+        "state": "value",
+        "unit": "кг",
+        "value": "5,54"
+      },
+      "ours": {
+        "catalog": "armature",
+        "condition": "не более",
+        "id": "C-96dc68472b99dc0844c0eb93",
+        "kind": "model_parameter",
+        "model": "ПГАСТ-60П(15,4)",
+        "page": 67,
+        "parameter": "Масса, кг не более",
+        "part": null,
+        "producer_ref": "P-3130bfddaeebc3119662",
+        "source_fact_ids": [
+          "L-39d8e41faa2eef862e8c3086"
+        ],
+        "state": "value",
+        "unit": "кг",
+        "value": "5,52"
+      },
+      "page": 67,
+      "reason": "same physical key has different selected values"
+    },
+    {
+      "catalog": "armature",
+      "key": [
+        "armature",
+        "model_parameter",
+        "ПГАСТ-60П(19,8)",
+        "Масса, кг не более",
+        null,
+        "не более"
+      ],
+      "other": {
+        "catalog": "armature",
+        "condition": "не более",
+        "id": "C-5903048f3b777819b90226e7",
+        "kind": "model_parameter",
+        "model": "ПГАСТ-60П(19,8)",
+        "page": 67,
+        "parameter": "Масса, кг не более",
+        "part": null,
+        "producer_ref": "P-3130bfddaeebc3119662",
+        "source_fact_ids": [
+          "L-3266f3d557e54ddbf185e78f"
+        ],
+        "state": "value",
+        "unit": "кг",
+        "value": "5,64"
+      },
+      "ours": {
+        "catalog": "armature",
+        "condition": "не более",
+        "id": "C-5903048f3b777819b90226e7",
+        "kind": "model_parameter",
+        "model": "ПГАСТ-60П(19,8)",
+        "page": 67,
+        "parameter": "Масса, кг не более",
+        "part": null,
+        "producer_ref": "P-3130bfddaeebc3119662",
+        "source_fact_ids": [
+          "L-0a146d1567243a07f4d178cf"
+        ],
+        "state": "value",
+        "unit": "кг",
+        "value": "5,60"
+      },
+      "page": 67,
+      "reason": "same physical key has different selected values"
+    }
+  ],
+  "affected_source_fact_ids": [
+    "L-0a146d1567243a07f4d178cf",
+    "L-3266f3d557e54ddbf185e78f",
+    "L-39d8e41faa2eef862e8c3086",
+    "L-bacd2d5022547fc81d336d71"
+  ],
+  "source_version_note": "Указана фактическая программа сведения сохранённых артефактов. Отдельным исходным версиям извлечения не присваивается версия нового merge builder.",
+  "expected_behavior": "Различать реальные строки проводов АСТ70/72,120/27,95/141,205/27. Сохранять массы5,52/5,54/5,60/5,64кг у своих проводов. Не использовать номер строки как искусственное условие и не выбирать одну массу для всего обозначения.",
+  "new_model_calls": 0
+}

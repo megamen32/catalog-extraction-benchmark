@@ -1,0 +1,40 @@
+{
+  "id": "innovations186-equal-value-merge-loses-model-20261015",
+  "status": "pending_adjudication",
+  "priority": "high",
+  "category": "engineering_ownership",
+  "title": "Равные числа схлопнуты с потерей конкретной модели зажима",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 186
+  },
+  "review_basis": "Source-bound retained extraction packets and exact draft2/final record excerpts; PDF rows visually checked in source scope profile. Final source build602a951 identified separately from earlier dirty draft builder. No new OCR, providers, source PDF publication or frozen benchmark scoring.",
+  "artifacts": [
+    {
+      "path": "objects/36f3d6cb5f2e238ee70343eb4f1e1ef9229514cd1bc30a453d3e96b4d4e10099.json",
+      "sha256": "36f3d6cb5f2e238ee70343eb4f1e1ef9229514cd1bc30a453d3e96b4d4e10099",
+      "bytes": 148851,
+      "role": "exact-retained-dual-extraction-input",
+      "program_version": "1.0.0",
+      "bad_builder_git_revision": "b3fe396960058ddffe1b0d1079565d2335e5ea11",
+      "bad_builder_source_sha256": "f5409d859cff7c1b998cafff589004f43ddafcf67beeb54b0b566d849edb5801",
+      "bad_builder_source_modified": true,
+      "fixed_builder_git_revision": "602a9515485da958b700969234792cbcaf951512"
+    },
+    {
+      "path": "objects/9e7cb3fbd62420a35c5d85ee6a052fc0679f055f1b51a4286db0cba7fe8356fc.json",
+      "sha256": "9e7cb3fbd62420a35c5d85ee6a052fc0679f055f1b51a4286db0cba7fe8356fc",
+      "bytes": 60666,
+      "role": "exact-saved-bad-fixed-record-excerpts-with-source-scope",
+      "program_version": "1.0.0",
+      "bad_builder_git_revision": "b3fe396960058ddffe1b0d1079565d2335e5ea11",
+      "bad_builder_source_sha256": "f5409d859cff7c1b998cafff589004f43ddafcf67beeb54b0b566d849edb5801",
+      "bad_builder_source_modified": true,
+      "fixed_builder_git_revision": "602a9515485da958b700969234792cbcaf951512"
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "Сохранять конкретную модель ОАБ 70-120 / ОАБ 150-185 / ОАБ 205-240 из явно ограниченных объединённых ячеек. Равное значение само по себе не разрешает терять model/part/condition/unit. Не переносить на другие модели и не выдумывать значения пустой массы.",
+  "coverage_note": "Pending only. Tests merge ownership/applicability, not a new500/520 fact score."
+}

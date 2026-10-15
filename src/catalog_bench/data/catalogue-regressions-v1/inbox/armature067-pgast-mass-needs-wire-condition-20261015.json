@@ -1,0 +1,40 @@
+{
+  "id": "armature067-pgast-mass-needs-wire-condition-20261015",
+  "status": "pending_adjudication",
+  "priority": "high",
+  "category": "application_condition",
+  "title": "Масса ПГАСТ в арматурном каталоге потеряла условие марки провода",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 67
+  },
+  "review_basis": "Source-bound retained extraction packets and exact draft2/final record excerpts; PDF rows visually checked in source scope profile. Final source build602a951 identified separately from earlier dirty draft builder. No new OCR, providers, source PDF publication or frozen benchmark scoring.",
+  "artifacts": [
+    {
+      "path": "objects/84c471d1b78bc4cc58843da7272b95e8c2a7af77f26a32aca304aef4ab986984.json",
+      "sha256": "84c471d1b78bc4cc58843da7272b95e8c2a7af77f26a32aca304aef4ab986984",
+      "bytes": 548409,
+      "role": "exact-retained-dual-extraction-input",
+      "program_version": "1.0.0",
+      "bad_builder_git_revision": "b3fe396960058ddffe1b0d1079565d2335e5ea11",
+      "bad_builder_source_sha256": "f5409d859cff7c1b998cafff589004f43ddafcf67beeb54b0b566d849edb5801",
+      "bad_builder_source_modified": true,
+      "fixed_builder_git_revision": "602a9515485da958b700969234792cbcaf951512"
+    },
+    {
+      "path": "objects/18a665f6798dbabf069ea93c2476b629617d8cd2fd004f3ff9de62b3cbdde97b.json",
+      "sha256": "18a665f6798dbabf069ea93c2476b629617d8cd2fd004f3ff9de62b3cbdde97b",
+      "bytes": 17016,
+      "role": "exact-saved-bad-fixed-record-excerpts-with-source-scope",
+      "program_version": "1.0.0",
+      "bad_builder_git_revision": "b3fe396960058ddffe1b0d1079565d2335e5ea11",
+      "bad_builder_source_sha256": "f5409d859cff7c1b998cafff589004f43ddafcf67beeb54b0b566d849edb5801",
+      "bad_builder_source_modified": true,
+      "fixed_builder_git_revision": "602a9515485da958b700969234792cbcaf951512"
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "Различать реальные строки проводов АСТ70/72,120/27,95/141,205/27. Сохранять массы5,52/5,54/5,60/5,64кг у своих проводов. Не использовать номер строки как искусственное условие и не выбирать одну массу для всего обозначения.",
+  "coverage_note": "Pending only. Tests merge ownership/applicability, not a new500/520 fact score."
+}
