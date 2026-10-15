@@ -1,0 +1,699 @@
+{
+  "schema_version": "catalogue-owner-merge-regression-evidence/1",
+  "catalog": "armature",
+  "source_sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+  "physical_page": 145,
+  "input_fact_store_sha256": "05409d87f09123705fc1a0f21aa20727961dcf4351128d29497a0660978eec8d",
+  "input_ledger_sha256": "1d1fe979355d046a91ac2f619ed52e174a3ffe563fa7eba4ff7625bd91b19cb8",
+  "work_packet_sha256": "db5a56bfb771a2707f84421f7cfe5e006220865276f8f940a2139f56f6553688",
+  "work_sha256": "4fa65a76e8595b52f38df9ab358d27e3d44975fa7104bc25ffa5a65a4d21de08",
+  "actual_merge_producer": {
+    "role": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "model": "gpt-6.1-sol",
+    "runtime": "Codex native differences-only merge",
+    "program_version": "1.5.26"
+  },
+  "source_evidence": [
+    {
+      "bbox": [
+        0.08,
+        0.07,
+        0.93,
+        0.94
+      ],
+      "observation": "ZPS8families15physicalrows. EachGOST/diametercolumnhasOWNrowspanboundary: ZPS50diameter9.2coversGOST3064andupper3062row,9.8lower3062row. ZPS70GOST3064/3062share11.5row, whoseL/L1/L2/Ssourcecells areseparatelyEMPTY; Olegfamily102/42/38/7cannotapplyto11.5row. Chooseexistingoursrowboundtable. D/d/matrix/masssharedrangesremain, rope-diameterunitnotprintedunlikegeometrymmparent. Vmodificationstampedaluminium notdifferentvoltage."
+    }
+  ],
+  "original_typed_facts": [
+    {
+      "fact_index": 28,
+      "fact_id": "L-22f3a3074b5e8dd340e7b6e9",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:57520/raw",
+      "owner": "ЗПС-70-3В",
+      "name": "Стальные канаты ГОСТ",
+      "value": "3063-80\n3064-80\n3062-80",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        145
+      ],
+      "input_fact_sha256": "fecfa66eeb8bf958165fc53ef2b8a083dc5c0b497caa200978c6e7d6b727f320",
+      "input_line": 66895,
+      "raw_context": "raw-a2e99107067e3bf675290bd4fa9af7c68d1305004f66307a1d8804ccf449f9f0",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-c08c1ef92969b91f89c69dd4",
+        "window_id": "W-425da1529bc531bf1a4b70b1",
+        "group_id": "G-84b24b2f36e86043212c4d3e",
+        "product_id": "P-48102b6ca6bcef68a015afea",
+        "group_title": "Зажимы заземляющие типа ЗПС",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 29,
+      "fact_id": "L-e918b7a692a4e02d64f61bae",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:57521/raw",
+      "owner": "ЗПС-70-3В",
+      "name": "Диаметр каната",
+      "value": "11\n11,5",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        145
+      ],
+      "input_fact_sha256": "95eb5a5b4ee9cdbde5e3d21c4940f9e2037ff2cffa9dab5e420ced1e18b501b5",
+      "input_line": 66896,
+      "raw_context": "raw-85cac267c118d00f1cebb2de25fb78c410b32bd97db0d56a983948f3d88a96e7",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-c51b303f289b2e55427ebc77",
+        "window_id": "W-425da1529bc531bf1a4b70b1",
+        "group_id": "G-84b24b2f36e86043212c4d3e",
+        "product_id": "P-48102b6ca6bcef68a015afea",
+        "group_title": "Зажимы заземляющие типа ЗПС",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 32,
+      "fact_id": "L-886941e857eb8b666aab8fbe",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:57524/raw",
+      "owner": "ЗПС-70-3В",
+      "name": "L",
+      "value": "102",
+      "unit": "мм",
+      "condition": "",
+      "physical_pages": [
+        145
+      ],
+      "input_fact_sha256": "184507897a41420df8b27fa4e4ed733ed62909f93df71cb8dced72d2a0d056ad",
+      "input_line": 66899,
+      "raw_context": "raw-549b4ab931c7e98b978992a44cc0dd81025983f16c901dc754ab15b275f6f8cc",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-57c7b0ec8d2ca44fe86a6d97",
+        "window_id": "W-425da1529bc531bf1a4b70b1",
+        "group_id": "G-84b24b2f36e86043212c4d3e",
+        "product_id": "P-48102b6ca6bcef68a015afea",
+        "group_title": "Зажимы заземляющие типа ЗПС",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 33,
+      "fact_id": "L-e3bedee510659fc5dd5a6cf7",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:57525/raw",
+      "owner": "ЗПС-70-3В",
+      "name": "L₁",
+      "value": "42",
+      "unit": "мм",
+      "condition": "",
+      "physical_pages": [
+        145
+      ],
+      "input_fact_sha256": "7b1e82f63c1400eccc0648852701e964729e3793b25bdbd42b0c9537c53e5f18",
+      "input_line": 66900,
+      "raw_context": "raw-7da883b1b7cbba3e4db49302f0754367bdc94c347d4a53401af08d9c6938871f",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-c28c0a2a6a1619cd56fd2894",
+        "window_id": "W-425da1529bc531bf1a4b70b1",
+        "group_id": "G-84b24b2f36e86043212c4d3e",
+        "product_id": "P-48102b6ca6bcef68a015afea",
+        "group_title": "Зажимы заземляющие типа ЗПС",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 34,
+      "fact_id": "L-39e2bf7ae0a8c8fff63e1f0a",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:57526/raw",
+      "owner": "ЗПС-70-3В",
+      "name": "L₂",
+      "value": "38",
+      "unit": "мм",
+      "condition": "",
+      "physical_pages": [
+        145
+      ],
+      "input_fact_sha256": "a71b43266d5232597604f9c843c1f649475a003e5bce636892f421857e88b09b",
+      "input_line": 66901,
+      "raw_context": "raw-0cba1e9c36dba131a4c7e4f8a5252ea32936eee929bee5b014bac24f81143526",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-2fcd212200119654f8f6e43e",
+        "window_id": "W-425da1529bc531bf1a4b70b1",
+        "group_id": "G-84b24b2f36e86043212c4d3e",
+        "product_id": "P-48102b6ca6bcef68a015afea",
+        "group_title": "Зажимы заземляющие типа ЗПС",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 35,
+      "fact_id": "L-74c9d19f1541129fc1188a68",
+      "side": "oleg",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "characteristics.jsonl:57527/raw",
+      "owner": "ЗПС-70-3В",
+      "name": "S",
+      "value": "7",
+      "unit": "мм",
+      "condition": "",
+      "physical_pages": [
+        145
+      ],
+      "input_fact_sha256": "8a85a19c5cce5c5b96ad49dd6b620083083035cb5bd63d12aedad9e2abe0c8a4",
+      "input_line": 66902,
+      "raw_context": "raw-c876fc06b5c24138f9e81889018a76f46dee3569c4be3a7d17913f673e10eab3",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-a1a18ba4e13a3993cc81b66d",
+        "window_id": "W-425da1529bc531bf1a4b70b1",
+        "group_id": "G-84b24b2f36e86043212c4d3e",
+        "product_id": "P-48102b6ca6bcef68a015afea",
+        "group_title": "Зажимы заземляющие типа ЗПС",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_index": 149,
+      "fact_id": "O-816ddfbaf69850cfc71ba246",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/144/content/tables/0/rows/5/cells/1",
+      "owner": "ЗПС-70-3В",
+      "name": "Стальные канаты ГОСТ",
+      "value": "3063-80",
+      "unit": null,
+      "condition": null,
+      "physical_pages": [
+        145
+      ],
+      "input_fact_sha256": "65c2402bf1f7dd89ed515dcb8a34c0c3edfb8a5ff0966d5ff895c971d6dda79c",
+      "input_line": 176799,
+      "row_context": "row-5726b19d26d07cb861dc3294c6e2cde58e94b6ec1311d42f5b1ef51e6f01b8f8",
+      "raw_context": "raw-2032aa63e0ffd893a2a7fa93802cbb95af95fa51370d68f94115127ceeb5a58d",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 5,
+        "column_index": 1,
+        "table_title": "Зажимы типа ЗПС-3В: стальные канаты по ГОСТ, диаметр каната, размеры, матрица опрессования, масса",
+        "column": {
+          "id": "gost",
+          "label": "Стальные канаты ГОСТ",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "903617c2ca26680d3f322f791e09f72d8daadcee2f809736a7cd4dd6a5d4cbf3",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 150,
+      "fact_id": "O-06d7db31aebdf40d7d573d35",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/144/content/tables/0/rows/5/cells/2",
+      "owner": "ЗПС-70-3В",
+      "name": "Диаметр каната",
+      "value": "11",
+      "unit": null,
+      "condition": null,
+      "physical_pages": [
+        145
+      ],
+      "input_fact_sha256": "f67af5911559106b974d80455140ac796be3dc2d3453dec927cf7abcdf0a3dbd",
+      "input_line": 176800,
+      "row_context": "row-5726b19d26d07cb861dc3294c6e2cde58e94b6ec1311d42f5b1ef51e6f01b8f8",
+      "raw_context": "raw-7d8c6314d9adb7745038b1b8ce822a5f739385774ae5835e15ee724e1e305d60",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 5,
+        "column_index": 2,
+        "table_title": "Зажимы типа ЗПС-3В: стальные канаты по ГОСТ, диаметр каната, размеры, матрица опрессования, масса",
+        "column": {
+          "id": "diam",
+          "label": "Диаметр каната",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "903617c2ca26680d3f322f791e09f72d8daadcee2f809736a7cd4dd6a5d4cbf3",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 153,
+      "fact_id": "O-c2c41602a2a4afa7e1f22199",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/144/content/tables/0/rows/5/cells/5",
+      "owner": "ЗПС-70-3В",
+      "name": "L",
+      "value": "102",
+      "unit": "мм",
+      "condition": null,
+      "physical_pages": [
+        145
+      ],
+      "input_fact_sha256": "1fbd5da08d1d632601342db3198c5c7299f28ef2b538936ab644b926eb37b15a",
+      "input_line": 176803,
+      "row_context": "row-5726b19d26d07cb861dc3294c6e2cde58e94b6ec1311d42f5b1ef51e6f01b8f8",
+      "raw_context": "raw-852f5b6d0663d817ad1fd7dbcc8b09380d2fdd283050fa28ef7adf7069cb7b42",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 5,
+        "column_index": 5,
+        "table_title": "Зажимы типа ЗПС-3В: стальные канаты по ГОСТ, диаметр каната, размеры, матрица опрессования, масса",
+        "column": {
+          "id": "L",
+          "label": "L",
+          "unit": "мм",
+          "group": "Размеры, мм",
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "903617c2ca26680d3f322f791e09f72d8daadcee2f809736a7cd4dd6a5d4cbf3",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 154,
+      "fact_id": "O-2e80b5cdacfd6fe763694058",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/144/content/tables/0/rows/5/cells/6",
+      "owner": "ЗПС-70-3В",
+      "name": "L1",
+      "value": "42",
+      "unit": "мм",
+      "condition": null,
+      "physical_pages": [
+        145
+      ],
+      "input_fact_sha256": "1754c99d60affe56428a6181a4b689c3c53f2e6f7527089b3a8a7e2b72c99337",
+      "input_line": 176804,
+      "row_context": "row-5726b19d26d07cb861dc3294c6e2cde58e94b6ec1311d42f5b1ef51e6f01b8f8",
+      "raw_context": "raw-f337a418f1dad52499d7b988103cacfa56c84ccd4e087125f675d0ac62ce0e81",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 5,
+        "column_index": 6,
+        "table_title": "Зажимы типа ЗПС-3В: стальные канаты по ГОСТ, диаметр каната, размеры, матрица опрессования, масса",
+        "column": {
+          "id": "L1",
+          "label": "L1",
+          "unit": "мм",
+          "group": "Размеры, мм",
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "903617c2ca26680d3f322f791e09f72d8daadcee2f809736a7cd4dd6a5d4cbf3",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 155,
+      "fact_id": "O-63382410df6c803abeb185c3",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/144/content/tables/0/rows/5/cells/7",
+      "owner": "ЗПС-70-3В",
+      "name": "L2",
+      "value": "38",
+      "unit": "мм",
+      "condition": null,
+      "physical_pages": [
+        145
+      ],
+      "input_fact_sha256": "4ae3292176d46c9592721fd5d590980e9ab7e9503e8e503cf86865283ba7aa32",
+      "input_line": 176805,
+      "row_context": "row-5726b19d26d07cb861dc3294c6e2cde58e94b6ec1311d42f5b1ef51e6f01b8f8",
+      "raw_context": "raw-8dcd065de474ed4ddcd2842a0c0a14055fae05ab59a74af762e996de3480b0e4",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 5,
+        "column_index": 7,
+        "table_title": "Зажимы типа ЗПС-3В: стальные канаты по ГОСТ, диаметр каната, размеры, матрица опрессования, масса",
+        "column": {
+          "id": "L2",
+          "label": "L2",
+          "unit": "мм",
+          "group": "Размеры, мм",
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "903617c2ca26680d3f322f791e09f72d8daadcee2f809736a7cd4dd6a5d4cbf3",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 156,
+      "fact_id": "O-07b5d983f6d8e9c399dd190d",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/144/content/tables/0/rows/5/cells/8",
+      "owner": "ЗПС-70-3В",
+      "name": "S",
+      "value": "7",
+      "unit": "мм",
+      "condition": null,
+      "physical_pages": [
+        145
+      ],
+      "input_fact_sha256": "ddc6d4ed9048d5383985eec659a5b4a45568ef0b888656cdd79245c18afa1a88",
+      "input_line": 176806,
+      "row_context": "row-5726b19d26d07cb861dc3294c6e2cde58e94b6ec1311d42f5b1ef51e6f01b8f8",
+      "raw_context": "raw-5d237070f1678c692f17ac1c12dfe0e43793bf39e30f776575087bc490f39c0f",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 5,
+        "column_index": 8,
+        "table_title": "Зажимы типа ЗПС-3В: стальные канаты по ГОСТ, диаметр каната, размеры, матрица опрессования, масса",
+        "column": {
+          "id": "S",
+          "label": "S",
+          "unit": "мм",
+          "group": "Размеры, мм",
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "903617c2ca26680d3f322f791e09f72d8daadcee2f809736a7cd4dd6a5d4cbf3",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 160,
+      "fact_id": "O-23fabfd55aec8f77ed185f62",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/144/content/tables/0/rows/6/cells/1",
+      "owner": "ЗПС-70-3В",
+      "name": "Стальные канаты ГОСТ",
+      "value": "3064-80\n3062-80",
+      "unit": null,
+      "condition": null,
+      "physical_pages": [
+        145
+      ],
+      "input_fact_sha256": "97ed537684975716d1e0150d03aded00e3d05aa3d599d5a402ffef2eeda51c69",
+      "input_line": 176810,
+      "row_context": "row-7ab2913de43da43a2ecf4bc45a77c5f31c77855044609941b1a833596b94198e",
+      "raw_context": "raw-a9ed06da6debf237d3387e7dce1bfe04f719e3b119c043363eb4e4c4d3cff525",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 6,
+        "column_index": 1,
+        "table_title": "Зажимы типа ЗПС-3В: стальные канаты по ГОСТ, диаметр каната, размеры, матрица опрессования, масса",
+        "column": {
+          "id": "gost",
+          "label": "Стальные канаты ГОСТ",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "903617c2ca26680d3f322f791e09f72d8daadcee2f809736a7cd4dd6a5d4cbf3",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 161,
+      "fact_id": "O-651ef527519763f42e8ca437",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/144/content/tables/0/rows/6/cells/2",
+      "owner": "ЗПС-70-3В",
+      "name": "Диаметр каната",
+      "value": "11,5",
+      "unit": null,
+      "condition": null,
+      "physical_pages": [
+        145
+      ],
+      "input_fact_sha256": "05081edd586a65aed05fa037b482fa571f4afbddb0ec68036bcb234ef054a869",
+      "input_line": 176811,
+      "row_context": "row-7ab2913de43da43a2ecf4bc45a77c5f31c77855044609941b1a833596b94198e",
+      "raw_context": "raw-1e5c2337b547c3af84aea7cb23de9b2b9722ea6960ea084f58eb917c8e7d19d7",
+      "metadata": {
+        "raw_value_type": "str",
+        "table_index": 0,
+        "row_index": 6,
+        "column_index": 2,
+        "table_title": "Зажимы типа ЗПС-3В: стальные канаты по ГОСТ, диаметр каната, размеры, матрица опрессования, масса",
+        "column": {
+          "id": "diam",
+          "label": "Диаметр каната",
+          "unit": null,
+          "group": null,
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "903617c2ca26680d3f322f791e09f72d8daadcee2f809736a7cd4dd6a5d4cbf3",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 164,
+      "fact_id": "O-a241369bd7d61f684ad4803f",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/144/content/tables/0/rows/6/cells/5",
+      "owner": "ЗПС-70-3В",
+      "name": "L",
+      "value": null,
+      "unit": "мм",
+      "condition": null,
+      "physical_pages": [
+        145
+      ],
+      "input_fact_sha256": "16a6d1c01a6a6cb302e1593ca525d25dff030f5637e69dce1f219e2f1bae2240",
+      "input_line": 176814,
+      "row_context": "row-7ab2913de43da43a2ecf4bc45a77c5f31c77855044609941b1a833596b94198e",
+      "raw_context": "raw-19d7c3c0f122a92bd165ef3326c02c80097c4c6051ceb74422791be01dc3d4a1",
+      "metadata": {
+        "raw_value_type": "NoneType",
+        "table_index": 0,
+        "row_index": 6,
+        "column_index": 5,
+        "table_title": "Зажимы типа ЗПС-3В: стальные канаты по ГОСТ, диаметр каната, размеры, матрица опрессования, масса",
+        "column": {
+          "id": "L",
+          "label": "L",
+          "unit": "мм",
+          "group": "Размеры, мм",
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "903617c2ca26680d3f322f791e09f72d8daadcee2f809736a7cd4dd6a5d4cbf3",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 165,
+      "fact_id": "O-c85fb1b7371e46d8548ecca7",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/144/content/tables/0/rows/6/cells/6",
+      "owner": "ЗПС-70-3В",
+      "name": "L1",
+      "value": null,
+      "unit": "мм",
+      "condition": null,
+      "physical_pages": [
+        145
+      ],
+      "input_fact_sha256": "89506b615b2ba583f473111f251e4aa795b610bb497a7d12212a8bfe35e481bd",
+      "input_line": 176815,
+      "row_context": "row-7ab2913de43da43a2ecf4bc45a77c5f31c77855044609941b1a833596b94198e",
+      "raw_context": "raw-58714ccd950154ed2d56b8789c99236744693914782bd8e45319f971f18ca100",
+      "metadata": {
+        "raw_value_type": "NoneType",
+        "table_index": 0,
+        "row_index": 6,
+        "column_index": 6,
+        "table_title": "Зажимы типа ЗПС-3В: стальные канаты по ГОСТ, диаметр каната, размеры, матрица опрессования, масса",
+        "column": {
+          "id": "L1",
+          "label": "L1",
+          "unit": "мм",
+          "group": "Размеры, мм",
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "903617c2ca26680d3f322f791e09f72d8daadcee2f809736a7cd4dd6a5d4cbf3",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 166,
+      "fact_id": "O-532a0ecf7954c77ea6400370",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/144/content/tables/0/rows/6/cells/7",
+      "owner": "ЗПС-70-3В",
+      "name": "L2",
+      "value": null,
+      "unit": "мм",
+      "condition": null,
+      "physical_pages": [
+        145
+      ],
+      "input_fact_sha256": "557f43103635ebc9a01710cdec7aa3a4b1a4f5528f47cd2cfbb9f7ea607667e8",
+      "input_line": 176816,
+      "row_context": "row-7ab2913de43da43a2ecf4bc45a77c5f31c77855044609941b1a833596b94198e",
+      "raw_context": "raw-2c79a1026dcf6aaa1a02233f4e7bb9442309aa65837975eab6364db0845c20bf",
+      "metadata": {
+        "raw_value_type": "NoneType",
+        "table_index": 0,
+        "row_index": 6,
+        "column_index": 7,
+        "table_title": "Зажимы типа ЗПС-3В: стальные канаты по ГОСТ, диаметр каната, размеры, матрица опрессования, масса",
+        "column": {
+          "id": "L2",
+          "label": "L2",
+          "unit": "мм",
+          "group": "Размеры, мм",
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "903617c2ca26680d3f322f791e09f72d8daadcee2f809736a7cd4dd6a5d4cbf3",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_index": 167,
+      "fact_id": "O-c3a51420af77beedfd6cbd5e",
+      "side": "ours",
+      "catalog": "armature",
+      "kind": "model_parameter",
+      "pointer": "/catalogs/4/pages/144/content/tables/0/rows/6/cells/8",
+      "owner": "ЗПС-70-3В",
+      "name": "S",
+      "value": null,
+      "unit": "мм",
+      "condition": null,
+      "physical_pages": [
+        145
+      ],
+      "input_fact_sha256": "da854c52c4ca93425bdeb005cfeb329e9d868c3b81176aa112ed12dba0f0d857",
+      "input_line": 176817,
+      "row_context": "row-7ab2913de43da43a2ecf4bc45a77c5f31c77855044609941b1a833596b94198e",
+      "raw_context": "raw-2d4018ba8f5a302952a72009d7d5472b320a1f610da90b8b835ac7c031cc4913",
+      "metadata": {
+        "raw_value_type": "NoneType",
+        "table_index": 0,
+        "row_index": 6,
+        "column_index": 8,
+        "table_title": "Зажимы типа ЗПС-3В: стальные канаты по ГОСТ, диаметр каната, размеры, матрица опрессования, масса",
+        "column": {
+          "id": "S",
+          "label": "S",
+          "unit": "мм",
+          "group": "Размеры, мм",
+          "qualifier": null
+        },
+        "owner_column_index": 0,
+        "owner_scope": "",
+        "candidate_sha256": "903617c2ca26680d3f322f791e09f72d8daadcee2f809736a7cd4dd6a5d4cbf3",
+        "previously_accepted": true
+      }
+    }
+  ],
+  "owner_groups": [
+    {
+      "fact_indices": [
+        2,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169
+      ],
+      "relation": "variant_options",
+      "keep": "ours",
+      "reason": "Существенный дефект области действия у Олега: общий наборL102/L142/L238/S7 относится только к диаметру11 в строкеГОСТ3063-80. Для11,5 с общей ячейкойГОСТ3064-80/3062-80 четыре отдельные ячейки физически пусты. Выбрана существующая наша явная привязка строк, исходные ошибочные общие значения Олега сохранены только альтернативами.",
+      "evidence_refs": [
+        0
+      ]
+    }
+  ]
+}

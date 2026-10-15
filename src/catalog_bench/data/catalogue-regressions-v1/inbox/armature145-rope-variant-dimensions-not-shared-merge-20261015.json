@@ -1,0 +1,25 @@
+{
+  "id": "armature145-rope-variant-dimensions-not-shared-merge-20261015",
+  "status": "pending_adjudication",
+  "priority": "high",
+  "category": "merged_cells",
+  "title": "Размеры варианта каната11 ошибочно распространены на отдельные пустые ячейки11,5",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 145
+  },
+  "review_basis": "Native Codex inspected original physical table. Every column has its own rowspan boundaries; owner merge only, final independent oracle adjudication deferred. No new model benchmark or frozen score changes.",
+  "artifacts": [
+    {
+      "path": "objects/2b3c10e52fe986725ab25b123d5da1426cbb971755e5d920140ff6a958689fdd.json",
+      "sha256": "2b3c10e52fe986725ab25b123d5da1426cbb971755e5d920140ff6a958689fdd",
+      "bytes": 25866,
+      "role": "merge-adjudicator",
+      "program_version": "1.5.26",
+      "model": "gpt-6.1-sol"
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "For ZPS70-3V rope 11 / GOST3063-80 only: L=102, L1=42, L2=38, S=7. The rope 11.5 row with GOST3064-80/3062-80 has four separately EMPTY cells. Do not broadcast one family parameter to all compatible-wire variants; retain row association and original typed blank."
+}
