@@ -1,0 +1,25 @@
+{
+  "id": "innovations120-separate-empty-l5-s-l1-l4-merge-20261015",
+  "status": "pending_adjudication",
+  "priority": "high",
+  "category": "merged_cells",
+  "title": "Шесть отдельных пустых ячеек ошибочно заполнены соседними значениями",
+  "source": {
+    "filename": "Katalog-Innovacionnye-izdelija-2021-2022.pdf",
+    "sha256": "4542d9a0146122e5d2dc4d8d73895baa2bb4eb1349d3b439076efe5c2af4a6ee",
+    "physical_page": 120
+  },
+  "review_basis": "Native Codex original4xmagnification; header and full horizontal rowboundaries observed. Differentcatalogueeditionsnotassumedidentical.",
+  "artifacts": [
+    {
+      "path": "objects/86b842e32f001ff913ceca41b7152e69e9e97f0df67612a6d60aed164ba7e967.json",
+      "sha256": "86b842e32f001ff913ceca41b7152e69e9e97f0df67612a6d60aed164ba7e967",
+      "bytes": 861128,
+      "role": "merge-adjudicator",
+      "program_version": "1.5.26",
+      "model": "gpt-6.1-sol"
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "Source24056rowseparatelyemptyL5/S,not188/12fromnext300family. Source33043rowseparatelyemptyL1/L2/L3/L4,not120/125/140/155from33030. Olegcopieswrongneighbors;existingoursNonepreserved. ThisPDFhasdifferentblankbordersfromanothercatalogue, source-specificoracle."
+}
