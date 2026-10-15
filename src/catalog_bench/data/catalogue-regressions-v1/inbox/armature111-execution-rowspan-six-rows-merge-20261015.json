@@ -1,0 +1,25 @@
+{
+  "id": "armature111-execution-rowspan-six-rows-merge-20261015",
+  "status": "pending_adjudication",
+  "priority": "high",
+  "category": "merged_cells",
+  "title": "Объединённое Исполнение2 ошибочно прочитано как1 в шести строках",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 111
+  },
+  "review_basis": "Native Codex visually inspected original source and exact typed facts; owner merge, final independent oracle deferred. No new model benchmark or frozen score changes.",
+  "artifacts": [
+    {
+      "path": "objects/71a9a6c8a0ddd36f17a3fc142ff8dac18334464ebaf37bd57cb06407fc84c4f8.json",
+      "sha256": "71a9a6c8a0ddd36f17a3fc142ff8dac18334464ebaf37bd57cb06407fc84c4f8",
+      "bytes": 132798,
+      "role": "merge-adjudicator",
+      "program_version": "1.5.26",
+      "model": "gpt-6.1-sol"
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "NMZ180-1/2/3 and NMZ200-1/2/3 lie inside source merged Исполнение2 cell beginning after NMZ160-3. Printed2 centered near NMZ240 is not a boundary. Oleg six1 are wrong, existing ours six2 are correct."
+}

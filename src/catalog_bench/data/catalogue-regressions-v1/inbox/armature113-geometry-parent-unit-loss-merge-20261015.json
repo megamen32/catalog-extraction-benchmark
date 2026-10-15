@@ -1,0 +1,25 @@
+{
+  "id": "armature113-geometry-parent-unit-loss-merge-20261015",
+  "status": "pending_adjudication",
+  "priority": "high",
+  "category": "units",
+  "title": "Потеряны18 единиц размеров клыковых зажимов",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 113
+  },
+  "review_basis": "Native Codex visually inspected original source and exact typed facts; owner merge, final independent oracle deferred. No new model benchmark or frozen score changes.",
+  "artifacts": [
+    {
+      "path": "objects/f7cab86abb6ef1d62d3cc41eefbee54c108d4870bedb3c2283d8710641995d6c.json",
+      "sha256": "f7cab86abb6ef1d62d3cc41eefbee54c108d4870bedb3c2283d8710641995d6c",
+      "bytes": 55361,
+      "role": "merge-adjudicator",
+      "program_version": "1.5.26",
+      "model": "gpt-6.1-sol"
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "A/В/d/H/L/R source parent header Размеры, мм applies to3KS models. Grip load75/86/138kN minimum applies to THREE installed clamps; do not extend geometry unit onto rope diameter column."
+}

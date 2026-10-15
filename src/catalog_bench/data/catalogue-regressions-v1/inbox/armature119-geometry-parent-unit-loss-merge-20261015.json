@@ -1,0 +1,25 @@
+{
+  "id": "armature119-geometry-parent-unit-loss-merge-20261015",
+  "status": "pending_adjudication",
+  "priority": "high",
+  "category": "units",
+  "title": "Потеряны единицы60 многострочных размерных ячеек",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 119
+  },
+  "review_basis": "Native Codex visually inspected original source and exact typed facts; owner merge, final independent oracle deferred. No new model benchmark or frozen score changes.",
+  "artifacts": [
+    {
+      "path": "objects/b69029fbd7266f10ee6557acd5db199677fbc0660f089ac5640e18d911909884.json",
+      "sha256": "b69029fbd7266f10ee6557acd5db199677fbc0660f089ac5640e18d911909884",
+      "bytes": 218746,
+      "role": "merge-adjudicator",
+      "program_version": "1.5.26",
+      "model": "gpt-6.1-sol"
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "Five geometry columns d/D/В/L/L1 share Размеры, мм for12families with ordered body/bushing sublines. Oleg has explicit source мм; ours units missing. Preserve part order and exact scalars; replace entire legacy table only after accounting for all cells."
+}

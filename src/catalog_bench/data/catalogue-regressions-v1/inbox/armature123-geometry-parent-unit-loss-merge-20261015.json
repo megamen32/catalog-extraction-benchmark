@@ -1,0 +1,25 @@
+{
+  "id": "armature123-geometry-parent-unit-loss-merge-20261015",
+  "status": "pending_adjudication",
+  "priority": "high",
+  "category": "units",
+  "title": "Потеряны119 единиц размерных полей общей шапки",
+  "source": {
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 123
+  },
+  "review_basis": "Native Codex visually inspected original source and exact typed facts; owner merge, final independent oracle deferred. No new model benchmark or frozen score changes.",
+  "artifacts": [
+    {
+      "path": "objects/6e24ee399a441a49e7ea43f1015f8b69693b7229cdf48952dd2a77bf20315b41.json",
+      "sha256": "6e24ee399a441a49e7ea43f1015f8b69693b7229cdf48952dd2a77bf20315b41",
+      "bytes": 366765,
+      "role": "merge-adjudicator",
+      "program_version": "1.5.26",
+      "model": "gpt-6.1-sol"
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "Seven geometry columns D/d/D1/d1/L/L1/L2 share parent header Размеры, мм; all17physicalrows require source unit. Existing Oleg fields carry мм, ours missing units. Select exact Oleg fields without changing numeric values."
+}
