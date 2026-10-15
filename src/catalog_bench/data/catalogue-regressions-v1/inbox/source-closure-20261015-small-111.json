@@ -1,0 +1,21 @@
+{
+  "id": "source-closure-20261015-small-111",
+  "title": "Source-bound closure and retained extraction defects: small PDF111",
+  "category": "retained-merge-source-review",
+  "status": "pending_adjudication",
+  "source": {
+    "catalog": "small",
+    "filename": "Malyj-katalog.pdf",
+    "sha256": "25b5c21bcc88bfc7c40d707a5907bbed77ba115195fa174e6e1b568d2a5f8e49",
+    "physical_page": 111
+  },
+  "review_basis": "Original PDF image personally reviewed by two native Codex agents. Preserve drawing values and ownership, reject stale flags and false interpretations. Pending source-bound regression; no automatic oracle.",
+  "artifacts": [
+    {
+      "path": "objects/0546d331ba55170c8bb962b9c4f687293fec1623eb7d070b9f1786b688e4085c.json",
+      "sha256": "0546d331ba55170c8bb962b9c4f687293fec1623eb7d070b9f1786b688e4085c"
+    }
+  ],
+  "assertions": [],
+  "coverage_note": "No frozen500/520 score changes or model runs"
+}

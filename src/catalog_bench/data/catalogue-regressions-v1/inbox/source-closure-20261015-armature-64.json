@@ -1,0 +1,21 @@
+{
+  "id": "source-closure-20261015-armature-64",
+  "title": "Source-bound closure and retained extraction defects: armature PDF64",
+  "category": "retained-merge-source-review",
+  "status": "pending_adjudication",
+  "source": {
+    "catalog": "armature",
+    "filename": "Katalog-ARMATURA.pdf",
+    "sha256": "c8cb0bf124607d1f5f9de18fc48d467033262b9f43c205a582b01521e5aaab4e",
+    "physical_page": 64
+  },
+  "review_basis": "Original PDF image personally reviewed by two native Codex agents. Preserve drawing values and ownership, reject stale flags and false interpretations. Pending source-bound regression; no automatic oracle.",
+  "artifacts": [
+    {
+      "path": "objects/45e020852285a2b7294c8d47fb28f17462a4aa2870e344bd897c7bef881499b9.json",
+      "sha256": "45e020852285a2b7294c8d47fb28f17462a4aa2870e344bd897c7bef881499b9"
+    }
+  ],
+  "assertions": [],
+  "coverage_note": "No frozen500/520 score changes or model runs"
+}
