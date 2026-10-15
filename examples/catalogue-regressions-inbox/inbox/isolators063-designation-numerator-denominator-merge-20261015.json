@@ -1,0 +1,25 @@
+{
+  "id": "isolators063-designation-numerator-denominator-merge-20261015",
+  "status": "pending_adjudication",
+  "priority": "high",
+  "category": "semantic_scope",
+  "title": "Схема обозначения: числитель — сила, знаменатель — напряжение",
+  "source": {
+    "filename": "Katalog-IZOLJaTORY.pdf",
+    "sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+    "physical_page": 63
+  },
+  "review_basis": "Root viewed original page and enlarged relevant drawing/table. Author merge references immutable typed facts; independent final gold review deferred by user. Pending case does not change any frozen score denominator.",
+  "artifacts": [
+    {
+      "path": "objects/783a0b49e4b76151638b0b09a85b365d5f36ae8525a4aa3f96c7214b23c9244a.json",
+      "sha256": "783a0b49e4b76151638b0b09a85b365d5f36ae8525a4aa3f96c7214b23c9244a",
+      "bytes": 104078,
+      "role": "merge-adjudicator",
+      "program_version": "1.5.26",
+      "model": "native Codex gpt-6.1-sol"
+    }
+  ],
+  "assertions": [],
+  "failure_oracle": "Keep the class definition: numerator is tensile breaking force in kN, denominator is rated voltage in kV. Do not call the whole70/110 a numerator. This schema is supporting type documentation, not a new SKU."
+}

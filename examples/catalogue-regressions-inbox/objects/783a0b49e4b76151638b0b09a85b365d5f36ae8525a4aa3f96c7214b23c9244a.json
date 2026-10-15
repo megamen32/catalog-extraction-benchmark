@@ -1,0 +1,2433 @@
+{
+  "schema_version": "catalogue-retained-owner-error-evidence/1",
+  "catalog": "isolators",
+  "source_sha256": "7bd35242d89d74193cf46986b3a0692c982e1629c855ce558d0445c0f0e41d35",
+  "physical_page": 63,
+  "work_packet_sha256": "808d348974f71b323d7a57defcad45fed8bfabb577a1a2c1f1948dbd68873787",
+  "work_sha256": "6f4b1709a75d3130c3eebb2086669859f5369b4ed43b1787c3c006367351a611",
+  "actual_merge_producer": {
+    "role": "codex",
+    "session_id": "01a12c30-e58f-7861-8a2d-966c92630163",
+    "model": "gpt-6.1-sol",
+    "runtime": "Codex native original-image review",
+    "program_version": "1.5.26"
+  },
+  "source_evidence": [
+    {
+      "bbox": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "observation": "Codex лично просмотрел исходную страницу63 в сохранённом именном overview и сверил исходные факты. Это рабочее сведение одного исполнителя, независимаяфинальнаяпроверка позднее."
+    },
+    {
+      "bbox": [
+        0.045,
+        0.05,
+        0.97,
+        0.94
+      ],
+      "observation": "Привязки сверены по исходному обзору, именам столбцов, единицам, условиям, разделам таблицы и собственной модели. Совпадающие данные не переизвлекаются. Реальные отличия просматриваются отдельно; это не новая независимаяпроверка всех исходных чисел."
+    }
+  ],
+  "original_typed_facts": [
+    {
+      "fact_id": "L-314f0cbaeb2717c08fb4eb2a",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "group_parameter",
+      "pointer": "group_characteristics.jsonl:1049/raw",
+      "owner": "",
+      "name": "Поколение",
+      "value": "III",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        63
+      ],
+      "input_fact_sha256": "17b1b83104ca2f91e2eac45de8b6a77d9667e10055ec5e9181cd578022c55ec3",
+      "input_line": 88327,
+      "raw_context": "raw-b346d70a6dcb7bce6460468670236cb489fce2d220419f360081d3df991f0010",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-56c416de7b418be9fac3a009",
+        "window_id": "W-5a16ff8b7d0242c73a83a3e3",
+        "group_id": "G-8dd1ee9da99f41a8070e5718",
+        "product_id": null,
+        "group_title": "Подвесные полимерные изоляторы III поколения производства ООО «ИНСТА»: ЛК, ЛКП, ЛКГ и ЛКМ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_id": "L-d801cd525cff4c64b1c9345c",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "group_parameter",
+      "pointer": "group_characteristics.jsonl:1050/raw",
+      "owner": "",
+      "name": "Изоляторы соответствуют требованиям",
+      "value": "ГОСТ Р 55189-2012",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        63
+      ],
+      "input_fact_sha256": "dc79412ca87a10fb65dd0017e066e7ffc0c23b1d3c741ca90cadf24c730bb527",
+      "input_line": 88328,
+      "raw_context": "raw-b6f9f46b566185acd5051f38858f2704529be1c256eb20e446f85075ed6e359a",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-d014dae2899c3dcf6a3146d4",
+        "window_id": "W-5a16ff8b7d0242c73a83a3e3",
+        "group_id": "G-8dd1ee9da99f41a8070e5718",
+        "product_id": null,
+        "group_title": "Подвесные полимерные изоляторы III поколения производства ООО «ИНСТА»: ЛК, ЛКП, ЛКГ и ЛКМ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_id": "L-c454852ac448e93a0be4a0b4",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "group_parameter",
+      "pointer": "group_characteristics.jsonl:1051/raw",
+      "owner": "",
+      "name": "Изоляторы соответствуют требованиям",
+      "value": "ГОСТ 28856-90",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        63
+      ],
+      "input_fact_sha256": "256420e8061419a262eb373689fde476895a8aa90e9cc8eed1354e51fddaad42",
+      "input_line": 88329,
+      "raw_context": "raw-b6f9f46b566185acd5051f38858f2704529be1c256eb20e446f85075ed6e359a",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-85cfb4126e1c5b3a12c6fc63",
+        "window_id": "W-5a16ff8b7d0242c73a83a3e3",
+        "group_id": "G-8dd1ee9da99f41a8070e5718",
+        "product_id": null,
+        "group_title": "Подвесные полимерные изоляторы III поколения производства ООО «ИНСТА»: ЛК, ЛКП, ЛКГ и ЛКМ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_id": "L-fd2f7769118abcec336c29e8",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "group_parameter",
+      "pointer": "group_characteristics.jsonl:1052/raw",
+      "owner": "",
+      "name": "Изоляторы соответствуют требованиям",
+      "value": "МЭК 61109",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        63
+      ],
+      "input_fact_sha256": "58b980ec8ff91bc8e364efeaa90bfefc99295e1febca77c3cf8795e30ade3d4f",
+      "input_line": 88330,
+      "raw_context": "raw-b6f9f46b566185acd5051f38858f2704529be1c256eb20e446f85075ed6e359a",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-829348cd528fef20d30dfa98",
+        "window_id": "W-5a16ff8b7d0242c73a83a3e3",
+        "group_id": "G-8dd1ee9da99f41a8070e5718",
+        "product_id": null,
+        "group_title": "Подвесные полимерные изоляторы III поколения производства ООО «ИНСТА»: ЛК, ЛКП, ЛКГ и ЛКМ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_id": "L-8ec6e8423481949242d68377",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "group_parameter",
+      "pointer": "group_characteristics.jsonl:1053/raw",
+      "owner": "",
+      "name": "стеклопластиковый стержень",
+      "value": "типа ECR, применяемого для предотвращения разрушения изоляторов из-за кислотной коррозии стержня в случаях разгерметизации защитной оболочки при актах вандализма или неаккуратном обращении с изоляторами при хранении и монтаже.",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        63
+      ],
+      "input_fact_sha256": "5fd7473484c0c4e759c9e1c181eea3713a46b49add1554dd3721d218c0d3e64e",
+      "input_line": 88331,
+      "raw_context": "raw-48cc632d80e33a3f31487d3efdb735e88573e10ccb7156a703c85350b6df35d4",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-2c5a6270c00182c1774c10ce",
+        "window_id": "W-5a16ff8b7d0242c73a83a3e3",
+        "group_id": "G-8dd1ee9da99f41a8070e5718",
+        "product_id": null,
+        "group_title": "Подвесные полимерные изоляторы III поколения производства ООО «ИНСТА»: ЛК, ЛКП, ЛКГ и ЛКМ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_id": "L-511c183acbb3eb9a7547ec2f",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "group_parameter",
+      "pointer": "group_characteristics.jsonl:1054/raw",
+      "owner": "",
+      "name": "ЛКГ",
+      "value": "предназначены для изоляции и крепления грозозащитных тросов воздушных линий электропередачи на ВЛ 110-500 кВ",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        63
+      ],
+      "input_fact_sha256": "717cfe7b49aa3bf8d66f7b54d97dbdcc77b3cddc34ab5977ec10d7e14e3ce7c0",
+      "input_line": 88332,
+      "raw_context": "raw-05c85fdfad9e1ccd0d890019d4dd3838165cc2c8ff3c42a1bfd58c184c5ced87",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-fcd6c39174f8a81b3befcb23",
+        "window_id": "W-5a16ff8b7d0242c73a83a3e3",
+        "group_id": "G-8dd1ee9da99f41a8070e5718",
+        "product_id": null,
+        "group_title": "Подвесные полимерные изоляторы III поколения производства ООО «ИНСТА»: ЛК, ЛКП, ЛКГ и ЛКМ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_id": "L-f5a06146359bb4794f479074",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "group_parameter",
+      "pointer": "group_characteristics.jsonl:1055/raw",
+      "owner": "",
+      "name": "ЛКП",
+      "value": "птицезащищенные",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        63
+      ],
+      "input_fact_sha256": "c1f02c120c09787b7b18730efbb80fa9d623fff0025c1117bda6eb74ce699fb1",
+      "input_line": 88333,
+      "raw_context": "raw-e583fb4e61c8b2a9e6b5e1664371480adaad0b615032d9ae6c47003f8958c209",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-59b0e9ac1483af2f28badbd2",
+        "window_id": "W-5a16ff8b7d0242c73a83a3e3",
+        "group_id": "G-8dd1ee9da99f41a8070e5718",
+        "product_id": null,
+        "group_title": "Подвесные полимерные изоляторы III поколения производства ООО «ИНСТА»: ЛК, ЛКП, ЛКГ и ЛКМ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_id": "L-660db22fde035402b719f18c",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "group_parameter",
+      "pointer": "group_characteristics.jsonl:1056/raw",
+      "owner": "",
+      "name": "Полимерная оболочка",
+      "value": "Полимерная оболочка заходит на оконцеватели на большую длину от их края, за счет чего из конструкции изолятора исключены «слабые элементы» - клеевые швы в узле соединения «оболочка-стержень-оконцеватель», обеспечена полная герметизация и долговечность изоляторов.",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        63
+      ],
+      "input_fact_sha256": "ab0c29568e8ecbce2a3b1015d7ccb48a21856266fef3d1f97a03dfa06e2fae2e",
+      "input_line": 88334,
+      "raw_context": "raw-4b24e2665a6505d796e5fe6ac6ad0d1588f72331bc84d2d5b925dead00a67d25",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-4fabc0486ac03d47184f96d9",
+        "window_id": "W-5a16ff8b7d0242c73a83a3e3",
+        "group_id": "G-8dd1ee9da99f41a8070e5718",
+        "product_id": null,
+        "group_title": "Подвесные полимерные изоляторы III поколения производства ООО «ИНСТА»: ЛК, ЛКП, ЛКГ и ЛКМ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_id": "L-7a5eb0c84800e260f77933b0",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "group_parameter",
+      "pointer": "group_characteristics.jsonl:1057/raw",
+      "owner": "",
+      "name": "технология изготовления",
+      "value": "гарантирующая отсутствие скрытых повреждений стержня после опрессования оконцевателей.",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        63
+      ],
+      "input_fact_sha256": "c9bf9abeb4bde6d412ad3f6a784b51a44425d95b76159f99306689afe6e14821",
+      "input_line": 88335,
+      "raw_context": "raw-fa24020560877596f0aa775530f406d4eb1e30d0d341af829d7212f2fd1cc636",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-7df906c58e4e2999a57c2022",
+        "window_id": "W-5a16ff8b7d0242c73a83a3e3",
+        "group_id": "G-8dd1ee9da99f41a8070e5718",
+        "product_id": null,
+        "group_title": "Подвесные полимерные изоляторы III поколения производства ООО «ИНСТА»: ЛК, ЛКП, ЛКГ и ЛКМ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_id": "L-a1352bdffc75a477b26cba18",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "group_parameter",
+      "pointer": "group_characteristics.jsonl:1058/raw",
+      "owner": "",
+      "name": "устойчивость",
+      "value": "устойчивы к кислотной коррозии.",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        63
+      ],
+      "input_fact_sha256": "310dcb7f5119a0ce6ea5e5955d3d836acad0424e323c4adf0b1153f72df08188",
+      "input_line": 88336,
+      "raw_context": "raw-7a723ffec42c16b6a5ad7522adb6baa481f5b12b5c8a1514a98ade12e2d4b940",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-172eec9766815cbaddfe47ff",
+        "window_id": "W-5a16ff8b7d0242c73a83a3e3",
+        "group_id": "G-8dd1ee9da99f41a8070e5718",
+        "product_id": null,
+        "group_title": "Подвесные полимерные изоляторы III поколения производства ООО «ИНСТА»: ЛК, ЛКП, ЛКГ и ЛКМ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_id": "L-b662a152f455085c55bff1e5",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "group_parameter",
+      "pointer": "group_characteristics.jsonl:1059/raw",
+      "owner": "",
+      "name": "Буквенное обозначение исполнения верхнего и нижнего оконцевателей:",
+      "value": "Г — «Гнездо», С — «Проушина», П — «Пестик», О — «Овал», В — «Вилка»",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        63
+      ],
+      "input_fact_sha256": "daba5546e8e28655c4c1ab3efe01ab6a49d06291d1defd51046d2755155b18c7",
+      "input_line": 88337,
+      "raw_context": "raw-1401c6341e9b4cd579100b6ce470196ca32b2f8ee49ac95b0dda1eae88abb22d",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-74c0f0b7f800278b6d0bc89f",
+        "window_id": "W-5a16ff8b7d0242c73a83a3e3",
+        "group_id": "G-8dd1ee9da99f41a8070e5718",
+        "product_id": null,
+        "group_title": "Подвесные полимерные изоляторы III поколения производства ООО «ИНСТА»: ЛК, ЛКП, ЛКГ и ЛКМ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_id": "L-6d74f56fa555a6ac9247b7fb",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "group_parameter",
+      "pointer": "group_characteristics.jsonl:1060/raw",
+      "owner": "",
+      "name": "Максимальная степень загрязнения",
+      "value": "(СЗ) по ГОСТ 9920, при которой может применяться \nизолятор",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        63
+      ],
+      "input_fact_sha256": "fb667c6e7a2a299feda45da131010da35101b4520bc65cc188a8ed95738bf467",
+      "input_line": 88338,
+      "raw_context": "raw-2968c1db6d0b2b6183eee5d3508970ea32b8364f3d5fb83753f6acc2d5e89f87",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-243d24e050b4d501cf798323",
+        "window_id": "W-5a16ff8b7d0242c73a83a3e3",
+        "group_id": "G-8dd1ee9da99f41a8070e5718",
+        "product_id": null,
+        "group_title": "Подвесные полимерные изоляторы III поколения производства ООО «ИНСТА»: ЛК, ЛКП, ЛКГ и ЛКМ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_id": "L-cd5526f4b3ab5ea6302ab826",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "group_parameter",
+      "pointer": "group_characteristics.jsonl:1061/raw",
+      "owner": "",
+      "name": "Конструктивное исполнение: И",
+      "value": "дополнительная герметизация узла «оболочка-стержень-оконцеватель»",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        63
+      ],
+      "input_fact_sha256": "772d5b49f34fb6abdbc5b1320ebcd28bb46fe7e41d634b26514618eee34289c1",
+      "input_line": 88339,
+      "raw_context": "raw-683fd7089e28adf59d478d571f488aee15bed862d49bfa0e84f018ccb25127f9",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-088797c43e4304f03ba85b9f",
+        "window_id": "W-5a16ff8b7d0242c73a83a3e3",
+        "group_id": "G-8dd1ee9da99f41a8070e5718",
+        "product_id": null,
+        "group_title": "Подвесные полимерные изоляторы III поколения производства ООО «ИНСТА»: ЛК, ЛКП, ЛКГ и ЛКМ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_id": "L-5c5df3c10b3d4eac5ea43f5f",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "group_parameter",
+      "pointer": "group_characteristics.jsonl:1062/raw",
+      "owner": "",
+      "name": "Конструктивное исполнение: ИС",
+      "value": "дополнительная герметизация узла «оболочка-стержень-оконцеватель», а также \nвозможность установки дополнительного оборудования на оконцеватели",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        63
+      ],
+      "input_fact_sha256": "41e0a4dad2976fd95d3680f99963a5d2397ced484723fd6180a58c19af60dccf",
+      "input_line": 88340,
+      "raw_context": "raw-063e621111ceac0a21f6fe5b7ef47241a68d356285c9dbf8c21d92c6a28d3073",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-30bf1d591e3468ca99d8ca91",
+        "window_id": "W-5a16ff8b7d0242c73a83a3e3",
+        "group_id": "G-8dd1ee9da99f41a8070e5718",
+        "product_id": null,
+        "group_title": "Подвесные полимерные изоляторы III поколения производства ООО «ИНСТА»: ЛК, ЛКП, ЛКГ и ЛКМ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_id": "L-be5a4c848922e7d476b1b3f7",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "group_parameter",
+      "pointer": "group_characteristics.jsonl:1063/raw",
+      "owner": "",
+      "name": "Конструктивное исполнение: ИУ",
+      "value": "дополнительная герметизация узла «оболочка-стержень-оконцеватель», а также \nспециальное конструктивное усиление данного узла с целью выравнивания  воздействия на \nизолятор электромагнитного поля высокой напряжённости",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        63
+      ],
+      "input_fact_sha256": "0b237707941a98e29dbb51ec5163004d443e0842a9a3a6dab0a9a6e9cef1a8c6",
+      "input_line": 88341,
+      "raw_context": "raw-668d03e40e12b7cd104300a2f30e67c941a65d6c448ab34c602298a48f963c18",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-ed4b5dbffd704cf63224bc51",
+        "window_id": "W-5a16ff8b7d0242c73a83a3e3",
+        "group_id": "G-8dd1ee9da99f41a8070e5718",
+        "product_id": null,
+        "group_title": "Подвесные полимерные изоляторы III поколения производства ООО «ИНСТА»: ЛК, ЛКП, ЛКГ и ЛКМ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_id": "L-1a42982877b07eeed6776ee0",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "group_parameter",
+      "pointer": "group_characteristics.jsonl:1064/raw",
+      "owner": "",
+      "name": "Конструктивное исполнение: ИГ",
+      "value": "дополнительная герметизация узла «оболочка-стержень-оконцеватель» и повышенная \nгрязе- и грозостойкость за счёт увеличенной длины пути утечки изоляторов",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        63
+      ],
+      "input_fact_sha256": "c553d5e2edb7de01f6833554a665f79b8a8e9427f4c43d60fc57e5029406090d",
+      "input_line": 88342,
+      "raw_context": "raw-152889b05fd07c56ed55b9d9fd4ae3d2df91ea1fa88153c77a55dc30e2a69401",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-7405a8c45268c4a41ed73545",
+        "window_id": "W-5a16ff8b7d0242c73a83a3e3",
+        "group_id": "G-8dd1ee9da99f41a8070e5718",
+        "product_id": null,
+        "group_title": "Подвесные полимерные изоляторы III поколения производства ООО «ИНСТА»: ЛК, ЛКП, ЛКГ и ЛКМ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_id": "L-69ec4e0d8adaeeb5d9cfff25",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "group_parameter",
+      "pointer": "group_characteristics.jsonl:1065/raw",
+      "owner": "",
+      "name": "Конструктивное исполнение: ГУ",
+      "value": "дополнительная герметизация узла «оболочка-стержень-оконцеватель», а также \nспециальное конструктивное усиление данного узла с целью выравнивания воздействия на \nизолятор электромагнитного поля высокой напряжённости. Изоляторы данной модификации \nобладают повышенной грязе- и грозостойкостью за счёт увеличенной длины пути утечки.",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        63
+      ],
+      "input_fact_sha256": "4381760489ecd401094b3ded334db99a58522894cd6e47950e21296214447cca",
+      "input_line": 88343,
+      "raw_context": "raw-e6d69d5222347f63e09368aea5f164613dc226f7e2885926af108c59a960fded",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-b107502fbfbcaba97228aeda",
+        "window_id": "W-5a16ff8b7d0242c73a83a3e3",
+        "group_id": "G-8dd1ee9da99f41a8070e5718",
+        "product_id": null,
+        "group_title": "Подвесные полимерные изоляторы III поколения производства ООО «ИНСТА»: ЛК, ЛКП, ЛКГ и ЛКМ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_id": "L-fde860bb648fb6cb2a690e03",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "group_parameter",
+      "pointer": "group_characteristics.jsonl:1066/raw",
+      "owner": "",
+      "name": "Конструктивное исполнение: ДУ",
+      "value": "дополнительная герметизация узла «оболочка-стержень-оконцеватель», а также \nспециальное конструктивное усиление данного узла с целью выравнивания воздействия \nна изолятор электромагнитного поля высокой напряжённости. Повышенная механическая \nнадежность за счёт применения стеклопластиковых стержней большего диаметра.",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        63
+      ],
+      "input_fact_sha256": "3cbc32751012c4f5106cb2fdf8a231098ff16ff31190377d10911f2bfc3685f5",
+      "input_line": 88344,
+      "raw_context": "raw-d3a5fb66f277d65a52e108a60b147c51f7a0594d4e0c34c472ab732a7974992e",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-46f86fb338ede5a5c4669aee",
+        "window_id": "W-5a16ff8b7d0242c73a83a3e3",
+        "group_id": "G-8dd1ee9da99f41a8070e5718",
+        "product_id": null,
+        "group_title": "Подвесные полимерные изоляторы III поколения производства ООО «ИНСТА»: ЛК, ЛКП, ЛКГ и ЛКМ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_id": "L-f625d45f720ce00e07044de6",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "group_parameter",
+      "pointer": "group_characteristics.jsonl:1067/raw",
+      "owner": "",
+      "name": "Класс изолятора:",
+      "value": "значение нормированной механической разрушающей силы при растяжении \nв кН (числитель) и значение номинального напряжения ВЛ в кВ (знаменатель)",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        63
+      ],
+      "input_fact_sha256": "6f515ecc2cfea68e2c54cb3fcb848a8e5f43cae0bf75b1caa96adbc71ff4ff7a",
+      "input_line": 88345,
+      "raw_context": "raw-a8c27028dad55517f04f0114d23110633cad1d808c41ee81f4a27151bf5edb95",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-0232ee01a2ef13a590d4a819",
+        "window_id": "W-5a16ff8b7d0242c73a83a3e3",
+        "group_id": "G-8dd1ee9da99f41a8070e5718",
+        "product_id": null,
+        "group_title": "Подвесные полимерные изоляторы III поколения производства ООО «ИНСТА»: ЛК, ЛКП, ЛКГ и ЛКМ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_id": "L-f8a38c281ead57f9848dcf53",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "group_parameter",
+      "pointer": "group_characteristics.jsonl:1068/raw",
+      "owner": "",
+      "name": "Модификация изолятора (при ее наличии):",
+      "value": "П — птицезащищенный, Г — модификация для грозотроса, Д — дугостойкие, М —  модульные",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        63
+      ],
+      "input_fact_sha256": "2b60423ecb588b3ff29269fa3e450e815ac80dcd92c95c7f8ccfa8f99151f194",
+      "input_line": 88346,
+      "raw_context": "raw-04432df7c7f86746d8dd40cdeba54ea22b50d735540889f76ffed988bd4fe491",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-861bf268c8f8e66aad48cbc7",
+        "window_id": "W-5a16ff8b7d0242c73a83a3e3",
+        "group_id": "G-8dd1ee9da99f41a8070e5718",
+        "product_id": null,
+        "group_title": "Подвесные полимерные изоляторы III поколения производства ООО «ИНСТА»: ЛК, ЛКП, ЛКГ и ЛКМ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_id": "L-e7af277819541427c89df6b8",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "group_parameter",
+      "pointer": "group_characteristics.jsonl:1069/raw",
+      "owner": "",
+      "name": "Материал защитной оболочки:",
+      "value": "кремнийорганическая смесь",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        63
+      ],
+      "input_fact_sha256": "9a12c546a3fe5f1e7e041e6d3e46f61bbf6d477f011ed17286139e0dbd5d367a",
+      "input_line": 88347,
+      "raw_context": "raw-f24aecf6c4110af8a081552bfa899775d04e791a450a90e35013b86027158eb1",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-f6f7fff9614c697a45fce2e1",
+        "window_id": "W-5a16ff8b7d0242c73a83a3e3",
+        "group_id": "G-8dd1ee9da99f41a8070e5718",
+        "product_id": null,
+        "group_title": "Подвесные полимерные изоляторы III поколения производства ООО «ИНСТА»: ЛК, ЛКП, ЛКГ и ЛКМ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_id": "L-44aa12466c40e1ceb11b8f0f",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "group_parameter",
+      "pointer": "group_characteristics.jsonl:1070/raw",
+      "owner": "",
+      "name": "Вид конструкции изолятора:",
+      "value": "линейный подвесной стержневой полимерный изолятор",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        63
+      ],
+      "input_fact_sha256": "30fcac69925d575a5b0234137ca00c73f1a7b342233898d330f1a16a93a3e81d",
+      "input_line": 88348,
+      "raw_context": "raw-1a8c51d90fa2a89230e4b56c4cbba590aa9c1d76e967c217592ea79b107b22df",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-3a3c53eec02c4176ad50c0c3",
+        "window_id": "W-5a16ff8b7d0242c73a83a3e3",
+        "group_id": "G-8dd1ee9da99f41a8070e5718",
+        "product_id": null,
+        "group_title": "Подвесные полимерные изоляторы III поколения производства ООО «ИНСТА»: ЛК, ЛКП, ЛКГ и ЛКМ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_id": "L-ea55fd413b121caba70e5791",
+      "side": "oleg",
+      "catalog": "isolators",
+      "kind": "group_parameter",
+      "pointer": "group_characteristics.jsonl:1071/raw",
+      "owner": "",
+      "name": "Пример условного обозначения",
+      "value": "ЛКП 70/110-И-4 СП",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        63
+      ],
+      "input_fact_sha256": "5d021ffa5f42058df33216881896f0e3ca2c83c0e4493778b229edcf53bfd5fa",
+      "input_line": 88349,
+      "raw_context": "raw-e6cf7c5527560f4942bd82633945f8de976482d3cbfec477b4f783beb73680de",
+      "metadata": {
+        "raw_value_type": "str",
+        "observation_id": "C-ea4112326f0f33b98e714a6e",
+        "window_id": "W-5a16ff8b7d0242c73a83a3e3",
+        "group_id": "G-8dd1ee9da99f41a8070e5718",
+        "product_id": null,
+        "group_title": "Подвесные полимерные изоляторы III поколения производства ООО «ИНСТА»: ЛК, ЛКП, ЛКГ и ЛКМ",
+        "raw_value_present": true
+      }
+    },
+    {
+      "fact_id": "O-e4b784e1f418fbe20f96f719",
+      "side": "ours",
+      "catalog": "isolators",
+      "kind": "page_text",
+      "pointer": "/catalogs/1/pages/62/content/text_blocks/0",
+      "owner": "",
+      "name": "branding",
+      "value": "ФОРЭНЕРГО производственное объединение · FORENERGO® industrial group",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        63
+      ],
+      "input_fact_sha256": "cc5d8372b084497dfab5950b73bf43db15d18e2db3cd26348f110f8cc0b905e4",
+      "input_line": 101565,
+      "raw_context": "raw-b0350f820e0da16c784ae3adaa60667d68634defb924729d370f40cd37bbdf65",
+      "metadata": {
+        "raw_value_type": "str",
+        "candidate_sha256": "cd85f0a44a01ecc73d545d588ffd6bdbcbb23746ab2ba3dc5acc9714f242c998",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_id": "O-24205aedfd852bd6f8d00755",
+      "side": "ours",
+      "catalog": "isolators",
+      "kind": "page_text",
+      "pointer": "/catalogs/1/pages/62/content/text_blocks/1",
+      "owner": "",
+      "name": "heading",
+      "value": "ИЗОЛЯТОРЫ / ИЗОЛЯТОРЫ ЛИНЕЙНЫЕ ПОДВЕСНЫЕ ПОЛИМЕРНЫЕ",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        63
+      ],
+      "input_fact_sha256": "55f429b1ef6637cfe3f067685f4c4e7310f4d6ce57f1dcc3db0dbfa84773a611",
+      "input_line": 101566,
+      "raw_context": "raw-3e18f3c52728235f97ecc0e46c79880ead02c882b920db1eb724fd62b06a292b",
+      "metadata": {
+        "raw_value_type": "str",
+        "candidate_sha256": "cd85f0a44a01ecc73d545d588ffd6bdbcbb23746ab2ba3dc5acc9714f242c998",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_id": "O-11e6f04f8fc7589e01c13a72",
+      "side": "ours",
+      "catalog": "isolators",
+      "kind": "page_text",
+      "pointer": "/catalogs/1/pages/62/content/text_blocks/2",
+      "owner": "",
+      "name": "paragraph",
+      "value": "Основной причиной выхода из строя полимерных изоляторов является их разгерметизация в районе узла соединения «оболочка-стержень-оконцеватель» с последующим внутренним увлажнением, что приводит к электрическому пробою. Также причиной разрушения полимерных изоляторов зачастую становятся скрытые повреждения стеклопластиковых стержней (трещины) при опрессовании оконцевателей на производстве. Впоследствии, это может приводить к развитию трещин в процессе эксплуатации под механической нагрузкой и внутренним частичным разрядам, разрушающим стеклопластиковый стержень изолятора.",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        63
+      ],
+      "input_fact_sha256": "c7a507199c922fec093d82133444546cf8b80249bc59e07ba01cfed465b9fde5",
+      "input_line": 101567,
+      "raw_context": "raw-3161225dabb503921ba1771d08cc9f5258808f52500e87e44fd2b7589b439eb8",
+      "metadata": {
+        "raw_value_type": "str",
+        "candidate_sha256": "cd85f0a44a01ecc73d545d588ffd6bdbcbb23746ab2ba3dc5acc9714f242c998",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_id": "O-597009fe1e0aa8c319959b56",
+      "side": "ours",
+      "catalog": "isolators",
+      "kind": "page_text",
+      "pointer": "/catalogs/1/pages/62/content/text_blocks/3",
+      "owner": "",
+      "name": "heading",
+      "value": "Преимущества подвесных полимерных изоляторов III поколения производства ООО «ИНСТА»:",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        63
+      ],
+      "input_fact_sha256": "c6a9e87ef188acb84e523591dc549f99f015e76bdd55bfd45c34418ecf4443f2",
+      "input_line": 101568,
+      "raw_context": "raw-3b4474d23c21a4511011bd223d02b21216166f80b33ea77c0441adc2185a2e34",
+      "metadata": {
+        "raw_value_type": "str",
+        "candidate_sha256": "cd85f0a44a01ecc73d545d588ffd6bdbcbb23746ab2ba3dc5acc9714f242c998",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_id": "O-e266ae5fdf175e7d07d81947",
+      "side": "ours",
+      "catalog": "isolators",
+      "kind": "page_text",
+      "pointer": "/catalogs/1/pages/62/content/text_blocks/4",
+      "owner": "",
+      "name": "paragraph",
+      "value": "• Обладают повышенной надежностью вследствие своих конструктивных особенностей.",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        63
+      ],
+      "input_fact_sha256": "c174cb33c7c997d43fdb2de512be630345ba01be6a754f301c4e99b14d68d798",
+      "input_line": 101569,
+      "raw_context": "raw-b4cae4a0946b769eecb27743cf0f1027708815dfa86fe7e487d6bdaeb7a28ce6",
+      "metadata": {
+        "raw_value_type": "str",
+        "candidate_sha256": "cd85f0a44a01ecc73d545d588ffd6bdbcbb23746ab2ba3dc5acc9714f242c998",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_id": "O-aefb15c1e15476e352e9b4ed",
+      "side": "ours",
+      "catalog": "isolators",
+      "kind": "page_text",
+      "pointer": "/catalogs/1/pages/62/content/text_blocks/5",
+      "owner": "",
+      "name": "paragraph",
+      "value": "• Полимерная оболочка заходит на оконцеватели на большую длину от их края, за счет чего из конструкции изолятора исключены «слабые элементы» - клеевые швы в узле соединения «оболочка-стержень-оконцеватель», обеспечена полная герметизация и долговечность изоляторов.",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        63
+      ],
+      "input_fact_sha256": "d786aadb66e215f3f8b3b42edd212638ce690ed3bd2575077650c91c8627992a",
+      "input_line": 101570,
+      "raw_context": "raw-32bf721463be1f4fcee81a98a46f77a5dd93c2d489936b8d0babb3399b90cdb4",
+      "metadata": {
+        "raw_value_type": "str",
+        "candidate_sha256": "cd85f0a44a01ecc73d545d588ffd6bdbcbb23746ab2ba3dc5acc9714f242c998",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_id": "O-0da4ef85d6353fbf9ad558bc",
+      "side": "ours",
+      "catalog": "isolators",
+      "kind": "page_text",
+      "pointer": "/catalogs/1/pages/62/content/text_blocks/6",
+      "owner": "",
+      "name": "paragraph",
+      "value": "• Для проверки качества изоляторов типа ЛК «ИНСТА» применяется самый высокий уровень испытательных напряжений среди других производителей.",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        63
+      ],
+      "input_fact_sha256": "2a5980ef9cf67ec9b13c8c14138a0ef58db458f71b1376c816d12d445e83b822",
+      "input_line": 101571,
+      "raw_context": "raw-599a55fce8188a0457a7f79a3c389a0324c5487226f38bd1854d3e037630a2ae",
+      "metadata": {
+        "raw_value_type": "str",
+        "candidate_sha256": "cd85f0a44a01ecc73d545d588ffd6bdbcbb23746ab2ba3dc5acc9714f242c998",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_id": "O-481bbab91de5924ee8555e0e",
+      "side": "ours",
+      "catalog": "isolators",
+      "kind": "page_text",
+      "pointer": "/catalogs/1/pages/62/content/text_blocks/7",
+      "owner": "",
+      "name": "paragraph",
+      "value": "• Уникальная технология изготовления, гарантирующая отсутствие скрытых повреждений стержня после опрессования оконцевателей.",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        63
+      ],
+      "input_fact_sha256": "fe9f9ae4bec8f3bbd192718bdd0e51ba8bd7c2d7b69fe67581f3fd9b4258856a",
+      "input_line": 101572,
+      "raw_context": "raw-e42bf263e248fc41aeb68944686eda74f5a32a8dca2c3a538970d05d4d120868",
+      "metadata": {
+        "raw_value_type": "str",
+        "candidate_sha256": "cd85f0a44a01ecc73d545d588ffd6bdbcbb23746ab2ba3dc5acc9714f242c998",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_id": "O-83791ef7ff65e1c2c47fd4ea",
+      "side": "ours",
+      "catalog": "isolators",
+      "kind": "page_text",
+      "pointer": "/catalogs/1/pages/62/content/text_blocks/8",
+      "owner": "",
+      "name": "paragraph",
+      "value": "• Изоляторы «ИНСТА» устойчивы к кислотной коррозии.",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        63
+      ],
+      "input_fact_sha256": "d397c634f800478112c7f889e306085be90ecbbaed77356a6e2a231eafb26dc7",
+      "input_line": 101573,
+      "raw_context": "raw-5c71a24b4f16474d250bf7dfe9f9111f0feded08697a2273c9d0ff91af54d53a",
+      "metadata": {
+        "raw_value_type": "str",
+        "candidate_sha256": "cd85f0a44a01ecc73d545d588ffd6bdbcbb23746ab2ba3dc5acc9714f242c998",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_id": "O-b1d43b41aa76b6f625d9b1b6",
+      "side": "ours",
+      "catalog": "isolators",
+      "kind": "page_text",
+      "pointer": "/catalogs/1/pages/62/content/text_blocks/9",
+      "owner": "",
+      "name": "heading",
+      "value": "ООО «ИНСТА» — единственное отечественное предприятие, выпускающее полимерные подвесные изоляторы повышенной надежности только III поколения.",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        63
+      ],
+      "input_fact_sha256": "e6118722a98674489f4d76fb60123da236f815da9f5a348fa32ccd7a04fb43de",
+      "input_line": 101574,
+      "raw_context": "raw-e100d7a12997a3731959a886e61cee711bd2c8df3028afb8c73d01b2b6d9fcc8",
+      "metadata": {
+        "raw_value_type": "str",
+        "candidate_sha256": "cd85f0a44a01ecc73d545d588ffd6bdbcbb23746ab2ba3dc5acc9714f242c998",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_id": "O-2e3a103120f2b9fafd0e0583",
+      "side": "ours",
+      "catalog": "isolators",
+      "kind": "page_text",
+      "pointer": "/catalogs/1/pages/62/content/text_blocks/10",
+      "owner": "",
+      "name": "paragraph",
+      "value": "Изоляторы соответствуют требованиям последних российских, межгосударственных и международных стандартов на линейные полимерные изоляторы: ГОСТ Р 55189-2012, ГОСТ 28856-90 и МЭК 61109 и изготавливаются с использованием стеклопластикового стержня типа ECR, применяемого для предотвращения разрушения изоляторов из-за кислотной коррозии стержня в случаях разгерметизации защитной оболочки при актах вандализма или неаккуратном обращении с изоляторами при хранении и монтаже.",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        63
+      ],
+      "input_fact_sha256": "c930ea231ea7492fee1f528ae50c53f1e053ea5ec166de42415cf71fd20d9638",
+      "input_line": 101575,
+      "raw_context": "raw-35ccdf4e8f7fb1c9e895860c163cc1a2b9b2a9682299ec4c1e28b8d4b11256b0",
+      "metadata": {
+        "raw_value_type": "str",
+        "candidate_sha256": "cd85f0a44a01ecc73d545d588ffd6bdbcbb23746ab2ba3dc5acc9714f242c998",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_id": "O-4db54d5d1a39ea0d38d9edb8",
+      "side": "ours",
+      "catalog": "isolators",
+      "kind": "page_text",
+      "pointer": "/catalogs/1/pages/62/content/text_blocks/11",
+      "owner": "",
+      "name": "paragraph",
+      "value": "На основе улучшенных изоляторов ЛК ООО «ИНСТА» изготавливает изоляторы типа ЛКГ (предназначены для изоляции и крепления грозозащитных тросов воздушных линий электропередачи на ВЛ 110-500 кВ) и изоляторы ЛКП (птицезащищенные).",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        63
+      ],
+      "input_fact_sha256": "11cb5666ac3d6fc770a0070a00cbf8a57023ca8da8e4f4e692c1ba60ec29a326",
+      "input_line": 101576,
+      "raw_context": "raw-3018268e25622971a446ce5b1ba01bfa58af3b15f85e4f736b0b3eee9c5f878b",
+      "metadata": {
+        "raw_value_type": "str",
+        "candidate_sha256": "cd85f0a44a01ecc73d545d588ffd6bdbcbb23746ab2ba3dc5acc9714f242c998",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_id": "O-9e63707166d999aa890f0a5b",
+      "side": "ours",
+      "catalog": "isolators",
+      "kind": "page_text",
+      "pointer": "/catalogs/1/pages/62/content/text_blocks/12",
+      "owner": "",
+      "name": "heading",
+      "value": "Структура условного обозначения линейных подвесных стержневых полимерных изоляторов типа ЛК, ЛКП, ЛКГ и ЛКМ",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        63
+      ],
+      "input_fact_sha256": "a67339e06172dcfac34c4a9571f23b8ba5bc09041ea4f76b92832f42f8156fb0",
+      "input_line": 101577,
+      "raw_context": "raw-94305954a724001ec6d9de4f4e240665f6c8510b72a51fc7460f8cad19467653",
+      "metadata": {
+        "raw_value_type": "str",
+        "candidate_sha256": "cd85f0a44a01ecc73d545d588ffd6bdbcbb23746ab2ba3dc5acc9714f242c998",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_id": "O-fa0ee37f4d328a0c8ee61b35",
+      "side": "ours",
+      "catalog": "isolators",
+      "kind": "page_text",
+      "pointer": "/catalogs/1/pages/62/content/text_blocks/13",
+      "owner": "",
+      "name": "footer",
+      "value": "62  ООО «ИНСТА»  Тел./ факс: +7 (495) 780-51-65, e-mail: sales@zaoinsta.ru  www.zaoinsta.ru",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        63
+      ],
+      "input_fact_sha256": "7d82b0f83cec7efebe197edbf9a66b437cd6eeb70970e11af4981856b136d7a3",
+      "input_line": 101578,
+      "raw_context": "raw-ae55bc0e08477f2e62ad8b023a262bdce9dd0f6ef01ee4eb511a51099c7395cd",
+      "metadata": {
+        "raw_value_type": "str",
+        "candidate_sha256": "cd85f0a44a01ecc73d545d588ffd6bdbcbb23746ab2ba3dc5acc9714f242c998",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_id": "O-b212589614f89f677c36b780",
+      "side": "ours",
+      "catalog": "isolators",
+      "kind": "figure",
+      "pointer": "/catalogs/1/pages/62/content/figures/0",
+      "owner": "",
+      "name": "",
+      "value": {
+        "title": "Структура условного обозначения линейных подвесных стержневых полимерных изоляторов типа ЛК, ЛКП, ЛКГ и ЛКМ",
+        "description": "Схема расшифровки условного обозначения. Слева крупным шрифтом приведён пример обозначения «ЛКП 70/110-И-4 СП», под ним — структурная схема «ЛКХ Х/Х -Х-Х ХХ» с вертикальными выносками-скобками, отходящими от символьных позиций схемы к текстовым пояснениям справа. Позиции схемы расшифровываются (сверху вниз): буквенное обозначение исполнения верхнего и нижнего оконцевателей (две пары букв в конце обозначения); максимальная степень загрязнения (СЗ) по ГОСТ 9920, при которой может применяться изолятор; конструктивное исполнение (И, ИС, ИУ, ИГ, ГУ, ДУ — блок, обведённый общей вертикальной чертой); класс изолятора (числитель «70/110»); модификация изолятора («П», при её наличии); материал защитной оболочки; вид конструкции изолятора. Числовых размеров, знаков Ø и допусков на схеме нет; схема содержит только символические позиции и их текстовые расшифровки.",
+        "labels": [
+          "ЛКП 70/110-И-4 СП",
+          "ЛКХ Х/Х -Х-Х ХХ",
+          "Буквенное обозначение исполнения верхнего и нижнего оконцевателей: Г — «Гнездо», С — «Проушина», П — «Пестик», О — «Овал», В — «Вилка»",
+          "Максимальная степень загрязнения (СЗ) по ГОСТ 9920, при которой может применяться изолятор",
+          "Конструктивное исполнение:",
+          "И — дополнительная герметизация узла «оболочка-стержень-оконцеватель»",
+          "ИС — дополнительная герметизация узла «оболочка-стержень-оконцеватель», а также возможность установки дополнительного оборудования на оконцеватели",
+          "ИУ — дополнительная герметизация узла «оболочка-стержень-оконцеватель», а также специальное конструктивное усиление данного узла с целью выравнивания воздействия на изолятор электромагнитного поля высокой напряжённости",
+          "ИГ — дополнительная герметизация узла «оболочка-стержень-оконцеватель» и повышенная грязе- и грозостойкость за счёт увеличенной длины пути утечки изоляторов",
+          "ГУ — дополнительная герметизация узла «оболочка-стержень-оконцеватель», а также специальное конструктивное усиление данного узла с целью выравнивания воздействия на изолятор электромагнитного поля высокой напряжённости. Изоляторы данной модификации обладают повышенной грязе- и грозостойкостью за счёт увеличенной длины пути утечки.",
+          "ДУ — дополнительная герметизация узла «оболочка-стержень-оконцеватель», а также специальное конструктивное усиление данного узла с целью выравнивания воздействия на изолятор электромагнитного поля высокой напряжённости. Повышенная механическая надежность за счёт применения стеклопластиковых стержней большего диаметра.",
+          "Класс изолятора: значение нормированной механической разрушающей силы при растяжении в кН (числитель) и значение номинального напряжения ВЛ в кВ (знаменатель)",
+          "Модификация изолятора (при ее наличии): П — птицезащищенный, Г — модификация для грозотроса, Д — дугостойкие, М — модульные",
+          "Материал защитной оболочки: кремнийорганическая смесь",
+          "Вид конструкции изолятора: линейный подвесной стержневой полимерный изолятор"
+        ]
+      },
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        63
+      ],
+      "input_fact_sha256": "2a41f4a6527dc48bed83df4bcd2fb0da95a1ecd2531caa8771f32601b6054f63",
+      "input_line": 101579,
+      "raw_context": "raw-146a713525e974f21a26b8e339132afd3886cf4e53548e3b4ce9ca477a4f713c",
+      "metadata": {
+        "raw_value_type": "dict",
+        "candidate_sha256": "cd85f0a44a01ecc73d545d588ffd6bdbcbb23746ab2ba3dc5acc9714f242c998",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_id": "O-2a6f621bebd97fb33e8f5986",
+      "side": "ours",
+      "catalog": "isolators",
+      "kind": "source_note",
+      "pointer": "/catalogs/1/pages/62/content/source_notes/0",
+      "owner": "",
+      "name": "source_note",
+      "value": "Переносы внутри слов в текстовом слое («разви- тию», «изолято- ра», «обеспече- на», «напряже- ний», «опрессова- ния», «птицезащи- щенные») — артефакты вёрстки; в артефакте переносы объединены в целые слова.",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        63
+      ],
+      "input_fact_sha256": "36db983a69872ba258a19eca7646a956057e96a0ef20e1e3cc7a9700fe4775ab",
+      "input_line": 101580,
+      "raw_context": "raw-286b8c44b571a133c59ab172b3c5c201340e0002113cdbdc47ad4e87f3b79c95",
+      "metadata": {
+        "raw_value_type": "str",
+        "candidate_sha256": "cd85f0a44a01ecc73d545d588ffd6bdbcbb23746ab2ba3dc5acc9714f242c998",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_id": "O-b91b9e18d31ab031a871f014",
+      "side": "ours",
+      "catalog": "isolators",
+      "kind": "source_note",
+      "pointer": "/catalogs/1/pages/62/content/source_notes/1",
+      "owner": "",
+      "name": "source_note",
+      "value": "Пример условного обозначения и схема структуры («ЛКП 70/110-И-4 СП», «ЛКХ Х/Х -Х-Х ХХ») набраны с неравномерными пробелами между символьными позициями; сохранены как напечатаны.",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        63
+      ],
+      "input_fact_sha256": "e7f1ba56975884376dae7078af318f9e041c37cd4486ec3684d74c0f37528182",
+      "input_line": 101581,
+      "raw_context": "raw-d52761dcdd9ef61053f17396fc931c70b9998fb8d8ccf169dc75513d8d96c6b7",
+      "metadata": {
+        "raw_value_type": "str",
+        "candidate_sha256": "cd85f0a44a01ecc73d545d588ffd6bdbcbb23746ab2ba3dc5acc9714f242c998",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_id": "O-acbc8779b7146a0545c7442b",
+      "side": "ours",
+      "catalog": "isolators",
+      "kind": "source_note",
+      "pointer": "/catalogs/1/pages/62/content/source_notes/2",
+      "owner": "",
+      "name": "source_note",
+      "value": "Схема структуры не является таблицей: слева символические позиции с вертикальными выносками, справа текстовые расшифровки; Docling (2.137.0) таблиц на странице не обнаружил.",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        63
+      ],
+      "input_fact_sha256": "885521277f87e014949cd1f98400f5177bcd1f4df2676ac880535532c844cfec",
+      "input_line": 101582,
+      "raw_context": "raw-ec60d4a1ae3a7b5057c0cbae8ab032408939d46a4dae07a9857c06fc48fdddd4",
+      "metadata": {
+        "raw_value_type": "str",
+        "candidate_sha256": "cd85f0a44a01ecc73d545d588ffd6bdbcbb23746ab2ba3dc5acc9714f242c998",
+        "previously_accepted": true
+      }
+    },
+    {
+      "fact_id": "O-15ec72fd0754b16b56b20d98",
+      "side": "ours",
+      "catalog": "isolators",
+      "kind": "source_note",
+      "pointer": "/catalogs/1/pages/62/content/source_notes/3",
+      "owner": "",
+      "name": "source_note",
+      "value": "Логотипы «ФОРЭНЕРГО производственное объединение» и «FORENERGO® industrial group» — графические элементы, надписи подписаны по видимому тексту.",
+      "unit": "",
+      "condition": "",
+      "physical_pages": [
+        63
+      ],
+      "input_fact_sha256": "d17307f43203a200afa8787e4cc77e3d032545e0f29504d717b54160b6bfbb10",
+      "input_line": 101583,
+      "raw_context": "raw-d0d5f5c225ba98d6663c5a935b2f10f721964d89cf088d144874b4a0368bb1da",
+      "metadata": {
+        "raw_value_type": "str",
+        "candidate_sha256": "cd85f0a44a01ecc73d545d588ffd6bdbcbb23746ab2ba3dc5acc9714f242c998",
+        "previously_accepted": true
+      }
+    }
+  ],
+  "original_contexts": {
+    "raw-b346d70a6dcb7bce6460468670236cb489fce2d220419f360081d3df991f0010": {
+      "scope": "Подвесные полимерные изоляторы III поколения производства ООО «ИНСТА»: ЛК, ЛКП, ЛКГ и ЛКМ",
+      "scope_evidence": "Explicit applicability in cited prose.",
+      "evidence": [
+        {
+          "page": 63,
+          "region": [
+            0.08,
+            0.33,
+            0.92,
+            0.36
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "Поколение",
+          "role": "prose",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 63,
+              "region": [
+                0.08,
+                0.33,
+                0.92,
+                0.36
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 63,
+          "region": [
+            0.08,
+            0.33,
+            0.92,
+            0.36
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "prose"
+    },
+    "raw-b6f9f46b566185acd5051f38858f2704529be1c256eb20e446f85075ed6e359a": {
+      "scope": "Подвесные полимерные изоляторы III поколения производства ООО «ИНСТА»: ЛК, ЛКП, ЛКГ и ЛКМ",
+      "scope_evidence": "Explicit applicability in cited prose.",
+      "evidence": [
+        {
+          "page": 63,
+          "region": [
+            0.08,
+            0.365,
+            0.92,
+            0.435
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "Изоляторы соответствуют требованиям",
+          "role": "prose",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 63,
+              "region": [
+                0.08,
+                0.365,
+                0.92,
+                0.435
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 63,
+          "region": [
+            0.08,
+            0.365,
+            0.92,
+            0.435
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "prose"
+    },
+    "raw-48cc632d80e33a3f31487d3efdb735e88573e10ccb7156a703c85350b6df35d4": {
+      "scope": "Подвесные полимерные изоляторы III поколения производства ООО «ИНСТА»: ЛК, ЛКП, ЛКГ и ЛКМ",
+      "scope_evidence": "Explicit applicability in cited prose.",
+      "evidence": [
+        {
+          "page": 63,
+          "region": [
+            0.08,
+            0.365,
+            0.92,
+            0.435
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "стеклопластиковый стержень",
+          "role": "prose",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 63,
+              "region": [
+                0.08,
+                0.365,
+                0.92,
+                0.435
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 63,
+          "region": [
+            0.08,
+            0.365,
+            0.92,
+            0.435
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "prose"
+    },
+    "raw-05c85fdfad9e1ccd0d890019d4dd3838165cc2c8ff3c42a1bfd58c184c5ced87": {
+      "scope": "ЛКГ",
+      "scope_evidence": "Explicit applicability in cited prose.",
+      "evidence": [
+        {
+          "page": 63,
+          "region": [
+            0.08,
+            0.437,
+            0.92,
+            0.478
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "ЛКГ",
+          "role": "prose",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 63,
+              "region": [
+                0.08,
+                0.437,
+                0.92,
+                0.478
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 63,
+          "region": [
+            0.08,
+            0.437,
+            0.92,
+            0.478
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "prose"
+    },
+    "raw-e583fb4e61c8b2a9e6b5e1664371480adaad0b615032d9ae6c47003f8958c209": {
+      "scope": "ЛКП",
+      "scope_evidence": "Explicit applicability in cited prose.",
+      "evidence": [
+        {
+          "page": 63,
+          "region": [
+            0.08,
+            0.437,
+            0.92,
+            0.478
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "ЛКП",
+          "role": "prose",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 63,
+              "region": [
+                0.08,
+                0.437,
+                0.92,
+                0.478
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 63,
+          "region": [
+            0.08,
+            0.437,
+            0.92,
+            0.478
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "prose"
+    },
+    "raw-4b24e2665a6505d796e5fe6ac6ad0d1588f72331bc84d2d5b925dead00a67d25": {
+      "scope": "Подвесные полимерные изоляторы III поколения производства ООО «ИНСТА»: ЛК, ЛКП, ЛКГ и ЛКМ",
+      "scope_evidence": "Explicit applicability in cited prose.",
+      "evidence": [
+        {
+          "page": 63,
+          "region": [
+            0.08,
+            0.2,
+            0.92,
+            0.241
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "Полимерная оболочка",
+          "role": "prose",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 63,
+              "region": [
+                0.08,
+                0.2,
+                0.92,
+                0.241
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 63,
+          "region": [
+            0.08,
+            0.2,
+            0.92,
+            0.241
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "prose"
+    },
+    "raw-fa24020560877596f0aa775530f406d4eb1e30d0d341af829d7212f2fd1cc636": {
+      "scope": "Подвесные полимерные изоляторы III поколения производства ООО «ИНСТА»: ЛК, ЛКП, ЛКГ и ЛКМ",
+      "scope_evidence": "Explicit applicability in cited prose.",
+      "evidence": [
+        {
+          "page": 63,
+          "region": [
+            0.08,
+            0.28,
+            0.92,
+            0.309
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "технология изготовления",
+          "role": "prose",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 63,
+              "region": [
+                0.08,
+                0.28,
+                0.92,
+                0.309
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 63,
+          "region": [
+            0.08,
+            0.28,
+            0.92,
+            0.309
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "prose"
+    },
+    "raw-7a723ffec42c16b6a5ad7522adb6baa481f5b12b5c8a1514a98ade12e2d4b940": {
+      "scope": "Подвесные полимерные изоляторы III поколения производства ООО «ИНСТА»: ЛК, ЛКП, ЛКГ и ЛКМ",
+      "scope_evidence": "Explicit applicability in cited prose.",
+      "evidence": [
+        {
+          "page": 63,
+          "region": [
+            0.08,
+            0.312,
+            0.92,
+            0.327
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "устойчивость",
+          "role": "prose",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 63,
+              "region": [
+                0.08,
+                0.312,
+                0.92,
+                0.327
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 63,
+          "region": [
+            0.08,
+            0.312,
+            0.92,
+            0.327
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "prose"
+    },
+    "raw-1401c6341e9b4cd579100b6ce470196ca32b2f8ee49ac95b0dda1eae88abb22d": {
+      "scope": "Подвесные полимерные изоляторы III поколения производства ООО «ИНСТА»: ЛК, ЛКП, ЛКГ и ЛКМ",
+      "scope_evidence": "Explicit applicability in cited prose.",
+      "evidence": [
+        {
+          "page": 63,
+          "region": [
+            0.32,
+            0.517,
+            0.92,
+            0.94
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "Буквенное обозначение исполнения верхнего и нижнего оконцевателей:",
+          "role": "prose",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 63,
+              "region": [
+                0.32,
+                0.517,
+                0.92,
+                0.94
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 63,
+          "region": [
+            0.32,
+            0.517,
+            0.92,
+            0.94
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "prose"
+    },
+    "raw-2968c1db6d0b2b6183eee5d3508970ea32b8364f3d5fb83753f6acc2d5e89f87": {
+      "scope": "Подвесные полимерные изоляторы III поколения производства ООО «ИНСТА»: ЛК, ЛКП, ЛКГ и ЛКМ",
+      "scope_evidence": "Explicit applicability in cited prose.",
+      "evidence": [
+        {
+          "page": 63,
+          "region": [
+            0.32,
+            0.517,
+            0.92,
+            0.94
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "Максимальная степень загрязнения",
+          "role": "prose",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 63,
+              "region": [
+                0.32,
+                0.517,
+                0.92,
+                0.94
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 63,
+          "region": [
+            0.32,
+            0.517,
+            0.92,
+            0.94
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "prose"
+    },
+    "raw-683fd7089e28adf59d478d571f488aee15bed862d49bfa0e84f018ccb25127f9": {
+      "scope": "И",
+      "scope_evidence": "Explicit applicability in cited prose.",
+      "evidence": [
+        {
+          "page": 63,
+          "region": [
+            0.32,
+            0.579,
+            0.92,
+            0.826
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "Конструктивное исполнение: И",
+          "role": "prose",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 63,
+              "region": [
+                0.32,
+                0.579,
+                0.92,
+                0.826
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 63,
+          "region": [
+            0.32,
+            0.579,
+            0.92,
+            0.826
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "prose"
+    },
+    "raw-063e621111ceac0a21f6fe5b7ef47241a68d356285c9dbf8c21d92c6a28d3073": {
+      "scope": "ИС",
+      "scope_evidence": "Explicit applicability in cited prose.",
+      "evidence": [
+        {
+          "page": 63,
+          "region": [
+            0.32,
+            0.579,
+            0.92,
+            0.826
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "Конструктивное исполнение: ИС",
+          "role": "prose",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 63,
+              "region": [
+                0.32,
+                0.579,
+                0.92,
+                0.826
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 63,
+          "region": [
+            0.32,
+            0.579,
+            0.92,
+            0.826
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "prose"
+    },
+    "raw-668d03e40e12b7cd104300a2f30e67c941a65d6c448ab34c602298a48f963c18": {
+      "scope": "ИУ",
+      "scope_evidence": "Explicit applicability in cited prose.",
+      "evidence": [
+        {
+          "page": 63,
+          "region": [
+            0.32,
+            0.579,
+            0.92,
+            0.826
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "Конструктивное исполнение: ИУ",
+          "role": "prose",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 63,
+              "region": [
+                0.32,
+                0.579,
+                0.92,
+                0.826
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 63,
+          "region": [
+            0.32,
+            0.579,
+            0.92,
+            0.826
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "prose"
+    },
+    "raw-152889b05fd07c56ed55b9d9fd4ae3d2df91ea1fa88153c77a55dc30e2a69401": {
+      "scope": "ИГ",
+      "scope_evidence": "Explicit applicability in cited prose.",
+      "evidence": [
+        {
+          "page": 63,
+          "region": [
+            0.32,
+            0.579,
+            0.92,
+            0.826
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "Конструктивное исполнение: ИГ",
+          "role": "prose",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 63,
+              "region": [
+                0.32,
+                0.579,
+                0.92,
+                0.826
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 63,
+          "region": [
+            0.32,
+            0.579,
+            0.92,
+            0.826
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "prose"
+    },
+    "raw-e6d69d5222347f63e09368aea5f164613dc226f7e2885926af108c59a960fded": {
+      "scope": "ГУ",
+      "scope_evidence": "Explicit applicability in cited prose.",
+      "evidence": [
+        {
+          "page": 63,
+          "region": [
+            0.32,
+            0.579,
+            0.92,
+            0.826
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "Конструктивное исполнение: ГУ",
+          "role": "prose",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 63,
+              "region": [
+                0.32,
+                0.579,
+                0.92,
+                0.826
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 63,
+          "region": [
+            0.32,
+            0.579,
+            0.92,
+            0.826
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "prose"
+    },
+    "raw-d3a5fb66f277d65a52e108a60b147c51f7a0594d4e0c34c472ab732a7974992e": {
+      "scope": "ДУ",
+      "scope_evidence": "Explicit applicability in cited prose.",
+      "evidence": [
+        {
+          "page": 63,
+          "region": [
+            0.32,
+            0.579,
+            0.92,
+            0.826
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "Конструктивное исполнение: ДУ",
+          "role": "prose",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 63,
+              "region": [
+                0.32,
+                0.579,
+                0.92,
+                0.826
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 63,
+          "region": [
+            0.32,
+            0.579,
+            0.92,
+            0.826
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "prose"
+    },
+    "raw-a8c27028dad55517f04f0114d23110633cad1d808c41ee81f4a27151bf5edb95": {
+      "scope": "Подвесные полимерные изоляторы III поколения производства ООО «ИНСТА»: ЛК, ЛКП, ЛКГ и ЛКМ",
+      "scope_evidence": "Explicit applicability in cited prose.",
+      "evidence": [
+        {
+          "page": 63,
+          "region": [
+            0.32,
+            0.517,
+            0.92,
+            0.94
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "Класс изолятора:",
+          "role": "prose",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 63,
+              "region": [
+                0.32,
+                0.517,
+                0.92,
+                0.94
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 63,
+          "region": [
+            0.32,
+            0.517,
+            0.92,
+            0.94
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "prose"
+    },
+    "raw-04432df7c7f86746d8dd40cdeba54ea22b50d735540889f76ffed988bd4fe491": {
+      "scope": "Подвесные полимерные изоляторы III поколения производства ООО «ИНСТА»: ЛК, ЛКП, ЛКГ и ЛКМ",
+      "scope_evidence": "Explicit applicability in cited prose.",
+      "evidence": [
+        {
+          "page": 63,
+          "region": [
+            0.32,
+            0.517,
+            0.92,
+            0.94
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "Модификация изолятора (при ее наличии):",
+          "role": "prose",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 63,
+              "region": [
+                0.32,
+                0.517,
+                0.92,
+                0.94
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 63,
+          "region": [
+            0.32,
+            0.517,
+            0.92,
+            0.94
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "prose"
+    },
+    "raw-f24aecf6c4110af8a081552bfa899775d04e791a450a90e35013b86027158eb1": {
+      "scope": "Подвесные полимерные изоляторы III поколения производства ООО «ИНСТА»: ЛК, ЛКП, ЛКГ и ЛКМ",
+      "scope_evidence": "Explicit applicability in cited prose.",
+      "evidence": [
+        {
+          "page": 63,
+          "region": [
+            0.32,
+            0.517,
+            0.92,
+            0.94
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "Материал защитной оболочки:",
+          "role": "prose",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 63,
+              "region": [
+                0.32,
+                0.517,
+                0.92,
+                0.94
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 63,
+          "region": [
+            0.32,
+            0.517,
+            0.92,
+            0.94
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "prose"
+    },
+    "raw-1a8c51d90fa2a89230e4b56c4cbba590aa9c1d76e967c217592ea79b107b22df": {
+      "scope": "Подвесные полимерные изоляторы III поколения производства ООО «ИНСТА»: ЛК, ЛКП, ЛКГ и ЛКМ",
+      "scope_evidence": "Explicit applicability in cited prose.",
+      "evidence": [
+        {
+          "page": 63,
+          "region": [
+            0.32,
+            0.517,
+            0.92,
+            0.94
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "Вид конструкции изолятора:",
+          "role": "prose",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 63,
+              "region": [
+                0.32,
+                0.517,
+                0.92,
+                0.94
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 63,
+          "region": [
+            0.32,
+            0.517,
+            0.92,
+            0.94
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "prose"
+    },
+    "raw-e6cf7c5527560f4942bd82633945f8de976482d3cbfec477b4f783beb73680de": {
+      "scope": "Пример структуры обозначения; не отдельная модельная строка.",
+      "scope_evidence": "Explicit applicability in cited prose.",
+      "evidence": [
+        {
+          "page": 63,
+          "region": [
+            0.08,
+            0.48,
+            0.287,
+            0.5
+          ]
+        }
+      ],
+      "uncertainties": [],
+      "header_path": [
+        {
+          "raw_text": "Пример условного обозначения",
+          "role": "prose",
+          "unit": "",
+          "condition": "",
+          "evidence": [
+            {
+              "page": 63,
+              "region": [
+                0.08,
+                0.48,
+                0.287,
+                0.5
+              ]
+            }
+          ]
+        }
+      ],
+      "row_evidence": [
+        {
+          "page": 63,
+          "region": [
+            0.08,
+            0.48,
+            0.287,
+            0.5
+          ]
+        }
+      ],
+      "value_state": "printed_value",
+      "origin": "prose"
+    },
+    "raw-b0350f820e0da16c784ae3adaa60667d68634defb924729d370f40cd37bbdf65": {
+      "kind": "branding",
+      "text": "ФОРЭНЕРГО производственное объединение · FORENERGO® industrial group"
+    },
+    "raw-3e18f3c52728235f97ecc0e46c79880ead02c882b920db1eb724fd62b06a292b": {
+      "kind": "heading",
+      "text": "ИЗОЛЯТОРЫ / ИЗОЛЯТОРЫ ЛИНЕЙНЫЕ ПОДВЕСНЫЕ ПОЛИМЕРНЫЕ"
+    },
+    "raw-3161225dabb503921ba1771d08cc9f5258808f52500e87e44fd2b7589b439eb8": {
+      "kind": "paragraph",
+      "text": "Основной причиной выхода из строя полимерных изоляторов является их разгерметизация в районе узла соединения «оболочка-стержень-оконцеватель» с последующим внутренним увлажнением, что приводит к электрическому пробою. Также причиной разрушения полимерных изоляторов зачастую становятся скрытые повреждения стеклопластиковых стержней (трещины) при опрессовании оконцевателей на производстве. Впоследствии, это может приводить к развитию трещин в процессе эксплуатации под механической нагрузкой и внутренним частичным разрядам, разрушающим стеклопластиковый стержень изолятора."
+    },
+    "raw-3b4474d23c21a4511011bd223d02b21216166f80b33ea77c0441adc2185a2e34": {
+      "kind": "heading",
+      "text": "Преимущества подвесных полимерных изоляторов III поколения производства ООО «ИНСТА»:"
+    },
+    "raw-b4cae4a0946b769eecb27743cf0f1027708815dfa86fe7e487d6bdaeb7a28ce6": {
+      "kind": "paragraph",
+      "text": "• Обладают повышенной надежностью вследствие своих конструктивных особенностей."
+    },
+    "raw-32bf721463be1f4fcee81a98a46f77a5dd93c2d489936b8d0babb3399b90cdb4": {
+      "kind": "paragraph",
+      "text": "• Полимерная оболочка заходит на оконцеватели на большую длину от их края, за счет чего из конструкции изолятора исключены «слабые элементы» - клеевые швы в узле соединения «оболочка-стержень-оконцеватель», обеспечена полная герметизация и долговечность изоляторов."
+    },
+    "raw-599a55fce8188a0457a7f79a3c389a0324c5487226f38bd1854d3e037630a2ae": {
+      "kind": "paragraph",
+      "text": "• Для проверки качества изоляторов типа ЛК «ИНСТА» применяется самый высокий уровень испытательных напряжений среди других производителей."
+    },
+    "raw-e42bf263e248fc41aeb68944686eda74f5a32a8dca2c3a538970d05d4d120868": {
+      "kind": "paragraph",
+      "text": "• Уникальная технология изготовления, гарантирующая отсутствие скрытых повреждений стержня после опрессования оконцевателей."
+    },
+    "raw-5c71a24b4f16474d250bf7dfe9f9111f0feded08697a2273c9d0ff91af54d53a": {
+      "kind": "paragraph",
+      "text": "• Изоляторы «ИНСТА» устойчивы к кислотной коррозии."
+    },
+    "raw-e100d7a12997a3731959a886e61cee711bd2c8df3028afb8c73d01b2b6d9fcc8": {
+      "kind": "heading",
+      "text": "ООО «ИНСТА» — единственное отечественное предприятие, выпускающее полимерные подвесные изоляторы повышенной надежности только III поколения."
+    },
+    "raw-35ccdf4e8f7fb1c9e895860c163cc1a2b9b2a9682299ec4c1e28b8d4b11256b0": {
+      "kind": "paragraph",
+      "text": "Изоляторы соответствуют требованиям последних российских, межгосударственных и международных стандартов на линейные полимерные изоляторы: ГОСТ Р 55189-2012, ГОСТ 28856-90 и МЭК 61109 и изготавливаются с использованием стеклопластикового стержня типа ECR, применяемого для предотвращения разрушения изоляторов из-за кислотной коррозии стержня в случаях разгерметизации защитной оболочки при актах вандализма или неаккуратном обращении с изоляторами при хранении и монтаже."
+    },
+    "raw-3018268e25622971a446ce5b1ba01bfa58af3b15f85e4f736b0b3eee9c5f878b": {
+      "kind": "paragraph",
+      "text": "На основе улучшенных изоляторов ЛК ООО «ИНСТА» изготавливает изоляторы типа ЛКГ (предназначены для изоляции и крепления грозозащитных тросов воздушных линий электропередачи на ВЛ 110-500 кВ) и изоляторы ЛКП (птицезащищенные)."
+    },
+    "raw-94305954a724001ec6d9de4f4e240665f6c8510b72a51fc7460f8cad19467653": {
+      "kind": "heading",
+      "text": "Структура условного обозначения линейных подвесных стержневых полимерных изоляторов типа ЛК, ЛКП, ЛКГ и ЛКМ"
+    },
+    "raw-ae55bc0e08477f2e62ad8b023a262bdce9dd0f6ef01ee4eb511a51099c7395cd": {
+      "kind": "footer",
+      "text": "62  ООО «ИНСТА»  Тел./ факс: +7 (495) 780-51-65, e-mail: sales@zaoinsta.ru  www.zaoinsta.ru"
+    },
+    "raw-146a713525e974f21a26b8e339132afd3886cf4e53548e3b4ce9ca477a4f713c": {
+      "title": "Структура условного обозначения линейных подвесных стержневых полимерных изоляторов типа ЛК, ЛКП, ЛКГ и ЛКМ",
+      "description": "Схема расшифровки условного обозначения. Слева крупным шрифтом приведён пример обозначения «ЛКП 70/110-И-4 СП», под ним — структурная схема «ЛКХ Х/Х -Х-Х ХХ» с вертикальными выносками-скобками, отходящими от символьных позиций схемы к текстовым пояснениям справа. Позиции схемы расшифровываются (сверху вниз): буквенное обозначение исполнения верхнего и нижнего оконцевателей (две пары букв в конце обозначения); максимальная степень загрязнения (СЗ) по ГОСТ 9920, при которой может применяться изолятор; конструктивное исполнение (И, ИС, ИУ, ИГ, ГУ, ДУ — блок, обведённый общей вертикальной чертой); класс изолятора (числитель «70/110»); модификация изолятора («П», при её наличии); материал защитной оболочки; вид конструкции изолятора. Числовых размеров, знаков Ø и допусков на схеме нет; схема содержит только символические позиции и их текстовые расшифровки.",
+      "labels": [
+        "ЛКП 70/110-И-4 СП",
+        "ЛКХ Х/Х -Х-Х ХХ",
+        "Буквенное обозначение исполнения верхнего и нижнего оконцевателей: Г — «Гнездо», С — «Проушина», П — «Пестик», О — «Овал», В — «Вилка»",
+        "Максимальная степень загрязнения (СЗ) по ГОСТ 9920, при которой может применяться изолятор",
+        "Конструктивное исполнение:",
+        "И — дополнительная герметизация узла «оболочка-стержень-оконцеватель»",
+        "ИС — дополнительная герметизация узла «оболочка-стержень-оконцеватель», а также возможность установки дополнительного оборудования на оконцеватели",
+        "ИУ — дополнительная герметизация узла «оболочка-стержень-оконцеватель», а также специальное конструктивное усиление данного узла с целью выравнивания воздействия на изолятор электромагнитного поля высокой напряжённости",
+        "ИГ — дополнительная герметизация узла «оболочка-стержень-оконцеватель» и повышенная грязе- и грозостойкость за счёт увеличенной длины пути утечки изоляторов",
+        "ГУ — дополнительная герметизация узла «оболочка-стержень-оконцеватель», а также специальное конструктивное усиление данного узла с целью выравнивания воздействия на изолятор электромагнитного поля высокой напряжённости. Изоляторы данной модификации обладают повышенной грязе- и грозостойкостью за счёт увеличенной длины пути утечки.",
+        "ДУ — дополнительная герметизация узла «оболочка-стержень-оконцеватель», а также специальное конструктивное усиление данного узла с целью выравнивания воздействия на изолятор электромагнитного поля высокой напряжённости. Повышенная механическая надежность за счёт применения стеклопластиковых стержней большего диаметра.",
+        "Класс изолятора: значение нормированной механической разрушающей силы при растяжении в кН (числитель) и значение номинального напряжения ВЛ в кВ (знаменатель)",
+        "Модификация изолятора (при ее наличии): П — птицезащищенный, Г — модификация для грозотроса, Д — дугостойкие, М — модульные",
+        "Материал защитной оболочки: кремнийорганическая смесь",
+        "Вид конструкции изолятора: линейный подвесной стержневой полимерный изолятор"
+      ]
+    },
+    "raw-286b8c44b571a133c59ab172b3c5c201340e0002113cdbdc47ad4e87f3b79c95": "Переносы внутри слов в текстовом слое («разви- тию», «изолято- ра», «обеспече- на», «напряже- ний», «опрессова- ния», «птицезащи- щенные») — артефакты вёрстки; в артефакте переносы объединены в целые слова.",
+    "raw-d52761dcdd9ef61053f17396fc931c70b9998fb8d8ccf169dc75513d8d96c6b7": "Пример условного обозначения и схема структуры («ЛКП 70/110-И-4 СП», «ЛКХ Х/Х -Х-Х ХХ») набраны с неравномерными пробелами между символьными позициями; сохранены как напечатаны.",
+    "raw-ec60d4a1ae3a7b5057c0cbae8ab032408939d46a4dae07a9857c06fc48fdddd4": "Схема структуры не является таблицей: слева символические позиции с вертикальными выносками, справа текстовые расшифровки; Docling (2.137.0) таблиц на странице не обнаружил.",
+    "raw-d0d5f5c225ba98d6663c5a935b2f10f721964d89cf088d144874b4a0368bb1da": "Логотипы «ФОРЭНЕРГО производственное объединение» и «FORENERGO® industrial group» — графические элементы, надписи подписаны по видимому тексту."
+  },
+  "author_groups": [
+    {
+      "fact_indices": [
+        0,
+        26,
+        32
+      ],
+      "relation": "same_fact",
+      "keep": "both",
+      "reason": "Лично прочитан соответствующий собственный раздел63: поколениеIII, стандарты/ECR, семействаЛКГ/ЛКП либо отдельное преимущество. Это описание семейства и схемы обозначения, не новые предложения SKU.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        1,
+        2,
+        3,
+        4,
+        33
+      ],
+      "relation": "same_fact",
+      "keep": "both",
+      "reason": "Лично прочитан соответствующий собственный раздел63: поколениеIII, стандарты/ECR, семействаЛКГ/ЛКП либо отдельное преимущество. Это описание семейства и схемы обозначения, не новые предложения SKU.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        5,
+        6,
+        34
+      ],
+      "relation": "same_fact",
+      "keep": "both",
+      "reason": "Лично прочитан соответствующий собственный раздел63: поколениеIII, стандарты/ECR, семействаЛКГ/ЛКП либо отдельное преимущество. Это описание семейства и схемы обозначения, не новые предложения SKU.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        7,
+        28
+      ],
+      "relation": "same_fact",
+      "keep": "both",
+      "reason": "Лично прочитан соответствующий собственный раздел63: поколениеIII, стандарты/ECR, семействаЛКГ/ЛКП либо отдельное преимущество. Это описание семейства и схемы обозначения, не новые предложения SKU.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        8,
+        30
+      ],
+      "relation": "same_fact",
+      "keep": "both",
+      "reason": "Лично прочитан соответствующий собственный раздел63: поколениеIII, стандарты/ECR, семействаЛКГ/ЛКП либо отдельное преимущество. Это описание семейства и схемы обозначения, не новые предложения SKU.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        9,
+        31
+      ],
+      "relation": "same_fact",
+      "keep": "both",
+      "reason": "Лично прочитан соответствующий собственный раздел63: поколениеIII, стандарты/ECR, семействаЛКГ/ЛКП либо отдельное преимущество. Это описание семейства и схемы обозначения, не новые предложения SKU.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        37
+      ],
+      "relation": "same_fact",
+      "keep": "oleg",
+      "reason": "Лично прочитана вся схема63. В нашей description ошибочно назван числителем весь70/110; в первоисточнике числитель — механическая сила в кН, знаменатель — номинальное напряжение в кВ. Выбираю полный существующий структурный наборОлега с корректной формулировкой и всеми исполнениями/кодами; исходный полныйfigure сохраняется в альтернативах, не в исправленном каноне.",
+      "evidence_refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "fact_indices": [
+        23
+      ],
+      "relation": "ours_only",
+      "keep": "ours",
+      "reason": "Исходный заголовок/рисунок/пояснение/контакт нашего полного разбора; во втором входе отдельного представления нет. Сохраняю без придумывания товарной характеристики.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        24
+      ],
+      "relation": "ours_only",
+      "keep": "ours",
+      "reason": "Исходный заголовок/рисунок/пояснение/контакт нашего полного разбора; во втором входе отдельного представления нет. Сохраняю без придумывания товарной характеристики.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        25
+      ],
+      "relation": "ours_only",
+      "keep": "ours",
+      "reason": "Исходный заголовок/рисунок/пояснение/контакт нашего полного разбора; во втором входе отдельного представления нет. Сохраняю без придумывания товарной характеристики.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        27
+      ],
+      "relation": "ours_only",
+      "keep": "ours",
+      "reason": "Исходный заголовок/рисунок/пояснение/контакт нашего полного разбора; во втором входе отдельного представления нет. Сохраняю без придумывания товарной характеристики.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        29
+      ],
+      "relation": "ours_only",
+      "keep": "ours",
+      "reason": "Исходный заголовок/рисунок/пояснение/контакт нашего полного разбора; во втором входе отдельного представления нет. Сохраняю без придумывания товарной характеристики.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        35
+      ],
+      "relation": "ours_only",
+      "keep": "ours",
+      "reason": "Исходный заголовок/рисунок/пояснение/контакт нашего полного разбора; во втором входе отдельного представления нет. Сохраняю без придумывания товарной характеристики.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        36
+      ],
+      "relation": "ours_only",
+      "keep": "ours",
+      "reason": "Исходный заголовок/рисунок/пояснение/контакт нашего полного разбора; во втором входе отдельного представления нет. Сохраняю без придумывания товарной характеристики.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        38
+      ],
+      "relation": "ours_only",
+      "keep": "ours",
+      "reason": "Исходный заголовок/рисунок/пояснение/контакт нашего полного разбора; во втором входе отдельного представления нет. Сохраняю без придумывания товарной характеристики.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        39
+      ],
+      "relation": "ours_only",
+      "keep": "ours",
+      "reason": "Исходный заголовок/рисунок/пояснение/контакт нашего полного разбора; во втором входе отдельного представления нет. Сохраняю без придумывания товарной характеристики.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        40
+      ],
+      "relation": "ours_only",
+      "keep": "ours",
+      "reason": "Исходный заголовок/рисунок/пояснение/контакт нашего полного разбора; во втором входе отдельного представления нет. Сохраняю без придумывания товарной характеристики.",
+      "evidence_refs": [
+        0
+      ]
+    },
+    {
+      "fact_indices": [
+        41
+      ],
+      "relation": "ours_only",
+      "keep": "ours",
+      "reason": "Исходный заголовок/рисунок/пояснение/контакт нашего полного разбора; во втором входе отдельного представления нет. Сохраняю без придумывания товарной характеристики.",
+      "evidence_refs": [
+        0
+      ]
+    }
+  ],
+  "independent_final_review_complete": false,
+  "no_model_rerun": true
+}
