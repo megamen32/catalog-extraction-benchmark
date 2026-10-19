@@ -32,6 +32,17 @@ recommendations separately. It does not grade full submission-document generatio
 DOC-01 and Phase 5 are recorded in ROADMAP; see
 `.planning/quick/261020-forenergo-nomenclature-benchmark/PLAN.md`.
 
+Private source-traceability check, 2026-10-20: the latest participant-supplied
+catalogue snapshot is retained as a separate variant; older extracted archives are
+excluded. For the saved 90-row candidate, 37 of 81 recommendations have exact
+normalized name/model strings in both checked snapshots, 29 only in the latest
+snapshot, and 15 in neither; 9 rows are abstentions. The technical-part workbook and
+the saved candidate workbook each contain a model string for all 90 positions; 27
+strings are exactly equal and 63 differ. These are artifact/name-traceability counts,
+not suitability, system comparison, error totals or benchmark accuracy. The producer
+versions and independent selected-SKU oracle remain unconfirmed, so accuracy stays
+null. The Phase 5 document-generation benchmark remains separate and planned.
+
 ## Forenergo selection benchmark continuation — 2026-10-20
 
 The earlier messaging intake lacked technical attachments: the UserIO Telegram media
