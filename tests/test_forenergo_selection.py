@@ -111,6 +111,8 @@ def test_prepare_case_intake_preserves_delivery_rows_and_handles_a1_catalogue_di
         "prepare-case", "--technical-workbook", str(technical),
         "--candidate-workbook", str(candidate), "--catalogue", str(malformed_catalogue),
         "--output", str(out), "--repository-root", str(tmp_path),
+        "--system-id", "Фирменная система Форэнерго", "--system-version", "1.0",
+        "--candidate-source", "Aslan; Telegram message 282",
     ]) == 0
     result = json.loads(capsys.readouterr().out)
     assert result["status"] == "pending_oracle"
@@ -119,6 +121,11 @@ def test_prepare_case_intake_preserves_delivery_rows_and_handles_a1_catalogue_di
     assert result["delivery_rows"] == 2
     assert result["candidate_crosswalk_rows"] == 1
     assert result["candidate_structural_coverage"] == 1.0
+    assert result["candidate_provenance"] == {
+        "system_id": "Фирменная система Форэнерго",
+        "system_version": "1.0",
+        "source": "Aslan; Telegram message 282",
+    }
     assert result["candidate_field_counts"] == {
         "candidate_model": 1, "candidate_status": 1, "candidate_comment": 1,
     }
@@ -132,7 +139,10 @@ def test_prepare_case_intake_preserves_delivery_rows_and_handles_a1_catalogue_di
     assert row[13] == "p1"
     assert "armature · стр. 10" in row[14]
     assert row[15] == "pending"
-    assert row[21] is None
+    assert row[19] == "Подтверждённый источник: Aslan; Telegram message 282"
+    assert row[20] == "Фирменная система Форэнерго"
+    assert row[21] == "1.0"
+    assert row[22] is None
     assert intake["Строки поставки"].max_row == 3
     intake.close()
 

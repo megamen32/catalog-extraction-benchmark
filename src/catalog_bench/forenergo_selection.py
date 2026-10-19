@@ -274,16 +274,21 @@ def _columns(headers: list[str], required: set[str], source: str) -> dict[str, i
 
 def prepare_case_intake(technical_workbook: Path, candidate_workbook: Path,
                         catalogue_workbook: Path, output_path: Path,
-                        repository_root: Path) -> dict[str, Any]:
+                        repository_root: Path, system_id: str | None = None,
+                        system_version: str | None = None,
+                        candidate_source: str | None = None) -> dict[str, Any]:
     """Build a private, row-preserving review set from a tender and saved XLSX output.
 
-    The supplied candidate is retained as an unattributed artifact. This function
-    does not infer a system/version or fill any gold labels.
+    System identity/version and source may be supplied from a verified sender or
+    an owner attribution. They are never inferred from workbook contents and do
+    not fill any gold labels.
     """
     for path in (technical_workbook, candidate_workbook, catalogue_workbook):
         if not path.is_file():
             raise ValueError(f"Input is not a file: {path}")
     _assert_private_output(output_path, repository_root)
+    if bool(system_id) != bool(system_version):
+        raise ValueError("system_id and system_version must be supplied together")
 
     tech_headers, tech_lines = _read_sheet_rows(technical_workbook, "Заявка")
     tech_columns = _columns(tech_headers, {
@@ -434,13 +439,15 @@ def prepare_case_intake(technical_workbook: Path, candidate_workbook: Path,
             f"{match['source']} · стр. {match['page']} · строка {match['row']}"
             for match in catalogue_matches
         ))
+        attribution = (f"Подтверждённый источник: {candidate_source}" if candidate_source
+                       else "Источник не указан")
         positions.append([
             item_id, req["request_name"], req["parameters"], req["unit"], req["declared_total"],
             delivery_counts[item_id], "; ".join(line_sources[item_id]), req["proposed_model_in_source"],
             cand["candidate_name"], cand["candidate_status"], cand["candidate_comment"],
             cand["candidate_row"], catalogue_match_state, "; ".join(catalogue_product_ids),
             "; ".join(catalogue_refs), "pending", None, None, None,
-            "unknown: source workbook has no producer/version metadata", None, None, None, None, None, None, None,
+            attribution, system_id, system_version, None, None, None, None, None,
         ])
     _style_sheet(positions, [12, 70, 70, 12, 18, 16, 24, 40, 52, 28, 82, 18, 48, 32, 62,
                              20, 24, 52, 20, 48, 24, 20, 22, 16, 16, 16, 48])
@@ -470,7 +477,10 @@ def prepare_case_intake(technical_workbook: Path, candidate_workbook: Path,
         ["Candidate без точного совпадения строки с каталогом",
          f"{len(recommended_candidate_ids - exact_match_ids)}/{len(recommended_candidate_ids)}; ручная проверка алиасов"],
         ["Без предложения изделия", len(abstention_ids)],
-        ["Система/версия файла подбора", "Не установлены; версия API не считается версией генератора"],
+        ["Система подбора", system_id or "Не указана"],
+        ["Версия системы", system_version or "Не указана"],
+        ["Источник файла подбора", candidate_source or "Не указан"],
+        ["Примечание об атрибуции", "Источник и версия указываются по сообщению отправителя/владельца; сами по себе не являются эталоном правильности."],
         ["Эталон", "Не заполнен: нужен факт подбора или инженерная метка с источником"],
         ["Товары в срезе каталога", len(catalogue_products)],
         ["Характеристики в срезе каталога", len(catalogue_characteristics)],
@@ -492,7 +502,7 @@ def prepare_case_intake(technical_workbook: Path, candidate_workbook: Path,
         ["90 строк подбора точно связаны с 90 позициями техчасти по ID и имени; все 2,156 строк поставки сохранены."],
         ["Значения и статусы из файла-кандидата сохранены как есть и не считаются правильными ответами."],
         ["Точное совпадение строки с каталогом показывает только трассировку; отсутствие точной строки не доказывает, что изделия нет."],
-        ["Версия генератора в исходном файле отсутствует. Поля системы и времени намеренно пусты."],
+        ["Система, версия и источник указываются только после подтверждения отправителя/владельца; это не подтверждает правильность подбора."],
         ["Все эталонные статусы остаются pending, пока эксперт не подтвердит SKU и источник."],
         ["Не смешивать неполную атрибуцию и неподтверждённые строки с метрикой точности."],
         ["Исходники и эта книга хранятся только в игнорируемом .tmp/ benchmark-репозитория."],
@@ -521,7 +531,11 @@ def prepare_case_intake(technical_workbook: Path, candidate_workbook: Path,
         "catalogue_products": len(catalogue_products),
         "catalogue_characteristics": len(catalogue_characteristics),
         "candidate_status_counts": dict(status_counts),
-        "candidate_provenance": "unknown",
+        "candidate_provenance": {
+            "system_id": system_id,
+            "system_version": system_version,
+            "source": candidate_source,
+        },
         "inputs_sha256": {p.name: sha256_file(p) for p in (technical_workbook, candidate_workbook, catalogue_workbook)},
         "output": str(output_path.resolve()),
         "output_sha256": sha256_file(output_path),
@@ -770,6 +784,9 @@ def main(argv: Iterable[str] | None = None) -> int:
     case.add_argument("--catalogue", required=True, type=Path)
     case.add_argument("--output", required=True, type=Path)
     case.add_argument("--repository-root", type=Path, default=Path.cwd())
+    case.add_argument("--system-id", help="Owner-attributed system label for this saved output")
+    case.add_argument("--system-version", help="Owner-attributed version label for this saved output")
+    case.add_argument("--candidate-source", help="Verified sender/message or email source for the candidate workbook")
     score = subs.add_parser("score", help="Score versioned selection JSONL against engineer-labelled JSONL")
     score.add_argument("--gold", required=True, type=Path)
     score.add_argument("--candidate", required=True, type=Path)
@@ -781,7 +798,8 @@ def main(argv: Iterable[str] | None = None) -> int:
                                     args.output, args.repository_root)
         elif args.command == "prepare-case":
             result = prepare_case_intake(args.technical_workbook, args.candidate_workbook,
-                                         args.catalogue, args.output, args.repository_root)
+                                         args.catalogue, args.output, args.repository_root,
+                                         args.system_id, args.system_version, args.candidate_source)
         else:
             result = score_selection(args.gold, args.candidate)
             if args.output:
