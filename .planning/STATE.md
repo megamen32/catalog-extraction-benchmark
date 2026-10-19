@@ -82,7 +82,9 @@ identity and delivery lines. The saved candidate has no producer/version; all la
 remain pending and accuracy is null. One cited standard is missing and one filename
 disagrees with its internal title; exact details stay in the ignored audit. Nothing
 was sent or published. The API credential file was not used against an undocumented
-endpoint.
+endpoint. The grader distinguishes `no_candidate` from `abstain`: claims of absence
+require catalogue-search evidence, while insufficient data can be safely deferred
+or referred for review.
 
 ## Project Reference
 

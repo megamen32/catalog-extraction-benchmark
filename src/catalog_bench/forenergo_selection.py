@@ -671,6 +671,10 @@ def score_selection(gold_path: Path, candidate_path: Path) -> dict[str, Any]:
                 raise ValueError("One scoring run must contain exactly one system_id and system_version")
             if decision == "select" and (not product_id or not candidate.get("evidence_refs")):
                 raise ValueError(f"Selected row {request_id} requires product_id and evidence_refs")
+            if decision == "no_candidate" and not candidate.get("evidence_refs"):
+                raise ValueError(f"No-candidate row {request_id} requires evidence_refs for the searched catalogue")
+            if decision == "review" and product_id and not candidate.get("evidence_refs"):
+                raise ValueError(f"Review row {request_id} with a proposed product requires evidence_refs")
         if gold_status == "exact":
             expected = {str(value) for value in (gold.get("product_ids") or []) if value}
             if gold.get("product_id"):
@@ -682,6 +686,9 @@ def score_selection(gold_path: Path, candidate_path: Path) -> dict[str, Any]:
             elif decision == "select":
                 counts["false_positive_selection"] += 1
                 counts["missed_exact_selection"] += 1
+            elif decision == "no_candidate":
+                counts["missed_exact_selection"] += 1
+                counts["unsupported_no_candidate_assertion"] += 1
             else:
                 counts["missed_exact_selection"] += 1
                 counts["abstained_on_exact"] += 1
@@ -691,15 +698,30 @@ def score_selection(gold_path: Path, candidate_path: Path) -> dict[str, Any]:
             elif decision == "select":
                 counts["unsafe_auto_selection"] += 1
                 counts["false_positive_selection"] += 1
+            elif decision == "no_candidate":
+                counts["unsupported_no_candidate_assertion"] += 1
             else:
                 counts["abstained_on_review_case"] += 1
-        else:
-            if decision == "select":
+        elif gold_status == "no_candidate":
+            if decision == "no_candidate":
+                counts["correct_no_candidate"] += 1
+            elif decision == "select":
                 counts["false_positive_selection"] += 1
             elif decision == "review":
                 counts["unnecessary_review"] += 1
             else:
                 counts["correct_safe_abstention"] += 1
+                counts["conservative_abstention_on_no_candidate"] += 1
+        else:  # insufficient_data
+            if decision == "select":
+                counts["false_positive_selection"] += 1
+            elif decision == "review":
+                counts["human_review_requested_on_insufficient_data"] += 1
+            elif decision == "no_candidate":
+                counts["unsupported_no_candidate_assertion"] += 1
+            else:
+                counts["correct_safe_abstention"] += 1
+                counts["correct_insufficient_data_abstention"] += 1
 
     selected = sum(1 for request_id in gold_by_id
                    if gold_by_id[request_id].get("gold_status") in ALLOWED_GOLD
@@ -713,6 +735,7 @@ def score_selection(gold_path: Path, candidate_path: Path) -> dict[str, Any]:
         "selection_coverage": selected / scored if scored else None,
         "correct_exact_selections": true_exact,
         "false_positive_selections": counts["false_positive_selection"],
+        "unsupported_no_candidate_assertions": counts["unsupported_no_candidate_assertion"],
         "selection_precision": true_exact / selected if selected else None,
         "exact_match_recall": true_exact / exact_gold if exact_gold else None,
         "exact_gold_rows": exact_gold,

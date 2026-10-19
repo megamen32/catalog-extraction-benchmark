@@ -179,6 +179,50 @@ def test_grader_separates_false_selection_from_safe_abstention(tmp_path):
     assert result["counts"]["correct_expert_review"] == 1
 
 
+def test_grader_distinguishes_no_candidate_from_insufficient_data(tmp_path):
+    gold = tmp_path / "gold.jsonl"
+    candidate = tmp_path / "candidate.jsonl"
+    gold.write_text("\n".join([
+        json.dumps({"request_id": "1", "gold_status": "exact", "product_id": "p1",
+                    "evidence_refs": ["tender.xlsx#row=1", "catalogue.xlsx#p1"]}),
+        json.dumps({"request_id": "2", "gold_status": "no_candidate",
+                    "evidence_refs": ["catalogue-search.xlsx#query=2"]}),
+        json.dumps({"request_id": "3", "gold_status": "insufficient_data",
+                    "evidence_refs": ["technical-requirements.xlsx#row=3"]}),
+        json.dumps({"request_id": "4", "gold_status": "insufficient_data",
+                    "evidence_refs": ["technical-requirements.xlsx#row=4"]}),
+    ]) + "\n", encoding="utf-8")
+    candidate.write_text("\n".join([
+        json.dumps({"request_id": "1", "decision": "no_candidate", "system_id": "selector",
+                    "system_version": "1.0", "evidence_refs": ["catalogue-search#query=1"]}),
+        json.dumps({"request_id": "2", "decision": "no_candidate", "system_id": "selector",
+                    "system_version": "1.0", "evidence_refs": ["catalogue-search#query=2"]}),
+        json.dumps({"request_id": "3", "decision": "review", "system_id": "selector",
+                    "system_version": "1.0"}),
+        json.dumps({"request_id": "4", "decision": "abstain", "system_id": "selector",
+                    "system_version": "1.0"}),
+    ]) + "\n", encoding="utf-8")
+
+    result = selection.score_selection(gold, candidate)
+    assert result["counts"]["unsupported_no_candidate_assertion"] == 1
+    assert result["counts"]["correct_no_candidate"] == 1
+    assert result["counts"]["human_review_requested_on_insufficient_data"] == 1
+    assert result["counts"]["correct_insufficient_data_abstention"] == 1
+    assert result["counts"]["correct_safe_abstention"] == 1
+
+
+def test_grader_requires_search_evidence_for_no_candidate_claim(tmp_path):
+    gold = tmp_path / "gold.jsonl"
+    candidate = tmp_path / "candidate.jsonl"
+    gold.write_text(json.dumps({"request_id": "1", "gold_status": "no_candidate",
+                               "evidence_refs": ["catalogue-search#query=1"]}) + "\n", encoding="utf-8")
+    candidate.write_text(json.dumps({"request_id": "1", "decision": "no_candidate",
+                                     "system_id": "selector", "system_version": "1.0"}) + "\n",
+                         encoding="utf-8")
+    with pytest.raises(ValueError, match="requires evidence_refs"):
+        selection.score_selection(gold, candidate)
+
+
 def test_grader_refuses_empty_or_unsupported_gold(tmp_path):
     gold = tmp_path / "gold.jsonl"
     candidate = tmp_path / "candidate.jsonl"
