@@ -55,7 +55,7 @@ Plans:
 **Goal**: Determine whether the system can safely choose exact ForEnergo products for a real procurement and explain missing/uncertain matches.
 **Depends on**: Phase 3; uses a separate tender-selection dataset and does not change extraction score cohorts.
 **Requirements**: [NOM-01, NOM-02, NOM-03, NOM-04]
-**Status**: Active / partial. A private source crosswalk and strict grader are implemented. The input comparison found 146/155 exact one-to-one name links, 9 request rows without exact Appendix 1 matches, and 7 Appendix 1 rows absent from the request list. This is source consistency only, not selection accuracy. The submitted-product/engineer oracle and versioned candidate output remain missing.
+**Status**: Active / partial. A private source-derived intake workflow and strict grader are implemented. The current private case has been structurally read back, but its saved candidate lacks producer/version metadata and no independent outcome/engineer labels are present. Accuracy remains unscored. One cited source standard is absent and a filename disagrees with its internal title; exact evidence stays in the ignored private audit. Earlier crosswalk counts remain source-integrity results for a different input set, not selection accuracy.
 **Success Criteria**:
   1. Every scored row has source evidence and an oracle from actual submitted goods or explicit independent engineer adjudication.
   2. Unsupported matches are counted as false positives; incomplete information yields a safe abstention and is reported separately.

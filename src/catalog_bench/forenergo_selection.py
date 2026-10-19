@@ -243,6 +243,236 @@ def prepare_intake(request_path: Path, appendix_path: Path, catalogue_path: Path
     }
 
 
+def _read_sheet_rows(workbook_path: Path, sheet_name: str) -> tuple[list[str], list[tuple[int, tuple[Any, ...]]]]:
+    """Read a sheet even when the producer left its XLSX dimension at A1."""
+    workbook = load_workbook(workbook_path, data_only=True, read_only=True)
+    try:
+        if sheet_name not in workbook.sheetnames:
+            raise ValueError(f"Missing sheet {sheet_name!r} in {workbook_path.name}")
+        sheet = workbook[sheet_name]
+        sheet.reset_dimensions()
+        iterator = sheet.iter_rows(values_only=True)
+        header = next(iterator, None)
+        if not header:
+            raise ValueError(f"Missing header row in {workbook_path.name}:{sheet_name}")
+        headers = [str(value or "").strip() for value in header]
+        rows = [(row_number, tuple(row))
+                for row_number, row in enumerate(iterator, 2)
+                if any(value is not None for value in row)]
+        return headers, rows
+    finally:
+        workbook.close()
+
+
+def _columns(headers: list[str], required: set[str], source: str) -> dict[str, int]:
+    positions = {header: index for index, header in enumerate(headers) if header}
+    missing = sorted(required - set(positions))
+    if missing:
+        raise ValueError(f"{source} columns missing: {missing}")
+    return positions
+
+
+def prepare_case_intake(technical_workbook: Path, candidate_workbook: Path,
+                        catalogue_workbook: Path, output_path: Path,
+                        repository_root: Path) -> dict[str, Any]:
+    """Build a private, row-preserving review set from a tender and saved XLSX output.
+
+    The supplied candidate is retained as an unattributed artifact. This function
+    does not infer a system/version or fill any gold labels.
+    """
+    for path in (technical_workbook, candidate_workbook, catalogue_workbook):
+        if not path.is_file():
+            raise ValueError(f"Input is not a file: {path}")
+    _assert_private_output(output_path, repository_root)
+
+    tech_headers, tech_lines = _read_sheet_rows(technical_workbook, "Заявка")
+    tech_columns = _columns(tech_headers, {
+        "№ позиции", "Код заявки покупателя", "Наименование товара", "ID изделия",
+        "Предлагаемая модель · проект", "Ед. изм.", "Количество", "Срок поставки",
+        "Филиал покупателя", "Место поставки", "Нормативные требования",
+    }, f"{technical_workbook.name}:Заявка")
+    summary_headers, summary_rows = _read_sheet_rows(technical_workbook, "Характеристики")
+    summary_columns = _columns(summary_headers, {
+        "ID изделия", "Требуемый товар", "Предлагаемое изделие · проект",
+        "Параметры изделия", "Ед. изм.", "Общее количество", "Число строк поставки",
+        "Изготовитель", "Что требуется уточнить / подтвердить", "Подтверждение соответствия",
+    }, f"{technical_workbook.name}:Характеристики")
+
+    requirements: dict[str, dict[str, Any]] = {}
+    for offset, row in summary_rows:
+        item_id = str(row[summary_columns["ID изделия"]] or "").strip()
+        if not item_id:
+            continue
+        if item_id in requirements:
+            raise ValueError(f"Duplicate ID изделия {item_id} in {technical_workbook.name}:Характеристики")
+        requirements[item_id] = {
+            "request_id": item_id,
+            "request_name": str(row[summary_columns["Требуемый товар"]] or "").strip(),
+            "tech_summary_row": offset,
+            "proposed_model_in_source": str(row[summary_columns["Предлагаемое изделие · проект"]] or "").strip(),
+            "parameters": str(row[summary_columns["Параметры изделия"]] or "").strip(),
+            "unit": str(row[summary_columns["Ед. изм."]] or "").strip(),
+            "declared_total": str(row[summary_columns["Общее количество"]] or "").strip(),
+            "declared_delivery_rows": str(row[summary_columns["Число строк поставки"]] or "").strip(),
+            "manufacturer": str(row[summary_columns["Изготовитель"]] or "").strip(),
+            "clarification": str(row[summary_columns["Что требуется уточнить / подтвердить"]] or "").strip(),
+            "conformity": str(row[summary_columns["Подтверждение соответствия"]] or "").strip(),
+        }
+
+    delivery_counts: Counter[str] = Counter()
+    delivery_rows: list[tuple[int, tuple[Any, ...]]] = []
+    for offset, row in tech_lines:
+        item_id = str(row[tech_columns["ID изделия"]] or "").strip()
+        if not item_id:
+            continue
+        if item_id not in requirements:
+            raise ValueError(f"Delivery row {offset} references unknown ID изделия {item_id}")
+        delivery_counts[item_id] += 1
+        delivery_rows.append((offset, tuple(row)))
+
+    candidate_headers, candidate_rows = _read_sheet_rows(candidate_workbook, "Сопоставление")
+    candidate_columns = _columns(candidate_headers, {
+        "Закупка", "Вариант из файла", "Статус соответствия", "Комментарий по соответствию",
+    }, f"{candidate_workbook.name}:Сопоставление")
+    candidates: dict[str, dict[str, Any]] = {}
+    for offset, row in candidate_rows:
+        request_text = str(row[candidate_columns["Закупка"]] or "").strip()
+        match = re.match(r"^(\d+)\.\s*(.*)$", request_text, re.DOTALL)
+        if not match:
+            raise ValueError(f"Candidate row {offset} has no explicit numeric request ID")
+        item_id, candidate_name = match.group(1), match.group(2).strip()
+        if item_id in candidates:
+            raise ValueError(f"Duplicate candidate ID {item_id} in {candidate_workbook.name}")
+        if item_id not in requirements:
+            raise ValueError(f"Candidate row {offset} references unknown request ID {item_id}")
+        if normalized_name(candidate_name) != normalized_name(requirements[item_id]["request_name"]):
+            raise ValueError(f"Candidate row {offset} request text does not match technical workbook ID {item_id}")
+        candidates[item_id] = {
+            "candidate_row": offset,
+            "candidate_name": str(row[candidate_columns["Вариант из файла"]] or "").strip(),
+            "candidate_status": str(row[candidate_columns["Статус соответствия"]] or "").strip(),
+            "candidate_comment": str(row[candidate_columns["Комментарий по соответствию"]] or "").strip(),
+        }
+    if set(candidates) != set(requirements):
+        raise ValueError(
+            f"Candidate IDs do not cover requirements: missing={sorted(set(requirements)-set(candidates))[:8]}, "
+            f"extra={sorted(set(candidates)-set(requirements))[:8]}"
+        )
+    candidate_field_counts = {
+        "candidate_model": sum(bool(item["candidate_name"]) for item in candidates.values()),
+        "candidate_status": sum(bool(item["candidate_status"]) for item in candidates.values()),
+        "candidate_comment": sum(bool(item["candidate_comment"]) for item in candidates.values()),
+    }
+    for item_id, req in requirements.items():
+        if delivery_counts[item_id] != int(req["declared_delivery_rows"] or 0):
+            raise ValueError(f"Delivery row count mismatch for request ID {item_id}")
+
+    catalogue_products_header, catalogue_products = _read_sheet_rows(catalogue_workbook, "Товары")
+    catalogue_characteristics_header, catalogue_characteristics = _read_sheet_rows(catalogue_workbook, "Характеристики")
+    if not catalogue_products_header or not catalogue_characteristics_header:
+        raise ValueError(f"Incomplete catalogue workbook: {catalogue_workbook.name}")
+
+    workbook = Workbook()
+    positions = workbook.active
+    positions.title = "Проверка позиций"
+    positions.append([
+        "ID изделия", "Требуемый товар", "Требования/параметры из XLSX", "Ед. изм.",
+        "Общее количество", "Строк поставки", "Строки исходной заявки",
+        "Предлагаемая модель из техчасти", "Модель из файла подбора", "Статус из файла подбора",
+        "Комментарий из файла подбора", "Строка файла подбора", "Эталонный статус",
+        "Эталонный SKU", "Источник эталона", "Рецензент", "Статус атрибуции кандидата",
+        "ID системы", "Версия системы", "Модель", "Время, с", "Токены входа", "Токены выхода",
+        "Ошибка/замечание проверяющего",
+    ])
+    line_sources: dict[str, list[str]] = defaultdict(list)
+    for source_row, row in delivery_rows:
+        item_id = str(row[tech_columns["ID изделия"]] or "").strip()
+        line_sources[item_id].append(str(source_row))
+    for item_id in sorted(requirements, key=lambda value: (not value.isdigit(), int(value) if value.isdigit() else value)):
+        req = requirements[item_id]
+        cand = candidates[item_id]
+        positions.append([
+            item_id, req["request_name"], req["parameters"], req["unit"], req["declared_total"],
+            delivery_counts[item_id], "; ".join(line_sources[item_id]), req["proposed_model_in_source"],
+            cand["candidate_name"], cand["candidate_status"], cand["candidate_comment"],
+            cand["candidate_row"], "pending", None, None, None,
+            "unknown: source workbook has no producer/version metadata", None, None, None, None, None, None, None,
+        ])
+    _style_sheet(positions, [12, 70, 70, 12, 18, 16, 24, 40, 52, 28, 82, 18, 20, 24,
+                             52, 20, 48, 24, 20, 22, 16, 16, 16, 48])
+    positions.freeze_panes = "A2"
+
+    deliveries = workbook.create_sheet("Строки поставки")
+    deliveries.append(["Строка источника", *tech_headers])
+    for source_row, row in delivery_rows:
+        deliveries.append([source_row, *row])
+    _style_sheet(deliveries, [18] + [36] * len(tech_headers))
+
+    source_sheet = workbook.create_sheet("Срез и метод")
+    status_counts = Counter(candidate["candidate_status"] for candidate in candidates.values())
+    source_rows = [
+        ["Поле", "Значение"],
+        ["Статус оценки", "pending_oracle: это intake и проверка структуры, точность подбора не рассчитана"],
+        ["Позиции номенклатуры", len(requirements)],
+        ["Строк поставки", len(delivery_rows)],
+        ["Точный crosswalk требований к файлу подбора", f"{len(candidates)}/{len(requirements)} по явному ID и точному нормализованному имени"],
+        ["Структурное покрытие кандидатной книги", f"{len(candidates)}/{len(requirements)} строк; дубли ID запрещены"],
+        ["Непустые значения: модель кандидата", f"{candidate_field_counts['candidate_model']}/{len(candidates)}"],
+        ["Непустые значения: статус", f"{candidate_field_counts['candidate_status']}/{len(candidates)}"],
+        ["Непустые значения: комментарий", f"{candidate_field_counts['candidate_comment']}/{len(candidates)}"],
+        ["Система/версия файла подбора", "Не установлены; версия API не считается версией генератора"],
+        ["Эталон", "Не заполнен: нужен факт подбора или инженерная метка с источником"],
+        ["Товары в срезе каталога", len(catalogue_products)],
+        ["Характеристики в срезе каталога", len(catalogue_characteristics)],
+        ["Примечание к каталогу", "Читал листы после сброса ошибочного XLSX used-range A1; фактические строки проверены"],
+        ["Техчасть SHA-256", sha256_file(technical_workbook)],
+        ["Файл подбора SHA-256", sha256_file(candidate_workbook)],
+        ["Каталог SHA-256", sha256_file(catalogue_workbook)],
+        ["Строки файла подбора по заявленному статусу", json.dumps(status_counts, ensure_ascii=False, sort_keys=True)],
+        ["Дата подготовки UTC", datetime.now(timezone.utc).isoformat(timespec="seconds")],
+    ]
+    for row in source_rows:
+        source_sheet.append(row)
+    source_sheet.column_dimensions["A"].width = 48
+    source_sheet.column_dimensions["B"].width = 110
+    source_sheet.freeze_panes = "A2"
+    notes = workbook.create_sheet("Пояснение")
+    for row in [
+        ["Это закрытый рабочий intake для независимой проверки подбора."],
+        ["90 строк подбора точно связаны с 90 позициями техчасти по ID и имени; все 2,156 строк поставки сохранены."],
+        ["Значения и статусы из файла-кандидата сохранены как есть и не считаются правильными ответами."],
+        ["Версия генератора в исходном файле отсутствует. Поля системы и времени намеренно пусты."],
+        ["Все эталонные статусы остаются pending, пока эксперт не подтвердит SKU и источник."],
+        ["Не смешивать неполную атрибуцию и неподтверждённые строки с метрикой точности."],
+        ["Исходники и эта книга хранятся только в игнорируемом .tmp/ benchmark-репозитория."],
+    ]:
+        notes.append(row)
+    notes.column_dimensions["A"].width = 130
+    for row in notes.iter_rows():
+        row[0].alignment = Alignment(vertical="top", wrap_text=True)
+    notes.freeze_panes = "A2"
+
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    workbook.save(output_path)
+    workbook.close()
+    return {
+        "status": "pending_oracle",
+        "selection_accuracy": None,
+        "request_rows": len(requirements),
+        "delivery_rows": len(delivery_rows),
+        "candidate_crosswalk_rows": len(candidates),
+        "candidate_field_counts": candidate_field_counts,
+        "candidate_structural_coverage": len(candidates) / len(requirements) if requirements else None,
+        "catalogue_products": len(catalogue_products),
+        "catalogue_characteristics": len(catalogue_characteristics),
+        "candidate_status_counts": dict(status_counts),
+        "candidate_provenance": "unknown",
+        "inputs_sha256": {p.name: sha256_file(p) for p in (technical_workbook, candidate_workbook, catalogue_workbook)},
+        "output": str(output_path.resolve()),
+        "output_sha256": sha256_file(output_path),
+    }
+
+
 ALLOWED_GOLD = {"exact", "expert_review", "no_candidate", "insufficient_data"}
 ALLOWED_DECISIONS = {"select", "review", "abstain", "no_candidate"}
 
@@ -456,6 +686,12 @@ def main(argv: Iterable[str] | None = None) -> int:
     prep.add_argument("--catalogue", required=True, type=Path)
     prep.add_argument("--output", required=True, type=Path)
     prep.add_argument("--repository-root", type=Path, default=Path.cwd())
+    case = subs.add_parser("prepare-case", help="Prepare a private intake from a tender and saved XLSX output")
+    case.add_argument("--technical-workbook", required=True, type=Path)
+    case.add_argument("--candidate-workbook", required=True, type=Path)
+    case.add_argument("--catalogue", required=True, type=Path)
+    case.add_argument("--output", required=True, type=Path)
+    case.add_argument("--repository-root", type=Path, default=Path.cwd())
     score = subs.add_parser("score", help="Score versioned selection JSONL against engineer-labelled JSONL")
     score.add_argument("--gold", required=True, type=Path)
     score.add_argument("--candidate", required=True, type=Path)
@@ -465,6 +701,9 @@ def main(argv: Iterable[str] | None = None) -> int:
         if args.command == "prepare":
             result = prepare_intake(args.requests, args.appendix, args.catalogue,
                                     args.output, args.repository_root)
+        elif args.command == "prepare-case":
+            result = prepare_case_intake(args.technical_workbook, args.candidate_workbook,
+                                         args.catalogue, args.output, args.repository_root)
         else:
             result = score_selection(args.gold, args.candidate)
             if args.output:

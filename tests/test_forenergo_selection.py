@@ -1,5 +1,6 @@
 import json
 from pathlib import Path
+from zipfile import ZIP_DEFLATED, ZipFile
 
 import pytest
 from openpyxl import Workbook, load_workbook
@@ -57,6 +58,80 @@ def test_prepare_refuses_to_write_private_source_data_outside_tmp(tmp_path):
     req, appendix, catalogue = write_inputs(tmp_path)
     with pytest.raises(ValueError, match=r"under repository \.tmp/"):
         selection.prepare_intake(req, appendix, catalogue, tmp_path / "public.xlsx", tmp_path)
+
+
+def test_prepare_case_intake_preserves_delivery_rows_and_handles_a1_catalogue_dimension(tmp_path, capsys):
+    technical = tmp_path / "technical.xlsx"
+    wb = Workbook()
+    ws = wb.active
+    ws.title = "Заявка"
+    ws.append(["№ позиции", "Код заявки покупателя", "Наименование товара", "ID изделия",
+               "Предлагаемая модель · проект", "Ед. изм.", "Количество", "Срок поставки",
+               "Филиал покупателя", "Место поставки", "Нормативные требования"])
+    ws.append(["1", "buyer-1", "Изолятор ИО-10", "1", "Не выбран", "шт", 3,
+               "2027-01-01", "Филиал А", "Город А", "СТО-1"])
+    ws.append(["2", "buyer-2", "Изолятор ИО-10", "1", "Не выбран", "шт", 2,
+               "2027-02-01", "Филиал Б", "Город Б", "СТО-1"])
+    summary = wb.create_sheet("Характеристики")
+    summary.append(["ID изделия", "Требуемый товар", "Предлагаемое изделие · проект",
+                    "Параметры изделия", "Ед. изм.", "Общее количество", "Число строк поставки",
+                    "Изготовитель", "Что требуется уточнить / подтвердить", "Подтверждение соответствия"])
+    summary.append(["1", "Изолятор ИО-10", "Не выбран", "10 кВ", "шт", "5", "2",
+                    "Не подтвержден", "Паспорт", "Не подтверждено"])
+    wb.save(technical)
+
+    candidate = tmp_path / "candidate.xlsx"
+    wb = Workbook()
+    ws = wb.active
+    ws.title = "Сопоставление"
+    ws.append(["Закупка", "Вариант из файла", "Статус соответствия", "Комментарий по соответствию"])
+    ws.append(["1. Изолятор ИО-10", "ИО-10-3,75", "Возможный аналог", "Нужна проверка"])
+    wb.save(candidate)
+
+    catalogue = tmp_path / "catalogue.xlsx"
+    wb = Workbook()
+    ws = wb.active
+    ws.title = "Товары"
+    ws.append(["ID", "Наименование", "Модель"])
+    ws.append(["p1", "Изолятор ИО-10-3,75", "ИО-10-3,75"])
+    attrs = wb.create_sheet("Характеристики")
+    attrs.append(["ID товара", "Характеристика", "Значение"])
+    attrs.append(["p1", "Напряжение", "10 кВ"])
+    wb.save(catalogue)
+    malformed_catalogue = tmp_path / "catalogue-a1.xlsx"
+    with ZipFile(catalogue) as source, ZipFile(malformed_catalogue, "w", ZIP_DEFLATED) as target:
+        for item in source.infolist():
+            data = source.read(item.filename)
+            if item.filename == "xl/worksheets/sheet1.xml":
+                data = data.replace(b'ref="A1:C2"', b'ref="A1"', 1)
+            target.writestr(item, data)
+
+    out = tmp_path / ".tmp" / "case-intake.xlsx"
+    assert selection.main([
+        "prepare-case", "--technical-workbook", str(technical),
+        "--candidate-workbook", str(candidate), "--catalogue", str(malformed_catalogue),
+        "--output", str(out), "--repository-root", str(tmp_path),
+    ]) == 0
+    result = json.loads(capsys.readouterr().out)
+    assert result["status"] == "pending_oracle"
+    assert result["selection_accuracy"] is None
+    assert result["request_rows"] == 1
+    assert result["delivery_rows"] == 2
+    assert result["candidate_crosswalk_rows"] == 1
+    assert result["candidate_structural_coverage"] == 1.0
+    assert result["candidate_field_counts"] == {
+        "candidate_model": 1, "candidate_status": 1, "candidate_comment": 1,
+    }
+    assert result["catalogue_products"] == 1
+    assert result["catalogue_characteristics"] == 1
+    intake = load_workbook(out, data_only=True)
+    row = next(intake["Проверка позиций"].iter_rows(min_row=2, values_only=True))
+    assert row[5] == 2
+    assert row[9] == "Возможный аналог"
+    assert row[12] == "pending"
+    assert row[18] is None
+    assert intake["Строки поставки"].max_row == 3
+    intake.close()
 
 
 def test_packaged_cli_uses_working_directory_as_private_project_root(tmp_path, monkeypatch, capsys):

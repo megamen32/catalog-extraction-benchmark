@@ -18,12 +18,12 @@ meeting summary. Catalogue 4 contains 5,891 product rows and 49,022 characterist
 rows; catalogue 2 contains 6,571 product rows and 55,422 characteristic rows.
 These are private inputs and are not going to Git.
 
-Important blocker for scoring: 155 buyer descriptions are not the actual goods
+Important blocker for scoring: buyer descriptions are not the actual goods
 submitted by ForEnergo. No post-award submitted-product map or independent engineer
 labels have yet been confirmed. Do not calculate benchmark accuracy from literal
-name similarity or from the catalogue itself. Six SТО PDFs and the separate tender
-technical workbook are absent from the local source set. A read-only UserIO helper
-was tasked with retrieving only those attachments.
+name similarity or from the catalogue itself. The six SТО PDFs and separate tender
+technical workbook were absent at this initial intake; see the later Mac M1 source
+copy update below. A read-only UserIO helper was tasked with retrieving attachments.
 
 The meeting summary sets a safety-first rule: an unsupported/incorrect product
 recommendation is worse than a non-match. Stage 1 grades exact matches, possible
@@ -34,15 +34,14 @@ DOC-01 and Phase 5 are recorded in ROADMAP; see
 
 ## Forenergo selection benchmark continuation — 2026-10-20
 
-The available tender workbook and catalogue sources were inspected in the
-authorized messaging context. Several referenced technical attachments are still
-missing: the UserIO Telegram media adapter cannot download them, and no local Mac
-copy was found. An apparent standard-number mismatch remains unresolved; do not
-equate the two documents without source verification. No account secrets were read.
+The earlier messaging intake lacked technical attachments: the UserIO Telegram media
+adapter could not download them and the first Mac Downloads check did not find them.
+The owner later supplied their exact folder paths; the present sources and file-title
+verification are recorded in the newer section below. No account secrets were used.
 
-The actual versioned system output and independently confirmed selected-SKU map are
-also missing. A request for these artifacts exists as an unsent UserIO draft that
-requires manual approval; do not score a guessed candidate.
+An actual saved candidate workbook is now available, but producer/version and an
+independently confirmed selected-SKU map are missing. The workbook is retained as an
+unattributed artifact; do not score a guessed candidate.
 
 Implemented `src/catalog_bench/forenergo_selection.py`: private intake workbook
 generation with a strict typography-only crosswalk and a JSONL scorer. Workbook:
@@ -71,8 +70,19 @@ hash. No files in that historical grader path were modified in this task; changi
 its digest can affect frozen cohort identity and must be handled as a separate
 regrade-safe repair. New scoped selection tests pass.
 
-Next step: obtain the versioned system output and engineer-confirmed SKU map plus
-the missing technical sources; then freeze rows and score the retained output.
+Next step: obtain producer/version attribution and an engineer-confirmed SKU map or
+post-award outcome; then freeze and score the retained output.
+
+## ForEnergo real tender intake — 2026-10-20
+
+The owner pointed to the downloaded source set on Mac M1. All named files were copied
+into ignored private `.tmp/` storage and SHA-256 checked against the originals.
+`prepare-case` now builds and reads back a private selection intake, preserving row
+identity and delivery lines. The saved candidate has no producer/version; all labels
+remain pending and accuracy is null. One cited standard is missing and one filename
+disagrees with its internal title; exact details stay in the ignored audit. Nothing
+was sent or published. The API credential file was not used against an undocumented
+endpoint.
 
 ## Project Reference
 
@@ -85,8 +95,8 @@ See: .planning/PROJECT.md (extraction release completed 2026-10-12; Phase 4 sele
 
 Phase: 4 of 5 (Forenergo nomenclature selection)
 Plan: `.planning/quick/261020-forenergo-nomenclature-benchmark/PLAN.md`
-Status: Partial; source crosswalk and grader are ready, selection scoring awaits oracle and candidate output.
-Last activity: 2026-10-20 — Source intake read back; 146 exact links, 9 unmatched request rows, 7 appendix-only rows; accuracy remains unscored.
+Status: Partial; source-derived intake, structural audit and grader are ready; selection scoring awaits candidate provenance and oracle.
+Last activity: 2026-10-20 — Private case intake readback passed; structural coverage is reported separately and semantic accuracy remains unscored.
 
 Progress: Phase 3 remains complete; Phase 4 is in progress.
 
