@@ -39,9 +39,17 @@ normalized name/model strings in both checked snapshots, 29 only in the latest
 snapshot, and 15 in neither; 9 rows are abstentions. The technical-part workbook and
 the saved candidate workbook each contain a model string for all 90 positions; 27
 strings are exactly equal and 63 differ. These are artifact/name-traceability counts,
-not suitability, system comparison, error totals or benchmark accuracy. The producer
-versions and independent selected-SKU oracle remain unconfirmed, so accuracy stays
-null. The Phase 5 document-generation benchmark remains separate and planned.
+not suitability, system comparison, error totals or benchmark accuracy. The owner
+attributes the saved 32616480503 candidate, sent by Aslan in Telegram message 282,
+to ForEnergo's proprietary system, version 1.0. An independent selected-SKU oracle
+remains missing, so accuracy stays null. The Phase 5 document-generation benchmark
+remains separate and planned.
+
+A possible historical gold-set lead was found in MAX: a procurement with a publicly
+reported winner and a matching calculation workbook. Its row-level awarded SKU list
+is not available in the public result. UserIO cannot download the MAX Excel
+attachments (`unsupported_content_type` / `not supported by adapter`), so this lead
+is not yet a scored case or a confirmed gold set.
 
 ## Forenergo selection benchmark continuation — 2026-10-20
 
@@ -50,9 +58,9 @@ adapter could not download them and the first Mac Downloads check did not find t
 The owner later supplied their exact folder paths; the present sources and file-title
 verification are recorded in the newer section below. No account secrets were used.
 
-An actual saved candidate workbook is now available, but producer/version and an
-independently confirmed selected-SKU map are missing. The workbook is retained as an
-unattributed artifact; do not score a guessed candidate.
+An actual saved candidate workbook is available and attributed by the owner to
+ForEnergo's proprietary system, version 1.0, based on Aslan's Telegram attachment.
+The independent selected-SKU map is still missing; do not score a guessed gold set.
 
 Implemented `src/catalog_bench/forenergo_selection.py`: private intake workbook
 generation with a strict typography-only crosswalk and a JSONL scorer. Workbook:
@@ -81,16 +89,16 @@ hash. No files in that historical grader path were modified in this task; changi
 its digest can affect frozen cohort identity and must be handled as a separate
 regrade-safe repair. New scoped selection tests pass.
 
-Next step: obtain producer/version attribution and an engineer-confirmed SKU map or
-post-award outcome; then freeze and score the retained output.
+Next step: obtain an engineer-confirmed SKU map for the retained v1.0 output or a
+row-level post-award SKU list from a completed tender; then freeze and score it.
 
 ## ForEnergo real tender intake — 2026-10-20
 
 The owner pointed to the downloaded source set on Mac M1. All named files were copied
 into ignored private `.tmp/` storage and SHA-256 checked against the originals.
 `prepare-case` now builds and reads back a private selection intake, preserving row
-identity and delivery lines. The saved candidate has no producer/version; all labels
-remain pending and accuracy is null. One cited standard is missing and one filename
+identity and delivery lines. The 90-row candidate is owner-attributed to ForEnergo
+system 1.0; all gold labels remain pending and accuracy is null. One cited standard is missing and one filename
 disagrees with its internal title; exact details stay in the ignored audit. Nothing
 was sent or published. The API credential file was not used against an undocumented
 endpoint. The grader distinguishes `no_candidate` from `abstain`: claims of absence
