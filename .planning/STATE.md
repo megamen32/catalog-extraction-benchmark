@@ -40,16 +40,15 @@ snapshot, and 15 in neither; 9 rows are abstentions. The technical-part workbook
 the saved candidate workbook each contain a model string for all 90 positions; 27
 strings are exactly equal and 63 differ. These are artifact/name-traceability counts,
 not suitability, system comparison, error totals or benchmark accuracy. The owner
-attributes the saved 32616480503 candidate, sent by Aslan in Telegram message 282,
-to ForEnergo's proprietary system, version 1.0. An independent selected-SKU oracle
-remains missing, so accuracy stays null. The Phase 5 document-generation benchmark
-remains separate and planned.
+attributes the saved 32616480503 candidate to ForEnergo's proprietary system,
+version 1.0. Exact sender and message details stay in the private intake. An
+independent selected-SKU oracle remains missing, so accuracy stays null. The Phase 5
+document-generation benchmark remains separate and planned.
 
-A possible historical gold-set lead was found in MAX: a procurement with a publicly
-reported winner and a matching calculation workbook. Its row-level awarded SKU list
-is not available in the public result. UserIO cannot download the MAX Excel
-attachments (`unsupported_content_type` / `not supported by adapter`), so this lead
-is not yet a scored case or a confirmed gold set.
+A possible historical gold-set lead was found: a closed procurement with a publicly
+reported winner. Its row-level awarded SKU list is not available in the public result.
+This lead is not yet a scored case or a confirmed gold set; exact source materials
+remain private.
 
 ## Forenergo selection benchmark continuation — 2026-10-20
 
