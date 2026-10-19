@@ -9,6 +9,8 @@ Package the reviewed difficult-page dataset, deliver independent grading and ada
 - [x] **Phase 1: Frozen dataset** - Publish reviewed source facts and explicit coverage.
 - [x] **Phase 2: Independent evaluator** - Deliver grading, saved-result import and project/model execution.
 - [x] **Phase 3: Public release** - Verify real installation and publish versioned repository.
+- [ ] **Phase 4: Forenergo nomenclature-selection benchmark** - Compare tender requirements with the ForEnergo product catalogue and score safe selection/abstention on one source-grounded procurement with a retained selection or engineer-labeled outcome.
+- [ ] **Phase 5: Submission-document generation benchmark** - Independently grade filled application forms derived from an approved selection workbook.
 
 ## Phase Details
 
@@ -49,6 +51,27 @@ Plans:
 Plans:
 - [x] 03-01: Document, independently review, publish and verify installation.
 
+### Phase 4: Forenergo nomenclature-selection benchmark
+**Goal**: Determine whether the system can safely choose exact ForEnergo products for a real procurement and explain missing/uncertain matches.
+**Depends on**: Phase 3; uses a separate tender-selection dataset and does not change extraction score cohorts.
+**Requirements**: [NOM-01, NOM-02, NOM-03, NOM-04]
+**Status**: Active / partial. A private source crosswalk and strict grader are implemented. The input comparison found 146/155 exact one-to-one name links, 9 request rows without exact Appendix 1 matches, and 7 Appendix 1 rows absent from the request list. This is source consistency only, not selection accuracy. The submitted-product/engineer oracle and versioned candidate output remain missing.
+**Success Criteria**:
+  1. Every scored row has source evidence and an oracle from actual submitted goods or explicit independent engineer adjudication.
+  2. Unsupported matches are counted as false positives; incomplete information yields a safe abstention and is reported separately.
+  3. One retained candidate output is scored with product/version provenance; Excel row and formula integrity is verified.
+  4. Original documents stay private; public benchmark artifacts contain only permitted, source-bound labels and compact results.
+
+### Phase 5: Submission-document generation benchmark
+**Goal**: Measure how accurately the system turns an approved selection workbook into versioned application documents.
+**Depends on**: Phase 4 and a frozen approved workbook, current form templates, supporting documents, and independently checked completed examples.
+**Requirements**: [DOC-01]
+**Status**: Planned; not part of Phase 4 acceptance.
+**Success Criteria**:
+  1. Field-level form values trace to the approved workbook or evidence document.
+  2. Missing values remain visible for human review; unsupported certifications, declarations, and commercial claims are never invented.
+  3. Templates open correctly and preserve required structure/formulas; form accuracy is scored independently from product-selection accuracy.
+
 ## Progress
 
 | Phase | Plans Complete | Status | Completed |
@@ -56,3 +79,5 @@ Plans:
 | 1. Frozen dataset | 1/1 | Complete | 2026-10-12 |
 | 2. Independent evaluator | 1/1 | Complete | 2026-10-12 |
 | 3. Public release | 1/1 | Complete | 2026-10-12 |
+| 4. Forenergo nomenclature selection | 0/1 | In progress | — |
+| 5. Submission document generation | 0/1 | Planned | — |

@@ -26,6 +26,8 @@ Public release v0.1.0 installs from its GitHub tag; the standalone dataset, demo
 - Publishing supplied PDF files, screenshots, private messages or historical model outputs.
 - Implementing another extraction agent or selecting a model automatically.
 - Claiming full-page correctness from selected table facts.
+- Treating extraction accuracy as product-selection accuracy.
+- Generating a complete submission packet as part of the product-selection benchmark.
 
 ## Context
 
@@ -44,6 +46,7 @@ The benchmark was developed alongside catalog-to-json. The difficult anchor is p
 | Independent benchmark package | Neither competing parser owns grading | Verified |
 | Publish source-reviewed facts, keep raw documents private | Reproducible grading without distributing user attachments | Verified |
 | Separate literal, engineering and coverage metrics | Equal numbers can belong to different fields or conditions | Verified |
+| Keep tender selection and tender-document generation as separate benchmark stages | A wrong product match can propagate into forms and must be measured independently | Planned |
 
 ---
 *Last updated: 2026-10-12 after initialization*

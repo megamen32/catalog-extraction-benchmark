@@ -23,7 +23,13 @@
 
 ## v2 Requirements
 
-None assigned by this task.
+- [ ] **NOM-01**: Score product selection for one source-bound ForEnergo tender against actual submitted products or independent engineer decisions; tender input text alone is not gold.
+- [ ] **NOM-02**: Distinguish exact match, expert-review equivalent, insufficient data, no candidate, and false recommendation; false positives and safe abstentions are explicit.
+- [ ] **NOM-03**: Retain tender/catalogue/standard source identities and row-level evidence without publishing customer files.
+- [ ] **NOM-04**: Report precision, false-positive count, recall/coverage, abstention reasons, and Excel integrity separately; preserve prior 500/520 cohorts.
+- [ ] **DOC-01**: A later independent benchmark consumes an approved selection workbook and grades submission forms against versioned templates and supporting evidence.
+
+The owner assigned NOM-01..04 to the current task. DOC-01 is recorded for the next stage only.
 
 ## Out of Scope
 
@@ -43,3 +49,8 @@ None assigned by this task.
 | EVAL-03 | Phase 2 | Complete |
 | SHIP-01 | Phase 3 | Complete |
 | SHIP-02 | Phase 3 | Complete |
+| NOM-01 | Phase 4 | Pending source-bound oracle and candidate output |
+| NOM-02 | Phase 4 | Grader implemented; end-to-end run pending labels/output |
+| NOM-03 | Phase 4 | Input hashes and row evidence in private intake; STО evidence missing |
+| NOM-04 | Phase 4 | Metrics implemented; selection/Excel outcome pending |
+| DOC-01 | Phase 5 | Roadmap only |

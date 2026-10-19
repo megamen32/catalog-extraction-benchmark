@@ -4,21 +4,91 @@ Owner Root adds package0.4.0 registry1.0.0:8 retained high-priority failure exam
 
 # Project State
 
+## Forenergo selection benchmark — started 2026-10-20
+
+The owner asked to build a first benchmark for tender-line-item to ForEnergo SKU
+selection, and to record a second, later benchmark for application-document
+generation from the approved selection workbook. Current path: Phase 4.
+
+Input files copied read-only into ignored `.tmp/forenergo-benchmark-20261020/originals/`
+and SHA-256 checked against their source copies: `Examplepositions.xlsx` (155
+numbered, nonempty request rows), corrected
+Appendix 3 workbook, ForEnergo catalogue versions 2, 3 and 4, and `message.txt`
+meeting summary. Catalogue 4 contains 5,891 product rows and 49,022 characteristic
+rows; catalogue 2 contains 6,571 product rows and 55,422 characteristic rows.
+These are private inputs and are not going to Git.
+
+Important blocker for scoring: 155 buyer descriptions are not the actual goods
+submitted by ForEnergo. No post-award submitted-product map or independent engineer
+labels have yet been confirmed. Do not calculate benchmark accuracy from literal
+name similarity or from the catalogue itself. Six SТО PDFs and the separate tender
+technical workbook are absent from the local source set. A read-only UserIO helper
+was tasked with retrieving only those attachments.
+
+The meeting summary sets a safety-first rule: an unsupported/incorrect product
+recommendation is worse than a non-match. Stage 1 grades exact matches, possible
+equivalents requiring an engineer, insufficient data, no candidate, and false
+recommendations separately. It does not grade full submission-document generation.
+DOC-01 and Phase 5 are recorded in ROADMAP; see
+`.planning/quick/261020-forenergo-nomenclature-benchmark/PLAN.md`.
+
+## Forenergo selection benchmark continuation — 2026-10-20
+
+The available tender workbook and catalogue sources were inspected in the
+authorized messaging context. Several referenced technical attachments are still
+missing: the UserIO Telegram media adapter cannot download them, and no local Mac
+copy was found. An apparent standard-number mismatch remains unresolved; do not
+equate the two documents without source verification. No account secrets were read.
+
+The actual versioned system output and independently confirmed selected-SKU map are
+also missing. A request for these artifacts exists as an unsent UserIO draft that
+requires manual approval; do not score a guessed candidate.
+
+Implemented `src/catalog_bench/forenergo_selection.py`: private intake workbook
+generation with a strict typography-only crosswalk and a JSONL scorer. Workbook:
+`.tmp/forenergo-benchmark-20261020/forenergo-selection-intake.xlsx`. Source audit:
+155 request rows, 153 numbered Appendix 1 rows, 146 exact unique name links, 9
+requests without an exact match, and 7 Appendix 1 items without a request match.
+Intake accuracy is null and status is `pending_oracle`. The scorer requires source
+evidence and explicit `system_id`/`system_version`; it distinguishes false
+selection, exact miss, expert review and safe abstention. It reads both JSONL and
+the separated gold/candidate columns in the Excel workbook,
+and captures model, elapsed time and token usage when supplied. Focused tests: 8
+passed. This is input-integrity/benchmark preparation, not a selection-quality score.
+
+Readback verified 155 request rows, 146 exact links, 9 unmatched requests, 7
+appendix-only rows and zero formulas. Intake SHA-256:
+`b34ced317f007b255d103150fe80cd7b83d7a07167de5a2042cdfcc51c0a4c14`.
+A short request for the missing system output, SKU oracle, technical brief and
+matching standards now exists as an unsent UserIO draft requiring manual approval.
+The package built and was installed into an isolated `.tmp` environment; its Excel
+prepare/readback and score commands completed with 155 pending rows and null accuracy.
+
+The full pre-existing test suite currently stops during collection in three tests:
+`ownership_corrected_grader` expects frozen 0.3.2 language digest
+`f091...`, while its imported current `language_grader_digest()` returns a different
+hash. No files in that historical grader path were modified in this task; changing
+its digest can affect frozen cohort identity and must be handled as a separate
+regrade-safe repair. New scoped selection tests pass.
+
+Next step: obtain the versioned system output and engineer-confirmed SKU map plus
+the missing technical sources; then freeze rows and score the retained output.
+
 ## Project Reference
 
-See: .planning/PROJECT.md (updated 2026-10-12)
+See: .planning/PROJECT.md (extraction release completed 2026-10-12; Phase 4 selection benchmark active 2026-10-20)
 
 **Core value:** Compare extraction projects against independent frozen source annotations.
-**Current focus:** Phase 3 — Public release
+**Current focus:** Phase 4 — Forenergo nomenclature-selection benchmark
 
 ## Current Position
 
-Phase: 3 of 3 (Public release)
-Plan: 1 of 1 in current phase
-Status: Complete
-Last activity: 2026-10-12 — Fixed drawing token/view scoring in v0.2.1; frozen model executions remain unchanged.
+Phase: 4 of 5 (Forenergo nomenclature selection)
+Plan: `.planning/quick/261020-forenergo-nomenclature-benchmark/PLAN.md`
+Status: Partial; source crosswalk and grader are ready, selection scoring awaits oracle and candidate output.
+Last activity: 2026-10-20 — Source intake read back; 146 exact links, 9 unmatched request rows, 7 appendix-only rows; accuracy remains unscored.
 
-Progress: [██████████] 100%
+Progress: Phase 3 remains complete; Phase 4 is in progress.
 
 ## Accumulated Context
 
