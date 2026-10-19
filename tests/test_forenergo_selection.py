@@ -92,8 +92,8 @@ def test_prepare_case_intake_preserves_delivery_rows_and_handles_a1_catalogue_di
     wb = Workbook()
     ws = wb.active
     ws.title = "Товары"
-    ws.append(["ID", "Наименование", "Модель"])
-    ws.append(["p1", "Изолятор ИО-10-3,75", "ИО-10-3,75"])
+    ws.append(["ID", "Наименование", "Модель", "Источник", "Страница"])
+    ws.append(["p1", "ИО-10-3,75", "ИО-10-3,75", "armature", "10"])
     attrs = wb.create_sheet("Характеристики")
     attrs.append(["ID товара", "Характеристика", "Значение"])
     attrs.append(["p1", "Напряжение", "10 кВ"])
@@ -128,8 +128,11 @@ def test_prepare_case_intake_preserves_delivery_rows_and_handles_a1_catalogue_di
     row = next(intake["Проверка позиций"].iter_rows(min_row=2, values_only=True))
     assert row[5] == 2
     assert row[9] == "Возможный аналог"
-    assert row[12] == "pending"
-    assert row[18] is None
+    assert row[12] == "точная строка есть; это не подтверждает соответствие"
+    assert row[13] == "p1"
+    assert "armature · стр. 10" in row[14]
+    assert row[15] == "pending"
+    assert row[21] is None
     assert intake["Строки поставки"].max_row == 3
     intake.close()
 

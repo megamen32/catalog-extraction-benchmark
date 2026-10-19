@@ -371,6 +371,36 @@ def prepare_case_intake(technical_workbook: Path, candidate_workbook: Path,
     catalogue_characteristics_header, catalogue_characteristics = _read_sheet_rows(catalogue_workbook, "Характеристики")
     if not catalogue_products_header or not catalogue_characteristics_header:
         raise ValueError(f"Incomplete catalogue workbook: {catalogue_workbook.name}")
+    catalogue_columns = _columns(catalogue_products_header,
+                                 {"ID", "Наименование", "Модель", "Источник", "Страница"},
+                                 f"{catalogue_workbook.name}:Товары")
+    catalogue_name_index: dict[str, list[dict[str, str]]] = defaultdict(list)
+    for source_row, row in catalogue_products:
+        product_id = str(row[catalogue_columns["ID"]] or "").strip()
+        if not product_id:
+            continue
+        product_name = str(row[catalogue_columns["Наименование"]] or "").strip()
+        model = str(row[catalogue_columns["Модель"]] or "").strip()
+        evidence = {
+            "product_id": product_id,
+            "source": str(row[catalogue_columns["Источник"]] or "").strip(),
+            "page": str(row[catalogue_columns["Страница"]] or "").strip(),
+            "row": str(source_row),
+        }
+        for alias in {normalized_name(product_name), normalized_name(model)} - {""}:
+            catalogue_name_index[alias].append(evidence)
+    exact_catalogue_matches: dict[str, list[dict[str, str]]] = {}
+    abstention_ids: set[str] = set()
+    for item_id, candidate in candidates.items():
+        proposed = candidate["candidate_name"]
+        if not proposed or "не найден точный вариант" in normalized_name(proposed):
+            exact_catalogue_matches[item_id] = []
+            abstention_ids.add(item_id)
+        else:
+            exact_catalogue_matches[item_id] = catalogue_name_index.get(normalized_name(proposed), [])
+    recommended_candidate_ids = set(candidates) - abstention_ids
+    exact_match_ids = {item_id for item_id in recommended_candidate_ids
+                       if exact_catalogue_matches[item_id]}
 
     workbook = Workbook()
     positions = workbook.active
@@ -379,7 +409,8 @@ def prepare_case_intake(technical_workbook: Path, candidate_workbook: Path,
         "ID изделия", "Требуемый товар", "Требования/параметры из XLSX", "Ед. изм.",
         "Общее количество", "Строк поставки", "Строки исходной заявки",
         "Предлагаемая модель из техчасти", "Модель из файла подбора", "Статус из файла подбора",
-        "Комментарий из файла подбора", "Строка файла подбора", "Эталонный статус",
+        "Комментарий из файла подбора", "Строка файла подбора", "Точное совпадение строки с каталогом",
+        "ID товара из точных совпадений", "Источники и страницы точных совпадений", "Эталонный статус",
         "Эталонный SKU", "Источник эталона", "Рецензент", "Статус атрибуции кандидата",
         "ID системы", "Версия системы", "Модель", "Время, с", "Токены входа", "Токены выхода",
         "Ошибка/замечание проверяющего",
@@ -391,15 +422,28 @@ def prepare_case_intake(technical_workbook: Path, candidate_workbook: Path,
     for item_id in sorted(requirements, key=lambda value: (not value.isdigit(), int(value) if value.isdigit() else value)):
         req = requirements[item_id]
         cand = candidates[item_id]
+        catalogue_matches = exact_catalogue_matches[item_id]
+        if item_id in abstention_ids:
+            catalogue_match_state = "система не предложила изделие"
+        elif catalogue_matches:
+            catalogue_match_state = "точная строка есть; это не подтверждает соответствие"
+        else:
+            catalogue_match_state = "точной строки нет; возможен алиас, требуется сверка"
+        catalogue_product_ids = list(dict.fromkeys(match["product_id"] for match in catalogue_matches))
+        catalogue_refs = list(dict.fromkeys(
+            f"{match['source']} · стр. {match['page']} · строка {match['row']}"
+            for match in catalogue_matches
+        ))
         positions.append([
             item_id, req["request_name"], req["parameters"], req["unit"], req["declared_total"],
             delivery_counts[item_id], "; ".join(line_sources[item_id]), req["proposed_model_in_source"],
             cand["candidate_name"], cand["candidate_status"], cand["candidate_comment"],
-            cand["candidate_row"], "pending", None, None, None,
+            cand["candidate_row"], catalogue_match_state, "; ".join(catalogue_product_ids),
+            "; ".join(catalogue_refs), "pending", None, None, None,
             "unknown: source workbook has no producer/version metadata", None, None, None, None, None, None, None,
         ])
-    _style_sheet(positions, [12, 70, 70, 12, 18, 16, 24, 40, 52, 28, 82, 18, 20, 24,
-                             52, 20, 48, 24, 20, 22, 16, 16, 16, 48])
+    _style_sheet(positions, [12, 70, 70, 12, 18, 16, 24, 40, 52, 28, 82, 18, 48, 32, 62,
+                             20, 24, 52, 20, 48, 24, 20, 22, 16, 16, 16, 48])
     positions.freeze_panes = "A2"
 
     deliveries = workbook.create_sheet("Строки поставки")
@@ -420,6 +464,12 @@ def prepare_case_intake(technical_workbook: Path, candidate_workbook: Path,
         ["Непустые значения: модель кандидата", f"{candidate_field_counts['candidate_model']}/{len(candidates)}"],
         ["Непустые значения: статус", f"{candidate_field_counts['candidate_status']}/{len(candidates)}"],
         ["Непустые значения: комментарий", f"{candidate_field_counts['candidate_comment']}/{len(candidates)}"],
+        ["Candidate с предложенным изделием", len(recommended_candidate_ids)],
+        ["Точное совпадение строки candidate с наименованием/моделью каталога",
+         f"{len(exact_match_ids)}/{len(recommended_candidate_ids)}; только трассировка, не оценка соответствия"],
+        ["Candidate без точного совпадения строки с каталогом",
+         f"{len(recommended_candidate_ids - exact_match_ids)}/{len(recommended_candidate_ids)}; ручная проверка алиасов"],
+        ["Без предложения изделия", len(abstention_ids)],
         ["Система/версия файла подбора", "Не установлены; версия API не считается версией генератора"],
         ["Эталон", "Не заполнен: нужен факт подбора или инженерная метка с источником"],
         ["Товары в срезе каталога", len(catalogue_products)],
@@ -441,6 +491,7 @@ def prepare_case_intake(technical_workbook: Path, candidate_workbook: Path,
         ["Это закрытый рабочий intake для независимой проверки подбора."],
         ["90 строк подбора точно связаны с 90 позициями техчасти по ID и имени; все 2,156 строк поставки сохранены."],
         ["Значения и статусы из файла-кандидата сохранены как есть и не считаются правильными ответами."],
+        ["Точное совпадение строки с каталогом показывает только трассировку; отсутствие точной строки не доказывает, что изделия нет."],
         ["Версия генератора в исходном файле отсутствует. Поля системы и времени намеренно пусты."],
         ["Все эталонные статусы остаются pending, пока эксперт не подтвердит SKU и источник."],
         ["Не смешивать неполную атрибуцию и неподтверждённые строки с метрикой точности."],
@@ -463,6 +514,10 @@ def prepare_case_intake(technical_workbook: Path, candidate_workbook: Path,
         "candidate_crosswalk_rows": len(candidates),
         "candidate_field_counts": candidate_field_counts,
         "candidate_structural_coverage": len(candidates) / len(requirements) if requirements else None,
+        "candidate_recommendations": len(recommended_candidate_ids),
+        "candidate_exact_catalogue_text_matches": len(exact_match_ids),
+        "candidate_without_exact_catalogue_text_match": len(recommended_candidate_ids - exact_match_ids),
+        "candidate_abstentions": len(abstention_ids),
         "catalogue_products": len(catalogue_products),
         "catalogue_characteristics": len(catalogue_characteristics),
         "candidate_status_counts": dict(status_counts),
