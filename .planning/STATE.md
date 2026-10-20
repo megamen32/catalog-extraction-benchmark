@@ -115,8 +115,8 @@ See: .planning/PROJECT.md (extraction release completed 2026-10-12; Phase 4 sele
 
 Phase: 4 of 5 (Forenergo nomenclature selection)
 Plan: `.planning/quick/261020-forenergo-nomenclature-benchmark/PLAN.md`
-Status: Partial; grader/rubric and source intakes are ready, but no selection score is valid yet. The old 32515399249 MAX calculation yields 131 provisional rows; none are counted as evaluated because its submitted/winning status and row-level oracle are unconfirmed (0/131 evaluated; accuracy null).
-Last activity: 2026-10-20 — Three MAX XLSX sources downloaded and source-bound; procurement page confirms award/contract existence but does not expose winning SKUs. Focused selection tests pass 11/11.
+Status: Partial; awaiting the required row-level oracle. The old 32515399249 MAX calculation yields 131 provisional rows; none are counted as evaluated because its submitted/winning status and row-level oracle are unconfirmed (0/131 evaluated; accuracy null).
+Last activity: 2026-10-20 — Three MAX XLSX sources downloaded and source-bound; the relevant Telegram history contains no confirmed winning-SKU file. The public procurement summary confirms award/contract existence but does not expose winning SKUs. Focused selection tests pass 11/11.
 
 Progress: Phase 3 remains complete; Phase 4 is in progress.
 
@@ -128,11 +128,11 @@ Keep raw documents, private chat and historical model outputs outside the public
 
 ### Pending Todos
 
-- Obtain the exact one of the four variants that Dmitry described as the live/actual submission, or engineer-confirmed row-level selected SKUs tied to completed procurement 32515399249. Do not score the provisional calculation as gold.
+- User input needed: provide/identify the one of the four variants that Dmitry described as the live/actual submission, or provide engineer-confirmed row-level selected SKUs tied to completed procurement 32515399249. Do not score the provisional calculation as gold.
 
 ### Blockers/Concerns
 
-No verified row-level award/engineer oracle is available for selection accuracy. The public procurement page hides supplier identity and SKUs; the MAX calculation file is not explicitly marked submitted or awarded. This does not block preserving and inspecting the candidate artifact, but blocks an honest score.
+No verified row-level award/engineer oracle is available for selection accuracy. The public procurement page hides supplier identity and SKUs; the MAX calculation file is not explicitly marked submitted or awarded. EIS/ETP primary records could not be fetched through the available public reader. This blocks an honest score until the referenced live file or engineer labels are supplied.
 
 ## Session Continuity
 
